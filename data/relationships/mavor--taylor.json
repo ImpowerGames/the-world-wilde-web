@@ -1,0 +1,67 @@
+{
+  "id": "mavor--taylor",
+  "people": [
+    "mavor",
+    "taylor"
+  ],
+  "certainty": "uncorroborated",
+  "certainty_status": "proposed",
+  "certainty_reasoning": "Shared-bed evidence at Taylor's Little College Street rooms is sworn twice over - Mavor's own 'I have slept there with Taylor' and the landlady Ellen Grant's 'Mavor and Mason stayed there for nights with Taylor' - but no witness attests a sexual act between the two, and Mavor denied impropriety generally on the stand. Created at merge from the trials dossier (the pair was flagged by the trials pass as evidence-supported but outside its assigned edge list).",
+  "start": {
+    "y": 1892,
+    "m": 10,
+    "circa": true,
+    "label": "from about October 1892 (the acquaintance's documented start)"
+  },
+  "end": {
+    "y": 1893,
+    "circa": true
+  },
+  "date_label": "c. 1892-93",
+  "summary": "Sidney Mavor was one of the young men of Alfred Taylor's Little College Street household; the trial record documents nights spent there in Taylor's company, and nothing more specific between the two of them.",
+  "disputed": {
+    "claim": "That the shared nights at Little College Street were sexual.",
+    "asserted_by": "The prosecution's framing of Taylor's rooms and the shared-bed testimony at the 1895 proceedings",
+    "disputed_by": "No witness attests a sexual act between Mavor and Taylor; Mavor denied on oath that any impropriety ever took place (in the Wilde context) and the Mavor counts were struck",
+    "grounds": "Shared-bed and household evidence only; the act-level testimony at Taylor's rooms concerns other parties."
+  },
+  "sources": [
+    {
+      "quote": "Were Taylor's visitors, as a class, women or men?—Men—young men from sixteen to thirty. … Others were Sidney Ma[v]or, Charles Mason, and Ernest Macklin. Mavor and Mason stayed there for nights with Taylor.",
+      "context": "Testimony of Ellen Grant, landlady of 13 Little College Street, Regina v. Wilde and Taylor, April-May 1895",
+      "work": "hyde-trials-1948",
+      "locator": "p. 199",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1895,
+        "m": 4
+      },
+      "supports": "The household pattern and Mavor's nights at Taylor's, from the landlady.",
+      "verification": "verified-exact",
+      "how_verified": "archive-org",
+      "provenance": "IA in.ernet.dli.2015.499238, printed p. 199 read as IIIF page image 2026-08-03 (per TRIALS-CLUSTER_dossier.md, which carries the fuller passage).",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "period"
+    },
+    {
+      "quote": "I have slept there with Taylor.",
+      "context": "Testimony of Sidney Mavor on Taylor's Little College Street rooms, Regina v. Wilde and Taylor, April 1895",
+      "work": "hyde-trials-1948",
+      "locator": "p. 211",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1895,
+        "m": 4
+      },
+      "supports": "Mavor's own statement of the shared bed.",
+      "verification": "verified-exact",
+      "how_verified": "archive-org",
+      "provenance": "IA in.ernet.dli.2015.499238, leaf 251 (printed p. 211); rendered at 3x from the item's text PDF and read as a page image 2026-08-03, with the printed folio confirmed in the page's bottom margin.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "period"
+    }
+  ],
+  "prior_class": "alleged"
+}

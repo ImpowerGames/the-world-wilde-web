@@ -1,0 +1,83 @@
+{
+  "id": "barney--vivien",
+  "people": [
+    "barney",
+    "vivien"
+  ],
+  "certainty": "second-hand",
+  "certainty_status": "proposed",
+  "certainty_reasoning": "Promoted from the context_engagement already recorded on barney.json and custance.json now that Vivien is on the roster. Sarah Parker states the relationship flatly - Vivien is 'one of Barney's former lovers' - but she is a non-participant, and the participant source underneath (Barney's Souvenirs Indiscrets, 1960) reaches us only through Parker's report and was not read. Parker's peer-reviewed 2011 article separately files the Barney/Vivien connection under 'rumoured entanglements', which is a weaker register than the biography's flat statement; both are recorded rather than averaged. Not uncorroborated: two independent scholarly accounts and a named participant memoir stand behind it. NOTE for the editor: the same material still sits as a context_engagement on barney.json and custance.json and should be removed there now that this edge exists.",
+  "start": null,
+  "end": null,
+  "date_label": "already past by the time of Custance's Paris visit, c. 1901; the Mytilene plan belongs to that moment",
+  "summary": "The symbolist poet Renee Vivien was, in Sarah Parker's words, 'one of Barney's former lovers' by the time Olive Custance came to Paris around 1901 and befriended her. Barney's own memoir Souvenirs Indiscrets (1960) records, as Parker reports it, that Barney tried to persuade Custance to join her and Vivien in recreating a Sapphic community at Mytilene, and that the plan foundered on Vivien's jealousy - which is the one moment where this pair's history bears directly on the Wilde circle, since Custance married Lord Alfred Douglas the following year. Custance kept up contact with both women after returning to London in 1901.",
+  "sources": [
+    {
+      "quote": "where Custance also befriended the symbolist poet Renée Vivien (1877-1909), one of Barney’s former lovers.",
+      "context": "Sarah Parker's Y90s biography of Olive Custance, in the paragraph on Barney's courtship of Custance after Opals (1897). Vivien's dates as Parker gives them: 1877-1909.",
+      "work": "parker-y90s-custance-bio",
+      "locator": "para. 2",
+      "locator_type": "none",
+      "evidence_date": {
+        "y": 1901,
+        "circa": true
+      },
+      "supports": "The relationship itself, stated by a scholar, and Vivien's dates.",
+      "verification": "verified-exact",
+      "how_verified": "web",
+      "provenance": "https://1890s.ca/custance_bio/ re-fetched (curl) and read in full 2026-08-03; quote sliced byte-exact from the downloaded HTML, then whitespace artifacts introduced by stripping inline markup (spaces around quotation marks, italic titles and punctuation) normalized to the printed reading.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "modern"
+    },
+    {
+      "quote": "Accounts of this ménage are often contradictory; Barney’s autobiography Souvenirs Indiscrets (1960) states that she tried to persuade Custance to join her and Vivien in recreating a Sapphic community at Mytilene, but the endeavour was stymied by Vivien’s jealousy.",
+      "context": "Parker, immediately following. 'Barney's autobiography' is Souvenirs Indiscrets (1960): the underlying testimony here is Barney's own, but it reaches this record only through Parker's report, and Parker prefaces it by calling the accounts contradictory.",
+      "work": "parker-y90s-custance-bio",
+      "locator": "para. 2",
+      "locator_type": "none",
+      "evidence_date": {
+        "y": 1901,
+        "circa": true
+      },
+      "supports": "That Barney and Vivien were living in some arrangement together at the moment of the Custance visit, and Vivien's jealousy of it.",
+      "verification": "verified-exact",
+      "how_verified": "web",
+      "provenance": "https://1890s.ca/custance_bio/ re-fetched (curl) and read in full 2026-08-03; quote sliced byte-exact from the downloaded HTML, then whitespace artifacts introduced by stripping inline markup (spaces around quotation marks, italic titles and punctuation) normalized to the printed reading.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "modern"
+    },
+    {
+      "quote": "",
+      "context": "Barney's memoir of her early Paris years, the participant source underneath Parker's report; French text, no open copy reachable so far.",
+      "work": "barney-souvenirs-1960",
+      "locator": null,
+      "locator_type": "none",
+      "evidence_date": null,
+      "supports": "Barney's own account of the relationship with Vivien and of the Mytilene plan.",
+      "verification": "unverified",
+      "how_verified": "unverified",
+      "provenance": "",
+      "verified_by": null,
+      "verified_on": null
+    },
+    {
+      "quote": "[Renée] readily traded seats with Eva and every night thereafter sat holding hands with Natalie, both of them transported by Wagner's music. … she promised to meet Natalie in Vienna and to go with her to Lesbos. … their poems sang of this enchanted island with its balmy seas, fragrance of jasmine and beautiful nights full of love. They rented two little villas in an orchard, where Renée vowed she would stay, forever waiting for Natalie.",
+      "context": "Wickes on the Bayreuth reconciliation and the voyage to Mytilene. Barney marked the reunion by giving Vivien the prose-poem sequence Je me souviens, 'commemorating their love and expressing her sense of loss'.",
+      "work": "wickes-1977",
+      "locator": "p. 74",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1904
+      },
+      "supports": "Biographer account of the Barney-Vivien relationship.",
+      "verification": "verified-elision",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF page 76, printed folio 74 confirmed at the foot of the rendered page, read as a page image 2026-08-04. Opening bracket supplies the subject, who is named in the previous sentence..",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-04",
+      "voice": "modern"
+    }
+  ]
+}

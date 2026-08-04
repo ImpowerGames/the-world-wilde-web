@@ -1,0 +1,151 @@
+{
+  "id": "custance--douglas",
+  "people": [
+    "custance",
+    "douglas"
+  ],
+  "certainty": "marriage",
+  "certainty_status": "proposed",
+  "certainty_reasoning": "Legal marriage with the exact date (4 March 1902, St George's, Hanover Square, by special licence) is stated independently by Parker's scholarly biography (read in full) and by Douglas's own memoir read at IA page images, so the 'marriage' class is mechanical. The record also carries the documented 1901 courtship-by-correspondence (Prince/Princess/Page personas), the birth of their son Raymond (17 November 1902), the 1913 separation, and the attachment maintained to Custance's death in 1944.",
+  "start": {
+    "y": 1901,
+    "m": 6
+  },
+  "end": {
+    "y": 1944,
+    "m": 2,
+    "d": 12
+  },
+  "date_label": "correspondence from June 1901; eloped 4 March 1902; separated 1913; attachment maintained until her death, 1944",
+  "summary": "The courtship began with Custance's admiring letter to Douglas in June 1901 and ran on role-play correspondence — Fairy Prince for Douglas, Princess and boyish Page for Custance — plus secret meetings, several in the upper room of Robert Ross's Carfax gallery. Douglas abandoned an American heiress-hunt for her; Custance jilted her fiancé George Montagu and eloped with Douglas on 4 March 1902, honeymooning at the Hôtel Rastadt, Paris; their son Raymond was born 17 November 1902. Strained by litigation, money trouble, and the custody fight for Raymond, the couple separated in 1913 but never divorced; from 1932 Custance lived near Douglas in Hove, seeing him nearly every day until she died in 1944.",
+  "sources": [
+    {
+      "quote": "Custance wrote to Douglas in June 1901, praising the “fairy land” of his poems and signing herself as “Opal” (which, as Patricia Pulham notes, refers not only to her debut volume but also to her changeable, flirtatious personality). The two poets began to correspond, playfully using the personas of Fairy Prince for Douglas, and Princess and boyish Page for Custance; alternating these masculine and feminine identities allowed Custance to negotiate Douglas’s bisexual desires.",
+      "context": "Parker's scholarly biography of Custance on Yellow Nineties 2.0, paragraph on the Douglas courtship; the same paragraph notes the match was opposed by Custance's parents.",
+      "work": "parker-y90s-custance-bio",
+      "locator": "para. 3",
+      "locator_type": "none",
+      "evidence_date": {
+        "y": 1901,
+        "m": 6
+      },
+      "supports": "Courtship by correspondence begins June 1901; the Prince/Princess/Page personas; Custance's 'Opal' signature.",
+      "verification": "verified-exact",
+      "how_verified": "web",
+      "provenance": "https://1890s.ca/custance_bio/ fetched (curl) and read in full 2026-08-03; quote extracted byte-exact from the downloaded HTML, line-wrap whitespace normalized.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "modern"
+    },
+    {
+      "quote": "The couple eloped on 4 March 1902 and honeymooned in Paris. This was a particularly busy year for Custance as her second volume Rainbows was published in 1902 (again by The Bodley Head) and she gave birth to a son Raymond on 17 November 1902.",
+      "context": "Parker's Y90s biography, paragraph following the courtship account.",
+      "work": "parker-y90s-custance-bio",
+      "locator": "para. 4",
+      "locator_type": "none",
+      "evidence_date": {
+        "y": 1902,
+        "m": 3,
+        "d": 4
+      },
+      "supports": "Elopement 4 March 1902; Paris honeymoon; son Raymond born 17 November 1902.",
+      "verification": "verified-exact",
+      "how_verified": "web",
+      "provenance": "https://1890s.ca/custance_bio/ fetched and read in full 2026-08-03; quote extracted byte-exact from the downloaded HTML.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "modern"
+    },
+    {
+      "quote": "I told her that I would get a special licence while she was away at Hinchingbrooke, and that if she was “game” to do it I would be awaiting her at St George’s, Hanover Square, at nine o’clock on the following Tuesday morning, which was 4th March 1902.",
+      "context": "Douglas recalling the elopement plan he proposed to Custance at Ross's Carfax gallery days before the wedding; Custance was at that moment engaged to George Montagu ('George'), whose royal congratulation had just reached her mother. Partisan memoir, but the date matches the scholarship; quotation-mark spacing of the 1929 letterpress closed up.",
+      "work": "douglas-autobiography-1929",
+      "locator": "p. 197",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1902,
+        "m": 3,
+        "d": 4
+      },
+      "supports": "Douglas's first-person account fixes the wedding: St George's, Hanover Square, by special licence, morning of Tuesday 4 March 1902.",
+      "verification": "verified-exact",
+      "how_verified": "archive-org",
+      "provenance": "IA autobiographyofl0000doug leaf 225, IIIF page image read 2026-08-03; printed folio 197 confirmed on the image.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "period"
+    },
+    {
+      "quote": "Though we were subsequently separated eleven years later, and though almost superhuman (and I might add entirely diabolical) efforts were made to smash up our marriage and force us into divorce or separation, we are still married, and still love each other.",
+      "context": "Douglas in 1929, immediately after describing the Paris honeymoon; the same page names the birth of 'our son, Raymond'. Partisan retrospective claim of the marriage's endurance; the separation arithmetic (1902 + 11 = 1913) matches Parker.",
+      "work": "douglas-autobiography-1929",
+      "locator": "p. 200",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1929
+      },
+      "supports": "Separation dated eleven years after the 1902 marriage (= 1913); no divorce; Douglas's insistence on the continuing bond.",
+      "verification": "verified-exact",
+      "how_verified": "archive-org",
+      "provenance": "IA autobiographyofl0000doug leaf 228, IIIF page image read 2026-08-03; printed folio 200 confirmed on the image.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "period"
+    },
+    {
+      "quote": "My own Prince, The little heart is sweet and I shall wear it even when you have forgotten all about me and married the beautiful rich princess who will give you all those lovely things you ought to have. I miss you more than I can ever say for I love you beyond everything in the world and I think we shall never be happy together again. Write to me soon and tell me you love your little Page, and that one day you will come back to ‘him’, my Prince, my Prince.",
+      "context": "Olive Custance to Lord Alfred Douglas, autumn 1901, thanking him for a heart-shaped locket containing a strand of his hair before he sailed for America. The Prince/Page address is theirs, and it runs both ways: Murray quotes Douglas asking her, 'Why can't you dress up as a boy and come with me?' and later, 'how could I after I have known the dear little page?' Murray's own reading on the same page: 'Both had a strongly homosexual nature so the masculine side of Olive attracted Douglas while the feminine side of him attracted her.' They married at St George's, Hanover Square, on 4 March 1902.",
+      "work": "murray-2020",
+      "locator": "PDF p. 134",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1901,
+        "m": 9
+      },
+      "supports": "Courtship-letter texture; elopement details; separation and later relations.",
+      "verification": "verified-exact",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF page 134, read as a page image 2026-08-04. Re-pointed from the murray-2000 pointer to the 2020 Sceptre reissue actually held; that edition is an ebook conversion carrying no printed folios, so the locator is the PDF page.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-04",
+      "voice": "period",
+      "speaker": "Olive Custance"
+    },
+    {
+      "quote": "Thus, on 4 March 1902, Lord Alfred Douglas and Olive Custance became man and wife at St George's, Hanover Square. Douglas was accompanied by his sister, Lady Edith Fox-Pitt, and the other witness was a friend called Cecil Hayes. … Another person was present at the wedding. From the back of the church Robert Ross watched.",
+      "context": "Murray on the elopement: Olive was staying with the family of her fiance George Montagu that weekend while Douglas obtained a special licence; she told her maid what she intended and arrived at the church with her bags packed. Lady Queensberry followed the service in her prayer book at home. The elision drops Lady Queensberry's message to her son and the note that her own marriage to Douglas's father had taken place in the same church; the sentences after the quote are Murray's own gloss on what Ross felt, not evidence.",
+      "work": "murray-2020",
+      "locator": "PDF p. 141",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1902,
+        "m": 3,
+        "d": 4
+      },
+      "supports": "The marriage date, church, witnesses and the special licence - independent of the Parker biography and of Douglas's own memoir, both already cited here.",
+      "verification": "verified-elision",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF page 141 of Murray_2020_Bosie (docs/research/queer-history/victorian/douglas/sources/), read as page image 2026-08-03. NO PRINTED FOLIO EXISTS: the file is an ebook conversion with no page numbers and an unpaginated Contents, so the printed-to-PDF offset is n/a and the locator is the PDF page, marked 'PDF p.' - see the pagination note in dossiers/DOUGLAS-MURRAY_dossier.md.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "modern"
+    },
+    {
+      "quote": "Douglas knew that his relationship with Doris would make his wife jealous and, indeed, when she heard of it through her father it did. She immediately telephoned him. After nearly four months of separation he recorded that the sound of her voice made him realise how much he loved her and that he wanted to repair the breach in their relationship.",
+      "context": "1913, after Olive left Douglas during the Custance litigation. 'Doris' is Doris Edwards, with whom Murray states Douglas had a sexual relationship in the interval (PDF p. 195). The reconciliation 'did not last long, and took place during the public examination of Douglas's bankruptcy'; Olive left a second time, and later gave evidence against her husband. Douglas's own letter to her at PDF pp. 195-196 signs off 'Your loving Boy'.",
+      "work": "murray-2020",
+      "locator": "PDF p. 195",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1913
+      },
+      "supports": "The 1913 separation, the four-month gap, the short-lived reconciliation, and the second desertion - the shape of the marriage after the courtship years, which this record did not previously carry.",
+      "verification": "verified-exact",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF page 195 of Murray_2020_Bosie (docs/research/queer-history/victorian/douglas/sources/), read as page image 2026-08-03. NO PRINTED FOLIO EXISTS: the file is an ebook conversion with no page numbers and an unpaginated Contents, so the printed-to-PDF offset is n/a and the locator is the PDF page, marked 'PDF p.' - see the pagination note in dossiers/DOUGLAS-MURRAY_dossier.md.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "modern"
+    }
+  ]
+}

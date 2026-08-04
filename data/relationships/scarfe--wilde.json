@@ -1,0 +1,139 @@
+{
+  "id": "scarfe--wilde",
+  "people": [
+    "scarfe",
+    "wilde"
+  ],
+  "certainty": "uncorroborated",
+  "certainty_status": "proposed",
+  "certainty_reasoning": "The sexual allegation exists only in Queensberry's plea (10 St James's Place, October 1893 - April 1894). Scarfe never testified and no indictment count concerned him. What the trial record documents on oath: Taylor introduced Scarfe to Wilde at St James's Place, Scarfe called there five or six times (the waiter Price), dined alone with Wilde, received a £4 cigarette case, and last dined with Wilde at the Avondale Hotel in February 1895; Wilde swore he 'never embraced, kissed or caressed him.' Plea-only → 'alleged' with disputed block.",
+  "start": {
+    "y": 1893,
+    "circa": true
+  },
+  "end": {
+    "y": 1895,
+    "m": 2
+  },
+  "date_label": "late 1893 – February 1895 (acquaintance); Oct 1893 – Apr 1894 (plea allegation)",
+  "summary": "Ernest Scarfe, a young valet-turned-clerk who had been to the Australian gold-diggings — meeting Lord Douglas of Hawick on the voyage out in 1893 — knew Taylor from the Knightsbridge Skating Rink and was introduced by him to Wilde at 10 St James's Place. He visited repeatedly, dined alone with Wilde, and received the customary cigarette case; the acquaintance ran to a dinner at the Avondale in February 1895. Queensberry's plea alleged solicitation and gross indecency at St James's Place; Scarfe was never called and the allegation never charged.",
+  "disputed": {
+    "claim": "that Wilde solicited Ernest Scarfe to commit sodomy and committed acts of gross indecency with him at 10 St James's Place between October 1893 and April 1894",
+    "asserted_by": "Queensberry's plea of justification (filed 30 March 1895)",
+    "disputed_by": "Wilde's sworn denial at the libel trial ('I have never embraced, kissed or caressed him')",
+    "grounds": "allegation stands in the plea alone: no indictment count concerned Scarfe and he gave no evidence at any of the three proceedings in Hyde's record"
+  },
+  "sources": [
+    {
+      "quote": "You knew a man named Ernest Scarfe?—Yes. He was introduced to me by Taylor. He is a young man of about twenty, of no occupation. He had been in Australia at the gold-diggings. … I asked Scarfe to dine with myself and Taylor at Kettner's. I did not afterwards take him back to my rooms at St. James's. I have never embraced, kissed or caressed him. … Did you give him any presents?—Yes, a cigarette case. It cost £4. It is my custom to present cigarette cases. I last saw Scarfe in February when he dined with me at the Avondale Hotel.",
+      "context": "Wilde's cross-examination by Carson, Regina (Wilde) v. Queensberry, April 1895",
+      "work": "hyde-trials-1948",
+      "locator": "pp. 148-149",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1895,
+        "m": 4
+      },
+      "supports": "the acquaintance's shape on Wilde's oath: Taylor's introduction, dinners, the cigarette case, the February 1895 Avondale dinner, and the denial of physical contact",
+      "verification": "verified-elision",
+      "how_verified": "archive-org",
+      "provenance": "IA in.ernet.dli.2015.499238, leaf 184 (printed p. 148-149); rendered at 3x from the item's text PDF and read as a page image 2026-08-03, with the printed folio confirmed in the page's bottom margin.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "period"
+    },
+    {
+      "quote": "And that the said Oscar Fingal O'Flahertie Wills Wilde between the month of October in the year of our Lord One thousand eight hundred and ninety-three and the month of April in the year of our Lord One thousand eight hundred and ninety-four at the said house No. 10 St. James Place did solicit and incite one Ernest Scarfe to commit sodomy and other acts of gross indecency and immorality with him the said Oscar Fingal O'Flahertie Wills Wilde and did then and there commit the said other acts of gross indecency and immorality with the said Ernest Scarfe.",
+      "context": "Queensberry's plea of justification, filed 30 March 1895; Hyde's Appendix A from the Central Criminal Court records",
+      "work": "hyde-trials-1948",
+      "locator": "p. 343",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1895,
+        "m": 3
+      },
+      "supports": "the plea-only allegation, its dates and place — the class-deciding text",
+      "verification": "verified-exact",
+      "how_verified": "archive-org",
+      "provenance": "IA in.ernet.dli.2015.499238, leaf 389 (printed p. 343), read as IIIF page image 2026-08-03",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "period"
+    },
+    {
+      "quote": "Where did you first meet him [Marling]?—At the Knightsbridge Skating Rink. I was introduced by a young man named Scarfe. I understood Scarfe had just returned from the gold diggings. I introduced Scarfe to Mr. Wilde at 10 St. James's Place. I did not know that he was the son of a domestic servant.",
+      "context": "Alfred Taylor's cross-examination by the Solicitor-General, Taylor's trial, 21 May 1895",
+      "work": "hyde-trials-1948",
+      "locator": "p. 286",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1895,
+        "m": 5
+      },
+      "supports": "Taylor's own sworn account of introducing Scarfe to Wilde at St James's Place",
+      "verification": "verified-exact",
+      "how_verified": "archive-org",
+      "provenance": "IA in.ernet.dli.2015.499238, leaf 330 (printed p. 286), read as IIIF page image 2026-08-03",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "period"
+    },
+    {
+      "quote": "Do you remember a young man named Scarfe?—Yes. Taylor brought him to see me. Scarfe represented himself as a young man who had made money in Australia. … Did you give him a cigarette case?—Yes. Has he dined alone with you?—Yes.",
+      "context": "Wilde's cross-examination by the Solicitor-General, Regina v. Wilde, May 1895",
+      "work": "hyde-trials-1948",
+      "locator": "p. 318",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1895,
+        "m": 5
+      },
+      "supports": "tête-à-tête dinners admitted on oath at the final trial",
+      "verification": "verified-elision",
+      "how_verified": "archive-org",
+      "provenance": "IA in.ernet.dli.2015.499238, leaf 364 (printed p. 318); rendered at 3x from the item's text PDF and read as a page image 2026-08-03, with the printed folio confirmed in the page's bottom margin.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "period"
+    },
+    {
+      "quote": "Ernesto has written to me begging for money — a very nice letter — but I really have nothing just now.",
+      "context": "Wilde to Lord Alfred Douglas, 16 Tite Street [July-August 1894]; the editors' note to 'Ernesto' reads: 'Possibly Ernest Scarfe, a valet (see Trials, pp.148-9).' (p. 598 n 2)",
+      "work": "letters-2000",
+      "locator": "p. 598",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1894,
+        "m": 7,
+        "circa": true
+      },
+      "supports": "a possible (editorially tentative) 1894 begging letter from Scarfe to Wilde — continuation of the acquaintance into mid-1894",
+      "verification": "verified-exact",
+      "how_verified": "pdf-at-page",
+      "provenance": "repo PDF 'Complete Letters' (Fourth Estate 2000), PDF p. 650 = printed p. 598 (folio confirmed on rendered page), read 2026-08-03",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "period"
+    },
+    {
+      "work": "holland-2003",
+      "locator": "p. 199",
+      "locator_type": "page",
+      "quote": "CARSON: Did you ever kiss him? WILDE: Never in my life. CARSON: Or caress him in any way? WILDE: No. CARSON: Or attempt to have indecencies with him? WILDE: Never in my life. CARSON: Why did you ask him to dinner? WILDE: Because I am very good-natured, because it is one of the best ways perhaps of pleasing anybody, particularly anyone not in one's social position, to ask him to dine. (Laughter.)",
+      "context": "Carson's cross-examination on Ernest Scarfe, Thursday morning 4 April 1895. Compare Hyde 1948 p. 149, which reduces the three-question sequence to 'I have never embraced, kissed or caressed him' and omits the class answer and the court's laughter entirely.",
+      "verification": "verified-elision",
+      "how_verified": "pdf-at-page",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "provenance": "Repo PDF page 247, printed folio 199 confirmed at the foot of the rendered page, read as a page image 2026-08-03.",
+      "evidence_date": {
+        "y": 1895,
+        "m": 4,
+        "d": 4
+      },
+      "supports": "The verbatim shorthand transcript of the same exchange Hyde 1948 prints in condensed form - kept alongside Hyde, not in place of him, so the divergence stays visible in the record.",
+      "voice": "period"
+    }
+  ],
+  "prior_class": "alleged"
+}

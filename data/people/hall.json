@@ -1,0 +1,40 @@
+{
+  "id": "hall",
+  "name": "Radclyffe Hall",
+  "sort_name": "Hall, Radclyffe",
+  "aka": [
+    "John",
+    "Marguerite Antonia Radclyffe-Hall"
+  ],
+  "born": {
+    "y": 1880,
+    "m": 8,
+    "d": 12
+  },
+  "died": {
+    "y": 1943,
+    "m": 10,
+    "d": 7
+  },
+  "group": "later",
+  "gender": "f",
+  "bio": "Novelist and poet, born Marguerite Antonia Radclyffe-Hall on 12 August 1880, best known for The Well of Loneliness (1928), a serious treatment of lesbianism that was prosecuted and banned in England until 1949. The Ransom Center's biographical sketch records that, \"[s]elf-identifying as a sexual 'invert,' Hall adopted a masculine appearance and the name John\". Her two long partnerships were with the singer Mabel Batten (1856-1916), her first lover, and with Batten's cousin Una Troubridge (1887-1963), from 1915 until Hall's death. Hall belongs to a later generation than Wilde's circle and does not appear anywhere in his Complete Letters; she reaches this map from the Ives side, as a figure of the homophile politics Ives helped begin. Matt Cook records that she and Troubridge \"seem to have been considered\" for the Order of Chaeronea and that Ives took an interest in the 1928 obscenity case over her novel. She died on 7 October 1943.",
+  "bio_note": "Birth and death dates, the \"invert\" self-identification, and both partnerships from the Harry Ransom Center's finding aid, \"Radclyffe Hall and Una Vincenzo, Lady Troubridge: An Inventory of Their Papers\" (eadid 00163), fetched and read in full 2026-08-03. The Order-of-Chaeronea and obscenity-case detail from Matt Cook, Queer Domesticities (2014), p. 108, transcribed from the source in dossiers/IVES-DOMESTICITIES_dossier.md (Passage 26); Cook's double hedge is preserved and no Order-membership or Ives edge is created on it.",
+  "bio_sources": [
+    "hrc-hall-troubridge-fa",
+    "cook-2014"
+  ],
+  "context_engagements": [
+    {
+      "date_label": "c. 1934-1943 (the last nine years of Hall's life)",
+      "note": "Russian nurse and emigree (1904-1958?). The Harry Ransom Center's biographical sketch records that 'During the last nine years of her life, Hall had an affair with a Russian nurse named Evguenia Souline (1904-1958?), tolerated by Troubridge despite the unhappiness it caused her.' The correspondence with Souline is in the Hall and Troubridge papers. Off-roster (a generation and a continent away from the Wilde circle); recorded because it is a documented third relationship and because it shapes the last decade of hall--troubridge.",
+      "works": [
+        "hrc-hall-troubridge-fa"
+      ],
+      "partner_name": "Evguenia Souline"
+    }
+  ],
+  "research_status": "phase-a",
+  "wikidata": "Q237639",
+  "wikipedia": "https://en.wikipedia.org/wiki/Radclyffe_Hall"
+}

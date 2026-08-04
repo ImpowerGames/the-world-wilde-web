@@ -1,0 +1,26 @@
+{
+  "id": "anstruther-thomson",
+  "name": "Kit Anstruther-Thomson",
+  "sort_name": "Anstruther-Thomson, Clementina",
+  "aka": [
+    "Clementina Anstruther-Thomson",
+    "Kit"
+  ],
+  "born": {
+    "y": 1857
+  },
+  "died": {
+    "y": 1921
+  },
+  "group": "aesthete",
+  "gender": "f",
+  "bio": "Scottish artist and writer on aesthetics, born 1857, known as \"Kit\". She replaced Mary Robinson as Vernon Lee's close companion from 1887 to 1900 and became her collaborator: the two ran experiments on bodily response to art informed by Robert Vischer's theory of Einfuhlung, the term Edward Titchener Englished in 1909 as \"empathy\". Their article \"Beauty and Ugliness\" (Contemporary Review, October 1897) drew a plagiarism charge from Bernard Berenson, later retracted, and the work was collected as Beauty and Ugliness (1912), co-written with Lee. Anstruther-Thomson died in 1921; Lee wrote a substantial introduction to her posthumous Art and Man (1924) as a tribute.",
+  "bio_note": "Dates (1857-1921), the companion years (1887-1900) and the collaboration from Patricia Pulham's Y90s biography of Vernon Lee (2018/2019), fetched and read in full 2026-08-03. She does not appear in Wilde's Complete Letters; her link to this map runs through Lee.",
+  "bio_sources": [
+    "pulham-y90s-lee-bio"
+  ],
+  "context_engagements": [],
+  "research_status": "phase-a",
+  "wikidata": "Q18934850",
+  "wikipedia": "https://en.wikipedia.org/wiki/Clementina_Anstruther-Thomson"
+}

@@ -1,0 +1,103 @@
+{
+  "id": "taylor--wood",
+  "people": [
+    "taylor",
+    "wood"
+  ],
+  "certainty": "uncorroborated",
+  "certainty_status": "proposed",
+  "certainty_reasoning": "Wood's sworn testimony: he lived at Taylor's Little College Street rooms for about three weeks in January 1893, sleeping 'in the same room with Taylor. There was only one bed there,' and in re-examination he dated his first acts of indecency 'with any man' to going to College Street. The landlady corroborates the three-week stay. But no witness states an act with Taylor himself; no charge of indecency between them was ever put to a jury (Taylor's Wood counts were for procuring, and ended in a directed not-guilty); and Taylor dated their meeting differently (May 1892, at Atkins's rooms). Strong implication, no attestation → 'alleged'.",
+  "start": {
+    "y": 1893,
+    "m": 1,
+    "circa": true
+  },
+  "end": {
+    "y": 1893,
+    "m": 4,
+    "circa": true
+  },
+  "date_label": "January 1893 (three weeks' cohabitation; acquaintance possibly from May 1892 per Taylor)",
+  "summary": "Alfred Wood, an out-of-work clerk, lived at Taylor's one-bed rooms at 13 Little College Street for about three weeks in January 1893, sharing the room and — on the arithmetic of his own testimony that the rooms held 'only one bed' — the bed. He dated his first acts of indecency to going to College Street without naming a partner. Taylor said they had met earlier, in May 1892 at Atkins's rooms. The procuring-Wood counts against Taylor ended in a directed not-guilty; no count alleged acts between the two men.",
+  "disputed": {
+    "claim": "that sexual relations occurred between Taylor and Wood at 13 Little College Street, January 1893",
+    "asserted_by": "the implication of Wood's own sworn testimony (a single bed shared for three weeks; first acts of indecency dated to 'when I went to College Street' — Hyde pp. 201, 205)",
+    "disputed_by": "no direct attestation by any witness; no charge concerning acts between Taylor and Wood; the counts charging Taylor with procuring Wood for Wilde ended in a directed verdict of Not Guilty (Hyde pp. 292-293)",
+    "grounds": "testimony implies but never states acts with Taylor himself; classification per the single-source/contested rule"
+  },
+  "sources": [
+    {
+      "quote": "Alfred Wood, examined by Mr. Avory—I was formerly a clerk. In January, 1893, I was not in any occupation. I first knew Taylor about that time. When did you go to Little College Street to live?—In January, 1893. I stayed about three weeks. Where did you sleep there?—In the same room with Taylor. There was only one bed there.",
+      "context": "Alfred Wood's examination-in-chief, Regina v. Wilde and Taylor, 26 April 1895",
+      "work": "hyde-trials-1948",
+      "locator": "p. 201",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1895,
+        "m": 4
+      },
+      "supports": "the three-week single-bed cohabitation, January 1893 — the class-deciding quote",
+      "verification": "verified-exact",
+      "how_verified": "archive-org",
+      "provenance": "IA in.ernet.dli.2015.499238, leaf 241 (printed p. 201); rendered at 3x from the item's text PDF and read as a page image 2026-08-03, with the printed folio confirmed in the page's bottom margin.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "period"
+    },
+    {
+      "quote": "Had you been guilty of any acts of indecency before you knew Wilde?—No, not with any man until I went to College Street.",
+      "context": "Alfred Wood re-examined by Mr Gill, Regina v. Wilde and Taylor, 27 April 1895",
+      "work": "hyde-trials-1948",
+      "locator": "p. 205",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1895,
+        "m": 4
+      },
+      "supports": "Wood dating his first acts of indecency to going to Taylor's — implication, not attestation, of acts with Taylor",
+      "verification": "verified-exact",
+      "how_verified": "archive-org",
+      "provenance": "IA in.ernet.dli.2015.499238, leaf 245 (printed p. 205); rendered at 3x from the item's text PDF and read as a page image 2026-08-03, with the printed folio confirmed in the page's bottom margin.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "period"
+    },
+    {
+      "quote": "Were Taylor's visitors, as a class, women or men?—Men—young men from sixteen to thirty. I have seen Alfred Wood there. He once stayed for three weeks.",
+      "context": "Mrs Ellen Grant, landlady of 13 Little College Street, examined by Mr Gill, Regina v. Wilde and Taylor, 26 April 1895",
+      "work": "hyde-trials-1948",
+      "locator": "p. 199",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1895,
+        "m": 4
+      },
+      "supports": "independent corroboration of the three-week stay",
+      "verification": "verified-exact",
+      "how_verified": "archive-org",
+      "provenance": "IA in.ernet.dli.2015.499238, leaf 239 (printed p. 199), read as IIIF page image 2026-08-03",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "period"
+    },
+    {
+      "quote": "When did you first make the acquaintance of Alfred Wood?—In May, 1892. Where?—At Atkins's rooms in Alderney Street.",
+      "context": "Alfred Taylor cross-examined by the Solicitor-General, Taylor's trial, 21 May 1895",
+      "work": "hyde-trials-1948",
+      "locator": "p. 286",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1895,
+        "m": 5
+      },
+      "supports": "Taylor's conflicting (earlier) dating of the acquaintance — recorded per the never-sharpen-dates rule",
+      "verification": "verified-exact",
+      "how_verified": "archive-org",
+      "provenance": "IA in.ernet.dli.2015.499238, leaf 330 (printed p. 286), read as IIIF page image 2026-08-03",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "period"
+    }
+  ],
+  "prior_class": "alleged"
+}

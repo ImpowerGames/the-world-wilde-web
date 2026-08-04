@@ -1,0 +1,19 @@
+{
+  "name": "world-wilde-web",
+  "version": "0.1.0",
+  "description": "A sourced map of documented queer relationships, 1870s-1940s, beginning with Oscar Wilde's circle.",
+  "private": true,
+  "scripts": {
+    "start": "python tools/serve.py",
+    "dev": "python tools/serve.py",
+    "build": "python tools/validate.py",
+    "check": "python tools/validate.py --check",
+    "stats": "python tools/validate.py --stats",
+    "ledger": "python tools/validate.py --ledger",
+    "layout": "python tools/layout_report.py",
+    "layout:save": "python tools/layout_report.py --save layout-baseline.json",
+    "layout:compare": "python tools/layout_report.py --compare layout-baseline.json"
+  },
+  "comment": "There is no JavaScript toolchain here and no dependencies to install - the site is plain HTML, CSS, JS and JSON. These scripts only wrap tools/*.py so `npm start` works if that is the habit; `python tools/serve.py` does exactly the same thing. Python 3.8+ is the only requirement.",
+  "license": "MIT"
+}

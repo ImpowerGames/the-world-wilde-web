@@ -1,0 +1,101 @@
+{
+  "id": "shelley--wilde",
+  "people": [
+    "shelley",
+    "wilde"
+  ],
+  "certainty": "uncorroborated",
+  "certainty_status": "proposed",
+  "certainty_reasoning": "Shelley's sworn testimony describes Wilde kissing and embracing him and a shared bed on two consecutive nights at the Albemarle Hotel (Feb 1892), but he repeatedly denied that completed acts occurred ('attempts at improprieties took place on two occasions'; Wilde 'never practised any actual improprieties upon' him because he 'would never allow' it). Wilde denied everything on oath. Mr Justice Wills withdrew the Shelley count for want of corroboration, treating Shelley as an accomplice on his own evidence, and the jury formally returned not guilty on it. Sexual relations are asserted by the plea and the Crown but contested by the witness's own account and the verdict — 'alleged' fits; a human reviewer may weigh the kisses/shared-bed testimony differently.",
+  "start": {
+    "y": 1892,
+    "m": 2
+  },
+  "end": {
+    "y": 1893,
+    "m": 3
+  },
+  "date_label": "February 1892 – March 1893 (acquaintance broken off by Shelley's letter)",
+  "summary": "Edward Shelley, a clerk at Wilde's publishers the Bodley Head, dined with Wilde at the Albemarle Hotel in February 1892; his testimony describes being kissed and embraced, objecting, and nonetheless staying the night in Wilde's bed, with 'a repetition of the previous night's performance' the next day. He received inscribed books and letters, quarrelled with Wilde at the Savoy in March 1893, and broke off the acquaintance. The count concerning him was withdrawn from the jury for lack of corroboration at the final trial.",
+  "disputed": {
+    "claim": "that Wilde committed sexual acts (sodomy solicited; gross indecency and indecent assault committed) with Edward Shelley at the Albemarle Hotel, February-May 1892",
+    "asserted_by": "Queensberry's plea of justification (filed 30 March 1895); Crown indictment count 25 in Regina v. Wilde (1895); Shelley's testimony as to kisses, embraces and a shared bed",
+    "disputed_by": "Shelley's own cross-examination (no 'actual improprieties'; 'attempts … on two occasions'); Wilde's sworn denials at all three trials; Mr Justice Wills's withdrawal of the count for want of corroboration; the jury's formal not-guilty on the Shelley count (25 May 1895)",
+    "grounds": "the only first-person account stops short of completed acts and the witness resisted; the trial judge held the evidence legally uncorroborated (Hyde, Trials (1948), pp. 306-307, 337)"
+  },
+  "sources": [
+    {
+      "quote": "Mr. Wilde said, \"Will you come into my bedroom?\" I did not know what he meant. As I went into the room Mr. Wilde kissed me. He also put his arms round me. I had been taking a lot of wine. I felt insulted, degraded, and objected vigorously. Mr. Wilde said he was sorry and that he had drunk too much wine. I stayed the night and shared his bed. Mr. Wilde saw me next day and again kissed me and there was a repetition of the previous night's performance.",
+      "context": "Edward Shelley's examination-in-chief, Regina v. Wilde and Taylor, 27 April 1895",
+      "work": "hyde-trials-1948",
+      "locator": "p. 213",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1895,
+        "m": 4
+      },
+      "supports": "the first-person account of the Albemarle nights: kisses, embraces, shared bed, resistance — the class-deciding quote",
+      "verification": "verified-exact",
+      "how_verified": "archive-org",
+      "provenance": "IA in.ernet.dli.2015.499238, leaf 253 (printed p. 213), read as IIIF page image 2026-08-03. The preceding page (leaf 252, printed p. 212, also image-read) gives Shelley's employment from 1891 and dates the firm's publishing for Wilde to 1892 — correcting the djvu OCR's '1893'.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "period"
+    },
+    {
+      "quote": "In March, 1893, I went to see Mr. Wilde at the Savoy Hotel, where we quarrelled. I told him not to be a beast, and he expressed his sorrow. \"I am so fond of you, Edward,\" he said. After that visit I wrote to Mr. Wilde saying that I would not see him again. I think now that attempts at improprieties took place on two occasions. On the first occasion I was not quite sober. I was excited, but not drunk. I resented the prisoner's acts at the time.",
+      "context": "Edward Shelley's cross-examination by Sir Edward Clarke, Regina v. Wilde, 22 May 1895",
+      "work": "hyde-trials-1948",
+      "locator": "p. 296",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1895,
+        "m": 5
+      },
+      "supports": "Shelley's final-trial framing: 'attempts at improprieties' on two occasions, resented at the time; the March 1893 Savoy quarrel and break-off",
+      "verification": "verified-exact",
+      "how_verified": "archive-org",
+      "provenance": "IA in.ernet.dli.2015.499238, leaf 340 (printed p. 296); rendered at 3x from the item's text PDF and read as a page image 2026-08-03, with the printed folio confirmed in the page's bottom margin. locator corrected: the passage is wholly on printed p. 296",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "period"
+    },
+    {
+      "quote": "Mr. Justice Wills—With regard to Shelley I am very clearly of the opinion that he must be treated, on his own evidence, on the footing of an accomplice, and that his evidence should be corroborated. It seems to me there is nothing of the kind here. … I adhere to the view, which I had already formed, that there is no corroboration of the nature required by law to warrant conviction, and therefore I feel justified in withdrawing this part of the case from the consideration of the jury.",
+      "context": "Withdrawal of the Shelley count, Regina v. Wilde, 25 May 1895",
+      "work": "hyde-trials-1948",
+      "locator": "pp. 306-307",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1895,
+        "m": 5
+      },
+      "supports": "the count's withdrawal for want of corroboration — the legal outcome the 'alleged' class rests on",
+      "verification": "verified-elision",
+      "how_verified": "archive-org",
+      "provenance": "IA in.ernet.dli.2015.499238, leaf 352 (printed p. 306-307); rendered at 3x from the item's text PDF and read as a page image 2026-08-03, with the printed folio confirmed in the page's bottom margin.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "period"
+    },
+    {
+      "quote": "… the said Oscar Fingal O'Flahertie Wills Wilde between the month of February in the year of our Lord One thousand eight hundred and ninety-two and the month of May in the same year at the Albemarle Hotel in the County of London did solicit and incite one Edward Shelley to commit sodomy and other acts of gross indecency with him the said Oscar Fingal O'Flahertie Wills Wilde and that the said Oscar Fingal O'Flahertie Wills Wilde did then indecently assault and commit acts of gross indecency and immorality with the said Edward Shelley.",
+      "context": "Queensberry's plea of justification, second plea, filed 30 March 1895; printed as Hyde's Appendix A from the Central Criminal Court records",
+      "work": "hyde-trials-1948",
+      "locator": "p. 341",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1895,
+        "m": 3
+      },
+      "supports": "the formal allegation and its date-window (Feb-May 1892, Albemarle Hotel)",
+      "verification": "verified-exact",
+      "how_verified": "archive-org",
+      "provenance": "IA in.ernet.dli.2015.499238, leaf 387 (printed p. 341), read as IIIF page image 2026-08-03",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "period"
+    }
+  ],
+  "prior_class": "alleged"
+}

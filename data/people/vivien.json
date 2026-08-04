@@ -1,0 +1,25 @@
+{
+  "id": "vivien",
+  "name": "Renee Vivien",
+  "sort_name": "Vivien, Renee",
+  "aka": [
+    "Pauline Mary Tarn"
+  ],
+  "born": {
+    "y": 1877
+  },
+  "died": {
+    "y": 1909
+  },
+  "group": "later",
+  "gender": "f",
+  "bio": "Symbolist poet writing in French, 1877-1909, English by birth, a central figure of Natalie Barney's Paris circle and, in Sarah Parker's phrase, \"one of Barney's former lovers\" by the time Olive Custance visited Paris around 1901. Custance befriended her there. Barney's memoir Souvenirs Indiscrets (1960) records, as reported by Parker, a plan to gather Barney, Vivien and Custance into a recreated Sapphic community at Mytilene, an endeavour \"stymied by Vivien's jealousy\". Vivien's roman a clef A Woman Appeared to Me (1904) fictionalises Custance as the \"little English poetess Dagmar\". She does not appear anywhere in Wilde's Complete Letters; her connection to this web runs entirely through Barney and Custance.",
+  "bio_note": "Dates (1877-1909) from Sarah Parker's Y90s biography of Olive Custance, re-fetched and read in full 2026-08-03 for this record. No biography of Vivien was consulted; the record is deliberately thin and rests on the Barney/Custance scholarship already in the corpus.",
+  "bio_sources": [
+    "parker-y90s-custance-bio"
+  ],
+  "context_engagements": [],
+  "research_status": "phase-a",
+  "wikidata": "Q275628",
+  "wikipedia": "https://en.wikipedia.org/wiki/Ren%C3%A9e_Vivien"
+}

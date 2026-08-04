@@ -1,0 +1,101 @@
+{
+  "id": "schwabe--wilde",
+  "people": [
+    "schwabe",
+    "wilde"
+  ],
+  "certainty": "uncorroborated",
+  "certainty_status": "proposed",
+  "certainty_reasoning": "The only eyewitness claim — Atkins's sworn statement that he found Schwabe in bed with Wilde in Paris — comes from the witness exposed as a perjurer at the same trial, and the jury rejected the Atkins counts. Queensberry's plea contains a Schwabe clause (22 November 1892, Paris) which, as printed by Hyde, avers solicitation and incitement only, with no 'did commit' clause. Schwabe never testified (he was out of England from about 1893) and no count concerned him. Single-source-and-contested → 'alleged'.",
+  "start": {
+    "y": 1892,
+    "m": 11
+  },
+  "end": {
+    "y": 1892,
+    "m": 11
+  },
+  "date_label": "November 1892 (alleged, Paris); acquaintance c. 1892–1893",
+  "summary": "Maurice Salis Schwabe, nephew by marriage of Solicitor-General Sir Frank Lockwood, was the connective figure of the circle: he introduced Wilde to Taylor, gave the Kettner's dinner at which Mavor met Wilde, and was named at the libel trial only on paper passed to counsel. Atkins testified to finding the twenty-two-year-old Schwabe in bed with Wilde at 29 Boulevard des Capucines in November 1892 — testimony from a witness whose credibility was destroyed at the same trial. The plea's Schwabe clause alleges solicitation only, and Schwabe, abroad, was never called.",
+  "disputed": {
+    "claim": "that Schwabe shared Wilde's bed in Paris (November 1892) and that Wilde solicited him to commit sodomy",
+    "asserted_by": "Fred Atkins's sworn testimony, Regina v. Wilde and Taylor, 26 April 1895 (Hyde p. 207); Queensberry's plea of justification, 22 November 1892 clause (solicit/incite only as printed)",
+    "disputed_by": "the collapse of Atkins's credibility (perjury exposed, ordered from the box, Hyde pp. 217-218; jury not guilty on the Atkins counts); Wilde's general denials; no charge ever laid concerning Schwabe and no testimony from Schwabe himself",
+    "grounds": "sole eyewitness discredited; the plea clause as printed lacks the 'did … commit' averment made against the other named men"
+  },
+  "sources": [
+    {
+      "quote": "I got back to the rooms very late. Mr. Wilde was in bed. I went into his room and had something to drink. A man of about twenty-two years of age was in bed with Mr. Wilde. It was Schwabe. I went to bed by myself.",
+      "context": "Fred Atkins's examination-in-chief on the Paris trip, Regina v. Wilde and Taylor, 26 April 1895",
+      "work": "hyde-trials-1948",
+      "locator": "p. 207",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1895,
+        "m": 4
+      },
+      "supports": "the sole eyewitness claim of Schwabe in Wilde's bed, Paris, November 1892 — from a witness later discredited for perjury; the class-deciding quote",
+      "verification": "verified-exact",
+      "how_verified": "archive-org",
+      "provenance": "IA in.ernet.dli.2015.499238, leaf 247 (printed p. 207), read as IIIF page image 2026-08-03",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "period"
+    },
+    {
+      "quote": "And that the said Oscar Fingal O'Flahertie Wills Wilde on the twenty-second day of November in the year of our Lord One thousand eight hundred and ninety-two at the said house in Paris did solicit and incite one Maurice Salis Schwabe to commit sodomy and other acts of gross indecency and immorality with the said Maurice Salis Schwabe.",
+      "context": "Queensberry's plea of justification, filed 30 March 1895; Hyde's Appendix A from the Central Criminal Court records. Note: unlike the Atkins, Wood, Parker, Scarfe, Grainger and Conway clauses, no 'did then and there commit' averment follows",
+      "work": "hyde-trials-1948",
+      "locator": "p. 342",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1895,
+        "m": 3
+      },
+      "supports": "the formal allegation — solicitation/incitement only as printed",
+      "verification": "verified-exact",
+      "how_verified": "archive-org",
+      "provenance": "IA in.ernet.dli.2015.499238, leaf 388 (printed p. 342), read as IIIF page image 2026-08-03",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "period"
+    },
+    {
+      "quote": "How did you first meet Mr. Taylor?—I first met Alfred Taylor through the gentleman who has been referred to. It is now two years since that gentleman has been in England and I have not seen him in that time. Is that gentleman a gentleman of position and repute?—Yes; a gentleman of good birth and repute.",
+      "context": "Wilde's re-examination by Sir Edward Clarke, Regina (Wilde) v. Queensberry, April 1895; Hyde's footnote to the passage identifies 'the gentleman' as Schwabe",
+      "work": "hyde-trials-1948",
+      "locator": "p. 158",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1895,
+        "m": 4
+      },
+      "supports": "Schwabe as Wilde's introducer to Taylor; Schwabe out of England c. 1893-1895 (why he never testified)",
+      "verification": "verified-exact",
+      "how_verified": "archive-org",
+      "provenance": "IA in.ernet.dli.2015.499238, leaf 194 (printed p. 158); rendered at 3x from the item's text PDF and read as a page image 2026-08-03, with the printed folio confirmed in the page's bottom margin. the page's footnote 6 to 'the gentleman who has been referred to' reads simply 'Schwabe.'",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "period"
+    },
+    {
+      "quote": "The reference was to a certain Maurice Schwabe, who was a nephew by marriage of Sir Frank Lockwood, the Solicitor-General.",
+      "context": "Hyde's editorial footnote to Wilde's libel-trial cross-examination about the Albemarle dinner with Shelley, at which Wilde wrote the third man's name on paper rather than speak it",
+      "work": "hyde-trials-1948",
+      "locator": "p. 137 n",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1895,
+        "m": 4
+      },
+      "supports": "Schwabe's identity and the Lockwood connexion; the name-on-paper practice at the trials",
+      "verification": "verified-exact",
+      "how_verified": "archive-org",
+      "provenance": "IA in.ernet.dli.2015.499238, leaf 171 (printed p. 137 n); rendered at 3x from the item's text PDF and read as a page image 2026-08-03, with the printed folio confirmed in the page's bottom margin. evidence_date carries the moment the footnote annotates - Wilde's cross-examination at the Queensberry trial, April 1895, when he wrote the name on paper rather than speak it - not Hyde's 1948 publication year.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "modern"
+    }
+  ],
+  "prior_class": "alleged"
+}

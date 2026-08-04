@@ -1,0 +1,131 @@
+{
+  "id": "parker-charles--taylor",
+  "people": [
+    "parker-charles",
+    "taylor"
+  ],
+  "certainty": "self-reported",
+  "certainty_status": "proposed",
+  "certainty_reasoning": "At Taylor's trial (21 May 1895) the jury convicted him of committing an act of gross indecency — counts 8 and 9, the first concerning Charles Parker, the second William (the Solicitor-General named the counts; the clerk's first question as printed does not repeat Charles's name). Charles Parker's own testimony includes sleeping at Taylor's with his brother and, per Hyde's editorial bracket, 'positive evidence as to the commission of acts of gross indecency at Taylor's rooms in Chapel Street,' though the bracket does not name the partner and Grain's cross elicited Parker's Bow Street statement that at Chapel Street Taylor 'did nothing to me, and I did nothing to him.' The conviction anchors documented-sexual; the internal contradiction is preserved here for the human reviewer.",
+  "start": {
+    "y": 1893,
+    "circa": true
+  },
+  "end": {
+    "y": 1894,
+    "m": 8
+  },
+  "date_label": "1893 – August 1894 (association ended at the Fitzroy Street raid)",
+  "summary": "Taylor picked the Parker brothers up at the St James's Restaurant bar early in 1893 and brokered them to Wilde; Charles slept at Taylor's Little College Street rooms, stayed a fortnight at his Chapel Street rooms, and remained in Taylor's orbit until both were arrested (and discharged) in the Fitzroy Street raid of August 1894, after which Parker enlisted. Taylor was convicted of gross indecency on the count concerning Charles at his May 1895 trial.",
+  "sources": [
+    {
+      "quote": "In what way?—He called attention to the prostitutes who frequent Piccadilly Circus and remarked, \"I can't understand sensible men wasting their money on painted trash like that. Many do, though. But there are a few who know better. Now, you could get money in a certain way easily enough if you cared to.\" I understood to what Taylor alluded and made a coarse reply. I am obliged to ask you what it was you actually said?—I do not like to say. You were less squeamish at the time, I dare say. I ask you for the words?—I said that if any old gentleman with money took a fancy to me, I was agreeable. I was agreeable. I was terribly hard up. What did Taylor say?—He laughed and said that men far cleverer, richer and better than I preferred things of that kind. After giving Taylor our address we parted. Did Taylor mention the prisoner Wilde?—Not at that time. Where did you first meet Wilde?—Taylor asked us to visit him (Taylor) next day at Little College Street. We went the next morning. He said he could introduce us to a man who was good for plenty of money, and that we were to meet him (Taylor) at the St. James's bar.",
+      "context": "Charles Parker's examination-in-chief by Mr. C. F. Gill, Regina v. Wilde and Taylor, 26 April 1895, continuing directly from the previous page, which ends 'He spoke about men.' Parker had just testified that Taylor 'came up and spoke to us' at the St James's Restaurant bar and 'was an entire stranger'.",
+      "work": "hyde-trials-1948",
+      "locator": "p. 192",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1895,
+        "m": 4
+      },
+      "supports": "How the two men met and what was proposed, in the participant's own sworn words: Taylor's approach at the bar, his proposition quoted verbatim by Parker, Parker's answer that 'if any old gentleman with money took a fancy to me, I was agreeable', and Taylor's invitation to Little College Street with the offer to introduce 'a man who was good for plenty of money'. The plainest first-hand characterization of the connection.",
+      "verification": "verified-exact",
+      "how_verified": "archive-org",
+      "provenance": "IA in.ernet.dli.2015.499238, leaf 230 (printed p. 192, folio in the source foot), read as IIIF page image 2026-08-03. No elisions. Hyde italicises 'was' in the second 'I was agreeable'; the italic is not reproduced here.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "period"
+    },
+    {
+      "quote": "I remember subsequently going with my brother to 13 Little College Street. We slept there with Taylor. … [Witness here related proposals said to have been made by Taylor for the commission of indecencies to which the witness would not consent. Witness gave positive evidence as to the commission of acts of gross indecency at Taylor's rooms in Chapel Street.] Examination continued—I stayed with Taylor at Chapel Street for about a fortnight. Wilde used to call there, and the same thing occurred as at the Savoy.",
+      "context": "Charles Parker's examination-in-chief, Regina v. Wilde and Taylor, 26 April 1895; the square-bracketed passage is Hyde's editorial summary of testimony",
+      "work": "hyde-trials-1948",
+      "locator": "p. 193",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1895,
+        "m": 4
+      },
+      "supports": "shared sleeping at Taylor's; refused proposals by Taylor; gross-indecency evidence at Chapel Street (partner unnamed in the bracket) — the class-deciding testimony page",
+      "verification": "verified-exact",
+      "how_verified": "archive-org",
+      "provenance": "IA in.ernet.dli.2015.499238, leaf 231 (printed p. 193, folio 'N 193'), read as IIIF page image 2026-08-03",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "period"
+    },
+    {
+      "quote": "Taylor told us on that occasion that he had gone through a form of marriage with a youth named Mason. Did he say who acted as the woman?—Yes; he said he did; that he was in woman's dress, and that they had a wedding breakfast.",
+      "context": "Charles Parker's examination-in-chief, Regina v. Wilde and Taylor, 26 April 1895; 'that occasion' is the night Parker and his brother slept at 13 Little College Street. These are the two sentences elided from the preceding quote. Taylor's Chapel Street ceremony with Charles Mason is the marriage the Crown returned to repeatedly.",
+      "work": "hyde-trials-1948",
+      "locator": "p. 193",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1895,
+        "m": 4
+      },
+      "supports": "What Taylor told Parker about himself on the night they shared a bed - Parker reporting Taylor's own account of his mock marriage to Mason, and of taking the woman's part in it",
+      "verification": "verified-exact",
+      "how_verified": "archive-org",
+      "provenance": "IA in.ernet.dli.2015.499238, leaf 231 (printed p. 193, folio 'N 193' in the source foot), read as IIIF page image 2026-08-03. No elisions.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "period"
+    },
+    {
+      "quote": "Did you say at Bow Street that when you stayed with Taylor at 3 Chapel Street, every night for a fortnight: \"He did nothing to me, and I did nothing to him\"?—I suppose I must have said so.",
+      "context": "Charles Parker cross-examined by Mr Grain (Taylor's counsel), Regina v. Wilde and Taylor, 26 April 1895",
+      "work": "hyde-trials-1948",
+      "locator": "p. 198",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1895,
+        "m": 4
+      },
+      "supports": "the contradicting Bow Street statement — preserved for credibility assessment",
+      "verification": "verified-exact",
+      "how_verified": "archive-org",
+      "provenance": "IA in.ernet.dli.2015.499238, leaf 238 (printed p. 198); rendered at 3x from the item's text PDF and read as a page image 2026-08-03, with the printed folio confirmed in the page's bottom margin.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "period"
+    },
+    {
+      "quote": "[Soon afterwards the Solicitor-General came into Court and, after consulting with his junior counsel, Mr. Gill, said that, as far as the prosecution was concerned, they would take the verdict given by the jury upon counts 8 and 9. Mr. Grain, on behalf of Taylor, concurred.] … The Clerk of Arraigns—Gentlemen, do you find the prisoner at the bar guilty of having committed an act of gross indecency? The Foreman—Guilty.",
+      "context": "Verdict at Taylor's trial, 21 May 1895; the first gross-indecency question (count 8) concerns Charles Parker, the second (count 9), asked immediately after, names William Parker",
+      "work": "hyde-trials-1948",
+      "locator": "p. 292",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1895,
+        "m": 5
+      },
+      "supports": "Taylor's conviction on the Charles Parker gross-indecency count",
+      "verification": "verified-exact",
+      "how_verified": "archive-org",
+      "provenance": "IA in.ernet.dli.2015.499238, leaf 336 (printed p. 292), read as IIIF page image 2026-08-03",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "modern"
+    },
+    {
+      "quote": "[Witness, after some hesitation, recalled the names of Mason, the two Parkers, and Sidney Mavor. When pressed he added the name of Harrington.]",
+      "context": "Alfred Taylor cross-examined by the Solicitor-General on which men had shared his bedroom, Taylor's trial, 21 May 1895; Hyde's editorial bracket. Taylor added, on the same page, that he had not accosted the Parkers but was introduced to them by Harrington at the St James's bar - which contradicts Parker's evidence that Taylor 'was an entire stranger'.",
+      "work": "hyde-trials-1948",
+      "locator": "p. 282",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1895,
+        "m": 5
+      },
+      "supports": "Taylor's own admission that both Parkers were among the men who shared his bedroom",
+      "verification": "verified-exact",
+      "how_verified": "archive-org",
+      "provenance": "IA in.ernet.dli.2015.499238, leaf 326 (printed p. 282, folio in the source foot), read as IIIF page image 2026-08-03. Locator corrected from 'pp. 282-283' - the whole bracket sits on p. 282; the question it answers ('How many different men have shared your bedroom?') is also on p. 282, not p. 281 as the earlier OCR-derived note had it.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "modern"
+    }
+  ],
+  "prior_class": "documented-sexual"
+}

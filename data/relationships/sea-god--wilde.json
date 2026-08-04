@@ -1,0 +1,43 @@
+{
+  "id": "sea-god--wilde",
+  "people": [
+    "sea-god",
+    "wilde"
+  ],
+  "certainty": "desire-expressed",
+  "direction": "wilde",
+  "outcome": "unknown",
+  "certainty_status": "proposed",
+  "certainty_reasoning": "Wilde states the feeling himself and in plain words - 'fell in love with a Sea-God' - which puts this well over the README bar without any coding hypothesis: a reader is told, in the writer's own sentence, that he fell in love. What the page does not give is any second party to it. Nothing is recorded of the young man's response, of a meeting beyond the Naples stop, or of anything that followed; the whole notice is one clause inside a travel report. That is the textbook desire-expressed shape - a declaration, not a relationship - so direction 'wilde', outcome 'unknown'. romantic-nonsexual was weighed against didaco--wilde, which the corpus classes that way on a comparable declaration of love: the difference is that the Didaco entry also records mutual conduct ('We spent three days together'), and here there is none - the three days are the length of the stop at Naples, not of anything between them. documented-sexual is unavailable: no first-person statement of sexual relations appears. Standing caveat for this tier: the record is one-sided by nature. These men left no papers; everything known is what Wilde wrote to a friend. An unrecorded outcome is not evidence of no outcome, and the young man's own account of the encounter does not exist.",
+  "start": {
+    "y": 1900,
+    "m": 4
+  },
+  "end": {
+    "y": 1900,
+    "m": 4
+  },
+  "date_label": "During a three-day stop at Naples on the Italian journey Wilde made with Harold Mellor in April 1900, before they reached Rome on Holy Thursday. The reporting letter is dated 16 April 1900 by the editors' heading - located in the OCR mirror, not read in the source; the editors' footnote on the page read gives Easter Day 1900 as 15 April, and Wilde dates his Vatican appearance 'yesterday'.",
+  "summary": "Travelling up through Italy with Harold Mellor in April 1900, Wilde stopped three days at Naples and wrote to Robert Ross that he had fallen in love with a Sea-God, joking that the young man was for some extraordinary reason at the Regia Marina School instead of being with Triton. In the same breath he notes that most of his Naples friends are in prison. Nothing further about the young man appears in the pages read: no name, no age, no outcome.",
+  "sources": [
+    {
+      "quote": "At Naples we stopped three days. Most of my friends are, as you know, in prison, but I met some of nice memory, and fell in love with a Sea-God, who for some extraordinary reason is at the Regia Marina School, instead of being with Triton.",
+      "context": "Wilde to Robert Ross, 16 April [1900], from Rome - a travel narrative running from Palermo through Naples to the Easter pilgrimage at the Vatican. 'H. M.' in the next paragraph is Harold Mellor, his travelling companion.",
+      "work": "letters-2000",
+      "locator": "p. 1179",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1900,
+        "m": 4,
+        "d": 16
+      },
+      "supports": "The whole of the record: Wilde's own statement that he fell in love, the young man's institution, and the absence of any recorded outcome",
+      "verification": "verified-exact",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF page 1225, printed folio 1179 confirmed at the foot of the rendered page, read as page image 2026-08-03. The letter's heading (recipient, date, address) stands on an earlier printed page not read and is mirror-derived; the page read carries the editors' footnote 'Easter Day 1900 was on 15 April'.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "period"
+    }
+  ]
+}

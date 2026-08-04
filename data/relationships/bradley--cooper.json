@@ -1,0 +1,129 @@
+{
+  "id": "bradley--cooper",
+  "people": [
+    "bradley",
+    "cooper"
+  ],
+  "certainty": "self-reported",
+  "certainty_status": "proposed",
+  "certainty_reasoning": "The claim rests on the two women's own joint diary. Evangelista's Y90s biography quotes their boast of being 'closer married' than the Brownings and cites it to Works and Days, p. 16 - so a participant's own testimony is underneath the sentence, which is the self-reported test as the README states it (the vehicle is irrelevant; check whose testimony the historian's citation points to). Not a judgement about acts: nothing here characterises their sexual life beyond their own phrase 'poetic/sexual union' as Evangelista renders it. Independently corroborated as a fact of shared life by Wilde's editors, who identify 'Michael Field' as the joint pen-name of an aunt and her niece.",
+  "start": null,
+  "end": {
+    "y": 1913
+  },
+  "date_label": "lifelong: joint authorship from 1884 (Callirrhoe) until Cooper's death in 1913; Bradley died the following year",
+  "summary": "Katharine Bradley and her niece Edith Cooper lived together, wrote together, and published everything as one poet under the single name 'Michael Field' - eight volumes of verse, some twenty-seven verse dramas, and a joint diary, Works and Days, in which they recorded their life together and boasted of being more thoroughly married than the Brownings, on the grounds that unlike the Brownings they wrote under one name. Their poems were composed separately and merged in revision until the printed voice was single. Wilde corresponded with 'Michael Field' as a single addressee between 1890 and 1893 about their verse dramas. Cooper died of cancer in 1913 and Bradley survived her by less than a year.",
+  "sources": [
+    {
+      "quote": "They celebrated their poetic/sexual union in several of their poems and plays, and they even boasted of being “closer married” than the more famous Victorian couple – Elizabeth Barrett and Robert Browning – because, unlike the Brownings, they wrote under one name (Works and Days, 16).",
+      "context": "Stefano Evangelista's Y90s biography, opening paragraph. 'Works and Days, 16' is Evangelista's citation to the two women's own joint diary, so the boast is theirs, not his. The preceding sentences read: 'Michael Field is the shared pen name of two women: Katharine Bradley (1846-1914) and Edith Cooper (1862-1913). Bradley and Cooper were aunt and niece but also life-long companions and lovers.'",
+      "work": "evangelista-y90s-field-bio",
+      "locator": "para. 1",
+      "locator_type": "none",
+      "evidence_date": null,
+      "supports": "Participant testimony (their diary) that the two understood their union as a marriage, and understood the single authorial name as what made it one.",
+      "verification": "verified-exact",
+      "how_verified": "web",
+      "provenance": "https://1890s.ca/field_bio/ fetched (curl) and read in full 2026-08-03; quote sliced byte-exact from the downloaded HTML, then whitespace artifacts introduced by stripping inline markup (spaces around quotation marks, italic titles and punctuation) normalized to the printed reading.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "modern"
+    },
+    {
+      "quote": "Michael Field is the shared pen name of two women: Katharine Bradley (1846-1914) and Edith Cooper (1862-1913). Bradley and Cooper were aunt and niece but also life-long companions and lovers.",
+      "context": "Evangelista's opening sentences, establishing the joint pen name and the dual relation - aunt and niece, and partners.",
+      "work": "evangelista-y90s-field-bio",
+      "locator": "para. 1",
+      "locator_type": "none",
+      "evidence_date": null,
+      "supports": "The scholarly characterisation of the relationship, and the fact that 'Michael Field' is one name for two people.",
+      "verification": "verified-exact",
+      "how_verified": "web",
+      "provenance": "https://1890s.ca/field_bio/ fetched (curl) and read in full 2026-08-03; quote sliced byte-exact from the downloaded HTML, then whitespace artifacts introduced by stripping inline markup (spaces around quotation marks, italic titles and punctuation) normalized to the printed reading.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "modern"
+    },
+    {
+      "quote": "The joint pen-name of Katherine Bradley (1846–1914) and her niece Edith Cooper (1862–1913). They published many books of poems and verse plays, none of which ever reached the stage. Among them were Callirrhoë (1884) and The Tragic Mary (1890) to which Wilde is here referring.",
+      "context": "Holland and Hart-Davis's identifying footnote (note 2) to Wilde's letter to 'Michael Field' of [Postmark 13 August 1890]. The editors print the forename 'Katherine'; Bradley's own and modern scholarly usage is 'Katharine'. This is the main-particulars note for both women in the Wilde apparatus.",
+      "work": "letters-2000",
+      "locator": "p. 449 n. 2",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1890
+      },
+      "supports": "Both women's dates; the aunt-niece relation; the single joint pen-name - from Wilde's own editors, i.e. independent of the Michael Field scholarship.",
+      "verification": "verified-exact",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF p. 471 read as a rendered page image 2026-08-03; printed folio 449 confirmed on the image. Transcribed from the image, en-dashes as printed.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "modern"
+    },
+    {
+      "quote": "Dear Michael Field, In the case of the Independent Theatre you have to rely chiefly on actors who are out of an engagement, those who have engagements being occupied or away.",
+      "context": "Opening of Wilde's letter to 'Michael Field', [? September 1893], on casting A Question of Memory for J. T. Grein's Independent Theatre. He signs off 'I am your sincere admirer'. Evidence of the joint identity operating socially rather than only on title pages: Wilde writes to the two of them as one man.",
+      "work": "letters-2000",
+      "locator": "p. 572",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1893
+      },
+      "supports": "That Wilde corresponded with the pair under their single male name - the basis for their presence on this roster.",
+      "verification": "verified-exact",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF p. 624 read as a rendered page image 2026-08-03; printed folio 572 confirmed on the image (post-plate-insert offset +52).",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "period"
+    },
+    {
+      "quote": "Bradley and Cooper also left a vast joint diary, which they entitled Works and Days. Parts of it were published in the 1930s by their executor Thomas Sturge Moore.",
+      "context": "Evangelista on the diary itself. The manuscript runs to some thirty volumes (British Library, plus one at the Bodleian); Sturge Moore's 1933 selection is the published portion.",
+      "work": "evangelista-y90s-field-bio",
+      "locator": "para. 6",
+      "locator_type": "none",
+      "evidence_date": null,
+      "supports": "Locates the first-hand source: a joint diary kept by both women, of which only part is in print.",
+      "verification": "verified-exact",
+      "how_verified": "web",
+      "provenance": "https://1890s.ca/field_bio/ fetched (curl) and read in full 2026-08-03; quote sliced byte-exact from the downloaded HTML, then whitespace artifacts introduced by stripping inline markup (spaces around quotation marks, italic titles and punctuation) normalized to the printed reading.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "modern"
+    },
+    {
+      "quote": "Sweet Wife, the hardships of early married life are beginning: let us bear them together bravely, & grow all the dearer to each other for the derision of the world. There has nothing happened to us; but what is common to all poets: let us rejoice to share their bitter herbs of adversity.",
+      "context": "Katharine Bradley to Edith Cooper, undated [August 1885], written the morning after a hostile Pall Mall Gazette review of their 1885 verse dramas. 'Sweet Wife' is Bradley's salutation, not an editorial gloss.",
+      "work": "field-2009-thain-parejo",
+      "locator": "p. 304 (Letters section, letter 5)",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1885,
+        "m": 8
+      },
+      "supports": "The 'closer married' passage in the participants' own words.",
+      "verification": "verified-exact",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF page 306, printed folio 304 confirmed at the foot of the rendered page, read as a page image 2026-08-03. RE-POINTED from the moore-works-and-days-1933 pointer: this critical edition prints the letter itself, so the participants' own words are now first-hand rather than reached through Evangelista.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "period"
+    },
+    {
+      "work": "field-2009-thain-parejo",
+      "locator": "p. 23 n. 3",
+      "locator_type": "page",
+      "quote": "Of Robert and Elizabeth Barrett Browning's marriage they observed: “those two poets, man and wife, wrote alone; each wrote, but did not bless or quicken one another at their work; we are closer married” (Michael Field, Works and Days. From the Journal of Michael Field, ed. T. & D.C. Sturge Moore [London: John Murray, 1933], 16).",
+      "context": "The editors' footnote to their statement that Bradley and Cooper 'often spoke' of their relationship 'as a “marriage.”' 'we are closer married' is italicised in the printed footnote.",
+      "verification": "verified-exact",
+      "how_verified": "pdf-at-page",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "provenance": "Repo PDF page 25, printed folio 23 confirmed at the foot of the rendered page, read as a page image 2026-08-03. Independently corroborates both the wording and the Works and Days page (16) that the earlier Evangelista-mediated pointer carried.",
+      "supports": "Second, independent scholarly attestation of the 'closer married' passage and of its page in Works and Days.",
+      "voice": "modern"
+    }
+  ]
+}

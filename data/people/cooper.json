@@ -1,0 +1,37 @@
+{
+  "id": "cooper",
+  "name": "Edith Cooper",
+  "sort_name": "Cooper, Edith",
+  "aka": [
+    "Michael Field",
+    "Field",
+    "Henry"
+  ],
+  "born": {
+    "y": 1862
+  },
+  "died": {
+    "y": 1913
+  },
+  "group": "aesthete",
+  "gender": "f",
+  "bio": "Poet, born 1862, the younger half of \"Michael Field\" and the niece of her collaborator and life partner Katharine Bradley (1846-1914). \"Michael Field\" is not a person but the single joint pen name under which Bradley and Cooper published everything: eight volumes of poetry, some twenty-seven verse dramas, and a joint diary, Works and Days. Wilde addressed his letters to \"Michael Field\", writing to the pair as one correspondent. On the Y90s account Cooper was the more retiring and fragile of the two and tended to follow her aunt's lead; in the diary's private mythology she was \"Field\", Henry, or the Persian Puss. Evangelista notes that despite the two women's constant devotion to each other Cooper was prone to heterosexual infatuations, including a period of attachment to their friend Bernhard Berenson. She died of cancer in 1913; Bradley followed within the year.",
+  "bio_note": "Dates (1862-1913) from the editors' identifying footnote to Wilde's letter to \"Michael Field\", Complete Letters (2000), p. 449, read at the rendered page image 2026-08-03, and corroborated in Evangelista's Y90s biography of Michael Field (2015), fetched and read in full 2026-08-03.",
+  "bio_sources": [
+    "letters-2000",
+    "evangelista-y90s-field-bio"
+  ],
+  "context_engagements": [
+    {
+      "date_label": "1890s, 'for a period'",
+      "note": "American art historian and connoisseur, a friend and Richmond-circle neighbour of both women. Evangelista's Y90s biography records that 'Despite the two women's constant devotion to each other, Cooper was prone to heterosexual infatuations, and for a period she developed a crush on their friend Bernhard Berenson.' Recorded because leaving it out would flatten the Michael Field partnership into a tidiness the source does not support. Off-roster; no dates given beyond the period.",
+      "works": [
+        "evangelista-y90s-field-bio"
+      ],
+      "partner_name": "Bernhard Berenson"
+    }
+  ],
+  "research_status": "phase-a",
+  "wikidata": "Q3719235",
+  "wikipedia": "https://en.wikipedia.org/wiki/Edith_Emma_Cooper"
+}

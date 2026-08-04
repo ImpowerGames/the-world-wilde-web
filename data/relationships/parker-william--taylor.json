@@ -1,0 +1,95 @@
+{
+  "id": "parker-william--taylor",
+  "people": [
+    "parker-william",
+    "taylor"
+  ],
+  "certainty": "self-reported",
+  "certainty_status": "proposed",
+  "certainty_reasoning": "William Parker's sworn testimony: the brothers slept with Taylor in the same bed at Little College Street, and Hyde's editorial bracket records that the witness 'described an attempt made by Taylor to commit sodomy.' At Taylor's trial the jury convicted him of 'an act of gross indecency with William Parker' (count 9). The printed testimony describes an attempt while the conviction is for a committed act of gross indecency — the reviewer should note the gap; the conviction plus first-person testimony carries the class.",
+  "start": {
+    "y": 1893,
+    "circa": true
+  },
+  "end": {
+    "y": 1893,
+    "circa": true
+  },
+  "date_label": "1893 (brief: two visits to Little College Street, then William left for country work)",
+  "summary": "William Parker, a groom, attended the Kettner's-side dinner at which Taylor presented his brother to Wilde ('Your brother is lucky. Oscar does not care what he pays if he fancies a chap'), went twice to Little College Street, and on one night shared Taylor's bed with his brother, where his testimony describes an attempted sodomy by Taylor. He understood from the outset that the brothers 'were to be treated as women, and that [they] were to have money for it.' Taylor was convicted of gross indecency with him in May 1895.",
+  "sources": [
+    {
+      "quote": "My brother went off with the prisoner to the Savoy and I remained behind with Taylor who said, \"Your brother is lucky. Oscar does not care what he pays if he fancies a chap.\" I went twice to Little College Street, and on one night my brother and I slept with Taylor in the same bed. [Witness described an attempt made by Taylor to commit sodomy and continued:] Shortly afterwards I went into the country where I obtained employment, and I had nothing more to do with Taylor or with Mr. Wilde.",
+      "context": "William Parker's examination-in-chief, Regina v. Wilde and Taylor, 26 April 1895; the square bracket is Hyde's editorial summary",
+      "work": "hyde-trials-1948",
+      "locator": "p. 199",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1895,
+        "m": 4
+      },
+      "supports": "the shared bed and the attempted sodomy — the class-deciding testimony",
+      "verification": "verified-exact",
+      "how_verified": "archive-org",
+      "provenance": "IA in.ernet.dli.2015.499238, leaf 239 (printed p. 199), read as IIIF page image 2026-08-03",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "period"
+    },
+    {
+      "quote": "Did you know when you went with your brother to the dinner that you were to be treated as women, and that you were to have money for it?—That was what I understood.",
+      "context": "William Parker cross-examined by Sir Edward Clarke, Regina v. Wilde and Taylor, 26 April 1895",
+      "work": "hyde-trials-1948",
+      "locator": "p. 199",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1895,
+        "m": 4
+      },
+      "supports": "the transactional understanding of the arrangement, in the witness's own words",
+      "verification": "verified-exact",
+      "how_verified": "archive-org",
+      "provenance": "IA in.ernet.dli.2015.499238, leaf 239 (printed p. 199), read as IIIF page image 2026-08-03",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "period"
+    },
+    {
+      "quote": "How many different men have shared your bedroom?—Must I give all my friends' names? Yes, sir, you must.—May I write them down? … Cross-examination continued—[Witness, after some hesitation, recalled the names of Mason, the two Parkers, and Sidney Mavor. When pressed he added the name of Harrington.] … You say that you did not accost the Parkers, but that Harrington introduced you to them?—Yes. Did you offer the Parkers a drink at that first meeting?—They stood a drink and I retaliated. After Harrington had introduced them?—He was living with them. Harrington and the Parkers came up to the bar at the same time as I did.",
+      "context": "Alfred Taylor cross-examined by the Solicitor-General, Taylor's trial, 21 May 1895. The first elision drops the exchange in which Taylor asks to write the names down and Mr. Justice Wills refuses; the square bracket is Hyde's editorial summary; the second elision drops Taylor naming Ernest Macklin. Taylor's account of a Harrington introduction contradicts Charles Parker's evidence that Taylor 'was an entire stranger' who 'came up and spoke to us' at the St James's bar.",
+      "work": "hyde-trials-1948",
+      "locator": "p. 282",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1895,
+        "m": 5
+      },
+      "supports": "The other participant in his own words: Taylor names both Parkers among the men who had shared his bedroom, and gives his own account of how he and they first met (at the St James's bar, on Harrington's introduction, over a drink)",
+      "verification": "verified-elision",
+      "how_verified": "archive-org",
+      "provenance": "IA in.ernet.dli.2015.499238, leaf 326 (printed p. 282, folio in the source foot), read as IIIF page image 2026-08-03. Three elisions, marked.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "period"
+    },
+    {
+      "quote": "The Clerk of Arraigns—And do you find the prisoner at the bar guilty of having committed an act of gross indecency with William Parker? The Foreman—Guilty.",
+      "context": "Verdict at Taylor's trial, 21 May 1895 (count 9)",
+      "work": "hyde-trials-1948",
+      "locator": "p. 292",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1895,
+        "m": 5
+      },
+      "supports": "Taylor's conviction of gross indecency with William Parker",
+      "verification": "verified-exact",
+      "how_verified": "archive-org",
+      "provenance": "IA in.ernet.dli.2015.499238, leaf 336 (printed p. 292), read as IIIF page image 2026-08-03",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "period"
+    }
+  ],
+  "prior_class": "documented-sexual"
+}

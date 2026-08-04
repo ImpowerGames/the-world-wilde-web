@@ -1,0 +1,120 @@
+{
+  "id": "atkins--wilde",
+  "people": [
+    "atkins",
+    "wilde"
+  ],
+  "certainty": "uncorroborated",
+  "certainty_status": "proposed",
+  "certainty_reasoning": "The sexual allegation (Paris, 20 November 1892) rests on Queensberry's plea and the Crown's indictment, supported only circumstantially at trial (Mary Applegate's stained-sheets testimony). Atkins himself swore that no impropriety ever took place between him and Wilde; he was then exposed on recall as having lied on oath about the Rochester Row blackmail incident and was ordered from the box by Mr Justice Charles; the jury returned not guilty on all Atkins counts (1 May 1895) and the Crown dropped him at the final trial. Discredited-witness territory — the ROSTER's own note ('testimony discredited') and the taxonomy rule both point to 'alleged'.",
+  "start": {
+    "y": 1892,
+    "m": 11
+  },
+  "end": {
+    "y": 1894,
+    "circa": true
+  },
+  "date_label": "November 1892 (alleged, Paris); acquaintance 1892–1894",
+  "summary": "Fred Atkins, a twenty-year-old billiard-marker, bookmaker's clerk and music-hall comedian, was introduced into the circle by Maurice Schwabe in November 1892 and taken to Paris by Wilde as nominal 'private secretary.' The plea alleged sexual acts there; Atkins on oath denied any impropriety with Wilde while describing Schwabe in Wilde's bed. His credibility collapsed on recall when he was proved to have lied about a Rochester Row blackmail arrest, and the jury acquitted Wilde on every Atkins count.",
+  "disputed": {
+    "claim": "that Wilde solicited and committed acts of gross indecency with Frederick Atkins at 29 Boulevard des Capucines, Paris, on 20 November 1892",
+    "asserted_by": "Queensberry's plea of justification (filed 30 March 1895); Crown indictment counts in Regina v. Wilde and Taylor (1895); circumstantially, Mary Applegate's testimony about the sheets at Osnaburgh Street (Hyde p. 211)",
+    "disputed_by": "Atkins's own sworn testimony ('Did any impropriety ever take place between you and Mr. Wilde?—Never.'); Wilde's denials on oath at the libel trial; the jury's not-guilty verdict on the Atkins counts, 1 May 1895",
+    "grounds": "the witness was exposed as a perjurer mid-trial (Rochester Row charge-sheet produced; 'Leave the box' — Hyde pp. 217-218) and both prosecution and defence positions on Atkins failed; Hyde's introduction records the jury 'found the prisoners not guilty on the charges relating to Atkins' (p. 74)"
+  },
+  "sources": [
+    {
+      "quote": "Examination continued—I got back to the rooms very late. Mr. Wilde was in bed. I went into his room and had something to drink. A man of about twenty-two years of age was in bed with Mr. Wilde. It was Schwabe. I went to bed by myself. Before I got out of bed in the morning Mr. Wilde came into my room. That was about nine o'clock. He talked about the Moulin Rouge and I told him that I had enjoyed myself. Mr. Wilde then said to me, \"Shall I come into bed with you?\" I replied that it was time to get up. Mr. Wilde did not get into bed with me.",
+      "context": "Fred Atkins's examination-in-chief on the Paris trip, Regina v. Wilde and Taylor, 26 April 1895",
+      "work": "hyde-trials-1948",
+      "locator": "p. 207",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1895,
+        "m": 4
+      },
+      "supports": "Atkins's own account of the Paris nights: an invitation declined, no act with Wilde described",
+      "verification": "verified-exact",
+      "how_verified": "archive-org",
+      "provenance": "IA in.ernet.dli.2015.499238, leaf 247 (printed p. 207), read as IIIF page image 2026-08-03",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "period"
+    },
+    {
+      "quote": "Did any impropriety ever take place between you and Mr. Wilde?—Never.",
+      "context": "Fred Atkins under cross-examination by Sir Edward Clarke, Regina v. Wilde and Taylor, 26 April 1895",
+      "work": "hyde-trials-1948",
+      "locator": "p. 207",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1895,
+        "m": 4
+      },
+      "supports": "the witness's categorical sworn denial — core of the disputed block",
+      "verification": "verified-exact",
+      "how_verified": "archive-org",
+      "provenance": "IA in.ernet.dli.2015.499238, leaf 247 (printed p. 207), read as IIIF page image 2026-08-03",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "period"
+    },
+    {
+      "quote": "About two hours ago, Atkins, I asked you these very questions, and you swore upon your oath that you had not been in custody at all, and had never been taken to Rochester Row. How came you to tell me those lies?—I did not remember it. Mr. Justice Charles (sternly to witness)—Leave the box.",
+      "context": "Fred Atkins recalled and further cross-examined on the Rochester Row charge-sheet, Regina v. Wilde and Taylor, 27 April 1895",
+      "work": "hyde-trials-1948",
+      "locator": "p. 218",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1895,
+        "m": 4
+      },
+      "supports": "the perjury exposure that discredits every Atkins assertion, including both the allegation-adjacent material and his denials",
+      "verification": "verified-exact",
+      "how_verified": "archive-org",
+      "provenance": "IA in.ernet.dli.2015.499238, leaf 258 (printed p. 218); rendered at 3x from the item's text PDF and read as a page image 2026-08-03, with the printed folio confirmed in the page's bottom margin. locator corrected: the whole exchange, including 'Leave the box', is on printed p. 218",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "period"
+    },
+    {
+      "quote": "And that the said Oscar Fingal O'Flahertie Wills Wilde on the twentieth day of November in the year of our Lord One thousand eight hundred and ninety-two at a house situate at 29 Boulevard des Capucines in Paris in the Republic of France did solicit and incite one Frederick Atkins to commit sodomy and other acts of gross indecency and immorality with him the said Oscar Fingal O'Flahertie Wills Wilde and did then and there commit the said other acts of gross indecency and immorality with the said Frederick Atkins.",
+      "context": "Queensberry's plea of justification, filed 30 March 1895; Hyde's Appendix A from the Central Criminal Court records",
+      "work": "hyde-trials-1948",
+      "locator": "p. 342",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1895,
+        "m": 3
+      },
+      "supports": "the formal allegation and its date/place",
+      "verification": "verified-exact",
+      "how_verified": "archive-org",
+      "provenance": "IA in.ernet.dli.2015.499238, leaf 388 (printed p. 342), read as IIIF page image 2026-08-03",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "period"
+    },
+    {
+      "quote": "Had I cared to show that the Crown witnesses — the three most important — had been carefully coached by your father and his solicitors, not in reticences merely, but in assertions, in the absolute transference, deliberate, plotted, and rehearsed, of the actions and doings of someone else on to me, I could have had each one of them dismissed from the box by the Judge, more summarily than even wretched perjured Atkins was.",
+      "context": "Wilde to Lord Alfred Douglas (De Profundis), Reading Prison, January-March 1897; the editors' note on the page records that the judge's summing-up called Atkins 'a most reckless, unreliable, unscrupulous, and untruthful witness' and that Wilde 'was acquitted of the charges brought in respect of this witness' (p. 714 n 1)",
+      "work": "letters-2000",
+      "locator": "p. 714",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1897,
+        "m": 1,
+        "circa": true
+      },
+      "supports": "Wilde's retrospective characterization ('wretched perjured Atkins') and his counter-claim that the testimony transferred someone else's doings onto him",
+      "verification": "verified-exact",
+      "how_verified": "pdf-at-page",
+      "provenance": "repo PDF 'Complete Letters' (Fourth Estate 2000), PDF p. 765 = printed p. 714 (folio confirmed on rendered page), read 2026-08-03",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "period"
+    }
+  ],
+  "prior_class": "alleged"
+}

@@ -1,0 +1,80 @@
+{
+  "id": "warren",
+  "name": "Edward Perry Warren",
+  "sort_name": "Warren, Edward Perry",
+  "aka": [
+    "Ned Warren"
+  ],
+  "born": {
+    "y": 1860
+  },
+  "died": {
+    "y": 1928,
+    "m": 12,
+    "d": 28
+  },
+  "group": "aesthete",
+  "gender": "m",
+  "bio": "Boston paper-fortune heir turned expatriate collector of classical antiquities - the great supplier of the Boston Museum of Fine Arts - and 'master of Lewes House' in Lewes, East Sussex, where from 1890 he 'collected art and young men' and tried to forge his secretaries into a 'brotherhood of aesthetes'. Born at Waltham, Massachusetts, 'in the year Lincoln was elected President'; at New College, Oxford, he met John Marshall in 1884 - 'the love of his life' per Sox - whom he wooed by letter for five years and whose forty-year partnership anchored the enterprise. Author of A Tale of Pausanian Love, the privately printed fairy tale The Prince Who Did Not Exist (1900, dedicated to Mary Bliss), and A Defence of Uranian Love, written and rewritten in his garden office at 'Thebes'. Died in London on 28 December 1928 after an abdominal operation, ten months after Marshall; cremated at Golders Green on 1 January 1929; his ashes were placed in the Marshalls' tomb at Bagni di Lucca on 5 April 1929, next to 'his beloved \"Puppy\"'.",
+  "bio_sources": [
+    "Born: 'Born at Waltham, Massachusetts near Boston in the year Lincoln was elected President (1860)' - Sox (1991) p. 3 (repo PDF 19, folio confirmed, rendered 2026-08-03)",
+    "Died: 'Ned was dead on 28 December 1928. After an abdominal operation, he entered the Cambridge House Nursing Home at Dorset Square in London where he died.' - Sox p. 129 (PDF 145, rendered 2026-08-03)",
+    "Cremation 1 Jan 1929, ashes to Bagni di Lucca 5 Apr 1929, 'collected art and young men', 'brotherhood of aesthetes', 'his beloved Puppy': Sox pp. vii-viii (PDF 11-12, rendered 2026-08-03)",
+    "Lewes House lease April 1890 (first seen Oct 1889): Sox p. 44 (PDF 60, rendered 2026-08-03)",
+    "Works: A Tale of Pausanian Love, Sox pp. 38, 44 (PDF 54, 60, rendered); The Prince Who Did Not Exist, p. 75 (PDF 91, rendered); Defence of Uranian Love at 'Thebes', pp. 153-154 (PDF 177 text layer; title italicized in Fothergill's letter at p. 154, PDF 178, rendered)"
+  ],
+  "bio_note": "Sox gives the birth year only as '(1860)' inside the Lincoln's-election phrase; no month or day in pages read. Oxford matriculation 1883 is implied, not stated ('In January 1884, Prichard entered New College only months after Ned Warren's matriculation', p. 169, rendered). Father: Samuel Dennis Warren of S.D. Warren & Co. (Cumberland Mills paper), p. 3. Full passages in dossiers/LEWES-HOUSE_dossier.md.",
+  "context_engagements": [
+    {
+      "partner_name": "Arthur George Bainbridge West",
+      "period": "1889",
+      "note": "Off-roster. Warren's 'first choice' of life-companion before Marshall: on an 1889 trip to Wiesbaden and Rome he confided his desire to share his life with 'an alter ego'; West declined - 'not happy with the possible implications of such a relationship', and long set on Holy Orders. 'Despite the rebuff, Ned remained devoted to West', becoming godfather to his sons; West's son Charles Murray West later ran Warren's Maine house and inherited it (Sox pp. 38-39, rendered 2026-08-03).",
+      "sources": [
+        {
+          "quote": "During that trip Ned confided in West his desire to share his life with 'an alter ego'. … When stated that way, West was not happy with the possible implications of such a relationship.",
+          "context": "The 1889 Wiesbaden-Rome trip; between the sentences, Warren's worry about his companion 'seeming to be a rich man travelling with a friend when he was in reality accepting both salary and hospitality'.",
+          "work": "sox-1991",
+          "locator": "p. 38",
+          "locator_type": "page",
+          "evidence_date": {
+            "y": 1889
+          },
+          "supports": "The declined alter-ego proposition that preceded the Marshall wooing",
+          "verification": "verified-elision",
+          "how_verified": "pdf-at-page",
+          "provenance": "Repo PDF page 54, printed folio 38 confirmed on rendered page, read as page image 2026-08-03.",
+          "verified_by": "agent-mechanical",
+          "verified_on": "2026-08-03",
+          "voice": "modern"
+        }
+      ]
+    },
+    {
+      "partner_name": "Harry Thomas",
+      "period": "c. 1903-1928",
+      "note": "Off-roster. Warren's 'young and handsome protégé' and private secretary (Lewes House was his given Harvard address, 1903-04 - p. 79, text layer pointer); in 1906 Ned 'paraded' him around Boston and Fewacres 'as some saw Harry as \"Ned's new boy friend\"' (p. 77, rendered); Sox lists 'Ned's infatuation with Thomas and Thomas's marriage' among the strains of 'many of Ned's relationships' (p. 21, rendered) and counts Thomas among those Ned loved and 'wanted to possess' (p. 129, rendered). Thomas married Nan Devey the year after Marshall married (p. 78, rendered), and stayed in Warren's service to the end - one of the few at the Golders Green chapel (p. vii).",
+      "sources": [
+        {
+          "quote": "In 1906, Ned paraded his young and handsome protégé, Harry, around Boston and Fewacres. This was especially hard for Marshall to swallow as some saw Harry as 'Ned's new boy friend'.",
+          "context": "On the growing 1906-07 alienation between Warren and Marshall; the preceding sentences: Marshall despised Harold Parsons and 'of the other, Harry Thomas, he was bitterly jealous'.",
+          "work": "sox-1991",
+          "locator": "p. 77",
+          "locator_type": "page",
+          "evidence_date": {
+            "y": 1906
+          },
+          "supports": "The contemporary perception of Thomas as 'Ned's new boy friend' and Marshall's jealousy",
+          "verification": "verified-exact",
+          "how_verified": "pdf-at-page",
+          "provenance": "Repo PDF page 93, printed folio 77 confirmed on rendered page, read as page image 2026-08-03.",
+          "verified_by": "agent-mechanical",
+          "verified_on": "2026-08-03",
+          "voice": "modern"
+        }
+      ]
+    }
+  ],
+  "research_status": "phase-a",
+  "wikidata": "Q5344835",
+  "wikipedia": "https://en.wikipedia.org/wiki/Edward_Perry_Warren"
+}

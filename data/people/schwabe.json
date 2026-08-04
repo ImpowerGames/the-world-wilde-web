@@ -1,0 +1,28 @@
+{
+  "id": "schwabe",
+  "name": "Maurice Schwabe",
+  "sort_name": "Schwabe, Maurice",
+  "aka": [
+    "Maurice Salis Schwabe"
+  ],
+  "born": {
+    "y": 1871
+  },
+  "died": {
+    "y": 1915
+  },
+  "gender": "m",
+  "group": "trials",
+  "bio": "The circle's connective figure and its most protected name: nephew by marriage of Sir Frank Lockwood, the Solicitor-General who prosecuted Wilde's final trial. Schwabe introduced Wilde to Taylor (Wilde's and Taylor's concurring sworn testimony), introduced Atkins to Taylor, and gave the Kettner's dinner at which Mavor met Wilde; Atkins placed him, 'a man of about twenty-two years of age,' in Wilde's bed in Paris in November 1892. At the trials his name was written on paper and passed to counsel rather than spoken; Wilde testified in April 1895 that Schwabe had been out of England for about two years, and he was never called.",
+  "bio_sources": [
+    "Atkins's testimony, Hyde, Trials (1948), pp. 206-207 (p. 207 read as IIIF page image 2026-08-03)",
+    "Hyde's footnote identifying Schwabe, Trials (1948), p. 137 n (djvu OCR)",
+    "Wilde's re-examination, Hyde, Trials (1948), p. 158 with Hyde's note 'Schwabe' (djvu OCR)",
+    "Taylor's cross-examination, Hyde, Trials (1948), p. 283 ('That is the person you say introduced Wilde to you?—Yes.'; djvu OCR)",
+    "Queensberry's plea of justification, Hyde, Trials (1948), p. 342 ('Maurice Salis Schwabe'; IIIF page image 2026-08-03)",
+    "State Library of New South Wales, collection-item description for Lord Alfred Douglas, 'My darling pretty boy', letter to Maurice Schwabe, 1893 (Mitchell Library, Safe 1/2c) - birth and death years"
+  ],
+  "bio_note": "No birth/death dates found in sources read so far. The General Index of Complete Letters (2000) contains NO Schwabe entry — verified at the rendered index page (printed p. 1263, where the entry would fall between Schreiner and Schuster; read 2026-08-03) — so no editorial 'main particulars' footnote exists there to cite. The plea's Schwabe clause is the only one of the named-man clauses printed without a 'did then and there commit' averment. DATES FOUND (added 2026-08-03, web): born 1871, died 1915, from the State Library of New South Wales, which holds the 1893 Lord Alfred Douglas letter to Schwabe ('My darling pretty boy', Mitchell Library, call no. Safe 1/2c). The library's collection-item description, read on sl.nsw.gov.au so far, states: 'Maurice Salis Schwabe (1871-1915) was exiled to the antipodes by his family to avoid his involvement in the sex scandal erupting around the celebrated author Oscar Wilde', arriving in Sydney in 1893. Years only, and the catalogue names no underlying record, so nothing finer is entered and these should be read as a library-catalogue statement rather than a document. (The deeper catalogue record at collection.sl.nsw.gov.au returned HTTP 403 and was not read.) SEARCHED WITHOUT RESULT: McKenna, Secret Life (2008), repo PDF pp. 327-333, 547, 568, 586, 604 - the fullest narrative treatment in the repo, and it gives no dates; Laura Lee's blog posts under her 'Maurice Schwabe' category and her book page - no dates, and she notes that Schwabe 'did not leave any autobiographies or a large cache of his correspondence in an archive'; the Complete Letters OCR mirror, which contains no occurrence of the name at all, consistent with the earlier finding that the General Index has no Schwabe entry. TO SHARPEN: Laura Lee, Wilde Nights & Robber Barons: The Story of Maurice Schwabe (2023) is a full-length biography built on police, court and bankruptcy records and is the obvious place to get exact dates; it was not obtainable so far. UNREAD LEAD, NOT EVIDENCE: a Great War Forum thread titled 'Maurice Shaw / Schwabe, HLI - cause of death?' indicates he enlisted under the anglicised name Shaw and died of wounds in France in late September 1915; that page returned HTTP 403 and was NOT read, so it is recorded here only as a place to look.",
+  "context_engagements": [],
+  "research_status": "phase-a"
+}

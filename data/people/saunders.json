@@ -1,0 +1,19 @@
+{
+  "id": "saunders",
+  "name": "Stanley Saunders",
+  "sort_name": "Saunders, Stanley",
+  "aka": [
+    "Elephant"
+  ],
+  "born": null,
+  "died": null,
+  "group": "chaeronea",
+  "bio": "'Elephant' of George Ives's household, a later addition who jointly inherited the Adelaide Road house with 'Pug' (Harold Bloodworth). Cook describes him as an apparently lovable but difficult alcoholic; his drinking eventually drove the Goddard daughters out of the house, and Ives - a teetotaller for whom the drinking was itself a source of angst - kept him nonetheless.",
+  "bio_sources": [
+    "Cook, Queer Domesticities (2014), pp. 96, 100"
+  ],
+  "bio_note": "From Cook 2014 printed p. 96 (repo PDF 107, folio confirmed), read as a page image 2026-08-03, where the surname is printed 'Stanley Suanders' - evidently a typo for Saunders, the spelling used elsewhere and in this roster; recorded here rather than silently corrected. The account of the daughters leaving and Ives choosing Elephant is from Cook 2014 printed p. 100, known so far only from the PDF text layer - verify at the rendered page before quoting. Dates not established. DATES: NOT FOUND; RECORDED AS UNRECOVERED (2026-08-03). Cook names him only at printed pp. 96 and 109 (repo PDF 107, 120), and at 96 the surname is printed 'Stanley Suanders' - the typo already recorded above. No dates are attached to him anywhere in the book. Searched so far, WITHOUT RESULT: Cook, Queer Domesticities (2014), repo PDF - every occurrence of the surname in the whole book, plus the endnotes and bibliography for the household chapter; the Ives repo transcripts (ives_diaries_burnet.txt, ives_letters_burnet_collated.txt, ives_letters_burnet_transcription.txt, ives_lewis_correspondence_2026-06.md), which contain no occurrence of any of the household surnames; and the open web, which returned only the Palgrave chapter version of Cook's same text ('George Ives, Queer Lives and the Family') and no dates. Cook is the only scholar to have written this household up and he dates their arrivals, their departures and Ives's will, but never a person: he gives no birth or death date for any member of the household. WHAT WOULD ACTUALLY CLOSE IT: census, GRO index and probate research on common English surnames - work so far could not do. Ives's own proved will (Cook, printed pp. 109-110), which leaves the Adelaide Road house to Bloodworth and Saunders, names Bloodworth an executor and portions the Goddards, is the natural documentary starting point, since a grant of probate fixes addresses and often identifies legatees.",
+  "context_engagements": [],
+  "research_status": "phase-a",
+  "gender": "m"
+}

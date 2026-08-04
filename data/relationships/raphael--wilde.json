@@ -1,0 +1,43 @@
+{
+  "id": "raphael--wilde",
+  "people": [
+    "raphael",
+    "wilde"
+  ],
+  "certainty": "desire-expressed",
+  "direction": "wilde",
+  "outcome": "unknown",
+  "certainty_status": "proposed",
+  "certainty_reasoning": "The evidence is one sentence naming him as one of Wilde's 'two special friends' at Napoule, and calling both 'quite perfect, except that they can read and write', immediately after Wilde has characterised the local fisher-folk as having 'beautiful eyes, crisp hair of a hyacinth colour, and no morals: an ideal race'. Against the README bar: the erotic register is supplied by Wilde himself in the preceding clause - 'no morals' is his own flag of sexual availability - and a reader who does not hold the coding hypothesis still reads a man praising the amorality of a population and then naming his two favourites within it, with literacy as their only flaw. That reading is this project's; no scholarly source was consulted. romantic-nonsexual was weighed and rejected as sharpening: the only mutuality on the page is the word 'friends', which is not documented courtship, and that class displays on the map as 'Romantic' - a claim the sentence does not carry. documented-sexual is unavailable: there is no first-person statement of sexual relations. desire-expressed with outcome 'unknown' is therefore proposed, which is also the class the README designs as a marked, hidden-by-default lead pool - the right home for an item of exactly this weight. Standing caveat for this tier: the record is one-sided by nature. These men left no papers; everything known is what Wilde wrote to a correspondent. An unrecorded outcome is not evidence of no outcome, and Raphael's own account of the acquaintance does not exist.",
+  "start": {
+    "y": 1898,
+    "m": 12
+  },
+  "end": {
+    "y": 1898,
+    "m": 12
+  },
+  "date_label": "Stated in a letter the editors date [Circa 28 December 1898] from the Hôtel des Bains, Napoule. The letter does not say when the friendship began and no later letter read returns to it; the single-month span is the date of the evidence, not a claim about duration.",
+  "summary": "Writing to Laurence Housman from the Riviera at the end of December 1898, Wilde praised the Napoule fisher-folk as an ideal race with no morals and named two of them as his special friends: Raphael and Fortuné, 'both quite perfect, except that they can read and write'. That sentence is the whole of the record for him - no surname, no age, no occupation stated, no second mention anywhere in the correspondence read.",
+  "sources": [
+    {
+      "quote": "The people here – fisher-folk all – have beautiful eyes, crisp hair of a hyacinth colour, and no morals: an ideal race. I have two special friends, one called Raphael, the other Fortuné – both quite perfect, except that they can read and write.",
+      "context": "Wilde to Laurence Housman, [Circa 28 December 1898], Hôtel des Bains, Napoule - the third paragraph of a four-paragraph letter that opens on the pinewoods and thanks Housman for a drawing.",
+      "work": "letters-2000",
+      "locator": "p. 1113",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1898,
+        "m": 12,
+        "d": 28
+      },
+      "supports": "The whole of the record for Raphael: named as one of Wilde's two special friends among the Napoule fisher-folk, called quite perfect, with no outcome recorded",
+      "verification": "verified-exact",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF page 1159, printed folio 1113 confirmed at the foot of the rendered page, read as page image 2026-08-03.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "period"
+    }
+  ]
+}

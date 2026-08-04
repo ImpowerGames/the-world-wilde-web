@@ -1,0 +1,227 @@
+{
+  "id": "douglas--ross",
+  "people": [
+    "douglas",
+    "ross"
+  ],
+  "certainty": "second-hand",
+  "certainty_status": "proposed",
+  "certainty_reasoning": "MCKENNA read in the source, 2026-08-03 - this record's basis changed. The claim is no longer an unread pointer: McKenna states a Douglas-Ross relationship 'sexual as well as emotional' in his own voice, and supports it with Douglas's Autobiography. Two things follow. (1) The class rises from uncorroborated to second-hand: a named biographer, now consulted, attests the connection. It does not rise further, because the only participant testimony - Douglas's own - says that Ross 'professed devotion and admiration', which is not a statement of a sexual or romantic relationship; that reading is McKenna's. (2) The dating is corrected: McKenna places the meeting in 1893, with Wilde's involvement with Walter Grainger as the time-marker, not before or around Douglas's 1891 introduction to Wilde as this record previously framed it. Against McKenna stand two biographers read in full who never assert it - see the disputed block. What the verified record otherwise documents is co-membership of Wilde's circle from mid-1892, friendly relations through the 1902 wedding, and the bitter feud from 1913.",
+  "start": {
+    "y": 1892,
+    "circa": true
+  },
+  "end": {
+    "y": 1918
+  },
+  "date_label": "co-present in Wilde's circle by mid-1892; alleged early-1890s intimacy; friendly until c. 1912; open enmity from 1913 until Ross's death (1918)",
+  "summary": "Douglas and Ross were fellow intimates of Wilde from 1892 and remained on good terms long after Wilde's death: Custance and Douglas courted in the upper room of Ross's Carfax gallery with his consent, and Ross stood at the back of the church at their 1902 wedding. McKenna and others have alleged a brief affair between the two around Douglas's entry into the circle; no primary evidence for it was reachable so far, and the Letters apparatus records only the Lionel Johnson introduction of 1891. From the Ransome libel trial of 1913 — brought over a book Douglas said was written 'at the instigation of' Ross — the friendship collapsed into open war: Douglas libelled Ross in deliberately actionable terms ('a notorious sodomite', among others) until Ross prosecuted him at the Old Bailey, where an eight-day trial ended without a verdict; the enmity ran until Ross's death in 1918.",
+  "disputed": {
+    "claim": "That the Douglas-Ross connection was sexual or romantic, as distinct from a close friendship.",
+    "asserted_by": "Neil McKenna, The Secret Life of Oscar Wilde, PDF p. 378, read in the source 2026-08-03: 'some sort of relationship ensued, sexual as well as emotional'. His own characterization; the Douglas quotation he adduces attests devotion and admiration only.",
+    "disputed_by": "Two biographers read in full, by informative silence. Douglas Murray, Bosie (2020 edn): 388 Ross occurrences across 103 pages, every pre-1900 one read in context, never asserts or rejects an affair; at the point where it would belong he writes friendship. Jonathan Fryer, Robbie Ross (2000), Ross's own biographer: asserts nothing romantic, and his index subheadings for Douglas are 'battle against Ross' and 'and the Dansey affair'. Fryer states negatives explicitly when he means them - he writes that Ross and More Adey shared lodgings 'not as lovers, but as two bachelor friends' - which is what makes his silence here carry weight.",
+    "grounds": "One asserting biographer against two silent ones, with the single piece of participant testimony falling short of the claim. Fryer does record that Ross named Douglas among the three most important men in his life (p. 198) - importance, in indirect speech, not romance."
+  },
+  "sources": [
+    {
+      "quote": "While Oscar was busy with Walter Grainger, Bosie was having his own sexual adventures. Earlier in the year he had met Robbie Ross, and some sort of relationship ensued, sexual as well as emotional. 'Ross was by way of being devoted to me in those days,' Bosie recalled in his Autobiography:",
+      "context": "McKenna, in the chapter on the summer of 1893; 'earlier in the year' places the meeting in 1893, with Wilde's involvement with Walter Grainger as the time-marker. The colon introduces the Douglas quotation carried in the next source.",
+      "work": "mckenna-2008",
+      "locator": "PDF p. 378",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1893
+      },
+      "supports": "The assertion at issue: McKenna states a Douglas-Ross relationship 'sexual as well as emotional'. Note it is McKenna's own characterization, and that he dates the meeting to 1893 - not, as this record previously framed it, to before or around Douglas's 1891 introduction to Wilde.",
+      "verification": "verified-exact",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF p. 378, read as page image 2026-08-03. This edition carries no printed folios or running heads (ebook conversion) - the locator is a PDF page, not a printed page.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "modern"
+    },
+    {
+      "quote": "If I had followed his example and kept the letters he wrote to me, I could have showed that he professed devotion and admiration for me in as extravagant terms as those used by Oscar.",
+      "context": "Lord Alfred Douglas, Autobiography, quoted by McKenna immediately after the sentence above",
+      "work": "mckenna-2008",
+      "locator": "PDF p. 378",
+      "locator_type": "page",
+      "evidence_date": null,
+      "supports": "Douglas's own words - the only participant testimony on this pair. They attest devotion and admiration professed by Ross, not a sexual relationship; the sexual reading is McKenna's addition.",
+      "verification": "verified-exact",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF p. 378, read as page image 2026-08-03. This edition carries no printed folios or running heads (ebook conversion) - the locator is a PDF page, not a printed page.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "period",
+      "speaker": "Lord Alfred Douglas, Autobiography"
+    },
+    {
+      "quote": "In 1891 Johnson introduced Wilde to Lord Alfred Douglas, and Johnson’s poem ‘The Destroyer of a Soul’ (1892) is believed to have been addressed to Wilde.",
+      "context": "Editors' footnote on Lionel Johnson, at Wilde's first letters to Johnson of February 1890; the note continues: 'It begins: \"I hate you with a necessary hate.\"'",
+      "work": "letters-2000",
+      "locator": "p. 423 n. 1",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1891
+      },
+      "supports": "The standard editorial account of Douglas's entry into Wilde's orbit — via Johnson in 1891; the apparatus nowhere derives the introduction from Ross or states a Ross–Douglas affair.",
+      "verification": "verified-exact",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF p. 445 (printed folio 423 confirmed on the rendered page), read as page image 2026-08-03.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "modern"
+    },
+    {
+      "quote": "My dearest Bobbie, Bosie has insisted on stopping here for sandwiches. He is quite like a narcissus – so white and gold. I will come either Wednesday or Thursday night to your rooms. Send me a line. Bosie is so tired: he lies like a hyacinth on the sofa, and I worship him. You dear boy. Ever yours OSCAR",
+      "context": "Wilde to Robert Ross, [? May–June 1892], Royal Palace Hotel, Kensington. Editors' note 1 at the page: 'This letter cannot be dated exactly, but it seems likely to have been written fairly soon after May 1892 (see p.461).' Earliest read evidence of Douglas and Ross sharing Wilde's intimate orbit — evidence of co-presence, not of relations between the two.",
+      "work": "letters-2000",
+      "locator": "p. 526",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1892,
+        "circa": true
+      },
+      "supports": "By mid-1892 Wilde writes to Ross about Bosie in terms assuming familiarity; the two men are co-members of the inner circle.",
+      "verification": "verified-exact",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF p. 546 (printed folio 526 confirmed on the rendered page), read as page image 2026-08-03.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "period"
+    },
+    {
+      "quote": "I subsequently discovered that Robert Ross during the marriage ceremony was in the church in the background. I had taken him into my confidence because, as I have already said, Olive and I used to meet occasionally at his little picture shop in Ryder Street. For some extraordinary reason Ross always seemed to resent my marriage. All the same, I continued to be on good terms with him for several years after it took place, and he professed to be devoted to Olive, and made every effort to ingratiate himself with her.",
+      "context": "Douglas on his 4 March 1902 wedding; p. 197 (image-verified) has the pre-wedding meeting 'in the upper room of Robert Ross's little picture shop, \"Carfax,\" in Ryder Street, with his consent.' Partisan retrospect written mid-hatred (1929): the 'resentment' gloss is Douglas's reading, not evidence of Ross's state of mind.",
+      "work": "douglas-autobiography-1929",
+      "locator": "p. 198",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1902,
+        "m": 3
+      },
+      "supports": "Friendly relations at and 'for several years after' the 1902 wedding; Ross hosted the couple's secret meetings and attended the ceremony.",
+      "verification": "verified-exact",
+      "how_verified": "archive-org",
+      "provenance": "IA autobiographyofl0000doug leaf 226, IIIF page image read 2026-08-03; printed folio 198 confirmed (Carfax sentence verified at leaf 225, folio 197).",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "period"
+    },
+    {
+      "quote": "This is what happened to me in 1913. I had long ceased to have any connection with the Wilde gang or cult. … Yet when I appealed to the courts for protection against a malicious statement made in a book at the instigation of the late Robert Ross (who hated me and had sworn to revenge himself on me because I declined to go on associating with him) to the effect that I was responsible for the ruin of Oscar Wilde, the courts, instead of protecting me as they should have done, allowed me to be flung to the wolves.",
+      "context": "Douglas on the Ransome libel trial (1913), which he lost; his aftermath campaign is described at pp. 42-43 (image-verified, in the dossier): 'I swore the day after the Ransome trial that I would never rest till I had publicly exposed Ross … I libelled Ross and at last forced him to take criminal proceedings against me', with the libels listed at p. 43 ('a notorious sodomite', etc.) and 'The trial lasted eight days at the Old Bailey.' All of it Douglas's partisan telling.",
+      "work": "douglas-autobiography-1929",
+      "locator": "p. 33",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1913
+      },
+      "supports": "The break dated to 1913 (Ransome trial) — with Douglas himself placing the estrangement earlier ('because I declined to go on associating with him'); Douglas's belief that Ross instigated the Ransome book.",
+      "verification": "verified-elision",
+      "how_verified": "archive-org",
+      "provenance": "IA autobiographyofl0000doug leaf 51, IIIF page image read 2026-08-03; printed folio 33 confirmed (campaign passages verified at leaves 60-61, folios 42-43).",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "period"
+    },
+    {
+      "quote": "Friendship with Wilde meant that Douglas began to move in a new circle of people. … Of them, perhaps the most important was Robert Ross. … Whether or not he was 'the first boy Oscar ever had', he was certainly devoted to Wilde, and when he was ousted as Wilde's lover by a series of attractive young men, he grew bitter. When Douglas first got to know him, though, Ross was an amusing and appealing personality. The two quickly became friends, as did More Adey who shared rooms with Ross.",
+      "context": "Murray's full account of how Douglas came to know Ross, in the chapter on Douglas's entry into Wilde's circle (1891-92). This is the passage where a Douglas-Ross affair would have to appear if Murray held one; it does not. The elisions drop only Murray's characterisation of the circle ('cultured, usually witty and sometimes talented') and Ross's Canadian birth, 1886 meeting with Wilde and King's, Cambridge years. Murray's account of Ross being displaced is about WILDE's affections, not Douglas's.",
+      "work": "murray-2020",
+      "locator": "PDF p. 53",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1892,
+        "circa": true
+      },
+      "supports": "Non-corroboration of the alleged early-1890s Douglas-Ross affair by a named biographer who can be read in the source: Murray's account of their meeting is friendship formed inside Wilde's circle, with the rivalry running through Wilde rather than between the two men.",
+      "verification": "verified-elision",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF page 53 of Murray_2020_Bosie (docs/research/queer-history/victorian/douglas/sources/), read as page image 2026-08-03. NO PRINTED FOLIO EXISTS: the file is an ebook conversion with no page numbers, no running heads and an unpaginated Contents, so the offset is n/a and the locator is the PDF page, marked 'PDF p.' - see the pagination note in dossiers/DOUGLAS-MURRAY_dossier.md.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "modern"
+    },
+    {
+      "quote": "Ross had known a pupil there, Philip Danney, since the lad was fourteen. Danney was now sixteen and Ross invited him to 'stay' with him in London. A smitten Ross communicated the boy's presence in London to Douglas, who was still in Goring with Wilde.",
+      "context": "Autumn 1893, from a letter of Max Beerbohm to Reginald Turner. The school was the Reverend Biscale Hale Wortham's at Bruges. Murray continues on the next PDF page: Douglas's 'response was to rush to London, seduce the boy and take him back to Goring', and quotes Oscar Browning's summary - 'On Saturday the boy slept with Douglas, on Sunday he slept with Oscar.' Danney's father went to the police and then dropped it 'when he realised that although Ross and Douglas would be sentenced to two years each, his own son would spend six months in prison'; Ross hid in Davos and Douglas left for Egypt. Ages are stated exactly as Murray states them (README register rule).",
+      "work": "murray-2020",
+      "locator": "PDF pp. 68-69",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1893
+      },
+      "supports": "The closest thing in Murray to intimacy between the two men in the alleged period - and it runs through a third person, not between them: Ross passes the boy's whereabouts to Douglas, and the two are jointly exposed to prosecution. Evidence of shared sexual milieu, not of a relationship.",
+      "verification": "verified-exact",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF pages 68 and 69 of Murray_2020_Bosie, both read as page images 2026-08-03; no printed folios (ebook conversion). The quoted sentences are contiguous on PDF p. 68; the continuation quoted in the context line is at PDF p. 69.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "modern"
+    },
+    {
+      "quote": "I agree with you that it is better that we should keep apart. I don't consider that you have ever been a real friend of mine, in the sense that More and others have been my friends. And I may tell you frankly that I don't think your character has improved with age.",
+      "context": "Douglas to Ross, c. early 1909, the closing paragraph of the letter breaking off relations - written after Ross declined Olive Custance's attempts to bring the two men to lunch. The paragraph before it, quoted by Murray on the same page, contains the sentence Murray calls 'actionable in itself': 'I do not care to meet those who are engaged in active propaganda of every kind of wickedness from anarchy to sodomy.' Ross's solicitor Sir George Lewis advised him against proceeding. Murray notes the reference to More Adey 'would soon be proved sadly misguided'.",
+      "work": "murray-2020",
+      "locator": "PDF p. 170",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1909,
+        "circa": true
+      },
+      "supports": "Douglas's own retrospective denial, in 1909 and in his own hand, that Ross had ever been a real friend - dating the break four years before the Ransome trial and locating it in Douglas's post-conversion turn against homosexuality rather than in 1913.",
+      "verification": "verified-exact",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF page 170 of Murray_2020_Bosie, read as page image 2026-08-03; no printed folio (ebook conversion).",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "period",
+      "speaker": "Lord Alfred Douglas"
+    },
+    {
+      "quote": "Relations between Bosie and Robbie were deteriorating fast.   Though Robbie once said that the three most important men in his life had been Oscar Wilde, Bosie Douglas and Freddie Smith, by the end of 1907, relations with Bosie were distinctly frosty.",
+      "context": "Fryer at the November 1907 dinner Ross gave for Vyvyan Holland's twenty-first birthday, to which Douglas was not invited. Reported in indirect speech with no note number at the sentence; Fryer identifies no source for Ross's remark.",
+      "work": "fryer-2000",
+      "locator": "p. 198",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1907
+      },
+      "supports": "A reported first-person statement by Ross placing Douglas beside his two documented lovers - Wilde and Freddie Smith - as the three most important men in his life. The claim reported is IMPORTANCE, not romance, and it is unsourced on the page: a lead toward a Douglas-Ross intimacy, not evidence of one.",
+      "verification": "verified-exact",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF page 220 of Fryer_2000_Robbie-Ross (docs/research/queer-history/victorian/ross/sources/), printed folio 198 confirmed on the rendered page, read as page image 2026-08-03. Offset is +22 in this half of the scan and +14 in the first half - see the pagination box in dossiers/ROSS-FRYER_dossier.md.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "modern"
+    },
+    {
+      "quote": "Adey became more than just a friend and collaborator to Robbie, as the two of them shared lodgings for several years at 24 Hornton Street, Kensington, not as lovers, but as two bachelor friends with a common interest in art, literature, companionship, gossip and sitting around in armchairs for hours on end smoking cigarettes.",
+      "context": "Fryer's introduction of the Hornton Street household, spring 1892. Filed here as the calibration case: this is what it looks like when Fryer wants to rule a relationship out, and he does it in the same sentence that establishes the cohabitation. He never does anything comparable - in either direction - for Douglas and Ross.",
+      "work": "fryer-2000",
+      "locator": "p. 66",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1892,
+        "circa": true
+      },
+      "supports": "Non-corroboration calibrated: Fryer's readiness to state a negative explicitly is what makes his silence on a Douglas-Ross affair informative rather than merely incurious.",
+      "verification": "verified-exact",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF page 80, printed folio 66 confirmed on the rendered page, read as page image 2026-08-03.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "modern"
+    }
+  ],
+  "prior_class": "alleged",
+  "null_findings": [
+    {
+      "work": "fryer-2000",
+      "checked_on": "2026-08-04",
+      "finding": "COMPLETE SCAN of all 304 pages: eleven sentences contain both a Douglas token (Bosie/Douglas) and an intimacy token (lover/affair/slept with/sexual/seduced/in love with). NONE asserts a Ross-Douglas relationship. All eleven are false positives: 'the two lovers' means Wilde and Bosie (p. idx105); 'affair' means 'matter' (the Dansey affair, the Salome Row); Drumlanrig and Rosebery; Bosie's 'sexual interest in young women'; Crosland's attack ON Ross as a 'seducer of young boys'; and two index pages. The strongest single datum runs the other way: Douglas's own solicitors tried to get a Pentonville prisoner to state he had had sexual relations with Ross. Fryer - the biographer with the best access to Ross's papers and every incentive to know - never makes the claim. This confirms the absence the pointer was raised to test."
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "id": "conway--wilde",
+  "people": [
+    "conway",
+    "wilde"
+  ],
+  "certainty": "uncorroborated",
+  "certainty_status": "proposed",
+  "certainty_reasoning": "The sexual allegation exists only in Queensberry's plea of justification (Worthing, Aug-Sept 1894; Albion Hotel Brighton ~27 Sept 1894). Conway never testified in any of the three proceedings; Mr Justice Charles explained the Conway and Grainger offences were left out of the indictment as outside the Central Criminal Court's jurisdiction. Wilde on oath admitted intimacy-as-friendship, the presents, and the Brighton overnight (adjoining rooms), and specifically denied the alleged Lancing-road kissing. Plea-only → 'alleged' with disputed block, per the project decision rule.",
+  "start": {
+    "y": 1894,
+    "m": 8
+  },
+  "end": {
+    "y": 1894,
+    "m": 9
+  },
+  "date_label": "August–September 1894, Worthing and Brighton",
+  "summary": "Wilde and Douglas met Alphonse Conway launching boats on Worthing beach in August 1894; for six weeks he was Wilde's companion, lunching and dining with the family, and receiving a cigarette case, photograph, book, walking-stick, and a blue serge suit before a twenty-four-hour Brighton trip (~27 September, adjoining rooms). Queensberry's plea alleged solicitation and gross indecency at Worthing and the Albion Hotel; the charge was never brought to trial and Conway never gave evidence, though he was seen outside the Court in May 1895.",
+  "disputed": {
+    "claim": "that Wilde solicited Alfonso Harold Conway to commit sodomy at Worthing (Aug-Sept 1894) and the Albion Hotel, Brighton (~27 Sept 1894), and did commit acts of gross indecency with him",
+    "asserted_by": "Queensberry's plea of justification (filed 30 March 1895)",
+    "disputed_by": "Wilde's sworn denials at the libel trial ('It is not true that I met him by appointment one evening and took him on the road to Lancing, kissing him and indulging in familiarities on the way') and at the final trial",
+    "grounds": "allegation stands in the plea alone: never charged (offences alleged 'outside the jurisdiction of the Court' — Hyde p. 256), and no testimony from Conway is printed in Hyde"
+  },
+  "sources": [
+    {
+      "quote": "Did you become intimate with a young lad named Alphonse Conway at Worthing?—Yes. … He was a youth of about eighteen. … After that Alphonse and I became great friends … It is not true that I met him by appointment one evening and took him on the road to Lancing, kissing him and indulging in familiarities on the way. … Were you fond of this boy?—Naturally. He had been my companion for six weeks. Did you take the lad to Brighton?—Yes. And provided him with a suit of blue serge?—Yes.",
+      "context": "Wilde's cross-examination by Carson, Regina (Wilde) v. Queensberry, April 1895",
+      "work": "hyde-trials-1948",
+      "locator": "pp. 137-138",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1895,
+        "m": 4
+      },
+      "supports": "Wilde's admitted six-week companionship, presents and Brighton trip, and his denial of the specific sexual allegation; Wilde's age-estimate 'about eighteen'",
+      "verification": "verified-elision",
+      "how_verified": "archive-org",
+      "provenance": "IA in.ernet.dli.2015.499238, leaf 171 (printed p. 137-138); rendered at 3x from the item's text PDF and read as a page image 2026-08-03, with the printed folio confirmed in the page's bottom margin.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "period"
+    },
+    {
+      "quote": "Do you remember Alphonse Conway?—Yes. I met him on the beach at Worthing last year in August. … What rooms had you at Brighton?—Two bedrooms and a sitting-room. We slept in adjoining rooms. When did you see Conway last?—Outside the Court two days ago.",
+      "context": "Wilde's cross-examination by the Solicitor-General, Regina v. Wilde, May 1895",
+      "work": "hyde-trials-1948",
+      "locator": "pp. 318-319",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1895,
+        "m": 5
+      },
+      "supports": "the Brighton overnight in adjoining rooms; Conway present around the Court in May 1895 though never called",
+      "verification": "verified-elision",
+      "how_verified": "archive-org",
+      "provenance": "IA in.ernet.dli.2015.499238, leaf 364 (printed p. 318-319); rendered at 3x from the item's text PDF and read as a page image 2026-08-03, with the printed folio confirmed in the page's bottom margin.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "period"
+    },
+    {
+      "quote": "And that the said Oscar Fingal O'Flahertie Wills Wilde upon several occasions in the months of August and September in the year of our Lord One thousand eight hundred and ninety-four at Worthing in the County of Sussex and on or about the twenty-seventh day of September in the said year at the Albion Hotel Brighton in the same County did solicit and incite one Alfonso Harold Conway to commit sodomy and other acts of gross indecency and immorality with him the said Oscar Fingal O'Flahertie Wills Wilde. And that the said Oscar Fingal O'Flahertie Wills Wilde did in fact at the said times and places commit the said other acts of gross indecency with the said Alfonso Harold Conway.",
+      "context": "Queensberry's plea of justification, filed 30 March 1895; Hyde's Appendix A from the Central Criminal Court records",
+      "work": "hyde-trials-1948",
+      "locator": "p. 344",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1895,
+        "m": 3
+      },
+      "supports": "the plea-only allegation, its dates and places, and Conway's full name as pleaded — the class-deciding text. Note: the plea as printed states no age for Conway",
+      "verification": "verified-exact",
+      "how_verified": "archive-org",
+      "provenance": "IA in.ernet.dli.2015.499238, leaf 390 (printed p. 344), read as IIIF page image 2026-08-03",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "period"
+    },
+    {
+      "quote": "[His lordship proceeded to explain that the reason why such offences as the plea of justification alleged, in connexion with the lads Conway and Grainger, were not included in the present indictment was because those offences had occurred, if at all, outside the jurisdiction of the Court.]",
+      "context": "Hyde's bracketed editorial summary within Mr Justice Charles's charge to the jury, Regina v. Wilde and Taylor, 1 May 1895",
+      "work": "hyde-trials-1948",
+      "locator": "p. 256",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1895,
+        "m": 5
+      },
+      "supports": "why the Conway (and Grainger) allegations were never charged — the 'plea-only' status",
+      "verification": "verified-elision",
+      "how_verified": "archive-org",
+      "provenance": "IA in.ernet.dli.2015.499238, leaf 298 (printed p. 256); rendered at 3x from the item's text PDF and read as a page image 2026-08-03, with the printed folio confirmed in the page's bottom margin. the printed bracket continues 'He continued:]'; that tail is dropped",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "modern"
+    },
+    {
+      "quote": "Alphonso is still in favour. He is my only companion, along with Stephen. Alphonso always alludes to us as 'the Lord', which however gives you, I think, a Biblical Hebraic dignity that gracious Greek boys should not have. … Yesterday (Sunday) Alphonso, Stephen, and I sailed to Littlehampton in the morning, bathing on the way. We took five hours in an awful gale to come back! … Both Alphonso and Stephen are now anarchists, I need hardly say.",
+      "context": "Wilde to Lord Alfred Douglas, from Worthing [August 1894] — the companionship in Wilde's own words, contemporaneous; the editors' note on the page reads: 'Alphonse Conway, a newspaper boy whom Wilde had met on the beach at Worthing. Wilde later took him to Brighton and bought him a new suit.' (p. 602 n 5)",
+      "work": "letters-2000",
+      "locator": "p. 602",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1894,
+        "m": 8
+      },
+      "supports": "primary contemporaneous evidence of the Worthing companionship ('my only companion'), sailing and bathing excursions, August 1894",
+      "verification": "verified-exact",
+      "how_verified": "pdf-at-page",
+      "provenance": "repo PDF 'Complete Letters' (Fourth Estate 2000), PDF p. 654 = printed p. 602 (folio confirmed on rendered page), read 2026-08-03",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "period"
+    },
+    {
+      "work": "holland-2003",
+      "locator": "p. 146",
+      "locator_type": "page",
+      "quote": "CARSON: Did you take him one evening after nine o'clock to walk towards Lancing? WILDE: No. CARSON: Are you quite sure of that? WILDE: Yes, quite certain. Yes. … CARSON: Did you kiss him on the road? WILDE: Certainly not. CARSON: Did you put your hands inside his trousers? WILDE: No, certainly not. CARSON: And had you any familiarities with him of any kind? WILDE: None of any kind.",
+      "context": "Carson's cross-examination on Alphonse Conway - whom Wilde calls 'Alfonso' throughout the shorthand. Compare Hyde 1948 p. 138, which compresses the whole sequence into a single narrative denial ('It is not true that I met him by appointment one evening and took him on the road to Lancing, kissing him and indulging in familiarities on the way') and drops Carson's explicit question about the trousers altogether.",
+      "verification": "verified-elision",
+      "how_verified": "pdf-at-page",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "provenance": "Repo PDF page 194, printed folio 146 confirmed at the foot of the rendered page, read as a page image 2026-08-03.",
+      "evidence_date": {
+        "y": 1895,
+        "m": 4,
+        "d": 4
+      },
+      "supports": "The verbatim shorthand transcript of the same exchange Hyde 1948 prints in condensed form - kept alongside Hyde, not in place of him, so the divergence stays visible in the record.",
+      "voice": "period"
+    }
+  ],
+  "prior_class": "alleged"
+}

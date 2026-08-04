@@ -1,0 +1,132 @@
+{
+  "id": "wilde--wood",
+  "people": [
+    "wilde",
+    "wood"
+  ],
+  "certainty": "self-reported",
+  "certainty_status": "proposed",
+  "certainty_reasoning": "Alfred Wood's sworn testimony (April 1895) describes an act of 'the grossest indecency' at 16 Tite Street after Lord Alfred Douglas introduced him to Wilde by telegram in January 1893, and the jury at the final trial convicted Wilde on count 13 (gross indecency with Wood at Tite Street). Wilde denied the relations on oath at the libel trial ('It is perfectly untrue'). Wood was an admitted blackmailer (he took £175 from the Allen extortion), recorded in the dossier for credibility assessment; the conviction plus first-person testimony anchors the class.",
+  "start": {
+    "y": 1893,
+    "m": 1
+  },
+  "end": {
+    "y": 1893,
+    "m": 4,
+    "circa": true
+  },
+  "date_label": "January – spring 1893 (Wood left for America with Wilde's £35)",
+  "summary": "Douglas telegraphed Wilde from Salisbury to look after Alfred Wood, an out-of-work clerk then living at Taylor's; Wilde met him at the Café Royal, dined him in a private room at the Florence, and took him home to 16 Tite Street, where Wood's testimony describes an act of gross indecency. Wood had found letters from Wilde to Douglas in a suit Douglas gave him; in spring 1893 Wilde gave him £30 plus £5 and Wood left for America. Wilde was convicted on the Tite Street count at the final trial.",
+  "sources": [
+    {
+      "quote": "When did you first know Wilde?—About a month after I made the acquaintance of Taylor. How did you come to know Wilde?—I was introduced to him by a gentleman at the Café Royal. Who was the gentleman?—Must I give the name? Yes.—Lord Alfred Douglas. What took place when you were introduced to Wilde?—I was introduced by telegram. By Mr. Justice Charles—You would have led anyone to believe that you were personally introduced?—In consequence of the telegram I went to the Café Royal at nine o'clock one evening. Mr. Wilde was sitting down. He spoke to me first. He asked \"Are you Alfred Wood?\" I said, \"Yes.\" Then he offered me something to drink and I had something; and then he invited me to go round to the Florence in Rupert Street to dinner. I went with him and we dined in a private room. Examination continued—What kind of meal was it?—Very nice, one of the best to be got. What wine did you have?—Champagne. After dinner I went with Mr. Wilde to 16 Tite Street. There was nobody in the house to my knowledge. Mr. Wilde let himself in with a latchkey.",
+      "context": "Alfred Wood's examination-in-chief by Mr. Avory, Regina v. Wilde and Taylor, 26 April 1895, with an interjection from the bench by Mr. Justice Charles. Wood had just testified that in January 1893 he was out of work and went to live at Taylor's Little College Street rooms for about three weeks. The page ends on 'latchkey'; what follows on p. 202 is the act evidence quoted below.",
+      "work": "hyde-trials-1948",
+      "locator": "p. 201",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1895,
+        "m": 4
+      },
+      "supports": "How the two men met, in the participant's own sworn words: Douglas's telegram introduction, Wilde waiting at the Café Royal and opening with 'Are you Alfred Wood?', the drink, the private room at the Florence, and the walk back to 16 Tite Street. The plainest first-hand characterization of the connection, chosen in preference to the act evidence that follows it.",
+      "verification": "verified-exact",
+      "how_verified": "archive-org",
+      "provenance": "IA in.ernet.dli.2015.499238, leaf 241 (printed p. 201, folio in the source foot), read as IIIF page image 2026-08-03. No elisions.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "period"
+    },
+    {
+      "quote": "How did you come to know Wilde?—I was introduced to him by a gentleman at the Café Royal. Who was the gentleman?—Must I give the name? Yes.—Lord Alfred Douglas. … After dinner I went with Mr. Wilde to 16 Tite Street. There was nobody in the house to my knowledge. Mr. Wilde let himself in with a latchkey. We went up to a bedroom where we had hock and selzer. Here an act of the grossest indecency occurred. Mr. Wilde used his influence to induce me to consent. He made me nearly drunk. … Afterwards I lay on a sofa with him. It was a long time, however, before I would allow him to actually do the act of indecency.",
+      "context": "Alfred Wood's examination-in-chief, Regina v. Wilde and Taylor, 26 April 1895 (the second ellipsis is printed in Hyde's text)",
+      "work": "hyde-trials-1948",
+      "locator": "pp. 201-202",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1895,
+        "m": 4
+      },
+      "supports": "sworn first-person testimony of gross indecency at 16 Tite Street, January 1893, after Douglas's telegram introduction — the class-deciding quote",
+      "verification": "verified-exact",
+      "how_verified": "archive-org",
+      "provenance": "IA in.ernet.dli.2015.499238, leaves 241 and 242 (printed pp. 201 and 202, folios in the source foot), both read as IIIF page images 2026-08-03. Supersedes the earlier note that the p. 201 opening was OCR-derived - both pages have now been read at the image. The ellipsis after 'He made me nearly drunk.' is printed in Hyde's text; the first is an elision by us.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "period"
+    },
+    {
+      "quote": "Did you ever meet Wilde again?—He once came to my room in Langham Street. Did you know he was coming?—Yes. How did you know?—He came by appointment. He took me out to buy me a present. He bought me half-a-dozen shirts, some collars, and handkerchiefs, and a silver watch and chain. Before he took me out we had some tea. Has he given you money on any other occasion?—Yes; he has given me two or three pounds when he has met me. Up to what time did your acquaintanceship with Wilde go on?—Up to the end of March. How did it cease?—I told Taylor that I would like to get away from a certain class of people, and I think I mentioned it to Mr. Wilde, who gave me £30. I saw him at Taylor's rooms.",
+      "context": "Alfred Wood's examination-in-chief, Regina v. Wilde and Taylor, 26 April 1895, immediately preceding the evidence about the letters. Earlier on the same page Wood put the money given on the first night at 'About £3 I think it was', given at the Florence before Tite Street was mentioned.",
+      "work": "hyde-trials-1948",
+      "locator": "p. 202",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1895,
+        "m": 4
+      },
+      "supports": "What was given, how often, and how the acquaintance ended - in the participant's own words: the Langham Street visit by appointment, presents of half-a-dozen shirts, collars, handkerchiefs and a silver watch and chain, two or three pounds on other meetings, and the £30 in March 1893 on Wood's asking to get away",
+      "verification": "verified-exact",
+      "how_verified": "archive-org",
+      "provenance": "IA in.ernet.dli.2015.499238, leaf 242 (printed p. 202, folio in the source foot), read as IIIF page image 2026-08-03. No elisions.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "period"
+    },
+    {
+      "quote": "He said, \"You have some letters I should like to get back,\" and he gave me £30. In what form?—Two £10 notes and two £5 notes. … Did the letters belong to you?—No. They were letters I found in some clothes Lord Alfred Douglas had given me. They were letters from Mr. Wilde to Lord Alfred Douglas.",
+      "context": "Alfred Wood's examination-in-chief on the letters and the passage money, Regina v. Wilde and Taylor, 26 April 1895",
+      "work": "hyde-trials-1948",
+      "locator": "p. 202",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1895,
+        "m": 4
+      },
+      "supports": "the stolen-letters affair that ended the acquaintance: £30 (plus £5 next day, p. 203) and Wood's departure for America",
+      "verification": "verified-exact",
+      "how_verified": "archive-org",
+      "provenance": "IA in.ernet.dli.2015.499238, leaf 242 (printed p. 202), read as IIIF page image 2026-08-03",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "period"
+    },
+    {
+      "quote": "How long had you known Wood?—I think I met him at the end of January, 1893. I met him at the Café Royal where he was sent to find me by Lord Alfred Douglas who telegraphed from Salisbury. Lord Alfred asked me to do what I could for Wood, who was seeking a post as a clerk. … I suggest that you first had immoral relations with him and then gave him money?—It is perfectly untrue.",
+      "context": "Wilde's cross-examination by Carson, Regina (Wilde) v. Queensberry, April 1895",
+      "work": "hyde-trials-1948",
+      "locator": "pp. 134-135",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1895,
+        "m": 4
+      },
+      "supports": "Wilde's on-oath denial of the relations, and his account of the Douglas introduction",
+      "verification": "verified-elision",
+      "how_verified": "archive-org",
+      "provenance": "IA in.ernet.dli.2015.499238, leaf 168 (printed p. 134-135); rendered at 3x from the item's text PDF and read as a page image 2026-08-03, with the printed folio confirmed in the page's bottom margin.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "period"
+    },
+    {
+      "quote": "The Clerk of Arraigns—Do you find him guilty of a similar offence with Alfred Wood at Tite Street? (Count 13.) The Foreman—Guilty.",
+      "context": "Verdict, Regina v. Wilde, 25 May 1895",
+      "work": "hyde-trials-1948",
+      "locator": "p. 337",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1895,
+        "m": 5
+      },
+      "supports": "conviction on the Wood count at the final trial",
+      "verification": "verified-exact",
+      "how_verified": "archive-org",
+      "provenance": "IA in.ernet.dli.2015.499238, leaf 383 (printed p. 337); rendered at 3x from the item's text PDF and read as a page image 2026-08-03, with the printed folio confirmed in the page's bottom margin.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "period"
+    }
+  ],
+  "prior_class": "documented-sexual"
+}

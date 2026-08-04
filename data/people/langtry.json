@@ -1,0 +1,48 @@
+{
+  "id": "langtry",
+  "name": "Lillie Langtry",
+  "sort_name": "Langtry, Lillie",
+  "aka": [
+    "Emily Charlotte Le Breton",
+    "The Jersey Lily"
+  ],
+  "born": {
+    "y": 1852
+  },
+  "died": {
+    "y": 1929
+  },
+  "group": "society",
+  "gender": "f",
+  "bio": "Emily Charlotte Le Breton of Jersey, 'considered the most beautiful woman of her generation' in the editors' words; she married Edward Langtry in her teens, was brought by him to London, and became a leading Society figure and, as the editors put it, a friend of the Prince of Wales. Painted by Whistler, Poynter, Watts, Burne-Jones, Leighton and particularly Millais, whose portrait The Jersey Lily gave her the nickname; Wilde's friend Frank Miles made many drawings of her. In 1899 she married Hugo Gerald de Bathe.",
+  "bio_sources": [
+    "Holland & Hart-Davis, editorial note, Complete Letters (2000), p. 91 n. 2"
+  ],
+  "bio_note": "All facts from the main-particulars footnote at p. 91 n. 2 (repo PDF 116, folio confirmed), read as page image 2026-08-03. The Prince of Wales is characterized there only as 'a friend' - stated here exactly as the source states it.",
+  "context_engagements": [
+    {
+      "partner_name": "Edward Langtry",
+      "certainty": "marriage",
+      "start": {
+        "y": null,
+        "label": "married 'in her teens' (per the editors)"
+      },
+      "end": null,
+      "note": "An Irish widower of thirty who brought her to London (p. 91 n. 2).",
+      "sources": []
+    },
+    {
+      "partner_name": "Hugo Gerald de Bathe",
+      "certainty": "marriage",
+      "start": {
+        "y": 1899
+      },
+      "end": null,
+      "note": "Married 1899; he succeeded as fifth Baronet in 1907 (p. 91 n. 2).",
+      "sources": []
+    }
+  ],
+  "research_status": "phase-a",
+  "wikidata": "Q297743",
+  "wikipedia": "https://en.wikipedia.org/wiki/Lillie_Langtry"
+}

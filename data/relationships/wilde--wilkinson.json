@@ -1,0 +1,176 @@
+{
+ "id": "wilde--wilkinson",
+ "people": [
+  "wilde",
+  "wilkinson"
+ ],
+ "certainty": "desire-expressed",
+ "direction": "wilde",
+ "outcome": "unknown",
+ "certainty_status": "proposed",
+ "certainty_reasoning": "Proposed on the primary record and the editors' apparatus, read in the source. THE DECIDING FACT IS THAT THEY NEVER MET. The editors state it flatly in the main-particulars footnote: Wilkinson invented an 'Ipswich Dramatic Society' and its wish to dramatise The Picture of Dorian Gray 'so as to get into correspondence with Wilde, whom he never met' (p. 1109 n. 1). Nothing read so far contradicts it; the correspondence is epistolary from first letter to last, and the surviving record is one-sided - Wilde's letters to Wilkinson are printed here, Wilkinson's to Wilde are not. AGE, STATED AS THE RECORD STATES IT: the editors give his dates as 1881-1966 and say he 'was at this time a Radley schoolboy' (p. 1109 n. 1); Wilde, describing the correspondence to Reginald Turner on 3 January 1899, calls him 'a Radley schoolboy, aged seventeen' (p. 1118). Wilde was forty-four. DIRECTION is Wilde's, and rests on documented acts rather than on tone: Wilde asks for a photograph in his first letter (p. 1109), asks again when a promised enclosure proved missing from the envelope (p. 1113), comments on the photographs when they arrive (p. 1122), reports to Turner that the boy sends them constantly (p. 1118), and asks Robert Ross to go to Radley and see him (p. 1127). The salutation and signature move over four months from 'Dear Mr Wilkinson / Sincerely yours' to 'My dear Boy / Affectionately yours' - the same 'My dear Boy' Wilde used to Douglas. OUTCOME is unknown, and cannot be otherwise: no meeting took place, no Wilkinson letter survives in this edition, and the boy's own account came fifty-four years later in Seven Friends (1953), unread here. WEIGH THIS AGAINST THE EDGE: the initiative in the whole affair was Wilkinson's, not Wilde's - he manufactured a theatrical society and, per the editors, at least one further false claim to attract Wilde's attention (p. 1127 n. 2), so the approach that started it ran the other way. The ANNOTATIONS-TRIAGE pass judged him 'context-engagement-worthy' rather than edge-worthy precisely because a correspondence between people who never met fails the usual bar. desire-expressed edges are hidden by default on the map and are a lead pool, not the documented web; if Lovelle reads this as a famous author indulging a starstruck schoolboy correspondent, the correct disposition is no edge and a context engagement on wilde. That call is his.",
+ "start": {
+  "y": 1898,
+  "m": 12
+ },
+ "end": {
+  "y": 1900,
+  "m": 7
+ },
+ "date_label": "First surviving Wilde letter [postmark 14 December 1898] (p. 1109) to the letter of [postmark 15 July 1900] (p. 1192), four months before Wilde's death. The end date was previously pinned at March 1899, the last letter then read; the General Index leads were followed on 2026-08-04 and the correspondence runs a year and a third longer than the record showed. Wilkinson is also among the senders of funeral wreaths in Ross's post-mortem account (p. 1222).",
+ "summary": "In the winter of 1898 a seventeen-year-old Radley schoolboy named Louis Wilkinson wrote to Wilde in exile, having invented an Ipswich Dramatic Society and its wish to stage The Picture of Dorian Gray in order to have a reason to write. Wilde, who was forty-four, answered, granted the imaginary society four performances, asked who was to play Dorian - he should be beautiful - and closed by asking for the boy's photograph. Over the next four months Wilde asked for the photograph twice more, discussed the ones that arrived, praised and criticised the verse Wilkinson sent him, recommended his own 'The Portrait of Mr W. H.' when the boy said he loved Shakespeare's sonnets, told Reggie Turner and Robert Ross about him, and asked Ross to go down to Radley and look at him. The salutation moved from 'Dear Mr Wilkinson' to 'My dear Boy' and the signature from 'Sincerely yours' to 'Affectionately yours'. They never met. Wilkinson went up to Oxford, became the novelist Louis Marlow, sent a wreath to Wilde's funeral in 1900, and in 1953 printed the letters in Seven Friends, where he confessed that the dramatic society had never existed.",
+ "sources": [
+  {
+   "quote": "Louis Umfreville Wilkinson (1881–1966) was at this time a Radley schoolboy. … In his Seven Friends (1953) he quotes many of Wilde's letters to him, and confessed that he invented an 'Ipswich Dramatic Society' and its wish to dramatise The Picture of Dorian Gray, so as to get into correspondence with Wilde, whom he never met.",
+   "context": "Holland & Hart-Davis, main-particulars footnote (n. 1) on Wilkinson's first appearance, keyed to Wilde to Louis Wilkinson, [postmark 14 December 1898]. The note begins at the foot of printed 1109 and concludes at the foot of 1110. The elision drops one sentence stating that he published many novels and other books under the name Louis Marlow; a closing sentence not quoted records that his first letter to Wilde and some of the subsequent ones are in the Hyde Collection. Seven Friends italic in the original.",
+   "work": "letters-2000",
+   "locator": "p. 1109 n. 1",
+   "locator_type": "page",
+   "evidence_date": null,
+   "supports": "THE CLASS-DECIDING FACT - 'whom he never met' - together with his dates, his being a Radley schoolboy at the time, the pen-name, the 1953 memoir, and the fabricated Ipswich Dramatic Society that opened the correspondence",
+   "verification": "verified-elision",
+   "how_verified": "pdf-at-page",
+   "provenance": "Repo PDF pages 1155-56, printed folios 1109 and 1110 both confirmed on the rendered pages, read as page images 2026-08-03; carried forward with its original provenance. En-dash in the date range as printed.",
+   "verified_by": "agent-mechanical",
+   "verified_on": "2026-08-03",
+   "voice": "modern"
+  },
+  {
+   "quote": "I am in constant correspondence now with a Radley schoolboy, aged seventeen.",
+   "context": "Wilde to Reginald Turner, [postmark 3 January 1899], Hotel des Bains, Napoule; opening sentence of the paragraph in which Wilde tells Turner about the correspondence. Heading as printed: 'To Reginald Turner / MS Hyde'. The three sentences that follow, not transcribed here, report that the boy sends his photograph constantly and praise it, report that he reads nothing but Wilde's books and wishes to follow in Wilde's footsteps, and record Wilde's reply that they lead to terrible places. The letter is signed 'Ever affectionately yours OSCAR'.",
+   "work": "letters-2000",
+   "locator": "p. 1118",
+   "locator_type": "page",
+   "evidence_date": {
+    "y": 1899,
+    "m": 1,
+    "d": 3
+   },
+   "supports": "Wilkinson's age at the time of the correspondence, in Wilde's own contemporaneous words and exactly as the record states it - seventeen; and the fact that Wilde described the correspondence to a third party as constant",
+   "verification": "verified-exact",
+   "how_verified": "pdf-at-page",
+   "provenance": "Repo PDF page 1164, printed folio 1118 confirmed on the rendered page, read as page image 2026-08-03. Single sentence, complete.",
+   "verified_by": "agent-mechanical",
+   "verified_on": "2026-08-03",
+   "voice": "period"
+  },
+  {
+   "quote": "Wilkinson had invented this, like the dramatisation of Dorian Gray, to attract Wilde's attention.",
+   "context": "Holland & Hart-Davis, editorial note (n. 2) at printed 1127, keyed to Wilde to Robert Ross, Saturday [25 February 1899], in which Wilde urges Ross, if he is down at Oxford, to go to Radley and see Wilkinson, reporting the boy's claims that he had known FitzGerald and had been at the first night of Lady Windermere's Fan - the latter being the claim this note corrects. Dorian Gray italic in the original.",
+   "work": "letters-2000",
+   "locator": "p. 1127 n. 2",
+   "locator_type": "page",
+   "evidence_date": null,
+   "supports": "That the fabrications continued past the opening gambit, and that the initiative in the acquaintance was Wilkinson's; also that Wilde was recommending him to Ross in person",
+   "verification": "verified-exact",
+   "how_verified": "pdf-at-page",
+   "provenance": "Repo PDF page 1173, printed folio 1127 confirmed on the rendered page, read as page image 2026-08-03. Whole footnote.",
+   "verified_by": "agent-mechanical",
+   "verified_on": "2026-08-03",
+   "voice": "modern"
+  },
+  {
+   "quote": "It was not Louis Wilkinson but his father who had known FitzGerald. They were neighbours in Suffolk.",
+   "context": "Holland & Hart-Davis, editorial note (n. 1) at printed 1133, keyed to Wilde to Louis Wilkinson, [postmark 20 March 1899]. The elided opening of the note corrects Wilde's attribution of the Omar Khayyam manuscript to a kinsman, Sir Ralph Ouseley, naming Sir William Ouseley (1767-1842) instead.",
+   "work": "letters-2000",
+   "locator": "p. 1133 n. 1",
+   "locator_type": "page",
+   "evidence_date": null,
+   "supports": "A correction to the 1127 n. 2 picture of wholesale invention - the FitzGerald connection was real but paternal, so not every claim Wilkinson made was manufactured",
+   "verification": "verified-exact",
+   "how_verified": "pdf-at-page",
+   "provenance": "Repo PDF page 1179, printed folio 1133 confirmed on the rendered page, read as page image 2026-08-03. Final two sentences of the footnote, quoted complete; the preceding sentences concern the manuscript's provenance.",
+   "verified_by": "agent-mechanical",
+   "verified_on": "2026-08-03",
+   "voice": "modern"
+  },
+  {
+   "quote": "My dear Boy",
+   "context": "Salutation of Wilde to Louis Wilkinson, [postmark 20 March 1899], Gland, Switzerland; heading as printed 'To Louis Wilkinson / MS Wilkinson', signed 'Affectionately yours OSCAR'. Recorded as the endpoint of a documented four-month register shift, each element read in the source so far or the last: [postmark 14 December 1898] p. 1109 opens 'Dear Mr Wilkinson' and signs 'Sincerely yours'; 28 December [1898] p. 1113 opens 'Dear Mr Wilkinson' and signs 'Sincerely yours'; [postmark 3 February 1899] pp. 1122-23 opens 'Dear Mr Wilkinson' and signs 'Your friend'; this letter opens 'My dear Boy' and signs 'Affectionately yours'. 'My dear Boy' is the salutation Wilde also used to Lord Alfred Douglas.",
+   "work": "letters-2000",
+   "locator": "p. 1133",
+   "locator_type": "page",
+   "evidence_date": {
+    "y": 1899,
+    "m": 3,
+    "d": 20
+   },
+   "supports": "The escalation of address across the correspondence, as a matter of documented salutation and signature rather than of interpretation",
+   "verification": "verified-exact",
+   "how_verified": "pdf-at-page",
+   "provenance": "Repo PDF page 1179, printed folio 1133 confirmed on the rendered page, read as page image 2026-08-03. The earlier salutations and signatures were read at repo PDF 1155 (folio 1109, predecessor session), 1159 (folio 1113), and 1168-69 (folios 1122 and 1123).",
+   "verified_by": "agent-mechanical",
+   "verified_on": "2026-08-03",
+   "voice": "period"
+  },
+  {
+   "quote": "I am in constant correspondence now with a Radley schoolboy, aged seventeen. His photograph, which he has sent me, and sends me constantly, is most beautiful. He seems to read nothing but my books, and says his one desire is to 'follow in my footsteps'! But I have told him that they lead to terrible places. … My Radley boy is called Louis Wilkinson – a horrid name – but his photograph is most interesting, and his poetry passionate and incoherent. He seems a most astonishing boy. He has dramatised Dorian Gray!",
+   "context": "Two passages printed on the same page, from different letters: the first is Wilde to Reginald Turner (postmark 3 January 1899), the second Wilde to Robert Ross (Thursday [? 12 January 1899]). Wilkinson is named only in the second.",
+   "work": "letters-2000",
+   "locator": "p. 1118",
+   "locator_type": "page",
+   "evidence_date": {
+    "y": 1899,
+    "m": 1,
+    "d": 3
+   },
+   "supports": "The documented acts on which direction rests - three photograph requests, the comments on the photographs when they came, and the reports to Turner and Ross; recorded as description because the addressee was seventeen",
+   "verification": "verified-elision",
+   "how_verified": "pdf-at-page",
+   "provenance": "Repo PDF page 1164, printed folio 1118 read off the rendered page. The ellipsis spans the end of the Turner letter and the opening of the Ross letter, both on this folio - it is not an elision inside a single letter., read as a page image 2026-08-03.",
+   "verified_by": "agent-mechanical",
+   "verified_on": "2026-08-03",
+   "voice": "period"
+  },
+  {
+   "work": "letters-2000",
+   "locator": "p. 1192",
+   "locator_type": "page",
+   "quote": "Dear Boy, Come and see me next week. I can get you a room in my hotel.\nI am not going to write to you any more: I want to see you. I have waited long enough. [Signature cut away.]",
+   "context": "Wilde to Louis Wilkinson, [Postmark 15 July 1900], Hôtel d'Alsace, Paris",
+   "voice": "period",
+   "evidence_date": {
+    "y": 1900,
+    "m": 7,
+    "d": 15
+   },
+   "supports": "The last surviving letter of the run, and the most direct: an invitation to Paris with a room offered in his own hotel, and the correspondence itself set aside in favour of meeting.",
+   "verification": "verified-exact",
+   "how_verified": "pdf-at-page",
+   "verified_by": "Claude (Opus 5)",
+   "verified_on": "2026-08-04",
+   "provenance": "Repo PDF p. 1238 rendered at 2.6x and read as a page image 2026-08-04; folio 1192 printed at the foot of that page, giving offset +46 here. Located first in the OCR mirror, then confirmed on the rendered page."
+  },
+  {
+   "work": "letters-2000",
+   "locator": "p. 1193",
+   "locator_type": "page",
+   "quote": "Je suis très malade. Ne venez pas cette semaine. Je vous écrirai.",
+   "context": "Telegram, Wilde to Louis Wilkinson, [July 1900 - a few days later], Paris",
+   "voice": "period",
+   "evidence_date": {
+    "y": 1900,
+    "m": 7
+   },
+   "supports": "How the correspondence ends: the invitation of 15 July is withdrawn a few days later on grounds of illness, with a promise to write that is the last thing in the run.",
+   "verification": "verified-exact",
+   "how_verified": "pdf-at-page",
+   "verified_by": "Claude (Opus 5)",
+   "verified_on": "2026-08-04",
+   "provenance": "Repo PDF p. 1239 read as a page image 2026-08-04; folio 1193 printed at the foot."
+  },
+  {
+   "work": "letters-2000",
+   "locator": "pp. 1159n, 1167, 1168, 1169, 1170-71, 1222",
+   "locator_type": "page",
+   "quote": "",
+   "context": null,
+   "voice": null,
+   "evidence_date": null,
+   "supports": "Remaining letters of the run, now located precisely in the OCR mirror but not yet read on the rendered page: 'My dear Boy' letters at printed 1167 [postmark 2 November 1899], 1168 [receipt 28 November 1899], 1169 [postmark 4 January 1900] and 1170 [postmark 12 February 1900]; Wilkinson named in a Paris list at 1159n; the funeral wreath at 1222. They fill in the middle of the run - they do not move either end date, both of which are now verified at page.",
+   "verification": "unverified",
+   "how_verified": "unverified",
+   "provenance": "Located in the OCR text layer, not yet read on the rendered page. Found in the complete OCR mirror at PDF pp. 1205, 1213-1217, 1267 on 2026-08-04. The mirror locates; the rendered page verifies. Offset in this part of the volume is +45 to +46."
+  }
+ ]
+}

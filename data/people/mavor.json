@@ -1,0 +1,23 @@
+{
+  "id": "mavor",
+  "name": "Sidney Mavor",
+  "sort_name": "Mavor, Sidney",
+  "aka": [
+    "Sidney Arthur Mavor",
+    "Jenny Mavor"
+  ],
+  "born": null,
+  "died": null,
+  "gender": "m",
+  "group": "trials",
+  "bio": "'The only other individual of decent family and upbringing besides Shelley' among the Crown's young men (Hyde): living at 66 St Helen's Gardens, North Kensington, and by 1895 in partnership in a City business. Taylor met him at the Gaiety Theatre in 1892, groomed him for the Kettner's dinner given by Schwabe ('Mr. Wilde likes nice clean boys'), and Wilde sent him a silver cigarette case inscribed 'Sidney from O. W., October, 1892' before an overnight at the Albemarle Hotel. On the stand he repeated his Bow Street denial — no misconduct, no impropriety ever — and the Mavor counts were struck out; Hyde's footnote preserves Douglas's own account of coaching that denial in the Bow Street corridor. Atkins had 'heard him called Jenny Mavor.'",
+  "bio_sources": [
+    "Mavor's testimony, Hyde, Trials (1948), pp. 211-212 (p. 212 read as IIIF page image 2026-08-03)",
+    "Hyde, Trials (1948), Introduction pp. 72-73 with n (counts struck out; the corridor story from Douglas's Autobiography, 2nd edn. p. 119; djvu OCR) and pp. 85-86 (Mavor dropped at the final trial; djvu OCR)",
+    "Atkins's testimony ('Jenny Mavor'), Hyde, Trials (1948), p. 207 (IIIF page image 2026-08-03)",
+    "Ellen Grant's testimony ('Mavor and Mason stayed there for nights with Taylor'), Hyde, Trials (1948), p. 199 (IIIF page image 2026-08-03)"
+  ],
+  "bio_note": "No birth/death dates found in sources read so far; the General Index of Complete Letters (2000) has NO Mavor entry (verified at the rendered index page, printed p. 1255, where it would fall between 'Maurice, Dr Oliver' and 'Max'; read 2026-08-03). Mavor's own sworn 'I have slept there with Taylor' (p. 211) plus Grant's corroboration would support a mavor--taylor edge — NOT created so far (pair not in the assigned edge list); flagged for roster/assignment review. DATES: NOT ENTERED, BUT THERE IS A NAMED LEAD WORTH ONE HUMAN CHECK (2026-08-03). Web searching surfaced a consistent account that Sydney Arthur Mavor died in 1952 at Upton Lovell, near Warminster, Wiltshire, aged eighty-five, after being struck by a car, and that he had taught English at Hurstpierpoint College in Sussex from 1917 to 1925. The account is attributed to Joseph Bristow, Oscar Wilde on Trial: The Criminal Proceedings, from Arrest to Imprisonment (Yale, 2022) - which would be exactly the authoritative source this module wants - but the only full text reachable so far was an unauthorised scan, so the passage was NOT read in a legitimate copy and no page number is known. A Find a Grave memorial for a 'Sydney Arthur Mavor (1866-1952)' buried at St Augustine of Canterbury, Upton Lovell, is consistent with 'aged eighty-five in 1952' but is user-generated and establishes no link to the trial witness. Both are therefore recorded as leads, not sources, and born/died stay null. TO CLOSE: check Bristow 2022 (index entry Mavor) in a library copy; if it gives dates, they can be entered on that authority alone. AGE ON OATH, FOR CONTEXT ONLY: Wilde, cross-examined in April 1895 about Taylor's rooms, put Mavor at 'About twenty-five or twenty-six', which would place his birth about 1869-70 and sits awkwardly with the 1866 of the Find a Grave memorial; McKenna, Secret Life (2008), repo PDF p. 328, has him 'twenty' when Taylor picked him up in late September 1892, which would mean about 1872. Three incompatible figures, none of them a date. SWEEP FOR DATES, 2026-08-03 (what was searched): the Complete Letters (2000) OCR mirror plus the General Index; McKenna, The Secret Life of Oscar Wilde (2008), repo PDF; Murray, Bosie (2020), repo PDF; Frankel, The Unrepentant Years (2017), repo PDF; Hyde, The Trials of Oscar Wilde, in the Internet Archive copy (item in.ernet.dli.2015.499238, OCR text downloaded and searched, key pages then read as page images); and the open web.",
+  "context_engagements": [],
+  "research_status": "phase-a"
+}

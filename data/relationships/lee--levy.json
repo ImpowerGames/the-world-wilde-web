@@ -1,0 +1,90 @@
+{
+  "id": "lee--levy",
+  "people": [
+    "lee",
+    "levy"
+  ],
+  "certainty": "desire-expressed",
+  "certainty_status": "proposed",
+  "direction": "levy",
+  "outcome": "unreciprocated",
+  "certainty_reasoning": "One-sided and documented as such. Levy's own poems addressed to Lee are the vehicle of the desire - her biographer Linda Hunt Beckman, writing the Shalvi/Hyman encyclopedia entry, calls them 'love poems' and adds that 'in letters Levy expressed her admiration' - so the desire clears the README's bar twice over: it is legible as desire to a reader without the coding hypothesis, and a scholarly source reads it that way. Direction is Levy's. Outcome 'unreciprocated' rather than 'declined' because no refusal by Lee is on record: Diniejko states that Levy 'never experienced a requited love attachment with any of the women to whom she was attracted', which is an absence of reciprocation, not a documented rebuff. Diniejko also flags that Levy's sexuality 'remains a point of contention among scholars', and that caveat is part of the record here. This is not classified as self-reported because the class is desire-expressed, which the README treats as its own category rather than a certainty tier.",
+  "start": {
+    "y": 1886
+  },
+  "end": {
+    "y": 1889
+  },
+  "date_label": "met at Florence, 1886; the poems and letters follow; Levy died in 1889",
+  "summary": "Amy Levy met Vernon Lee at Florence in 1886 and fell in love with her. She sent Lee love poems - the sonnet 'To Vernon Lee', set on Bellosguardo, and 'New Love, New Life' - and expressed her admiration in letters; the friendship also brought her into Lee's circle, notably the poet Dorothy Blomfield. Nothing in the sources read records reciprocation by Lee, and Levy's biographer describes a woman who never had a requited attachment to any of the women she loved. Levy died by suicide in 1889, three years after the Florence meeting. The two women's other point of contact is Wilde himself, who was publishing Levy in the Woman's World across exactly these years.",
+  "sources": [
+    {
+      "quote": "Levy’s visit to Florence in 1886 was pivotal because she met Violet Paget (Vernon Lee), an important figure in the aesthetic movement of the fin de siècle. The love poems Levy sent to Lee (e.g., “To Vernon Lee” and “New Love, New Life”) are revealing, and in letters Levy expressed her admiration. The friendship enabled Levy to become intimate with Lee’s circle of friends, particularly the poet Dorothy Blomfield.",
+      "context": "Linda Hunt Beckman - Levy's biographer (Amy Levy: Her Life and Letters, 2000) - in the Shalvi/Hyman Encyclopedia of Jewish Women. 'The love poems Levy sent to Lee' is a biographer's characterisation resting on Levy's own poems and letters, which Beckman edited.",
+      "work": "beckman-jwa-levy",
+      "locator": null,
+      "locator_type": "none",
+      "evidence_date": {
+        "y": 1886
+      },
+      "supports": "That Levy sent Lee love poems and expressed admiration in letters: the desire, and its direction.",
+      "verification": "verified-exact",
+      "how_verified": "web",
+      "provenance": "https://jwa.org/encyclopedia/article/levy-amy fetched (curl) and read in full 2026-08-03; quote sliced byte-exact from the downloaded HTML, then whitespace artifacts introduced by stripping inline markup (spaces around quotation marks, italic titles and punctuation) normalized to the printed reading.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "modern"
+    },
+    {
+      "quote": "Levy’s sexual orientation remains a point of contention among scholars. She was, it seems, a platonic lesbian, who never experienced a requited love attachment with any of the women to whom she was attracted. In 1886, while Levy stayed in Florence, she met and became infatuated with Vernon Lee (Violet Piaget), a novelist and essayist, to whom she dedicated one of her best sonnets.",
+      "context": "Andrzej Diniejko's Victorian Web biography. The page then prints 'To Vernon Lee' in full. 'Violet Piaget' is Diniejko's misspelling of Paget. Note the scholarly caveat in the first sentence, which is why it is quoted rather than elided.",
+      "work": "diniejko-victorianweb-levy",
+      "locator": null,
+      "locator_type": "none",
+      "evidence_date": {
+        "y": 1886
+      },
+      "supports": "The one-sidedness (outcome = unreciprocated), the 1886 Florence meeting, and the dedication of the sonnet.",
+      "verification": "verified-exact",
+      "how_verified": "web",
+      "provenance": "https://victorianweb.org/authors/levy/bio.html fetched (curl) and read in full 2026-08-03; quote sliced byte-exact from the downloaded HTML, then whitespace artifacts introduced by stripping inline markup (spaces around quotation marks, italic titles and punctuation) normalized to the printed reading.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "modern"
+    },
+    {
+      "quote": "English novelist and poet (1862–89). After her story in the first number of the Woman's World she contributed articles on 'The Poetry of Christina Rossetti' (March 1888), 'Women and Club Life' (June 1888), and two poems and a story during 1889. She committed suicide by inhaling fumes of charcoal.",
+      "context": "Holland and Hart-Davis's identifying footnote (note 1) to Wilde's letter to Amy Levy, [October 1887] - the main-particulars note. It documents the Wilde connection (he was publishing her in the Woman's World across exactly the years of the Lee attachment) and her death. The birth year here, 1862, is a year late: Beckman and Diniejko independently give 10 November 1861. The editors are followed on the manner of death and on the Woman's World bibliography, not on the birth year.",
+      "work": "letters-2000",
+      "locator": "p. 326 n. 1",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1887
+      },
+      "supports": "Levy's professional tie to Wilde and the manner of her death, which sets the end of this record; her dates as Wilde's editors give them (superseded on the birth year).",
+      "verification": "verified-exact",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF p. 348 read as a rendered page image 2026-08-03; printed folio 326 confirmed on the image.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "modern"
+    },
+    {
+      "quote": "Both Levy's letters and poems indicate that Levy fell in love with Vernon Lee (and her feelings must have received a charge when Lee visited London only three months after they parted). … Since sending such poems to Vernon Lee at this juncture was tantamount to announcing her love, these lyrics call for a biographical reading.",
+      "context": "Beckman on Levy's 1886 Florence acquaintance with Lee and the five poems Levy enclosed with a letter that autumn, two of them 'To Vernon Lee' and 'Neue Liebe, Neues Leben'. Beckman also states that Levy's letters show she was NOT aware of the nature of Lee's attachment to Mary Robinson.",
+      "work": "beckman-2000-levy",
+      "locator": "pp. 120-121",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1886
+      },
+      "supports": "Levy's letters to and about Vernon Lee, in her own words.",
+      "verification": "verified-elision",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF pages 138-139, printed folios 120 and 121 confirmed in the running heads on the rendered pages, read as page images 2026-08-03. The ellipsis spans the page break and an intervening quotation from Irene Cooper Willis.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "modern"
+    }
+  ]
+}

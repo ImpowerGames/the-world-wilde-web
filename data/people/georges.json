@@ -1,0 +1,19 @@
+{
+  "id": "georges",
+  "name": "Georges",
+  "sort_name": "Georges",
+  "aka": [
+    "le petit Georges"
+  ],
+  "born": null,
+  "died": null,
+  "group": "liaisons",
+  "gender": "m",
+  "bio": "A young Parisian whom Wilde called 'a great friend of mine' and referred to by the nickname 'le petit Georges'. In a letter to Reginald Turner postmarked 3 January 1899 Wilde wrote that Georges was then at Nice and that he had promised to go over and see him, describing him as 'like a very handsome Roman boy, dark, and bronze-like, with splendidly chiselled nose and mouth'. Wilde adds that he was visiting Nice 'on speculative business'. No surname, age or dates appear on the page read.",
+  "bio_sources": [
+    "letters-2000"
+  ],
+  "bio_note": "Verified source: Wilde to Reginald Turner, [Postmark 3 January 1899], Hôtel des Bains, Napoule, Complete Letters (2000), p. 1117 (repo PDF 1163, printed folio 1117 confirmed at the foot of the rendered page image, read 2026-08-03). The record preserves a first name and a nickname only; the letter states no age and none is inferred. The paragraph runs over onto printed 1118, where the sentence about his 'speculative business' completes - that completion was not read in the source and is carried as a pointer, not quoted. FURTHER MENTIONS, FINDING-ONLY AND NOT VERIFIED: the OCR mirror's general index carries the entry 'Georges (boy), 1097, 1108, 1117', which is the editors' own judgement that the three mentions are one person; the mirror text at printed 1108 contains a Georges compared to Antinous. Neither printed 1097 nor 1108 was read in the source, so neither is used here, and the identification across pages remains the editors' index claim rather than a verified finding. A separate index entry, 'Georges, Monsieur, 1097', appears to be a different person - a letter addressee - and must not be merged with this one without reading the page. Full passage in dossiers/EXILE-LIAISONS_dossier.md (L5). DATES: NONE RECORDED (2026-08-03). Searched so far: the whole OCR mirror of the Complete Letters (2000) for every occurrence of the name, plus the edition's General Index; Frankel, Oscar Wilde: The Unrepentant Years (2017), repo PDF, the fullest scholarly account of the exile years; McKenna, The Secret Life of Oscar Wilde (2008) and Murray, Bosie (2020), repo PDFs. Frankel does not treat him at all - the only 'Georges' in that book is the Belgian poet Georges Rodenbach, in a footnote about Khnopff. No birth or death date is recorded in any source consulted, and none is likely to be: the record preserves a first name (or a trade) in another man's correspondence and no surname to search by. That absence is itself the historical fact worth keeping - these men enter the written record only because Wilde wrote to his friends about them.",
+  "context_engagements": [],
+  "research_status": "phase-a"
+}

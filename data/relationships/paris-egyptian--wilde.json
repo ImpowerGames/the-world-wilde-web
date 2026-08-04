@@ -1,0 +1,43 @@
+{
+  "id": "paris-egyptian--wilde",
+  "people": [
+    "paris-egyptian",
+    "wilde"
+  ],
+  "certainty": "desire-expressed",
+  "direction": "wilde",
+  "outcome": "unknown",
+  "certainty_status": "proposed",
+  "certainty_reasoning": "The record is one sentence of physical description of a man who served Wilde drinks, and the sentence's own point is that he is not a substitute for someone else: 'A slim brown Egyptian, rather like a handsome bamboo walking-stick, occasionally serves me drinks at the Café d'Egypte, but he does not console me for the loss of the wanton sylvan boy of Italy.' No approach, no meeting outside the café, no outcome. desire-expressed with outcome 'unknown' is proposed because admiration is what the page records and that class is the README's marked, hidden-by-default lead pool; romantic-nonsexual would assert a connection the sentence actively denies, and documented-sexual has nothing behind it. Candour about the bar: with André, this is the thinnest item in the tier, and it is thin in a particular way - the noticing is real and physical, but the man is present in the sentence as a comparison, not as an object of pursuit. A later check may reasonably prefer to keep him as a bio record with no edge; that would not be an unreasonable read of this page. The reading offered here is this project's, not a scholarly source's. EVIDENTIARY CAVEAT, from the editors' footnote on the same page: this letter survives only as text printed in W. T. Spencer's Forty Years in my Bookshop (1923), corrected and supplemented from a 1928 auction catalogue, and it is incomplete - so unlike the rest of this tier the words are not carried by a manuscript. Standing caveat for this tier: the record is one-sided by nature. These men left no papers; everything known is what Wilde wrote to a correspondent. An unrecorded outcome is not evidence of no outcome, and this man's own view of the encounter does not exist anywhere.",
+  "start": {
+    "y": 1900,
+    "m": 9
+  },
+  "end": {
+    "y": 1900,
+    "m": 9
+  },
+  "date_label": "Stated in a letter postmarked 2 September 1900 from Paris, in Wilde's last months. The letter gives no date for when the café acquaintance began; the single-month span is the date of the evidence, not a claim about duration.",
+  "summary": "Writing to Leonard Smithers from Paris in September 1900, Wilde said he missed the Neapolitans who had gone home, and noted that a slim brown Egyptian who occasionally served him drinks at the Café d'Egypte was no consolation for the loss. That sentence is the whole of the record: no name, no age, no meeting outside the café, and no second mention anywhere in the correspondence read.",
+  "sources": [
+    {
+      "quote": "Is there any chance of your being in Paris? My dear Neapolitans have returned to Naples and I miss that brown faun with his deep woodland eyes and his sensuous grace of limb. A slim brown Egyptian, rather like a handsome bamboo walking-stick, occasionally serves me drinks at the Café d'Egypte, but he does not console me for the loss of the wanton sylvan boy of Italy.",
+      "context": "Wilde to Leonard Smithers, [Postmark 2 September 1900], Paris - the third paragraph, between a note on Smithers's creditors and a paragraph on the publication of Salomé. The 'brown faun' and 'wanton sylvan boy of Italy' are one of the departed Neapolitans, a different man from the Egyptian.",
+      "work": "letters-2000",
+      "locator": "p. 1196",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1900,
+        "m": 9,
+        "d": 2
+      },
+      "supports": "The whole of the record: Wilde's description of the Café d'Egypte waiter and his statement that the man is no consolation for the departed Neapolitan; no outcome recorded",
+      "verification": "verified-exact",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF page 1242, printed folio 1196 confirmed at the foot of the rendered page, read as page image 2026-08-03. Transcribed exactly as printed in the Complete Letters; the editors' footnote 1 on the same page records that their text of this incomplete letter comes from W. T. Spencer's Forty Years in my Bookshop (1923), corrected and supplemented by the American Art Association catalogue of 1 February 1928, and the heading carries no manuscript line.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "period"
+    }
+  ]
+}

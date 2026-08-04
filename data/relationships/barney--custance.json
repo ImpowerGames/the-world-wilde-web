@@ -1,0 +1,136 @@
+{
+  "id": "barney--custance",
+  "people": [
+    "barney",
+    "custance"
+  ],
+  "certainty": "second-hand",
+  "certainty_status": "proposed",
+  "certainty_reasoning": "Romantic pursuit is documented in two independent read secondary sources: Parker's Y90s biography (Barney 'wooed Custance with several love poems and invited her to Paris') and McDermott's Fortnightly Review profile (Barney 'pursued' Custance; joint Italian holiday c. 1901; the 'quadrangle' reading), with Barney's own memoir as participant testimony reported via Parker. Whether the liaison was consummated rests on works not reachable so far — Parker (2011) calls the Barney/Vivien connections 'rumoured entanglements', citing Wickes 1977: 58-60 and Souhami 2004 — so the sexual layer is carried by pointers. Honest fallback if review restricts to read-verified evidence: 'romantic-nonsexual'.",
+  "start": {
+    "y": 1901,
+    "circa": true
+  },
+  "end": null,
+  "date_label": "correspondence from c. 1897–98 (after Opals); pursuit, Paris visit, and Italian holiday c. 1901; contact sustained after Custance's 1902 marriage",
+  "summary": "After Opals (1897) Barney opened the acquaintance with a letter of admiration, wooed Custance with love poems, and invited her to Paris, where Custance also befriended Barney's former lover Renée Vivien; around 1901 Barney and Custance holidayed together in Italy while Custance was simultaneously conducting her courtship with Douglas. Accounts of the Barney–Vivien–Custance ménage are contradictory: Barney's memoir says she tried to persuade Custance to join a Sapphic community at Mytilene (stymied by Vivien's jealousy), and per McDermott she 'supposedly envisaged marrying Douglas as a way of inducing Olive to live with her too'. Custance kept up contact with Barney after returning to London in 1901 and marrying in 1902, and Custance verse survives among Barney's papers.",
+  "sources": [
+    {
+      "quote": "Shortly after this, she received a letter of admiration from Natalie Barney (1876-1972), a Parisian salon hostess who would become notorious for her openly lesbian poetry published in 1900 as Quelques Portraits-Sonnets de Femmes. Barney wooed Custance with several love poems and invited her to Paris, where Custance also befriended the symbolist poet Renée Vivien (1877-1909), one of Barney’s former lovers.",
+      "context": "Parker's Y90s biography; 'this' is the publication of Custance's Opals (1897), so the correspondence opens c. 1897–98. The same paragraph continues: 'Accounts of this ménage are often contradictory; Barney's autobiography Souvenirs Indiscrets (1960) states that she tried to persuade Custance to join her and Vivien in recreating a Sapphic community at Mytilene, but the endeavour was stymied by Vivien's jealousy.'",
+      "work": "parker-y90s-custance-bio",
+      "locator": "para. 2",
+      "locator_type": "none",
+      "evidence_date": {
+        "y": 1898,
+        "circa": true
+      },
+      "supports": "Barney initiated the acquaintance after Opals; wooing with love poems; the Paris invitation.",
+      "verification": "verified-exact",
+      "how_verified": "web",
+      "provenance": "https://1890s.ca/custance_bio/ fetched (curl) and read in full 2026-08-03; quote extracted byte-exact from the downloaded HTML, line-wrap whitespace normalized.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "modern"
+    },
+    {
+      "quote": "Custance sustained contact with both Barney and Vivien after she moved back to London in 1901, and her diaries and poems suggest she continued to be attracted to and inspired by women.",
+      "context": "Parker's Y90s biography, close of the Barney/Vivien paragraph.",
+      "work": "parker-y90s-custance-bio",
+      "locator": "para. 2",
+      "locator_type": "none",
+      "evidence_date": {
+        "y": 1901
+      },
+      "supports": "Custance back in London 1901; the connection continued past the liaison; diaries/poems as evidence of her attraction to women.",
+      "verification": "verified-exact",
+      "how_verified": "web",
+      "provenance": "https://1890s.ca/custance_bio/ fetched and read in full 2026-08-03; quote extracted byte-exact from the downloaded HTML.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "modern"
+    },
+    {
+      "quote": "she was also being pursued by yet another admirer, this time a woman, and an American. Nathalie Barney, a wealthy heiress and salon hostess in Paris saw herself as a latter day Sappho. … Soon after, on holiday in Italy with Barney, Olive annoyed her friend by spending the whole time gazing at a photo of a classical statue of Antinoüs whom, she said, reminded her of her new pen friend, Lord Alfred Douglas.",
+      "context": "McDermott's profile, in the passage on Custance at 27 (born Feb. 1874, hence c. 1901), concurrent with the Douglas courtship; 'Nathalie' is McDermott's spelling. He then prints Custance's Antinoüs poem with the note that its typed MS survives 'among the papers of Natalie Barney at the Sorbonne' — a poem is evidence of address, not of acts.",
+      "work": "mcdermott-2020-fortnightly",
+      "locator": null,
+      "locator_type": "none",
+      "evidence_date": {
+        "y": 1901,
+        "circa": true
+      },
+      "supports": "Independent secondary source frames Barney as pursuer; a joint Italian holiday c. 1901; the Douglas courtship running inside the Barney liaison.",
+      "verification": "verified-elision",
+      "how_verified": "web",
+      "provenance": "https://fortnightlyreview.co.uk/2020/04/olive-custance/ fetched (curl) 2026-08-03, decoded strict UTF-8; sentences extracted byte-exact from the downloaded HTML.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "modern"
+    },
+    {
+      "quote": "Another arena in which Custance’s name arises is that of lesbian biography, in which her rumoured entanglements with Natalie Barney and Renée Vivien in Paris attract passing interest (Wickes 1977: 58-60; Souhami 2004: 56-51).",
+      "context": "Parker's peer-reviewed 2011 article, opening page; read in the Loughborough repository accepted manuscript, whose pagination differs from the journal printing (22.2-3 (2011), 220-40). The page span '56-51' is as printed in the AM. Full citations per the AM reference list: Wickes, The Amazon of Letters (London: W. H. Allen, 1977); Souhami, Wild Girls (London: Orion Books, 2004).",
+      "work": "parker-2011-girls-love",
+      "locator": "p. 1 (accepted manuscript)",
+      "locator_type": "page",
+      "evidence_date": null,
+      "supports": "Status of the claim in scholarship: the Barney (and Vivien) entanglements are 'rumoured', treated in lesbian biography at the cited loci.",
+      "verification": "verified-exact",
+      "how_verified": "web",
+      "provenance": "Loughborough repository AM (figshare file 16939550) downloaded and read at rendered p. 1, 2026-08-03. evidence_date deliberately left null: this card is not evidence of a dated event but a statement about the state of scholarship - Parker recording that the Barney and Vivien entanglements are treated as 'rumoured' in lesbian biography. Dating it 1901, to the entanglement itself, would file modern historiography among the contemporary sources as though it were one of them; it therefore sorts to the end, with the other undated cards.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "modern"
+    },
+    {
+      "quote": "",
+      "context": "Barney's memoir of her early Paris years discusses the courtship of Custance and the plan to bring Custance and Vivien together in a Sapphic community at Mytilene (as reported in Parker's Y90s biography, which cites it); French text, no open copy reachable so far.",
+      "work": "barney-souvenirs-1960",
+      "locator": null,
+      "locator_type": "none",
+      "evidence_date": null,
+      "supports": "Participant (Barney) account of the liaison and the Mytilene plan.",
+      "verification": "unverified",
+      "how_verified": "unverified",
+      "provenance": "",
+      "verified_by": null,
+      "verified_on": null
+    },
+    {
+      "quote": "When Olive reported this unexpected development, Natalie said, “Tell him I'm in love with you.” … Needless to say, she was much more attracted to Olive, especially after an evening they spent bathed in moonlight and poetry. One evening was not enough, however; Natalie wanted to be alone with Olive for a longer time. So when Mrs. Custance and Freddy returned to England, Olive and Natalie went off to Venice, accompanied by the inevitable chaperone … Olive hung the photograph of her lover over her bed. This was none other than Lord Alfred Douglas.",
+      "context": "Wickes on Custance's spring 1901 visit to Paris. 'Freddy' is Frederick Manners-Sutton, heir to the Viscount Canterbury, who had fallen for Barney himself. The Venice trip ended with both women ill with malaria.",
+      "work": "wickes-1977",
+      "locator": "p. 68",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1901
+      },
+      "supports": "Biographer account of the Barney–Custance entanglement.",
+      "verification": "verified-elision",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF page 70, printed folio 68 confirmed at the foot of the rendered page, read as a page image 2026-08-04. Re-anchored: the inherited locator 'pp. 58-60 (as cited by Parker 2011)' does not match this 1978 printing..",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-04",
+      "voice": "modern"
+    },
+    {
+      "quote": "Natalie was enchanted with Olive – her wonderful complexion, her vibrant poetry. Renée Vivien was morbidly jealous, and Olive was in love with ‘Bosie’, Lord Alfred Douglas. The Bosie connection fired Natalie's desire for Olive.",
+      "context": "Souhami on the same 1901 visit. Note the causal claim in the last sentence - Souhami has Barney's interest in Custance partly driven by Custance's attachment to Douglas.",
+      "work": "souhami-2004",
+      "locator": "p. 40",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1901
+      },
+      "supports": "Biographer account of the Barney–Custance liaison.",
+      "verification": "verified-exact",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF page 58, printed folio 40 confirmed at the foot of the rendered page, read as a page image 2026-08-04. Re-anchored: the inherited 'pp. 56-51 [sic]' does not match this 2005 printing..",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-04",
+      "voice": "modern"
+    }
+  ],
+  "prior_class": "consensus"
+}

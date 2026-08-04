@@ -1,0 +1,66 @@
+{
+  "id": "batten--hall",
+  "people": [
+    "batten",
+    "hall"
+  ],
+  "certainty": "second-hand",
+  "certainty_status": "proposed",
+  "certainty_reasoning": "The statement read is the Harry Ransom Center's own biographical sketch in the finding aid to the Hall and Troubridge papers - an archivist's summary, i.e. a non-participant, and it carries no per-claim citation (it lists ten biographies at the foot instead). Hall's own letters are published (Glasgow's Your John, 1997) and Troubridge wrote a memoir, so participant testimony exists and would very likely move this to self-reported; both are recorded as pointers. Second-hand here marks who is talking, not doubt about the fact: the Ransom Center holds the papers and states the relationship without hedge.",
+  "start": null,
+  "end": {
+    "y": 1916
+  },
+  "date_label": "Batten was Hall's first lover; the relationship ended with Batten's death in 1916 (the start year is not stated in the source read)",
+  "summary": "Mabel Veronica Batten, a singer known as 'Ladye', was Radclyffe Hall's first lover. The Ransom Center's biographical sketch credits her with introducing Hall into a circle of artistic and intellectual women, many of them lesbians - so she is, in the surviving record, the person who brought Hall into queer society. Batten was also the cousin of Una Troubridge, who met Hall in 1915 and became Hall's partner after Batten's death the following year; the three-way relation gave Hall's biographer Michael Baker his title, Our Three Selves.",
+  "sources": [
+    {
+      "quote": "Hall's first lover, singer and society beauty Mabel Veronica Batten (1856-1916), introduced her into a circle of artistic and intellectual women, many of them lesbians.",
+      "context": "The Harry Ransom Center's Biographical Sketch in the finding aid to the Hall and Troubridge papers (eadid 00163), under the heading 'Radclyffe Hall (1880-1943)'. The next sentence introduces Troubridge as Batten's cousin. Apostrophes rendered straight, as in the source HTML.",
+      "work": "hrc-hall-troubridge-fa",
+      "locator": "Biographical Sketch",
+      "locator_type": "none",
+      "evidence_date": null,
+      "supports": "That Batten was Hall's first lover, her dates, and her role in bringing Hall into queer society.",
+      "verification": "verified-exact",
+      "how_verified": "web",
+      "provenance": "https://norman.hrc.utexas.edu/fasearch/findingAid.cfm?eadid=00163 fetched (curl) and read in full 2026-08-03; quote sliced byte-exact from the downloaded HTML, then whitespace artifacts introduced by stripping inline markup (spaces around quotation marks, italic titles and punctuation) normalized to the printed reading.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "modern"
+    },
+    {
+      "quote": "",
+      "context": "Hall's love letters in Glasgow's edition - participant testimony that would bear on this pair; not reachable so far.",
+      "work": "glasgow-1997-your-john",
+      "locator": null,
+      "locator_type": "none",
+      "evidence_date": null,
+      "supports": "Hall's own words about her attachments.",
+      "verification": "unverified",
+      "how_verified": "unverified",
+      "provenance": "",
+      "verified_by": null,
+      "verified_on": null
+    },
+    {
+      "quote": "What is clear is that the two women who left England as friends came back as lovers. From this time onwards they would rarely be out of each other's company. The date they crossed the Channel to Ostend was August 12, John's birthday. Ever afterwards this anniversary became a double celebration.",
+      "context": "Baker on the summer 1908 Belgian holiday. Hall and Batten had met at Homburg on 22 August 1907 - Batten fifty and married, Hall twenty-seven - and both women kept that date as an anniversary too.",
+      "work": "baker-1985-our-three-selves",
+      "locator": "p. 36",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1908,
+        "m": 8,
+        "d": 12
+      },
+      "supports": "Biographer's full account of the Batten relationship, including its start.",
+      "verification": "verified-exact",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF page 52, printed folio 36 confirmed in the running head on the rendered page, read as a page image 2026-08-04..",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-04",
+      "voice": "modern"
+    }
+  ]
+}

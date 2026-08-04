@@ -1,0 +1,178 @@
+{
+  "id": "ricketts--shannon",
+  "people": [
+    "ricketts",
+    "shannon"
+  ],
+  "certainty": "self-reported",
+  "certainty_status": "proposed",
+  "certainty_reasoning": "Both men's own testimony underlies the claim, which is the README's self-reported test. Matt Cook's chapter on their households is built on Ricketts's letters and journals and on Shannon's diary, and quotes both: Ricketts writing to Shannon from Florence, Shannon's 1898 diary entry with Ricketts's note added to it, and Ricketts near the end of his life measuring his position against \"the forty years of perfect companionship I have enjoyed\". Cook states the point explicitly - the bond \"was articulated by the men themselves and by their circle of friends\". Note what this class does NOT assert. Cook records that neither man described himself as homosexual, Uranian or inverted, that neither alluded to sex between them, and that Ricketts's biographer J. G. P. Delaney reads Shannon as basically heterosexual on the strength of his affairs with women and his more-than-once contemplated marriage; Cook's own position is that \"Even if this couple did not have a sexual relationship (which is possible), that should not detract from the strength of their connection and intimacy\". The record here follows the README and declines to adjudicate sexual acts in either direction: what is evidenced, in the participants' own words, is a shared life of some forty-five years in which they never lived apart. Corroborated independently by Wilde's editors, who in 1900 print flatly that Ricketts \"lived for many years with Charles Hazlewood Shannon\". A candidate for uncorroborated it is not; a candidate for second-hand it would be only if the participants' papers were set aside.",
+  "start": {
+    "y": 1886
+  },
+  "end": {
+    "y": 1931
+  },
+  "date_label": "met 1882 at the City and Guilds Technical Art School, Lambeth; shared every home from 1886 until Ricketts's death on 7 October 1931; Shannon, left incapacitated by a fall in 1929, survived him until 1937",
+  "summary": "Charles Ricketts and Charles Shannon met as students in Lambeth in 1882, when Ricketts was sixteen and Shannon nineteen, and from 1886 shared every house they lived in: Kennington Park Road, Whistler's old house in The Vale in Chelsea, Beaufort Street, Spring Terrace in Richmond, a studio-flat at Lansdowne House in Kensington, Townshend House by Regent's Park, and Chilham Keep in Kent. They ran the Dial together from 1889 to 1897, ran the Vale Press, built one art collection between them, and were treated by their friends - Wilde, who nicknamed them Orchid and Marigold, and \"Michael Field\", who asked them to furnish a home for their marriage - as a pair. Shannon had affairs with women and more than once considered marrying; Ricketts had relationships with men. Neither man ever wrote down what the two of them were to each other in the vocabulary of sexual identity, and the surviving record of the partnership is domestic, financial and epistolary rather than confessional. After Shannon's crippling fall in 1929 Ricketts nursed him and wrote that the trial was \"small compared to the forty years of perfect companionship I have enjoyed\". Ricketts died in 1931; their collection went to the Fitzwilliam Museum, Cambridge.",
+  "sources": [
+    {
+      "quote": "Ricketts was nostalgic ('I now view old Vale work with a sort of affection, and the past seems flooded with sunlight') but also resigned: 'I realize that, viewed as a whole, this trial is small compared to the forty years of perfect companionship I have enjoyed.'",
+      "context": "Matt Cook, Queer Domesticities (2014), ch. 1, on the period after Shannon's 1929 fall left him brain-damaged. The words inside the single quotation marks are Ricketts's own, from his letters of these years; Cook's endnotes 150 and 151 carry the citations. This is the most explicit surviving first-hand characterisation of the partnership by either participant.",
+      "work": "cook-2014",
+      "locator": "p. 52",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1930
+      },
+      "supports": "Ricketts, in his own words, naming the relationship as forty years of companionship - participant testimony, and the basis of the self-reported class.",
+      "verification": "verified-exact",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF p. 65 read as a rendered page image 2026-08-03; printed folio 52 confirmed on the image (chapter-1 offset: printed = PDF - 13, NOT the -11 recorded in works.json for ch. 3). Superscript endnote markers 150 and 151 omitted as typography.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "modern"
+    },
+    {
+      "quote": "Ricketts wrote romantically from Florence: 'Dear Old Chap [...] At each meal time they plonk down a plate of strawberries which make me think of you – no, this is not quite accurate. I really think of the strawberries. Only when they are done, \"I think of thee.\"'",
+      "context": "Cook, Queer Domesticities (2014), ch. 1, in a run of quotations from the two men's letters and diaries. The bracketed ellipsis is Cook's, not ours. \"I think of thee\" is a quotation-within-the-quotation in Ricketts's letter. The addressee is Shannon.",
+      "work": "cook-2014",
+      "locator": "p. 48",
+      "locator_type": "page",
+      "evidence_date": null,
+      "supports": "Ricketts writing to Shannon in the register Cook calls romantic - participant testimony, one man to the other.",
+      "verification": "verified-exact",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF p. 61 read as a rendered page image 2026-08-03; printed folio 48 confirmed on the image. Superscript endnote marker 111 omitted as typography.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "modern"
+    },
+    {
+      "quote": "Both men talk in the plural: 'Captain Brinkley's sale. One of the greatest hauls of our lives', wrote Shannon in his diary in 1898; Ricketts added a note – an intimate act in itself – that 'both our banking accounts vanished in this sale'.",
+      "context": "Cook, Queer Domesticities (2014), ch. 1. The rare instance of Shannon's own voice on the partnership: his diary, and Ricketts writing into it. The same page carries Shannon writing to Ricketts in 1900 ('Remember my instructions about Calais … and mind you arm yourself with port').",
+      "work": "cook-2014",
+      "locator": "p. 48",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1898
+      },
+      "supports": "Both participants, in their own hands, treating money, purchases and life as jointly held.",
+      "verification": "verified-exact",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF p. 61 read as a rendered page image 2026-08-03; printed folio 48 confirmed on the image. Superscript endnote marker 114 omitted as typography.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "modern"
+    },
+    {
+      "quote": "Overall, this meant that in more than 40 years together – and between the housemates and the servants – the pair never lived alone. … Neither Shannon nor Ricketts described himself as homosexual, Uranian or inverted, nor did they allude to the sex they might have had together. Ricketts playfully refused to answer the questions of classicist John Addington Symonds on the subject, though in relaying the anecdote down the years he indicated an ease and a certain mischievousness about it. Instead, Shannon and Ricketts' bond and relationship was articulated by the men themselves and by their circle of friends in terms of their co-residence, their emotional, practical and aesthetic investment in their homes, their vast collection of art and antiques, and the artistic and design work that was closely identified with the places where they lived",
+      "context": "Cook, Queer Domesticities (2014), ch. 1, running from printed p. 33 across the page break to p. 34. The elision drops one sentence about middle-class privacy after World War II. Two things at once: the record of the partnership is the participants' own (\"articulated by the men themselves\"), and it is not a record of sexual identity or sexual acts, because neither man produced one.",
+      "work": "cook-2014",
+      "locator": "pp. 33-34",
+      "locator_type": "page",
+      "evidence_date": null,
+      "supports": "The classification warrant - the men themselves are the source - together with the explicit limit of what survives.",
+      "verification": "verified-elision",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF pp. 46-47 read as rendered page images 2026-08-03; printed folios 33 and 34 confirmed on the images. Superscript endnote markers 26, 27 omitted as typography; one intervening sentence elided with a spaced ellipsis.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "modern"
+    },
+    {
+      "quote": "Shannon had affairs with women and contemplated marriage on more than one occasion, giving Rickett's biographer J.G.P. Delaney cause to suggest that he was basically heterosexual. He makes sense of Shannon's (apparent) 'sacrifice' of the 'ordinary joys that his life with Ricketts denied him' through their joint and home-based passion for art and collecting. This does indeed help in understanding some of what energised and underpinned Shannon and Ricketts' relationship, but Delaney's fixing of Shannon and Ricketts' sexuality (as heterosexual and homosexual respectively) does scant justice to the intensity of their bond, or to how they and others perceived it. Even if this couple did not have a sexual relationship (which is possible), that should not detract from the strength of their connection and intimacy.",
+      "context": "Cook, Queer Domesticities (2014), ch. 1, engaging Ricketts's biographer J. G. P. Delaney (Charles Ricketts: A Biography, 1990). \"Rickett's\" is the printed spelling. This is the scholarship's own refusal to settle the sexual question, and the reason this record does not either.",
+      "work": "cook-2014",
+      "locator": "p. 34",
+      "locator_type": "page",
+      "evidence_date": null,
+      "supports": "That the sexual character of the partnership is disputed among specialists and unsettled - and that the connection itself is not.",
+      "verification": "verified-exact",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF p. 47 read as a rendered page image 2026-08-03; printed folio 34 confirmed on the image. Superscript endnote markers 30, 31 omitted as typography.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "modern"
+    },
+    {
+      "quote": "Charles De Sousy Ricketts (1866–1931), artist, writer, book and stage designer, lived for many years with Charles Hazlewood Shannon (1863–1937), first in a house (which had belonged to Whistler) in a Chelsea cul-de-sac called The Vale. … Together they ran a privately printed magazine called the Dial from 1889 to 1897. They sent a copy of the first issue (the British Library copy is stamped 21 August 1889) to Wilde, and this brought about their first meeting with him.",
+      "context": "Holland and Hart-Davis's identifying footnote (note 3) to Wilde's letter to W. Graham Robertson, [? August 1889], the letter in which Wilde reports that Ricketts \"seems very cultivated and interesting\". The note runs from printed p. 410 onto p. 411. The elision drops the two men's Royal Academy elections and the list of their designs for Wilde's books. This is the main-particulars note for both men in the Wilde apparatus, and it is independent of the Ricketts scholarship.",
+      "work": "letters-2000",
+      "locator": "pp. 410-411 n. 3",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1889
+      },
+      "supports": "Both men's dates and the shared household, stated as plain fact by Wilde's editors; and the date the pair entered Wilde's circle.",
+      "verification": "verified-elision",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF pp. 432-433 read as rendered page images 2026-08-03; printed folios 410 and 411 confirmed on the images (early offset +22). En-dashes as printed.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "modern"
+    },
+    {
+      "quote": "They had met at the City and Guilds Technical Art School in Lambeth when Ricketts was just sixteen and Shannon nineteen. They fell in love, and their relationship was to last the best part of half a century.",
+      "context": "Neil McKenna, The Secret Life of Oscar Wilde (2008 edn), on Wilde's first acquaintance with the pair in late August 1889. McKenna states the romance flatly and without a source note attached to the sentence; he is a non-participant, so this passage is second-hand corroboration, not the basis of the class. The same page records that \"Max Beerbohm was later to dub them 'the ladies of the Vale'\".",
+      "work": "mckenna-2008",
+      "locator": "PDF p. 190",
+      "locator_type": "page",
+      "evidence_date": null,
+      "supports": "A biographer's plain assertion that the two fell in love - the strongest such statement located so far, and the weakest kind of evidence in this record.",
+      "verification": "verified-exact",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF p. 190 read as a rendered page image 2026-08-03; no printed folio or running head on the page (ebook conversion), so the locator is the PDF page per the works.json instruction. The conversion renders opening single quotes as backticks; normalised to typographic quotation marks.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "modern"
+    },
+    {
+      "quote": "Also, they never lived apart. The unconventional relationship was speculated about, but even during the homophobic panic surrounding the Wilde trial, the discretion of their private lives and a lack of interest in sexually controversial themes in their art saved them from notoriety. It seems significant that the Uranian poet and activist John Addington Symonds (1840–1893) in the mid-Nineties was convinced of the fact that they were an item (Delaney 25). Diaries and letters have revealed that Ricketts was certainly homosexual, and that Shannon had affairs with female sitters. Recent scholarship on their shared involvement with the queer culture of their time may confirm the rumours of their being a romantic couple, if not an exclusive one (Cook passim).",
+      "context": "Koenraad Claes's Y90s biography of Shannon (2021), body paragraph 12. Claes names the evidence base - \"Diaries and letters\" - and hedges the romantic reading (\"may confirm the rumours\"), which is why the class here rests on the participants' papers rather than on the characterisation. Note the internal problem in Claes's own sentence: Symonds died in 1893, so \"the mid-Nineties\" cannot be right; the underlying citation is Delaney p. 25, unconsulted.",
+      "work": "claes-y90s-shannon-bio",
+      "locator": "para. 12",
+      "locator_type": "none",
+      "evidence_date": null,
+      "supports": "That the partnership was legible to contemporaries as a couple, and that the surviving evidence is the two men's own diaries and letters.",
+      "verification": "verified-exact",
+      "how_verified": "web",
+      "provenance": "https://1890s.ca/shannon_bio/ fetched (curl) and read in full 2026-08-03; quote sliced from the downloaded HTML, then whitespace artifacts introduced by stripping inline markup normalized to the printed reading. Paragraph number counts body paragraphs from the first, including the two block quotations.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "modern"
+    },
+    {
+      "quote": "My dear Boy, Shannon met with a bad accident a week ago and remained unconscious for four days and nights in the hands of three male nurses and two doctors. … Should all go well, and should we meet again, do not mention any of these facts to Shannon; he will probably never be told how dangerous his case has been. For the moment, my dear friend, don't ask me to write more. I am being well cared for, but have gone through a great deal during these tragic days.",
+      "context": "Ricketts's own letter after Shannon slipped from a ladder hanging a picture and struck his temple, January 1929. Shannon never fully recovered; Ricketts died in 1931. This is Ricketts in his own voice about Shannon, which is what the pointer asked for.",
+      "work": "ricketts-self-portrait-1939",
+      "locator": "OCR leaves 447-448 (letter to Cecil Lewis, Townshend House, 1929)",
+      "locator_type": "none",
+      "evidence_date": {
+        "y": 1929,
+        "m": 1
+      },
+      "supports": "Ricketts's own words about Shannon and their household, at first hand rather than through a historian's quotation.",
+      "verification": "unverified",
+      "how_verified": "repo-file",
+      "provenance": "Transcribed from the repo OCR dump, leaves 00000447-00000448. **NOT verified in the source, and cannot be**: the upload is per-leaf OCR text with no page images, and no scan of this volume exists on archive.org. Transcribed on Lovelle's explicit instruction (2026-08-04) that the OCR dump plus the blog 'will do'; the verification chip stays ⧖ because the OCR has not been checked against a printed page. The volume's running head at this point reads '1929] Byron : Shannon's accident'.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-04",
+      "voice": "period"
+    },
+    {
+      "work": "vancapelleveen-blog",
+      "locator": "post 325, 'Gay Pride', 18 October 2017",
+      "locator_type": "none",
+      "quote": "There are quite a few websites posting information on Charles Ricketts and Charles Shannon as a gay couple, which, historically and factually, poses a few problems of interpretation. … Shannon may have been gay in his early years, but eventually turned out to be a heterosexual, and his lithographs testify of that. … Presumption, projection, and suggestion may blossom as there is a lack of evidence.",
+      "context": "The dissent, from the co-editor of the forthcoming Brill Collected Letters and the leading Ricketts scholar. Recorded because it is the strongest published objection to reading the pair as a couple. Weigh it accordingly: the post cites no sources, and offers Shannon's lithographs as evidence of his sexuality.",
+      "verification": "verified-elision",
+      "how_verified": "web",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-04",
+      "supports": "A named scholarly objection to the couple reading - kept so the dissent is visible in the record rather than only the affirming sources.",
+      "provenance": "https://charlesricketts.blogspot.com/2017/10/325-gay-pride.html retrieved 2026-08-04 with a verbatim-quotation request; the three sentences are separated in the post and the ellipses mark that separation.",
+      "voice": "modern"
+    }
+  ]
+}

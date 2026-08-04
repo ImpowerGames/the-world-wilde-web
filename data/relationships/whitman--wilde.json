@@ -1,0 +1,118 @@
+{
+  "id": "whitman--wilde",
+  "people": [
+    "whitman",
+    "wilde"
+  ],
+  "certainty": "self-reported",
+  "certainty_status": "proposed",
+  "certainty_reasoning": "Parallel precedent is the Wilde-Ives edge (documented kiss, no sexual claim). (a) The kiss: 'The kiss of Walt Whitman is still on my lips' is transcribed from Richard Ellmann's 'Oscar Meets Walt' (NYRB, 3 Dec. 1987), read at the article page so far; Ellmann's prose attributes it as what Wilde 'would later tell George Ives' and places it at the parting of the second (early-May 1882) visit. The deeper traditional chain - Ives's diary, commonly printed in the source in McKenna 2003 and in Ellmann's 1988 biography - was NOT verified so far (both lending-only); the article's footnote text was unreachable. (b) The romantic reading is the editor's directed interpretation of a brief encounter: two documented afternoon visits in 1882, Wilde's 'There is no one in this wide great world of America whom I love and honour so much', and the reported parting kiss; no source read asserts sexual relations. (c) Whitman's side attests warm mutuality, not romance: his next-day Press account ('thee and thou' terms, the hand on his knee, 'a great big, splendid boy'), and his 1888 verdict handing Traubel the letter he had kept six years - 'both of us friends according each other a mutual respect.'",
+  "start": {
+    "y": 1882,
+    "m": 1,
+    "d": 18
+  },
+  "end": {
+    "y": 1882,
+    "m": 5
+  },
+  "date_label": "Two Camden visits, 1882: 18 Jan. (at Whitman's written invitation, taken by Stoddart) and 'early in May' (Ellmann; Stoddart absent) - the reported parting kiss attaches to the second; Wilde's letter between them postmarked 1 Mar. 1882.",
+  "summary": "On his American lecture tour Wilde twice spent an afternoon with Whitman in Camden - 18 January 1882 (elderberry wine downstairs, then milk punch and two hours' talk in the third-floor 'den') and again in early May. Whitman told the Philadelphia Press next day that they were on 'thee and thou' terms, that Wilde laid his hand on his knee, and that he 'seemed to me like a great big, splendid boy'; Wilde wrote him 'Before I leave America I must see you again. There is no one in this wide great world of America whom I love and honour so much', and later told George Ives that 'The kiss of Walt Whitman is still on my lips' (per Ellmann). Whitman kept the letter, and in 1888 gave it to Traubel with the verdict: 'both of us friends according each other a mutual respect.'",
+  "sources": [
+    {
+      "quote": "My dear dear Walt, Swinburne has just written to me to say as follows … There! You see how you remain in our hearts, and how simply and grandly Swinburne speaks of you, knowing you to be simple and grand yourself. … Before I leave America I must see you again. There is no one in this wide great world of America whom I love and honour so much. With warm affection, and honourable admiration",
+      "context": "Wilde to Walt Whitman, [Postmark 1 March 1882], [Postmark Chicago]; the letter relays Swinburne's admiration of Whitman and closes with Wilde's own declaration",
+      "work": "letters-2000",
+      "locator": "pp. 144-5",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1882,
+        "m": 3,
+        "d": 1
+      },
+      "supports": "Wilde's side after the January Camden visit: love-and-honour declaration and stated intent to visit again before leaving America",
+      "verification": "verified-elision",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF pages 167-168, printed folios 144 and 145 confirmed on rendered pages, read as page images 2026-08-03. Elisions skip the body of the quoted Swinburne letter and the request that Whitman send Swinburne his Essay on Poetry; fuller text in dossier.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "period"
+    },
+    {
+      "quote": "The great American poet (1819–92) was now living in Camden, New Jersey, a suburb of Philadelphia across the Delaware, where Wilde had been taken by Stoddart to see him on 18 January.",
+      "context": "Holland & Hart-Davis, editorial note on the letter to Whitman; first sentence of the note",
+      "work": "letters-2000",
+      "locator": "p. 144 n. 1",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1882,
+        "m": 1,
+        "d": 18
+      },
+      "supports": "The first Camden visit: 18 January 1882, Wilde taken by J. M. Stoddart. (The visit was at Whitman's invitation: 'I go to see Walt Whitman, at his invitation, tomorrow', Wilde to Mrs George Lewis, [17 January 1882], p. 128 - transcribed in dossier.)",
+      "verification": "verified-exact",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF page 167, printed folio 144 confirmed on rendered page, read as page image 2026-08-03.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "modern"
+    },
+    {
+      "quote": "\"Wilde and I drank a bottle of wine down stairs,\" he continued, \"and when we came up here, where we could be on 'thee and thou' terms, one of the first things I said was that I should call him 'Oscar;' 'I like that so much,' he answered, laying his hand on my knee. He seemed to me like a great big, splendid boy,\" said Whitman, stroking his silvery beard. \"He is so frank and outspoken, and manly. I don't see why such mocking things are written of him.\"",
+      "context": "Whitman interviewed at home by the Philadelphia Press the evening of the first visit; earlier in the piece: 'we had a jolly good time … I think him genuine, honest and manly'",
+      "work": "phila-press-1882-01-19",
+      "locator": "issue of 19 January 1882",
+      "locator_type": "none",
+      "evidence_date": {
+        "y": 1882,
+        "m": 1,
+        "d": 18
+      },
+      "supports": "Whitman's own next-day account of the first visit: first-name intimacy on 'thee and thou' terms, Wilde's hand on his knee, 'a great big, splendid boy'",
+      "verification": "verified-exact",
+      "how_verified": "web",
+      "provenance": "Whitman Archive item med.00534 ('Our transcription is based on a digital image of a microfilm copy of an original issue'), read in full via Wayback capture 20260113032354 of whitmanarchive.org/item/med.00534, page text extracted 2026-08-03. Exact against the Archive transcription; microfilm image not read. Fuller passage in dossier.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "period"
+    },
+    {
+      "quote": "W. gave me the Wilde letter. I thought he might say more about it. He said little: only this: \"It seems all straight and honest to me. I have been told a thousand times what Wilde is but I do not see why Wilde is not what he is and I am not what I am with both of us friends according each other a mutual respect. There is no parade in this note: it wears the simplest clothes—has no sunflower in its button hole—has in fact a cast of virgin simplicity, sincerity. Read it for yourself: see if the letter does not bear me out.\" He said nothing while I read.",
+      "context": "Traubel's entry for Sunday 9 September 1888: Whitman hands over Wilde's 1882 letter, kept six years; the envelope endorsed in his blue pencil 'from Oscar Wilde early in '82' (p. 288)",
+      "work": "traubel-wwc-2",
+      "locator": "vol. 2, p. 287",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1888,
+        "m": 9,
+        "d": 9
+      },
+      "supports": "Whitman's side, six years on: he preserved the letter and framed the bond as 'both of us friends according each other a mutual respect'",
+      "verification": "verified-exact",
+      "how_verified": "archive-org",
+      "provenance": "IA withwaltwhitmani0002unse_c4l4 (Rowman & Littlefield 1961 reprint; original copyright 1908), IIIF page images leaves 317-318, printed folios 287-288 and entry head 'Sunday, September, 9th, 1888.' confirmed on rendered pages, read 2026-08-03. Found via djvu.txt; transcription verified against the page images.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "period"
+    },
+    {
+      "quote": "He promised to see Whitman again, and did so early in May. This time Stoddart was not present, and the two could talk more freely. Their conversation has not survived, but their parting has. Wilde would later tell George Ives, a proselytizer for sexual deviation in the Nineties, that Whitman had made no effort to conceal his homosexuality from him, as he would do with John Addington Symonds. \"The kiss of Walt Whitman,\" Wilde said, \"is still on my lips.\"",
+      "context": "Ellmann on the second Camden visit and its parting; the passage carries his footnote marker 8, whose text is not retrievable on the article page",
+      "work": "ellmann-1987-nyrb",
+      "locator": "unpaginated online text",
+      "locator_type": "none",
+      "evidence_date": {
+        "y": 1882,
+        "m": 5
+      },
+      "supports": "The second visit ('early in May' 1882) and the reported parting kiss, with the attribution chain as Ellmann prints it: Wilde said it later to George Ives. Deeper chain (Ives diary; in the source prints in McKenna 2003 / Ellmann 1988 bio) unverified so far - see dossier pointer.",
+      "verification": "verified-exact",
+      "how_verified": "web",
+      "provenance": "nybooks.com/articles/1987/12/03/oscar-meets-walt/ HTML curl-fetched 2026-08-03; passage read directly in the raw extracted page text (article free on the site). Exact as the article prints it, ending before the footnote marker.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "modern"
+    }
+  ],
+  "prior_class": "romantic-nonsexual"
+}

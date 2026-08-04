@@ -1,0 +1,20 @@
+{
+  "id": "brown-faun",
+  "name": "A 'brown faun', Naples",
+  "sort_name": "Brown Faun, Naples",
+  "aka": [
+    "the wanton sylvan boy of Italy"
+  ],
+  "born": null,
+  "died": null,
+  "group": "liaisons",
+  "gender": "m",
+  "name_is_descriptor": true,
+  "bio": "One of the Neapolitans Wilde called 'my dear Neapolitans', and the one he singled out. He is known from a single sentence written to Leonard Smithers from Paris on 2 September 1900, three months before Wilde's death, after the group had gone home to Naples: Wilde misses 'that brown faun with his deep woodland eyes and his sensuous grace of limb', and says that the Egyptian waiter at the Cafe d'Egypte 'does not console me for the loss of the wanton sylvan boy of Italy'. Both phrases describe this same man. No name, age, occupation or date of meeting is recorded, and nothing else about him survives.",
+  "bio_note": "Sole source: Wilde to Leonard Smithers, [Postmark 2 September 1900], Paris; Complete Letters printed 1196 (repo PDF 1242), read on the rendered page 2026-08-04. The two epithets are one man, not two: the sentence sets the Egyptian against him - the Egyptian does not console Wilde for the loss of the boy he has just said he misses. He had previously been described inside the note on the Cafe d'Egypte waiter and deliberately not created; added as a person 2026-08-04 on Lovelle's instruction. PROVENANCE CAVEAT, from the editors' own footnote 1 to this letter: 'The text of this incomplete letter is taken from Forty Years in my Bookshop by W. T. Spencer (1923), corrected and supplemented by the American Art Association catalogue of 1 February 1928.' The heading carries no manuscript line, unlike the Ives letter lower on the same page ('MS Texas'), so this text descends from a printed memoir and a saleroom catalogue rather than a surviving manuscript, and the letter is incomplete. No age is stated and none is inferred. Where or when Wilde knew him is not stated either - only that the Neapolitans had returned to Naples by September 1900.",
+  "bio_sources": [
+    "letters-2000"
+  ],
+  "context_engagements": [],
+  "research_status": "phase-a"
+}

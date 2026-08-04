@@ -1,0 +1,62 @@
+{
+  "id": "georges--wilde",
+  "people": [
+    "georges",
+    "wilde"
+  ],
+  "certainty": "desire-expressed",
+  "direction": "wilde",
+  "outcome": "unknown",
+  "certainty_status": "proposed",
+  "certainty_reasoning": "The page gives an existing acquaintance ('A great friend of mine, a Paris boy called le petit Georges'), an arranged meeting Wilde has undertaken to keep ('I have promised to run over and see him'), and four clauses of physical praise. That is the same shape as rolla--wilde, which the corpus already classes desire-expressed - a man written to or promised in advance, described, and looked forward to, with nothing recorded of what happened - and it is classed the same way here for consistency as well as on its merits. Against the README bar, a reader who does not hold the coding hypothesis reads an older man promising to travel to see a beautiful young man and dwelling on his face; the desire is legible without the hypothesis, though the reading is this project's and no scholarly source was consulted. romantic-nonsexual was weighed: 'a great friend of mine' and the promise do imply contact from Georges's side, which is more mutuality than the rest of this tier offers. It was rejected because every expression of feeling on the page is Wilde's, because 'friend' is not documented courtship, and because the class displays as 'Romantic'. documented-sexual is unavailable - no first-person statement of sexual relations appears. Recorded exactly and without gloss, because it bears on how the connection should be read: Wilde says Georges 'is visiting Nice on speculative business', and the paragraph continues, on the following printed page, with a remark about combining romance with business; that continuation was not read in the source and is carried below as a pointer. Whether Georges was selling sex is not stated on the page read, and no such finding is entered here. Standing caveat for this tier: the record is one-sided by nature. These men left no papers; everything known is what Wilde wrote to a friend. An unrecorded outcome is not evidence of no outcome - here Wilde states an intention to go to Nice, and no letter read says whether he and Georges met.",
+  "start": {
+    "y": 1899,
+    "m": 1
+  },
+  "end": {
+    "y": 1899,
+    "m": 1
+  },
+  "date_label": "The intended meeting at Nice, announced in a letter postmarked 3 January 1899 from Napoule, for a trip 'tomorrow'. The friendship itself predates the letter - Wilde calls him a great friend and places him as a Paris boy - but no earlier date was verified in the source.",
+  "summary": "From Napoule at the start of January 1899, Wilde told Reginald Turner that Harold Mellor was arriving that day and that the two of them were going to Nice the next day, where a great friend of his, a Paris boy he called 'le petit Georges', was then staying and whom he had promised to see. The letter gives four clauses of physical description and says Georges was at Nice on speculative business. Nothing read records whether the meeting took place.",
+  "sources": [
+    {
+      "quote": "My friend, my new friend, Harold Mellor comes here today to stay at the hotel, and tomorrow we go to Nice, for the day. A great friend of mine, a Paris boy called le petit Georges, is now at Nice, and I have promised to run over and see him. He is like a very handsome Roman boy, dark, and bronze-like, with splendidly chiselled nose and mouth, and the tents of midnight are folded in his eyes; moons hide in their curtains. He is visiting Nice on speculative business.",
+      "context": "Wilde to Reginald Turner, [Postmark 3 January 1899], Hôtel des Bains, Napoule - the second paragraph of the letter, following the weather. 'le petit Georges' is italicised on the page. The paragraph continues past the last sentence quoted here onto printed 1118.",
+      "work": "letters-2000",
+      "locator": "p. 1117",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1899,
+        "m": 1,
+        "d": 3
+      },
+      "supports": "The whole of the verified record: an existing friendship, a promised meeting at Nice, Wilde's description of him, and the statement that he was at Nice on speculative business; no outcome recorded",
+      "verification": "verified-exact",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF page 1163, printed folio 1117 confirmed at the foot of the rendered page, read as page image 2026-08-03.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "period"
+    },
+    {
+      "quote": "A great friend of mine, a Paris boy called le petit Georges, is now at Nice, and I have promised to run over and see him. He is like a very handsome Roman boy, dark, and bronze-like, with splendidly chiselled nose and mouth, and the tents of midnight are folded in his eyes; moons hide in their curtains. He is visiting Nice on speculative business. It is beautiful, and encouraging, to find people who can combine romance with business – blend them indeed, and make them one.",
+      "context": "Wilde to Reginald Turner, postmark 3 January 1899, Hotel des Bains, Napoule. The sentence begun on p. 1117 completes on p. 1118.",
+      "work": "letters-2000",
+      "locator": "pp. 1117-1118",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1899,
+        "m": 1,
+        "d": 3
+      },
+      "supports": "How Wilde glosses Georges's 'speculative business' at Nice - the sentence completes on the following page and bears directly on how the connection should be read",
+      "verification": "verified-exact",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF pages 1163-1164, printed folios 1117 and 1118 read off the rendered pages; 'le petit Georges' is italic in the printed text., read as a page image 2026-08-03.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "period"
+    }
+  ]
+}

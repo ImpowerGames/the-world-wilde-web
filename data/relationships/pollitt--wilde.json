@@ -1,0 +1,126 @@
+{
+  "id": "pollitt--wilde",
+  "people": [
+    "pollitt",
+    "wilde"
+  ],
+  "certainty": "desire-expressed",
+  "direction": "wilde",
+  "outcome": "unknown",
+  "certainty_status": "proposed",
+  "certainty_reasoning": "Proposed on the primary record read in the source. FACTS FIRST: the editors state that four Wilde-to-Pollitt letters survive and that Wilde misspelt his name in all four (p. 1120 n. 2); no letter from Pollitt to Wilde is printed in this edition, so only one side of the exchange exists in the record. The two men appear never to have met during the correspondence: on 3 December 1898 Wilde takes the colour of Pollitt's hair on Ada Leverson's authority and says of a photograph 'not a bit like you, I am sure' (pp. 1106-07), and on 3 January 1899, having received two dissimilar photographs, he is still asking their mutual publisher Leonard Smithers 'What is he like?' (p. 1117). DIRECTION: Wilde's, and the anchor is his first letter - the request for a photograph is made by Wilde, unprompted, on 26 November 1898 (p. 1103), before any photograph is sent. This CORRECTS the earlier record dossier's reading of the 3 December letter as evidence that the photograph traffic was Pollitt-initiated. Across the four letters Wilde requests a photograph, thanks Pollitt for further ones and comments on his appearance in them, invites him to Paris while steering him away from his own hotel, and asks him to write. OUTCOME: unknown - Pollitt answered, sent at least four photographs, signed himself 'Jerome', kept the letters (now MS Princeton) and accepted inscribed presentation copies of the French Ballad of Reading Gaol and The Importance of Being Earnest, which is real reciprocity of a kind; but with no Pollitt text in evidence nothing shows what he understood himself to be answering, and no meeting is recorded. THE COUNTERVAILING READ, which the editor should weigh: the README warns that Wilde's epistolary extravagance is not by itself an edge, and the ANNOTATIONS-TRIAGE pass judged Pollitt 'context-engagement-worthy' rather than edge-worthy on exactly that ground. What lifts this above the ordinary Wilde flourish is narrow and should be named as such: a sustained request-and-comment pattern about a stranger's body, carried across the whole of a four-letter correspondence with a man he had never seen. If that reads to Lovelle as connoisseurship rather than desire, the correct disposition is no edge and a context engagement on wilde instead. desire-expressed edges are hidden by default on the map, so this sits in the lead pool, not the documented web.",
+  "start": {
+    "y": 1898,
+    "m": 11
+  },
+  "end": {
+    "y": 1899,
+    "m": 1
+  },
+  "date_label": "Four surviving letters, 26 November 1898 to 19 January 1899, all from Wilde in exile (Hotel d'Alsace, Paris, then Hotel des Bains, Napoule): [postmark 26 November 1898] p. 1103; 3 December 1898 pp. 1106-07; [postmark of receipt 31 December 1898] pp. 1115-16; [postmark 19 January 1899] p. 1120. The General Index also lists an unannotated mention at printed 1103. No meeting is recorded at any point.",
+  "summary": "Between November 1898 and January 1899 Wilde wrote four surviving letters to Herbert Charles Pollitt - 'Jerome' to his friends, a Kendal-born Cambridge man who had danced ballet as an amateur undergraduate and collected Beardsley drawings from Wilde's own publisher. Wilde opened the correspondence by asking outright for a photograph of him; Pollitt sent two, then more, and Wilde spent much of the remaining three letters comparing them, preferring the one in the Norfolk suit, dismissing a Hollyer portrait as unlike him, and pronouncing a later one in a Coan robe - the editors gloss the word as transparent - most becoming. He carried the Norfolk-suit photograph with him to the Riviera and told Pollitt he looked for him daily. The two never met: as late as January 1899, holding two photographs that did not resemble each other, Wilde was reduced to asking Leonard Smithers what Pollitt was actually like. In the last of the letters Wilde teased him about the spelling of his own name; the editors note drily that it was Wilde who had it wrong, in all four.",
+  "sources": [
+    {
+      "quote": "Wilde spelt it wrong in all the four surviving letters (see note 1, p.1116).",
+      "context": "Holland & Hart-Davis, editorial note (n. 2) keyed to the closing line of Wilde to H. C. Pollitt, [postmark 19 January 1899], in which Wilde had asked Pollitt whether he was sure he spelt his own name right. The cross-referenced note 1 at p. 1116 supplies the misspelt address.",
+      "work": "letters-2000",
+      "locator": "p. 1120 n. 2",
+      "locator_type": "page",
+      "evidence_date": null,
+      "supports": "The size of the surviving corpus - four Wilde-to-Pollitt letters - and the editors' correction of the misspelling to Wilde's account rather than Pollitt's",
+      "verification": "verified-exact",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF page 1166, printed folio 1120 confirmed on the rendered page, read as page image 2026-08-03. Whole footnote.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "modern"
+    },
+    {
+      "quote": "This letter is addressed 'M. Jerome Pollit, The Green Window, Kendal, Lake-Poet-District'.",
+      "context": "Holland & Hart-Davis, editorial note (n. 1) at the foot of printed 1116, keyed to Wilde's question about the Green Window in the letter of [postmark of receipt 31 December 1898]; the note opens by cross-referring to note 1 at p. 1107, which states that Pollitt's Kendal home was called The Green Window.",
+      "work": "letters-2000",
+      "locator": "p. 1116 n. 1",
+      "locator_type": "page",
+      "evidence_date": null,
+      "supports": "The misspelling itself, as Wilde wrote it on the envelope - 'Pollit' for 'Pollitt' - and the fact that Wilde addressed him by the preferred Christian name Jerome at his Kendal house",
+      "verification": "verified-exact",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF page 1162, printed folio 1116 confirmed on the rendered page, read as page image 2026-08-03. Second sentence of the two-sentence footnote; the first sentence is the cross-reference.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "modern"
+    },
+    {
+      "quote": "How is Pollitt? He has sent me two photographs of himself: in one he is fair, in the other dark; and neither resembles the other. What is he like?",
+      "context": "Wilde to Leonard Smithers, [postmark 3 January 1899], Hotel des Bains, Napoule; the closing lines of the letter, immediately before 'Ever yours OSCAR'. Heading as printed: 'To Leonard Smithers / MS Princeton'. 'is' italic in the original.",
+      "work": "letters-2000",
+      "locator": "p. 1117",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1899,
+        "m": 1,
+        "d": 3
+      },
+      "supports": "THE CLASS-DECIDING FACT: five weeks into the correspondence and holding two photographs, Wilde still had to ask a third party what Pollitt looked like - the two had not met",
+      "verification": "verified-exact",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF page 1163, printed folio 1117 confirmed on the rendered page, read as page image 2026-08-03.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "period"
+    },
+    {
+      "quote": "Dear Mr Pollitt, I should like a photograph of you, of all things. Pray let me have one.",
+      "context": "Wilde to H. C. Pollitt, [postmark 26 November 1898], Hotel d'Alsace [Paris]; the opening of the first of the four surviving letters. Heading as printed: 'To H. C. Pollitt / MS Princeton'. Signed 'Sincerely yours OSCAR WILDE'. The rest of the letter concerns customs duty on photographs, the forthcoming Importance of Being Earnest, Wilde's shortage of money, and a joke on the name Jerome and St Jerome's lion.",
+      "work": "letters-2000",
+      "locator": "p. 1103",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1898,
+        "m": 11,
+        "d": 26
+      },
+      "supports": "THE DIRECTION-DECIDING FACT: the photograph traffic is opened by Wilde, unprompted, in the first letter - correcting the earlier record dossier's note that it was Pollitt-initiated",
+      "verification": "verified-exact",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF page 1149, printed folio 1103 confirmed on the rendered page, read as page image 2026-08-03.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "period"
+    },
+    {
+      "quote": "Pollitt's Kendal home was called The Green Window.",
+      "context": "Holland & Hart-Davis, editorial note (n. 1) at printed 1107, keyed to Wilde's instruction in the letter of 3 December 1898 that Pollitt bring a green window with him. The same letter's editorial apparatus (n. 3 at 1106) identifies Frederick Hollyer, 1837-1933, the fine-art photographer who took the portrait Wilde disliked and who had photographed Constance and Cyril Wilde.",
+      "work": "letters-2000",
+      "locator": "p. 1107 n. 1",
+      "locator_type": "page",
+      "evidence_date": null,
+      "supports": "The Green Window as a real house rather than a conceit - the running private reference in the correspondence",
+      "verification": "verified-exact",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF page 1153, printed folio 1107 confirmed on the rendered page, read as page image 2026-08-03; carried forward with its original provenance.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "modern"
+    },
+    {
+      "quote": "Dear Mr Pollitt, Thank you so much for the two photographs you have so kindly sent me. I like the little one, in the Norfolk suit, best: it looks young and nice: the other, the one by Hollyer, looks to me like the portrait of an Oxford Dean – troubled and affected and ineffectual: not a bit like you, I am sure. Mrs Leverson, a recognised authority for the colour of young men's hair, assured me you were quite golden, and I have always thought of you as a sort of gilt sunbeam masquerading in clothes, but, no doubt, you are Protean, and have many forms. When you come to Paris pray be golden entirely, and leave your more serious aspect in charge of Smithers, who needs, indeed, some stern monitor for his manner of living.",
+      "context": "Wilde to H. C. Pollitt, 3 December 1898, Paris - the opening of the letter, answering two photographs Pollitt had sent.",
+      "work": "letters-2000",
+      "locator": "pp. 1106-1107",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1898,
+        "m": 12,
+        "d": 3
+      },
+      "supports": "The sustained request-and-comment pattern on which the direction rests; recorded as description because the passages are the flirtatious core of the correspondence",
+      "verification": "verified-exact",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF pages 1152-1153, printed folios 1106 and 1107 read off the rendered pages; the editors' footnote marker after 'Hollyer' is dropped., read as a page image 2026-08-03.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "period"
+    }
+  ]
+}

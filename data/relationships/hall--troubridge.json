@@ -1,0 +1,100 @@
+{
+  "id": "hall--troubridge",
+  "people": [
+    "hall",
+    "troubridge"
+  ],
+  "certainty": "second-hand",
+  "certainty_status": "proposed",
+  "certainty_reasoning": "Same reasoning as batten--hall: the sentence read is the Ransom Center's own biographical sketch, uncited per claim. The participant record here is unusually large - Troubridge's 131 volumes of diaries and her memoir The Life and Death of Radclyffe Hall (1961), both at or from the Ransom Center - so this is a strong candidate to become self-reported on a later pass; pointers recorded. The finding aid's collection-level description independently calls Troubridge Hall's 'long-time partner', and the separation of the Troubridge marriage 'because of Una's relationship with Radclyffe Hall' is stated as fact.",
+  "start": {
+    "y": 1915
+  },
+  "end": {
+    "y": 1943
+  },
+  "date_label": "met 1915; partners until Hall's death on 7 October 1943",
+  "summary": "Una Troubridge, a sculptor and translator and Mabel Batten's cousin, met Radclyffe Hall in 1915 and the two became lifelong partners. Troubridge's marriage to the naval officer Sir Ernest Troubridge ended in separation by 1919, the Ransom Center's sketch states, because of the relationship with Hall. The partnership lasted until Hall's death in 1943 and survived Hall's long affair with the Russian nurse Evguenia Souline in her last nine years, which the same sketch records Troubridge as tolerating despite the unhappiness it caused her. Troubridge afterwards wrote The Life and Death of Radclyffe Hall (1961) and left 131 volumes of diaries.",
+  "sources": [
+    {
+      "quote": "Batten's cousin, the sculptor and translator Una Troubridge (1887-1963), met Hall in 1915 and the two soon became lifelong partners.",
+      "context": "The Harry Ransom Center's Biographical Sketch in the finding aid to the Hall and Troubridge papers (eadid 00163). The collection-level Scope and Contents note separately describes Troubridge as Hall's 'long-time partner'. Apostrophes rendered straight, as in the source HTML.",
+      "work": "hrc-hall-troubridge-fa",
+      "locator": "Biographical Sketch",
+      "locator_type": "none",
+      "evidence_date": {
+        "y": 1915
+      },
+      "supports": "The meeting date, the partnership, and the Batten-Troubridge kinship that links the two Hall records.",
+      "verification": "verified-exact",
+      "how_verified": "web",
+      "provenance": "https://norman.hrc.utexas.edu/fasearch/findingAid.cfm?eadid=00163 fetched (curl) and read in full 2026-08-03; quote sliced byte-exact from the downloaded HTML, then whitespace artifacts introduced by stripping inline markup (spaces around quotation marks, italic titles and punctuation) normalized to the printed reading.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "modern"
+    },
+    {
+      "quote": "She married naval officer Sir Ernest Troubridge (1862-1926) in 1908, soon after the death of her father. The Troubridges had one daughter, Andrea, in 1910, but were separated by 1919 because of Una's relationship with Radclyffe Hall.",
+      "context": "The same finding aid, under 'Una Vincenzo, Lady Troubridge (1887-1963)'. The Ransom Center states the cause of the marital separation without hedging.",
+      "work": "hrc-hall-troubridge-fa",
+      "locator": "Biographical Sketch",
+      "locator_type": "none",
+      "evidence_date": {
+        "y": 1919
+      },
+      "supports": "That the relationship with Hall ended Troubridge's marriage - a consequence recorded as fact by the holding archive.",
+      "verification": "verified-exact",
+      "how_verified": "web",
+      "provenance": "https://norman.hrc.utexas.edu/fasearch/findingAid.cfm?eadid=00163 fetched (curl) and read in full 2026-08-03; quote sliced byte-exact from the downloaded HTML, then whitespace artifacts introduced by stripping inline markup (spaces around quotation marks, italic titles and punctuation) normalized to the printed reading.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "modern"
+    },
+    {
+      "quote": "During the last nine years of her life, Hall had an affair with a Russian nurse named Evguenia Souline (1904-1958?), tolerated by Troubridge despite the unhappiness it caused her.",
+      "context": "The same sketch. Souline is off-roster and gets no node; the sentence is kept because it bears on this pair - the partnership's shape in its last decade.",
+      "work": "hrc-hall-troubridge-fa",
+      "locator": "Biographical Sketch",
+      "locator_type": "none",
+      "evidence_date": null,
+      "supports": "That the Hall-Troubridge partnership continued through, and accommodated, Hall's affair with Evguenia Souline.",
+      "verification": "verified-exact",
+      "how_verified": "web",
+      "provenance": "https://norman.hrc.utexas.edu/fasearch/findingAid.cfm?eadid=00163 fetched (curl) and read in full 2026-08-03; quote sliced byte-exact from the downloaded HTML, then whitespace artifacts introduced by stripping inline markup (spaces around quotation marks, italic titles and punctuation) normalized to the printed reading.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "modern"
+    },
+    {
+      "quote": "Life with John was by no means always easy, but her variety was infinite and it was always interesting. If I knew discouragement, weariness and exasperation throughout the twenty-eight years that we were together I never knew boredom. … That is why life is so dull without her. That is why when at last her overtaxed body gave out and she could drive it no longer and she went to God for rest, I found that I had lost my occupation as well as my infinitely beloved companion.",
+      "context": "Troubridge's own retrospect, written after Hall's death in 1943. 'John' is Hall. They met on 1 August 1915 - a date Troubridge marks as the point where 'the story becomes also my own story' (printed 54).",
+      "work": "troubridge-1961-life-and-death",
+      "locator": "p. 139",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1943
+      },
+      "supports": "Troubridge's first-person account of the relationship.",
+      "verification": "verified-elision",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF page 137, printed folio 139 confirmed at the foot of the rendered page, read as a page image 2026-08-04. 'dull' is italicised in the printed text..",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-04",
+      "voice": "period"
+    },
+    {
+      "quote": "",
+      "context": "Troubridge's diaries, 131 volumes (1930-1951) at the Harry Ransom Center, plus 8 further boxes - the largest body of participant testimony about this pair. Archival, not consulted.",
+      "work": "troubridge-diaries-hrc",
+      "locator": "Series II and III (eadid 00163)",
+      "locator_type": "page",
+      "evidence_date": null,
+      "supports": "Day-by-day participant record of the partnership.",
+      "verification": "unverified",
+      "how_verified": "unverified",
+      "provenance": "",
+      "verified_by": null,
+      "verified_on": null
+    }
+  ]
+}

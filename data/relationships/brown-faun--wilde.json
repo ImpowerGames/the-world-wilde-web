@@ -1,0 +1,43 @@
+{
+  "id": "brown-faun--wilde",
+  "people": [
+    "brown-faun",
+    "wilde"
+  ],
+  "certainty": "self-reported",
+  "certainty_status": "proposed",
+  "start": {
+    "y": 1900,
+    "circa": true
+  },
+  "end": {
+    "y": 1900,
+    "m": 9
+  },
+  "date_label": "known only from a letter of 2 September 1900, by which time he had returned to Naples; when and where Wilde knew him is not stated",
+  "direction": null,
+  "outcome": null,
+  "summary": "Wilde called him one of 'my dear Neapolitans' and said he missed him after the group went home. The whole of the record is one sentence in a letter to his publisher, in which he weighs a waiter in Paris against him and finds the waiter no consolation.",
+  "certainty_reasoning": "Self-reported: Wilde is one of the two people and the words are his own. Note the distinction from the Cafe d'Egypte waiter, who appears in the very same sentence and is classified desire-expressed: of the Egyptian, Wilde records only that he serves him drinks and what he looks like, which is admiration at a distance; of this man he writes 'my dear Neapolitans' and 'I miss', and calls his going a 'loss' - the language of an association that existed and ended, not of an approach made. No act is described and none is claimed here, and the erotic register is entirely Wilde's own: a faun, deep woodland eyes, sensuous grace of limb, wanton and sylvan. That register is the evidence; there is nothing else.",
+  "sources": [
+    {
+      "work": "letters-2000",
+      "locator": "p. 1196",
+      "locator_type": "page",
+      "quote": "Is there any chance of your being in Paris? My dear Neapolitans have returned to Naples and I miss that brown faun with his deep woodland eyes and his sensuous grace of limb. A slim brown Egyptian, rather like a handsome bamboo walking-stick, occasionally serves me drinks at the Cafe d'Egypte, but he does not console me for the loss of the wanton sylvan boy of Italy.",
+      "context": "Wilde to Leonard Smithers, [Postmark 2 September 1900], Paris - three months before his death. The same sentence introduces the Cafe d'Egypte waiter, who has his own entry; the two are different men, and the sentence turns on the contrast between them.",
+      "evidence_date": {
+        "y": 1900,
+        "m": 9,
+        "d": 2
+      },
+      "supports": "The association and its ending, in Wilde's own words, and the terms he describes him in.",
+      "verification": "verified-exact",
+      "how_verified": "pdf-at-page",
+      "voice": "period",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-04",
+      "provenance": "Repo PDF page 1242, printed folio 1196 confirmed at the foot of the rendered page, read as a page image 2026-08-04. 'Cafe d'Egypte' carries an acute accent in the printed text; accents normalised here. The letter is incomplete and descends from a printed memoir and a saleroom catalogue rather than a manuscript - see the editors' footnote 1 on the same page."
+    }
+  ]
+}

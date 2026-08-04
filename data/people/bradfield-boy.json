@@ -1,0 +1,18 @@
+{
+  "id": "bradfield-boy",
+  "name": "An actor, Bradfield",
+  "sort_name": "Actor, Bradfield",
+  "aka": [],
+  "born": null,
+  "died": null,
+  "group": "liaisons",
+  "gender": "m",
+  "bio": "A performer in the Greek play at Bradfield College in 1898, whom John Fothergill watched from the audience and then wrote to. The record preserves no name and no age. Fothergill's memoir calls him only 'a boy on the stage' and, sixty years later, 'that boy' - and 'boy' in this period was used of grown men as readily as of children, so nothing about his age follows from it. Fothergill bought a photograph of the cast with him in the middle, wrote to him the same night on hotel notepaper, and had two letters back before a firm of solicitors intervened and raised the police. The memoir closes the episode by noting that he much later saw the man mentioned 'in some official capacity; he too had retired.'",
+  "bio_sources": [
+    "Sox, Bachelors of Art (1991), pp. 142-143, quoting Fothergill's unpublished memoir"
+  ],
+  "bio_note": "From Fothergill's memoir as printed in Sox, printed pp. 142-143 (repo PDF 158-159), folios confirmed and read as page images 2026-08-03. **No age is recorded and none is inferred.** He was called 'A schoolboy actor' here until 2026-08-04, which was an inference from the venue rather than anything the source says, and it contradicted this note; corrected to 'An actor' on Lovelle's reading that 'boy' was period usage for a man of any age. Sox's passage describes a Greek play at a school but never identifies him as a pupil. No name, and no birth or death date in any source consulted. The year 1898 is fixed by Sox's next paragraph, 'It was also the same year - 1898 -'.",
+  "context_engagements": [],
+  "research_status": "phase-a",
+  "name_is_descriptor": true
+}

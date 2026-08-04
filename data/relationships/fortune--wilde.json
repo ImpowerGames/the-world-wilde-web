@@ -1,0 +1,43 @@
+{
+  "id": "fortune--wilde",
+  "people": [
+    "fortune",
+    "wilde"
+  ],
+  "certainty": "desire-expressed",
+  "direction": "wilde",
+  "outcome": "unknown",
+  "certainty_status": "proposed",
+  "certainty_reasoning": "Identical evidence to raphael--wilde, and classified the same way for the same reasons: one sentence names him as the second of Wilde's 'two special friends' at Napoule and calls both 'quite perfect, except that they can read and write', directly after Wilde has described the local fisher-folk as having 'beautiful eyes, crisp hair of a hyacinth colour, and no morals: an ideal race'. The erotic register is Wilde's own - 'no morals' is his flag, not the reader's inference - and a reader without the coding hypothesis still reads a man naming his two favourites within a population he has just praised for its amorality. The reading is this project's; no scholarly source was consulted. romantic-nonsexual was weighed and rejected as sharpening - the only mutuality on the page is the word 'friends', and that class displays as 'Romantic' - and documented-sexual has no first-person statement of sexual relations behind it. desire-expressed, direction 'wilde', outcome 'unknown', is proposed: the README's marked and hidden-by-default lead pool is the right weight class for this. Standing caveat for this tier: the record is one-sided by nature. These men left no papers; everything known is what Wilde wrote to a correspondent. An unrecorded outcome is not evidence of no outcome, and Fortuné's own account of the acquaintance does not exist.",
+  "start": {
+    "y": 1898,
+    "m": 12
+  },
+  "end": {
+    "y": 1898,
+    "m": 12
+  },
+  "date_label": "Stated in a letter the editors date [Circa 28 December 1898] from the Hôtel des Bains, Napoule. The letter does not say when the friendship began and no later letter read returns to it; the single-month span is the date of the evidence, not a claim about duration.",
+  "summary": "In the same December 1898 letter to Laurence Housman that names Raphael, Wilde named Fortuné as the second of his two special friends among the Napoule fisher-folk - 'both quite perfect, except that they can read and write'. That sentence is the whole of the record for him: no surname, no age, no occupation stated, no second mention anywhere in the correspondence read.",
+  "sources": [
+    {
+      "quote": "The people here – fisher-folk all – have beautiful eyes, crisp hair of a hyacinth colour, and no morals: an ideal race. I have two special friends, one called Raphael, the other Fortuné – both quite perfect, except that they can read and write.",
+      "context": "Wilde to Laurence Housman, [Circa 28 December 1898], Hôtel des Bains, Napoule - the third paragraph of a four-paragraph letter that opens on the pinewoods and thanks Housman for a drawing.",
+      "work": "letters-2000",
+      "locator": "p. 1113",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1898,
+        "m": 12,
+        "d": 28
+      },
+      "supports": "The whole of the record for Fortuné: named as the second of Wilde's two special friends among the Napoule fisher-folk, called quite perfect, with no outcome recorded",
+      "verification": "verified-exact",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF page 1159, printed folio 1113 confirmed at the foot of the rendered page, read as page image 2026-08-03.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "period"
+    }
+  ]
+}

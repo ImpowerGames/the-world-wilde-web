@@ -1,0 +1,40 @@
+{
+  "id": "didaco--wilde",
+  "people": [
+    "didaco",
+    "wilde"
+  ],
+  "certainty": "self-reported",
+  "certainty_status": "proposed",
+  "certainty_reasoning": "First-person primary evidence by a participant - Wilde's own account to Reginald Turner - but what it attests in plain words is love and three days of company: 'a beautiful young actor, a Florentine, whom I wildly loved … We spent three days together.' That is short of the documented-sexual bar, which requires sexual relations attested. A reader holding the coding hypothesis will read 'We spent three days together', in the exile letters to Turner, as reporting a sexual liaison; that is a reading, and it is this project's, not the editors' - no scholarly source was consulted, so consensus is unavailable. desire-expressed is defined as an approach or declaration and not a relationship, which fits badly: three days together is more than an approach and the outcome is not unknown. romantic-nonsexual is therefore proposed, per the README gloss that 'nonsexual' describes the evidence and not a finding of fact. One-sidedness caveat: the recorded affect is Wilde's ('whom I wildly loved'); Didaco's side is nowhere recorded, and the only mutual element in the text is conduct - 'We spent three days together.'",
+  "start": {
+    "y": 1899
+  },
+  "end": {
+    "y": 1899
+  },
+  "date_label": "Three days at Genoa, on Wilde's journey from the Riviera into Switzerland, recounted in a letter postmarked 20 March 1899 from Gland. The letter dates neither the stop nor the days; the February 1899 placing of that journey is an itinerary inference, not read in the source.",
+  "summary": "On his way from the Riviera to Harold Mellor's villa at Gland, Wilde broke his journey at Genoa and met a young Florentine actor named Didaco, with whom he spent three days. He reported it to Reginald Turner in a letter postmarked 20 March 1899 - a named, dated, first-person-attested liaison of the exile years, and one of the few for which Wilde records the other man's name. Nothing further about Didaco survives in the correspondence read: the letter ends on the following printed page with no second mention.",
+  "sources": [
+    {
+      "quote": "On my way I stopped at Genoa, where I met a beautiful young actor, a Florentine, whom I wildly loved. He has the strange name of Didaco. He had the look of Romeo, without Romeo's sadness: a face chiselled for high romance. We spent three days together.",
+      "context": "Wilde to Reginald Turner, [postmark 20 March 1899], Gland, Switzerland - the closing paragraph on the printed page; the letter continues onto printed 1133 and ends there without returning to Didaco.",
+      "work": "letters-2000",
+      "locator": "p. 1132",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1899,
+        "m": 3,
+        "d": 20
+      },
+      "supports": "The whole of the record: Wilde's account of meeting Didaco at Genoa, of loving him, and of three days spent together",
+      "verification": "verified-exact",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF page 1178, printed folio 1132 confirmed on rendered page, read as page image 2026-08-03.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "period"
+    }
+  ],
+  "prior_class": "romantic-nonsexual"
+}

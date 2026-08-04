@@ -1,0 +1,24 @@
+{
+  "id": "scarfe",
+  "name": "Ernest Scarfe",
+  "sort_name": "Scarfe, Ernest",
+  "aka": [
+    "Ernesto"
+  ],
+  "born": null,
+  "died": null,
+  "gender": "m",
+  "group": "trials",
+  "bio": "A valet's son and sometime valet, 'a young man of about twenty' by Wilde's sworn estimate, who went out to the Australian gold-diggings in 1893 — meeting Lord Douglas of Hawick, Bosie's elder brother, on the voyage — and returned to a clerkship in St Paul's Churchyard. He knew Taylor from the Knightsbridge Skating Rink; Taylor introduced him to Wilde at 10 St James's Place, where the waiter counted five or six visits, and he dined alone with Wilde and received the customary £4 cigarette case, last dining with him at the Avondale Hotel in February 1895. Queensberry's plea alleged solicitation and gross indecency at St James's Place (Oct 1893-Apr 1894); Scarfe was never called and no charge was ever laid; a begging letter from 'Ernesto' that Wilde mentions to Douglas in mid-1894 is tentatively identified with him by the Letters editors.",
+  "bio_sources": [
+    "Wilde's libel-trial cross-examination, Hyde, Trials (1948), pp. 148-149, 152 (djvu OCR)",
+    "Taylor's testimony, Hyde, Trials (1948), p. 286 (IIIF page image 2026-08-03)",
+    "Thomas Price's testimony, Hyde, Trials (1948), pp. 205-206 (djvu OCR)",
+    "Hyde, Trials (1948), Introduction p. 47 n (the Hawick voyage acquaintance, 1893; djvu OCR)",
+    "Queensberry's plea, Hyde, Trials (1948), p. 343 (IIIF page image 2026-08-03)",
+    "Holland & Hart-Davis, editorial note, Complete Letters (2000), p. 598 n 2 ('Possibly Ernest Scarfe, a valet'; read at rendered PDF p. 650, 2026-08-03)"
+  ],
+  "bio_note": "No birth/death dates found in sources read so far ('about twenty' is Wilde's estimate, April 1895, of the 1893-94 acquaintance). Taylor's account has Scarfe introducing HIM to Marling at the Skating Rink; Wilde's has Taylor introducing Scarfe to Lord Alfred Douglas at a skating rink — the introductions run in both directions in the record and are left unreconciled. DATES: NOT FOUND; RECORDED AS UNRECOVERED FROM THE SOURCES CONSULTED (2026-08-03). Scarfe was never called as a witness, so there is no sworn age for him at all - the 'about twenty' already recorded is Wilde's estimate under cross-examination in April 1895 ('He is a young man of about twenty, of no occupation. He had been in Australia at the gold-diggings'). The Complete Letters editors do not identify him beyond a hesitant footnote: the recipient of an 1894 letter is glossed 'Possibly Ernest Scarfe, a valet (see Trials, pp.148-9)' - located in the OCR mirror at repo PDF 650 (printed folio around 598, NOT confirmed in the source) - and the General Index entry is the cross-reference 'Ernesto see Scarfe, Ernest'. SWEEP FOR DATES, 2026-08-03 (what was searched): the Complete Letters (2000) OCR mirror plus the General Index; McKenna, The Secret Life of Oscar Wilde (2008), repo PDF; Murray, Bosie (2020), repo PDF; Frankel, The Unrepentant Years (2017), repo PDF; Hyde, The Trials of Oscar Wilde, in the Internet Archive copy (item in.ernet.dli.2015.499238, OCR text downloaded and searched, key pages then read as page images); and the open web. No birth or death date is recorded in any source consulted.",
+  "context_engagements": [],
+  "research_status": "phase-a"
+}

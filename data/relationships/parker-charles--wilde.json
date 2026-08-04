@@ -1,0 +1,149 @@
+{
+  "id": "parker-charles--wilde",
+  "people": [
+    "parker-charles",
+    "wilde"
+  ],
+  "certainty": "self-reported",
+  "certainty_status": "proposed",
+  "certainty_reasoning": "Charles Parker's sworn first-person testimony at the April 1895 trial describes Wilde committing sodomy at the Savoy on their first and second meetings and continued relations at Chapel Street, Park Walk, Tite Street and St James's Place. At the final trial (25 May 1895) the jury convicted Wilde on the four Charles Parker counts (1, 4, 5, 6). Parker was an admitted participant in a separate blackmail affair (£30 from Wood and Allen's extortion), which bears on credibility and is recorded in the dossier; the conviction and the repeated sworn testimony nonetheless make this the evidence class the taxonomy defines as documented-sexual.",
+  "start": {
+    "y": 1893,
+    "m": 3,
+    "circa": true
+  },
+  "end": {
+    "y": 1894,
+    "circa": true
+  },
+  "date_label": "March 1893 – mid-1894",
+  "summary": "Taylor picked up the unemployed valet Charles Parker (21 at trial) and his brother at the St James's Restaurant bar early in 1893 and introduced them to Wilde over a private dinner in Rupert Street; Wilde took Charles to the Savoy that night. Parker's testimony describes sexual relations there and afterwards at Taylor's Chapel Street rooms, Parker's Park Walk lodging, Tite Street and St James's Place, with money and presents (silver cigarette case, gold ring). Wilde was convicted on all four Parker counts at the final trial.",
+  "sources": [
+    {
+      "quote": "Where did you first meet Wilde?—Taylor asked us to visit him (Taylor) next day at Little College Street. We went the next morning. He said he could introduce us to a man who was good for plenty of money, and that we were to meet him (Taylor) at the St. James's bar. We went the next evening to the St. James's and saw Taylor there. He took us to a restaurant in Rupert Street. I think it was the Solferino. We were shown upstairs to a private room, in which there was a dinner table laid for four. After a while Wilde came in and I was formally introduced. I had never seen him before, but I had heard of him. We dined about eight o'clock. We all four sat down to dinner, Wilde sitting on my left. Who made the fourth?—My brother, William Parker. I had promised Taylor that he should accompany me. Was the dinner a good dinner?—Yes. The table was lighted with red-shaded candles. We had plenty of champagne with our dinner and brandy and coffee afterwards. We all partook of it. Wilde paid for the dinner. Of what nature was the conversation?—General, at first. Nothing was then said as to the purposes for which we had come together. And then?—Subsequently Wilde said to me. \"This is the boy for me! Will you go to the Savoy Hotel with me?\" I consented, and Wilde drove me in a cab to the hotel. Only he and I went, leaving my brother and Taylor behind.",
+      "context": "Charles Parker's examination-in-chief by Mr. C. F. Gill, Regina v. Wilde and Taylor, 26 April 1895 - the whole account of the first meeting, from Taylor's brokering to the cab to the Savoy. The full stop after 'Wilde said to me.' is as Hyde prints it.",
+      "work": "hyde-trials-1948",
+      "locator": "p. 192",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1895,
+        "m": 4
+      },
+      "supports": "How the two men met, in the participant's own sworn words: Taylor's promise of 'a man who was good for plenty of money', the private room at the Solferino, the formal introduction, the dinner for four that Wilde paid for, and Wilde's own words as Parker reports them - 'This is the boy for me! Will you go to the Savoy Hotel with me?' The plainest first-hand characterization of the connection, chosen in preference to the act evidence on the following page.",
+      "verification": "verified-exact",
+      "how_verified": "archive-org",
+      "provenance": "IA in.ernet.dli.2015.499238, leaf 230 (printed p. 192, folio in the source foot), read as IIIF page image 2026-08-03; the 'said to me.' full stop and the 'boy for me!' exclamation confirmed at 2.4x zoom on the page image. No elisions.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "period"
+    },
+    {
+      "quote": "Charles Parker, examined by Mr. C. F. Gill—I am 21 years of age. I have a brother, William. I have been engaged as a valet and my brother as a groom. At the beginning of 1893 I was out of employment. I remember one day at that time being with my brother at the St. James's Restaurant, in the bar. While there Taylor came up and spoke to us. He was an entire stranger. He passed the compliments of the day, and asked us to have a drink. We got into conversation with him. He spoke about men.",
+      "context": "Charles Parker's examination-in-chief, Regina v. Wilde and Taylor, first day, 26 April 1895",
+      "work": "hyde-trials-1948",
+      "locator": "p. 191",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1895,
+        "m": 4
+      },
+      "supports": "Parker's age, occupation, and Taylor's pick-up of the brothers at the St James's Restaurant bar, early 1893",
+      "verification": "verified-exact",
+      "how_verified": "archive-org",
+      "provenance": "IA in.ernet.dli.2015.499238, leaf 229 (printed p. 191), read as IIIF page image 2026-08-03",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "period"
+    },
+    {
+      "quote": "Let us know what occurred there?—He committed the act of sodomy upon me. With your consent?—[Witness did not reply.] Did Wilde give you any money on that occasion?—Before I left Wilde gave me £2, telling me to call at the Savoy Hotel in a week. I went there about a week afterwards at eleven o'clock at night. We had supper, with champagne. Wilde on that occasion committed the same acts as on the first occasion. I stayed about two hours. When I left, Wilde gave me £3.",
+      "context": "Charles Parker's examination-in-chief on the first and second Savoy visits, Regina v. Wilde and Taylor, 26 April 1895",
+      "work": "hyde-trials-1948",
+      "locator": "p. 193",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1895,
+        "m": 4
+      },
+      "supports": "sworn first-person testimony of sodomy at the Savoy Hotel on both early-1893 visits, with payment — the class-deciding quote",
+      "verification": "verified-exact",
+      "how_verified": "archive-org",
+      "provenance": "IA in.ernet.dli.2015.499238, leaf 231 (printed p. 193, folio 'N 193'), read as IIIF page image 2026-08-03",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "period"
+    },
+    {
+      "quote": "I had for a fortnight or three weeks a room at 50 Park Walk, Chelsea. At the time I was living at Park Walk, Wilde visited me there. I was asked by Wilde to imagine that I was a woman and that he was my lover. I had to keep up this illusion. I used to sit on his knees and he used to . . . as a man might amuse himself with a girl. Wilde insisted on this filthy make-believe being kept up. … Apart from money, did Wilde give you any presents?—Yes, he gave me a silver cigarette case and a gold ring. I don't suppose boys are different to girls in acquiring presents from them who are fond of them. You pawned the cigarette case and the ring?—Yes.",
+      "context": "Charles Parker's examination-in-chief, Regina v. Wilde and Taylor, 26 April 1895. The suspension points after 'he used to' are printed by Hyde, who redacts there; our elision drops the following sentences about a late-night cab visit to Park Walk and the landlady's notice to quit.",
+      "work": "hyde-trials-1948",
+      "locator": "p. 193",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1895,
+        "m": 4
+      },
+      "supports": "What the relationship was called and what was given, in the participant's own words: the make-believe Wilde asked him to keep up at Park Walk, and presents of a silver cigarette case and a gold ring, both of which Parker pawned",
+      "verification": "verified-elision",
+      "how_verified": "archive-org",
+      "provenance": "IA in.ernet.dli.2015.499238, leaf 231 (printed p. 193, folio 'N 193' in the source foot), read as IIIF page image 2026-08-03. One elision by us, marked ' … '; the '... ' is Hyde's own printed redaction and is reproduced as printed.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "period"
+    },
+    {
+      "quote": "On one occasion you proceeded from Kettner's to Wilde's house?—Yes. We went to Tite Street. It was very late at night. Wilde let himself and me in with a latchkey. I remained the night, sleeping with the prisoner, and he himself let me out in the early morning before anyone was about.",
+      "context": "Charles Parker's examination-in-chief, Regina v. Wilde and Taylor, 26 April 1895",
+      "work": "hyde-trials-1948",
+      "locator": "p. 194",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1895,
+        "m": 4
+      },
+      "supports": "the Tite Street overnight; continuation of relations beyond the Savoy",
+      "verification": "verified-exact",
+      "how_verified": "archive-org",
+      "provenance": "IA in.ernet.dli.2015.499238, leaf 234 (printed p. 194); rendered at 3x from the item's text PDF and read as a page image 2026-08-03, with the printed folio confirmed in the page's bottom margin. transcription corrected: printed reads 'very late at night.' (full stop), not a comma",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "period"
+    },
+    {
+      "quote": "The Clerk of Arraigns—Do you find the prisoner at the bar guilty of an act of gross indecency with Charles Parker at the Savoy Hotel on the night of his first introduction to him? (Count 1.) The Foreman—Guilty. The Clerk of Arraigns—Do you find him guilty of a similar offence a week later? (Count 4.) The Foreman—Guilty. The Clerk of Arraigns—Do you find him guilty of the offence at St. James's Place? (Count 5.) The Foreman—Guilty. The Clerk of Arraigns—Do you find him guilty of this offence at about the same period? (Count 6.) The Foreman—Guilty.",
+      "context": "Verdict, Regina v. Wilde, 25 May 1895",
+      "work": "hyde-trials-1948",
+      "locator": "pp. 336-337",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1895,
+        "m": 5
+      },
+      "supports": "conviction on all four Charles Parker counts at the final trial",
+      "verification": "verified-exact",
+      "how_verified": "archive-org",
+      "provenance": "IA in.ernet.dli.2015.499238, leaf 382 (printed p. 336-337); rendered at 3x from the item's text PDF and read as a page image 2026-08-03, with the printed folio confirmed in the page's bottom margin.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "period"
+    },
+    {
+      "quote": "And I feel more poignant abasement of shame for my friendship with Alfred Douglas … fifty thousand times more … than I do, say, for my connection with Charley Parker of which you may read a full account in my trial. The former is to me a daily source of mental humiliation. Of the latter I never think. It troubles me not.",
+      "context": "Wilde to Robert Ross, from Reading Prison [1896; the letter immediately preceding one to More Adey dated 16 December 1896; the closing page sends remembrances to Ross's mother and brother Aleck]",
+      "work": "letters-2000",
+      "locator": "p. 670",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1896
+      },
+      "supports": "Wilde's own written acknowledgment of a 'connection with Charley Parker' aired at trial — his word, from prison; the editors' note on the page reads: 'One of the young men who gave evidence at Wilde's trials' (p. 670 n 1)",
+      "verification": "verified-exact",
+      "how_verified": "pdf-at-page",
+      "provenance": "repo PDF 'Complete Letters' (Fourth Estate 2000), PDF p. 721 = printed p. 670 (folio confirmed on rendered page), read 2026-08-03",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "period"
+    }
+  ],
+  "prior_class": "documented-sexual"
+}

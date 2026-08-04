@@ -1,0 +1,39 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+Copyright (c) 2026 Lovelle Cardoso and contributors
+
+The research corpus in this repository — everything under data/, dossiers/, audits/,
+ROSTER.md, and the prose of README.md and CONTRIBUTING.md — is licensed under the
+Creative Commons Attribution 4.0 International License.
+
+You are free to share and adapt this material for any purpose, including commercially,
+provided you give appropriate credit, link to the licence, and indicate if changes were
+made.
+
+Full licence text: https://creativecommons.org/licenses/by/4.0/legalcode
+Human-readable summary: https://creativecommons.org/licenses/by/4.0/
+
+Suggested attribution:
+
+    The World Wilde Web, ed. Lovelle Cardoso and contributors, CC BY 4.0.
+
+---
+
+WHAT THIS LICENCE DOES NOT COVER
+
+1. QUOTED MATERIAL. This corpus quotes from published scholarship and from printed
+   editions of primary documents. Those quotations are short excerpts used for citation,
+   identification and verification, and remain the property of their rightsholders. The
+   CC BY 4.0 grant covers this project's own work — the selection, arrangement,
+   classification, transcription apparatus, provenance notes and prose — not the
+   underlying quoted text. Anyone reusing a quotation at length should go to the source,
+   which is named on every record.
+
+2. PORTRAITS. Every image under portraits/ is in the public domain, sourced from
+   Wikimedia Commons. Per-image provenance — original file, Wikidata entity, licence as
+   stated by Commons, and a link to the description page — is recorded in
+   portraits/credits.json. Public domain status is as asserted by Commons at the time of
+   retrieval; re-users making their own determination should check the description page.
+
+3. SOFTWARE. The site itself (index.html, assets/, tools/) is licensed separately under
+   the MIT License. See LICENSE-CODE.txt.

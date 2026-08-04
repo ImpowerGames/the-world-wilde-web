@@ -1,0 +1,73 @@
+{
+  "id": "douglas--schwabe",
+  "people": [
+    "douglas",
+    "schwabe"
+  ],
+  "certainty": "self-reported",
+  "certainty_status": "proposed",
+  "certainty_reasoning": "Murray quotes in the source, in the Foreword to the 2020 edition, letters written by Douglas to Schwabe in 1893 that surfaced in an Australian archive after the 2000 publication: Douglas addresses Schwabe as his 'darling pretty boy' and calls himself Schwabe's 'loving boy-wife'. That is first-person primary evidence by a participant, quoted in the source by a scholarly work, which is the README's decision rule for 'documented-sexual'. Murray's 2000 text had already read the pair that way by inference ('It is fairly easy to guess what Douglas's relationship with Schwabe had been'), and Murray revisits the inference in 2020 in light of the letters. Downgrade to 'consensus' if the editor reads 'boy-wife' as short of an attestation of sexual relations - the letters are ardent and self-describing but do not narrate an act.",
+  "start": {
+    "y": 1893
+  },
+  "end": {
+    "y": 1902,
+    "circa": true
+  },
+  "date_label": "friends 'for some years' before 1892; the surviving letters written 1893; Schwabe staying with Douglas several months after Douglas's March 1902 wedding",
+  "summary": "Maurice Schwabe was Douglas's friend before he was Wilde's: Murray has Douglas introducing him to Wilde's circle out of his own Oxford set, and reads their relationship as sexual. Letters from Douglas to Schwabe of 1893, unknown when the biography was first published in 2000 and quoted in the Foreword to the 2020 edition, address Schwabe as 'My darling pretty boy' and sign Douglas as his 'loving boy-wife'. Schwabe, returned from Australia, was staying with Douglas several months after Douglas's marriage to Olive Custance in March 1902 - which is what makes Murray, re-reading, 'wonder' whether his own account of Douglas's later life was too clean.",
+  "sources": [
+    {
+      "quote": "Since the publication of this book some missing letters from Bosie to Maurice Schwabe have surfaced in an Australian archive. Written in 1893, Bosie addresses Schwabe as 'My darling pretty boy', continuing, 'I really love you far more than any other boy in the world and shall always be your loving boy-wife, or your \"little bitch\" if you prefer it.'",
+      "context": "Foreword to the 2020 Edition, in the paragraph where Murray revises his 2000 view of Douglas's later sexuality; the preceding sentence is 'it does seem unlikely that there was no gay feeling in Bosie in later life', and the following sentences record that Schwabe, back from Australia, stayed with Douglas several months after Douglas's wedding, and that Murray, re-reading, 'wonder[s]'.",
+      "work": "murray-2020",
+      "locator": "PDF p. 20",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1893
+      },
+      "supports": "First-person letters by Douglas, quoted in the source by his biographer, addressing Schwabe in explicitly amorous and self-feminising terms - the class-deciding evidence for this edge.",
+      "verification": "verified-exact",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF page 20 of Murray_2020_Bosie (docs/research/queer-history/victorian/douglas/sources/), read as page image 2026-08-03. NO PRINTED FOLIO EXISTS: the repo file is an ebook conversion with no page numbers, no running heads and an unpaginated Contents; the offset is n/a and the locator is therefore the PDF page, marked 'PDF p.' so it cannot be mistaken for a printed folio.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "modern"
+    },
+    {
+      "quote": "When he met Olive his homosexual activities were suspended but he did not drop his old friends. Only a few months after his marriage he told his wife in a letter that Maurice Schwabe was staying with him, and he stayed in touch with Reginald Turner, Max Beerbohm and More Adey.",
+      "context": "Murray's 2000 text, opening the section on the first years of Douglas's marriage to Olive Custance (married March 1902); Murray's endnote 47 hangs on the Schwabe clause, i.e. the statement rests on Douglas's own letter to his wife. This is the fact Murray returns to in the 2020 Foreword when he writes that, re-reading, he 'wonder[s]'.",
+      "work": "murray-2020",
+      "locator": "PDF p. 143",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1902
+      },
+      "supports": "That Douglas himself, in a letter to his wife a few months after the March 1902 wedding, reported Schwabe staying with him - the participant-sourced basis for this edge's end date.",
+      "verification": "verified-exact",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF page 143 of Murray_2020_Bosie (docs/research/queer-history/victorian/douglas/sources/), read as page image 2026-08-03. NO PRINTED FOLIO EXISTS on the page (ebook conversion); locator is the PDF page, marked 'PDF p.'. Murray's superscript endnote marker 47, printed after 'staying with him,', is dropped from the transcription; nothing else altered.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "modern"
+    },
+    {
+      "quote": "Douglas introduced some of his Oxford friends to Wilde's circle, and one in particular made an impact: Maurice Schwabe had been a friend of Douglas for some years though his introduction to Wilde was unfortunate. … It is fairly easy to guess what Douglas's relationship with Schwabe had been, and that Wilde and Douglas were in the habit of swapping their young men.",
+      "context": "Murray's 2000 text, in the chapter on Douglas's entry into Wilde's circle; the elided sentences concern Schwabe's later role as 'a millstone around Wilde's neck' at the trials. Written before the Australian letters surfaced, so the reading is Murray's inference, not his evidence.",
+      "work": "murray-2020",
+      "locator": "PDF p. 53",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1892
+      },
+      "supports": "The precedence of the friendship (Schwabe was Douglas's friend first, 'for some years' before Wilde), and Murray's own reading of it as sexual - stated as inference.",
+      "verification": "verified-elision",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF page 53, read as page image 2026-08-03; no printed folio on the page (ebook conversion - see the pagination note in dossiers/DOUGLAS-MURRAY_dossier.md). One elision, marked. evidence_date carries the date of the event described - Douglas bringing Schwabe into Wilde's circle, the friendship already some years old - not Murray's publication year, so the card sorts with the events rather than at the end of the run.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "modern"
+    }
+  ],
+  "prior_class": "documented-sexual"
+}

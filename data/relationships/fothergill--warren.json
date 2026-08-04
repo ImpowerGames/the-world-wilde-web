@@ -1,0 +1,124 @@
+{
+  "id": "fothergill--warren",
+  "people": [
+    "fothergill",
+    "warren"
+  ],
+  "certainty": "uncorroborated",
+  "certainty_status": "proposed",
+  "certainty_reasoning": "This edge was deferred pending Part V ch. 3-4 (printed 145-166); those chapters were read so far and carry strong texture but no explicit statement of romance or sex. What Sox gives: 'taken up with Warren in Rome' (p. 142) and 'taken up with Ned and Marshall' (p. 151); his own sentence that Fothergill's longing for 'something like a gentleman protector' 'certainly appeared to be fulfilled in Ned' (p. 150); Fothergill's memoir on the arrangement - 'could I ever be worth his keeping me? At once he said he'd give me £300 a year' (p. 151) - and on his feelings ('He became to me... part of my being... I seem to live as one with him', p. 150); Sox's verdict counting Fothergill among the four men Warren loved and 'wanted to possess' (p. 129); and, on Fothergill's marriage soon after Marshall's, that he 'followed his rival to the altar' (p. 155) - 'rival' being the strongest romantic-parallel word applied to the pair. Against that: every explicit sentence describes employment, patronage, nursing and discipleship, and the protective moustache advice (p. 142) is framed as collecting-security. Proposed 'alleged' with a disputed{} block per the mandate for thin characterization; 'romantic-nonsexual' was considered and rejected as overstating what Sox asserts. Single source (Sox), drawing on Fothergill's unpublished 1954 memoir.",
+  "start": {
+    "y": 1899
+  },
+  "end": {
+    "y": 1905,
+    "circa": true
+  },
+  "date_label": "Taken up with Warren in Rome from 1899 (Caffè Greco, via John Marshall); a Lewes House secretary-collector on Warren's £300 a year; left for Leipzig and the Slade School (enrolled 1905-06) after the 1904-6 'bad years'. The tie persisted: Fothergill's memoir epigraph addresses Warren 'at Lewes House, c.1905', and at Warren's Golders Green cremation in January 1929 Fothergill could recall no mourners in the chapel 'save Harry Thomas and myself'.",
+  "summary": "Returning to Rome in 1899, the 23-year-old Fothergill met John Marshall at the Caffè Greco and 'became one of Ned's Lewes House collectors' - fulfilling, Sox writes, his earlier longing for 'something like a gentleman protector... support, direction and place', which 'certainly appeared to be fulfilled in Ned'. Warren descended on his typhoid sickbed 'complete with a valet and a German doctor' and, when Fothergill confessed his inheritance half spent - 'could I ever be worth his keeping me?' - settled £300 a year on him; aware of Fothergill's prior 'friendships with one or two boys', Warren also had him grow a moustache so as not to give the police 'an excuse for suppressing us'. Sox stops short of calling the bond romantic, but counts Fothergill among the four men Warren loved and 'wanted to possess', and remarks of Fothergill's 1906 marriage, soon after Marshall's, that he 'followed his rival to the altar'. Fothergill left for the Slade c. 1905; he was one of the two mourners he could remember in the chapel at Warren's cremation.",
+  "disputed": {
+    "claim": "that the Warren-Fothergill bond was a romantic or kept-companion attachment, over and above secretarial employment and patronage",
+    "asserted_by": "No single sentence of Sox's - the reading is a composite of his framings: 'taken up with Warren in Rome' (p. 142); the 'gentleman protector' longing 'certainly appeared to be fulfilled in Ned' (p. 150); Fothergill's 'could I ever be worth his keeping me?' with the £300 settlement (p. 151); 'More than loving Marshall, Harry, Matt and Fothergill, he wanted to possess them' (p. 129); Marshall as Fothergill's 'rival' (p. 155); the Introduction's Warren who 'collected art and young men' (p. viii)",
+    "disputed_by": "Nothing read contests a close bond; the reservation is evidential - nowhere in the pages read does Sox assert a romance or sexual relationship between them, and every explicit description is of employment, patronage, nursing and discipleship",
+    "grounds": "Single-source (Sox 1991, itself built on Fothergill's unfinished 1954 memoir, which Sox flags as gappy: 'Apparently, he did not want to tell us about certain aspects of his life', p. 133); classification rests on implication, so 'alleged' with this block per the module's thin-characterization rule"
+  },
+  "sources": [
+    {
+      "quote": "After he had taken up with Warren in Rome, Warren was well aware that a year before, Fothergill had had 'friendships with one or two boys'. Warren thought this might 'endanger the collecting for America by giving the police an excuse for suppressing us'. So Warren suggested that Fothergill should grow a moustache - 'a very fine masculine mass of it'.",
+      "context": "Sox, on Warren's management of Fothergill after Fothergill joined him in Rome",
+      "work": "sox-1991",
+      "locator": "p. 142",
+      "locator_type": "page",
+      "evidence_date": null,
+      "supports": "Warren's knowledge of Fothergill's private conduct and his intervention in it - the closest the record comes to characterizing the terms on which they lived, and evidence of criminal-law pressure shaping the household's self-presentation.",
+      "verification": "verified-exact",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF p. 158 (printed folio 142 confirmed on the rendered page), read as page image 2026-08-03.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "modern"
+    },
+    {
+      "quote": "After he had taken up with Warren in Rome, Warren was well aware that a year before, Fothergill had had 'friendships with one or two boys'. Warren thought this might 'endanger the collecting for America by giving the police an excuse for suppressing us'. So Warren suggested that Fothergill should grow a moustache - 'a very fine masculine mass of it'.",
+      "context": "Sox's transition out of the Wilde episode ('Fothergill added a sad footnote to his remembrance of Wilde'). Same page: Fothergill passes Wilde unacknowledged at Aragno's Café, asking himself whether approaching would be 'a betrayal of my duty to Ned's work'. Re-verified in the source so far; also transcribed in FOTHERGILL_dossier.md.",
+      "work": "sox-1991",
+      "locator": "p. 142",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1899,
+        "circa": true
+      },
+      "supports": "Sox's 'taken up with Warren in Rome'; Warren's knowledge of the 'friendships with one or two boys' and the protective moustache advice",
+      "verification": "verified-exact",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF page 158, printed folio 142 confirmed on rendered page, read as page image 2026-08-03.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "modern"
+    },
+    {
+      "quote": "Fothergill's earlier expressed longing for 'something like a gentleman protector - someone who would give me support, direction and place' certainly appeared to be fulfilled in Ned. His feelings for Ned were strong: 'He became to me, as to the others, part of my being - or at least so far as my tyrannies and unsympathetic impetuousness allowed me to imitate his god-like love and tolerance . . . He has become more than a part of me, for I seem to live as one with him, a would-be memorial to him.'",
+      "context": "Sox introducing Fothergill's memoir observations on the Lewes House community, 'the most incisive of any which survive'. The 'gentleman protector' longing is the same memoir passage that frames the 1897 Wilde episode (see fothergill--wilde). Inner first-person text: Fothergill memoir, as printed in Sox 1991, p. 150; the '... ' is as printed.",
+      "work": "sox-1991",
+      "locator": "p. 150",
+      "locator_type": "page",
+      "evidence_date": null,
+      "supports": "Sox's own sentence that the protector-longing 'certainly appeared to be fulfilled in Ned'; Fothergill's devotional language for Warren",
+      "verification": "verified-exact",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF page 174, printed folio 150 confirmed on rendered page, read as page image 2026-08-03.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "modern"
+    },
+    {
+      "quote": "At last, Fothergill felt he had to 'face the problem that had long been on my mind and after all Ned's generosity and loving care of me, I had to come out with it. I imagined that he must be assuming that I was rich. But my £4000 had now half gone. Was I going to tell him that I couldn't go on with him? Or could I ever be worth his keeping me? At once he said he'd give me £300 a year and my mind was fresh to convalesce with.'",
+      "context": "During Fothergill's typhoid convalescence in the Orsini palace at Lecce, where Warren had 'suddenly arrived complete with a valet and a German doctor' (p. 150). Later on the same page: 'Romaine Brooks was not the only one to notice a change in Fothergill once he had taken up with Ned and Marshall.' Chain: Fothergill memoir, as printed in Sox 1991, p. 151. Episode undated in the pages read (early Lewes House years).",
+      "work": "sox-1991",
+      "locator": "p. 151",
+      "locator_type": "page",
+      "evidence_date": null,
+      "supports": "The material arrangement in Fothergill's own words - 'worth his keeping me', the £300 a year - and 'Ned's generosity and loving care'",
+      "verification": "verified-exact",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF page 175, printed folio 151 confirmed on rendered page, read as page image 2026-08-03.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "modern"
+    },
+    {
+      "quote": "Fothergill said that Ned asked him why he wanted to get married in the first place, to which Fothergill replied 'with my usual bravura that it was the only experience I hadn't enjoyed'. … With hindsight, it is interesting to note how soon after Marshall's marriage, Fothergill followed his rival to the altar.",
+      "context": "On Fothergill's brief marriage to Doris Gillian Herring, met at the Slade (enrolled 1905-06); Romaine Brooks: 'married briefly to a woman who refused to consummate their marriage'. 'His rival' - Sox's word - casts Fothergill and Marshall as rivals in relation to Warren. Elided: Marshall's 1913 notebook note that he met Fothergill's wife once. Same page: 'Fothergill had reacted against Ned's misogyny, but his own sexual ambiguities were far from resolved.'",
+      "work": "sox-1991",
+      "locator": "p. 155",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1906,
+        "circa": true
+      },
+      "supports": "Sox's 'his rival' framing - the strongest romantic-parallel wording applied to this pair in the pages read",
+      "verification": "verified-elision",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF page 179, printed folio 155 confirmed on rendered page, read as page image 2026-08-03.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "modern"
+    },
+    {
+      "quote": "Ned, however, carried that a step further: if falling in love was confused with his collecting then Marshall and the others were, in a sense, an extension of his obsession to collect. More than loving Marshall, Harry, Matt and Fothergill, he wanted to possess them.",
+      "context": "Sox's summary verdict on Warren's attachments, following Marshall's death and Kenneth Clark's why-do-men-collect / why-do-they-fall-in-love comparison ('poignantly aimed at Ned'). 'Harry' = Harry Thomas; 'Matt' = Matthew Prichard.",
+      "work": "sox-1991",
+      "locator": "p. 129",
+      "locator_type": "page",
+      "evidence_date": null,
+      "supports": "Sox counting Fothergill among the four men Warren loved and 'wanted to possess'",
+      "verification": "verified-exact",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF page 145, printed folio 129 confirmed on rendered page, read as page image 2026-08-03.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "modern"
+    }
+  ],
+  "prior_class": "alleged"
+}

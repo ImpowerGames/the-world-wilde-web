@@ -1,0 +1,71 @@
+{
+  "id": "anstruther-thomson--lee",
+  "people": [
+    "anstruther-thomson",
+    "lee"
+  ],
+  "certainty": "second-hand",
+  "certainty_status": "proposed",
+  "certainty_reasoning": "As with lee--robinson, the evidence read is a non-participant's: Pulham states the companionship and its dates. Note that Pulham's wording is cooler here than in the Robinson paragraph - 'close companion', 'co-written', 'departure from Il Palmerino' - and she does not characterise the bond as romantic in the sentences read, so this record deliberately does not either; the pairing is recorded, not its nature. Lee's own 1924 introduction to Anstruther-Thomson's posthumous Art and Man is participant testimony and would likely change the class; it is recorded as a pointer, unread.",
+  "start": {
+    "y": 1887
+  },
+  "end": {
+    "y": 1900
+  },
+  "date_label": "companion and co-author 1887-1900; Lee wrote a tribute to her in 1924, three years after her death",
+  "summary": "Clementina 'Kit' Anstruther-Thomson replaced Mary Robinson as Vernon Lee's close companion in 1887, the year of Robinson's marriage, and remained so until 1900, living with her at Il Palmerino. The two collaborated on Lee's theory of psychological aesthetics, running experiments on bodily response to art informed by Vischer's Einfuhlung; their article 'Beauty and Ugliness' (Contemporary Review, October 1897) provoked a plagiarism charge from Bernard Berenson which he later retracted, and the work was collected as the co-written Beauty and Ugliness (1912). Anstruther-Thomson died in 1921 and Lee wrote a substantial introduction to her posthumous Art and Man (1924) as a tribute.",
+  "sources": [
+    {
+      "quote": "The former was co-written with Clementina (Kit) Anstruther-Thomson (1857-1921), who replaced Mary Robinson as Lee’s close companion from 1887 to 1900.",
+      "context": "Patricia Pulham's Y90s biography, in the paragraph on Lee's psychological aesthetics; 'the former' is Beauty and Ugliness (1912). The word 'replaced' is Pulham's and is the link back to lee--robinson: the succession is dated to Robinson's marriage year.",
+      "work": "pulham-y90s-lee-bio",
+      "locator": "para. 8",
+      "locator_type": "none",
+      "evidence_date": {
+        "y": 1887
+      },
+      "supports": "The companionship and its span, and its position in Lee's life as successor to the Robinson attachment.",
+      "verification": "verified-exact",
+      "how_verified": "web",
+      "provenance": "https://1890s.ca/lee_bio/ fetched (curl) and read in full 2026-08-03; quote sliced byte-exact from the downloaded HTML, then whitespace artifacts introduced by stripping inline markup (spaces around quotation marks, italic titles and punctuation) normalized to the printed reading.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "modern"
+    },
+    {
+      "quote": "In the years following Anstruther-Thomson’s departure from Il Palmerino, Lee became preoccupied by other concerns, but in 1924 she returned to psychological aesthetics to write a substantial introduction to Anstruther-Thomson’s Art and Man (1924), a tribute to Kit who died in 1921.",
+      "context": "Pulham, on Lee's later career. Establishes cohabitation at Il Palmerino, Anstruther-Thomson's death date, and Lee's posthumous tribute.",
+      "work": "pulham-y90s-lee-bio",
+      "locator": "para. 9",
+      "locator_type": "none",
+      "evidence_date": {
+        "y": 1924
+      },
+      "supports": "Shared household; Anstruther-Thomson's death in 1921; Lee's own written tribute (the pointer below).",
+      "verification": "verified-exact",
+      "how_verified": "web",
+      "provenance": "https://1890s.ca/lee_bio/ fetched (curl) and read in full 2026-08-03; quote sliced byte-exact from the downloaded HTML, then whitespace artifacts introduced by stripping inline markup (spaces around quotation marks, italic titles and punctuation) normalized to the printed reading.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "modern"
+    },
+    {
+      "quote": "The writer of the following unpublished essays and fragments, my late very dear friend and fellow-worker, Miss C. Anstruther-Thomson, held an unusually large place in the life of many and very different persons, either at the same moment or during successive phases of her constantly altering, although always so harmoniously consistent, personality. … Be this as it may, what each one of us may thus have made of Kit Anstruther-Thomson, as well as what she has actually been to us, is a subject I shall attempt neither to penetrate nor to reveal.",
+      "context": "Vernon Lee's introduction to the posthumous collection of Anstruther-Thomson's essays. Lee names the closeness and the years of shared work, then declines outright to characterise what the relationship was - the reticence is on the page, not an inference.",
+      "work": "anstruther-thomson-art-and-man-1924",
+      "locator": "introduction, p. 3",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1924
+      },
+      "supports": "Lee's own retrospective account of the relationship.",
+      "verification": "verified-elision",
+      "how_verified": "archive-org",
+      "provenance": "IA in.ernet.dli.2015.37546 (fully open), PDF leaf 17, printed folio 3 confirmed at the foot of the rendered page, read as a page image 2026-08-03. The ellipsis spans one intervening paragraph on the same page.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "period"
+    }
+  ]
+}

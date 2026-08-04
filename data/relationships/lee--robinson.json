@@ -1,0 +1,85 @@
+{
+  "id": "lee--robinson",
+  "people": [
+    "lee",
+    "robinson"
+  ],
+  "certainty": "second-hand",
+  "certainty_status": "proposed",
+  "certainty_reasoning": "Only a non-participant speaks in the evidence read. Patricia Pulham's Y90s biography states the attachment and its span; no letter, diary or statement by Lee or Robinson about the relationship was read so far, and Pulham's one citation to Robinson's own writing ('Robinson, 935') is about the visitors to Casa Paget, not about the relationship. Second-hand is a statement about who is talking, not a mark of doubt: Pulham is the standard scholarly account and calls it a romantic friendship without hedging. Vernon Lee's letters are published (Gagel's edition) and would likely move this to self-reported; pointer recorded.",
+  "start": {
+    "y": 1880
+  },
+  "end": {
+    "y": 1887
+  },
+  "date_label": "met 1880; attachment lasting until Robinson's marriage in 1887",
+  "summary": "Vernon Lee met the poet Mary Robinson in 1880, the year Lee came to public notice with Studies of the Eighteenth Century in Italy, and the two formed what Pulham calls a romantic friendship. Robinson visited Lee's home in Florence and Lee returned the visit in London in 1881, where Robinson introduced her to the Burne-Joneses, Gosse, the Morrises, the Rossettis and Oscar Wilde - which is how Lee entered the London circle this map charts. The attachment ended with Robinson's marriage in 1887 to the orientalist James Darmesteter; Kit Anstruther-Thomson replaced her as Lee's companion that same year.",
+  "sources": [
+    {
+      "quote": "It is also in 1880 that Lee first met the poet Mary Robinson (1857-1944) with whom she developed a romantic friendship that lasted until Mary married in 1887.",
+      "context": "Patricia Pulham's Y90s biography of Vernon Lee, in the paragraph on Lee's emergence in 1880. The following sentences record Robinson's account of the visitors to 'Casa Paget' and Lee's return visit to London in 1881, at which she met Wilde.",
+      "work": "pulham-y90s-lee-bio",
+      "locator": "para. 5",
+      "locator_type": "none",
+      "evidence_date": {
+        "y": 1880
+      },
+      "supports": "The relationship, its character as Pulham states it, and both its start and end dates.",
+      "verification": "verified-exact",
+      "how_verified": "web",
+      "provenance": "https://1890s.ca/lee_bio/ fetched (curl) and read in full 2026-08-03; quote sliced byte-exact from the downloaded HTML, then whitespace artifacts introduced by stripping inline markup (spaces around quotation marks, italic titles and punctuation) normalized to the printed reading.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "modern"
+    },
+    {
+      "quote": "In 1881, Lee in turn visited Mary in London. Here she met many of the Robinsons’ friends and acquaintances including the Burne-Joneses, Edmund Gosse (1849-1928), the Morrises, the Rossettis, and Oscar Wilde (1854-1900).",
+      "context": "Pulham, immediately following. This is the sentence that puts Lee in the Wilde circle and puts Robinson at the door of it: the introductions are Robinson's.",
+      "work": "pulham-y90s-lee-bio",
+      "locator": "para. 5",
+      "locator_type": "none",
+      "evidence_date": {
+        "y": 1881
+      },
+      "supports": "That the connection to Wilde's London circle ran through Robinson - relevant to why both women are on this roster.",
+      "verification": "verified-exact",
+      "how_verified": "web",
+      "provenance": "https://1890s.ca/lee_bio/ fetched (curl) and read in full 2026-08-03; quote sliced byte-exact from the downloaded HTML, then whitespace artifacts introduced by stripping inline markup (spaces around quotation marks, italic titles and punctuation) normalized to the printed reading.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "modern"
+    },
+    {
+      "quote": "",
+      "context": "The scholarly edition of Lee's correspondence, which would carry participant testimony about the Robinson attachment; not reachable so far.",
+      "work": "gagel-vernon-lee-letters",
+      "locator": null,
+      "locator_type": "none",
+      "evidence_date": null,
+      "supports": "Lee's own account of the relationship and of its ending.",
+      "verification": "unverified",
+      "how_verified": "unverified",
+      "provenance": "",
+      "verified_by": null,
+      "verified_on": null
+    },
+    {
+      "work": "beckman-2000-levy",
+      "locator": "p. 120",
+      "locator_type": "page",
+      "quote": "At the time that Levy became acquainted with her, Lee had been in a romantic relationship with the poet and novelist Agnes Mary Robinson (called Mary) since at least the autumn of 1880. When Vernon Lee was in London she stayed with the Robinsons, and when Mary was in Florence she stayed at the Pagets' villa, sharing a room with Lee.",
+      "context": "Beckman, incidentally, while setting up Levy's own attachment to Lee.",
+      "verification": "verified-exact",
+      "how_verified": "pdf-at-page",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "provenance": "Repo PDF page 138, printed folio 120 confirmed in the running head on the rendered page, read as a page image 2026-08-03.",
+      "evidence_date": {
+        "y": 1880
+      },
+      "supports": "Independent secondary attestation of the Lee-Robinson relationship and its start date, from a biographer of a third party with no stake in the question.",
+      "voice": "modern"
+    }
+  ]
+}

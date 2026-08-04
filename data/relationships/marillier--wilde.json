@@ -1,0 +1,99 @@
+{
+  "id": "marillier--wilde",
+  "people": [
+    "marillier",
+    "wilde"
+  ],
+  "certainty": "self-reported",
+  "certainty_status": "proposed",
+  "certainty_reasoning": "The evidence read so far is Wilde's own side of the 1885-86 correspondence, which runs in a sustained romantic register - 'keen curiosity, wonder, delight' at their reunion, 'I wish you were here, Harry', a requested photograph, 'You have the power of making others love you', the 'l'amour de l'impossible' letter addressed to Marillier as a fellow-feeler, reciprocal visits (Cambridge, Tite Street, Hampton), and the insistence 'You are certainly not to call me Mr Wilde.' No first-person sexual claim appears in any letter read, and no secondary attestation was consulted so far, so the documented-courtship class fits the evidence before me; whether biographer consensus reads it as more is left open for a later check.",
+  "start": {
+    "y": 1885,
+    "m": 11
+  },
+  "end": {
+    "y": 1886,
+    "m": 6
+  },
+  "date_label": "Correspondence postmarked 5 Nov. 1885 - 11 June 1886; acquaintance dates from 13 Salisbury Street, 1880-81, when the schoolboy Marillier brought Wilde his coffee.",
+  "summary": "Marillier, the 'blue-coat boy' who had lodged in Wilde's Salisbury Street building in 1880-81, wrote to Wilde from Peterhouse, Cambridge, in autumn 1885; Wilde's replies over the following eight months are the most romantically charged letters he is known to have written to a young man before Ross - a missed train mourned, a photograph requested, a Cambridge visit remembered as 'a dream', and the December 1885 Glasgow letter naming what they shared as 'the love of things impossible... l'amour de l'impossible'. The letters record visits in both directions through the winter; the last surviving letter (June 1886) still insists 'You are certainly not to call me Mr Wilde.'",
+  "sources": [
+    {
+      "quote": "But your letter has reached me, like a strain of music wind-blown from a far land. You too have the love of things impossible – ἔρως τῶν ἀδυνάτων – l'amour de l'impossible (how do men name it?). Some day you will find, even as I have found, that there is no such thing as a romantic experience; there are romantic memories, and there is the desire of romance – that is all.",
+      "context": "Wilde to H. C. Marillier, [Postmark 12 December 1885], Central Station Hotel, Glasgow; 'l'amour de l'impossible' italicised in the original",
+      "work": "letters-2000",
+      "locator": "p. 272",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1885,
+        "m": 12,
+        "d": 12
+      },
+      "supports": "Wilde naming the bond itself - a shared 'love of things impossible', l'amour de l'impossible - and asking what men call it: the correspondence's most explicit characterization of what passed between them",
+      "verification": "verified-exact",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF page 294, printed folio 272 confirmed on rendered page, read as page image 2026-08-03.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "period"
+    },
+    {
+      "quote": "I have a very vivid remembrance of the bright enthusiastic boy who used to bring me my coffee in Salisbury Street, and am delighted to find he is devoted to the muses, but I suppose you don't flirt with all nine ladies at once? Which of them do you really love?",
+      "context": "Wilde to H. C. Marillier, [Postmark 5 November 1885], Albemarle Club - his first reply to Marillier's letter",
+      "work": "letters-2000",
+      "locator": "p. 266",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1885,
+        "m": 11,
+        "d": 5
+      },
+      "supports": "Acquaintance renewed from the Salisbury Street years (1880-81); flirtatious register from the first reply",
+      "verification": "verified-exact",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF page 288, printed folio 266 confirmed on rendered page, read as page image 2026-08-03.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "period"
+    },
+    {
+      "quote": "Harry, why did you let me catch my train? I would have liked to have gone to the National Gallery with you, … In our meeting again there was a touch of Browning – keen curiosity, wonder, delight. … When am I to see you again? Write me a long letter to Tite Street and I will get it when I come back. I wish you were here, Harry. … I have never learned anything except from people younger than myself, and you are infinitely young. Your affectionate friend",
+      "context": "Wilde to H. C. Marillier, [Postmark 8 November 1885], Station Hotel, Newcastle-on-Tyne, after their meeting; signed OSCAR WILDE",
+      "work": "letters-2000",
+      "locator": "p. 267",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1885,
+        "m": 11,
+        "d": 8
+      },
+      "supports": "The reunion's emotional charge and the wish for more meetings, in Wilde's own words",
+      "verification": "verified-elision",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF page 289, printed folio 267 confirmed on rendered page, read as page image 2026-08-03. Elisions drop the National Gallery picture-list, the Gautier sentence and the vacation invitation; full text in dossier.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "period"
+    },
+    {
+      "quote": "Your letter came to me at Manchester. I had been thinking a great deal about you. There is at least this beautiful mystery in life, that at the moment it feels most complete it finds some secret sacred niche in its shrine empty and waiting. … You are certainly not to call me Mr Wilde. What should you call me but",
+      "context": "Wilde to H. C. Marillier, [Postmark 11 June 1886] - the last surviving letter of the correspondence; the signature OSCAR completes the final sentence",
+      "work": "letters-2000",
+      "locator": "p. 282",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1886,
+        "m": 6,
+        "d": 11
+      },
+      "supports": "The correspondence's end-point (June 1886), still on deliberately intimate first-name terms",
+      "verification": "verified-elision",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF page 304, printed folio 282 confirmed on rendered page, read as page image 2026-08-03. Elision drops the middle paragraphs declining to read a paper; full text in dossier.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "period"
+    }
+  ],
+  "prior_class": "romantic-nonsexual"
+}

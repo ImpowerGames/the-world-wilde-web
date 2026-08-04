@@ -1,0 +1,102 @@
+{
+  "id": "mavor--wilde",
+  "people": [
+    "mavor",
+    "wilde"
+  ],
+  "certainty": "uncorroborated",
+  "certainty_status": "proposed",
+  "certainty_reasoning": "The allegation (Albemarle Hotel, October 1892) exists in Queensberry's plea and the original indictment, but Mavor on oath denied that any misconduct or impropriety ever occurred, and the judge struck the Mavor counts out at the second trial. Hyde prints Douglas's own Autobiography account of coaching Mavor in the Bow Street corridor to 'deny the whole thing' — the recantation the ROSTER notes. Witness denied on the stand → 'alleged' with the coaching story preserved in the disputed block.",
+  "start": {
+    "y": 1892,
+    "m": 10
+  },
+  "end": {
+    "y": 1893,
+    "circa": true
+  },
+  "date_label": "October 1892 (alleged); acquaintance from autumn 1892",
+  "summary": "Taylor groomed Sidney Mavor for an introduction to Wilde ('Mr. Wilde likes nice clean boys') at a Kettner's dinner given by Schwabe — the dinner Mavor understood to be Wilde and Taylor's own first meeting. Wilde sent Mavor a silver cigarette case inscribed 'Sidney from O. W., October, 1892' and had him to stay the night at the Albemarle Hotel. On the stand Mavor repeated his Bow Street denial that anything improper ever occurred; the counts were struck out, and Hyde prints Douglas's account of having coached the denial.",
+  "disputed": {
+    "claim": "that Wilde solicited and committed acts of gross indecency with Sidney Mavor at the Albemarle Hotel in October 1892",
+    "asserted_by": "Queensberry's plea of justification (filed 30 March 1895); the two Mavor counts of the Crown indictment in Regina v. Wilde and Taylor (1895); a note from Taylor to Mavor read by the Crown asking Mavor to 'come at once and see Oscar at Tite Street' (Gill's opening, Hyde p. 191)",
+    "disputed_by": "Mavor's sworn evidence ('No misconduct occurred when I stayed in the hotel'; 'No impropriety has ever taken place between me and Mr. Wilde'); the judge's direction striking out the Mavor counts (Hyde pp. 72-73)",
+    "grounds": "witness recanted/denied on the stand; Hyde's footnote (p. 73 n, quoting Douglas's Autobiography, 2nd edn. p. 119) records Douglas persuading Mavor at Bow Street: 'When counsel asks you the questions, deny the whole thing' — the denial's provenance is itself compromised, which is why the claim stays 'alleged' rather than resolved either way"
+  },
+  "sources": [
+    {
+      "quote": "One day, however, Taylor said to me, \"I know a man in an influential position who could be of great use to you, Mavor. He likes young men when they're modest and nice in appearance. I'll introduce you.\" It was arranged that we should dine at Kettner's Restaurant the next evening. I called for Taylor, who said, \"I'm glad you've made yourself pretty. Mr. Wilde likes nice clean boys.\" … Wilde took my address, and soon afterwards I received a silver cigarette case with my Christian name scratched inside it. It was inscribed \"Sidney from O. W., October, 1892.\"",
+      "context": "Sidney Mavor's examination-in-chief, Regina v. Wilde and Taylor, 26 April 1895",
+      "work": "hyde-trials-1948",
+      "locator": "p. 211",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1895,
+        "m": 4
+      },
+      "supports": "Taylor's procuring pitch, the Kettner's introduction dinner, and the dated cigarette case fixing the acquaintance to October 1892",
+      "verification": "verified-elision",
+      "how_verified": "archive-org",
+      "provenance": "IA in.ernet.dli.2015.499238, leaf 251 (printed p. 211); rendered at 3x from the item's text PDF and read as a page image 2026-08-03, with the printed folio confirmed in the page's bottom margin.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "period"
+    },
+    {
+      "quote": "I subsequently stayed the night. No misconduct occurred when I stayed in the hotel. I called Mr. Wilde \"Oscar\" and he called me \"Sidney.\" … Cross-examined by Sir Edward Clarke—No impropriety has ever taken place between me and Mr. Wilde, and Mr. Wilde has never given me any money. I was always glad of Mr. Wilde's friendship.",
+      "context": "Sidney Mavor on the Albemarle Hotel night, examination and cross-examination, Regina v. Wilde and Taylor, 26 April 1895",
+      "work": "hyde-trials-1948",
+      "locator": "p. 212",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1895,
+        "m": 4
+      },
+      "supports": "the witness's on-stand denial that anything occurred — the class-deciding quote",
+      "verification": "verified-exact",
+      "how_verified": "archive-org",
+      "provenance": "IA in.ernet.dli.2015.499238, leaf 252 (printed p. 212), read as IIIF page image 2026-08-03",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "period"
+    },
+    {
+      "quote": "\"Surely you are not going to give evidence against Oscar?\" said Douglas. \"Well, what can I do?\" answered Mavor, looking round in a frightened manner. \"I daren't refuse to give evidence now. They got a statement out of me.\" \"For God's sake,\" rejoined Douglas, \"remember you are a gentleman and a public school boy. Don't put yourself on a level with scum like [Wood] and [Atkins]. When counsel asks you the questions, deny the whole thing, and say you made the statement because you were frightened by the police. They can't do anything to you.\" \"All right,\" said Mavor, grabbing Douglas's hand. \"I'll do what you say.\"",
+      "context": "Lord Alfred Douglas's account of meeting Mavor in the corridor at Bow Street Police Court, from his Autobiography (2nd edn., p. 119), as quoted in Hyde's footnote; the bracketed name-redactions are Hyde's",
+      "work": "hyde-trials-1948",
+      "locator": "p. 73 n",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1895,
+        "m": 4
+      },
+      "supports": "the recantation's backstory: Douglas coached Mavor to deny",
+      "verification": "verified-exact",
+      "how_verified": "archive-org",
+      "provenance": "IA in.ernet.dli.2015.499238, leaf 95 (printed p. 73 n); rendered at 3x from the item's text PDF and read as a page image 2026-08-03, with the printed folio confirmed in the page's bottom margin. Hyde's footnote 5, quoting Douglas's Autobiography (2nd edn.) at p. 119; the square brackets around [Wood] and [Atkins] are Hyde's own and are preserved",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "period",
+      "speaker": "Lord Alfred Douglas, Autobiography"
+    },
+    {
+      "quote": "And that the said Oscar Fingal O'Flahertie Wills Wilde in the month of October in the year of our Lord One thousand eight hundred and ninety-two at the said Albemarle Hotel did solicit and incite one Sidney Mavor to commit sodomy and other acts of gross indecency and immorality and did then and there commit the said other acts of gross indecency and immorality with the said Sidney Mavor.",
+      "context": "Queensberry's plea of justification, filed 30 March 1895; Hyde's Appendix A from the Central Criminal Court records",
+      "work": "hyde-trials-1948",
+      "locator": "pp. 341-342",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1895,
+        "m": 3
+      },
+      "supports": "the formal allegation and its date/place",
+      "verification": "verified-exact",
+      "how_verified": "archive-org",
+      "provenance": "IA in.ernet.dli.2015.499238, leaves 387-388 (printed pp. 341-342), read as IIIF page images 2026-08-03",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "period"
+    }
+  ],
+  "prior_class": "alleged"
+}

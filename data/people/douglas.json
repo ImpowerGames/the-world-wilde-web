@@ -1,0 +1,36 @@
+{
+  "id": "douglas",
+  "name": "Lord Alfred Douglas",
+  "sort_name": "Douglas, Lord Alfred",
+  "aka": [
+    "Bosie"
+  ],
+  "born": {
+    "y": 1870
+  },
+  "died": {
+    "y": 1945,
+    "m": 3,
+    "d": 20
+  },
+  "group": "aesthete",
+  "bio": "Lord Alfred Bruce Douglas, born 1870, third son of John Sholto Douglas, eighth Marquess of Queensberry, and Sybil Montgomery (who divorced the Marquess in 1887); educated at Winchester and Magdalen College, Oxford, which he left without a degree. Lionel Johnson brought him to see Wilde at Tite Street in 1891, and Wilde dated the friendship proper from May 1892, when Douglas appealed to him over a blackmail scrape. A poet, he was the dedicatee and translator of Wilde's Salome and published Poems in 1896; he later said he destroyed 150 of Wilde's letters to him, including those from Holloway. He arrived in Paris the day after Wilde's death and followed the coffin at the funeral on 3 December 1900. He married Olive Custance by special licence at St George's, Hanover Square, on 4 March 1902; their only child, Raymond Wilfrid Sholto Douglas, was born on 17 November 1902 and from 26 August 1927 lived, with brief intervals, at St Andrew's Hospital, Northampton. Douglas was received into the Catholic Church in May 1911, and was made bankrupt on a money-lender's petition on 14 January 1913. He edited the Academy from 1907, and the rest of his middle life ran through the courts: the Ransome libel trial of 1913, which he lost; Robert Ross's criminal prosecution of him in 1914; a series of actions of his own; and finally his conviction for criminal libel of Winston Churchill, for which Mr Justice Avory sentenced him to six months in the second division. He was taken to Wormwood Scrubs on 13 December 1923 and released for good behaviour on 12 May 1924. In prison he wrote In Excelsis, seventeen sonnets - begun 20 February 1924 and finished on Good Friday, 18 April - which the prison authorities confiscated at his release and which he never recovered; it was published from memory, in the London Mercury in October 1924 and in book form that December. His marriage broke down in 1913 and again after a short reconciliation, but he and Olive were reconciled in later life; she died on 12 February 1944. His late books were the Autobiography (1929) and Without Apology (1938), and his last lyric poem was written in 1927. He died at about four in the morning on Tuesday 20 March 1945, in the Colmans' farmhouse at Lancing where he had spent his last months, and was buried, as he had asked, with his mother in the cemetery of the Franciscan Friary at Crawley.",
+  "bio_note": "Facts to 1900 from Complete Letters (2000) pages read as images 2026-08-03: editorial headnote p. 461 (birth year, parentage, schooling, 1891 introduction, May-1892 dating); p. 575 n. 1 (mother, divorce 1887); p. 574 n. 2 (Salome translation and dedication); p. 648 n. 1 (Poems, 1896); p. 646 n. 1 (destruction of 150 letters); p. 1222 (funeral). Death date 20 March 1945 from the Chronological Table, p. xii (repo PDF 12), read as page image 2026-08-03 (merge pass). EXTENSION TO 1945 added 2026-08-03 from Douglas Murray, Bosie (2020 edn), work key murray-2020, all pages read as rendered page images: marriage, church, special licence and witnesses PDF p. 141; Raymond's birth 17 November 1902 and christening PDF p. 143; conversion May 1911 PDF p. 164; bankruptcy 14 January 1913 PDF p. 183 (text layer); the 1913 separation and reconciliation PDF pp. 195-196; Avory's sentence PDF p. 240 (text layer); Wormwood Scrubs 13 December, second division, six months' hard labour in all but name, PDF p. 241; In Excelsis composition dates and the confiscated manuscript PDF p. 244 (text layer); release 12 May 1924 and the London Mercury / Martin Secker publication PDF pp. 249-250 (text layer); Raymond certified to St Andrew's Hospital 26 August 1927 PDF p. 261 (text layer); Without Apology April 1938 PDF p. 287; the death, the hour, the Colmans and the Crawley burial PDF p. 318. PAGINATION WARNING: the repo Murray PDF is an ebook conversion and carries NO printed folios anywhere - no running heads, no page numbers, and an unpaginated Contents (established by rendering and looking, 2026-08-03). There is therefore no printed-to-PDF offset for this work; every murray-2020 locator in this corpus is written 'PDF p. NNN' so it can never be read as a printed folio. Full statement of the finding at the head of dossiers/DOUGLAS-MURRAY_dossier.md. The 1902 marriage to Olive Custance is carried by the custance--douglas edge. Not entered as structured fields, since the source states them only in prose: the Lancing farm is named 'Old Monk's Farm' at PDF p. 317 (text layer) and the Colmans' farm is placed at Lancing at PDF p. 315 (text layer). Murray gives no month or day for the conversion beyond 'May 1911', and none for the 1924 release beyond '12 May 1924'.",
+  "bio_sources": [
+    "Holland & Hart-Davis, editorial note, Complete Letters (2000), p. 461",
+    "Complete Letters (2000), p. 575 n. 1",
+    "Complete Letters (2000), p. 574 n. 2",
+    "Complete Letters (2000), p. 646 n. 1",
+    "Complete Letters (2000), p. 1222",
+    "Marriage: 'Thus, on 4 March 1902, Lord Alfred Douglas and Olive Custance became man and wife at St George's, Hanover Square.' - Murray, Bosie (2020 edn), PDF p. 141 (repo PDF page read as image 2026-08-03; edition carries no printed folios).",
+    "Son: 'the birth of his grandson, on 17 November 1902 … Christened Raymond Wilfrid Sholto Douglas' - Murray, Bosie (2020 edn), PDF p. 143 (read as page image 2026-08-03).",
+    "Conversion: 'Douglas's opinions had been entrenched for some time before, in May 1911, he faced up to what he had in the past described as ‘tomfoolery’ and became a Catholic.' - Murray, Bosie (2020 edn), PDF p. 164 (read as page image 2026-08-03).",
+    "Sentence and prison: 'Douglas was taken to Wormwood Scrubs in a Black Maria on 13 December. … At fifty-three, he was in no state to survive six months in the Wormwood Scrubs of the 1920s.' and 'In every other respect, Douglas had been sentenced to six months’ hard labour.' - Murray, Bosie (2020 edn), PDF p. 241 (read as page image 2026-08-03). Avory's words of sentence, including the surety to keep the peace 'particularly to Mr Winston Churchill', are at PDF p. 240 (text layer only ⧖).",
+    "Death: 'In the early hours of the morning of Tuesday 20 March, Douglas’s night nurse called the Colmans to his room. … at about four in the morning, Lord Alfred Douglas breathed for the last time.' and 'Douglas had mentioned several years earlier that he wished to be buried with his mother, in the cemetery of the Franciscan Friary in Crawley.' - Murray, Bosie (2020 edn), PDF p. 318 (read as page image 2026-08-03)."
+  ],
+  "context_engagements": [],
+  "research_status": "phase-a",
+  "gender": "m",
+  "wikidata": "Q460660",
+  "wikipedia": "https://en.wikipedia.org/wiki/Lord_Alfred_Douglas"
+}

@@ -1,0 +1,54 @@
+{
+  "id": "prichard",
+  "name": "Matthew Stewart Prichard",
+  "sort_name": "Prichard, Matthew Stewart",
+  "aka": [
+    "Matt Prichard"
+  ],
+  "born": {
+    "y": 1865,
+    "m": 1,
+    "d": 4
+  },
+  "died": {
+    "y": 1936
+  },
+  "group": "aesthete",
+  "gender": "m",
+  "bio": "Barrister turned aesthete - 'the keenest and most capable of Ned Warren's assistants' and, per the Introduction, 'once considered the most able of Warren's aesthetes'. Born at Brislington near Bristol; Marlborough College, then New College, Oxford, from January 1884, months after Warren's matriculation; called to the bar in 1892, he abandoned the law to join Lewes House as Warren's secretary with George Harding, imposing order on the household, negotiating the Boston Museum's Bartlett Head in Greece, and speaking of Warren as 'a sort of Buddha at whose feet he used to sit'. Sox: 'Prichard clearly loved Warren who was like a father to him' - and names him the member of the brotherhood 'who was as openly misogynistic as Ned'. Viewed by the jealous Marshall as a rival, he left with Richard Fisher for the Boston Museum of Fine Arts in 1901; later a confidant of Isabella Stewart Gardner (285 letters), of Matisse and the Stein circle in Paris, and an internee-champion at Ruhleben in the First World War. He died in 1936; his ashes were scattered in the back garden of the Buckinghamshire house he shared with his brother.",
+  "bio_sources": [
+    "Born: 'Prichard was born on 4 January 1865 in the little village of Brislington just to the east of Bristol. His parents were Charles Henry Prichard and Mattie Stewart.' - Sox (1991) p. 168 (repo PDF 192, folio confirmed, rendered 2026-08-03)",
+    "Died: the Walker draft biography 'was written at the instigation of Dame Una Pope-Hennessy after Prichard's death in 1936' - Sox p. 167 (PDF 191, rendered 2026-08-03); burial/ashes at Parslows Hillock, Bucks., with brother Charles Stewart Prichard - p. viii (PDF 12, rendered 2026-08-03)",
+    "Marlborough 1878-83, New College January 1884 'only months after Ned Warren's matriculation': Sox p. 169 (PDF 193, rendered 2026-08-03)",
+    "Bar 1892, Lincoln's Inn practice; secretaryship with Harding: Sox pp. 170-171 (PDF 194-195, text layer; folio not rendered - finding aid)",
+    "'the most individual character' / 'keenest and most capable': Sox p. 167 (PDF 191, rendered); 'like a father' and Buddha: p. 172 (PDF 196, rendered); 'as openly misogynistic as Ned': p. 176 (PDF 200, rendered); Bartlett Head: p. 176 (PDF 200, rendered)",
+    "Left with Fisher for Boston, 1901: Sox p. 40 (PDF 56, rendered 2026-08-03); Gardner letters and Matisse/Stein: pp. 167, viii (PDF 191, 12, rendered); Ruhleben: p. 168 (PDF 192, rendered)"
+  ],
+  "bio_note": "Death is stated by Sox only as the year (1936); the Introduction's 'Seven years later' (than the April 1929 interment) agrees. Sixth of eight children (p. 168). The jacket calls him 'a disciple of Henri Bergson' (PDF 2, text layer - pointer; Part VI chs. 2-4 unread so far). Warren addressed him 'Dear Ducky' in a letter dismissing his Nietzsche-fed individualism (p. 174, text layer - pointer). Full passages and the prichard--warren NULL FINDING (no romantic edge; Sox's characterization is filial/discipleship, with the counter-texture preserved) in dossiers/LEWES-HOUSE_dossier.md.",
+  "context_engagements": [
+    {
+      "partner_name": "Richard Fisher",
+      "period": "c. 1892-1901+",
+      "note": "Off-roster. Sox lists 'Matt Prichard's alliance with Richard Fisher' among the 'jealousies and potential rivalries' that marked 'many of Ned's relationships' (p. 21, rendered). Fisher - Marshall's Liverpool College friend, 'Fishlet' at Lewes House - paired off with Prichard per Fothergill's memoir: Prichard 'soon got jealous of me and Marshall: he took little Fisher with him and retired to the North Room at Lewes House... never to be seen again in the upper rooms, nor go riding' (p. 150, rendered). The two left together for the Boston Museum of Fine Arts in 1901 (p. 40, rendered), which Warren read as 'going over to the enemy' (p. 70, text layer - pointer). 'Alliance' is Sox's word; nothing read characterizes the bond further.",
+      "sources": [
+        {
+          "quote": "As we shall see, such jealousies and potential rivalries were to be a feature of many of Ned's relationships: Marshall's betrayal of Ned to marry Ned's cousin; Matt Prichard's alliance with Richard Fisher; Fothergill's homosexual and bisexual romances and eventual marriage; Ned's infatuation with Thomas and Thomas's marriage.",
+          "context": "Sox on how Warren's A Tale of Pausanian Love 'uncannily foretells future difficulties among Warren, Marshall and Thomas'; the list is Sox's own catalogue of the relationship-strains around Warren.",
+          "work": "sox-1991",
+          "locator": "p. 21",
+          "locator_type": "page",
+          "evidence_date": null,
+          "supports": "Sox's 'alliance' wording for the Prichard-Fisher pairing, listed among the bonds that stirred jealousies around Warren",
+          "verification": "verified-exact",
+          "how_verified": "pdf-at-page",
+          "provenance": "Repo PDF page 37, printed folio 21 confirmed on rendered page, read as page image 2026-08-03.",
+          "verified_by": "agent-mechanical",
+          "verified_on": "2026-08-03",
+          "voice": "modern"
+        }
+      ]
+    }
+  ],
+  "research_status": "phase-a",
+  "wikidata": "Q18811079"
+}

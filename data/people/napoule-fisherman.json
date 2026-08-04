@@ -1,0 +1,18 @@
+{
+  "id": "napoule-fisherman",
+  "name": "A fisherman, Napoule",
+  "sort_name": "Fisherman, Napoule",
+  "aka": [],
+  "born": null,
+  "died": null,
+  "group": "liaisons",
+  "gender": "m",
+  "bio": "A fisherman at La Napoule, on the Riviera, to whom Wilde described himself as 'practically engaged' in a letter to Robert Ross of 2 January 1899. The letter calls him 'a fisherman of extraordinary beauty, age eighteen'. Nothing else about him - name, family, how they met, what became of it - appears in the pages read.",
+  "bio_sources": [
+    "letters-2000"
+  ],
+  "bio_note": "THE LABEL IS A DESCRIPTOR, NOT A NAME: the source preserves no name for this man, and 'A fisherman, Napoule' is what the record provides - his trade and where Wilde was living - rendered as a node label. He should never be cited as though 'Fisherman' were a surname. Sole source: Wilde to Robert Ross, 2 January 1899, Napoule, Complete Letters (2000), p. 1116 (repo PDF 1162, printed folio confirmed on the rendered page image, 2026-08-03; transcription and provenance reused unchanged). AGE: the letter states his age as eighteen. That is the letter's own statement, recorded exactly as it stands per the module's sensitive-content register; nothing is inferred from it and no gloss is added. DO NOT MERGE with the collective mentions on the same tier - 'The fishing population of the Riviera have the same freedom from morals as the Neapolitans have' (Ross, 27 December 1898, printed 1112) and the Napoule fisher-lads (pointer, printed c. 1119, not read) name no individual and stay in the collective context_engagement on wilde.json. He is a node under the 2026-08-03 roster decision because he is a distinct documented person, notwithstanding the missing name. Full passage in dossiers/EXILE-LIAISONS_dossier.md (L2). DATES: NONE RECORDED (2026-08-03). Searched so far: the whole OCR mirror of the Complete Letters (2000) for every occurrence of the name, plus the edition's General Index; Frankel, Oscar Wilde: The Unrepentant Years (2017), repo PDF, the fullest scholarly account of the exile years; McKenna, The Secret Life of Oscar Wilde (2008) and Murray, Bosie (2020), repo PDFs. Frankel quotes the same sentence at printed p. 245 (repo PDF 259) - 'I am practically engaged to a fisherman of extraordinary beauty, age eighteen' - and gives him no name and no dates either. The stated age of eighteen in January 1899 is the letter's own and stays in the bio; it is not converted into a birth year. No birth or death date is recorded in any source consulted, and none is likely to be: the record preserves a first name (or a trade) in another man's correspondence and no surname to search by. That absence is itself the historical fact worth keeping - these men enter the written record only because Wilde wrote to his friends about them.",
+  "context_engagements": [],
+  "research_status": "phase-a",
+  "name_is_descriptor": true
+}

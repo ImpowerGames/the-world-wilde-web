@@ -1,0 +1,17 @@
+{
+  "id": "pietro",
+  "name": "Pietro",
+  "sort_name": "Pietro",
+  "aka": [],
+  "born": null,
+  "died": null,
+  "group": "liaisons",
+  "gender": "m",
+  "bio": "Italian whom Wilde met at Nice in January 1899, on a three-day trip from La Napoule with Harold Mellor. Wilde described him to Robert Ross as 'a little Italian, Pietro, like a young St John', adding 'One would have followed him into the desert'. No surname, age, occupation, dates or further trace appear in the letter, and nothing else about him was found in the pages read.",
+  "bio_sources": [
+    "letters-2000"
+  ],
+  "bio_note": "Sole source: Wilde to Robert Ross, Thursday [? 12 January 1899], Napoule, Complete Letters (2000), p. 1118 (repo PDF 1164, printed folio confirmed on the rendered page image, 2026-08-03; transcription and provenance reused unchanged). The record preserves a first name only. Named in the same sentence as André but as a separate person, so the two are two nodes. The letter states no age; 'a little Italian' is a description in the letter and is not read here as an age statement, and no number is inferred. The St John comparison is to St John the Baptist - the wilderness saint - which is what makes the desert sentence a compliment rather than a non sequitur; the 'him' of that sentence is Pietro, the immediately preceding name. Full passage in dossiers/EXILE-LIAISONS_dossier.md (L1). DATES: NONE RECORDED (2026-08-03). Searched so far: the whole OCR mirror of the Complete Letters (2000) for every occurrence of the name, plus the edition's General Index; Frankel, Oscar Wilde: The Unrepentant Years (2017), repo PDF, the fullest scholarly account of the exile years; McKenna, The Secret Life of Oscar Wilde (2008) and Murray, Bosie (2020), repo PDFs. Frankel treats the Nice trip at printed p. 245 (repo PDF 259), naming Pietro as 'like a young St John' and adding nothing beyond the letter. No birth or death date is recorded in any source consulted, and none is likely to be: the record preserves a first name (or a trade) in another man's correspondence and no surname to search by. That absence is itself the historical fact worth keeping - these men enter the written record only because Wilde wrote to his friends about them.",
+  "context_engagements": [],
+  "research_status": "phase-a"
+}

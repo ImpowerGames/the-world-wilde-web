@@ -1,0 +1,20 @@
+{
+  "id": "shelley",
+  "name": "Edward Shelley",
+  "sort_name": "Shelley, Edward",
+  "aka": [],
+  "born": {"y": 1874},
+  "died": {"y": 1915},
+  "gender": "m",
+  "group": "trials",
+  "bio": "Clerk at Wilde's publishers Elkin Mathews & John Lane (the Bodley Head) from 1891 — 'of decent family and upbringing' in Hyde's phrase — whom Wilde invited to dine at the Albemarle Hotel in February 1892; his testimony describes kisses, embraces and two nights in Wilde's bed, resisted, with no completed act. Wilde sent him inscribed books ('To one I like well') and theatre tickets, seating Pierre Louÿs beside him at the Lady Windermere's Fan first night; Shelley quarrelled with Wilde at the Savoy in March 1893 and broke off the acquaintance by letter. He testified at both criminal trials; the count concerning him was withdrawn for want of corroboration, and the editors of the Letters record that after the trials he joined the Grenadier Guards and served in the Boer War.",
+  "bio_sources": [
+    "Shelley's testimony, Hyde, Trials (1948), pp. 212-214 and 296-297 (pp. 212-213 read as IIIF page images 2026-08-03)",
+    "Withdrawal of the count, Hyde, Trials (1948), pp. 305-307 (djvu OCR)",
+    "Holland & Hart-Davis, editorial note, Complete Letters (2000), p. 529 n 2 ('Edward Shelley (1874-1915). A young employee of Elkin Mathews and John Lane...'; read at rendered PDF p. 549, 2026-08-03) and p. 530 (Grenadier Guards / Boer War; read at rendered PDF p. 550)",
+    "Wilde to Pierre Louÿs [mid-June 1892], Complete Letters (2000), p. 529 ('Vous serez à côté d'Edouard Shelley'; read at rendered page)"
+  ],
+  "bio_note": "Dates 1874-1915 are the Letters editors'. Aged 'twenty-one years of age' by his own sworn statement in April 1895. The djvu OCR of Hyde gives 'In 1893 they were publishing a book' — the page image reads 1892 (verified 2026-08-03).",
+  "context_engagements": [],
+  "research_status": "phase-a"
+}

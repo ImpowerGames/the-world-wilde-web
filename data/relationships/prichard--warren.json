@@ -1,0 +1,105 @@
+{
+  "id": "prichard--warren",
+  "people": [
+    "prichard",
+    "warren"
+  ],
+  "certainty": "uncorroborated",
+  "certainty_status": "proposed",
+  "certainty_reasoning": "Created at the editor's direction (2026-08-03), overruling the research pass's null finding, which is preserved in full in LEWES-HOUSE_dossier.md. The romantic reading rests on counter-texture rather than on any romantic statement: Marshall regarded Prichard and Harding as 'rivals for Ned's affection'; Warren's own autobiographical fragment reads disappointment in Prichard at not being able to take 'Johnny's place'; Sox lists Prichard among the men Warren loved and 'wanted to possess' (p. 129, transcription pending); and Warren's surviving salutation to him is the pet-name 'Dear Ducky' (p. 174, text-layer, unrendered). Against it stands Sox's own class-deciding sentence, which is filial and discipular, and his gloss of the rivalry as positional competition over the secretaryship. Hence alleged, with the dispute stated.",
+  "start": {
+    "y": 1892,
+    "circa": true,
+    "label": "from about 1892-93 (Prichard joins as second secretary)"
+  },
+  "end": {
+    "y": 1901,
+    "label": "1901 (Prichard leaves Lewes for the Boston Museum of Fine Arts)"
+  },
+  "date_label": "c. 1892-1901 (Lewes House years)",
+  "summary": "Matthew Stewart Prichard joined Lewes House as Warren's second secretary in the early 1890s and became, in Sox's judgement, the member of the brotherhood closest to Warren's own aestheticism. Whether the bond was romantic or filial-discipular is exactly what the sources leave contested: Warren's household read the two as rivals for his affection, while Sox describes Warren as a father-figure to him.",
+  "disputed": {
+    "claim": "That the Prichard-Warren bond was romantic rather than filial and discipular.",
+    "asserted_by": "The roster owner's reading of the counter-texture (rivalry for Warren's affection; the 'Johnny's place' disappointment; 'Dear Ducky'; Prichard among the men Warren 'wanted to possess')",
+    "disputed_by": "Sox himself, who characterizes the bond as filial ('like a father to him') and glosses the rivalry as competition over position rather than romance",
+    "grounds": "No romantic or sexual statement about the pair appears anywhere in the pages read; the strongest signals are third-party jealousy and a pet-name salutation that has not yet been verified at the rendered page."
+  },
+  "sources": [
+    {
+      "quote": "Prichard clearly loved Warren who was like a father to him. He spoke of his relationship to Fothergill as Warren being 'a sort of Buddha at whose feet he used to sit'.",
+      "context": "Sox's direct characterization of the Prichard-Warren bond",
+      "work": "sox-1991",
+      "locator": "p. 172",
+      "locator_type": "page",
+      "evidence_date": null,
+      "supports": "The counter-evidence: Sox's own framing is love-as-filial-discipleship, not romance. This is the sentence the null finding rested on.",
+      "verification": "verified-exact",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF p. 196 (printed folio 172 confirmed), rendered and read as page image 2026-08-03 by the Lewes House research pass; full passage in LEWES-HOUSE_dossier.md (P1).",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "modern"
+    },
+    {
+      "quote": "Their growing involvement increased Marshall's paranoia that he was inefficient. He also viewed them as rivals for Ned's affection.",
+      "context": "Sox on Marshall's reaction to Prichard and Harding joining the household",
+      "work": "sox-1991",
+      "locator": "p. 175",
+      "locator_type": "page",
+      "evidence_date": null,
+      "supports": "Third-party reading of the bond as affective rivalry — the strongest positive signal for a romantic classification.",
+      "verification": "verified-exact",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF p. 199 (printed folio 175 confirmed), rendered and read as page image 2026-08-03; full passage in LEWES-HOUSE_dossier.md (P2).",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "modern"
+    },
+    {
+      "quote": "That either he or Harding could ever take Johnny's place was out of the question and the fact indeed seemed to me to disappoint Prichard.",
+      "context": "Warren's own unfinished autobiographical fragment, quoted by Sox; 'Johnny' is John Marshall",
+      "work": "sox-1991",
+      "locator": "p. 175",
+      "locator_type": "page",
+      "evidence_date": null,
+      "supports": "Warren himself reading disappointment in Prichard at not occupying Marshall's place — first-person, though Sox glosses it as positional rather than romantic.",
+      "verification": "verified-exact",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF p. 199 (printed folio 175 confirmed), rendered and read as page image 2026-08-03; full passage in LEWES-HOUSE_dossier.md (P2).",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "modern"
+    },
+    {
+      "quote": "… in the end, it was Prichard and not Marshall who came nearest to Warren's peculiar brand of aestheticism, and the only member of the brotherhood who was as openly misogynistic as Ned.",
+      "context": "Sox comparing Prichard and Marshall in relation to Warren",
+      "work": "sox-1991",
+      "locator": "p. 176",
+      "locator_type": "page",
+      "evidence_date": null,
+      "supports": "Temperamental closeness to Warren beyond the secretarial role.",
+      "verification": "verified-elision",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF p. 200 (printed folio 176 confirmed), rendered and read as page image 2026-08-03; sentence opens mid-paragraph, elision marked. Full passage in LEWES-HOUSE_dossier.md (P3).",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "modern"
+    },
+    {
+      "quote": "More than loving Marshall, Harry, Matt and Fothergill, he wanted to possess them. … Nietszche and Prichard were abruptly and uncharacteristically dismissed in Warren's reply: 'Dear Ducky, Synthetic means sweeping, individualistic means masterful. Don't hoodwink yourself with phrases . . . You master your ethics, before they master you. You can't cram them.'",
+      "context": "Two separate passages: p. 129 lists Prichard ('Matt') among the four men Warren loved and wanted to possess; p. 174 gives Warren's salutation to him, 'Dear Ducky'. The ellipsis spans 45 printed pages - these are not consecutive sentences. Sox spells the philosopher 'Nietszche'; the misspelling is his.",
+      "work": "sox-1991",
+      "locator": "pp. 129, 174",
+      "locator_type": "page",
+      "evidence_date": null,
+      "supports": "(a) p. 129: Sox lists Prichard ('Matt') among the four men Warren loved and 'wanted to possess'; (b) p. 174: Warren's salutation to Prichard, 'Dear Ducky'. Both are known only from the PDF text layer and must be verified at the rendered page before they can bear on the classification.",
+      "verification": "verified-elision",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF pages 145 and 198, printed folios 129 and 174 confirmed on the rendered pages (129 at the foot, 174 at the foot under the running head 'Bachelors of Art'), read as page images 2026-08-03.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "modern"
+    }
+  ],
+  "prior_class": "alleged"
+}

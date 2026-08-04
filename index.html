@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The World Wilde Web</title>
+<meta name="description" content="A sourced map of romantic and sexual relationships in Oscar Wilde's circle, 1870s-1940s. Every claim carries a quotation and a citation.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/css/circle.css">
+</head>
+<body>
+<header>
+  <div class="masthead">
+    <h1>The World Wilde Web</h1>
+    <div class="sub">Romantic &amp; sexual relationships in Oscar Wilde's circle, 1870s&ndash;1940s</div>
+    <div class="hstamp" id="stamp" title="✓ = transcribed from the source page by the research pass. ⧖ = not verified in context: either located but unconfirmed, or a pointer with nothing transcribed yet."></div>
+  </div>
+  <input id="search" type="search" placeholder="Search a name&hellip;" aria-label="Search people">
+  <div class="hbtns">
+    <button class="hbtn" id="btnAbout" aria-pressed="false">About</button>
+    <button class="hbtn" id="btnList" aria-pressed="false">All relationships</button>
+  </div>
+</header>
+
+<div id="legend" role="group" aria-label="Legend and filters"></div>
+
+<main>
+  <div id="webwrap">
+    <svg id="web" viewBox="0 0 1200 800" aria-label="Relationship web. Use the All relationships button for a list view.">
+      <defs>
+        <marker id="arrowhead" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7.5" markerHeight="7.5" orient="auto-start-reverse">
+          <path d="M0,0 L10,5 L0,10 z" fill="var(--edge)"></path>
+        </marker>
+        <marker id="arrowhead-open" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+          <path d="M0.5,0.5 L9.5,5 L0.5,9.5" fill="none" stroke="var(--edge)" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"></path>
+        </marker>
+      </defs>
+      <g id="gEdges"></g><g id="gNodes"></g>
+    </svg>
+    <div id="tip" role="status"></div>
+    <div id="emptymsg" hidden>No data injected yet &mdash; run <code>&nbsp;python build_circle_web.py</code></div>
+  </div>
+  <aside id="panel" aria-label="Details panel"></aside>
+</main>
+
+<div id="about" role="dialog" aria-modal="true" aria-label="About">
+  <div class="abox">
+    <button class="pclose" id="aboutClose">Close</button>
+    <div id="aboutBody">
+    <h2>About</h2>
+    <p class="sub" style="font-style:italic">A working historical reference.</p>
+    <div class="sect">What this is</div>
+    <p>A map of the documented romantic and sexual relationships in Oscar Wilde's social circle. Every relationship carries quoted, cited sources; nothing rests on received anecdote. Click a person for a biography and a birth-to-death timeline of their engagements; click a connection for the evidence itself.</p>
+    <div class="sect">Reading the map</div>
+    <p>Node <b>colour</b> groups people by sphere (Wilde, aesthetes, the 1895 trials, society, spouse, the Order of Chaeronea, the later circle, outside the circle, beyond Europe). Node <b>shape</b> marks gender in the genogram convention — <b>squares are men, circles are women</b>; a dashed outline means gender is not yet recorded in the data. Line <b>style</b> carries the certainty of each connection, below.</p>
+    <p><b>Outside the circle</b> collects the one-off men who were never part of the propertied social world the rest of this map describes — the Paris boy Wilde called <i>le petit Georges</i>, a fisherman at Napoule, a waiter at the Café d'Égypte and the other men he met in exile, and an actor Fothergill wrote to after seeing him in a play at Bradfield. Most survive only under a first name, a nickname, or no name at all. They are here because the record of a life should not depend on its subject's status or class.</p>
+    <div class="sect">How a connection is evidenced (line styles)</div>
+    <p>The line style records <b>how we know</b> about a connection &mdash; not what happened in it. This reference deliberately makes <b>no claim about sexual acts</b> in either direction. Criminal law was designed precisely to keep that evidence out of the record, so treating its absence as a finding would mistake the effect of prosecution for a fact about people's lives.</p>
+    <ul>
+      <li><b>Married</b> (double line)</li>
+      <li><b>Self-Reported</b> (heavy solid) &mdash; a participant's own words survive: their letters, diaries, or sworn testimony. The speaker must be one of the two people connected.</li>
+      <li><b>Second-Hand</b> (dashed) &mdash; only non-participants attest it: biographers, editors, observers.</li>
+      <li><b>Uncorroborated</b> (dotted) &mdash; a claim with limited support: a lone source, or an allegation never tested &mdash; including those made only in Queensberry's 1895 plea of justification. Where someone genuinely contested the connection &mdash; testimony discredited at trial, a witness who recanted &mdash; that is stated in the note on the card.</li>
+      <li><b>Desire expressed</b> (dash-dot, arrowed) &mdash; the record is one-sided: an approach or declaration, the arrow pointing from the person who expressed it to its addressee. Heavier means the person was propositioned and they <i>declined</i>; lighter with an open arrowhead means the <i>outcome is unknown</i>. Many of them &mdash; sailors, waiters, fishermen &mdash; left no papers of their own to confirm the nature of the connection.</li>
+    </ul>
+    </ul>
+    <p>Every classification is checked by hand against the sources before it is relied on.</p>
+    <div class="sect">Verification of quotes</div>
+    <p>Every quote carries a chip saying how far it has been checked. <b>&#10003; verified</b> means a researcher opened the book, found the passage on the printed page, and transcribed it word for word; where a quotation skips material, the cut is marked with an ellipsis in the text itself. <b>&#10038;</b> means <b>not yet confirmed on the printed page</b> &mdash; either a passage found in a text layer or an index but never checked against the page, or a <b>source pointer</b>: a claim recorded with nothing transcribed yet, naming only where to look. Pointer cards say so on their face.</p>
+    <p>Quotations set between <b>large quotation marks</b> are entirely in the voice of someone alive at the time — a letter, a diary, sworn testimony, a contemporary memoir. Quotations with a plain rule down the left are a historian, biographer or editor writing <i>about</i> these people.</p>
+    <p>These chips describe the <i>research</i> pass, not a final scholarly verdict. A separate audit runs by hand through a ledger kept beside the data, where each quotation is checked against the page it came from. The amber marks are honesty markers, not decoration: nothing unverified is dressed up as settled, and the counter in the masthead states how many remain.</p>
+    <div class="sect">A note on the record</div>
+    <p>The 1895 trial record documents ages, sex work, and blackmail; the reference states exactly what the record states, with citation, and nothing more. These relationships were criminalized under the Labouch&egrave;re Amendment (1885) &mdash; the legal frame in which every documented fact here was produced, including the trial testimony itself.</p>
+    <div class="sect">Boundary</div>
+    <p>The roster is locked to Wilde's own partners and one hop outward. Liaisons that leave the roster (Bram Stoker, Charles Spurrier Mason, the wider Paris circle) appear in personal timelines as hollow off-roster markers, not as nodes.</p>
+    <div class="sect">Colophon</div>
+    <p id="colophon"></p>
+    </div>
+  </div>
+</div>
+
+<script src="assets/js/circle.js"></script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+{
+  "id": "sea-god",
+  "name": "A 'Sea-God', Naples",
+  "sort_name": "Sea-God, Naples",
+  "aka": [],
+  "born": null,
+  "died": null,
+  "group": "liaisons",
+  "gender": "m",
+  "bio": "A young man Wilde met during a three-day stop at Naples on his Italian journey of April 1900, and with whom, in his own words to Robert Ross, he 'fell in love'. Wilde calls him a Sea-God and says he was at the Regia Marina School - the Italian naval school - 'instead of being with Triton'. No name, age, dates or further trace appear on the page read.",
+  "bio_sources": [
+    "letters-2000"
+  ],
+  "bio_note": "THE LABEL IS A DESCRIPTOR, NOT A NAME: 'Sea-God' is Wilde's epithet for him, made to fit the joke about the naval school and Triton. The source preserves no name, and the node should never be cited as though 'Sea-God' were one. The only concrete fact the record gives about him is his institution - the Regia Marina School at Naples - which is why the label carries the city. Sole source: Wilde to Robert Ross, 16 April [1900], c/o Cook & Son, Piazza di Spagna, Rome, Complete Letters (2000), p. 1179 (repo PDF 1225, printed folio 1179 confirmed at the foot of the rendered page image, read 2026-08-03). The letter's heading - recipient, date and address - stands on an earlier printed page that was not read; it was located in the OCR mirror, which is finding-only, so the attribution to Ross and the 16 April date are flagged as mirror-derived rather than verified in the source. What IS verified in the source: the editors' footnote 2 on the same page reads 'Easter Day 1900 was on 15 April', and Wilde places his Vatican appearance 'yesterday', which is consistent with the mirror's 16 April heading. The letter states no age and none is inferred. OTHER DISTINCT PERSONS ON THE SAME PAGE, NOT CREATED AS NODES (roster change control - adding a person is a deliberate ROSTER.md edit, not a research-session side effect): the Palermo Sicilian-horse drivers Manuele, Francesco and Salvatore ('I loved them all, but only remember Manuele'), and the young seminarist Giuseppe Loverde, whose age the letter states as fifteen and whom Wilde says he kissed daily behind the high altar. All four are transcribed in dossiers/EXILE-LIAISONS_dossier.md (L6) and recorded but not added as candidates. Full passage in the same dossier. DATES: NONE RECORDED (2026-08-03). Searched so far: the whole OCR mirror of the Complete Letters (2000) for every occurrence of the name, plus the edition's General Index; Frankel, Oscar Wilde: The Unrepentant Years (2017), repo PDF, the fullest scholarly account of the exile years; McKenna, The Secret Life of Oscar Wilde (2008) and Murray, Bosie (2020), repo PDFs. Frankel covers the Naples stop at printed p. 266 (repo PDF 280) and, at printed p. 277 (repo PDF 291), raises the possibility that a 'good-looking young Italian' Wilde entertained later that year was the same man - a suggestion, not an identification, and it supplies no name or dates. No birth or death date is recorded in any source consulted, and none is likely to be: the record preserves a first name (or a trade) in another man's correspondence and no surname to search by. That absence is itself the historical fact worth keeping - these men enter the written record only because Wilde wrote to his friends about them.",
+  "context_engagements": [],
+  "research_status": "phase-a",
+  "name_is_descriptor": true
+}

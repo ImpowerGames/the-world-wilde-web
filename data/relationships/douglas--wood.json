@@ -1,0 +1,65 @@
+{
+  "id": "douglas--wood",
+  "people": [
+    "douglas",
+    "wood"
+  ],
+  "certainty": "uncorroborated",
+  "certainty_status": "proposed",
+  "certainty_reasoning": "Murray states in passing that the blackmailers into whose hands Wilde's letters to Douglas fell were men 'with whom they had slept' - 'they' being Wilde and Douglas, the subject of the sentence. That is a single secondary source, asserting in the plural and without a footnote at the point of assertion, and no first-person evidence is offered for the Douglas half of the claim; Wood's own sworn testimony (which carries the wilde--wood edge) concerns Wilde. Single-source and non-itemised, therefore 'alleged'. What is documented independently at the same pages is only the connective fact: Douglas befriended Wood, gave him old suits, and Wood found Wilde's letters to Douglas in the pockets.",
+  "start": {
+    "y": 1892,
+    "circa": true
+  },
+  "end": {
+    "y": 1893,
+    "circa": true
+  },
+  "date_label": "acquaintance by late 1892 - early 1893; the blackmail from April 1893",
+  "summary": "Alfred Wood was an out-of-work clerk from Oxford, who had worked as a valet in Douglas's Oxford rooms; Douglas befriended him and gave him several old suits, and Wilde's letters to Douglas reached the blackmailers from there - Murray thinks by theft from the rooms rather than by the pockets, as Wood claimed. Murray, describing the moment the two halves of Wilde's life converged, calls Wood one of the blackmailers 'with whom they had slept' - the only statement in the book that Douglas's relations with Wood were sexual, and one made in passing and in the plural.",
+  "disputed": {
+    "claim": "That Douglas, as well as Wilde, had sexual relations with Alfred Wood.",
+    "asserted_by": "Douglas Murray, Bosie (2020 edn), PDF p. 60 - in a subordinate clause, unfootnoted at that point, and phrased as a class statement about 'blackmailers like Wood'.",
+    "disputed_by": "Not rebutted in any source read so far. But nothing corroborates it: Wood's sworn testimony at the 1895 trials describes acts with Wilde, not with Douglas; Douglas was never charged; and the Complete Letters apparatus records only that Douglas gave Wood clothes and introduced him to Wilde by telegram.",
+    "grounds": "Single secondary source; assertion made in passing and in the plural rather than itemised; no first-person or testimonial evidence for the Douglas half."
+  },
+  "sources": [
+    {
+      "quote": "Wilde and Douglas were treading a dangerous path. Douglas had befriended a young and unemployed clerk from Oxford called Alfred Wood, who proved to be less than honest, and when letters from Wilde to Douglas turned up in the hands of blackmailers like Wood with whom they had slept, the two sides of Wilde's homosexual life came together: the romantic love for Douglas and the sexual encounters with rent boys.",
+      "context": "Murray's chapter on 1893, immediately after Wilde's Savoy letter to Douglas ('you must not make scenes with me') and the appearance of the first blackmailer with the stolen 'Hyacinthus' letter on 21 April 1893.",
+      "work": "murray-2020",
+      "locator": "PDF p. 60",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1893,
+        "circa": true
+      },
+      "supports": "The whole of the claim: that Douglas befriended Wood, and Murray's assertion that Wilde and Douglas had both slept with him.",
+      "verification": "verified-exact",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF page 60 of Murray_2020_Bosie, read as page image 2026-08-03; no printed folio on the page - the file is an ebook conversion with no pagination (see the pagination note in dossiers/DOUGLAS-MURRAY_dossier.md), so the locator is the PDF page.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "modern"
+    },
+    {
+      "quote": "Douglas had given the unemployed clerk several of his old suits, and Wood claimed that he had found the letters in the pockets. Wood was in league with two other blackmailers, Allen and Clibborn, and it is highly improbable that Douglas would have been so careless. A likely explanation is that Wood simply stole the letters from Douglas's rooms at Oxford, where he had worked as a valet.",
+      "context": "Murray on the first criminal trial, where the prosecution laid emphasis on Wilde's letters to Douglas, 'which had been \"found\" by Alfred Wood' - Murray's scare quotes are his own. Later on the same page: the foreman of the jury asked the judge why no warrant had been issued for the arrest of Lord Alfred Douglas, and 'The judge said that something more than intimacy would have to be proved if a charge were to be made.'",
+      "work": "murray-2020",
+      "locator": "PDF p. 95",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1893,
+        "circa": true
+      },
+      "supports": "The documented, non-sexual connection between the two men - Wood worked as a valet in Douglas's Oxford rooms, and the old suits Douglas gave him carried Wilde's letters to Douglas into a blackmailer's hands.",
+      "verification": "verified-exact",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF page 95 of Murray_2020_Bosie, read as page image 2026-08-03; no printed folio on the page (ebook conversion).",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "modern"
+    }
+  ],
+  "prior_class": "alleged"
+}

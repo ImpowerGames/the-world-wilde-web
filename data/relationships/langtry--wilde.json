@@ -1,0 +1,97 @@
+{
+  "id": "langtry--wilde",
+  "people": [
+    "langtry",
+    "wilde"
+  ],
+  "certainty": "self-reported",
+  "certainty_status": "proposed",
+  "certainty_reasoning": "Documented public devotion and close, teasing intimacy: the 1879 poem 'The New Helen', the inscription 'To Helen, formerly of Troy, now of London' in her copy of Poems, Wilde acting as her tutor-amanuensis (her own note calls him 'my kind tutor'), and the warm 'My dear Lil' correspondence continuing after his marriage. Nothing read makes a sexual claim; whether the public devotion was courtship or performance is a real interpretive question, but the documented register is romantic-devotional, so this class fits the read evidence. The 1899 remark about marrying her 'with pleasure' reaches us via Vincent O'Sullivan as printed by the editors - chain noted.",
+  "start": {
+    "y": 1879,
+    "label": "by 1879"
+  },
+  "end": {
+    "y": 1885,
+    "circa": true,
+    "label": "friendship attested through at least 1885"
+  },
+  "date_label": "by 1879 - mid-1880s (devotion verses 1879-81; friendship after)",
+  "summary": "Wilde's public poetic devotion to the great Society beauty of the age - 'The New Helen', the Troy/London inscription - alongside a working intimacy as her tutor and amanuensis and a durable friendship: she is among the first he tells of his engagement, and he sends her theatre stalls in 1885 with news of Constance's confinement.",
+  "sources": [
+    {
+      "quote": "Of course I'm longing to learn more Latin but we stay here till Wednesday night so I shan't be able to see my kind tutor before Thursday. Do come and see me on that afternoon about six if you can.",
+      "context": "Lillie Langtry to Wilde, Sunday [c. 1879-80], Beaconsfield, Milehouse, Nr Plymouth - printed in the editors' n. 5, which notes Wilde also acted as her amanuensis and adviser",
+      "work": "letters-2000",
+      "locator": "p. 91 n. 5",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1880,
+        "circa": true
+      },
+      "supports": "Langtry's own words for what Wilde was to her - 'my kind tutor' - and the standing invitation to call: the only first-hand statement from her side in the record",
+      "verification": "verified-exact",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF p. 116 (printed p. 91, folio confirmed), read as page image 2026-08-03.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "period",
+      "speaker": "Lillie Langtry"
+    },
+    {
+      "quote": "Wilde's poem to her, 'The New Helen', appeared in Time for July 1879 and was reprinted, with revisions, in Poems (1881). In Mrs Langtry's copy of this book Wilde wrote: 'To Helen, formerly of Troy, now of London.'",
+      "context": "Holland & Hart-Davis, main-particulars footnote on Langtry",
+      "work": "letters-2000",
+      "locator": "p. 91 n. 2",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1879,
+        "m": 7
+      },
+      "supports": "The public devotion: the poem and the inscription.",
+      "verification": "verified-exact",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF p. 116 (printed p. 91, folio confirmed), read as page image 2026-08-03.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "modern"
+    },
+    {
+      "quote": "Vincent O'Sullivan records Wilde as saying in 1899: 'The three women I have most admired are Queen Victoria, Sarah Bernhardt, and Lillie Langtry. I would have married any one of them with pleasure.'",
+      "context": "Holland & Hart-Davis, editorial note, quoting O'Sullivan's record of Wilde in 1899",
+      "work": "letters-2000",
+      "locator": "p. 91 n. 2",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1899
+      },
+      "supports": "Wilde's own late-life framing of the admiration; reaches us via O'Sullivan as printed by the editors.",
+      "verification": "verified-exact",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF p. 116 (printed p. 91, folio confirmed), read as page image 2026-08-03.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "modern"
+    },
+    {
+      "quote": "My dear Lil, I am really delighted at your immense success; the most brilliant telegrams have appeared in the papers here on your performance in Peril. … And so, I write half to tell you how glad I am at your triumphs - you, 'Venus Victrix of our age'! - and the other half to tell you that I am going to be married …",
+      "context": "Wilde to Lillie Langtry, circa 22 January 1884, Royal Victoria Hotel, Sheffield - telling her of his engagement to Constance Lloyd",
+      "work": "letters-2000",
+      "locator": "p. 224",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1884,
+        "m": 1,
+        "d": 22
+      },
+      "supports": "The durable intimate-friend register ('My dear Lil', 'Venus Victrix of our age'); she is among the first told of the engagement.",
+      "verification": "verified-elision",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF p. 246 (printed p. 224, folio confirmed), read as page image 2026-08-03. Elision drops the American-tour sentences and the description of Constance (that passage is quoted on the constance--wilde record).",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "period"
+    }
+  ],
+  "prior_class": "romantic-nonsexual"
+}

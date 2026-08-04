@@ -1,0 +1,51 @@
+{
+  "id": "balcombe",
+  "name": "Florence Balcombe",
+  "sort_name": "Balcombe, Florence",
+  "aka": [
+    "Florence Stoker",
+    "Florence Anne Lemon Balcombe"
+  ],
+  "born": {
+    "y": 1858
+  },
+  "died": {
+    "y": 1937
+  },
+  "group": "society",
+  "bio": "Florence Anne Lemon Balcombe, daughter of a retired lieutenant-colonel who had fought in the Crimea, living at 1 Marino Crescent, Clontarf, Dublin. Wilde courted her from August 1876 - he drew her that month and called the courtship 'a memory of two sweet years' - until her engagement in 1878; the editors caption her plate 'Wilde's first love'. She married Bram Stoker on 4 December 1878 at St Anne's Church, Dublin, appeared as a Priestess in Tennyson's The Cup at the Lyceum in January 1881, and remained on cordial terms with Wilde, who sent her Salome in 1893.",
+  "bio_sources": [],
+  "bio_note": "Born/died (1858-1937), parentage and Clontarf address from the main-particulars footnote at Holland & Hart-Davis, Complete Letters (2000), p. 47 n. 3 (repo PDF 72, folio confirmed, read as page image 2026-08-03), which also records Wilde's August 1876 drawing of her. 'Wilde's first love' from the List of Illustrations, p. vi (repo PDF 6). 'Two sweet years' from Wilde's letter of [? 30 September 1878], p. 71 (repo PDF 98). Stoker marriage from p. 72 n. 1 (repo PDF 99). The Cup casting from p. 107 n. 1 (repo PDF 132). Salome presentation letter at p. 552 (repo PDF 604). Full passages in dossiers/EARLY-CIRCLE_dossier.md.",
+  "context_engagements": [
+    {
+      "note": "Married 4 December 1878 at St Anne's Church, Dublin. Stoker (1847-1912) was then a young Irish civil servant, appointed business manager of Irving's Lyceum Theatre in October 1878; Dracula followed in 1897. Wilde's 1893 Salome letter to her closes 'With kind regards to Bram'.",
+      "date_label": "m. 4 Dec. 1878",
+      "sources": [
+        {
+          "quote": "Florence Balcombe was married on 4 December 1878 at St Anne's Church, Dublin, to Bram Stoker (1847–1912), a young Irish civil servant with literary and dramatic interests.",
+          "context": "Holland & Hart-Davis, editorial note on Wilde's parting letters to Florence",
+          "work": "letters-2000",
+          "locator": "p. 72 n. 1",
+          "locator_type": "page",
+          "evidence_date": {
+            "y": 1878,
+            "m": 12,
+            "d": 4
+          },
+          "supports": "The Stoker marriage: date, church, husband",
+          "verification": "verified-exact",
+          "how_verified": "pdf-at-page",
+          "provenance": "Repo PDF page 99, printed folio 72 confirmed on rendered page, read as page image 2026-08-03.",
+          "verified_by": "agent-mechanical",
+          "verified_on": "2026-08-03",
+          "voice": "modern"
+        }
+      ],
+      "partner_name": "Bram Stoker"
+    }
+  ],
+  "research_status": "phase-a",
+  "gender": "f",
+  "wikidata": "Q3746677",
+  "wikipedia": "https://en.wikipedia.org/wiki/Florence_Stoker"
+}
