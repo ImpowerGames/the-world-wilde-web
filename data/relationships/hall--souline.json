@@ -1,0 +1,100 @@
+{
+  "id": "hall--souline",
+  "people": [
+    "hall",
+    "souline"
+  ],
+  "certainty": "self-reported",
+  "certainty_status": "proposed",
+  "certainty_reasoning": "Hall's own letters are the evidence, which is the README's self-reported test in its plainest form: nine years of them, published entire as Your John, in which she names the attachment continuously and without ambiguity. The class rests on the participant's own words and needs no corroborating layer, though it has one - Glasgow's introduction, and Hall's biographers Dickson and Baker, both of whom read these letters before they were published. Note the asymmetry the record cannot fix: **Souline's side does not survive.** Of nine years of her letters to Hall exactly one, from 1939, is extant, so every word here is Hall's about Souline and none is Souline's about Hall. Glasgow is explicit that Souline's responses can only be speculated about, and reads two alternating reactions in them, \"flattered interest and terror\". The edge is therefore well-evidenced as to Hall's feeling and one-sided as to the record; it is not classed desire-expressed, because the relationship itself is not in doubt - only Souline's voice is missing.",
+  "start": {
+    "y": 1934
+  },
+  "end": {
+    "y": 1943
+  },
+  "date_label": "met at Bagnoles-de-l'Orne in the summer of 1934, when Souline came from the American Hospital in Paris as Hall's private nurse; the correspondence runs from July 1934 until Hall's death on 7 October 1943",
+  "summary": "In 1934 Radclyffe Hall, fifty-four and between books, went to the Normandy spa of Bagnoles-de-l'Orne to treat an old riding injury. Una Troubridge, her partner since 1915, fell ill there, and Hall sent to the American Hospital in Paris for a private nurse. The nurse was Evguenia Souline, a Russian émigrée in her thirtieth year. What began with a few stolen kisses at the spa became a nine-year attachment conducted very largely by post - Hall wrote at first in letter-and-response intervals, then every two days, then daily and sometimes twice - and it did not displace Troubridge, who remained. Hall's editor calls the arrangement that followed \"an imperfect, stormy triangle\" and lets it stand as one. The letters were published in 1997 as Your John; Souline's replies were not kept, and one survives.",
+  "sources": [
+    {
+      "quote": "Darling. Thank you for your little note of welcome. Yes, I am here in Paris, and it seems so strange that only a few weeks ago I did not know that Paris meant you.",
+      "context": "Hall to Souline, 24 July 1934, from the Pont Royal Hotel, Paris - about a week after they parted at Bagnoles. Hall signs herself 'John' throughout and calls Souline 'Soulina'. The letter goes on to ask her to think of him a very great deal, and to insist on paying for her taxi without appearing to.",
+      "work": "glasgow-1997-your-john",
+      "locator": "p. 28",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1934,
+        "m": 7,
+        "d": 24
+      },
+      "supports": "The participant's own voice at the opening of the attachment, and its date.",
+      "verification": "verified-exact",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF p. 7 read as a rendered page image 2026-08-04 and re-read at 330 dpi; printed folio 28 confirmed in the running head on the image. The scan is TWO PRINTED PAGES PER PDF PAGE. The PDF's text layer is unreliable and was not used for transcription - besides misreading words it reorders blocks, and on this page it prints the date line above the preceding letter's sign-off, which would have mis-dated the quotation.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-04",
+      "speaker": "Radclyffe Hall, letter to Evguenia Souline",
+      "voice": "period"
+    },
+    {
+      "quote": "Take care of yourself and know that I am counting on this meeting in Paris as I have counted on few things in my life.",
+      "context": "The close of Hall's letter arranging to see Souline in Paris, written from Bagnoles in July 1934 and running onto printed p. 28, where it is signed 'Yours John'. Hall and Souline had known each other a matter of weeks.",
+      "work": "glasgow-1997-your-john",
+      "locator": "p. 28",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1934,
+        "m": 7
+      },
+      "supports": "The weight Hall placed on the attachment within weeks of its beginning, in her own words.",
+      "verification": "verified-exact",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF p. 7 read as a rendered page image 2026-08-04 and re-read at 330 dpi; printed folio 28 confirmed in the running head on the image. The scan is TWO PRINTED PAGES PER PDF PAGE. The PDF's text layer is unreliable and was not used for transcription - besides misreading words it reorders blocks, and on this page it prints the date line above the preceding letter's sign-off, which would have mis-dated the quotation.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-04",
+      "speaker": "Radclyffe Hall, letter to Evguenia Souline",
+      "voice": "period"
+    },
+    {
+      "quote": "But in 1934 everything changed. … At Una's urging, therefore, they went to Bagnoles-de l'Orne, a spa in Normandy where John had once been treated for the same injury. During the course of treatment, throughout which Una acted as facilitator, correspondent, indeed general manager, Una herself came down with severe gastroenteritis. Still hobbling, unwell, and feeling unhelpful, John sent to the American Hospital in Paris for a private nurse. That nurse was Evguenia Souline. Until the end of John's life nine years later, the three, John, Una, and Souline, were to form an imperfect, stormy triangle.",
+      "context": "Joanne Glasgow's introduction to Your John, giving the circumstances of the meeting and naming the shape of what followed. The elision drops the account of Hall's riding injury of thirty years before. Glasgow is the editor of the letters and states her own interpretive position openly in a footnote on the same page.",
+      "work": "glasgow-1997-your-john",
+      "locator": "p. 2",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1934
+      },
+      "supports": "How and when the two met, and that the attachment ran to Hall's death alongside the Troubridge partnership rather than replacing it.",
+      "verification": "verified-elision",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF p. 4 read as a rendered page image 2026-08-04 and re-read at 330 dpi; printed folio 2 confirmed in the running head on the image. The scan is TWO PRINTED PAGES PER PDF PAGE. The PDF's text layer is unreliable and was not used for transcription - besides misreading words it reorders blocks, and on this page it prints the date line above the preceding letter's sign-off, which would have mis-dated the quotation.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-04",
+      "speaker": "Joanne Glasgow, ed.",
+      "voice": "modern"
+    },
+    {
+      "quote": "The first forty letters are in effect an ardent seduction, carried out by means of the postal systems of two countries. … Since Souline's letters have not survived, except one from 1939, we can only speculate about her responses to the increasingly fervent outpouring from John. Two reactions seem to alternate—flattered interest and terror.",
+      "context": "Glasgow's headnote to the first section of the correspondence. Recorded because it states the evidentiary asymmetry this edge rests on: the relationship is exhaustively documented from one side and almost not at all from the other. The elision drops a paragraph on Hall's preoccupation with the post.",
+      "work": "glasgow-1997-your-john",
+      "locator": "p. 25",
+      "locator_type": "page",
+      "evidence_date": null,
+      "supports": "That the surviving record is Hall's alone, and the editor's own reading of what Souline's missing side may have held.",
+      "verification": "verified-elision",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF p. 5 read as a rendered page image 2026-08-04; the page carries the section headnote and the printed folio 25 at its foot. Em-dash before 'flattered' as printed.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-04",
+      "speaker": "Joanne Glasgow, ed.",
+      "voice": "modern"
+    }
+  ],
+  "null_findings": [
+    {
+      "work": "glasgow-1997-your-john",
+      "checked_on": "2026-08-04",
+      "finding": "SCOPE LIMIT ON THE COPY USED. The repo PDF is a **30-page extract**, not the whole book: it carries the front matter and introduction plus printed pages running to 80, against a volume that ends at printed 271. Everything recorded on this edge is verified at page within that extract, and the extract covers the beginning of the correspondence, which is what the edge needed. The later years - 1937 to 1942, printed 147 onward, including whatever the letters say about the end - have not been read here."
+    }
+  ]
+}

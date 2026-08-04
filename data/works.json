@@ -542,7 +542,7 @@
   "short_cite": "Hall, Your John, ed. Glasgow (1997)",
   "repo_path": "docs/research/queer-history/victorian/hall/sources/Hall_1934-1942_Your-John.pdf",
   "ia_id": null,
-  "note": "PARTIAL AND IMAGE-ONLY: the repo file is 30 pages, one scanned image per page and no text layer - an excerpt, not the ~250-page book. Usable only for whatever those 30 pages contain, and needs OCR before it can be searched. Confirm with Lovelle whether a fuller copy exists. Transcribed from the Sources list in the HRC Hall/Troubridge finding aid, read 2026-08-03. Hall's own letters - the upgrade path for batten--hall and hall--troubridge."
+  "note": "Radclyffe Hall's letters to Evguenia Souline, 1934-1942, edited with an introduction by Joanne Glasgow (New York University Press, The Cutting Edge series, 1997). **The repo copy is a 30-page EXTRACT, not the whole book** - front matter and introduction plus printed pages up to 80, against a volume ending at printed 271 - so no null finding from it may be stated as whole-volume. PAGINATION: the scan is **two printed pages per PDF page**, so PDF 7 = printed 28-29 and PDF 4 = printed 2-3; folios are legible in the running heads ('28 · YOUR JOHN' verso, 'The Love Letters of Radclyffe Hall 29' recto) - read them off the image. **Do not trust the text layer**: it misreads words ('shere' for 'sheer', 'aa very' for 'a very') and it reorders blocks, printing a letter's date line above the preceding letter's sign-off, which will mis-date a quotation. Transcribe from the rendered page. NOTE the volume is a Hall-to-Souline source and Batten had been dead since 1916; the only thing in it bearing on batten--hall is Glasgow's hedged footnote at printed 29 n. 1."
  },
  "baker-1985-our-three-selves": {
   "kind": "secondary",
@@ -618,7 +618,19 @@
   "short_cite": "Ricketts, Self-Portrait (1939)",
   "repo_path": "docs/research/queer-history/victorian/ricketts/sources/Ricketts_1866-1931_Self-portrait--taken-from-the-letters-&-journals-of-Charles-Ricketts",
   "ia_id": null,
-  "note": "ON DISK 2026-08-03, but as **486 per-leaf OCR.txt files with NO page images** (a scan of the New York Public Library copy - the bookplate survives on leaf 2). **Nothing from this source can be in the source verified** while it exists only as text: the house rule is that OCR locates and the rendered page verifies, and there is no page to render. It is also not on archive.org (searched 2026-08-03), so no substitute scan is available. 163 of the 486 leaves mention Shannon. NOTE the front matter is Cecil Lewis's preface and T. Sturge Moore's introduction - their prose about Shannon is NOT Ricketts's own voice; the journal proper begins near leaf 40. To close ricketts--shannon properly, obtain page images."
+  "note": "ON DISK 2026-08-03, but as **486 per-leaf OCR.txt files with NO page images** (a scan of the New York Public Library copy - the bookplate survives on leaf 2). It is not on archive.org either (searched 2026-08-03). 163 of the 486 leaves mention Shannon. NOTE the front matter is Cecil Lewis's preface and T. Sturge Moore's introduction - their prose about Shannon is NOT Ricketts's own voice; the journal proper begins near leaf 40. PAGINATION: each leaf carries its printed folio at the foot, and the leaf-to-folio offset is NOT constant (leaf 50 = p. 22, leaf 126 = p. 96, leaf 376 = p. 342, leaf 447 = p. 409). Read the folio off the leaf; do not compute it. VERIFICATION, settled 2026-08-04: because there is no page to render, quotes from this work are verified by **two-digitisation corroboration** - see the README. The second digitisation is HathiTrust **uc1.$b73973**, the University of California copy of the same 1939 Peter Davies printing (488 scans), separately scanned and separately OCR'd. It is **Limited - search only**, so it yields no images, but its index returns 'scan #N (p. #printed)' for any phrase, which confirms both this dump's folios and its readings, and makes absence testable. Anchors confirmed: #50 = p. 22, #126 = p. 96, #378 = p. 342, #449 = p. 409, #450 = p. 410. Always run a positive and a negative control alongside any null. What the method cannot reach is typography no text layer carries; check that a quote does not depend on it before relying on this route."
+ },
+ "delaney-1990": {
+  "kind": "secondary",
+  "author": "J. G. P. Delaney",
+  "title": "Charles Ricketts: A Biography",
+  "publisher": "Clarendon Press",
+  "place": "Oxford",
+  "year": 1990,
+  "short_cite": "Delaney, Charles Ricketts (1990)",
+  "repo_path": "docs/research/queer-history/victorian/ricketts/sources/Delaney_1990_Charles-Ricketts--a-biography.pdf",
+  "ia_id": null,
+  "note": "464-page repo PDF carrying a NOISY OCR text layer - use it to FIND only; the rendered page verifies. PAGINATION: printed folio = PDF page - 28, verified at rendered pages PDF 416 = printed 388 and PDF 417 = printed 389. Folios print in the running head beside the chapter title, so they are legible on the image; confirm rather than compute, as the offset has not been tested outside this chapter. This is the standard life, and it is the source Cook 2014 cites for the quotations he takes from Ricketts's UNPUBLISHED letters - including 'the forty years of perfect companionship I have enjoyed' (p. 389, Ricketts to John Gray, late 1929), which is NOT in Ricketts's Self-Portrait and survives nowhere else in print. Delaney is also the source of the 'basically heterosexual' reading of Shannon that Cook argues with (Cook p. 34) and of the Symonds anecdote (Delaney p. 25, still unconsulted). Delaney's endnotes name recipients and give conjectural dates in square brackets; preserve both."
  },
  "field-2009-thain-parejo": {
   "kind": "primary-edition",
@@ -707,5 +719,31 @@
   "short_cite": "Vivien, Une femme m'apparut… (Wikisource, labelled 1905)",
   "repo_path": "docs/research/queer-history/victorian/vivien/sources/Une Femme m'apparut___ -- Renée Vivien -- Alphonse Lemerre, éditeur -- 09306cf03c4d334697c95852ad342f62 -- Anna’s Archive.epub",
   "note": "Source given as fr.wikisource.org/wiki/Une_femme_m'apparut/1905. NOT CITEABLE UNTIL THE DISCREPANCY ABOVE IS RESOLVED: it carries Lorély (the 1905 name) and Dagmar together, which no printed copy we hold does. Recorded so the next person does not treat it as a clean 1905."
+ },
+ "bucke-calamus-1897": {
+  "kind": "primary",
+  "author": "Walt Whitman",
+  "editors": "Richard Maurice Bucke",
+  "title": "Calamus: A Series of Letters Written During the Years 1868-1880 by Walt Whitman to a Young Friend (Peter Doyle)",
+  "publisher": "Small, Maynard",
+  "place": "Boston",
+  "year": 1897,
+  "short_cite": "Whitman, Calamus, ed. Bucke (1897)",
+  "repo_path": null,
+  "ia_id": "calamusseriesofl00whitrich",
+  "note": "PUBLIC DOMAIN and fully open on archive.org - no borrowing account needed. Three copies are on IA; this is the one used. Two things in one volume: Bucke's introduction, which contains a long verbatim INTERVIEW WITH PETER DOYLE (printed c. 21-34, its own running head), and Whitman's letters to Doyle 1868-1880. So the volume carries BOTH participants' voices, which is why the edge is self-reported. PAGINATION: scan number = printed folio + 13, verified by reading the folio on three rendered page images (n30 = printed 17, n36 = printed 23, n48 = printed 35). Confirm on each page read - this project has been bitten by non-constant offsets in four other volumes. Page images download directly at https://archive.org/download/calamusseriesofl00whitrich/page/nN.jpg and the OCR is at .../calamusseriesofl00whitrich_djvu.txt - text locates, image verifies. NOTE Bucke's title says 'a young friend'; the 1897 volume is discreet by design, and the discretion is itself evidence of what was being handled."
+ },
+ "murray-wwa-doyle-encyclopedia": {
+  "kind": "secondary",
+  "author": "Martin G. Murray",
+  "editors": "Matt Cohen, Ed Folsom and Kenneth M. Price (archive); Donald D. Kummings and J. R. LeMaster (encyclopedia)",
+  "title": "'Doyle, Peter (1843-1907)', in Walt Whitman: An Encyclopedia, on The Walt Whitman Archive",
+  "publisher": "Garland Publishing / Center for Digital Research in the Humanities, University of Nebraska-Lincoln",
+  "place": "New York / Lincoln, NE",
+  "year": 1998,
+  "short_cite": "Murray, 'Peter Doyle' (Whitman Archive)",
+  "repo_path": null,
+  "ia_id": null,
+  "note": "https://whitmanarchive.org/item/encyclopedia_entry3 - the standard reference entry on Doyle, by the author of the fullest published biography of him ('Pete the Great', Walt Whitman Quarterly Review 12, 1994). The archive states the file is based on a pre-print of the Garland encyclopedia, 'silently updated to reflect recent discoveries or to correct errors', so it is the archive's text rather than the 1998 printing that is cited. UNPAGINATED web document - cite by the entry, not a page. **The site is behind Cloudflare and returns 403 to curl and to plain fetching**; it was read in a real browser. Murray also supplies the lead on Harry Stafford."
  }
 }

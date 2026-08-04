@@ -1,0 +1,27 @@
+{
+  "id": "souline",
+  "name": "Evguenia Souline",
+  "sort_name": "Souline, Evguenia",
+  "aka": [
+    "Soulina"
+  ],
+  "born": {
+    "y": 1904,
+    "m": 1,
+    "d": 5
+  },
+  "died": {
+    "y": 1958
+  },
+  "group": "later",
+  "gender": "f",
+  "bio": "Russian émigrée nurse, born 5 January 1904, and the woman to whom Radclyffe Hall wrote the letters collected as Your John. Almost everything known about her early life comes through Hall's letters rather than from her own papers: her editor records that we do not know where or to whom she was born, that Souline is not a Russian name, that no patronymic and no father's name is ever given, and that the recurring details are White Russian origins and being a general's daughter - which would make her father an officer of the Russian Imperial Army. Uprooted at seventeen by the revolution, she lived among the Russian exiles in Paris \"basically without family, without status, and without financial reserves\", and worked as a private nurse at the American Hospital at Neuilly. In 1934 Hall, at the spa of Bagnoles-de-l'Orne and unable to nurse Una Troubridge through a bout of gastroenteritis, sent to the American Hospital for a nurse; Souline was the nurse who came. The attachment that followed lasted until Hall's death in 1943. Her own side of the correspondence does not survive: of nine years of letters to Hall, one, from 1939, is extant. She died in 1958, a date her editor gives with a question mark.",
+  "bio_note": "Birth date, the circumstances of the meeting, the nursing post and the evidentiary situation from Joanne Glasgow's introduction to Your John (1997), printed pp. 1-3, read at rendered page images 2026-08-04 (printed folio 2 confirmed in the running head). The death year is from the Library of Congress cataloguing-in-publication data printed in the same volume, which gives \"Souline, Evguenia, 1904-1958?\" - **the question mark is the cataloguer's and the year should be treated as uncertain**. Souline does not appear in Wilde's Complete Letters and has no Wikipedia article; no Wikidata entity was matched, so she has no portrait on the map, which is itself the pattern the README describes - the record thins for people without property or status.",
+  "bio_sources": [
+    "glasgow-1997-your-john"
+  ],
+  "context_engagements": [],
+  "research_status": "phase-a",
+  "wikidata": null,
+  "wikipedia": null
+}

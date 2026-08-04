@@ -30,18 +30,20 @@
       "voice": "modern"
     },
     {
-      "quote": "",
-      "context": "Hall's love letters in Glasgow's edition - participant testimony that would bear on this pair; not reachable so far.",
+      "quote": "While we cannot know for certain what grief John writes of here, it seems likely that the reference is to the death of Mabel Veronica Batten (Ladye), which occurred when John was in the first throes of her passion for Una, a passion very similar to that John was now feeling for Souline. The irony, of course, is that Ladye was grieved by that passion, just as Una was now grieved.",
+      "context": "Joanne Glasgow's editorial footnote to Hall's letter to Evguenia Souline of 27 July 1934, glossing Hall's own sentence on the same page - 'I slept, Soulina, as once before in my life I slept as the result of a fearful grief'. Note the hedge: Glasgow does not claim to know, and says so first. This is the editor writing about Hall, not Hall writing about Batten, and it is recorded as such.",
       "work": "glasgow-1997-your-john",
-      "locator": null,
-      "locator_type": "none",
+      "locator": "p. 29 n. 1",
+      "locator_type": "page",
       "evidence_date": null,
-      "supports": "Hall's own words about her attachments.",
-      "verification": "unverified",
-      "how_verified": "unverified",
-      "provenance": "",
-      "verified_by": null,
-      "verified_on": null
+      "supports": "An editor's reading that Hall's worst remembered grief was Batten's death, and that Batten was grieved by Hall's passion for Troubridge - second-hand, hedged, and the only thing in this volume that bears on this pair.",
+      "verification": "verified-exact",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF p. 7 read as a rendered page image 2026-08-04, and the footnote re-read at 400 dpi. The scan is TWO PRINTED PAGES PER PDF PAGE: PDF 7 carries printed 28 and 29, and the folio 29 is confirmed in the running head ('The Love Letters of Radclyffe Hall 29') on the image. The PDF's own text layer is unreliable here - it renders 'sheer' as 'shere' and 'a very' as 'aa very' - so the transcription is taken from the image, not the layer.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-04",
+      "speaker": "Joanne Glasgow, ed.",
+      "voice": "modern"
     },
     {
       "quote": "What is clear is that the two women who left England as friends came back as lovers. From this time onwards they would rarely be out of each other's company. The date they crossed the Channel to Ostend was August 12, John's birthday. Ever afterwards this anniversary became a double celebration.",
@@ -61,6 +63,13 @@
       "verified_by": "agent-mechanical",
       "verified_on": "2026-08-04",
       "voice": "modern"
+    }
+  ],
+  "null_findings": [
+    {
+      "work": "glasgow-1997-your-john",
+      "checked_on": "2026-08-04",
+      "finding": "The pointer this replaces expected 'Hall's own words about her attachments'. Your John cannot supply them for THIS pair: it is Hall's love letters to Evguenia Souline, 1934-1942, and Batten had been dead since 1916. Across the copy on disk the words 'Ladye', 'Mabel' and 'Batten' occur on one page only - printed 29 - and only in Glasgow's footnote, now recorded. TWO LIMITS ON THIS SEARCH, both honest: the repo copy is a **30-page extract**, not the whole book (printed folios run 32 to 80 plus front matter), so this is not a whole-volume null; and the volume is by its nature a Hall-to-Souline source. Hall's testimony about Batten, if it is anywhere, is in the Troubridge diaries at the Harry Ransom Center."
     }
   ]
 }

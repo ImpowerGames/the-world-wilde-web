@@ -1,6 +1,8 @@
 # Charles Ricketts & Charles Shannon — engagements dossier
 
-**Person ids:** `ricketts`, `shannon` · **Status:** phase-a: done (one edge, `ricketts--shannon`; three nulls recorded)
+**Person ids:** `ricketts`, `shannon` · **Status:** phase-a: done (one edge, `ricketts--shannon`; three relationship nulls recorded, plus one source null on _Self-Portrait_)
+**Revised 2026-08-04** — Delaney registered and read at page; the position-0 quote re-sourced; a spliced 1929 quote split. See the 2026-08-04 section below.
+
 **Sources consulted this session (2026-08-03):**
 
 - `letters-2000` — repo PDF, read at rendered page images: printed 410, 411, 412, 501, 566, 591, and the General Index at printed 1261 and 1264. OCR mirror used for finding only.
@@ -63,6 +65,8 @@ Confirmed at page that PDF pp. 190 and 379 carry **no printed folio and no runni
 
 **Passage 1 — Ricketts, near the end, on what the partnership was** *(the position-0 quote)*
 
+> ! **SUPERSEDED AS THE POSITION-0 QUOTE, 2026-08-04.** Cook's sentence is retained in the record and below, but the two fragments inside it have been traced to their own sources and are seven years and two correspondents apart. See **Passage 1a** and **Passage 1b**. The class now rests on Passage 1a, read at the page of the book that carries it.
+
 > Ricketts was nostalgic ('I now view old Vale work with a sort of affection, and the past seems flooded with sunlight')¹⁵⁰ but also resigned: 'I realize that, viewed as a whole, this trial is small compared to the forty years of perfect companionship I have enjoyed.'¹⁵¹
 
 Surrounding context on the same page, Ricketts's own letters after Shannon's 1929 fall:
@@ -75,7 +79,46 @@ And, closing the chapter's account:
 
 — Matt Cook, _Queer Domesticities_ (2014), p. 52.
 **Provenance:** repo PDF p. 65, printed folio 52 confirmed on the rendered page image, read 2026-08-03 · verification: verified-exact (superscript endnote markers omitted)
-**Supports:** the class; the exact death date; the shape of the last two years.
+**Supports:** the exact death date; the shape of the last two years. **No longer the basis of the class** — see 1a.
+
+---
+
+**Passage 1a — Ricketts to John Gray, late 1929** *(the new position-0 quote)*
+
+> It was now openly admitted that Ricketts's presence exercised a disturbing influence on Shannon ('seems to throw him back'). How distressing this was to Ricketts can easily be imagined. Earlier, to John Gray, Ricketts had written, 'I realise that, viewed as a whole, this trial is small compared to the forty years of perfect companionship I have enjoyed.'⁵⁵ Those forty-six years had in fact, though, been bought at a price, and Shannon's sacrifice in this respect was far greater than Ricketts's.
+
+Endnote 55, at the foot of the same page:
+
+> ⁵⁵ CR to M. Davis, Sun., 30 [?Sept. 1930]; CR to Fr. J. Gray [late 1929].
+
+— J. G. P. Delaney, _Charles Ricketts: A Biography_ (Clarendon Press, 1990), p. 389.
+**Provenance:** repo PDF p. 417 rendered and read 2026-08-04; printed folio 389 confirmed in the running head ("'I'M TIRED OF ART' 389"); the quotation and endnote 55 re-read at 420 dpi to settle the spelling · verification: verified-exact
+**Calibration:** printed = PDF − 28, confirmed at PDF 416 = printed 388 and PDF 417 = printed 389. Folios sit in the running head, so they are legible; the offset has not been tested outside this chapter.
+**Supports:** the class. This is Ricketts naming the relationship, in his own words, and it is now read at a page.
+
+Three things this settles:
+
+1. **The recipient is John Gray** — "Fr. J. Gray", Father John Gray, by then a priest in Edinburgh, and a node already on this map (`gray`, with `gray--wilde` and `gray--raffalovich`). The most explicit surviving statement of what the partnership was, by either participant, was written to a man in Wilde's circle. **Not an edge** — nothing romantic between Ricketts and Gray is in evidence — but a documented confidence between two clusters that otherwise do not touch. Worth remembering before anyone reads the Ricketts pair as sealed off from the Wilde material.
+2. **The date is late 1929, not 1930.** Endnote 55 is composite, covering a Davis letter of [?Sept. 1930] and this one of [late 1929]; Delaney's "Earlier" places it before the 1930 material around it. The edge's `evidence_date` was 1930 and is now 1929.
+3. **The letter is unpublished.** It is not in _Self-Portrait_ (see the null below) and survives nowhere else in print. Delaney is the only witness, which is exactly why Cook cites him for it.
+
+Two smaller divergences: Delaney's page reads **"I realise"**, where Cook prints "I realize"; and Delaney quietly corrects Ricketts's arithmetic — Ricketts says forty years, Delaney says **"Those forty-six years"**.
+
+---
+
+**Passage 1b — the "flooded with sunlight" fragment, at its real date**
+
+> As I grow older, doubtless this will increase. I now view old Vale work with a sort of affection, and the past seems flooded with sunlight, though I was then poor and talentless but young, and youth is a great virtue!
+
+The sentence before it, on the same page:
+
+> As it is, I grow warm and excited in talk about the Vale and Dial days, and Shannon's visits to Madox Brown, Watts, and Whistler.
+
+— Ricketts, _Self-Portrait_ (1939), p. 342. The letter opens on p. 341: "To Gordon Bottomley / LANSDOWNE HOUSE, / 16th Sept. 1922".
+**Provenance:** repo OCR dump leaf 00000376, printed folio 342 at the foot of the leaf · corroborated against HathiTrust `uc1.$b73973` (the UC copy), "flooded with sunlight" → scan #378 = printed p. 342 · verification: **verified-exact**, on the two-digitisation standard (see below).
+**Supports:** Ricketts's own retrospect on the Vale years, and the true date and addressee of the fragment.
+
+**Why this matters:** Cook p. 52 sets "nostalgic" against "resigned" as two moods in one post-accident moment. In fact the nostalgia is a letter to Bottomley of **September 1922**, about Whistler and Rossetti and the Dial days, written seven years before Shannon ever fell. Cook's compression is recorded on the Cook quote's `context` rather than silently repaired, and both letters now stand in the record under their own dates.
 
 ---
 
@@ -241,10 +284,77 @@ Checked and empty: nothing romantic between Ricketts or Shannon and any of `gray
 
 ---
 
+---
+
+## Session 2026-08-04 — the 1929 letters, split; and the transcriptions checked
+
+**Sources used:** `delaney-1990` (repo PDF, NEW — registered in works.json this session, read at rendered pages 416–417) · `ricketts-self-portrait-1939` (repo per-leaf OCR, leaves 50, 126, 376, 447, 448) · HathiTrust **`uc1.$b73973`**, the University of California copy of the same 1939 printing, **Limited — search only**.
+
+### What the HathiTrust copy can and cannot do
+
+It is a **second, independent digitisation of the same edition** (488 scans; our dump is the NYPL copy at 486 leaves) — separately scanned, separately OCR'd, from a different library's copy. Search-only means **no page images**. What it gives is `#scan (p. #printed)` for any phrase, which is enough to:
+
+- **confirm printed folios** independently of our dump's own foot-of-leaf folios;
+- **corroborate the OCR readings** — two different library copies, two different OCR passes;
+- **test absence.** A null there, with a control phrase returning a hit, is a real absence rather than an OCR miss.
+
+**This is now the verification route for this work** — see *two-digitisation corroboration* in the README. _Self-Portrait_ has no pages to open, so the check is a second independent digitisation plus controls, and the three quotes below are ✓ on that basis rather than ⧖. The house pattern already existed: `verified-exact` + `repo-file` is how the Brian Lewis ASR transcript and the unpaginated Vivien EPUB are carried. What the route cannot reach is typography no text layer records; none of these quotes depends on any.
+
+Anchors established (leaf → folio offset is **not** constant — 28, 30, 34, 36, 40):
+
+| phrase | our leaf | HT scan | **printed** |
+|---|---|---|---|
+| "banking accounts vanished" | 50 | #50 | **22** |
+| "plank down a plate" / "I think of thee" | 126 | #126 | **96** |
+| "flooded with sunlight" | 376 | #378 | **342** |
+| "three male nurses" / "Farquhar Buzzard" | 447 | #449 | **409** |
+| "do not mention any of these facts" | 448 | #450 | **410** |
+
+### ! CORRECTION — the 1929 quote was two letters spliced into one
+
+The record carried a single quote credited to "letter to Cecil Lewis, Townshend House, 1929", joining its halves with a spaced ellipsis. The halves are **two letters to two different men on two consecutive pages**:
+
+**p. 409 — To Cecil Lewis**, Townshend House, "Wednesday night, 1 a.m." Running head: "1929] Byron : Shannon's accident".
+
+> MY DEAR BOY, Shannon met with a bad accident a week ago and remained unconscious for four days and nights in the hands of three male nurses and two doctors. This morning, at noon, Sir Farquhar Buzzard declared him out of danger, though Shannon is still only semi-conscious and recognizes no one. He slipped on the stairs hanging a picture, struck his temple, and fell head foremost. He is in my studio.
+
+**p. 410 — To R. N. R. Holst**, Townshend House, 29th January 1929 — the Dutch artist Richard Roland Holst.
+
+> Should all go well, and should we meet again, do not mention any of these facts to Shannon; he will probably never be told how dangerous his case has been. For the moment, my dear friend, don't ask me to write more. I am being well cared for, but have gone through a great deal during these tragic days.
+
+The ellipsis was hiding a change of recipient — exactly the failure the block-quote rule exists to prevent. Now two separate quotes, each with its own recipient, date and folio. The page break is what exposed it: the two phrases came back on **#449** and **#450**.
+
+(The four suspension points in Holst's "a serious accident...." are the **volume's own** elision, not ours.)
+
+### Cook's transcriptions, checked against the printed letters
+
+Both diverge. Recorded on the quotes' `context` fields, not silently repaired.
+
+| Cook | printed | where |
+|---|---|---|
+| "they **plonk** down a plate of strawberries which **make** me think of you" | "they **plank** down a plate of strawberries which **makes** me think of you" | p. 96 |
+| "Dear Old Chap [...]" as salutation | "Yours, Old Chap, C. R." — it is the **sign-off** | p. 96 |
+| "Captain Brinkley**'s** sale. One of the **greatest** hauls of our lives" | "Captain Brinkley Sale. One of the **great** hauls of our lives" | p. 22 |
+| "I real**iz**e that, viewed as a whole…" | "I real**is**e…" | Delaney p. 389 |
+
+"plonk down a plate" returns **no results** in the UC copy; "plank down a plate" returns #126. So this is the printing, not our OCR.
+
+**A gain, not just a correction.** _Self-Portrait_ p. 22 carries an editorial footnote that independently confirms Cook's attribution of the Brinkley entry:
+
+> This entry (actually in Shannon's diary) is the first relating to the Ricketts and Shannon collection. … though, many years later, Ricketts calculated that their combined incomes had rarely exceeded a thousand a year, and were seldom half this, the collection, on Ricketts' death, was valued (for probate) at £36,203.
+
+That "rarely exceeded a thousand a year" is the same figure Cook quotes at printed p. 33 — so the volume corroborates Cook on both the diary's ownership and the income, from inside the primary source.
+
+### NULL — "perfect companionship" is not in _Self-Portrait_
+
+Searched across **both** digitisations. Zero hits for `"perfect companionship"` in the repo OCR of the NYPL copy and zero in the UC copy's index. Control: `"Farquhar Buzzard"`, from the same region of the book, returns #449 = p. 409 — the index works, so the negative is real. The line is from the **unpublished** Gray letter and exists only through Delaney p. 389. Recorded as a `null_findings` block on the edge. Do not hunt it here again.
+
+---
+
 ## Open questions for a later pass
 
-1. **Ricketts's _Self-Portrait_ (1939)** — the compiled letters and journals, cited by both Cook and McKenna, and the printed form of the testimony this record rests on. Reading it at page would let the position-0 quote come from Ricketts's own book rather than through Cook. Pointer object already in the JSON.
-2. **Delaney, _Charles Ricketts: A Biography_ (1990)** — the standard life; the source of the Symonds anecdote (p. 25) and of the "basically heterosexual" reading of Shannon that Cook argues with. Nothing in the repo.
-3. **Shannon's diary** — Cook quotes it (1898); no published edition located this session.
+1. ~~**Ricketts's _Self-Portrait_ (1939)** — reading it at page would let the position-0 quote come from Ricketts's own book rather than through Cook.~~ **Closed 2026-08-04, and the premise was wrong.** The line was never in _Self-Portrait_; it is an unpublished letter to John Gray, and the position-0 quote now comes from **Delaney p. 389**, read at the page. The three _Self-Portrait_ quotes (pp. 342, 409, 410) are verified on the two-digitisation standard and are no longer pending. Page images would still be nice to have — they would let the typography be checked — but nothing on this edge is waiting on them.
+2. ~~**Delaney, _Charles Ricketts: A Biography_ (1990)** — nothing in the repo.~~ **It was in the repo all along**, at `ricketts/sources/Delaney_1990_Charles-Ricketts--a-biography.pdf`; the dossier's earlier "nothing in the repo" was simply wrong. Now registered as `delaney-1990`, calibrated at printed = PDF − 28. **Still unread:** p. 25, the Symonds anecdote that Claes cites (and mis-dates to "the mid-Nineties", after Symonds was dead), and Delaney's own "basically heterosexual" argument about Shannon that Cook engages at p. 34. Both are now cheap to get.
+3. **Shannon's diary** — Cook quotes it (1898); no published edition located. Note that _Self-Portrait_ p. 22 prints the 1898 Brinkley entry **from Shannon's diary** with Ricketts's note appended, so a little of it is in print after all.
 4. **Shannon's exact death date in 1937**, and the RA-election conflict (1920 vs 1921).
 5. **Cook's 2012 _Journal of British Studies_ article** ("Domestic Passions: Unpacking the Homes of Charles Shannon and Charles Ricketts", 51.3, pp. 618–640) is the journal antecedent of the book chapter read here. Not needed while the book is in the repo; noted for anyone chasing a DOI.

@@ -37,6 +37,7 @@
 | `custance` | Olive Custance | later | m. Douglas 1902; Barney affair 1901 |
 | `barney` | Natalie Clifford Barney | later | Custance/Paris link |
 | `whitman` | Walt Whitman | beyond | Camden visits 1882; the reported parting kiss (added 2026-08-03, per Lovelle) |
+| `doyle` | Peter Doyle | beyond | Washington horsecar conductor; Whitman's companion 1865–92 and the addressee of *Calamus* (added 2026-08-04, per Lovelle) |
 | `fothergill` | John Fothergill | aesthete | sent to Wilde post-prison as prospective companion; propositioned, declined (Sox 1991; added 2026-08-03, per Lovelle) |
 | `warren` | Edward Perry Warren | aesthete | Lewes House founder; the Warren–Marshall partnership (Sox 1991; added 2026-08-03, per Lovelle) |
 | `marshall` | John Marshall | aesthete | Warren's partner ("Puppy"); Lewes House (Sox 1991; added 2026-08-03, per Lovelle) |
@@ -60,6 +61,7 @@
 | `hall` | Radclyffe Hall | later | Ives correspondent; not in Wilde's letters (added 2026-08-03, per Lovelle) |
 | `batten` | Mabel Batten | later | "Ladye"; Hall's partner (added 2026-08-03, per Lovelle) |
 | `troubridge` | Una Troubridge | later | Hall's partner (added 2026-08-03, per Lovelle) |
+| `souline` | Evguenia Souline | later | Russian émigrée nurse; Hall's nine-year attachment, 1934–43, and the addressee of *Your John* (added 2026-08-04, per Lovelle) |
 | `ricketts` | Charles Ricketts | aesthete | Vale Press; designed Wilde's books; partner of Shannon (added 2026-08-03, per Lovelle) |
 | `shannon` | Charles Shannon | aesthete | Ricketts's lifelong partner (added 2026-08-03, per Lovelle) |
 | `dowson` | Ernest Dowson | aesthete | Decadent poet; met Wilde 1890, Berneval/Dieppe 1897, ~12 surviving letters (added 2026-08-03, per Lovelle) |
@@ -68,7 +70,7 @@
 | `holt` | Harold Holt | chaeronea | "Cubby"; Ives's Albany household from 1894 (Cook p. 146; promoted 2026-08-03, per Lovelle) |
 | `goddard-sylvie` | Sylvie Goddard | chaeronea | Kit's wife; brought into the Ives household on marriage, two daughters (Cook 2014 p. 96; added 2026-08-03, per Lovelle) |
 
-46 people. Note the household's real shape: Sylvie's marriage edge sits *inside* the Chaeronea group, so the map shows a married couple and their children living within Ives's queer household rather than outside it. Their daughters ("the 2 Kit girls"; one named Therese) are documented and remain roster candidates. Lewes House men sit in `aesthete`, exile-years figures in `later` (the validated palette caps at 8 groups; clusters read via their edges).
+73 people (count refreshed 2026-08-04; it had been stale at 46). Note the household's real shape: Sylvie's marriage edge sits *inside* the Chaeronea group, so the map shows a married couple and their children living within Ives's queer household rather than outside it. Their daughters ("the 2 Kit girls"; one named Therese) are documented and remain roster candidates. Lewes House men sit in `aesthete`, exile-years figures in `later` (the validated palette caps at 8 groups; clusters read via their edges).
 
 **The exile-years liaison tier IS on the roster** (decided 2026-08-03, per Lovelle; this reverses an earlier call to keep them as a collective footnote). Every distinct documented person Wilde had a romantic or sexual connection with gets a node, whether or not the record preserves a name: André, Pietro, "le petit Georges", Raphael, Fortuné, the fisherman at Napoule, the Naples "Sea-God", the Cairo-café Egyptian.
 
@@ -91,6 +93,7 @@
 - Robert Sherard, Rennell Rodd (early intimates; romantic status thin)
 
 
-## Roster candidate surfaced 2026-08-04
+## Roster candidates surfaced 2026-08-04
 
+- **Harry Stafford (1858–1918)** — the New Jersey farm boy Whitman attached himself to from 1876, after the Camden move; Whitman gave him a ring, took it back and gave it again. **The lead is sourced but thin in what we hold**: Murray's Whitman Archive entry on Doyle says only that "In New Jersey, Harry Stafford provided Whitman with a measure of the companionship that Doyle was not there to give", and the WHITMAN dossier already carries Ellmann's line that Whitman bragged to Stafford, "perhaps to make Stafford a little jealous", that "Wilde had the good sense to take a great fancy to me." Neither will carry an edge on its own. To add him properly we need Whitman's letters to Stafford — the *Correspondence* ed. Miller, or the Whitman Archive transcriptions, which are open but were not consulted. **A real second Whitman edge, one source away.** Parked pending that, and pending Lovelle.
 - **An unnamed boy in grey velvet, Paris (late March 1900)** — seen with Wilde outside a cafe behind the Madeleine by Aleck Ross; *Complete Letters* printed 1177. He was the only person in the retired collective 'one-scene companions' entry on Wilde who does not already have a node. He stands on the same footing as the Naples 'Sea-God' and the fisherman at Napoule, both of whom are nodes, so admitting him would be consistent — but adding a person is Lovelle's call, so he is parked here rather than created.

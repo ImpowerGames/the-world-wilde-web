@@ -51,18 +51,42 @@
       "voice": "modern"
     },
     {
-      "quote": "",
-      "context": "The scholarly edition of Lee's correspondence, which would carry participant testimony about the Robinson attachment; not reachable so far.",
-      "work": "gagel-vernon-lee-letters",
-      "locator": null,
-      "locator_type": "none",
-      "evidence_date": null,
-      "supports": "Lee's own account of the relationship and of its ending.",
-      "verification": "unverified",
-      "how_verified": "unverified",
-      "provenance": "",
-      "verified_by": null,
-      "verified_on": null
+      "quote": "Lee and Robinson met in Florence on 16 October 1880 at a party at Maria Spartali Stillman's and they became steadfast friends and romantic partners for almost eight years – a romantic friendship to which their letters testify (Selected Letters of Vernon Lee, Vols. I and II); and Lee took on the role in Mary's life of a strong companion who at times was both nurturing and domineering. … Lee suffered a long period of depression after the marriage took place in August 1888.",
+      "context": "The editors' biographical note on Mary Robinson in the standard scholarly edition of Lee's correspondence. It states the relationship's character, its exact beginning and its length without hedging, and cites the letters themselves in Vols. I and II. The elision drops the account of Robinson's proposal to James Darmesteter in 1887 and the two families' objections. Note that the edition names the correspondence as the evidence but places it in volumes this project does not hold - Vol. III, the volume on disk, begins in 1890, after the attachment ended.",
+      "work": "geoffroy-gagel-vernon-lee-letters-vol3",
+      "locator": "PDF pp. 119-120",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1880
+      },
+      "supports": "The standard edition stating the relationship as romantic, dating its start exactly, giving its length, and recording Lee's depression after the marriage.",
+      "verification": "verified-elision",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF p. 119-120 read as a rendered page image 2026-08-04. **This volume carries no printed folios** - it is an ebook conversion - so the locator is the PDF page, per the works.json rule; the letter is additionally identifiable by its date and correspondents. Superscript footnote markers omitted as typography.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-04",
+      "speaker": "Sophie Geoffroy and Amanda Gagel, eds.",
+      "voice": "modern"
+    },
+    {
+      "quote": "The dear sprigs of olive and ilex and spicewood came this morning. They stand in my bedroom in a blue bracken jar and remind me of the January posies you used to bring me from your drives in the Cascine, when you came, all keen outer air & crisp green things, into the salon where I would be reading German Mystics over the fire … A great packet of my poor foolish sad little old letters, so young, so senties, poor little unhappy things, was left at the door one day by a nameless young woman. I have only just now dared to glance at them – for one must not glance at Eurydice in Hades. When you know of some very discreet, honourable & yet good natured person who could take charge of your packet, let me know and she shall have it. … Ever your loving old friend Molly",
+      "context": "Mary Robinson - by then Mme Darmesteter - to Vernon Lee, Christmas Eve 1893, five years after the marriage. Two things at once: the tenderness of the memory, and the two women arranging the return of each other's old love letters through discreet intermediaries. 'Senties' is Robinson's French, glossed by the editors as 'emotional'; 'the Mouse' elsewhere on the page is Lee's name for her when they were young. The elisions drop a passage on Lee's book and the Revue de Paris, and Robinson's remark about her letters to Symonds. The original is at the Bibliothèque Nationale de France, Anglais 243.",
+      "work": "geoffroy-gagel-vernon-lee-letters-vol3",
+      "locator": "PDF pp. 490-491",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1893,
+        "m": 12,
+        "d": 24
+      },
+      "supports": "Robinson's own voice on the relationship and on its aftermath - the surviving affection, and the mutual retrieval of the love letters that documented it.",
+      "verification": "verified-elision",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF p. 490-491 read as a rendered page image 2026-08-04. **This volume carries no printed folios** - it is an ebook conversion - so the locator is the PDF page, per the works.json rule; the letter is additionally identifiable by its date and correspondents. Superscript footnote markers omitted as typography.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-04",
+      "speaker": "Mary Robinson (Mme Darmesteter), letter to Vernon Lee",
+      "voice": "period"
     },
     {
       "work": "beckman-2000-levy",
@@ -80,6 +104,13 @@
       },
       "supports": "Independent secondary attestation of the Lee-Robinson relationship and its start date, from a biographer of a third party with no stake in the question.",
       "voice": "modern"
+    }
+  ],
+  "null_findings": [
+    {
+      "work": "geoffroy-gagel-vernon-lee-letters-vol3",
+      "checked_on": "2026-08-04",
+      "finding": "WRONG VOLUME FOR THE ORIGINAL ASK, and the pointer has been re-pointed accordingly. The pointer named `gagel-vernon-lee-letters` (the 2016 Pickering Masters entry, which has no repo path) and wanted 'Lee's own account of the relationship and of its ending'. The volume actually on disk is **Volume III, 1890-1896** - the attachment ran 1880-1888, so Lee's own account of it is in Vols. I and II, which this project does not hold; the edition itself points there. What Vol. III does carry, and what is now recorded, is the editors' biographical note and one letter from Robinson's side in 1893. A whole-volume search finds no letter addressed to Robinson in it: 'Robinson' appears on 70 of 815 pages, almost all editorial apparatus, bibliography and archive listings."
     }
   ]
 }

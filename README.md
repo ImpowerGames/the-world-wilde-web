@@ -1,7 +1,7 @@
 # The World Wilde Web
 
 A sourced map of documented romantic and sexual relationships in Oscar Wilde's circle,
-1870s–1940s. **71 people, 67 connections, 321 quotations** — every claim carries the words it rests
+1870s–1940s. **73 people, 69 connections, 336 quotations** — every claim carries the words it rests
 on and the page they came from.
 
 It began with Wilde because that is where the surviving paper is thickest. The intended scope is
@@ -60,13 +60,26 @@ Those with a plain rule are a historian or editor writing *about* these people. 
 drawn per quotation, not per book: an editor's footnote inside a volume of Wilde's letters is
 modern, while a letter of Douglas's printed inside that same footnote is period.
 
-**Verification chips.** ✓ means someone opened the source and read the passage on the page. ⧖
-means not yet confirmed there — either located in a text layer but unchecked, or a pointer naming
-where to look. Ten remain; they are marked, not hidden.
+**Verification chips.** ✓ means the passage has been checked against the source itself — nearly
+always by opening the page and reading it there. ⧖ means it has not been checked at all: **every ⧖
+on this map is a pointer**, a note of where to look that carries no quoted text. Three remain; they
+are marked, not hidden. No quotation is displayed unverified.
+
+**Sources with no pages.** A few works reach us only as text — an ASR transcript, an unpaginated
+EPUB, per-leaf OCR with no images. There is no page to open, so the check is **two-digitisation
+corroboration**: the reading *and* its printed folio must be confirmed against a second copy that
+was separately scanned and separately OCR'd, with a positive and a negative control run on the same
+index to show it discriminates. Ricketts's *Self-Portrait* (1939) is verified this way — the repo's
+OCR of the New York Public Library copy against the University of California copy on HathiTrust,
+which is search-only and returns a printed page number for any phrase. The method earned its keep
+immediately: it caught a quotation that had spliced two letters to two different men, because the
+halves came back on consecutive pages. What it cannot reach is typography no text layer carries, so
+a quote depending on italics or small caps does not qualify. Every quote taking this route says so
+in its provenance.
 
 ## Portraits
 
-Thirty of the seventy-one have one, taken from **the photograph at the head of that person's
+Thirty of the seventy-three have one, taken from **the photograph at the head of that person's
 Wikipedia article**, so a reader who follows the link meets the same face. Prichard is the exception
 and shows the rule's limit: he has a Wikidata entity but no article, so his comes from the entity.
 All are public domain or released as such; provenance, licence and artist for each are in
@@ -84,7 +97,7 @@ Two separate things have to be right, and each has gone wrong once:
   August 2026. Taking the article's own image is the guard against it, because an article about a
   writer is watched by people who know what she looked like.
 
-The forty-one gaps are not an oversight. They fall almost entirely on the trials witnesses and the
+The forty-three gaps are not an oversight. They fall almost entirely on the trials witnesses and the
 men Outside the circle — the people who left no dates to match against and no photograph to find.
 Who got photographed tracks who had property, and the map shows that plainly.
 
@@ -111,7 +124,7 @@ ROSTER.md                  who is on the map, who is parked, and why
 
 ## How the layout works
 
-The graph is very nearly a forest — 71 people, 67 connections, 11 components, and only **7 edges
+The graph is very nearly a forest — 73 people, 69 connections, 11 components, and only **7 edges
 that close a cycle** — with one overwhelming hub. So it is drawn as a radial tree first and
 relaxed second:
 
@@ -121,7 +134,8 @@ relaxed second:
    his partners are all Wilde's own children sitting in other wedges. A tree that ignores chords
    seats him in one place and then four springs tear him out of it. Sorting each sibling group by
    the mean angle of its chord partners — a barycentre pass, run twice — puts those wedges beside
-   one another. **This one change took edge crossings from 27 to 4.**
+   one another. **This one change took edge crossings from 27 to 4** on the 67-edge graph it was
+   measured against.
 3. **Then relax.** A short force pass lets the chords pull the rings into a web, followed by a
    final separation pass that pushes any node off a line it is not an endpoint of.
 
@@ -130,8 +144,14 @@ repeats them: holding nodes to their seeded position (crossings 27 → 37–54; 
 and the springs carry real structure), and pushing the line-separation pass harder (worst-case
 overlap 24% → 81%; nodes just shove each other onto other lines).
 
-The four remaining crossings are structural — Douglas's chords to Ross and Schwabe against Wilde's
-spokes to Ives and Ross. Straight lines between centres cannot avoid them; curved edges could.
+The remaining crossings are structural, and they grow as the graph does: **9 at 69 connections**,
+against 4 when the graph had 67. They cluster where the trials cohort's chords cut across Wilde's
+own spokes — `douglas--wood` and `taylor--wood` are crossed three times each, `douglas--schwabe`
+and `ives--wilde` twice. Straight lines between centres cannot avoid them; curved edges could. One
+node currently sits on a line it is not an endpoint of (Atkins, on `brown-faun--wilde`).
+
+Re-measure with `python tools/layout_report.py` after adding anyone — it prints the crossing count,
+the most-crossed connections and any node sitting on a line, which is how these figures were got.
 
 ## Method notes worth knowing
 
@@ -141,7 +161,10 @@ Each of these was learned the hard way, and is recorded per source in `data/work
   +46 across the volume as unfoliated plates are bound in; the *Complete Letters* offset *shrinks*
   from +51 to +46. Compute a folio and you will cite the wrong page. Read it off the rendered page.
 - **A text layer is for finding; the page is for verifying.** OCR mirrors and search indexes locate
-  a passage. Nothing is marked verified until someone has looked at the page it sits on.
+  a passage. Nothing is marked verified until someone has looked at the page it sits on — unless
+  the work has no pages to look at, in which case see *two-digitisation corroboration* above. One
+  text layer is never enough on its own; the whole point is that two independent OCR passes of two
+  separately scanned copies do not fail in the same place.
 - **Editions differ.** Locators inherited from another scholar's citation frequently do not match
   the printing you hold. Re-anchor before trusting them.
 - **Null findings are recorded**, not discarded. Several entries note that a named biographer,
