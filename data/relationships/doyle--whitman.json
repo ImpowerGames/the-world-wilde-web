@@ -32,6 +32,7 @@
       "verified_by": "agent-mechanical",
       "verified_on": "2026-08-04",
       "speaker": "Peter Doyle, interviewed by R. M. Bucke",
+      "addressee": "Richard Maurice Bucke",
       "voice": "period"
     },
     {
@@ -52,6 +53,7 @@
       "verified_by": "agent-mechanical",
       "verified_on": "2026-08-04",
       "speaker": "Walt Whitman, letter to Peter Doyle",
+      "addressee": "Peter Doyle",
       "voice": "period"
     },
     {

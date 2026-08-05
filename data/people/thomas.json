@@ -1,0 +1,20 @@
+{
+  "id": "thomas",
+  "name": "Harry Thomas",
+  "sort_name": "Thomas, Harry",
+  "aka": [],
+  "born": null,
+  "died": null,
+  "group": "aesthete",
+  "gender": "m",
+  "bio": "E. P. Warren's 'young and handsome protege' and private secretary, who gave Lewes House as his Harvard address in 1903-04. In 1906 Warren paraded him around Boston and Fewacres, and some saw him as 'Ned's new boy friend' - which John Marshall, already bitter about Harold Parsons, swallowed badly. Thomas married Nan Devey the year after Marshall married, stayed in Warren's service to the end, and was one of the few at the Golders Green chapel.",
+  "bio_sources": [
+    "sox-1991"
+  ],
+  "bio_note": "Transcription and provenance reused unchanged from the context_engagement on warren.json, where he was held off-roster until 2026-08-05. Sox p. 77 rendered 2026-08-03 for the quotation; p. 79 (the Harvard address), p. 78 (the Devey marriage), p. 21 (the jealousies list), p. 129 (those Warren loved and 'wanted to possess') and p. vii (Golders Green) read in the text layer and carried as context rather than as quotations.",
+  "context_engagements": [],
+  "research_status": "phase-a",
+  "wikidata": null,
+  "wikipedia": null,
+  "roster_note": "Promoted from an off-roster context_engagement on warren.json, 2026-08-05, in the pass that put every off-roster person on the map. The sources moved with him unchanged."
+}

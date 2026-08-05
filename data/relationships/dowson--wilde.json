@@ -4,11 +4,11 @@
     "dowson",
     "wilde"
   ],
-  "certainty": "desire-expressed",
+  "certainty": "attraction-expressed",
   "direction": "wilde",
   "outcome": "unreciprocated",
   "certainty_status": "proposed",
-  "certainty_reasoning": "PROPOSED, with the alternatives spelled out, because this pair sits exactly on the README's desire-expressed bar. The evidence read so far is Wilde's own twelve letters to Dowson (the primary source for this pair) plus Dowson's own words about Wilde as printed by Frankel from the Flower-Maas edition - so BOTH participants are on record, which is rare here. What Wilde's side carries, in the letter of ? 16 June 1897 alone, is a declaration of inseparability ('Had I stayed at Arques I should have given up all hopes of ever separating from you'), a compliment on Dowson's appearance in the Hyacinthus register Wilde used for Douglas ('the green costume that goes so well with your dark hyacinth locks'), a statement that Dowson's absence is the one flaw in an otherwise perfect state, and the sign-off 'Tout a toi' - joined across the other letters by 'You were wonderful and charming all last night', 'I want to be consoled', and 'you have it, and other things, always'. That clears the README's bar twice over: the ardour is legible as ardour without the coding hypothesis, AND a scholarly source reads it that way (McKenna: 'their friendship suddenly seemed to deepen into love'). WHY NOT self-reported, i.e. a relationship edge like marillier--wilde: because the counter-evidence is strong and comes from the better sources. Frankel - the specialist monograph for exactly these years, and the most recent scholarship in the corpus - reads it flatly as 'frank and unguarded friendship' and never suggests otherwise; Dowson's own surviving words about Wilde are admiring, wry and entirely non-romantic; Dowson's documented sexual interest was in women, and by both Sox's and Frankel's accounts he tried to steer Wilde toward women; and the ardent lines are a handful within a correspondence that is otherwise practical (poems, absinthe, a translation, a debt). WHY NOT a null finding, i.e. no edge at all as for Turner: because Turner's file failed for want of any source naming a romance and any first-person ardour addressed to Turner himself, and neither is missing here. OUTCOME: 'unreciprocated' rather than 'unknown' because Dowson's own side of the record survives and is not in kind, and because the one recorded rupture is Dowson cutting off the very curls Wilde had praised - Wilde told Fothergill they had quarrelled and Dowson, to spite him, 'had had all his long curls cut' (Sox p. 141). 'Unknown' is the defensible lower-commitment alternative, since no source records an approach being made and answered; 'declined' is not available, as nothing like Fothergill's written withdrawal exists. ON 'FIRST HYACINTH SINCE DOUGLAS': this phrase, which is the only flatly romantic characterization of the pair in the literature, is NOT used as class-deciding evidence, because whose words it is cannot be established. Sox prints it in an agentless passive with an endnote (n. 12) that names no describer and merely cross-refers to Wilde's own 16 June letter, which does not contain it; the phrase appears nowhere in the Complete Letters, so it is not Wilde's; and McKenna, the only other corpus source to use it, cites Sox p. 141 for it, closing the loop. See DOWSON_dossier.md sec. L. The edge is hidden by default per the README, so the honest reading of a hidden, arrow-marked flirtation edge is what is proposed here; if Lovelle prefers, dropping to no-edge loses nothing that the person record and dossier do not already carry.",
+  "certainty_reasoning": "PROPOSED, with the alternatives spelled out, because this pair sits exactly on the README's attraction-expressed bar. The evidence read so far is Wilde's own twelve letters to Dowson (the primary source for this pair) plus Dowson's own words about Wilde as printed by Frankel from the Flower-Maas edition - so BOTH participants are on record, which is rare here. What Wilde's side carries, in the letter of ? 16 June 1897 alone, is a declaration of inseparability ('Had I stayed at Arques I should have given up all hopes of ever separating from you'), a compliment on Dowson's appearance in the Hyacinthus register Wilde used for Douglas ('the green costume that goes so well with your dark hyacinth locks'), a statement that Dowson's absence is the one flaw in an otherwise perfect state, and the sign-off 'Tout a toi' - joined across the other letters by 'You were wonderful and charming all last night', 'I want to be consoled', and 'you have it, and other things, always'. That clears the README's bar twice over: the ardour is legible as ardour without the coding hypothesis, AND a scholarly source reads it that way (McKenna: 'their friendship suddenly seemed to deepen into love'). WHY NOT self-reported, i.e. a relationship edge like marillier--wilde: because the counter-evidence is strong and comes from the better sources. Frankel - the specialist monograph for exactly these years, and the most recent scholarship in the corpus - reads it flatly as 'frank and unguarded friendship' and never suggests otherwise; Dowson's own surviving words about Wilde are admiring, wry and entirely non-romantic; Dowson's documented sexual interest was in women, and by both Sox's and Frankel's accounts he tried to steer Wilde toward women; and the ardent lines are a handful within a correspondence that is otherwise practical (poems, absinthe, a translation, a debt). WHY NOT a null finding, i.e. no edge at all as for Turner: because Turner's file failed for want of any source naming a romance and any first-person ardour addressed to Turner himself, and neither is missing here. OUTCOME: 'unreciprocated' rather than 'unknown' because Dowson's own side of the record survives and is not in kind, and because the one recorded rupture is Dowson cutting off the very curls Wilde had praised - Wilde told Fothergill they had quarrelled and Dowson, to spite him, 'had had all his long curls cut' (Sox p. 141). 'Unknown' is the defensible lower-commitment alternative, since no source records an approach being made and answered; 'declined' is not available, as nothing like Fothergill's written withdrawal exists. ON 'FIRST HYACINTH SINCE DOUGLAS': this phrase, which is the only flatly romantic characterization of the pair in the literature, is NOT used as class-deciding evidence, because whose words it is cannot be established. Sox prints it in an agentless passive with an endnote (n. 12) that names no describer and merely cross-refers to Wilde's own 16 June letter, which does not contain it; the phrase appears nowhere in the Complete Letters, so it is not Wilde's; and McKenna, the only other corpus source to use it, cites Sox p. 141 for it, closing the loop. See DOWSON_dossier.md sec. L. The edge is hidden by default per the README, so the honest reading of a hidden, arrow-marked flirtation edge is what is proposed here; if Lovelle prefers, dropping to no-edge loses nothing that the person record and dossier do not already carry.",
   "start": {
     "y": 1897,
     "m": 6
@@ -37,7 +37,8 @@
       "provenance": "Repo PDF page 951, printed folio 901 confirmed on the rendered page, read as page image 2026-08-03. Three elisions marked with spaced ellipses; nothing omitted alters the sense of what is quoted. The editors reproduce a photograph of Dowson in the unfoliated plate section (repo PDF 600, plate 85) captioned with the first sentence of this passage.",
       "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
-      "voice": "period"
+      "voice": "period",
+      "addressee": "Ernest Dowson"
     },
     {
       "quote": "My dear Ernest, Do come here at once: Monsieur Meyer is presiding over a morning meal of absinthe, and we want you. I am a wreck of course, but la belle soeur is like the moon. You were wonderful and charming all last night. Ever yours OSCAR",
@@ -56,7 +57,8 @@
       "provenance": "Repo PDF page 957, printed folio 907 confirmed on the rendered page, read as page image 2026-08-03.",
       "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
-      "voice": "period"
+      "voice": "period",
+      "addressee": "Ernest Dowson"
     },
     {
       "quote": "Dear Ernest, I must see you: so I propose to breakfast at St Martin L'Eglise tomorrow at 11.30 and you must come: take a voiture and be there. I want to have a poet to talk to, as I have had lots of bad news since you left me. Do try, like a good chap, to be there, and wear a blue tie. I want to be consoled.",
@@ -75,7 +77,8 @@
       "provenance": "Repo PDF page 958, printed folio 908 confirmed on the rendered page, read as page image 2026-08-03.",
       "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
-      "voice": "period"
+      "voice": "period",
+      "addressee": "Ernest Dowson"
     },
     {
       "quote": "Dear Ernest, I write a little line, whose only excuse is its entire illegibility, to tell you how charming you are (at Berneval) and how much I like your friend, and mine, the dear Achille. … You and Achille and Achille's friend and I must all be at Berneval together. I am making arrangements. Give to Achille my sincere friendship: you have it, and other things, always.",
@@ -94,7 +97,8 @@
       "provenance": "Repo PDF pages 958-959, printed folios 908 and 909 both confirmed on the rendered pages, read as page images 2026-08-03. One elision marked with a spaced ellipsis; full letter in the dossier.",
       "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
-      "voice": "period"
+      "voice": "period",
+      "addressee": "Ernest Dowson"
     },
     {
       "quote": "Dowson was described as Wilde's 'first hyacinth since Douglas: But this flower was wilting, and had not much longer to live'. Despite the wilting, Wilde looked for 'the green costume' which went well with Dowson's 'dark hyacinth locks'. Fothergill commented that Dowson was in love with the owner of the Café Royal, but was 'faithful only after his fashion'. Although Dowson was in the house he did not appear. Wilde said they had quarrelled and Dowson, to spite him, 'had had all his long curls cut'.",
@@ -140,7 +144,7 @@
         "y": 1897,
         "m": 6
       },
-      "supports": "The scholarly-reading half of the README's desire-expressed bar - and, by its own hedging, the reason the class stays at desire-expressed rather than rising higher",
+      "supports": "The scholarly-reading half of the README's attraction-expressed bar - and, by its own hedging, the reason the class stays at attraction-expressed rather than rising higher",
       "verification": "verified-exact",
       "how_verified": "pdf-at-page",
       "provenance": "Repo PDF page 665, read as page image 2026-08-03; no printed folio or running head appears on the rendered page, consistent with the pagination warning on mckenna-2008 in works.json. McKenna's source note for the adjoining 'first hyacinth since Douglas' phrase, at repo PDF 852, reads 'Sox, Bachelors of Art, page 141'.",
@@ -165,7 +169,8 @@
       "provenance": "Repo PDF page 1219, printed folio 1173 confirmed on the rendered page, read as page image 2026-08-03. One elision marked with a spaced ellipsis; full passage in the dossier.",
       "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
-      "voice": "period"
+      "voice": "period",
+      "addressee": "Leonard Smithers"
     }
   ]
 }

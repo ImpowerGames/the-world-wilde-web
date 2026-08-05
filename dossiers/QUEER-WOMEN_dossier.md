@@ -138,7 +138,7 @@ All passages below were fetched with `curl`, saved, and read in full on 2026-08-
 — Pulham, para. 9. Same provenance · verified-exact
 **Note on register.** Pulham is cooler here than in the Robinson paragraph — "close companion", "co-written", "departure" — and does **not** call this bond romantic in the sentences read. The JSON record therefore states the pairing and declines to characterise it. ⧖ Lee's 1924 introduction is participant testimony and is the upgrade path.
 
-### `lee--levy` · **proposed `desire-expressed`** (direction `levy`, outcome `unreciprocated`)
+### `lee--levy` · **proposed `attraction-expressed`** (direction `levy`, outcome `unreciprocated`)
 
 **Passage 10**
 
@@ -214,7 +214,7 @@ Source is the Harry Ransom Center's own finding aid to the Hall and Troubridge p
 
 Web sources repeat that Ives's diary records a meeting with Hall whom he disliked, but no diary volume or date was reachable, so nothing was recorded. ⧖ **Open question for the HRC trip:** search the Ives diary index for Hall; the two collections sit in the same reading room.
 
-**`levy--wilde` — NO EDGE.** Real and mutual, but professional: Wilde solicited her fiction for the *Woman's World*, published her across 1887–89, and printed a tribute after her death. Nowhere near the `desire-expressed` bar. Carried in `levy.json` prose.
+**`levy--wilde` — NO EDGE.** Real and mutual, but professional: Wilde solicited her fiction for the *Woman's World*, published her across 1887–89, and printed a tribute after her death. Nowhere near the `attraction-expressed` bar. Carried in `levy.json` prose.
 
 **`bradley--wilde` / `cooper--wilde` / `lee--wilde` — NO EDGES.** Wilde corresponded with "Michael Field" about theatre and their verse dramas; Lee met him in 1881 and wrote about him waspishly to third parties. Literary-social, not romantic. Carried in prose.
 

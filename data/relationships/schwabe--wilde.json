@@ -40,7 +40,14 @@
       "provenance": "IA in.ernet.dli.2015.499238, leaf 247 (printed p. 207), read as IIIF page image 2026-08-03",
       "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
-      "voice": "period"
+      "speaker": "Frederick Atkins, examination-in-chief",
+      "voice": "exchange",
+      "turns": [
+        {
+          "who": "Atkins",
+          "text": "I got back to the rooms very late. Mr. Wilde was in bed. I went into his room and had something to drink. A man of about twenty-two years of age was in bed with Mr. Wilde. It was Schwabe. I went to bed by myself."
+        }
+      ]
     },
     {
       "quote": "And that the said Oscar Fingal O'Flahertie Wills Wilde on the twenty-second day of November in the year of our Lord One thousand eight hundred and ninety-two at the said house in Paris did solicit and incite one Maurice Salis Schwabe to commit sodomy and other acts of gross indecency and immorality with the said Maurice Salis Schwabe.",
@@ -58,7 +65,14 @@
       "provenance": "IA in.ernet.dli.2015.499238, leaf 388 (printed p. 342), read as IIIF page image 2026-08-03",
       "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
-      "voice": "period"
+      "speaker": "The Marquess of Queensberry, plea of justification (filed 30 March 1895)",
+      "voice": "exchange",
+      "turns": [
+        {
+          "who": "Queensberry",
+          "text": "And that the said Oscar Fingal O'Flahertie Wills Wilde on the twenty-second day of November in the year of our Lord One thousand eight hundred and ninety-two at the said house in Paris did solicit and incite one Maurice Salis Schwabe to commit sodomy and other acts of gross indecency and immorality with the said Maurice Salis Schwabe."
+        }
+      ]
     },
     {
       "quote": "How did you first meet Mr. Taylor?—I first met Alfred Taylor through the gentleman who has been referred to. It is now two years since that gentleman has been in England and I have not seen him in that time. Is that gentleman a gentleman of position and repute?—Yes; a gentleman of good birth and repute.",
@@ -76,7 +90,27 @@
       "provenance": "IA in.ernet.dli.2015.499238, leaf 194 (printed p. 158); rendered at 3x from the item's text PDF and read as a page image 2026-08-03, with the printed folio confirmed in the page's bottom margin. the page's footnote 6 to 'the gentleman who has been referred to' reads simply 'Schwabe.'",
       "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
-      "voice": "period"
+      "speaker": "Oscar Wilde",
+      "voice": "exchange",
+      "addressee": "Sir Edward Clarke",
+      "turns": [
+        {
+          "who": "Clarke",
+          "text": "How did you first meet Mr. Taylor?"
+        },
+        {
+          "who": "Wilde",
+          "text": "I first met Alfred Taylor through the gentleman who has been referred to. It is now two years since that gentleman has been in England and I have not seen him in that time."
+        },
+        {
+          "who": "Clarke",
+          "text": "Is that gentleman a gentleman of position and repute?"
+        },
+        {
+          "who": "Wilde",
+          "text": "Yes; a gentleman of good birth and repute."
+        }
+      ]
     },
     {
       "quote": "The reference was to a certain Maurice Schwabe, who was a nephew by marriage of Sir Frank Lockwood, the Solicitor-General.",

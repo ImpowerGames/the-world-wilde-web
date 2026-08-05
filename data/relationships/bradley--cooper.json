@@ -68,7 +68,9 @@
       "locator": "p. 572",
       "locator_type": "page",
       "evidence_date": {
-        "y": 1893
+        "y": 1893,
+        "m": 9,
+        "circa": true
       },
       "supports": "That Wilde corresponded with the pair under their single male name - the basis for their presence on this roster.",
       "verification": "verified-exact",
@@ -76,7 +78,8 @@
       "provenance": "Repo PDF p. 624 read as a rendered page image 2026-08-03; printed folio 572 confirmed on the image (post-plate-insert offset +52).",
       "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
-      "voice": "period"
+      "voice": "period",
+      "addressee": "Michael Field"
     },
     {
       "quote": "Bradley and Cooper also left a vast joint diary, which they entitled Works and Days. Parts of it were published in the 1930s by their executor Thomas Sturge Moore.",
@@ -95,7 +98,7 @@
     },
     {
       "quote": "Sweet Wife, the hardships of early married life are beginning: let us bear them together bravely, & grow all the dearer to each other for the derision of the world. There has nothing happened to us; but what is common to all poets: let us rejoice to share their bitter herbs of adversity.",
-      "context": "Katharine Bradley to Edith Cooper, undated [August 1885], written the morning after a hostile Pall Mall Gazette review of their 1885 verse dramas. 'Sweet Wife' is Bradley's salutation, not an editorial gloss.",
+      "context": "Katharine Bradley to Edith Cooper, undated [August 1885], written the morning after a hostile Pall Mall Gazette review of their 1885 verse dramas. 'Sweet Wife' is Bradley's salutation, not an editorial gloss. ! Corrected 2026-08-05: the entry carried no speaker, so it inherited the volume's authorship - the JOINT pen name 'Michael Field' - and rendered as the pair writing to one of themselves. The letter is Bradley's, to Cooper; the whole point of it is that they are two people.",
       "work": "field-2009-thain-parejo",
       "locator": "p. 304 (Letters section, letter 5)",
       "locator_type": "page",
@@ -109,7 +112,9 @@
       "provenance": "Repo PDF page 306, printed folio 304 confirmed at the foot of the rendered page, read as a page image 2026-08-03. RE-POINTED from the moore-works-and-days-1933 pointer: this critical edition prints the letter itself, so the participants' own words are now first-hand rather than reached through Evangelista.",
       "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
-      "voice": "period"
+      "speaker": "Katharine Bradley",
+      "voice": "period",
+      "addressee": "Edith Cooper"
     },
     {
       "work": "field-2009-thain-parejo",

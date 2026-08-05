@@ -1,0 +1,35 @@
+{
+  "id": "makaroff--souline",
+  "people": [
+    "makaroff",
+    "souline"
+  ],
+  "certainty": "married",
+  "certainty_status": "proposed",
+  "certainty_reasoning": "Married, on a repo biography read at the printed page with the folio confirmed in the running head - the same standard as this module's best citations. Baker gives no exact date and none is invented; the quotation is placed by order_hint rather than an evidence_date, because a post-1945 event falls outside the range this module's date guard accepts and because 'after the war, when well into her forties' is not a date. This is the latest event on the map by some years, and sits outside the 1870s-1940s the header advertises.",
+  "start": null,
+  "end": null,
+  "date_label": "married after the Second World War, c. 1946-49; ended by her death, given as 1958",
+  "summary": "Some years after Radclyffe Hall died, Evguenia Souline married Vladimir Makaroff, a Russian emigre working in a London bookshop. Una Troubridge helped 'the Makaroffs' repay a loan raised to set up a boarding-house around 1950. Souline died of cancer, in a year her cataloguer gives as 1958 with a question mark - and afterwards Makaroff sold the letters Hall had written her, which is how nine years of them came to be in Texas and eventually in print.",
+  "sources": [
+    {
+      "quote": "After the war, when well into her forties, she married a Russian emigre, Vladimir Makaroff, who worked in a London bookshop.",
+      "context": "Michael Baker's life of Radclyffe Hall, on what became of Souline after Hall's death in 1943 and the quarrel with Una Troubridge over money. Souline was born in January 1904, so 'well into her forties' puts the marriage at roughly 1946-49.",
+      "work": "baker-1985-our-three-selves",
+      "locator": "p. 351",
+      "locator_type": "page",
+      "evidence_date": null,
+      "supports": "The marriage, the husband's identity and occupation, and its approximate date.",
+      "verification": "verified-exact",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF page 383 (1-based), printed folio 351 confirmed in the running head 'A Single Soul 1939-1943 ... 351' on the rendered page image, read 2026-08-05. Repo PDF offset for this work established at this page: printed folio = PDF page minus 32.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-05",
+      "voice": "modern",
+      "order_hint": {
+        "y": 1947,
+        "why": "Baker gives no date beyond 'after the war, when well into her forties'; Souline was born in January 1904, which puts it at roughly 1946-49. Placed at the midpoint for reading order only - THIS IS NOT A DOCUMENTED DATE."
+      }
+    }
+  ]
+}

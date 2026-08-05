@@ -1,0 +1,24 @@
+{
+  "id": "stoker",
+  "name": "Bram Stoker",
+  "sort_name": "Stoker, Bram",
+  "aka": [],
+  "born": {
+    "y": 1847
+  },
+  "died": {
+    "y": 1912
+  },
+  "group": "family",
+  "gender": "m",
+  "bio": "A young Irish civil servant with literary and dramatic interests when he married Florence Balcombe at St Anne's Church, Dublin, on 4 December 1878. Wilde had courted Balcombe for the two years before the engagement, and the parting letters he wrote her are the reason both she and Stoker appear on this map.",
+  "bio_sources": [
+    "letters-2000"
+  ],
+  "bio_note": "Everything above comes from ONE editorial footnote - Holland and Hart-Davis's note to Wilde's parting letters to Balcombe, Complete Letters (2000), p. 72 n. 1, which gives the wedding date, the church, the husband and his dates. His later career is deliberately not asserted here: nothing read in this module documents it, and the module's rule is that the map states what its sources state. A later pass wanting to give him a fuller life should source it properly rather than rely on general knowledge. Promoted from the context_engagement on balcombe.json, 2026-08-05; the source moved with him unchanged.",
+  "context_engagements": [],
+  "research_status": "phase-a",
+  "wikidata": null,
+  "wikipedia": null,
+  "roster_note": "Added 2026-08-05 in the pass that put every spouse and every off-roster person on the map."
+}

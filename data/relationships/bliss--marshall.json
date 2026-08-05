@@ -1,0 +1,41 @@
+{
+  "id": "bliss--marshall",
+  "people": [
+    "bliss",
+    "marshall"
+  ],
+  "certainty": "married",
+  "certainty_status": "proposed",
+  "certainty_reasoning": "Married, and the strongest-sourced marriage added in this pass: a book on disk about this exact household, read at the printed page with the folio confirmed on the image, and independent of anything on the web. Sox writes from the Warren-Marshall correspondence and from Fothergill's unpublished memoirs, and Fothergill is himself on this map - the judgement that she 'courted Ned and Marshall, either of which she was well prepared to marry' is his, from inside the house.",
+  "start": {
+    "y": 1907,
+    "m": 11,
+    "d": 5
+  },
+  "end": {
+    "y": 1925
+  },
+  "date_label": "m. 5 November 1907; ended by her death in 1925",
+  "summary": "Mary Bliss was Warren's own cousin, and she married Marshall - Warren's partner of eighteen years - on 5 November 1907. Warren called it a betrayal of their common ideal and said he would stand by his friend married or unmarried; Marshall called the marriage and the Metropolitan Museum job together his 'only loopholes of escape'. Sox reads it as a marriage of convenience made inside a homosexual household rather than against it. After she died in 1925 Marshall went back to sharing his Rome flat with Warren, and the three of them are buried together under one Grecian urn at Bagni di Lucca.",
+  "sources": [
+    {
+      "quote": "John Marshall did not marry Ned's cousin until 5 November 1907.",
+      "context": "Sox, opening the account of the marriage's effect on the Warren-Marshall partnership; 'Ned's cousin' = Mary Bliss (p. viii: 'Mary Bliss (Warren's cousin)').",
+      "work": "sox-1991",
+      "locator": "p. 76",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1907,
+        "m": 11,
+        "d": 5
+      },
+      "supports": "The marriage date",
+      "verification": "verified-exact",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF page 92, printed folio 76 confirmed on rendered page, read as page image 2026-08-03.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "modern"
+    }
+  ]
+}

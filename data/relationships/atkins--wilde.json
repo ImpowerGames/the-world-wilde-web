@@ -40,7 +40,14 @@
       "provenance": "IA in.ernet.dli.2015.499238, leaf 247 (printed p. 207), read as IIIF page image 2026-08-03",
       "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
-      "voice": "period"
+      "speaker": "Frederick Atkins",
+      "voice": "exchange",
+      "turns": [
+        {
+          "who": "Atkins",
+          "text": "Examination continued—I got back to the rooms very late. Mr. Wilde was in bed. I went into his room and had something to drink. A man of about twenty-two years of age was in bed with Mr. Wilde. It was Schwabe. I went to bed by myself. Before I got out of bed in the morning Mr. Wilde came into my room. That was about nine o'clock. He talked about the Moulin Rouge and I told him that I had enjoyed myself. Mr. Wilde then said to me, \"Shall I come into bed with you?\" I replied that it was time to get up. Mr. Wilde did not get into bed with me."
+        }
+      ]
     },
     {
       "quote": "Did any impropriety ever take place between you and Mr. Wilde?—Never.",
@@ -58,7 +65,19 @@
       "provenance": "IA in.ernet.dli.2015.499238, leaf 247 (printed p. 207), read as IIIF page image 2026-08-03",
       "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
-      "voice": "period"
+      "speaker": "Frederick Atkins",
+      "voice": "exchange",
+      "addressee": "Sir Edward Clarke",
+      "turns": [
+        {
+          "who": "Clarke",
+          "text": "Did any impropriety ever take place between you and Mr. Wilde?"
+        },
+        {
+          "who": "Atkins",
+          "text": "Never."
+        }
+      ]
     },
     {
       "quote": "About two hours ago, Atkins, I asked you these very questions, and you swore upon your oath that you had not been in custody at all, and had never been taken to Rochester Row. How came you to tell me those lies?—I did not remember it. Mr. Justice Charles (sternly to witness)—Leave the box.",
@@ -76,7 +95,22 @@
       "provenance": "IA in.ernet.dli.2015.499238, leaf 258 (printed p. 218); rendered at 3x from the item's text PDF and read as a page image 2026-08-03, with the printed folio confirmed in the page's bottom margin. locator corrected: the whole exchange, including 'Leave the box', is on printed p. 218",
       "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
-      "voice": "period"
+      "speaker": "Cross-examining counsel, Frederick Atkins and Mr Justice Charles",
+      "voice": "exchange",
+      "turns": [
+        {
+          "who": "Clarke",
+          "text": "About two hours ago, Atkins, I asked you these very questions, and you swore upon your oath that you had not been in custody at all, and had never been taken to Rochester Row. How came you to tell me those lies?"
+        },
+        {
+          "who": "Atkins",
+          "text": "I did not remember it."
+        },
+        {
+          "who": "Charles",
+          "text": "Mr. Justice Charles (sternly to witness)—Leave the box."
+        }
+      ]
     },
     {
       "quote": "And that the said Oscar Fingal O'Flahertie Wills Wilde on the twentieth day of November in the year of our Lord One thousand eight hundred and ninety-two at a house situate at 29 Boulevard des Capucines in Paris in the Republic of France did solicit and incite one Frederick Atkins to commit sodomy and other acts of gross indecency and immorality with him the said Oscar Fingal O'Flahertie Wills Wilde and did then and there commit the said other acts of gross indecency and immorality with the said Frederick Atkins.",
@@ -94,7 +128,14 @@
       "provenance": "IA in.ernet.dli.2015.499238, leaf 388 (printed p. 342), read as IIIF page image 2026-08-03",
       "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
-      "voice": "period"
+      "speaker": "The Marquess of Queensberry, plea of justification (filed 30 March 1895)",
+      "voice": "exchange",
+      "turns": [
+        {
+          "who": "Queensberry",
+          "text": "And that the said Oscar Fingal O'Flahertie Wills Wilde on the twentieth day of November in the year of our Lord One thousand eight hundred and ninety-two at a house situate at 29 Boulevard des Capucines in Paris in the Republic of France did solicit and incite one Frederick Atkins to commit sodomy and other acts of gross indecency and immorality with him the said Oscar Fingal O'Flahertie Wills Wilde and did then and there commit the said other acts of gross indecency and immorality with the said Frederick Atkins."
+        }
+      ]
     },
     {
       "quote": "Had I cared to show that the Crown witnesses — the three most important — had been carefully coached by your father and his solicitors, not in reticences merely, but in assertions, in the absolute transference, deliberate, plotted, and rehearsed, of the actions and doings of someone else on to me, I could have had each one of them dismissed from the box by the Judge, more summarily than even wretched perjured Atkins was.",
@@ -105,7 +146,10 @@
       "evidence_date": {
         "y": 1897,
         "m": 1,
-        "circa": true
+        "to": {
+          "y": 1897,
+          "m": 3
+        }
       },
       "supports": "Wilde's retrospective characterization ('wretched perjured Atkins') and his counter-claim that the testimony transferred someone else's doings onto him",
       "verification": "verified-exact",
@@ -113,7 +157,8 @@
       "provenance": "repo PDF 'Complete Letters' (Fourth Estate 2000), PDF p. 765 = printed p. 714 (folio confirmed on rendered page), read 2026-08-03",
       "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
-      "voice": "period"
+      "voice": "period",
+      "addressee": "Lord Alfred Douglas"
     }
   ],
   "prior_class": "alleged"

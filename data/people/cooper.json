@@ -21,16 +21,7 @@
     "letters-2000",
     "evangelista-y90s-field-bio"
   ],
-  "context_engagements": [
-    {
-      "date_label": "1890s, 'for a period'",
-      "note": "American art historian and connoisseur, a friend and Richmond-circle neighbour of both women. Evangelista's Y90s biography records that 'Despite the two women's constant devotion to each other, Cooper was prone to heterosexual infatuations, and for a period she developed a crush on their friend Bernhard Berenson.' Recorded because leaving it out would flatten the Michael Field partnership into a tidiness the source does not support. Off-roster; no dates given beyond the period.",
-      "works": [
-        "evangelista-y90s-field-bio"
-      ],
-      "partner_name": "Bernhard Berenson"
-    }
-  ],
+  "context_engagements": [],
   "research_status": "phase-a",
   "wikidata": "Q3719235",
   "wikipedia": "https://en.wikipedia.org/wiki/Edith_Emma_Cooper"

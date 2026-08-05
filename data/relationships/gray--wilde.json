@@ -41,11 +41,12 @@
       "provenance": "Repo PDF page 540, printed folio 520 confirmed on rendered page, read as page image 2026-08-03. Elision drops four sentences on artists needing protection; full text in dossier.",
       "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
-      "voice": "period"
+      "voice": "period",
+      "addressee": "Editor of the Daily Telegraph"
     },
     {
       "quote": "Dear Sir, Silverpoints (poems) by John Gray.   We agree to issue the above book in the autumn on your undertaking the cost of the designs – block for same – paper, printing and binding of an edition not exceeding 250 copies.",
-      "context": "Mathews and Lane (The Bodley Head) to Wilde, 17 June 1892, Vigo Street - the publishers' agreement printed in Complete Letters; Silverpoints italicised in original",
+      "context": "Mathews and Lane (The Bodley Head) to Wilde, 17 June 1892, Vigo Street - the publishers' agreement printed in Complete Letters; Silverpoints italicised in original ! Corrected 2026-08-05: this carried no speaker, so the page fell back to the volume's author and printed the publishers' letter as Wilde writing - and once the addressee was recorded, as Wilde writing to himself.",
       "work": "letters-2000",
       "locator": "p. 527",
       "locator_type": "page",
@@ -60,7 +61,9 @@
       "provenance": "Repo PDF page 547, printed folio 527 confirmed on rendered page, read as page image 2026-08-03.",
       "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
-      "voice": "period"
+      "speaker": "Elkin Mathews and John Lane (The Bodley Head)",
+      "voice": "period",
+      "addressee": "Oscar Wilde"
     },
     {
       "quote": "His book of poems, Silverpoints (Mathews and Lane, 1893), was designed by Ricketts, and initially underwritten by Wilde … before they fell out. … While there is no evidence for the persistent suggestion that he was the original of Dorian Gray, after the publication of the story he referred to himself as Dorian and allowed others in the Wilde circle to do so.",
@@ -84,7 +87,12 @@
       "locator": "p. 686",
       "locator_type": "page",
       "evidence_date": {
-        "y": 1897
+        "y": 1897,
+        "m": 1,
+        "to": {
+          "y": 1897,
+          "m": 3
+        }
       },
       "supports": "Wilde's retrospective valuation of the Gray friendship - 'my real life, my higher life'",
       "verification": "verified-exact",
@@ -92,7 +100,8 @@
       "provenance": "Repo PDF page 737, printed folio 686 confirmed on rendered page, read as page image 2026-08-03.",
       "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
-      "voice": "period"
+      "voice": "period",
+      "addressee": "Lord Alfred Douglas"
     },
     {
       "quote": "In fact, the John Gray that Oscar met and fell in love with was a construction, an exquisite fiction, a carefully crafted sonnet of a young man, hewn and marvellously fashioned from very rough clay.",

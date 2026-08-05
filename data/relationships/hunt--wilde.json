@@ -35,7 +35,8 @@
       "provenance": "Repo PDF pages 113-114, printed folios 88-89 confirmed on rendered pages, read as page images 2026-08-03. The sentence breaks across the page-turn at 'the | sweetest'.",
       "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
-      "voice": "period"
+      "voice": "period",
+      "addressee": "Margaret Raine Hunt"
     },
     {
       "quote": "Dear Miss Violet Hunt, I thank you very much for your kind letter, and am infinitely delighted that you have thought my poems beautiful. … You have made me very happy. Believe me ever sincerely yours.",
@@ -54,7 +55,8 @@
       "provenance": "Repo PDF page 139, printed folio 114 confirmed on rendered page, read as page image 2026-08-03. Elision drops the Slander/Ridicule/Envy sentence, his ranking of 'The Burden of Itys' and 'The Garden of Eros', and the Burne-Jones river outing; fuller text in dossier.",
       "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
-      "voice": "period"
+      "voice": "period",
+      "addressee": "Violet Hunt"
     },
     {
       "quote": "The second woman he seriously thought of marrying, at the beginning of the 1880s, was Violet Hunt … Wilde described her as ‘the sweetest violet in England.’ They had met in London when she was not yet seventeen. ‘I feel like a young conqueror,’ he said as they talked intensely together. ‘We will rule the world—you and I—you with your looks and I with my wits.’",
@@ -65,7 +67,7 @@
       "evidence_date": {
         "y": 1881
       },
-      "supports": "The marriage-proposal tradition; requires verification in the source before it can bear on classification",
+      "supports": "The marriage-proposal tradition",
       "verification": "verified-elision",
       "how_verified": "pdf-at-page",
       "provenance": "Repo PDF page 330, read as a page image 2026-08-04. This 2013 edition carries NO printed folios, so the locator is the PDF page - re-anchored from the ellmann-1988 pointer..",

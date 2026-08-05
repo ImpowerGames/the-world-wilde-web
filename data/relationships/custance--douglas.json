@@ -4,7 +4,7 @@
     "custance",
     "douglas"
   ],
-  "certainty": "marriage",
+  "certainty": "married",
   "certainty_status": "proposed",
   "certainty_reasoning": "Legal marriage with the exact date (4 March 1902, St George's, Hanover Square, by special licence) is stated independently by Parker's scholarly biography (read in full) and by Douglas's own memoir read at IA page images, so the 'marriage' class is mechanical. The record also carries the documented 1901 courtship-by-correspondence (Prince/Princess/Page personas), the birth of their son Raymond (17 November 1902), the 1913 separation, and the attachment maintained to Custance's death in 1944.",
   "start": {
@@ -109,7 +109,8 @@
       "verified_by": "agent-mechanical",
       "verified_on": "2026-08-04",
       "voice": "period",
-      "speaker": "Olive Custance"
+      "speaker": "Olive Custance",
+      "addressee": "Alfred Douglas"
     },
     {
       "quote": "Thus, on 4 March 1902, Lord Alfred Douglas and Olive Custance became man and wife at St George's, Hanover Square. Douglas was accompanied by his sister, Lady Edith Fox-Pitt, and the other witness was a friend called Cecil Hayes. … Another person was present at the wedding. From the back of the church Robert Ross watched.",

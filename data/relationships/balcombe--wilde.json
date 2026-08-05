@@ -33,7 +33,8 @@
       "provenance": "Repo PDF pages 98-99, printed folios 71 and 72 confirmed on the rendered pages, read as page images 2026-08-03. The quoted run spans the page-turn. Elisions drop the arrangements for handing the cross back (via her sister Philippa) and his remark that she had not told him of her marriage, and, at the end, the closing sentence about never meeting again and remembering her at prayer.",
       "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
-      "voice": "period"
+      "voice": "period",
+      "addressee": "Florence Balcombe"
     },
     {
       "quote": "I am just going out to bring an exquisitely pretty girl to afternoon service in the Cathedral.   She is just seventeen with the most perfectly beautiful face I ever saw and not a sixpence of money.   I will show you her photograph when I see you next.",
@@ -52,7 +53,8 @@
       "provenance": "Repo PDF page 54, printed folio 29 confirmed on rendered page, read as page image 2026-08-03.",
       "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
-      "voice": "period"
+      "voice": "period",
+      "addressee": "Reginald Harding"
     },
     {
       "quote": "The other – don't think me treacherous, Nellie – but the other please give to Florrie from yourself.   I should like to think that she was wearing something of mine the first night she comes on the stage, that anything of mine should touch her. … She thinks I never loved her, thinks I forget.   My God how could I!",
@@ -71,7 +73,8 @@
       "provenance": "Repo PDF page 132, printed folio 107 confirmed on rendered page, read as page image 2026-08-03. Elision drops two short sentences ('Of course if you think - but you won't think she will suspect? How could she?'); full text in dossier.",
       "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
-      "voice": "period"
+      "voice": "period",
+      "addressee": "Ellen Terry"
     },
     {
       "quote": "My dear Florence, Will you accept a copy of Salomé – my strange venture in a tongue that is not my own, but that I love as one loves an instrument of music on which one has not played before.   You will get it, I hope, tomorrow, and I hope you will like it.   With kind regards to Bram, believe me, always your sincere friend",
@@ -90,7 +93,8 @@
       "provenance": "Repo PDF page 604, printed folio 552 confirmed on rendered page, read as page image 2026-08-03.",
       "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
-      "voice": "period"
+      "voice": "period",
+      "addressee": "Florence Balcombe Stoker"
     }
   ],
   "prior_class": "romantic-nonsexual"

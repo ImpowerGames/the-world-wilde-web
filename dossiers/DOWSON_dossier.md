@@ -1,7 +1,7 @@
 # Ernest Dowson — research dossier
 
 **Researcher:** R17 (agent-mechanical) · **Session:** 2026-08-03
-**Status:** phase-a complete. Edge proposed (`desire-expressed`, hidden by default) — see "The class proposal" below, which also argues the case for dropping it to no-edge. One headline null finding: the attribution of "first hyacinth since Douglas" cannot be established (section L).
+**Status:** phase-a complete. Edge proposed (`attraction-expressed`, hidden by default) — see "The class proposal" below, which also argues the case for dropping it to no-edge. One headline null finding: the attribution of "first hyacinth since Douglas" cannot be established (section L).
 
 Roster line: `dowson` | Ernest Dowson | aesthete | Decadent poet; met Wilde 1890, Berneval/Dieppe 1897, ~12 surviving letters (added 2026-08-03, per Lovelle).
 
@@ -237,7 +237,7 @@ Explicitly speculative in its own wording, and `works.json` records that McKenna
 
 ## The class proposal, and how it was reached
 
-**Proposed: `desire-expressed`, `direction: wilde`, `outcome: unreciprocated`, `certainty_status: proposed`.** Hidden by default on the map per the README; the person stays visible.
+**Proposed: `attraction-expressed`, `direction: wilde`, `outcome: unreciprocated`, `certainty_status: proposed`.** Hidden by default on the map per the README; the person stays visible.
 
 The README sets the bar: "Wilde's epistolary register is extravagant toward many correspondents; ardour on the page is not by itself an edge. An edge is earned when the desire is legible as desire to a reader who does **not** already hold the coding hypothesis, or when a scholarly source reads it that way." This pair clears it on both limbs.
 

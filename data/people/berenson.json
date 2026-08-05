@@ -1,0 +1,20 @@
+{
+  "id": "berenson",
+  "name": "Bernhard Berenson",
+  "sort_name": "Berenson, Bernhard",
+  "aka": [],
+  "born": null,
+  "died": null,
+  "group": "aesthete",
+  "gender": "m",
+  "bio": "American art historian and connoisseur, a friend and Richmond-circle neighbour of Katharine Bradley and Edith Cooper - the two women who wrote together as Michael Field. For a period in the 1890s Cooper had a crush on him.",
+  "bio_sources": [
+    "evangelista-y90s-field-bio"
+  ],
+  "bio_note": "He is here because leaving him out would flatten the Michael Field partnership into a tidiness the source does not support: Evangelista's Y90s biography records that Cooper was 'prone to heterosexual infatuations' alongside the two women's constant devotion to each other, and this is the instance he names. No dates are given beyond 'for a period'. Promoted from the context_engagement on cooper.json, 2026-08-05.",
+  "context_engagements": [],
+  "research_status": "phase-a",
+  "wikidata": null,
+  "wikipedia": null,
+  "roster_note": "Added 2026-08-05 in the pass that put every spouse and every off-roster person on the map."
+}

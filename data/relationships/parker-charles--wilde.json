@@ -35,7 +35,51 @@
       "provenance": "IA in.ernet.dli.2015.499238, leaf 230 (printed p. 192, folio in the source foot), read as IIIF page image 2026-08-03; the 'said to me.' full stop and the 'boy for me!' exclamation confirmed at 2.4x zoom on the page image. No elisions.",
       "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
-      "voice": "period"
+      "speaker": "Charles Parker",
+      "voice": "exchange",
+      "addressee": "C. F. Gill",
+      "turns": [
+        {
+          "who": "Gill",
+          "text": "Where did you first meet Wilde?"
+        },
+        {
+          "who": "Parker",
+          "text": "Taylor asked us to visit him (Taylor) next day at Little College Street. We went the next morning. He said he could introduce us to a man who was good for plenty of money, and that we were to meet him (Taylor) at the St. James's bar. We went the next evening to the St. James's and saw Taylor there. He took us to a restaurant in Rupert Street. I think it was the Solferino. We were shown upstairs to a private room, in which there was a dinner table laid for four. After a while Wilde came in and I was formally introduced. I had never seen him before, but I had heard of him. We dined about eight o'clock. We all four sat down to dinner, Wilde sitting on my left."
+        },
+        {
+          "who": "Gill",
+          "text": "Who made the fourth?"
+        },
+        {
+          "who": "Parker",
+          "text": "My brother, William Parker. I had promised Taylor that he should accompany me."
+        },
+        {
+          "who": "Gill",
+          "text": "Was the dinner a good dinner?"
+        },
+        {
+          "who": "Parker",
+          "text": "Yes. The table was lighted with red-shaded candles. We had plenty of champagne with our dinner and brandy and coffee afterwards. We all partook of it. Wilde paid for the dinner."
+        },
+        {
+          "who": "Gill",
+          "text": "Of what nature was the conversation?"
+        },
+        {
+          "who": "Parker",
+          "text": "General, at first. Nothing was then said as to the purposes for which we had come together."
+        },
+        {
+          "who": "Gill",
+          "text": "And then?"
+        },
+        {
+          "who": "Parker",
+          "text": "Subsequently Wilde said to me. \"This is the boy for me! Will you go to the Savoy Hotel with me?\" I consented, and Wilde drove me in a cab to the hotel. Only he and I went, leaving my brother and Taylor behind."
+        }
+      ]
     },
     {
       "quote": "Charles Parker, examined by Mr. C. F. Gill—I am 21 years of age. I have a brother, William. I have been engaged as a valet and my brother as a groom. At the beginning of 1893 I was out of employment. I remember one day at that time being with my brother at the St. James's Restaurant, in the bar. While there Taylor came up and spoke to us. He was an entire stranger. He passed the compliments of the day, and asked us to have a drink. We got into conversation with him. He spoke about men.",
@@ -53,7 +97,15 @@
       "provenance": "IA in.ernet.dli.2015.499238, leaf 229 (printed p. 191), read as IIIF page image 2026-08-03",
       "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
-      "voice": "period"
+      "speaker": "Charles Parker",
+      "voice": "exchange",
+      "addressee": "C. F. Gill",
+      "turns": [
+        {
+          "who": "Parker",
+          "text": "Charles Parker, examined by Mr. C. F. Gill—I am 21 years of age. I have a brother, William. I have been engaged as a valet and my brother as a groom. At the beginning of 1893 I was out of employment. I remember one day at that time being with my brother at the St. James's Restaurant, in the bar. While there Taylor came up and spoke to us. He was an entire stranger. He passed the compliments of the day, and asked us to have a drink. We got into conversation with him. He spoke about men."
+        }
+      ]
     },
     {
       "quote": "Let us know what occurred there?—He committed the act of sodomy upon me. With your consent?—[Witness did not reply.] Did Wilde give you any money on that occasion?—Before I left Wilde gave me £2, telling me to call at the Savoy Hotel in a week. I went there about a week afterwards at eleven o'clock at night. We had supper, with champagne. Wilde on that occasion committed the same acts as on the first occasion. I stayed about two hours. When I left, Wilde gave me £3.",
@@ -71,7 +123,34 @@
       "provenance": "IA in.ernet.dli.2015.499238, leaf 231 (printed p. 193, folio 'N 193'), read as IIIF page image 2026-08-03",
       "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
-      "voice": "period"
+      "speaker": "Charles Parker, examination-in-chief",
+      "voice": "exchange",
+      "turns": [
+        {
+          "who": "Q.",
+          "text": "Let us know what occurred there?"
+        },
+        {
+          "who": "Parker",
+          "text": "He committed the act of sodomy upon me."
+        },
+        {
+          "who": "Q.",
+          "text": "With your consent?"
+        },
+        {
+          "who": "Parker",
+          "text": "[Witness did not reply.]"
+        },
+        {
+          "who": "Q.",
+          "text": "Did Wilde give you any money on that occasion?"
+        },
+        {
+          "who": "Parker",
+          "text": "Before I left Wilde gave me £2, telling me to call at the Savoy Hotel in a week. I went there about a week afterwards at eleven o'clock at night. We had supper, with champagne. Wilde on that occasion committed the same acts as on the first occasion. I stayed about two hours. When I left, Wilde gave me £3."
+        }
+      ]
     },
     {
       "quote": "I had for a fortnight or three weeks a room at 50 Park Walk, Chelsea. At the time I was living at Park Walk, Wilde visited me there. I was asked by Wilde to imagine that I was a woman and that he was my lover. I had to keep up this illusion. I used to sit on his knees and he used to . . . as a man might amuse himself with a girl. Wilde insisted on this filthy make-believe being kept up. … Apart from money, did Wilde give you any presents?—Yes, he gave me a silver cigarette case and a gold ring. I don't suppose boys are different to girls in acquiring presents from them who are fond of them. You pawned the cigarette case and the ring?—Yes.",
@@ -89,7 +168,30 @@
       "provenance": "IA in.ernet.dli.2015.499238, leaf 231 (printed p. 193, folio 'N 193' in the source foot), read as IIIF page image 2026-08-03. One elision by us, marked ' … '; the '... ' is Hyde's own printed redaction and is reproduced as printed.",
       "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
-      "voice": "period"
+      "speaker": "Charles Parker, examination-in-chief",
+      "voice": "exchange",
+      "turns": [
+        {
+          "who": "Parker",
+          "text": "I had for a fortnight or three weeks a room at 50 Park Walk, Chelsea. At the time I was living at Park Walk, Wilde visited me there. I was asked by Wilde to imagine that I was a woman and that he was my lover. I had to keep up this illusion. I used to sit on his knees and he used to . . . as a man might amuse himself with a girl. Wilde insisted on this filthy make-believe being kept up. …"
+        },
+        {
+          "who": "Q.",
+          "text": "Apart from money, did Wilde give you any presents?"
+        },
+        {
+          "who": "Parker",
+          "text": "Yes, he gave me a silver cigarette case and a gold ring. I don't suppose boys are different to girls in acquiring presents from them who are fond of them."
+        },
+        {
+          "who": "Q.",
+          "text": "You pawned the cigarette case and the ring?"
+        },
+        {
+          "who": "Parker",
+          "text": "Yes."
+        }
+      ]
     },
     {
       "quote": "On one occasion you proceeded from Kettner's to Wilde's house?—Yes. We went to Tite Street. It was very late at night. Wilde let himself and me in with a latchkey. I remained the night, sleeping with the prisoner, and he himself let me out in the early morning before anyone was about.",
@@ -107,7 +209,18 @@
       "provenance": "IA in.ernet.dli.2015.499238, leaf 234 (printed p. 194); rendered at 3x from the item's text PDF and read as a page image 2026-08-03, with the printed folio confirmed in the page's bottom margin. transcription corrected: printed reads 'very late at night.' (full stop), not a comma",
       "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
-      "voice": "period"
+      "speaker": "Charles Parker, examination-in-chief",
+      "voice": "exchange",
+      "turns": [
+        {
+          "who": "Q.",
+          "text": "On one occasion you proceeded from Kettner's to Wilde's house?"
+        },
+        {
+          "who": "Parker",
+          "text": "Yes. We went to Tite Street. It was very late at night. Wilde let himself and me in with a latchkey. I remained the night, sleeping with the prisoner, and he himself let me out in the early morning before anyone was about."
+        }
+      ]
     },
     {
       "quote": "The Clerk of Arraigns—Do you find the prisoner at the bar guilty of an act of gross indecency with Charles Parker at the Savoy Hotel on the night of his first introduction to him? (Count 1.) The Foreman—Guilty. The Clerk of Arraigns—Do you find him guilty of a similar offence a week later? (Count 4.) The Foreman—Guilty. The Clerk of Arraigns—Do you find him guilty of the offence at St. James's Place? (Count 5.) The Foreman—Guilty. The Clerk of Arraigns—Do you find him guilty of this offence at about the same period? (Count 6.) The Foreman—Guilty.",
@@ -125,7 +238,42 @@
       "provenance": "IA in.ernet.dli.2015.499238, leaf 382 (printed p. 336-337); rendered at 3x from the item's text PDF and read as a page image 2026-08-03, with the printed folio confirmed in the page's bottom margin.",
       "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
-      "voice": "period"
+      "speaker": "The Clerk of Arraigns and the Foreman of the jury",
+      "voice": "exchange",
+      "turns": [
+        {
+          "who": "Clerk of Arraigns",
+          "text": "Do you find the prisoner at the bar guilty of an act of gross indecency with Charles Parker at the Savoy Hotel on the night of his first introduction to him? (Count 1.)"
+        },
+        {
+          "who": "Foreman",
+          "text": "Guilty."
+        },
+        {
+          "who": "Clerk of Arraigns",
+          "text": "Do you find him guilty of a similar offence a week later? (Count 4.)"
+        },
+        {
+          "who": "Foreman",
+          "text": "Guilty."
+        },
+        {
+          "who": "Clerk of Arraigns",
+          "text": "Do you find him guilty of the offence at St. James's Place? (Count 5.)"
+        },
+        {
+          "who": "Foreman",
+          "text": "Guilty."
+        },
+        {
+          "who": "Clerk of Arraigns",
+          "text": "Do you find him guilty of this offence at about the same period? (Count 6.)"
+        },
+        {
+          "who": "Foreman",
+          "text": "Guilty."
+        }
+      ]
     },
     {
       "quote": "And I feel more poignant abasement of shame for my friendship with Alfred Douglas … fifty thousand times more … than I do, say, for my connection with Charley Parker of which you may read a full account in my trial. The former is to me a daily source of mental humiliation. Of the latter I never think. It troubles me not.",
@@ -142,7 +290,8 @@
       "provenance": "repo PDF 'Complete Letters' (Fourth Estate 2000), PDF p. 721 = printed p. 670 (folio confirmed on rendered page), read 2026-08-03",
       "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
-      "voice": "period"
+      "voice": "period",
+      "addressee": "Robert Ross"
     }
   ],
   "prior_class": "documented-sexual"

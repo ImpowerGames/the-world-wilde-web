@@ -12,7 +12,7 @@
 
 # WILKINSON
 
-## wilde — epistolary-only correspondence, Dec 1898 – 1900 (proposed class: `desire-expressed`, direction `wilde`, outcome `unknown`)
+## wilde — epistolary-only correspondence, Dec 1898 – 1900 (proposed class: `attraction-expressed`, direction `wilde`, outcome `unknown`)
 
 ### W0 — THE CLASS-DECIDING FOOTNOTE: the editors state they never met (printed 1109 n.1, running to 1110)
 
@@ -125,7 +125,7 @@ Assignment: the General Index flags warm material at printed 1025–1034. All te
 
 ### G7 — classification note
 
-Everything above is Wilde writing **about** Gilbert **to Smithers**. Nothing read this session is Wilde writing **to** Gilbert, and nothing read this session makes a sexual claim in either direction. That shape is why the proposal is `romantic-nonsexual` rather than `desire-expressed` (which the README reserves for a one-sided approach or declaration — this is a sustained daily companionship, not an approach) and rather than `alleged` (which needs a contested source to name; there is none in the record read — only silence). The countervailing read is recorded in the JSON's `certainty_reasoning` and is genuinely available: each amorous line is separately deniable inside its comic register.
+Everything above is Wilde writing **about** Gilbert **to Smithers**. Nothing read this session is Wilde writing **to** Gilbert, and nothing read this session makes a sexual claim in either direction. That shape is why the proposal is `romantic-nonsexual` rather than `attraction-expressed` (which the README reserves for a one-sided approach or declaration — this is a sustained daily companionship, not an approach) and rather than `alleged` (which needs a contested source to name; there is none in the record read — only silence). The countervailing read is recorded in the JSON's `certainty_reasoning` and is genuinely available: each amorous line is separately deniable inside its comic register.
 
 ⧖ **Not read this session:** printed 1084 (flagged by an earlier session) and the remaining General Index page-list for Gilbert. Logged as a pointer on the edge.
 
@@ -170,7 +170,7 @@ PDF offset in this range held at **+46** throughout (printed 1103 = PDF 1149 …
 
 # POLLITT (continued)
 
-## Class proposed: `desire-expressed`, direction `wilde`, outcome `unknown` — edge written to `data/relationships/pollitt--wilde.json`
+## Class proposed: `attraction-expressed`, direction `wilde`, outcome `unknown` — edge written to `data/relationships/pollitt--wilde.json`
 
 ### P0 — the main-particulars footnote (printed 1103 n. 1)
 
@@ -225,7 +225,7 @@ Four letters, all Wilde's, to a man he had never seen; the whole correspondence 
 
 # WILKINSON (continued)
 
-## Class proposed: `desire-expressed`, direction `wilde`, outcome `unknown` — edge written to `data/relationships/wilde--wilkinson.json`
+## Class proposed: `attraction-expressed`, direction `wilde`, outcome `unknown` — edge written to `data/relationships/wilde--wilkinson.json`
 
 > **Filename note.** The brief specified `wilkinson--wilde.json`, but the house rule is one file per unordered pair with **ids sorted**, and `wilde` sorts before `wilkinson`. The build validator rejected the brief's spelling outright (`id does not match people`). The edge is therefore at **`data/relationships/wilde--wilkinson.json`**.
 
@@ -293,7 +293,7 @@ Recorded as pure register metadata — salutations and signatures, not prose —
 
 ### W10 — classification note
 
-**They never met.** That is the editors' flat statement (W0) and nothing read this session disturbs it. The correspondence is epistolary from first letter to last; the surviving record is one-sided; the boy was seventeen and Wilde forty-four. Direction is Wilde's on the strength of documented acts — three photograph requests (W1, W2, W5), the reports to Turner and Ross (W3, W4), and sending Ross to look at him (W6). Outcome is unknown and cannot be otherwise. **The strongest argument against the edge**, and it is a real one: the approach ran the other way — Wilkinson manufactured a dramatic society and at least one further false claim to get Wilde's attention (W6), and the ANNOTATIONS-TRIAGE pass judged him context-engagement-worthy rather than edge-worthy because a correspondence between people who never met fails the usual bar. `desire-expressed` edges are hidden by default on the map and are a lead pool, not the documented web; demoting this to a `wilde` context engagement is a clean and defensible alternative. Lovelle's call.
+**They never met.** That is the editors' flat statement (W0) and nothing read this session disturbs it. The correspondence is epistolary from first letter to last; the surviving record is one-sided; the boy was seventeen and Wilde forty-four. Direction is Wilde's on the strength of documented acts — three photograph requests (W1, W2, W5), the reports to Turner and Ross (W3, W4), and sending Ross to look at him (W6). Outcome is unknown and cannot be otherwise. **The strongest argument against the edge**, and it is a real one: the approach ran the other way — Wilkinson manufactured a dramatic society and at least one further false claim to get Wilde's attention (W6), and the ANNOTATIONS-TRIAGE pass judged him context-engagement-worthy rather than edge-worthy because a correspondence between people who never met fails the usual bar. `attraction-expressed` edges are hidden by default on the map and are a lead pool, not the documented web; demoting this to a `wilde` context engagement is a clean and defensible alternative. Lovelle's call.
 
 ⧖ **Not read this session:** printed 1136 tail (read, mention only), 1159n, 1168, 1170–71 (Paris invitation), 1171 (warning against Langrel Harris), and the funeral-wreath mention at ~1224. **Louis Marlow, *Seven Friends* (1953)** is the obvious next source and the only place the record could ever speak in Wilkinson's own voice.
 
@@ -327,7 +327,7 @@ The note then closes with the identification, quoted in full:
 
 ### H3 — classification note: **null**
 
-The complete evidence is H1 and H2: Douglas's 1929 memoir calling him "a charming boy … well known to Oscar", and Wilde four years after the trials sending him a book and asking Turner "How is that dear boy?   I wish you would import him." That attests **acquaintance and warmth, and nothing else.** It is well under the README's `desire-expressed` bar, which requires desire legible as desire to a reader who does not already hold the coding hypothesis; a straight-default reader sees a pleasant young acquaintance being sent a book. `alleged` was considered and rejected on the ground that it **requires a `disputed{}` block naming who asserts the romance**, and no source — primary or secondary — asserts one. Recording a null costs nothing and is reversible; the material is preserved here in full, so promotion is one decision away if the unread index locators (811, 830, 837, 878, 1132) change the picture.
+The complete evidence is H1 and H2: Douglas's 1929 memoir calling him "a charming boy … well known to Oscar", and Wilde four years after the trials sending him a book and asking Turner "How is that dear boy?   I wish you would import him." That attests **acquaintance and warmth, and nothing else.** It is well under the README's `attraction-expressed` bar, which requires desire legible as desire to a reader who does not already hold the coding hypothesis; a straight-default reader sees a pleasant young acquaintance being sent a book. `alleged` was considered and rejected on the ground that it **requires a `disputed{}` block naming who asserts the romance**, and no source — primary or secondary — asserts one. Recording a null costs nothing and is reversible; the material is preserved here in full, so promotion is one decision away if the unread index locators (811, 830, 837, 878, 1132) change the picture.
 
 ⧖ **Not read this session:** printed 811, 830, 837, 878, 1132.
 

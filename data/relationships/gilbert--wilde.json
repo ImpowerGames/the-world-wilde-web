@@ -35,7 +35,8 @@
       "provenance": "Repo PDF page 1077, printed folio 1031 confirmed on the rendered page, read as page image 2026-08-03.",
       "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
-      "voice": "period"
+      "voice": "period",
+      "addressee": "Leonard Smithers"
     },
     {
       "quote": "Maurice Gilbert, one of Wilde's closest and most devoted friends during these last years. Except that his father was English and his mother French, and that he was a young soldier in the marine infantry, nothing is known of him.",
@@ -69,7 +70,8 @@
       "provenance": "Repo PDF page 1077, printed folio 1031 confirmed on the rendered page, read as page image 2026-08-03; the letter opens on printed 1030 (PDF 1076, folio confirmed). En-dashes as printed.",
       "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
-      "voice": "period"
+      "voice": "period",
+      "addressee": "Leonard Smithers"
     },
     {
       "quote": "Without my morning letter from you life would be dreadful – is dreadful – except for Maurice, who is sweeter than ever.",
@@ -88,7 +90,8 @@
       "provenance": "Repo PDF page 1080, printed folio 1034 confirmed on the rendered page, read as page image 2026-08-03. En-dashes as printed.",
       "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
-      "voice": "period"
+      "voice": "period",
+      "addressee": "Leonard Smithers"
     },
     {
       "work": "letters-2000",
@@ -107,7 +110,8 @@
       "how_verified": "pdf-at-page",
       "verified_by": "Claude (Opus 5)",
       "verified_on": "2026-08-04",
-      "provenance": "Repo PDF p. 1130 rendered and read as a page image 2026-08-04; folio 1084 printed at the foot. 'early' and 'oeufs à l'aurore' are italic in the printing."
+      "provenance": "Repo PDF p. 1130 rendered and read as a page image 2026-08-04; folio 1084 printed at the foot. 'early' and 'oeufs à l'aurore' are italic in the printing.",
+      "addressee": "Maurice Gilbert"
     },
     {
       "quote": "My dear Robbie, No cheque this morning, but instead my sweet Maurice, our sweet Maurice, looking quite charming and as delightful as ever. He seemed a little tired, but of course that was the journey. He was full of affectionate memories of you and Reggie, and is quite devoted to you both.",
@@ -127,6 +131,7 @@
       "verified_by": "agent-mechanical",
       "verified_on": "2026-08-04",
       "speaker": "Oscar Wilde",
+      "addressee": "Robert Ross",
       "voice": "period"
     }
   ],

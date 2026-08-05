@@ -35,7 +35,8 @@
       "provenance": "Repo PDF pages 908-909, printed folios 858 and 859 confirmed on the rendered pages, read as page images 2026-08-03. The quoted run spans the page-turn; the elision drops the passage on Wilde fearing he harms Ross, the naming of him as St Robert of Phillimore, and the sentence introducing the misquoted lines. 'you' is italicised in the printed text of the poem lines.",
       "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
-      "voice": "period"
+      "voice": "period",
+      "addressee": "Robert Ross"
     },
     {
       "quote": "Robert Baldwin Ross (1869–1918) was a Canadian. … He first met Wilde in 1886 and remained his most faithful friend until Wilde's death when he became the literary executor to the estate.",
@@ -69,7 +70,8 @@
       "provenance": "Repo PDF page 431, printed folio 409 confirmed on rendered page, read as page image 2026-08-03 (ROSS_dossier.md Passage 6; this is the contiguous close of the letter, transcribed without elision).",
       "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
-      "voice": "period"
+      "voice": "period",
+      "addressee": "Robert Ross"
     },
     {
       "quote": "But I only met him in '86 and only became intimate with him when he was writing Lady Windermere, but there were long intervals when I never saw him, and he never corresponded with me regularly until after the downfall.",
@@ -89,7 +91,8 @@
       "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
       "voice": "period",
-      "speaker": "Robert Ross"
+      "speaker": "Robert Ross",
+      "addressee": "Adela Schuster"
     },
     {
       "quote": "I went to the bedside and held his hand, his pulse began to flutter. He heaved a deep sigh, the only natural one I had heard since I arrived, the limbs seemed to stretch involuntarily, the breathing came fainter; he passed at 10 minutes to 2 p.m. exactly.",
@@ -109,7 +112,8 @@
       "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
       "voice": "period",
-      "speaker": "Robert Ross"
+      "speaker": "Robert Ross",
+      "addressee": "More Adey"
     },
     {
       "quote": "Little did Eliza Ross or Constance Wilde suspect, when they finalized this arrangement, that some time the previous year, the thirty-two-year-old Oscar and the seventeen-year-old Robbie had become lovers.",
@@ -169,8 +173,11 @@
       "locator": "p. 33",
       "locator_type": "page",
       "evidence_date": {
-        "y": 1889,
-        "circa": true
+        "y": 1888,
+        "circa": true,
+        "to": {
+          "y": 1889
+        }
       },
       "supports": "Fryer's summary formula for the bond - 'disciple and sometime lover'. 'Sometime' is his word, and his second signal that he does not read the relationship as a continuous affair.",
       "verification": "verified-exact",
@@ -187,8 +194,11 @@
       "locator": "p. 42",
       "locator_type": "page",
       "evidence_date": {
-        "y": 1890,
-        "circa": true
+        "y": 1889,
+        "circa": true,
+        "to": {
+          "y": 1890
+        }
       },
       "supports": "The asymmetry Fryer builds the life on: Ross in love with Wilde and unpossessive about Gray and Wilde's other lovers, while sexually occupied elsewhere. Bears on the ross--wilde bond and on why no jealousy edge to gray or douglas is warranted.",
       "verification": "verified-exact",

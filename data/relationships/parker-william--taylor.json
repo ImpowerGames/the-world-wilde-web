@@ -34,7 +34,14 @@
       "provenance": "IA in.ernet.dli.2015.499238, leaf 239 (printed p. 199), read as IIIF page image 2026-08-03",
       "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
-      "voice": "period"
+      "speaker": "William Parker, examination-in-chief",
+      "voice": "exchange",
+      "turns": [
+        {
+          "who": "Parker",
+          "text": "My brother went off with the prisoner to the Savoy and I remained behind with Taylor who said, \"Your brother is lucky. Oscar does not care what he pays if he fancies a chap.\" I went twice to Little College Street, and on one night my brother and I slept with Taylor in the same bed. [Witness described an attempt made by Taylor to commit sodomy and continued:] Shortly afterwards I went into the country where I obtained employment, and I had nothing more to do with Taylor or with Mr. Wilde."
+        }
+      ]
     },
     {
       "quote": "Did you know when you went with your brother to the dinner that you were to be treated as women, and that you were to have money for it?—That was what I understood.",
@@ -52,7 +59,19 @@
       "provenance": "IA in.ernet.dli.2015.499238, leaf 239 (printed p. 199), read as IIIF page image 2026-08-03",
       "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
-      "voice": "period"
+      "speaker": "William Parker",
+      "voice": "exchange",
+      "addressee": "Sir Edward Clarke",
+      "turns": [
+        {
+          "who": "Clarke",
+          "text": "Did you know when you went with your brother to the dinner that you were to be treated as women, and that you were to have money for it?"
+        },
+        {
+          "who": "Parker",
+          "text": "That was what I understood."
+        }
+      ]
     },
     {
       "quote": "How many different men have shared your bedroom?—Must I give all my friends' names? Yes, sir, you must.—May I write them down? … Cross-examination continued—[Witness, after some hesitation, recalled the names of Mason, the two Parkers, and Sidney Mavor. When pressed he added the name of Harrington.] … You say that you did not accost the Parkers, but that Harrington introduced you to them?—Yes. Did you offer the Parkers a drink at that first meeting?—They stood a drink and I retaliated. After Harrington had introduced them?—He was living with them. Harrington and the Parkers came up to the bar at the same time as I did.",
@@ -70,7 +89,42 @@
       "provenance": "IA in.ernet.dli.2015.499238, leaf 326 (printed p. 282, folio in the source foot), read as IIIF page image 2026-08-03. Three elisions, marked.",
       "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
-      "voice": "period"
+      "speaker": "Alfred Taylor, cross-examined by the Solicitor-General",
+      "voice": "exchange",
+      "turns": [
+        {
+          "who": "Q.",
+          "text": "How many different men have shared your bedroom?"
+        },
+        {
+          "who": "Taylor",
+          "text": "Must I give all my friends' names? Yes, sir, you must.—May I write them down? … Cross-examination continued—[Witness, after some hesitation, recalled the names of Mason, the two Parkers, and Sidney Mavor. When pressed he added the name of Harrington.] …"
+        },
+        {
+          "who": "Q.",
+          "text": "You say that you did not accost the Parkers, but that Harrington introduced you to them?"
+        },
+        {
+          "who": "Taylor",
+          "text": "Yes."
+        },
+        {
+          "who": "Q.",
+          "text": "Did you offer the Parkers a drink at that first meeting?"
+        },
+        {
+          "who": "Taylor",
+          "text": "They stood a drink and I retaliated."
+        },
+        {
+          "who": "Q.",
+          "text": "After Harrington had introduced them?"
+        },
+        {
+          "who": "Taylor",
+          "text": "He was living with them. Harrington and the Parkers came up to the bar at the same time as I did."
+        }
+      ]
     },
     {
       "quote": "The Clerk of Arraigns—And do you find the prisoner at the bar guilty of having committed an act of gross indecency with William Parker? The Foreman—Guilty.",
@@ -88,7 +142,18 @@
       "provenance": "IA in.ernet.dli.2015.499238, leaf 336 (printed p. 292), read as IIIF page image 2026-08-03",
       "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
-      "voice": "period"
+      "speaker": "The Clerk of Arraigns and the Foreman of the jury",
+      "voice": "exchange",
+      "turns": [
+        {
+          "who": "Clerk of Arraigns",
+          "text": "And do you find the prisoner at the bar guilty of having committed an act of gross indecency with William Parker?"
+        },
+        {
+          "who": "Foreman",
+          "text": "Guilty."
+        }
+      ]
     }
   ],
   "prior_class": "documented-sexual"

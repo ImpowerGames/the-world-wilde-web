@@ -1,0 +1,58 @@
+{
+  "id": "ernest-troubridge--troubridge",
+  "people": [
+    "ernest-troubridge",
+    "troubridge"
+  ],
+  "certainty": "married",
+  "certainty_status": "proposed",
+  "certainty_reasoning": "Married, on the Ransom Center's own finding aid - a repository sketch written over the couple's papers, which is the better authority here - corroborated independently by Wikipedia and by Wikidata Q3549170. THE EDGE IS ON THE MAP BECAUSE IT IS NOT A ROUTINE FACT: this marriage is the documented cost of a relationship the map exists to record, and its ending is dated by the Ransom Center to Una's relationship with Hall in so many words. Wikidata's exact wedding day is not adopted; see the person file.",
+  "start": {
+    "y": 1908,
+    "m": 10
+  },
+  "end": {
+    "y": 1926,
+    "m": 1,
+    "d": 28
+  },
+  "date_label": "m. October 1908; legally separated by 1919; ended by his death, 28 January 1926",
+  "summary": "Una Taylor married Captain Ernest Troubridge in October 1908, soon after her father's death, and their daughter Andrea was born in 1910. In 1915 she met Radclyffe Hall - then the partner of Una's own cousin, Mabel Batten - and by June 1919, when the Admiral was knighted and Una became Lady Troubridge, the couple were already legally separated because of the relationship. She lived with Hall until Hall's death in 1943, under the title her husband had given her, and afterwards had Hall's suits altered to fit her.",
+  "sources": [
+    {
+      "quote": "She married Captain Ernest Troubridge in October 1908; they had one daughter, Andrea. [...] Ernest Troubridge rose to the rank of admiral during and immediately after the First World War, and Una gained her title when Admiral Troubridge was knighted in June 1919, although they were already legally separated at the time.",
+      "context": "Wikipedia, 'Una Vincenzo, Lady Troubridge'. The bracketed elision spans her meeting with Radclyffe Hall and the years between.",
+      "work": "wikipedia-una-troubridge",
+      "locator": "sections 'Early life' and 'Personal life'",
+      "locator_type": "none",
+      "evidence_date": {
+        "y": 1908,
+        "m": 10
+      },
+      "supports": "The marriage, its month and year, the daughter, and the legal separation by 1919.",
+      "verification": "verified-elision",
+      "how_verified": "web",
+      "provenance": "Plain-text extract of the article fetched through the MediaWiki API and read 2026-08-05; quotation sliced from that extract. Reference-marker brackets omitted as typography.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-05",
+      "voice": "modern"
+    },
+    {
+      "quote": "were separated by 1919 because of Una's relationship with Radclyffe Hall",
+      "context": "The Harry Ransom Center's biographical sketch in the finding aid to the Hall and Troubridge papers, on the end of the Troubridge marriage. The subject of the clause is the Troubridges.",
+      "work": "hrc-hall-troubridge-fa",
+      "locator": "section 'Biographical Sketch'",
+      "locator_type": "none",
+      "evidence_date": {
+        "y": 1919
+      },
+      "supports": "The repository's own statement of why and when the marriage ended.",
+      "verification": "verified-exact",
+      "how_verified": "web",
+      "provenance": "Quotation carried unchanged from the context_engagement on troubridge.json, where it was recorded from the finding aid fetched and read in full 2026-08-03. The sketch carries no per-claim citations.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-05",
+      "voice": "modern"
+    }
+  ]
+}

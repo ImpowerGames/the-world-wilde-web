@@ -40,7 +40,35 @@
       "provenance": "IA in.ernet.dli.2015.499238, leaf 186 (printed p. 150); rendered at 3x from the item's text PDF and read as a page image 2026-08-03, with the printed folio confirmed in the page's bottom margin.",
       "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
-      "voice": "period"
+      "speaker": "Oscar Wilde",
+      "voice": "exchange",
+      "addressee": "Edward Carson",
+      "turns": [
+        {
+          "who": "Carson",
+          "text": "Do you know Walter Grainger?"
+        },
+        {
+          "who": "Wilde",
+          "text": "Yes."
+        },
+        {
+          "who": "Carson",
+          "text": "How old is he?"
+        },
+        {
+          "who": "Wilde",
+          "text": "He was about sixteen when I knew him. He was a servant at a certain house in High Street, Oxford, where Lord Alfred Douglas had rooms. I have stayed there several times. Grainger waited at table. …"
+        },
+        {
+          "who": "Carson",
+          "text": "Did you ever kiss him?"
+        },
+        {
+          "who": "Wilde",
+          "text": "Oh, dear no. He was a peculiarly plain boy. He was, unfortunately, extremely ugly. I pitied him for it."
+        }
+      ]
     },
     {
       "quote": "Cross-examination continued—No indecencies ever took place between myself and Grainger. I went down in June, 1893, to stay at a cottage at Goring. I brought over Grainger as under-butler. He had asked me to get him a situation. I never on any occasion asked him to come into my bedroom.",
@@ -58,7 +86,15 @@
       "provenance": "IA in.ernet.dli.2015.499238, leaf 186 (printed p. 150-151); rendered at 3x from the item's text PDF and read as a page image 2026-08-03, with the printed folio confirmed in the page's bottom margin.",
       "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
-      "voice": "period"
+      "speaker": "Oscar Wilde",
+      "voice": "exchange",
+      "addressee": "Edward Carson",
+      "turns": [
+        {
+          "who": "Wilde",
+          "text": "Cross-examination continued—No indecencies ever took place between myself and Grainger. I went down in June, 1893, to stay at a cottage at Goring. I brought over Grainger as under-butler. He had asked me to get him a situation. I never on any occasion asked him to come into my bedroom."
+        }
+      ]
     },
     {
       "quote": "… in the City of Oxford and also upon several occasions in the months of June July and August in the year of our Lord One thousand eight hundred and ninety-three at a house called \"The Cottage\" at Goring in the County of Oxford did solicit and incite one Walter Grainger to commit sodomy and other acts of gross indecency and immorality with him the said Oscar Fingal O'Flahertie Wills Wilde and did then and there commit the said other acts of gross indecency and immorality with the said Walter Grainger.",
@@ -76,7 +112,14 @@
       "provenance": "IA in.ernet.dli.2015.499238, leaves 389-390 (printed pp. 343-344), read as IIIF page images 2026-08-03",
       "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
-      "voice": "period"
+      "speaker": "The Marquess of Queensberry, plea of justification (filed 30 March 1895)",
+      "voice": "exchange",
+      "turns": [
+        {
+          "who": "Queensberry",
+          "text": "… in the City of Oxford and also upon several occasions in the months of June July and August in the year of our Lord One thousand eight hundred and ninety-three at a house called \"The Cottage\" at Goring in the County of Oxford did solicit and incite one Walter Grainger to commit sodomy and other acts of gross indecency and immorality with him the said Oscar Fingal O'Flahertie Wills Wilde and did then and there commit the said other acts of gross indecency and immorality with the said Walter Grainger."
+        }
+      ]
     },
     {
       "quote": "Do you know a boy named Walter Grainger?—He was a servant in Lord Alfred Douglas's lodgings at Oxford. He asked me if I would get him a place in London. Did you find him a place?—Yes. Where?—In my own house at Goring. When did he come?—I should think it was in July, 1893. He remained in my service till I left Goring in October.",
@@ -94,7 +137,43 @@
       "provenance": "IA in.ernet.dli.2015.499238, leaf 366 (printed p. 320); rendered at 3x from the item's text PDF and read as a page image 2026-08-03, with the printed folio confirmed in the page's bottom margin.",
       "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
-      "voice": "period"
+      "speaker": "Oscar Wilde",
+      "voice": "exchange",
+      "addressee": "the Solicitor-General",
+      "turns": [
+        {
+          "who": "Solicitor-General",
+          "text": "Do you know a boy named Walter Grainger?"
+        },
+        {
+          "who": "Wilde",
+          "text": "He was a servant in Lord Alfred Douglas's lodgings at Oxford. He asked me if I would get him a place in London."
+        },
+        {
+          "who": "Solicitor-General",
+          "text": "Did you find him a place?"
+        },
+        {
+          "who": "Wilde",
+          "text": "Yes."
+        },
+        {
+          "who": "Solicitor-General",
+          "text": "Where?"
+        },
+        {
+          "who": "Wilde",
+          "text": "In my own house at Goring."
+        },
+        {
+          "who": "Solicitor-General",
+          "text": "When did he come?"
+        },
+        {
+          "who": "Wilde",
+          "text": "I should think it was in July, 1893. He remained in my service till I left Goring in October."
+        }
+      ]
     },
     {
       "work": "holland-2003",
@@ -106,6 +185,7 @@
       "how_verified": "pdf-at-page",
       "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
+      "speaker": "Oscar Wilde",
       "provenance": "Repo PDF pages 254-255, printed folios 206 and 207 confirmed at the foot of the rendered pages, read as page images 2026-08-03.",
       "evidence_date": {
         "y": 1895,
@@ -113,7 +193,74 @@
         "d": 4
       },
       "supports": "The verbatim shorthand transcript of the same exchange Hyde 1948 prints in condensed form - kept alongside Hyde, not in place of him, so the divergence stays visible in the record.",
-      "voice": "period"
+      "voice": "exchange",
+      "addressee": "Edward Carson",
+      "turns": [
+        {
+          "who": "Carson",
+          "text": "Did you know Walter Grainger?"
+        },
+        {
+          "who": "Wilde",
+          "text": "Yes."
+        },
+        {
+          "who": "Carson",
+          "text": "What was he?"
+        },
+        {
+          "who": "Wilde",
+          "text": "A servant at Lord Alfred Douglas's rooms in Oxford. …"
+        },
+        {
+          "who": "Carson",
+          "text": "How old was he?"
+        },
+        {
+          "who": "Wilde",
+          "text": "I should think about sixteen. …"
+        },
+        {
+          "who": "Carson",
+          "text": "Were you on familiar terms with Grainger?"
+        },
+        {
+          "who": "Wilde",
+          "text": "What do you mean by 'familiar terms'?"
+        },
+        {
+          "who": "Carson",
+          "text": "I mean to say did you have him to dine with you or anything of that kind?"
+        },
+        {
+          "who": "Wilde",
+          "text": "Never in my life."
+        },
+        {
+          "who": "Carson",
+          "text": "What?"
+        },
+        {
+          "who": "Wilde",
+          "text": "No! It is really trying to ask me such a question. No, of course not. He waited on me at table; he did not dine with me. …"
+        },
+        {
+          "who": "Carson",
+          "text": "Did you ever kiss him?"
+        },
+        {
+          "who": "Wilde",
+          "text": "Oh, no, never in my life; he was a peculiarly plain boy."
+        },
+        {
+          "who": "Carson",
+          "text": "He was what?"
+        },
+        {
+          "who": "Wilde",
+          "text": "I said I thought him unfortunately — his appearance was"
+        }
+      ]
     }
   ],
   "prior_class": "alleged"

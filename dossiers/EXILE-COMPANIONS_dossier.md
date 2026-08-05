@@ -172,7 +172,7 @@ And, written the **next day** to a different correspondent:
 **Classification weighing (proposed, not decided).** Against the README taxonomy:
 - `documented-sexual` requires *sexual relations attested* by first-person primary evidence. This is first-person primary evidence by a participant, but what it attests in plain words is love and three days of company. A reader holding the coding hypothesis will read "We spent three days together", in a letter to Turner in the series that elsewhere calls Riviera romance "a profession plied beneath the moon", as reporting a sexual liaison. That is a reading, and naming whose reading it is is required — it is mine as transcriber, not the editors'. Not proposed as the class.
 - `consensus` requires ≥2 independent secondary sources; none consulted. Not available.
-- `desire-expressed` is defined as "an approach or declaration, **not a relationship**". Three days together is more than an approach, and the outcome is not unknown — they spent the time together. Poor fit.
+- `attraction-expressed` is defined as "an approach or declaration, **not a relationship**". Three days together is more than an approach, and the outcome is not unknown — they spent the time together. Poor fit.
 - **`romantic-nonsexual` is the proposed class**: documented romance where the record makes no sexual claim either way — which is exactly the evidentiary situation. Per the README the "nonsexual" in the id describes the evidence, not a finding of fact.
 - **One-sidedness caveat:** the recorded affect is Wilde's ("whom I wildly loved"); Didaco's side of it is not recorded anywhere in the passage. The mutual element is conduct, not sentiment: "We spent three days together."
 
@@ -202,7 +202,7 @@ The Turner letter runs over onto printed 1133 and ends there — "Write and tell
 **Provenance:** same page (opening lines run on from printed 1139, not read this session — the transcription begins mid-sentence and is marked with a leading elision).
 **Supports:** the end of the first Gland stay; Mellor's distress at Wilde's departure; the Genoa destination that frames the Rolla item.
 
-**Classification weighing (proposed, not decided).** `desire-expressed`, `direction: "wilde"`, `outcome: "unknown"`.
+**Classification weighing (proposed, not decided).** `attraction-expressed`, `direction: "wilde"`, `outcome: "unknown"`.
 - **Against the README bar** — "legible as desire to a reader who does **not** already hold the coding hypothesis": in my judgment yes, and the reason is the sentence Wilde puts immediately after the boy: "After the chill virginity of Swiss Alps and snow, I long for the red flowers of life…". The physical description ("fair hair… always in dark blue"), the fact that Wilde has **written ahead** to arrange the meeting, and an explicit statement of longing set against "virginity" sit in one four-sentence run. A reader without the hypothesis reads an older man looking forward to a young man he has written to. What such a reader would *not* independently supply is the sexual character — that part is coded, and I am not proposing it.
 - **Whose reading:** mine as transcriber. No scholarly source consulted reads the passage for the record. The editors' general index lists him, per the triage's mirror read, as "Rolla, Edoardo (boy)" — an editorial classing, not a reading of desire, and finding-only until index-verified at page.
 - **Outcome is genuinely `unknown`**, not `unreciprocated`: nothing in the pages read says whether the meeting happened. The only thing known to have happened at Genoa in this window is the Didaco liaison (D1), which the 20 March letter places on the *earlier* February journey — a different stop, and Didaco is a Florentine actor, not "one of the sea-farers". They are two people; do not merge them.
@@ -343,7 +343,7 @@ The triage lists further members of this tier that I did not reach within budget
 | `data/people/didaco.json` | phase-a; bio from D1; Genoa-not-Naples correction and the no-age rule carried into `bio_note` |
 | `data/relationships/didaco--wilde.json` | **`romantic-nonsexual`**, proposed; D1 as the single source (verified-exact, p. 1132) |
 | `data/people/rolla.json` | phase-a; bio from R1; the do-not-merge-with-Didaco rule carried into `bio_note` |
-| `data/relationships/rolla--wilde.json` | **`desire-expressed`**, `direction: "wilde"`, `outcome: "unknown"`, proposed; R1 as the single source (verified-exact, p. 1140) |
+| `data/relationships/rolla--wilde.json` | **`attraction-expressed`**, `direction: "wilde"`, `outcome: "unknown"`, proposed; R1 as the single source (verified-exact, p. 1140) |
 | `data/people/mellor.json` | phase-a; six `bio_sources` (M1, M2, M3, M4, M6, M7); Eolo as one `context_engagement` with two sources (pp. 1116, 1194) |
 | `data/people/ashton.json` | phase-a; three `bio_sources` (A1, A2, A4); Joseph and Walter as two `context_engagements` (pp. 1107, 1118) |
 
@@ -352,7 +352,7 @@ The triage lists further members of this tier that I did not reach within budget
 ### Edges created — 2
 
 - **`didaco--wilde` → `romantic-nonsexual`.** Per D1's weighing, unchanged: first-person primary evidence attesting love and three days of company, short of the sexual-relations bar; the sexual reading is named in `certainty_reasoning` as the transcribing agent's, not the editors'.
-- **`rolla--wilde` → `desire-expressed` / `wilde` / `unknown`.** Per R1's weighing, unchanged: an approach on the page (written ahead, described, awaited, longing stated in the same breath) with no recorded outcome.
+- **`rolla--wilde` → `attraction-expressed` / `wilde` / `unknown`.** Per R1's weighing, unchanged: an approach on the page (written ahead, described, awaited, longing stated in the same breath) with no recorded outcome.
 
 ### Nulls confirmed — 2, no files created
 

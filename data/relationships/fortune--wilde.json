@@ -4,11 +4,11 @@
     "fortune",
     "wilde"
   ],
-  "certainty": "desire-expressed",
+  "certainty": "attraction-expressed",
   "direction": "wilde",
   "outcome": "unknown",
   "certainty_status": "proposed",
-  "certainty_reasoning": "Identical evidence to raphael--wilde, and classified the same way for the same reasons: one sentence names him as the second of Wilde's 'two special friends' at Napoule and calls both 'quite perfect, except that they can read and write', directly after Wilde has described the local fisher-folk as having 'beautiful eyes, crisp hair of a hyacinth colour, and no morals: an ideal race'. The erotic register is Wilde's own - 'no morals' is his flag, not the reader's inference - and a reader without the coding hypothesis still reads a man naming his two favourites within a population he has just praised for its amorality. The reading is this project's; no scholarly source was consulted. romantic-nonsexual was weighed and rejected as sharpening - the only mutuality on the page is the word 'friends', and that class displays as 'Romantic' - and documented-sexual has no first-person statement of sexual relations behind it. desire-expressed, direction 'wilde', outcome 'unknown', is proposed: the README's marked and hidden-by-default lead pool is the right weight class for this. Standing caveat for this tier: the record is one-sided by nature. These men left no papers; everything known is what Wilde wrote to a correspondent. An unrecorded outcome is not evidence of no outcome, and Fortuné's own account of the acquaintance does not exist.",
+  "certainty_reasoning": "Identical evidence to raphael--wilde, and classified the same way for the same reasons: one sentence names him as the second of Wilde's 'two special friends' at Napoule and calls both 'quite perfect, except that they can read and write', directly after Wilde has described the local fisher-folk as having 'beautiful eyes, crisp hair of a hyacinth colour, and no morals: an ideal race'. The erotic register is Wilde's own - 'no morals' is his flag, not the reader's inference - and a reader without the coding hypothesis still reads a man naming his two favourites within a population he has just praised for its amorality. The reading is this project's; no scholarly source was consulted. romantic-nonsexual was weighed and rejected as sharpening - the only mutuality on the page is the word 'friends', and that class displays as 'Romantic' - and documented-sexual has no first-person statement of sexual relations behind it. attraction-expressed, direction 'wilde', outcome 'unknown', is proposed: the README's marked and hidden-by-default lead pool is the right weight class for this. Standing caveat for this tier: the record is one-sided by nature. These men left no papers; everything known is what Wilde wrote to a correspondent. An unrecorded outcome is not evidence of no outcome, and Fortuné's own account of the acquaintance does not exist.",
   "start": {
     "y": 1898,
     "m": 12
@@ -37,7 +37,8 @@
       "provenance": "Repo PDF page 1159, printed folio 1113 confirmed at the foot of the rendered page, read as page image 2026-08-03.",
       "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
-      "voice": "period"
+      "voice": "period",
+      "addressee": "Laurence Housman"
     }
   ]
 }

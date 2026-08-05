@@ -16,59 +16,6 @@
     "Wilde's summing-up, and the States: 'Poor Sir John! However, I think he may do well in the States. … but Sir John was capital company, and a very astounding person in his capacity for pleasure, grand in his cups, and with a heart of gold.' - Wilde to Robert Ross, [? 12 January 1899], Napoule; p. 1118 (repo PDF 1164, folio confirmed, rendered 2026-08-03)."
   ],
   "bio_note": "The 'Sir John' = Ashton identity key is verified in the source twice over: the editors' note at 979n, and the editors' cross-reference footnote at 1107n2, which reads in full 'See note 1, p.979'. The key therefore does not rest on the earlier index read, and 'untraced' is the editors' own word, not an inference. Spelling of the external name in the note is Meyerfeld. Dating: 'who has been in Naples for a month' on 11 November 1897 puts his arrival at roughly October 1897; 'we have seen' is Wilde and Douglas. NULL FINDING - no ashton--wilde relationship file exists. Across the four passages read in the source (979, 979n, 1107, 1118) there is no romantic or sexual content between Wilde and Ashton in either direction. In every substantive mention Wilde's grammatical position is spectator to Ashton's love-life - 'He found his little friend Joseph…'; 'Sir John is getting cured of his infatuation'; 'the only thing I never could forgive him was his absurd love of Walter'. Wilde's own register toward him is friendship, gratitude and comic affection. Not read so far: printed 1023, 1049, 1067, 1109-10, 1121, and the St Malo corroboration the editors cite at 1118-9 - printed 1118 was read and carries no St Malo reference, so the corroborating passage is presumably at 1119. Full passages in dossiers/EXILE-COMPANIONS_dossier.md (A1-A4). DATES: NONE RECORDED, AND THE EDITORS SAY SO IN TERMS (2026-08-03). Their footnote, re-read as a page image so far with the printed folio 979 confirmed, is the whole of the identification: 'Enclosed in this letter is a visiting-card inscribed \"Mr I. D. W. Ashton. Piccadilly Club, W\". Further than that he has not been traced.' Searched so far: the whole OCR mirror of the Complete Letters (2000) for every occurrence of the name, plus the edition's General Index; Frankel, Oscar Wilde: The Unrepentant Years (2017), repo PDF, the fullest scholarly account of the exile years; McKenna, The Secret Life of Oscar Wilde (2008) and Murray, Bosie (2020), repo PDFs. Frankel discusses him at printed pp. 142 and 240 (repo PDF 156, 254) purely as the 'homosexual friend named Ashton' of Wilde's letters, adding no particulars. No birth or death date is recorded in any source consulted; the man is a set of initials and a club address.",
-  "context_engagements": [
-    {
-      "partner_name": "Joseph",
-      "period": "1898",
-      "note": "Off-roster. A young man in Paris described by Wilde as Ashton's 'little friend', living in the same establishment in December 1898 and serving at table when sober. Wilde reports Ashton's infatuation as a third party and treats it as a comedy of failed moral influence; the sentence 'Sir John is getting cured of his infatuation' does not name its object, so the identification with Joseph is contextual, from the paragraph it closes.",
-      "sources": [
-        {
-          "quote": "He found his little friend Joseph with a black eye and a swollen nose, caused by intoxication and a political discussion. Joseph also left him on Sunday morning, and did not appear till the next day, having had vine-leaves in his hair. He is a little Dionysiac, and the conversation of Sir John, which is chiefly composed of good advice, drives him to drink. Tonight I dine with Sir John at Bosie's flat: Joseph is to serve, if he is sober: if not, he is to dine with us, I suppose. I am glad to say Sir John is getting cured of his infatuation: and I have begged him never again to try to have a good influence: it simply drives happy bright-eyed lads to delirium tremens.",
-          "context": "Wilde to Reginald Turner, [postmark 6 December 1898], Hotel d'Alsace, Paris, reporting Ashton's arrival from St Malo after a journey of about eight hours. 'Delirium tremens' is italicised in the original.",
-          "work": "letters-2000",
-          "locator": "p. 1107",
-          "locator_type": "page",
-          "evidence_date": {
-            "y": 1898,
-            "m": 12,
-            "d": 6
-          },
-          "supports": "Ashton's attachment in Paris, December 1898, reported by Wilde as an onlooker",
-          "verification": "verified-exact",
-          "how_verified": "pdf-at-page",
-          "provenance": "Repo PDF page 1153, printed folio 1107 confirmed on rendered page, read as page image 2026-08-03. Contiguous run from the passage transcribed in full in the dossier (A3).",
-          "verified_by": "agent-mechanical",
-          "verified_on": "2026-08-03",
-          "voice": "period"
-        }
-      ]
-    },
-    {
-      "partner_name": "Walter",
-      "period": "by January 1899",
-      "note": "Off-roster, unidentified beyond the first name. Wilde names Ashton's love for him as the one thing he could not forgive, in the same breath as his affectionate verdict on Ashton as a companion - the second instance of the pattern in which Wilde reports and judges Ashton's attachments rather than being party to one.",
-      "sources": [
-        {
-          "quote": "The only thing I never could forgive him was his absurd love of Walter – a plain, crooked, ugly, and tedious youth – but Sir John was capital company, and a very astounding person in his capacity for pleasure, grand in his cups, and with a heart of gold.",
-          "context": "Wilde to Robert Ross, Thursday [? 12 January 1899], Hotel des Bains, Napoule; the sentences before it are 'Poor Sir John! However, I think he may do well in the States.'",
-          "work": "letters-2000",
-          "locator": "p. 1118",
-          "locator_type": "page",
-          "evidence_date": {
-            "y": 1899,
-            "m": 1,
-            "d": 12
-          },
-          "supports": "Ashton's second recorded attachment, and Wilde's position as its commentator",
-          "verification": "verified-exact",
-          "how_verified": "pdf-at-page",
-          "provenance": "Repo PDF page 1164, printed folio 1118 confirmed on rendered page, read as page image 2026-08-03. Contiguous run from the passage transcribed in full in the dossier (A4). The editors bracket the letter's date with a query mark, preserved here in the context line.",
-          "verified_by": "agent-mechanical",
-          "verified_on": "2026-08-03",
-          "voice": "period"
-        }
-      ]
-    }
-  ],
+  "context_engagements": [],
   "research_status": "phase-a"
 }

@@ -1,51 +1,25 @@
 {
- "id": "taylor",
- "name": "Alfred Taylor",
- "sort_name": "Taylor, Alfred",
- "aka": [
-  "Alfred Waterhouse Somerset Taylor"
- ],
- "born": {
-  "y": 1862,
-  "circa": true
- },
- "died": null,
- "gender": "m",
- "group": "trials",
- "bio": "Marlborough-educated son of a cocoa manufacturer who came into a fortune of £45,000 on coming of age in 1883 and thereafter 'lived a life of pleasure' (his own testimony), keeping perfumed, permanently curtained rooms at 13 Little College Street and later 3 Chapel Street where he introduced young men — the Parkers, Wood, Mavor, Atkins, Scarfe — to one another and to Wilde, who was brought to him by Maurice Schwabe in 1892. Arrested in the Fitzroy Street raid of 12 August 1894 and discharged; arrested again in April 1895, he refused to turn Queen's Evidence against Wilde, was convicted on 21 May 1895 of gross indecency with Charles and William Parker, and was sentenced with Wilde on 25 May to two years' hard labour, Mr Justice Wills declaring it impossible to doubt he had 'kept a kind of male brothel.' The Letters editors give his full name as Alfred Waterhouse Somerset Taylor, born circa 1862, and record that after his release he lived in Canada and the USA.",
- "bio_sources": [
-  "Taylor's testimony, Hyde, Trials (1948), p. 242 (age 33; Marlborough; £45,000; djvu OCR, folio '2A2' visible) and p. 286 (IIIF page image 2026-08-03)",
-  "Mr Justice Wills's sentence, Hyde, Trials (1948), p. 339 (IIIF page image 2026-08-03)",
-  "Verdict, Hyde, Trials (1948), p. 292 (IIIF page image 2026-08-03)",
-  "Holland & Hart-Davis, editorial note, Complete Letters (2000), p. 603 n 2 (born circa 1862; Fitzroy Street raid 12 Aug 1894; refused Queen's Evidence; Canada and the USA; read at rendered PDF p. 655, 2026-08-03)"
- ],
- "bio_note": "Born date is the Letters editors' 'circa 1862', consistent with Taylor's sworn 'I am thirty-three years of age' (April-May 1895). No death date found in the sources read so far. The trial record has him bankrupt by the Chapel Street period (autumn 1893). DEATH DATE: NOT FOUND, AND POSITIVELY RECORDED AS UNRECOVERED (2026-08-03). Searched so far: the Complete Letters (2000) OCR mirror (the only 'Alfred Taylor' occurrences are pp. 603 and 679n plus the General Index line 'Taylor, Alfred, 603, 679n' - there is no editorial main-particulars footnote carrying dates); McKenna, Secret Life (2008) repo PDF (extensive on Taylor, silent on his dates and on his later life); Hyde, The Trials of Oscar Wilde, read in the Internet Archive copy (item in.ernet.dli.2015.499238) - the trial record carries his sworn age, not a date; and the open web. The specialist compilations agree the death is unrecorded: Zagria's 'A Gender Variance Who's Who' heads its entry 'Alfred Taylor (1862 - ?) aristocrat, procurer, waiter' and states 'On release Taylor emigrated to the United States where nothing is known of him except that in the 1920s he was working as a waiter in Chicago, for by chance he served Alfred Douglas, Wilde's old lover, who was visiting the city' (zagria.blogspot.com, January 2010, citing Croft-Cooke, Feasting with Panthers (1968), and Ellmann, Oscar Wilde (1988)); a second web page repeats the same Chicago sentence and nothing further. The trail ends in 1920s Chicago, which means a US death or naturalisation record, not a British one, is where this would be closed. NO WIKIPEDIA ARTICLE: the en.wikipedia 'Alfred Taylor (British Army officer)' (Q4723503) is Captain Alfred James 'Bulala' Taylor, 1861-1941, an Anglo-Irish officer of the Scramble for Africa and the Second Boer War, tried for war crimes - not Wilde's co-defendant. A link to it was added here in error and removed 2026-08-04. The born-year above is unaffected: it comes from the Letters editors and Taylor's own sworn age, not from that article.",
- "context_engagements": [
-  {
-   "partner_name": "Charles Spurrier Mason",
-   "period": "1892-1895",
-   "note": "Off-roster (parking lot). Charles Parker's sworn testimony has Taylor describing a 'form of marriage' with Mason, Taylor in woman's dress, with a wedding breakfast; Taylor on oath denied any marriage ceremony but admitted sleeping with Mason 'the first night' (Hyde p. 281) and addressing him 'Dear Charlie... With love.' Wilde's own letters to Mason from Worthing (c. 13 Aug 1894) ask after 'poor Alfred' following the Fitzroy Street raid and after Mason's 'married life' (Complete Letters p. 603, read at rendered page; the editors date Mason 1868-1940 and note Croft-Cooke's suggestion that the marriage was genuine).",
-   "sources": [
-    {
-     "quote": "Taylor told us on that occasion that he had gone through a form of marriage with a youth named Mason. Did he say who acted as the woman?—Yes; he said he did; that he was in woman's dress, and that they had a wedding breakfast.",
-     "context": "Charles Parker's examination-in-chief, Regina v. Wilde and Taylor, 26 April 1895",
-     "work": "hyde-trials-1948",
-     "locator": "p. 193",
-     "locator_type": "page",
-     "evidence_date": {
-      "y": 1895,
-      "m": 4
-     },
-     "supports": "the Taylor-Mason 'marriage' evidence at trial",
-     "verification": "verified-exact",
-     "how_verified": "archive-org",
-     "provenance": "IA in.ernet.dli.2015.499238, leaf 231 (printed p. 193, folio 'N 193'), read as IIIF page image 2026-08-03",
-     "verified_by": "agent-mechanical",
-     "verified_on": "2026-08-03",
-     "voice": "period"
-    }
-   ]
-  }
- ],
- "research_status": "phase-a"
+  "id": "taylor",
+  "name": "Alfred Taylor",
+  "sort_name": "Taylor, Alfred",
+  "aka": [
+    "Alfred Waterhouse Somerset Taylor"
+  ],
+  "born": {
+    "y": 1862,
+    "circa": true
+  },
+  "died": null,
+  "gender": "m",
+  "group": "trials",
+  "bio": "Marlborough-educated son of a cocoa manufacturer who came into a fortune of £45,000 on coming of age in 1883 and thereafter 'lived a life of pleasure' (his own testimony), keeping perfumed, permanently curtained rooms at 13 Little College Street and later 3 Chapel Street where he introduced young men — the Parkers, Wood, Mavor, Atkins, Scarfe — to one another and to Wilde, who was brought to him by Maurice Schwabe in 1892. Arrested in the Fitzroy Street raid of 12 August 1894 and discharged; arrested again in April 1895, he refused to turn Queen's Evidence against Wilde, was convicted on 21 May 1895 of gross indecency with Charles and William Parker, and was sentenced with Wilde on 25 May to two years' hard labour, Mr Justice Wills declaring it impossible to doubt he had 'kept a kind of male brothel.' The Letters editors give his full name as Alfred Waterhouse Somerset Taylor, born circa 1862, and record that after his release he lived in Canada and the USA.",
+  "bio_sources": [
+    "Taylor's testimony, Hyde, Trials (1948), p. 242 (age 33; Marlborough; £45,000; djvu OCR, folio '2A2' visible) and p. 286 (IIIF page image 2026-08-03)",
+    "Mr Justice Wills's sentence, Hyde, Trials (1948), p. 339 (IIIF page image 2026-08-03)",
+    "Verdict, Hyde, Trials (1948), p. 292 (IIIF page image 2026-08-03)",
+    "Holland & Hart-Davis, editorial note, Complete Letters (2000), p. 603 n 2 (born circa 1862; Fitzroy Street raid 12 Aug 1894; refused Queen's Evidence; Canada and the USA; read at rendered PDF p. 655, 2026-08-03)"
+  ],
+  "bio_note": "Born date is the Letters editors' 'circa 1862', consistent with Taylor's sworn 'I am thirty-three years of age' (April-May 1895). No death date found in the sources read so far. The trial record has him bankrupt by the Chapel Street period (autumn 1893). DEATH DATE: NOT FOUND, AND POSITIVELY RECORDED AS UNRECOVERED (2026-08-03). Searched so far: the Complete Letters (2000) OCR mirror (the only 'Alfred Taylor' occurrences are pp. 603 and 679n plus the General Index line 'Taylor, Alfred, 603, 679n' - there is no editorial main-particulars footnote carrying dates); McKenna, Secret Life (2008) repo PDF (extensive on Taylor, silent on his dates and on his later life); Hyde, The Trials of Oscar Wilde, read in the Internet Archive copy (item in.ernet.dli.2015.499238) - the trial record carries his sworn age, not a date; and the open web. The specialist compilations agree the death is unrecorded: Zagria's 'A Gender Variance Who's Who' heads its entry 'Alfred Taylor (1862 - ?) aristocrat, procurer, waiter' and states 'On release Taylor emigrated to the United States where nothing is known of him except that in the 1920s he was working as a waiter in Chicago, for by chance he served Alfred Douglas, Wilde's old lover, who was visiting the city' (zagria.blogspot.com, January 2010, citing Croft-Cooke, Feasting with Panthers (1968), and Ellmann, Oscar Wilde (1988)); a second web page repeats the same Chicago sentence and nothing further. The trail ends in 1920s Chicago, which means a US death or naturalisation record, not a British one, is where this would be closed. NO WIKIPEDIA ARTICLE: the en.wikipedia 'Alfred Taylor (British Army officer)' (Q4723503) is Captain Alfred James 'Bulala' Taylor, 1861-1941, an Anglo-Irish officer of the Scramble for Africa and the Second Boer War, tried for war crimes - not Wilde's co-defendant. A link to it was added here in error and removed 2026-08-04. The born-year above is unaffected: it comes from the Letters editors and Taylor's own sworn age, not from that article.",
+  "context_engagements": [],
+  "research_status": "phase-a"
 }

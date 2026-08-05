@@ -36,7 +36,8 @@
       "provenance": "Repo PDF pages 167-168, printed folios 144 and 145 confirmed on rendered pages, read as page images 2026-08-03. Elisions skip the body of the quoted Swinburne letter and the request that Whitman send Swinburne his Essay on Poetry; fuller text in dossier.",
       "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
-      "voice": "period"
+      "voice": "period",
+      "addressee": "Walt Whitman"
     },
     {
       "quote": "The great American poet (1819–92) was now living in Camden, New Jersey, a suburb of Philadelphia across the Delaware, where Wilde had been taken by Stoddart to see him on 18 January.",
@@ -74,6 +75,7 @@
       "provenance": "Whitman Archive item med.00534 ('Our transcription is based on a digital image of a microfilm copy of an original issue'), read in full via Wayback capture 20260113032354 of whitmanarchive.org/item/med.00534, page text extracted 2026-08-03. Exact against the Archive transcription; microfilm image not read. Fuller passage in dossier.",
       "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
+      "speaker": "Walt Whitman, interviewed by the Philadelphia Press",
       "voice": "period"
     },
     {

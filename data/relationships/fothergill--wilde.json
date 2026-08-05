@@ -4,7 +4,7 @@
     "fothergill",
     "wilde"
   ],
-  "certainty": "desire-expressed",
+  "certainty": "attraction-expressed",
   "outcome": "declined",
   "direction": "wilde",
   "certainty_status": "proposed",
@@ -19,13 +19,137 @@
   "summary": "After his May 1897 release Wilde settled at Berneval near Dieppe, and the 21-year-old Fothergill - 'the architect' of Wilde's letters to Ross - visited him there alone, for what Wilde's 21 September letter counts as a 'sextette of suns' in his final month there. Wilde met his boat at Dieppe and, troubled over the estranged Douglas, declared Fothergill his love 'of comfort' against Douglas's golden-haired 'despair'. Fothergill reflected that he could not have 'given much comfort'; back in England, where any association with Wilde was toxic, he answered Wilde's 'charming letters' by writing that it was not 'politic' to go on, and later - by then taken up with Warren in Rome - passed Wilde by at Aragno's cafe without approaching him, a decision his sons say he regretted to the end of his life.",
   "sources": [
     {
+      "quote": "Fothergill – as usual – was looking for something but could not find what it was, or, as we will see, perhaps was afraid to commit himself: 'I had all the time a secret longing for a perfect friend, a thing which I couldn't define – something like a gentleman protector – someone who would give me support, direction and place, for I had no thought of helping myself or how I could, but went on complacently spending my capital.'",
+      "context": "Sox introducing Fothergill on the eve of the Berneval episode; the inner first-person sentence is Fothergill's unpublished memoir. Promoted from the dossier at the editor's direction: this stated longing is the implicit basis of the 'prospective companion' framing.",
+      "work": "sox-1991",
+      "locator": "pp. 138-139",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1897,
+        "circa": true
+      },
+      "supports": "Fothergill's own wish for 'a gentleman protector' - the motive side of the arrangement-texture; his wish, not an arrangement Sox attributes to Ross or Wilde.",
+      "verification": "verified-exact",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF pages 154-155 (printed folios 138-139 confirmed), read as page images 2026-08-03; passage runs over the page break. Transcribed in FOTHERGILL_dossier.md, promoted to the record 2026-08-03.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "modern"
+    },
+    {
+      "quote": "I have seen the terrain. It is the best here, and the only one left. I must build a house. … I want to live here. Do think over this, and send me over the architect. Monsieur Bonnet is excellent, and is ready to carry out my ideas. I want a little chalet of wood and plastered walls, the wooden beams showing … So your architect has me waiting for him, as he is waiting for me.",
+      "context": "Wilde to Robert Ross, 1 June 1897 — a running journal-letter written over two days from Berneval-sur-Mer, a fortnight after his release. Fothergill was then a student at the London School of Architecture, and this is the first of the summons: Wilde has found a plot, wants a chalet on it, and wants Ross to send Fothergill over. The editors identify 'the architect' as him in a footnote on the page. The elisions drop the costings and the description of the plaster diapering.",
+      "work": "letters-2000",
+      "locator": "p. 869",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1897,
+        "m": 6,
+        "d": 1
+      },
+      "supports": "Wilde asking for Fothergill by function, before the visit — the beginning of the approach that Sox documents from Fothergill's side.",
+      "verification": "verified-elision",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF p. 919 read as a rendered page image 2026-08-04; printed folio 869 confirmed at the foot of the image. Located in the complete OCR mirror, which locates only. Superscript note markers omitted as typography. The letter's date line, 'Tuesday morning [1 June 1897], 9.30', sits on the preceding page, printed 868, also read at the image.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-04",
+      "speaker": "Oscar Wilde",
+      "addressee": "Robert Ross",
+      "voice": "period"
+    },
+    {
+      "quote": "Fothergill's visit has gone heretofore unrecorded although Rupert Hart-Davis's edition of selected letters of Oscar Wilde contains veiled references to it: 1 June 1897, Wilde wrote to Ross that he wanted to continue to live at Berneval and 'send over the architect [Fothergill]'. … On 20 July, again to Ross, Wilde said he 'expected Ross on August the First: also, the architect'.",
+      "context": "The square-bracketed '[Fothergill]' gloss is Sox's own. Elided middle sentence (5 June, Wilde to Ross on visitor expenses at the Hotel de la Plage): 'Architects, on the other hand, are taken at a reduction. I have special terms for architects.' Sox's endnote markers (nn. 7-9) omitted.",
+      "work": "sox-1991",
+      "locator": "p. 139",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1897,
+        "m": 6,
+        "d": 1
+      },
+      "supports": "The visit is documented in Wilde's letters to Ross; Wilde anticipated 'the architect' at Berneval from 1 June through the summer of 1897",
+      "verification": "verified-elision",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF page 155, printed folio 139 confirmed on rendered page, read as page image 2026-08-03. Line-break hyphenation 'con-tains' silently joined; one sentence elided with spaced ellipsis, full passage in dossier.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "modern"
+    },
+    {
+      "quote": "Architects, on the other hand, are taken at a reduction. I have special terms for architects. But seriously, Robbie, if anyone stayed with me, of course they would pay their pension at the hotel. They would have to: except architects. A modern architect, like modern architecture, doesn't pay. But then I only know one architect, and you are hiding him somewhere from me. I am beginning to believe that he is as extinct as the Dado, of which now only fossil remains are found, chiefly in the vicinity of Brompton, where they are sometimes discovered by workmen excavating.",
+      "context": "Wilde to Robert Ross, Saturday 5 June 1897, from the Hotel de la Plage, Berneval-sur-Mer — four days after the first summons, in a comic tariff for visitors ('Sphinxes pay a hundred per cent more than anyone else. They always did in ancient Egypt'). The joke is the complaint: the one architect he knows is being kept from him. The editors footnote 'architects' straight back to the Fothergill note at p. 913. Sox quotes the first two sentences of this and elides the rest; it is given here whole, because the elision removes the point. Italics on *pension* are the volume's.",
+      "work": "letters-2000",
+      "locator": "p. 884",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1897,
+        "m": 6,
+        "d": 5
+      },
+      "supports": "Wilde pressing for Fothergill a second time in five days, and doing it as a joke against Ross for withholding him.",
+      "verification": "verified-elision",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF p. 934 read as a rendered page image 2026-08-04; printed folio 884 confirmed at the foot of the image, and footnote 1 on that page reads in full 'See note 2, p.913.' The letter's heading, 'To Robert Ross … Saturday, 5 June [1897] [Hotel de la Plage, Berneval-sur-Mer]', is on an earlier page. Superscript note markers omitted; one sentence on Lincrusta-Walton elided at the close.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-04",
+      "speaker": "Oscar Wilde",
+      "addressee": "Robert Ross",
+      "voice": "period"
+    },
+    {
+      "quote": "Dear Robbie, What delightful news! I will expect you on August 1st. Bring dear More, if he can come. If not, bring the architect of the moon. I have a lot of work on hand for you to do: literary work of course.",
+      "context": "A postcard, Wilde to Robert Ross, postmark 19 July 1897, from Berneval. 'The architect of the moon' is Wilde's name for Fothergill and is used as though Ross needs no explanation of it. The bargaining order is worth noting: More Adey first, Fothergill as the alternative.",
+      "work": "letters-2000",
+      "locator": "p. 913",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1897,
+        "m": 7,
+        "d": 19
+      },
+      "supports": "The nickname in Wilde's own hand, and the second summons.",
+      "verification": "verified-exact",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF p. 963 read as a rendered page image 2026-08-04; printed folio 913 confirmed at the foot of the image. Located in the complete OCR mirror, which locates only. Superscript note markers omitted as typography.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-04",
+      "speaker": "Oscar Wilde",
+      "addressee": "Robert Ross",
+      "voice": "period"
+    },
+    {
+      "quote": "From the railings of the boat, as she got to Dieppe harbour, I looked down upon what must be a great man standing alone and looking up. I had seen a photograph of this beautiful looking man and here was a huge and fat person in white flannels with a comical little red beret on top of it all. Rather vulgar I thought. My heart sank, but his sweet kindness put me right quickly.",
+      "context": "Fothergill's memoir on his arrival at Dieppe, Wilde waiting at the harbour ('Fothergill described his arrival at Dieppe:'). He had been primed with a photograph beforehand - the memoir does not say by whom.",
+      "work": "sox-1991",
+      "locator": "pp. 139-140",
+      "locator_type": "page",
+      "evidence_date": null,
+      "order_hint": {
+        "y": 1897,
+        "m": 8,
+        "why": "Sox says outright \"We do not know exactly when Fothergill appeared\". Wilde's letter of 21 September counts the six days as falling inside his last month at Berneval, which he left in mid-September, so the visit sits in August or early September."
+      },
+      "supports": "The meeting first-person: Wilde met his boat; the photograph seen beforehand (the logistics side of the arrangement-texture); the deflation-then-warmth of the first impression.",
+      "verification": "verified-exact",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF pages 155-156 (printed folios 139-140 confirmed), read as page images 2026-08-03; the memoir block continues on p. 140 (cathedral, cab to the Chalet Bourgeat, shared cafe expenses). Transcribed in FOTHERGILL_dossier.md, promoted to the record 2026-08-03.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "period",
+      "speaker": "John Fothergill, memoir (1954)"
+    },
+    {
       "quote": "Both Smithers and Fothergill knew Wilde was troubled about Bosie Douglas who was either unwilling to see him or prevented by Ross. Fothergill said Wilde liked him and declared to him: 'Two loves have I: the one of comfort; the other of despair. The one has black; the other golden hair.' Fothergill commented: 'I don't think I could have given much comfort. I was too concentrated on myself. I've ever been incapable of sympathy, even with this sad thing.'",
       "context": "At Berneval, with Leonard Smithers the only other guest named as present in this stretch; the chapter title 'Two Loves Have I' is this declaration (Wilde reworking Shakespeare's Sonnet 144, dark-haired Fothergill as 'comfort' against Douglas's golden hair). Fothergill's first-person sentences are from his unpublished memoir.",
       "work": "sox-1991",
       "locator": "p. 141",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1897
+      "evidence_date": null,
+      "order_hint": {
+        "y": 1897,
+        "m": 8,
+        "why": "The same undated visit as the arrival above; placed with it."
       },
       "supports": "The approach: Wilde's declaration casting Fothergill as the replacement love 'of comfort'; Fothergill's retrospective refusal of the role",
       "verification": "verified-exact",
@@ -36,38 +160,25 @@
       "voice": "modern"
     },
     {
-      "quote": "He sat so still, looking at nothing, and had that same, sad friendless face … I wondered - should I go over to him or, would it once more be that awful word \"politic\", and a betrayal of my duty to Ned's work? I had to decide for this. I passed on, and never saw him again, but my tragic picture of it all sickens me still.",
-      "context": "Fothergill's memoir, as printed by Sox: seeing Wilde alone outside Aragno's Café on the Via del Corso in Rome, after Fothergill had taken up with Warren. Sox introduces it as what Fothergill called 'the tragedy', and adds that the feeling stayed with him to the end of his life and that both his sons say he regretted the decision.",
-      "work": "sox-1991",
-      "locator": "p. 142",
-      "locator_type": "page",
-      "evidence_date": null,
-      "supports": "Fothergill in his own words on the end of the connection - the decision not to approach Wilde, and the lifelong regret.",
-      "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF p. 158 (printed folio 142 confirmed on the rendered page), read as page image 2026-08-03.",
-      "verified_by": "agent-mechanical",
-      "verified_on": "2026-08-03",
-      "voice": "period",
-      "speaker": "John Fothergill, memoir (1954)"
-    },
-    {
-      "quote": "Fothergill's visit has gone heretofore unrecorded although Rupert Hart-Davis's edition of selected letters of Oscar Wilde contains veiled references to it: 1 June 1897, Wilde wrote to Ross that he wanted to continue to live at Berneval and 'send over the architect [Fothergill]'. … On 20 July, again to Ross, Wilde said he 'expected Ross on August the First: also, the architect'.",
-      "context": "The square-bracketed '[Fothergill]' gloss is Sox's own. Elided middle sentence (5 June, Wilde to Ross on visitor expenses at the Hotel de la Plage): 'Architects, on the other hand, are taken at a reduction. I have special terms for architects.' Sox's endnote markers (nn. 7-9) omitted.",
-      "work": "sox-1991",
-      "locator": "p. 139",
+      "quote": "I cannot live without the atmosphere of Love: I must love and be loved, whatever price I pay for it. I could have lived all my life with you, but you have other claims on you – claims you are too sweet a fellow to disregard – and all you could give me was a week of companionship. Reggie gave me three days, and Rowland a sextette of suns, but for the last month at Berneval I was so lonely that I was on the brink of killing myself. The world shuts its gateway against me, and the door of Love lies open.",
+      "context": "Wilde to Robert Ross, 21 September 1897, from the Hôtel Royal des Étrangers, Naples — the letter explaining why he had gone back to Douglas. Fothergill's visit is counted here, in days, against the loneliness that followed it: six suns, between Ross's week and Turner's three days. This is the passage the edge's date_label already used to place the visit, now recorded as a quotation in its own right.",
+      "work": "letters-2000",
+      "locator": "p. 942",
       "locator_type": "page",
       "evidence_date": {
         "y": 1897,
-        "m": 6
+        "m": 9,
+        "d": 21
       },
-      "supports": "The visit is documented in Wilde's letters to Ross; Wilde anticipated 'the architect' at Berneval from 1 June through the summer of 1897",
-      "verification": "verified-elision",
+      "supports": "The length of Fothergill's visit, in Wilde's own reckoning, and what it weighed against — the fullest thing Wilde wrote about him.",
+      "verification": "verified-exact",
       "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF page 155, printed folio 139 confirmed on rendered page, read as page image 2026-08-03. Line-break hyphenation 'con-tains' silently joined; one sentence elided with spaced ellipsis, full passage in dossier.",
+      "provenance": "Repo PDF p. 990 read as a rendered page image 2026-08-04; printed folio 942 confirmed at the foot of the image. Located in the complete OCR mirror, which locates only. Superscript note markers omitted as typography.",
       "verified_by": "agent-mechanical",
-      "verified_on": "2026-08-03",
-      "voice": "modern"
+      "verified_on": "2026-08-04",
+      "speaker": "Oscar Wilde",
+      "addressee": "Robert Ross",
+      "voice": "period"
     },
     {
       "quote": "We do not know exactly when Fothergill appeared and from his memoirs it seems he visited Wilde alone. … on 21 September, Wilde wrote to Ross that despite several visits by friends to Berneval he was so lonely that he was on the brink of killing himself: in the last month there, Reggie Turner had given him three days, and 'Rowland a sextette of suns'.",
@@ -89,48 +200,17 @@
       "voice": "modern"
     },
     {
-      "quote": "Fothergill – as usual – was looking for something but could not find what it was, or, as we will see, perhaps was afraid to commit himself: 'I had all the time a secret longing for a perfect friend, a thing which I couldn't define – something like a gentleman protector – someone who would give me support, direction and place, for I had no thought of helping myself or how I could, but went on complacently spending my capital.'",
-      "context": "Sox introducing Fothergill on the eve of the Berneval episode; the inner first-person sentence is Fothergill's unpublished memoir. Promoted from the dossier at the editor's direction: this stated longing is the implicit basis of the 'prospective companion' framing.",
-      "work": "sox-1991",
-      "locator": "pp. 138-139",
-      "locator_type": "page",
-      "evidence_date": {
-        "y": 1897,
-        "circa": true
-      },
-      "supports": "Fothergill's own wish for 'a gentleman protector' - the motive side of the arrangement-texture; his wish, not an arrangement Sox attributes to Ross or Wilde.",
-      "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF pages 154-155 (printed folios 138-139 confirmed), read as page images 2026-08-03; passage runs over the page break. Transcribed in FOTHERGILL_dossier.md, promoted to the record 2026-08-03.",
-      "verified_by": "agent-mechanical",
-      "verified_on": "2026-08-03",
-      "voice": "modern"
-    },
-    {
-      "quote": "From the railings of the boat, as she got to Dieppe harbour, I looked down upon what must be a great man standing alone and looking up. I had seen a photograph of this beautiful looking man and here was a huge and fat person in white flannels with a comical little red beret on top of it all. Rather vulgar I thought. My heart sank, but his sweet kindness put me right quickly.",
-      "context": "Fothergill's memoir on his arrival at Dieppe, Wilde waiting at the harbour ('Fothergill described his arrival at Dieppe:'). He had been primed with a photograph beforehand - the memoir does not say by whom.",
-      "work": "sox-1991",
-      "locator": "pp. 139-140",
-      "locator_type": "page",
-      "evidence_date": {
-        "y": 1897
-      },
-      "supports": "The meeting first-person: Wilde met his boat; the photograph seen beforehand (the logistics side of the arrangement-texture); the deflation-then-warmth of the first impression.",
-      "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF pages 155-156 (printed folios 139-140 confirmed), read as page images 2026-08-03; the memoir block continues on p. 140 (cathedral, cab to the Chalet Bourgeat, shared cafe expenses). Transcribed in FOTHERGILL_dossier.md, promoted to the record 2026-08-03.",
-      "verified_by": "agent-mechanical",
-      "verified_on": "2026-08-03",
-      "voice": "period",
-      "speaker": "John Fothergill, memoir (1954)"
-    },
-    {
       "quote": "When Fothergill returned home he received 'some charming letters with his lovely handwriting', but admitted that the feeling against Wilde and any knowledge of him was then so strong in England that he decided 'to drop him': 'I actually wrote that it was not \"politic\" to go on with it. What an awful expression!' Wilde replied saying he didn't know what Fothergill meant by 'politic'.",
       "context": "Immediately following: 'For Fothergill it was finished, but he said he had assimilated Wilde's manner - even his ponderous intonation \"so far as my voice allowed\".' The inner first-person sentences are Fothergill memoir text; runs over the printed 141/142 page break at 'he | didn't'.",
       "work": "sox-1991",
       "locator": "pp. 141-142",
       "locator_type": "page",
       "evidence_date": null,
+      "order_hint": {
+        "y": 1897,
+        "m": 10,
+        "why": "Undated in Sox. The visit had ended before Wilde's letter of 21 September and this exchange followed Fothergill's return to England, so it belongs to the autumn."
+      },
       "supports": "The decline made effective: Fothergill ended the correspondence by letter as not 'politic' after returning to England; Wilde's baffled reply",
       "verification": "verified-exact",
       "how_verified": "pdf-at-page",
@@ -138,6 +218,116 @@
       "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
       "voice": "modern"
+    },
+    {
+      "quote": "Wilde's list of recipients for copies of The Ballad (MS Clark) reads: 'Oswald Sickert, Stanley Makower, Robbie, Reggie, More, Rowland Fothergill, Nelson, …",
+      "context": "The editors quoting Wilde's own manuscript list, in a note to his letter to Leonard Smithers of 9 February 1898 (postmark 11 February) from Naples, which is itself about getting the addresses right for presentation copies. Fothergill is sixth on it, among Ross, Turner and More Adey — the inner circle — and ahead of Major Nelson, the governor of Reading. This is the act the inscription recorded in the note above belongs to: 'To Rowland Fothergill, the Architect of the Moon, with the compliments of the author O. W.' The list is quoted only as far as the page reproduces it before the note runs on.",
+      "work": "letters-2000",
+      "locator": "p. 1012 n. 1",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1898,
+        "m": 2
+      },
+      "supports": "That five months after the visit, and after Fothergill had written to break it off, Wilde still put him on the short list of people to receive the Ballad.",
+      "verification": "verified-elision",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF p. 1060 read as a rendered page image 2026-08-04; printed folio 1012 confirmed at the foot of the image. The note continues past the page break, so the quotation is elided where the printed page ends.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-04",
+      "speaker": "Merlin Holland and Rupert Hart-Davis, eds.",
+      "voice": "modern"
+    },
+    {
+      "quote": "John Rowland Fothergill (1876–1957) had studied at the Slade and was a friend of Ross, Rothenstein and other artists. At this time he was a student at the London School of Architecture, and his copy of The Ballad of Reading Gaol (now in the possession of his son) is inscribed 'To Rowland Fothergill, the Architect of the Moon, with the compliments of the author O. W.' He later spent twelve years as an archaeologist, helping his American friend Edward Perry Warren (1864–1928) to form the collection of classical antiquities in the Boston Museum of Fine Arts, and finally achieved fame as an innkeeper in England.",
+      "context": "The editors' identifying note on Fothergill, and the closest thing in this volume to a letter from Wilde to him: **the inscription is Wilde's own words, written to Fothergill**, in a presentation copy of the Ballad still held by his son. It also supplies his dates, and the link to Edward Perry Warren, who is on this map in his own right — Fothergill spent twelve years helping Warren assemble the Boston antiquities. The note is modern voice: the editors are writing, and the period phrase sits inside their sentence.",
+      "work": "letters-2000",
+      "locator": "p. 913 n. 2",
+      "locator_type": "page",
+      "evidence_date": null,
+      "order_hint": {
+        "y": 1898,
+        "m": 2,
+        "why": "The note itself is undated editorial apparatus. It is placed at the inscription it records, which belongs to February 1898 - the month Wilde drew up his list of presentation copies of the Ballad, on which Fothergill appears (printed 1012, immediately above)."
+      },
+      "supports": "Fothergill's dates; that Wilde inscribed a book to him under the nickname; and the Warren connection.",
+      "verification": "verified-exact",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF p. 963 read as a rendered page image 2026-08-04; printed folio 913 confirmed at the foot of the image. Located in the complete OCR mirror, which locates only. Superscript note markers omitted as typography.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-04",
+      "speaker": "Merlin Holland and Rupert Hart-Davis, eds.",
+      "voice": "modern"
+    },
+    {
+      "quote": "If you see Rowland, the architect of the moon, please tell him to come over to Paris at once. You should come to take care of him of course.",
+      "context": "Wilde to Robert Ross, Wednesday 24 [actually 25] May 1898, from Paris — eight months after Naples, and a year after the Berneval summons. The same nickname, and the same request, now to a different city. The joke in the second sentence is that Fothergill needs a chaperone. (The same letter opens with 'my sweet Maurice, our sweet Maurice' — see gilbert--wilde.)",
+      "work": "letters-2000",
+      "locator": "p. 1075",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1898,
+        "m": 5,
+        "d": 25
+      },
+      "supports": "That Wilde was still asking for Fothergill a year after Berneval, and still by the nickname.",
+      "verification": "verified-exact",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF p. 1121 read as a rendered page image 2026-08-04; printed folio 1075 confirmed at the foot of the image. Located in the complete OCR mirror, which locates only. Superscript note markers omitted as typography. The letter's heading, 'To Robert Ross … Wednesday, 24 [actually 25] May [1898] [Paris]', is on printed 1073, also read at the image.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-04",
+      "speaker": "Oscar Wilde",
+      "addressee": "Robert Ross",
+      "voice": "period"
+    },
+    {
+      "quote": "Your story of dear Rowland is charming. How dangerous it is to be called 'John' is the moral. Anything may happen to a person called John.",
+      "context": "Wilde to Robert Ross, [late March 1900], from the Grand Café, Paris — seven months before Wilde's death, and the last mention of Fothergill in the correspondence. 'Dear Rowland': the affection survives, at a distance, as gossip enjoyed. The editors identify him in the footnote. The same page carries the boy in grey velvet seen behind the Madeleine.",
+      "work": "letters-2000",
+      "locator": "p. 1177",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1900,
+        "m": 3
+      },
+      "supports": "That Fothergill remained a figure of affection in Wilde's letters to the end, years after the visit and after the correspondence between them had lapsed.",
+      "verification": "verified-exact",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF p. 1223 read as a rendered page image 2026-08-04; printed folio 1177 confirmed at the foot of the image. Located in the complete OCR mirror, which locates only. Superscript note markers omitted as typography.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-04",
+      "speaker": "Oscar Wilde",
+      "addressee": "Robert Ross",
+      "voice": "period"
+    },
+    {
+      "quote": "He sat so still, looking at nothing, and had that same, sad friendless face … I wondered - should I go over to him or, would it once more be that awful word \"politic\", and a betrayal of my duty to Ned's work? I had to decide for this. I passed on, and never saw him again, but my tragic picture of it all sickens me still.",
+      "context": "Fothergill's memoir, as printed by Sox: seeing Wilde alone outside Aragno's Café on the Via del Corso in Rome, after Fothergill had taken up with Warren. Sox introduces it as what Fothergill called 'the tragedy', and adds that the feeling stayed with him to the end of his life and that both his sons say he regretted the decision.",
+      "work": "sox-1991",
+      "locator": "p. 142",
+      "locator_type": "page",
+      "evidence_date": null,
+      "order_hint": {
+        "y": 1900,
+        "m": 4,
+        "why": "Undated in Sox. Wilde writes in the letter of late March 1900 above that he hopes \"to be in Rome in about ten days\"; he died that November, so the sighting falls in the months between."
+      },
+      "supports": "Fothergill in his own words on the end of the connection - the decision not to approach Wilde, and the lifelong regret.",
+      "verification": "verified-exact",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF p. 158 (printed folio 142 confirmed on the rendered page), read as page image 2026-08-03.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "period",
+      "speaker": "John Fothergill, memoir (1954)"
     }
-  ]
+  ],
+  "null_findings": [
+    {
+      "work": "letters-2000",
+      "checked_on": "2026-08-04",
+      "finding": "**NO LETTERS FROM WILDE TO FOTHERGILL SURVIVE IN THIS EDITION**, and the six records added above are the whole of what does. Checked three ways: every `To <Name>` letter heading in the volume was extracted mechanically (514 recipients, 1,441 letters) and Fothergill is not among them; the Index of Recipients has no entry for him; and the General Index entry — 'Fothergill, John Rowland, 913, 1177; the Architect of the Moon, 913, 1075; starts Carfax Gallery, 374n; wanted at Berneval, 869; gave W a sexette of suns, 942' — lists mentions only. His name variants were searched as well: 'Roland' and 'Ronald' return only Roland Atwood, Lord Ronald Gower, Ronald Powers and Madame Roland. That letters existed is not in doubt — Fothergill told Sox's source he received 'some charming letters with his lovely handwriting' after returning home (see the Sox quotations below) — they simply are not in Holland and Hart-Davis. **CAUTION for anyone extending this**: 'Rowland' in this volume is usually **Rowland Strong**, a journalist and an entirely different man (printed 941 n. 1, and pp. 989, 1073, 1110, 1144, 1267). Fothergill is the Rowland of pp. 869, 913, 942, 1075 and 1177, and the editors footnote each one back to the note at p. 913. There is also a passing record at printed 1012, where 'Rowland Fothergill' appears on Wilde's own list of people to receive a copy of The Ballad, and a note at printed 977 quoting Fothergill's memoir An Innkeeper's Diary on a dinner party — neither bears on this relationship and neither is recorded above."
+    }
+  ],
+  "sources_order_note": "Chronological, and THE ORDER IS PRODUCED BY THE DATA: the panel sorts on `evidence_date`, falling back to `order_hint` (see byEvidenceDate in circle.js), treats a missing month as 0, and drops records with neither to the end. Hand-sorting the array does nothing on its own; the array is kept in the same order only so that records sharing a date break in narrative order. **Five records here are undated in their sources and carry `order_hint` rather than an invented `evidence_date`** - the visit and the 'Two loves have I' declaration, the 'politic' exchange, the identifying note, and the sighting in Rome. Each states what its placement rests on, and the card says on its face that it is a placement. evidence_date is a claim about when something happened; order_hint is a claim about where it reads best."
 }

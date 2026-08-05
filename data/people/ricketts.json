@@ -26,32 +26,7 @@
     "claes-y90s-shannon-bio",
     "mckenna-2008"
   ],
-  "context_engagements": [
-    {
-      "partner_name": "Henning Nyberg",
-      "period": "from c. 1930",
-      "note": "Off-roster. A 25-year-old Swede who moved into Townshend House as Ricketts's secretary and companion after Shannon's incapacitating fall, in the last year or two of Ricketts's life. Cook's phrasing is explicitly hedged - \"possibly also sexual partner\" - and nothing in the passage settles it; recorded here because Nyberg is a named, documented member of the household, not because the sexual claim is established.",
-      "sources": [
-        {
-          "quote": "Soon after, 25-year-old Henning Nyberg moved in as Ricketts' secretary, companion and possibly also sexual partner. Nyberg brought a gramophone with him to Townshend House, and the pair went out to the theatre and cinema at least three times a week.",
-          "context": "Matt Cook, Queer Domesticities (2014), ch. 1, on the household after Shannon's 1929 accident. Cook's endnote 149 carries the citation; not chased so far.",
-          "work": "cook-2014",
-          "locator": "p. 52",
-          "locator_type": "page",
-          "evidence_date": {
-            "y": 1930
-          },
-          "supports": "A named companion in Ricketts's household in his last years; the sexual element is the historian's hedge, not a finding.",
-          "verification": "verified-exact",
-          "how_verified": "pdf-at-page",
-          "provenance": "Repo PDF p. 65 read as a rendered page image 2026-08-03; printed folio 52 confirmed on the image. Superscript endnote marker 149 omitted as typography.",
-          "verified_by": "agent-mechanical",
-          "verified_on": "2026-08-03",
-          "voice": "modern"
-        }
-      ]
-    }
-  ],
+  "context_engagements": [],
   "research_status": "phase-a",
   "wikidata": "Q2332695",
   "wikipedia": "https://en.wikipedia.org/wiki/Charles_Ricketts"

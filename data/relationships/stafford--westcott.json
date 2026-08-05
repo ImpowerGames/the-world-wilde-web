@@ -1,0 +1,29 @@
+{
+  "id": "stafford--westcott",
+  "people": [
+    "stafford",
+    "westcott"
+  ],
+  "certainty": "married",
+  "certainty_status": "proposed",
+  "certainty_reasoning": "Married, and not in doubt - the Whitman Archive states it in two places and Whitman himself addressed the couple jointly in a letter the Archive holds. But NOTHING HAS BEEN TRANSCRIBED AT SOURCE for this pass: the Archive returns 403 to scripted fetching, so rather than reconstruct a quotation from search-result fragments this edge carries a pointer and stays pending. Recording it as pending is the honest state; a browser session closes it in minutes.",
+  "start": null,
+  "end": null,
+  "date_label": "m. 1883 or 1884 (sources conflict); still married November 1884",
+  "summary": "Harry Stafford married Eva Westcott in 1883 or 1884 - the Whitman Archive's note on the letters says one year, its encyclopedia entry the other - after drifting between jobs and returning to the family farm. Whitman kept writing to them, addressing the two of them together as late as 18 November 1884. The marriage and the attachment to Whitman are not alternatives, and this map does not treat them as such.",
+  "sources": [
+    {
+      "quote": "",
+      "context": null,
+      "work": "kantrowitz-wwa-stafford-encyclopedia",
+      "locator": "entry, 'Stafford, Harry Lamb [1858-1918]'",
+      "locator_type": "none",
+      "evidence_date": null,
+      "supports": "That Harry Stafford married Eva Westcott, given as 1884 by Kantrowitz's encyclopedia entry and as 1883 by the correspondent note the Whitman Archive attaches to Stafford's letters - a conflict the Archive itself carries. Corroborated by the Archive's own item title for a letter of 18 November 1884, 'Walt Whitman to Harry and Eva Stafford' (whitmanarchive.org/item/loc.04000), in which Whitman addresses the two of them as a couple.",
+      "verification": "unverified",
+      "how_verified": "unverified",
+      "provenance": "NOT TRANSCRIBED. The Whitman Archive sits behind a Cloudflare challenge and returns HTTP 403 to curl and to plain fetching; a direct re-fetch was attempted and blocked on 2026-08-05. The marriage and the 1883/1884 conflict were already recorded on data/people/stafford.json from a reading of Kantrowitz's entry in a real browser on 2026-08-04. Rather than rebuild a quotation out of search-result fragments, this stays a pointer until someone reads the page in a browser again.",
+      "voice": "modern"
+    }
+  ]
+}

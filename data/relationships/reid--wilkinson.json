@@ -1,0 +1,33 @@
+{
+  "id": "reid--wilkinson",
+  "people": [
+    "reid",
+    "wilkinson"
+  ],
+  "certainty": "married",
+  "certainty_status": "proposed",
+  "certainty_reasoning": "Married, on the same per-marriage-footnoted Wikipedia article as the Gregg marriage - see gregg--wilkinson for the article's citation apparatus and why it is trusted further than Le Gallienne's. THIS WEDDING IS UNDATED in everything read, and no date is inferred from the marriages either side of it; the edge carries only what the source states.",
+  "start": null,
+  "end": {
+    "y": 1932
+  },
+  "date_label": "married after the 1923 divorce; ended by her death in 1932",
+  "summary": "Writer and novelist, Louis Wilkinson's second wife, married after his 1923 divorce from Frances Gregg. They had a daughter, to whom Wilkinson dedicated Seven Friends (1953). She died in 1932.",
+  "sources": [
+    {
+      "quote": "After his divorce from Frances, Wilkinson married Ann Reid, a writer and novelist, with whom he had another daughter, the dedicatee of Seven Friends.",
+      "context": "Wikipedia, 'Louis Wilkinson', 'Personal life'. The marriage is footnoted to Wilkinson's own Seven Friends (1953) dedication page and to Friedman (2002), p. 13; her death in 1932 to Malcolm Elwin, The Life of Llewelyn Powys (1946), p. 207.",
+      "work": "wikipedia-louis-wilkinson",
+      "locator": "section 'Personal life'",
+      "locator_type": "none",
+      "evidence_date": null,
+      "supports": "The second marriage, the wife's identity and occupation, and the daughter.",
+      "verification": "verified-exact",
+      "how_verified": "web",
+      "provenance": "Plain-text extract of the article fetched through the MediaWiki API and read 2026-08-05; quotation sliced from that extract. Reference-marker brackets omitted as typography.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-05",
+      "voice": "modern"
+    }
+  ]
+}

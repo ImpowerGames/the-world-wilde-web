@@ -40,7 +40,27 @@
       "provenance": "IA in.ernet.dli.2015.499238, leaf 184 (printed p. 148-149); rendered at 3x from the item's text PDF and read as a page image 2026-08-03, with the printed folio confirmed in the page's bottom margin.",
       "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
-      "voice": "period"
+      "speaker": "Oscar Wilde",
+      "voice": "exchange",
+      "addressee": "Edward Carson",
+      "turns": [
+        {
+          "who": "Carson",
+          "text": "You knew a man named Ernest Scarfe?"
+        },
+        {
+          "who": "Wilde",
+          "text": "Yes. He was introduced to me by Taylor. He is a young man of about twenty, of no occupation. He had been in Australia at the gold-diggings. … I asked Scarfe to dine with myself and Taylor at Kettner's. I did not afterwards take him back to my rooms at St. James's. I have never embraced, kissed or caressed him. …"
+        },
+        {
+          "who": "Carson",
+          "text": "Did you give him any presents?"
+        },
+        {
+          "who": "Wilde",
+          "text": "Yes, a cigarette case. It cost £4. It is my custom to present cigarette cases. I last saw Scarfe in February when he dined with me at the Avondale Hotel."
+        }
+      ]
     },
     {
       "quote": "And that the said Oscar Fingal O'Flahertie Wills Wilde between the month of October in the year of our Lord One thousand eight hundred and ninety-three and the month of April in the year of our Lord One thousand eight hundred and ninety-four at the said house No. 10 St. James Place did solicit and incite one Ernest Scarfe to commit sodomy and other acts of gross indecency and immorality with him the said Oscar Fingal O'Flahertie Wills Wilde and did then and there commit the said other acts of gross indecency and immorality with the said Ernest Scarfe.",
@@ -58,7 +78,14 @@
       "provenance": "IA in.ernet.dli.2015.499238, leaf 389 (printed p. 343), read as IIIF page image 2026-08-03",
       "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
-      "voice": "period"
+      "speaker": "The Marquess of Queensberry, plea of justification (filed 30 March 1895)",
+      "voice": "exchange",
+      "turns": [
+        {
+          "who": "Queensberry",
+          "text": "And that the said Oscar Fingal O'Flahertie Wills Wilde between the month of October in the year of our Lord One thousand eight hundred and ninety-three and the month of April in the year of our Lord One thousand eight hundred and ninety-four at the said house No. 10 St. James Place did solicit and incite one Ernest Scarfe to commit sodomy and other acts of gross indecency and immorality with him the said Oscar Fingal O'Flahertie Wills Wilde and did then and there commit the said other acts of gross indecency and immorality with the said Ernest Scarfe."
+        }
+      ]
     },
     {
       "quote": "Where did you first meet him [Marling]?—At the Knightsbridge Skating Rink. I was introduced by a young man named Scarfe. I understood Scarfe had just returned from the gold diggings. I introduced Scarfe to Mr. Wilde at 10 St. James's Place. I did not know that he was the son of a domestic servant.",
@@ -76,7 +103,19 @@
       "provenance": "IA in.ernet.dli.2015.499238, leaf 330 (printed p. 286), read as IIIF page image 2026-08-03",
       "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
-      "voice": "period"
+      "speaker": "Alfred Taylor",
+      "voice": "exchange",
+      "addressee": "the Solicitor-General",
+      "turns": [
+        {
+          "who": "Solicitor-General",
+          "text": "Where did you first meet him [Marling]?"
+        },
+        {
+          "who": "Taylor",
+          "text": "At the Knightsbridge Skating Rink. I was introduced by a young man named Scarfe. I understood Scarfe had just returned from the gold diggings. I introduced Scarfe to Mr. Wilde at 10 St. James's Place. I did not know that he was the son of a domestic servant."
+        }
+      ]
     },
     {
       "quote": "Do you remember a young man named Scarfe?—Yes. Taylor brought him to see me. Scarfe represented himself as a young man who had made money in Australia. … Did you give him a cigarette case?—Yes. Has he dined alone with you?—Yes.",
@@ -94,7 +133,35 @@
       "provenance": "IA in.ernet.dli.2015.499238, leaf 364 (printed p. 318); rendered at 3x from the item's text PDF and read as a page image 2026-08-03, with the printed folio confirmed in the page's bottom margin.",
       "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
-      "voice": "period"
+      "speaker": "Oscar Wilde",
+      "voice": "exchange",
+      "addressee": "the Solicitor-General",
+      "turns": [
+        {
+          "who": "Solicitor-General",
+          "text": "Do you remember a young man named Scarfe?"
+        },
+        {
+          "who": "Wilde",
+          "text": "Yes. Taylor brought him to see me. Scarfe represented himself as a young man who had made money in Australia. …"
+        },
+        {
+          "who": "Solicitor-General",
+          "text": "Did you give him a cigarette case?"
+        },
+        {
+          "who": "Wilde",
+          "text": "Yes."
+        },
+        {
+          "who": "Solicitor-General",
+          "text": "Has he dined alone with you?"
+        },
+        {
+          "who": "Wilde",
+          "text": "Yes."
+        }
+      ]
     },
     {
       "quote": "Ernesto has written to me begging for money — a very nice letter — but I really have nothing just now.",
@@ -105,7 +172,11 @@
       "evidence_date": {
         "y": 1894,
         "m": 7,
-        "circa": true
+        "circa": true,
+        "to": {
+          "y": 1894,
+          "m": 8
+        }
       },
       "supports": "a possible (editorially tentative) 1894 begging letter from Scarfe to Wilde — continuation of the acquaintance into mid-1894",
       "verification": "verified-exact",
@@ -113,7 +184,8 @@
       "provenance": "repo PDF 'Complete Letters' (Fourth Estate 2000), PDF p. 650 = printed p. 598 (folio confirmed on rendered page), read 2026-08-03",
       "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
-      "voice": "period"
+      "voice": "period",
+      "addressee": "Lord Alfred Douglas"
     },
     {
       "work": "holland-2003",
@@ -125,6 +197,7 @@
       "how_verified": "pdf-at-page",
       "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
+      "speaker": "Oscar Wilde",
       "provenance": "Repo PDF page 247, printed folio 199 confirmed at the foot of the rendered page, read as a page image 2026-08-03.",
       "evidence_date": {
         "y": 1895,
@@ -132,7 +205,42 @@
         "d": 4
       },
       "supports": "The verbatim shorthand transcript of the same exchange Hyde 1948 prints in condensed form - kept alongside Hyde, not in place of him, so the divergence stays visible in the record.",
-      "voice": "period"
+      "voice": "exchange",
+      "addressee": "Edward Carson",
+      "turns": [
+        {
+          "who": "Carson",
+          "text": "Did you ever kiss him?"
+        },
+        {
+          "who": "Wilde",
+          "text": "Never in my life."
+        },
+        {
+          "who": "Carson",
+          "text": "Or caress him in any way?"
+        },
+        {
+          "who": "Wilde",
+          "text": "No."
+        },
+        {
+          "who": "Carson",
+          "text": "Or attempt to have indecencies with him?"
+        },
+        {
+          "who": "Wilde",
+          "text": "Never in my life."
+        },
+        {
+          "who": "Carson",
+          "text": "Why did you ask him to dinner?"
+        },
+        {
+          "who": "Wilde",
+          "text": "Because I am very good-natured, because it is one of the best ways perhaps of pleasing anybody, particularly anyone not in one's social position, to ask him to dine. (Laughter.)"
+        }
+      ]
     }
   ],
   "prior_class": "alleged"

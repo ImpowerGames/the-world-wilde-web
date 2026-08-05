@@ -20,16 +20,7 @@
   "bio_sources": [
     "pulham-y90s-lee-bio"
   ],
-  "context_engagements": [
-    {
-      "date_label": "married 1887",
-      "note": "French orientalist. Robinson's marriage to him in 1887 is what ended her attachment to Vernon Lee, per Pulham's Y90s biography of Lee; Kit Anstruther-Thomson replaced her as Lee's companion the same year. Off-roster; recorded because the marriage is the terminus of the lee--robinson record.",
-      "works": [
-        "pulham-y90s-lee-bio"
-      ],
-      "partner_name": "James Darmesteter"
-    }
-  ],
+  "context_engagements": [],
   "research_status": "phase-a",
   "wikidata": "Q517162",
   "wikipedia": "https://en.wikipedia.org/wiki/Agnes_Mary_Frances_Duclaux"

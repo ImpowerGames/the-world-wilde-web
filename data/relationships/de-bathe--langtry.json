@@ -1,0 +1,43 @@
+{
+  "id": "de-bathe--langtry",
+  "people": [
+    "de-bathe",
+    "langtry"
+  ],
+  "certainty": "married",
+  "certainty_status": "proposed",
+  "certainty_reasoning": "Married, on the same two-source footing as the first marriage: the Complete Letters editors state it ('Married 1899; he succeeded as fifth Baronet in 1907'), and Wikipedia supplies the day, the church and his dates. Wikidata's P26 with an 1899 start qualifier agrees on the year. Nothing here is contested.",
+  "start": {
+    "y": 1899,
+    "m": 7,
+    "d": 27
+  },
+  "end": {
+    "y": 1929,
+    "m": 2,
+    "d": 12
+  },
+  "date_label": "m. 27 July 1899 at St Saviour's, Jersey; ended by her death, 12 February 1929",
+  "summary": "Two years after divorcing Edward Langtry, Lillie Langtry married Hugo Gerald de Bathe at St Saviour's in Jersey - the island she had come from - with only her daughter and the officials there. He was seventeen years younger. In 1907 he inherited the baronetcy and she became Lady de Bathe; they spent the last years apart, and she died in Monaco in 1929.",
+  "sources": [
+    {
+      "quote": "However, in 1899, she married 28-year-old Hugo Gerald de Bathe (1871-1940) ... The wedding between Langtry and de Bathe took place in St Saviour's Church, Jersey, on 27 July 1899",
+      "context": "Wikipedia, 'Lillie Langtry'. The elision drops the intervening account of his family and prospects; the article adds that her daughter Jeanne Marie was the only other person present apart from the officials.",
+      "work": "wikipedia-lillie-langtry",
+      "locator": "section on her later life",
+      "locator_type": "none",
+      "evidence_date": {
+        "y": 1899,
+        "m": 7,
+        "d": 27
+      },
+      "supports": "The second marriage: year, husband's identity and dates, exact date and place.",
+      "verification": "verified-elision",
+      "how_verified": "web",
+      "provenance": "Plain-text extract of the article fetched through the MediaWiki API and read 2026-08-05; quotation sliced from that extract. Reference-marker brackets omitted as typography. Marked verified-elision: the quotation joins two sentences from the same section across an ellipsis.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-05",
+      "voice": "modern"
+    }
+  ]
+}

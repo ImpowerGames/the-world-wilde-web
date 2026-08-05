@@ -1,0 +1,43 @@
+{
+  "id": "elvin--wilde",
+  "people": [
+    "elvin",
+    "wilde"
+  ],
+  "certainty": "attraction-expressed",
+  "certainty_status": "proposed",
+  "direction": "wilde",
+  "outcome": "unknown",
+  "certainty_reasoning": "Wilde singles Elvin out from every other man he knew in Reading - \"the one I liked best\" - notes that he is \"a very handsome young soldier of twenty years of age\", records that they \"always walked together, and had long chats\", and then borrows money he does not have to make sure a letter reaches him on release. Preference, physical admiration, sustained companionship and cost, in four lines. **Weigh it honestly**: the letter's business is charity, not courtship, and nothing here declares anything. Under the class as it stood before August 2026 - which asked for an approach or a declaration - Elvin would not have been admitted, and would have vanished from the map along with the rest of Wilde's poorest acquaintances. On the class. `attraction-expressed` records that **the surviving record is one-sided** - Wilde's letter survives and the other man's does not - and since August 2026 its bar is attraction legible to an ordinary reader rather than an approach or a declaration. That widening is what lets this person onto the map at all. It is a statement about the paper, not about what either man felt or did.",
+  "start": {
+    "y": 1895
+  },
+  "end": {
+    "y": 1897
+  },
+  "date_label": "fellow prisoners in Reading; Wilde released 19 May 1897, Elvin due out 6 November 1897, and the letter arranging his money is of 30 October 1897",
+  "summary": "Harry Elvin was a soldier of twenty serving time in Reading Gaol while Wilde was there, and the man Wilde liked best of anyone he met inside. They walked together and talked. Six months after his own release, from a rented villa outside Naples and with no money of his own, Wilde wrote to Reggie Turner to borrow £2.10 so that a letter containing it would be waiting for Elvin at the Post Office on the day he came out - because he had promised, and because \"he would be greatly disappointed not to hear from me\".",
+  "sources": [
+    {
+      "quote": "I now want you to do me a favour. I want you to lend me £2.10. I have one friend left in Reading, the one I liked best; a very handsome young soldier of twenty years of age – Harry Elvin. I promised him I would leave a letter at the Post Office for him and he would be greatly disappointed not to hear from me, as we always walked together, and had long chats. So will you put PO orders into the enclosed letter for £2.10. and I will pay you as soon as I get some money from America. … H. E. comes out on November 6th, so the letter should be sent off at once.",
+      "context": "Wilde to Reggie Turner, postmark 30 October 1897, from the Villa Giudice, Posilippo, where he was living with Douglas and effectively penniless - the same letter frets about syndicating The Ballad of Reading Gaol in America. The elision drops one sentence repaying an earlier loan of Turner's.",
+      "work": "letters-2000",
+      "locator": "p. 976",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1897,
+        "m": 10,
+        "d": 30
+      },
+      "supports": "Preference, physical admiration, the habit of walking together, and money Wilde did not have - all of it in Wilde's own hand.",
+      "verification": "verified-elision",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF p. 1024 read as a rendered page image 2026-08-04; printed folio 976 confirmed at the foot of the image. Located first in the complete OCR mirror, which locates only. Superscript note markers omitted as typography.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-04",
+      "speaker": "Oscar Wilde",
+      "addressee": "Reginald Turner",
+      "voice": "period"
+    }
+  ]
+}

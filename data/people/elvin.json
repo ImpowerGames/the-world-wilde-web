@@ -1,0 +1,21 @@
+{
+  "id": "elvin",
+  "name": "Harry Elvin",
+  "sort_name": "Elvin, Harry",
+  "aka": [
+    "H. E."
+  ],
+  "born": null,
+  "died": null,
+  "group": "liaisons",
+  "gender": "m",
+  "bio": "A soldier, and a fellow prisoner of Wilde's in Reading Gaol. Wilde gives his age as twenty in 1897, which would put his birth around 1877, and calls him the friend he liked best of everyone left inside; the two walked together and talked at length in the prison yard. Elvin was due for release on 6 November 1897. Wilde, by then in Naples and short of money himself, borrowed £2.10 from Reggie Turner so that a letter with a postal order in it would be waiting for him at the Post Office when he came out. **No dates, no trade beyond the army, and no later trace** - the record holds him for the length of one paragraph.",
+  "bio_note": "Everything known here is in a single letter, Wilde to Reggie Turner, postmark 30 October 1897, printed p. 976, read at the rendered page 2026-08-04. Surfaced by the mechanical sweep of the OCR mirror. His age is Wilde's statement, not a document. Born and died are **null by evidence**: he was a private soldier and a convict, and the apparatus that records dates did not record his.",
+  "bio_sources": [
+    "letters-2000"
+  ],
+  "context_engagements": [],
+  "research_status": "phase-a",
+  "wikidata": null,
+  "wikipedia": null
+}

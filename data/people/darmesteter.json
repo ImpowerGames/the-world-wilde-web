@@ -1,0 +1,30 @@
+{
+  "id": "darmesteter",
+  "name": "James Darmesteter",
+  "sort_name": "Darmesteter, James",
+  "aka": [],
+  "born": {
+    "y": 1849,
+    "m": 3,
+    "d": 28
+  },
+  "died": {
+    "y": 1894,
+    "m": 10,
+    "d": 19
+  },
+  "group": "family",
+  "gender": "m",
+  "bio": "French orientalist and professor at the College de France, who married the poet Mary Robinson in August 1888, having been accepted by her the year before. The engagement is what ended her eight-year attachment to Vernon Lee, who suffered a long depression after it. He died in October 1894 after a short illness, leaving her widowed at thirty-seven.",
+  "bio_sources": [
+    "pulham-y90s-lee-bio",
+    "geoffroy-gagel-vernon-lee-letters-vol3",
+    "wikipedia-duclaux"
+  ],
+  "bio_note": "Dates from Wikidata Q1086318. THE YEAR CONFLICT IS RESOLVED HERE, not left open: Pulham's Y90s biography of Vernon Lee says the attachment lasted 'until Mary married in 1887' and Wikipedia says 1888, but the standard scholarly edition of Lee's correspondence distinguishes the two events - it dates Robinson's acceptance of Darmesteter to 1887 and states that 'the marriage took place in August 1888'. Proposal 1887, wedding August 1888; both earlier statements are then correct about different things. Promoted from the context_engagement on robinson.json, 2026-08-05.",
+  "context_engagements": [],
+  "research_status": "phase-a",
+  "wikidata": null,
+  "wikipedia": null,
+  "roster_note": "Added 2026-08-05 in the pass that put every spouse and every off-roster person on the map."
+}

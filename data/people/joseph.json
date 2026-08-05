@@ -1,0 +1,20 @@
+{
+  "id": "joseph",
+  "name": "Joseph",
+  "sort_name": "Joseph",
+  "aka": [],
+  "born": null,
+  "died": null,
+  "group": "liaisons",
+  "gender": "m",
+  "bio": "A young man in Paris, described by Wilde in December 1898 as I. D. W. Ashton's 'little friend'. He lived in the same establishment as Ashton and served at table when sober. Wilde's letter has him returning with a black eye and a swollen nose after drink and a political discussion, then vanishing from a Sunday morning until the next day; Wilde calls him 'a little Dionysiac' and blames Ashton's habit of giving good advice for driving him to drink. No surname, age, occupation beyond waiting at table, or later trace appears in the pages read.",
+  "bio_sources": [
+    "letters-2000"
+  ],
+  "bio_note": "THE RECORD PRESERVES A FIRST NAME ONLY. Sole source: Wilde to Reginald Turner, [postmark 6 December 1898], Hotel d'Alsace, Paris, Complete Letters (2000), p. 1107. Transcription and provenance reused unchanged from the context_engagement on ashton.json, where this was held off-roster until 2026-08-05. Wilde is an onlooker here, not a party: the whole of what is known of Joseph is what Wilde wrote to a friend about someone else's household.",
+  "context_engagements": [],
+  "research_status": "phase-a",
+  "wikidata": null,
+  "wikipedia": null,
+  "roster_note": "Promoted from an off-roster context_engagement on ashton.json, 2026-08-05, in the pass that put every off-roster person on the map. The sources moved with him unchanged."
+}

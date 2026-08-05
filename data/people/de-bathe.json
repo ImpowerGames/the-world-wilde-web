@@ -1,0 +1,25 @@
+{
+  "id": "de-bathe",
+  "name": "Hugo Gerald de Bathe",
+  "sort_name": "de Bathe, Hugo Gerald",
+  "aka": [],
+  "born": {
+    "y": 1871
+  },
+  "died": {
+    "y": 1940
+  },
+  "group": "family",
+  "gender": "m",
+  "bio": "Lillie Langtry's second husband, twenty-eight to her forty-five when they married at St Saviour's Church, Jersey, on 27 July 1899, with her daughter Jeanne Marie the only person present besides the officials. He succeeded as fifth Baronet in 1907, making her Lady de Bathe - the name she died under. By the end they lived apart, she at Monaco and he at Vence.",
+  "bio_sources": [
+    "wikipedia-lillie-langtry",
+    "letters-2000"
+  ],
+  "bio_note": "Dates 1871-1940 from the Wikipedia article; the baronetcy succession in 1907 is from the Complete Letters editors at p. 91 n. 2, already on langtry.json. Promoted from the context_engagement there, 2026-08-05. Wikidata Q297743 carries both her marriages as P26 statements with start-date qualifiers 1874 and 1899, which corroborates the years but adds nothing the article does not have.",
+  "context_engagements": [],
+  "research_status": "phase-a",
+  "wikidata": null,
+  "wikipedia": null,
+  "roster_note": "Added 2026-08-05 in the pass that put every spouse and every off-roster person on the map."
+}

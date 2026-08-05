@@ -1,111 +1,114 @@
 {
- "id": "custance--vivien",
- "people": [
-  "custance",
-  "vivien"
- ],
- "certainty": "uncorroborated",
- "certainty_status": "proposed",
- "certainty_reasoning": "Promoted from the context_engagement already on custance.json now that Vivien is on the roster - but promoted at the weakest class, because the evidence is one scholar's reading of one novel. Parker says Vivien's roman a clef 'suggests' an affair; a novel is not testimony, and nothing independent - no letter, diary, or second observer - was found to support it. That is exactly the README's 'uncorroborated': a lone source, never tested. It does not mean anyone challenged it, and the disputed block below says so explicitly rather than manufacturing an opponent. What IS well evidenced, and belongs on the record whatever the affair's status, is the friendship: Parker documents that Custance sustained contact with Vivien after returning to London in 1901. UPDATED 2026-08-04: the novel itself has now been read at page, in Foster's translation of the 1904 first edition, and it weakens rather than supports the affair reading (see disputed, grounds). The class does not move - it was already at the floor - but the basis is no longer an unread pointer.",
- "start": {
-  "y": 1901,
-  "circa": true
- },
- "end": null,
- "date_label": "Paris, c. 1901; contact sustained after Custance's return to London that year",
- "summary": "Olive Custance met Renee Vivien in Paris around 1901 through Natalie Barney, whose former lover Vivien was, and the two became friends. Vivien's roman a clef A Woman Appeared to Me (1904) fictionalises Custance as the 'little English poetess Dagmar', and Sarah Parker reads the novel as suggesting the two had a brief love affair - the sole basis for that claim in anything read here. Custance kept up contact with Vivien as well as Barney after moving back to London in 1901, the year before she eloped with Lord Alfred Douglas.",
- "sources": [
-  {
-   "quote": "However, Vivien’s roman à clef A Woman Appeared to Me (1904) fictionalises Custance as the “little English poetess Dagmar” and suggests that she and Custance enjoyed a brief love affair.",
-   "context": "Sarah Parker's Y90s biography of Olive Custance, following the Mytilene sentence. Note the verb: the novel 'suggests', it does not attest. Parker's peer-reviewed 2011 article files the Barney and Vivien connections together as 'rumoured entanglements' (Wickes 1977: 58-60; Souhami 2004).",
-   "work": "parker-y90s-custance-bio",
-   "locator": "para. 2",
-   "locator_type": "none",
-   "evidence_date": {
-    "y": 1904
-   },
-   "supports": "The affair claim, at exactly the strength the source gives it; and the Dagmar identification.",
-   "verification": "verified-exact",
-   "how_verified": "web",
-   "provenance": "https://1890s.ca/custance_bio/ re-fetched (curl) and read in full 2026-08-03; quote sliced byte-exact from the downloaded HTML, then whitespace artifacts introduced by stripping inline markup (spaces around quotation marks, italic titles and punctuation) normalized to the printed reading.",
-   "verified_by": "agent-mechanical",
-   "verified_on": "2026-08-03",
-   "voice": "modern"
+  "id": "custance--vivien",
+  "people": [
+    "custance",
+    "vivien"
+  ],
+  "certainty": "uncorroborated",
+  "certainty_status": "proposed",
+  "certainty_reasoning": "Promoted from the context_engagement already on custance.json now that Vivien is on the roster - but promoted at the weakest class, because the evidence is one scholar's reading of one novel. Parker says Vivien's roman a clef 'suggests' an affair; a novel is not testimony, and nothing independent - no letter, diary, or second observer - was found to support it. That is exactly the README's 'uncorroborated': a lone source, never tested. It does not mean anyone challenged it, and the disputed block below says so explicitly rather than manufacturing an opponent. What IS well evidenced, and belongs on the record whatever the affair's status, is the friendship: Parker documents that Custance sustained contact with Vivien after returning to London in 1901. UPDATED 2026-08-04: the novel itself has now been read at page, in Foster's translation of the 1904 first edition, and it weakens rather than supports the affair reading (see disputed, grounds). The class does not move - it was already at the floor - but the basis is no longer an unread pointer.",
+  "start": {
+    "y": 1901,
+    "circa": true
   },
-  {
-   "quote": "Custance sustained contact with both Barney and Vivien after she moved back to London in 1901, and her diaries and poems suggest she continued to be attracted to and inspired by women.",
-   "context": "Parker, closing the same paragraph. This sentence, unlike the one above, is documentary rather than inferential - it is what survives independent of the novel.",
-   "work": "parker-y90s-custance-bio",
-   "locator": "para. 2",
-   "locator_type": "none",
-   "evidence_date": {
-    "y": 1901
-   },
-   "supports": "The sustained friendship after 1901, which is the well-evidenced part of this pair's record.",
-   "verification": "verified-exact",
-   "how_verified": "web",
-   "provenance": "https://1890s.ca/custance_bio/ re-fetched (curl) and read in full 2026-08-03; quote sliced byte-exact from the downloaded HTML, then whitespace artifacts introduced by stripping inline markup (spaces around quotation marks, italic titles and punctuation) normalized to the printed reading.",
-   "verified_by": "agent-mechanical",
-   "verified_on": "2026-08-03",
-   "voice": "modern"
-  },
-  {
-   "work": "vivien-foster-1982",
-   "locator": "p. xiii",
-   "locator_type": "page",
-   "quote": "The rest of the novel covers the years 1901 to 1903. The narrator attempts to console herself with Dagmar (Olive Custance) until Dagmar finds her “Prince” (Alfred Lord Douglas, whom Olive married in 1902 and who had been the lover of Oscar Wilde).",
-   "context": "Gayle Rubin, introduction to A Woman Appeared to Me, trans. Jeannette H. Foster",
-   "speaker": "Gayle Rubin",
-   "voice": "modern",
-   "evidence_date": {
-    "y": 1901
-   },
-   "supports": "Identification of Dagmar as Olive Custance by a second scholar, independent of Parker - and a characterisation of the episode as consolation rather than an affair.",
-   "verification": "verified-exact",
-   "how_verified": "pdf-at-page",
-   "verified_by": "Claude (Opus 5)",
-   "verified_on": "2026-08-04",
-   "provenance": "Repo PDF p. 23 rendered and read as a page image 2026-08-04; folio xiii at the foot."
-  },
-  {
-   "work": "vivien-foster-1982",
-   "locator": "p. 52",
-   "locator_type": "page",
-   "quote": "“Should one be afraid of love?” she asked, so simply that I drew back from the kiss she offered. … My little virgin with the short curls had stayed away for many days. … She stopped, then with a trembling sigh: “The Prince I waited for has come to me . . .”",
-   "context": "A Woman Appeared to Me, chapters XVII-XVIII: the narrator and Dagmar",
-   "voice": "period",
-   "evidence_date": {
-    "y": 1901
-   },
-   "supports": "What the novel actually depicts, against which Parker's 'brief love affair' has to be read: an offered kiss refused, Dagmar described as a virgin, and her engagement announced.",
-   "verification": "verified-elision",
-   "how_verified": "pdf-at-page",
-   "verified_by": "Claude (Opus 5)",
-   "verified_on": "2026-08-04",
-   "provenance": "Repo PDF p. 94 rendered and read as a page image 2026-08-04; folio 52 at the foot. Three passages from the same and facing pages, joined by ellipses. This is Foster's 1976 English, NOT Vivien's French - the 1904 French wording is still unverified, and the phrasing here is the translator's."
-  },
-  {
-   "work": "vivien-woman-appeared-1904",
-   "locator": "ch. XVII-XVIII",
-   "locator_type": "none",
-   "quote": "« Faut-il craindre l’amour ? » demanda-t-elle, si simplement que, devant le baiser qu’elle m’offrait, je reculai... Je reculai comme un être que la démence a frappé à demi recule devant le meurtre conçu en une heure insensée. … La vierge aux boucles légères s’éloigna pendant de longs jours.",
-   "context": "Renée Vivien, Une femme m'apparut… (1904), chapters XVII-XVIII: the narrator and Dagmar",
-   "voice": "period",
-   "evidence_date": {
-    "y": 1901
-   },
-   "supports": "The same passage in Vivien's own French, which is what the claim turns on. It confirms the substance - the offered kiss is refused, and Dagmar is 'la vierge' at this point - while showing that Foster's English overstates the possessiveness: Vivien writes 'La vierge aux boucles légères', the virgin with the light curls, where Foster gives 'My little virgin with the short curls', adding a possessive and a diminutive and changing the adjective. Foster likewise renders 'le Prince inconnu' as 'the Unknown Lover'. The narrative facts are Vivien's; some of the colouring is the translator's.",
-   "verification": "verified-exact",
-   "how_verified": "repo-file",
-   "verified_by": "Claude (Opus 5)",
-   "verified_on": "2026-08-04",
-   "provenance": "Read from the BnF Partenariats EPUB of the Gallica 1904 digitisation, in the repo. EPUB has no pagination, so cited by chapter. Confirmed to be the first edition by the Vally/Lorély test - Vally 153 occurrences, Lorély none."
+  "end": null,
+  "date_label": "Paris, c. 1901; contact sustained after Custance's return to London that year",
+  "summary": "Olive Custance met Renee Vivien in Paris around 1901 through Natalie Barney, whose former lover Vivien was, and the two became friends. Vivien's roman a clef A Woman Appeared to Me (1904) fictionalises Custance as the 'little English poetess Dagmar', and Sarah Parker reads the novel as suggesting the two had a brief love affair - the sole basis for that claim in anything read here. Custance kept up contact with Vivien as well as Barney after moving back to London in 1901, the year before she eloped with Lord Alfred Douglas.",
+  "sources": [
+    {
+      "quote": "However, Vivien’s roman à clef A Woman Appeared to Me (1904) fictionalises Custance as the “little English poetess Dagmar” and suggests that she and Custance enjoyed a brief love affair.",
+      "context": "Sarah Parker's Y90s biography of Olive Custance, following the Mytilene sentence. Note the verb: the novel 'suggests', it does not attest. Parker's peer-reviewed 2011 article files the Barney and Vivien connections together as 'rumoured entanglements' (Wickes 1977: 58-60; Souhami 2004).",
+      "work": "parker-y90s-custance-bio",
+      "locator": "para. 2",
+      "locator_type": "none",
+      "evidence_date": {
+        "y": 1904
+      },
+      "supports": "The affair claim, at exactly the strength the source gives it; and the Dagmar identification.",
+      "verification": "verified-exact",
+      "how_verified": "web",
+      "provenance": "https://1890s.ca/custance_bio/ re-fetched (curl) and read in full 2026-08-03; quote sliced byte-exact from the downloaded HTML, then whitespace artifacts introduced by stripping inline markup (spaces around quotation marks, italic titles and punctuation) normalized to the printed reading.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "modern"
+    },
+    {
+      "quote": "Custance sustained contact with both Barney and Vivien after she moved back to London in 1901, and her diaries and poems suggest she continued to be attracted to and inspired by women.",
+      "context": "Parker, closing the same paragraph. This sentence, unlike the one above, is documentary rather than inferential - it is what survives independent of the novel.",
+      "work": "parker-y90s-custance-bio",
+      "locator": "para. 2",
+      "locator_type": "none",
+      "evidence_date": {
+        "y": 1901
+      },
+      "supports": "The sustained friendship after 1901, which is the well-evidenced part of this pair's record.",
+      "verification": "verified-exact",
+      "how_verified": "web",
+      "provenance": "https://1890s.ca/custance_bio/ re-fetched (curl) and read in full 2026-08-03; quote sliced byte-exact from the downloaded HTML, then whitespace artifacts introduced by stripping inline markup (spaces around quotation marks, italic titles and punctuation) normalized to the printed reading.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "modern"
+    },
+    {
+      "work": "vivien-foster-1982",
+      "locator": "p. xiii",
+      "locator_type": "page",
+      "quote": "The rest of the novel covers the years 1901 to 1903. The narrator attempts to console herself with Dagmar (Olive Custance) until Dagmar finds her “Prince” (Alfred Lord Douglas, whom Olive married in 1902 and who had been the lover of Oscar Wilde).",
+      "context": "Gayle Rubin, introduction to A Woman Appeared to Me, trans. Jeannette H. Foster",
+      "speaker": "Gayle Rubin",
+      "voice": "modern",
+      "evidence_date": {
+        "y": 1901
+      },
+      "supports": "Identification of Dagmar as Olive Custance by a second scholar, independent of Parker - and a characterisation of the episode as consolation rather than an affair.",
+      "verification": "verified-exact",
+      "how_verified": "pdf-at-page",
+      "verified_by": "Claude (Opus 5)",
+      "verified_on": "2026-08-04",
+      "provenance": "Repo PDF p. 23 rendered and read as a page image 2026-08-04; folio xiii at the foot."
+    },
+    {
+      "work": "vivien-foster-1982",
+      "locator": "p. 52",
+      "locator_type": "page",
+      "quote": "“Should one be afraid of love?” she asked, so simply that I drew back from the kiss she offered. … My little virgin with the short curls had stayed away for many days. … She stopped, then with a trembling sigh: “The Prince I waited for has come to me . . .”",
+      "context": "A Woman Appeared to Me, chapters XVII-XVIII: the narrator and Dagmar",
+      "voice": "period",
+      "evidence_date": {
+        "y": 1901
+      },
+      "supports": "What the novel actually depicts, against which Parker's 'brief love affair' has to be read: an offered kiss refused, Dagmar described as a virgin, and her engagement announced.",
+      "verification": "verified-elision",
+      "how_verified": "pdf-at-page",
+      "verified_by": "Claude (Opus 5)",
+      "verified_on": "2026-08-04",
+      "provenance": "Repo PDF p. 94 rendered and read as a page image 2026-08-04; folio 52 at the foot. Three passages from the same and facing pages, joined by ellipses. This is Foster's 1976 English, NOT Vivien's French - the 1904 French wording is still unverified, and the phrasing here is the translator's."
+    },
+    {
+      "work": "vivien-woman-appeared-1904",
+      "locator": "ch. XVII-XVIII",
+      "locator_type": "none",
+      "quote": "« Faut-il craindre l’amour ? » demanda-t-elle, si simplement que, devant le baiser qu’elle m’offrait, je reculai... Je reculai comme un être que la démence a frappé à demi recule devant le meurtre conçu en une heure insensée. … La vierge aux boucles légères s’éloigna pendant de longs jours.",
+      "context": "Renée Vivien, Une femme m'apparut… (1904), chapters XVII-XVIII: the narrator and Dagmar",
+      "voice": "period",
+      "evidence_date": {
+        "y": 1901
+      },
+      "supports": "The same passage in Vivien's own French, which is what the claim turns on. It confirms the substance - the offered kiss is refused, and Dagmar is 'la vierge' at this point - while showing that Foster's English overstates the possessiveness: Vivien writes 'La vierge aux boucles légères', the virgin with the light curls, where Foster gives 'My little virgin with the short curls', adding a possessive and a diminutive and changing the adjective. Foster likewise renders 'le Prince inconnu' as 'the Unknown Lover'. The narrative facts are Vivien's; some of the colouring is the translator's.",
+      "verification": "verified-exact",
+      "how_verified": "repo-file",
+      "verified_by": "Claude (Opus 5)",
+      "verified_on": "2026-08-04",
+      "provenance": "Read from the BnF Partenariats EPUB of the Gallica 1904 digitisation, in the repo. EPUB has no pagination, so cited by chapter. Confirmed to be the first edition by the Vally/Lorély test - Vally 153 occurrences, Lorély none.",
+      "lang": "fr",
+      "translation": "'Must one fear love?' she asked, so simply that, faced with the kiss she was offering me, I drew back… I drew back as a creature half-struck by madness draws back from a murder conceived in an insane hour. … The virgin with the light curls kept away for long days.",
+      "translation_note": "**A published English version exists and differs**: Foster gives 'My little virgin with the short curls', adding a possessive and a diminutive and changing the adjective, and renders 'le Prince inconnu' as 'the Unknown Lover'. The literal reading is given here precisely because that difference is what this quotation was entered to show."
+    }
+  ],
+  "disputed": {
+    "claim": "That Olive Custance and Renee Vivien had a brief love affair in or around 1901.",
+    "asserted_by": "Sarah Parker's Y90s biography of Custance, reading Vivien's roman a clef A Woman Appeared to Me (1904), in which Custance appears as 'the little English poetess Dagmar'; Parker's verb is 'suggests'.",
+    "disputed_by": "Nobody, in anything read so far - no source contests it. It is recorded as uncorroborated because nothing independent supports it, not because it was challenged.",
+    "grounds": "A single scholar's inference from a single work of fiction written by one of the two parties three years after the fact. THE FICTION HAS NOW BEEN READ (2026-08-04), and it does not depict the affair Parker's word points to. The narrator desires Dagmar and declares love, but when Dagmar offers a kiss the narrator draws back from it; Dagmar is called 'my little virgin'; she then announces her 'Prince' and marries. The novel closes with San Giovanni relaying Dagmar's question whether the narrator resents her, 'that she couldn't cure you by loving you with the terrific ardor you demanded of her' (p. 58). So on its own terms the book depicts an unconsummated courtship declined by both parties in turn, not a love affair. Gayle Rubin, introducing the translation, reads it the same way: the narrator 'attempts to console herself with Dagmar'. The French of the first edition has now been read too, and it holds: 'devant le baiser qu’elle m’offrait, je reculai'. Parker's reading is not unreasonable - the erotic charge is real and sustained - but the text does not carry it as far as 'enjoyed a brief love affair', and this remains a novel either way. Parker's own peer-reviewed article (2011, p. 1) puts the Barney and Vivien connections in the register of 'rumoured entanglements'. The friendship and sustained contact are separately documented and not in question."
   }
- ],
- "disputed": {
-  "claim": "That Olive Custance and Renee Vivien had a brief love affair in or around 1901.",
-  "asserted_by": "Sarah Parker's Y90s biography of Custance, reading Vivien's roman a clef A Woman Appeared to Me (1904), in which Custance appears as 'the little English poetess Dagmar'; Parker's verb is 'suggests'.",
-  "disputed_by": "Nobody, in anything read so far - no source contests it. It is recorded as uncorroborated because nothing independent supports it, not because it was challenged.",
-  "grounds": "A single scholar's inference from a single work of fiction written by one of the two parties three years after the fact. THE FICTION HAS NOW BEEN READ (2026-08-04), and it does not depict the affair Parker's word points to. The narrator desires Dagmar and declares love, but when Dagmar offers a kiss the narrator draws back from it; Dagmar is called 'my little virgin'; she then announces her 'Prince' and marries. The novel closes with San Giovanni relaying Dagmar's question whether the narrator resents her, 'that she couldn't cure you by loving you with the terrific ardor you demanded of her' (p. 58). So on its own terms the book depicts an unconsummated courtship declined by both parties in turn, not a love affair. Gayle Rubin, introducing the translation, reads it the same way: the narrator 'attempts to console herself with Dagmar'. The French of the first edition has now been read too, and it holds: 'devant le baiser qu’elle m’offrait, je reculai'. Parker's reading is not unreasonable - the erotic charge is real and sustained - but the text does not carry it as far as 'enjoyed a brief love affair', and this remains a novel either way. Parker's own peer-reviewed article (2011, p. 1) puts the Barney and Vivien connections in the register of 'rumoured entanglements'. The friendship and sustained contact are separately documented and not in question."
- }
 }

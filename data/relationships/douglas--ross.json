@@ -81,7 +81,12 @@
       "locator_type": "page",
       "evidence_date": {
         "y": 1892,
-        "circa": true
+        "m": 5,
+        "circa": true,
+        "to": {
+          "y": 1892,
+          "m": 6
+        }
       },
       "supports": "By mid-1892 Wilde writes to Ross about Bosie in terms assuming familiarity; the two men are co-members of the inner circle.",
       "verification": "verified-exact",
@@ -89,7 +94,8 @@
       "provenance": "Repo PDF p. 546 (printed folio 526 confirmed on the rendered page), read as page image 2026-08-03.",
       "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
-      "voice": "period"
+      "voice": "period",
+      "addressee": "Robert Ross"
     },
     {
       "quote": "I subsequently discovered that Robert Ross during the marriage ceremony was in the church in the background. I had taken him into my confidence because, as I have already said, Olive and I used to meet occasionally at his little picture shop in Ryder Street. For some extraordinary reason Ross always seemed to resent my marriage. All the same, I continued to be on good terms with him for several years after it took place, and he professed to be devoted to Olive, and made every effort to ingratiate himself with her.",
@@ -133,8 +139,11 @@
       "locator": "PDF p. 53",
       "locator_type": "page",
       "evidence_date": {
-        "y": 1892,
-        "circa": true
+        "y": 1891,
+        "circa": true,
+        "to": {
+          "y": 1892
+        }
       },
       "supports": "Non-corroboration of the alleged early-1890s Douglas-Ross affair by a named biographer who can be read in the source: Murray's account of their meeting is friendship formed inside Wilde's circle, with the rivalry running through Wilde rather than between the two men.",
       "verification": "verified-elision",
@@ -178,7 +187,8 @@
       "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
       "voice": "period",
-      "speaker": "Lord Alfred Douglas"
+      "speaker": "Lord Alfred Douglas",
+      "addressee": "Robert Ross"
     },
     {
       "quote": "Relations between Bosie and Robbie were deteriorating fast.   Though Robbie once said that the three most important men in his life had been Oscar Wilde, Bosie Douglas and Freddie Smith, by the end of 1907, relations with Bosie were distinctly frosty.",

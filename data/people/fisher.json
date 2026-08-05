@@ -1,0 +1,22 @@
+{
+  "id": "fisher",
+  "name": "Richard Fisher",
+  "sort_name": "Fisher, Richard",
+  "aka": [
+    "Fishlet"
+  ],
+  "born": null,
+  "died": null,
+  "group": "aesthete",
+  "gender": "m",
+  "bio": "A member of E. P. Warren's Lewes House household, John Marshall's friend from Liverpool College, and 'Fishlet' to the others there. Sox lists 'Matt Prichard's alliance with Richard Fisher' among the jealousies and rivalries that marked Warren's relationships; Fothergill's memoir has Prichard growing jealous of Fothergill and Marshall, taking 'little Fisher' with him to the North Room and never appearing in the upper rooms again. The two left together for the Boston Museum of Fine Arts in 1901, which Warren read as going over to the enemy.",
+  "bio_sources": [
+    "sox-1991"
+  ],
+  "bio_note": "Transcription and provenance reused unchanged from the context_engagement on prichard.json, where he was held off-roster until 2026-08-05. 'Alliance' is Sox's own word and nothing read characterises the bond further; the Fothergill passage (p. 150, rendered) describes the pairing-off and the retreat to the North Room, and the 1901 Boston departure is at p. 40. Warren's 'going over to the enemy' is at p. 70 and was read in the text layer only, so it stays a pointer rather than a quotation.",
+  "context_engagements": [],
+  "research_status": "phase-a",
+  "wikidata": null,
+  "wikipedia": null,
+  "roster_note": "Promoted from an off-roster context_engagement on prichard.json, 2026-08-05, in the pass that put every off-roster person on the map. The sources moved with him unchanged."
+}

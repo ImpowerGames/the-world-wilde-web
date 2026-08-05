@@ -1,0 +1,41 @@
+{
+  "id": "balcombe--stoker",
+  "people": [
+    "balcombe",
+    "stoker"
+  ],
+  "certainty": "married",
+  "certainty_status": "proposed",
+  "certainty_reasoning": "Married, on the plainest kind of evidence this map has: a dated editorial footnote in the standard scholarly edition of Wilde's letters, giving the day, the church and the husband's dates, read at the printed page. Nothing here is in dispute and nothing rests on a name match.",
+  "start": {
+    "y": 1878,
+    "m": 12,
+    "d": 4
+  },
+  "end": {
+    "y": 1912
+  },
+  "date_label": "m. 4 December 1878 at St Anne's Church, Dublin; ended by his death in 1912",
+  "summary": "Wilde courted Florence Balcombe for about two years and gave her a small gold cross with their names on it. In December 1878 she married Bram Stoker instead, at St Anne's Church, Dublin, and went with him to London. Wilde's letters asking for the cross back - and refusing to meet her again in the city where they had been happy - are what put this marriage in the record at all.",
+  "sources": [
+    {
+      "quote": "Florence Balcombe was married on 4 December 1878 at St Anne's Church, Dublin, to Bram Stoker (1847–1912), a young Irish civil servant with literary and dramatic interests.",
+      "context": "Holland & Hart-Davis, editorial note on Wilde's parting letters to Florence",
+      "work": "letters-2000",
+      "locator": "p. 72 n. 1",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1878,
+        "m": 12,
+        "d": 4
+      },
+      "supports": "The Stoker marriage: date, church, husband",
+      "verification": "verified-exact",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF page 99, printed folio 72 confirmed on rendered page, read as page image 2026-08-03.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "modern"
+    }
+  ]
+}

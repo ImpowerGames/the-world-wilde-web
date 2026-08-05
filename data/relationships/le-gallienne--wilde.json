@@ -1,0 +1,41 @@
+{
+  "id": "le-gallienne--wilde",
+  "people": [
+    "le-gallienne",
+    "wilde"
+  ],
+  "certainty": "attraction-expressed",
+  "certainty_status": "proposed",
+  "direction": "wilde",
+  "outcome": "unknown",
+  "certainty_reasoning": "Wilde's own words, and only Wilde's: Le Gallienne's side of the correspondence is not in this volume, so the record is one-sided by survival. The December 1890 letter names the bond itself - \"Friendship and love like ours\" - and closes on an image of kissing him, hedged into a compliment about his laurels. That is legible as attraction without needing any coding hypothesis, and it is the strongest thing the sweep of the whole volume turned up outside the people already mapped. What follows from it is not recorded, hence `outcome: unknown`. On the class. `attraction-expressed` records that **the surviving record is one-sided** - Wilde's letter survives and the other man's does not - and since August 2026 its bar is attraction legible to an ordinary reader rather than an approach or a declaration. That widening is what lets this person onto the map at all. It is a statement about the paper, not about what either man felt or did.",
+  "start": {
+    "y": 1890
+  },
+  "end": null,
+  "date_label": "fourteen letters survive across roughly a decade; the letter that carries the class is postmarked 1 December 1890",
+  "summary": "Wilde wrote to Richard Le Gallienne over about ten years, mostly about books. In December 1890, thanking him for his study of Meredith, the register changed: he asked when they could meet, named what was between them as friendship and love, and finished on his laurels being too thick to kiss beneath. Le Gallienne's replies are not in the volume, so what came of it is not on the record.",
+  "sources": [
+    {
+      "quote": "I want so much to see you: when can that be? Friendship and love like ours need not meetings, but they are delightful. I hope your laurels are not too thick across your brow for me to kiss your eyelids. Always yours OSCAR",
+      "context": "The close of Wilde's letter to Le Gallienne postmarked 1 December 1890, from 16 Tite Street, praising his George Meredith: Some Characteristics, published a fortnight before. The preceding paragraph is literary criticism of the ordinary extravagant kind; the last paragraph is not.",
+      "work": "letters-2000",
+      "locator": "p. 457",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1890,
+        "m": 12,
+        "d": 1
+      },
+      "supports": "The class, and the direction - this is Wilde writing, and only Wilde.",
+      "verification": "verified-exact",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF p. 479 read as a rendered page image 2026-08-04; printed folio 457 confirmed at the foot of the image. Located first in the complete OCR mirror, which locates only. Superscript note markers omitted as typography.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-04",
+      "speaker": "Oscar Wilde",
+      "addressee": "Richard Le Gallienne",
+      "voice": "period"
+    }
+  ]
+}

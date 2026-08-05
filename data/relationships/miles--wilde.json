@@ -1,139 +1,141 @@
 {
- "id": "miles--wilde",
- "people": [
-  "miles",
-  "wilde"
- ],
- "certainty": "uncorroborated",
- "certainty_status": "proposed",
- "certainty_reasoning": "The documentary record read attests a close friendship from the Oxford years and a documented cohabitation (Salisbury Street to August 1880, then Keats House, Tite Street) - first-person in Wilde's letters and confirmed by the editors - but makes no romantic or sexual claim anywhere. The romantic reading belongs to later secondary tradition. That tradition has now been consulted rather than merely pointed at: McKenna asserts it outright and footnotes nothing for it (see disputed, grounds). The edge therefore stays uncorroborated, with the friendship, the Irish visits and the cohabitation all fully documented in Wilde's own letters.",
- "start": {
-  "y": 1876,
-  "circa": true,
-  "label": "friendship from the mid-1870s; cohabitation from 1879"
- },
- "end": {
-  "y": 1881,
-  "circa": true,
-  "label": "cohabitation attested into 1881 (last evidence read)"
- },
- "date_label": "c. 1876 - c. 1881 (cohabitation 1879-81)",
- "summary": "Wilde and the portraitist Frank Miles shared rooms for roughly two years - Thames House, 13 Salisbury Street until August 1880, then Keats House, 1 Tite Street - at the center of the 'Tea and Beauties' social world of Wilde's first London years. Whether the bond had a romantic dimension is asserted by McKenna, who states it without citing anything for it; the primary record read makes no such claim.",
- "disputed": {
-  "claim": "That the Wilde-Miles friendship and cohabitation had a romantic or sexual dimension.",
-  "asserted_by": "Both works in this tradition have now been consulted at page (2026-08-04). Neil McKenna, Secret Life (2008 edn), PDF p. 34: Oscar and Frank 'were almost certainly already lovers' by the early summer of 1876, and Wilde later confessed to Douglas that 'he and Frank first had sex' at Oxford. Rupert Croft-Cooke, The Unrecorded Life (1972), pp. 40 and 45: 'the first of Wilde's passionate friendships with another man', and 'the chattering love that was between Oscar and him'.",
-  "disputed_by": null,
-  "grounds": "Nothing in the primary record makes the claim, and neither asserting work supports it with a source. McKenna's chapter notes for 'Tea and beauties' (PDF p. 723) carry a citation for every quotation in the chapter and none for either 'almost certainly already lovers' or the 1892 confession; both are unfootnoted assertion. Croft-Cooke has no apparatus at all - no notes, no bibliography - but he does something McKenna does not, which is show his reasoning and mark it as reasoning: the 'alien note' he hears in Wilde's letters whenever Miles is mentioned, and the stay at Illaunroe that 'must have been an affectionate adventure'. That is argument from register and circumstance, offered as such. The two also claim different things - Croft-Cooke claims love and passionate friendship, McKenna claims sex - and only the weaker claim is argued. Per this repository's note on McKenna he is never the sole basis for a class above uncorroborated, and Croft-Cooke adds inference rather than evidence, so consulting both settles the class where it is rather than moving it. The friendship, the Irish visits and the cohabitation are documented throughout in Wilde's own letters and are not what is in question."
- },
- "sources": [
-  {
-   "quote": "And now I am trying to settle a new house, where Mr Miles and I are going to live. The address is horrid but the house very pretty. It is much nearer you than my old house, so I hope we shall often, if you let me, have 'dishes of tea' at one another's houses.",
-   "context": "Wilde to Mrs Alfred Hunt, 25 August [1880], announcing the move to Keats House, Tite Street",
-   "work": "letters-2000",
-   "locator": "p. 94",
-   "locator_type": "page",
-   "evidence_date": {
-    "y": 1880,
-    "m": 8,
-    "d": 25
-   },
-   "supports": "The cohabitation, first-person: the joint move to Keats House.",
-   "verification": "verified-exact",
-   "how_verified": "pdf-at-page",
-   "provenance": "Repo PDF p. 119 (printed p. 94, folio confirmed), read as page image 2026-08-03. The editors' n. 1 on the same page identifies the house and the renaming of the street.",
-   "verified_by": "agent-mechanical",
-   "verified_on": "2026-08-03",
-   "voice": "period"
-  },
-  {
-   "quote": "Wilde and Frank Miles shared rooms at this address, off the Strand, until August 1880.",
-   "context": "Holland & Hart-Davis, editorial note on Thames House, 13 Salisbury Street",
-   "work": "letters-2000",
-   "locator": "p. 78 n. 3",
-   "locator_type": "page",
-   "evidence_date": {
-    "y": 1879,
-    "circa": true
-   },
-   "supports": "The Salisbury Street cohabitation and its end date, in the editors' words.",
-   "verification": "verified-exact",
-   "how_verified": "pdf-at-page",
-   "provenance": "Repo PDF p. 103 (printed p. 78, folio confirmed), read as page image 2026-08-03.",
-   "verified_by": "agent-mechanical",
-   "verified_on": "2026-08-03",
-   "voice": "modern"
-  },
-  {
-   "work": "letters-2000",
-   "locator": "p. 30",
-   "locator_type": "page",
-   "quote": "Frank Miles and I came down here last week, and have had a very royal time of it sailing. We are at the top of Lough Corrib, which if you refer to your geography you will find to be a lake thirty miles long, ten broad and situated in the most romantic scenery in Ireland. … But on Friday we go into Connemara to a charming little fishing lodge we have in the mountains where I hope to make him land a salmon and kill a brace of grouse.",
-   "context": "Wilde to Reginald Harding, Wednesday [?16 August 1876], Moytura House, Cong, Co. Mayo",
-   "voice": "period",
-   "evidence_date": {
+  "id": "miles--wilde",
+  "people": [
+    "miles",
+    "wilde"
+  ],
+  "certainty": "uncorroborated",
+  "certainty_status": "proposed",
+  "certainty_reasoning": "The documentary record read attests a close friendship from the Oxford years and a documented cohabitation (Salisbury Street to August 1880, then Keats House, Tite Street) - first-person in Wilde's letters and confirmed by the editors - but makes no romantic or sexual claim anywhere. The romantic reading belongs to later secondary tradition. That tradition has now been consulted rather than merely pointed at: McKenna asserts it outright and footnotes nothing for it (see disputed, grounds). The edge therefore stays uncorroborated, with the friendship, the Irish visits and the cohabitation all fully documented in Wilde's own letters.",
+  "start": {
     "y": 1876,
-    "m": 8,
-    "d": 16
-   },
-   "supports": "The mid-1870s visits the General Index pointed to: Miles staying with Wilde at the family house on Lough Corrib and going on with him to Illaunroe Lodge, Connemara. Establishes the friendship's early span in Wilde's own words. The register is ordinary undergraduate companionship - sailing, shooting, drawings - and carries nothing romantic on its face.",
-   "verification": "verified-elision",
-   "how_verified": "pdf-at-page",
-   "verified_by": "Claude (Opus 5)",
-   "verified_on": "2026-08-04",
-   "provenance": "Repo PDF p. 55 rendered and read as a page image 2026-08-04; folio 30 printed at the foot, giving offset +25 in this part of the volume - well below the page map's lowest anchor (printed 78), so the offset here was previously unestablished. The elision drops a paragraph on Miles's drawings."
+    "circa": true,
+    "label": "friendship from the mid-1870s; cohabitation from 1879"
   },
-  {
-   "work": "mckenna-2008",
-   "locator": "PDF p. 34",
-   "locator_type": "page",
-   "quote": "By early summer, Oscar and Frank were good friends and were almost certainly already lovers. On a visit to Bosie at Oxford in 1892, Oscar would confess - in a fit of nostalgia de la bone - that he and Frank first had sex there.",
-   "context": "McKenna, Secret Life, chapter 'Tea and beauties', on the spring and early summer of 1876",
-   "voice": "modern",
-   "evidence_date": {
-    "y": 1876
-   },
-   "supports": "The assertion itself, quoted so it can be weighed rather than paraphrased. It is the whole of the case for a romantic dimension, and McKenna footnotes none of it.",
-   "verification": "verified-exact",
-   "how_verified": "pdf-at-page",
-   "verified_by": "Claude (Opus 5)",
-   "verified_on": "2026-08-04",
-   "provenance": "Repo PDF p. 34 rendered and read as a page image 2026-08-04. No printed folio on the page, so cited as a PDF page per the convention for this work. 'nostalgia de la bone' is transcribed as printed; read 'nostalgie de la boue'."
+  "end": {
+    "y": 1881,
+    "circa": true,
+    "label": "cohabitation attested into 1881 (last evidence read)"
   },
-  {
-   "work": "croft-cooke-1972",
-   "locator": "p. 40",
-   "locator_type": "page",
-   "quote": "The only occasions on which one detects an alien note in his letters both to Bouncer and Kitten is when he mentions Frank Miles, and this brings us to the first of Wilde's passionate friendships with another man; one which lasted five years and survived the two men's living together in two London homes.",
-   "context": "Croft-Cooke, The Unrecorded Life of Oscar Wilde, chapter 'Oxford'",
-   "voice": "modern",
-   "evidence_date": {
-    "y": 1876
-   },
-   "supports": "The second of the two assertions of a romantic dimension, and the one that states its own basis: a change of register Croft-Cooke hears in the letters, not a document.",
-   "verification": "verified-exact",
-   "how_verified": "pdf-at-page",
-   "verified_by": "Claude (Opus 5)",
-   "verified_on": "2026-08-04",
-   "provenance": "Repo PDF p. 56 rendered and read as a page image 2026-08-04; running head gives folio 40."
+  "date_label": "c. 1876 - c. 1881 (cohabitation 1879-81)",
+  "summary": "Wilde and the portraitist Frank Miles shared rooms for roughly two years - Thames House, 13 Salisbury Street until August 1880, then Keats House, 1 Tite Street - at the center of the 'Tea and Beauties' social world of Wilde's first London years. Whether the bond had a romantic dimension is asserted by McKenna, who states it without citing anything for it; the primary record read makes no such claim.",
+  "disputed": {
+    "claim": "That the Wilde-Miles friendship and cohabitation had a romantic or sexual dimension.",
+    "asserted_by": "Both works in this tradition have now been consulted at page (2026-08-04). Neil McKenna, Secret Life (2008 edn), PDF p. 34: Oscar and Frank 'were almost certainly already lovers' by the early summer of 1876, and Wilde later confessed to Douglas that 'he and Frank first had sex' at Oxford. Rupert Croft-Cooke, The Unrecorded Life (1972), pp. 40 and 45: 'the first of Wilde's passionate friendships with another man', and 'the chattering love that was between Oscar and him'.",
+    "disputed_by": null,
+    "grounds": "Nothing in the primary record makes the claim, and neither asserting work supports it with a source. McKenna's chapter notes for 'Tea and beauties' (PDF p. 723) carry a citation for every quotation in the chapter and none for either 'almost certainly already lovers' or the 1892 confession; both are unfootnoted assertion. Croft-Cooke has no apparatus at all - no notes, no bibliography - but he does something McKenna does not, which is show his reasoning and mark it as reasoning: the 'alien note' he hears in Wilde's letters whenever Miles is mentioned, and the stay at Illaunroe that 'must have been an affectionate adventure'. That is argument from register and circumstance, offered as such. The two also claim different things - Croft-Cooke claims love and passionate friendship, McKenna claims sex - and only the weaker claim is argued. Per this repository's note on McKenna he is never the sole basis for a class above uncorroborated, and Croft-Cooke adds inference rather than evidence, so consulting both settles the class where it is rather than moving it. The friendship, the Irish visits and the cohabitation are documented throughout in Wilde's own letters and are not what is in question."
   },
-  {
-   "work": "croft-cooke-1972",
-   "locator": "p. 45",
-   "locator_type": "page",
-   "quote": "their stay at Illaunroe must have been an affectionate adventure, alone as they were in the house with the lake behind it and before, and their youth and mutual attraction to make the hours pass. … So little has been recorded of Frank Miles that this relic of his occupation of the house with Oscar … seems an almost defiant assertion of his existence and the chattering love that was between Oscar and him.",
-   "context": "Croft-Cooke on the August 1876 stay at Illaunroe Lodge, Connemara, and on the mural of two cherubs angling, titled TIGHT LINES, that Miles painted in the entrance hall",
-   "voice": "modern",
-   "evidence_date": {
-    "y": 1876,
-    "m": 8
-   },
-   "supports": "How far the claim is argued rather than evidenced - 'must have been' is Croft-Cooke's own marker that this is inference from circumstance. The mural itself he saw: he visited the lodge and found it still there, which evidences Miles's presence in the house, not the nature of the attachment.",
-   "verification": "verified-elision",
-   "how_verified": "pdf-at-page",
-   "verified_by": "Claude (Opus 5)",
-   "verified_on": "2026-08-04",
-   "provenance": "Repo PDF p. 61 rendered and read as a page image 2026-08-04; running head gives folio 45."
-  }
- ],
- "prior_class": "alleged"
+  "sources": [
+    {
+      "quote": "And now I am trying to settle a new house, where Mr Miles and I are going to live. The address is horrid but the house very pretty. It is much nearer you than my old house, so I hope we shall often, if you let me, have 'dishes of tea' at one another's houses.",
+      "context": "Wilde to Mrs Alfred Hunt, 25 August [1880], announcing the move to Keats House, Tite Street",
+      "work": "letters-2000",
+      "locator": "p. 94",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1880,
+        "m": 8,
+        "d": 25
+      },
+      "supports": "The cohabitation, first-person: the joint move to Keats House.",
+      "verification": "verified-exact",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF p. 119 (printed p. 94, folio confirmed), read as page image 2026-08-03. The editors' n. 1 on the same page identifies the house and the renaming of the street.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "period",
+      "addressee": "Mrs Alfred Hunt"
+    },
+    {
+      "quote": "Wilde and Frank Miles shared rooms at this address, off the Strand, until August 1880.",
+      "context": "Holland & Hart-Davis, editorial note on Thames House, 13 Salisbury Street",
+      "work": "letters-2000",
+      "locator": "p. 78 n. 3",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1879,
+        "circa": true
+      },
+      "supports": "The Salisbury Street cohabitation and its end date, in the editors' words.",
+      "verification": "verified-exact",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF p. 103 (printed p. 78, folio confirmed), read as page image 2026-08-03.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "modern"
+    },
+    {
+      "work": "letters-2000",
+      "locator": "p. 30",
+      "locator_type": "page",
+      "quote": "Frank Miles and I came down here last week, and have had a very royal time of it sailing. We are at the top of Lough Corrib, which if you refer to your geography you will find to be a lake thirty miles long, ten broad and situated in the most romantic scenery in Ireland. … But on Friday we go into Connemara to a charming little fishing lodge we have in the mountains where I hope to make him land a salmon and kill a brace of grouse.",
+      "context": "Wilde to Reginald Harding, Wednesday [?16 August 1876], Moytura House, Cong, Co. Mayo",
+      "voice": "period",
+      "evidence_date": {
+        "y": 1876,
+        "m": 8,
+        "d": 16
+      },
+      "supports": "The mid-1870s visits the General Index pointed to: Miles staying with Wilde at the family house on Lough Corrib and going on with him to Illaunroe Lodge, Connemara. Establishes the friendship's early span in Wilde's own words. The register is ordinary undergraduate companionship - sailing, shooting, drawings - and carries nothing romantic on its face.",
+      "verification": "verified-elision",
+      "how_verified": "pdf-at-page",
+      "verified_by": "Claude (Opus 5)",
+      "verified_on": "2026-08-04",
+      "provenance": "Repo PDF p. 55 rendered and read as a page image 2026-08-04; folio 30 printed at the foot, giving offset +25 in this part of the volume - well below the page map's lowest anchor (printed 78), so the offset here was previously unestablished. The elision drops a paragraph on Miles's drawings.",
+      "addressee": "Reginald Harding"
+    },
+    {
+      "work": "mckenna-2008",
+      "locator": "PDF p. 34",
+      "locator_type": "page",
+      "quote": "By early summer, Oscar and Frank were good friends and were almost certainly already lovers. On a visit to Bosie at Oxford in 1892, Oscar would confess - in a fit of nostalgia de la bone - that he and Frank first had sex there.",
+      "context": "McKenna, Secret Life, chapter 'Tea and beauties', on the spring and early summer of 1876",
+      "voice": "modern",
+      "evidence_date": {
+        "y": 1876
+      },
+      "supports": "The assertion itself, quoted so it can be weighed rather than paraphrased. It is the whole of the case for a romantic dimension, and McKenna footnotes none of it.",
+      "verification": "verified-exact",
+      "how_verified": "pdf-at-page",
+      "verified_by": "Claude (Opus 5)",
+      "verified_on": "2026-08-04",
+      "provenance": "Repo PDF p. 34 rendered and read as a page image 2026-08-04. No printed folio on the page, so cited as a PDF page per the convention for this work. 'nostalgia de la bone' is transcribed as printed; read 'nostalgie de la boue'."
+    },
+    {
+      "work": "croft-cooke-1972",
+      "locator": "p. 40",
+      "locator_type": "page",
+      "quote": "The only occasions on which one detects an alien note in his letters both to Bouncer and Kitten is when he mentions Frank Miles, and this brings us to the first of Wilde's passionate friendships with another man; one which lasted five years and survived the two men's living together in two London homes.",
+      "context": "Croft-Cooke, The Unrecorded Life of Oscar Wilde, chapter 'Oxford'",
+      "voice": "modern",
+      "evidence_date": {
+        "y": 1876
+      },
+      "supports": "The second of the two assertions of a romantic dimension, and the one that states its own basis: a change of register Croft-Cooke hears in the letters, not a document.",
+      "verification": "verified-exact",
+      "how_verified": "pdf-at-page",
+      "verified_by": "Claude (Opus 5)",
+      "verified_on": "2026-08-04",
+      "provenance": "Repo PDF p. 56 rendered and read as a page image 2026-08-04; running head gives folio 40."
+    },
+    {
+      "work": "croft-cooke-1972",
+      "locator": "p. 45",
+      "locator_type": "page",
+      "quote": "their stay at Illaunroe must have been an affectionate adventure, alone as they were in the house with the lake behind it and before, and their youth and mutual attraction to make the hours pass. … So little has been recorded of Frank Miles that this relic of his occupation of the house with Oscar … seems an almost defiant assertion of his existence and the chattering love that was between Oscar and him.",
+      "context": "Croft-Cooke on the August 1876 stay at Illaunroe Lodge, Connemara, and on the mural of two cherubs angling, titled TIGHT LINES, that Miles painted in the entrance hall",
+      "voice": "modern",
+      "evidence_date": {
+        "y": 1876,
+        "m": 8
+      },
+      "supports": "How far the claim is argued rather than evidenced - 'must have been' is Croft-Cooke's own marker that this is inference from circumstance. The mural itself he saw: he visited the lodge and found it still there, which evidences Miles's presence in the house, not the nature of the attachment.",
+      "verification": "verified-elision",
+      "how_verified": "pdf-at-page",
+      "verified_by": "Claude (Opus 5)",
+      "verified_on": "2026-08-04",
+      "provenance": "Repo PDF p. 61 rendered and read as a page image 2026-08-04; running head gives folio 45."
+    }
+  ],
+  "prior_class": "alleged"
 }

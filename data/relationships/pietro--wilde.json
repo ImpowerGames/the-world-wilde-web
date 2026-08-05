@@ -4,11 +4,11 @@
     "pietro",
     "wilde"
   ],
-  "certainty": "desire-expressed",
+  "certainty": "attraction-expressed",
   "direction": "wilde",
   "outcome": "unknown",
   "certainty_status": "proposed",
-  "certainty_reasoning": "Wilde records admiration and nothing further: a description ('a little Italian, Pietro, like a young St John') followed by a declaration in the impersonal conditional ('One would have followed him into the desert'). No approach, no second meeting and no outcome are recorded, which is exactly the desire-expressed shape - direction 'wilde', outcome 'unknown'. This clears the README bar more comfortably than the André clause beside it: a reader who does not hold the coding hypothesis still reads a man saying he would have followed a beautiful young man anywhere, which is a statement about wanting to be near him and not merely a note that he was good-looking. The reading is nonetheless this project's; no scholarly source was consulted. Against a stronger class: romantic-nonsexual would assert a mutual connection the letter does not document - the affect on the page is entirely Wilde's, and Pietro is grammatically the object throughout - and there is no first-person statement of sexual relations for documented-sexual. Standing caveat for this tier: the record is one-sided by nature. These men left no papers; everything known is what Wilde wrote to a friend. An unrecorded outcome is not evidence of no outcome, and Pietro's own view of the meeting is not recorded anywhere.",
+  "certainty_reasoning": "Wilde records admiration and nothing further: a description ('a little Italian, Pietro, like a young St John') followed by a declaration in the impersonal conditional ('One would have followed him into the desert'). No approach, no second meeting and no outcome are recorded, which is exactly the attraction-expressed shape - direction 'wilde', outcome 'unknown'. This clears the README bar more comfortably than the André clause beside it: a reader who does not hold the coding hypothesis still reads a man saying he would have followed a beautiful young man anywhere, which is a statement about wanting to be near him and not merely a note that he was good-looking. The reading is nonetheless this project's; no scholarly source was consulted. Against a stronger class: romantic-nonsexual would assert a mutual connection the letter does not document - the affect on the page is entirely Wilde's, and Pietro is grammatically the object throughout - and there is no first-person statement of sexual relations for documented-sexual. Standing caveat for this tier: the record is one-sided by nature. These men left no papers; everything known is what Wilde wrote to a friend. An unrecorded outcome is not evidence of no outcome, and Pietro's own view of the meeting is not recorded anywhere.",
   "start": {
     "y": 1899,
     "m": 1
@@ -36,7 +36,8 @@
       "provenance": "Repo PDF page 1164, printed folio 1118 confirmed on rendered page, read as a page image 2026-08-03; transcription and provenance carried forward unchanged (dossiers/EXILE-COMPANIONS_dossier.md T1).",
       "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
-      "voice": "period"
+      "voice": "period",
+      "addressee": "Robert Ross"
     }
   ]
 }

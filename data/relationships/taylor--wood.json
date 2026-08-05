@@ -42,7 +42,31 @@
       "provenance": "IA in.ernet.dli.2015.499238, leaf 241 (printed p. 201); rendered at 3x from the item's text PDF and read as a page image 2026-08-03, with the printed folio confirmed in the page's bottom margin.",
       "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
-      "voice": "period"
+      "speaker": "Alfred Wood",
+      "voice": "exchange",
+      "addressee": "Mr. Avory",
+      "turns": [
+        {
+          "who": "Wood",
+          "text": "Alfred Wood, examined by Mr. Avory—I was formerly a clerk. In January, 1893, I was not in any occupation. I first knew Taylor about that time."
+        },
+        {
+          "who": "Avory",
+          "text": "When did you go to Little College Street to live?"
+        },
+        {
+          "who": "Wood",
+          "text": "In January, 1893. I stayed about three weeks."
+        },
+        {
+          "who": "Avory",
+          "text": "Where did you sleep there?"
+        },
+        {
+          "who": "Wood",
+          "text": "In the same room with Taylor. There was only one bed there."
+        }
+      ]
     },
     {
       "quote": "Had you been guilty of any acts of indecency before you knew Wilde?—No, not with any man until I went to College Street.",
@@ -60,7 +84,19 @@
       "provenance": "IA in.ernet.dli.2015.499238, leaf 245 (printed p. 205); rendered at 3x from the item's text PDF and read as a page image 2026-08-03, with the printed folio confirmed in the page's bottom margin.",
       "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
-      "voice": "period"
+      "speaker": "Alfred Wood",
+      "voice": "exchange",
+      "addressee": "Mr Gill",
+      "turns": [
+        {
+          "who": "Gill",
+          "text": "Had you been guilty of any acts of indecency before you knew Wilde?"
+        },
+        {
+          "who": "Wood",
+          "text": "No, not with any man until I went to College Street."
+        }
+      ]
     },
     {
       "quote": "Were Taylor's visitors, as a class, women or men?—Men—young men from sixteen to thirty. I have seen Alfred Wood there. He once stayed for three weeks.",
@@ -78,7 +114,19 @@
       "provenance": "IA in.ernet.dli.2015.499238, leaf 239 (printed p. 199), read as IIIF page image 2026-08-03",
       "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
-      "voice": "period"
+      "speaker": "Ellen Grant, landlady of 13 Little College Street",
+      "voice": "exchange",
+      "addressee": "Mr Gill",
+      "turns": [
+        {
+          "who": "Gill",
+          "text": "Were Taylor's visitors, as a class, women or men?"
+        },
+        {
+          "who": "Grant",
+          "text": "Men—young men from sixteen to thirty. I have seen Alfred Wood there. He once stayed for three weeks."
+        }
+      ]
     },
     {
       "quote": "When did you first make the acquaintance of Alfred Wood?—In May, 1892. Where?—At Atkins's rooms in Alderney Street.",
@@ -96,7 +144,27 @@
       "provenance": "IA in.ernet.dli.2015.499238, leaf 330 (printed p. 286), read as IIIF page image 2026-08-03",
       "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
-      "voice": "period"
+      "speaker": "Alfred Taylor",
+      "voice": "exchange",
+      "addressee": "the Solicitor-General",
+      "turns": [
+        {
+          "who": "Solicitor-General",
+          "text": "When did you first make the acquaintance of Alfred Wood?"
+        },
+        {
+          "who": "Taylor",
+          "text": "In May, 1892."
+        },
+        {
+          "who": "Solicitor-General",
+          "text": "Where?"
+        },
+        {
+          "who": "Taylor",
+          "text": "At Atkins's rooms in Alderney Street."
+        }
+      ]
     }
   ],
   "prior_class": "alleged"

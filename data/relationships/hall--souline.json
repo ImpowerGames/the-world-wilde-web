@@ -6,7 +6,7 @@
   ],
   "certainty": "self-reported",
   "certainty_status": "proposed",
-  "certainty_reasoning": "Hall's own letters are the evidence, which is the README's self-reported test in its plainest form: nine years of them, published entire as Your John, in which she names the attachment continuously and without ambiguity. The class rests on the participant's own words and needs no corroborating layer, though it has one - Glasgow's introduction, and Hall's biographers Dickson and Baker, both of whom read these letters before they were published. Note the asymmetry the record cannot fix: **Souline's side does not survive.** Of nine years of her letters to Hall exactly one, from 1939, is extant, so every word here is Hall's about Souline and none is Souline's about Hall. Glasgow is explicit that Souline's responses can only be speculated about, and reads two alternating reactions in them, \"flattered interest and terror\". The edge is therefore well-evidenced as to Hall's feeling and one-sided as to the record; it is not classed desire-expressed, because the relationship itself is not in doubt - only Souline's voice is missing.",
+  "certainty_reasoning": "Hall's own letters are the evidence, which is the README's self-reported test in its plainest form: nine years of them, published entire as Your John, in which she names the attachment continuously and without ambiguity. The class rests on the participant's own words and needs no corroborating layer, though it has one - Glasgow's introduction, and Hall's biographers Dickson and Baker, both of whom read these letters before they were published. Note the asymmetry the record cannot fix: **Souline's side does not survive.** Of nine years of her letters to Hall exactly one, from 1939, is extant, so every word here is Hall's about Souline and none is Souline's about Hall. Glasgow is explicit that Souline's responses can only be speculated about, and reads two alternating reactions in them, \"flattered interest and terror\". The edge is therefore well-evidenced as to Hall's feeling and one-sided as to the record; it is not classed attraction-expressed, because the relationship itself is not in doubt - only Souline's voice is missing.",
   "start": {
     "y": 1934
   },
@@ -34,6 +34,7 @@
       "verified_by": "agent-mechanical",
       "verified_on": "2026-08-04",
       "speaker": "Radclyffe Hall, letter to Evguenia Souline",
+      "addressee": "Evguenia Souline",
       "voice": "period"
     },
     {
@@ -53,6 +54,7 @@
       "verified_by": "agent-mechanical",
       "verified_on": "2026-08-04",
       "speaker": "Radclyffe Hall, letter to Evguenia Souline",
+      "addressee": "Evguenia Souline",
       "voice": "period"
     },
     {

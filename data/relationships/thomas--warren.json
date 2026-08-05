@@ -1,0 +1,38 @@
+{
+  "id": "thomas--warren",
+  "people": [
+    "thomas",
+    "warren"
+  ],
+  "certainty": "attraction-expressed",
+  "certainty_status": "proposed",
+  "certainty_reasoning": "Attraction expressed, arrow from Warren, outcome unknown. Every word of feeling in this record is on Warren's side and is reported by Sox - 'infatuation', loved, 'wanted to possess'. What was seen from outside is carefully hedged in the source itself: SOME SAW Thomas as 'Ned's new boy friend', which records a perception and not a fact, and the quotation marks are Sox's. Nothing of Thomas's own view survives in anything read; he married, and he stayed in the household for twenty-five years, and neither of those settles the question either way, so the outcome stays unknown rather than being read off his marriage.",
+  "direction": "warren",
+  "outcome": "unknown",
+  "start": {
+    "y": 1903,
+    "circa": true
+  },
+  "end": null,
+  "date_label": "c. 1903 – 1928",
+  "summary": "Harry Thomas came to Warren as protege and private secretary, giving Lewes House as his Harvard address in 1903-04. By 1906 Warren was parading him around Boston and Fewacres and some read him as 'Ned's new boy friend'; Marshall was bitterly jealous. Sox counts Warren's infatuation with Thomas among the strains that ran through his relationships, and counts Thomas among those Warren loved and wanted to possess. Thomas married Nan Devey the year after Marshall married, and stayed in Warren's service until Warren died.",
+  "sources": [
+    {
+      "quote": "In 1906, Ned paraded his young and handsome protégé, Harry, around Boston and Fewacres. This was especially hard for Marshall to swallow as some saw Harry as 'Ned's new boy friend'.",
+      "context": "On the growing 1906-07 alienation between Warren and Marshall; the preceding sentences: Marshall despised Harold Parsons and 'of the other, Harry Thomas, he was bitterly jealous'.",
+      "work": "sox-1991",
+      "locator": "p. 77",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1906
+      },
+      "supports": "The contemporary perception of Thomas as 'Ned's new boy friend' and Marshall's jealousy",
+      "verification": "verified-exact",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF page 93, printed folio 77 confirmed on rendered page, read as page image 2026-08-03.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "modern"
+    }
+  ]
+}

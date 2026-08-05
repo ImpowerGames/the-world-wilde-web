@@ -22,8 +22,11 @@
       "locator": "para. 2",
       "locator_type": "none",
       "evidence_date": {
-        "y": 1898,
-        "circa": true
+        "y": 1897,
+        "circa": true,
+        "to": {
+          "y": 1898
+        }
       },
       "supports": "Barney initiated the acquaintance after Opals; wooing with love poems; the Paris invitation.",
       "verification": "verified-exact",
@@ -97,11 +100,15 @@
       "verified_by": "agent-mechanical",
       "verified_on": "2026-08-04",
       "speaker": "Olive Custance, letter to Natalie Barney",
+      "addressee": "Natalie Barney",
       "voice": "period"
     },
     {
       "quote": "Sa première visite fut pour nous et m'enchanta, car lorsque j'embrassai cette fraîche jeune fille, éblouissante de couleur et vibrante de poésie, j'eus l'impression d'étreindre la campagne anglaise.",
-      "context": "Custance's first visit to Barney and Vivien in Paris. Translation: 'Her first visit was to us and enchanted me, for when I kissed this fresh young girl, dazzling with colour and vibrant with poetry, I had the impression of embracing the English countryside.' The same page records Vivien refusing to go to Custance's tea - 'Je n'irai pas' - on the grounds that Custance's gaiety and appearance were unworthy of her verse; Barney reads deeper antagonism under it.",
+      "lang": "fr",
+      "translation": "Her first visit was to us and enchanted me, for when I kissed this fresh young girl, dazzling with colour and vibrant with poetry, I had the impression of embracing the English countryside.",
+      "translation_note": "Barney uses two different verbs of embrace and the sentence turns on the difference: 'j'embrassai' of the girl is rendered 'kissed', keeping 'embracing' for 'd'etreindre' of the countryside, so that the figure still lands on the same word in English as in French.",
+      "context": "Custance's first visit to Barney and Vivien in Paris. The same page records Vivien refusing to go to Custance's tea - 'Je n'irai pas' ('I shall not go') - on the grounds that Custance's gaiety and appearance were unworthy of her verse; Barney reads deeper antagonism under it.",
       "work": "barney-souvenirs-1960",
       "locator": "PDF p. 48 (ch. 'RENÉE VIVIEN')",
       "locator_type": "page",
@@ -112,7 +119,7 @@
       "provenance": "Repo PDF p. 48 read as a rendered page image 2026-08-04. **This printing carries no printed folios and no running heads** - it is an EPUB-to-PDF conversion whose front matter is a 'Sommaire' listing 'Couverture' and 'Page de titre' - so the locator is the PDF page plus the chapter, per the works.json rule. The chapter 'RENÉE VIVIEN' runs PDF pp. 22-84.",
       "verified_by": "agent-mechanical",
       "verified_on": "2026-08-04",
-      "speaker": "Natalie Clifford Barney, Souvenirs indiscrets",
+      "speaker": "Natalie Clifford Barney",
       "voice": "period"
     },
     {
@@ -128,8 +135,11 @@
       "provenance": "Repo PDF p. 50 read as a rendered page image 2026-08-04. **This printing carries no printed folios and no running heads** - it is an EPUB-to-PDF conversion whose front matter is a 'Sommaire' listing 'Couverture' and 'Page de titre' - so the locator is the PDF page plus the chapter, per the works.json rule. The chapter 'RENÉE VIVIEN' runs PDF pp. 22-84.",
       "verified_by": "agent-mechanical",
       "verified_on": "2026-08-04",
-      "speaker": "Natalie Clifford Barney, Souvenirs indiscrets",
-      "voice": "period"
+      "speaker": "Natalie Clifford Barney",
+      "voice": "period",
+      "lang": "fr",
+      "translation": "Far from following the example of that passion which made her unfaithful to Professor B.C., Opale and I shivered with fever — not the fever we had hoped to feel, but a malaria that left us weakened for the whole of our stay, to the point of being unable to leave our twin beds. Opale had a photograph of Antinous hung above her convalescent's bed, which set her dreaming of Lord Alfred Douglas. … However, since she was set on keeping her poet, she hatched a plan to send Lord Alfred to me in the United States, in the hope that a mariage blanc between him and me would settle everything.",
+      "translation_note": "'Mariage blanc' is left in French: it means a marriage never consummated, and there is no English phrase that carries it as exactly."
     },
     {
       "quote": "When Olive reported this unexpected development, Natalie said, “Tell him I'm in love with you.” … Needless to say, she was much more attracted to Olive, especially after an evening they spent bathed in moonlight and poetry. One evening was not enough, however; Natalie wanted to be alone with Olive for a longer time. So when Mrs. Custance and Freddy returned to England, Olive and Natalie went off to Venice, accompanied by the inevitable chaperone … Olive hung the photograph of her lover over her bed. This was none other than Lord Alfred Douglas.",

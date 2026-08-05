@@ -1,0 +1,62 @@
+{
+  "id": "edward-langtry--langtry",
+  "people": [
+    "edward-langtry",
+    "langtry"
+  ],
+  "certainty": "married",
+  "certainty_status": "proposed",
+  "certainty_reasoning": "Married, and the only marriage on this map that ends in divorce - which is part of why it is worth having as an edge rather than a footnote. Two independent sources state the marriage: the Complete Letters editors' main-particulars footnote, already used on her person file, and the Wikipedia article, whose account of this period rests on Ridley and Aronson. The DATES come from Wikipedia alone; the repo footnote gives none. See the person file for the conflict about her age at the wedding, which is recorded and not resolved.",
+  "start": {
+    "y": 1874,
+    "m": 3,
+    "d": 9
+  },
+  "end": {
+    "y": 1897,
+    "m": 5,
+    "d": 13
+  },
+  "date_label": "m. 9 March 1874 in Jersey; divorced 13 May 1897 at Lakeport, California",
+  "summary": "Emilie Le Breton married Edward Langtry in Jersey in March 1874, with the reception at the Royal Yacht Hotel in St Helier, and he took her to London - where, as Lillie Langtry, she became a Society figure, Millais's Jersey Lily, and a friend of the Prince of Wales. Twenty-three years later, having become an American citizen while touring, she divorced him in California. He died within months.",
+  "sources": [
+    {
+      "quote": "On 9 March 1874, 20-year-old Lillie married 26-year-old Edward 'Ned' Langtry (1847-1897), a landowner from Ulster in the north of Ireland.",
+      "context": "Wikipedia, 'Lillie Langtry', on her Jersey years. The wedding reception was at the Royal Yacht Hotel, St Helier. Note the direct conflict with the Complete Letters editors, who call him 'an Irish widower of thirty' and say she married 'in her teens'.",
+      "work": "wikipedia-lillie-langtry",
+      "locator": "section 'Early life'",
+      "locator_type": "none",
+      "evidence_date": {
+        "y": 1874,
+        "m": 3,
+        "d": 9
+      },
+      "supports": "The first marriage: date, place, husband's identity and dates.",
+      "verification": "verified-exact",
+      "how_verified": "web",
+      "provenance": "Plain-text extract of the article fetched through the MediaWiki API and read 2026-08-05; quotation sliced from that extract. Reference-marker brackets omitted as typography.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-05",
+      "voice": "modern"
+    },
+    {
+      "quote": "During her travels in the United States, Langtry became an American citizen and on 13 May 1897, divorced her husband Edward in Lakeport, California.",
+      "context": "Wikipedia, 'Lillie Langtry', on the American years. Edward Langtry died later the same year - a sequence the Complete Letters footnote's bare '1847-1897' silently elides.",
+      "work": "wikipedia-lillie-langtry",
+      "locator": "section on her American career",
+      "locator_type": "none",
+      "evidence_date": {
+        "y": 1897,
+        "m": 5,
+        "d": 13
+      },
+      "supports": "How the first marriage ended: divorce, its date and jurisdiction.",
+      "verification": "verified-exact",
+      "how_verified": "web",
+      "provenance": "Plain-text extract of the article fetched through the MediaWiki API and read 2026-08-05; quotation sliced from that extract. Reference-marker brackets omitted as typography.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-05",
+      "voice": "modern"
+    }
+  ]
+}

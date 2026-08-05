@@ -1,0 +1,41 @@
+{
+  "id": "irma-perry--le-gallienne",
+  "people": [
+    "irma-perry",
+    "le-gallienne"
+  ],
+  "certainty": "married",
+  "certainty_status": "proposed",
+  "certainty_reasoning": "Married - but on the weakest evidential footing of any marriage edge on this map, and the edge should be read that way. ALL THREE LE GALLIENNE MARRIAGES REST ON AN UNCITED WIKIPEDIA NARRATIVE. The sentences carry no inline footnote; Wikidata Q545544 is not an independent check, holding a single P26 claim with zero references and nothing at all for two of the three wives, so the two web sources are one source. What keeps the edge honest rather than speculative is that the repo's own person file states independently that 'He married three times' - the map's record and the article agree on the substance before any date is taken from either - and that the identification is exact, matching 1866-1947 on the person file, the Wikipedia article and Wikidata alike. WHAT WOULD CLOSE IT: Whittington-Egan and Smerdon, The Quest of the Golden Boy (1960), the standard life, and Eva Le Gallienne's memoirs; failing those, the GRO and New York civil registers. Neither is in the repo. This one at least carries an exact date on the page, which the first does not.",
+  "start": {
+    "y": 1911,
+    "m": 10,
+    "d": 27
+  },
+  "end": {
+    "y": 1947
+  },
+  "date_label": "m. 27 October 1911; no end recorded before his death in 1947",
+  "summary": "Four months after Julie Norregaard divorced him, Le Gallienne married Irma Perry, herself divorced since 1904 from her first cousin the sculptor Roland Hinton Perry. They were living in Paris from the late 1920s, and the marriage is not recorded as ending before he died at Menton in 1947.",
+  "sources": [
+    {
+      "quote": "On 27 October 1911, he married Mrs. Irma Perry (nee Hinton), whose previous marriage to her first cousin, the painter and sculptor Roland Hinton Perry, had been dissolved in 1904.",
+      "context": "Wikipedia, 'Richard Le Gallienne', immediately after the sentence recording the June 1911 divorce from Julie Norregaard.",
+      "work": "wikipedia-richard-le-gallienne",
+      "locator": "section on his third marriage",
+      "locator_type": "none",
+      "evidence_date": {
+        "y": 1911,
+        "m": 10,
+        "d": 27
+      },
+      "supports": "The third marriage: exact date, the wife's identity and her previous marriage.",
+      "verification": "verified-exact",
+      "how_verified": "web",
+      "provenance": "Plain-text extract of the article fetched through the MediaWiki API and read 2026-08-05; quotation sliced from that extract. Reference-marker brackets omitted as typography. THE SENTENCE CARRIES NO CITATION ON THE PAGE.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-05",
+      "voice": "modern"
+    }
+  ]
+}

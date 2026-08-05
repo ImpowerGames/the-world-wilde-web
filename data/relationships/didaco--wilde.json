@@ -6,7 +6,7 @@
   ],
   "certainty": "self-reported",
   "certainty_status": "proposed",
-  "certainty_reasoning": "First-person primary evidence by a participant - Wilde's own account to Reginald Turner - but what it attests in plain words is love and three days of company: 'a beautiful young actor, a Florentine, whom I wildly loved … We spent three days together.' That is short of the documented-sexual bar, which requires sexual relations attested. A reader holding the coding hypothesis will read 'We spent three days together', in the exile letters to Turner, as reporting a sexual liaison; that is a reading, and it is this project's, not the editors' - no scholarly source was consulted, so consensus is unavailable. desire-expressed is defined as an approach or declaration and not a relationship, which fits badly: three days together is more than an approach and the outcome is not unknown. romantic-nonsexual is therefore proposed, per the README gloss that 'nonsexual' describes the evidence and not a finding of fact. One-sidedness caveat: the recorded affect is Wilde's ('whom I wildly loved'); Didaco's side is nowhere recorded, and the only mutual element in the text is conduct - 'We spent three days together.'",
+  "certainty_reasoning": "First-person primary evidence by a participant - Wilde's own account to Reginald Turner - but what it attests in plain words is love and three days of company: 'a beautiful young actor, a Florentine, whom I wildly loved … We spent three days together.' That is short of the documented-sexual bar, which requires sexual relations attested. A reader holding the coding hypothesis will read 'We spent three days together', in the exile letters to Turner, as reporting a sexual liaison; that is a reading, and it is this project's, not the editors' - no scholarly source was consulted, so consensus is unavailable. attraction-expressed is defined as an approach or declaration and not a relationship, which fits badly: three days together is more than an approach and the outcome is not unknown. romantic-nonsexual is therefore proposed, per the README gloss that 'nonsexual' describes the evidence and not a finding of fact. One-sidedness caveat: the recorded affect is Wilde's ('whom I wildly loved'); Didaco's side is nowhere recorded, and the only mutual element in the text is conduct - 'We spent three days together.'",
   "start": {
     "y": 1899
   },
@@ -33,7 +33,8 @@
       "provenance": "Repo PDF page 1178, printed folio 1132 confirmed on rendered page, read as page image 2026-08-03.",
       "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
-      "voice": "period"
+      "voice": "period",
+      "addressee": "Reginald Turner"
     }
   ],
   "prior_class": "romantic-nonsexual"

@@ -1,0 +1,26 @@
+{
+  "id": "norregaard",
+  "name": "Julie Nørregaard",
+  "sort_name": "Nørregaard, Julie",
+  "aka": [
+    "Julie Norregaard"
+  ],
+  "born": {
+    "y": 1863
+  },
+  "died": {
+    "y": 1942
+  },
+  "group": "family",
+  "gender": "f",
+  "bio": "Danish journalist, Richard Le Gallienne's second wife from 1897, and the mother of the actress and director Eva Le Gallienne. She left him in 1903, taking both his daughters to Paris, and divorced him in June 1911, citing his inability to keep a home or pay his debts, his drinking and his womanising.",
+  "bio_sources": [
+    "wikipedia-richard-le-gallienne"
+  ],
+  "bio_note": "Dates 1863-1942 from the Wikipedia article. The one Wikidata P26 claim on Le Gallienne's item (Q545544) is this marriage, and it carries NO references at all, so it corroborates nothing. Her daughter Eva Le Gallienne (1899-1991) is much the better documented figure of the two and would be the route to a firmer source. THE EXTRACT READ GAVE THE NAME WITHOUT ITS DANISH SLASHED O, as 'Julie Norregaard'. The accented form is used as the node name; the ASCII form the source gave is kept in aka, and THE QUOTATION IS UNCHANGED. Worth confirming against her daughter Eva Le Gallienne's own published memoirs, which are not in the repo.",
+  "context_engagements": [],
+  "research_status": "phase-a",
+  "wikidata": null,
+  "wikipedia": null,
+  "roster_note": "Added 2026-08-05 in the pass that put every spouse and every off-roster person on the map."
+}

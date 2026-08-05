@@ -32,6 +32,7 @@
       "verified_by": "agent-mechanical",
       "verified_on": "2026-08-04",
       "speaker": "Charles Ricketts, letter to John Gray",
+      "addressee": "John Gray",
       "voice": "period"
     },
     {
@@ -52,6 +53,7 @@
       "verified_by": "agent-mechanical",
       "verified_on": "2026-08-04",
       "speaker": "Charles Ricketts, letter to Gordon Bottomley",
+      "addressee": "Gordon Bottomley",
       "voice": "period"
     },
     {
@@ -197,6 +199,7 @@
       "verified_by": "agent-mechanical",
       "verified_on": "2026-08-04",
       "speaker": "Charles Ricketts, letter to Cecil Lewis",
+      "addressee": "Cecil Lewis",
       "voice": "period"
     },
     {
@@ -217,6 +220,7 @@
       "verified_by": "agent-mechanical",
       "verified_on": "2026-08-04",
       "speaker": "Charles Ricketts, letter to R. N. R. Holst",
+      "addressee": "Richard Roland Holst",
       "voice": "period"
     },
     {

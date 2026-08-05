@@ -24,16 +24,7 @@
     "hrc-hall-troubridge-fa",
     "cook-2014"
   ],
-  "context_engagements": [
-    {
-      "date_label": "married 1908; separated by 1919",
-      "note": "Naval officer (1862-1926), whom Una married in 1908 soon after her father's death; their daughter Andrea was born in 1910. The Harry Ransom Center's sketch states that the Troubridges 'were separated by 1919 because of Una's relationship with Radclyffe Hall'. Off-roster; recorded because the marriage and its ending are the documented cost of the Hall partnership.",
-      "works": [
-        "hrc-hall-troubridge-fa"
-      ],
-      "partner_name": "Sir Ernest Troubridge"
-    }
-  ],
+  "context_engagements": [],
   "research_status": "phase-a",
   "wikidata": "Q3549170",
   "wikipedia": "https://en.wikipedia.org/wiki/Una_Vincenzo,_Lady_Troubridge"

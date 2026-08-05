@@ -1,14 +1,11 @@
 {
   "id": "wilde--wilkinson",
-  "people": [
-    "wilde",
-    "wilkinson"
-  ],
-  "certainty": "desire-expressed",
+  "people": ["wilde", "wilkinson"],
+  "certainty": "attraction-expressed",
   "direction": "wilde",
   "outcome": "unknown",
   "certainty_status": "proposed",
-  "certainty_reasoning": "Proposed on the primary record and the editors' apparatus, read in the source. THE DECIDING FACT IS THAT THEY NEVER MET. The editors state it flatly in the main-particulars footnote: Wilkinson invented an 'Ipswich Dramatic Society' and its wish to dramatise The Picture of Dorian Gray 'so as to get into correspondence with Wilde, whom he never met' (p. 1109 n. 1). Nothing read so far contradicts it; the correspondence is epistolary from first letter to last, and the surviving record is one-sided - Wilde's letters to Wilkinson are printed here, Wilkinson's to Wilde are not. AGE, STATED AS THE RECORD STATES IT: the editors give his dates as 1881-1966 and say he 'was at this time a Radley schoolboy' (p. 1109 n. 1); Wilde, describing the correspondence to Reginald Turner on 3 January 1899, calls him 'a Radley schoolboy, aged seventeen' (p. 1118). Wilde was forty-four. DIRECTION is Wilde's, and rests on documented acts rather than on tone: Wilde asks for a photograph in his first letter (p. 1109), asks again when a promised enclosure proved missing from the envelope (p. 1113), comments on the photographs when they arrive (p. 1122), reports to Turner that the boy sends them constantly (p. 1118), and asks Robert Ross to go to Radley and see him (p. 1127). The salutation and signature move over four months from 'Dear Mr Wilkinson / Sincerely yours' to 'My dear Boy / Affectionately yours' - the same 'My dear Boy' Wilde used to Douglas. OUTCOME is unknown, and cannot be otherwise: no meeting took place, no Wilkinson letter survives in this edition, and the boy's own account came fifty-four years later in Seven Friends (1953), unread here. WEIGH THIS AGAINST THE EDGE: the initiative in the whole affair was Wilkinson's, not Wilde's - he manufactured a theatrical society and, per the editors, at least one further false claim to attract Wilde's attention (p. 1127 n. 2), so the approach that started it ran the other way. The ANNOTATIONS-TRIAGE pass judged him 'context-engagement-worthy' rather than edge-worthy precisely because a correspondence between people who never met fails the usual bar. desire-expressed edges are hidden by default on the map and are a lead pool, not the documented web; if Lovelle reads this as a famous author indulging a starstruck schoolboy correspondent, the correct disposition is no edge and a context engagement on wilde. That call is his.",
+  "certainty_reasoning": "Proposed on the primary record and the editors' apparatus, read in the source. THE DECIDING FACT IS THAT THEY NEVER MET. The editors state it flatly in the main-particulars footnote: Wilkinson invented an 'Ipswich Dramatic Society' and its wish to dramatise The Picture of Dorian Gray 'so as to get into correspondence with Wilde, whom he never met' (p. 1109 n. 1). Nothing read so far contradicts it; the correspondence is epistolary from first letter to last, and the surviving record is one-sided - Wilde's letters to Wilkinson are printed here, Wilkinson's to Wilde are not. AGE, STATED AS THE RECORD STATES IT: the editors give his dates as 1881-1966 and say he 'was at this time a Radley schoolboy' (p. 1109 n. 1); Wilde, describing the correspondence to Reginald Turner on 3 January 1899, calls him 'a Radley schoolboy, aged seventeen' (p. 1118). Wilde was forty-four. DIRECTION is Wilde's, and rests on documented acts rather than on tone: Wilde asks for a photograph in his first letter (p. 1109), asks again when a promised enclosure proved missing from the envelope (p. 1113), comments on the photographs when they arrive (p. 1122), reports to Turner that the boy sends them constantly (p. 1118), and asks Robert Ross to go to Radley and see him (p. 1127). The salutation and signature move over four months from 'Dear Mr Wilkinson / Sincerely yours' to 'My dear Boy / Affectionately yours' - the same 'My dear Boy' Wilde used to Douglas. OUTCOME is unknown, and cannot be otherwise: no meeting took place, no Wilkinson letter survives in this edition, and the boy's own account came fifty-four years later in Seven Friends (1953), unread here. WEIGH THIS AGAINST THE EDGE: the initiative in the whole affair was Wilkinson's, not Wilde's - he manufactured a theatrical society and, per the editors, at least one further false claim to attract Wilde's attention (p. 1127 n. 2), so the approach that started it ran the other way. The ANNOTATIONS-TRIAGE pass judged him 'context-engagement-worthy' rather than edge-worthy precisely because a correspondence between people who never met fails the usual bar. attraction-expressed edges are hidden by default on the map and are a lead pool, not the documented web; if Lovelle reads this as a famous author indulging a starstruck schoolboy correspondent, the correct disposition is no edge and a context engagement on wilde. That call is his.",
   "start": {
     "y": 1898,
     "m": 12
@@ -52,7 +49,8 @@
       "provenance": "Repo PDF page 1164, printed folio 1118 confirmed on the rendered page, read as page image 2026-08-03. Single sentence, complete.",
       "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
-      "voice": "period"
+      "voice": "period",
+      "addressee": "Reginald Turner"
     },
     {
       "quote": "Wilkinson had invented this, like the dramatisation of Dorian Gray, to attract Wilde's attention.",
@@ -101,7 +99,8 @@
       "provenance": "Repo PDF page 1179, printed folio 1133 confirmed on the rendered page, read as page image 2026-08-03. The earlier salutations and signatures were read at repo PDF 1155 (folio 1109, predecessor session), 1159 (folio 1113), and 1168-69 (folios 1122 and 1123).",
       "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
-      "voice": "period"
+      "voice": "period",
+      "addressee": "Louis Wilkinson"
     },
     {
       "quote": "I am in constant correspondence now with a Radley schoolboy, aged seventeen. His photograph, which he has sent me, and sends me constantly, is most beautiful. He seems to read nothing but my books, and says his one desire is to 'follow in my footsteps'! But I have told him that they lead to terrible places. … My Radley boy is called Louis Wilkinson – a horrid name – but his photograph is most interesting, and his poetry passionate and incoherent. He seems a most astonishing boy. He has dramatised Dorian Gray!",
@@ -139,7 +138,8 @@
       "how_verified": "pdf-at-page",
       "verified_by": "Claude (Opus 5)",
       "verified_on": "2026-08-04",
-      "provenance": "Repo PDF p. 1238 rendered at 2.6x and read as a page image 2026-08-04; folio 1192 printed at the foot of that page, giving offset +46 here. Located first in the OCR mirror, then confirmed on the rendered page."
+      "provenance": "Repo PDF p. 1238 rendered at 2.6x and read as a page image 2026-08-04; folio 1192 printed at the foot of that page, giving offset +46 here. Located first in the OCR mirror, then confirmed on the rendered page.",
+      "addressee": "Louis Wilkinson"
     },
     {
       "work": "letters-2000",
@@ -157,7 +157,10 @@
       "how_verified": "pdf-at-page",
       "verified_by": "Claude (Opus 5)",
       "verified_on": "2026-08-04",
-      "provenance": "Repo PDF p. 1239 read as a page image 2026-08-04; folio 1193 printed at the foot."
+      "provenance": "Repo PDF p. 1239 read as a page image 2026-08-04; folio 1193 printed at the foot.",
+      "addressee": "Louis Wilkinson",
+      "lang": "fr",
+      "translation": "I am very ill. Do not come this week. I will write to you."
     },
     {
       "quote": "I fear you would not like my hotel. I live there because I have no money ever. It is an absurd place: it is not a background: the only thing really nice in the whole hotel is your own photograph: but one cannot, or one should not, play Narcissus to a photograph: even water is horribly treacherous: the eyes of one who loves one are the only mirror.",
@@ -177,6 +180,7 @@
       "verified_by": "agent-mechanical",
       "verified_on": "2026-08-04",
       "speaker": "Oscar Wilde",
+      "addressee": "Louis Wilkinson",
       "voice": "period"
     },
     {
@@ -197,6 +201,7 @@
       "verified_by": "agent-mechanical",
       "verified_on": "2026-08-04",
       "speaker": "Oscar Wilde",
+      "addressee": "Louis Wilkinson",
       "voice": "period"
     }
   ],

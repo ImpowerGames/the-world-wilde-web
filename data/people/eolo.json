@@ -1,0 +1,20 @@
+{
+  "id": "eolo",
+  "name": "Eolo",
+  "sort_name": "Eolo",
+  "aka": [],
+  "born": null,
+  "died": null,
+  "group": "liaisons",
+  "gender": "m",
+  "bio": "An Italian boy in Harold Mellor's household, whose father sold him to Mellor for 200 lire and who had christened all seventeen of his children out of a mythological dictionary. He travelled with Mellor on the Riviera in 1898-99, bicycling over to Wilde at Napoule, and was still with him in Paris in September 1900, by which time Wilde was calling him Mellor's 'slave'. He is presumably the unnamed 'pretty Italian boy' of Wilde's first Mellor letter of 27 December 1898.",
+  "bio_sources": [
+    "letters-2000"
+  ],
+  "bio_note": "THIS IS NOT A PARTNERSHIP AND MUST NOT BE READ AS ONE. What the correspondence records is a relation of purchase and ownership: a child bought from his father for a sum of money, described by the only witness as property. Transcription and provenance reused unchanged from the context_engagement on mellor.json, where he was held off-roster until 2026-08-05. Wilde's 1900 'slave' sentence is a joke of Wilde's and is recorded as Wilde's, not endorsed; his sympathy in the 1899 sentence runs to Eolo and not to Mellor ('his boy bores him. It is dreadfully sad'). A third mention is indexed at printed 1128; that page has not been read, so it stays a pointer. THE RECORD PRESERVES A FIRST NAME ONLY.",
+  "context_engagements": [],
+  "research_status": "phase-a",
+  "wikidata": null,
+  "wikipedia": null,
+  "roster_note": "Promoted from an off-roster context_engagement on mellor.json, 2026-08-05, in the pass that put every off-roster person on the map. The sources moved with him unchanged."
+}

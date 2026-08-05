@@ -24,16 +24,7 @@
     "hrc-hall-troubridge-fa",
     "cook-2014"
   ],
-  "context_engagements": [
-    {
-      "date_label": "c. 1934-1943 (the last nine years of Hall's life)",
-      "note": "Russian nurse and emigree (1904-1958?). The Harry Ransom Center's biographical sketch records that 'During the last nine years of her life, Hall had an affair with a Russian nurse named Evguenia Souline (1904-1958?), tolerated by Troubridge despite the unhappiness it caused her.' The correspondence with Souline is in the Hall and Troubridge papers. Off-roster (a generation and a continent away from the Wilde circle); recorded because it is a documented third relationship and because it shapes the last decade of hall--troubridge.",
-      "works": [
-        "hrc-hall-troubridge-fa"
-      ],
-      "partner_name": "Evguenia Souline"
-    }
-  ],
+  "context_engagements": [],
   "research_status": "phase-a",
   "wikidata": "Q237639",
   "wikipedia": "https://en.wikipedia.org/wiki/Radclyffe_Hall"

@@ -26,33 +26,6 @@
     "British School at Rome, John Marshall Archive catalogue (archive.bsr.ac.uk, resource 65); Guido Petruccioli, 'Introduction', Ancient Art and its Commerce in Early Twentieth-Century Europe (Archaeopress, 2022), p. 1 - birth year"
   ],
   "bio_note": "Sox states no birth date or year for Marshall in the pages read (text search for '1862' returns nothing); the enlarged Bagni di Lucca monument carries the three names 'with their birth and death dates' (p. 130) but Sox does not print them - born stays null. Death not sharpened past the month: Sox's narration gives 'February, 1928'; Warren's first-person account has Marshall dying at 'five minutes past one' in the night after 'the evening of the 15th'. 'Johnny' is Warren's and the circle's regular name for him; 'Puppy' was mutual (Marshall writes 'Puppy dear' to Warren, pp. 64-65; Warren signs 'Your Puppy', p. 107). Full passages in dossiers/LEWES-HOUSE_dossier.md. BIRTH YEAR FOUND (added 2026-08-03, web): 1862, from two sources consulted so far. (1) The British School at Rome's archival catalogue for the John Marshall Archive - the repository that holds his papers (BSR Archive & Special Collections, ArchivesSpace resource 65, fonds 1900-1928, archive.bsr.ac.uk) - whose biographical note reads 'John Marshall (1862-1928) was a connoisseur of Classical art and a cultivated intellectual.' (2) Guido Petruccioli, 'Introduction', in Ancient Art and its Commerce in Early Twentieth-Century Europe (Archaeopress, 2022), p. 1, read in the publisher's own sample PDF: 'John Marshall (1862-1928) - not to be confused with the homonymous (and far more notorious) American statesman John Marshall (1755-1835) or the British archaeologist John Hubert Marshall (1876-1958) - is known only to a few people.' Both give the year alone, so no month or day is recorded. This closes the gap Sox left: Sox reports that the Bagni di Lucca monument carries 'their birth and death dates' (p. 130) without transcribing them. DEATH-DATE CONFLICT, REPORTED NOT RESOLVED - died stays {y:1928, m:2}: Wikipedia's 'John Marshall (died 1928)' opens '15 February 1928' but attaches no citation to that date (its listed references are Streitmatter, Outlaw Marriages, and De Puma, Etruscan Art in the Metropolitan Museum of Art), so by this module's rule it cannot be entered; Sox's repo text has Warren's first-person account of Marshall retiring on 'the evening of the 15th' and dying at 'five minutes past one' in the night, which points to the small hours of 16 February; BSR and Petruccioli give the year only. Three accounts, two candidate days, and no source read so far that settles it.",
-  "context_engagements": [
-    {
-      "partner_name": "Mary Bliss (Mrs John Marshall)",
-      "period": "1907-1925",
-      "note": "Off-roster. Legal marriage, 5 November 1907: Warren's cousin, to whom Warren had dedicated The Prince Who Did Not Exist (1900). Per Fothergill's memoir she 'courted Ned and Marshall, either of which she was well prepared to marry' and 'naively... thought the marriage would unite Johnny more closely to Ned'; Sox: 'Neither love nor sex had anything to do with the union of Mary and John Marshall, but she was an extremely beneficial help-mate in his collecting at the Metropolitan Museum' (p. 76, rendered). She died at Villa Buonvisi, Bagni di Lucca, in 1925 (p. viii); all three share the tomb there.",
-      "sources": [
-        {
-          "quote": "John Marshall did not marry Ned's cousin until 5 November 1907.",
-          "context": "Sox, opening the account of the marriage's effect on the Warren-Marshall partnership; 'Ned's cousin' = Mary Bliss (p. viii: 'Mary Bliss (Warren's cousin)').",
-          "work": "sox-1991",
-          "locator": "p. 76",
-          "locator_type": "page",
-          "evidence_date": {
-            "y": 1907,
-            "m": 11,
-            "d": 5
-          },
-          "supports": "The marriage date",
-          "verification": "verified-exact",
-          "how_verified": "pdf-at-page",
-          "provenance": "Repo PDF page 92, printed folio 76 confirmed on rendered page, read as page image 2026-08-03.",
-          "verified_by": "agent-mechanical",
-          "verified_on": "2026-08-03",
-          "voice": "modern"
-        }
-      ]
-    }
-  ],
+  "context_engagements": [],
   "research_status": "phase-a"
 }

@@ -1,0 +1,35 @@
+{
+  "id": "hopkins--marillier",
+  "people": [
+    "hopkins",
+    "marillier"
+  ],
+  "certainty": "married",
+  "certainty_status": "proposed",
+  "certainty_reasoning": "Married, on the same Whistler Correspondence entry as the first marriage and with the same caveat: a scholarly prosopography digesting a paywalled ODNB article nobody here has read, with no Wikidata P26 to check it against.",
+  "start": {
+    "y": 1906
+  },
+  "end": null,
+  "date_label": "m. 1906; still married at the close of the source's account",
+  "summary": "Five years after his first wife died, Marillier married Winifred Christabel Hopkins, daughter of the painter Arthur Hopkins and composer of 'The Rose and the Ring'. They had a son. He went on to run Morris & Co. and to become the authority on tapestry, and died in 1951.",
+  "sources": [
+    {
+      "quote": "he married in 1906 Winifred Christabel Hopkins, the daughter of the artist Arthur Hopkins. ... She was the composer of 'The Rose and the Ring'. They had one son.",
+      "context": "The Whistler Correspondence's biographical entry on H. C. Marillier, continuing from the sentence on his first wife's death in 1901. The elision drops a clause on the Hopkins family.",
+      "work": "whistler-correspondence-marillier",
+      "locator": "biographical entry, 'Mari_HC'",
+      "locator_type": "none",
+      "evidence_date": {
+        "y": 1906
+      },
+      "supports": "The second marriage, its year, the wife's identity and her own work.",
+      "verification": "verified-elision",
+      "how_verified": "web",
+      "provenance": "https://www.whistler.arts.gla.ac.uk/correspondence/people/biog/?bid=Mari_HC read 2026-08-05. The Whistler edition footnotes this entry to J. L. Nevinson's DNB/ODNB article on Marillier (34876), which is paywalled and was NOT read - so this is a scholarly but tertiary digest.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-05",
+      "voice": "modern"
+    }
+  ]
+}

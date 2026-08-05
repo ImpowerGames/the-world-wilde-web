@@ -34,7 +34,8 @@
       "provenance": "Repo PDF page 1218 (printed folio 1172 confirmed on the rendered page), read as page image 2026-08-03. Three intervening sentences elided with a spaced ellipsis; both sentences are from the same letter's closing two paragraphs.",
       "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
-      "voice": "period"
+      "voice": "period",
+      "addressee": "George Ives"
     },
     {
       "quote": "…he enjoyed the company of Wilde and his circle in some of the new continental cafés and at the Authors' Club, the Lyric Club and the New Travellers' Club, where Wilde once kissed him 'passionately' goodbye.",
@@ -68,7 +69,8 @@
       "provenance": "Repo PDF page 713, printed folio 662 confirmed on rendered page, read as page image 2026-08-03.",
       "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
-      "voice": "period"
+      "voice": "period",
+      "addressee": "R. H. Sherard"
     },
     {
       "quote": "Ives published A Book of Chains anonymously in 1897, which contained poems bearing directly on his feelings for Wilde in prison.",
@@ -104,7 +106,8 @@
       "provenance": "Repo PDF page 1218, printed folio 1172 confirmed on rendered page, read as page image 2026-08-03. Intervening paragraphs elided with spaced ellipsis; fuller text in dossier.",
       "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
-      "voice": "period"
+      "voice": "period",
+      "addressee": "George Ives"
     },
     {
       "quote": "Yes: I have no doubt we shall win, but the road is long, and red with monstrous martyrdoms. Nothing but the repeal of the Criminal Law Amendment Act would do any good.",
@@ -123,7 +126,8 @@
       "provenance": "Repo PDF page 1090 (printed folio 1044 confirmed on the rendered page), read as page image 2026-08-03.",
       "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
-      "voice": "period"
+      "voice": "period",
+      "addressee": "George Ives"
     }
   ],
   "prior_class": "romantic-nonsexual"

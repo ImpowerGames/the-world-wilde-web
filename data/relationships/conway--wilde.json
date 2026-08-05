@@ -40,7 +40,43 @@
       "provenance": "IA in.ernet.dli.2015.499238, leaf 171 (printed p. 137-138); rendered at 3x from the item's text PDF and read as a page image 2026-08-03, with the printed folio confirmed in the page's bottom margin.",
       "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
-      "voice": "period"
+      "speaker": "Oscar Wilde",
+      "voice": "exchange",
+      "addressee": "Carson",
+      "turns": [
+        {
+          "who": "Carson",
+          "text": "Did you become intimate with a young lad named Alphonse Conway at Worthing?"
+        },
+        {
+          "who": "Wilde",
+          "text": "Yes. … He was a youth of about eighteen. … After that Alphonse and I became great friends … It is not true that I met him by appointment one evening and took him on the road to Lancing, kissing him and indulging in familiarities on the way. …"
+        },
+        {
+          "who": "Carson",
+          "text": "Were you fond of this boy?"
+        },
+        {
+          "who": "Wilde",
+          "text": "Naturally. He had been my companion for six weeks."
+        },
+        {
+          "who": "Carson",
+          "text": "Did you take the lad to Brighton?"
+        },
+        {
+          "who": "Wilde",
+          "text": "Yes."
+        },
+        {
+          "who": "Carson",
+          "text": "And provided him with a suit of blue serge?"
+        },
+        {
+          "who": "Wilde",
+          "text": "Yes."
+        }
+      ]
     },
     {
       "quote": "Do you remember Alphonse Conway?—Yes. I met him on the beach at Worthing last year in August. … What rooms had you at Brighton?—Two bedrooms and a sitting-room. We slept in adjoining rooms. When did you see Conway last?—Outside the Court two days ago.",
@@ -58,7 +94,34 @@
       "provenance": "IA in.ernet.dli.2015.499238, leaf 364 (printed p. 318-319); rendered at 3x from the item's text PDF and read as a page image 2026-08-03, with the printed folio confirmed in the page's bottom margin.",
       "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
-      "voice": "period"
+      "speaker": "Oscar Wilde, cross-examined by the Solicitor-General",
+      "voice": "exchange",
+      "turns": [
+        {
+          "who": "Q.",
+          "text": "Do you remember Alphonse Conway?"
+        },
+        {
+          "who": "Wilde",
+          "text": "Yes. I met him on the beach at Worthing last year in August. …"
+        },
+        {
+          "who": "Q.",
+          "text": "What rooms had you at Brighton?"
+        },
+        {
+          "who": "Wilde",
+          "text": "Two bedrooms and a sitting-room. We slept in adjoining rooms."
+        },
+        {
+          "who": "Q.",
+          "text": "When did you see Conway last?"
+        },
+        {
+          "who": "Wilde",
+          "text": "Outside the Court two days ago."
+        }
+      ]
     },
     {
       "quote": "And that the said Oscar Fingal O'Flahertie Wills Wilde upon several occasions in the months of August and September in the year of our Lord One thousand eight hundred and ninety-four at Worthing in the County of Sussex and on or about the twenty-seventh day of September in the said year at the Albion Hotel Brighton in the same County did solicit and incite one Alfonso Harold Conway to commit sodomy and other acts of gross indecency and immorality with him the said Oscar Fingal O'Flahertie Wills Wilde. And that the said Oscar Fingal O'Flahertie Wills Wilde did in fact at the said times and places commit the said other acts of gross indecency with the said Alfonso Harold Conway.",
@@ -76,7 +139,14 @@
       "provenance": "IA in.ernet.dli.2015.499238, leaf 390 (printed p. 344), read as IIIF page image 2026-08-03",
       "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
-      "voice": "period"
+      "speaker": "The Marquess of Queensberry, plea of justification (filed 30 March 1895)",
+      "voice": "exchange",
+      "turns": [
+        {
+          "who": "Queensberry",
+          "text": "And that the said Oscar Fingal O'Flahertie Wills Wilde upon several occasions in the months of August and September in the year of our Lord One thousand eight hundred and ninety-four at Worthing in the County of Sussex and on or about the twenty-seventh day of September in the said year at the Albion Hotel Brighton in the same County did solicit and incite one Alfonso Harold Conway to commit sodomy and other acts of gross indecency and immorality with him the said Oscar Fingal O'Flahertie Wills Wilde. And that the said Oscar Fingal O'Flahertie Wills Wilde did in fact at the said times and places commit the said other acts of gross indecency with the said Alfonso Harold Conway."
+        }
+      ]
     },
     {
       "quote": "[His lordship proceeded to explain that the reason why such offences as the plea of justification alleged, in connexion with the lads Conway and Grainger, were not included in the present indictment was because those offences had occurred, if at all, outside the jurisdiction of the Court.]",
@@ -112,7 +182,8 @@
       "provenance": "repo PDF 'Complete Letters' (Fourth Estate 2000), PDF p. 654 = printed p. 602 (folio confirmed on rendered page), read 2026-08-03",
       "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
-      "voice": "period"
+      "voice": "period",
+      "addressee": "Lord Alfred Douglas"
     },
     {
       "work": "holland-2003",
@@ -124,6 +195,7 @@
       "how_verified": "pdf-at-page",
       "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
+      "speaker": "Oscar Wilde",
       "provenance": "Repo PDF page 194, printed folio 146 confirmed at the foot of the rendered page, read as a page image 2026-08-03.",
       "evidence_date": {
         "y": 1895,
@@ -131,7 +203,50 @@
         "d": 4
       },
       "supports": "The verbatim shorthand transcript of the same exchange Hyde 1948 prints in condensed form - kept alongside Hyde, not in place of him, so the divergence stays visible in the record.",
-      "voice": "period"
+      "voice": "exchange",
+      "addressee": "Carson",
+      "turns": [
+        {
+          "who": "Carson",
+          "text": "Did you take him one evening after nine o'clock to walk towards Lancing?"
+        },
+        {
+          "who": "Wilde",
+          "text": "No."
+        },
+        {
+          "who": "Carson",
+          "text": "Are you quite sure of that?"
+        },
+        {
+          "who": "Wilde",
+          "text": "Yes, quite certain. Yes. …"
+        },
+        {
+          "who": "Carson",
+          "text": "Did you kiss him on the road?"
+        },
+        {
+          "who": "Wilde",
+          "text": "Certainly not."
+        },
+        {
+          "who": "Carson",
+          "text": "Did you put your hands inside his trousers?"
+        },
+        {
+          "who": "Wilde",
+          "text": "No, certainly not."
+        },
+        {
+          "who": "Carson",
+          "text": "And had you any familiarities with him of any kind?"
+        },
+        {
+          "who": "Wilde",
+          "text": "None of any kind."
+        }
+      ]
     }
   ],
   "prior_class": "alleged"

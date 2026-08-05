@@ -1,0 +1,25 @@
+{
+  "id": "gregg",
+  "name": "Frances Gregg",
+  "sort_name": "Gregg, Frances",
+  "aka": [],
+  "born": {
+    "y": 1885
+  },
+  "died": {
+    "y": 1941,
+    "m": 4
+  },
+  "group": "family",
+  "gender": "f",
+  "bio": "American avant-garde writer, for a time H.D.'s lover, who married Louis Wilkinson in April 1912 inside a triangle with John Cowper Powys - Powys being in love with her and unwilling to divorce his own wife. She and Wilkinson had a son and a daughter and divorced in 1923. She was killed with her mother and her daughter Betty in the Plymouth blitz of April 1941. Her memoir The Mystic Leeway was published in 1995.",
+  "bio_sources": [
+    "wikipedia-louis-wilkinson"
+  ],
+  "bio_note": "Wikidata Q56177732 gives 1885-1941; the research pass recorded her birth as 1884/85. She is much the most substantial of Wilkinson's four wives and the only one Wikidata records at all. Louis Wilkinson married four times, was twice widowed and twice divorced. The Wikipedia article is footnoted PER MARRIAGE, which is why it is used here where Le Gallienne's is treated far more warily - Gregg to Bayley (1995) and Wilhelm (1990); the 1923 divorce to a T. S. Eliot letter of 9 February 1929; Ann Reid to Wilkinson's own Seven Friends (1953) dedication and to Friedman (2002), with her 1932 death to Elwin (1946), p. 207; Diana Bryn to Who Was Who; Joan Lamburn to his Times obituary. Wikidata Q26435237 records only Gregg and is incomplete rather than contradictory. ONLY THE FIRST MARRIAGE AND THE FIRST DIVORCE CARRY DATES; the other three weddings are undated in everything read and are entered undated.",
+  "context_engagements": [],
+  "research_status": "phase-a",
+  "wikidata": null,
+  "wikipedia": null,
+  "roster_note": "Added 2026-08-05 in the pass that put every spouse and every off-roster person on the map."
+}

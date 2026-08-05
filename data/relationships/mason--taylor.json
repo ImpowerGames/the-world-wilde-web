@@ -1,0 +1,56 @@
+{
+  "id": "mason--taylor",
+  "people": [
+    "mason",
+    "taylor"
+  ],
+  "certainty": "self-reported",
+  "certainty_status": "proposed",
+  "certainty_reasoning": "NOT CLASSED AS A MARRIAGE, AND THE REASON IS A DEFINITION RATHER THAN A JUDGEMENT: this map's Married class means a legal marriage, and two men in England in 1893 could not contract one - one of them was convicted of gross indecency two years later. Putting this in that class would flatten the exact distinction the map exists to show; the ceremony is therefore recorded in full in the summary and the sources instead, where it can be read for what it was. **Whether the class itself should be widened is a live question for the module, not something this edge decides.** Self-reported is the right class on the evidence axis: Taylor's own admission on oath that he slept with Mason, and his own letters addressing him 'Dear Charlie... With love', are a participant's own words about the relationship. Around them stand three further contemporary strands, none derived from the others - Parker's sworn testimony, Louys writing to Gide in the present tense, and Wilde's two letters to Mason - which is unusually good evidence by this map's standards. THE COUNTER-EVIDENCE IS CARRIED, NOT DROPPED: Taylor denied the ceremony on oath, and that denial is in the disputed block below.",
+  "disputed": {
+    "claim": "that Taylor and Mason went through a form of marriage in 1893, Taylor in woman's dress as the bride, with an exchange of rings and a wedding breakfast",
+    "asserted_by": "Charles Parker on oath at the Old Bailey, 26 April 1895 (Hyde p. 193); Pierre Louys to Andre Gide at the time, 'a marriage - a real marriage - between two of them, with an exchange of rings and so on'; Taylor himself, retold repeatedly and with laughter, per Croft-Cooke p. 143; and, obliquely, Wilde's own letters to Mason asking after his 'married life'",
+    "disputed_by": "Taylor, on oath (Hyde p. 281), who denied that any marriage ceremony took place - while in the same testimony admitting that he slept with Mason 'the first night' and that he addressed him 'Dear Charlie... With love.'",
+    "grounds": "The denial was made under criminal jeopardy, in a courtroom where the ceremony was being offered as proof of depravity, which is a reason to weigh it lightly - but it is a sworn denial by one of the two people concerned and it is not dropped. Scholars divide on what the event was: McKenna calls it a 'mock marriage service', Louys called it a real one, and the Complete Letters editors record Croft-Cooke's suggestion that it was genuine."
+  },
+  "start": {
+    "y": 1893
+  },
+  "end": null,
+  "date_label": "1893-1895 and after; the ceremony in 1893",
+  "summary": "In 1893 Alfred Taylor and Charles Spurrier Mason went through a marriage ceremony - Taylor in a wedding dress as the bride, Mason as the bridegroom, rings exchanged, a wedding breakfast for friends afterwards. Pierre Louys wrote to Andre Gide about it at the time; Taylor told the story afterwards himself, laughing; Wilde asked after Mason's 'married life' in a letter of about 13 August 1894. Charles Parker gave it in evidence against both men at the Old Bailey in April 1895, where Taylor denied on oath that any ceremony had taken place while admitting that he had slept with Mason 'the first night' and had written to him 'Dear Charlie... With love.'",
+  "sources": [
+    {
+      "quote": "Taylor told us on that occasion that he had gone through a form of marriage with a youth named Mason. Did he say who acted as the woman?—Yes; he said he did; that he was in woman's dress, and that they had a wedding breakfast.",
+      "context": "Charles Parker's examination-in-chief, Regina v. Wilde and Taylor, 26 April 1895",
+      "work": "hyde-trials-1948",
+      "locator": "p. 193",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1895,
+        "m": 4
+      },
+      "supports": "the Taylor-Mason 'marriage' evidence at trial",
+      "verification": "verified-exact",
+      "how_verified": "archive-org",
+      "provenance": "IA in.ernet.dli.2015.499238, leaf 231 (printed p. 193, folio 'N 193'), read as IIIF page image 2026-08-03",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "exchange",
+      "turns": [
+        {
+          "who": "A.",
+          "text": "Taylor told us on that occasion that he had gone through a form of marriage with a youth named Mason."
+        },
+        {
+          "who": "Q.",
+          "text": "Did he say who acted as the woman?"
+        },
+        {
+          "who": "A.",
+          "text": "Yes; he said he did; that he was in woman's dress, and that they had a wedding breakfast."
+        }
+      ]
+    }
+  ]
+}

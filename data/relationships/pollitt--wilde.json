@@ -4,11 +4,11 @@
     "pollitt",
     "wilde"
   ],
-  "certainty": "desire-expressed",
+  "certainty": "attraction-expressed",
   "direction": "wilde",
   "outcome": "unknown",
   "certainty_status": "proposed",
-  "certainty_reasoning": "Proposed on the primary record read in the source. FACTS FIRST: the editors state that four Wilde-to-Pollitt letters survive and that Wilde misspelt his name in all four (p. 1120 n. 2); no letter from Pollitt to Wilde is printed in this edition, so only one side of the exchange exists in the record. The two men appear never to have met during the correspondence: on 3 December 1898 Wilde takes the colour of Pollitt's hair on Ada Leverson's authority and says of a photograph 'not a bit like you, I am sure' (pp. 1106-07), and on 3 January 1899, having received two dissimilar photographs, he is still asking their mutual publisher Leonard Smithers 'What is he like?' (p. 1117). DIRECTION: Wilde's, and the anchor is his first letter - the request for a photograph is made by Wilde, unprompted, on 26 November 1898 (p. 1103), before any photograph is sent. This CORRECTS the earlier record dossier's reading of the 3 December letter as evidence that the photograph traffic was Pollitt-initiated. Across the four letters Wilde requests a photograph, thanks Pollitt for further ones and comments on his appearance in them, invites him to Paris while steering him away from his own hotel, and asks him to write. OUTCOME: unknown - Pollitt answered, sent at least four photographs, signed himself 'Jerome', kept the letters (now MS Princeton) and accepted inscribed presentation copies of the French Ballad of Reading Gaol and The Importance of Being Earnest, which is real reciprocity of a kind; but with no Pollitt text in evidence nothing shows what he understood himself to be answering, and no meeting is recorded. THE COUNTERVAILING READ, which the editor should weigh: the README warns that Wilde's epistolary extravagance is not by itself an edge, and the ANNOTATIONS-TRIAGE pass judged Pollitt 'context-engagement-worthy' rather than edge-worthy on exactly that ground. What lifts this above the ordinary Wilde flourish is narrow and should be named as such: a sustained request-and-comment pattern about a stranger's body, carried across the whole of a four-letter correspondence with a man he had never seen. If that reads to Lovelle as connoisseurship rather than desire, the correct disposition is no edge and a context engagement on wilde instead. desire-expressed edges are hidden by default on the map, so this sits in the lead pool, not the documented web.",
+  "certainty_reasoning": "Proposed on the primary record read in the source. FACTS FIRST: the editors state that four Wilde-to-Pollitt letters survive and that Wilde misspelt his name in all four (p. 1120 n. 2); no letter from Pollitt to Wilde is printed in this edition, so only one side of the exchange exists in the record. The two men appear never to have met during the correspondence: on 3 December 1898 Wilde takes the colour of Pollitt's hair on Ada Leverson's authority and says of a photograph 'not a bit like you, I am sure' (pp. 1106-07), and on 3 January 1899, having received two dissimilar photographs, he is still asking their mutual publisher Leonard Smithers 'What is he like?' (p. 1117). DIRECTION: Wilde's, and the anchor is his first letter - the request for a photograph is made by Wilde, unprompted, on 26 November 1898 (p. 1103), before any photograph is sent. This CORRECTS the earlier record dossier's reading of the 3 December letter as evidence that the photograph traffic was Pollitt-initiated. Across the four letters Wilde requests a photograph, thanks Pollitt for further ones and comments on his appearance in them, invites him to Paris while steering him away from his own hotel, and asks him to write. OUTCOME: unknown - Pollitt answered, sent at least four photographs, signed himself 'Jerome', kept the letters (now MS Princeton) and accepted inscribed presentation copies of the French Ballad of Reading Gaol and The Importance of Being Earnest, which is real reciprocity of a kind; but with no Pollitt text in evidence nothing shows what he understood himself to be answering, and no meeting is recorded. THE COUNTERVAILING READ, which the editor should weigh: the README warns that Wilde's epistolary extravagance is not by itself an edge, and the ANNOTATIONS-TRIAGE pass judged Pollitt 'context-engagement-worthy' rather than edge-worthy on exactly that ground. What lifts this above the ordinary Wilde flourish is narrow and should be named as such: a sustained request-and-comment pattern about a stranger's body, carried across the whole of a four-letter correspondence with a man he had never seen. If that reads to Lovelle as connoisseurship rather than desire, the correct disposition is no edge and a context engagement on wilde instead. attraction-expressed edges are hidden by default on the map, so this sits in the lead pool, not the documented web.",
   "start": {
     "y": 1898,
     "m": 11
@@ -67,7 +67,8 @@
       "provenance": "Repo PDF page 1163, printed folio 1117 confirmed on the rendered page, read as page image 2026-08-03.",
       "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
-      "voice": "period"
+      "voice": "period",
+      "addressee": "Leonard Smithers"
     },
     {
       "quote": "Dear Mr Pollitt, I should like a photograph of you, of all things. Pray let me have one.",
@@ -86,7 +87,8 @@
       "provenance": "Repo PDF page 1149, printed folio 1103 confirmed on the rendered page, read as page image 2026-08-03.",
       "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
-      "voice": "period"
+      "voice": "period",
+      "addressee": "Herbert Charles Pollitt"
     },
     {
       "quote": "Pollitt's Kendal home was called The Green Window.",
@@ -120,7 +122,8 @@
       "provenance": "Repo PDF pages 1152-1153, printed folios 1106 and 1107 read off the rendered pages; the editors' footnote marker after 'Hollyer' is dropped., read as a page image 2026-08-03.",
       "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
-      "voice": "period"
+      "voice": "period",
+      "addressee": "Herbert Charles Pollitt"
     }
   ]
 }

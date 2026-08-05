@@ -42,7 +42,18 @@
       "provenance": "IA in.ernet.dli.2015.499238, printed p. 199 read as IIIF page image 2026-08-03 (per TRIALS-CLUSTER_dossier.md, which carries the fuller passage).",
       "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
-      "voice": "period"
+      "speaker": "Ellen Grant, landlady of 13 Little College Street",
+      "voice": "exchange",
+      "turns": [
+        {
+          "who": "Q.",
+          "text": "Were Taylor's visitors, as a class, women or men?"
+        },
+        {
+          "who": "Grant",
+          "text": "Men—young men from sixteen to thirty. … Others were Sidney Ma[v]or, Charles Mason, and Ernest Macklin. Mavor and Mason stayed there for nights with Taylor."
+        }
+      ]
     },
     {
       "quote": "I have slept there with Taylor.",
@@ -60,7 +71,14 @@
       "provenance": "IA in.ernet.dli.2015.499238, leaf 251 (printed p. 211); rendered at 3x from the item's text PDF and read as a page image 2026-08-03, with the printed folio confirmed in the page's bottom margin.",
       "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
-      "voice": "period"
+      "speaker": "Sidney Mavor",
+      "voice": "exchange",
+      "turns": [
+        {
+          "who": "Mavor",
+          "text": "I have slept there with Taylor."
+        }
+      ]
     }
   ],
   "prior_class": "alleged"

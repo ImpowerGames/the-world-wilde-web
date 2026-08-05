@@ -1,0 +1,48 @@
+{
+  "id": "atkins--burton",
+  "people": [
+    "atkins",
+    "burton"
+  ],
+  "certainty": "self-reported",
+  "certainty_status": "proposed",
+  "certainty_reasoning": "Self-reported, and precisely bounded. The evidence is Atkins's own answer on oath - 'Yes, at Osnaburgh Street, Tachbrook Street, and other places' - which is a participant's own words in the README's plainest sense. WHAT IS SELF-REPORTED IS COHABITATION AND JOINT EXTORTION, NOT A SEXUAL OR ROMANTIC RELATIONSHIP: no source read states one, neither man ever described the bond in those terms, and the class here records how well evidenced the connection is, not what kind of connection it was. Burton is on the map because he is a named, documented person who shared three years and several addresses with someone the map already carries, and leaving him in a holding pen inside another man's file made a bookmaker's life depend on his status.",
+  "start": {
+    "y": 1891
+  },
+  "end": {
+    "y": 1894
+  },
+  "date_label": "1891 – 1894",
+  "summary": "Atkins lived with the bookmaker James Burton at Osnaburgh Street, Tachbrook Street and other addresses between about 1891 and 1894, and the two worked blackmail together - most consequentially in June 1891 at Rochester Row, when a gentleman was found in bed with Atkins and the charge was afterwards dropped. Sir Edward Clarke produced that charge-sheet in April 1895, Atkins denied it, and the denial ended his usefulness to the Crown.",
+  "sources": [
+    {
+      "quote": "Have you ever lived with a man named Burton?—Yes, at Osnaburgh Street, Tachbrook Street, and other places.",
+      "context": "Fred Atkins cross-examined by Sir Edward Clarke, Regina v. Wilde and Taylor, 26 April 1895",
+      "work": "hyde-trials-1948",
+      "locator": "p. 207",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1895,
+        "m": 4
+      },
+      "supports": "cohabitation with Burton across multiple addresses",
+      "verification": "verified-exact",
+      "how_verified": "archive-org",
+      "provenance": "IA in.ernet.dli.2015.499238, leaf 247 (printed p. 207), read as IIIF page image 2026-08-03",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "exchange",
+      "turns": [
+        {
+          "who": "Q.",
+          "text": "Have you ever lived with a man named Burton?"
+        },
+        {
+          "who": "A.",
+          "text": "Yes, at Osnaburgh Street, Tachbrook Street, and other places."
+        }
+      ]
+    }
+  ]
+}

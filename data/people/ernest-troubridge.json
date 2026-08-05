@@ -1,0 +1,33 @@
+{
+  "id": "ernest-troubridge",
+  "name": "Ernest Troubridge",
+  "sort_name": "Troubridge, Ernest",
+  "aka": [
+    "Sir Ernest Troubridge",
+    "Admiral Sir Ernest Troubridge",
+    "Ernest Charles Thomas Troubridge"
+  ],
+  "born": {
+    "y": 1862,
+    "m": 7,
+    "d": 15
+  },
+  "died": {
+    "y": 1926,
+    "m": 1,
+    "d": 28
+  },
+  "group": "family",
+  "gender": "m",
+  "bio": "Royal Navy officer, later Admiral Sir Ernest Troubridge, who in October 1908 married Una Taylor as his second wife; their daughter Andrea was born in 1910. She met Radclyffe Hall in 1915 and by 1919 the Troubridges were legally separated because of it - the same year his knighthood made her Lady Troubridge. The marriage ended in law only with his death in 1926, and she kept the title until her own in 1963.",
+  "bio_sources": [
+    "hrc-hall-troubridge-fa",
+    "wikipedia-una-troubridge"
+  ],
+  "bio_note": "Dates from Wikidata Q4816840, agreeing with the '(1862-1926)' already on troubridge.json. THE WEDDING DAY IS DELIBERATELY NOT NARROWED: Wikipedia and the Ransom Center both give only 'October 1908', and although Wikidata sharpens it to 10 October, its two references are an online genealogy network and a library blog post - neither a register entry - so the day is left open per this module's rule about dates no source documents. Promoted from the context_engagement on troubridge.json, 2026-08-05.",
+  "context_engagements": [],
+  "research_status": "phase-a",
+  "wikidata": null,
+  "wikipedia": null,
+  "roster_note": "Added 2026-08-05 in the pass that put every spouse and every off-roster person on the map."
+}

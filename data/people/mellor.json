@@ -21,52 +21,6 @@
     "The last visit and Mellor's own surviving letter: 'I have been with Harold Mellor at Gland: he is almost as neurasthenic as I am' - Wilde to Ross, [August 1900]; and editors' footnote 1 on the same page: 'A surviving letter from Mellor to Wilde (MS Clark), written from Gland and dated 21 July 1900, runs: \"Am much distressed about your illness . . . I hope to be able to receive you on Monday 30 [July].\"' - p. 1194 (repo PDF 1240, folio confirmed, rendered 2026-08-03)."
   ],
   "bio_note": "Dates: the editors' footnote gives the death year only inside the life-dates (1868-1925); it does not date the suicide separately, and the place is 'his villa at Cannes'. Wilde's own estimate of Mellor's age - 'He is about twenty-six, but looks younger' (2 January 1899) - is wrong against the editors' 1868 birth-year, which would make him 30; recorded as Wilde's impression, not as a fact. Register: the friendly words are the first-impression ones of December 1898 and January 1899; from printed 1129 onward Wilde's private register toward Mellor is hostile ('very lamentable', 'this loathsome place', 'Gland, which has become intolerable', 'this dreadful place' - three correspondents in one week, March 1899, all p. 1137, repo PDF 1183, folio confirmed). Sensitive-content register (README): Mellor's age at the Harrow expulsion is fourteen, as the letter states it, no gloss. NULL FINDING - no mellor--wilde relationship file exists: the record in the pages read is companionship, hospitality and patronage in both directions, with no romantic or sexual content and no third-party or editorial characterization of the pair as anything but host and guest. Mellor's own documented queerness is a fact about Mellor and is not evidence about the pair. Cross-thread note: p. 1194 carries Wilde's use of 'neurasthenia' as a diagnosis for himself and for Mellor - relevant to the separate sexual-neurasthenia thread, though nothing there ties the term to sexual aetiology. Full passages, the null-finding table and the unread-page pointers in dossiers/EXILE-COMPANIONS_dossier.md (M1-M9).",
-  "context_engagements": [
-    {
-      "partner_name": "Eolo",
-      "period": "1898-1900",
-      "note": "Off-roster, and NOT a partnership: 'partner_name' is the schema's only slot for a named associate on a person record, and this is a servitude relationship, recorded in the correspondence in terms of purchase and ownership. Eolo was an Italian boy in Mellor's household who travelled with him on the Riviera in 1898-99 and was still with him in Paris in September 1900. Wilde's letters state that Eolo's father sold him to Mellor for 200 lire and had named all seventeen of his children out of a mythological dictionary; that Mellor was bored by him; and, at the far end of the arc, describe him as Mellor's 'slave'. Wilde's own framing in the 1900 sentence is a joke, recorded here as Wilde's and not endorsed; Wilde's sympathy in the 1899 sentence runs to Eolo, not to Mellor. Eolo is presumably the unnamed 'pretty Italian boy' of Wilde's first Mellor letter (p. 1112, 27 December 1898), per the editors' index. A third mention is indexed at printed 1128; that page was not read, so it stays a pointer.",
-      "sources": [
-        {
-          "quote": "Sometimes a very pretty, slim, fair-haired Italian boy bicycles over with him. His name is Eolo; his father, who sold him to Harold for 200 lire, having christened all his children – seventeen in number – out of the Mythological Dictionary. Harold is a nice fellow, but his boy bores him. It is dreadfully sad.",
-          "context": "Wilde to Robert Ross, 2 January 1899, Napoule - immediately after the sentences on Mellor's Harrow expulsion and daily bicycle visits. 'Eolo' and 'Mythological Dictionary' are italicised in the original.",
-          "work": "letters-2000",
-          "locator": "p. 1116",
-          "locator_type": "page",
-          "evidence_date": {
-            "y": 1899,
-            "m": 1,
-            "d": 2
-          },
-          "supports": "What the correspondence records of Eolo's position in Mellor's household: the purchase from his father for 200 lire, his name, and Mellor's boredom with him",
-          "verification": "verified-exact",
-          "how_verified": "pdf-at-page",
-          "provenance": "Repo PDF page 1162, printed folio 1116 confirmed on rendered page, read as page image 2026-08-03. Contiguous run from a page transcribed in full in the dossier (M3); no elision inside this quote.",
-          "verified_by": "agent-mechanical",
-          "verified_on": "2026-08-03",
-          "voice": "period"
-        },
-        {
-          "quote": "He is now in Paris with his slave Eolo, who like all slaves is most tyrannical.",
-          "context": "Wilde to Robert Ross, Saturday, 1 September [1900], Paris, reporting on Mellor after the 'Mellor cure' at Gland; the next sentence begins 'He and I, however, are great' and completes on printed 1195 with 'friends.'",
-          "work": "letters-2000",
-          "locator": "p. 1194",
-          "locator_type": "page",
-          "evidence_date": {
-            "y": 1900,
-            "m": 9,
-            "d": 1
-          },
-          "supports": "The same relation twenty months later, in Wilde's plain word - Eolo still described as Mellor's property",
-          "verification": "verified-exact",
-          "how_verified": "pdf-at-page",
-          "provenance": "Repo PDF page 1240, printed folio 1194 confirmed on rendered page, read as page image 2026-08-03.",
-          "verified_by": "agent-mechanical",
-          "verified_on": "2026-08-03",
-          "voice": "period"
-        }
-      ]
-    }
-  ],
+  "context_engagements": [],
   "research_status": "phase-a"
 }

@@ -326,7 +326,7 @@ verification: verified-elision (the elided sentences concern Goring's mother, th
 Douglas's charity)
 **Supports:** Both halves of the finding at once — Murray asserts one-directional physical
 attraction on Douglas's side **and** asserts that nothing sexual took place. That is the exact shape
-of the README's `desire-expressed` class.
+of the README's `attraction-expressed` class.
 **Also at PDF pp. 261, 263:** Goring told Beverley Nichols "I am the reincarnation of Dorian Gray";
 Murray reads him as "infatuated, if not with Douglas as an older man, then with the ideal of him as
 a young one", wanting "to recreate with Douglas the Wilde-Bosie relationship, with Douglas taking on
@@ -338,7 +338,7 @@ anonymity.
 firmly, names "that strange, brief, later friendship with Ivor Goring."
 
 **NEW-NODE CANDIDATE `goring-ivor`.** If created, supports a `douglas--goring-ivor` edge, proposed
-`desire-expressed`, `direction: douglas`, `outcome: unknown` (Murray says platonic in 2000 and
+`attraction-expressed`, `direction: douglas`, `outcome: unknown` (Murray says platonic in 2000 and
 "I wonder" in 2020 — the outcome is exactly what the source leaves open), 1926-1927. Gender m.
 **Not created.** Note the id must not collide with the place-name Goring-on-Thames, which appears
 throughout the same book.
@@ -535,7 +535,7 @@ made a beeline for him whenever he visited Winchester after he had gone up to Ox
 text layer only ⧖; PDF p. 40 read at page image.)
 
 Murray's own hedge — "almost fatherly interest" — puts this below the README's bar for
-`desire-expressed`, which asks that the desire be legible as desire to a reader not already holding
+`attraction-expressed`, which asks that the desire be legible as desire to a reader not already holding
 the coding hypothesis. **Reported as a lead; no edge proposed.** Montagu matters to the record
 anyway: he is the fiancé Olive Custance jilted in 1902 (PDF pp. 139-141), which the
 `custance--douglas` record already carries.
@@ -602,7 +602,7 @@ edge.
    Third-party contemporary summary of the acts. Murray pp. 68-69. Would also give `danney--ross`
    and `danney--wilde`.
 3. **Doris Edwards** (later Doris Carlyle) — 1913. `documented-sexual`. Murray p. 195, note at p. 339.
-4. **Ivor Goring** — 1926-27. `desire-expressed`, direction `douglas`, outcome `unknown`.
+4. **Ivor Goring** — 1926-27. `attraction-expressed`, direction `douglas`, outcome `unknown`.
    Murray pp. 20, 261-263.
 5. **Sir Edmund Trelawny Backhouse** — Winchester, mid-1880s. `alleged`, with a `disputed` block
    written from Murray's own caution ("There is proof that some of his claims were not true").

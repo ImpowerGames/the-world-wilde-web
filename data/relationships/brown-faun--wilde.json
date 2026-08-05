@@ -18,7 +18,7 @@
   "direction": null,
   "outcome": null,
   "summary": "Wilde called him one of 'my dear Neapolitans' and said he missed him after the group went home. The whole of the record is one sentence in a letter to his publisher, in which he weighs a waiter in Paris against him and finds the waiter no consolation.",
-  "certainty_reasoning": "Self-reported: Wilde is one of the two people and the words are his own. Note the distinction from the Cafe d'Egypte waiter, who appears in the very same sentence and is classified desire-expressed: of the Egyptian, Wilde records only that he serves him drinks and what he looks like, which is admiration at a distance; of this man he writes 'my dear Neapolitans' and 'I miss', and calls his going a 'loss' - the language of an association that existed and ended, not of an approach made. No act is described and none is claimed here, and the erotic register is entirely Wilde's own: a faun, deep woodland eyes, sensuous grace of limb, wanton and sylvan. That register is the evidence; there is nothing else.",
+  "certainty_reasoning": "Self-reported: Wilde is one of the two people and the words are his own. Note the distinction from the Cafe d'Egypte waiter, who appears in the very same sentence and is classified attraction-expressed: of the Egyptian, Wilde records only that he serves him drinks and what he looks like, which is admiration at a distance; of this man he writes 'my dear Neapolitans' and 'I miss', and calls his going a 'loss' - the language of an association that existed and ended, not of an approach made. No act is described and none is claimed here, and the erotic register is entirely Wilde's own: a faun, deep woodland eyes, sensuous grace of limb, wanton and sylvan. That register is the evidence; there is nothing else.",
   "sources": [
     {
       "work": "letters-2000",
@@ -37,7 +37,8 @@
       "voice": "period",
       "verified_by": "agent-mechanical",
       "verified_on": "2026-08-04",
-      "provenance": "Repo PDF page 1242, printed folio 1196 confirmed at the foot of the rendered page, read as a page image 2026-08-04. 'Cafe d'Egypte' carries an acute accent in the printed text; accents normalised here. The letter is incomplete and descends from a printed memoir and a saleroom catalogue rather than a manuscript - see the editors' footnote 1 on the same page."
+      "provenance": "Repo PDF page 1242, printed folio 1196 confirmed at the foot of the rendered page, read as a page image 2026-08-04. 'Cafe d'Egypte' carries an acute accent in the printed text; accents normalised here. The letter is incomplete and descends from a printed memoir and a saleroom catalogue rather than a manuscript - see the editors' footnote 1 on the same page.",
+      "addressee": "Leonard Smithers"
     }
   ]
 }

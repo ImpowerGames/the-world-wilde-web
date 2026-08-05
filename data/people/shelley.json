@@ -3,8 +3,12 @@
   "name": "Edward Shelley",
   "sort_name": "Shelley, Edward",
   "aka": [],
-  "born": {"y": 1874},
-  "died": {"y": 1915},
+  "born": {
+    "y": 1874
+  },
+  "died": {
+    "y": 1915
+  },
   "gender": "m",
   "group": "trials",
   "bio": "Clerk at Wilde's publishers Elkin Mathews & John Lane (the Bodley Head) from 1891 — 'of decent family and upbringing' in Hyde's phrase — whom Wilde invited to dine at the Albemarle Hotel in February 1892; his testimony describes kisses, embraces and two nights in Wilde's bed, resisted, with no completed act. Wilde sent him inscribed books ('To one I like well') and theatre tickets, seating Pierre Louÿs beside him at the Lady Windermere's Fan first night; Shelley quarrelled with Wilde at the Savoy in March 1893 and broke off the acquaintance by letter. He testified at both criminal trials; the count concerning him was withdrawn for want of corroboration, and the editors of the Letters record that after the trials he joined the Grenadier Guards and served in the Boer War.",
@@ -14,7 +18,7 @@
     "Holland & Hart-Davis, editorial note, Complete Letters (2000), p. 529 n 2 ('Edward Shelley (1874-1915). A young employee of Elkin Mathews and John Lane...'; read at rendered PDF p. 549, 2026-08-03) and p. 530 (Grenadier Guards / Boer War; read at rendered PDF p. 550)",
     "Wilde to Pierre Louÿs [mid-June 1892], Complete Letters (2000), p. 529 ('Vous serez à côté d'Edouard Shelley'; read at rendered page)"
   ],
-  "bio_note": "Dates 1874-1915 are the Letters editors'. Aged 'twenty-one years of age' by his own sworn statement in April 1895. The djvu OCR of Hyde gives 'In 1893 they were publishing a book' — the page image reads 1892 (verified 2026-08-03).",
+  "bio_note": "Dates 1874-1915 are the Letters editors'. Aged 'twenty-one years of age' by his own sworn statement in April 1895. The djvu OCR of Hyde gives 'In 1893 they were publishing a book' — the page image reads 1892 (verified 2026-08-03). MARRIAGE - A CLAIM THAT CANNOT BE DRAWN, recorded 2026-08-05 so it is not lost. Neil McKenna, The Secret Life of Oscar Wilde (2008), repo PDF p. 350, writes that 'Edward Shelley was deeply confused about his sexuality and eventually married.' NO WIFE IS NAMED, no date, no place, and the sentence is UNFOOTNOTED - McKenna's notes apparatus was searched and the only Shelley entry there attaches to a different quotation. The clause also sits inside a speculative passage about which of Wilde's partners preferred which sexual role, which is the least evidentially careful register McKenna writes in; the adjacent clauses are hedged ('seems to have hankered after') and this one is not, which is a stylistic difference rather than a documentary one. **No spouse node and no marriage edge follow from this**: there is nobody to put at the other end. Read it as 'McKenna says he eventually married', not as an established marriage. WHAT WOULD CLOSE IT: McKenna cites 'witness statements, private collection' for Shelley elsewhere and may have had material not in public hands; failing that, the GRO marriage index for a man born 1874 and dead 1915, cross-referenced with the Grenadier Guards service the Complete Letters editors note at p. 530. A soldier's marriage and a 1915 death are both routinely registered, so this is genuinely recoverable.",
   "context_engagements": [],
   "research_status": "phase-a"
 }

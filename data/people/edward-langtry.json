@@ -1,0 +1,27 @@
+{
+  "id": "edward-langtry",
+  "name": "Edward Langtry",
+  "sort_name": "Langtry, Edward",
+  "aka": [
+    "Ned Langtry"
+  ],
+  "born": {
+    "y": 1847
+  },
+  "died": {
+    "y": 1897
+  },
+  "group": "family",
+  "gender": "m",
+  "bio": "An Ulster landowner and widower who married Emilie Charlotte Le Breton in Jersey in 1874 and brought her to London, where she became the most photographed woman in England. She became an American citizen in the course of her US touring and divorced him at Lakeport, California, on 13 May 1897; he died later the same year.",
+  "bio_sources": [
+    "wikipedia-lillie-langtry",
+    "letters-2000"
+  ],
+  "bio_note": "A CONFLICT SITS INSIDE THIS RECORD AND IS NOT RESOLVED. Holland and Hart-Davis (Complete Letters (2000), p. 91 n. 2 - the repo source, already used on langtry.json) describe him as 'an Irish widower of thirty' whom she married 'in her teens'. Wikipedia dates the wedding to 9 March 1874 and makes her twenty and him twenty-six. Both cannot stand: on either candidate birth year for her (1852 on the person file, following the editors; 1853 per Wikipedia and Wikidata) she was past nineteen in March 1874. The editors' 'in her teens' and 'thirty' are the looser statements and are likely the ones at fault, but nothing read settles it, so both are recorded. Promoted from the context_engagement on langtry.json, 2026-08-05.",
+  "context_engagements": [],
+  "research_status": "phase-a",
+  "wikidata": null,
+  "wikipedia": null,
+  "roster_note": "Added 2026-08-05 in the pass that put every spouse and every off-roster person on the map."
+}

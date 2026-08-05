@@ -1,0 +1,445 @@
+/* ============ tokens ============ */
+:root{
+  color-scheme: dark;
+  /* Dark only. A single palette is less to maintain, and the map was designed against it:
+     the ColorBrewer Paired hues sit better on a dark ground than on paper. */
+  --paper:#221f1b; --paper2:#2a2620; --paper3:#332e26;
+  --ink:#efe9dc; --ink2:#b5ac9b; --ink3:#847c6d;
+  --rule:#3a352c; --rule2:#4c453a;
+  --accent:#d4ab2a; --accent-soft:#3a3423;
+  /* ColorBrewer Paired (n=9); light/dark pairs carry related groups - see README */
+  --g-core:#1f78b4; --g-aesthete:#ff7f00; --g-trials:#33a02c; --g-society:#fb9a99;
+  --g-family:#e31a1c; --g-chaeronea:#cab2d6; --g-later:#fdbf6f; --g-beyond:#a6cee3;
+  --g-liaisons:#b2df8a;
+  --edge:#c8bfa6; --edge-soft:#847c6d;
+  --ok:#3ec43e; --ok-bg:#20301d; --pend:#e2b83a; --pend-bg:#37301b;
+  --warn:#e58a4a; --warn-bg:#382a1e; --bad:#e06060; --bad-bg:#3a2222;
+  --shadow:0 10px 30px rgba(0,0,0,.5);
+  --serif:Georgia,"Iowan Old Style","Palatino Linotype","Book Antiqua",serif;
+  --sans:system-ui,-apple-system,"Segoe UI",sans-serif;
+}
+/* ============ base ============ */
+*{box-sizing:border-box}
+html,body{margin:0;height:100%}
+body{background:var(--paper);color:var(--ink);font-family:var(--serif);overflow:hidden;
+     display:flex;flex-direction:column}
+button{font:inherit;color:inherit;background:none;border:none;cursor:pointer;padding:0}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:2px}
+/* ============ header ============ */
+header{flex:none;padding:14px 20px 10px;border-bottom:3.5px double var(--rule2);
+       display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 18px;background:var(--paper)}
+.masthead{display:flex;flex-direction:column;gap:2px;margin-right:auto}
+.masthead h1{margin:0;font-size:19px;font-weight:600;letter-spacing:.22em;text-transform:uppercase}
+.masthead .sub{font-size:12.5px;font-style:italic;color:var(--ink2)}
+.hstamp{font-family:var(--sans);font-size:10.5px;color:var(--ink3);letter-spacing:.04em}
+.hbtns{display:flex;gap:8px;align-items:center}
+.hbtn{font-family:var(--sans);font-size:11.5px;letter-spacing:.06em;text-transform:uppercase;
+      padding:6px 11px;border:1px solid var(--rule2);border-radius:999px;color:var(--ink2);background:var(--paper)}
+.hbtn:hover{border-color:var(--accent);color:var(--ink)}
+.hbtn[aria-pressed="true"]{background:var(--accent-soft);border-color:var(--accent);color:var(--ink)}
+#search{font:italic 14px var(--serif);color:var(--ink);background:var(--paper2);
+        border:1px solid var(--rule2);border-radius:999px;padding:7px 14px;width:230px}
+#search::placeholder{color:var(--ink3)}
+.searchwrap{position:relative;display:flex;gap:6px;align-items:center}
+#searchscope{font-family:var(--sans);font-size:11px;letter-spacing:.03em;color:var(--ink2);
+        background:var(--paper2);border:1px solid var(--rule2);border-radius:999px;
+        padding:6px 8px;cursor:pointer}
+#searchscope:hover{border-color:var(--accent);color:var(--ink)}
+/* A pill under the box saying what matched. Searching a word that occurs only inside a quotation
+   otherwise lights nodes up for no visible reason - the count is what tells you the hit was in
+   the evidence rather than in a name. */
+#searchnote{position:absolute;top:calc(100% + 5px);right:0;z-index:5;pointer-events:none;
+        font-family:var(--sans);font-size:10.5px;letter-spacing:.03em;color:var(--ink2);
+        background:var(--paper2);border:1px solid var(--rule2);border-radius:999px;
+        padding:2px 10px;white-space:nowrap}
+#searchnote:empty{display:none}
+/* ============ legend ============ */
+#legend{flex:none;display:flex;flex-wrap:wrap;gap:4px 14px;align-items:center;
+        padding:7px 20px;border-bottom:1px solid var(--rule);background:var(--paper);
+        font-family:var(--sans);font-size:11px;color:var(--ink2)}
+.lg-title{letter-spacing:.14em;text-transform:uppercase;font-size:9.5px;color:var(--ink3);margin-right:-4px}
+.lgc{display:inline-flex;align-items:center;gap:5px;padding:3px 8px;border-radius:999px;
+     border:1px solid transparent}
+.lgc:hover{border-color:var(--rule2)}
+.lgc[aria-pressed="false"]{opacity:.35}
+/* The soloed switch. Marked by colour ALONE, with nothing added to the label: a word like "only"
+   inside the chip changes its width, which shunts every switch after it sideways at the moment of
+   the click — the row appears to twitch just as you are reading it. The rest of the row is already
+   faded to 35%, so an accent-coloured switch among faded ones is unambiguous without adding
+   anything, and the tooltip says what clicking it will do. Border stays 1px so nothing reflows. */
+.lgc.solo{border-color:var(--accent);color:var(--accent);
+     background:color-mix(in srgb,var(--accent) 13%,transparent)}
+.lgc:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.lgc .dot{width:9px;height:9px;border-radius:50%;flex:none}
+.lg-note{font-size:9px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink3);
+         border:1px solid var(--rule2);border-radius:3px;padding:1px 4px;margin-left:2px}
+.lgc svg{flex:none}
+.lg-sep{width:1px;height:16px;background:var(--rule2)}
+/* People and gender filter the nodes; connections filter the lines. Break between them so the
+   two kinds of control read as two rows rather than one long strip. */
+.lg-break{flex-basis:100%;height:0;margin:0}
+/* ============ main ============ */
+main{flex:1;display:flex;min-height:0;position:relative}
+#webwrap{flex:1;min-width:0;position:relative}
+/* names must not be selectable: a drag across the canvas would otherwise start a text
+   selection instead of moving the node. The panel stays selectable so quotes can be copied. */
+#web{position:absolute;inset:0;width:100%;height:100%;touch-action:none;display:block;
+     user-select:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none}
+/* Held while the view is being dragged, by any button. Without it a right-drag over open ground
+   gives no sign that anything is happening until the map moves. */
+#web.panning,#web.panning *{cursor:grabbing}
+#web .edge .e-hit{stroke:transparent;stroke-width:16px;fill:none;cursor:pointer}
+#web .edge .e-under{display:none;fill:none}
+#web .edge .e-main{fill:none;stroke:var(--edge);cursor:pointer}
+#web .edge.cert-self-reported .e-main{stroke-width:2.9}
+#web .edge.cert-second-hand .e-main{stroke-width:1.9;stroke-dasharray:7 5;opacity:.85}
+#web .edge.cert-uncorroborated .e-main{stroke-width:1.8;stroke-dasharray:1.5 6;stroke-linecap:round;opacity:.9}
+#web .edge.cert-attraction-expressed .e-main{stroke-width:1.7;stroke-dasharray:2 4 8 4;opacity:.85;marker-end:url(#arrowhead)}
+#web .edge.cert-attraction-expressed.out-unknown .e-main{stroke-width:1.4;opacity:.55;marker-end:url(#arrowhead-open)}
+#web .edge.cert-married .e-under{display:block;stroke:var(--edge);stroke-width:5}
+#web .edge.cert-married .e-main{stroke:var(--paper);stroke-width:1.8}
+#web .edge.dimmed{opacity:.12}
+#web .edge.hidden{display:none}
+#web .edge.focus .e-main{stroke:var(--accent)}
+#web .edge.cert-married.focus .e-under{stroke:var(--accent)}
+/* ...and everything unrelated to the selection recedes */
+#web.focusing .edge:not(.focus){opacity:.09}
+#web.focusing .node:not(.focus){opacity:.13}
+#web .node{cursor:grab}
+#web .node .shape{stroke:var(--ink);stroke-width:1.4;fill:var(--ink3)}
+#web .node.g-core .shape{fill:var(--g-core)} #web .node.g-aesthete .shape{fill:var(--g-aesthete)}
+#web .node.g-trials .shape{fill:var(--g-trials)} #web .node.g-society .shape{fill:var(--g-society)}
+#web .node.g-family .shape{fill:var(--g-family)} #web .node.g-chaeronea .shape{fill:var(--g-chaeronea)}
+#web .node.g-later .shape{fill:var(--g-later)}
+#web .node.g-beyond .shape{fill:var(--g-beyond)}
+#web .node.g-liaisons .shape{fill:var(--g-liaisons)}
+#web .node text{font:12px var(--serif);fill:var(--ink);paint-order:stroke;stroke:var(--paper);
+                stroke-width:3px;text-anchor:middle;pointer-events:none}
+#web .node .pin{fill:var(--ink);stroke:var(--paper);stroke-width:1;display:none}
+#web .node.pinned .pin{display:block}
+#web .node.leadonly{opacity:.4}
+#web .node.dimmed{opacity:.15}
+/* An explicit selection beats a filter. Choosing someone whose group is switched off - the
+   Outside-the-circle men are off by default - used to open their panel while leaving them and
+   their connection dimmed on the graph, so nothing appeared to happen. Focus now restores them
+   for as long as they are selected; the group stays off underneath. */
+#web .node.dimmed.focus{opacity:1}
+#web .edge.dimmed.focus{opacity:1}
+#web .node.focus .shape{stroke:var(--accent);stroke-width:3}
+#tip{position:absolute;pointer-events:none;background:var(--paper2);border:1px solid var(--rule2);
+     border-radius:6px;padding:6px 10px;font-family:var(--sans);font-size:11.5px;color:var(--ink2);
+     box-shadow:var(--shadow);display:none;max-width:260px;z-index:5}
+#tip b{color:var(--ink);font-weight:600}
+#emptymsg{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+          color:var(--ink3);font-style:italic;padding:30px;text-align:center}
+#emptymsg[hidden]{display:none}
+/* ============ panel ============ */
+#panel{flex:none;width:400px;max-width:46vw;border-left:1px solid var(--rule);background:var(--paper2);
+       overflow-y:auto;display:none}
+#panel.open{display:block}
+.pwrap{padding:18px 20px 40px}
+.pclose{float:right;font-family:var(--sans);font-size:12px;color:var(--ink3);padding:4px 8px;
+        border:1px solid var(--rule2);border-radius:999px}
+.pclose:hover{color:var(--ink);border-color:var(--accent)}
+/* The sphere chip is a BUTTON: clicking it narrows the map to that sphere alone, clicking again
+   restores everyone. It reads as a label first and a control second, which is the right emphasis -
+   it labels the person, and the filtering is an offer. */
+.ptag{display:inline-flex;align-items:center;gap:5px;font-family:var(--sans);font-size:10px;
+      letter-spacing:.12em;text-transform:uppercase;color:var(--ink2);border:1px solid var(--rule2);
+      padding:3px 9px;border-radius:999px;margin-bottom:6px;
+      background:none;cursor:pointer;transition:border-color .12s,color .12s,background .12s}
+.ptag:hover{border-color:var(--ink3);color:var(--ink)}
+.ptag:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.ptag .dot{width:8px;height:8px;border-radius:50%}
+#panel h2{margin:2px 0 1px;font-size:23px;font-weight:600;letter-spacing:.01em}
+#panel h2 a{color:inherit;text-decoration:none;border-bottom:1px solid var(--rule2)}
+#panel h2 a:hover{border-color:var(--accent)}
+.aka{font-style:italic;color:var(--ink2);font-size:13.5px}
+.dates{font-family:var(--sans);font-variant-numeric:tabular-nums;font-size:12.5px;color:var(--ink2);
+       letter-spacing:.05em;margin:2px 0 12px}
+.bio{font-size:14.5px;line-height:1.62;margin:0 0 6px;max-width:62ch}
+.bionote{font-size:11.5px;color:var(--ink3);font-style:italic;margin:0 0 14px}
+/* Working notes - which page was read, what was corrected, what was searched and not found - are
+   the apparatus, not the entry. They sit at the foot of the panel and start closed: median note
+   runs about twice the length of the biography it annotates, and up to twelve times. */
+.method{margin:22px 0 4px;border-top:1px solid var(--rule);padding-top:10px}
+.method>summary{font-family:var(--sans);font-size:10px;letter-spacing:.14em;text-transform:uppercase;
+        color:var(--ink3);cursor:pointer;list-style:none}
+.method>summary::-webkit-details-marker{display:none}
+.method>summary::before{content:"▸";display:inline-block;margin-right:6px;transition:transform .15s}
+.method[open]>summary::before{transform:rotate(90deg)}
+.method>div{font-size:11.5px;line-height:1.6;color:var(--ink3);margin-top:8px;max-width:62ch;
+        white-space:pre-wrap}
+.sect{font-family:var(--sans);font-size:10px;letter-spacing:.18em;text-transform:uppercase;
+      color:var(--ink3);border-bottom:1px solid var(--rule);padding-bottom:4px;margin:20px 0 10px}
+/* timeline */
+.tl{list-style:none;margin:0;padding:0 0 0 3px}
+.tl li{position:relative;padding:0 0 14px 22px;border-left:2px solid var(--rule2)}
+.tl li:last-child{padding-bottom:2px}
+.tl .knot{position:absolute;left:-6.5px;top:3px;width:9px;height:9px;border-radius:50%;
+          background:var(--edge);border:2px solid var(--paper2)}
+.tl li.anchor .knot{background:var(--paper2);border:2px solid var(--ink3)}
+.tl li.ctx .knot{background:var(--paper2);border:2px solid var(--edge)}
+.tl .when{font-family:var(--sans);font-size:10.5px;letter-spacing:.05em;color:var(--ink3);
+          font-variant-numeric:tabular-nums;text-transform:uppercase}
+.tl .what{font-size:14px;line-height:1.45}
+.tl .what a{color:inherit;text-decoration:none;border-bottom:1px solid var(--rule2)}
+.tl .what a:hover{border-color:var(--accent)}
+.tl li.anchor .what{font-style:italic;color:var(--ink2)}
+.tl .offr{font-family:var(--sans);font-size:9.5px;letter-spacing:.08em;color:var(--ink3);
+          text-transform:uppercase;margin-left:5px}
+.mini{display:inline-block;vertical-align:1px;margin-left:7px}
+/* relationship card */
+.rhead{font-size:20px;margin:2px 0 2px}
+.badge{display:inline-flex;align-items:center;gap:7px;font-family:var(--sans);font-size:11px;
+       letter-spacing:.07em;text-transform:uppercase;color:var(--ink2);
+       border:1px solid var(--rule2);border-radius:999px;padding:4px 11px;margin:7px 8px 7px 0}
+.badge .prov{font-size:9.5px;color:var(--ink3);font-style:italic;text-transform:none;letter-spacing:0}
+.datesline{font-family:var(--sans);font-size:12.5px;color:var(--ink2);margin:2px 0 10px;
+           font-variant-numeric:tabular-nums}
+.summary{font-size:14.5px;line-height:1.6;max-width:62ch;margin:0 0 8px}
+.phases{margin:6px 0 0;padding-left:18px;font-size:13px;color:var(--ink2)}
+.phases li{margin-bottom:3px}
+.disputed{border-left:3px solid var(--pend);background:var(--pend-bg);padding:10px 13px;
+          border-radius:0 6px 6px 0;font-size:13px;line-height:1.55;margin:12px 0}
+/* The two sides of a contested claim are labelled rather than folded into a sentence: several of
+   them are statements of absence ("no witness attests ..."), which read as broken grammar after a
+   forced "Disputed by". */
+.disputed .dline{margin-top:7px}
+.disputed .dline>span{display:block;font-family:var(--sans);font-size:9.5px;letter-spacing:.11em;
+          text-transform:uppercase;color:var(--ink3);margin-bottom:1px}
+.disputed b{letter-spacing:.03em}
+/* quotes */
+.qcard{border:1px solid var(--rule);border-radius:8px;background:var(--paper);
+       padding:13px 15px 11px;margin:0 0 12px;box-shadow:0 1px 0 var(--rule)}
+.qctx{font-family:var(--sans);font-size:10px;letter-spacing:.1em;text-transform:uppercase;
+      color:var(--ink3);margin-bottom:7px}
+.qctx.long{text-transform:none;letter-spacing:.02em;font-size:11px;line-height:1.5}
+.qcard blockquote{margin:0 0 9px;font-size:14.5px;line-height:1.62;white-space:pre-wrap;
+        padding-left:12px;border-left:2px solid var(--rule2)}
+/* Whose mouth the words came out of. Text that is ENTIRELY a period voice - a letter, a diary,
+   sworn testimony - is set between large serif quotation marks, so first-hand evidence is legible
+   as such before you read a word of it. A historian writing about these people keeps the quieter
+   rule down the left, and so does any sentence that only quotes a period voice inside itself. */
+.qcard blockquote.q-period{position:relative;border-left:none;
+        padding:3px 22px 3px 29px;margin:6px 0 12px}
+.qcard blockquote.q-period::before,.qcard blockquote.q-period::after{
+        position:absolute;font-family:var(--serif);font-size:40px;line-height:1;
+        color:var(--ink3);opacity:.32;pointer-events:none}
+.qcard blockquote.q-period::before{content:"\201C";left:0;top:-4px}
+.qcard blockquote.q-period::after{content:"\201D";right:2px;bottom:-18px}
+/* An EXCHANGE: period evidence with more than one speaker in it, set as a transcript. No quotation
+   marks — those promise a single voice, which is exactly what a cross-examination is not.
+   NOTHING IN THE LEFT MARGIN EITHER: the panel is narrow, and a rule plus a hanging indent spent
+   about six characters of every line on decoration. The per-line speaker labels are already the
+   signal that more than one person is talking, so the rule was saying a second time what the rows
+   say themselves. Turns are separated by space instead, and wrapped text runs the full width. */
+/* SCREENPLAY STYLE: the name above the line, not beside it. A two-column version was built first
+   and measured against this one on the same card — and the name column cost too much. "SOLICITOR-
+   GENERAL" is 110px of a 490px panel, better than a fifth of the measure, spent on every row
+   including the ones that just say "Yes." Set side by side, the columns took eight wrapped lines
+   where this takes four. Horizontal space is the scarce thing in a side panel; vertical space
+   scrolls. It is also the convention this repository already thinks in. */
+/* The rule is back now that the names sit above the lines rather than beside them. It cost too much
+   next to a name COLUMN — the two together ate a quarter of the measure — but against full-width
+   text it is 14px, and it does the job the column used to: marking the whole block as a record of
+   proceedings at a glance, before any of it is read. Double, for two voices. */
+.qcard blockquote.q-exchange{border-left:2px dashed var(--rule2);padding:2px 0 2px 13px;
+        margin:6px 0 12px;display:block}
+.qcard blockquote.q-exchange .who{display:block;margin:0 0 1px;
+        font-family:var(--sans);font-size:9.5px;letter-spacing:.12em;text-transform:uppercase;
+        color:var(--ink3)}
+.qcard blockquote.q-exchange .who:empty{display:none}   /* speaker not recorded: say nothing */
+.qcard blockquote.q-exchange .said{display:block;margin:0 0 10px}
+.qcard blockquote.q-exchange .said:last-child{margin-bottom:0}
+/* The English of a quotation that is not in English. Set BELOW the original and visibly quieter:
+   the French is what was verified at the page and what the edge is evidenced by, so it keeps the
+   quotation's own typography, and this is the way in rather than the source. */
+.qtrans{font-size:13px;line-height:1.6;color:var(--ink2);margin:-2px 0 10px;padding-left:12px;
+        border-left:1px solid var(--rule2)}
+.qtrans-h{display:block;font-family:var(--sans);font-size:9.5px;letter-spacing:.11em;
+          text-transform:uppercase;color:var(--ink3);margin-bottom:3px}
+.qtrans-n{display:block;font-size:11.5px;font-style:italic;color:var(--ink3);margin-top:5px}
+.qattr{font-size:12.5px;color:var(--ink2);margin-bottom:9px}
+.qplaced{font-size:.82em;font-style:italic;color:var(--ink3);margin-top:.35em;opacity:.9}
+.qsupports{font-size:11.5px;color:var(--ink3);font-style:italic;margin-bottom:9px}
+.chips{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.chip{display:inline-flex;align-items:center;gap:4px;font-family:var(--sans);font-size:9.5px;
+      font-weight:600;letter-spacing:.09em;text-transform:uppercase;border-radius:4px;padding:3px 8px}
+.chip.v-ok{color:var(--ok);background:var(--ok-bg)}
+.chip.v-pend{color:var(--pend);background:var(--pend-bg)}
+.chip.v-warn{color:var(--warn);background:var(--warn-bg)}
+.chip.v-bad{color:var(--bad);background:var(--bad-bg)}
+.chip.how{color:var(--ink2);background:var(--paper3);font-weight:400}
+.qcard details{margin-top:9px;font-family:var(--sans);font-size:11px;color:var(--ink2)}
+.qcard summary{cursor:pointer;color:var(--ink3);letter-spacing:.06em;text-transform:uppercase;font-size:9.5px}
+.qcard details div{margin-top:5px;line-height:1.5}
+.qpointer{border-style:dashed;background:var(--paper2)}
+.qpointer .qhead{font-family:var(--sans);font-size:10px;font-weight:600;letter-spacing:.12em;
+                 text-transform:uppercase;color:var(--pend);margin-bottom:6px}
+.qpointer .qclaim{font-size:13.5px;font-style:italic;line-height:1.55;margin-bottom:8px}
+/* list view */
+.lrow{display:block;width:100%;text-align:left;padding:9px 4px;border-bottom:1px solid var(--rule);
+      font-size:13.5px;line-height:1.4}
+.lrow:hover{background:var(--paper3)}
+.lrow .when{font-family:var(--sans);font-size:10.5px;color:var(--ink3);letter-spacing:.05em;
+            font-variant-numeric:tabular-nums;text-transform:uppercase}
+.lrow .vs{font-family:var(--sans);font-size:10px;color:var(--ink3);margin-left:8px}
+/* about modal */
+#about{position:fixed;inset:0;background:rgba(20,17,12,.55);display:none;z-index:20;
+       align-items:center;justify-content:center;padding:20px}
+#about.open{display:flex}
+.abox{background:var(--paper);border:1px solid var(--rule2);border-radius:10px;max-width:620px;
+      max-height:86vh;overflow-y:auto;padding:26px 30px;box-shadow:var(--shadow)}
+.abox h2{margin:0 0 4px;font-size:17px;letter-spacing:.18em;text-transform:uppercase}
+.abox p,.abox li{font-size:13.5px;line-height:1.62;color:var(--ink2)}
+/* A connection's entry in the About list is introduced by the LINE ITSELF, not by a disc and a
+   description of it. The sample replaces the marker rather than sitting after it, so the column of
+   samples reads as a key; hanging indent keeps the wrapped prose clear of it. */
+.lrow{list-style:none;margin-left:-1.55em;padding-left:2.9em;text-indent:-2.9em}
+.lrow .lsample{margin-right:8px;vertical-align:-1px}
+.lrow>b:first-of-type{text-indent:0}
+.abox b{color:var(--ink)}
+.abox .sect{margin-top:16px}
+/* responsive */
+@media (max-width:900px){
+  #panel{position:fixed;left:0;right:0;bottom:0;top:auto;width:100%;max-width:none;
+         height:68vh;border-left:none;border-top:1px solid var(--rule2);
+         border-radius:14px 14px 0 0;box-shadow:var(--shadow);z-index:10}
+  .pwrap{padding-top:8px}
+  .grab{width:44px;height:5px;border-radius:3px;background:var(--rule2);margin:6px auto 10px}
+  #search{width:150px}
+  header{padding:10px 14px 8px}
+  .masthead h1{font-size:16px}
+}
+@media (min-width:901px){
+  .grab{display:none}
+  #panel{display:block}          /* always present on desktop, so the layout never jumps */
+}
+@media (prefers-reduced-motion: reduce){ *{scroll-behavior:auto !important} }
+
+/* A node with a portrait shows the picture, so the group colour has to move from the fill to
+   the ring - otherwise the photograph erases the one thing the colour was carrying. Drawn a
+   little thicker than a plain node's outline so it still reads as a group at a glance. */
+/* fill:none makes the interior unhittable in SVG, so a click on a portrait node fell straight
+   through to whatever edge ran underneath - which also killed dragging. pointer-events:all
+   restores hit-testing over the unfilled area. */
+#web .node.has-portrait .shape{fill:none;stroke-width:3.2;pointer-events:all}
+#web .node.g-core.has-portrait .shape{stroke:var(--g-core)}
+#web .node.g-aesthete.has-portrait .shape{stroke:var(--g-aesthete)}
+#web .node.g-trials.has-portrait .shape{stroke:var(--g-trials)}
+#web .node.g-society.has-portrait .shape{stroke:var(--g-society)}
+#web .node.g-family.has-portrait .shape{stroke:var(--g-family)}
+#web .node.g-chaeronea.has-portrait .shape{stroke:var(--g-chaeronea)}
+#web .node.g-later.has-portrait .shape{stroke:var(--g-later)}
+#web .node.g-liaisons.has-portrait .shape{stroke:var(--g-liaisons)}
+#web .node.g-beyond.has-portrait .shape{stroke:var(--g-beyond)}
+#web .node.has-portrait.focus .shape{stroke:var(--accent);stroke-width:4}
+/* Portraits fade in as they decode rather than popping. A hundred of them arriving at full
+   strength over a second or two reads as a flicker across the whole map; the coloured shape is
+   already drawn underneath, so nothing is missing while the face arrives. */
+#web .node .portrait{pointer-events:none;opacity:0;transition:opacity .45s ease}
+#web .node .portrait.loaded{opacity:1}
+@media (prefers-reduced-motion:reduce){
+  #web .node .portrait{opacity:1;transition:none}
+}
+
+/* an outward link to the fuller life, where one exists; deliberately quiet - this map is the
+   evidence, Wikipedia is the summary */
+.dates .ext{color:var(--ink3);text-decoration:none;border-bottom:1px dotted var(--rule2)}
+.dates .ext:hover{color:var(--accent);border-bottom-color:var(--accent)}
+.dates .ext::after{content:"↗";font-size:.8em;margin-left:3px;vertical-align:1px}
+
+/* a person's page repeats each connection's evidence under a heading naming the other person,
+   so the whole life reads in one scroll; the heading still links out to the connection */
+.qspeaker{font-family:var(--serif);font-size:15.5px;color:var(--ink);margin:0 0 5px;line-height:1.25}
+.qlink{color:inherit;text-decoration:none;border-bottom:1px solid var(--rule2)}
+.qlink:hover{color:var(--accent);border-bottom-color:var(--accent)}
+/* Pushed to the far right of the connection bar. It sat at the end of the speaker line before,
+   which is the crowded side of the card - a long "Oscar Wilde to Robert Ross" heading left it
+   wrapping - while the bar above has empty room. No separator glyph now that it stands alone. */
+.qdate{font-family:var(--sans);font-size:10.5px;letter-spacing:.04em;color:var(--ink3);
+       margin-left:auto;padding-left:1em;white-space:nowrap}
+/* The separators live in the MARKUP, not in CSS or in margins. "Oscar Wilde to Robert Ross" was
+   selecting as "Oscar WildetoRobert Ross", because the gaps around "to" were margin and the comma
+   before a speaker's role was a ::before — neither of which a browser puts on the clipboard.
+   Anything a reader might copy has to be real text; `white-space:pre` keeps the spaces from being
+   collapsed away at the element boundaries. */
+.qspeaker-to{font-size:12px;font-style:italic;color:var(--ink3);font-family:var(--serif);
+             white-space:pre}
+.qspeaker-x{font-size:12.5px;font-style:italic;color:var(--ink2)}
+.qwith{margin:0 0 .6em;padding-bottom:.45em;border-bottom:1px dotted var(--rule2);font-family:var(--sans);font-size:10.5px;letter-spacing:.03em;color:var(--ink3);
+       display:flex;align-items:center;gap:6px}
+.qwith a{color:var(--ink2);text-decoration:none;border-bottom:1px solid var(--rule2)}
+.qwith a:hover{color:var(--accent);border-bottom-color:var(--accent)}
+.sect-note{margin:-4px 0 12px;font-family:var(--sans);font-size:11px;line-height:1.5;color:var(--ink3)}
+.pgroup{margin:0 0 18px}
+.pgroup-h{display:flex;align-items:center;gap:8px;margin:0 0 8px;padding-bottom:5px;
+        border-bottom:1px solid var(--rule)}
+.pgroup-h a{font-family:var(--serif);font-size:15px;color:var(--ink);text-decoration:none;
+        border-bottom:1px solid var(--rule2)}
+.pgroup-h a:hover{border-bottom-color:var(--accent);color:var(--accent)}
+.pgroup-n{margin-left:auto;font-family:var(--sans);font-size:10px;color:var(--ink3);
+        border:1px solid var(--rule2);border-radius:999px;padding:1px 7px}
+
+/* The ring that says 'this is the one you picked'. Two things need it: the node you selected
+   (its neighbours share the accent stroke, so without this they are indistinguishable) and
+   the node keyboard focus is sitting on. Held off the shape rather than hugging it, so it
+   reads as an indicator rather than a second border - which is what the browser's own white
+   ring looked like around the whole group, label included. */
+#web .node:focus{outline:none}
+/* The one you picked. Its neighbours light up too, which is the point of selecting - but that
+   leaves nothing saying which one you actually chose. Solid, in the accent, held off the shape so
+   it reads as a marker rather than a second border. */
+#web .node.primary .shape{outline:2px solid var(--accent);outline-offset:6px;border-radius:3px}
+/* Where the keyboard is - a different thing from what is selected, so it gets a different ring:
+   dashed, and in the ink rather than the accent. */
+#web .node:focus-visible:not(.primary) .shape{outline:2px dashed var(--ink);outline-offset:6px;
+        border-radius:3px}
+/* Tab lands on faded nodes as often as lit ones, and at .13 a ring is invisible. Lift the one
+   under the cursor part of the way back - enough to find, still plainly outside what is selected.
+   Both fades need naming: .dimmed is the legend and the search, .focusing is a live selection.
+   Only the first was covered at first, so tabbing away from a selected node stayed invisible. */
+#web .node.dimmed:focus-visible,
+#web.focusing .node:not(.focus):focus-visible{opacity:.55}
+
+/* SOURCES FILTER. Sits under the section heading and above the run. The text box takes the full
+   measure because what people type into it is long - a phrase from a letter, a partner's name -
+   while the year bounds are four characters each and sit on their own row with the result count,
+   so the two controls never compete for the panel's ~430px of usable width. */
+.sfilter{margin:0 0 12px}
+.sfq{width:100%;box-sizing:border-box;font:italic 13.5px var(--serif);color:var(--ink);
+     background:var(--paper2);border:1px solid var(--rule2);border-radius:999px;padding:6px 13px}
+.sfq::placeholder{color:var(--ink3)}
+.sfq::-webkit-search-cancel-button{filter:invert(.55) sepia(.3)}
+.sfrow{display:flex;align-items:center;gap:6px;margin-top:6px}
+.sfyl{font-family:var(--sans);font-size:10px;letter-spacing:.14em;text-transform:uppercase;
+      color:var(--ink3)}
+.sfy{width:52px;font:12.5px var(--sans);color:var(--ink);background:var(--paper2);
+     border:1px solid var(--rule2);border-radius:5px;padding:4px 6px;text-align:center}
+.sfy::placeholder{color:var(--ink3)}
+.sfdash{color:var(--ink3);font-size:12px;margin:0 -2px}
+.sfclear{font-family:var(--sans);font-size:10px;letter-spacing:.03em;color:var(--ink2);
+         background:var(--paper2);border:1px solid var(--rule2);border-radius:999px;
+         padding:3px 9px;cursor:pointer}
+.sfclear:hover{border-color:var(--accent);color:var(--ink)}
+/* The count sits hard right, where a reader's eye lands after the controls rather than between
+   them, and it is the only thing on the row that changes as you type. */
+.sfcount{margin-left:auto;font-family:var(--sans);font-size:10.5px;color:var(--ink3);
+         text-align:right}
+.sfnone{margin:0 0 12px;font-family:var(--sans);font-size:11px;line-height:1.55;color:var(--ink3);
+        border-left:2px solid var(--rule2);padding-left:10px}
+.qcard.sfhide{display:none}
+
+/* The matched run. A browser's default mark is a bright yellow block that would look like a
+   highlighter pen dragged across a manuscript; this is a wash of the accent with the text left at
+   full strength, so the word is found without being shouted at. Padding is horizontal only - any
+   vertical padding would push the marked line's leading out of step with the lines around it. */
+mark.sfhit{background:rgba(212,171,42,.20);color:inherit;border-radius:2px;padding:0 1px;
+           box-shadow:0 0 0 1px rgba(212,171,42,.22)}
+.qcard blockquote mark.sfhit{background:rgba(212,171,42,.24)}
+/* A hit inside a link keeps the link's own underline; without this the wash sits on top of it. */
+.qlink mark.sfhit{background:rgba(212,171,42,.26)}
+.qcard details.sfdeep>summary{color:var(--accent)}
+.qcard details.sfdeep>summary::after{content:" — match inside";font-family:var(--sans);
+           font-size:9.5px;letter-spacing:.04em;color:var(--accent);opacity:.85}

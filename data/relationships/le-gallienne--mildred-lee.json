@@ -1,0 +1,35 @@
+{
+  "id": "le-gallienne--mildred-lee",
+  "people": [
+    "le-gallienne",
+    "mildred-lee"
+  ],
+  "certainty": "married",
+  "certainty_status": "proposed",
+  "certainty_reasoning": "Married - but on the weakest evidential footing of any marriage edge on this map, and the edge should be read that way. ALL THREE LE GALLIENNE MARRIAGES REST ON AN UNCITED WIKIPEDIA NARRATIVE. The sentences carry no inline footnote; Wikidata Q545544 is not an independent check, holding a single P26 claim with zero references and nothing at all for two of the three wives, so the two web sources are one source. What keeps the edge honest rather than speculative is that the repo's own person file states independently that 'He married three times' - the map's record and the article agree on the substance before any date is taken from either - and that the identification is exact, matching 1866-1947 on the person file, the Wikipedia article and Wikidata alike. WHAT WOULD CLOSE IT: Whittington-Egan and Smerdon, The Quest of the Golden Boy (1960), the standard life, and Eva Le Gallienne's memoirs; failing those, the GRO and New York civil registers. Neither is in the repo. For this marriage specifically the record is thinnest of the three: the article never states when or where it happened and gives her no dates, so the edge carries an end and no beginning.",
+  "start": null,
+  "end": {
+    "y": 1894
+  },
+  "date_label": "married by 1894 at latest; ended by her death in childbirth, 1894",
+  "summary": "Mildred Lee married Richard Le Gallienne at an unrecorded date before 1894, and died that year in childbirth together with their second daughter. He kept her ashes with him for the rest of his life, including throughout his next marriage.",
+  "sources": [
+    {
+      "quote": "His first wife, Mildred Lee, and their second daughter, Maria, died in 1894 during childbirth, leaving behind Richard and their daughter Hesper Joyce.",
+      "context": "Wikipedia, 'Richard Le Gallienne'. This is the sentence that introduces her; the marriage itself is never separately narrated and carries no date. The article adds that he thereafter carried an urn of her ashes everywhere, which Rupert Brooke satirised in 'For Mildred's Urn'.",
+      "work": "wikipedia-richard-le-gallienne",
+      "locator": "section on his English years",
+      "locator_type": "none",
+      "evidence_date": {
+        "y": 1894
+      },
+      "supports": "The first marriage, the wife's name, and its end.",
+      "verification": "verified-exact",
+      "how_verified": "web",
+      "provenance": "Plain-text extract of the article fetched through the MediaWiki API and read 2026-08-05; quotation sliced from that extract. Reference-marker brackets omitted as typography. THE SENTENCE CARRIES NO CITATION ON THE PAGE.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-05",
+      "voice": "modern"
+    }
+  ]
+}

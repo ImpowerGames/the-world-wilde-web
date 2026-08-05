@@ -3,6 +3,8 @@
 
     python tools/serve.py            http://localhost:8000
     python tools/serve.py 8080       a different port
+    python tools/serve.py --no-open  do not pop a browser tab (for a headless/agent-driven browser,
+                                     which attaches to the port itself)
 
 The browser will not fetch data/circle.json from a file:// page, so opening index.html by
 double-clicking shows an empty map. Run this instead.
@@ -19,7 +21,9 @@ import webbrowser
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-PORT = int(sys.argv[1]) if len(sys.argv) > 1 else 8000
+ARGS = [a for a in sys.argv[1:] if a != "--no-open"]
+OPEN_BROWSER = "--no-open" not in sys.argv[1:]
+PORT = int(ARGS[0]) if ARGS else 8000
 
 
 class Handler(http.server.SimpleHTTPRequestHandler):
@@ -55,10 +59,11 @@ def main():
     with socketserver.TCPServer(("", PORT), handler) as httpd:
         url = f"http://localhost:{PORT}/"
         print(f"\nserving {ROOT.name}/ at {url}   (ctrl-c to stop)\n")
-        try:
-            webbrowser.open(url)
-        except Exception:
-            pass
+        if OPEN_BROWSER:
+            try:
+                webbrowser.open(url)
+            except Exception:
+                pass
         try:
             httpd.serve_forever()
         except KeyboardInterrupt:

@@ -1,0 +1,21 @@
+{
+  "id": "westcott",
+  "name": "Eva Westcott",
+  "sort_name": "Westcott, Eva",
+  "aka": [],
+  "born": null,
+  "died": null,
+  "group": "family",
+  "gender": "f",
+  "bio": "Harry Stafford's wife, married in 1883 or 1884 - the sources disagree - and still married to him in November 1884, when Whitman was addressing letters to 'Harry and Eva Stafford' jointly. Stafford was the New Jersey farm boy Whitman gave a friendship ring to and shared a bed with; he married Eva Westcott and stayed married, and outlived Whitman by twenty-six years.",
+  "bio_sources": [
+    "kantrowitz-wwa-stafford-encyclopedia",
+    "whitman-archive-correspondence"
+  ],
+  "bio_note": "NO DATES OF HER OWN ARE RECORDED anywhere read. THE MARRIAGE YEAR IS IN CONFLICT AND IS LEFT STANDING: 1883 per the Whitman Archive's correspondent note attached to Stafford's letters, 1884 per Kantrowitz's encyclopedia entry. The person file for Stafford already carries this conflict and does not resolve it either. **NO VERBATIM QUOTATION HAS BEEN TRANSCRIBED**: the Whitman Archive sits behind a Cloudflare challenge that returns 403 to scripted fetching, so this edge carries a source POINTER rather than a quotation, and is marked pending verification. A browser session would close it, and could also try for her own dates.",
+  "context_engagements": [],
+  "research_status": "phase-a",
+  "wikidata": null,
+  "wikipedia": null,
+  "roster_note": "Added 2026-08-05 in the pass that put every spouse and every off-roster person on the map."
+}

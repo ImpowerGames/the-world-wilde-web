@@ -1,0 +1,39 @@
+{
+  "id": "duclaux--robinson",
+  "people": [
+    "duclaux",
+    "robinson"
+  ],
+  "certainty": "married",
+  "certainty_status": "proposed",
+  "certainty_reasoning": "Married, but on the weakest kind of web sourcing: an uncited Wikipedia sentence, with Wikidata giving a DIFFERENT year and no reference either. The marriage itself is not in doubt - the woman is known to scholarship as Mary Duclaux, the map's own person file carries that name in her aka list, and the identification matches 1857-1944 exactly on the person file, the article and Wikidata alike. It is the YEAR that is unsettled, and the edge says so rather than picking silently.",
+  "start": {
+    "y": 1902
+  },
+  "end": {
+    "y": 1904,
+    "m": 5,
+    "d": 3
+  },
+  "date_label": "m. 1902 (Wikidata says 1901); ended by his death, 3 May 1904",
+  "summary": "Widowed since 1894, Mary Robinson married the microbiologist Emile Duclaux in 1902, having moved among the scientific community of France. He died two years later. She did not marry again, kept his name, was hidden with her sister at Aurillac when war came in 1939, and died there in 1944 at eighty-six.",
+  "sources": [
+    {
+      "quote": "Robinson mingled with the scientific community of France as well, and in 1902 she married Emile Duclaux, a student of the biologist and chemist Louis Pasteur.",
+      "context": "Wikipedia, 'Agnes Mary Frances Duclaux', section 'Life'. Wikidata Q517162 gives 1901 for the same marriage, also without a reference.",
+      "work": "wikipedia-duclaux",
+      "locator": "section 'Life'",
+      "locator_type": "none",
+      "evidence_date": {
+        "y": 1902
+      },
+      "supports": "The second marriage, its year and the husband's identity.",
+      "verification": "verified-exact",
+      "how_verified": "web",
+      "provenance": "Plain-text extract of the article fetched through the MediaWiki API and read 2026-08-05; quotation sliced from that extract. Reference-marker brackets omitted as typography. THE SENTENCE CARRIES NO CITATION ON THE PAGE; the article's only footnote in this area attaches to a different paragraph, and the paragraph carrying her first marriage is tagged 'citation needed' (August 2017).",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-05",
+      "voice": "modern"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "burton",
+  "name": "James Burton",
+  "sort_name": "Burton, James",
+  "aka": [
+    "Watson"
+  ],
+  "born": null,
+  "died": null,
+  "group": "trials",
+  "gender": "m",
+  "bio": "A bookmaker, known in the ring as 'Watson', with whom Fred Atkins lived at Osnaburgh Street, Tachbrook Street and elsewhere between about 1891 and 1894, and with whom he worked blackmail. The Rochester Row incident of June 1891 - a gentleman found in bed with Atkins, the charge afterwards dropped - belonged to that partnership, and the charge-sheet from it was the perjury trap that destroyed Atkins's credibility as a Crown witness in April 1895.",
+  "bio_sources": [
+    "hyde-trials-1948"
+  ],
+  "bio_note": "He enters the record entirely through Atkins's cross-examination in Regina v. Wilde and Taylor, 26 April 1895, where the cohabitation is admitted on oath. Transcription and provenance reused unchanged from the context_engagement on atkins.json, where he was held off-roster until 2026-08-05. WHAT THE RECORD DOES AND DOES NOT SAY: it establishes that the two men lived together across several addresses for about three years and extorted money together. It says nothing whatever about a sexual or romantic relationship between them, and nothing here should be read as claiming one. He is grouped with the 1895 trials rather than Outside the circle because that courtroom is where he exists at all.",
+  "context_engagements": [],
+  "research_status": "phase-a",
+  "wikidata": null,
+  "wikipedia": null,
+  "roster_note": "Promoted from an off-roster context_engagement on atkins.json, 2026-08-05, in the pass that put every off-roster person on the map. The sources moved with him unchanged."
+}

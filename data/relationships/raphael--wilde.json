@@ -4,11 +4,11 @@
     "raphael",
     "wilde"
   ],
-  "certainty": "desire-expressed",
+  "certainty": "attraction-expressed",
   "direction": "wilde",
   "outcome": "unknown",
   "certainty_status": "proposed",
-  "certainty_reasoning": "The evidence is one sentence naming him as one of Wilde's 'two special friends' at Napoule, and calling both 'quite perfect, except that they can read and write', immediately after Wilde has characterised the local fisher-folk as having 'beautiful eyes, crisp hair of a hyacinth colour, and no morals: an ideal race'. Against the README bar: the erotic register is supplied by Wilde himself in the preceding clause - 'no morals' is his own flag of sexual availability - and a reader who does not hold the coding hypothesis still reads a man praising the amorality of a population and then naming his two favourites within it, with literacy as their only flaw. That reading is this project's; no scholarly source was consulted. romantic-nonsexual was weighed and rejected as sharpening: the only mutuality on the page is the word 'friends', which is not documented courtship, and that class displays on the map as 'Romantic' - a claim the sentence does not carry. documented-sexual is unavailable: there is no first-person statement of sexual relations. desire-expressed with outcome 'unknown' is therefore proposed, which is also the class the README designs as a marked, hidden-by-default lead pool - the right home for an item of exactly this weight. Standing caveat for this tier: the record is one-sided by nature. These men left no papers; everything known is what Wilde wrote to a correspondent. An unrecorded outcome is not evidence of no outcome, and Raphael's own account of the acquaintance does not exist.",
+  "certainty_reasoning": "The evidence is one sentence naming him as one of Wilde's 'two special friends' at Napoule, and calling both 'quite perfect, except that they can read and write', immediately after Wilde has characterised the local fisher-folk as having 'beautiful eyes, crisp hair of a hyacinth colour, and no morals: an ideal race'. Against the README bar: the erotic register is supplied by Wilde himself in the preceding clause - 'no morals' is his own flag of sexual availability - and a reader who does not hold the coding hypothesis still reads a man praising the amorality of a population and then naming his two favourites within it, with literacy as their only flaw. That reading is this project's; no scholarly source was consulted. romantic-nonsexual was weighed and rejected as sharpening: the only mutuality on the page is the word 'friends', which is not documented courtship, and that class displays on the map as 'Romantic' - a claim the sentence does not carry. documented-sexual is unavailable: there is no first-person statement of sexual relations. attraction-expressed with outcome 'unknown' is therefore proposed, which is also the class the README designs as a marked, hidden-by-default lead pool - the right home for an item of exactly this weight. Standing caveat for this tier: the record is one-sided by nature. These men left no papers; everything known is what Wilde wrote to a correspondent. An unrecorded outcome is not evidence of no outcome, and Raphael's own account of the acquaintance does not exist.",
   "start": {
     "y": 1898,
     "m": 12
@@ -37,7 +37,8 @@
       "provenance": "Repo PDF page 1159, printed folio 1113 confirmed at the foot of the rendered page, read as page image 2026-08-03.",
       "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
-      "voice": "period"
+      "voice": "period",
+      "addressee": "Laurence Housman"
     }
   ]
 }

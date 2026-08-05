@@ -34,7 +34,59 @@
       "provenance": "IA in.ernet.dli.2015.499238, leaf 230 (printed p. 192, folio in the source foot), read as IIIF page image 2026-08-03. No elisions. Hyde italicises 'was' in the second 'I was agreeable'; the italic is not reproduced here.",
       "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
-      "voice": "period"
+      "speaker": "Charles Parker",
+      "voice": "exchange",
+      "addressee": "C. F. Gill",
+      "turns": [
+        {
+          "who": "Gill",
+          "text": "In what way?"
+        },
+        {
+          "who": "Parker",
+          "text": "He called attention to the prostitutes who frequent Piccadilly Circus and remarked, \"I can't understand sensible men wasting their money on painted trash like that. Many do, though. But there are a few who know better. Now, you could get money in a certain way easily enough if you cared to.\" I understood to what Taylor alluded and made a coarse reply."
+        },
+        {
+          "who": "Gill",
+          "text": "I am obliged to ask you what it was you actually said?"
+        },
+        {
+          "who": "Parker",
+          "text": "I do not like to say. You were less squeamish at the time, I dare say."
+        },
+        {
+          "who": "Gill",
+          "text": "I ask you for the words?"
+        },
+        {
+          "who": "Parker",
+          "text": "I said that if any old gentleman with money took a fancy to me, I was agreeable. I was agreeable. I was terribly hard up."
+        },
+        {
+          "who": "Gill",
+          "text": "What did Taylor say?"
+        },
+        {
+          "who": "Parker",
+          "text": "He laughed and said that men far cleverer, richer and better than I preferred things of that kind. After giving Taylor our address we parted."
+        },
+        {
+          "who": "Gill",
+          "text": "Did Taylor mention the prisoner Wilde?"
+        },
+        {
+          "who": "Parker",
+          "text": "Not at that time."
+        },
+        {
+          "who": "Gill",
+          "text": "Where did you first meet Wilde?"
+        },
+        {
+          "who": "Parker",
+          "text": "Taylor asked us to visit him (Taylor) next day at Little College Street. We went the next morning. He said he could introduce us to a man who was good for plenty of money, and that we were to meet him (Taylor) at the St. James's bar."
+        }
+      ]
     },
     {
       "quote": "I remember subsequently going with my brother to 13 Little College Street. We slept there with Taylor. … [Witness here related proposals said to have been made by Taylor for the commission of indecencies to which the witness would not consent. Witness gave positive evidence as to the commission of acts of gross indecency at Taylor's rooms in Chapel Street.] Examination continued—I stayed with Taylor at Chapel Street for about a fortnight. Wilde used to call there, and the same thing occurred as at the Savoy.",
@@ -52,7 +104,14 @@
       "provenance": "IA in.ernet.dli.2015.499238, leaf 231 (printed p. 193, folio 'N 193'), read as IIIF page image 2026-08-03",
       "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
-      "voice": "period"
+      "speaker": "Charles Parker, examination-in-chief",
+      "voice": "exchange",
+      "turns": [
+        {
+          "who": "Parker",
+          "text": "I remember subsequently going with my brother to 13 Little College Street. We slept there with Taylor. … [Witness here related proposals said to have been made by Taylor for the commission of indecencies to which the witness would not consent. Witness gave positive evidence as to the commission of acts of gross indecency at Taylor's rooms in Chapel Street.] Examination continued—I stayed with Taylor at Chapel Street for about a fortnight. Wilde used to call there, and the same thing occurred as at the Savoy."
+        }
+      ]
     },
     {
       "quote": "Taylor told us on that occasion that he had gone through a form of marriage with a youth named Mason. Did he say who acted as the woman?—Yes; he said he did; that he was in woman's dress, and that they had a wedding breakfast.",
@@ -70,7 +129,22 @@
       "provenance": "IA in.ernet.dli.2015.499238, leaf 231 (printed p. 193, folio 'N 193' in the source foot), read as IIIF page image 2026-08-03. No elisions.",
       "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
-      "voice": "period"
+      "speaker": "Charles Parker, examination-in-chief",
+      "voice": "exchange",
+      "turns": [
+        {
+          "who": "Parker",
+          "text": "Taylor told us on that occasion that he had gone through a form of marriage with a youth named Mason."
+        },
+        {
+          "who": "Q.",
+          "text": "Did he say who acted as the woman?"
+        },
+        {
+          "who": "Parker",
+          "text": "Yes; he said he did; that he was in woman's dress, and that they had a wedding breakfast."
+        }
+      ]
     },
     {
       "quote": "Did you say at Bow Street that when you stayed with Taylor at 3 Chapel Street, every night for a fortnight: \"He did nothing to me, and I did nothing to him\"?—I suppose I must have said so.",
@@ -88,7 +162,19 @@
       "provenance": "IA in.ernet.dli.2015.499238, leaf 238 (printed p. 198); rendered at 3x from the item's text PDF and read as a page image 2026-08-03, with the printed folio confirmed in the page's bottom margin.",
       "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
-      "voice": "period"
+      "speaker": "Charles Parker",
+      "voice": "exchange",
+      "addressee": "Mr Grain",
+      "turns": [
+        {
+          "who": "Grain",
+          "text": "Did you say at Bow Street that when you stayed with Taylor at 3 Chapel Street, every night for a fortnight: \"He did nothing to me, and I did nothing to him\"?"
+        },
+        {
+          "who": "Parker",
+          "text": "I suppose I must have said so."
+        }
+      ]
     },
     {
       "quote": "[Soon afterwards the Solicitor-General came into Court and, after consulting with his junior counsel, Mr. Gill, said that, as far as the prosecution was concerned, they would take the verdict given by the jury upon counts 8 and 9. Mr. Grain, on behalf of Taylor, concurred.] … The Clerk of Arraigns—Gentlemen, do you find the prisoner at the bar guilty of having committed an act of gross indecency? The Foreman—Guilty.",

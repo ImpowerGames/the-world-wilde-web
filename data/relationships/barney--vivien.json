@@ -61,8 +61,10 @@
       "provenance": "Repo PDF p. 65 read as a rendered page image 2026-08-04. **This printing carries no printed folios and no running heads** - it is an EPUB-to-PDF conversion whose front matter is a 'Sommaire' listing 'Couverture' and 'Page de titre' - so the locator is the PDF page plus the chapter, per the works.json rule. The chapter 'RENÉE VIVIEN' runs PDF pp. 22-84.",
       "verified_by": "agent-mechanical",
       "verified_on": "2026-08-04",
-      "speaker": "Natalie Clifford Barney, Souvenirs indiscrets",
-      "voice": "period"
+      "speaker": "Natalie Clifford Barney",
+      "voice": "period",
+      "lang": "fr",
+      "translation": "When we trod that dust made sacred by the sandals of Sappho and her poetesses, we became conscious again of our pilgrimage, despite the modern intrusions. … The nights were more beautiful than any we had known, and from the very first, what a cry of victory I had to stifle!"
     },
     {
       "quote": "Dans l'enchantement de ce séjour, sans courrier et sans autre souvenir, nous louâmes deux petites villas réunies par le même verger, car Renée était résolue à ne plus quitter Mytilène, où elle m'attendrait « fidèlement et sans bouger » si, plus tard, j'avais affaire ailleurs. … « Pourquoi ne formerions-nous pas ici même cette école de poésie tant rêvée, où celles qui vibrent de poésie, de jeunesse et d'amour, viendraient à nous, telles ces poétesses de jadis arrivant de toutes parts pour entourer Sapho ? » Renée était en effet séduite par cette perspective.",
@@ -77,8 +79,11 @@
       "provenance": "Repo PDF p. 66 read as a rendered page image 2026-08-04. **This printing carries no printed folios and no running heads** - it is an EPUB-to-PDF conversion whose front matter is a 'Sommaire' listing 'Couverture' and 'Page de titre' - so the locator is the PDF page plus the chapter, per the works.json rule. The chapter 'RENÉE VIVIEN' runs PDF pp. 22-84.",
       "verified_by": "agent-mechanical",
       "verified_on": "2026-08-04",
-      "speaker": "Natalie Clifford Barney, Souvenirs indiscrets",
-      "voice": "period"
+      "speaker": "Natalie Clifford Barney",
+      "voice": "period",
+      "lang": "fr",
+      "translation": "In the enchantment of that stay, without post and without any other memory, we rented two little villas joined by the same orchard, for Renée was resolved never to leave Mytilene again, where she would wait for me 'faithfully and without stirring' if, later, I had business elsewhere. … 'Why should we not found, right here, that long-dreamed-of school of poetry, where those who thrill to poetry, to youth and to love would come to us, as those poetesses of old came from every quarter to gather round Sappho?' Renée was indeed taken with the prospect.",
+      "translation_note": "The guillemets of the original are rendered as quotation marks."
     },
     {
       "quote": "[Renée] readily traded seats with Eva and every night thereafter sat holding hands with Natalie, both of them transported by Wagner's music. … she promised to meet Natalie in Vienna and to go with her to Lesbos. … their poems sang of this enchanted island with its balmy seas, fragrance of jasmine and beautiful nights full of love. They rented two little villas in an orchard, where Renée vowed she would stay, forever waiting for Natalie.",

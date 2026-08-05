@@ -4,7 +4,7 @@
     "rolla",
     "wilde"
   ],
-  "certainty": "desire-expressed",
+  "certainty": "attraction-expressed",
   "direction": "wilde",
   "outcome": "unknown",
   "certainty_status": "proposed",
@@ -36,7 +36,8 @@
       "provenance": "Repo PDF page 1186, printed folio 1140 confirmed on rendered page, read as page image 2026-08-03.",
       "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
-      "voice": "period"
+      "voice": "period",
+      "addressee": "Robert Ross"
     }
   ]
 }
