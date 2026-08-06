@@ -1,0 +1,19 @@
+{
+  "id": "ernest-leverson",
+  "name": "Ernest Leverson",
+  "sort_name": "Leverson, Ernest",
+  "aka": [
+    "Ernest"
+  ],
+  "born": null,
+  "died": null,
+  "group": "family",
+  "gender": "m",
+  "bio": "Ada Leverson's husband, a businessman. He appears in Wilde's letters only as 'Ernest' and 'dear Ernest', but he appears steadily: he is named in the same breath as his wife in the letter thanking her for taking Wilde in, he sent Wilde a Shakespeare in Holloway, and he was at Dieppe to meet him when he came out of prison. Whatever the Leversons did for Wilde in May 1895, they did it as a household.",
+  "bio_sources": [
+    "letters-2000"
+  ],
+  "bio_note": "Added 2026-08-05 under the standing rule that spouses of people on this map are nodes. NO INDEPENDENT CLAIM IS MADE ABOUT HIM: he is here as half of the household that sheltered Wilde, and every mention of him read so far is in a letter addressed to his wife. DATES NOT RECORDED - the editors give none on the pages read, and none is inferred. NOR IS THE MARRIAGE DATE: the connection to [[leverson]] is marked married without a start year for that reason, rather than guessed.",
+  "context_engagements": [],
+  "research_status": "phase-a"
+}

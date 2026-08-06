@@ -1,0 +1,46 @@
+{
+  "id": "fish",
+  "born": null,
+  "died": null,
+  "aka": [],
+  "gender": "m",
+  "bio_sources": [
+    "letters-2000"
+  ],
+  "context_engagements": [
+    {
+      "partner_name": "Oscar Wilde",
+      "period": "London, 1887-1892",
+      "note": "Friendship, recorded without a connection line. Quoted whole.",
+      "sources": [
+        {
+          "work": "letters-2000",
+          "locator": "p. 455",
+          "locator_type": "page",
+          "quote": "My dear Arthur, I was charmed to get your letter, and it was delightful of you to remember my birthday. Though we see each other so rarely, I always think of you as one of my real friends, as I hope you will always think of me. Ricketts has just done for me a lovely cover for Dorian Gray - grey pastel-paper with a white back and tiny gold marigolds. When it appears I will send you a copy. How happy you must be in your little house; there are only two things in the world of any importance, Love and Art; you have both; they must never leave you. Let me send my kindest regards to your wife; I like to think that the wives of my friends are my friends also; and believe me, sincerely yours",
+          "context": "Wilde to Arthur Fish, [circa 16 October 1890] - quoted whole; the editors take the text from Cassell's Weekly of 2 May 1923. Wilde's birthday was 16 October, so this is written on or about it, thanking someone for remembering. The Ricketts is Charles Ricketts, who is on this map, and the cover is the 1891 Dorian Gray.",
+          "speaker": "Oscar Wilde",
+          "addressee": "Arthur Fish",
+          "evidence_date": {
+            "y": 1890,
+            "m": 10,
+            "d": 16
+          },
+          "supports": "Wilde on his own birthday naming someone one of his real friends, and what he thought the only two important things were.",
+          "verification": "verified-exact",
+          "how_verified": "pdf-at-page",
+          "provenance": "Repo PDF page 477; printed folio 455 confirmed on the rendered page image, read 2026-08-06.",
+          "verified_by": "claude-at-page",
+          "verified_on": "2026-08-06",
+          "voice": "period"
+        }
+      ]
+    }
+  ],
+  "research_status": "phase-a",
+  "name": "Arthur Fish",
+  "sort_name": "Fish, Arthur",
+  "group": "aesthete",
+  "bio": "Wilde's assistant on The Woman's World, and afterwards a friend he saw rarely and thought of often. Eight of Wilde's letters to him survive, from 1887 to 1892. In one, written on his own birthday, Wilde calls him 'one of my real friends' and tells him there are only two things in the world of any importance, Love and Art, and that he has both.",
+  "bio_note": "Added 2026-08-06. **HE WAS ON NO LIST OF MINE.** He is here because printed 455 was opened for Galton and Symons and read whole - the third letter on it is his, and it is much the warmest of the three. That is now the fourth or fifth person this session found by reading a page rather than by searching for a name. NO CONNECTION LINE: the register is affectionate friendship, Wilde sends regards to his wife, and nothing states or implies attraction. EIGHT LETTERS at printed 386, 404, 440, 444, 455, 491, 497 and 531; ONE read at the page (2026-08-06). The other seven are located and unread. DATES NOT RECORDED and none inferred."
+}

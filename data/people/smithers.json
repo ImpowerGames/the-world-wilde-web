@@ -1,0 +1,130 @@
+{
+  "id": "smithers",
+  "name": "Leonard Smithers",
+  "sort_name": "Smithers, Leonard",
+  "aka": [],
+  "born": null,
+  "died": null,
+  "group": "later",
+  "gender": "m",
+  "bio": "Publisher, bookseller and pornographer, who issued The Ballad of Reading Gaol and both of Wilde's last plays in book form when no respectable house would touch his name. One hundred and eight of Wilde's letters to him survive - more than to anyone else in this volume except Douglas and Ross - and they are overwhelmingly about proofs, print runs and money. He died bankrupt in 1907.",
+  "bio_sources": [
+    "letters-2000"
+  ],
+  "bio_note": "Added 2026-08-05, per Lovelle. NO CONNECTION LINE: the relation is author and publisher, and nothing read states or implies otherwise. HE IS ON THE MAP FOR SHEER VOLUME AND FOR WHAT THE VOLUME MEANS: 108 letters, the second-largest correspondence in the book, to the one publisher who would print a convicted man. Leaving him off would show the exile as friends and boys and no work. ONE HUNDRED AND EIGHT LETTERS at repo PDF 972, 977, 983, 987, 992, 999, 1000, 1006, 1010 and many more; FOUR read at the page (printed 1006, 1098, 1111 and 1141, folios confirmed, 2026-08-05) and both are quoted whole below because both are three lines long. DATES NOT RECORDED and none inferred. THE REMAINING HUNDRED-AND-SIX are located, not read, and are a large outstanding item for anyone continuing this work. COUNT CORRECTED 2026-08-05: the figure first written here was a count of PDF PAGES, not of letters - the locator deduplicated by page, and letters to one person are often printed two or three to a page. The corrected figure is a count of 'To <name>' headings in the volume. Every such correction was upward, so the unread remainder is larger than this node first claimed. RE-TRIAGE STARTED 2026-08-05 on the warmth test, NOT FINISHED. Only 4 of 108 have been read at the page. The first pass filtered for desire and so treated this correspondence as business; on the warmth test it is not - 'I miss you very much' (printed ~1101), 'It was a great delight seeing you' (printed 1025), 'my life here is too lonely... I wish you would' (printed 1141). THE REMAINING 104 ARE THE LARGEST OUTSTANDING JOB ON THIS MAP.",
+  "context_engagements": [
+    {
+      "partner_name": "Oscar Wilde",
+      "period": "The exile years, 1897-1900",
+      "note": "A working relationship, recorded without a connection line.",
+      "sources": [
+        {
+          "work": "letters-2000",
+          "locator": "p. 1098",
+          "locator_type": "page",
+          "quote": "Could you lend me or send me £10? I am in great straits, and have been ill in bed for some time. Please try to do this, as I have no money. Do please tell me if I am to have proofs of my play, and when. I have been expecting to see you for days.",
+          "context": "Wilde to Leonard Smithers, [postmark 18 October 1898], Paris - quoted whole. The editors note the text comes from a 1927 auction catalogue. The play is The Importance of Being Earnest, then going through the press.",
+          "speaker": "Oscar Wilde",
+          "addressee": "Leonard Smithers",
+          "evidence_date": {
+            "y": 1898,
+            "m": 10,
+            "d": 18
+          },
+          "supports": "The two subjects of this correspondence in four sentences: money, and proofs.",
+          "verification": "verified-exact",
+          "how_verified": "pdf-at-page",
+          "provenance": "Repo PDF page 1144; printed folio 1098 confirmed on the rendered page image, read 2026-08-05.",
+          "verified_by": "claude-at-page",
+          "verified_on": "2026-08-05",
+          "voice": "period"
+        },
+        {
+          "work": "letters-2000",
+          "locator": "p. 1111",
+          "locator_type": "page",
+          "quote": "This is to show you where the poet is now living. I sent you the proofs days ago. Pray acknowledge them. The landscape and figures are by Conder: the hotel by Rothenstein.",
+          "context": "Wilde to Leonard Smithers, [circa 18 December 1898], Hôtel des Bains, Napoule (MS Texas) - a postcard, quoted whole. The last sentence is a joke about a picture postcard of the hotel, crediting the view to two real painters, one of whom is on this map.",
+          "speaker": "Oscar Wilde",
+          "addressee": "Leonard Smithers",
+          "evidence_date": {
+            "y": 1898,
+            "m": 12,
+            "d": 18
+          },
+          "supports": "Wilde still making jokes about attribution while asking to be paid attention to.",
+          "verification": "verified-exact",
+          "how_verified": "pdf-at-page",
+          "provenance": "Repo PDF page 1157; printed folio 1111 confirmed on the rendered page image, read 2026-08-05.",
+          "verified_by": "claude-at-page",
+          "verified_on": "2026-08-05",
+          "voice": "period"
+        },
+        {
+          "work": "letters-2000",
+          "locator": "p. 1141",
+          "locator_type": "page",
+          "quote": "My dear Smithers, … The £10 arrived safe - many thanks. Of course it was a blow not getting the £20, but I do hope you will send the balance soon. I now want to get back to Paris - my life here is too lonely. … Is there really any chance of your coming out here? I wish you would. I am at Santa Margherita, Ligure, Genoa, where please write and send the DC: the only consolation I have as I do not love the lad Edoardo Rolla as much as I did. Yours",
+          "context": "Wilde to Leonard Smithers, [? 8 April 1899], Genoa (MS Simpson) - the same letter that is cited on the Rolla connection, kept here for the other half of it. 'my life here is too lonely' and 'Is there really any chance of your coming out here? I wish you would' are addressed to Smithers, and they are not business. THE DESIRE TEST WOULD HAVE FILED THIS UNDER ROLLA ONLY.",
+          "speaker": "Oscar Wilde",
+          "addressee": "Leonard Smithers",
+          "evidence_date": {
+            "y": 1899,
+            "m": 4,
+            "d": 8
+          },
+          "supports": "That Wilde wanted his publisher's company, not only his cheques.",
+          "verification": "verified-elision",
+          "how_verified": "pdf-at-page",
+          "provenance": "Repo PDF page 1187; printed folio 1141 confirmed on the rendered page image, read 2026-08-05.",
+          "verified_by": "claude-at-page",
+          "verified_on": "2026-08-05",
+          "voice": "period"
+        },
+        {
+          "work": "letters-2000",
+          "locator": "p. 1025",
+          "locator_type": "page",
+          "quote": "My dear Smithers, We have waited for you for hours. Surely you have not left Paris? It seems impossible, as the city wears its wonted air of joy. Please see about the leaflet, and the Author's Edition with a cover by Ricketts - a new colour and a remarque in gold. The DT, by the influence of Reggie Turner, has been forced to notice the book, but grudgingly and badly. Do send me all the papers that have notices tomorrow. I have hopes of the Academy. Will you kindly send me six copies of the Second Edition. It was a great delight seeing you, and I must thank you for all your kindness to me. Maurice sends his kindest regards. We met by chance this morning, and I hope to see him again this evening. Ever yours",
+          "context": "Wilde to Leonard Smithers, [postmark 25 February 1898], Hôtel de Nice (MS Clark) - quoted whole. The book is The Ballad; the DT is the Daily Telegraph, where Reginald Turner then worked; the Maurice is Maurice Gilbert. Both Turner and Gilbert are on this map. ADDED 2026-08-06: read at the page during the Harris re-triage and left unlogged. IT IS EVIDENCE AGAINST THE 'BUSINESS CORRESPONDENCE' READING of this node's first pass - proofs and print runs, and then 'It was a great delight seeing you'.",
+          "speaker": "Oscar Wilde",
+          "addressee": "Leonard Smithers",
+          "evidence_date": {
+            "y": 1898,
+            "m": 2,
+            "d": 25
+          },
+          "supports": "That Wilde waited hours for him and was glad to have seen him.",
+          "verification": "verified-exact",
+          "how_verified": "pdf-at-page",
+          "provenance": "Repo PDF page 1071; printed folio 1025 confirmed on the rendered page image, read 2026-08-06.",
+          "verified_by": "claude-at-page",
+          "verified_on": "2026-08-06",
+          "voice": "period"
+        },
+        {
+          "work": "letters-2000",
+          "locator": "pp. 972-3",
+          "locator_type": "page",
+          "quote": "You say in your last letter that you object to being 'Reynolds-ised', but I think you might have remembered that you were writing to a confirmed 'Smithersist'. The observation was quite unnecessary. I saw the other day in the museum here the bust of a young man of grave, somewhat severe beauty, and the most delicate refinement of type, rather like a young Oxonian of a very charming kind, the expression a mixture of pride and ennui. On referring to the catalogue I found it was the Emperor Heliogabalus; it was most curious and has filled me with a desire to write his life. Of course I shall publish it with you. His marriage with the moon, just referred to in Dorian Gray, would make a beautiful chapter of coloured words.",
+          "context": "Wilde to Leonard Smithers, Wednesday [27 October 1897], Villa Giudice, Posillipo (MS Harrow) - quoted across the page break. TWO THINGS. First, 'a confirmed Smithersist' is Wilde joking that he is devoted to his publisher, which is not the language of a purely commercial relation. Second, and larger: the bust he takes for a charming young Oxonian turns out to be HELIOGABALUS, the boy-emperor remembered for wearing women's dress, for taking a man as husband, and for asking his physicians to give him a woman's body - and Wilde's response is to want to write his life and publish it with Smithers. The book was never written. ADDED 2026-08-06: the passage was read at the page earlier but broke across a folio and was left unlogged until the second half was read.",
+          "speaker": "Oscar Wilde",
+          "addressee": "Leonard Smithers",
+          "evidence_date": {
+            "y": 1897,
+            "m": 10,
+            "d": 27
+          },
+          "supports": "Wilde in exile proposing to write the life of Heliogabalus - and calling himself a confirmed Smithersist.",
+          "verification": "verified-exact",
+          "how_verified": "pdf-at-page",
+          "provenance": "Repo PDF pages 1020-1021; printed folios 972 and 973 both confirmed on the rendered page images, read 2026-08-06.",
+          "verified_by": "claude-at-page",
+          "verified_on": "2026-08-06",
+          "voice": "period"
+        }
+      ]
+    }
+  ],
+  "research_status": "phase-a"
+}

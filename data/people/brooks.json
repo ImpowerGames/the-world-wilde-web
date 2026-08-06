@@ -1,0 +1,20 @@
+{
+  "id": "brooks",
+  "name": "Romaine Brooks",
+  "sort_name": "Brooks, Romaine",
+  "aka": [
+    "Angel",
+    "Angel Birdie"
+  ],
+  "born": null,
+  "died": null,
+  "group": "later",
+  "gender": "f",
+  "bio": "American portrait painter, and Natalie Barney's companion from 1915 for the rest of Barney's life. Souhami's Wild Girls is a joint life of the two of them. She painted Barney as 'L'Amazone' in 1920 and Élisabeth de Gramont around 1912, so the three women at the centre of this cluster are also her sitters. Barney called her Angel, or Angel Birdie; Brooks called Barney Nat Nat. Brooks resisted the terms Barney lived by - Souhami records that she did not want a sustained one-to-one relationship, and found Barney's other affairs hard to endure.",
+  "bio_sources": [
+    "souhami-2004"
+  ],
+  "bio_note": "Added 2026-08-05 out of the v2 parking lot, per Lovelle. Sole source read: Souhami, Wild Girls, printed 137 (repo PDF 171, folio confirmed on the rendered page image), chapter 22 'Natalie and Romaine'. AGE, NOT BIRTH YEAR: the page states that when they met in 1915 'Romaine was forty-one, Natalie thirty-nine'. That is recorded as the page states it and is NOT converted into a birth year, following the rule set on napoule-fisherman. No birth or death date is recorded from the pages read.",
+  "context_engagements": [],
+  "research_status": "phase-a"
+}

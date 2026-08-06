@@ -1,0 +1,71 @@
+{
+  "id": "rothenstein",
+  "name": "William Rothenstein",
+  "sort_name": "Rothenstein, William",
+  "aka": [
+    "Will Rothenstein"
+  ],
+  "born": {
+    "y": 1872
+  },
+  "died": {
+    "y": 1945
+  },
+  "group": "aesthete",
+  "gender": "m",
+  "bio": "Painter and lithographer (1872-1945), later Principal of the Royal College of Art. Sixteen of Wilde's letters to him survive, from 1893 to 1899. He was one of the friends who came out to Berneval to see Wilde after prison, and he drew the hotel at Napoule on a postcard Wilde sent his publisher.",
+  "bio_sources": [
+    "letters-2000"
+  ],
+  "bio_note": "Added 2026-08-05, per Lovelle. NO CONNECTION LINE: nothing read states or implies attraction. He is on the map as one of the people who kept showing up - before the trials, at Berneval after them, and in the exile letters as a name Wilde drops with pleasure. SIXTEEN LETTERS at repo PDF 523, 551, 614, 616, 643, 653, 941, 954, 975 and others; TWO read at the page (printed 562 and 1024, folio confirmed, 2026-08-05). DATES 1872-1945 are from general knowledge, not from a page read here, and should be checked before they are relied on. COUNT CORRECTED 2026-08-05: the figure first written here was a count of PDF PAGES, not of letters - the locator deduplicated by page, and letters to one person are often printed two or three to a page. The corrected figure is a count of 'To <name>' headings in the volume. Every such correction was upward, so the unread remainder is larger than this node first claimed.",
+  "context_engagements": [
+    {
+      "partner_name": "Oscar Wilde",
+      "period": "London and Berneval, 1893-1899",
+      "note": "Friendship, recorded without a connection line.",
+      "sources": [
+        {
+          "work": "letters-2000",
+          "locator": "p. 562",
+          "locator_type": "page",
+          "quote": "My dear Will, I have always been fond of you, and your art is always dear to me. I had been told that you wanted to take sides - that was all - and foolish as it is to take sides in a one-sided quarrel, or attack rather, still charming people are foolish often. So I did not go to see you in Paris. But when I saw you in St James's Street, I had to jump from my hansom and shake hands with my friend. When I go to Paris I shall wait your coming, and we shall be merry, as of old, at Sylvain's. Always affectionately yours",
+          "context": "Wilde to William Rothenstein, [? April-May 1893], Hotel Albemarle (MS Rothenstein) - quoted whole. A quarrel patched up: Wilde had heard Rothenstein was siding against him in something, stayed away in Paris, then saw him in the street and could not keep it up. The editors record that Rothenstein's son thought the quarrel concerned his father's continued friendship with Whistler.",
+          "speaker": "Oscar Wilde",
+          "addressee": "William Rothenstein",
+          "evidence_date": {
+            "y": 1893,
+            "m": 4
+          },
+          "supports": "Wilde jumping out of a cab to end a coldness he had been maintaining on principle.",
+          "verification": "verified-exact",
+          "how_verified": "pdf-at-page",
+          "provenance": "Repo PDF page 614; printed folio 562 confirmed on the rendered page image, read 2026-08-05.",
+          "verified_by": "claude-at-page",
+          "verified_on": "2026-08-05",
+          "voice": "period"
+        },
+        {
+          "work": "letters-2000",
+          "locator": "p. 1024",
+          "locator_type": "page",
+          "quote": "My dear Will, I cannot tell you how touched I am by your letter, and by all you say of my poem. Why on earth don't you write literary criticisms for papers? I wish The Ballad had fallen into your hands. No one has said things so sympathiques, so full of delicate insight, so large, from the point of view of art, as you. Your letter has given me more pleasure, more pride, than anything has done since the poem appeared. Yes: it is something to have made a 'sonnet out of skilly' (Cunninghame Graham will explain to you what skilly is. You must never know by personal experience). And I do think the whole affair 'realised', and that is triumph. I hope you will be in Paris some time this spring, and come and see me. I see by the papers that you are still making mortals immortal, and I wish you were working for a Paris newspaper, that I could see your work making kiosques lovely. Ever yours",
+          "context": "Wilde to William Rothenstein, [late February 1898], Hôtel de Nice (MS Rothenstein) - quoted whole, and found on the same printed page as the Harris letter above during the re-triage. Skilly was the thin gruel served in prison; the parenthesis - 'You must never know by personal experience' - is Wilde wishing a friend clear of what he had been through.",
+          "speaker": "Oscar Wilde",
+          "addressee": "William Rothenstein",
+          "evidence_date": {
+            "y": 1898,
+            "m": 2
+          },
+          "supports": "What one friend's letter about The Ballad was worth to him, and the wish that Rothenstein never learn what skilly is.",
+          "verification": "verified-exact",
+          "how_verified": "pdf-at-page",
+          "provenance": "Repo PDF page 1070; printed folio 1024 confirmed on the rendered page image, read 2026-08-05.",
+          "verified_by": "claude-at-page",
+          "verified_on": "2026-08-05",
+          "voice": "period"
+        }
+      ]
+    }
+  ],
+  "research_status": "phase-a"
+}

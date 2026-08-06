@@ -1,0 +1,17 @@
+{
+  "id": "tankard",
+  "name": "Herbert Tankard",
+  "sort_name": "Tankard, Herbert",
+  "aka": [],
+  "born": null,
+  "died": null,
+  "group": "trials",
+  "gender": "m",
+  "bio": "A pageboy at the Savoy Hotel, named in the Marquess of Queensberry's 1895 plea of justification. Queensberry's solicitors traced him after he had moved to Calais. He was never called and gave no evidence: the allegation exists only as a clause in the plea, and nothing of his own account survives.",
+  "bio_sources": [
+    "holland-2003"
+  ],
+  "bio_note": "Added 2026-08-05 out of the v2 parking lot, per Lovelle. Read at the rendered page: Holland, The Real Trial of Oscar Wilde, Appendix A, printed 289 (repo PDF 337, folio confirmed on the page image). Holland's index entry reads 'Tankard, Herbert (Savoy pageboy), tracked down by Russell, xxiv; cited in Q's plea, 289'; the introduction at repo PDF 28-29 describes Russell's agents reaching 'a pageboy from the Savoy who had since moved to Calais'. THE CLAUSE IS WEAKER THAN ITS NEIGHBOURS and the difference is deliberate on the plea's part, so it is carried here rather than smoothed: the Parker, Scarfe and Grainger clauses on the same page allege that Wilde did 'solicit and incite' them 'to commit sodomy and other acts of gross indecency', while Tankard's alleges only that Wilde 'did take indecent liberties'. DATES: none recorded; no age is stated anywhere on the page read, and none is inferred.",
+  "context_engagements": [],
+  "research_status": "phase-a"
+}

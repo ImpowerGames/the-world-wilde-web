@@ -1,0 +1,50 @@
+{
+  "id": "symons",
+  "born": {
+    "y": 1865
+  },
+  "died": {
+    "y": 1945
+  },
+  "aka": [],
+  "gender": "m",
+  "bio_sources": [
+    "letters-2000"
+  ],
+  "context_engagements": [
+    {
+      "partner_name": "Oscar Wilde",
+      "period": "London, 1890",
+      "note": "Recorded without a connection line.",
+      "sources": [
+        {
+          "work": "letters-2000",
+          "locator": "p. 455",
+          "locator_type": "page",
+          "quote": "Dear Mr Symons, We have no day just at present, as my wife is going away for a fortnight, but I hope you will come and dine with us some night. It was a great pleasure meeting you, as I had admired your work for a long time. I …",
+          "context": "Wilde to Arthur Symons, [postmark 22 October 1890], 16 Tite Street (MS Berg). The letter breaks where the printed page does. This is the two of them having just met.",
+          "speaker": "Oscar Wilde",
+          "addressee": "Arthur Symons",
+          "evidence_date": {
+            "y": 1890,
+            "m": 10,
+            "d": 22
+          },
+          "supports": "The beginning of the acquaintance.",
+          "verification": "verified-elision",
+          "how_verified": "pdf-at-page",
+          "provenance": "Repo PDF page 477; printed folio 455 confirmed on the rendered page image, read 2026-08-06.",
+          "verified_by": "claude-at-page",
+          "verified_on": "2026-08-06",
+          "voice": "period"
+        }
+      ]
+    }
+  ],
+  "research_status": "phase-a",
+  "name": "Arthur Symons",
+  "sort_name": "Symons, Arthur",
+  "group": "aesthete",
+  "bio": "Poet and critic (1865-1945), a leading figure of the 1890s and author of The Symbolist Movement in Literature. Two of Wilde's letters to him survive. He wrote an admiring notice of The Ballad of Reading Gaol in 1898 which Wilde called 'admirably written, and most intellectual and artistic in its mode of approval'.",
+  "bio_note": "Added 2026-08-06, clearing a backlog: flagged from the Index of Recipients on 2026-08-05. NO CONNECTION LINE: the register is literary acquaintance warming into professional respect, and nothing states or implies attraction. TWO LETTERS at printed 354 and 455; ONE read at the page (2026-08-06). His notice of The Ballad is praised in a letter to [[smithers]] at printed 1037, already on this map, so he was already present in the evidence without being a node. DATES 1865-1945 are from general knowledge, not from a page read here, and should be checked."
+}

@@ -1,0 +1,48 @@
+{
+  "id": "kernahan",
+  "born": null,
+  "died": null,
+  "gender": "m",
+  "context_engagements": [
+    {
+      "partner_name": "Oscar Wilde",
+      "period": "London, 1891-1892",
+      "note": "Friendship, recorded without a connection line and without a claim attached to it.",
+      "sources": [
+        {
+          "work": "letters-2000",
+          "locator": "p. 528",
+          "locator_type": "page",
+          "quote": "My dear Kernahan, I should have thanked you long ago for sending me your charming fairy tale, but the season with its red roses of pleasure has absorbed me quite, and I have almost forgotten how to write a letter. … But your strength lies not in such fanciful, winsome work. You must deal directly with Life - modern terrible Life - wrestle with it, and force it to yield you its secret. You have the power and the pen. You know what passion is, what passions are; you can give them their red raiment, and make them move before us. You can fashion puppets with bodies of flesh, and souls of turmoil: and so, you must sit down, and do a great thing. It is all in you. Your sincere friend",
+          "context": "Wilde to Coulson Kernahan, [postmark 20 June 1892], 16 Tite Street (MS British Library). The elision drops three sentences of praise for the tale's symbolism. Included for completeness rather than for what it proves: the 'passion' is the subject Wilde thinks he should be writing about.",
+          "speaker": "Oscar Wilde",
+          "addressee": "Coulson Kernahan",
+          "evidence_date": {
+            "y": 1892,
+            "m": 6,
+            "d": 20
+          },
+          "supports": "Warmth between men, recorded whether or not it amounts to anything.",
+          "verification": "verified-elision",
+          "how_verified": "pdf-at-page",
+          "provenance": "Repo PDF page 548; printed folio 528 confirmed on the rendered page image, read 2026-08-05.",
+          "verified_by": "claude-at-page",
+          "verified_on": "2026-08-05",
+          "voice": "period"
+        }
+      ]
+    }
+  ],
+  "research_status": "phase-a",
+  "bio_sources": [
+    "letters-2000"
+  ],
+  "name": "Coulson Kernahan",
+  "sort_name": "Kernahan, Coulson",
+  "aka": [
+    "Kernahan"
+  ],
+  "group": "aesthete",
+  "bio": "Writer, and a reader for the publisher Ward, Lock. Six of Wilde's letters to him survive, from around 1891 to 1892, mostly on the business of A House of Pomegranates and Lord Arthur Savile's Crime. One of them is not business at all: an unprompted page telling a younger writer that his gift for fairy tales is beneath him and that he should be writing about passion instead.",
+  "bio_note": "Added 2026-08-05, per Lovelle, from the parked list, WHERE IT WAS FLAGGED AS THE WEAKEST OF THEM and that assessment stands. NO CONNECTION LINE: the register is a senior writer urging a junior one to be bolder, and 'you know what passion is, what passions are' is about what Kernahan should write, not about Kernahan. It is recorded because the standing rule is that warmth between men gets quoted whether or not it amounts to anything, and because leaving it out would mean the map only keeps the letters that support a thesis. SIX LETTERS at repo PDF 459, 493, 494, 507, 541 and 548; ONE read at the page (printed 528, folio confirmed, 2026-08-05). The other five are located and unread, and are unlikely to change this."
+}

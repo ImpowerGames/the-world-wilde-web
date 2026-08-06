@@ -1,0 +1,52 @@
+{
+  "id": "ae-housman",
+  "born": {
+    "y": 1859
+  },
+  "died": {
+    "y": 1936
+  },
+  "gender": "m",
+  "aka": [
+    "Alfred Edward Housman"
+  ],
+  "bio_sources": [
+    "letters-2000"
+  ],
+  "context_engagements": [
+    {
+      "partner_name": "Oscar Wilde",
+      "period": "Reading and Berneval, 1896-7",
+      "note": "Contact without acquaintance, recorded without a connection line.",
+      "sources": [
+        {
+          "work": "letters-2000",
+          "locator": "p. 923",
+          "locator_type": "page",
+          "quote": "I have lately been reading your brother's lovely lyrical poems, so you see you have both of you given me that rare thing happiness.",
+          "context": "Wilde to Laurence Housman, 9 August 1897, Chalet Bourgeat, Berneval-sur-Mer (MS Bryn Mawr) - the close of the letter thanking him for All-Fellows. THE EDITORS' NOTE ON THE SAME PAGE carries the rest: Robert Ross 'told me that when he visited his friend in jail he learnt some of the poems by heart and recited them to him', and A. E. Housman wrote to Seymour Adelman in 1928 that A Shropshire Lad 'was published while Mr Wilde was in prison, and when he came out I sent him a copy myself'.",
+          "speaker": "Oscar Wilde",
+          "addressee": "Laurence Housman",
+          "evidence_date": {
+            "y": 1897,
+            "m": 8,
+            "d": 9
+          },
+          "supports": "Both directions of the contact: the poems carried into Reading by Ross, and the book sent on release.",
+          "verification": "verified-exact",
+          "how_verified": "pdf-at-page",
+          "provenance": "Repo PDF page 973; printed folio 923 confirmed on the rendered page image, read 2026-08-05.",
+          "verified_by": "claude-at-page",
+          "verified_on": "2026-08-05",
+          "voice": "period"
+        }
+      ]
+    }
+  ],
+  "research_status": "phase-a",
+  "name": "A. E. Housman",
+  "sort_name": "Housman, A. E.",
+  "group": "aesthete",
+  "bio": "Poet and classical scholar (1859-1936), author of A Shropshire Lad (1896) and elder brother of Laurence Housman. He never met Wilde. Robert Ross learned poems from A Shropshire Lad by heart and recited them to Wilde in Reading Gaol, and Housman sent Wilde a copy of the book himself when he came out. Wilde, writing to his brother, said the two of them had given him 'that rare thing happiness'.",
+  "bio_note": "Added 2026-08-06. NO CONNECTION LINE, and the two men never met. HE IS HERE BECAUSE THE CONTACT IS DOCUMENTED IN BOTH DIRECTIONS and both directions run through people already on this map: Ross carried his poems into the prison, and Wilde's thanks went to his brother [[laurence-housman]]. A MISS OF MY OWN CAUSED THE DELAY: a verification script folded 'A. E. Housman' into 'Laurence Housman' by surname and reported him already present, so he was cleared without being checked. He was then flagged and still not created for a day. HIS OWN SEXUALITY - the lifelong unreciprocated attachment to Moses Jackson that A Shropshire Lad is generally read through - is not documented in this volume and nothing about it is asserted here; it is the obvious next thing to source."
+}

@@ -1,67 +1,141 @@
 <!doctype html>
 <html lang="en" data-theme="dark">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>The World Wilde Web</title>
-<meta name="description" content="A sourced map of romantic and sexual relationships in Oscar Wilde's circle, 1870s-1940s. Every claim carries a quotation and a citation.">
-<link rel="icon" href="favicon.svg" type="image/svg+xml">
-<link rel="stylesheet" href="assets/css/circle.css">
-</head>
-<body>
-<header>
-  <div class="masthead">
-    <h1>The World Wilde Web</h1>
-    <div class="sub">Romantic &amp; sexual relationships in Oscar Wilde's circle, 1870s&ndash;1940s</div>
-    <div class="hstamp" id="stamp" title="✓ = transcribed from the source page by the research pass. ⧖ = not verified in context: either located but unconfirmed, or a pointer with nothing transcribed yet."></div>
-  </div>
-  <div class="searchwrap">
-    <select id="searchscope" aria-label="What to search">
-      <option value="names" selected>Names</option>
-      <option value="quotes">Quotations</option>
-      <option value="all" title="Names, quotations, and the project's own notes — certainty reasoning, provenance, biographies">All</option>
-    </select>
-    <input id="search" type="search" placeholder="Search a name&hellip;"
-           aria-label="Search" aria-describedby="searchnote">
-    <div id="searchnote" role="status" aria-live="polite"></div>
-  </div>
-  <div class="hbtns">
-    <button class="hbtn" id="btnFit" title="Frame the whole web — the map opens close in on Wilde, and people out at the rim start beyond the edge">Fit</button>
-    <button class="hbtn" id="btnAbout" aria-pressed="false">About</button>
-    <button class="hbtn" id="btnList" aria-pressed="false">All relationships</button>
-  </div>
-</header>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>The World Wilde Web</title>
+    <meta
+      name="description"
+      content="A sourced map of romantic and sexual relationships in Oscar Wilde's circle, 1870s-1940s. Every claim carries a quotation and a citation."
+    />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="assets/css/circle.css" />
+  </head>
+  <body>
+    <header>
+      <div class="masthead">
+        <h1>The World Wilde Web</h1>
+        <div class="sub">
+          Romantic &amp; sexual relationships in Oscar Wilde's circle,
+          1870s&ndash;1940s
+        </div>
+        <div
+          class="hstamp"
+          id="stamp"
+          title="✓ = transcribed from the source page by the research pass. ⧖ = not verified in context: either located but unconfirmed, or a pointer with nothing transcribed yet."
+        ></div>
+      </div>
+      <div class="searchwrap">
+        <select id="searchscope" aria-label="What to search">
+          <option value="names" selected>Names</option>
+          <option value="quotes">Quotations</option>
+          <option
+            value="all"
+            title="Names, quotations, and the project's own notes — certainty reasoning, provenance, biographies"
+          >
+            All
+          </option>
+        </select>
+        <input
+          id="search"
+          type="search"
+          placeholder="Search a name&hellip;"
+          aria-label="Search"
+          aria-describedby="searchnote"
+        />
+        <div id="searchnote" role="status" aria-live="polite"></div>
+      </div>
+      <div class="hbtns">
+        <button class="hbtn" id="btnAbout" aria-pressed="false">About</button>
+        <button class="hbtn" id="btnList" aria-pressed="false">
+          All relationships
+        </button>
+      </div>
+    </header>
 
-<div id="legend" role="group" aria-label="Legend and filters"></div>
+    <div id="legend" role="group" aria-label="Legend and filters"></div>
 
-<main>
-  <div id="webwrap">
-    <svg id="web" viewBox="0 0 1200 800" aria-label="Relationship web. Use the All relationships button for a list view.">
-      <defs>
-        <marker id="arrowhead" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7.5" markerHeight="7.5" orient="auto-start-reverse">
-          <path d="M0,0 L10,5 L0,10 z" fill="var(--edge)"></path>
-        </marker>
-        <marker id="arrowhead-open" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
-          <path d="M0.5,0.5 L9.5,5 L0.5,9.5" fill="none" stroke="var(--edge)" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"></path>
-        </marker>
-      </defs>
-      <g id="gEdges"></g><g id="gNodes"></g>
-    </svg>
-    <div id="tip" role="status"></div>
-    <div id="emptymsg" hidden>No data injected yet &mdash; run <code>&nbsp;python build_circle_web.py</code></div>
-  </div>
-  <aside id="panel" aria-label="Details panel"></aside>
-</main>
+    <main>
+      <div id="webwrap">
+        <svg
+          id="web"
+          viewBox="0 0 1200 800"
+          aria-label="Relationship web. Use the All relationships button for a list view."
+        >
+          <defs>
+            <marker
+              id="arrowhead"
+              viewBox="0 0 10 10"
+              refX="8.5"
+              refY="5"
+              markerWidth="7.5"
+              markerHeight="7.5"
+              orient="auto-start-reverse"
+            >
+              <path d="M0,0 L10,5 L0,10 z" fill="var(--edge)"></path>
+            </marker>
+            <marker
+              id="arrowhead-open"
+              viewBox="0 0 10 10"
+              refX="8.5"
+              refY="5"
+              markerWidth="8"
+              markerHeight="8"
+              orient="auto-start-reverse"
+            >
+              <path
+                d="M0.5,0.5 L9.5,5 L0.5,9.5"
+                fill="none"
+                stroke="var(--edge)"
+                stroke-width="1.4"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></path>
+            </marker>
+          </defs>
+          <g id="gEdges"></g>
+          <g id="gNodes"></g>
+        </svg>
+        <!-- Map controls live on the map they act on, in the bottom-left corner, where map
+             controls conventionally sit. The slider runs vertically with zoomed-in at the top.
+             (A top corner was tried first to keep clear of the phone's bottom sheet, but that
+             sheet covers the whole map anyway when it is open, so it buys nothing.) -->
+        <div id="mapctl">
+          <input
+            id="zoomRange"
+            type="range"
+            min="0"
+            max="1000"
+            step="1"
+            value="0"
+            aria-label="Zoom"
+          />
+          <span class="sep" aria-hidden="true"></span>
+          <button
+            id="btnFit"
+            title="Frame the whole web — the map opens close in on Wilde, and people out at the rim start beyond the edge"
+          >
+            Fit
+          </button>
+        </div>
+        <div id="tip" role="status"></div>
+        <div id="emptymsg" hidden>
+          No data injected yet &mdash; run
+          <code>&nbsp;python build_circle_web.py</code>
+        </div>
+      </div>
+      <aside id="panel" aria-label="Details panel"></aside>
+    </main>
 
-<div id="about" role="dialog" aria-modal="true" aria-label="About">
-  <div class="abox">
-    <button class="pclose" id="aboutClose">Close</button>
-    <!-- The About text is written in content/ABOUT.md and compiled into the data bundle by
+    <div id="about" role="dialog" aria-modal="true" aria-label="About">
+      <div class="abox">
+        <button class="pclose" id="aboutClose">Close</button>
+        <!-- The About text is written in content/ABOUT.md and compiled into the data bundle by
          tools/validate.py; circle.js mounts it here. Edit the markdown, not this file. -->
-    <div id="aboutBody"></div>
-  </div>
-</div>
+        <div id="aboutBody"></div>
+      </div>
+    </div>
 
-<script src="assets/js/circle.js"></script>
-</body>
+    <script src="assets/js/circle.js"></script>
+  </body>
 </html>

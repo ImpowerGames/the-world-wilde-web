@@ -1,0 +1,48 @@
+{
+  "id": "nellie-lloyd",
+  "born": null,
+  "died": null,
+  "aka": [
+    "Little Nellie"
+  ],
+  "bio_sources": [
+    "letters-2000"
+  ],
+  "context_engagements": [
+    {
+      "partner_name": "Oscar Wilde",
+      "period": "London, 1885",
+      "note": "Family, recorded without a connection line.",
+      "sources": [
+        {
+          "work": "letters-2000",
+          "locator": "p. 261",
+          "locator_type": "page",
+          "quote": "My dear Little Nellie, You will be delighted to hear that Constance got through her confinement all right, suffering hardly any pain. The child - an amazing boy! - was born when she was under chloroform, and on coming to she absolutely declined to believe it was born at all! And was only convinced of the fact by the nurse producing a stalward boy, who already knows me quite well. She is very happy and peaceful but cannot see anyone for some days. The doctor has posted a bulletin in the hall to that effect. You must have a little girl and we will make up a match at once. I will let you and Otho, the important uncle and aunt of our son and heir, know how she gets on. I hope you will get through your own confinement as easily as Constance - I am sure you will. It really is very little after all - you must not …",
+          "context": "Wilde to Nellie Lloyd, [postmark 5 June 1885], 16 Tite Street (MS Holland), written the same day as the telegram to her husband. The letter breaks where the printed page does. 'who already knows me quite well' is italicised in the printed text. Wilde was thirty and had been married eleven months.",
+          "speaker": "Oscar Wilde",
+          "addressee": "Nellie Lloyd",
+          "evidence_date": {
+            "y": 1885,
+            "m": 6,
+            "d": 5
+          },
+          "supports": "Wilde on the birth of his first son, to his sister-in-law, the same morning.",
+          "verification": "verified-elision",
+          "how_verified": "pdf-at-page",
+          "provenance": "Repo PDF page 283; printed folio 261 confirmed on the rendered page image, read 2026-08-06.",
+          "verified_by": "claude-at-page",
+          "verified_on": "2026-08-06",
+          "voice": "period"
+        }
+      ]
+    }
+  ],
+  "research_status": "phase-a",
+  "name": "Nellie Lloyd",
+  "sort_name": "Lloyd, Nellie",
+  "group": "family",
+  "gender": "f",
+  "bio": "Otho Holland Lloyd's wife, and so Constance Wilde's sister-in-law. Wilde wrote to her as 'My dear Little Nellie' on the morning Cyril was born, in a letter that is one of the few places he writes about his own children with unguarded delight.",
+  "bio_note": "Added 2026-08-06 under the standing rule that spouses of people on this map are nodes. NO INDEPENDENT CLAIM IS MADE ABOUT HER. She was pregnant herself when the letter below was written - Wilde hopes she will get through her confinement as easily as Constance - and their son was also called Otho. DATES NOT RECORDED and none inferred. See [[otho-lloyd]]."
+}

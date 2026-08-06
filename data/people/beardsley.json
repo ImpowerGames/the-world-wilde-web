@@ -1,0 +1,69 @@
+{
+  "id": "beardsley",
+  "name": "Aubrey Beardsley",
+  "sort_name": "Beardsley, Aubrey",
+  "aka": [],
+  "born": {
+    "y": 1872
+  },
+  "died": {
+    "y": 1898
+  },
+  "group": "aesthete",
+  "gender": "m",
+  "bio": "Artist (1872-98). He was working in an insurance office until 1892; his drawings were first published in February 1893, he illustrated the English Salomé, and he was art editor of the Yellow Book and then the Savoy before dying of tuberculosis at twenty-five. One letter from Wilde to him survives - an invitation to dinner at Kettner's with Robert Ross - but the warmer document is an inscription Wilde wrote in a copy of Salomé in March 1893: 'For Aubrey: for the only artist who, besides myself, knows what the dance of the seven veils is, and can see that invisible dance.'",
+  "bio_sources": [
+    "letters-2000"
+  ],
+  "bio_note": "Added 2026-08-06, clearing a backlog: flagged from the General Index on 2026-08-06 and added the same day. NO CONNECTION LINE: nothing states or implies attraction, and the relation is professional and social. THE EDITORS NOTE THE LETTER IS 'APPARENTLY THE ONLY SURVIVING LETTER FROM WILDE TO BEARDSLEY' and that it cannot be dated within six months - they include it anyway for that reason, which is worth recording as an editorial decision. THE WORD 'AUBREY' IN IT HAS BEEN ERASED and is still legible; who erased it, and when, is not stated. THE INSCRIPTION IS THE BETTER SOURCE and is quoted below: it survives on a copy of the 1893 Salomé in the Sterling Library, University of London. HIS OWN INDEX ENTRY RECORDS A COOLING: 'his dislike of W' (printed 919n) at Dieppe in 1897, alongside his being supported by [[raffalovich]] and his connection to [[smithers]], who published the Savoy. Those folios are unread and the falling-out is not documented here.",
+  "context_engagements": [
+    {
+      "partner_name": "Oscar Wilde",
+      "period": "London, 1893",
+      "note": "Recorded without a connection line. Both items are from the same folio.",
+      "sources": [
+        {
+          "work": "letters-2000",
+          "locator": "p. 578",
+          "locator_type": "page",
+          "quote": "My dear Aubrey, I am charmed to find you are in town. Will you join Bobbie and me at dinner tonight at Kettner's (Church St, Soho) at 7.30. We are not going to dress. Ever yours",
+          "context": "Wilde to Aubrey Beardsley, [? December 1893], 10 & 11 St James's Place (MS Yale) - quoted whole, and the only surviving letter between them. 'Bobbie' is Robert Ross, who is on this map: the dinner is the three of them. The editors record that the word 'Aubrey' has been erased from the manuscript but remains legible.",
+          "speaker": "Oscar Wilde",
+          "addressee": "Aubrey Beardsley",
+          "evidence_date": {
+            "y": 1893,
+            "m": 12
+          },
+          "supports": "The only surviving letter, and that Wilde, Ross and Beardsley dined together.",
+          "verification": "verified-exact",
+          "how_verified": "pdf-at-page",
+          "provenance": "Repo PDF page 630; printed folio 578 confirmed on the rendered page image, read 2026-08-06.",
+          "verified_by": "claude-at-page",
+          "verified_on": "2026-08-06",
+          "voice": "period"
+        },
+        {
+          "work": "letters-2000",
+          "locator": "p. 578 n. 3",
+          "locator_type": "page",
+          "quote": "March '93. For Aubrey: for the only artist who, besides myself, knows what the dance of the seven veils is, and can see that invisible dance.",
+          "context": "Wilde's inscription in a copy of the original French Salomé (1893), recorded by the editors, which survives in the Sterling Library at the University of London. Written months before Beardsley illustrated the English edition. It is the warmest thing Wilde is recorded as writing to him, and it is not a letter - which is why the correspondence alone understates the relation.",
+          "speaker": "Oscar Wilde",
+          "addressee": "Aubrey Beardsley",
+          "evidence_date": {
+            "y": 1893,
+            "m": 3
+          },
+          "supports": "What Wilde thought Beardsley alone could see.",
+          "verification": "verified-exact",
+          "how_verified": "pdf-at-page",
+          "provenance": "Repo PDF page 630; printed folio 578 confirmed on the rendered page image, read 2026-08-06.",
+          "verified_by": "claude-at-page",
+          "verified_on": "2026-08-06",
+          "voice": "period"
+        }
+      ]
+    }
+  ],
+  "research_status": "phase-a"
+}

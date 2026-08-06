@@ -1,233 +1,985 @@
 /* ============ tokens ============ */
-:root{
+:root {
   color-scheme: dark;
   /* Dark only. A single palette is less to maintain, and the map was designed against it:
      the ColorBrewer Paired hues sit better on a dark ground than on paper. */
-  --paper:#221f1b; --paper2:#2a2620; --paper3:#332e26;
-  --ink:#efe9dc; --ink2:#b5ac9b; --ink3:#847c6d;
-  --rule:#3a352c; --rule2:#4c453a;
-  --accent:#d4ab2a; --accent-soft:#3a3423;
+  --paper: #221f1b;
+  --paper2: #2a2620;
+  --paper3: #332e26;
+  --ink: #efe9dc;
+  --ink2: #b5ac9b;
+  --ink3: #847c6d;
+  --rule: #3a352c;
+  --rule2: #4c453a;
+  --accent: #d4ab2a;
+  --accent-soft: #3a3423;
   /* ColorBrewer Paired (n=9); light/dark pairs carry related groups - see README */
-  --g-core:#1f78b4; --g-aesthete:#ff7f00; --g-trials:#33a02c; --g-society:#fb9a99;
-  --g-family:#e31a1c; --g-chaeronea:#cab2d6; --g-later:#fdbf6f; --g-beyond:#a6cee3;
-  --g-liaisons:#b2df8a;
-  --edge:#c8bfa6; --edge-soft:#847c6d;
-  --ok:#3ec43e; --ok-bg:#20301d; --pend:#e2b83a; --pend-bg:#37301b;
-  --warn:#e58a4a; --warn-bg:#382a1e; --bad:#e06060; --bad-bg:#3a2222;
-  --shadow:0 10px 30px rgba(0,0,0,.5);
-  --serif:Georgia,"Iowan Old Style","Palatino Linotype","Book Antiqua",serif;
-  --sans:system-ui,-apple-system,"Segoe UI",sans-serif;
+  --g-core: #1f78b4;
+  --g-aesthete: #ff7f00;
+  --g-trials: #33a02c;
+  --g-society: #fb9a99;
+  --g-family: #e31a1c;
+  --g-chaeronea: #cab2d6;
+  --g-later: #fdbf6f;
+  --g-beyond: #a6cee3;
+  --g-liaisons: #b2df8a;
+  --edge: #c8bfa6;
+  --edge-soft: #847c6d;
+  --ok: #3ec43e;
+  --ok-bg: #20301d;
+  --pend: #e2b83a;
+  --pend-bg: #37301b;
+  --warn: #e58a4a;
+  --warn-bg: #382a1e;
+  --bad: #e06060;
+  --bad-bg: #3a2222;
+  --shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  --serif:
+    Georgia, "Iowan Old Style", "Palatino Linotype", "Book Antiqua", serif;
+  --sans: system-ui, -apple-system, "Segoe UI", sans-serif;
 }
 /* ============ base ============ */
-*{box-sizing:border-box}
-html,body{margin:0;height:100%}
-body{background:var(--paper);color:var(--ink);font-family:var(--serif);overflow:hidden;
-     display:flex;flex-direction:column}
-button{font:inherit;color:inherit;background:none;border:none;cursor:pointer;padding:0}
-:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:2px}
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--serif);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+button {
+  font: inherit;
+  color: inherit;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
 /* ============ header ============ */
-header{flex:none;padding:14px 20px 10px;border-bottom:3.5px double var(--rule2);
-       display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 18px;background:var(--paper)}
-.masthead{display:flex;flex-direction:column;gap:2px;margin-right:auto}
-.masthead h1{margin:0;font-size:19px;font-weight:600;letter-spacing:.22em;text-transform:uppercase}
-.masthead .sub{font-size:12.5px;font-style:italic;color:var(--ink2)}
-.hstamp{font-family:var(--sans);font-size:10.5px;color:var(--ink3);letter-spacing:.04em}
-.hbtns{display:flex;gap:8px;align-items:center}
-.hbtn{font-family:var(--sans);font-size:11.5px;letter-spacing:.06em;text-transform:uppercase;
-      padding:6px 11px;border:1px solid var(--rule2);border-radius:999px;color:var(--ink2);background:var(--paper)}
-.hbtn:hover{border-color:var(--accent);color:var(--ink)}
-.hbtn[aria-pressed="true"]{background:var(--accent-soft);border-color:var(--accent);color:var(--ink)}
-#search{font:italic 14px var(--serif);color:var(--ink);background:var(--paper2);
-        border:1px solid var(--rule2);border-radius:999px;padding:7px 14px;width:230px}
-#search::placeholder{color:var(--ink3)}
-.searchwrap{position:relative;display:flex;gap:6px;align-items:center}
-#searchscope{font-family:var(--sans);font-size:11px;letter-spacing:.03em;color:var(--ink2);
-        background:var(--paper2);border:1px solid var(--rule2);border-radius:999px;
-        padding:6px 8px;cursor:pointer}
-#searchscope:hover{border-color:var(--accent);color:var(--ink)}
+header {
+  flex: none;
+  padding: 14px 20px 10px;
+  border-bottom: 3.5px double var(--rule2);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 8px 18px;
+  background: var(--paper);
+}
+.masthead {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin-right: auto;
+}
+.masthead h1 {
+  margin: 0;
+  font-size: 19px;
+  font-weight: 600;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+}
+.masthead .sub {
+  font-size: 12.5px;
+  font-style: italic;
+  color: var(--ink2);
+}
+.hstamp {
+  font-family: var(--sans);
+  font-size: 10.5px;
+  color: var(--ink3);
+  letter-spacing: 0.04em;
+}
+.hbtns {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.hbtn {
+  font-family: var(--sans);
+  font-size: 11.5px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 6px 11px;
+  border: 1px solid var(--rule2);
+  border-radius: 999px;
+  color: var(--ink2);
+  background: var(--paper);
+}
+.hbtn:hover {
+  border-color: var(--accent);
+  color: var(--ink);
+}
+.hbtn[aria-pressed="true"] {
+  background: var(--accent-soft);
+  border-color: var(--accent);
+  color: var(--ink);
+}
+#search {
+  font: italic 14px var(--serif);
+  color: var(--ink);
+  background: var(--paper2);
+  border: 1px solid var(--rule2);
+  border-radius: 999px;
+  padding: 7px 14px;
+  width: 230px;
+}
+#search::placeholder {
+  color: var(--ink3);
+}
+.searchwrap {
+  position: relative;
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+/* The caret is drawn, not native. padding-right could never move it: a native select's arrow is
+   laid against the border box and the padding is ignored, so the pill's rounded edge cut across it.
+   appearance:none drops the platform control and the caret becomes a background image, which can be
+   put wherever it belongs - 11px in, clear of the curve. */
+#searchscope {
+  -webkit-appearance: none;
+  appearance: none;
+  font-family: var(--sans);
+  font-size: 11px;
+  letter-spacing: 0.03em;
+  color: var(--ink2);
+  background-color: var(--paper2);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 10 6'%3E%3Cpath d='M1 1l4 4 4-4' fill='none' stroke='%23b5ac9b' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 11px center;
+  background-size: 9px 5.5px;
+  border: 1px solid var(--rule2);
+  border-radius: 999px;
+  padding: 6px 28px 6px 12px;
+  cursor: pointer;
+}
+#searchscope:hover {
+  border-color: var(--accent);
+  color: var(--ink);
+}
 /* A pill under the box saying what matched. Searching a word that occurs only inside a quotation
    otherwise lights nodes up for no visible reason - the count is what tells you the hit was in
    the evidence rather than in a name. */
-#searchnote{position:absolute;top:calc(100% + 5px);right:0;z-index:5;pointer-events:none;
-        font-family:var(--sans);font-size:10.5px;letter-spacing:.03em;color:var(--ink2);
-        background:var(--paper2);border:1px solid var(--rule2);border-radius:999px;
-        padding:2px 10px;white-space:nowrap}
-#searchnote:empty{display:none}
+#searchnote {
+  position: absolute;
+  top: calc(100% + 5px);
+  right: 0;
+  z-index: 5;
+  pointer-events: none;
+  font-family: var(--sans);
+  font-size: 10.5px;
+  letter-spacing: 0.03em;
+  color: var(--ink2);
+  background: var(--paper2);
+  border: 1px solid var(--rule2);
+  border-radius: 999px;
+  padding: 2px 10px;
+  white-space: nowrap;
+}
+#searchnote:empty {
+  display: none;
+}
+/* The pill reports the count AND frames the hits on the map when clicked, so it has to stop being
+   scenery: pointer-events go back on, and it takes a hover and focus state like any other control.
+   It only becomes clickable when there is something to frame - no search term, or no match, and the
+   class comes off again. */
+#searchnote.clickable {
+  pointer-events: auto;
+  cursor: pointer;
+  color: var(--ink);
+  border-color: var(--rule);
+}
+/* A crosshair, not the expand arrows: the arrows read as "make this bigger", which is not what the
+   control does. It centres the frame on the hits. ⌖ is POSITION INDICATOR (U+2316). */
+#searchnote.clickable::before {
+  content: "⌖  ";
+  white-space: pre;
+  opacity: 0.8;
+  font-size: 12px;
+  line-height: 1;
+}
+#searchnote.clickable:hover,
+#searchnote.clickable:focus-visible {
+  background: var(--paper);
+  border-color: var(--accent, var(--ink2));
+  color: var(--ink);
+  outline: none;
+}
+#searchnote.clickable:active {
+  transform: translateY(1px);
+}
 /* ============ legend ============ */
-#legend{flex:none;display:flex;flex-wrap:wrap;gap:4px 14px;align-items:center;
-        padding:7px 20px;border-bottom:1px solid var(--rule);background:var(--paper);
-        font-family:var(--sans);font-size:11px;color:var(--ink2)}
-.lg-title{letter-spacing:.14em;text-transform:uppercase;font-size:9.5px;color:var(--ink3);margin-right:-4px}
-.lgc{display:inline-flex;align-items:center;gap:5px;padding:3px 8px;border-radius:999px;
-     border:1px solid transparent}
-.lgc:hover{border-color:var(--rule2)}
-.lgc[aria-pressed="false"]{opacity:.35}
+#legend {
+  flex: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 14px;
+  align-items: center;
+  padding: 7px 20px;
+  border-bottom: 1px solid var(--rule);
+  background: var(--paper);
+  font-family: var(--sans);
+  font-size: 11px;
+  color: var(--ink2);
+}
+.lg-title {
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  font-size: 9.5px;
+  color: var(--ink3);
+  margin-right: -4px;
+}
+.lgc {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 3px 8px;
+  border-radius: 999px;
+  border: 1px solid transparent;
+}
+.lgc:hover {
+  border-color: var(--rule2);
+}
+.lgc[aria-pressed="false"] {
+  opacity: 0.35;
+}
 /* The soloed switch. Marked by colour ALONE, with nothing added to the label: a word like "only"
    inside the chip changes its width, which shunts every switch after it sideways at the moment of
    the click — the row appears to twitch just as you are reading it. The rest of the row is already
    faded to 35%, so an accent-coloured switch among faded ones is unambiguous without adding
    anything, and the tooltip says what clicking it will do. Border stays 1px so nothing reflows. */
-.lgc.solo{border-color:var(--accent);color:var(--accent);
-     background:color-mix(in srgb,var(--accent) 13%,transparent)}
-.lgc:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
-.lgc .dot{width:9px;height:9px;border-radius:50%;flex:none}
-.lg-note{font-size:9px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink3);
-         border:1px solid var(--rule2);border-radius:3px;padding:1px 4px;margin-left:2px}
-.lgc svg{flex:none}
-.lg-sep{width:1px;height:16px;background:var(--rule2)}
+.lgc.solo {
+  border-color: var(--accent);
+  color: var(--accent);
+  background: color-mix(in srgb, var(--accent) 13%, transparent);
+}
+.lgc:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+.lgc .dot {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  flex: none;
+}
+.lg-note {
+  font-size: 9px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ink3);
+  border: 1px solid var(--rule2);
+  border-radius: 3px;
+  padding: 1px 4px;
+  margin-left: 2px;
+}
+.lgc svg {
+  flex: none;
+}
+.lg-sep {
+  width: 1px;
+  height: 16px;
+  background: var(--rule2);
+}
 /* People and gender filter the nodes; connections filter the lines. Break between them so the
    two kinds of control read as two rows rather than one long strip. */
-.lg-break{flex-basis:100%;height:0;margin:0}
+.lg-break {
+  flex-basis: 100%;
+  height: 0;
+  margin: 0;
+}
 /* ============ main ============ */
-main{flex:1;display:flex;min-height:0;position:relative}
-#webwrap{flex:1;min-width:0;position:relative}
+main {
+  flex: 1;
+  display: flex;
+  min-height: 0;
+  position: relative;
+}
+#webwrap {
+  flex: 1;
+  min-width: 0;
+  position: relative;
+}
 /* names must not be selectable: a drag across the canvas would otherwise start a text
    selection instead of moving the node. The panel stays selectable so quotes can be copied. */
-#web{position:absolute;inset:0;width:100%;height:100%;touch-action:none;display:block;
-     user-select:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none}
+#web {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  touch-action: none;
+  display: block;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
 /* Held while the view is being dragged, by any button. Without it a right-drag over open ground
    gives no sign that anything is happening until the map moves. */
-#web.panning,#web.panning *{cursor:grabbing}
-#web .edge .e-hit{stroke:transparent;stroke-width:16px;fill:none;cursor:pointer}
-#web .edge .e-under{display:none;fill:none}
-#web .edge .e-main{fill:none;stroke:var(--edge);cursor:pointer}
-#web .edge.cert-self-reported .e-main{stroke-width:2.9}
-#web .edge.cert-second-hand .e-main{stroke-width:1.9;stroke-dasharray:7 5;opacity:.85}
-#web .edge.cert-uncorroborated .e-main{stroke-width:1.8;stroke-dasharray:1.5 6;stroke-linecap:round;opacity:.9}
-#web .edge.cert-attraction-expressed .e-main{stroke-width:1.7;stroke-dasharray:2 4 8 4;opacity:.85;marker-end:url(#arrowhead)}
-#web .edge.cert-attraction-expressed.out-unknown .e-main{stroke-width:1.4;opacity:.55;marker-end:url(#arrowhead-open)}
-#web .edge.cert-married .e-under{display:block;stroke:var(--edge);stroke-width:5}
-#web .edge.cert-married .e-main{stroke:var(--paper);stroke-width:1.8}
-#web .edge.dimmed{opacity:.12}
-#web .edge.hidden{display:none}
-#web .edge.focus .e-main{stroke:var(--accent)}
-#web .edge.cert-married.focus .e-under{stroke:var(--accent)}
+#web.panning,
+#web.panning * {
+  cursor: grabbing;
+}
+#web .edge .e-hit {
+  stroke: transparent;
+  stroke-width: 16px;
+  fill: none;
+  cursor: pointer;
+}
+#web .edge .e-under {
+  display: none;
+  fill: none;
+}
+#web .edge .e-main {
+  fill: none;
+  stroke: var(--edge);
+  cursor: pointer;
+}
+/* Thinner than it was (2.9 -> 2.1). Married is drawn as a 5px under-stroke with a paper-coloured
+   1.8px line down the middle, so the "double line" is really a gap - and a gap is the first thing
+   to go when you zoom out, at which point it reads as one solid heavy stroke. Self-reported was the
+   only other solid line and at 2.9 it was close enough to be mistaken for it. At 2.1 the weights
+   are plainly different at any zoom, and self-reported is still the heaviest of the single strokes,
+   which is right: it is the strongest class after marriage. The dashed classes sit at 1.7-1.9 and
+   are told apart by their dash pattern rather than their weight, so nothing else is disturbed. */
+#web .edge.cert-self-reported .e-main {
+  stroke-width: 2.1;
+}
+#web .edge.cert-second-hand .e-main {
+  stroke-width: 1.9;
+  stroke-dasharray: 7 5;
+  opacity: 0.85;
+}
+#web .edge.cert-uncorroborated .e-main {
+  stroke-width: 1.8;
+  stroke-dasharray: 1.5 6;
+  stroke-linecap: round;
+  opacity: 0.9;
+}
+#web .edge.cert-attraction-expressed .e-main {
+  stroke-width: 1.7;
+  stroke-dasharray: 2 4 8 4;
+  opacity: 0.85;
+  marker-end: url(#arrowhead);
+}
+#web .edge.cert-attraction-expressed.out-unknown .e-main {
+  stroke-width: 1.4;
+  opacity: 0.55;
+  marker-end: url(#arrowhead-open);
+}
+#web .edge.cert-married .e-under {
+  display: block;
+  stroke: var(--edge);
+  stroke-width: 5;
+}
+#web .edge.cert-married .e-main {
+  stroke: var(--paper);
+  stroke-width: 1.8;
+}
+#web .edge.dimmed {
+  opacity: 0.12;
+}
+#web .edge.hidden {
+  display: none;
+}
+#web .edge.focus .e-main {
+  stroke: var(--accent);
+}
+#web .edge.cert-married.focus .e-under {
+  stroke: var(--accent);
+}
 /* ...and everything unrelated to the selection recedes */
-#web.focusing .edge:not(.focus){opacity:.09}
-#web.focusing .node:not(.focus){opacity:.13}
-#web .node{cursor:grab}
-#web .node .shape{stroke:var(--ink);stroke-width:1.4;fill:var(--ink3)}
-#web .node.g-core .shape{fill:var(--g-core)} #web .node.g-aesthete .shape{fill:var(--g-aesthete)}
-#web .node.g-trials .shape{fill:var(--g-trials)} #web .node.g-society .shape{fill:var(--g-society)}
-#web .node.g-family .shape{fill:var(--g-family)} #web .node.g-chaeronea .shape{fill:var(--g-chaeronea)}
-#web .node.g-later .shape{fill:var(--g-later)}
-#web .node.g-beyond .shape{fill:var(--g-beyond)}
-#web .node.g-liaisons .shape{fill:var(--g-liaisons)}
-#web .node text{font:12px var(--serif);fill:var(--ink);paint-order:stroke;stroke:var(--paper);
-                stroke-width:3px;text-anchor:middle;pointer-events:none}
-#web .node .pin{fill:var(--ink);stroke:var(--paper);stroke-width:1;display:none}
-#web .node.pinned .pin{display:block}
-#web .node.leadonly{opacity:.4}
-#web .node.dimmed{opacity:.15}
+#web.focusing .edge:not(.focus) {
+  opacity: 0.09;
+}
+#web.focusing .node:not(.focus) {
+  opacity: 0.13;
+}
+/* A person is something you click. Dragging is a held gesture now, so the cursor no longer
+   advertises a grab that a plain press will not give you. */
+#web .node {
+  cursor: pointer;
+}
+/* ARMED: the hold has landed and this person will now follow the pointer. The shape and portrait
+   are centred on the group's origin, and the group's own transform is rewritten every frame by
+   render(), so the swell goes on the CHILDREN - scaling the group would be overwritten on the next
+   tick. The label is deliberately left alone: a name that jumps is harder to read, and the disc
+   carries the signal well enough. */
+#web .node .shape,
+#web .node .portrait {
+  transition: transform 0.12s ease-out;
+}
+#web .node.armed {
+  cursor: grabbing;
+}
+#web .node.armed .shape,
+#web .node.armed .portrait {
+  transform: scale(1.22);
+}
+@media (prefers-reduced-motion: reduce) {
+  #web .node .shape,
+  #web .node .portrait {
+    transition: none;
+  }
+}
+#web .node .shape {
+  stroke: var(--ink);
+  stroke-width: 1.4;
+  fill: var(--ink3);
+}
+#web .node.g-core .shape {
+  fill: var(--g-core);
+}
+#web .node.g-aesthete .shape {
+  fill: var(--g-aesthete);
+}
+#web .node.g-trials .shape {
+  fill: var(--g-trials);
+}
+#web .node.g-society .shape {
+  fill: var(--g-society);
+}
+#web .node.g-family .shape {
+  fill: var(--g-family);
+}
+#web .node.g-chaeronea .shape {
+  fill: var(--g-chaeronea);
+}
+#web .node.g-later .shape {
+  fill: var(--g-later);
+}
+#web .node.g-beyond .shape {
+  fill: var(--g-beyond);
+}
+#web .node.g-liaisons .shape {
+  fill: var(--g-liaisons);
+}
+#web .node text {
+  font: 12px var(--serif);
+  fill: var(--ink);
+  paint-order: stroke;
+  stroke: var(--paper);
+  stroke-width: 3px;
+  text-anchor: middle;
+  pointer-events: none;
+}
+#web .node .pin {
+  fill: var(--ink);
+  stroke: var(--paper);
+  stroke-width: 1;
+  display: none;
+}
+#web .node.pinned .pin {
+  display: block;
+}
+#web .node.leadonly {
+  opacity: 0.4;
+}
+#web .node.dimmed {
+  opacity: 0.15;
+}
 /* An explicit selection beats a filter. Choosing someone whose group is switched off - the
    Outside-the-circle men are off by default - used to open their panel while leaving them and
    their connection dimmed on the graph, so nothing appeared to happen. Focus now restores them
    for as long as they are selected; the group stays off underneath. */
-#web .node.dimmed.focus{opacity:1}
-#web .edge.dimmed.focus{opacity:1}
-#web .node.focus .shape{stroke:var(--accent);stroke-width:3}
-#tip{position:absolute;pointer-events:none;background:var(--paper2);border:1px solid var(--rule2);
-     border-radius:6px;padding:6px 10px;font-family:var(--sans);font-size:11.5px;color:var(--ink2);
-     box-shadow:var(--shadow);display:none;max-width:260px;z-index:5}
-#tip b{color:var(--ink);font-weight:600}
-#emptymsg{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
-          color:var(--ink3);font-style:italic;padding:30px;text-align:center}
-#emptymsg[hidden]{display:none}
+#web .node.dimmed.focus {
+  opacity: 1;
+}
+#web .edge.dimmed.focus {
+  opacity: 1;
+}
+#web .node.focus .shape {
+  stroke: var(--accent);
+  stroke-width: 3;
+}
+#tip {
+  position: absolute;
+  pointer-events: none;
+  background: var(--paper2);
+  border: 1px solid var(--rule2);
+  border-radius: 6px;
+  padding: 6px 10px;
+  font-family: var(--sans);
+  font-size: 11.5px;
+  color: var(--ink2);
+  box-shadow: var(--shadow);
+  display: none;
+  max-width: 260px;
+  z-index: 5;
+}
+#tip b {
+  color: var(--ink);
+  font-weight: 600;
+}
+#emptymsg {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--ink3);
+  font-style: italic;
+  padding: 30px;
+  text-align: center;
+}
+#emptymsg[hidden] {
+  display: none;
+}
 /* ============ panel ============ */
-#panel{flex:none;width:400px;max-width:46vw;border-left:1px solid var(--rule);background:var(--paper2);
-       overflow-y:auto;display:none}
-#panel.open{display:block}
-.pwrap{padding:18px 20px 40px}
-.pclose{float:right;font-family:var(--sans);font-size:12px;color:var(--ink3);padding:4px 8px;
-        border:1px solid var(--rule2);border-radius:999px}
-.pclose:hover{color:var(--ink);border-color:var(--accent)}
+#panel {
+  flex: none;
+  width: 400px;
+  max-width: 46vw;
+  border-left: 1px solid var(--rule);
+  background: var(--paper2);
+  overflow-y: auto;
+  display: none;
+}
+#panel.open {
+  display: block;
+}
+.pwrap {
+  padding: 0 20px 40px;
+}
+/* THE PANEL'S HEAD, PINNED. Close used to sit at the top of a column that runs 96,000px on Wilde's
+   page, so from anywhere past the first screen the panel could not be dismissed without scrolling
+   all the way back up to find the button. It is a flex row now rather than a float, so the handle
+   can sit in it. z-index above the section headings, which pin underneath it. */
+/* Its measured height, published so the headings that pin BENEATH it can be offset by exactly
+   this much. They were pinning at 0 and 19px, which put them behind the head where nothing showed
+   but the filter's clipped top edge. One value now: since the head absorbed the panel's top
+   padding it measures the same on both breakpoints, the phone trading a little of that padding
+   for the drag handle. */
+:root {
+  --phead-h: 50px;
+}
+/* The head carries the panel's top padding itself, instead of sitting below .pwrap's. It used to
+   start 18px down and then pin at 0, so it visibly jumped on the first scroll. Where it starts is
+   now where it pins, and nothing moves. */
+/* Bled to the panel's full width - negative margins out through .pwrap's 20px gutters, with the
+   same 20px given back as padding so the button does not move. Inset, its background stopped at the
+   content edge and a sliver of whatever scrolled behind it showed in the gutter on either side:
+   one pixel, but a visible one on a 3x screen. */
+.phead {
+  position: sticky;
+  top: 0;
+  z-index: 6;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background: var(--paper2);
+  margin: 0 -20px;
+  padding: 16px 20px 8px;
+}
+.phead .grab {
+  display: none;
+}
+/* The name, once the real one has gone behind the head. Fades on OPACITY rather than appearing and
+   disappearing, so the head never reflows under the reader's eyes; flex:1 with min-width:0 lets it
+   take the whole row and ellipsis away rather than shoving Close off the edge, which is what a
+   connection's "A & B" would otherwise do. */
+/* line-height carries the link's underline. The slot needs overflow:hidden for the ellipsis, and
+   at the default line-height it came out 15px tall around a 16px anchor - so the one pixel it
+   clipped was exactly the border-bottom, and the links rendered with no underline at all. */
+.phtitle {
+  flex: 1;
+  min-width: 0;
+  padding-right: 12px;
+  line-height: 1.55;
+  font-family: var(--serif);
+  font-size: 11.5px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  color: var(--ink2);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  opacity: 0;
+  visibility: hidden;
+  transition:
+    opacity 0.16s ease-out,
+    visibility 0s linear 0.16s;
+}
+/* visibility, not just opacity: the title carries LINKS on a connection page, and a transparent
+   link is still in the tab order - a keyboard would have stopped on two invisible names. Hidden
+   this way it leaves the focus order without display:none reflowing the head. */
+.phtitle.show {
+  opacity: 1;
+  visibility: visible;
+  transition:
+    opacity 0.16s ease-out,
+    visibility 0s;
+}
+.phtitle a {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px solid var(--rule2);
+}
+.phtitle a:hover {
+  color: var(--ink);
+  border-bottom-color: var(--accent);
+}
+@media (prefers-reduced-motion: reduce) {
+  .phtitle {
+    transition: none;
+  }
+}
+/* The float is still needed by the About overlay's own Close, which sits in a plain block. Inside
+   .phead it does nothing at all - a flex item ignores float - so one rule serves both. */
+.pclose {
+  float: right;
+  font-family: var(--sans);
+  font-size: 12px;
+  color: var(--ink3);
+  padding: 4px 8px;
+  border: 1px solid var(--rule2);
+  border-radius: 999px;
+}
+.pclose:hover {
+  color: var(--ink);
+  border-color: var(--accent);
+}
 /* The sphere chip is a BUTTON: clicking it narrows the map to that sphere alone, clicking again
    restores everyone. It reads as a label first and a control second, which is the right emphasis -
    it labels the person, and the filtering is an offer. */
-.ptag{display:inline-flex;align-items:center;gap:5px;font-family:var(--sans);font-size:10px;
-      letter-spacing:.12em;text-transform:uppercase;color:var(--ink2);border:1px solid var(--rule2);
-      padding:3px 9px;border-radius:999px;margin-bottom:6px;
-      background:none;cursor:pointer;transition:border-color .12s,color .12s,background .12s}
-.ptag:hover{border-color:var(--ink3);color:var(--ink)}
-.ptag:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
-.ptag .dot{width:8px;height:8px;border-radius:50%}
-#panel h2{margin:2px 0 1px;font-size:23px;font-weight:600;letter-spacing:.01em}
-#panel h2 a{color:inherit;text-decoration:none;border-bottom:1px solid var(--rule2)}
-#panel h2 a:hover{border-color:var(--accent)}
-.aka{font-style:italic;color:var(--ink2);font-size:13.5px}
-.dates{font-family:var(--sans);font-variant-numeric:tabular-nums;font-size:12.5px;color:var(--ink2);
-       letter-spacing:.05em;margin:2px 0 12px}
-.bio{font-size:14.5px;line-height:1.62;margin:0 0 6px;max-width:62ch}
-.bionote{font-size:11.5px;color:var(--ink3);font-style:italic;margin:0 0 14px}
+.ptag {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-family: var(--sans);
+  font-size: 10px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink2);
+  border: 1px solid var(--rule2);
+  padding: 3px 9px;
+  border-radius: 999px;
+  margin-bottom: 6px;
+  background: none;
+  cursor: pointer;
+  transition:
+    border-color 0.12s,
+    color 0.12s,
+    background 0.12s;
+}
+.ptag:hover {
+  border-color: var(--ink3);
+  color: var(--ink);
+}
+.ptag:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+.ptag .dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+#panel h2 {
+  margin: 2px 0 1px;
+  font-size: 23px;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+#panel h2 a {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px solid var(--rule2);
+}
+#panel h2 a:hover {
+  border-color: var(--accent);
+}
+.aka {
+  font-style: italic;
+  color: var(--ink2);
+  font-size: 13.5px;
+}
+.dates {
+  font-family: var(--sans);
+  font-variant-numeric: tabular-nums;
+  font-size: 12.5px;
+  color: var(--ink2);
+  letter-spacing: 0.05em;
+  margin: 2px 0 12px;
+}
+.bio {
+  font-size: 14.5px;
+  line-height: 1.62;
+  margin: 0 0 6px;
+  max-width: 62ch;
+}
+.bionote {
+  font-size: 11.5px;
+  color: var(--ink3);
+  font-style: italic;
+  margin: 0 0 14px;
+}
 /* Working notes - which page was read, what was corrected, what was searched and not found - are
    the apparatus, not the entry. They sit at the foot of the panel and start closed: median note
    runs about twice the length of the biography it annotates, and up to twelve times. */
-.method{margin:22px 0 4px;border-top:1px solid var(--rule);padding-top:10px}
-.method>summary{font-family:var(--sans);font-size:10px;letter-spacing:.14em;text-transform:uppercase;
-        color:var(--ink3);cursor:pointer;list-style:none}
-.method>summary::-webkit-details-marker{display:none}
-.method>summary::before{content:"▸";display:inline-block;margin-right:6px;transition:transform .15s}
-.method[open]>summary::before{transform:rotate(90deg)}
-.method>div{font-size:11.5px;line-height:1.6;color:var(--ink3);margin-top:8px;max-width:62ch;
-        white-space:pre-wrap}
-.sect{font-family:var(--sans);font-size:10px;letter-spacing:.18em;text-transform:uppercase;
-      color:var(--ink3);border-bottom:1px solid var(--rule);padding-bottom:4px;margin:20px 0 10px}
+.method {
+  margin: 22px 0 4px;
+  border-top: 1px solid var(--rule);
+  padding-top: 10px;
+}
+.method > summary {
+  font-family: var(--sans);
+  font-size: 10px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink3);
+  cursor: pointer;
+  list-style: none;
+}
+.method > summary::-webkit-details-marker {
+  display: none;
+}
+.method > summary::before {
+  content: "▸";
+  display: inline-block;
+  margin-right: 6px;
+  transition: transform 0.15s;
+}
+.method[open] > summary::before {
+  transform: rotate(90deg);
+}
+.method > div {
+  font-size: 11.5px;
+  line-height: 1.6;
+  color: var(--ink3);
+  margin-top: 8px;
+  max-width: 62ch;
+  white-space: pre-wrap;
+}
+.sect {
+  font-family: var(--sans);
+  font-size: 10px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--ink3);
+  border-bottom: 1px solid var(--rule);
+  padding-bottom: 4px;
+  margin: 20px 0 10px;
+}
 /* timeline */
-.tl{list-style:none;margin:0;padding:0 0 0 3px}
-.tl li{position:relative;padding:0 0 14px 22px;border-left:2px solid var(--rule2)}
-.tl li:last-child{padding-bottom:2px}
-.tl .knot{position:absolute;left:-6.5px;top:3px;width:9px;height:9px;border-radius:50%;
-          background:var(--edge);border:2px solid var(--paper2)}
-.tl li.anchor .knot{background:var(--paper2);border:2px solid var(--ink3)}
-.tl li.ctx .knot{background:var(--paper2);border:2px solid var(--edge)}
-.tl .when{font-family:var(--sans);font-size:10.5px;letter-spacing:.05em;color:var(--ink3);
-          font-variant-numeric:tabular-nums;text-transform:uppercase}
-.tl .what{font-size:14px;line-height:1.45}
-.tl .what a{color:inherit;text-decoration:none;border-bottom:1px solid var(--rule2)}
-.tl .what a:hover{border-color:var(--accent)}
-.tl li.anchor .what{font-style:italic;color:var(--ink2)}
-.tl .offr{font-family:var(--sans);font-size:9.5px;letter-spacing:.08em;color:var(--ink3);
-          text-transform:uppercase;margin-left:5px}
-.mini{display:inline-block;vertical-align:1px;margin-left:7px}
+.tl {
+  list-style: none;
+  margin: 0;
+  padding: 0 0 0 3px;
+}
+.tl li {
+  position: relative;
+  padding: 0 0 14px 22px;
+  border-left: 2px solid var(--rule2);
+}
+.tl li:last-child {
+  padding-bottom: 2px;
+}
+.tl .knot {
+  position: absolute;
+  left: -6.5px;
+  top: 3px;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: var(--edge);
+  border: 2px solid var(--paper2);
+}
+.tl li.anchor .knot {
+  background: var(--paper2);
+  border: 2px solid var(--ink3);
+}
+.tl li.ctx .knot {
+  background: var(--paper2);
+  border: 2px solid var(--edge);
+}
+.tl .when {
+  font-family: var(--sans);
+  font-size: 10.5px;
+  letter-spacing: 0.05em;
+  color: var(--ink3);
+  font-variant-numeric: tabular-nums;
+  text-transform: uppercase;
+}
+.tl .what {
+  font-size: 14px;
+  line-height: 1.45;
+}
+.tl .what a {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px solid var(--rule2);
+}
+.tl .what a:hover {
+  border-color: var(--accent);
+}
+.tl li.anchor .what {
+  font-style: italic;
+  color: var(--ink2);
+}
+.tl .offr {
+  font-family: var(--sans);
+  font-size: 9.5px;
+  letter-spacing: 0.08em;
+  color: var(--ink3);
+  text-transform: uppercase;
+  margin-left: 5px;
+}
+.mini {
+  display: inline-block;
+  vertical-align: 1px;
+  margin-left: 7px;
+}
 /* relationship card */
-.rhead{font-size:20px;margin:2px 0 2px}
-.badge{display:inline-flex;align-items:center;gap:7px;font-family:var(--sans);font-size:11px;
-       letter-spacing:.07em;text-transform:uppercase;color:var(--ink2);
-       border:1px solid var(--rule2);border-radius:999px;padding:4px 11px;margin:7px 8px 7px 0}
-.badge .prov{font-size:9.5px;color:var(--ink3);font-style:italic;text-transform:none;letter-spacing:0}
-.datesline{font-family:var(--sans);font-size:12.5px;color:var(--ink2);margin:2px 0 10px;
-           font-variant-numeric:tabular-nums}
-.summary{font-size:14.5px;line-height:1.6;max-width:62ch;margin:0 0 8px}
-.phases{margin:6px 0 0;padding-left:18px;font-size:13px;color:var(--ink2)}
-.phases li{margin-bottom:3px}
-.disputed{border-left:3px solid var(--pend);background:var(--pend-bg);padding:10px 13px;
-          border-radius:0 6px 6px 0;font-size:13px;line-height:1.55;margin:12px 0}
+.rhead {
+  font-size: 20px;
+  margin: 2px 0 2px;
+}
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font-family: var(--sans);
+  font-size: 11px;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: var(--ink2);
+  border: 1px solid var(--rule2);
+  border-radius: 999px;
+  padding: 4px 11px;
+  margin: 7px 8px 7px 0;
+}
+.badge .prov {
+  font-size: 9.5px;
+  color: var(--ink3);
+  font-style: italic;
+  text-transform: none;
+  letter-spacing: 0;
+}
+.datesline {
+  font-family: var(--sans);
+  font-size: 12.5px;
+  color: var(--ink2);
+  margin: 2px 0 10px;
+  font-variant-numeric: tabular-nums;
+}
+.summary {
+  font-size: 14.5px;
+  line-height: 1.6;
+  max-width: 62ch;
+  margin: 0 0 8px;
+}
+.phases {
+  margin: 6px 0 0;
+  padding-left: 18px;
+  font-size: 13px;
+  color: var(--ink2);
+}
+.phases li {
+  margin-bottom: 3px;
+}
+.disputed {
+  border-left: 3px solid var(--pend);
+  background: var(--pend-bg);
+  padding: 10px 13px;
+  border-radius: 0 6px 6px 0;
+  font-size: 13px;
+  line-height: 1.55;
+  margin: 12px 0;
+}
 /* The two sides of a contested claim are labelled rather than folded into a sentence: several of
    them are statements of absence ("no witness attests ..."), which read as broken grammar after a
    forced "Disputed by". */
-.disputed .dline{margin-top:7px}
-.disputed .dline>span{display:block;font-family:var(--sans);font-size:9.5px;letter-spacing:.11em;
-          text-transform:uppercase;color:var(--ink3);margin-bottom:1px}
-.disputed b{letter-spacing:.03em}
+.disputed .dline {
+  margin-top: 7px;
+}
+.disputed .dline > span {
+  display: block;
+  font-family: var(--sans);
+  font-size: 9.5px;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+  color: var(--ink3);
+  margin-bottom: 1px;
+}
+.disputed b {
+  letter-spacing: 0.03em;
+}
 /* quotes */
-.qcard{border:1px solid var(--rule);border-radius:8px;background:var(--paper);
-       padding:13px 15px 11px;margin:0 0 12px;box-shadow:0 1px 0 var(--rule)}
-.qctx{font-family:var(--sans);font-size:10px;letter-spacing:.1em;text-transform:uppercase;
-      color:var(--ink3);margin-bottom:7px}
-.qctx.long{text-transform:none;letter-spacing:.02em;font-size:11px;line-height:1.5}
-.qcard blockquote{margin:0 0 9px;font-size:14.5px;line-height:1.62;white-space:pre-wrap;
-        padding-left:12px;border-left:2px solid var(--rule2)}
+.qcard {
+  border: 1px solid var(--rule);
+  border-radius: 8px;
+  background: var(--paper);
+  padding: 13px 15px 11px;
+  margin: 0 0 12px;
+  box-shadow: 0 1px 0 var(--rule);
+}
+.qctx {
+  font-family: var(--sans);
+  font-size: 10px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ink3);
+  margin-bottom: 7px;
+}
+.qctx.long {
+  text-transform: none;
+  letter-spacing: 0.02em;
+  font-size: 11px;
+  line-height: 1.5;
+}
+.qcard blockquote {
+  margin: 0 0 9px;
+  font-size: 14.5px;
+  line-height: 1.62;
+  white-space: pre-wrap;
+  padding-left: 12px;
+  border-left: 2px solid var(--rule2);
+}
 /* Whose mouth the words came out of. Text that is ENTIRELY a period voice - a letter, a diary,
    sworn testimony - is set between large serif quotation marks, so first-hand evidence is legible
    as such before you read a word of it. A historian writing about these people keeps the quieter
    rule down the left, and so does any sentence that only quotes a period voice inside itself. */
-.qcard blockquote.q-period{position:relative;border-left:none;
-        padding:3px 22px 3px 29px;margin:6px 0 12px}
-.qcard blockquote.q-period::before,.qcard blockquote.q-period::after{
-        position:absolute;font-family:var(--serif);font-size:40px;line-height:1;
-        color:var(--ink3);opacity:.32;pointer-events:none}
-.qcard blockquote.q-period::before{content:"\201C";left:0;top:-4px}
-.qcard blockquote.q-period::after{content:"\201D";right:2px;bottom:-18px}
+.qcard blockquote.q-period {
+  position: relative;
+  border-left: none;
+  padding: 3px 22px 3px 29px;
+  margin: 6px 0 12px;
+}
+.qcard blockquote.q-period::before,
+.qcard blockquote.q-period::after {
+  position: absolute;
+  font-family: var(--serif);
+  font-size: 40px;
+  line-height: 1;
+  color: var(--ink3);
+  opacity: 0.32;
+  pointer-events: none;
+}
+.qcard blockquote.q-period::before {
+  content: "\201C";
+  left: 0;
+  top: -4px;
+}
+.qcard blockquote.q-period::after {
+  content: "\201D";
+  right: 2px;
+  bottom: -18px;
+}
 /* An EXCHANGE: period evidence with more than one speaker in it, set as a transcript. No quotation
    marks — those promise a single voice, which is exactly what a cross-examination is not.
    NOTHING IN THE LEFT MARGIN EITHER: the panel is narrow, and a rule plus a hanging indent spent
@@ -244,79 +996,315 @@ main{flex:1;display:flex;min-height:0;position:relative}
    next to a name COLUMN — the two together ate a quarter of the measure — but against full-width
    text it is 14px, and it does the job the column used to: marking the whole block as a record of
    proceedings at a glance, before any of it is read. Double, for two voices. */
-.qcard blockquote.q-exchange{border-left:2px dashed var(--rule2);padding:2px 0 2px 13px;
-        margin:6px 0 12px;display:block}
-.qcard blockquote.q-exchange .who{display:block;margin:0 0 1px;
-        font-family:var(--sans);font-size:9.5px;letter-spacing:.12em;text-transform:uppercase;
-        color:var(--ink3)}
-.qcard blockquote.q-exchange .who:empty{display:none}   /* speaker not recorded: say nothing */
-.qcard blockquote.q-exchange .said{display:block;margin:0 0 10px}
-.qcard blockquote.q-exchange .said:last-child{margin-bottom:0}
+.qcard blockquote.q-exchange {
+  border-left: 2px dashed var(--rule2);
+  padding: 2px 0 2px 13px;
+  margin: 6px 0 12px;
+  display: block;
+}
+.qcard blockquote.q-exchange .who {
+  display: block;
+  margin: 0 0 1px;
+  font-family: var(--sans);
+  font-size: 12px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink3);
+}
+.qcard blockquote.q-exchange .who:empty {
+  display: none;
+} /* speaker not recorded: say nothing */
+.qcard blockquote.q-exchange .said {
+  display: block;
+  margin: 0 0 10px;
+}
+.qcard blockquote.q-exchange .said:last-child {
+  margin-bottom: 0;
+}
 /* The English of a quotation that is not in English. Set BELOW the original and visibly quieter:
    the French is what was verified at the page and what the edge is evidenced by, so it keeps the
    quotation's own typography, and this is the way in rather than the source. */
-.qtrans{font-size:13px;line-height:1.6;color:var(--ink2);margin:-2px 0 10px;padding-left:12px;
-        border-left:1px solid var(--rule2)}
-.qtrans-h{display:block;font-family:var(--sans);font-size:9.5px;letter-spacing:.11em;
-          text-transform:uppercase;color:var(--ink3);margin-bottom:3px}
-.qtrans-n{display:block;font-size:11.5px;font-style:italic;color:var(--ink3);margin-top:5px}
-.qattr{font-size:12.5px;color:var(--ink2);margin-bottom:9px}
-.qplaced{font-size:.82em;font-style:italic;color:var(--ink3);margin-top:.35em;opacity:.9}
-.qsupports{font-size:11.5px;color:var(--ink3);font-style:italic;margin-bottom:9px}
-.chips{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
-.chip{display:inline-flex;align-items:center;gap:4px;font-family:var(--sans);font-size:9.5px;
-      font-weight:600;letter-spacing:.09em;text-transform:uppercase;border-radius:4px;padding:3px 8px}
-.chip.v-ok{color:var(--ok);background:var(--ok-bg)}
-.chip.v-pend{color:var(--pend);background:var(--pend-bg)}
-.chip.v-warn{color:var(--warn);background:var(--warn-bg)}
-.chip.v-bad{color:var(--bad);background:var(--bad-bg)}
-.chip.how{color:var(--ink2);background:var(--paper3);font-weight:400}
-.qcard details{margin-top:9px;font-family:var(--sans);font-size:11px;color:var(--ink2)}
-.qcard summary{cursor:pointer;color:var(--ink3);letter-spacing:.06em;text-transform:uppercase;font-size:9.5px}
-.qcard details div{margin-top:5px;line-height:1.5}
-.qpointer{border-style:dashed;background:var(--paper2)}
-.qpointer .qhead{font-family:var(--sans);font-size:10px;font-weight:600;letter-spacing:.12em;
-                 text-transform:uppercase;color:var(--pend);margin-bottom:6px}
-.qpointer .qclaim{font-size:13.5px;font-style:italic;line-height:1.55;margin-bottom:8px}
+.qtrans {
+  font-size: 13px;
+  line-height: 1.6;
+  color: var(--ink2);
+  margin: -2px 0 10px;
+  padding-left: 12px;
+  border-left: 1px solid var(--rule2);
+}
+.qtrans-h {
+  display: block;
+  font-family: var(--sans);
+  font-size: 9.5px;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+  color: var(--ink3);
+  margin-bottom: 3px;
+}
+.qtrans-n {
+  display: block;
+  font-size: 11.5px;
+  font-style: italic;
+  color: var(--ink3);
+  margin-top: 5px;
+}
+.qattr {
+  font-size: 12.5px;
+  color: var(--ink2);
+  margin-bottom: 9px;
+}
+.qplaced {
+  font-size: 0.82em;
+  font-style: italic;
+  color: var(--ink3);
+  margin-top: 0.35em;
+  opacity: 0.9;
+}
+.qsupports {
+  font-size: 11.5px;
+  color: var(--ink3);
+  font-style: italic;
+  margin-bottom: 9px;
+}
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  align-items: center;
+}
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-family: var(--sans);
+  font-size: 9.5px;
+  font-weight: 600;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  border-radius: 4px;
+  padding: 3px 8px;
+}
+.chip.v-ok {
+  color: var(--ok);
+  background: var(--ok-bg);
+}
+.chip.v-pend {
+  color: var(--pend);
+  background: var(--pend-bg);
+}
+.chip.v-warn {
+  color: var(--warn);
+  background: var(--warn-bg);
+}
+.chip.v-bad {
+  color: var(--bad);
+  background: var(--bad-bg);
+}
+.chip.how {
+  color: var(--ink2);
+  background: var(--paper3);
+  font-weight: 400;
+}
+.qcard details {
+  margin-top: 9px;
+  font-family: var(--sans);
+  font-size: 11px;
+  color: var(--ink2);
+}
+.qcard summary {
+  cursor: pointer;
+  color: var(--ink3);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  font-size: 9.5px;
+}
+.qcard details div {
+  margin-top: 5px;
+  line-height: 1.5;
+}
+.qpointer {
+  border-style: dashed;
+  background: var(--paper2);
+}
+.qpointer .qhead {
+  font-family: var(--sans);
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--pend);
+  margin-bottom: 6px;
+}
+.qpointer .qclaim {
+  font-size: 13.5px;
+  font-style: italic;
+  line-height: 1.55;
+  margin-bottom: 8px;
+}
 /* list view */
-.lrow{display:block;width:100%;text-align:left;padding:9px 4px;border-bottom:1px solid var(--rule);
-      font-size:13.5px;line-height:1.4}
-.lrow:hover{background:var(--paper3)}
-.lrow .when{font-family:var(--sans);font-size:10.5px;color:var(--ink3);letter-spacing:.05em;
-            font-variant-numeric:tabular-nums;text-transform:uppercase}
-.lrow .vs{font-family:var(--sans);font-size:10px;color:var(--ink3);margin-left:8px}
+.lrow {
+  display: block;
+  width: 100%;
+  text-align: left;
+  padding: 9px 4px;
+  border-bottom: 1px solid var(--rule);
+  font-size: 13.5px;
+  line-height: 1.4;
+}
+.lrow:hover {
+  background: var(--paper3);
+}
+.lrow .when {
+  font-family: var(--sans);
+  font-size: 10.5px;
+  color: var(--ink3);
+  letter-spacing: 0.05em;
+  font-variant-numeric: tabular-nums;
+  text-transform: uppercase;
+}
+.lrow .vs {
+  font-family: var(--sans);
+  font-size: 10px;
+  color: var(--ink3);
+  margin-left: 8px;
+}
 /* about modal */
-#about{position:fixed;inset:0;background:rgba(20,17,12,.55);display:none;z-index:20;
-       align-items:center;justify-content:center;padding:20px}
-#about.open{display:flex}
-.abox{background:var(--paper);border:1px solid var(--rule2);border-radius:10px;max-width:620px;
-      max-height:86vh;overflow-y:auto;padding:26px 30px;box-shadow:var(--shadow)}
-.abox h2{margin:0 0 4px;font-size:17px;letter-spacing:.18em;text-transform:uppercase}
-.abox p,.abox li{font-size:13.5px;line-height:1.62;color:var(--ink2)}
+#about {
+  position: fixed;
+  inset: 0;
+  background: rgba(20, 17, 12, 0.55);
+  display: none;
+  z-index: 20;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+#about.open {
+  display: flex;
+}
+.abox {
+  background: var(--paper);
+  border: 1px solid var(--rule2);
+  border-radius: 10px;
+  max-width: 620px;
+  max-height: 86vh;
+  overflow-y: auto;
+  padding: 26px 30px;
+  box-shadow: var(--shadow);
+}
+.abox h2 {
+  margin: 0 0 4px;
+  font-size: 17px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+.abox p,
+.abox li {
+  font-size: 13.5px;
+  line-height: 1.62;
+  color: var(--ink2);
+}
 /* A connection's entry in the About list is introduced by the LINE ITSELF, not by a disc and a
    description of it. The sample replaces the marker rather than sitting after it, so the column of
    samples reads as a key; hanging indent keeps the wrapped prose clear of it. */
-.lrow{list-style:none;margin-left:-1.55em;padding-left:2.9em;text-indent:-2.9em}
-.lrow .lsample{margin-right:8px;vertical-align:-1px}
-.lrow>b:first-of-type{text-indent:0}
-.abox b{color:var(--ink)}
-.abox .sect{margin-top:16px}
+.lkey {
+  list-style: none;
+  margin-left: -1.55em;
+  padding-left: 2.9em;
+  text-indent: -2.9em;
+}
+.lkey .lsample {
+  margin-right: 8px;
+  vertical-align: -1px;
+}
+.lkey > b:first-of-type {
+  text-indent: 0;
+}
+.abox b {
+  color: var(--ink);
+}
+/* #about is no longer shown anywhere - it holds the compiled text and nothing else, and About is
+   rendered into the one panel on both breakpoints. Its box styles are kept only so the markup stays
+   readable; making its headings pin was the patch that this replaced. */
+.abox .sect {
+  margin-top: 16px;
+}
 /* responsive */
-@media (max-width:900px){
-  #panel{position:fixed;left:0;right:0;bottom:0;top:auto;width:100%;max-width:none;
-         height:68vh;border-left:none;border-top:1px solid var(--rule2);
-         border-radius:14px 14px 0 0;box-shadow:var(--shadow);z-index:10}
-  .pwrap{padding-top:8px}
-  .grab{width:44px;height:5px;border-radius:3px;background:var(--rule2);margin:6px auto 10px}
-  #search{width:150px}
-  header{padding:10px 14px 8px}
-  .masthead h1{font-size:16px}
+@media (max-width: 900px) {
+  /* Full height. It was 68vh, leaving a strip of masthead and legend above it - but the map is
+     entirely behind the sheet at that height anyway, so the strip showed nothing that could be
+     used, only the top of a header whose controls were out of reach. No rounded top now that it
+     meets the top of the screen; the handle still dismisses it. */
+  #panel {
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    max-width: none;
+    height: 100%;
+    border-left: none;
+    box-shadow: var(--shadow);
+    z-index: 10;
+  }
+  /* The search box gets the full width rather than 150px of it - the header wraps on a phone, so
+     there is a whole row for it and nothing gained by keeping it short. */
+  .searchwrap {
+    flex-basis: 100%;
+  }
+  #search {
+    flex: 1;
+    width: auto;
+    min-width: 0;
+  }
+  /* Was 8px, under a 21px drag handle. The handle is gone - it was a grip that gripped nothing,
+     promising a sheet you could drag to resize or fling away when the only thing that dismissed it
+     was the Close button beside it - so the padding now carries the whole gap itself. */
+  .pwrap {
+    padding-top: 0;
+  }
+  /* The handle, restored with something to do: drag or flick it down to dismiss the sheet. Centred
+     across the head while Close keeps the right edge, which is why it is taken out of the flex flow
+     rather than laid out in it. touch-action:none so the drag is a drag and not a scroll of the
+     panel underneath. */
+  .phead {
+    padding: 14px 20px 10px;
+  }
+  /* Sits in the head's TOP PADDING, not in the row. Centred in the row it would have split the
+     width in two and left a connection's title about 130px to live in; up here the title has the
+     whole row and the handle is where a sheet's handle is expected to be. */
+  .phead .grab {
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 5px;
+    transform: translateX(-50%);
+    width: 46px;
+    height: 5px;
+    border-radius: 3px;
+    background: var(--rule2);
+    touch-action: none;
+    cursor: grab;
+  }
+  .phead .grab:active {
+    cursor: grabbing;
+    background: var(--ink3);
+  }
+  header {
+    padding: 10px 14px 8px;
+  }
+  .masthead h1 {
+    font-size: 16px;
+  }
 }
-@media (min-width:901px){
-  .grab{display:none}
-  #panel{display:block}          /* always present on desktop, so the layout never jumps */
+@media (min-width: 901px) {
+  #panel {
+    display: block;
+  } /* always present on desktop, so the layout never jumps */
 }
-@media (prefers-reduced-motion: reduce){ *{scroll-behavior:auto !important} }
+@media (prefers-reduced-motion: reduce) {
+  * {
+    scroll-behavior: auto !important;
+  }
+}
 
 /* A node with a portrait shows the picture, so the group colour has to move from the fill to
    the ring - otherwise the photograph erases the one thing the colour was carrying. Drawn a
@@ -324,122 +1312,560 @@ main{flex:1;display:flex;min-height:0;position:relative}
 /* fill:none makes the interior unhittable in SVG, so a click on a portrait node fell straight
    through to whatever edge ran underneath - which also killed dragging. pointer-events:all
    restores hit-testing over the unfilled area. */
-#web .node.has-portrait .shape{fill:none;stroke-width:3.2;pointer-events:all}
-#web .node.g-core.has-portrait .shape{stroke:var(--g-core)}
-#web .node.g-aesthete.has-portrait .shape{stroke:var(--g-aesthete)}
-#web .node.g-trials.has-portrait .shape{stroke:var(--g-trials)}
-#web .node.g-society.has-portrait .shape{stroke:var(--g-society)}
-#web .node.g-family.has-portrait .shape{stroke:var(--g-family)}
-#web .node.g-chaeronea.has-portrait .shape{stroke:var(--g-chaeronea)}
-#web .node.g-later.has-portrait .shape{stroke:var(--g-later)}
-#web .node.g-liaisons.has-portrait .shape{stroke:var(--g-liaisons)}
-#web .node.g-beyond.has-portrait .shape{stroke:var(--g-beyond)}
-#web .node.has-portrait.focus .shape{stroke:var(--accent);stroke-width:4}
+#web .node.has-portrait .shape {
+  fill: none;
+  stroke-width: 3.2;
+  pointer-events: all;
+}
+#web .node.g-core.has-portrait .shape {
+  stroke: var(--g-core);
+}
+#web .node.g-aesthete.has-portrait .shape {
+  stroke: var(--g-aesthete);
+}
+#web .node.g-trials.has-portrait .shape {
+  stroke: var(--g-trials);
+}
+#web .node.g-society.has-portrait .shape {
+  stroke: var(--g-society);
+}
+#web .node.g-family.has-portrait .shape {
+  stroke: var(--g-family);
+}
+#web .node.g-chaeronea.has-portrait .shape {
+  stroke: var(--g-chaeronea);
+}
+#web .node.g-later.has-portrait .shape {
+  stroke: var(--g-later);
+}
+#web .node.g-liaisons.has-portrait .shape {
+  stroke: var(--g-liaisons);
+}
+#web .node.g-beyond.has-portrait .shape {
+  stroke: var(--g-beyond);
+}
+#web .node.has-portrait.focus .shape {
+  stroke: var(--accent);
+  stroke-width: 4;
+}
 /* Portraits fade in as they decode rather than popping. A hundred of them arriving at full
    strength over a second or two reads as a flicker across the whole map; the coloured shape is
    already drawn underneath, so nothing is missing while the face arrives. */
-#web .node .portrait{pointer-events:none;opacity:0;transition:opacity .45s ease}
-#web .node .portrait.loaded{opacity:1}
-@media (prefers-reduced-motion:reduce){
-  #web .node .portrait{opacity:1;transition:none}
+#web .node .portrait {
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.45s ease;
+}
+#web .node .portrait.loaded {
+  opacity: 1;
+}
+@media (prefers-reduced-motion: reduce) {
+  #web .node .portrait {
+    opacity: 1;
+    transition: none;
+  }
 }
 
 /* an outward link to the fuller life, where one exists; deliberately quiet - this map is the
    evidence, Wikipedia is the summary */
-.dates .ext{color:var(--ink3);text-decoration:none;border-bottom:1px dotted var(--rule2)}
-.dates .ext:hover{color:var(--accent);border-bottom-color:var(--accent)}
-.dates .ext::after{content:"↗";font-size:.8em;margin-left:3px;vertical-align:1px}
+.dates .ext {
+  color: var(--ink3);
+  text-decoration: none;
+  border-bottom: 1px dotted var(--rule2);
+}
+.dates .ext:hover {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+}
+.dates .ext::after {
+  content: "↗";
+  font-size: 0.8em;
+  margin-left: 3px;
+  vertical-align: 1px;
+}
 
 /* a person's page repeats each connection's evidence under a heading naming the other person,
    so the whole life reads in one scroll; the heading still links out to the connection */
-.qspeaker{font-family:var(--serif);font-size:15.5px;color:var(--ink);margin:0 0 5px;line-height:1.25}
-.qlink{color:inherit;text-decoration:none;border-bottom:1px solid var(--rule2)}
-.qlink:hover{color:var(--accent);border-bottom-color:var(--accent)}
+.qspeaker {
+  font-family: var(--serif);
+  font-size: 15.5px;
+  color: var(--ink);
+  margin: 0 0 5px;
+  line-height: 1.25;
+}
+.qlink {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px solid var(--rule2);
+}
+.qlink:hover {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+}
 /* Pushed to the far right of the connection bar. It sat at the end of the speaker line before,
    which is the crowded side of the card - a long "Oscar Wilde to Robert Ross" heading left it
    wrapping - while the bar above has empty room. No separator glyph now that it stands alone. */
-.qdate{font-family:var(--sans);font-size:10.5px;letter-spacing:.04em;color:var(--ink3);
-       margin-left:auto;padding-left:1em;white-space:nowrap}
+.qdate {
+  font-family: var(--sans);
+  font-size: 10.5px;
+  letter-spacing: 0.04em;
+  color: var(--ink3);
+  margin-left: auto;
+  padding-left: 1em;
+  white-space: nowrap;
+}
 /* The separators live in the MARKUP, not in CSS or in margins. "Oscar Wilde to Robert Ross" was
    selecting as "Oscar WildetoRobert Ross", because the gaps around "to" were margin and the comma
    before a speaker's role was a ::before — neither of which a browser puts on the clipboard.
    Anything a reader might copy has to be real text; `white-space:pre` keeps the spaces from being
    collapsed away at the element boundaries. */
-.qspeaker-to{font-size:12px;font-style:italic;color:var(--ink3);font-family:var(--serif);
-             white-space:pre}
-.qspeaker-x{font-size:12.5px;font-style:italic;color:var(--ink2)}
-.qwith{margin:0 0 .6em;padding-bottom:.45em;border-bottom:1px dotted var(--rule2);font-family:var(--sans);font-size:10.5px;letter-spacing:.03em;color:var(--ink3);
-       display:flex;align-items:center;gap:6px}
-.qwith a{color:var(--ink2);text-decoration:none;border-bottom:1px solid var(--rule2)}
-.qwith a:hover{color:var(--accent);border-bottom-color:var(--accent)}
-.sect-note{margin:-4px 0 12px;font-family:var(--sans);font-size:11px;line-height:1.5;color:var(--ink3)}
-.pgroup{margin:0 0 18px}
-.pgroup-h{display:flex;align-items:center;gap:8px;margin:0 0 8px;padding-bottom:5px;
-        border-bottom:1px solid var(--rule)}
-.pgroup-h a{font-family:var(--serif);font-size:15px;color:var(--ink);text-decoration:none;
-        border-bottom:1px solid var(--rule2)}
-.pgroup-h a:hover{border-bottom-color:var(--accent);color:var(--accent)}
-.pgroup-n{margin-left:auto;font-family:var(--sans);font-size:10px;color:var(--ink3);
-        border:1px solid var(--rule2);border-radius:999px;padding:1px 7px}
+.qspeaker-to {
+  font-size: 12px;
+  font-style: italic;
+  color: var(--ink3);
+  font-family: var(--serif);
+  white-space: pre;
+}
+.qspeaker-x {
+  font-size: 12.5px;
+  font-style: italic;
+  color: var(--ink2);
+}
+.qwith {
+  margin: 0 0 0.6em;
+  padding-bottom: 0.45em;
+  border-bottom: 1px dotted var(--rule2);
+  font-family: var(--sans);
+  font-size: 10.5px;
+  letter-spacing: 0.03em;
+  color: var(--ink3);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.qwith a {
+  color: var(--ink2);
+  text-decoration: none;
+  border-bottom: 1px solid var(--rule2);
+}
+.qwith a:hover {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+}
+.sect-note {
+  margin: -4px 0 12px;
+  font-family: var(--sans);
+  font-size: 11px;
+  line-height: 1.5;
+  color: var(--ink3);
+}
+.pgroup {
+  margin: 0 0 18px;
+}
+.pgroup-h {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0 0 8px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid var(--rule);
+}
+.pgroup-h a {
+  font-family: var(--serif);
+  font-size: 15px;
+  color: var(--ink);
+  text-decoration: none;
+  border-bottom: 1px solid var(--rule2);
+}
+.pgroup-h a:hover {
+  border-bottom-color: var(--accent);
+  color: var(--accent);
+}
+.pgroup-n {
+  margin-left: auto;
+  font-family: var(--sans);
+  font-size: 10px;
+  color: var(--ink3);
+  border: 1px solid var(--rule2);
+  border-radius: 999px;
+  padding: 1px 7px;
+}
 
 /* The ring that says 'this is the one you picked'. Two things need it: the node you selected
    (its neighbours share the accent stroke, so without this they are indistinguishable) and
    the node keyboard focus is sitting on. Held off the shape rather than hugging it, so it
    reads as an indicator rather than a second border - which is what the browser's own white
    ring looked like around the whole group, label included. */
-#web .node:focus{outline:none}
+#web .node:focus {
+  outline: none;
+}
 /* The one you picked. Its neighbours light up too, which is the point of selecting - but that
    leaves nothing saying which one you actually chose. Solid, in the accent, held off the shape so
    it reads as a marker rather than a second border. */
-#web .node.primary .shape{outline:2px solid var(--accent);outline-offset:6px;border-radius:3px}
+#web .node.primary .shape {
+  outline: 2px solid var(--accent);
+  outline-offset: 6px;
+  border-radius: 3px;
+}
 /* Where the keyboard is - a different thing from what is selected, so it gets a different ring:
    dashed, and in the ink rather than the accent. */
-#web .node:focus-visible:not(.primary) .shape{outline:2px dashed var(--ink);outline-offset:6px;
-        border-radius:3px}
+#web .node:focus-visible:not(.primary) .shape {
+  outline: 2px dashed var(--ink);
+  outline-offset: 6px;
+  border-radius: 3px;
+}
 /* Tab lands on faded nodes as often as lit ones, and at .13 a ring is invisible. Lift the one
    under the cursor part of the way back - enough to find, still plainly outside what is selected.
    Both fades need naming: .dimmed is the legend and the search, .focusing is a live selection.
    Only the first was covered at first, so tabbing away from a selected node stayed invisible. */
 #web .node.dimmed:focus-visible,
-#web.focusing .node:not(.focus):focus-visible{opacity:.55}
+#web.focusing .node:not(.focus):focus-visible {
+  opacity: 0.55;
+}
 
 /* SOURCES FILTER. Sits under the section heading and above the run. The text box takes the full
    measure because what people type into it is long - a phrase from a letter, a partner's name -
    while the year bounds are four characters each and sit on their own row with the result count,
    so the two controls never compete for the panel's ~430px of usable width. */
-.sfilter{margin:0 0 12px}
-.sfq{width:100%;box-sizing:border-box;font:italic 13.5px var(--serif);color:var(--ink);
-     background:var(--paper2);border:1px solid var(--rule2);border-radius:999px;padding:6px 13px}
-.sfq::placeholder{color:var(--ink3)}
-.sfq::-webkit-search-cancel-button{filter:invert(.55) sepia(.3)}
-.sfrow{display:flex;align-items:center;gap:6px;margin-top:6px}
-.sfyl{font-family:var(--sans);font-size:10px;letter-spacing:.14em;text-transform:uppercase;
-      color:var(--ink3)}
-.sfy{width:52px;font:12.5px var(--sans);color:var(--ink);background:var(--paper2);
-     border:1px solid var(--rule2);border-radius:5px;padding:4px 6px;text-align:center}
-.sfy::placeholder{color:var(--ink3)}
-.sfdash{color:var(--ink3);font-size:12px;margin:0 -2px}
-.sfclear{font-family:var(--sans);font-size:10px;letter-spacing:.03em;color:var(--ink2);
-         background:var(--paper2);border:1px solid var(--rule2);border-radius:999px;
-         padding:3px 9px;cursor:pointer}
-.sfclear:hover{border-color:var(--accent);color:var(--ink)}
+.sfilter {
+  margin: 0 0 12px;
+}
+.sfq {
+  width: 100%;
+  box-sizing: border-box;
+  font: italic 13.5px var(--serif);
+  color: var(--ink);
+  background: var(--paper2);
+  border: 1px solid var(--rule2);
+  border-radius: 999px;
+  padding: 6px 13px;
+}
+.sfq::placeholder {
+  color: var(--ink3);
+}
+.sfq::-webkit-search-cancel-button {
+  filter: invert(0.55) sepia(0.3);
+}
+.sfrow {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 6px;
+}
+.sfyl {
+  font-family: var(--sans);
+  font-size: 10px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink3);
+}
+.sfy {
+  width: 52px;
+  font: 12.5px var(--sans);
+  color: var(--ink);
+  background: var(--paper2);
+  border: 1px solid var(--rule2);
+  border-radius: 5px;
+  padding: 4px 6px;
+  text-align: center;
+}
+.sfy::placeholder {
+  color: var(--ink3);
+}
+.sfdash {
+  color: var(--ink3);
+  font-size: 12px;
+  margin: 0 -2px;
+}
+.sfclear {
+  font-family: var(--sans);
+  font-size: 10px;
+  letter-spacing: 0.03em;
+  color: var(--ink2);
+  background: var(--paper2);
+  border: 1px solid var(--rule2);
+  border-radius: 999px;
+  padding: 3px 9px;
+  cursor: pointer;
+}
+.sfclear:hover {
+  border-color: var(--accent);
+  color: var(--ink);
+}
 /* The count sits hard right, where a reader's eye lands after the controls rather than between
    them, and it is the only thing on the row that changes as you type. */
-.sfcount{margin-left:auto;font-family:var(--sans);font-size:10.5px;color:var(--ink3);
-         text-align:right}
-.sfnone{margin:0 0 12px;font-family:var(--sans);font-size:11px;line-height:1.55;color:var(--ink3);
-        border-left:2px solid var(--rule2);padding-left:10px}
-.qcard.sfhide{display:none}
+.sfcount {
+  margin-left: auto;
+  font-family: var(--sans);
+  font-size: 10.5px;
+  color: var(--ink3);
+  text-align: right;
+}
+.sfnone {
+  margin: 0 0 12px;
+  font-family: var(--sans);
+  font-size: 11px;
+  line-height: 1.55;
+  color: var(--ink3);
+  border-left: 2px solid var(--rule2);
+  padding-left: 10px;
+}
+.qcard.sfhide {
+  display: none;
+}
 
 /* The matched run. A browser's default mark is a bright yellow block that would look like a
    highlighter pen dragged across a manuscript; this is a wash of the accent with the text left at
-   full strength, so the word is found without being shouted at. Padding is horizontal only - any
-   vertical padding would push the marked line's leading out of step with the lines around it. */
-mark.sfhit{background:rgba(212,171,42,.20);color:inherit;border-radius:2px;padding:0 1px;
-           box-shadow:0 0 0 1px rgba(212,171,42,.22)}
-.qcard blockquote mark.sfhit{background:rgba(212,171,42,.24)}
+   full strength, so the word is found without being shouted at.
+
+   ZERO PADDING, AND THE BLEED DRAWN BY box-shadow INSTEAD. It used to carry `padding: 0 1px`, on
+   the reasoning that vertical padding would push the marked line's leading out of step - true, but
+   it missed that HORIZONTAL padding has the same fault turned sideways: two pixels of width per
+   match, so a paragraph with a dozen hits reflowed on every keystroke and the text crept about
+   while it was being read.
+
+   box-shadow spread paints outside the border box WITHOUT occupying space, so the wash keeps the
+   same visual bleed and the layout cannot move. (An absolutely-positioned ::after would also be
+   layout-neutral, but it needs z-index:-1 to sit behind the text, and inside .qcard blockquote -
+   which has its own background - a negative z-index can drop the highlight behind the card
+   entirely. A shadow has no stacking-context hazard.) */
+mark.sfhit {
+  background: rgba(212, 171, 42, 0.2);
+  color: inherit;
+  border-radius: 2px;
+  padding: 0;
+  box-shadow:
+    0 0 0 1.5px rgba(212, 171, 42, 0.2),
+    0 0 0 2.5px rgba(212, 171, 42, 0.22);
+}
+.qcard blockquote mark.sfhit {
+  background: rgba(212, 171, 42, 0.24);
+}
 /* A hit inside a link keeps the link's own underline; without this the wash sits on top of it. */
-.qlink mark.sfhit{background:rgba(212,171,42,.26)}
-.qcard details.sfdeep>summary{color:var(--accent)}
-.qcard details.sfdeep>summary::after{content:" — match inside";font-family:var(--sans);
-           font-size:9.5px;letter-spacing:.04em;color:var(--accent);opacity:.85}
+.qlink mark.sfhit {
+  background: rgba(212, 171, 42, 0.26);
+}
+.qcard details.sfdeep > summary {
+  color: var(--accent);
+}
+.qcard details.sfdeep > summary::after {
+  content: " — match inside";
+  font-family: var(--sans);
+  font-size: 9.5px;
+  letter-spacing: 0.04em;
+  color: var(--accent);
+  opacity: 0.85;
+}
+
+/* MAP CONTROLS, on the map rather than in the header. Fit acted on the drawing while sitting among
+   the buttons that open panels, which put it in the wrong company; the zoom slider has to be here
+   anyway, since a control for the view belongs over the view. One pill holds both.
+   BOTTOM LEFT, where map controls conventionally live, and running vertically with zoomed-in at the
+   top. A top corner was tried first, on the reasoning that the phone's bottom sheet would cover a
+   low one - but that sheet covers the entire map when it is open (the map starts below the legend,
+   the sheet rises over two thirds of the screen), so there is no view left to control either way
+   and the argument bought nothing. */
+#mapctl {
+  position: absolute;
+  left: 14px;
+  bottom: 14px;
+  z-index: 4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 9px;
+  background: var(--paper);
+  border: 1px solid var(--rule2);
+  border-radius: 999px;
+  padding: 13px 7px;
+  box-shadow: var(--shadow);
+}
+#btnFit {
+  font-family: var(--sans);
+  font-size: 11px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink2);
+  background: none;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+}
+#btnFit:hover {
+  color: var(--accent);
+}
+#mapctl .sep {
+  width: 15px;
+  height: 1px;
+  background: var(--rule2);
+}
+/* The slider is drawn from scratch: a default range control renders in the browser's own blue and
+   sits on this paper like a piece of somebody else's interface.
+   Vertical via `writing-mode`, which is the supported route now that `appearance:slider-vertical`
+   has been removed from Chrome; `direction:rtl` puts the MAXIMUM at the top, so pushing the thumb
+   up zooms in, the way every map control behaves. */
+#zoomRange {
+  -webkit-appearance: none;
+  appearance: none;
+  writing-mode: vertical-lr;
+  direction: rtl;
+  width: 13px;
+  height: 108px;
+  background: none;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+}
+#zoomRange::-webkit-slider-runnable-track {
+  width: 2px;
+  height: 100%;
+  background: var(--rule2);
+  border-radius: 2px;
+}
+#zoomRange::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  background: var(--ink2);
+  border: 0;
+  margin-left: -4.5px;
+}
+#zoomRange:hover::-webkit-slider-thumb,
+#zoomRange:focus-visible::-webkit-slider-thumb {
+  background: var(--accent);
+}
+#zoomRange::-moz-range-track {
+  width: 2px;
+  height: 100%;
+  background: var(--rule2);
+  border-radius: 2px;
+}
+#zoomRange::-moz-range-thumb {
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  background: var(--ink2);
+  border: 0;
+}
+#zoomRange:hover::-moz-range-thumb,
+#zoomRange:focus-visible::-moz-range-thumb {
+  background: var(--accent);
+}
+@media (max-width: 900px) {
+  #mapctl {
+    left: 10px;
+    bottom: 10px;
+    padding: 11px 6px;
+    gap: 7px;
+  }
+  #zoomRange {
+    height: 88px;
+  }
+}
+
+/* STICKY SECTION HEADERS IN THE PANEL. Wilde's page is 96,000px of scroll in an 850px window, and
+   once you are a few thousand pixels into it there is nothing on screen saying what you are reading
+   or letting you narrow it - the filter box is far above, so using it meant scrolling back to the
+   top and losing your place.
+   The two are NOT adjacent in the markup: on a person's page a note about the run sits between the
+   heading and the filter. They do not need to be adjacent - each is pinned at its own offset, and
+   the note simply scrolls underneath both, which is why they both need a background.
+   The headings are siblings in one container, so they do not displace one another the way headers
+   in separate <section>s would: each stays pinned once reached, and the next pins on top of it.
+   That is the behaviour we want anyway - the newest heading paints over the older one, since it
+   comes later in the markup - and it costs no wrapper elements. */
+/* The box-shadow is not a shadow. A pinned box paints its background over its border box only, and
+   BOTH of these carry a bottom margin - 10px on the heading, 12px on the filter - which stayed
+   transparent, so a line of the card underneath showed through the gap as it scrolled past. Zero
+   blur, zero spread, offset by exactly the margin: a solid band of the panel's own paper that
+   covers it. Done this way rather than by turning the margins into padding because the heading's
+   hairline rule sits on its bottom border, and padding would have pushed the rule 10px down. */
+/* The list panel's heading is the first thing in its panel, so it must rest exactly where it pins;
+   any top margin becomes a jump. And on desktop that panel has no head, so there is nothing for the
+   headings to clear - :has lets the offset follow the markup instead of assuming a head is there. */
+#panel .pwrap > .sect:first-child,
+#panel .phead + .sect {
+  margin-top: 0;
+}
+/* With no head above them these pin flush against the panel's top edge, which reads as cramped.
+   The breathing room has to be PADDING, inside the sticky box: as margin it would sit outside the
+   box, so the heading would rest lower than it pins and jump on the first scroll - the same fault
+   as the list heading's inline margin. The margin is cut by the same amount the padding adds, so
+   the gap between sections is unchanged; only the pinned heading gains a lip of paper above it. */
+/* A panel with no head lost its top padding when the head took that job over, so whatever opens the
+   panel now sits against its edge - the About title, for one. Padding rather than margin, and not
+   on a sticky heading, which carries its own above: adding it there would put the heading's resting
+   position below its pinned one and start the jump over again. */
+#panel:not(:has(.phead)) .pwrap > *:first-child:not(.sect) {
+  padding-top: 18px;
+}
+#panel:not(:has(.phead)) .sect {
+  top: 0;
+  margin-top: 4px;
+  padding-top: 16px;
+}
+#panel:not(:has(.phead)) .sfilter {
+  top: 35px;
+}
+/* Bled to the panel's width, like the head above them, with .pwrap's 20px gutters given back as
+   padding so the text does not move. Inset, their background stopped at the content edge and
+   anything reaching into the gutter - a negative margin, a wide row, an overhanging glyph - slid
+   past them in the strip on either side. */
+#panel .sect {
+  position: sticky;
+  top: var(--phead-h);
+  z-index: 4;
+  background: var(--paper2);
+  margin-left: -20px;
+  margin-right: -20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-shadow: 0 10px 0 var(--paper2);
+}
+/* Pinned directly beneath the heading, whose box is 19px. The 10px that separated them was the
+   heading's bottom margin, which a pinned box cannot cover; it becomes padding on the filter
+   instead, so nothing scrolls through the gap. */
+#panel .sfilter {
+  position: sticky;
+  top: calc(var(--phead-h) + 24px);
+  z-index: 3;
+  background: var(--paper2);
+  margin-left: -20px;
+  margin-right: -20px;
+  padding: 10px 20px 0;
+  box-shadow: 0 12px 0 var(--paper2);
+}
+/* The empty-state line belongs to the filter and must not slide under it. */
+#panel .sfnone {
+  position: relative;
+  z-index: 2;
+}
+
+/* The armed ring, placed HERE rather than beside the other armed rules: the per-group colours are
+   written as `.node.g-aesthete.has-portrait .shape`, which outranks a plain `.node.armed .shape`
+   and comes later in the sheet - so a portrait node kept its group colour while a plain one turned
+   gold, and the same gesture looked different depending on whether the person had a photograph.
+   Matching that specificity and sitting after it makes the signal the same for everyone. */
+#web .node.armed .shape,
+#web .node.armed.has-portrait .shape {
+  stroke: var(--accent);
+  stroke-width: 3.4;
+}
+
+/* Marks a quotation that belongs to an engagement recorded WITHOUT a connection line — friendship,
+   mostly. It is a statement about the evidence, not a warning: these people are on the map because
+   the letters are worth reading, and the badge says only that no line was drawn from them. */
+.qwith .noedge {
+  margin-left: 7px;
+  font-family: var(--sans);
+  font-size: 8.5px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ink3);
+  border: 1px solid var(--rule2);
+  border-radius: 3px;
+  padding: 1px 5px;
+  white-space: nowrap;
+}

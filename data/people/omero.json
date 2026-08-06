@@ -1,0 +1,67 @@
+{
+  "id": "omero",
+  "born": null,
+  "died": null,
+  "gender": "m",
+  "aka": [
+    "Homer"
+  ],
+  "group": "liaisons",
+  "bio_sources": [
+    "letters-2000"
+  ],
+  "context_engagements": [
+    {
+      "partner_name": "Oscar Wilde",
+      "period": "Rome, April 1900",
+      "note": "Recorded without a connection line.",
+      "sources": [
+        {
+          "work": "letters-2000",
+          "locator": "p. 1182",
+          "locator_type": "page",
+          "quote": "Omero has never received your letter. I need not say I have not given him your London address - at least not your real one: he now believes that your real name is Edmondo Gosse, and that your address is the Savile. I also added that some of your more intimate friends prefer to write to you as Reginaldo Turner, Avvocato, The Reform Club: but that I, from old associations, prefer to address you as Sir Wemyss Reid, so I fancy there will be many interesting letters arriving in London.",
+          "context": "Wilde to Robert Ross, Rome, April 1900 - quoted whole. Edmund Gosse, Reginald Turner and Wemyss Reid are all real people and all appear elsewhere in this volume; Turner is on this map. The joke only works because concealing a real name from a young man was ordinary practice.",
+          "speaker": "Oscar Wilde",
+          "addressee": "Robert Ross",
+          "evidence_date": {
+            "y": 1900,
+            "m": 4
+          },
+          "supports": "The circle's discretion machinery, seen from the outside.",
+          "verification": "verified-exact",
+          "how_verified": "pdf-at-page",
+          "provenance": "Repo PDF page 1228; printed folio 1182 confirmed on the rendered page image, read 2026-08-06.",
+          "verified_by": "claude-at-page",
+          "verified_on": "2026-08-06",
+          "voice": "period"
+        },
+        {
+          "work": "letters-2000",
+          "locator": "p. 1184",
+          "locator_type": "page",
+          "quote": "Omero was with me, and Armando, forgiven for the moment.",
+          "context": "Wilde to Robert Ross, Rome, April 1900. The second and last mention: Omero is simply there, in company with Armando.",
+          "speaker": "Oscar Wilde",
+          "addressee": "Robert Ross",
+          "evidence_date": {
+            "y": 1900,
+            "m": 4
+          },
+          "supports": "That the three of them were together.",
+          "verification": "verified-exact",
+          "how_verified": "pdf-at-page",
+          "provenance": "Repo PDF page 1230; printed folio 1184 confirmed on the rendered page image, read 2026-08-06.",
+          "verified_by": "claude-at-page",
+          "verified_on": "2026-08-06",
+          "voice": "period"
+        }
+      ]
+    }
+  ],
+  "research_status": "phase-a",
+  "name": "Omero",
+  "sort_name": "Omero",
+  "bio": "A young Roman of Wilde's April 1900 circle, present when Wilde and Armando were together, and the subject of a running joke: Wilde had given him a false name and address for Robert Ross, so that Omero believed Ross was really called Edmondo Gosse and lived at the Savile.",
+  "bio_note": "Added 2026-08-06. NO CONNECTION LINE: nothing states or implies attraction, and what the two mentions actually show is companionship and a joke. HE IS HERE FOR A REASON THE MAP SHOULD KEEP: the joke is about concealment. Wilde withheld Ross's real name and address from a young Roman and substituted Edmund Gosse's, which is the same discretion machinery visible in the Dieppe letter where Ross travelled under Reginald Turner's name and Turner under Ross's. The circle's habits are documented as much by what it hid from people like Omero as by what it recorded. THE ROME COHORT: Wilde was in Rome from about 12 April to early May 1900, seven months before his death, and wrote about it to Robert Ross. Three young Romans are named in those letters - Armando, Arnaldo and Omero. None of the three was on this map until 2026-08-06, although the map already carried the Naples, Napoule and Paris cohorts in detail. The gap existed because only Armando has his own General Index entry ('Armando (boy), 1182, 1184'); the other two appear inside the same paragraphs and are indexed nowhere. See [[armando]] and [[arnaldo]]. WILDE ALSO CALLS HIM 'HOMER' (noted 2026-08-06): the letter at printed 1181 opens 'Homer talks much - a little too much - of you. He slightly suspects you of treachery' - the same young Roman under an English name. Recorded as an aka so a search on either form finds him. It also shows he was a standing presence rather than a passing one: he is discussed, suspected of things, and has opinions about Ross. CONNECTED TO [[ross]] 2026-08-06, second-hand, after Lovelle asked 'Is that not jealousy?' - and it is. This node first recorded the passage as acquaintance without a line, on the ground that nothing in it 'asserts attraction'. THAT WAS INCONSISTENT with how the same signal is read elsewhere on this map: [[boulton]] is flagged as the strongest attraction candidate of its batch precisely because Wilde is jealous in it - 'whom by the bye I believe you like much better than yours truly'. Pique was treated as a tell there and as nothing here."
+}

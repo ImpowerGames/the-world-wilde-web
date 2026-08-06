@@ -1,0 +1,49 @@
+{
+  "id": "galton",
+  "born": {
+    "y": 1852
+  },
+  "died": {
+    "y": 1921
+  },
+  "aka": [],
+  "gender": "m",
+  "bio_sources": [
+    "letters-2000"
+  ],
+  "context_engagements": [
+    {
+      "partner_name": "Oscar Wilde",
+      "period": "London, 1890",
+      "note": "One letter, recorded without a connection line.",
+      "sources": [
+        {
+          "work": "letters-2000",
+          "locator": "p. 455",
+          "locator_type": "page",
+          "quote": "Dear Galton, Your Tacitus is a charming little book, and your preface, like everything you write, very perfect in its sanity of wise criticism and good English. Many thanks for your gift. I still hope that Tiberius was very wicked, but fear that philology was his only crime. Ever yours",
+          "context": "Wilde to Arthur Galton, [October 1890], 16 Tite Street (MS Montague) - quoted whole. The book is the Camelot Classics Tacitus of October 1890. THE SAME YEAR Galton received Lionel Johnson's letter about Wilde.",
+          "speaker": "Oscar Wilde",
+          "addressee": "Arthur Galton",
+          "evidence_date": {
+            "y": 1890,
+            "m": 10
+          },
+          "supports": "The whole of the correspondence, and that the two men were in contact in 1890.",
+          "verification": "verified-exact",
+          "how_verified": "pdf-at-page",
+          "provenance": "Repo PDF page 477; printed folio 455 confirmed on the rendered page image, read 2026-08-06.",
+          "verified_by": "claude-at-page",
+          "verified_on": "2026-08-06",
+          "voice": "period"
+        }
+      ]
+    }
+  ],
+  "research_status": "phase-a",
+  "name": "Arthur Galton",
+  "sort_name": "Galton, Arthur",
+  "group": "aesthete",
+  "bio": "Writer and editor (1852-1921), who edited a translation of the Tacitus Annals published in the Camelot Classics in 1890. One letter from Wilde survives, thanking him for it.",
+  "bio_note": "Added 2026-08-06, clearing a backlog. NO CONNECTION LINE: one short letter about a book, and nothing states or implies more. HE IS ON THE MAP FOR A REASON EXTERNAL TO HIS OWN CORRESPONDENCE: he is the friend to whom [[lionel-johnson]] wrote, two days after first meeting Wilde in February 1890, 'I am in love with him' - the sentence that carries the `lionel-johnson--wilde` edge. The confidant of that declaration turns out to be a Wilde correspondent himself, in the same year, and the map was showing the declaration without showing who received it. ONE LETTER at printed 455, read at the page (2026-08-06). DATES 1852-1921 from the editors' note there."
+}

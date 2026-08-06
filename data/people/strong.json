@@ -1,0 +1,65 @@
+{
+  "id": "strong",
+  "born": null,
+  "died": null,
+  "gender": "m",
+  "aka": [],
+  "bio_sources": [
+    "letters-2000"
+  ],
+  "context_engagements": [
+    {
+      "partner_name": "Oscar Wilde",
+      "period": "Paris and Nice, 1898",
+      "note": "Recorded without a connection line. Both letters quoted whole.",
+      "sources": [
+        {
+          "work": "letters-2000",
+          "locator": "p. 1027",
+          "locator_type": "page",
+          "quote": "I send you a copy of my Ballad, which I hope you will accept with the author's compliments … The copy is of the first edition, which, I am glad to say, has now some interest for the bibliophile, and fetches a high price in London: it was exhausted on the day of issue. The poem has been a great success, I am glad to say, and the Press has not boycotted it after all.",
+          "context": "Wilde to Rowland Strong, Tuesday [February-March 1898], Hôtel de Nice (TS Clark). The editors note the text is supported by an entry in a 1911 bookseller's catalogue. The elision is the editors' own, marking a cut in their copy-text rather than one made here.",
+          "speaker": "Oscar Wilde",
+          "addressee": "Rowland Strong",
+          "evidence_date": {
+            "y": 1898,
+            "m": 2
+          },
+          "supports": "Wilde's own account of how The Ballad had done, sent to a journalist.",
+          "verification": "verified-elision",
+          "how_verified": "pdf-at-page",
+          "provenance": "Repo PDF page 1073; printed folio 1027 confirmed on the rendered page image, read 2026-08-05.",
+          "verified_by": "claude-at-page",
+          "verified_on": "2026-08-05",
+          "voice": "period"
+        },
+        {
+          "work": "letters-2000",
+          "locator": "p. 1027",
+          "locator_type": "page",
+          "quote": "I cannot tell you what pleasure your letter gave me, I wish my poem had fallen into your hands for review. Though I have had some most sympathetic and intellectual criticisms, nothing that has been said about The Ballad has touched me, or encouraged me, as much as your letter … In the meanwhile, have you any money to spare? If you have it would be very kind of you if you would lend me fifty francs. I am quite sans le sou, and awaiting money from my absurd publisher …",
+          "context": "Wilde to Rowland Strong, [February-March 1898], Hôtel de Nice (TS Clark). The elisions are the editors'. THE JOIN IS THE POINT: the warmest sentence in the letter and the request for fifty francs are two paragraphs apart, and by 1898 the two things travel together in almost every letter Wilde writes.",
+          "speaker": "Oscar Wilde",
+          "addressee": "Rowland Strong",
+          "evidence_date": {
+            "y": 1898,
+            "m": 2
+          },
+          "supports": "What a good review was worth to him, and what he needed in the same breath.",
+          "verification": "verified-elision",
+          "how_verified": "pdf-at-page",
+          "provenance": "Repo PDF page 1073; printed folio 1027 confirmed on the rendered page image, read 2026-08-05.",
+          "verified_by": "claude-at-page",
+          "verified_on": "2026-08-05",
+          "voice": "period"
+        }
+      ]
+    }
+  ],
+  "research_status": "phase-a",
+  "name": "Rowland Strong",
+  "sort_name": "Strong, Rowland",
+  "group": "later",
+  "bio": "A Paris-based English journalist of the exile years, correspondent for the Observer and the New York Times, who in September 1898 published Esterhazy's confession that he had written the bordereau at the heart of the Dreyfus affair. Two of Wilde's letters to him survive, both from the spring of 1898, both about The Ballad of Reading Gaol.",
+  "bio_note": "Added 2026-08-05, per Lovelle - he had been parked as a candidate. NO CONNECTION LINE: the register is a poet and a journalist who liked his poem, and nothing states or implies attraction. TWO LETTERS at repo PDF 1073, both read at the page (printed 1027, folio confirmed, 2026-08-05). Both are quoted whole below because together they make one small complete thing: the first is pride, the second is gratitude followed immediately by a request for fifty francs, and the exile is audible in the join. THE DREYFUS CONNECTION is from the editors' note and is context only; nothing about Wilde's part in it is asserted here."
+}

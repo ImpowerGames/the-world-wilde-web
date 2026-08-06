@@ -1,0 +1,22 @@
+{
+  "id": "de-gramont",
+  "name": "Élisabeth de Gramont",
+  "sort_name": "Gramont, Élisabeth de",
+  "aka": [
+    "Lily de Gramont",
+    "Duchesse de Clermont-Tonnerre",
+    "Elisabeth de Gramont"
+  ],
+  "born": null,
+  "died": null,
+  "group": "later",
+  "gender": "f",
+  "bio": "French aristocrat and memoirist, daughter of the Duc de Gramont and Princesse Isabelle de Beauvau-Craon, known as 'Lily' and, by marriage, as the Duchesse de Clermont-Tonnerre. Natalie Barney's lover from 1910 and her companion for the rest of de Gramont's life. At twenty-one she had married the Marquis Philibert de Clermont-Tonnerre, whom Souhami describes her speaking of as a cruel gaoler. Proust consulted her while writing À la Recherche du Temps Perdu, and she wrote four volumes of memoirs; she dedicated her Almanack des Bonnes Choses de France to Barney.",
+  "bio_sources": [
+    "souhami-2004",
+    "wickes-1977"
+  ],
+  "bio_note": "Added 2026-08-05 out of the v2 parking lot, per Lovelle. Both statements were read at the rendered page: Souhami, Wild Girls, printed 72 (repo PDF 98, folio confirmed on the page image) opens its chapter 'Lily de Gramont'; Wickes, The Amazon of Letters, printed 122 (repo PDF 124, folio confirmed) states the relationship independently. DATES: NONE RECORDED. Her birth and death years are not stated on either page read, and are not inferred here - Wickes says only that the attachment 'lasted almost half a century, until the duchess' death'. The title in the Souhami footnote at printed 72 is given as Duchesse de Clermont-Tonnerre; Wickes anglicises it to Duchess de Clermont-Tonnerre, and both spellings are carried as aka. Wickes also records the introduction: she met Barney 'through the Mardrus'.",
+  "context_engagements": [],
+  "research_status": "phase-a"
+}

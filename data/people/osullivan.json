@@ -1,0 +1,46 @@
+{
+  "id": "osullivan",
+  "born": null,
+  "died": null,
+  "aka": [],
+  "gender": "m",
+  "bio_sources": [
+    "letters-2000"
+  ],
+  "context_engagements": [
+    {
+      "partner_name": "Oscar Wilde",
+      "period": "Naples and Paris, 1897-1900",
+      "note": "Recorded without a connection line.",
+      "sources": [
+        {
+          "work": "letters-2000",
+          "locator": "p. 963",
+          "locator_type": "page",
+          "quote": "Dear Vincent O'Sullivan, I am delighted to hear from Smithers that there is really some chance of your being at Naples this winter, and look forward with the greatest pleasure, I need hardly say, to seeing you again. I have also heard incidentally of something that happened at the Authors' Club last week: and I cannot express to you adequately how deeply touched I was by the position you took up with regard to me, and by the dignity and, …",
+          "context": "Wilde to Vincent O'Sullivan, 19 October 1897, Villa Giudice, Posilippo (MS Bodley). The letter breaks where the printed page does. THE SAME FOLIO carries Wilde's rebuke to Sherard for the attack O'Sullivan had stood against.",
+          "speaker": "Oscar Wilde",
+          "addressee": "Vincent O'Sullivan",
+          "evidence_date": {
+            "y": 1897,
+            "m": 10,
+            "d": 19
+          },
+          "supports": "Wilde thanking a man for defending him in public in 1897, when few would.",
+          "verification": "verified-elision",
+          "how_verified": "pdf-at-page",
+          "provenance": "Repo PDF page 1011; printed folio 963 confirmed on the rendered page image, read 2026-08-06.",
+          "verified_by": "claude-at-page",
+          "verified_on": "2026-08-06",
+          "voice": "period"
+        }
+      ]
+    }
+  ],
+  "research_status": "phase-a",
+  "name": "Vincent O'Sullivan",
+  "sort_name": "O'Sullivan, Vincent",
+  "group": "later",
+  "bio": "Writer, and author of Aspects of Wilde (1936), a first-hand memoir of the exile years. Two of Wilde's letters to him survive. In October 1897, while Wilde was at Posillipo with Douglas and being attacked in London, O'Sullivan took his side publicly at the Authors' Club - and Wilde wrote to say he could not express adequately how deeply touched he was.",
+  "bio_note": "Added 2026-08-06, clearing a backlog: flagged from the Index of Recipients on 2026-08-05. NO CONNECTION LINE: nothing states or implies attraction; the register is gratitude and literary friendship. WHAT THE FOLIO SHOWS, and why he belongs here: printed 963 carries TWO letters of the same week, one rebuking [[sherard]] for attacking Wilde behind his back at the Authors' Club, the other thanking O'Sullivan for the position he took there. The map had Sherard and not O'Sullivan, so it held the attack and not the defence. TWO LETTERS at printed 963 and 1160; ONE read at the page (2026-08-06). HIS MEMOIR is outside this volume and is the obvious next source - he is one of the few witnesses to the last years who wrote at length. DATES NOT RECORDED and none inferred."
+}

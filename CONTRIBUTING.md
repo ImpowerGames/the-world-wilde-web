@@ -203,6 +203,32 @@ of absence is not a party, and the map renders the fields as labelled lines.
 }
 ```
 
+**QUOTE THE WHOLE LETTER, AND ELIDE ONLY WHAT DOES NOT CHARACTERISE THE RELATIONSHIP.** This is
+the reverse of the obvious habit, which is to lift the sentence that proves the point. Do not do
+that. Start from the whole letter and cut only what says nothing about the two people — an address,
+a standing order, a train time — marking each cut with an ellipsis as usual.
+
+The reason is not tidiness, it is accuracy. A quotation trimmed to its strongest phrase decides the
+case before the reader sees it, and it decides it wrong often enough to matter: the 2026-08-04
+sweep quoted Wilde's letter to Sherard from *"how could I refuse"* onward and concluded *warm, and
+not desire* — the excerpt began four lines after *"Your letter was as loveable as yourself"* and the
+*"memories of moonlit meanderings, and sunset strolls"*. The verdict followed the trim. The same
+sweep, reading only its lexicon hit in a letter to Graham Hill, filed a warm three-letter
+correspondence as nothing.
+
+**FRIENDSHIP COUNTS.** A quotation does not have to reach romance to be worth recording, and a
+person does not have to carry a connection line to belong on the map. Warmth between men in this
+period is part of what the record shows and part of what the map is for; George Alexander and
+Graham Hill are here as nodes with no line, holding letters that are simply fond. Record the
+friendship, let the certainty class stay empty, and let a reader see the affection without being
+told it was desire.
+
+**READ IT AT THE PAGE YOURSELF.** Not an agent, not a text layer, not an OCR mirror — the rendered
+page image, with the printed folio visible on it. The mirror's page attribution drifts by one or
+two: it put the Sherard letter at 202 (it is 210), the valet at Cannes at ~1119 (1121), the
+Alexander letter at 1192 (1193), and the Hill letters at 379 (380). Locate with the mirror; cite
+from the page.
+
 **A quotation not in English keeps its own language and gains a translation.** Set `lang` and
 `translation`; the validator refuses one without the other. **It also now asks the question the
 other way round** — a quotation that reads as French, German, Italian or Latin and carries no `lang`
@@ -317,3 +343,136 @@ placed here for reading order: …"_ — so a reader can tell a placement from a
 the JSON. The validator enforces both halves of the bargain: a source may not carry `evidence_date`
 and `order_hint` together, and an `order_hint` without a `why` is an error, because an undated
 placement with no reasoning attached is an invented date in disguise.
+
+## Completeness protocol (set 2026-08-05, supersedes the change-control rule)
+
+1. **Never park. Add everything to the map as you go.** Candidate lists were slowing the work and hiding evidenced people behind a decision that had already been made. If a person is evidenced, they become a node in the pass that found them.
+2. **A person is not done until every letter ADDRESSED TO *or MENTIONING* them has been read at the page.** Do not move on before that. *Mentioning* is the half that keeps getting missed.
+3. **Do not skip ahead.** The target is 100% of Wilde's correspondents and 100% of his letters.
+4. **Lovelle verifies each node himself after the sweep completes.** The job here is completeness and honest provenance, not pre-filtering for quality — he is the filter.
+
+**Why:** reading for the *addressee* loses everyone who appears inside someone else's letter. Charles Conder was described twice on pages already read — *"a sort of Corot of the sunlight"* (printed 911), *"Conder is now a* vineyard*"* (printed 928) — and logged from neither, because both times the letter was filed under its recipient. Harry Melvill, Arthur Howard Pickering and a second Rothenstein letter were all on folios already read, for the same reason. **The unit of reading is the PAGE, not the letter.**
+
+**Three counting hazards, all hit at least once:**
+- **Name forms.** `To Herbert Horne` vs `To Herbert P. Horne` — 1 letter vs 11. `G. H. Kersley`, not `George Kersley`. Match on surname *and* initials.
+- **Page-count ≠ letter-count.** Letters are often printed two or three to a page; deduplicating hits by PDF page understated five nodes' letter counts.
+- **The editors' index disambiguates what the text cannot.** It settled `Georges (boy), 1097, 1108, 1117` in one page — and carries its own errors, so verify entries at the page too.
+
+### Superseding an existing quote (2026-08-05)
+
+**When you read a page a node already cites, compare the logged quote against the full letter and extend or replace it.** The earlier passes trimmed to the phrase that matched; this one starts from the whole letter and elides only what does not characterise the relationship. **The fuller quote is the more accurate one — never assume a shorter existing quote was a deliberate editorial choice.**
+
+Measured on 2026-08-05, across every quote in `data/`:
+
+| verifier | quotes | median length |
+|---|---|---|
+| `agent-mechanical` | 382 | 276 chars |
+| `claude-at-page` | 131 | **426 chars** |
+| `Claude (Opus 5)` | 10 | 257 chars |
+
+At-page quotes run about **55% longer at the median**, so **392 quotes are standing candidates for extension**. They are not a separate work item — they get fixed as a side effect of the page sweep, because the completeness protocol brings you back to every one of those pages anyway. When you extend one, keep its original `provenance` line and add yours; do not silently drop the earlier verification.
+
+### The index lists FOLIOS, not letters (2026-08-06)
+
+A printed folio carrying three letters appears in the Index of Recipients **once**. So an index
+entry of 13 folios and a node claiming 16 letters are **not in conflict** — they are different
+units, and both can be right.
+
+This nearly caused nine correct nodes to be "corrected" into error. Before reconciling any count
+against the index, check whether the node's own provenance already records multiple letters on one
+folio (`harding`: "PDF 92 (three on one page)"; `graham-hill`: "three at printed 380"). **Check
+before patching.**
+
+The same distinction applies in reverse: `graham-robertson` has 6 index folios and 7 letters
+because folio 347 carries two.
+
+### Fix the map as you go — never log a debt (2026-08-06)
+
+If something on a page belongs on the map, **write it in the same pass**. `READING_LOG.md` records
+what was on each folio; it is **not a work queue**. Logging "read, not logged" and moving on was a
+bad habit that accumulated across a session and had to be cleared retrospectively.
+
+**The one legitimate exception** is a quote you cannot reproduce exactly without re-opening the
+page. Never paraphrase a quotation into the data from memory — say plainly that the folio needs
+re-reading, and re-read it.
+
+That exception earned its keep immediately. Re-reading printed 973 rather than trusting a
+remembered phrase showed that *"When I came out of prison / some met me with garments and with
+spices, / and others with wise counsel. / **You met me with love**"* is **the suppressed dedication
+of *The Ballad of Reading Gaol* to Robert Ross** — Wilde composed it deliberately without initials
+or name, showed it to Smithers, and it was never printed. An earlier note of mine had filed the
+phrase as a remark to Smithers about Smithers, because the line sits in a letter to Smithers and the
+page-break hid the editors' footnote.
+
+It is the **fourth documented suppression** on this map, beside Pater's withdrawn Conclusion,
+Mahaffy's deleted chapter and Gide's torn-out journal — and the only one that is Wilde's own.
+
+### One letter, one card — the duplicate-quote convention (2026-08-06)
+
+Spotted by Lovelle on `alphonse`: the same letter appeared twice on his panel, once under a context
+engagement with Wilde and again under his connection to Turner.
+
+**Three cases, and only two of them are errors.**
+
+**1. The same excerpt twice in one record — ERROR.** Quote it once. `fothergill--warren` carried an
+identical Sox quotation twice in the same file.
+
+**2. The same excerpt on a person's context engagement AND on a connection they are party to —
+ERROR.** Keep it on the **connection**; that is the more specific claim and it already renders on
+both endpoints' panels. A context engagement is for evidence with no connection to hang on. The
+`alphonse` case was worse than cosmetic: the engagement named Wilde as the partner, implying a
+Wilde–Alphonse pairing the source never makes. The letter is Wilde writing **to** Turner **about**
+Turner's friend — Wilde is the witness, not a party.
+
+Both are now hard errors in `tools/validate.py`.
+
+**3. The same excerpt on two DIFFERENT connections — CORRECT, leave it.** One source often evidences
+several claims: the letter naming Raphael and Fortuné is cited on both their connections; four of
+Ives's household edges rest on one Cook paragraph; the Rolla letter is also the letter where Wilde
+asks Smithers to come out to him. **Each connection genuinely needs its own citation.** The
+duplication was only ever wrong on the *page*, where the shared person's panel printed the same
+paragraph two, three or four times.
+
+**That case is now collapsed at render time**, in `personSources()` and `withBar()`: identical
+`(work, locator, text)` becomes one card that names every connection it belongs to, each keeping its
+own certainty marker — *"with Edoardo Rolla `⋯▸` and Leonard Smithers `no connection line`"*.
+Pointers (sources with no quote text) never collapse; several different pointers can share a
+locator and are not the same evidence.
+
+`tools/find_dupe_quotes.py` reports all three cases; after the fixes, 13 remain and all are case 3.
+
+### Jealousy is an expression of attachment (2026-08-06)
+
+**Jealousy counts.** A connection line needs some source asserting attraction, romance or sex — and
+**possessive feeling about a third party is an assertion of attraction**, whether or not the word
+appears. Wilde put out that a young man prefers another's company; a friend who talks *"a little too
+much"* about an absent man, suspects him of *"treachery"*, and doubts he will return — these are the
+same signal, and the map must read them the same way.
+
+Caught by Lovelle asking *"Is that not jealousy?"* about `omero--ross`, which I had first declined
+to draw on the ground that nothing in the passage "asserts attraction". That was inconsistent:
+`boulton` is flagged as the strongest attraction candidate of its own batch on **exactly** this
+signal — *"whom by the bye I believe you like* much better *than yours truly"*. Pique had been
+treated as a tell there and as nothing here.
+
+**How to read it:** "treachery" from an absent man means unfaithfulness, not commercial betrayal.
+Wry commentary (*"a little too much"*) implies there is something to be wry about. Waiting, and
+doubting a return, is attachment. Record the alternative reading in `certainty_reasoning` — Ross
+handled Wilde's money, so "treachery" *could* be practical — but do not let the existence of a
+duller reading suppress the natural one.
+
+### Check BOTH indexes before deciding someone is too thin (2026-08-06)
+
+Before concluding that a person does not warrant a node, look them up in **both** of the volume's
+indexes — the Index of Recipients (letters *to* them) **and** the General Index (mentions *of*
+them). A single reference is not evidence of a single reference.
+
+Adolphe Retté was declined on the basis of one appearance, a name in a dinner invitation — *"Ask
+Retté to come, if you think he would like it"* — which genuinely documents nothing. Lovelle asked
+whether the index listed anything else. It does: **`Retté, Adolphe, 500, 506n`**, and 506n carries a
+page of his own first-hand account, from *Le Symbolisme* (1903), of what he cut from *Salomé* —
+corroborated by Stuart Merrill's memoir on the same page. He is a node now.
+
+The same trap in reverse produced the `blacker` error: a claim that something was "not documented on
+any page read here" was true of the pages read and false of the volume, and the General Index said
+so. **The indexes are the check on our own judgement, not just a way to find pages.**

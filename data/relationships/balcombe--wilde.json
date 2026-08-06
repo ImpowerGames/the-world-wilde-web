@@ -95,6 +95,26 @@
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Florence Balcombe Stoker"
+    },
+    {
+      "work": "letters-2000",
+      "locator": "p. 66",
+      "locator_type": "page",
+      "quote": "My dear Florrie, I send you a line to wish you a pleasant Easter. A year ago I was in Athens and you sent me I remember a little Easter card - over so many miles of land and sea - to show me you had not forgotten me. I have been greatly disappointed in not being able to come over, but I could only spare four days and as I was not feeling well came down here to …",
+      "context": "Wilde to Florence Balcombe, [April 1878], Royal Bath Hotel, Bournemouth (MS Clark). The editors note Easter Sunday 1878 fell on 21 April. The letter breaks where the printed page does and continues on the next folio. HE IS COUNTING BACK A YEAR to a card she sent him in Athens, which is the whole point of the letter: not the Easter wish but the remembering. ADDED 2026-08-06: read at the page during the Boulton sweep and left unlogged; the same folio carries the Boulton letter and the end of the 'nicest of kittens' letter to Harding.",
+      "speaker": "Oscar Wilde",
+      "addressee": "Florence Balcombe",
+      "evidence_date": {
+        "y": 1878,
+        "m": 4
+      },
+      "supports": "The courtship at its steadiest - a year measured by a card she sent.",
+      "verification": "verified-elision",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF page 93; printed folio 66 confirmed on the rendered page image, read 2026-08-06.",
+      "verified_by": "claude-at-page",
+      "verified_on": "2026-08-06",
+      "voice": "period"
     }
   ],
   "prior_class": "romantic-nonsexual"

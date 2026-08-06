@@ -1,0 +1,52 @@
+{
+  "id": "kains-jackson",
+  "name": "Charles Kains-Jackson",
+  "sort_name": "Kains-Jackson, Charles",
+  "aka": [
+    "C. K.-J."
+  ],
+  "born": {
+    "y": 1857
+  },
+  "died": {
+    "y": 1933
+  },
+  "group": "aesthete",
+  "gender": "m",
+  "bio": "London solicitor specialising in literary matters (1857-1933), and from 1888 to 1894 editor of The Artist and Journal of Home Culture - a magazine which, in the editors' own words, he used in part as a forum for London's homosexual coterie, and to which Lord Alfred Douglas contributed. Wilde consulted him professionally over Salomé in November 1893.",
+  "bio_sources": [
+    "letters-2000"
+  ],
+  "bio_note": "Added 2026-08-06, clearing a backlog: flagged from the Index of Recipients on 2026-08-05 and not created for a day. NO CONNECTION LINE: the two surviving items are a telegram and a note about legal business, and nothing states or implies attraction. THE DESCRIPTION OF HIS MAGAZINE IS THE EDITORS' OWN AND IS QUOTED RATHER THAN PARAPHRASED - 'which he used in part as a forum for London's homosexual coterie' (printed 574, note 1). That matters because two other nodes on this map had background claims of mine asserted in the source's voice and had to be corrected; this one is genuinely in the volume. WHAT HE WAS DOING FOR WILDE was legal work on Salomé, at the moment when Douglas's name as translator was in dispute - the same flurry that ended with the play dedicated to Douglas rather than carrying his name on the title page. TWO ITEMS at printed 574 and 576; ONE read at the page. HIS OWN CIRCLE - the Uranian poets, and his editorship's place in that literature - lies outside this volume and is not asserted here.",
+  "context_engagements": [
+    {
+      "partner_name": "Oscar Wilde",
+      "period": "London, November 1893",
+      "note": "Professional consultation, recorded without a connection line.",
+      "sources": [
+        {
+          "work": "letters-2000",
+          "locator": "p. 574",
+          "locator_type": "page",
+          "quote": "Can you come and see me here tomorrow at eleven. Wish to consult you professionally on Salomé business.",
+          "context": "Telegram, Wilde to Charles Kains-Jackson, 6 November 1893, 7.32 p.m., St James's Street (MS Clark) - quoted whole. The editors note that on the verso someone has written 'Reply - that C. K.-J. will keep appointment'. THE SALOMÉ BUSINESS is the dispute over whether Douglas's name should appear as translator on the title page; it was settled by dedicating the play to him instead - 'To my friend Lord Alfred Bruce Douglas, the translator of my play' - after Douglas wrote that the difference was 'between a tribute of admiration from an artist and a receipt from a tradesman'.",
+          "speaker": "Oscar Wilde",
+          "addressee": "Charles Kains-Jackson",
+          "evidence_date": {
+            "y": 1893,
+            "m": 11,
+            "d": 6
+          },
+          "supports": "That Wilde used him as his solicitor at the height of the Salomé dispute.",
+          "verification": "verified-exact",
+          "how_verified": "pdf-at-page",
+          "provenance": "Repo PDF page 626; printed folio 574 confirmed on the rendered page image, read 2026-08-06.",
+          "verified_by": "claude-at-page",
+          "verified_on": "2026-08-06",
+          "voice": "period"
+        }
+      ]
+    }
+  ],
+  "research_status": "phase-a"
+}

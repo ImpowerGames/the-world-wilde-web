@@ -17,7 +17,36 @@
   "bio": "Dublin-born writer; born 16 October 1854 at 21 Westland Row, educated at Trinity College Dublin and Magdalen College, Oxford. Married Constance Lloyd on 29 May 1884; two sons, Cyril (b. 1885) and Vyvyan (b. 1886). Convicted 25 May 1895 and sentenced to two years' hard labour following the three trials of that spring; released 19 May 1897 and lived thereafter in France and Italy. Died 30 November 1900 at the Hôtel d'Alsace, Paris, of cerebral meningitis; buried at Bagneux, moved to Père Lachaise in 1909.",
   "bio_sources": [],
   "bio_note": "All facts from the Chronological Table, Holland & Hart-Davis, Complete Letters (2000), pp. viii-xii (repo PDF 8-12), read as page images 2026-08-03.",
-  "context_engagements": [],
+  "context_engagements": [
+    {
+      "partner_name": "The sexologists",
+      "period": "Naples, December 1897",
+      "note": "Not a person-to-person engagement. Recorded because Wilde, two years out from the trials, states in a private letter that he knows he has become a case in the medical literature of homosexuality - and objects to the arithmetic of it rather than the diagnosis.",
+      "sources": [
+        {
+          "work": "letters-2000",
+          "locator": "p. 1006",
+          "locator_type": "page",
+          "quote": "My life cannot be patched up. There is a doom on it. Neither to myself, nor others, am I any longer a joy. I am now simply an ordinary pauper of a rather low order: the fact that I am also a pathological problem in the eyes of German scientists is only interesting to German scientists: and even in their works I am tabulated, and come under the law of averages! Quantum mutatus!",
+          "context": "Wilde to Leonard Smithers, Saturday [11 December 1897], Villa Giudice, Posilippo (MS Hyde). 'averages' is italicised in the printed text; the Latin is Virgil, 'How changed from what he once was'. THE GERMAN SCIENTISTS are the sexologists - Krafft-Ebing's Psychopathia Sexualis and its successors, in which the Wilde trials had become standard case material within two years. Wilde is describing his own conversion into a data point, and the sting he picks out is not being called pathological but being TABULATED: made ordinary, averaged, one of a class. No specific work is named on the page and none is inferred here.",
+          "speaker": "Oscar Wilde",
+          "addressee": "Leonard Smithers",
+          "evidence_date": {
+            "y": 1897,
+            "m": 12,
+            "d": 11
+          },
+          "supports": "Wilde's own awareness that he had become a case study in the medical literature of homosexuality, in his lifetime.",
+          "verification": "verified-exact",
+          "how_verified": "pdf-at-page",
+          "provenance": "Repo PDF page 1054; printed folio 1006 confirmed on the rendered page image, read 2026-08-05.",
+          "verified_by": "claude-at-page",
+          "verified_on": "2026-08-05",
+          "voice": "period"
+        }
+      ]
+    }
+  ],
   "research_status": "phase-a",
   "gender": "m",
   "roster_note": "The collective 'unnamed and one-scene companions' entry was removed 2026-08-04: every named man in it now has his own node and edge (Andre, Pietro, le petit Georges, the Napoule fisherman, the Cafe d'Egypte Egyptian, Raphael, Fortune, the Naples 'Sea-God'), so the entry only duplicated them. TWO THINGS IT CARRIED HAVE NO NODE: (1) the unnamed 'beautiful boy in grey velvet' seen with Wilde outside a cafe behind the Madeleine by Aleck Ross, late March 1900 (Complete Letters printed 1177) - a roster candidate on exactly the same footing as the Sea-God and the Napoule fisherman, who are already nodes; and (2) Wilde's general remark on the Riviera fishing population, 27 December 1898 (printed 1112), which is a remark rather than a person. Full transcriptions remain in dossiers/EXILE-COMPANIONS_dossier.md (T1-T4).",

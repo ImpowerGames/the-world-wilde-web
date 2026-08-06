@@ -1,0 +1,45 @@
+{
+  "id": "pickering",
+  "born": null,
+  "died": null,
+  "gender": "m",
+  "aka": [],
+  "bio_sources": [
+    "letters-2000"
+  ],
+  "context_engagements": [
+    {
+      "partner_name": "Oscar Wilde",
+      "period": "London and Massachusetts, 1890",
+      "note": "A single letter, recorded without a connection line, and the weakest thing on this map's friendship tier.",
+      "sources": [
+        {
+          "work": "letters-2000",
+          "locator": "p. 443",
+          "locator_type": "page",
+          "quote": "My dear Pickering, We are all angry with you for not coming over. When the lilacs blossom and the laburnum hangs its dusty gold over the railings of our London squares we look for our American friends, and so we look for you. Come in the autumn, and we will ask the laburnum to grow honey-coloured for your pleasure. I am charmed you like Dorian Gray. It is my best piece of work, and I hope to make it still better, when it appears in book form. The fatal book that Lord Henry lent Dorian is one of my many unwritten works. Some day I must go through the formality of putting it on paper. My wife and my mother both send you their kindest and most affectionate greetings. So does your sincere friend",
+          "context": "Wilde to Arthur Howard Pickering, [late July 1890], 16 Tite Street (MS Clark) - quoted whole. Pickering had written from Roxbury on 7 July praising Dorian Gray in Lippincott's. Kept entire partly for the laburnum and partly for the middle paragraph, which is Wilde saying the poisonous yellow book of the novel was never written.",
+          "speaker": "Oscar Wilde",
+          "addressee": "Arthur Howard Pickering",
+          "evidence_date": {
+            "y": 1890,
+            "m": 7
+          },
+          "supports": "Wilde's charm turned on a stranger, and a note on Dorian Gray's unwritten book.",
+          "verification": "verified-exact",
+          "how_verified": "pdf-at-page",
+          "provenance": "Repo PDF page 465; printed folio 443 confirmed on the rendered page image, read 2026-08-05.",
+          "verified_by": "claude-at-page",
+          "verified_on": "2026-08-05",
+          "voice": "period"
+        }
+      ]
+    }
+  ],
+  "research_status": "phase-a",
+  "name": "Arthur Howard Pickering",
+  "sort_name": "Pickering, Arthur Howard",
+  "group": "beyond",
+  "bio": "An American, a friend of the dramatist Clyde Fitch, who wrote to Wilde from Roxbury, Massachusetts in July 1890 praising The Picture of Dorian Gray on its appearance in Lippincott's. Wilde's reply is the only letter between them in this volume.",
+  "bio_note": "Added 2026-08-05, per Lovelle - he had been parked as a candidate and was flagged as weak, which stands. NO CONNECTION LINE: the letter is an author being charming to an admirer he has never met, and nothing states or implies more. Recorded because the rule is that warmth gets quoted rather than judged first. ONE LETTER at repo PDF 465, read at the page (printed 443, folio confirmed, 2026-08-05). DATES NOT RECORDED and none inferred."
+}

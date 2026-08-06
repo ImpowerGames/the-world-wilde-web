@@ -1,0 +1,319 @@
+{
+  "id": "sherard--wilde",
+  "people": [
+    "sherard",
+    "wilde"
+  ],
+  "certainty": "attraction-expressed",
+  "certainty_status": "proposed",
+  "start": {
+    "y": 1883
+  },
+  "end": {
+    "y": 1898
+  },
+  "date_label": "Met in Paris, early 1883; letters to February 1898",
+  "summary": "Fifteen years, and the arc is legible in the letters. In 1883 Wilde accepted the dedication of Sherard's poems — 'one whom I love so much as I love you' — thought of him 'wandering in violet valleys with your honey-coloured hair', and closed a letter 'confidence in our love'. From Holloway in 1895, with almost everyone gone, he wrote 'your chivalrous friendship — your fine, chivalrous friendship — is worth more than all the money in the world'; from Reading in 1896, 'you are one of the few people I would like to see'. Then in 1897 Sherard denounced the reunion with Douglas and Wilde answered coldly. The last letter, in 1898, sends him a book 'in memory of our long friendship' because he would not come in person.",
+  "certainty_reasoning": "ATTRACTION-EXPRESSED, arrow from Wilde, outcome unknown. UPGRADED FROM UNCORROBORATED on 2026-08-05 after reading the letters whole, under Lovelle's rule that one instance of Wilde admiring Sherard physically would carry the arrow. It is in the May-June 1883 letter: 'I think of you often, wandering in violet valleys with your honey-coloured hair.' The same year he wrote 'you who are yourself so dear to me' and closed 'confidence in our love'. WHAT IS NOT CLAIMED: no source says the attachment was sexual, and Wilde names the thing friendship every time he names it — 'the mirror of perfect friendship' (1883), 'your chivalrous friendship' (1895), 'our uninterrupted friendship, of twelve years' standing' (1896), 'an old and noble friendship' (1898). The arrow records admiration expressed, not a relationship attested, which is exactly what this class is for. OUTCOME is 'unknown' because Sherard's side of the correspondence is not in this volume. The two scholarly readings that carried the earlier class still stand in the record - Ellmann on 'young, blond, and idolatrous', McKenna on Sherard being 'obsessed by him' - and both now read as corroboration rather than as the whole case. NOTE ON THE 1897 QUARREL (printed 963, already cited above): an earlier pass had it, and on 2026-08-06 I re-added it from the page without checking, which the duplicate validator caught. Worth recording because the folio's OTHER half was genuinely new - Wilde's letter to [[osullivan]] thanking him for taking his side at the same Authors' Club meeting. The map held the attack and not the defence.",
+  "sources": [
+    {
+      "work": "letters-2000",
+      "locator": "pp. 210-11",
+      "locator_type": "page",
+      "quote": "Dear Robert, Your letter was as loveable as yourself, and this is my first moment after channel-crossings, train-catchings, and my natural rage at the charges for extra luggage from Paris, for sitting down to tell you what pleasure it gave me, and what memories of moonlit meanderings, and sunset strolls, the mere sight of your handwriting brought. As for the dedication of your poems, I accept it: how could I refuse a gift so musical in its beauty, and fashioned by one whom I love so much as I love you? … That is, I think, what we are seeking, and that you should seek it with me, you who are yourself so dear to me, gives me faith in our futures, confidence in our love.",
+      "context": "Wilde to R. H. Sherard, postmark 17 May 1883, 8 Mount Street, Grosvenor Square, London (MS Clark). The elision drops nothing between the two paragraphs but the paragraph break. The editors' note 2 gives the dedication itself, to Whispers (1884): 'To Oscar Wilde, Poet and Friend, Affectionately and admiringly Dedicated'.",
+      "speaker": "Oscar Wilde",
+      "addressee": "Robert Harborough Sherard",
+      "evidence_date": {
+        "y": 1883,
+        "m": 5,
+        "d": 17
+      },
+      "supports": "The warmest surviving language between them, in Wilde's own hand, including the letter's actual close — 'confidence in our love'.",
+      "verification": "verified-elision",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF pages 232-233; printed folios 210 and 211 both confirmed on the rendered page images, read 2026-08-05. The letter runs across the page break and ENDS on 211 - an earlier version of this record stopped it at 'purified but consumed' on 210, missing the close. The elision drops the two middle paragraphs on friendship and art, which are quoted separately below. This also corrects the 2026-08-04 sweep's citation of printed 202.",
+      "verified_by": "claude-at-page",
+      "verified_on": "2026-08-05",
+      "voice": "period"
+    },
+    {
+      "work": "letters-2000",
+      "locator": "p. 210",
+      "locator_type": "page",
+      "quote": "To me the mirror of perfect friendship can never be dulled by any treachery, however mean, or disloyalty, however base. … That is what I think true friendship should be, like that men could make their lives: but friendship is a fire where what is not flawless shrinks into grey ashes, and where what is imperfect is not purified but consumed.",
+      "context": "The same letter, immediately after the dedication paragraph. It is quoted here because it is the counter-evidence on the same page: Wilde names the thing three times, and the word he uses is friendship.",
+      "speaker": "Oscar Wilde",
+      "addressee": "Robert Harborough Sherard",
+      "evidence_date": {
+        "y": 1883,
+        "m": 5,
+        "d": 17
+      },
+      "supports": "Wilde's own framing of the attachment, against which the affectionate language has to be read.",
+      "verification": "verified-elision",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF page 232; printed folio 210 confirmed on the rendered page image, read 2026-08-05. The ellipsis drops a paragraph on art and beauty.",
+      "verified_by": "claude-at-page",
+      "verified_on": "2026-08-05",
+      "voice": "period"
+    },
+    {
+      "work": "ellmann-1988",
+      "locator": "PDF p. 305",
+      "locator_type": "page",
+      "quote": "That Wilde put up with him at all was due to Sherard's possession of three compensatory merits: he was young, blond, and idolatrous. Not precisely handsome, he was 'beau laid.'",
+      "context": "Ellmann on why Wilde tolerated Sherard, whom he has just described as uncomprehending. This is the biographer's reading, not either man's statement.",
+      "evidence_date": null,
+      "supports": "A scholar attributing Wilde's interest in Sherard partly to youth and looks — one of the two readings this connection's class rests on.",
+      "verification": "verified-exact",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF page 305, read as a page image 2026-08-05. **PAGINATION WARNING: this file carries NO printed folios** - checked at PDF 200, 305, 306 and 400, where the text layer begins and ends in running prose - so the locator is written 'PDF p.' and must be re-anchored to a paginated copy before publication, exactly as with murray-2020.",
+      "verified_by": "claude-at-page",
+      "verified_on": "2026-08-05",
+      "voice": "modern"
+    },
+    {
+      "work": "mckenna-2008",
+      "locator": "PDF p. 74",
+      "locator_type": "page",
+      "quote": "Sherard was not so much devoted to Oscar as obsessed by him. It was an obsession that was to last to the end of his life.",
+      "context": "McKenna on Sherard's attachment to Wilde. Located in the repo PDF's text layer; NOT yet read at the rendered page.",
+      "evidence_date": null,
+      "supports": "The second of the two scholarly readings — and the one that makes the attachment asymmetric.",
+      "verification": "unverified",
+      "how_verified": "unverified",
+      "provenance": "Repo PDF page 74, located in the text layer 2026-08-05 and quoted from it. NOT read at the rendered page and NOT folio-confirmed, so it is marked unverified rather than dressed up: it is here because the disputed block cites it, and it should be read at the page before it is relied on.",
+      "verified_by": null,
+      "verified_on": null,
+      "voice": "modern"
+    },
+    {
+      "work": "letters-2000",
+      "locator": "pp. 642-3",
+      "locator_type": "page",
+      "quote": "My dear Robert, I cannot tell you how your letters have cheered and comforted me in this awful, terrible position in which I am placed, and how glad I am that Sarah, and Goncourt, and other artists are sympathising with me. Pray assure Louÿs, Stuart Merrill, Moréas, and all others how touched – touched beyond words – I am. … Ever, with deepest affection and gratitude",
+      "context": "Wilde to R. H. Sherard, 13 April 1895, HM Prison, Holloway (MS Clark) — written between the collapse of the libel action and the first criminal trial, when most of his acquaintance had dropped him. The elision drops the request that Sherard ask Sarah Bernhardt to buy Salomé, and the sum Wilde needed; it is money business, not the two of them.",
+      "speaker": "Oscar Wilde",
+      "addressee": "Robert Harborough Sherard",
+      "evidence_date": {
+        "y": 1895,
+        "m": 4,
+        "d": 13
+      },
+      "supports": "What Sherard was to Wilde at the worst moment of his life, in Wilde's own hand — and how Wilde signed off to him from prison.",
+      "verification": "verified-elision",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF pages 693-694; printed folios 642 and 643 both confirmed on the rendered page images, read 2026-08-05. The letter runs across the page break.",
+      "verified_by": "claude-at-page",
+      "verified_on": "2026-08-05",
+      "voice": "period"
+    },
+    {
+      "work": "letters-2000",
+      "locator": "p. 644",
+      "locator_type": "page",
+      "quote": "My dear Robert, You good, daring reckless friend! I was delighted to get your letter, with all its wonderful news. For myself, I am ill – apathetic. Slowly life creeps out of me. Nothing but Alfred Douglas's daily visits quicken me into life, and even him I only see under humiliating and tragic conditions. Don't fight more than six duels a week! I suppose Sarah is hopeless; but your chivalrous friendship – your fine, chivalrous friendship – is worth more than all the money in the world. Ever yours",
+      "context": "Wilde to R. H. Sherard, 16 April 1895, HM Prison, Holloway (MS Du Cann), three days after the letter above. Quoted whole: nothing in it is off the subject of the two of them. 'Don't fight more than six duels a week' is not a joke at random — Sherard had been challenging Wilde's detractors in Paris.",
+      "speaker": "Oscar Wilde",
+      "addressee": "Robert Harborough Sherard",
+      "evidence_date": {
+        "y": 1895,
+        "m": 4,
+        "d": 16
+      },
+      "supports": "The warmest surviving statement of what the attachment was — and Wilde's own word for it, said twice: friendship.",
+      "verification": "verified-exact",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF page 695; printed folio 644 confirmed on the rendered page image, read 2026-08-05.",
+      "verified_by": "claude-at-page",
+      "verified_on": "2026-08-05",
+      "voice": "period"
+    },
+    {
+      "work": "letters-2000",
+      "locator": "p. 211",
+      "locator_type": "page",
+      "quote": "Dear Robert, Your letters are charming, they are iridescent, and everything you see or hear seems to become touched with colour, and tinged with joy. I think of you often, wandering in violet valleys with your honey-coloured hair, and meditating on the influence of paradoxes on the pastoral mind. But you should be here … My book you will have next week: it is a great pleasure to give it to anyone so sympathetic as you. Poet to poet I give you my work because your joy in it makes it more dear to me. Who is your young man who likes what I said of the primrose?",
+      "context": "Wilde to R. H. Sherard, [May-June 1883], London (MS Clark). The elision drops a paragraph of London gossip and self-description. THIS IS THE PHYSICAL ADMIRATION the classification turns on: Wilde thinking of Sherard often, and picturing his hair.",
+      "speaker": "Oscar Wilde",
+      "addressee": "Robert Harborough Sherard",
+      "evidence_date": {
+        "y": 1883,
+        "m": 5
+      },
+      "supports": "Wilde dwelling on Sherard's appearance — the one thing the record needed to carry an arrow, and the reason this connection is attraction-expressed rather than uncorroborated.",
+      "verification": "verified-elision",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF page 233; printed folio 211 confirmed on the rendered page image, read 2026-08-05.",
+      "verified_by": "claude-at-page",
+      "verified_on": "2026-08-05",
+      "voice": "period"
+    },
+    {
+      "work": "letters-2000",
+      "locator": "p. 662",
+      "locator_type": "page",
+      "quote": "My dear Robert, The Governor has told me that you have written to ask to see me. It is most kind and affectionate of you, but an order has already been sent to More Adey and Arthur Clifton … I often think of you and of our uninterrupted friendship, of twelve years' standing, and while I bitterly regret the sorrow that I have brought on you and others of my friends, I remember with pride and gratitude your chivalry and courage on my behalf. Should the end of my terrible punishment ever come, you are one of the few people I would like to see, and be with from time to time. Please remember me very kindly to George Ives. I was greatly touched at hearing of his desire to come and see me. In the terrible solitude and silence in which one lives a message or a memory means a great deal. … I was so disappointed at not seeing you that I have been allowed as a favour to write this letter to you.",
+      "context": "Wilde to R. H. Sherard, Wednesday [26 August 1896], HM Prison, Reading (MS Hyde). Sherard had applied to visit and been shut out by the two-visitor rule. The elisions drop the visiting-order mechanics and a paragraph routing correspondence through More Adey. NOTE the George Ives paragraph: Ives is on this map, and this is Wilde asking to be remembered to him from prison, through Sherard.",
+      "speaker": "Oscar Wilde",
+      "addressee": "Robert Harborough Sherard",
+      "evidence_date": {
+        "y": 1896,
+        "m": 8,
+        "d": 26
+      },
+      "supports": "Wilde's own dating of the friendship, his account of what Sherard had done for him, and the Ives link.",
+      "verification": "verified-elision",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF page 713; printed folio 662 confirmed on the rendered page image, read 2026-08-05.",
+      "verified_by": "claude-at-page",
+      "verified_on": "2026-08-05",
+      "voice": "period"
+    },
+    {
+      "work": "letters-2000",
+      "locator": "p. 963",
+      "locator_type": "page",
+      "quote": "When you wish to talk morality – always an amusement – and to attack me behind my back, don't, like a good fellow, talk so loud, as the reverberation reaches from the [Authors'] Club to Naples; also, it is easy – far too easy – for you to find an audience that does not contain any friends of mine; before them, play Tartuffe in the style of Termagant to your heart's content; but when you do it in the presence of friends of mine, you expose yourself to rebuke and contempt, and of course I hear all about it.",
+      "context": "Wilde to R. H. Sherard, [circa 16 October 1897], Naples — the whole of the surviving fragment, taken by the editors from Sherard's own Story of an Unhappy Friendship. Sherard had been denouncing Wilde's reunion with Lord Alfred Douglas at Naples. THE RECORD IS NOT ALL WARMTH and this is why it is here.",
+      "speaker": "Oscar Wilde",
+      "addressee": "Robert Harborough Sherard",
+      "evidence_date": {
+        "y": 1897,
+        "m": 10,
+        "d": 16
+      },
+      "supports": "The rupture — Sherard attacking Wilde publicly, and Wilde's cold answer.",
+      "verification": "verified-exact",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF page 1011; printed folio 963 confirmed on the rendered page image, read 2026-08-05.",
+      "verified_by": "claude-at-page",
+      "verified_on": "2026-08-05",
+      "voice": "period"
+    },
+    {
+      "work": "letters-2000",
+      "locator": "p. 1026",
+      "locator_type": "page",
+      "quote": "… I am sending you a copy of my Ballad – first edition – which I hope you will accept in memory of our long friendship. I had hoped to give it to you personally, but I know you are very busy, tho' I am sorry you are too busy to come and see me or to let me know where you are to be seen …",
+      "context": "Wilde to R. H. Sherard, [? end February 1898], Paris — the last surviving letter to him, four months after the rebuke, and printed by the editors from Sherard's own book. The ellipses are the editors' own, marking a fragment. The editors add that the surviving copy (Hyde Collection) is inscribed 'Robert Harborough Sherard: in memory of an old and noble friendship: from the author Oscar Wilde'.",
+      "speaker": "Oscar Wilde",
+      "addressee": "Robert Harborough Sherard",
+      "evidence_date": {
+        "y": 1898,
+        "m": 2
+      },
+      "supports": "The reconciliation, and its distance — a book sent because the man would not come.",
+      "verification": "verified-elision",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF page 1072; printed folio 1026 confirmed on the rendered page image, read 2026-08-05.",
+      "verified_by": "claude-at-page",
+      "verified_on": "2026-08-05",
+      "voice": "period"
+    },
+    {
+      "work": "letters-2000",
+      "locator": "p. 645",
+      "locator_type": "page",
+      "quote": "Dear Robert, Many thanks for your letter. Sarah, of course, did not keep her appointment – she never does. Thank Hugues Rebell very much from me. I need not say how deeply touched I am by any kindness from an artist. Dear old Robert. Ever affectionately yours",
+      "context": "Wilde to R. H. Sherard, 20 April 1895, HM Prison, Holloway (MS Clark) — the third and last of the Holloway letters, quoted whole. 'Sarah' is Bernhardt: the editors record that Sherard was chasing her round Paris on Wilde's behalf, that she wept at his plight, promised a loan, made a series of appointments with Sherard, kept none of them and sent nothing. That errand is the 'chivalry and courage' Wilde thanks him for from Reading a year later.",
+      "speaker": "Oscar Wilde",
+      "addressee": "Robert Harborough Sherard",
+      "evidence_date": {
+        "y": 1895,
+        "m": 4,
+        "d": 20
+      },
+      "supports": "The close of the Holloway sequence, and how Wilde signed off to him: 'Dear old Robert. Ever affectionately yours.'",
+      "verification": "verified-exact",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF page 696; printed folio 645 confirmed on the rendered page image, read 2026-08-05.",
+      "verified_by": "claude-at-page",
+      "verified_on": "2026-08-05",
+      "voice": "period"
+    },
+    {
+      "work": "letters-2000",
+      "locator": "pp. 347-8",
+      "locator_type": "page",
+      "quote": "My dear Robert, If you send me your play I will forward it to Wilson Barrett. His address changes every week as he is on tour. I have been so busy that your letter escaped me. I hope you are well; that you are brilliant your letters and stories in the Table assure me. You certainly have the clever touch and caustic satire of the man of the world. How is your pretty, romantic looking wife with her lovely eyes? No one plays dominoes with me now. I hope you will come over to London soon. Ever yours",
+      "context": "Wilde to R. H. Sherard, [? 1888], 16 Tite Street (MS Clark) — quoted whole, and the domestic one of the thirteen. Sherard was in Paris writing anonymous 'Romances of the Table'; the editors' note records that he had married a Polish woman, Martha Lips, in 1886. 'No one plays dominoes with me now' is the whole of what Wilde says about missing him, and is the reason this letter is here.",
+      "speaker": "Oscar Wilde",
+      "addressee": "Robert Harborough Sherard",
+      "evidence_date": {
+        "y": 1888
+      },
+      "supports": "The friendship in its ordinary years: Wilde reading his journalism, asking after his wife, and saying he is missed.",
+      "verification": "verified-exact",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF pages 369-370; printed folios 347 and 348 both confirmed on the rendered page images, read 2026-08-05. The letter runs across the page break.",
+      "verified_by": "claude-at-page",
+      "verified_on": "2026-08-05",
+      "voice": "period"
+    },
+    {
+      "work": "letters-2000",
+      "locator": "p. 504",
+      "locator_type": "page",
+      "quote": "Dear Robert, Just enter on page one: 'Son père, Sir William Wilde, était archéologue très célèbre et homme de lettres, et du côté de sa mère il est le petit-neveu de l'étrange romancier Maturin, l'ami de Goethe, de Byron, et de Scott; l'auteur de Melmoth, that strange and wonderful book that so thrilled Balzac and Baudelaire, and was a part of the romantic movement in France in 1830.' … Do dine tonight, will you? Come at 6.30. Ever yours",
+      "context": "Wilde to R. H. Sherard, [December 1891], Paris (MS Koch). Sherard was writing a long French article on Wilde for Le Gaulois and had sent it for approval; the editors note that all Wilde's suggestions were incorporated. The elision drops two further corrections to the copy. Kept for the last line and for what the letter is: Wilde dictating his own public image to a friend who accepted every word of it.",
+      "speaker": "Oscar Wilde",
+      "addressee": "Robert Harborough Sherard",
+      "evidence_date": {
+        "y": 1891,
+        "m": 12
+      },
+      "supports": "The working intimacy — Wilde editing Sherard's account of him, and asking him to dinner the same evening.",
+      "verification": "verified-elision",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF page 524; printed folio 504 confirmed on the rendered page image, read 2026-08-05.",
+      "verified_by": "claude-at-page",
+      "verified_on": "2026-08-05",
+      "voice": "period"
+    },
+    {
+      "work": "letters-2000",
+      "locator": "p. 510",
+      "locator_type": "page",
+      "quote": "Dear Robert, I am so pleased you are all right. Never mind about the brute. You have asserted yourself like a brave gentleman. Ever",
+      "context": "Wilde to R. H. Sherard, [? early 1892], Lyric Club (MS Montague) — quoted whole. It follows a duel Sherard fought in Paris. THE OTHER SIDE OF THE CORRESPONDENCE IS IN THE EDITORS' NOTE, and is the only statement from Sherard's own hand anywhere in this record: he describes Wilde talking his alarmed relation out of going to the police, which 'would have put me under taboo in Paris for the rest of my days', and then writing to approve his conduct — 'I do not think that any of his letters ever gave me so much pleasure.'",
+      "speaker": "Oscar Wilde",
+      "addressee": "Robert Harborough Sherard",
+      "evidence_date": {
+        "y": 1892,
+        "m": 1
+      },
+      "supports": "Wilde's approval after the duel, and — through the note — what Sherard said his letters meant to him, which nothing else here supplies.",
+      "verification": "verified-exact",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF page 530; printed folio 510 confirmed on the rendered page image, read 2026-08-05.",
+      "verified_by": "claude-at-page",
+      "verified_on": "2026-08-05",
+      "voice": "period"
+    },
+    {
+      "work": "letters-2000",
+      "locator": "p. 624",
+      "locator_type": "page",
+      "quote": "My dear Robert, If McClure wishes me to be interviewed he must pay me. I dislike the tone of his letter, and I never allow myself to be interviewed. For you, as we are old friends and I appreciate and admire you, I don't mind allowing an interview: but McClure, after his letter, must understand that I must be paid … Besides, I am sick of my name in the papers. It was charming seeing you so well and so delightful the other night. Truly yours",
+      "context": "Wilde to R. H. Sherard, [postmark 30 November 1894], Albemarle Club (MS Clark). The elision drops the fee arithmetic. Six months before the trials.",
+      "speaker": "Oscar Wilde",
+      "addressee": "Robert Harborough Sherard",
+      "evidence_date": {
+        "y": 1894,
+        "m": 11,
+        "d": 30
+      },
+      "supports": "Wilde making an exception to a standing rule for Sherard, and saying why: 'as we are old friends and I appreciate and admire you'.",
+      "verification": "verified-elision",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF page 676; printed folio 624 confirmed on the rendered page image, read 2026-08-05.",
+      "verified_by": "claude-at-page",
+      "verified_on": "2026-08-05",
+      "voice": "period"
+    }
+  ],
+  "direction": "wilde",
+  "outcome": "unknown"
+}

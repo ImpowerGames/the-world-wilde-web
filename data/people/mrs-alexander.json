@@ -1,0 +1,21 @@
+{
+  "id": "mrs-alexander",
+  "name": "Mrs Alexander",
+  "sort_name": "Alexander, Mrs",
+  "aka": [
+    "Mrs Aleck",
+    "Lady Alexander"
+  ],
+  "born": null,
+  "died": null,
+  "group": "family",
+  "gender": "f",
+  "name_is_descriptor": true,
+  "bio": "George Alexander's wife. Wilde sent her his regards in 1894 and, in the last letter he wrote to her husband in July 1900, said he would not forget 'your dear wife's charming and affectionate greeting of me. I know now how to value things like that.' She had greeted him in the street in Paris, five years after the trials. After her husband's knighthood in 1911 she was Lady Alexander, and it is to her that the survival of this correspondence is owed: the editors record that Wilde's letters to Alexander were still in her possession in the 1930s, when A. E. W. Mason worked from them for his life of her husband.",
+  "bio_sources": [
+    "letters-2000"
+  ],
+  "bio_note": "Added 2026-08-05 in the spouse pass, per Lovelle. THE LABEL IS A DESCRIPTOR, NOT A NAME, on the rule set by napoule-fisherman: **no source in this repository gives her given name.** The Complete Letters call her only 'Mrs Aleck' and 'your dear wife'; searches of the letters' full OCR mirror, Ellmann and McKenna return nothing further. She should not be cited as though 'Alexander' alone identified her, and a given name should not be supplied from general knowledge — this project's rule is that every claim carries a citation, and her forename currently has none. Both quotations were read at the rendered page (printed 620 and 1193, folios confirmed, 2026-08-05). DATES: none recorded. TO FINISH THIS RECORD someone needs a source that names her — a theatrical biography of Alexander would do it — after which the descriptor label should be replaced with her name and `name_is_descriptor` removed. HER TITLE AND HER CUSTODY OF THE LETTERS are from the editors' note at printed 515, read at the rendered page 2026-08-05: the text of one 1892 letter is 'corroborated by a typescript at the Clark Library almost certainly made by Mason direct from Wilde's letters which were still in Lady Alexander's possession in the 1930s'. She kept them for at least thirty years after the trials — which is a fact about her, and the reason several of the letters on this page exist to be read.",
+  "context_engagements": [],
+  "research_status": "phase-a"
+}

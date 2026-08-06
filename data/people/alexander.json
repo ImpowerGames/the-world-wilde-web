@@ -1,0 +1,248 @@
+{
+  "id": "alexander",
+  "name": "George Alexander",
+  "sort_name": "Alexander, George",
+  "aka": [
+    "Aleck",
+    "Alick",
+    "George Alexander Gibb Samson",
+    "Sir George Alexander"
+  ],
+  "born": {
+    "y": 1858
+  },
+  "died": {
+    "y": 1918
+  },
+  "group": "aesthete",
+  "gender": "m",
+  "bio": "Actor-manager of the St James's Theatre, born George Alexander Gibb Samson (1858-1918) and knighted in 1911. He acted with Irving from 1881, went into management on his own in 1889, and held the St James's from 1891 until his death. He commissioned Lady Windermere's Fan, paying Wilde £50 in advance in January 1890, and produced both it (1892) and The Importance of Being Earnest (1895). Thirteen of Wilde's letters to him survive, from 1890 to four months before Wilde's death; Wilde addressed him throughout as Aleck. At the bankruptcy Alexander bought the acting rights to both plays, made voluntary payments to Wilde afterwards, and left the rights to Wilde's son Vyvyan when he died.",
+  "bio_sources": [
+    "letters-2000"
+  ],
+  "bio_note": "Added 2026-08-05 under Lovelle's instruction to put friendship on the map as well as romance. NO CONNECTION LINE: the record is warm friendship and professional loyalty, and nothing read supports a romantic or sexual claim. The 2026-08-04 sweep cleared him on the ground that his 'I love you' hits were Wilde drafting play dialogue - which is correct, and is not the same as there being nothing here. THE THIRTEEN LETTERS are at repo PDF 443, 483, 506, 532, 534, 535, 634, 647, 651, 662, 672, 685 and 1239. TWELVE OF THE THIRTEEN have been read at the page — printed 421, 463, 486, 512, 515, 582, 595, 599, 610, 620, 633 and 1193 — every folio confirmed on its own page image. ONE remains unread (repo PDF 534): it is the first half of a mid-February 1892 rehearsal letter whose second half was read at printed 515, and both halves are staging notes on Lady Windermere's Fan. DATES AND NAME are from the editors' note at printed 421. THE 1892 REHEARSAL LETTERS are not quoted beyond the one at printed 512: they are line-by-line direction ('Lord A's coat is too horsy'), and the only human sentence in them is 'I write from bed which accounts for pencil', and the openings visible in the OCR mirror run 'Dear Aleck' and 'My dear Aleck'. DATES: the death year comes from the editors' note at printed 1193; no birth year is given there and none is inferred. THE ARC WORTH NOTING, and worth finishing: in February 1899 Wilde wrote to Ross that Alexander had passed him on a bicycle by the sea and 'gave me a crooked, sickly smile, and hurried on without stopping. How absurd and mean of him!' (printed 1111, located in the mirror, not yet read at the page). Eighteen months later they met by chance and shook hands, and the letter below is what Wilde wrote the next day. A THREAD WORTH FOLLOWING: Wilde sends 'kind regards to Mrs Aleck' in 1894 and, in 1900, says he will not forget 'your dear wife's charming and affectionate greeting of me'. Florence Alexander is not on this roster and could be, under the spouse rule.",
+  "context_engagements": [
+    {
+      "partner_name": "Oscar Wilde",
+      "period": "Professional friendship 1890-1900; the correspondence runs the whole of it",
+      "note": "Friendship and professional loyalty. WHAT READING THEM ALL SHOWS: this correspondence is overwhelmingly a working one. Two of the thirteen are long play scenarios — the first sketch of The Importance of Being Earnest at printed 595, and the plot later sold to Frank Harris as Mr and Mrs Daventry at printed 599 — and several more are staging, rights and money. The affection is not in the bodies of the letters but in their edges: the salutation ('My dear Aleck' throughout), the regards to his wife, and two exceptional letters where Wilde drops his guard — the confession of February 1895 and the reunion of July 1900. That distribution is itself the finding, and it is why the warm passages are quoted here with the business trimmed rather than the other way round.",
+      "sources": [
+        {
+          "work": "letters-2000",
+          "locator": "p. 421",
+          "locator_type": "page",
+          "quote": "Dear Aleck, I beg to acknowledge with thanks your cheque for £50 on account of fees for my play. I find that we are not leaving town till Thursday, so if you have any stalls left my wife and I would like very much to come to your première of Carré's play. But perhaps you have given away all your seats. Believe me yours",
+          "context": "Wilde to George Alexander, [? late January 1890], 16 Tite Street (MS Morgan) — the earliest of the thirteen, quoted whole. The receipt Wilde signed for the £50 is printed beneath it. Kept for the second paragraph: the Wildes asking Alexander for seats, which is the friendship before it had anything to be tested by.",
+          "speaker": "Oscar Wilde",
+          "addressee": "George Alexander",
+          "evidence_date": {
+            "y": 1890,
+            "m": 1
+          },
+          "supports": "The beginning of the correspondence, and its social side — Wilde and Constance wanting to come to his opening night.",
+          "verification": "verified-exact",
+          "how_verified": "pdf-at-page",
+          "provenance": "Repo PDF page 443; printed folio 421 confirmed on the rendered page image, read 2026-08-05.",
+          "verified_by": "claude-at-page",
+          "verified_on": "2026-08-05",
+          "voice": "period"
+        },
+        {
+          "work": "letters-2000",
+          "locator": "p. 463",
+          "locator_type": "page",
+          "quote": "My dear Aleck, I am not satisfied with myself or my work. I can't get a grip of the play yet: I can't get my people real. The fact is I worked at it when I was not in the mood for work, and must first forget it, and then go back quite fresh to it. I am very sorry, but artistic work can't be done unless one is in the mood; certainly my work can't. Sometimes I spend months over a thing, and don't do any good; at other times I write a thing in a fortnight.",
+          "context": "Wilde to George Alexander, [2 February 1891], 16 Tite Street (MS Arents). The play is Lady Windermere's Fan, which Alexander had commissioned and paid for in advance a year earlier. The elision drops news of The Duchess of Padua's New York production. This is the first of the four letters in which Wilde tells him something he did not have to.",
+          "speaker": "Oscar Wilde",
+          "addressee": "George Alexander",
+          "evidence_date": {
+            "y": 1891,
+            "m": 2,
+            "d": 2
+          },
+          "supports": "Wilde admitting to his manager that the commissioned play is not working, and why — candour rather than excuse.",
+          "verification": "verified-elision",
+          "how_verified": "pdf-at-page",
+          "provenance": "Repo PDF page 483; printed folio 463 confirmed on the rendered page image, read 2026-08-05.",
+          "verified_by": "claude-at-page",
+          "verified_on": "2026-08-05",
+          "voice": "period"
+        },
+        {
+          "work": "letters-2000",
+          "locator": "p. 486",
+          "locator_type": "page",
+          "quote": "My dear Alick, Of course I am in your debt £50 and I am very much disappointed I have not been able to write the play, but I want you not to ask me to pay you at present, as I am in a great mess about money, and really will not have any till September, when The Duchess of Padua goes on tour in America. Do let me wait till then, and believe me to be, with great regret for not having done the play, sincerely yours",
+          "context": "Wilde to George Alexander, [? Summer 1891], 16 Tite Street (MS Morgan) — quoted whole. The content is a debt and a missed commission; what it records about the two of them is the register, nine years before the last letter: 'My dear Alick', and a man telling his manager plainly that he is in a mess about money.",
+          "speaker": "Oscar Wilde",
+          "addressee": "George Alexander",
+          "evidence_date": {
+            "y": 1891,
+            "m": 6,
+            "circa": true
+          },
+          "supports": "The early register of the friendship, and the candour in it.",
+          "verification": "verified-exact",
+          "how_verified": "pdf-at-page",
+          "provenance": "Repo PDF page 506; printed folio 486 confirmed on the rendered page image, read 2026-08-05.",
+          "verified_by": "claude-at-page",
+          "verified_on": "2026-08-05",
+          "voice": "period"
+        },
+        {
+          "work": "letters-2000",
+          "locator": "p. 512",
+          "locator_type": "page",
+          "quote": "Dear Aleck, I heard by chance in the theatre today – after you had left the stage – that you intended using the first scene a second time – in the last act. I think you should have told me this, as after a long consultation on the subject more than four weeks ago you agreed to have what is directed in the book of the play … My object, however, in writing is not to reproach you in any way – reproaches being useless things – but to point this out.",
+          "context": "Wilde to George Alexander, [mid-February 1892], 16 Tite Street (MS Hyde) — during rehearsals for Lady Windermere's Fan, which opened at the St James's on 20 February. The elision drops several paragraphs of stage-management argument. Kept for how Wilde handles a grievance with him: he states it, then disarms it in the same breath.",
+          "speaker": "Oscar Wilde",
+          "addressee": "George Alexander",
+          "evidence_date": {
+            "y": 1892,
+            "m": 2
+          },
+          "supports": "The working relationship under strain, and Wilde's care to keep a disagreement from becoming a quarrel.",
+          "verification": "verified-elision",
+          "how_verified": "pdf-at-page",
+          "provenance": "Repo PDF page 532; printed folio 512 confirmed on the rendered page image, read 2026-08-05.",
+          "verified_by": "claude-at-page",
+          "verified_on": "2026-08-05",
+          "voice": "period"
+        },
+        {
+          "work": "letters-2000",
+          "locator": "p. 582",
+          "locator_type": "page",
+          "quote": "My dear Aleck, I dare say you have seen in the papers that I have given Hare the refusal of my next play, and I am anxious to send you a few lines to explain to you my reasons in doing so. I shall always remember with pride and with pleasure the artistic manner in which you produced my first play, and the artistic care you showed, down to the smallest detail of production, that my work should be presented in the best manner possible, and it would be a great delight to me to have some other play of mine produced by you at your charming theatre, but I have always been anxious to have some work of mine produced by Hare, whose wonderful stagecraft no one appreciates more than you do, and as he",
+          "context": "Wilde to George Alexander, [? January 1894], 16 Tite Street (MS Texas). The editors mark the rest of the letter missing, and it breaks off mid-sentence here. Wilde had read in the papers that Alexander would have learned of the snub from the press, and wrote at once so that he would not.",
+          "speaker": "Oscar Wilde",
+          "addressee": "George Alexander",
+          "evidence_date": {
+            "y": 1894,
+            "m": 1
+          },
+          "supports": "The care taken not to wound: a letter written for no reason except that a friend might otherwise feel passed over.",
+          "verification": "verified-exact",
+          "how_verified": "pdf-at-page",
+          "provenance": "Repo PDF page 634; printed folio 582 confirmed on the rendered page image, read 2026-08-05.",
+          "verified_by": "claude-at-page",
+          "verified_on": "2026-08-05",
+          "voice": "period"
+        },
+        {
+          "work": "letters-2000",
+          "locator": "p. 610",
+          "locator_type": "page",
+          "quote": "My dear Aleck, I can't make out what could have become of your letter. I thought from your silence that you thought the play too farcical in incident for a comedy theatre like your own, or that you didn't like my asking you to give me some money. … No: I want to come back to you. I would like to have my play done by you (I must tell you candidly that the two young men's parts are equally good) … I may mention that the play is an admirable play. I can't come up to town, I have no money. … Write me your views – about this whole business. Ever yours",
+          "context": "Wilde to George Alexander, [? September 1894], 5 Esplanade, Worthing (MS Arents) — the letter placing The Importance of Being Earnest, which Alexander would produce the following February. The elisions drop a long argument about American touring rights and what sort of actor Alexander is, which is trade rather than friendship.",
+          "speaker": "Oscar Wilde",
+          "addressee": "George Alexander",
+          "evidence_date": {
+            "y": 1894,
+            "m": 9
+          },
+          "supports": "The loyalty underneath the business — 'I want to come back to you' — and Wilde poor enough at Worthing to say so plainly.",
+          "verification": "verified-elision",
+          "how_verified": "pdf-at-page",
+          "provenance": "Repo PDF page 662; printed folio 610 confirmed on the rendered page image, read 2026-08-05.",
+          "verified_by": "claude-at-page",
+          "verified_on": "2026-08-05",
+          "voice": "period"
+        },
+        {
+          "work": "letters-2000",
+          "locator": "p. 620",
+          "locator_type": "page",
+          "quote": "My dear Aleck, I have been ill in bed for a long time, with a sort of malarial fever, and have not been able to answer your kind letter of invitation. I am quite well now, and, as you wished to see my somewhat farcical comedy, I send you the first copy of it. It is called Lady Lancing on the cover: but the real title is The Importance of Being Earnest. When you read the play, you will see the punning title's meaning. … I read charming accounts of your banquet at Birmingham, and your praise of the English dramatist. I know and admire Pinero's work, but who is Jones? Perhaps the name as reported in the London papers was a misprint for something else. I have never heard of Jones. Have you? Give my kind regards to Mrs Aleck, and believe me, sincerely yours",
+          "context": "Wilde to George Alexander, [circa 25 October 1894], 16 Tite Street (MS Arents) — sending the typescript of The Importance of Being Earnest, still stamped Lady Lancing. The elision drops a paragraph arguing the play is unsuited to Alexander's line, which is trade. 'Who is Jones?' is a joke at the expense of Henry Arthur Jones, whose play Alexander had produced six months earlier and whom Wilde knew perfectly well.",
+          "speaker": "Oscar Wilde",
+          "addressee": "George Alexander",
+          "evidence_date": {
+            "y": 1894,
+            "m": 10,
+            "d": 25,
+            "circa": true
+          },
+          "supports": "The friendship at its most companionable — illness, a joke shared at a rival's expense, and regards to the wife who greets him again in the last letter of 1900.",
+          "verification": "verified-elision",
+          "how_verified": "pdf-at-page",
+          "provenance": "Repo PDF page 672; printed folio 620 confirmed on the rendered page image, read 2026-08-05.",
+          "verified_by": "claude-at-page",
+          "verified_on": "2026-08-05",
+          "voice": "period"
+        },
+        {
+          "work": "letters-2000",
+          "locator": "p. 633",
+          "locator_type": "page",
+          "quote": "Dear Aleck, I am much obliged to you for your cheque for £300. If it is possible could you let me have the balance as soon as possible. I am already served with writs for £400, rumours of prosperity having reached the commercial classes, and my hotel is loathsome to me. I want to leave it. On Sunday I hope to send you, or read you, the vital parts of my Florentine play. I think you will like it. In any case, some day soon I would like to talk to you about it. I am sorry my life is so marred and maimed by extravagance. But I cannot live otherwise. I, at any rate, pay the penalty of suffering. Ever yours",
+          "context": "Wilde to George Alexander, [February 1895], St James's Theatre (MS Hyde) — quoted whole. The Importance of Being Earnest had opened there on 14 February; Queensberry left his card at the Albemarle on the 18th. Nothing in the letter is off the subject of the two of them, so nothing is cut.",
+          "speaker": "Oscar Wilde",
+          "addressee": "George Alexander",
+          "evidence_date": {
+            "y": 1895,
+            "m": 2
+          },
+          "supports": "What Wilde told Alexander about himself weeks before the collapse — the trust in the friendship, measured by the confession rather than by any endearment.",
+          "verification": "verified-exact",
+          "how_verified": "pdf-at-page",
+          "provenance": "Repo PDF page 685; printed folio 633 confirmed on the rendered page image, read 2026-08-05.",
+          "verified_by": "claude-at-page",
+          "verified_on": "2026-08-05",
+          "voice": "period"
+        },
+        {
+          "work": "letters-2000",
+          "locator": "p. 1193",
+          "locator_type": "page",
+          "quote": "My dear Aleck, It was really a great pleasure to see you again, and to receive your friendly grasp of the hand after so many years. Nor shall I forget your dear wife's charming and affectionate greeting of me. I know now how to value things like that. With regard to your proposal to spread the payment for the plays over a certain time, I know it was dictated by sheer kindness and the thoughtfulness of an old friend. … I would then have before me a year free from worry, and perhaps may do something you would like. Could you do this for me? I was delighted to see you so well, and so unchanged. Kindest wishes to your wife. Sincerely yours",
+          "context": "Wilde to George Alexander, [? 21 July 1900], Hôtel d'Alsace, Paris (MS Arents) - four months before Wilde's death, and eighteen months after Alexander had cut him in the street at Napoule. The elision drops the standing-order instructions and Robert Ross's street address. The editors' note 2 records that Alexander had bought the acting rights to Lady Windermere's Fan and The Importance of Being Earnest at the bankruptcy, 'made some voluntary payments to Wilde and bequeathed the rights to Wilde's son Vyvyan on his death in 1918'.",
+          "speaker": "Oscar Wilde",
+          "addressee": "George Alexander",
+          "evidence_date": {
+            "y": 1900,
+            "m": 7,
+            "d": 21,
+            "circa": true
+          },
+          "supports": "The warmth of the friendship at the very end of Wilde's life, and what he had learned to value - a handshake, and a wife's greeting.",
+          "verification": "verified-elision",
+          "how_verified": "pdf-at-page",
+          "provenance": "Repo PDF page 1239; printed folio 1193 confirmed on the rendered page image, read 2026-08-05. The OCR mirror attributes this letter to printed 1192; the page image gives 1193.",
+          "verified_by": "claude-at-page",
+          "verified_on": "2026-08-05",
+          "voice": "period"
+        }
+      ]
+    },
+    {
+      "partner_name": "Oscar Wilde",
+      "period": "London, February 1891",
+      "note": "Added 2026-08-06 during the deferred-items pass. Professional, and kept for what Wilde says about his own working method rather than for any warmth beyond 'My dear Aleck'.",
+      "sources": [
+        {
+          "work": "letters-2000",
+          "locator": "p. 463",
+          "locator_type": "page",
+          "quote": "My dear Aleck, I am not satisfied with myself or my work. I can't get a grip of the play yet: I can't get my people real. The fact is I worked at it when I was not in the mood for work, and must first forget it, and then go back quite fresh to it. I am very sorry, but artistic work can't be done unless one is in the mood; certainly my work can't. Sometimes I spend months over a thing, and don't do any good; at other times I write a thing in a fortnight.",
+          "context": "Wilde to George Alexander, [2 February 1891], 16 Tite Street (MS Arents). The play is Lady Windermere's Fan, which Alexander had commissioned and would produce the following year. The letter continues about The Duchess of Padua's anonymous New York production. THE SAME FOLIO carries the Horne and Clifton letters already on this map; this one had been logged as read-but-unentered and is now closed.",
+          "speaker": "Oscar Wilde",
+          "addressee": "George Alexander",
+          "evidence_date": {
+            "y": 1891,
+            "m": 2,
+            "d": 2
+          },
+          "supports": "Wilde admitting to his manager that he cannot work to order.",
+          "verification": "verified-exact",
+          "how_verified": "pdf-at-page",
+          "provenance": "Repo PDF page 483; printed folio 463 confirmed on the rendered page image, read 2026-08-06.",
+          "verified_by": "claude-at-page",
+          "verified_on": "2026-08-06",
+          "voice": "period"
+        }
+      ]
+    }
+  ],
+  "research_status": "phase-a"
+}

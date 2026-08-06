@@ -124,6 +124,26 @@
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Herbert Charles Pollitt"
+    },
+    {
+      "work": "letters-2000",
+      "locator": "p. 1107",
+      "locator_type": "page",
+      "quote": "… assured me you were quite golden, and I have always thought of you as a sort of gilt sunbeam masquerading in clothes, but, no doubt, you are Protean, and have many forms. When you come to Paris pray be golden entirely, and leave your more serious aspect in charge of Smithers, who needs, indeed, some stern monitor for his manner of living. No: don't come to the Hôtel d'Alsace; it is a poor little Bohemian hotel, only suited for those Sybarites who are exiled from Sybaris. It would be a poor background for you, and background is so much. Go to some purple place, which will go with your hair: and bring a green window with you that you may look out on life in proper fashion: attitude is all. Ever yours",
+      "context": "Wilde to H. C. Pollitt, Paris, December 1898 - the close of the letter; it begins on the preceding folio and the quote starts where this page does, mid-sentence. The editors note that Pollitt's Kendal home was called The Green Window, which is the joke in the last sentence. THE SAME FOLIO carries the letter to Turner that names Alphonse, Joseph and Hylton's boy Herbert. ADDED 2026-08-06: this letter was read at the page during the Alphonse sweep and left unlogged; it is written in now rather than deferred.",
+      "speaker": "Oscar Wilde",
+      "addressee": "H. C. Pollitt",
+      "evidence_date": {
+        "y": 1898,
+        "m": 12
+      },
+      "supports": "Wilde on Pollitt's goldness, and telling him where not to stay.",
+      "verification": "verified-elision",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF page 1153; printed folio 1107 confirmed on the rendered page image, read 2026-08-06.",
+      "verified_by": "claude-at-page",
+      "verified_on": "2026-08-06",
+      "voice": "period"
     }
   ]
 }

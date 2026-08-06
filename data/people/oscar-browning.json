@@ -1,0 +1,90 @@
+{
+  "id": "oscar-browning",
+  "name": "Oscar Browning",
+  "sort_name": "Browning, Oscar",
+  "aka": [],
+  "born": {
+    "y": 1837
+  },
+  "died": {
+    "y": 1923
+  },
+  "group": "aesthete",
+  "gender": "m",
+  "bio": "Schoolmaster and historian (1837-1923). An Eton master from 1860 to 1875 - George Curzon was his most famous pupil - and thereafter a Cambridge don and celebrated 'character'. Fifteen of Wilde's letters to him survive, beginning in 1879 when Wilde was twenty-four and running through the 1880s. The early ones have Wilde running his errands in London, buying him neckties and hunting Paternoster Row for a bible, and wishing he had been at the theatre with him.",
+  "bio_sources": [
+    "letters-2000"
+  ],
+  "bio_note": "Added 2026-08-06, clearing a backlog: he had been flagged as a candidate on 2026-08-05 and not created for a day, which is the deferral habit this project keeps having to correct. HE WAS MISSED ENTIRELY BY AN EARLIER TASK LIST, which recorded him as 'H. C. Browning' and could not find him; he is OSCAR Browning, and it is the largest correspondence on this map with a figure of queer-historical interest outside the inner circle. NO CONNECTION LINE: the register is affectionate friendship between a young man and an older one, with errands and theatre-going, and nothing read states or implies attraction. WHAT IS **NOT** IN THIS VOLUME, and is therefore not asserted here: the circumstances of his leaving Eton in 1875. The editors' note gives only 'Eton master 1860-75' and passes over the rest in silence. The account generally given elsewhere - that he was forced out over his relationships with boys - is real scholarship but it is not in this source, and this node will not borrow it. **A ROSTER NOTE OF MINE ASSERTED IT ON 2026-08-05 AND WAS WRONG TO;** that has been corrected. FIFTEEN LETTERS at printed 80 (two), 87, 88, 111, 268, 313, 337, 339, 342, 348, 358, 360, 368, 373, 407. THREE READ AT THE PAGE (2026-08-06) - printed 80 twice and 111. The other twelve are located and unread and should be read before anyone characterises this friendship confidently.",
+  "context_engagements": [
+    {
+      "partner_name": "Oscar Wilde",
+      "period": "London and Cambridge, from 1879",
+      "note": "Friendship, recorded without a connection line. All three letters quoted whole.",
+      "sources": [
+        {
+          "work": "letters-2000",
+          "locator": "p. 80",
+          "locator_type": "page",
+          "quote": "Dear Mr Browning, I would have been only too happy to have the opportunity of doing any commission for you had I been in town, but I have been away for a week with friends. I shall see about your ties this afternoon. I am perhaps a better judge of neckties than of bibles, but I shall not fail to enquire about the latter. Nothing would please me more than a visit to you: when are your festivities? Very truly yours",
+          "context": "Wilde to Oscar Browning, [late May 1879], St Stephen's Club (MS Mason) - quoted whole, and the earliest of the fifteen. Wilde was twenty-four and Browning forty-two.",
+          "speaker": "Oscar Wilde",
+          "addressee": "Oscar Browning",
+          "evidence_date": {
+            "y": 1879,
+            "m": 5
+          },
+          "supports": "The footing at the start: Wilde running an older man's errands and angling for an invitation.",
+          "verification": "verified-exact",
+          "how_verified": "pdf-at-page",
+          "provenance": "Repo PDF page 105; printed folio 80 confirmed on the rendered page image, read 2026-08-06.",
+          "verified_by": "claude-at-page",
+          "verified_on": "2026-08-06",
+          "voice": "period"
+        },
+        {
+          "work": "letters-2000",
+          "locator": "p. 80",
+          "locator_type": "page",
+          "quote": "My dear Browning, Your bible and prayer book only exists in a bookseller's Utopia! There is no such thing: I ransacked all Paternoster Row on this wretched rainy day and found nothing that would suit you. … I am afraid you will have to take refuge in an Edition de Luxe of Keble's Christian Year if you want something nice. I am so sorry my search is so unsuccessful. I wish so much you could have been with me last night. Sarah Bernhardt's Phèdre was the most splendid creation I ever witnessed. … It seems so foolish to call French Tragedy stilted: the scene last night was not a bit 'ἐκ δρυός καὶ πέτρης' but the most impassioned human nature.",
+          "context": "Wilde to Oscar Browning, [3 June 1879], St Stephen's Club (MS Hughan). The elisions drop practical detail about the Bible Society and a paragraph on being in Oxford. The Greek the editors render 'out of oak and stone'. Note the address has moved from 'Dear Mr Browning' to 'My dear Browning' within a fortnight.",
+          "speaker": "Oscar Wilde",
+          "addressee": "Oscar Browning",
+          "evidence_date": {
+            "y": 1879,
+            "m": 6,
+            "d": 3
+          },
+          "supports": "A whole rainy day spent shopping for him, and the wish that he had been there.",
+          "verification": "verified-elision",
+          "how_verified": "pdf-at-page",
+          "provenance": "Repo PDF page 105; printed folio 80 confirmed on the rendered page image, read 2026-08-06.",
+          "verified_by": "claude-at-page",
+          "verified_on": "2026-08-06",
+          "voice": "period"
+        },
+        {
+          "work": "letters-2000",
+          "locator": "p. 111",
+          "locator_type": "page",
+          "quote": "My dear Browning, If you get the opportunity, and would care for it, I wish you would review my first volume of poems just about to appear: books so often fall into stupid and illiterate hands that I am anxious to be really criticised: ignorant praise or ignorant blame is so insulting. Truly yours",
+          "context": "Wilde to Oscar Browning, [June 1881], Keats House, Tite Street (MS Dartmouth) - quoted whole. The editors record that Browning did review Poems, in the Academy of 30 July 1881. THE SAME PRINTED PAGE carries Wilde's letter to ROBERT Browning offering him the first copy of the same book - two unrelated Brownings on one folio, which is why the index lists them separately.",
+          "speaker": "Oscar Wilde",
+          "addressee": "Oscar Browning",
+          "evidence_date": {
+            "y": 1881,
+            "m": 6
+          },
+          "supports": "Wilde asking him for the review he then wrote.",
+          "verification": "verified-exact",
+          "how_verified": "pdf-at-page",
+          "provenance": "Repo PDF page 136; printed folio 111 confirmed on the rendered page image, read 2026-08-06.",
+          "verified_by": "claude-at-page",
+          "verified_on": "2026-08-06",
+          "voice": "period"
+        }
+      ]
+    }
+  ],
+  "research_status": "phase-a"
+}

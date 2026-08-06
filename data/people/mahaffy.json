@@ -1,0 +1,73 @@
+{
+  "id": "mahaffy",
+  "born": {
+    "y": 1839
+  },
+  "died": {
+    "y": 1919
+  },
+  "gender": "m",
+  "context_engagements": [
+    {
+      "partner_name": "Oscar Wilde",
+      "period": "Dublin, Oxford and after, 1874-1893",
+      "note": "Teacher and pupil, recorded without a connection line.",
+      "sources": [
+        {
+          "work": "letters-2000",
+          "locator": "pp. 561-2",
+          "locator_type": "page",
+          "quote": "My dear Mahaffy, I am so pleased you like the play, and thank you for your charming letter, all the more flattering to me as it comes not merely from a man of high and distinguished culture, but from one to whom I owe so much personally, from my first and my best teacher, from the scholar who showed me how to love Greek things. Let me sign myself, in affection and admiration, your old pupil and your old friend",
+          "context": "Wilde to J. P. Mahaffy, [? April 1893], Haymarket Theatre (MS Dublin) - quoted whole. The play is A Woman of No Importance. READ IT AGAINST THE DELETION recorded at printed 28: the thing Wilde thanks him for here, teaching him how to love Greek things, is the thing later editions of Mahaffy's book stopped mentioning, along with Wilde's name. Wilde had two years left before the trials.",
+          "speaker": "Oscar Wilde",
+          "addressee": "J. P. Mahaffy",
+          "evidence_date": {
+            "y": 1893,
+            "m": 4
+          },
+          "supports": "What Wilde said he owed him, in the words the later editions removed.",
+          "verification": "verified-exact",
+          "how_verified": "pdf-at-page",
+          "provenance": "Repo PDF pages 613-614; printed folios 561 and 562 both confirmed on the rendered page images, read 2026-08-05.",
+          "verified_by": "claude-at-page",
+          "verified_on": "2026-08-05",
+          "voice": "period"
+        },
+        {
+          "work": "letters-2000",
+          "locator": "p. 28",
+          "locator_type": "page",
+          "quote": "I am with that dear Mahaffy every day. He has a charming house by the sea here, on a place called the Hill of Howth … the only place near town with fields of yellow gorse, and stretches of wild myrtle, red heather and ferns. … Mahaffy's book of Travels in Greece will soon be out. I have been correcting his proofs and like it immensely.",
+          "context": "Wilde to William Ward, Sunday [6 August 1876] (MS Magdalen), aged twenty-one - the same letter as the Todd passage. The elision drops a party to the North of Ireland Wilde missed. THE EDITORS' NOTE ON THIS PAGE is the reason the node exists: Mahaffy thanked 'my old pupil Mr Oscar Wilde of Magdalen College, Oxford' in the preface to Social Life in Greece for improvements 'all through the book', and 'Significantly, in later editions of Social Life both the discussion of Greek homosexuality and the reference to Wilde were dropped.'",
+          "speaker": "Oscar Wilde",
+          "addressee": "William Ward",
+          "evidence_date": {
+            "y": 1876,
+            "m": 8,
+            "d": 6
+          },
+          "supports": "The closeness at the start, against which the deletion has to be read.",
+          "verification": "verified-elision",
+          "how_verified": "pdf-at-page",
+          "provenance": "Repo PDF pages 53-54; printed folios 28 and 29 both confirmed on the rendered page images, read 2026-08-05.",
+          "verified_by": "claude-at-page",
+          "verified_on": "2026-08-05",
+          "voice": "period"
+        }
+      ]
+    }
+  ],
+  "research_status": "phase-a",
+  "bio_sources": [
+    "letters-2000"
+  ],
+  "name": "J. P. Mahaffy",
+  "sort_name": "Mahaffy, John Pentland",
+  "aka": [
+    "Mahaffy",
+    "John Pentland Mahaffy"
+  ],
+  "group": "aesthete",
+  "bio": "Classical scholar (1839-1919), Wilde's tutor at Trinity College Dublin and later its Provost. He took Wilde to Greece in 1877, and Wilde corrected the proofs of his Rambles and Studies in Greece and made 'improvements and corrections all through' an earlier book, Social Life in Greece from Homer to Menander (1874), for which Mahaffy thanked him by name in the preface. Social Life contained a discussion of Greek homosexuality. In later editions both that discussion and the thanks to Wilde were removed.",
+  "bio_note": "Added 2026-08-05, per Lovelle, from the parked list. NO CONNECTION LINE and none is suggested: this is a teacher and a pupil. HE IS HERE FOR THE DELETION. The editors state it flatly at printed 28: 'Significantly, in later editions of Social Life both the discussion of Greek homosexuality and the reference to Wilde were dropped.' The two removals travel together, which is the point. THE OTHER HALF OF THE ENTRY is Wilde's letter of 1893, seventeen years after he corrected the proofs and two years before the trials, thanking him as 'the scholar who showed me how to love Greek things' - the exact thing the later editions took out. Neither man is recorded commenting on the other's part in it. THIS IS ONE OF THREE ERASURES on this map from the same decades; see [[pater]] and [[gide]]. WHAT IS NOT ASSERTED: when the deletion was made, at whose instance, or whether the trials prompted it. TWO LETTERS at repo PDF 301 and 613-14; the 1893 one is read at the page, the earlier one is located and unread."
+}

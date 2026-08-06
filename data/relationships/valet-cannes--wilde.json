@@ -1,0 +1,43 @@
+{
+  "id": "valet-cannes--wilde",
+  "people": [
+    "valet-cannes",
+    "wilde"
+  ],
+  "certainty": "attraction-expressed",
+  "certainty_status": "proposed",
+  "direction": "wilde",
+  "outcome": "unknown",
+  "start": {
+    "y": 1899,
+    "m": 2,
+    "d": 1
+  },
+  "end": null,
+  "date_label": "Seen once, at Cannes, 1 February 1899",
+  "summary": "Wilde saw him at the Bataille des Fleurs at Cannes and wrote about him to Robert Ross the following day — 'a very handsome boy, all wreathed with flowers' — answering the sight with 'Imperial, Neronian Rome'. One sighting, admiringly described; no contact of any kind is recorded.",
+  "certainty_reasoning": "ATTRACTION-EXPRESSED, with the arrow from Wilde: the admiration is his, in his own hand, and nothing from the other side survives — the young man is not named and there is no sign the two ever spoke. OUTCOME IS 'unknown' rather than 'declined' or 'unreciprocated', because nothing was addressed to him to decline. The classical tag is part of the evidence, not decoration: 'Imperial, Neronian Rome' places the boy in a frame Wilde used for beauty and licence together. This connection was 'cleared' by the 2026-08-04 sweep as mere spectating and reinstated by Lovelle on 2026-08-05; the reasoning for the reversal is that spectating is how most of the exile-tier record survives, and the bar is whether desire is legible, not whether anything came of it.",
+  "sources": [
+    {
+      "work": "letters-2000",
+      "locator": "p. 1121",
+      "locator_type": "page",
+      "quote": "Today, for the first time, rain – quite an Irish day. Yesterday was lovely. I went to Cannes to see the Bataille des Fleurs. The loveliest carriage – all yellow roses, the horses with traces and harness of violets – was occupied by an evil-looking old man, English: on the box, beside the coachman, sat his valet, a very handsome boy, all wreathed with flowers. I murmured 'Imperial, Neronian Rome'.",
+      "context": "Wilde to Robert Ross, 2 February 1899, Napoule (MS Clark). The Bataille des Fleurs is the flower-battle carnival at Cannes; Wilde had gone over for the day from Napoule, where he was staying with Frank Harris.",
+      "speaker": "Oscar Wilde",
+      "addressee": "Robert Ross",
+      "evidence_date": {
+        "y": 1899,
+        "m": 2,
+        "d": 1
+      },
+      "supports": "The whole of the record for this connection: Wilde's sighting, his description of the young man as very handsome, and the frame he put round it.",
+      "verification": "verified-exact",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF page 1167; printed folio 1121 confirmed on the rendered page image, read 2026-08-05. The sweep cited this as 'printed ~1119', which the page image corrects.",
+      "verified_by": "claude-at-page",
+      "verified_on": "2026-08-05",
+      "voice": "period"
+    }
+  ]
+}

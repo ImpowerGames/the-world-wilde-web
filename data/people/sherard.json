@@ -1,0 +1,26 @@
+{
+  "id": "sherard",
+  "name": "Robert Harborough Sherard",
+  "sort_name": "Sherard, Robert Harborough",
+  "aka": [
+    "R. H. Sherard",
+    "Robert Sherard"
+  ],
+  "born": {
+    "y": 1861
+  },
+  "died": {
+    "y": 1943
+  },
+  "group": "aesthete",
+  "gender": "m",
+  "bio": "Journalist and biographer, great-grandson of Wordsworth, born Robert Harborough Sherard Kennedy and known from youth by the middle name alone. He met Wilde in Paris in early 1883 and was still writing about him half a century later: four books, beginning with Oscar Wilde: the Story of an Unhappy Friendship (1902) and ending with Bernard Shaw, Frank Harris and Oscar Wilde (1937), besides biographies of Zola, Daudet and Maupassant. Thirteen of Wilde's letters to him survive, from 1883 to 1898, including three from Holloway between the trials and one from Reading Gaol. He fought duels in Paris on Wilde's behalf; he also denounced the Naples reunion with Douglas in 1897, and Wilde answered him coldly. The last letter sends him a copy of the Ballad 'in memory of our long friendship'.",
+  "bio_sources": [
+    "letters-2000",
+    "ellmann-1988",
+    "mckenna-2008"
+  ],
+  "bio_note": "Added 2026-08-05 out of the v2 parking lot, per Lovelle. DATES 1861-1943 and the biography are from the editors' note at Complete Letters printed 205, folio confirmed on the rendered page image, read 2026-08-05. THE THIRTEEN LETTERS are at repo PDF 227, 232-3, 369, 524, 530, 676, 693-4, 695, 696, 713, 1011 and 1072. ALL THIRTEEN have now been read at the page (printed 205, 210-11, 347-8, 504, 510, 624, 642-3, 644, 645, 662, 963, 1026), every folio confirmed on its own page image. HIS WIFE: the editors' note at printed 347 records that he married a Polish woman, Martha Lips, in 1886; she is now a node under the spouse rule. A CORRECTION TO THIS PROJECT'S OWN RECORD: the 2026-08-04 sweep cited the dedication letter at printed 202 - that is the Mary Anderson letter about The Duchess of Padua - and quoted it from 'how could I refuse' onward, omitting 'Your letter was as loveable as yourself' and the 'moonlit meanderings'. Its verdict of 'warm, and not desire' was reached on that excerpt. Reading the letters whole reversed it twice over: first onto the map as uncorroborated, then to attraction-expressed once the 'honey-coloured hair' letter was read. ONE MORE THREAD WORTH FOLLOWING: the Reading letter asks to be remembered to George Ives, who is already a node, and says 'I am very glad you know him' - a Sherard-Ives acquaintance that nothing else in this corpus records.",
+  "context_engagements": [],
+  "research_status": "phase-a"
+}

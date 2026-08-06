@@ -146,15 +146,43 @@ with sync_playwright() as pw:
     check("left-drag on empty ground still pans", abs(vb()[0] - before_vb[0]) > 10,
           f"vb.x {before_vb[0]:.0f} -> {vb()[0]:.0f}")
 
-    t2 = pg.evaluate("""()=>{const v=document.getElementById('web').getAttribute('viewBox').split(' ').map(Number);
-        const r=document.getElementById('web').getBoundingClientRect();
-        const n=window.circle.nodes.find(n=>n.id==='wilde');
-        return {cx:r.left+(n.x-v[0])/v[2]*r.width, cy:r.top+(n.y-v[1])/v[3]*r.height};}""")
-    before_n = node("wilde")
+    # Moving somebody is a HELD gesture now. A press that drags straight away is a pan - which is the
+    # point of the change, since on a web this dense you are usually starting on somebody - and only
+    # a press that survives the hold picks the person up.
+    def at(nid):
+        return pg.evaluate("""id=>{const v=document.getElementById('web').getAttribute('viewBox').split(' ').map(Number);
+            const r=document.getElementById('web').getBoundingClientRect();
+            const n=window.circle.nodes.find(n=>n.id===id);
+            return {cx:r.left+(n.x-v[0])/v[2]*r.width, cy:r.top+(n.y-v[1])/v[3]*r.height};}""", nid)
+
+    t2, before_n, before_vb = at("wilde"), node("wilde"), vb()
     pg.mouse.move(t2["cx"], t2["cy"]); pg.mouse.down()
     pg.mouse.move(t2["cx"] + 40, t2["cy"] + 30, steps=6); pg.mouse.up()
-    pg.wait_for_timeout(200)
-    check("left-drag on a person still moves them", node("wilde") != before_n)
+    pg.wait_for_timeout(250)
+    check("left-drag on a person pans instead of moving them", node("wilde") == before_n)
+    check("...and that drag panned the view", abs(vb()[0] - before_vb[0]) > 10,
+          f"vb.x {before_vb[0]:.0f} -> {vb()[0]:.0f}")
+
+    t2, before_n = at("wilde"), node("wilde")
+    pg.mouse.move(t2["cx"], t2["cy"]); pg.mouse.down()
+    pg.wait_for_timeout(650)                      # past LONGPRESS_MS
+    armed = pg.evaluate("()=>!!document.querySelector('#web .node.armed')")
+    pg.mouse.move(t2["cx"] + 40, t2["cy"] + 30, steps=6); pg.mouse.up()
+    pg.wait_for_timeout(250)
+    check("holding a person arms the drag", armed)
+    check("held drag moves them", node("wilde") != before_n)
+    check("the armed mark is cleared on release",
+          not pg.evaluate("()=>!!document.querySelector('#web .node.armed')"))
+
+    # ...and the same hold, released without travelling, puts them back
+    t2 = at("wilde")
+    pg.mouse.move(t2["cx"], t2["cy"]); pg.mouse.down()
+    pg.wait_for_timeout(650); pg.mouse.up()
+    pg.wait_for_timeout(600)
+    home = pg.evaluate("()=>{const n=window.circle.nodes.find(n=>n.id==='wilde');return [n.cx,n.cy];}")
+    now = node("wilde")
+    check("a hold released in place sends them home",
+          abs(now[0] - home[0]) < 2 and abs(now[1] - home[1]) < 2, f"{now} vs {home}")
 
     check("no console errors", not errs, str(errs[:3]))
     b.close()

@@ -1,0 +1,52 @@
+{
+  "id": "rette",
+  "name": "Adolphe Retté",
+  "sort_name": "Retté, Adolphe",
+  "aka": [
+    "Adolphe Rette"
+  ],
+  "born": {
+    "y": 1863
+  },
+  "died": {
+    "y": 1910
+  },
+  "group": "beyond",
+  "gender": "m",
+  "bio": "Symbolist poet (1863-1910), and one of the three Frenchmen who went over the French of Salomé before it was printed. In Le Symbolisme, Anecdotes et Souvenirs (1903) he described what he did to it: struck out the over-formal anglicisms, marked corrections in the margin, and made Wilde cut a long list of jewels from Herod's mouth. Wilde asked him to dinner through Stuart Merrill in the winter of 1891.",
+  "bio_sources": [
+    "letters-2000"
+  ],
+  "bio_note": "Added 2026-08-06. **I FIRST DECIDED NOT TO CREATE HIM AND WAS WRONG.** The reasoning was that his only appearance was a name in a dinner invitation - 'Ask Retté to come' (printed 500) - which documents no relationship. That was true of the ONE reference I had looked at. Lovelle asked whether the index listed any others; it does. The General Index entry reads 'Retté, Adolphe, 500, 506n', and 506n carries a page of his own first-hand account of working on Salomé, plus Merrill corroborating it. THE RULE THIS ESTABLISHES: check BOTH indexes for letters to a person and for mentions of them before deciding they are too thin for a node. NO CONNECTION LINE: the relation is collaborative and nothing states or implies attraction. HE SPEAKS IN HIS OWN VOICE here, which few people on this map do, and what he describes is the making of the play that Douglas translated and that the map's Salomé thread runs through.",
+  "context_engagements": [
+    {
+      "partner_name": "Oscar Wilde",
+      "period": "Paris, 1891",
+      "note": "A working collaboration, recorded without a connection line. The source is Retté's own memoir, quoted by the editors.",
+      "sources": [
+        {
+          "work": "letters-2000",
+          "locator": "p. 506 n.",
+          "locator_type": "page",
+          "quote": "les anglicismes trop formels … J'indiquai quelques corrections en marge du drame. Je fis supprimer à Wilde une trop longue énumeration de pierreries mise dans la bouche d'Hérode. De son côté, Merrill lui proposa quelques retouches. Puis Salomé passa entre les mains de Pierre Louÿs qui modifia également quelques phrases. C'est ce texte qui a été imprimé.",
+          "lang": "fr",
+          "translation": "the over-formal anglicisms … I marked some corrections in the margin of the drama. I made Wilde cut a too-long enumeration of jewels put into Herod's mouth. For his part, Merrill proposed some retouches. Then Salomé passed into the hands of Pierre Louÿs, who likewise altered some phrases. It is that text which was printed.",
+          "context": "Adolphe Retté, Le Symbolisme, Anecdotes et Souvenirs (1903), quoted by the editors in their note on the manuscripts of Salomé. HIS OWN ACCOUNT, thirteen years after the fact. It names the whole chain of hands the play passed through - Retté, then [[merrill]], then [[louys]] - and all three are now on this map. The editors add that three manuscripts survive, all in Wilde's hand and all in French.",
+          "speaker": "Adolphe Retté",
+          "addressee": null,
+          "evidence_date": {
+            "y": 1903
+          },
+          "supports": "What Retté actually did to Salomé, in his own words.",
+          "verification": "verified-elision",
+          "how_verified": "pdf-at-page",
+          "provenance": "Repo PDF page 526; printed folio 506 confirmed on the rendered page image, read 2026-08-06.",
+          "verified_by": "claude-at-page",
+          "verified_on": "2026-08-06",
+          "voice": "period"
+        }
+      ]
+    }
+  ],
+  "research_status": "phase-a"
+}

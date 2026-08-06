@@ -1,0 +1,44 @@
+{
+  "id": "branca-doro--wilde",
+  "people": [
+    "branca-doro",
+    "wilde"
+  ],
+  "certainty": "attraction-expressed",
+  "certainty_status": "proposed",
+  "direction": "wilde",
+  "outcome": "unknown",
+  "start": {
+    "y": 1900,
+    "m": 4
+  },
+  "end": {
+    "y": 1900,
+    "m": 4
+  },
+  "date_label": "Palermo and Rome, April 1900",
+  "summary": "Wilde told Robert Ross in April 1900 that he had added Pietro Branca-d'Oro to his circle, describing him as dark and gloomy and saying he loved him very much.",
+  "certainty_reasoning": "ATTRACTION-EXPRESSED, arrow from Wilde, outcome unknown. THE EVIDENCE IS ONE SENTENCE and it is unusually direct for this tier - 'I love him very much' - said in Wilde's own hand to the person he was most candid with. NOTHING SEXUAL IS ESTABLISHED and none is claimed. OUTCOME UNKNOWN because Branca-d'Oro never speaks in this record. WHAT IS THIN: one sentence, no second mention, and 'I love him very much' sits in a paragraph of circle news between a complaint about Homer and a request for photographs, which is a lighter setting than the words alone suggest. WHAT IS NOT THIN: Wilde names him in full, which he does for almost none of the young men of these years - Georges, Armando, Arnaldo, Omero, Raphael, Fortuné and Alphonse all survive under first names only. A surname is a small thing that means he was somebody rather than an encounter.",
+  "sources": [
+    {
+      "work": "letters-2000",
+      "locator": "p. 1181",
+      "locator_type": "page",
+      "quote": "Homer talks much - a little too much - of you. He slightly suspects you of treachery, and your immediate return seems to him problematical. Your allusion to his conduct on a postcard was mysterious. How was the 'revision' painful? I have added one Pietro Branca-d'Oro to the group. He is dark, and gloomy, and I love him very much. I send you a photograph I took on Palm Sunday at Palermo. Do send me some of yours, and love me always, and try to read this letter. It is a labour of a week to read it.",
+      "context": "Wilde to Robert Ross, [April 1900], Rome - quoted whole from the paragraph above the Pietro sentence to the signature, because the setting is part of the evidence. THE 'HOMER' HERE IS OMERO, anglicised - the same young Roman already on this map, seen from a different letter and under an English name. The photograph was taken at Palermo on Palm Sunday, 8 April 1900. The letter ends by asking Ross to love him always.",
+      "speaker": "Oscar Wilde",
+      "addressee": "Robert Ross",
+      "evidence_date": {
+        "y": 1900,
+        "m": 4
+      },
+      "supports": "The whole of the record for Branca-d'Oro, and Wilde saying he loved him.",
+      "verification": "verified-exact",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF page 1227; printed folio 1181 confirmed on the rendered page image, read 2026-08-06.",
+      "verified_by": "claude-at-page",
+      "verified_on": "2026-08-06",
+      "voice": "period"
+    }
+  ]
+}

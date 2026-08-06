@@ -1,0 +1,35 @@
+{
+  "id": "nellie-lloyd--otho-lloyd",
+  "people": [
+    "nellie-lloyd",
+    "otho-lloyd"
+  ],
+  "certainty": "married",
+  "certainty_status": "proposed",
+  "date_label": "Married; dates not established here",
+  "summary": "Otho Holland Lloyd, Constance Wilde's brother, and his wife Nellie. Wilde calls them jointly 'the important uncle and aunt of our son and heir'.",
+  "certainty_reasoning": "MARRIED: Wilde addresses them as a couple in the same breath - 'you and Otho, the important uncle and aunt of our son and heir' - and asks after 'little Otho', their son, in a later letter to Otho alone. NO DATES: the marriage year is not given on any page read here and is not inferred, so the edge carries no start or end.",
+  "sources": [
+    {
+      "work": "letters-2000",
+      "locator": "p. 261",
+      "locator_type": "page",
+      "quote": "I will let you and Otho, the important uncle and aunt of our son and heir, know how she gets on. I hope you will get through your own confinement as easily as Constance - I am sure you will.",
+      "context": "Wilde to Nellie Lloyd, [postmark 5 June 1885], 16 Tite Street (MS Holland). Quoted for the pairing: the two of them named together as uncle and aunt, and Nellie's own pregnancy in the next sentence.",
+      "speaker": "Oscar Wilde",
+      "addressee": "Nellie Lloyd",
+      "evidence_date": {
+        "y": 1885,
+        "m": 6,
+        "d": 5
+      },
+      "supports": "That they were a married couple, and both expecting.",
+      "verification": "verified-elision",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF page 283; printed folio 261 confirmed on the rendered page image, read 2026-08-06.",
+      "verified_by": "claude-at-page",
+      "verified_on": "2026-08-06",
+      "voice": "period"
+    }
+  ]
+}

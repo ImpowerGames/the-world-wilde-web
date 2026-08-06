@@ -1,6 +1,6 @@
 # About
 
-*A working historical reference.*
+_A working historical reference._
 
 ## What this is
 
@@ -14,11 +14,7 @@ Node **colour ** groups people by sphere (Wilde, aesthetes, the 1895 trials, soc
 
 ## Narrowing the map
 
-Every switch in the legend can be clicked to turn its category off. **Right-click one instead to show only that category** — every other switch in the same row goes off, and the one you picked lights up. Right-click it again, or click it, and the row goes back exactly as it was. Each row is independent, so soloing a sphere leaves Gender and Connections alone, and they combine: *Aesthetes only* with *Women only* reads as the women among the aesthetes. The sphere chip above a person's name does the same thing for their sphere, closing their panel first so nothing is competing for the highlight.
-
-## Moving around
-
-The map opens centred on Wilde, and the people furthest out start beyond the edge of the frame. **Fit**, in the header, frames the whole web at once. To move the view without disturbing anyone, **drag with the right or middle mouse button** — that pans from anywhere, including from on top of a person — or **drag with two fingers** on a touchscreen. The scroll wheel and pinch both zoom. Dragging with the left button pans from open ground but **moves a person** if you start on one; a moved person stays put until you double-click them.
+Every switch in the legend can be clicked to turn its category off. **Right-click to solo that category** — every other switch in the same row will turn off, and the one you picked will light up. Click it again, and the row goes back to how it was. Each row is independent, so soloing a sphere leaves Gender and Connections alone. The sphere chip above a person's name does the same thing for their sphere.
 
 ## How a connection is evidenced (line styles)
 
@@ -34,19 +30,23 @@ Every classification is checked by hand against the sources before it is relied 
 
 ## Verification of quotes
 
-Every quote carries a chip saying how far it has been checked. **✓ verified** means a researcher opened the book, found the passage on the printed page, and transcribed it word for word; where a quotation skips material, the cut is marked with an ellipsis in the text itself. **⧖** means **not yet confirmed on the printed page** — either a passage found in a text layer or index but not yet checked against the source page, or a **source pointer**: a claim recorded with nothing transcribed yet, naming only where to look. Pointer cards say so on their face.
+Every quote carries a chip saying how far it has been checked. **⧖** means **not yet confirmed on the printed page** — either a passage found in a text search or index but not yet checked against the source page, or a **source pointer**: a claim recorded with nothing transcribed yet, naming only where to look.
 
-The search box has a scope. **Names** is the default; **Quotations** widens it to every quotation attached to a person's connections and their biography; **All** widens it again to the project's own notes — the reasoning behind each certainty class, the disputed blocks, where each fact came from. Notes are deliberately kept out of the Quotations scope: a quotation is evidence, a note is us.
+These chips describe the _research_ pass, not a final scholarly verdict. A separate audit runs by hand through a ledger kept beside the data, where each quotation is checked against the page it came from to characterize the connection. Not all connections are currently accurate. They may shift as more information is uncovered. And characterization will always remain somewhat inconclusive, as the classification of relationships is an inherently subjective endeavour. The goal of the project is to provide sources depicting warmth and affection in an easily searchable way, not to definitively prove things one way or another. The reader is welcome draw their own conclusions and contribute their own sources by opening a ticket in our open-source repository.
 
-Quotations set between **large quotation marks** are entirely in the voice of someone alive at the time — a letter, a diary, sworn testimony, a contemporary memoir. Quotations with a plain rule down the left are a historian, biographer or editor writing *about* these people. A quotation set **screenplay-style** behind a double rule, with each speaker's name above what they said, comes from the trial record — courtroom question and answer, where counsel asks and a witness replies. It carries no single speaker because more than one person is talking, and each line says who.
+## A note on the trial record
 
-A quotation that is not in English is printed in its own language first, with a plain English translation beneath it. The translation is the project's own unless the card says otherwise, and the original is what the claim rests on.
+The 1895 trial record documents ages, sex work, and blackmail; the reference reproduces exactly what the court documents record, with citation.
 
-These chips describe the *research* pass, not a final scholarly verdict. A separate audit runs by hand through a ledger kept beside the data, where each quotation is checked against the page it came from. The amber marks are honesty markers, not decoration: nothing unverified is dressed up as settled, and the counter in the masthead states how many remain.
+## Controls
 
-## A note on the record
+To **pan**, _click-and-drag_.
 
-The 1895 trial record documents ages, sex work, and blackmail; the reference states exactly what the record states, with citation, and nothing more. These relationships were criminalized under the Labouchère Amendment (1885) — the legal frame in which every documented fact here was produced, including the trial testimony itself.
+To **zoom**, _scroll_ or _pinch-and-zoom_.
+
+To **move a node**, _press-and-hold the node until it turns gold_, then _drag it_.
+
+To **reset a node**, _press, hold, and release the node without moving_.
 
 ## Colophon
 

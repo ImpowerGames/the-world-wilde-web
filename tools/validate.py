@@ -398,6 +398,50 @@ def validate(works, people, rels):
     orphans = pids - {p for r in rels if "__load_error__" not in r for p in r.get("people", [])}
     for o in sorted(orphans):
         warnings.append(f"{o}: on the roster but in no relationship")
+
+    # THE SAME EXCERPT TWICE IN ONE FILE, or on both a person and their own connection. One source
+    # legitimately evidences several DIFFERENT connections - the letter naming Raphael and Fortune
+    # is cited on both, and the panel collapses them at render time - but the same excerpt repeated
+    # inside a single record, or on a person AND a connection they are party to, is duplication with
+    # nothing to distinguish it. `alphonse` shipped that way: the letter appeared once on a context
+    # engagement with Wilde and again on alphonse--turner, printing the paragraph twice and implying
+    # a pairing the source never made.
+    def _qkey(q):
+        return (q.get("work"), q.get("locator"),
+                re.sub(r"\W+", " ", (q.get("quote") or "")).strip().lower())
+
+    for holder, sources in ([(r.get("id", "?"), r.get("sources") or []) for r in rels] +
+                            [(f"{p.get('id','?')}.context[{ce.get('partner_name','?')}]",
+                              ce.get("sources") or [])
+                             for p in people for ce in p.get("context_engagements") or []]):
+        seen = set()
+        for q in sources:
+            k = _qkey(q)
+            if not k[2]:
+                continue                      # pointers carry no text and never collide
+            if k in seen:
+                errors.append(f"{holder}: the same excerpt of {k[0]} {k[1]} appears twice in this "
+                              f"record - quote it once")
+            seen.add(k)
+
+    by_person = {}
+    for r in rels:
+        for pid in r.get("people", []) or []:
+            for q in r.get("sources") or []:
+                by_person.setdefault(pid, {}).setdefault(_qkey(q), []).append(r.get("id", "?"))
+    for p in people:
+        pid = p.get("id")
+        for ce in p.get("context_engagements") or []:
+            for q in ce.get("sources") or []:
+                k = _qkey(q)
+                if not k[2]:
+                    continue
+                where = by_person.get(pid, {}).get(k)
+                if where:
+                    errors.append(
+                        f"{pid}: the excerpt of {k[0]} {k[1]} is on this person's context "
+                        f"engagement AND on their own connection {where[0]} - keep it on the "
+                        f"connection only")
     return errors, warnings
 
 
@@ -467,8 +511,14 @@ def about_html():
         s = esc(s)
         s = re.sub(r"\[([^\]]+)\]\(([^)]+)\)",
                    r'<a href="\2" target="_blank" rel="noopener">\1</a>', s)
+        # Both spellings of emphasis. A markdown formatter rewrites *this* to _this_ whenever it
+        # runs over ABOUT.md, so reading only the asterisks meant the page printed the underscores.
         s = re.sub(r"\*\*(.+?)\*\*", r"<b>\1</b>", s)
+        s = re.sub(r"(?<![A-Za-z0-9_])__(.+?)__(?![A-Za-z0-9_])", r"<b>\1</b>", s)
         s = re.sub(r"(?<!\*)\*([^*]+)\*(?!\*)", r"<i>\1</i>", s)
+        # ...but the underscore form only between word boundaries, or `evidence_date` and
+        # `order_hint` - ordinary words here - would come out with their middles in italics.
+        s = re.sub(r"(?<![A-Za-z0-9_])_([^_\n]+)_(?![A-Za-z0-9_])", r"<i>\1</i>", s)
         return s
     out, ul = [], False
     def close_ul():
@@ -489,14 +539,19 @@ def about_html():
                 out.append("<ul>"); ul = True
             body = line[2:]
             # A bullet that opens with a line sample IS the sample - no disc as well.
-            cls = ' class="lrow"' if body.startswith("{{line:") else ""
+            # NOT "lrow" - that is the All-relationships list's row button, and About renders
+            # into the same panel on desktop, so the two would share a stylesheet rule.
+            cls = ' class="lkey"' if body.startswith("{{line:") else ""
             out.append(f"<li{cls}>{inline(body)}</li>")
         elif line.strip() == "{{colophon}}":
             close_ul(); out.append('<p id="colophon"></p>')
         else:
             close_ul()
-            cls = ' class="sub" style="font-style:italic"' if (
-                line.startswith("*") and line.endswith("*") and not line.startswith("**")) else ""
+            # The subtitle is a whole line in italics, in either spelling.
+            wrapped = ((line.startswith("*") and line.endswith("*") and not line.startswith("**"))
+                       or (line.startswith("_") and line.endswith("_")
+                           and not line.startswith("__")))
+            cls = ' class="sub" style="font-style:italic"' if wrapped else ""
             body = inline(line[1:-1]) if cls else inline(line)
             out.append(f"<p{cls}>{body}</p>")
     close_ul()

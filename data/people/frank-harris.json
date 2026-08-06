@@ -1,0 +1,107 @@
+{
+  "id": "frank-harris",
+  "name": "Frank Harris",
+  "sort_name": "Harris, Frank",
+  "aka": [],
+  "born": null,
+  "died": null,
+  "group": "later",
+  "gender": "m",
+  "bio": "Editor of the Fortnightly Review and later the Saturday Review, and afterwards the author of a famously unreliable biography of Wilde. Thirty-seven of Wilde's letters to him survive. In the exile years he paid Wilde a monthly allowance, bought him clothes, and took him to Napoule for a month so that he might write something. Wilde called him 'a dear good friend of mine'.",
+  "bio_sources": [
+    "letters-2000"
+  ],
+  "bio_note": "Added 2026-08-05, per Lovelle. NO CONNECTION LINE: the relation is patronage and friendship, and nothing read states or implies more. THE LETTERS READ HERE ARE ABOUT MONEY AND ARE KEPT FOR THAT REASON: this map's exile tier is largely people who cost money or gave it, and Harris is the largest single giver in the record. His biography of Wilde is NOT used as a source here and nothing from it is asserted. THIRTY-SEVEN LETTERS at repo PDF 489, 555, 895, 944, 1065, 1070, 1075, 1079, 1082 and others; FOUR read at the page (printed 845, 894, 1024-5 and 1097, folios confirmed, 2026-08-05). DATES NOT RECORDED and none inferred. COUNT CORRECTED 2026-08-05: the figure first written here was a count of PDF PAGES, not of letters - the locator deduplicated by page, and letters to one person are often printed two or three to a page. The corrected figure is a count of 'To <name>' headings in the volume. Every such correction was upward, so the unread remainder is larger than this node first claimed. RE-TRIAGED 2026-08-05 on the warmth test rather than the desire test, per Lovelle. The first pass had kept only the two letters about money and missed both letters about the friendship itself - printed 894 and 1024-5 - which are the best things in the correspondence. See the same correction on [[kersley]].",
+  "context_engagements": [
+    {
+      "partner_name": "Oscar Wilde",
+      "period": "London and the exile, 1890s-1900",
+      "note": "Friendship and patronage, recorded without a connection line.",
+      "sources": [
+        {
+          "work": "letters-2000",
+          "locator": "p. 845",
+          "locator_type": "page",
+          "quote": "My dear Frank, Just a line to thank you for your great kindness to me, for the lovely clothes, and for the generous cheque. You have been a real good friend to me, and I shall never forget your kindness: to remember such a debt as mine to you - a debt of kind fellowship - is a pleasure. About our tour, later on let us think about it. My friends have been so kind to me here that I am feeling happy already. Ever yours … If you write to me please do so under cover to R. B. Ross, who is here with me.",
+          "context": "Wilde to Frank Harris, [circa 20 May 1897], Hôtel Sandwich, Dieppe (MS Yale) - quoted whole, written within a day or two of coming out of prison and printed on the same page as the letter to Ada Leverson. The postscript is the same discretion machinery: letters to Wilde had to be addressed to somebody else.",
+          "speaker": "Oscar Wilde",
+          "addressee": "Frank Harris",
+          "evidence_date": {
+            "y": 1897,
+            "m": 5,
+            "d": 20
+          },
+          "supports": "The first thanks, and the clothes he came out of prison in.",
+          "verification": "verified-exact",
+          "how_verified": "pdf-at-page",
+          "provenance": "Repo PDF page 895; printed folio 845 confirmed on the rendered page image, read 2026-08-05.",
+          "verified_by": "claude-at-page",
+          "verified_on": "2026-08-05",
+          "voice": "period"
+        },
+        {
+          "work": "letters-2000",
+          "locator": "p. 894",
+          "locator_type": "page",
+          "quote": "My dear Frank, I know you do not like writing letters, but still I think you might have written me a line in answer, or acknowledgement of my letter to you from Dieppe. I have been thinking of a story to be called 'The Silence of Frank Harris'. I have, however, heard during the last few days that you do not speak of me in the friendly manner I would like. This distresses me very much. I am told that you are hurt with me because my letter of thanks to you was not sufficiently elaborated in expression. This I can hardly credit. It seems so unworthy of a big strong nature like yours, that knows the realities of life. I told you I was grateful to you for your kindness to me. Words, now, to me signify things, actualities, real emotions, realised thoughts. I learnt in prison to be grateful. I used to think gratitude a burden. Now I know that it is something that makes life lighter as well as lovelier for one. I am grateful for a thousand things, from my good friends down to the sun and the sea. But I cannot say more than that I am grateful. I cannot make phrases about it. For me to use such a word shows an enormous development in my nature. Two years ago I did not know the feeling the word denotes. … But I must say again that I no longer make roulades of phrases about the deep things I feel. When I write directly to you I speak directly. Violin-variations don't interest me. I am grateful to you. If that does not content you, then you do not understand, what you of all men should understand, how sincerity of feeling expresses itself.",
+          "context": "Wilde to Frank Harris, 13 June 1897, Hôtel de la Plage, Berneval-sur-Mer (MS Texas), three weeks out of prison. THE DESIRE TEST PASSED OVER THIS ENTIRELY and it is the most important letter in the correspondence. Harris had been offended that Wilde's thanks for money and clothes were not elaborate enough. Wilde's answer is a defence of plain speech as the form sincerity actually takes, and it doubles as a statement about his own post-prison prose. The elision drops a paragraph about the driving-tour he declined. The letter continues past the printed page.",
+          "speaker": "Oscar Wilde",
+          "addressee": "Frank Harris",
+          "evidence_date": {
+            "y": 1897,
+            "m": 6,
+            "d": 13
+          },
+          "supports": "The friendship being repaired in the open, and Wilde defining what gratitude and directness now meant to him.",
+          "verification": "verified-elision",
+          "how_verified": "pdf-at-page",
+          "provenance": "Repo PDF page 944; printed folio 894 confirmed on the rendered page image, read 2026-08-05.",
+          "verified_by": "claude-at-page",
+          "verified_on": "2026-08-05",
+          "voice": "period"
+        },
+        {
+          "work": "letters-2000",
+          "locator": "p. 1097",
+          "locator_type": "page",
+          "quote": "My dear Frank, I do not know if you are still in Paris or not: if you are would you mind letting me have now my monthly allowance for October. I have no clothes but those you so generously supplied me with last May year, and excellent as they are the strain of seventeen months has severely told on them, and I want to buy some more. If you can do this it would be very good of you. Perhaps before you leave we may see each other, and discuss our Shakespeare - your Shakespeare I should say. Ever yours",
+          "context": "Wilde to Frank Harris, [end September 1898], Hôtel d'Alsace (MS Hyde) - quoted whole. Seventeen months after Dieppe, and the clothes are the same clothes. Kept entire because the shape of the exile is in it: an allowance asked for by the month, and a joke about authorship in the last line.",
+          "speaker": "Oscar Wilde",
+          "addressee": "Frank Harris",
+          "evidence_date": {
+            "y": 1898,
+            "m": 9
+          },
+          "supports": "What the friendship had become by 1898, in Wilde's own accounting.",
+          "verification": "verified-exact",
+          "how_verified": "pdf-at-page",
+          "provenance": "Repo PDF page 1143; printed folio 1097 confirmed on the rendered page image, read 2026-08-05.",
+          "verified_by": "claude-at-page",
+          "verified_on": "2026-08-05",
+          "voice": "period"
+        },
+        {
+          "work": "letters-2000",
+          "locator": "p. 1024-5",
+          "locator_type": "page",
+          "quote": "My dear Frank, I cannot express to you how deeply touched I am by your letter: it is une vraie poignée de main. I simply long to see you, and to come again in contact with your strong, sane, wonderful personality. … When you return from Monte Carlo please let me know. I long to dine with you. As regards a comedy, my dear Frank, I have lost the mainspring of life and art, la joie de vivre; it is dreadful. I have pleasures, and passions, but the joy of life is gone. I am going under: the morgue yawns for me. I go and look at my zinc-bed there. After all, I had a wonderful life, which is, I fear, over. But I must dine once with you first. Ever yours",
+          "context": "Wilde to Frank Harris, [end February 1898], Hôtel de Nice (MS Texas), quoted across the page break. The elision drops two paragraphs on the reviewing of The Ballad. ALSO MISSED BY THE DESIRE TEST. Harris was pressing him to write a comedy; the refusal turns into the plainest statement of despair in the late letters, and then swerves back to dinner. 'une vraie poignée de main' is a real handshake.",
+          "speaker": "Oscar Wilde",
+          "addressee": "Frank Harris",
+          "evidence_date": {
+            "y": 1898,
+            "m": 2
+          },
+          "supports": "What Wilde told a friend he had left, and that seeing him was still worth staying for.",
+          "verification": "verified-elision",
+          "how_verified": "pdf-at-page",
+          "provenance": "Repo PDF pages 1070-1071; printed folios 1024-5 confirmed on the rendered page images, read 2026-08-05.",
+          "verified_by": "claude-at-page",
+          "verified_on": "2026-08-05",
+          "voice": "period"
+        }
+      ]
+    }
+  ],
+  "research_status": "phase-a"
+}

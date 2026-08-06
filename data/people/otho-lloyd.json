@@ -1,0 +1,69 @@
+{
+  "id": "otho-lloyd",
+  "born": null,
+  "died": null,
+  "aka": [
+    "Otho"
+  ],
+  "bio_sources": [
+    "letters-2000"
+  ],
+  "context_engagements": [
+    {
+      "partner_name": "Oscar Wilde",
+      "period": "London, 1885-1898",
+      "note": "Family, recorded without a connection line.",
+      "sources": [
+        {
+          "work": "letters-2000",
+          "locator": "p. 261",
+          "locator_type": "page",
+          "quote": "Constance had a boy this morning at ten forty-five. She is quite happy and doing well but can not see anyone for some days. She sends her love.",
+          "context": "Telegram, Wilde to Otho Holland Lloyd, 5 June 1885, Chelsea (MS Holland) - quoted whole. The boy is Cyril Wilde (1885-1915), who was educated at Radley, became a professional soldier and was killed in action in the First World War.",
+          "speaker": "Oscar Wilde",
+          "addressee": "Otho Holland Lloyd",
+          "evidence_date": {
+            "y": 1885,
+            "m": 6,
+            "d": 5
+          },
+          "supports": "Wilde wiring his brother-in-law within hours of Cyril's birth.",
+          "verification": "verified-exact",
+          "how_verified": "pdf-at-page",
+          "provenance": "Repo PDF page 283; printed folio 261 confirmed on the rendered page image, read 2026-08-06.",
+          "verified_by": "claude-at-page",
+          "verified_on": "2026-08-06",
+          "voice": "period"
+        },
+        {
+          "work": "letters-2000",
+          "locator": "p. 285",
+          "locator_type": "page",
+          "quote": "My dear Otho, Thank you so much for your lovely present. It will be of great use to me as it is by far the best book on Japanese Art that I know. It really was most kind of you to think of it. I hope little Otho is better and that Nellie is not working herself too hard nursing.",
+          "context": "Wilde to Otho Holland Lloyd, [postmark 31 August 1886], 16 Tite Street (MS Holland) - quoted whole. The editors note that two books on Japanese art were among those sold at the Tite Street sale in 1895. 'Little Otho' is his nephew; Nellie is Otho's wife.",
+          "speaker": "Oscar Wilde",
+          "addressee": "Otho Holland Lloyd",
+          "evidence_date": {
+            "y": 1886,
+            "m": 8,
+            "d": 31
+          },
+          "supports": "The ordinary family footing - a present, and asking after a sick nephew.",
+          "verification": "verified-exact",
+          "how_verified": "pdf-at-page",
+          "provenance": "Repo PDF page 307; printed folio 285 confirmed on the rendered page image, read 2026-08-06.",
+          "verified_by": "claude-at-page",
+          "verified_on": "2026-08-06",
+          "voice": "period"
+        }
+      ]
+    }
+  ],
+  "research_status": "phase-a",
+  "name": "Otho Holland Lloyd",
+  "sort_name": "Lloyd, Otho Holland",
+  "group": "family",
+  "gender": "m",
+  "bio": "Constance Wilde's elder brother, and so Wilde's brother-in-law. Five of Wilde's letters to him survive, from 1885 to 1898 - the first a telegram announcing the birth of Cyril, the last two from the exile. He and his wife Nellie had a son also called Otho.",
+  "bio_note": "Added 2026-08-06, clearing a backlog: flagged from the Index of Recipients on 2026-08-05. NO CONNECTION LINE TO WILDE: the relation is family, and nothing states or implies otherwise. HE IS ON THE MAP BECAUSE THE FAMILY SIDE OF THE RECORD IS THIN and the map keeps saying so - [[constance]] receives only three letters in this volume, and her brother receives five. TWO OF THE FIVE ARE FROM THE EXILE (printed 1036 and 1055) and are unread; they are the ones likely to bear on what Constance's family did about Wilde after 1895, and they should be read before anyone characterises this. FIVE LETTERS at printed 261, 262, 285, 1036 and 1055; TWO read at the page (2026-08-06). See [[nellie-lloyd]], his wife."
+}

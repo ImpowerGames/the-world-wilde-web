@@ -1,9 +1,6 @@
 {
   "id": "bloodworth--ives",
-  "people": [
-    "bloodworth",
-    "ives"
-  ],
+  "people": ["bloodworth", "ives"],
   "certainty": "self-reported",
   "certainty_status": "proposed",
   "certainty_reasoning": "Cook documents a forty-one-year household bond - Bloodworth, 'a teenage footballer', moved into Ives's Adelaide Road house in 1909 and stayed until Ives's death in 1950, one of the working-class men Ives called his 'children' in a household Cook twice marks as unconventional - but stops short of any sexual or romantic characterization. Lewis (podcast) likewise speaks only of 'domestic relationships' with 'a succession of younger men'. The lover reading comes from the project's research leads (Lewis interview prep), which are not citable; hence alleged, pending the Ives diaries or Lewis's published work. CORROBORATION (2026-08-03): Cook returns to this household at much greater length in Queer Domesticities (2014), where he states that the Adelaide Road relationships 'possibly started sexually' before settling into something platonic, with bed-sharing continuing throughout. That sharpens the evidence but does not lift the class: it remains one historian's careful inference, and he does not assert sexual relations outright. EVIDENCE-TIER CORRECTION 2026-08-03 (): reclassified to self-reported. Cook's account of the Ives household is drawn from Ives's own 122-volume diary and his endnotes cite it by volume and date; the tier follows whose testimony underlies the claim, not whether our record happens to carry a direct quotation rather than the historian's summary of the same diary.",
@@ -80,7 +77,7 @@
       "locator": null,
       "locator_type": "diary-entry",
       "evidence_date": null,
-      "supports": "Whether Bloodworth was a lover rather than solely a household member ('child') REPO TRANSCRIPT CHECKED 2026-08-04 AND CANNOT HELP: the ives-diary file here is two entries only (21 and 23 Nov 1906, on Ives's correspondence with Dr James Burnet about the homosexuality chapter) and contains neither name. This stays an archive visit - the volumes themselves at the Harry Ransom Center.",
+      "supports": "Whether Bloodworth was a lover rather than solely a household member ('child') cannot be said for sure with the sources at hand. This stays unconfirmed pending an archive visit - the volumes themselves at the Harry Ransom Center.",
       "verification": "unverified",
       "how_verified": "unverified",
       "provenance": "",

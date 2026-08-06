@@ -6,7 +6,7 @@
   ],
   "certainty": "self-reported",
   "certainty_status": "proposed",
-  "certainty_reasoning": "Proposed 'consensus', not 'documented-sexual'. The primary evidence read for this file - Wilde's letters to Ross 1888-1900 and Ross's December 1900 letters - documents a lifelong bond of the first intimacy (affectionate registers rising to 'Yours, with much love' by 1889, shared secrets, daily attendance in the final illness, the deathbed, the executorship) but contains no first-person statement of sexual relations. The sexual reading, standard across major biographers, rests on later Ross statements reported in secondary literature not yet read in the source for this project (Ellmann/McKenna verification is a standing next step). Dating tension to preserve: the biographical tradition makes Ross Wilde's first male lover from c. 1886, the year they met, but Ross himself, to Adela Schuster (14 Dec. 1900), wrote that he 'only became intimate with him when he was writing Lady Windermere' - i.e. c. 1891 - with 'long intervals when I never saw him' and no regular correspondence 'until after the downfall'. Start is the documented 1886 meeting; the onset of any sexual phase is deliberately not sharpened.",
+  "certainty_reasoning": "Proposed 'consensus', not 'documented-sexual'. The primary evidence read for this file - Wilde's letters to Ross 1888-1900 and Ross's December 1900 letters - documents a lifelong bond of the first intimacy (affectionate registers rising to 'Yours, with much love' by 1889, shared secrets, daily attendance in the final illness, the deathbed, the executorship) but contains no first-person statement of sexual relations. The sexual reading, standard across major biographers, rests on later Ross statements reported in secondary literature not yet read in the source for this project (Ellmann/McKenna verification is a standing next step). Dating tension to preserve: the biographical tradition makes Ross Wilde's first male lover from c. 1886, the year they met, but Ross himself, to Adela Schuster (14 Dec. 1900), wrote that he 'only became intimate with him when he was writing Lady Windermere' - i.e. c. 1891 - with 'long intervals when I never saw him' and no regular correspondence 'until after the downfall'. Start is the documented 1886 meeting; the onset of any sexual phase is deliberately not sharpened. THE SUPPRESSED DEDICATION, added 2026-08-06: Wilde composed a dedication to Ross for The Ballad - 'When I came out of prison / some met me with garments and with spices, / and others with wise counsel. / You met me with love' - deliberately without initials or name, and it was never printed (editors' note, printed 973). It is the fourth documented suppression this map holds, beside Pater's withdrawn Conclusion, Mahaffy's deleted chapter and Gide's torn-out journal - and the only one that is Wilde's own side of the record.",
   "start": {
     "y": 1886
   },
@@ -207,6 +207,108 @@
       "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
       "voice": "modern"
+    },
+    {
+      "work": "letters-2000",
+      "locator": "p. 1006",
+      "locator_type": "page",
+      "quote": "As for dear Robbie, if he will kindly send me out a pair of his oldest boots I will blacken them with pleasure, and send them back to him with a sonnet. I have loved Robbie all my life, and have not the smallest intention of giving up loving him. Of all my old friends he is the one who has the most beautiful nature; had my other friends been like him, I would not be the pariah-dog of the nineteenth century. But natures like his are not found twice in a life-time. When dear Robbie heavily bombarded me (an unfair thing, as unfortified places are usually respected in civilised war) I bore it with patriarchal patience. I admit, however, that when he seemed to me slightly casual about someone else, I sent up a rocket of several colours. I am sorry I did so.",
+      "context": "Wilde to Leonard Smithers, Saturday [11 December 1897], Villa Giudice, Posilippo (MS Hyde) - written to a third party, which is what makes it worth having. WILDE IS LIVING WITH DOUGLAS AT POSILIPPO AS HE WRITES IT, and Ross had been 'bombarding' him with objections to that. He is not appeasing Ross here and he is not writing to him; he is telling his publisher what he thinks, in a letter Ross was never meant to see. The quarrel he apologises for is over Ross being 'slightly casual about someone else' - the someone else is not named on the page.",
+      "speaker": "Oscar Wilde",
+      "addressee": "Leonard Smithers",
+      "evidence_date": {
+        "y": 1897,
+        "m": 12,
+        "d": 11
+      },
+      "supports": "The plainest statement of the Ross attachment anywhere in the correspondence, made behind Ross's back and therefore not flattery.",
+      "verification": "verified-exact",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF page 1054; printed folio 1006 confirmed on the rendered page image, read 2026-08-05.",
+      "verified_by": "claude-at-page",
+      "verified_on": "2026-08-05",
+      "voice": "period"
+    },
+    {
+      "work": "letters-2000",
+      "locator": "p. 1184",
+      "locator_type": "page",
+      "quote": "I am at the Roma, the first time for ten days. Would you were here. Do you observe that I have fallen in love with you again? Our Indian winter. Ever yours",
+      "context": "Wilde to Robert Ross, Rome, April 1900 - the close of the letter, quoted whole. IT COMES DIRECTLY AFTER the paragraph describing Armando's body, on the same folio, which is the reason to have both: Wilde tells Ross he has fallen in love with him again in the sentence after describing another young man's thighs. Seven months before his death. 'Our Indian winter' is a late warm spell. ADDED 2026-08-06 during the General Index sweep, from a folio reached by following an index entry for Armando - not by reading the Ross correspondence, which remains largely unread.",
+      "speaker": "Oscar Wilde",
+      "addressee": "Robert Ross",
+      "evidence_date": {
+        "y": 1900,
+        "m": 4
+      },
+      "supports": "Wilde telling Ross he had fallen in love with him again, in his last year.",
+      "verification": "verified-exact",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF page 1230; printed folio 1184 confirmed on the rendered page image, read 2026-08-06.",
+      "verified_by": "claude-at-page",
+      "verified_on": "2026-08-06",
+      "voice": "period"
+    },
+    {
+      "work": "letters-2000",
+      "locator": "p. 1182",
+      "locator_type": "page",
+      "quote": "I also go to look at that beautiful voluptuous marble boy I went to worship with you at the Museo Nazionale. What a lovely thing it is!",
+      "context": "Wilde to Robert Ross, Rome, April 1900. A shared act of looking, recalled: the two of them had gone together to worship a statue. Added 2026-08-06 from the reading log, which recorded it as read-but-unlogged on the folio taken for Armando.",
+      "speaker": "Oscar Wilde",
+      "addressee": "Robert Ross",
+      "evidence_date": {
+        "y": 1900,
+        "m": 4
+      },
+      "supports": "Something the two of them had done together, and the word Wilde used for it.",
+      "verification": "verified-exact",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF page 1228; printed folio 1182 confirmed on the rendered page image, read 2026-08-06.",
+      "verified_by": "claude-at-page",
+      "verified_on": "2026-08-06",
+      "voice": "period"
+    },
+    {
+      "work": "letters-2000",
+      "locator": "p. 1141",
+      "locator_type": "page",
+      "quote": "This is a really lovely little place: only reached by mules or boats. … Have not yet been here: but have decided to enter the chiostro - just the place for me.",
+      "context": "Two postcards from Wilde to Robert Ross, both postmarked 7 April 1899, the first from Portofino and the second from San Fruttuoso (MS Clark), quoted whole and joined by an ellipsis. Both are signed 'S. M.' - Sebastian Melmoth. 'chiostro' the editors gloss as cloister. ADDED 2026-08-06: read at the page during the Rolla sweep and left unlogged. Trivial in content and kept for what it shows - that Wilde sent Ross postcards from wherever he was, twice in a day.",
+      "speaker": "Oscar Wilde",
+      "addressee": "Robert Ross",
+      "evidence_date": {
+        "y": 1899,
+        "m": 4,
+        "d": 7
+      },
+      "supports": "The ordinary daily traffic of the friendship.",
+      "verification": "verified-exact",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF page 1187; printed folio 1141 confirmed on the rendered page image, read 2026-08-06.",
+      "verified_by": "claude-at-page",
+      "verified_on": "2026-08-06",
+      "voice": "period"
+    },
+    {
+      "work": "letters-2000",
+      "locator": "p. 973",
+      "locator_type": "page",
+      "quote": "I am going to have a dedication. I don't put any initials or name. I simply say: When I came out of prison / some met me with garments and with spices, / and others with wise counsel. / You met me with love. Please let me see it in some nice type. I think it a beautiful and simple dedication. I hope you do too.",
+      "context": "Wilde to Leonard Smithers, [October 1897], Villa Giudice, Posillipo - quoted whole from where the dedication is raised. THE DEDICATION IS TO ROSS AND IT WAS NEVER PRINTED. The editors' footnote is unambiguous: 'These words were addressed to Robbie Ross, but they did not appear in The Ballad.' Wilde is explicit that the name is to be withheld - 'I don't put any initials or name' - so what he proposed was an unsigned declaration that only its addressee would recognise, and even that was dropped. A SECOND, PUBLISHED dedication went instead to C.T.W., the hanged trooper. NOTE ALSO THE SETTING: Wilde was at Posillipo living with Douglas as he wrote this. CORRECTED 2026-08-06 - an earlier note of mine filed this phrase as Wilde writing to Smithers about Smithers, because the line sits in a letter to Smithers and the page-break hid the footnote. Re-reading the following folio settled it.",
+      "speaker": "Oscar Wilde",
+      "addressee": "Leonard Smithers",
+      "evidence_date": {
+        "y": 1897,
+        "m": 10
+      },
+      "supports": "A dedication of love to Ross, composed, shown to the publisher, and then suppressed.",
+      "verification": "verified-elision",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF page 1021; printed folio 973 confirmed on the rendered page image, read 2026-08-06.",
+      "verified_by": "claude-at-page",
+      "verified_on": "2026-08-06",
+      "voice": "period"
     }
   ],
   "prior_class": "consensus"

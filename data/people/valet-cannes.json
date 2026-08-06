@@ -1,0 +1,18 @@
+{
+  "id": "valet-cannes",
+  "name": "A valet, Cannes",
+  "sort_name": "Valet, Cannes",
+  "aka": [],
+  "born": null,
+  "died": null,
+  "group": "liaisons",
+  "gender": "m",
+  "bio": "A young manservant Wilde saw at the Bataille des Fleurs at Cannes on 1 February 1899, riding on the box of his employer's carriage beside the coachman, wreathed in flowers. Wilde described him to Robert Ross the next day as 'a very handsome boy' and answered the tableau with a phrase — 'Imperial, Neronian Rome'. Nothing else about him survives: not his name, not his age, and no suggestion the two ever spoke.",
+  "bio_sources": [
+    "letters-2000"
+  ],
+  "bio_note": "THE LABEL IS A DESCRIPTOR, NOT A NAME, on the rule set by napoule-fisherman: the source preserves no name, and 'A valet, Cannes' is what the record gives — his position and where Wilde saw him. He should never be cited as though 'Valet' were a surname. Sole source: Wilde to Robert Ross, 2 February 1899, Napoule, Complete Letters printed 1121 (repo PDF 1167, folio confirmed on the rendered page image, read 2026-08-05). A CITATION CORRECTION: the 2026-08-04 sweep placed this passage at 'printed ~p. 1119'. It is printed 1121; the OCR mirror's page attribution drifts by a page or two here and the folio was confirmed from the page itself. STATUS CHANGED 2026-08-05, per Lovelle: the sweep filed him as 'cleared' on the grounds that Wilde was only a spectator on a passing carriage. He is now a node with an attraction-expressed connection, on the ground that the map's bar is desire legible as desire — and 'a very handsome boy' in Wilde's own hand is that, whether or not anything followed. NO AGE IS STATED and none is inferred; 'boy' is Wilde's word for him and is carried as the source's, not as a statement of age.",
+  "context_engagements": [],
+  "research_status": "phase-a",
+  "name_is_descriptor": true
+}

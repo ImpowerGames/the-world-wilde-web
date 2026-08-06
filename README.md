@@ -425,6 +425,27 @@ tethered to, and the move is kept only if the whole drawing improves — fewer n
 overlaps. A candidate jump with a global accept test cannot make things worse, which is what
 justifies trying it after three failed attempts to solve the same problem with forces.
 
+**The drawing on screen is not the solver's resting state, so nothing may wake the solver.** The
+force pass runs cold before the first paint, and then *five deterministic passes* — two rounds of
+line-settling, the on-a-line rescue, the satellite tree layout, the short-edge spread and the
+component packing — move nodes and translate whole components into each other's gaps. Everything
+worth reading in the result (3 crossings, one node touching a line, no connection under 58px) is
+the work of those passes, and the solver has never seen the arrangement they produce.
+
+Dragging used to call `reheat`, and `alpha` is **one temperature for the whole system**. So a
+five-pixel nudge of Hickey, who has no connections at all, woke all 110 nodes and set them
+dismantling the composition: **crossings 3 → 13, nodes sitting on lines 1 → 7, shortest connection
+96px → 66px**, with the Hall and Troubridge cluster travelling a thousand pixels as the solver
+dragged it back off the gap the packing had put it in. The clinching measurement was that dragging
+*Wilde*, who has 41 connections, did the same damage as dragging Hickey, who has none — the node
+being dragged was never the cause. The reheat was.
+
+So a drag no longer reheats anything. The dragged node is pinned and follows the cursor; every
+other node keeps the position it was measured in — verified at 0.00px, for a 5px nudge and a 150px
+haul alike. Each node's finished position is kept as `cx`/`cy` at the end of boot, and
+double-clicking a person eases them back to it, which is what unpinning ought to have meant all
+along: re-place one node, not re-solve the drawing.
+
 **Edges stop at the node boundary**, they are not drawn centre to centre. An opaque node hid the
 overshoot, so centre-to-centre looked right until a node was dimmed — at 40% opacity its own
 connection ran visibly straight through the middle of it. Trimming fixes that for every opacity
@@ -546,6 +567,165 @@ roster in frame — chosen by rendering four candidates and looking, not by arit
 of 110 people were in frame, at 1.45 it is 82 and the names are still comfortably legible. The rest
 start beyond the frame and are reached by dragging, by the wheel, or by **Fit**, which frames the
 whole web. Selecting anyone off-frame pans to them, since a highlight you cannot see reads as a bug.
+
+**That pan moves the least it can, and eases.** The rule that nothing moves while the selection is
+already comfortably in frame was always here; what jarred was the other branch, which re-*centred*.
+A connection with one end a little past the margin was hauled into the middle of the pane — a large
+movement to fix a small problem, arriving by cut, on something you had just pointed at and could
+already see. The frame now slides just far enough to clear the margin: measured on a connection
+panned 167px off the left edge, 237px of travel where re-centring took about 795px, ending exactly
+on the 70px margin rather than in the middle. Re-centring is kept for the one case with no smaller
+answer — a selection too big for the current frame, where the box has to be resized and there is no
+nearest edge to slide to. Any deliberate gesture — a press, the wheel, the slider, Fit — cancels an
+easing frame, so a hand on the map always beats an animation of it.
+
+**The panel's head and its section headings are pinned.** Wilde's page is 96,000px of scroll in an
+850px window. Once you were a few thousand pixels into it, nothing on screen said what you were
+reading, the sources filter was stranded far above — so narrowing the list meant scrolling back to
+the top and losing your place — and *Close* was stranded up there with it, which on a phone left no
+way out of the sheet at all.
+
+Three tiers pin, each offset below the one above: the head at 0, the section heading at
+`--phead-h`, the filter at `--phead-h + 19px`. The token exists so the offsets cannot drift from
+the thing they clear; hard-coding them was what put the headings *behind* the head on the first
+attempt, showing nothing but the filter's clipped top edge.
+
+**The head carries the panel's top padding itself.** It used to sit below `.pwrap`'s 18px and then
+pin at 0, so it jumped by exactly that much on the first scroll — small, but the kind of movement
+you notice and cannot un-notice. Moving the padding into the head means where it starts is where it
+pins, measured at a 0.0px shift on both breakpoints. It also made the head the same height either
+side of the breakpoint, so `--phead-h` collapsed from two values to one: the phone simply trades a
+little of that padding for the drag handle.
+
+Two details that are easy to get wrong. The headings are siblings in one container, so they do not
+hand off the way headings in separate `<section>`s would — each stays pinned once reached and the
+next pins on top of it. That is the behaviour we want and it costs no wrapper elements, since the
+newest heading comes later in the markup and paints over the older one. And **a pinned box paints
+its background over its border box only**: both the heading and the filter carry a bottom margin,
+which stayed transparent, so a line of the card underneath showed through the gap as it scrolled
+past. Each now carries a `box-shadow` of zero blur and zero spread, offset by exactly its own
+margin — a solid band of the panel's paper, laid down without moving the heading's hairline rule
+the way converting the margin to padding would have.
+
+**The head takes over the title once the real one has scrolled away.** On a connection page, where
+the run mixes both people's voices with a third party's, that is exactly where you most want telling
+whose page you are on. The name is read from the rendered `<h2>` rather than passed in, so one
+function serves a person, a connection's *A & B* and About, and cannot fall out of step with what
+the page says. Handover is an `IntersectionObserver` against the panel with its top edge pulled in
+by the head's own height, so it happens exactly as the name goes underneath rather than at a guessed
+scroll offset, and it crossfades on opacity so the head never reflows.
+
+**The copy is `innerHTML`, not `textContent`,** because a connection's heading is two *links* — one
+to each person — and flattening it to text would have quietly removed the only way from a connection
+page to either of the people on it. That has two consequences worth knowing. The slot cannot carry
+`aria-hidden`, since focusable content must not sit inside it, so the hidden state toggles
+`visibility` as well as opacity or a keyboard would stop on two invisible names. And the slot needs
+`line-height` room: `overflow:hidden` is what gives it the ellipsis, and at the default height it
+came out 15px around a 16px anchor, clipping the one pixel that was the underline — the links were
+live but looked like plain text.
+
+Two more things it needed. The observer is started in `showPanel`, not at render time: its root is the
+panel, and until the panel is shown that has no layout box — an observer built against it never fired
+at all, and the head stayed blank however far you scrolled. And the drag handle moved up into the
+head's top padding; centred in the row it split the width in two and left a connection's title about
+130px to live in. From the padding it leaves the whole row, which fits every title in the corpus on
+desktop and all but the longest on a phone (*Edward Perry Warren & Arthur George Bainbridge West*
+needs 304px of 288 and ellipsises).
+
+**All three tiers bleed to the panel's full width**, with `.pwrap`'s 20px gutters given back as
+padding so no text moves. Inset, each one's background stopped at the content edge and anything
+reaching into the gutter — a negative margin, an overhanging glyph, a wide row — slid past it in the
+strip on either side. It showed up first as two one-pixel specks beside the pinned head: invisible
+in every measurement, plain at 3×. Measured afterwards at 0px of gap on both edges, in all four
+panels, on both breakpoints. The heading's hairline goes edge to edge as a result, which is what a
+pinned header's rule should do anyway.
+
+**A pinned heading that is the FIRST thing in its panel has to rest exactly where it pins.**
+Everywhere else the headings have content above them, so they are always scrolled into position and
+cannot jump; the All-relationships list is the one panel that opens on its heading. Two things were
+wrong there at once — an inline `margin-top` of 6px, and an offset of `--phead-h` on desktop, where
+that panel has no head at all, which left the heading sitting 50px down with nothing above it. The
+margin goes, and `#panel:not(:has(.phead))` lets the offset follow the markup rather than assume a
+head is present. Both measured at 0px afterwards.
+
+**A native select ignores `padding-right` on its caret.** Chrome lays the arrow against the border
+box, so adding padding moved the text and left the arrow exactly where it was, cutting across the
+pill's rounded edge. There is no way to place it while the platform control is drawn: it takes
+`appearance:none` and a caret drawn as a background image, positioned 11px in. Worth knowing before
+spending another round on padding.
+
+**On a phone the panel takes the whole screen.** It was a 68vh sheet, leaving a band of masthead and
+legend above it — but at that height the map is entirely behind the sheet anyway, so the band showed
+nothing anyone could use and put the header's controls out of reach behind a scrim. Full height, no
+rounded top now that it meets the top of the screen, and the handle still throws it away.
+
+**One panel, both breakpoints.** About used to open its own overlay on a phone — a second scroll
+container with its own padding, background and close button — while on desktop it rendered into the
+side panel like everything else. Every panel behaviour therefore had to be built twice, and the
+second copy was reliably the one that got missed: the pinned headings were scoped to `#panel` and
+never reached it. Making *its* headings pin then exposed the next layer of the same problem, because
+the overlay's 26px of padding sits inside its scrollport, so text scrolled visibly through the band
+above them.
+
+The fix was to delete the second surface rather than patch it. About is a route, `#/about`, rendered
+into the one panel; on desktop an empty hash still lands there, since that is the panel's resting
+state. It now inherits the pinned head, the handle, the sticky headings and the swipe without any of
+them being written again. `#about` stays in the markup purely to hold the compiled text and is never
+shown — which also retired its close button, its backdrop handler and its Escape branch.
+
+**A class name meant two things.** `.lrow` was both the All-relationships list's row button and the
+About panel's certainty key, which carries a `-2.9em` hanging indent so the wrapped prose clears
+the line sample. The key's indent was landing on the list's rows. No ancestor scope could have
+separated them, because About renders *into the same panel* on desktop — the fix is a different
+name, `.lkey`. Worth remembering when adding a class here: the panel is shared furniture, and two
+features can meet inside it.
+
+**Moving a person is a held gesture.** Pressing someone used to move them at once, which made the
+commonest gesture on the map — dragging to look somewhere else — the one that quietly took the
+drawing apart, since at this density you are usually on somebody. A press now begins as a pan and
+becomes a drag only if it is still there after 450ms, with the node swelling and its ring turning
+accent to say so. Moving more than 8px first cancels the hold *for good* rather than restarting it,
+so stopping mid-pan and resting cannot hand you a node you were not reaching for. The grab offset is
+taken at the moment of arming, not at the press, or the node would jump by however far the finger
+had drifted during the hold.
+
+**Double-click never worked, and is gone rather than left as a promise.** It was documented as the
+way to send a person home; instrumenting it showed *zero* dblclick events ever reaching the node
+layer. The first click is a quick tap, which opens that person and pans the map to frame them — so
+the node slides out from under the cursor and the second click lands on empty ground. It could not
+have worked. A hold that never travels now does the job instead: the same gesture that moves someone
+returns them, which leaves nothing extra to document.
+
+That change had one trap in it. A press on a person is a *pan* until the hold completes, so the
+existing "a quick tap on empty ground clears the selection" rule began firing on taps of people too
+— the tap opened them and closed them again in the same event, and clicking anybody did nothing at
+all. Empty ground is now tested by the absence of a candidate node, not by the drag being a pan.
+
+**The drag handle came back, with something to do.** It was removed for being a grip that gripped
+nothing: a sheet that looked draggable whose only dismissal was the button beside it. Pinning the
+head is what makes it worth its height — the handle is the gesture a phone user expects for
+throwing a sheet away, and Close now rides in the same bar. Dismissal is on distance **or** speed
+(110px, or a flick over 0.5px/ms past 24px), because judging on distance alone makes a quick flick
+feel ignored. Downward only: a sheet that followed a finger upward would imply it could be
+expanded, which it cannot.
+
+**The view controls sit on the view.** Fit used to live in the header among the buttons that open
+panels, which is the wrong company for a control that acts on the drawing; it now shares an upright
+pill with a zoom slider in the **bottom-left corner of the map**, where map controls conventionally
+live, the slider running vertically with zoomed-in at the top.
+
+It was first put in the *top* left, on the reasoning that a low corner would be hidden by the phone's
+bottom sheet. That reasoning was wrong and was caught by being questioned rather than by being
+measured: on a phone the map begins below the legend, at y=381 of an 812px viewport, and the sheet
+rises to y≈260 — so when the sheet is open **the whole map is covered**, and no corner is better off
+than any other. The constraint that decided the placement did not exist.
+
+The slider's travel is **logarithmic**: scale runs 0.35 to 6, so half of a linear control would be
+spent between 3× and 6× out, where the drawing barely changes. And it *reads* the view rather than
+remembering its own — every zoom in the map ends at `applyVB`, so that is where the thumb is put
+back in step, and Fit, the wheel, or an off-frame selection all move it just as dragging it does.
+Vertical orientation is by `writing-mode`, not the `appearance:slider-vertical` that Chrome has
+since removed, with `direction:rtl` to put the maximum at the top.
 
 **The seed became circular.** It had been flattened to 0.66 of its height because the canvas was a
 wide box and a round seed wasted the corners. With no box the web relaxes into a round shape

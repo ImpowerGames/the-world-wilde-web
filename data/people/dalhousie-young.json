@@ -1,0 +1,71 @@
+{
+  "id": "dalhousie-young",
+  "born": {
+    "y": 1866
+  },
+  "died": {
+    "y": 1921
+  },
+  "aka": [],
+  "bio_sources": [
+    "letters-2000"
+  ],
+  "context_engagements": [
+    {
+      "partner_name": "Oscar Wilde",
+      "period": "Berneval, 1897",
+      "note": "Recorded without a connection line. The pamphlet matters more than the letter.",
+      "sources": [
+        {
+          "work": "letters-2000",
+          "locator": "p. 875",
+          "locator_type": "page",
+          "quote": "My dear Young, The saltimbanques cannot come to Berneval so I don't know if there are enough attractions to drag you and Mrs Young out so long a way.",
+          "context": "Wilde to Dalhousie Young, [? 2 June 1897], Café Suisse, Dieppe (MS Hyde). The saltimbanques are travelling acrobats. Wilde had been out of prison a fortnight and Young, who had defended him in print two years earlier while a stranger, was proposing to visit with his wife.",
+          "speaker": "Oscar Wilde",
+          "addressee": "Dalhousie Young",
+          "evidence_date": {
+            "y": 1897,
+            "m": 6,
+            "d": 2
+          },
+          "supports": "That Young came to see him within a fortnight of his release.",
+          "verification": "verified-exact",
+          "how_verified": "pdf-at-page",
+          "provenance": "Repo PDF page 925; printed folio 875 confirmed on the rendered page image, read 2026-08-06.",
+          "verified_by": "claude-at-page",
+          "verified_on": "2026-08-06",
+          "voice": "period"
+        },
+        {
+          "work": "letters-2000",
+          "locator": "p. 875 n. 1",
+          "locator_type": "page",
+          "quote": "To sum up shortly: I do not see any evidence that Mr Wilde's love for beauty was a pose; and if there were such evidence it would not affect me in the least. His books do not seem to me to contain any element that is morbid or immoral. I can find no trace of bad influence in his friendships; and for the question of his life, as he was convicted (rightly or wrongly, it makes no difference) of breaking a law, he is being punished for breaking a law. As regards sin, even if we know, or think we know what a man has done, we know nothing about the motive or the manner; and under these circumstances, any outside judgment is a mere impertinence.",
+          "context": "The close of Young's pamphlet Apologia pro Oscar Wilde, dated 31 May 1895 - six days after the conviction - quoted in full by the editors. YOUNG WAS A STRANGER TO WILDE WHEN HE WROTE IT. The editors add that he also contributed £50 to the fund More Adey collected for Wilde's release. This is Young's own voice, not Wilde's, and is the reason the node exists.",
+          "speaker": "Dalhousie Young",
+          "addressee": null,
+          "evidence_date": {
+            "y": 1895,
+            "m": 5,
+            "d": 31
+          },
+          "supports": "A public defence of Wilde published by a stranger six days after the conviction.",
+          "verification": "verified-exact",
+          "how_verified": "pdf-at-page",
+          "provenance": "Repo PDF page 925; printed folio 875 confirmed on the rendered page image, read 2026-08-06.",
+          "verified_by": "claude-at-page",
+          "verified_on": "2026-08-06",
+          "voice": "period"
+        }
+      ]
+    }
+  ],
+  "research_status": "phase-a",
+  "name": "Dalhousie Young",
+  "sort_name": "Young, Dalhousie",
+  "group": "later",
+  "gender": "m",
+  "bio": "English composer and pianist (1866-1921), a pupil of Leschetizky and Paderewski, who made his début in Rome in 1893 and in London in 1895. Within days of Wilde's conviction that spring - and while a complete stranger to him - he published a pamphlet, Apologia pro Oscar Wilde, dated 31 May 1895. He also gave £50 to the fund More Adey collected to support Wilde on his release. Seven of Wilde's letters to him survive, all from the Berneval summer of 1897.",
+  "bio_note": "Added 2026-08-06, clearing a backlog: flagged from the Index of Recipients on 2026-08-05 and not created for a day. NO CONNECTION LINE: nothing states or implies attraction, and the two had not met when the pamphlet appeared. HE IS ON THIS MAP FOR AN ACT, NOT A FEELING. In May 1895 defending Wilde in print was a thing almost nobody would put their name to; Young did it as a stranger, within weeks, and then paid £50 towards keeping him. THE PAMPHLET'S CLOSING WORDS are given in full by the editors and are quoted here, because they are the clearest contemporary statement on this map of the argument that a man's private life is not the public's business - 'any outside judgment is a mere impertinence' - made at the exact moment the opposite view was winning. SEVEN LETTERS at printed 875, 881, 936, 943, 945, 948 and 949; ONE read at the page (2026-08-06). The other six are located and unread. MORE ADEY, who collected the fund Young paid into, is on this map."
+}

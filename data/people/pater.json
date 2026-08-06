@@ -1,0 +1,53 @@
+{
+  "id": "pater",
+  "born": {
+    "y": 1839
+  },
+  "died": {
+    "y": 1894
+  },
+  "gender": "m",
+  "context_engagements": [
+    {
+      "partner_name": "Oscar Wilde",
+      "period": "Oxford, from 1877",
+      "note": "Recorded without a connection line. The first source is Pater's own words, not Wilde's.",
+      "sources": [
+        {
+          "work": "letters-2000",
+          "locator": "p. 59",
+          "locator_type": "page",
+          "quote": "Dear Mr Wilde, Accept my best thanks for the magazine and your letter. Your excellent article on the Grosvenor Gallery I read with very great pleasure: it makes me much wish to make your acquaintance, and I hope you will give me an early call on your return to Oxford. I should much like to talk over some of the points with you, though on the whole I think your criticisms very just, and they are certainly very pleasantly expressed. The article shows that you possess some beautiful, and, for your age, quite exceptionally cultivated tastes: and a considerable knowledge too of many beautiful things. I hope you will write a great deal in time to come. Very truly yours",
+          "context": "Walter Pater to Oscar Wilde, headed 'Bradmore Road. Oxford. July 14' [1877] (MS Texas), quoted whole. It survives inside a letter of Wilde's to William Ward, who had been sent the original and told to return it by registered post; Wilde then thought better of trusting it to the postman and copied it out instead. Wilde's transcription has three small errors, which the editors list. His own comment follows it: 'You won't think me snobbish for sending you this? After all, it IS something to be honestly proud of.' Wilde was twenty-two; the article was his first.",
+          "speaker": "Walter Pater",
+          "addressee": "Oscar Wilde",
+          "evidence_date": {
+            "y": 1877,
+            "m": 7,
+            "d": 14
+          },
+          "supports": "The first contact, in Pater's own hand, and what it was worth to Wilde.",
+          "verification": "verified-exact",
+          "how_verified": "pdf-at-page",
+          "provenance": "Repo PDF page 86; printed folio 59 confirmed on the rendered page image, read 2026-08-05.",
+          "verified_by": "claude-at-page",
+          "verified_on": "2026-08-05",
+          "voice": "period"
+        }
+      ]
+    }
+  ],
+  "research_status": "phase-a",
+  "bio_sources": [
+    "letters-2000"
+  ],
+  "name": "Walter Pater",
+  "sort_name": "Pater, Walter",
+  "aka": [
+    "Pater",
+    "Walter Horatio Pater"
+  ],
+  "group": "aesthete",
+  "bio": "Fellow and Tutor of Brasenose College, Oxford (1839-94), and the writer whose Studies in the History of the Renaissance (1873) formed the aesthetic creed of Wilde's generation at Oxford. Its six-page 'Conclusion' caused enough of a stir that Pater removed it from the second edition of 1877. In July of that same year he wrote to Wilde, then twenty-two and unknown, to praise an article and ask to meet him. Wilde copied the letter out in full and posted it to a friend, unable to keep it to himself.",
+  "bio_note": "Added 2026-08-05, per Lovelle, from the parked list. NO CONNECTION LINE and none is suggested. HE IS HERE FOR TWO THINGS. First, the withdrawn 'Conclusion': the editors note at printed 59 that it 'caused such a stir that Pater omitted it from the second edition (1877)' - an author removing his own most-quoted pages, and the third such removal on this map beside [[mahaffy]] and [[gide]]. Second, his letter to Wilde, which survives only because Wilde could not resist copying it out to someone else. HIS OWN LETTER IS QUOTED AS THE PRIMARY SOURCE and Wilde's transcription is the manuscript; the editors note Wilde got three small words wrong, which is recorded rather than silently corrected. NOTHING IS ASSERTED about why the Conclusion was withdrawn beyond the editors' 'such a stir'."
+}

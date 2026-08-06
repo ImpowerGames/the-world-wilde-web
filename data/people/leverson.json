@@ -1,0 +1,93 @@
+{
+  "id": "leverson",
+  "name": "Ada Leverson",
+  "sort_name": "Leverson, Ada",
+  "aka": [
+    "the Sphinx",
+    "Sphinx"
+  ],
+  "born": {
+    "y": 1862
+  },
+  "died": {
+    "y": 1933
+  },
+  "group": "aesthete",
+  "gender": "f",
+  "bio": "Novelist and parodist, whom Wilde called the Sphinx and addressed as nothing else for five years. Thirty-five of his letters to her survive, running from 1893 to 1897. In May 1895, between the second and third trials, when no hotel in London would take him and his brother's house had become impossible, she and her husband Ernest moved their children out of the nursery floor and put Wilde in it, and kept him there until the day he was convicted. She was among the first people to greet him when he came out of prison two years later, having got up before dawn to do it.",
+  "bio_sources": [
+    "letters-2000"
+  ],
+  "bio_note": "Added 2026-08-05 under the rule that friendship belongs on the map. NO CONNECTION LINE TO WILDE, and none is suggested: the register is devoted friendship and it is never anything else. She is on this map because a map of who mattered to Wilde that showed only the men he desired would be a false map - the person who took him in when it was dangerous to do so was a married woman, and the letters say 'deepest love' to her and to her husband in the same clause. THIRTY-FIVE LETTERS at repo PDF 621, 622, 640, 645, 667, 670, 677, 680, 682, 695, 696, 698, 699, 700, 701, 895, 921 and 1028. FOUR READ AT THE PAGE - printed 650, 845 and, on the same opening, the Holloway sequence - folios confirmed on the rendered page images, 2026-08-05. The thirty-two unread are largely Yellow Book and Punch business and are located, not read. THE SHELTERING ITSELF is described in the general literature and is not documented at any page read here; what the letters give is Wilde writing from 146 Oakley Street and from Holloway, and thanking her. That distinction is kept. See [[ernest-leverson]]. COUNT CORRECTED 2026-08-05: the figure first written here was a count of PDF PAGES, not of letters - the locator deduplicated by page, and letters to one person are often printed two or three to a page. The corrected figure is a count of 'To <name>' headings in the volume. Every such correction was upward, so the unread remainder is larger than this node first claimed.",
+  "context_engagements": [
+    {
+      "partner_name": "Oscar Wilde",
+      "period": "London, Holloway and Dieppe, 1893-1897",
+      "note": "Friendship, recorded without a connection line. Both letters quoted whole.",
+      "sources": [
+        {
+          "work": "letters-2000",
+          "locator": "p. 625",
+          "locator_type": "page",
+          "quote": "Dear Sphinx, Your aphorisms must appear in the second number of the Chameleon: they are exquisite. 'The Priest and the Acolyte' is not by Dorian: though you were right in discerning by internal evidence that the author has a profile. He is an undergraduate of strange beauty. The story is, to my ears, too direct: there is no nuance: it profanes a little by revelation: God and other artists are always a little obscure. Still, it has interesting qualities, and is at moments poisonous: which is something. Ever yours",
+          "context": "Wilde to Ada Leverson, [early December 1894], Albemarle Club (MS Clark) - quoted whole. The editors identify the anonymous author as John Francis Bloxam, editor of The Chameleon and an undergraduate of Exeter College, and record that the story was attributed to Wilde and that 'much play was made' with it at his trial - along with Wilde's own aphorisms in the same issue and Douglas's poem 'Two Loves'. 'Dorian' here is John Gray, who is on this map. ADDED 2026-08-06 from a folio opened for Adela Schuster; this node stands at 4 of 35 letters read.",
+          "speaker": "Oscar Wilde",
+          "addressee": "Ada Leverson",
+          "evidence_date": {
+            "y": 1894,
+            "m": 12
+          },
+          "supports": "What Wilde told her about the story that would be used against him at trial.",
+          "verification": "verified-exact",
+          "how_verified": "pdf-at-page",
+          "provenance": "Repo PDF page 677; printed folio 625 confirmed on the rendered page image, read 2026-08-06.",
+          "verified_by": "claude-at-page",
+          "verified_on": "2026-08-06",
+          "voice": "period"
+        },
+        {
+          "work": "letters-2000",
+          "locator": "p. 650",
+          "locator_type": "page",
+          "quote": "My dear Sweet Kind Friend, I have no words to thank you for all you do for me, but for you and Ernest Bosie and I have deepest love. I hope to be in better spirits tonight. Your sweetness last night was wonderful. Your flowers are like him - your sending them like yourself. Dear, dear Friend, tonight I see you at 7.45. Ah! you are good and gentle and wonderful. Always devotedly yours",
+          "context": "Wilde to Ada Leverson, [? early May 1895], [? 146 Oakley Street, Chelsea] (MS Clark) - quoted whole, and written between the second and third trials, in the weeks when the Leversons were sheltering him. THE ADDRESS IS NOT 'DEAR SPHINX' but 'My dear Sweet Kind Friend', the only time in the eighteen letters. The 'him' whose likeness he sees in her flowers is Douglas. Note also what he thanks her for: not the roof, which goes unmentioned, but the sweetness and the flowers.",
+          "speaker": "Oscar Wilde",
+          "addressee": "Ada Leverson",
+          "evidence_date": {
+            "y": 1895,
+            "m": 5
+          },
+          "supports": "The warmest thing Wilde wrote her, at the worst moment of his life.",
+          "verification": "verified-exact",
+          "how_verified": "pdf-at-page",
+          "provenance": "Repo PDF page 701; printed folio 650 confirmed on the rendered page image, read 2026-08-05.",
+          "verified_by": "claude-at-page",
+          "verified_on": "2026-08-05",
+          "voice": "period"
+        },
+        {
+          "work": "letters-2000",
+          "locator": "p. 845",
+          "locator_type": "page",
+          "quote": "Dear Sphinx, I was so charmed with seeing you yesterday morning that I must write a line to tell you how sweet and good it was of you to be of the very first to greet me. When I think that Sphinxes are minions of the moon, and that you got up early before dawn, I am filled with wonder and joy. I often thought of you in the long black days and nights of my prison life, and to find you just as wonderful and dear as ever was no surprise. The beautiful are always beautiful. This is my first day of real liberty, so I try to send you a line, and with kind regards to dear Ernest whom I was pleased to see again, ever affectionately yours … I am staying here as Sebastian Melmoth - not Esquire but Monsieur Sebastien Melmoth. I have thought it better that Robbie should stay here under the name of Reginald Turner, and Reggie under the name of R. B. Ross. It is better that they should not have their own names.",
+          "context": "Wilde to Ada Leverson, [20 May 1897], Hôtel Sandwich, Dieppe (MS Clark) - quoted whole including the postscript, on his first day out of prison. Two years and a conviction after the previous letter, the friendship is exactly where it was. THE POSTSCRIPT IS THE CIRCLE'S DISCRETION AT ITS MOST LITERAL: Robert Ross and Reginald Turner, both on this map, were travelling under each other's names, and Wilde under a third. He tells her because she is someone who can be told.",
+          "speaker": "Oscar Wilde",
+          "addressee": "Ada Leverson",
+          "evidence_date": {
+            "y": 1897,
+            "m": 5,
+            "d": 20
+          },
+          "supports": "That she was among the first to meet him out of prison, and that he trusted her with the aliases.",
+          "verification": "verified-exact",
+          "how_verified": "pdf-at-page",
+          "provenance": "Repo PDF page 895; printed folio 845 confirmed on the rendered page image, read 2026-08-05.",
+          "verified_by": "claude-at-page",
+          "verified_on": "2026-08-05",
+          "voice": "period"
+        }
+      ]
+    }
+  ],
+  "research_status": "phase-a"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "bedborough",
+  "name": "George Bedborough",
+  "sort_name": "Bedborough, George",
+  "aka": [],
+  "born": null,
+  "died": null,
+  "group": "later",
+  "gender": "m",
+  "bio": "Editor of The Adult, a magazine promoting freedom in sexual relations outside marriage, and secretary of the Legitimation League, which campaigned for the legal recognition of children born out of wedlock. In 1898 he published Havelock Ellis's Sexual Inversion - the first English study of homosexuality - at his Watford University Press, and on 31 May that year he was arrested for selling a copy of it to a plain-clothes policeman. Ten weeks earlier he had sent Wilde a bound edition of his essays and a Salomé illustrated by Max Beerbohm, and Wilde had written back to thank him.",
+  "bio_sources": [
+    "letters-2000"
+  ],
+  "bio_note": "Added 2026-08-06, found in the volume's General Index at printed 1239 and read at the page the same hour. NO CONNECTION LINE: one letter, courteous and grateful, and nothing states or implies attraction. HE IS ON THIS MAP FOR THE COLLISION OF DATES. Wilde wrote to him on 15 March 1898. Bedborough reviewed The Ballad sympathetically in the April number of The Adult, ending with the hope that Wilde's next song would be 'signed with the old familiar name' - a public call for Wilde to write under his own name again, made while Wilde was living in Paris as Sebastian Melmoth. On 31 May he was arrested for selling Sexual Inversion. THE PROSECUTION IS THE POINT: it is the case that established in England that a scientific study of homosexuality could be handled as obscenity, and it drove Havelock Ellis to publish in America thereafter. This map already holds three suppressions from the same decade - Pater's withdrawn Conclusion, Mahaffy's deleted chapter, Gide's torn-out journal - and Wilde's own suppressed dedication to [[ross]]. Bedborough is the fifth, and the only one where the state did the suppressing. WHAT IS NOT ASSERTED: nothing here says Wilde knew what Bedborough was publishing, or that the two men ever met - Wilde writes 'I do hope to see you', which suggests they had not. NOT YET READ: the Legitimation League and Sexual Inversion material lies outside this volume.",
+  "context_engagements": [
+    {
+      "partner_name": "Oscar Wilde",
+      "period": "Paris and London, March 1898",
+      "note": "One letter, quoted whole, recorded without a connection line.",
+      "sources": [
+        {
+          "work": "letters-2000",
+          "locator": "p. 1037",
+          "locator_type": "page",
+          "quote": "My dear Sir, I must thank you very much for the books: the edition of my essays is a masterpiece of lovely binding and I was charmed to receive my dear father's book, and also Salomé with the dainty drawings of Max Beerbohm in his Oxford days. You really have been most kind to me and I do hope to see you. I am worried over the sordid things of life, so cannot write - at least intelligently - but I beg you to accept again my sincere thanks and I hope you will review The Ballad of Reading Gaol somewhere. You have been so charming to the author, that you may be charming also to the work. Truly yours",
+          "context": "Wilde to George Bedborough, [postmark 15 March 1898], Hôtel de Nice, Paris (MS Texas) - quoted whole. Bedborough had had Wilde's essays bound up out of the periodicals they first appeared in and inscribed the volume 'To the author from Geo. Bedborough, 5 March 1898'. READ THE DATES TOGETHER: this is 15 March; Bedborough reviewed The Ballad in the April Adult, hoping Wilde's next song would be 'signed with the old familiar name'; and on 31 May he was arrested for selling Havelock Ellis's Sexual Inversion to a plain-clothes policeman. 'My dear father's book' is one of Sir William Wilde's.",
+          "speaker": "Oscar Wilde",
+          "addressee": "George Bedborough",
+          "evidence_date": {
+            "y": 1898,
+            "m": 3,
+            "d": 15
+          },
+          "supports": "The whole of the correspondence, ten weeks before Bedborough's arrest.",
+          "verification": "verified-exact",
+          "how_verified": "pdf-at-page",
+          "provenance": "Repo PDF page 1083; printed folio 1037 confirmed on the rendered page image, read 2026-08-06.",
+          "verified_by": "claude-at-page",
+          "verified_on": "2026-08-06",
+          "voice": "period"
+        }
+      ]
+    }
+  ],
+  "research_status": "phase-a"
+}

@@ -13,8 +13,44 @@
   "bio_sources": [
     "hyde-trials-1948"
   ],
-  "bio_note": "He enters the record entirely through Atkins's cross-examination in Regina v. Wilde and Taylor, 26 April 1895, where the cohabitation is admitted on oath. Transcription and provenance reused unchanged from the context_engagement on atkins.json, where he was held off-roster until 2026-08-05. WHAT THE RECORD DOES AND DOES NOT SAY: it establishes that the two men lived together across several addresses for about three years and extorted money together. It says nothing whatever about a sexual or romantic relationship between them, and nothing here should be read as claiming one. He is grouped with the 1895 trials rather than Outside the circle because that courtroom is where he exists at all.",
-  "context_engagements": [],
+  "bio_note": "He enters the record entirely through Atkins's cross-examination in Regina v. Wilde and Taylor, 26 April 1895, where the cohabitation is admitted on oath. Transcription and provenance reused unchanged from the context_engagement on atkins.json, where he was held off-roster until 2026-08-05. WHAT THE RECORD DOES AND DOES NOT SAY: it establishes that the two men lived together across several addresses for about three years and extorted money together. It says nothing whatever about a sexual or romantic relationship between them, and nothing here should be read as claiming one. He is grouped with the 1895 trials rather than Outside the circle because that courtroom is where he exists at all. CONNECTION LINE REMOVED 2026-08-05, per Lovelle - 'Atkins-Burton should be unconnected no?' HE IS RIGHT, and the old edge said so itself: its own reasoning read 'WHAT IS SELF-REPORTED IS COHABITATION AND JOINT EXTORTION, NOT A SEXUAL OR ROMANTIC RELATIONSHIP', then drew the line anyway on the argument that the certainty class records evidence quality rather than relationship kind. That argument does not hold on this map: the subtitle is 'Romantic & sexual relationships' and every class in the legend is a romantic or sexual claim, so drawing any line asserts the category. The evidence has moved to a context engagement, which is the map's existing home for documented bonds that carry no such claim - the same place Ward, Harding, Kersley and Housman sit. HE REMAINS A NODE: the reason he was promoted off Atkins's file in the first place - that a bookmaker's visibility should not depend on his status - is untouched by this. WHAT DISTINGUISHES THIS FROM THE EDGES THAT STAYED: Todd and the chorister keep a line because Wilde's letter asserts an attachment ('mentally spoons the boy'); Eolo and Mellor keep one because a purchase of a boy is substantively what this map exists to make visible. Nothing in the Atkins record asserts anything of the kind.",
+  "context_engagements": [
+    {
+      "partner_name": "Fred Atkins",
+      "period": "Osnaburgh Street, Tachbrook Street and elsewhere, 1891-1894",
+      "note": "Cohabitation and a working blackmail partnership, recorded WITHOUT a connection line. The evidence below was carried as a connection until 2026-08-05 and was demoted, per Lovelle: no source in any voice states attraction, romance or sex between them, so a line on a map of romantic and sexual relationships asserted something the record does not.",
+      "sources": [
+        {
+          "quote": "Have you ever lived with a man named Burton?—Yes, at Osnaburgh Street, Tachbrook Street, and other places.",
+          "context": "Fred Atkins cross-examined by Sir Edward Clarke, Regina v. Wilde and Taylor, 26 April 1895",
+          "work": "hyde-trials-1948",
+          "locator": "p. 207",
+          "locator_type": "page",
+          "evidence_date": {
+            "y": 1895,
+            "m": 4
+          },
+          "supports": "cohabitation with Burton across multiple addresses",
+          "verification": "verified-exact",
+          "how_verified": "archive-org",
+          "provenance": "IA in.ernet.dli.2015.499238, leaf 247 (printed p. 207), read as IIIF page image 2026-08-03",
+          "verified_by": "agent-mechanical",
+          "verified_on": "2026-08-03",
+          "voice": "exchange",
+          "turns": [
+            {
+              "who": "Q.",
+              "text": "Have you ever lived with a man named Burton?"
+            },
+            {
+              "who": "A.",
+              "text": "Yes, at Osnaburgh Street, Tachbrook Street, and other places."
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "research_status": "phase-a",
   "wikidata": null,
   "wikipedia": null,

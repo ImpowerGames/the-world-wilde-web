@@ -1,0 +1,44 @@
+{
+  "id": "boulton--wilde",
+  "people": [
+    "boulton",
+    "wilde"
+  ],
+  "certainty": "attraction-expressed",
+  "certainty_status": "proposed",
+  "direction": "wilde",
+  "outcome": "unknown",
+  "start": {
+    "y": 1878,
+    "m": 4
+  },
+  "end": {
+    "y": 1878,
+    "m": 4
+  },
+  "date_label": "Oxford, April 1878",
+  "summary": "Wilde, aged twenty-three, complained to Harold Boulton that he had not written, that music made him forget everybody else, and that he believed Boulton liked another young man - italicised - much better than himself.",
+  "certainty_reasoning": "ATTRACTION-EXPRESSED, arrow from Wilde, outcome unknown. THE EVIDENCE IS JEALOUSY, WHICH THIS MAP COUNTS AS AN ASSERTION OF ATTRACTION (see CONTRIBUTING.md): 'I really never expected to hear from you again'; 'I wish music was not such a siren to you as to make you forget everybody else'; and above all 'whom by the bye I believe you like MUCH BETTER than yours truly', where the comparison is italicised in the printed text. Wilde is measuring himself against a rival and losing, in writing, and italicising it. WHAT ARGUES AGAINST, recorded rather than smoothed: the case rests ENTIRELY on this one letter. The other three letters to Boulton, read in 1879, cool markedly - they are London social management, the address drops from 'My dear Harold' to 'Dear Harold', and the beautiful people Wilde offers to introduce him to are all women. Undergraduate friendships also ran hot in this idiom generally, and the 'Sir John' is a named contemporary rather than a rival in any stated sense. DRAWN 2026-08-06 FOR CONSISTENCY, not because the case strengthened: this node had been flagged as its batch's strongest attraction candidate on precisely this signal and then left unconnected, while `omero--ross` was declined on the ground that jealousy asserts nothing. Both could not stand. Lovelle asked 'Is that not jealousy?' and it is, in both places. IF THIS EDGE IS TO BE DEMOTED the cooling-off in the 1879 letters is the argument, and `omero--ross` should be reviewed in the same pass. NOTHING SEXUAL IS CLAIMED and Boulton never speaks here.",
+  "sources": [
+    {
+      "work": "letters-2000",
+      "locator": "p. 66",
+      "locator_type": "page",
+      "quote": "My dear Harold, I really never expected to hear from you again. I wish music was not such a siren to you as to make you forget everybody else. Will you come and see me tonight at nine o'clock or any time when you can escape from 'Sir John' - whom by the bye I believe you like much better than yours truly … I have some men dining tonight with me - not very intellectual - but you will find Vaughan Hughes amongst them.",
+      "context": "Wilde to Harold Boulton, [? April 1878], Magdalen College (MS Yale) - quoted whole; the ellipsis marks where the signature falls, mid-letter, before the postscript. 'much better' IS ITALICISED IN THE PRINTED TEXT. The editors identify 'Sir John' as most probably Sir John Alexander Hanham, ninth Baronet, a Magdalen undergraduate of 1875-8. Wilde was twenty-three; Boulton was eighteen or nineteen and about to go up to Balliol.",
+      "speaker": "Oscar Wilde",
+      "addressee": "Harold Boulton",
+      "evidence_date": {
+        "y": 1878,
+        "m": 4
+      },
+      "supports": "Wilde jealous of a young man's preference for someone else, and italicising it.",
+      "verification": "verified-elision",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF page 93; printed folio 66 confirmed on the rendered page image, read 2026-08-05.",
+      "verified_by": "claude-at-page",
+      "verified_on": "2026-08-05",
+      "voice": "period"
+    }
+  ]
+}

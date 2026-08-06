@@ -1,0 +1,55 @@
+{
+  "id": "ernest-leverson--leverson",
+  "people": [
+    "ernest-leverson",
+    "leverson"
+  ],
+  "certainty": "married",
+  "certainty_status": "proposed",
+  "date_label": "Married; dates not established here",
+  "summary": "Ada and Ernest Leverson were married. In May 1895, between Wilde's second and third trials, they took him into their house when no hotel in London would have him, and two years later they were both at Dieppe to meet him coming out of prison.",
+  "certainty_reasoning": "MARRIED: Wilde's letters address her and refer to 'Ernest' as of her household throughout, and the letter of early May 1895 puts them together as the two people he owes - 'for you and Ernest Bosie and I have deepest love.' NO DATES: the marriage year is not given on any page read here and is not inferred; the edge carries no start or end. The marriage is on the map because the sheltering was a household act and showing only the wife would misdescribe it.",
+  "sources": [
+    {
+      "work": "letters-2000",
+      "locator": "p. 650",
+      "locator_type": "page",
+      "quote": "My dear Sweet Kind Friend, I have no words to thank you for all you do for me, but for you and Ernest Bosie and I have deepest love.",
+      "context": "Wilde to Ada Leverson, [? early May 1895], between the second and third trials (MS Clark). Quoted for the pairing: the thanks are to the two of them, and the love is returned on behalf of himself and Douglas. Four people in one sentence.",
+      "speaker": "Oscar Wilde",
+      "addressee": "Ada Leverson",
+      "evidence_date": {
+        "y": 1895,
+        "m": 5
+      },
+      "supports": "That the debt was to a married couple, not to one of them.",
+      "verification": "verified-exact",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF page 701; printed folio 650 confirmed on the rendered page image, read 2026-08-05.",
+      "verified_by": "claude-at-page",
+      "verified_on": "2026-08-05",
+      "voice": "period"
+    },
+    {
+      "work": "letters-2000",
+      "locator": "p. 845",
+      "locator_type": "page",
+      "quote": "This is my first day of real liberty, so I try to send you a line, and with kind regards to dear Ernest whom I was pleased to see again, ever affectionately yours",
+      "context": "Wilde to Ada Leverson, [20 May 1897], Hôtel Sandwich, Dieppe (MS Clark). Ernest was at Dieppe too, on the morning Wilde came out of prison.",
+      "speaker": "Oscar Wilde",
+      "addressee": "Ada Leverson",
+      "evidence_date": {
+        "y": 1897,
+        "m": 5,
+        "d": 20
+      },
+      "supports": "That he was there at the other end of it as well.",
+      "verification": "verified-elision",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF page 895; printed folio 845 confirmed on the rendered page image, read 2026-08-05.",
+      "verified_by": "claude-at-page",
+      "verified_on": "2026-08-05",
+      "voice": "period"
+    }
+  ]
+}

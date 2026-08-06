@@ -1,0 +1,98 @@
+{
+  "id": "gide",
+  "born": {
+    "y": 1869
+  },
+  "died": {
+    "y": 1951
+  },
+  "gender": "m",
+  "context_engagements": [
+    {
+      "partner_name": "Oscar Wilde",
+      "period": "Paris, 1891-1898",
+      "note": "Friendship, recorded without a connection line, from Wilde's side only - Gide's own writing on Wilde has not been consulted and nothing from it is used here.",
+      "sources": [
+        {
+          "work": "letters-2000",
+          "locator": "p. 496",
+          "locator_type": "page",
+          "quote": "Cher Monsieur Louÿs, J'accepte avec le plus vif plaisir la gracieuse et charmante invitation que vous et M. Gide ont eu la bonté de m'adresser.",
+          "context": "Wilde to Pierre Louÿs, 28 November 1891 - the day after Wilde and Gide first met, and the invitation is from the two of them jointly. QUOTED HERE FOR THE EDITORS' NOTE ON THE FACING COLUMN, which is the substance: Gide wrote to Paul Valéry about Wilde that same week; 'according to his letters he saw Wilde almost every day till 15 December, but the pages in his journal covering those days have been torn out.' Who tore them out, and when, is not stated.",
+          "speaker": "Oscar Wilde",
+          "addressee": "Pierre Louÿs",
+          "evidence_date": {
+            "y": 1891,
+            "m": 11,
+            "d": 28
+          },
+          "supports": "The first day of it, and the three weeks that were removed from the record.",
+          "verification": "verified-exact",
+          "how_verified": "pdf-at-page",
+          "provenance": "Repo PDF page 516; printed folio 496 confirmed on the rendered page image, read 2026-08-05.",
+          "verified_by": "claude-at-page",
+          "verified_on": "2026-08-05",
+          "voice": "period",
+          "lang": "fr",
+          "translation": "Dear Monsieur Louÿs, I accept with the keenest pleasure the gracious and charming invitation which you and M. Gide have been kind enough to address to me."
+        },
+        {
+          "work": "letters-2000",
+          "locator": "p. 1108",
+          "locator_type": "page",
+          "quote": "André Gide, one of my old friends here, has written an astonishing play on Saul, whose madness he ascribes to his hopeless love for David, and his wild jealousy of Jonathan: it is to be played at the Théâtre Antoine, but the parts of the lads are to be filled by women, which is, artistically, to be regretted.",
+          "context": "Wilde in Paris, December 1898, describing Gide's Saül - written in 1898 and not produced until 1922. Seven years after they met, Gide is 'one of my old friends here'. Wilde reads the play's subject without a flicker of euphemism - a king's madness ascribed to hopeless love for a man - and his only complaint is that boys' parts are going to actresses.",
+          "speaker": "Oscar Wilde",
+          "addressee": null,
+          "evidence_date": {
+            "y": 1898,
+            "m": 12
+          },
+          "supports": "That the friendship lasted through the trials and the exile, and how plainly Wilde could describe the play's subject in 1898.",
+          "verification": "verified-elision",
+          "how_verified": "pdf-at-page",
+          "provenance": "Repo PDF page 1154; printed folio 1108 confirmed on the rendered page image, read 2026-08-05.",
+          "verified_by": "claude-at-page",
+          "verified_on": "2026-08-05",
+          "voice": "period"
+        },
+        {
+          "work": "letters-2000",
+          "locator": "p. 1111",
+          "locator_type": "page",
+          "quote": "Mon cher André, Je vous remercie beaucoup. Un de mes amis, le rédacteur du Saturday Review, à Londres, vient d'arriver à Paris, et me prend à Cannes avec lui pour un mois. Peut-être là je retrouverai mon âme. J'espère vous voir à mon retour. Tout à vous",
+          "context": "Wilde to André Gide, [postmark 14 December 1898], Taverne F. Pousset, Paris (MS Doucet) - quoted whole, and written the same day as the letter to Housman on the same page, which reports the same journey in English. To Housman the hope is 'perhaps these may tune my soul to some note of beauty'; to Gide it is 'perhaps there I shall find my soul again', which is a harder thing to say.",
+          "speaker": "Oscar Wilde",
+          "addressee": "André Gide",
+          "evidence_date": {
+            "y": 1898,
+            "m": 12,
+            "d": 14
+          },
+          "supports": "The address at 'mon cher André', and what Wilde told him he had lost.",
+          "verification": "verified-exact",
+          "how_verified": "pdf-at-page",
+          "provenance": "Repo PDF page 1157; printed folio 1111 confirmed on the rendered page image, read 2026-08-05.",
+          "verified_by": "claude-at-page",
+          "verified_on": "2026-08-05",
+          "voice": "period",
+          "lang": "fr",
+          "translation": "My dear André, Thank you very much. One of my friends, the editor of the Saturday Review in London, has just arrived in Paris, and is taking me to Cannes with him for a month. Perhaps there I shall find my soul again. I hope to see you on my return. All yours"
+        }
+      ]
+    }
+  ],
+  "research_status": "phase-a",
+  "bio_sources": [
+    "letters-2000"
+  ],
+  "name": "André Gide",
+  "sort_name": "Gide, André",
+  "aka": [
+    "Gide",
+    "Andre Gide"
+  ],
+  "group": "beyond",
+  "bio": "French writer (1869-1951), later a Nobel laureate, and the most consequential openly homosexual author in Wilde's French orbit. He met Wilde in Paris on 27 November 1891, when he was twenty-two, and co-hosted with Pierre Louÿs the invitation that produced Wilde's first surviving letter to Louÿs the following day. By his own account he then saw Wilde almost every day until 15 December. The pages of his journal covering those weeks have been torn out. Seven years later Wilde was still writing to him as 'mon cher André' and reading his play about Saul's hopeless love for David.",
+  "bio_note": "Added 2026-08-05, per Lovelle, from the parked list. NO CONNECTION LINE: nothing read states or implies attraction between them, and Gide's own later writing about Wilde is outside this volume and has not been consulted. THE TORN JOURNAL is the reason he was flagged: the editors record at printed 496 that his letters place him with Wilde almost daily for three weeks and that the journal pages for exactly those days are missing. This map holds two other documented erasures from the same years - [[pater]] cutting the 'Conclusion' from the second edition of The Renaissance, and [[mahaffy]] deleting both the Greek-homosexuality discussion and the thanks to Wilde from later editions of Social Life in Greece. Three men, three removals, one decade. WHAT IS NOT HERE: Gide's account of Algiers in 1895, his Corydon, and Si le grain ne meurt, none of which are in this volume. They are the obvious next sources and nothing from them is asserted. TWO WILDE LETTERS SURVIVE here (printed 1108 and 1111, repo PDF 1154 and 1157), both read at the page, 2026-08-05."
+}

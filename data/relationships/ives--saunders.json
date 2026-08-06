@@ -1,131 +1,128 @@
 {
- "id": "ives--saunders",
- "people": [
-  "ives",
-  "saunders"
- ],
- "certainty": "self-reported",
- "certainty_status": "proposed",
- "certainty_reasoning": "SUPERSEDED REASONING CORRECTED 2026-08-03: the earlier note said no citable source named Saunders. Cook, Queer Domesticities (2014), names him at printed 96, 100, 102 and 109 - as 'Elephant', a later addition to the household, an alcoholic Ives kept when the Goddard daughters left over his drinking, and joint inheritor of the Adelaide Road house with Bloodworth. The class stays 'alleged': Cook documents household membership, inheritance and Ives's paternal framing, and characterises the Adelaide Road relationships as having 'possibly started sexually' before becoming platonic - he nowhere asserts a sexual relationship with Saunders specifically, and it remains one historian's account. EVIDENCE-TIER CORRECTION 2026-08-03 (): reclassified to self-reported. Cook's account of the Ives household is drawn from Ives's own 122-volume diary and his endnotes cite it by volume and date; the tier follows whose testimony underlies the claim, not whether our record happens to carry a direct quotation rather than the historian's summary of the same diary.",
- "start": null,
- "end": null,
- "date_label": "Ives's household, later years - undated in any source read so far.",
- "summary": "Stanley Saunders ('Elephant') is held by the project's research leads to have been a member of Ives's household - one of the 'children' - in Ives's later years. No citable source read so far names him; the claim awaits verification in the Ives diaries (Harry Ransom Center) or Brian Lewis's published work.",
- "disputed": {
-  "claim": "That Saunders was a member of Ives's household and one of his lovers in Ives's later years",
-  "asserted_by": "Project research leads (interview prep drawing on Brian Lewis's account of Ives), which list Saunders ('Elephant') among Ives's household 'children'",
-  "disputed_by": null,
-  "grounds": "No citable source read so far asserts it. Cook (2014) documents household membership and inheritance but does not assert a sexual relationship with Saunders specifically; his general characterisation of the Adelaide Road men is 'possibly started sexually … quickly became platonic'. Ives's diaries at the Harry Ransom Center and Kaplan (2005) remain the verification targets."
- },
- "sources": [
-  {
-   "quote": "He referred to his housemates affectionately but patronisingly with infantilising nicknames (Cubby, Pug, Kit, Elephant - Therese was Chooki) and also frequently as his 'children'. … 'My children all laugh at me', he complained, 'but they have not the responsibility of running a house with six or eight people in it; all to be milked for'.",
-   "context": "Cook, at printed 100, listing the pet names Ives used for the Adelaide Road household and then quoting Ives's diary (vol. 85, 1 August 1923, p. 46, per Cook's endnote 27). Elided between the two sentences: Cook's report that Ives was their 'old bird' and that they teased him to his face for being 'a stingy old b'.",
-   "work": "cook-2014",
-   "locator": "p. 100",
-   "locator_type": "page",
-   "evidence_date": {
-    "y": 1923
-   },
-   "supports": "The closest this record can come to Ives characterizing Saunders in his own voice, and the limit is worth stating exactly. Cook records that 'Elephant' was a name Ives himself used, and Ives's diary then names the household collectively as 'my children' - so the relationship Ives claimed with the men he lived with is paternal, proprietary and affectionate at once. But the naming is collective: Ives nowhere names Saunders or 'Elephant' in any first-person passage Cook prints, and Cook never dates Elephant's arrival, so whether Saunders was among the 'six or eight people' of the 1923 entry is not established. Ives's testimony reaching us through Cook, from Diary vol. 85. See the documented-absence note in the pointer entry below.",
-   "verification": "verified-elision",
-   "how_verified": "pdf-at-page",
-   "provenance": "Repo PDF p. 111 (printed folio 100 confirmed on the rendered page), read as page image 2026-08-03.",
-   "verified_by": "agent-mechanical",
-   "verified_on": "2026-08-03",
-   "voice": "modern"
+  "id": "ives--saunders",
+  "people": ["ives", "saunders"],
+  "certainty": "self-reported",
+  "certainty_status": "proposed",
+  "certainty_reasoning": "SUPERSEDED REASONING CORRECTED 2026-08-03: the earlier note said no citable source named Saunders. Cook, Queer Domesticities (2014), names him at printed 96, 100, 102 and 109 - as 'Elephant', a later addition to the household, an alcoholic Ives kept when the Goddard daughters left over his drinking, and joint inheritor of the Adelaide Road house with Bloodworth. The class stays 'alleged': Cook documents household membership, inheritance and Ives's paternal framing, and characterises the Adelaide Road relationships as having 'possibly started sexually' before becoming platonic - he nowhere asserts a sexual relationship with Saunders specifically, and it remains one historian's account. EVIDENCE-TIER CORRECTION 2026-08-03 (): reclassified to self-reported. Cook's account of the Ives household is drawn from Ives's own 122-volume diary and his endnotes cite it by volume and date; the tier follows whose testimony underlies the claim, not whether our record happens to carry a direct quotation rather than the historian's summary of the same diary.",
+  "start": null,
+  "end": null,
+  "date_label": "Ives's household, later years - undated in any source read so far.",
+  "summary": "Stanley Saunders ('Elephant') is held by the project's research leads to have been a member of Ives's household - one of the 'children' - in Ives's later years. No citable source read so far names him; the claim awaits verification in the Ives diaries (Harry Ransom Center) or Brian Lewis's published work.",
+  "disputed": {
+    "claim": "That Saunders was a member of Ives's household and one of his lovers in Ives's later years",
+    "asserted_by": "Project research leads (interview prep drawing on Brian Lewis's account of Ives), which list Saunders ('Elephant') among Ives's household 'children'",
+    "disputed_by": null,
+    "grounds": "No citable source read so far asserts it. Cook (2014) documents household membership and inheritance but does not assert a sexual relationship with Saunders specifically; his general characterisation of the Adelaide Road men is 'possibly started sexually … quickly became platonic'. Ives's diaries at the Harry Ransom Center and Kaplan (2005) remain the verification targets."
   },
-  {
-   "quote": "He moved from the countryside into London, lived in London for most of his life, mostly in a suburban house in North London, where he lived with a succession of younger men who sometimes stayed for just a few years, sometimes they stayed for decades.",
-   "context": "Brian Lewis, spoken in a National Humanities Center podcast interview about Ives; ASR transcript, wording may vary slightly from the audio. Establishes the household pattern only - Lewis names no individuals here",
-   "work": "lewis-podcast",
-   "locator": null,
-   "locator_type": "none",
-   "evidence_date": null,
-   "supports": "Context only: the documented pattern of younger men in Ives's household, within which the leads place Saunders",
-   "verification": "verified-exact",
-   "how_verified": "repo-file",
-   "provenance": "Repo ASR transcript docs/research/queer-history/victorian/ives/audio/Discovery & Inspiration - Brian Lewis, \"George Cecil Ives and the Transformation of Discourses on Sexuality\".txt, read 2026-08-03; verified against the transcript file, not the audio.",
-   "verified_by": "agent-mechanical",
-   "verified_on": "2026-08-03",
-   "voice": "modern"
-  },
-  {
-   "quote": "",
-   "context": "POINTER - DOCUMENTED ABSENCE, recorded by the Q2 quality pass 2026-08-03. Saunders ('Elephant') as a named member and reputed lover in Ives's later household. No first-person passage about Saunders exists in either Cook book. Searched: the whole of Cook (2014) for both 'Saunders' and 'Elephant' - the words occur only in Cook's own narration at printed 96, 100, 102, 109-110 and 110, never inside a quotation from Ives; the chapter's endnotes (printed 125-131) cite the diary by volume and date for twenty-odd passages, none of them attached to a sentence naming Saunders. Cook's endnote 22, the source for Ives choosing Elephant over the Goddard daughters, credits Brian Lewis by personal communication with no archival citation at all. Also searched the Cook (2003) text mirror: neither name appears in the Ives material.",
-   "work": "ives-diary",
-   "locator": null,
-   "locator_type": "diary-entry",
-   "evidence_date": null,
-   "supports": "The existence, dates, and character of the Ives-Saunders relationship. This is the one edge in the Ives household where no participant voice survives in any source read: Ives's diary is the only place a first-person characterization of Saunders could exist, and reaching it means the volumes themselves at the Harry Ransom Center. Everything the record currently holds about this pair is Cook narrating, or Lewis speaking to Cook. REPO TRANSCRIPT CHECKED 2026-08-04 AND CANNOT HELP: the ives-diary file here is two entries only (21 and 23 Nov 1906, on Ives's correspondence with Dr James Burnet about the homosexuality chapter) and contains neither name. This stays an archive visit - the volumes themselves at the Harry Ransom Center.",
-   "verification": "unverified",
-   "how_verified": "unverified",
-   "provenance": "",
-   "verified_by": "agent-mechanical",
-   "verified_on": "2026-08-03"
-  },
-  {
-   "quote": "Though Ives' relationships with the other men at Adelaide Road possibly started sexually, they seem quickly to have become platonic - even though he continued to sleep with them from time to time.",
-   "context": "Cook's summary characterization of the Adelaide Road household relationships",
-   "work": "cook-2014",
-   "locator": "p. 101",
-   "locator_type": "page",
-   "evidence_date": null,
-   "supports": "Cook's own careful reading: a possible sexual beginning, a platonic settling, continued bed-sharing throughout.",
-   "verification": "verified-exact",
-   "how_verified": "pdf-at-page",
-   "provenance": "Repo PDF p. 112 (printed folio 101 confirmed on the rendered page), read as page image 2026-08-03.",
-   "verified_by": "agent-mechanical",
-   "verified_on": "2026-08-03",
-   "voice": "modern"
-  },
-  {
-   "quote": "The two men he was living with - Harold Bloodworth and Stanley Saunders (Pug and Elephant) - were left the Adelaide Road house and contents; Tilly Hayes was next in line to inherit after them.",
-   "context": "Cook, on the provisions of Ives's will (made October 1939 per Cook's text; dated 1 December 1939 per his endnote 80)",
-   "work": "cook-2014",
-   "locator": "pp. 109-110",
-   "locator_type": "page",
-   "evidence_date": {
-    "y": 1939
-   },
-   "supports": "FIRST CITABLE SOURCE NAMING SAUNDERS. This record's certainty_reasoning states that no citable source read had named Stanley Saunders in the household; Cook (2014) names him repeatedly - here as co-heir with Bloodworth to the Adelaide Road house and contents. The reasoning and disputed fields are now stale and need the editor's review.",
-   "verification": "verified-exact",
-   "how_verified": "pdf-at-page",
-   "provenance": "Repo PDF pp. 120-121 (printed folios 109 and 110 confirmed on the rendered pages; the sentence runs across the page break), read as page images 2026-08-03.",
-   "verified_by": "agent-mechanical",
-   "verified_on": "2026-08-03",
-   "voice": "modern"
-  },
-  {
-   "quote": "They could no longer put up with the Elephant's alcoholism, and left to open a shop using money Ives had settled on their father. Ives effectively chose Elephant over them - even though, as a teetotaller, his drinking was a source of considerable angst for him too.",
-   "context": "Cook, on the Goddard daughters' departure from Adelaide Road in the early 1940s",
-   "work": "cook-2014",
-   "locator": "p. 100",
-   "locator_type": "page",
-   "evidence_date": null,
-   "supports": "Saunders's alcoholism, and Cook's judgement that Ives preferred keeping Saunders to keeping the Goddard daughters. Note this is Cook's interpretive gloss on an outcome, not a recorded declaration by Ives; and Cook's endnote 22 credits the observation to Brian Lewis (personal communication), with no archival citation behind it.",
-   "verification": "verified-exact",
-   "how_verified": "pdf-at-page",
-   "provenance": "Repo PDF p. 111 (printed folio 100 confirmed on the rendered page), read as page image 2026-08-03.",
-   "verified_by": "agent-mechanical",
-   "verified_on": "2026-08-03",
-   "voice": "modern"
-  },
-  {
-   "quote": "Therese and Adele clearly had little time for Elephant (Stanley), and though their parents were very attached to Ives, it is unclear whether they understood themselves to be more staff than family, or more family than staff.",
-   "context": "Cook, on how the members of the Adelaide Road household may have understood one another",
-   "work": "cook-2014",
-   "locator": "p. 102",
-   "locator_type": "page",
-   "evidence_date": null,
-   "supports": "Confirms 'Elephant' = Stanley Saunders from a second page, and records the friction with the Goddard daughters that Cook says drove them out.",
-   "verification": "verified-exact",
-   "how_verified": "pdf-at-page",
-   "provenance": "Repo PDF p. 113 (printed folio 102 confirmed on the rendered page), read as page image 2026-08-03.",
-   "verified_by": "agent-mechanical",
-   "verified_on": "2026-08-03",
-   "voice": "modern"
-  }
- ],
- "prior_class": "alleged"
+  "sources": [
+    {
+      "quote": "He referred to his housemates affectionately but patronisingly with infantilising nicknames (Cubby, Pug, Kit, Elephant - Therese was Chooki) and also frequently as his 'children'. … 'My children all laugh at me', he complained, 'but they have not the responsibility of running a house with six or eight people in it; all to be milked for'.",
+      "context": "Cook, at printed 100, listing the pet names Ives used for the Adelaide Road household and then quoting Ives's diary (vol. 85, 1 August 1923, p. 46, per Cook's endnote 27). Elided between the two sentences: Cook's report that Ives was their 'old bird' and that they teased him to his face for being 'a stingy old b'.",
+      "work": "cook-2014",
+      "locator": "p. 100",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1923
+      },
+      "supports": "The closest this record can come to Ives characterizing Saunders in his own voice, and the limit is worth stating exactly. Cook records that 'Elephant' was a name Ives himself used, and Ives's diary then names the household collectively as 'my children' - so the relationship Ives claimed with the men he lived with is paternal, proprietary and affectionate at once. But the naming is collective: Ives nowhere names Saunders or 'Elephant' in any first-person passage Cook prints, and Cook never dates Elephant's arrival, so whether Saunders was among the 'six or eight people' of the 1923 entry is not established. Ives's testimony reaching us through Cook, from Diary vol. 85. See the documented-absence note in the pointer entry below.",
+      "verification": "verified-elision",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF p. 111 (printed folio 100 confirmed on the rendered page), read as page image 2026-08-03.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "modern"
+    },
+    {
+      "quote": "He moved from the countryside into London, lived in London for most of his life, mostly in a suburban house in North London, where he lived with a succession of younger men who sometimes stayed for just a few years, sometimes they stayed for decades.",
+      "context": "Brian Lewis, spoken in a National Humanities Center podcast interview about Ives; ASR transcript, wording may vary slightly from the audio. Establishes the household pattern only - Lewis names no individuals here",
+      "work": "lewis-podcast",
+      "locator": null,
+      "locator_type": "none",
+      "evidence_date": null,
+      "supports": "Context only: the documented pattern of younger men in Ives's household, within which the leads place Saunders",
+      "verification": "verified-exact",
+      "how_verified": "repo-file",
+      "provenance": "Repo ASR transcript docs/research/queer-history/victorian/ives/audio/Discovery & Inspiration - Brian Lewis, \"George Cecil Ives and the Transformation of Discourses on Sexuality\".txt, read 2026-08-03; verified against the transcript file, not the audio.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "modern"
+    },
+    {
+      "quote": "",
+      "context": "POINTER - DOCUMENTED ABSENCE, recorded by the Q2 quality pass 2026-08-03. Saunders ('Elephant') as a named member and reputed lover in Ives's later household. No first-person passage about Saunders exists in either Cook book. Searched: the whole of Cook (2014) for both 'Saunders' and 'Elephant' - the words occur only in Cook's own narration at printed 96, 100, 102, 109-110 and 110, never inside a quotation from Ives; the chapter's endnotes (printed 125-131) cite the diary by volume and date for twenty-odd passages, none of them attached to a sentence naming Saunders. Cook's endnote 22, the source for Ives choosing Elephant over the Goddard daughters, credits Brian Lewis by personal communication with no archival citation at all. Also searched the Cook (2003) text mirror: neither name appears in the Ives material.",
+      "work": "ives-diary",
+      "locator": null,
+      "locator_type": "diary-entry",
+      "evidence_date": null,
+      "supports": "The existence, dates, and character of the Ives-Saunders relationship. This is the one edge in the Ives household where no participant voice survives in any source read: Ives's diary is the only place a first-person characterization of Saunders could exist, and reaching it means the volumes themselves at the Harry Ransom Center. Everything the record currently holds about this pair is Cook narrating, or Lewis speaking to Cook.",
+      "verification": "unverified",
+      "how_verified": "unverified",
+      "provenance": "",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03"
+    },
+    {
+      "quote": "Though Ives' relationships with the other men at Adelaide Road possibly started sexually, they seem quickly to have become platonic - even though he continued to sleep with them from time to time.",
+      "context": "Cook's summary characterization of the Adelaide Road household relationships",
+      "work": "cook-2014",
+      "locator": "p. 101",
+      "locator_type": "page",
+      "evidence_date": null,
+      "supports": "Cook's own careful reading: a possible sexual beginning, a platonic settling, continued bed-sharing throughout.",
+      "verification": "verified-exact",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF p. 112 (printed folio 101 confirmed on the rendered page), read as page image 2026-08-03.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "modern"
+    },
+    {
+      "quote": "The two men he was living with - Harold Bloodworth and Stanley Saunders (Pug and Elephant) - were left the Adelaide Road house and contents; Tilly Hayes was next in line to inherit after them.",
+      "context": "Cook, on the provisions of Ives's will (made October 1939 per Cook's text; dated 1 December 1939 per his endnote 80)",
+      "work": "cook-2014",
+      "locator": "pp. 109-110",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1939
+      },
+      "supports": "FIRST CITABLE SOURCE NAMING SAUNDERS. This record's certainty_reasoning states that no citable source read had named Stanley Saunders in the household; Cook (2014) names him repeatedly - here as co-heir with Bloodworth to the Adelaide Road house and contents. The reasoning and disputed fields are now stale and need the editor's review.",
+      "verification": "verified-exact",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF pp. 120-121 (printed folios 109 and 110 confirmed on the rendered pages; the sentence runs across the page break), read as page images 2026-08-03.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "modern"
+    },
+    {
+      "quote": "They could no longer put up with the Elephant's alcoholism, and left to open a shop using money Ives had settled on their father. Ives effectively chose Elephant over them - even though, as a teetotaller, his drinking was a source of considerable angst for him too.",
+      "context": "Cook, on the Goddard daughters' departure from Adelaide Road in the early 1940s",
+      "work": "cook-2014",
+      "locator": "p. 100",
+      "locator_type": "page",
+      "evidence_date": null,
+      "supports": "Saunders's alcoholism, and Cook's judgement that Ives preferred keeping Saunders to keeping the Goddard daughters. Note this is Cook's interpretive gloss on an outcome, not a recorded declaration by Ives; and Cook's endnote 22 credits the observation to Brian Lewis (personal communication), with no archival citation behind it.",
+      "verification": "verified-exact",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF p. 111 (printed folio 100 confirmed on the rendered page), read as page image 2026-08-03.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "modern"
+    },
+    {
+      "quote": "Therese and Adele clearly had little time for Elephant (Stanley), and though their parents were very attached to Ives, it is unclear whether they understood themselves to be more staff than family, or more family than staff.",
+      "context": "Cook, on how the members of the Adelaide Road household may have understood one another",
+      "work": "cook-2014",
+      "locator": "p. 102",
+      "locator_type": "page",
+      "evidence_date": null,
+      "supports": "Confirms 'Elephant' = Stanley Saunders from a second page, and records the friction with the Goddard daughters that Cook says drove them out.",
+      "verification": "verified-exact",
+      "how_verified": "pdf-at-page",
+      "provenance": "Repo PDF p. 113 (printed folio 102 confirmed on the rendered page), read as page image 2026-08-03.",
+      "verified_by": "agent-mechanical",
+      "verified_on": "2026-08-03",
+      "voice": "modern"
+    }
+  ],
+  "prior_class": "alleged"
 }

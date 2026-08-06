@@ -1,0 +1,68 @@
+{
+  "id": "fullerton",
+  "name": "W. Morton Fullerton",
+  "sort_name": "Fullerton, W. Morton",
+  "aka": [
+    "Morton Fullerton"
+  ],
+  "born": null,
+  "died": null,
+  "group": "later",
+  "gender": "m",
+  "bio": "American journalist, Paris correspondent of The Times. In June 1899 Wilde, quite without money, asked him for a loan of 100 francs, to be sent to 'Monsieur Sebastian Melmoth'. Fullerton replied that he was distressed to have left the appeal unanswered so long, and addressed him by the alias without comment.",
+  "bio_sources": [
+    "letters-2000"
+  ],
+  "bio_note": "Added 2026-08-06, closing a nineteen-person backlog. **THE BOTH-INDEXES CHECK CHANGED THIS NODE BEFORE IT EXISTED.** The Index of Recipients lists him once, at 1154, and I had him down as a one-letter acquaintance. The General Index lists 1145 and 1154-5, and the folio itself carries TWO letters plus a mention - the recipients index counts FOLIOS, not letters, which is the same trap that nearly caused nine correct nodes to be 'corrected' a day earlier. NO CONNECTION LINE: the register is a request for money and nothing states or implies more. HIS OWN VOICE IS HERE, in a footnote, which is unusual on this map. WHAT IS NOT ASSERTED: Fullerton's own documented relationships with men, and his later affair with Edith Wharton, are outside this volume; he was flagged as 'worth a look' on that basis and this node does not borrow it. THE THIRD LETTER, at printed 1155, is located and unread. DATES NOT RECORDED and none inferred.",
+  "context_engagements": [
+    {
+      "partner_name": "Oscar Wilde",
+      "period": "Paris, June 1899",
+      "note": "Recorded without a connection line. Both items from printed 1154.",
+      "sources": [
+        {
+          "work": "letters-2000",
+          "locator": "p. 1154",
+          "locator_type": "page",
+          "quote": "My dear Fullerton, I find myself in very great trouble owing to not getting some money I expected, from America, where it is owing to me. Would it be an inconvenience to you to lend me 100 francs? I receive my quarterly allowance, such as it is, on July 1st, when I will be able to return it to you. At present I am quite without money, and I hope you will not mind my asking you this favour. If you are able to do this would you send it to me, Monsieur Sebastian Melmoth, at the above address? Believe me, truly yours",
+          "context": "Wilde to W. Morton Fullerton, [June 1899], Hotel Marsollier (MS Harvard) - quoted whole. 'Sebastian Melmoth' is italicised in the printed text: the money has to be addressed to the alias, which is the exile's whole condition in one clause. Eighteen months before his death.",
+          "speaker": "Oscar Wilde",
+          "addressee": "W. Morton Fullerton",
+          "evidence_date": {
+            "y": 1899,
+            "m": 6
+          },
+          "supports": "Wilde asking a journalist for a hundred francs, under his assumed name.",
+          "verification": "verified-exact",
+          "how_verified": "pdf-at-page",
+          "provenance": "Repo PDF page 1200; printed folio 1154 confirmed on the rendered page image, read 2026-08-06.",
+          "verified_by": "claude-at-page",
+          "verified_on": "2026-08-06",
+          "voice": "period"
+        },
+        {
+          "work": "letters-2000",
+          "locator": "p. 1154 n. 2",
+          "locator_type": "page",
+          "quote": "My dear Melmoth, I am distressed to have left your touching appeal unanswered for so long. But I have been on conge in the patrie of Stendhal, and had cognisance of your gene only yesterday.",
+          "context": "Fullerton's reply, 3 June 1899, 35 boulevard des Capucines (MS Clark), quoted by the editors. HIS OWN WORDS, which few people on this map get. He addresses Wilde by the alias without remark - 'My dear Melmoth' - which is what the courtesy of that circle looked like in practice. 'conge' is leave; 'gene' is embarrassment or want.",
+          "speaker": "W. Morton Fullerton",
+          "addressee": "Oscar Wilde",
+          "evidence_date": {
+            "y": 1899,
+            "m": 6,
+            "d": 3
+          },
+          "supports": "That the appeal was answered, and how Fullerton addressed him.",
+          "verification": "verified-exact",
+          "how_verified": "pdf-at-page",
+          "provenance": "Repo PDF page 1200; printed folio 1154 confirmed on the rendered page image, read 2026-08-06.",
+          "verified_by": "claude-at-page",
+          "verified_on": "2026-08-06",
+          "voice": "period"
+        }
+      ]
+    }
+  ],
+  "research_status": "phase-a"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "dupoirier",
+  "name": "Jean Dupoirier",
+  "sort_name": "Dupoirier, Jean",
+  "aka": [
+    "Patron"
+  ],
+  "born": null,
+  "died": null,
+  "group": "later",
+  "gender": "m",
+  "bio": "Proprietor of the Hôtel d'Alsace in the rue des Beaux-Arts, Paris, where Wilde lived for the last eighteen months of his life and where he died on 30 November 1900. Wilde addressed him as 'Mon cher Patron' and signed to him as Sebastian Melmoth. He kept Wilde's things for him between journeys, and let him run up a bill he could not pay. Many years later he gave an interview about Wilde's last days in which, the editors record, he remembered him with affectionate sympathy.",
+  "bio_sources": [
+    "letters-2000"
+  ],
+  "bio_note": "Added 2026-08-06. NO CONNECTION LINE: the relation is landlord and lodger and nothing states or implies otherwise. HE IS ON THE MAP BECAUSE OF WHAT HE DID RATHER THAN WHAT HE FELT: he housed a bankrupt and disgraced man for eighteen months, stored his possessions between journeys without being paid, and thirty-three years later spoke of him kindly to a newspaper. The map's exile tier is otherwise made of people who cost Wilde money or gave it; he is one of the few who simply carried him. THE ONE LETTER IS IN FRENCH and is pure business, which is the point: it is the ordinary traffic of being kept alive. HIS INTERVIEW - L'Intransigeant, 30 November 1933, reprinted in E. H. Mikhail's Interviews and Recollections (1979) - is named by the editors and has NOT been consulted; it is the obvious next source and would be his own voice.",
+  "context_engagements": [
+    {
+      "partner_name": "Oscar Wilde",
+      "period": "Paris, 1899-1900",
+      "note": "Landlord and lodger, recorded without a connection line.",
+      "sources": [
+        {
+          "work": "letters-2000",
+          "locator": "p. 1181",
+          "locator_type": "page",
+          "quote": "Mon cher Patron, Je ne retournerai pas avant le premier juin, et par conséquence vous pouvez louer mon appartement: c'est inutile de le garder, et sans doute vous aurez beaucoup de touristes au mois de mai pour l'Exposition. Je vous prie d'avoir la bonté de conserver toutes mes choses pour moi, comme vous l'avez fait l'année passée. J'espère que Madame et la petite se portent bien. Je vous remercie pour mes lettres. Recevez mes compliments.",
+          "lang": "fr",
+          "translation": "My dear Patron, I shall not return before the first of June, and consequently you may let my apartment: it is useless to keep it, and no doubt you will have a great many tourists in May for the Exhibition. I beg you to have the goodness to keep all my things for me, as you did last year. I hope Madame and the little one are well. I thank you for my letters. Receive my compliments.",
+          "context": "Wilde to Jean Dupoirier, [postmark 18 April 1900], chez Cook et Fils, Rome - quoted whole, and signed SEBASTIAN MELMOTH rather than with his own name. The Exhibition is the Paris Exposition Universelle of 1900. He asks after Dupoirier's wife and small child. Wilde would be dead in the Hôtel d'Alsace seven months later. THE SAME FOLIO carries the letter naming Pietro Branca-d'Oro and the 'Homer' passage.",
+          "speaker": "Oscar Wilde",
+          "addressee": "Jean Dupoirier",
+          "evidence_date": {
+            "y": 1900,
+            "m": 4,
+            "d": 18
+          },
+          "supports": "The ordinary arrangement that kept Wilde housed, and that his things were kept for him a second year running.",
+          "verification": "verified-exact",
+          "how_verified": "pdf-at-page",
+          "provenance": "Repo PDF page 1227; printed folio 1181 confirmed on the rendered page image, read 2026-08-06.",
+          "verified_by": "claude-at-page",
+          "verified_on": "2026-08-06",
+          "voice": "period"
+        }
+      ]
+    }
+  ],
+  "research_status": "phase-a"
+}
