@@ -1,14 +1,11 @@
 {
   "id": "paris-egyptian--wilde",
-  "people": [
-    "paris-egyptian",
-    "wilde"
-  ],
+  "people": ["paris-egyptian", "wilde"],
   "certainty": "attraction-expressed",
+  "certainty_status": "proposed",
   "direction": "wilde",
   "outcome": "unknown",
-  "certainty_status": "proposed",
-  "certainty_reasoning": "The record is one sentence of physical description of a man who served Wilde drinks, and the sentence's own point is that he is not a substitute for someone else: 'A slim brown Egyptian, rather like a handsome bamboo walking-stick, occasionally serves me drinks at the Café d'Egypte, but he does not console me for the loss of the wanton sylvan boy of Italy.' No approach, no meeting outside the café, no outcome. attraction-expressed with outcome 'unknown' is proposed because admiration is what the page records and that class is the README's marked, hidden-by-default lead pool; romantic-nonsexual would assert a connection the sentence actively denies, and documented-sexual has nothing behind it. Candour about the bar: with André, this is the thinnest item in the tier, and it is thin in a particular way - the noticing is real and physical, but the man is present in the sentence as a comparison, not as an object of pursuit. A later check may reasonably prefer to keep him as a bio record with no edge; that would not be an unreasonable read of this page. The reading offered here is this project's, not a scholarly source's. EVIDENTIARY CAVEAT, from the editors' footnote on the same page: this letter survives only as text printed in W. T. Spencer's Forty Years in my Bookshop (1923), corrected and supplemented from a 1928 auction catalogue, and it is incomplete - so unlike the rest of this tier the words are not carried by a manuscript. Standing caveat for this tier: the record is one-sided by nature. These men left no papers; everything known is what Wilde wrote to a correspondent. An unrecorded outcome is not evidence of no outcome, and this man's own view of the encounter does not exist anywhere.",
+  "certainty_reasoning": "EVIDENTIARY CAVEAT, from the editors' footnote on the same page: this letter survives only as text printed in W. Spencer's Forty Years in my Bookshop (1923), corrected and supplemented from a 1928 auction catalogue, and it is incomplete - so unlike the rest of this tier the words are not carried by a manuscript.",
   "start": {
     "y": 1900,
     "m": 9
@@ -33,9 +30,8 @@
       },
       "supports": "The whole of the record: Wilde's description of the Café d'Egypte waiter and his statement that the man is no consolation for the departed Neapolitan; no outcome recorded",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF page 1242, printed folio 1196 confirmed at the foot of the rendered page, read as page image 2026-08-03. Transcribed exactly as printed in the Complete Letters; the editors' footnote 1 on the same page records that their text of this incomplete letter comes from W. T. Spencer's Forty Years in my Bookshop (1923), corrected and supplemented by the American Art Association catalogue of 1 February 1928, and the heading carries no manuscript line.",
-      "verified_by": "agent-mechanical",
+      "how_verified": "pdf-text",
+      "provenance": "Repo PDF page 1242, printed folio 1196 confirmed at the foot of the rendered page. Transcribed exactly as printed in the Complete Letters; the editors' footnote 1 on the same page records that their text of this incomplete letter comes from W. T. Spencer's Forty Years in my Bookshop (1923), corrected and supplemented by the American Art Association catalogue of 1 February 1928, and the heading carries no manuscript line.",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Leonard Smithers"

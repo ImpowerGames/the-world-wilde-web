@@ -11,10 +11,7 @@
   "bio_sources": [
     "sox-1991"
   ],
-  "bio_note": "Transcription and provenance reused unchanged from the context_engagement on warren.json, where he was held off-roster until 2026-08-05. Sox p. 77 rendered 2026-08-03 for the quotation; p. 79 (the Harvard address), p. 78 (the Devey marriage), p. 21 (the jealousies list), p. 129 (those Warren loved and 'wanted to possess') and p. vii (Golders Green) read in the text layer and carried as context rather than as quotations.",
+  "bio_note": "Sox p. 77 rendered 2026-08-03 for the quotation; p. 79 (the Harvard address), p. 78 (the Devey marriage), p. 21 (the jealousies list), p. 129 (those Warren loved and 'wanted to possess') and p. vii (Golders Green) read in the text layer and carried as context rather than as quotations.",
   "context_engagements": [],
-  "research_status": "phase-a",
-  "wikidata": null,
-  "wikipedia": null,
-  "roster_note": "Promoted from an off-roster context_engagement on warren.json, 2026-08-05, in the pass that put every off-roster person on the map. The sources moved with him unchanged."
+  "wikipedia": null
 }

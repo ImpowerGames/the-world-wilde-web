@@ -2,9 +2,7 @@
   "id": "laurence-housman",
   "name": "Laurence Housman",
   "sort_name": "Housman, Laurence",
-  "aka": [
-    "Housman"
-  ],
+  "aka": ["Housman"],
   "born": {
     "y": 1865
   },
@@ -14,16 +12,12 @@
   "group": "chaeronea",
   "gender": "m",
   "bio": "Poet, dramatist, novelist and artist (1865-1959), younger brother of A. E. Housman. He sent Wilde his book of imaginary legends All-Fellows in August 1897, three months after Wilde came out of Reading, and five of Wilde's replies survive, running to the end of 1898. In 1923 he published Echo de Paris, a reconstructed dialogue recording Wilde's conversation in his last years, which remains one of the standard accounts of it. He was a member of the Order of Chaeronea, and when George Ives came to make his will in 1939 he left Housman a ring bearing the numbers 338 - the year of the battle at which the Theban Band was destroyed, and the number the Order took its name and its dating system from. He is on this map for two reasons: that, and the fact that he is the man Wilde told about Raphael and Fortune.",
-  "bio_sources": [
-    "letters-2000",
-    "cook-2014"
-  ],
-  "bio_note": "Added 2026-08-05 under the rule that friendship belongs on the map. NO CONNECTION LINE: the register is literary friendship between an admired writer and a younger one, and nothing in the five letters states or implies attraction in either direction. WHY HE MATTERS HERE ANYWAY: Raphael and Fortune already have nodes on this map, and the sole evidence for both is a letter addressed to Housman - the one of 28 December 1898 in which Wilde describes the Napoule fishermen as having 'beautiful eyes, crisp hair of a hyacinth colour, and no morals: an ideal race' and names his 'two special friends'. Wilde chose him to say that to, in the same months he was writing guardedly to almost everyone else. The correspondence is therefore evidence about who Wilde could be candid with, which is the kind of fact this map is for. ALL FIVE LETTERS READ AT THE PAGE: printed 923, 928, 1027, 1111 and 1113 (repo PDF 973, 978, 1073, 1157, 1159), every folio confirmed on its own page image, 2026-08-05. DATES 1865-1959 from the editors' note at printed 923. GROUPED chaeronea RATHER THAN aesthete, which is a factual correction and not a roster call: Cook (2014, printed 110) names him a 'fellow member of the Order of the Chaeronea' in the course of describing Ives's 1939 will, and that attestation was already in this repo, sitting in Ives's file as a flagged roster candidate. Creating this node is what surfaced it - the engagement is now visible from both ends. HIS LATER WORK IN HOMOSEXUAL LAW REFORM is well attested in the general literature but is not in either source cited here, and stays off the map until it is read at a page. WHAT THE TWO SOURCES TOGETHER SHOW is worth stating plainly: the man Wilde chose, out of everyone, to tell about the Napoule fishermen in December 1898 was a sworn member of the secret society Wilde's circle used to find each other. Neither source knows about the other; they were written 116 years apart and by different hands.",
+  "bio_sources": ["letters-2000", "cook-2014"],
+  "bio_note": "ALL FIVE LETTERS READ AT THE PAGE: printed 923, 928, 1027, 1111 and 1113 (repo PDF 973, 978, 1073, 1157, 1159), every folio confirmed on its own page image, 2026-08-05. DATES 1865-1959 from the editors' note at printed 923.",
   "context_engagements": [
     {
       "partner_name": "Oscar Wilde",
       "period": "After Reading, 1897-1898",
-      "note": "Friendship, recorded without a connection line. The letters are quoted at length; the elisions are marked and drop only publishing business.",
       "sources": [
         {
           "work": "letters-2000",
@@ -40,9 +34,8 @@
           },
           "supports": "The opening of the friendship, and what counted as happiness to Wilde that summer.",
           "verification": "verified-elision",
-          "how_verified": "pdf-at-page",
-          "provenance": "Repo PDF page 973; printed folio 923 confirmed on the rendered page image, read 2026-08-05.",
-          "verified_by": "claude-at-page",
+          "how_verified": "pdf-image",
+          "provenance": "Repo PDF page 973; printed folio 923 confirmed on the rendered page image.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -61,9 +54,8 @@
           },
           "supports": "Wilde telling a near-stranger, unprompted, that he thinks he has betrayed himself.",
           "verification": "verified-elision",
-          "how_verified": "pdf-at-page",
-          "provenance": "Repo PDF page 978; printed folio 928 confirmed on the rendered page image, read 2026-08-05.",
-          "verified_by": "claude-at-page",
+          "how_verified": "pdf-image",
+          "provenance": "Repo PDF page 978; printed folio 928 confirmed on the rendered page image.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -81,9 +73,8 @@
           },
           "supports": "The Ballad received, and the nearest thing to a statement of belief in the correspondence.",
           "verification": "verified-exact",
-          "how_verified": "pdf-at-page",
-          "provenance": "Repo PDF page 1073; printed folio 1027 confirmed on the rendered page image, read 2026-08-05.",
-          "verified_by": "claude-at-page",
+          "how_verified": "pdf-image",
+          "provenance": "Repo PDF page 1073; printed folio 1027 confirmed on the rendered page image.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -102,9 +93,8 @@
           },
           "supports": "The correspondence at its warmest, and the journey to Napoule that produced the next letter.",
           "verification": "verified-exact",
-          "how_verified": "pdf-at-page",
-          "provenance": "Repo PDF page 1157; printed folio 1111 confirmed on the rendered page image, read 2026-08-05.",
-          "verified_by": "claude-at-page",
+          "how_verified": "pdf-image",
+          "provenance": "Repo PDF page 1157; printed folio 1111 confirmed on the rendered page image.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -123,14 +113,12 @@
           },
           "supports": "Wilde's candour about the Napoule fishermen, and the choice of Housman to receive it.",
           "verification": "verified-exact",
-          "how_verified": "pdf-at-page",
-          "provenance": "Repo PDF page 1159; printed folio 1113 confirmed on the rendered page image, read 2026-08-05.",
-          "verified_by": "claude-at-page",
+          "how_verified": "pdf-image",
+          "provenance": "Repo PDF page 1159; printed folio 1113 confirmed on the rendered page image.",
           "verified_on": "2026-08-05",
           "voice": "period"
         }
       ]
     }
-  ],
-  "research_status": "phase-a"
+  ]
 }

@@ -1,12 +1,8 @@
 {
   "id": "custance--douglas",
-  "people": [
-    "custance",
-    "douglas"
-  ],
+  "people": ["custance", "douglas"],
   "certainty": "married",
   "certainty_status": "proposed",
-  "certainty_reasoning": "Legal marriage with the exact date (4 March 1902, St George's, Hanover Square, by special licence) is stated independently by Parker's scholarly biography (read in full) and by Douglas's own memoir read at IA page images, so the 'marriage' class is mechanical. The record also carries the documented 1901 courtship-by-correspondence (Prince/Princess/Page personas), the birth of their son Raymond (17 November 1902), the 1913 separation, and the attachment maintained to Custance's death in 1944.",
   "start": {
     "y": 1901,
     "m": 6
@@ -33,7 +29,6 @@
       "verification": "verified-exact",
       "how_verified": "web",
       "provenance": "https://1890s.ca/custance_bio/ fetched (curl) and read in full 2026-08-03; quote extracted byte-exact from the downloaded HTML, line-wrap whitespace normalized.",
-      "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -52,7 +47,6 @@
       "verification": "verified-exact",
       "how_verified": "web",
       "provenance": "https://1890s.ca/custance_bio/ fetched and read in full 2026-08-03; quote extracted byte-exact from the downloaded HTML.",
-      "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -71,7 +65,6 @@
       "verification": "verified-exact",
       "how_verified": "archive-org",
       "provenance": "IA autobiographyofl0000doug leaf 225, IIIF page image read 2026-08-03; printed folio 197 confirmed on the image.",
-      "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
       "voice": "period"
     },
@@ -88,7 +81,6 @@
       "verification": "verified-exact",
       "how_verified": "archive-org",
       "provenance": "IA autobiographyofl0000doug leaf 228, IIIF page image read 2026-08-03; printed folio 200 confirmed on the image.",
-      "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
       "voice": "period"
     },
@@ -104,9 +96,8 @@
       },
       "supports": "Courtship-letter texture; elopement details; separation and later relations.",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF page 134, read as a page image 2026-08-04. Re-pointed from the murray-2000 pointer to the 2020 Sceptre reissue actually held; that edition is an ebook conversion carrying no printed folios, so the locator is the PDF page.",
-      "verified_by": "agent-mechanical",
+      "how_verified": "pdf-text",
+      "provenance": "Repo PDF page 134. Re-pointed from the murray-2000 pointer to the 2020 Sceptre reissue actually held; that edition is an ebook conversion carrying no printed folios, so the locator is the PDF page.",
       "verified_on": "2026-08-04",
       "voice": "period",
       "speaker": "Olive Custance",
@@ -125,9 +116,8 @@
       },
       "supports": "The marriage date, church, witnesses and the special licence - independent of the Parker biography and of Douglas's own memoir, both already cited here.",
       "verification": "verified-elision",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF page 141 of Murray_2020_Bosie (docs/research/queer-history/victorian/douglas/sources/), read as page image 2026-08-03. NO PRINTED FOLIO EXISTS: the file is an ebook conversion with no page numbers and an unpaginated Contents, so the printed-to-PDF offset is n/a and the locator is the PDF page, marked 'PDF p.' - see the pagination note in dossiers/DOUGLAS-MURRAY_dossier.md.",
-      "verified_by": "agent-mechanical",
+      "how_verified": "pdf-text",
+      "provenance": "Repo PDF page 141 of Murray_2020_Bosie (docs/research/queer-history/victorian/douglas/sources/). NO PRINTED FOLIO EXISTS: the file is an ebook conversion with no page numbers and an unpaginated Contents, so the printed-to-PDF offset is n/a and the locator is the PDF page, marked 'PDF p.' - see the pagination note in the DOUGLAS-MURRAY dossier (long-form research notes, kept in the private research repository).",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -142,9 +132,8 @@
       },
       "supports": "The 1913 separation, the four-month gap, the short-lived reconciliation, and the second desertion - the shape of the marriage after the courtship years, which this record did not previously carry.",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF page 195 of Murray_2020_Bosie (docs/research/queer-history/victorian/douglas/sources/), read as page image 2026-08-03. NO PRINTED FOLIO EXISTS: the file is an ebook conversion with no page numbers and an unpaginated Contents, so the printed-to-PDF offset is n/a and the locator is the PDF page, marked 'PDF p.' - see the pagination note in dossiers/DOUGLAS-MURRAY_dossier.md.",
-      "verified_by": "agent-mechanical",
+      "how_verified": "pdf-text",
+      "provenance": "Repo PDF page 195 of Murray_2020_Bosie (docs/research/queer-history/victorian/douglas/sources/). NO PRINTED FOLIO EXISTS: the file is an ebook conversion with no page numbers and an unpaginated Contents, so the printed-to-PDF offset is n/a and the locator is the PDF page, marked 'PDF p.' - see the pagination note in the DOUGLAS-MURRAY dossier (long-form research notes, kept in the private research repository).",
       "verified_on": "2026-08-03",
       "voice": "modern"
     }

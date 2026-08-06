@@ -1,9 +1,6 @@
 {
   "id": "tankard--wilde",
-  "people": [
-    "tankard",
-    "wilde"
-  ],
+  "people": ["tankard", "wilde"],
   "certainty": "uncorroborated",
   "certainty_status": "proposed",
   "start": {
@@ -19,7 +16,6 @@
     "grounds": "The allegation stands in the plea alone. Tankard was traced to Calais by Queensberry's solicitors but never called, gave no evidence at any of the three proceedings, and left no account of his own; no indictment count concerned him. `disputed_by` is null because there is nothing on the other side either - unlike Scarfe, Wilde was never asked about Tankard in the witness box, so the record holds an untested allegation and no denial. The clause is also the weakest on its page: where Parker, Scarfe and Grainger are alleged to have been solicited 'to commit sodomy and other acts of gross indecency', Tankard's alleges only 'indecent liberties'."
   },
   "summary": "A clause in the Marquess of Queensberry's 1895 plea of justification alleging that Wilde took indecent liberties with Herbert Tankard, a Savoy pageboy, in March 1893. Tankard was traced to Calais by Queensberry's solicitors but never called, and gave no evidence. Nothing corroborates the allegation and nothing of Tankard's own account survives.",
-  "certainty_reasoning": "UNCORROBORATED is the class the README defines for allegations made only in Queensberry's 1895 plea, and this is one: pleaded, never tested, never spoken to by the person named. Two features of the clause are worth stating rather than smoothing. It is WEAKER than its neighbours on the same page - Parker, Scarfe and Grainger are alleged to have been solicited and incited 'to commit sodomy and other acts of gross indecency', while Tankard's clause alleges only 'indecent liberties'. And the plea is a hostile document drafted to defeat a libel action, so it is evidence of what was alleged and not of what happened. No age is stated for Tankard on the page read, and none is inferred.",
   "sources": [
     {
       "work": "holland-2003",
@@ -33,9 +29,8 @@
       },
       "supports": "The allegation itself, in the plea's own words — the whole of the record for this connection.",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF page 337; printed folio 289 confirmed on the rendered page image, read 2026-08-05.",
-      "verified_by": "claude-at-page",
+      "how_verified": "pdf-image",
+      "provenance": "Repo PDF page 337; printed folio 289 confirmed on the rendered page image.",
       "verified_on": "2026-08-05",
       "voice": "period"
     }

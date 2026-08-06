@@ -1,16 +1,12 @@
 {
   "id": "clermont-tonnerre--de-gramont",
-  "people": [
-    "clermont-tonnerre",
-    "de-gramont"
-  ],
+  "people": ["clermont-tonnerre", "de-gramont"],
   "certainty": "married",
   "certainty_status": "proposed",
   "start": null,
   "end": null,
   "date_label": "Married when de Gramont was twenty-one; year not stated in the source read",
   "summary": "De Gramont's marriage, and the source of the title she is usually named by. Souhami reports her speaking of her husband as a cruel gaoler.",
-  "certainty_reasoning": "MARRIED: a legal marriage, stated by a biographer. It is on the map under the roster's spouse rule, which admits every documented spouse so that a woman's marriage is visible beside her other attachments rather than hidden inside her file.",
   "sources": [
     {
       "work": "souhami-2004",
@@ -21,9 +17,8 @@
       "evidence_date": null,
       "supports": "The marriage, the husband's name, and de Gramont's own reported view of it.",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF page 98; printed folio 72 confirmed on the rendered page image, read 2026-08-05.",
-      "verified_by": "claude-at-page",
+      "how_verified": "pdf-image",
+      "provenance": "Repo PDF page 98; printed folio 72 confirmed on the rendered page image.",
       "verified_on": "2026-08-05",
       "voice": "modern"
     }

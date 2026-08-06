@@ -8,15 +8,12 @@
   "group": "later",
   "gender": "m",
   "bio": "Editor of the Fortnightly Review and later the Saturday Review, and afterwards the author of a famously unreliable biography of Wilde. Thirty-seven of Wilde's letters to him survive. In the exile years he paid Wilde a monthly allowance, bought him clothes, and took him to Napoule for a month so that he might write something. Wilde called him 'a dear good friend of mine'.",
-  "bio_sources": [
-    "letters-2000"
-  ],
-  "bio_note": "Added 2026-08-05, per Lovelle. NO CONNECTION LINE: the relation is patronage and friendship, and nothing read states or implies more. THE LETTERS READ HERE ARE ABOUT MONEY AND ARE KEPT FOR THAT REASON: this map's exile tier is largely people who cost money or gave it, and Harris is the largest single giver in the record. His biography of Wilde is NOT used as a source here and nothing from it is asserted. THIRTY-SEVEN LETTERS at repo PDF 489, 555, 895, 944, 1065, 1070, 1075, 1079, 1082 and others; FOUR read at the page (printed 845, 894, 1024-5 and 1097, folios confirmed, 2026-08-05). DATES NOT RECORDED and none inferred. COUNT CORRECTED 2026-08-05: the figure first written here was a count of PDF PAGES, not of letters - the locator deduplicated by page, and letters to one person are often printed two or three to a page. The corrected figure is a count of 'To <name>' headings in the volume. Every such correction was upward, so the unread remainder is larger than this node first claimed. RE-TRIAGED 2026-08-05 on the warmth test rather than the desire test, per Lovelle. The first pass had kept only the two letters about money and missed both letters about the friendship itself - printed 894 and 1024-5 - which are the best things in the correspondence. See the same correction on [[kersley]].",
+  "bio_sources": ["letters-2000"],
+  "bio_note": "THIRTY-SEVEN LETTERS at repo PDF 489, 555, 895, 944, 1065, 1070, 1075, 1079, 1082 and others; FOUR read at the page (printed 845, 894, 1024-5 and 1097, folios confirmed). DATES NOT RECORDED and none inferred. The first pass had kept only the two letters about money and missed both letters about the friendship itself - printed 894 and 1024-5 - which are the best things in the correspondence.",
   "context_engagements": [
     {
       "partner_name": "Oscar Wilde",
       "period": "London and the exile, 1890s-1900",
-      "note": "Friendship and patronage, recorded without a connection line.",
       "sources": [
         {
           "work": "letters-2000",
@@ -33,9 +30,8 @@
           },
           "supports": "The first thanks, and the clothes he came out of prison in.",
           "verification": "verified-exact",
-          "how_verified": "pdf-at-page",
-          "provenance": "Repo PDF page 895; printed folio 845 confirmed on the rendered page image, read 2026-08-05.",
-          "verified_by": "claude-at-page",
+          "how_verified": "pdf-image",
+          "provenance": "Repo PDF page 895; printed folio 845 confirmed on the rendered page image.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -54,9 +50,8 @@
           },
           "supports": "The friendship being repaired in the open, and Wilde defining what gratitude and directness now meant to him.",
           "verification": "verified-elision",
-          "how_verified": "pdf-at-page",
-          "provenance": "Repo PDF page 944; printed folio 894 confirmed on the rendered page image, read 2026-08-05.",
-          "verified_by": "claude-at-page",
+          "how_verified": "pdf-image",
+          "provenance": "Repo PDF page 944; printed folio 894 confirmed on the rendered page image.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -74,9 +69,8 @@
           },
           "supports": "What the friendship had become by 1898, in Wilde's own accounting.",
           "verification": "verified-exact",
-          "how_verified": "pdf-at-page",
-          "provenance": "Repo PDF page 1143; printed folio 1097 confirmed on the rendered page image, read 2026-08-05.",
-          "verified_by": "claude-at-page",
+          "how_verified": "pdf-image",
+          "provenance": "Repo PDF page 1143; printed folio 1097 confirmed on the rendered page image.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -94,14 +88,12 @@
           },
           "supports": "What Wilde told a friend he had left, and that seeing him was still worth staying for.",
           "verification": "verified-elision",
-          "how_verified": "pdf-at-page",
-          "provenance": "Repo PDF pages 1070-1071; printed folios 1024-5 confirmed on the rendered page images, read 2026-08-05.",
-          "verified_by": "claude-at-page",
+          "how_verified": "pdf-image",
+          "provenance": "Repo PDF pages 1070-1071; printed folios 1024-5 confirmed on the rendered page images.",
           "verified_on": "2026-08-05",
           "voice": "period"
         }
       ]
     }
-  ],
-  "research_status": "phase-a"
+  ]
 }

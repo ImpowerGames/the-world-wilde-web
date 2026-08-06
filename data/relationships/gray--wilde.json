@@ -1,12 +1,9 @@
 {
   "id": "gray--wilde",
-  "people": [
-    "gray",
-    "wilde"
-  ],
+  "people": ["gray", "wilde"],
   "certainty": "uncorroborated",
   "certainty_status": "proposed",
-  "certainty_reasoning": "Nothing read so far attests a sexual or romantic relationship first-person. What the primary and editorial material documents is patronage (Wilde undertook Silverpoints' production costs, June 1892), public association strong enough that the Daily Telegraph called Gray Wilde's 'protege' - which Wilde publicly denied, calling the acquaintance 'extremely recent' - Gray's self-identification as 'Dorian' within the circle, Wilde's retrospective 'my real life, my higher life was with them' in De Profundis, and an editorially noted falling-out. The sexual/romantic characterization common in later biography was not reachable in the source so far (pointer to McKenna below), so the contested-single-source class with a disputed block is the honest mechanical proposal; a later check may raise it to consensus if two independent secondary attestations are verified.",
+  "certainty_reasoning": "The sexual/romantic characterization common in later biography was not reachable in the source so far (pointer to McKenna below), so the contested-single-source class with a disputed block is the honest mechanical proposal; a later check may raise it to consensus if two independent secondary attestations are verified.",
   "start": {
     "y": 1892,
     "circa": true
@@ -25,7 +22,7 @@
   },
   "sources": [
     {
-      "quote": "Your writer describes the author of the brilliant fantastic lecture on 'The Modern Actor' as 'a protégé' of mine.   Allow me to state that my acquaintance with Mr John Gray is, I regret to say, extremely recent, and that I sought it because he had already a perfected mode of expression both in prose and verse. … These qualities Mr John Gray possesses in a marked degree.   He needs no other protection, nor, indeed, would he accept it.",
+      "quote": "Your writer describes the author of the brilliant fantastic lecture on 'The Modern Actor' as 'a protégé' of mine. Allow me to state that my acquaintance with Mr John Gray is, I regret to say, extremely recent, and that I sought it because he had already a perfected mode of expression both in prose and verse. … These qualities Mr John Gray possesses in a marked degree. He needs no other protection, nor, indeed, would he accept it.",
       "context": "Wilde to the Editor of the Daily Telegraph, 19 February [1892], published 20 February headed PUPPETS AND ACTORS; 'a protégé' italicised in original",
       "work": "letters-2000",
       "locator": "p. 520",
@@ -37,15 +34,14 @@
       },
       "supports": "The public 'protege' characterization and Wilde's printed denial of it ('extremely recent'), Feb. 1892",
       "verification": "verified-elision",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF page 540, printed folio 520 confirmed on rendered page, read as page image 2026-08-03. Elision drops four sentences on artists needing protection; full text in dossier.",
-      "verified_by": "agent-mechanical",
+      "how_verified": "pdf-text",
+      "provenance": "Repo PDF page 540, printed folio 520 confirmed on rendered page. Elision drops four sentences on artists needing protection; full text in dossier.",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Editor of the Daily Telegraph"
     },
     {
-      "quote": "Dear Sir, Silverpoints (poems) by John Gray.   We agree to issue the above book in the autumn on your undertaking the cost of the designs – block for same – paper, printing and binding of an edition not exceeding 250 copies.",
+      "quote": "Dear Sir, Silverpoints (poems) by John Gray. We agree to issue the above book in the autumn on your undertaking the cost of the designs – block for same – paper, printing and binding of an edition not exceeding 250 copies.",
       "context": "Mathews and Lane (The Bodley Head) to Wilde, 17 June 1892, Vigo Street - the publishers' agreement printed in Complete Letters; Silverpoints italicised in original ! Corrected 2026-08-05: this carried no speaker, so the page fell back to the volume's author and printed the publishers' letter as Wilde writing - and once the addressee was recorded, as Wilde writing to himself.",
       "work": "letters-2000",
       "locator": "p. 527",
@@ -57,9 +53,8 @@
       },
       "supports": "Wilde personally undertook the production costs of Gray's Silverpoints - the patronage in a primary document",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF page 547, printed folio 527 confirmed on rendered page, read as page image 2026-08-03.",
-      "verified_by": "agent-mechanical",
+      "how_verified": "pdf-text",
+      "provenance": "Repo PDF page 547, printed folio 527 confirmed on rendered page.",
       "verified_on": "2026-08-03",
       "speaker": "Elkin Mathews and John Lane (The Bodley Head)",
       "voice": "period",
@@ -74,14 +69,13 @@
       "evidence_date": null,
       "supports": "The falling-out; the 'Dorian' self-identification with the editors' no-evidence caveat",
       "verification": "verified-elision",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF page 540, printed folio 520 confirmed on rendered page, read as page image 2026-08-03. First elision drops the cross-reference '(see p.527)'; second bridges two non-adjacent footnote sentences; full footnote content in dossier.",
-      "verified_by": "agent-mechanical",
+      "how_verified": "pdf-text",
+      "provenance": "Repo PDF page 540, printed folio 520 confirmed on rendered page. First elision drops the cross-reference '(see p.527)'; second bridges two non-adjacent footnote sentences; full footnote content in dossier.",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
     {
-      "quote": "When I compare my friendship with you to my friendship with such still younger men as John Gray and Pierre Louÿs I feel ashamed.   My real life, my higher life was with them and such as they.",
+      "quote": "When I compare my friendship with you to my friendship with such still younger men as John Gray and Pierre Louÿs I feel ashamed. My real life, my higher life was with them and such as they.",
       "context": "Wilde to Lord Alfred Douglas ('De Profundis'), HM Prison, Reading, January-March 1897",
       "work": "letters-2000",
       "locator": "p. 686",
@@ -96,9 +90,8 @@
       },
       "supports": "Wilde's retrospective valuation of the Gray friendship - 'my real life, my higher life'",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF page 737, printed folio 686 confirmed on rendered page, read as page image 2026-08-03.",
-      "verified_by": "agent-mechanical",
+      "how_verified": "pdf-text",
+      "provenance": "Repo PDF page 737, printed folio 686 confirmed on rendered page.",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Lord Alfred Douglas"
@@ -114,9 +107,8 @@
       },
       "supports": "The sexual-relationship characterization underlying the 'alleged' claim; requires verification in the source",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF page 194, read as a page image 2026-08-04. Re-pointed from the mckenna-2003 pointer to the 2008 edition held; no printed folios, so the locator is the PDF page. This replaces the earlier candidate at PDF 216, which was interrogative and could not carry the claim.",
-      "verified_by": "agent-mechanical",
+      "how_verified": "pdf-text",
+      "provenance": "Repo PDF page 194. Re-pointed from the mckenna-2003 pointer to the 2008 edition held; no printed folios, so the locator is the PDF page. This replaces the earlier candidate at PDF 216, which was interrogative and could not carry the claim.",
       "verified_on": "2026-08-04",
       "voice": "modern"
     }

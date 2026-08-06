@@ -2,11 +2,7 @@
   "id": "ward",
   "name": "William Ward",
   "sort_name": "Ward, William",
-  "aka": [
-    "Bouncer",
-    "Willie Ward",
-    "Will Ward"
-  ],
+  "aka": ["Bouncer", "Willie Ward", "Will Ward"],
   "born": {
     "y": 1854
   },
@@ -16,15 +12,12 @@
   "group": "aesthete",
   "gender": "m",
   "bio": "William Welsford Ward (1854-1932), Wilde's closest Oxford friend and the man he wrote to more often than anyone else in his twenties. He came to Magdalen from Radley as a Classical Demy in 1873, took a First in Mods and a Second in Greats, and went down at the end of 1876 to follow his father as a solicitor in Bristol, where he became a considerable public figure. His nickname 'Bouncer' came from a comic Oxford novel of 1873; Wilde's own was 'Hosky'. Wilde scratched a drawing inscribed 'Little Mr Bouncer' on the window of the room the two of them occupied in succession, and it survived until a college party smashed it in the 1960s. Ward wrote a short 'Oxford Reminiscence' of Wilde, published in 1954.",
-  "bio_sources": [
-    "letters-2000"
-  ],
-  "bio_note": "Added 2026-08-05 under the rule that friendship belongs on the map. NO CONNECTION LINE: the register is intimate undergraduate friendship, and nothing read so far states or implies more. TWENTY-TWO LETTERS at repo PDF 39, 43, 45, 47, 49, 50, 52, 56 (two), 60, 62, 63, 66, 82, 84, 87, 88, 91, 96, 97, 102 and 137. FIFTEEN have been read at the page (printed 20, 38, 64, 69, 70 and the four-double-sheet letter at printed 38-9, folios confirmed, 2026-08-05); the other sixteen are located, not read, and all are rendered and waiting in the session scratchpad. DATES: NONE RECORDED — his years are probably in the editors' note at the first letter (repo PDF 39), which has not been read; nothing is inferred here. THE LETTER TO READ NEXT is repo PDF 63, which the editors describe as 'a letter of four double sheets' — by far the longest of the twenty-two, and the likeliest to carry more than news. THE ARC IS NOW BRACKETED: the earliest letter (printed 15, March 1876) signs off 'Your affectionate friend' and the last (printed 112, mid-1881) 'Ever affectionately yours', so the register at both ends is on the record even though thirteen letters in the middle remain unread. A CANDIDATE THIS TURNED UP: WALTER PATER. His first letter to Wilde is printed whole at printed 59, inside Wilde's letter to Ward — 'it makes me much wish to make your acquaintance' — and Pater has no node on this map despite being the single largest influence on the aesthetic circle it draws. TWO MORE CANDIDATES THIS TURNED UP, neither on the map: JOHN ADDINGTON SYMONDS, whose Studies of the Greek Poets Wilde was reviewing in August 1876 (printed 31) and who is a central figure in the period's homosexual writing; and WALTER PATER, whose first letter to Wilde is printed whole at printed 59. CROFT-COOKE TESTED AND NOT SUPPORTED. Croft-Cooke (The Unrecorded Life of Oscar Wilde, 1972) writes that 'the only occasions on which one detects an alien note in his letters both to Bouncer and Kitten is when he mentions Frank Miles, and this brings us to the first of Wilde's passionate friendships with another man'. Every page in these two correspondences that mentions Frank or the Miles family has now been read at the page - repo PDF 42, 46, 47, 49, 54, 56 and 72, printed 17, 21, 22, 24, 29, 31 and 47 - and the note is not audible in any of them. Miles appears flatly and briefly: as a travelling companion ('I have been waiting for my brother who is on circuit, and for Frank Miles'), as a name in a postscript added after the signature ('I have Frank Miles with me'), as one of a party ('a delightful time in town with Frank Miles and a lot of friends'), and most often as his father, Canon Miles, the advanced Anglican whose theology Wilde argued about at Bingham. WHERE WILDE DOES SWOON IN THESE SAME LETTERS IT IS OVER WOMEN, twice in the sentence immediately following a Miles mention: the four Miles daughters ('all very pretty indeed... My heart is torn in sunder with admiration for them all'), an unnamed seventeen-year-old with 'the most perfectly beautiful face I ever saw', and Florence Balcombe, 'more lovely than ever'. This is recorded as a negative finding rather than left out. It does not show that Wilde felt nothing for Miles; it shows that these letters are not the evidence for it, and that a much-repeated secondary claim rests on pages that do not say what it says they say. A THIRD CANDIDATE, alongside Symonds and Pater: J. P. MAHAFFY, Wilde's Trinity tutor, whose proofs Wilde was correcting in 1876 and whose Social Life in Greece thanked him by name - the editors note that in later editions 'both the discussion of Greek homosexuality and the reference to Wilde were dropped', which is a documented erasure and the kind of fact this map exists to hold.",
+  "bio_sources": ["letters-2000"],
+  "bio_note": "TWENTY-TWO LETTERS at repo PDF 39, 43, 45, 47, 49, 50, 52, 56 (two), 60, 62, 63, 66, 82, 84, 87, 88, 91, 96, 97, 102 and 137. FIFTEEN have been read at the page (printed 20, 38, 64, 69, 70 and the four-double-sheet letter at printed 38-9, folios confirmed); the other sixteen are located, not read, and all are rendered and waiting in the session scratchpad. DATES: NONE RECORDED — his years are probably in the editors' note at the first letter (repo PDF 39), which has not been read; nothing is inferred here. THE LETTER TO READ NEXT is repo PDF 63, which the editors describe as 'a letter of four double sheets' — by far the longest of the twenty-two, and the likeliest to carry more than news. THE ARC IS NOW BRACKETED: the earliest letter (printed 15, March 1876) signs off 'Your affectionate friend' and the last (printed 112, mid-1881) 'Ever affectionately yours', so the register at both ends is on the record even though thirteen letters in the middle remain unread. TWO MORE CANDIDATES THIS TURNED UP, neither on the map: JOHN ADDINGTON SYMONDS, whose Studies of the Greek Poets Wilde was reviewing in August 1876 (printed 31) and who is a central figure in the period's homosexual writing; and WALTER PATER, whose first letter to Wilde is printed whole at printed 59. Every page in these two correspondences that mentions Frank or the Miles family has now been read at the page - repo PDF 42, 46, 47, 49, 54, 56 and 72, printed 17, 21, 22, 24, 29, 31 and 47 - and the note is not audible in any of them.",
   "context_engagements": [
     {
       "partner_name": "Oscar Wilde",
       "period": "Oxford and after, 1876-1881",
-      "note": "Friendship. Both letters below are quoted whole; the elisions are marked and drop only news of third parties.",
       "sources": [
         {
           "work": "letters-2000",
@@ -41,9 +34,8 @@
           },
           "supports": "The earliest surviving sign-off to Ward — 'Your affectionate friend' — and the Ward/Harding/Wilde triangle in one letter.",
           "verification": "verified-elision",
-          "how_verified": "pdf-at-page",
-          "provenance": "Repo PDF page 40; printed folio 15 confirmed on the rendered page image, read 2026-08-05.",
-          "verified_by": "claude-at-page",
+          "how_verified": "pdf-image",
+          "provenance": "Repo PDF page 40; printed folio 15 confirmed on the rendered page image.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -62,9 +54,8 @@
           },
           "supports": "The First and the grief in the same breath — what Wilde told Ward that he told almost nobody.",
           "verification": "verified-elision",
-          "how_verified": "pdf-at-page",
-          "provenance": "Repo PDF page 45; printed folio 20 confirmed on the rendered page image, read 2026-08-05.",
-          "verified_by": "claude-at-page",
+          "how_verified": "pdf-image",
+          "provenance": "Repo PDF page 45; printed folio 20 confirmed on the rendered page image.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -83,9 +74,8 @@
           },
           "supports": "What Wilde and Ward actually talked about — faith, Newman, reason — which is the friendship's substance and is not romantic.",
           "verification": "verified-elision",
-          "how_verified": "pdf-at-page",
-          "provenance": "Repo PDF page 50; printed folio 25 confirmed on the rendered page image, read 2026-08-05.",
-          "verified_by": "claude-at-page",
+          "how_verified": "pdf-image",
+          "provenance": "Repo PDF page 50; printed folio 25 confirmed on the rendered page image.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -104,9 +94,8 @@
           },
           "supports": "Wilde inviting Ward and Harding together for a month, and the exact placement of a Frank Miles mention — the thing Croft-Cooke says the charge lives in.",
           "verification": "verified-elision",
-          "how_verified": "pdf-at-page",
-          "provenance": "Repo PDF page 56; printed folio 31 confirmed on the rendered page image, read 2026-08-05.",
-          "verified_by": "claude-at-page",
+          "how_verified": "pdf-image",
+          "provenance": "Repo PDF page 56; printed folio 31 confirmed on the rendered page image.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -124,9 +113,8 @@
           },
           "supports": "The confidence in the friendship — solicitude about his meals, and the proudest letter of his young life sent to Ward before anyone else.",
           "verification": "verified-elision",
-          "how_verified": "pdf-at-page",
-          "provenance": "Repo PDF pages 43 and 86; printed folios 18 and 59 both confirmed on the rendered page images, read 2026-08-05. The two letters are quoted together and the join is marked; each is separately locatable at its own folio.",
-          "verified_by": "claude-at-page",
+          "how_verified": "pdf-image",
+          "provenance": "Repo PDF pages 43 and 86; printed folios 18 and 59 both confirmed on the rendered page images. The two letters are quoted together and the join is marked; each is separately locatable at its own folio.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -145,9 +133,8 @@
           },
           "supports": "Wilde's own observation that Ward was indifferent to women, and his wish that he would not be.",
           "verification": "verified-exact",
-          "how_verified": "pdf-at-page",
-          "provenance": "Repo PDF page 63; printed folio 38 confirmed on the rendered page image, read 2026-08-05.",
-          "verified_by": "claude-at-page",
+          "how_verified": "pdf-image",
+          "provenance": "Repo PDF page 63; printed folio 38 confirmed on the rendered page image.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -166,9 +153,8 @@
           },
           "supports": "What Ward's congratulations were worth to him, and the plain wish to see him.",
           "verification": "verified-elision",
-          "how_verified": "pdf-at-page",
-          "provenance": "Repo PDF page 97; printed folio 70 confirmed on the rendered page image, read 2026-08-05.",
-          "verified_by": "claude-at-page",
+          "how_verified": "pdf-image",
+          "provenance": "Repo PDF page 97; printed folio 70 confirmed on the rendered page image.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -187,9 +173,8 @@
           },
           "supports": "Wilde at his lowest before the First was announced, asking Ward why he does not write and whether he will come.",
           "verification": "verified-exact",
-          "how_verified": "pdf-at-page",
-          "provenance": "Repo PDF page 96; printed folio 69 confirmed on the rendered page image, read 2026-08-05.",
-          "verified_by": "claude-at-page",
+          "how_verified": "pdf-image",
+          "provenance": "Repo PDF page 96; printed folio 69 confirmed on the rendered page image.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -207,9 +192,8 @@
           },
           "supports": "The close of the correspondence, five years on and still affectionate — and Wilde's estimate of Ward's judgement.",
           "verification": "verified-exact",
-          "how_verified": "pdf-at-page",
-          "provenance": "Repo PDF page 137; printed folio 112 confirmed on the rendered page image, read 2026-08-05.",
-          "verified_by": "claude-at-page",
+          "how_verified": "pdf-image",
+          "provenance": "Repo PDF page 137; printed folio 112 confirmed on the rendered page image.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -228,9 +212,8 @@
           },
           "supports": "What Wilde could say to Ward and to nobody else, and the earliest recorded instance of him handling a suspected attachment between men.",
           "verification": "verified-elision",
-          "how_verified": "pdf-at-page",
-          "provenance": "Repo PDF pages 53-54; printed folios 28 and 29 both confirmed on the rendered page images, read 2026-08-05.",
-          "verified_by": "claude-at-page",
+          "how_verified": "pdf-image",
+          "provenance": "Repo PDF pages 53-54; printed folios 28 and 29 both confirmed on the rendered page images.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -249,14 +232,12 @@
           },
           "supports": "A week inside the Miles household, written up entirely in terms of the parents.",
           "verification": "verified-elision",
-          "how_verified": "pdf-at-page",
-          "provenance": "Repo PDF page 47; printed folio 22 confirmed on the rendered page image, read 2026-08-05.",
-          "verified_by": "claude-at-page",
+          "how_verified": "pdf-image",
+          "provenance": "Repo PDF page 47; printed folio 22 confirmed on the rendered page image.",
           "verified_on": "2026-08-05",
           "voice": "period"
         }
       ]
     }
-  ],
-  "research_status": "phase-a"
+  ]
 }

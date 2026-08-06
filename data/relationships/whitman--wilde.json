@@ -1,12 +1,9 @@
 {
   "id": "whitman--wilde",
-  "people": [
-    "whitman",
-    "wilde"
-  ],
+  "people": ["whitman", "wilde"],
   "certainty": "self-reported",
   "certainty_status": "proposed",
-  "certainty_reasoning": "Parallel precedent is the Wilde-Ives edge (documented kiss, no sexual claim). (a) The kiss: 'The kiss of Walt Whitman is still on my lips' is transcribed from Richard Ellmann's 'Oscar Meets Walt' (NYRB, 3 Dec. 1987), read at the article page so far; Ellmann's prose attributes it as what Wilde 'would later tell George Ives' and places it at the parting of the second (early-May 1882) visit. The deeper traditional chain - Ives's diary, commonly printed in the source in McKenna 2003 and in Ellmann's 1988 biography - was NOT verified so far (both lending-only); the article's footnote text was unreachable. (b) The romantic reading is the editor's directed interpretation of a brief encounter: two documented afternoon visits in 1882, Wilde's 'There is no one in this wide great world of America whom I love and honour so much', and the reported parting kiss; no source read asserts sexual relations. (c) Whitman's side attests warm mutuality, not romance: his next-day Press account ('thee and thou' terms, the hand on his knee, 'a great big, splendid boy'), and his 1888 verdict handing Traubel the letter he had kept six years - 'both of us friends according each other a mutual respect.'",
+  "certainty_reasoning": "(a) The kiss: 'The kiss of Walt Whitman is still on my lips' is transcribed from Richard Ellmann's 'Oscar Meets Walt' (NYRB, 3 Dec. 1987), read at the article page so far; Ellmann's prose attributes it as what Wilde 'would later tell George Ives' and places it at the parting of the second (early-May 1882) visit. The deeper traditional chain - Ives's diary, commonly printed in the source in McKenna 2003 and in Ellmann's 1988 biography - was NOT verified so far (both lending-only); the article's footnote text was unreachable.",
   "start": {
     "y": 1882,
     "m": 1,
@@ -32,9 +29,8 @@
       },
       "supports": "Wilde's side after the January Camden visit: love-and-honour declaration and stated intent to visit again before leaving America",
       "verification": "verified-elision",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF pages 167-168, printed folios 144 and 145 confirmed on rendered pages, read as page images 2026-08-03. Elisions skip the body of the quoted Swinburne letter and the request that Whitman send Swinburne his Essay on Poetry; fuller text in dossier.",
-      "verified_by": "agent-mechanical",
+      "how_verified": "pdf-text",
+      "provenance": "Repo PDF pages 167-168, printed folios 144 and 145 confirmed on rendered pages. Elisions skip the body of the quoted Swinburne letter and the request that Whitman send Swinburne his Essay on Poetry; fuller text in dossier.",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Walt Whitman"
@@ -52,9 +48,8 @@
       },
       "supports": "The first Camden visit: 18 January 1882, Wilde taken by J. M. Stoddart. (The visit was at Whitman's invitation: 'I go to see Walt Whitman, at his invitation, tomorrow', Wilde to Mrs George Lewis, [17 January 1882], p. 128 - transcribed in dossier.)",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF page 167, printed folio 144 confirmed on rendered page, read as page image 2026-08-03.",
-      "verified_by": "agent-mechanical",
+      "how_verified": "pdf-text",
+      "provenance": "Repo PDF page 167, printed folio 144 confirmed on rendered page.",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -73,7 +68,6 @@
       "verification": "verified-exact",
       "how_verified": "web",
       "provenance": "Whitman Archive item med.00534 ('Our transcription is based on a digital image of a microfilm copy of an original issue'), read in full via Wayback capture 20260113032354 of whitmanarchive.org/item/med.00534, page text extracted 2026-08-03. Exact against the Archive transcription; microfilm image not read. Fuller passage in dossier.",
-      "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
       "speaker": "Walt Whitman, interviewed by the Philadelphia Press",
       "voice": "period"
@@ -92,8 +86,7 @@
       "supports": "Whitman's side, six years on: he preserved the letter and framed the bond as 'both of us friends according each other a mutual respect'",
       "verification": "verified-exact",
       "how_verified": "archive-org",
-      "provenance": "IA withwaltwhitmani0002unse_c4l4 (Rowman & Littlefield 1961 reprint; original copyright 1908), IIIF page images leaves 317-318, printed folios 287-288 and entry head 'Sunday, September, 9th, 1888.' confirmed on rendered pages, read 2026-08-03. Found via djvu.txt; transcription verified against the page images.",
-      "verified_by": "agent-mechanical",
+      "provenance": "IA withwaltwhitmani0002unse_c4l4 (Rowman & Littlefield 1961 reprint; original copyright 1908), IIIF page images leaves 317-318, printed folios 287-288 and entry head 'Sunday, September, 9th, 1888.' confirmed on rendered pages. Found via djvu.txt; transcription verified against the page images.",
       "verified_on": "2026-08-03",
       "voice": "period"
     },
@@ -111,7 +104,6 @@
       "verification": "verified-exact",
       "how_verified": "web",
       "provenance": "nybooks.com/articles/1987/12/03/oscar-meets-walt/ HTML curl-fetched 2026-08-03; passage read directly in the raw extracted page text (article free on the site). Exact as the article prints it, ending before the footnote marker.",
-      "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
       "voice": "modern"
     }

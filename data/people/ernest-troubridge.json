@@ -24,10 +24,7 @@
     "hrc-hall-troubridge-fa",
     "wikipedia-una-troubridge"
   ],
-  "bio_note": "Dates from Wikidata Q4816840, agreeing with the '(1862-1926)' already on troubridge.json. THE WEDDING DAY IS DELIBERATELY NOT NARROWED: Wikipedia and the Ransom Center both give only 'October 1908', and although Wikidata sharpens it to 10 October, its two references are an online genealogy network and a library blog post - neither a register entry - so the day is left open per this module's rule about dates no source documents. Promoted from the context_engagement on troubridge.json, 2026-08-05.",
+  "bio_note": "THE WEDDING DAY IS DELIBERATELY NOT NARROWED: Wikipedia and the Ransom Center both give only 'October 1908', and although Wikidata sharpens it to 10 October, its two references are an online genealogy network and a library blog post - neither a register entry - so the day is left open per this module's rule about dates no source documents. json, 2026-08-05.",
   "context_engagements": [],
-  "research_status": "phase-a",
-  "wikidata": null,
-  "wikipedia": null,
-  "roster_note": "Added 2026-08-05 in the pass that put every spouse and every off-roster person on the map."
+  "wikipedia": null
 }

@@ -8,14 +8,11 @@
   },
   "gender": "m",
   "aka": [],
-  "bio_sources": [
-    "letters-2000"
-  ],
+  "bio_sources": ["letters-2000"],
   "context_engagements": [
     {
       "partner_name": "Oscar Wilde",
       "period": "Berneval and after, 1897-8",
-      "note": "Friendship, recorded without a connection line.",
       "sources": [
         {
           "work": "letters-2000",
@@ -32,9 +29,8 @@
           },
           "supports": "That he came to Berneval, and what Wilde thought of his painting.",
           "verification": "verified-exact",
-          "how_verified": "pdf-at-page",
-          "provenance": "Repo PDF page 961; printed folio 911 confirmed on the rendered page image, read 2026-08-05.",
-          "verified_by": "claude-at-page",
+          "how_verified": "pdf-image",
+          "provenance": "Repo PDF page 961; printed folio 911 confirmed on the rendered page image.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -52,19 +48,16 @@
           },
           "supports": "Conder in the Dieppe circle, and Wilde's tone about him.",
           "verification": "verified-exact",
-          "how_verified": "pdf-at-page",
-          "provenance": "Repo PDF page 978; printed folio 928 confirmed on the rendered page image, read 2026-08-05.",
-          "verified_by": "claude-at-page",
+          "how_verified": "pdf-image",
+          "provenance": "Repo PDF page 978; printed folio 928 confirmed on the rendered page image.",
           "verified_on": "2026-08-05",
           "voice": "period"
         }
       ]
     }
   ],
-  "research_status": "phase-a",
   "name": "Charles Conder",
   "sort_name": "Conder, Charles",
   "group": "aesthete",
-  "bio": "Painter, celebrated for watercolours on silk and for painted fans. He was one of the friends who came out to Berneval to see Wilde in the summer of 1897, alongside Rothenstein and Dowson, and Wilde described him to Carlos Blacker as 'a sort of Corot of the sunlight'. He drew the landscape and figures on a picture postcard Wilde sent Leonard Smithers from Napoule at the end of 1898.",
-  "bio_note": "Added 2026-08-06. NO CONNECTION LINE: nothing read states or implies attraction; he is here as one of the small group who actually turned up after prison. **HE WAS THE SESSION'S CLEAREST MISS.** Both quotations below sit on folios that had already been read at the page, for other people, and he was logged from neither - because the pages were being mined for their addressee rather than read. He was then flagged as a candidate and still not created for a further day. Recorded here as the worked example behind two standing rules: the unit of reading is the PAGE, and evidenced people become nodes in the pass that finds them. DATES 1868-1909 are from general knowledge, not from a page read here, and should be checked. ROTHENSTEIN, DOWSON, RICKETTS, SHANNON and ROSS are all on this map and all appear in the same sentence as him at printed 911."
+  "bio": "Painter, celebrated for watercolours on silk and for painted fans. He was one of the friends who came out to Berneval to see Wilde in the summer of 1897, alongside Rothenstein and Dowson, and Wilde described him to Carlos Blacker as 'a sort of Corot of the sunlight'. He drew the landscape and figures on a picture postcard Wilde sent Leonard Smithers from Napoule at the end of 1898."
 }

@@ -2,23 +2,18 @@
   "id": "horne",
   "name": "Herbert Horne",
   "sort_name": "Horne, Herbert",
-  "aka": [
-    "Herbert P. Horne"
-  ],
+  "aka": ["Herbert P. Horne"],
   "born": null,
   "died": null,
   "group": "aesthete",
   "gender": "m",
   "bio": "Architect, designer, typographer, poet and art historian of the Century Guild circle, and later the founder of the Museo Horne in Florence. His one volume of poems, Diversi Colores, he printed himself in 1891. Eleven of Wilde's letters to him survive, from 1886 to 1891 - Wilde asking him to dinner alone, praising his verse twice at length, and arguing with him about how cautiously to restore a school building.",
-  "bio_sources": [
-    "letters-2000"
-  ],
-  "bio_note": "Added 2026-08-05, per Lovelle. CORRECTED THE SAME DAY: this node first said 'one letter'. It is ELEVEN. The volume files him under two headings - 'To Herbert Horne' once and 'To Herbert P. Horne' ten times - and the locator that built this node only matched the first. METHOD NOTE FOR ANY FUTURE RECIPIENT SEARCH: try the middle initial, and try it before concluding a correspondence is small. NO CONNECTION LINE: the register is aesthetic friendship and mutual literary regard. The warmest letter is about a book of poems whose most-quoted stanza is about a woman's thigh, which is worth saying so the praise is not over-read. ELEVEN LETTERS at repo PDF 305 (two), 306, 483, 504 and others; SIX READ AT THE PAGE (printed 283 twice, 463 and 484, folios confirmed, 2026-08-05). DATES NOT RECORDED and none inferred. THE 'LIONEL' of the 1891 letter is Lionel Johnson, who introduced Wilde to Douglas and is not on this map.",
+  "bio_sources": ["letters-2000"],
+  "bio_note": "ELEVEN LETTERS at repo PDF 305 (two), 306, 483, 504 and others; SIX READ AT THE PAGE (printed 283 twice, 463 and 484, folios confirmed). DATES NOT RECORDED and none inferred.",
   "context_engagements": [
     {
       "partner_name": "Oscar Wilde",
       "period": "London, 1886-1891",
-      "note": "A single letter, recorded without a connection line.",
       "sources": [
         {
           "work": "letters-2000",
@@ -35,9 +30,8 @@
           },
           "supports": "A dinner for two, at no notice.",
           "verification": "verified-exact",
-          "how_verified": "pdf-at-page",
-          "provenance": "Repo PDF page 305; printed folio 283 confirmed on the rendered page image, read 2026-08-05.",
-          "verified_by": "claude-at-page",
+          "how_verified": "pdf-image",
+          "provenance": "Repo PDF page 305; printed folio 283 confirmed on the rendered page image.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -56,9 +50,8 @@
           },
           "supports": "The praise that came a week later.",
           "verification": "verified-exact",
-          "how_verified": "pdf-at-page",
-          "provenance": "Repo PDF page 305; printed folio 283 confirmed on the rendered page image, read 2026-08-05.",
-          "verified_by": "claude-at-page",
+          "how_verified": "pdf-image",
+          "provenance": "Repo PDF page 305; printed folio 283 confirmed on the rendered page image.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -77,9 +70,8 @@
           },
           "supports": "An evening of poems among men, declined but wanted.",
           "verification": "verified-exact",
-          "how_verified": "pdf-at-page",
-          "provenance": "Repo PDF page 483; printed folio 463 confirmed on the rendered page image, read 2026-08-05.",
-          "verified_by": "claude-at-page",
+          "how_verified": "pdf-image",
+          "provenance": "Repo PDF page 483; printed folio 463 confirmed on the rendered page image.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -98,9 +90,8 @@
           },
           "supports": "The fullest thing Wilde wrote him, and a caution about reading praise of poems as praise of the poet.",
           "verification": "verified-elision",
-          "how_verified": "pdf-at-page",
-          "provenance": "Repo PDF page 504; printed folio 484 confirmed on the rendered page image, read 2026-08-05.",
-          "verified_by": "claude-at-page",
+          "how_verified": "pdf-image",
+          "provenance": "Repo PDF page 504; printed folio 484 confirmed on the rendered page image.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -119,9 +110,8 @@
           },
           "supports": "The two of them working on a Chatterton memorial together, and Wilde wishing him there.",
           "verification": "verified-elision",
-          "how_verified": "pdf-at-page",
-          "provenance": "Repo PDF page 307; printed folio 285 confirmed on the rendered page image, read 2026-08-06.",
-          "verified_by": "claude-at-page",
+          "how_verified": "pdf-image",
+          "provenance": "Repo PDF page 307; printed folio 285 confirmed on the rendered page image.",
           "verified_on": "2026-08-06",
           "voice": "period"
         },
@@ -140,14 +130,12 @@
           },
           "supports": "Wilde wanting a long talk before anything is announced.",
           "verification": "verified-exact",
-          "how_verified": "pdf-at-page",
-          "provenance": "Repo PDF page 307; printed folio 285 confirmed on the rendered page image, read 2026-08-06.",
-          "verified_by": "claude-at-page",
+          "how_verified": "pdf-image",
+          "provenance": "Repo PDF page 307; printed folio 285 confirmed on the rendered page image.",
           "verified_on": "2026-08-06",
           "voice": "period"
         }
       ]
     }
-  ],
-  "research_status": "phase-a"
+  ]
 }

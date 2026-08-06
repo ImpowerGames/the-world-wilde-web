@@ -6,7 +6,6 @@
   ],
   "certainty": "self-reported",
   "certainty_status": "proposed",
-  "certainty_reasoning": "Both participants speak, in one volume. Whitman's side is the eighty-odd letters Bucke printed in 1897, addressed 'Dear Boy', 'Dear Boy and Comrade', 'Dear Pete', and speaking of 'my dear comrade'. Doyle's side is the interview Bucke took from him and printed in the same introduction, in which Doyle narrates the meeting himself and says 'We were familiar at once—I put my hand on his knee—we understood'. That is the README's self-reported test met from both directions, which is rare on this map. What the record does NOT settle is the sexual question, and this entry does not settle it either: the vocabulary available to both men was comradeship, the 1897 volume is discreet by design - Bucke's own subtitle calls Doyle 'a young friend' - and the standard reference entry calls it a 'romantic friendship' embodying the 'love of comrades' while presenting the letters as 'invaluable reference points for the student seeking to understand Whitman's emotional and sexual nature', which is a scholar declining to close the question in the same breath as raising it. The class here records who attests the bond, not what they did.",
   "start": {
     "y": 1865
   },
@@ -29,7 +28,6 @@
       "verification": "verified-exact",
       "how_verified": "archive-org",
       "provenance": "Read as a rendered page image from the archive.org scan (calamusseriesofl00whitrich, scan n36) 2026-08-04; printed folio 23 confirmed on the image, with the running head 'INTERVIEW WITH PETER DOYLE'. Scan = printed + 13 at this point. The IA OCR text was used only to locate the passage.",
-      "verified_by": "agent-mechanical",
       "verified_on": "2026-08-04",
       "speaker": "Peter Doyle, interviewed by R. M. Bucke",
       "addressee": "Richard Maurice Bucke",
@@ -50,7 +48,6 @@
       "verification": "verified-elision",
       "how_verified": "archive-org",
       "provenance": "Read as a rendered page image from the archive.org scan (calamusseriesofl00whitrich, scan n48) 2026-08-04; printed folio 35 confirmed on the image, with the running head 'LETTERS OF 1868'. Scan = printed + 13 at this point. The IA OCR text was used only to locate the passage.",
-      "verified_by": "agent-mechanical",
       "verified_on": "2026-08-04",
       "speaker": "Walt Whitman, letter to Peter Doyle",
       "addressee": "Peter Doyle",
@@ -67,7 +64,6 @@
       "verification": "verified-exact",
       "how_verified": "web",
       "provenance": "https://whitmanarchive.org/item/encyclopedia_entry3 read in full 2026-08-04 in a real browser - the site sits behind Cloudflare and returns 403 to curl and to plain fetching, so an automated retrieval will falsely report it unavailable. Curly quotation marks around 'love of comrades' and 'Calamus' are the source's; the en dash in the date range is as printed.",
-      "verified_by": "agent-mechanical",
       "verified_on": "2026-08-04",
       "speaker": "Martin G. Murray",
       "voice": "modern"

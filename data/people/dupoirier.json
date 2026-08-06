@@ -2,23 +2,18 @@
   "id": "dupoirier",
   "name": "Jean Dupoirier",
   "sort_name": "Dupoirier, Jean",
-  "aka": [
-    "Patron"
-  ],
+  "aka": ["Patron"],
   "born": null,
   "died": null,
   "group": "later",
   "gender": "m",
   "bio": "Proprietor of the Hôtel d'Alsace in the rue des Beaux-Arts, Paris, where Wilde lived for the last eighteen months of his life and where he died on 30 November 1900. Wilde addressed him as 'Mon cher Patron' and signed to him as Sebastian Melmoth. He kept Wilde's things for him between journeys, and let him run up a bill he could not pay. Many years later he gave an interview about Wilde's last days in which, the editors record, he remembered him with affectionate sympathy.",
-  "bio_sources": [
-    "letters-2000"
-  ],
-  "bio_note": "Added 2026-08-06. NO CONNECTION LINE: the relation is landlord and lodger and nothing states or implies otherwise. HE IS ON THE MAP BECAUSE OF WHAT HE DID RATHER THAN WHAT HE FELT: he housed a bankrupt and disgraced man for eighteen months, stored his possessions between journeys without being paid, and thirty-three years later spoke of him kindly to a newspaper. The map's exile tier is otherwise made of people who cost Wilde money or gave it; he is one of the few who simply carried him. THE ONE LETTER IS IN FRENCH and is pure business, which is the point: it is the ordinary traffic of being kept alive. HIS INTERVIEW - L'Intransigeant, 30 November 1933, reprinted in E. H. Mikhail's Interviews and Recollections (1979) - is named by the editors and has NOT been consulted; it is the obvious next source and would be his own voice.",
+  "bio_sources": ["letters-2000"],
+  "bio_note": "Mikhail's Interviews and Recollections (1979) - is named by the editors and has NOT been consulted; it is the obvious next source and would be his own voice.",
   "context_engagements": [
     {
       "partner_name": "Oscar Wilde",
       "period": "Paris, 1899-1900",
-      "note": "Landlord and lodger, recorded without a connection line.",
       "sources": [
         {
           "work": "letters-2000",
@@ -37,14 +32,12 @@
           },
           "supports": "The ordinary arrangement that kept Wilde housed, and that his things were kept for him a second year running.",
           "verification": "verified-exact",
-          "how_verified": "pdf-at-page",
-          "provenance": "Repo PDF page 1227; printed folio 1181 confirmed on the rendered page image, read 2026-08-06.",
-          "verified_by": "claude-at-page",
+          "how_verified": "pdf-image",
+          "provenance": "Repo PDF page 1227; printed folio 1181 confirmed on the rendered page image.",
           "verified_on": "2026-08-06",
           "voice": "period"
         }
       ]
     }
-  ],
-  "research_status": "phase-a"
+  ]
 }

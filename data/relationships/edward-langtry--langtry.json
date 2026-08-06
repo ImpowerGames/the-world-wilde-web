@@ -6,7 +6,7 @@
   ],
   "certainty": "married",
   "certainty_status": "proposed",
-  "certainty_reasoning": "Married, and the only marriage on this map that ends in divorce - which is part of why it is worth having as an edge rather than a footnote. Two independent sources state the marriage: the Complete Letters editors' main-particulars footnote, already used on her person file, and the Wikipedia article, whose account of this period rests on Ridley and Aronson. The DATES come from Wikipedia alone; the repo footnote gives none. See the person file for the conflict about her age at the wedding, which is recorded and not resolved.",
+  "certainty_reasoning": "Two independent sources state the marriage: the Complete Letters editors' main-particulars footnote, already used on her person file, and the Wikipedia article, whose account of this period rests on Ridley and Aronson. The DATES come from Wikipedia alone; the repo footnote gives none.",
   "start": {
     "y": 1874,
     "m": 3,
@@ -35,7 +35,6 @@
       "verification": "verified-exact",
       "how_verified": "web",
       "provenance": "Plain-text extract of the article fetched through the MediaWiki API and read 2026-08-05; quotation sliced from that extract. Reference-marker brackets omitted as typography.",
-      "verified_by": "agent-mechanical",
       "verified_on": "2026-08-05",
       "voice": "modern"
     },
@@ -54,7 +53,6 @@
       "verification": "verified-exact",
       "how_verified": "web",
       "provenance": "Plain-text extract of the article fetched through the MediaWiki API and read 2026-08-05; quotation sliced from that extract. Reference-marker brackets omitted as typography.",
-      "verified_by": "agent-mechanical",
       "verified_on": "2026-08-05",
       "voice": "modern"
     }

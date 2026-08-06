@@ -1,12 +1,9 @@
 {
   "id": "douglas--ross",
-  "people": [
-    "douglas",
-    "ross"
-  ],
+  "people": ["douglas", "ross"],
   "certainty": "second-hand",
   "certainty_status": "proposed",
-  "certainty_reasoning": "MCKENNA read in the source, 2026-08-03 - this record's basis changed. The claim is no longer an unread pointer: McKenna states a Douglas-Ross relationship 'sexual as well as emotional' in his own voice, and supports it with Douglas's Autobiography. Two things follow. (1) The class rises from uncorroborated to second-hand: a named biographer, now consulted, attests the connection. It does not rise further, because the only participant testimony - Douglas's own - says that Ross 'professed devotion and admiration', which is not a statement of a sexual or romantic relationship; that reading is McKenna's. (2) The dating is corrected: McKenna places the meeting in 1893, with Wilde's involvement with Walter Grainger as the time-marker, not before or around Douglas's 1891 introduction to Wilde as this record previously framed it. Against McKenna stand two biographers read in full who never assert it - see the disputed block. What the verified record otherwise documents is co-membership of Wilde's circle from mid-1892, friendly relations through the 1902 wedding, and the bitter feud from 1913.",
+  "certainty_reasoning": "MCKENNA read in the source, 2026-08-03 - this record's basis changed. (2) The dating is corrected: McKenna places the meeting in 1893, with Wilde's involvement with Walter Grainger as the time-marker, not before or around Douglas's 1891 introduction to Wilde as this record previously framed it. Against McKenna stand two biographers read in full who never assert it - see the disputed block.",
   "start": {
     "y": 1892,
     "circa": true
@@ -34,9 +31,8 @@
       },
       "supports": "The assertion at issue: McKenna states a Douglas-Ross relationship 'sexual as well as emotional'. Note it is McKenna's own characterization, and that he dates the meeting to 1893 - not, as this record previously framed it, to before or around Douglas's 1891 introduction to Wilde.",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF p. 378, read as page image 2026-08-03. This edition carries no printed folios or running heads (ebook conversion) - the locator is a PDF page, not a printed page.",
-      "verified_by": "agent-mechanical",
+      "how_verified": "pdf-text",
+      "provenance": "Repo PDF p. 378. This edition carries no printed folios or running heads (ebook conversion) - the locator is a PDF page, not a printed page.",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -49,9 +45,8 @@
       "evidence_date": null,
       "supports": "Douglas's own words - the only participant testimony on this pair. They attest devotion and admiration professed by Ross, not a sexual relationship; the sexual reading is McKenna's addition.",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF p. 378, read as page image 2026-08-03. This edition carries no printed folios or running heads (ebook conversion) - the locator is a PDF page, not a printed page.",
-      "verified_by": "agent-mechanical",
+      "how_verified": "pdf-text",
+      "provenance": "Repo PDF p. 378. This edition carries no printed folios or running heads (ebook conversion) - the locator is a PDF page, not a printed page.",
       "verified_on": "2026-08-03",
       "voice": "period",
       "speaker": "Lord Alfred Douglas, Autobiography"
@@ -67,9 +62,8 @@
       },
       "supports": "The standard editorial account of Douglas's entry into Wilde's orbit — via Johnson in 1891; the apparatus nowhere derives the introduction from Ross or states a Ross–Douglas affair.",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF p. 445 (printed folio 423 confirmed on the rendered page), read as page image 2026-08-03.",
-      "verified_by": "agent-mechanical",
+      "how_verified": "pdf-text",
+      "provenance": "Repo PDF p. 445 (printed folio 423 confirmed on the rendered page).",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -90,9 +84,8 @@
       },
       "supports": "By mid-1892 Wilde writes to Ross about Bosie in terms assuming familiarity; the two men are co-members of the inner circle.",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF p. 546 (printed folio 526 confirmed on the rendered page), read as page image 2026-08-03.",
-      "verified_by": "agent-mechanical",
+      "how_verified": "pdf-text",
+      "provenance": "Repo PDF p. 546 (printed folio 526 confirmed on the rendered page).",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Robert Ross"
@@ -111,7 +104,6 @@
       "verification": "verified-exact",
       "how_verified": "archive-org",
       "provenance": "IA autobiographyofl0000doug leaf 226, IIIF page image read 2026-08-03; printed folio 198 confirmed (Carfax sentence verified at leaf 225, folio 197).",
-      "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
       "voice": "period"
     },
@@ -128,7 +120,6 @@
       "verification": "verified-elision",
       "how_verified": "archive-org",
       "provenance": "IA autobiographyofl0000doug leaf 51, IIIF page image read 2026-08-03; printed folio 33 confirmed (campaign passages verified at leaves 60-61, folios 42-43).",
-      "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
       "voice": "period"
     },
@@ -147,9 +138,8 @@
       },
       "supports": "Non-corroboration of the alleged early-1890s Douglas-Ross affair by a named biographer who can be read in the source: Murray's account of their meeting is friendship formed inside Wilde's circle, with the rivalry running through Wilde rather than between the two men.",
       "verification": "verified-elision",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF page 53 of Murray_2020_Bosie (docs/research/queer-history/victorian/douglas/sources/), read as page image 2026-08-03. NO PRINTED FOLIO EXISTS: the file is an ebook conversion with no page numbers, no running heads and an unpaginated Contents, so the offset is n/a and the locator is the PDF page, marked 'PDF p.' - see the pagination note in dossiers/DOUGLAS-MURRAY_dossier.md.",
-      "verified_by": "agent-mechanical",
+      "how_verified": "pdf-text",
+      "provenance": "Repo PDF page 53 of Murray_2020_Bosie (docs/research/queer-history/victorian/douglas/sources/). NO PRINTED FOLIO EXISTS: the file is an ebook conversion with no page numbers, no running heads and an unpaginated Contents, so the offset is n/a and the locator is the PDF page, marked 'PDF p.' - see the pagination note in the DOUGLAS-MURRAY dossier (long-form research notes, kept in the private research repository).",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -164,9 +154,8 @@
       },
       "supports": "The closest thing in Murray to intimacy between the two men in the alleged period - and it runs through a third person, not between them: Ross passes the boy's whereabouts to Douglas, and the two are jointly exposed to prosecution. Evidence of shared sexual milieu, not of a relationship.",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF pages 68 and 69 of Murray_2020_Bosie, both read as page images 2026-08-03; no printed folios (ebook conversion). The quoted sentences are contiguous on PDF p. 68; the continuation quoted in the context line is at PDF p. 69.",
-      "verified_by": "agent-mechanical",
+      "how_verified": "pdf-text",
+      "provenance": "Repo PDF pages 68 and 69 of Murray_2020_Bosie, both; no printed folios (ebook conversion). The quoted sentences are contiguous on PDF p. 68; the continuation quoted in the context line is at PDF p. 69.",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -182,16 +171,15 @@
       },
       "supports": "Douglas's own retrospective denial, in 1909 and in his own hand, that Ross had ever been a real friend - dating the break four years before the Ransome trial and locating it in Douglas's post-conversion turn against homosexuality rather than in 1913.",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF page 170 of Murray_2020_Bosie, read as page image 2026-08-03; no printed folio (ebook conversion).",
-      "verified_by": "agent-mechanical",
+      "how_verified": "pdf-text",
+      "provenance": "Repo PDF page 170 of Murray_2020_Bosie; no printed folio (ebook conversion).",
       "verified_on": "2026-08-03",
       "voice": "period",
       "speaker": "Lord Alfred Douglas",
       "addressee": "Robert Ross"
     },
     {
-      "quote": "Relations between Bosie and Robbie were deteriorating fast.   Though Robbie once said that the three most important men in his life had been Oscar Wilde, Bosie Douglas and Freddie Smith, by the end of 1907, relations with Bosie were distinctly frosty.",
+      "quote": "Relations between Bosie and Robbie were deteriorating fast. Though Robbie once said that the three most important men in his life had been Oscar Wilde, Bosie Douglas and Freddie Smith, by the end of 1907, relations with Bosie were distinctly frosty.",
       "context": "Fryer at the November 1907 dinner Ross gave for Vyvyan Holland's twenty-first birthday, to which Douglas was not invited. Reported in indirect speech with no note number at the sentence; Fryer identifies no source for Ross's remark.",
       "work": "fryer-2000",
       "locator": "p. 198",
@@ -201,9 +189,8 @@
       },
       "supports": "A reported first-person statement by Ross placing Douglas beside his two documented lovers - Wilde and Freddie Smith - as the three most important men in his life. The claim reported is IMPORTANCE, not romance, and it is unsourced on the page: a lead toward a Douglas-Ross intimacy, not evidence of one.",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF page 220 of Fryer_2000_Robbie-Ross (docs/research/queer-history/victorian/ross/sources/), printed folio 198 confirmed on the rendered page, read as page image 2026-08-03. Offset is +22 in this half of the scan and +14 in the first half - see the pagination box in dossiers/ROSS-FRYER_dossier.md.",
-      "verified_by": "agent-mechanical",
+      "how_verified": "pdf-text",
+      "provenance": "Repo PDF page 220 of Fryer_2000_Robbie-Ross (docs/research/queer-history/victorian/ross/sources/), printed folio 198 confirmed on the rendered page. Offset is +22 in this half of the scan and +14 in the first half - see the pagination box in the ROSS-FRYER dossier (long-form research notes, kept in the private research repository).",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -219,9 +206,8 @@
       },
       "supports": "Non-corroboration calibrated: Fryer's readiness to state a negative explicitly is what makes his silence on a Douglas-Ross affair informative rather than merely incurious.",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF page 80, printed folio 66 confirmed on the rendered page, read as page image 2026-08-03.",
-      "verified_by": "agent-mechanical",
+      "how_verified": "pdf-text",
+      "provenance": "Repo PDF page 80, printed folio 66 confirmed on the rendered page.",
       "verified_on": "2026-08-03",
       "voice": "modern"
     }

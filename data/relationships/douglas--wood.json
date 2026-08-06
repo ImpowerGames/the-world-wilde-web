@@ -1,12 +1,9 @@
 {
   "id": "douglas--wood",
-  "people": [
-    "douglas",
-    "wood"
-  ],
+  "people": ["douglas", "wood"],
   "certainty": "uncorroborated",
   "certainty_status": "proposed",
-  "certainty_reasoning": "Murray states in passing that the blackmailers into whose hands Wilde's letters to Douglas fell were men 'with whom they had slept' - 'they' being Wilde and Douglas, the subject of the sentence. That is a single secondary source, asserting in the plural and without a footnote at the point of assertion, and no first-person evidence is offered for the Douglas half of the claim; Wood's own sworn testimony (which carries the wilde--wood edge) concerns Wilde. Single-source and non-itemised, therefore 'alleged'. What is documented independently at the same pages is only the connective fact: Douglas befriended Wood, gave him old suits, and Wood found Wilde's letters to Douglas in the pockets.",
+  "certainty_reasoning": "Murray states in passing that the blackmailers into whose hands Wilde's letters to Douglas fell were men 'with whom they had slept' - 'they' being Wilde and Douglas, the subject of the sentence. That is a single secondary source, asserting in the plural and without a footnote at the point of assertion, and no first-person evidence is offered for the Douglas half of the claim; Wood's own sworn testimony (which carries the wilde--wood edge) concerns Wilde.",
   "start": {
     "y": 1892,
     "circa": true
@@ -36,9 +33,8 @@
       },
       "supports": "The whole of the claim: that Douglas befriended Wood, and Murray's assertion that Wilde and Douglas had both slept with him.",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF page 60 of Murray_2020_Bosie, read as page image 2026-08-03; no printed folio on the page - the file is an ebook conversion with no pagination (see the pagination note in dossiers/DOUGLAS-MURRAY_dossier.md), so the locator is the PDF page.",
-      "verified_by": "agent-mechanical",
+      "how_verified": "pdf-text",
+      "provenance": "Repo PDF page 60 of Murray_2020_Bosie; no printed folio on the page - the file is an ebook conversion with no pagination (see the pagination note in the DOUGLAS-MURRAY dossier (long-form research notes, kept in the private research repository)), so the locator is the PDF page.",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -54,9 +50,8 @@
       },
       "supports": "The documented, non-sexual connection between the two men - Wood worked as a valet in Douglas's Oxford rooms, and the old suits Douglas gave him carried Wilde's letters to Douglas into a blackmailer's hands.",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF page 95 of Murray_2020_Bosie, read as page image 2026-08-03; no printed folio on the page (ebook conversion).",
-      "verified_by": "agent-mechanical",
+      "how_verified": "pdf-text",
+      "provenance": "Repo PDF page 95 of Murray_2020_Bosie; no printed folio on the page (ebook conversion).",
       "verified_on": "2026-08-03",
       "voice": "modern"
     }

@@ -21,10 +21,7 @@
     "geoffroy-gagel-vernon-lee-letters-vol3",
     "wikipedia-duclaux"
   ],
-  "bio_note": "Dates from Wikidata Q1086318. THE YEAR CONFLICT IS RESOLVED HERE, not left open: Pulham's Y90s biography of Vernon Lee says the attachment lasted 'until Mary married in 1887' and Wikipedia says 1888, but the standard scholarly edition of Lee's correspondence distinguishes the two events - it dates Robinson's acceptance of Darmesteter to 1887 and states that 'the marriage took place in August 1888'. Proposal 1887, wedding August 1888; both earlier statements are then correct about different things. Promoted from the context_engagement on robinson.json, 2026-08-05.",
+  "bio_note": "THE YEAR CONFLICT IS RESOLVED HERE, not left open: Pulham's Y90s biography of Vernon Lee says the attachment lasted 'until Mary married in 1887' and Wikipedia says 1888, but the standard scholarly edition of Lee's correspondence distinguishes the two events - it dates Robinson's acceptance of Darmesteter to 1887 and states that 'the marriage took place in August 1888'.",
   "context_engagements": [],
-  "research_status": "phase-a",
-  "wikidata": null,
-  "wikipedia": null,
-  "roster_note": "Added 2026-08-05 in the pass that put every spouse and every off-roster person on the map."
+  "wikipedia": null
 }

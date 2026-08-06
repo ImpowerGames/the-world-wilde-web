@@ -2,25 +2,18 @@
   "id": "kersley",
   "name": "G. H. Kersley",
   "sort_name": "Kersley, George Herbert",
-  "aka": [
-    "George Herbert Kersley",
-    "George Kersley",
-    "Kersley"
-  ],
+  "aka": ["George Herbert Kersley", "George Kersley", "Kersley"],
   "born": null,
   "died": null,
   "group": "aesthete",
   "gender": "m",
   "bio": "George Herbert Kersley, who published five volumes of verse between 1885 and 1897 and also painted. Wilde wrote to him over nearly ten years, from 1885 to 1894, and the seven surviving letters are almost entirely invitations: come to tea, read me one of your poems, come in this evening at nine, come on Tuesday morning and see me. In the preface to his first book Kersley called Wilde 'my noted friend'.",
-  "bio_sources": [
-    "letters-2000"
-  ],
-  "bio_note": "Added 2026-08-05, per Lovelle. He was missed by an earlier pass because the volume files him as 'G. H. Kersley', not 'George Kersley'. NO CONNECTION LINE: the register is a senior writer keeping a young one going, and nothing states or implies attraction. HE CONNECTS TO SOMEONE ALREADY ON THIS MAP: in August 1886 Wilde sent him a letter of introduction to Walt Whitman - 'I hope you will see him and admire him' - four years after Wilde's own Camden visits. Whether Kersley ever went is not recorded here. ALL SEVEN LETTERS READ AT THE PAGE: printed 251, 283, 352, 410, 420, 443 and 622-3 (repo PDF 273, 305, 374, 432, 442, 465, 675), every folio confirmed on its own page image, 2026-08-05. CORRECTED THE SAME DAY, per Lovelle: this node first carried only two of the seven, because I triaged the other five in the OCR mirror and dropped them as carrying 'no attraction'. That is not the standard on this map. The standing rule is warmth OF ANY KIND including plain friendship, and 'friendship quotes are just as important... even if they dont result in a connection line'. Judged against the actual rule all five qualified - they are invitations, reproaches for not visiting, and an offer to find him work - so they were read at the page and added. THE SHAPE OF THE CORRESPONDENCE, now that it is whole, is one thing repeated for nine years: come and see me. DATES NOT RECORDED and none inferred; the editors give none.",
+  "bio_sources": ["letters-2000"],
+  "bio_note": "Whether Kersley ever went is not recorded here. ALL SEVEN LETTERS READ AT THE PAGE: printed 251, 283, 352, 410, 420, 443 and 622-3 (repo PDF 273, 305, 374, 432, 442, 465, 675), every folio confirmed on its own page image, 2026-08-05. Judged against the actual rule all five qualified - they are invitations, reproaches for not visiting, and an offer to find him work - so they were read at the page and added. DATES NOT RECORDED and none inferred; the editors give none.",
   "context_engagements": [
     {
       "partner_name": "Oscar Wilde",
       "period": "London, 1885-1894",
-      "note": "Friendship, recorded without a connection line. All seven letters quoted whole - none is longer than a paragraph - plus Kersley's own printed description of Wilde.",
       "sources": [
         {
           "work": "letters-2000",
@@ -37,9 +30,8 @@
           },
           "supports": "How it started: a death in the family, and Wilde proposing himself for tea.",
           "verification": "verified-exact",
-          "how_verified": "pdf-at-page",
-          "provenance": "Repo PDF page 273; printed folio 251 confirmed on the rendered page image, read 2026-08-05.",
-          "verified_by": "claude-at-page",
+          "how_verified": "pdf-image",
+          "provenance": "Repo PDF page 273; printed folio 251 confirmed on the rendered page image.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -58,9 +50,8 @@
           },
           "supports": "The book promised in 1885, three years later, and what Wilde said his stories were for.",
           "verification": "verified-exact",
-          "how_verified": "pdf-at-page",
-          "provenance": "Repo PDF page 374; printed folio 352 confirmed on the rendered page image, read 2026-08-05.",
-          "verified_by": "claude-at-page",
+          "how_verified": "pdf-image",
+          "provenance": "Repo PDF page 374; printed folio 352 confirmed on the rendered page image.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -79,9 +70,8 @@
           },
           "supports": "Wilde passing a young poet on to Whitman.",
           "verification": "verified-exact",
-          "how_verified": "pdf-at-page",
-          "provenance": "Repo PDF page 305; printed folio 283 confirmed on the rendered page image, read 2026-08-05.",
-          "verified_by": "claude-at-page",
+          "how_verified": "pdf-image",
+          "provenance": "Repo PDF page 305; printed folio 283 confirmed on the rendered page image.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -100,9 +90,8 @@
           },
           "supports": "Reproach for not calling, and Wilde offering to put a word in for him.",
           "verification": "verified-exact",
-          "how_verified": "pdf-at-page",
-          "provenance": "Repo PDF page 432; printed folio 410 confirmed on the rendered page image, read 2026-08-05.",
-          "verified_by": "claude-at-page",
+          "how_verified": "pdf-image",
+          "provenance": "Repo PDF page 432; printed folio 410 confirmed on the rendered page image.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -121,9 +110,8 @@
           },
           "supports": "The warmest of the invitations, and the reproach repeated five months on.",
           "verification": "verified-exact",
-          "how_verified": "pdf-at-page",
-          "provenance": "Repo PDF page 442; printed folio 420 confirmed on the rendered page image, read 2026-08-05.",
-          "verified_by": "claude-at-page",
+          "how_verified": "pdf-image",
+          "provenance": "Repo PDF page 442; printed folio 420 confirmed on the rendered page image.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -142,9 +130,8 @@
           },
           "supports": "Two sentences, and both of them are 'come and see me'.",
           "verification": "verified-exact",
-          "how_verified": "pdf-at-page",
-          "provenance": "Repo PDF page 465; printed folio 443 confirmed on the rendered page image, read 2026-08-05.",
-          "verified_by": "claude-at-page",
+          "how_verified": "pdf-image",
+          "provenance": "Repo PDF page 465; printed folio 443 confirmed on the rendered page image.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -163,9 +150,8 @@
           },
           "supports": "How Wilde said sorry for losing touch, five months before the trials.",
           "verification": "verified-exact",
-          "how_verified": "pdf-at-page",
-          "provenance": "Repo PDF page 675; printed folio 623 (letter begins 622) confirmed on the rendered page image, read 2026-08-05.",
-          "verified_by": "claude-at-page",
+          "how_verified": "pdf-image",
+          "provenance": "Repo PDF page 675; printed folio 623 (letter begins 622) confirmed on the rendered page image.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -182,14 +168,12 @@
           },
           "supports": "That the friendship was acknowledged from Kersley's side too, in print.",
           "verification": "verified-exact",
-          "how_verified": "pdf-at-page",
-          "provenance": "Repo PDF page 273; printed folio 251 confirmed on the rendered page image, read 2026-08-05.",
-          "verified_by": "claude-at-page",
+          "how_verified": "pdf-image",
+          "provenance": "Repo PDF page 273; printed folio 251 confirmed on the rendered page image.",
           "verified_on": "2026-08-05",
           "voice": "period"
         }
       ]
     }
-  ],
-  "research_status": "phase-a"
+  ]
 }

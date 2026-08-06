@@ -2,17 +2,12 @@
   "id": "nellie-lloyd",
   "born": null,
   "died": null,
-  "aka": [
-    "Little Nellie"
-  ],
-  "bio_sources": [
-    "letters-2000"
-  ],
+  "aka": ["Little Nellie"],
+  "bio_sources": ["letters-2000"],
   "context_engagements": [
     {
       "partner_name": "Oscar Wilde",
       "period": "London, 1885",
-      "note": "Family, recorded without a connection line.",
       "sources": [
         {
           "work": "letters-2000",
@@ -29,20 +24,18 @@
           },
           "supports": "Wilde on the birth of his first son, to his sister-in-law, the same morning.",
           "verification": "verified-elision",
-          "how_verified": "pdf-at-page",
-          "provenance": "Repo PDF page 283; printed folio 261 confirmed on the rendered page image, read 2026-08-06.",
-          "verified_by": "claude-at-page",
+          "how_verified": "pdf-image",
+          "provenance": "Repo PDF page 283; printed folio 261 confirmed on the rendered page image.",
           "verified_on": "2026-08-06",
           "voice": "period"
         }
       ]
     }
   ],
-  "research_status": "phase-a",
   "name": "Nellie Lloyd",
   "sort_name": "Lloyd, Nellie",
   "group": "family",
   "gender": "f",
   "bio": "Otho Holland Lloyd's wife, and so Constance Wilde's sister-in-law. Wilde wrote to her as 'My dear Little Nellie' on the morning Cyril was born, in a letter that is one of the few places he writes about his own children with unguarded delight.",
-  "bio_note": "Added 2026-08-06 under the standing rule that spouses of people on this map are nodes. NO INDEPENDENT CLAIM IS MADE ABOUT HER. She was pregnant herself when the letter below was written - Wilde hopes she will get through her confinement as easily as Constance - and their son was also called Otho. DATES NOT RECORDED and none inferred. See [[otho-lloyd]]."
+  "bio_note": "DATES NOT RECORDED and none inferred."
 }

@@ -11,10 +11,7 @@
   "bio_sources": [
     "letters-2000"
   ],
-  "bio_note": "THIS IS NOT A PARTNERSHIP AND MUST NOT BE READ AS ONE. What the correspondence records is a relation of purchase and ownership: a child bought from his father for a sum of money, described by the only witness as property. Transcription and provenance reused unchanged from the context_engagement on mellor.json, where he was held off-roster until 2026-08-05. Wilde's 1900 'slave' sentence is a joke of Wilde's and is recorded as Wilde's, not endorsed; his sympathy in the 1899 sentence runs to Eolo and not to Mellor ('his boy bores him. It is dreadfully sad'). A third mention is indexed at printed 1128; that page has not been read, so it stays a pointer. THE RECORD PRESERVES A FIRST NAME ONLY.",
+  "bio_note": "A third mention is indexed at printed 1128; that page has not been read, so it stays a pointer.",
   "context_engagements": [],
-  "research_status": "phase-a",
-  "wikidata": null,
-  "wikipedia": null,
-  "roster_note": "Promoted from an off-roster context_engagement on mellor.json, 2026-08-05, in the pass that put every off-roster person on the map. The sources moved with him unchanged."
+  "wikipedia": null
 }

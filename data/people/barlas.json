@@ -2,9 +2,7 @@
   "id": "barlas",
   "name": "John Evelyn Barlas",
   "sort_name": "Barlas, John Evelyn",
-  "aka": [
-    "John Barlas"
-  ],
+  "aka": ["John Barlas"],
   "born": {
     "y": 1860
   },
@@ -14,15 +12,12 @@
   "group": "aesthete",
   "gender": "m",
   "bio": "Scottish poet and revolutionary Socialist, friend of William Morris, author of eight volumes of verse. On Bloody Sunday, 13 November 1887, he was arrested in the Trafalgar Square riot and took a policeman's truncheon to the head, a blow the editors of Wilde's letters say affected his reason. On 31 December 1891 he fired a revolver outside the Speaker's House at Westminster, saying 'I am an anarchist. What I have done is to show my contempt for the House of Commons.' Wilde guaranteed half his £200 bail. He died in a lunatic asylum.",
-  "bio_sources": [
-    "letters-2000"
-  ],
-  "bio_note": "Added 2026-08-05, per Lovelle. NO CONNECTION LINE: two letters survive, both warm, and neither states nor implies anything romantic. He surfaced by accident, on a page being read for the Alexander correspondence. BOTH LETTERS READ AT THE PAGE: printed 511 and 512 (repo PDF 531 and 532), folios confirmed, 2026-08-05. Dates 1860-1914, the biography and the bail are from the editors' note at printed 511. WHY HE BELONGS HERE: the friendship is documented by an act before it is documented by a letter. Wilde put up £100 for a man who had shot at Parliament and been certified out of his right mind, and then wrote to say it was nothing.",
+  "bio_sources": ["letters-2000"],
+  "bio_note": "BOTH LETTERS READ AT THE PAGE: printed 511 and 512 (repo PDF 531 and 532), folios confirmed. Dates 1860-1914, the biography and the bail are from the editors' note at printed 511.",
   "context_engagements": [
     {
       "partner_name": "Oscar Wilde",
       "period": "January-February 1892, around Barlas's arrest and bail",
-      "note": "Friendship. Both letters quoted entire.",
       "sources": [
         {
           "work": "letters-2000",
@@ -39,9 +34,8 @@
           },
           "supports": "Wilde making light of standing surety for him, and the terms he puts the friendship in: brothers, spring, days of song and joy, 'Your affectionate friend'.",
           "verification": "verified-exact",
-          "how_verified": "pdf-at-page",
-          "provenance": "Repo PDF page 531; printed folio 511 confirmed on the rendered page image, read 2026-08-05.",
-          "verified_by": "claude-at-page",
+          "how_verified": "pdf-image",
+          "provenance": "Repo PDF page 531; printed folio 511 confirmed on the rendered page image.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -60,14 +54,12 @@
           },
           "supports": "Wilde vouching for him a second time within a month — and the sign-off, which is the warmest formula in either letter.",
           "verification": "verified-exact",
-          "how_verified": "pdf-at-page",
-          "provenance": "Repo PDF page 532; printed folio 512 confirmed on the rendered page image, read 2026-08-05.",
-          "verified_by": "claude-at-page",
+          "how_verified": "pdf-image",
+          "provenance": "Repo PDF page 532; printed folio 512 confirmed on the rendered page image.",
           "verified_on": "2026-08-05",
           "voice": "period"
         }
       ]
     }
-  ],
-  "research_status": "phase-a"
+  ]
 }

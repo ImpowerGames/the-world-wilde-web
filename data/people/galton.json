@@ -8,14 +8,11 @@
   },
   "aka": [],
   "gender": "m",
-  "bio_sources": [
-    "letters-2000"
-  ],
+  "bio_sources": ["letters-2000"],
   "context_engagements": [
     {
       "partner_name": "Oscar Wilde",
       "period": "London, 1890",
-      "note": "One letter, recorded without a connection line.",
       "sources": [
         {
           "work": "letters-2000",
@@ -31,19 +28,17 @@
           },
           "supports": "The whole of the correspondence, and that the two men were in contact in 1890.",
           "verification": "verified-exact",
-          "how_verified": "pdf-at-page",
-          "provenance": "Repo PDF page 477; printed folio 455 confirmed on the rendered page image, read 2026-08-06.",
-          "verified_by": "claude-at-page",
+          "how_verified": "pdf-image",
+          "provenance": "Repo PDF page 477; printed folio 455 confirmed on the rendered page image.",
           "verified_on": "2026-08-06",
           "voice": "period"
         }
       ]
     }
   ],
-  "research_status": "phase-a",
   "name": "Arthur Galton",
   "sort_name": "Galton, Arthur",
   "group": "aesthete",
   "bio": "Writer and editor (1852-1921), who edited a translation of the Tacitus Annals published in the Camelot Classics in 1890. One letter from Wilde survives, thanking him for it.",
-  "bio_note": "Added 2026-08-06, clearing a backlog. NO CONNECTION LINE: one short letter about a book, and nothing states or implies more. HE IS ON THE MAP FOR A REASON EXTERNAL TO HIS OWN CORRESPONDENCE: he is the friend to whom [[lionel-johnson]] wrote, two days after first meeting Wilde in February 1890, 'I am in love with him' - the sentence that carries the `lionel-johnson--wilde` edge. The confidant of that declaration turns out to be a Wilde correspondent himself, in the same year, and the map was showing the declaration without showing who received it. ONE LETTER at printed 455, read at the page (2026-08-06). DATES 1852-1921 from the editors' note there."
+  "bio_note": "ONE LETTER at printed 455, read at the page. DATES 1852-1921 from the editors' note there."
 }

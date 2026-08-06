@@ -1,14 +1,10 @@
 {
   "id": "elvin--wilde",
-  "people": [
-    "elvin",
-    "wilde"
-  ],
+  "people": ["elvin", "wilde"],
   "certainty": "attraction-expressed",
   "certainty_status": "proposed",
   "direction": "wilde",
   "outcome": "unknown",
-  "certainty_reasoning": "Wilde singles Elvin out from every other man he knew in Reading - \"the one I liked best\" - notes that he is \"a very handsome young soldier of twenty years of age\", records that they \"always walked together, and had long chats\", and then borrows money he does not have to make sure a letter reaches him on release. Preference, physical admiration, sustained companionship and cost, in four lines. **Weigh it honestly**: the letter's business is charity, not courtship, and nothing here declares anything. Under the class as it stood before August 2026 - which asked for an approach or a declaration - Elvin would not have been admitted, and would have vanished from the map along with the rest of Wilde's poorest acquaintances. On the class. `attraction-expressed` records that **the surviving record is one-sided** - Wilde's letter survives and the other man's does not - and since August 2026 its bar is attraction legible to an ordinary reader rather than an approach or a declaration. That widening is what lets this person onto the map at all. It is a statement about the paper, not about what either man felt or did.",
   "start": {
     "y": 1895
   },
@@ -31,9 +27,8 @@
       },
       "supports": "Preference, physical admiration, the habit of walking together, and money Wilde did not have - all of it in Wilde's own hand.",
       "verification": "verified-elision",
-      "how_verified": "pdf-at-page",
+      "how_verified": "pdf-text",
       "provenance": "Repo PDF p. 1024 read as a rendered page image 2026-08-04; printed folio 976 confirmed at the foot of the image. Located first in the complete OCR mirror, which locates only. Superscript note markers omitted as typography.",
-      "verified_by": "agent-mechanical",
       "verified_on": "2026-08-04",
       "speaker": "Oscar Wilde",
       "addressee": "Reginald Turner",

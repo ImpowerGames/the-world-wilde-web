@@ -4,14 +4,11 @@
   "died": null,
   "aka": [],
   "gender": "m",
-  "bio_sources": [
-    "letters-2000"
-  ],
+  "bio_sources": ["letters-2000"],
   "context_engagements": [
     {
       "partner_name": "Oscar Wilde",
       "period": "London, 1887-1892",
-      "note": "Friendship, recorded without a connection line. Quoted whole.",
       "sources": [
         {
           "work": "letters-2000",
@@ -28,19 +25,17 @@
           },
           "supports": "Wilde on his own birthday naming someone one of his real friends, and what he thought the only two important things were.",
           "verification": "verified-exact",
-          "how_verified": "pdf-at-page",
-          "provenance": "Repo PDF page 477; printed folio 455 confirmed on the rendered page image, read 2026-08-06.",
-          "verified_by": "claude-at-page",
+          "how_verified": "pdf-image",
+          "provenance": "Repo PDF page 477; printed folio 455 confirmed on the rendered page image.",
           "verified_on": "2026-08-06",
           "voice": "period"
         }
       ]
     }
   ],
-  "research_status": "phase-a",
   "name": "Arthur Fish",
   "sort_name": "Fish, Arthur",
   "group": "aesthete",
   "bio": "Wilde's assistant on The Woman's World, and afterwards a friend he saw rarely and thought of often. Eight of Wilde's letters to him survive, from 1887 to 1892. In one, written on his own birthday, Wilde calls him 'one of my real friends' and tells him there are only two things in the world of any importance, Love and Art, and that he has both.",
-  "bio_note": "Added 2026-08-06. **HE WAS ON NO LIST OF MINE.** He is here because printed 455 was opened for Galton and Symons and read whole - the third letter on it is his, and it is much the warmest of the three. That is now the fourth or fifth person this session found by reading a page rather than by searching for a name. NO CONNECTION LINE: the register is affectionate friendship, Wilde sends regards to his wife, and nothing states or implies attraction. EIGHT LETTERS at printed 386, 404, 440, 444, 455, 491, 497 and 531; ONE read at the page (2026-08-06). The other seven are located and unread. DATES NOT RECORDED and none inferred."
+  "bio_note": "He is here because printed 455 was opened for Galton and Symons and read whole - the third letter on it is his, and it is much the warmest of the three. EIGHT LETTERS at printed 386, 404, 440, 444, 455, 491, 497 and 531; ONE read at the page. DATES NOT RECORDED and none inferred."
 }

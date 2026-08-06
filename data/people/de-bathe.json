@@ -16,10 +16,7 @@
     "wikipedia-lillie-langtry",
     "letters-2000"
   ],
-  "bio_note": "Dates 1871-1940 from the Wikipedia article; the baronetcy succession in 1907 is from the Complete Letters editors at p. 91 n. 2, already on langtry.json. Promoted from the context_engagement there, 2026-08-05. Wikidata Q297743 carries both her marriages as P26 statements with start-date qualifiers 1874 and 1899, which corroborates the years but adds nothing the article does not have.",
+  "bio_note": "Dates 1871-1940 from the Wikipedia article; the baronetcy succession in 1907 is from the Complete Letters editors at p. 91 n. 2, already on langtry.json.",
   "context_engagements": [],
-  "research_status": "phase-a",
-  "wikidata": null,
-  "wikipedia": null,
-  "roster_note": "Added 2026-08-05 in the pass that put every spouse and every off-roster person on the map."
+  "wikipedia": null
 }

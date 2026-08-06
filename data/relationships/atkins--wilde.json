@@ -1,12 +1,8 @@
 {
   "id": "atkins--wilde",
-  "people": [
-    "atkins",
-    "wilde"
-  ],
+  "people": ["atkins", "wilde"],
   "certainty": "uncorroborated",
   "certainty_status": "proposed",
-  "certainty_reasoning": "The sexual allegation (Paris, 20 November 1892) rests on Queensberry's plea and the Crown's indictment, supported only circumstantially at trial (Mary Applegate's stained-sheets testimony). Atkins himself swore that no impropriety ever took place between him and Wilde; he was then exposed on recall as having lied on oath about the Rochester Row blackmail incident and was ordered from the box by Mr Justice Charles; the jury returned not guilty on all Atkins counts (1 May 1895) and the Crown dropped him at the final trial. Discredited-witness territory — the ROSTER's own note ('testimony discredited') and the taxonomy rule both point to 'alleged'.",
   "start": {
     "y": 1892,
     "m": 11
@@ -38,7 +34,6 @@
       "verification": "verified-exact",
       "how_verified": "archive-org",
       "provenance": "IA in.ernet.dli.2015.499238, leaf 247 (printed p. 207), read as IIIF page image 2026-08-03",
-      "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
       "speaker": "Frederick Atkins",
       "voice": "exchange",
@@ -63,7 +58,6 @@
       "verification": "verified-exact",
       "how_verified": "archive-org",
       "provenance": "IA in.ernet.dli.2015.499238, leaf 247 (printed p. 207), read as IIIF page image 2026-08-03",
-      "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
       "speaker": "Frederick Atkins",
       "voice": "exchange",
@@ -92,8 +86,7 @@
       "supports": "the perjury exposure that discredits every Atkins assertion, including both the allegation-adjacent material and his denials",
       "verification": "verified-exact",
       "how_verified": "archive-org",
-      "provenance": "IA in.ernet.dli.2015.499238, leaf 258 (printed p. 218); rendered at 3x from the item's text PDF and read as a page image 2026-08-03, with the printed folio confirmed in the page's bottom margin. locator corrected: the whole exchange, including 'Leave the box', is on printed p. 218",
-      "verified_by": "agent-mechanical",
+      "provenance": "IA in.ernet.dli.2015.499238, leaf 258 (printed p. 218); rendered at 3x from the item's text PDF and, with the printed folio confirmed in the page's bottom margin. locator corrected: the whole exchange, including 'Leave the box', is on printed p. 218",
       "verified_on": "2026-08-03",
       "speaker": "Cross-examining counsel, Frederick Atkins and Mr Justice Charles",
       "voice": "exchange",
@@ -126,7 +119,6 @@
       "verification": "verified-exact",
       "how_verified": "archive-org",
       "provenance": "IA in.ernet.dli.2015.499238, leaf 388 (printed p. 342), read as IIIF page image 2026-08-03",
-      "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
       "speaker": "The Marquess of Queensberry, plea of justification (filed 30 March 1895)",
       "voice": "exchange",
@@ -153,9 +145,8 @@
       },
       "supports": "Wilde's retrospective characterization ('wretched perjured Atkins') and his counter-claim that the testimony transferred someone else's doings onto him",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
-      "provenance": "repo PDF 'Complete Letters' (Fourth Estate 2000), PDF p. 765 = printed p. 714 (folio confirmed on rendered page), read 2026-08-03",
-      "verified_by": "agent-mechanical",
+      "how_verified": "pdf-text",
+      "provenance": "repo PDF 'Complete Letters' (Fourth Estate 2000), PDF p. 765 = printed p. 714 (folio confirmed on rendered page)",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Lord Alfred Douglas"

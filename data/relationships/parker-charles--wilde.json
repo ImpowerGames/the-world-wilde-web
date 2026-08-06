@@ -1,12 +1,8 @@
 {
   "id": "parker-charles--wilde",
-  "people": [
-    "parker-charles",
-    "wilde"
-  ],
+  "people": ["parker-charles", "wilde"],
   "certainty": "self-reported",
   "certainty_status": "proposed",
-  "certainty_reasoning": "Charles Parker's sworn first-person testimony at the April 1895 trial describes Wilde committing sodomy at the Savoy on their first and second meetings and continued relations at Chapel Street, Park Walk, Tite Street and St James's Place. At the final trial (25 May 1895) the jury convicted Wilde on the four Charles Parker counts (1, 4, 5, 6). Parker was an admitted participant in a separate blackmail affair (£30 from Wood and Allen's extortion), which bears on credibility and is recorded in the dossier; the conviction and the repeated sworn testimony nonetheless make this the evidence class the taxonomy defines as documented-sexual.",
   "start": {
     "y": 1893,
     "m": 3,
@@ -33,7 +29,6 @@
       "verification": "verified-exact",
       "how_verified": "archive-org",
       "provenance": "IA in.ernet.dli.2015.499238, leaf 230 (printed p. 192, folio in the source foot), read as IIIF page image 2026-08-03; the 'said to me.' full stop and the 'boy for me!' exclamation confirmed at 2.4x zoom on the page image. No elisions.",
-      "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
       "speaker": "Charles Parker",
       "voice": "exchange",
@@ -95,7 +90,6 @@
       "verification": "verified-exact",
       "how_verified": "archive-org",
       "provenance": "IA in.ernet.dli.2015.499238, leaf 229 (printed p. 191), read as IIIF page image 2026-08-03",
-      "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
       "speaker": "Charles Parker",
       "voice": "exchange",
@@ -121,7 +115,6 @@
       "verification": "verified-exact",
       "how_verified": "archive-org",
       "provenance": "IA in.ernet.dli.2015.499238, leaf 231 (printed p. 193, folio 'N 193'), read as IIIF page image 2026-08-03",
-      "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
       "speaker": "Charles Parker, examination-in-chief",
       "voice": "exchange",
@@ -153,7 +146,7 @@
       ]
     },
     {
-      "quote": "I had for a fortnight or three weeks a room at 50 Park Walk, Chelsea. At the time I was living at Park Walk, Wilde visited me there. I was asked by Wilde to imagine that I was a woman and that he was my lover. I had to keep up this illusion. I used to sit on his knees and he used to . . . as a man might amuse himself with a girl. Wilde insisted on this filthy make-believe being kept up. … Apart from money, did Wilde give you any presents?—Yes, he gave me a silver cigarette case and a gold ring. I don't suppose boys are different to girls in acquiring presents from them who are fond of them. You pawned the cigarette case and the ring?—Yes.",
+      "quote": "I had for a fortnight or three weeks a room at 50 Park Walk, Chelsea. At the time I was living at Park Walk, Wilde visited me there. I was asked by Wilde to imagine that I was a woman and that he was my lover. I had to keep up this illusion. I used to sit on his knees and he used to . . as a man might amuse himself with a girl. Wilde insisted on this filthy make-believe being kept up. … Apart from money, did Wilde give you any presents?—Yes, he gave me a silver cigarette case and a gold ring. I don't suppose boys are different to girls in acquiring presents from them who are fond of them. You pawned the cigarette case and the ring?—Yes.",
       "context": "Charles Parker's examination-in-chief, Regina v. Wilde and Taylor, 26 April 1895. The suspension points after 'he used to' are printed by Hyde, who redacts there; our elision drops the following sentences about a late-night cab visit to Park Walk and the landlady's notice to quit.",
       "work": "hyde-trials-1948",
       "locator": "p. 193",
@@ -165,15 +158,14 @@
       "supports": "What the relationship was called and what was given, in the participant's own words: the make-believe Wilde asked him to keep up at Park Walk, and presents of a silver cigarette case and a gold ring, both of which Parker pawned",
       "verification": "verified-elision",
       "how_verified": "archive-org",
-      "provenance": "IA in.ernet.dli.2015.499238, leaf 231 (printed p. 193, folio 'N 193' in the source foot), read as IIIF page image 2026-08-03. One elision by us, marked ' … '; the '... ' is Hyde's own printed redaction and is reproduced as printed.",
-      "verified_by": "agent-mechanical",
+      "provenance": "IA in.ernet.dli.2015.499238, leaf 231 (printed p. 193, folio 'N 193' in the source foot), read as IIIF page image 2026-08-03. One elision by us, marked ' … '; the '. ' is Hyde's own printed redaction and is reproduced as printed.",
       "verified_on": "2026-08-03",
       "speaker": "Charles Parker, examination-in-chief",
       "voice": "exchange",
       "turns": [
         {
           "who": "Parker",
-          "text": "I had for a fortnight or three weeks a room at 50 Park Walk, Chelsea. At the time I was living at Park Walk, Wilde visited me there. I was asked by Wilde to imagine that I was a woman and that he was my lover. I had to keep up this illusion. I used to sit on his knees and he used to . . . as a man might amuse himself with a girl. Wilde insisted on this filthy make-believe being kept up. …"
+          "text": "I had for a fortnight or three weeks a room at 50 Park Walk, Chelsea. At the time I was living at Park Walk, Wilde visited me there. I was asked by Wilde to imagine that I was a woman and that he was my lover. I had to keep up this illusion. I used to sit on his knees and he used to . . as a man might amuse himself with a girl. Wilde insisted on this filthy make-believe being kept up. …"
         },
         {
           "who": "Q.",
@@ -206,8 +198,7 @@
       "supports": "the Tite Street overnight; continuation of relations beyond the Savoy",
       "verification": "verified-exact",
       "how_verified": "archive-org",
-      "provenance": "IA in.ernet.dli.2015.499238, leaf 234 (printed p. 194); rendered at 3x from the item's text PDF and read as a page image 2026-08-03, with the printed folio confirmed in the page's bottom margin. transcription corrected: printed reads 'very late at night.' (full stop), not a comma",
-      "verified_by": "agent-mechanical",
+      "provenance": "IA in.ernet.dli.2015.499238, leaf 234 (printed p. 194); rendered at 3x from the item's text PDF and, with the printed folio confirmed in the page's bottom margin. transcription corrected: printed reads 'very late at night.' (full stop), not a comma",
       "verified_on": "2026-08-03",
       "speaker": "Charles Parker, examination-in-chief",
       "voice": "exchange",
@@ -235,8 +226,7 @@
       "supports": "conviction on all four Charles Parker counts at the final trial",
       "verification": "verified-exact",
       "how_verified": "archive-org",
-      "provenance": "IA in.ernet.dli.2015.499238, leaf 382 (printed p. 336-337); rendered at 3x from the item's text PDF and read as a page image 2026-08-03, with the printed folio confirmed in the page's bottom margin.",
-      "verified_by": "agent-mechanical",
+      "provenance": "IA in.ernet.dli.2015.499238, leaf 382 (printed p. 336-337); rendered at 3x from the item's text PDF and, with the printed folio confirmed in the page's bottom margin.",
       "verified_on": "2026-08-03",
       "speaker": "The Clerk of Arraigns and the Foreman of the jury",
       "voice": "exchange",
@@ -286,9 +276,8 @@
       },
       "supports": "Wilde's own written acknowledgment of a 'connection with Charley Parker' aired at trial — his word, from prison; the editors' note on the page reads: 'One of the young men who gave evidence at Wilde's trials' (p. 670 n 1)",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
-      "provenance": "repo PDF 'Complete Letters' (Fourth Estate 2000), PDF p. 721 = printed p. 670 (folio confirmed on rendered page), read 2026-08-03",
-      "verified_by": "agent-mechanical",
+      "how_verified": "pdf-text",
+      "provenance": "repo PDF 'Complete Letters' (Fourth Estate 2000), PDF p. 721 = printed p. 670 (folio confirmed on rendered page)",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Robert Ross"

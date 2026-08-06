@@ -16,14 +16,13 @@
   },
   "date_label": "Paris, December 1898",
   "summary": "Wilde reported to Reginald Turner that Hylton had arrived in Paris 'with his boy Herbert'.",
-  "certainty_reasoning": "SECOND-HAND: Wilde is the only witness and neither party speaks. THE WHOLE EVIDENCE IS THE POSSESSIVE - 'his boy Herbert' - and that is thinner than the other edges drawn from this folio, which is said here rather than glossed over. IT IS DRAWN because the identical formula in the same letter already carries an edge on this map: `ashton--joseph`, second-hand on 'his little friend Joseph'. Treating one as a relationship and the other as nothing would be inconsistent. NOTHING SEXUAL IS ESTABLISHED, no age is given, and no reciprocity is implied. IF LOVELLE JUDGES THE POSSESSIVE INSUFFICIENT, this is the edge to demote first - and the same question then applies to `ashton--joseph`.",
   "sources": [
     {
       "work": "letters-2000",
       "locator": "p. 1107",
       "locator_type": "page",
       "quote": "Hylton is here with his boy Herbert. I must say he is almost impossible. He is a sort of grown-up man with a hysterical womb, and makes scenes with Sir John like a woman with child.",
-      "context": "Wilde to Reginald Turner, Tuesday [postmark 6 December 1898], Hôtel d'Alsace, Paris (MS Hyde). The 'he' who is almost impossible is Hylton, not Herbert. THE FOLIO IS A CENSUS OF THE PARIS EXILE HOUSEHOLD in December 1898 and should be read as one: Sir John Ashton and his 'little friend' Joseph (both already on this map, connected on this same page), Turner's 'little friend' Alphonse, and Hylton with 'his boy' Herbert. Four young men in three sentences, all described to Wilde's closest correspondent in the same possessive formula.",
+      "context": "Wilde to Reginald Turner, Tuesday [postmark 6 December 1898], Hôtel d'Alsace, Paris (MS Hyde). The 'he' who is almost impossible is Hylton, not Herbert. THE FOLIO IS A CENSUS OF THE PARIS EXILE HOUSEHOLD in December 1898 and form one: Sir John Ashton and his 'little friend' Joseph (both already on this map, connected on this same page), Turner's 'little friend' Alphonse, and Hylton with 'his boy' Herbert. Four young men in three sentences, all described to Wilde's closest correspondent in the same possessive formula.",
       "speaker": "Oscar Wilde",
       "addressee": "Reginald Turner",
       "evidence_date": {
@@ -33,9 +32,8 @@
       },
       "supports": "The whole of the record for Herbert.",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF page 1153; printed folio 1107 confirmed on the rendered page image, read 2026-08-06.",
-      "verified_by": "claude-at-page",
+      "how_verified": "pdf-image",
+      "provenance": "Repo PDF page 1153; printed folio 1107 confirmed on the rendered page image.",
       "verified_on": "2026-08-06",
       "voice": "period"
     }

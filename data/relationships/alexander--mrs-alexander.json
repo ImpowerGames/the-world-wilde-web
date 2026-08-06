@@ -1,16 +1,13 @@
 {
   "id": "alexander--mrs-alexander",
-  "people": [
-    "alexander",
-    "mrs-alexander"
-  ],
+  "people": ["alexander", "mrs-alexander"],
   "certainty": "married",
   "certainty_status": "proposed",
   "start": null,
   "end": null,
   "date_label": "Married; the year is not stated in the sources read",
   "summary": "George Alexander's wife, present in Wilde's letters twice: regards sent in 1894, and in 1900 the greeting she gave him in the street in Paris — which Wilde, five years after the trials and four months from death, said he now knew how to value.",
-  "certainty_reasoning": "MARRIED: Wilde addresses her as Alexander's wife in two letters read at the page. On the map under the roster's spouse rule. The class states the legal fact only; nothing else about the marriage is claimed, because nothing else is recorded in the sources held here — not even her given name.",
+  "certainty_reasoning": "MARRIED: Wilde addresses her as Alexander's wife in two letters read at the page.",
   "sources": [
     {
       "work": "letters-2000",
@@ -26,9 +23,8 @@
       },
       "supports": "That she existed, that Wilde knew her, and the name he had for her.",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF page 672; printed folio 620 confirmed on the rendered page image, read 2026-08-05.",
-      "verified_by": "claude-at-page",
+      "how_verified": "pdf-image",
+      "provenance": "Repo PDF page 672; printed folio 620 confirmed on the rendered page image.",
       "verified_on": "2026-08-05",
       "voice": "period"
     },
@@ -47,9 +43,8 @@
       },
       "supports": "The one thing the record preserves about her — that she greeted a disgraced man warmly in public, and what it meant to him.",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF page 1239; printed folio 1193 confirmed on the rendered page image, read 2026-08-05.",
-      "verified_by": "claude-at-page",
+      "how_verified": "pdf-image",
+      "provenance": "Repo PDF page 1239; printed folio 1193 confirmed on the rendered page image.",
       "verified_on": "2026-08-05",
       "voice": "period"
     }

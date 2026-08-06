@@ -1,9 +1,6 @@
 {
   "id": "lionel-johnson--wilde",
-  "people": [
-    "lionel-johnson",
-    "wilde"
-  ],
+  "people": ["lionel-johnson", "wilde"],
   "certainty": "attraction-expressed",
   "certainty_status": "proposed",
   "direction": "lionel-johnson",
@@ -17,7 +14,6 @@
   },
   "date_label": "February 1890 to 1892",
   "summary": "Wilde called on Johnson unannounced at Oxford in February 1890 because he admired his poems, and wrote twice in two days wanting to know the poet as well. Two days after that Johnson wrote to a friend, 'I am in love with him'. Later that year he thanked Wilde for Dorian Gray in a Latin poem. In 1891 he introduced Wilde to Lord Alfred Douglas, and in 1892 wrote 'The Destroyer of a Soul', believed addressed to Wilde, beginning 'I hate you with a necessary hate'.",
-  "certainty_reasoning": "ATTRACTION-EXPRESSED, arrow from Johnson, outcome unknown. THE EVIDENCE IS FIRST-PERSON AND PRIVATE: 'I am in love with him', written by Johnson to Arthur Galton on 18 February 1890, in a letter to a third party and not to Wilde. That is the strongest form this map recognises short of a participant describing an act. FLAGGED FOR LOVELLE, because the reading is not the only one available. WHAT COMPLICATES IT: the sentence sits in a flippant paragraph about cigarettes and Pater, and 'I am in love with him' was available in 1890 as an idiom of enthusiasm for a brilliant new acquaintance, not only as a statement of desire; Johnson was twenty-two and had met Wilde twice. WHAT SUPPORTS THE STRONGER READING: he wrote it two days after Wilde sought him out twice in two days; he followed it with a Latin love-offering for Dorian Gray; and the correspondence ends in a poem of hatred, which is a trajectory that fits an attachment better than an enthusiasm. OUTCOME IS 'unknown' because nothing in this volume records Wilde answering it in any register. NOTHING SEXUAL IS CLAIMED in either direction. THE ARROW POINTS FROM JOHNSON, which is unusual on this map and is the reason to keep it: most of the attraction-expressed edges here are Wilde looking outward.",
   "sources": [
     {
       "work": "letters-2000",
@@ -34,9 +30,8 @@
       },
       "supports": "The first approach, unannounced and from Wilde's side.",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF page 445; printed folio 423 confirmed on the rendered page image, read 2026-08-05.",
-      "verified_by": "claude-at-page",
+      "how_verified": "pdf-image",
+      "provenance": "Repo PDF page 445; printed folio 423 confirmed on the rendered page image.",
       "verified_on": "2026-08-05",
       "voice": "period"
     },
@@ -55,9 +50,8 @@
       },
       "supports": "Wilde following up the next day: he wants to know the poet as well as the poems.",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF page 445; printed folio 423 confirmed on the rendered page image, read 2026-08-05.",
-      "verified_by": "claude-at-page",
+      "how_verified": "pdf-image",
+      "provenance": "Repo PDF page 445; printed folio 423 confirmed on the rendered page image.",
       "verified_on": "2026-08-05",
       "voice": "period"
     },
@@ -76,9 +70,8 @@
       },
       "supports": "Johnson stating in his own hand that he is in love with Wilde.",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF page 445; printed folio 423 confirmed on the rendered page image, read 2026-08-05.",
-      "verified_by": "claude-at-page",
+      "how_verified": "pdf-image",
+      "provenance": "Repo PDF page 445; printed folio 423 confirmed on the rendered page image.",
       "verified_on": "2026-08-05",
       "voice": "period"
     },
@@ -97,9 +90,8 @@
       },
       "supports": "Johnson thanking Wilde for Dorian Gray in Latin verse, 'for friendship's sake'.",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF page 445; printed folio 423 confirmed on the rendered page image, read 2026-08-05.",
-      "verified_by": "claude-at-page",
+      "how_verified": "pdf-image",
+      "provenance": "Repo PDF page 445; printed folio 423 confirmed on the rendered page image.",
       "verified_on": "2026-08-05",
       "voice": "period"
     },
@@ -116,9 +108,8 @@
       },
       "supports": "The introduction of Douglas, and the reversal that followed it.",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF page 445; printed folio 423 confirmed on the rendered page image, read 2026-08-05.",
-      "verified_by": "claude-at-page",
+      "how_verified": "pdf-image",
+      "provenance": "Repo PDF page 445; printed folio 423 confirmed on the rendered page image.",
       "verified_on": "2026-08-05",
       "voice": "modern"
     }

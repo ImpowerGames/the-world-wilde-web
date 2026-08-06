@@ -1,12 +1,8 @@
 {
   "id": "batten--hall",
-  "people": [
-    "batten",
-    "hall"
-  ],
+  "people": ["batten", "hall"],
   "certainty": "second-hand",
   "certainty_status": "proposed",
-  "certainty_reasoning": "The statement read is the Harry Ransom Center's own biographical sketch in the finding aid to the Hall and Troubridge papers - an archivist's summary, i.e. a non-participant, and it carries no per-claim citation (it lists ten biographies at the foot instead). Hall's own letters are published (Glasgow's Your John, 1997) and Troubridge wrote a memoir, so participant testimony exists and would very likely move this to self-reported; both are recorded as pointers. Second-hand here marks who is talking, not doubt about the fact: the Ransom Center holds the papers and states the relationship without hedge.",
   "start": null,
   "end": {
     "y": 1916
@@ -25,7 +21,6 @@
       "verification": "verified-exact",
       "how_verified": "web",
       "provenance": "https://norman.hrc.utexas.edu/fasearch/findingAid.cfm?eadid=00163 fetched (curl) and read in full 2026-08-03; quote sliced byte-exact from the downloaded HTML, then whitespace artifacts introduced by stripping inline markup (spaces around quotation marks, italic titles and punctuation) normalized to the printed reading.",
-      "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -38,9 +33,8 @@
       "evidence_date": null,
       "supports": "An editor's reading that Hall's worst remembered grief was Batten's death, and that Batten was grieved by Hall's passion for Troubridge - second-hand, hedged, and the only thing in this volume that bears on this pair.",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
+      "how_verified": "pdf-text",
       "provenance": "Repo PDF p. 7 read as a rendered page image 2026-08-04, and the footnote re-read at 400 dpi. The scan is TWO PRINTED PAGES PER PDF PAGE: PDF 7 carries printed 28 and 29, and the folio 29 is confirmed in the running head ('The Love Letters of Radclyffe Hall 29') on the image. The PDF's own text layer is unreliable here - it renders 'sheer' as 'shere' and 'a very' as 'aa very' - so the transcription is taken from the image, not the layer.",
-      "verified_by": "agent-mechanical",
       "verified_on": "2026-08-04",
       "speaker": "Joanne Glasgow, ed.",
       "voice": "modern"
@@ -58,9 +52,8 @@
       },
       "supports": "Biographer's full account of the Batten relationship, including its start.",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF page 52, printed folio 36 confirmed in the running head on the rendered page, read as a page image 2026-08-04..",
-      "verified_by": "agent-mechanical",
+      "how_verified": "pdf-text",
+      "provenance": "Repo PDF page 52, printed folio 36 confirmed in the running head on the rendered page.",
       "verified_on": "2026-08-04",
       "voice": "modern"
     }

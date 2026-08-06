@@ -2,10 +2,7 @@
   "id": "bradley",
   "name": "Katharine Bradley",
   "sort_name": "Bradley, Katharine",
-  "aka": [
-    "Michael Field",
-    "Michael"
-  ],
+  "aka": ["Michael Field", "Michael"],
   "born": {
     "y": 1846
   },
@@ -15,16 +12,12 @@
   "group": "aesthete",
   "gender": "f",
   "bio": "Poet, born 1846, the elder half of \"Michael Field\" and the aunt of her collaborator and life partner Edith Cooper (1862-1913), whom she raised. \"Michael Field\" is not a person but the single joint pen name under which Bradley and Cooper published everything: eight volumes of poetry, some twenty-seven verse dramas, and a joint diary, Works and Days. Wilde addressed his letters to \"Michael Field\", writing to the pair as one correspondent. Bradley and Cooper came from a well-off Birmingham family, read classics at University College, Bristol, and lived together first in Reigate and finally in Richmond; on the Y90s account Bradley was the older and the more glamorous and expansive of the two, and was \"Michael\" (also the Simiorg, or All-Wise-Fowl) in the private mythology of the diary. Wilde corresponded with \"Michael Field\" between 1890 and 1893 about their verse dramas and about placing A Question of Memory with J. T. Grein's Independent Theatre. Bradley survived Cooper by less than a year and died in 1914.",
-  "bio_note": "Dates (1846-1914) from the editors' identifying footnote to Wilde's letter to \"Michael Field\", Complete Letters (2000), p. 449, read at the rendered page image 2026-08-03 (the editors print the forename \"Katherine\"; the roster form \"Katharine\" follows the Y90s biography and her own usage). Life detail from Stefano Evangelista's Y90s biography of Michael Field (2015), fetched and read in full 2026-08-03.",
-  "bio_sources": [
-    "letters-2000",
-    "evangelista-y90s-field-bio"
-  ],
+  "bio_note": "Dates (1846-1914) from the editors' identifying footnote to Wilde's letter to \"Michael Field\", Complete Letters (2000), p. 449, read at the rendered page image 2026-08-03 (the editors print the forename \"Katherine\"; the roster form \"Katharine\" follows the Y90s biography and her own usage).",
+  "bio_sources": ["letters-2000", "evangelista-y90s-field-bio"],
   "context_engagements": [
     {
       "partner_name": "Oscar Wilde",
       "period": "London, October 1893",
-      "note": "Added 2026-08-06 from a folio read for Kains-Jackson. 'Michael Field' was the joint pen-name of Katharine Bradley and Edith Cooper, so a letter to Michael Field is a letter to them both, and it is recorded on each.",
       "sources": [
         {
           "work": "letters-2000",
@@ -40,16 +33,13 @@
           },
           "supports": "Wilde acting for them professionally, and what he thought of their play.",
           "verification": "verified-exact",
-          "how_verified": "pdf-at-page",
-          "provenance": "Repo PDF page 626; printed folio 574 confirmed on the rendered page image, read 2026-08-06.",
-          "verified_by": "claude-at-page",
+          "how_verified": "pdf-image",
+          "provenance": "Repo PDF page 626; printed folio 574 confirmed on the rendered page image.",
           "verified_on": "2026-08-06",
           "voice": "period"
         }
       ]
     }
   ],
-  "research_status": "phase-a",
-  "wikidata": "Q15982614",
   "wikipedia": "https://en.wikipedia.org/wiki/Katharine_Harris_Bradley"
 }

@@ -1,14 +1,11 @@
 {
   "id": "andre--wilde",
-  "people": [
-    "andre",
-    "wilde"
-  ],
+  "people": ["andre", "wilde"],
   "certainty": "attraction-expressed",
+  "certainty_status": "proposed",
   "direction": "wilde",
   "outcome": "unknown",
-  "certainty_status": "proposed",
-  "certainty_reasoning": "What survives is one clause of admiration in a letter to Robert Ross - 'I met one beautiful person, called André, with wonderful eyes' - with no approach, no second meeting and no outcome. That is admiration recorded by Wilde and nothing more, so attraction-expressed with outcome 'unknown' is the only class the page supports: romantic-nonsexual would assert a mutual connection the letter does not document, and documented-sexual has no first-person statement behind it. Candour about the bar: this is the thinnest item in the exile-liaison tier. The README requires that desire be legible as desire to a reader who does not hold the coding hypothesis, and a bare 'one beautiful person … with wonderful eyes' sits at or just under that line; the reading that this is desire rather than aesthetic notice is this project's, not a scholarly source's, and a later check may reasonably prefer to keep André as a bio record with no edge. Note also that the following sentence's stronger declaration - 'One would have followed him into the desert' - attaches to Pietro, not to André, and is not borrowed here. Standing caveat for this tier: the record is one-sided by nature. These men left no papers; everything known is what Wilde wrote to a friend. An unrecorded outcome is not evidence of no outcome, and André's own view of the meeting is not recorded anywhere.",
+  "certainty_reasoning": "An unrecorded outcome is not evidence of no outcome, and André's own view of the meeting is not recorded anywhere.",
   "start": {
     "y": 1899,
     "m": 1
@@ -32,9 +29,8 @@
       },
       "supports": "The whole of the record for André: a named person met at Nice, described as beautiful and with wonderful eyes, with no outcome recorded",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF page 1164, printed folio 1118 confirmed on rendered page, read as a page image 2026-08-03; transcription and provenance carried forward unchanged (dossiers/EXILE-COMPANIONS_dossier.md T1).",
-      "verified_by": "agent-mechanical",
+      "how_verified": "pdf-text",
+      "provenance": "Repo PDF page 1164, printed folio 1118 confirmed on rendered page; transcription and provenance carried forward unchanged (the EXILE-COMPANIONS dossier (long-form research notes, kept in the private research repository) T1).",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Robert Ross"

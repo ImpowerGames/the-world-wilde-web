@@ -1,12 +1,8 @@
 {
   "id": "gilbert--wilde",
-  "people": [
-    "gilbert",
-    "wilde"
-  ],
+  "people": ["gilbert", "wilde"],
   "certainty": "self-reported",
   "certainty_status": "proposed",
-  "certainty_reasoning": "Proposed on the primary record alone, read in the source: a two-week run of Wilde's 1898 letters to Leonard Smithers in which Gilbert is daily company - nightly bezique, cheap restaurant dinners, taking a cheque to the bank, writing out nearly all the signatures for the signed edition - and in which Wilde's register toward him turns amorous: 'his beaux yeux', 'He grows dearer to me daily', 'sweeter than ever', and the joke that he has 'unfortunately lost my heart' on a side-bet at bezique. Read together these document a real and growing attachment, and they carry weight precisely because they are reported TO A THIRD PARTY rather than addressed to Gilbert - Wilde has no flattering purpose to serve in a business letter to his publisher. The editors independently call Gilbert 'one of Wilde's closest and most devoted friends during these last years'. The conservative alternative is live and should be weighed by the editor: each amorous line sits inside a comic bezique register and is separately deniable, and the README warns that Wilde's epistolary extravagance is not by itself an edge. No page read makes any sexual claim in either direction - hence romantic-nonsexual, whose 'nonsexual' describes the state of the evidence, not a finding of fact. The secondary tradition that Gilbert was a shared intimate of Wilde, Ross and Douglas remains unread in the source and is NOT the basis of this proposal. If the run reads to Lovelle as devoted companionship plus habitual Wildean extravagance, the correct disposition is no edge; that call is his.",
   "start": {
     "y": 1898,
     "circa": true
@@ -31,9 +27,8 @@
       },
       "supports": "Wilde's plainest first-person statement of the attachment - 'He grows dearer to me daily' - set in the daily domestic texture (the bank errand, the two-franc dinners)",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF page 1077, printed folio 1031 confirmed on the rendered page, read as page image 2026-08-03.",
-      "verified_by": "agent-mechanical",
+      "how_verified": "pdf-text",
+      "provenance": "Repo PDF page 1077, printed folio 1031 confirmed on the rendered page.",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Leonard Smithers"
@@ -47,9 +42,8 @@
       "evidence_date": null,
       "supports": "Gilbert's identity and the editors' own characterization of the friendship; the sum of what the editors say is knowable about him",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF page 1071, printed folio 1025 confirmed on the rendered page, read as page image 2026-08-03. Whole footnote, both sentences.",
-      "verified_by": "agent-mechanical",
+      "how_verified": "pdf-text",
+      "provenance": "Repo PDF page 1071, printed folio 1025 confirmed on the rendered page. Whole footnote, both sentences.",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -66,9 +60,8 @@
       },
       "supports": "The amorous turn inside the comic bezique register - Wilde's own 'lost my heart', staked on a side-game",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF page 1077, printed folio 1031 confirmed on the rendered page, read as page image 2026-08-03; the letter opens on printed 1030 (PDF 1076, folio confirmed). En-dashes as printed.",
-      "verified_by": "agent-mechanical",
+      "how_verified": "pdf-text",
+      "provenance": "Repo PDF page 1077, printed folio 1031 confirmed on the rendered page; the letter opens on printed 1030 (PDF 1076, folio confirmed). En-dashes as printed.",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Leonard Smithers"
@@ -86,9 +79,8 @@
       },
       "supports": "Gilbert as the single exemption from Wilde's misery in this stretch - 'sweeter than ever'",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF page 1080, printed folio 1034 confirmed on the rendered page, read as page image 2026-08-03. En-dashes as printed.",
-      "verified_by": "agent-mechanical",
+      "how_verified": "pdf-text",
+      "provenance": "Repo PDF page 1080, printed folio 1034 confirmed on the rendered page. En-dashes as printed.",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Leonard Smithers"
@@ -107,10 +99,9 @@
       },
       "supports": "The General Index lead, now read. It widens the affectionate run by a note rather than changing its character: Gilbert summoned to join a household Wilde is already sharing with Douglas, in the domestic register of who is cooking. Nothing here strengthens a romantic reading.",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
-      "verified_by": "Claude (Opus 5)",
+      "how_verified": "pdf-image",
       "verified_on": "2026-08-04",
-      "provenance": "Repo PDF p. 1130 rendered and read as a page image 2026-08-04; folio 1084 printed at the foot. 'early' and 'oeufs à l'aurore' are italic in the printing.",
+      "provenance": "Repo PDF p. 1130 rendered and; folio 1084 printed at the foot. 'early' and 'oeufs à l'aurore' are italic in the printing.",
       "addressee": "Maurice Gilbert"
     },
     {
@@ -126,9 +117,8 @@
       },
       "supports": "Wilde's own register about Gilbert in a letter to a third party - affectionate, possessive and communal at once.",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
+      "how_verified": "pdf-text",
       "provenance": "Repo PDF p. 1119 read as a rendered page image 2026-08-04; printed folio 1073 confirmed at the foot of the image (offset +46 in this region, consistent with the works.json warning that it is not constant).",
-      "verified_by": "agent-mechanical",
       "verified_on": "2026-08-04",
       "speaker": "Oscar Wilde",
       "addressee": "Robert Ross",

@@ -6,7 +6,7 @@
   ],
   "certainty": "married",
   "certainty_status": "proposed",
-  "certainty_reasoning": "Married, on a scholarly edition's prosopography - the Whistler Correspondence's biographical entry, which footnotes itself to Nevinson's ODNB article on Marillier. That is a good source but a tertiary digest of a paywalled one that has not been read. The identification is exact: 1865-1951 on the person file, on Wikidata Q3784975 and in the ODNB title alike. Wikidata carries NO P26 for him at all, so there is no independent check on the wives' names.",
+  "certainty_reasoning": "Married, on a scholarly edition's prosopography - the Whistler Correspondence's biographical entry, which footnotes itself to Nevinson's ODNB article on Marillier. That is a good source but a tertiary digest of a paywalled one that has not been read.",
   "start": {
     "y": 1893
   },
@@ -17,7 +17,7 @@
   "summary": "Marillier married Katherine Isabella Pattison in 1893, some seven years after the correspondence with Wilde that puts him on this map. They had two daughters. She died in 1901, and he remarried five years later.",
   "sources": [
     {
-      "quote": "In 1893 he married Katherine Isabella Pattison, the daughter of John Pattinson, a Newcastle public analyst. ... They had two daughters. Following her death in 1901,",
+      "quote": "In 1893 he married Katherine Isabella Pattison, the daughter of John Pattinson, a Newcastle public analyst. .. They had two daughters. Following her death in 1901,",
       "context": "The Whistler Correspondence's biographical entry on H. C. Marillier. The elision drops an intervening sentence on his career; the sentence continues into the second marriage.",
       "work": "whistler-correspondence-marillier",
       "locator": "biographical entry, 'Mari_HC'",
@@ -29,7 +29,6 @@
       "verification": "verified-elision",
       "how_verified": "web",
       "provenance": "https://www.whistler.arts.gla.ac.uk/correspondence/people/biog/?bid=Mari_HC read 2026-08-05. The Whistler edition footnotes this entry to J. L. Nevinson's DNB/ODNB article on Marillier (34876), which is paywalled and was NOT read - so this is a scholarly but tertiary digest.",
-      "verified_by": "agent-mechanical",
       "verified_on": "2026-08-05",
       "voice": "modern"
     }

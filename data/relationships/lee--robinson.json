@@ -1,12 +1,9 @@
 {
   "id": "lee--robinson",
-  "people": [
-    "lee",
-    "robinson"
-  ],
+  "people": ["lee", "robinson"],
   "certainty": "second-hand",
   "certainty_status": "proposed",
-  "certainty_reasoning": "Only a non-participant speaks in the evidence read. Patricia Pulham's Y90s biography states the attachment and its span; no letter, diary or statement by Lee or Robinson about the relationship was read so far, and Pulham's one citation to Robinson's own writing ('Robinson, 935') is about the visitors to Casa Paget, not about the relationship. Second-hand is a statement about who is talking, not a mark of doubt: Pulham is the standard scholarly account and calls it a romantic friendship without hedging. Vernon Lee's letters are published (Gagel's edition) and would likely move this to self-reported; pointer recorded.",
+  "certainty_reasoning": "Patricia Pulham's Y90s biography states the attachment and its span; no letter, diary or statement by Lee or Robinson about the relationship was read so far, and Pulham's one citation to Robinson's own writing ('Robinson, 935') is about the visitors to Casa Paget, not about the relationship. Second-hand is a statement about who is talking, not a mark of doubt: Pulham is the standard scholarly account and calls it a romantic friendship without hedging.",
   "start": {
     "y": 1880
   },
@@ -29,7 +26,6 @@
       "verification": "verified-exact",
       "how_verified": "web",
       "provenance": "https://1890s.ca/lee_bio/ fetched (curl) and read in full 2026-08-03; quote sliced byte-exact from the downloaded HTML, then whitespace artifacts introduced by stripping inline markup (spaces around quotation marks, italic titles and punctuation) normalized to the printed reading.",
-      "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -46,7 +42,6 @@
       "verification": "verified-exact",
       "how_verified": "web",
       "provenance": "https://1890s.ca/lee_bio/ fetched (curl) and read in full 2026-08-03; quote sliced byte-exact from the downloaded HTML, then whitespace artifacts introduced by stripping inline markup (spaces around quotation marks, italic titles and punctuation) normalized to the printed reading.",
-      "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -61,9 +56,8 @@
       },
       "supports": "The standard edition stating the relationship as romantic, dating its start exactly, giving its length, and recording Lee's depression after the marriage.",
       "verification": "verified-elision",
-      "how_verified": "pdf-at-page",
+      "how_verified": "pdf-text",
       "provenance": "Repo PDF p. 119-120 read as a rendered page image 2026-08-04. **This volume carries no printed folios** - it is an ebook conversion - so the locator is the PDF page, per the works.json rule; the letter is additionally identifiable by its date and correspondents. Superscript footnote markers omitted as typography.",
-      "verified_by": "agent-mechanical",
       "verified_on": "2026-08-04",
       "speaker": "Sophie Geoffroy and Amanda Gagel, eds.",
       "voice": "modern"
@@ -81,9 +75,8 @@
       },
       "supports": "Robinson's own voice on the relationship and on its aftermath - the surviving affection, and the mutual retrieval of the love letters that documented it.",
       "verification": "verified-elision",
-      "how_verified": "pdf-at-page",
+      "how_verified": "pdf-text",
       "provenance": "Repo PDF p. 490-491 read as a rendered page image 2026-08-04. **This volume carries no printed folios** - it is an ebook conversion - so the locator is the PDF page, per the works.json rule; the letter is additionally identifiable by its date and correspondents. Superscript footnote markers omitted as typography.",
-      "verified_by": "agent-mechanical",
       "verified_on": "2026-08-04",
       "speaker": "Mary Robinson (Mme Darmesteter), letter to Vernon Lee",
       "addressee": "Vernon Lee",
@@ -96,10 +89,9 @@
       "quote": "At the time that Levy became acquainted with her, Lee had been in a romantic relationship with the poet and novelist Agnes Mary Robinson (called Mary) since at least the autumn of 1880. When Vernon Lee was in London she stayed with the Robinsons, and when Mary was in Florence she stayed at the Pagets' villa, sharing a room with Lee.",
       "context": "Beckman, incidentally, while setting up Levy's own attachment to Lee.",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
-      "verified_by": "agent-mechanical",
+      "how_verified": "pdf-text",
       "verified_on": "2026-08-03",
-      "provenance": "Repo PDF page 138, printed folio 120 confirmed in the running head on the rendered page, read as a page image 2026-08-03.",
+      "provenance": "Repo PDF page 138, printed folio 120 confirmed in the running head on the rendered page.",
       "evidence_date": {
         "y": 1880
       },

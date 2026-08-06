@@ -18,10 +18,7 @@
     "wikipedia-lillie-langtry",
     "letters-2000"
   ],
-  "bio_note": "A CONFLICT SITS INSIDE THIS RECORD AND IS NOT RESOLVED. Holland and Hart-Davis (Complete Letters (2000), p. 91 n. 2 - the repo source, already used on langtry.json) describe him as 'an Irish widower of thirty' whom she married 'in her teens'. Wikipedia dates the wedding to 9 March 1874 and makes her twenty and him twenty-six. Both cannot stand: on either candidate birth year for her (1852 on the person file, following the editors; 1853 per Wikipedia and Wikidata) she was past nineteen in March 1874. The editors' 'in her teens' and 'thirty' are the looser statements and are likely the ones at fault, but nothing read settles it, so both are recorded. Promoted from the context_engagement on langtry.json, 2026-08-05.",
+  "bio_note": "Holland and Hart-Davis (Complete Letters (2000), p. 91 n. 2 - the repo source, already used on langtry.json) describe him as 'an Irish widower of thirty' whom she married 'in her teens'. Wikipedia dates the wedding to 9 March 1874 and makes her twenty and him twenty-six. Both cannot stand: on either candidate birth year for her (1852 on the person file, following the editors; 1853 per Wikipedia and Wikidata) she was past nineteen in March 1874.",
   "context_engagements": [],
-  "research_status": "phase-a",
-  "wikidata": null,
-  "wikipedia": null,
-  "roster_note": "Added 2026-08-05 in the pass that put every spouse and every off-roster person on the map."
+  "wikipedia": null
 }

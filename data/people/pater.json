@@ -11,7 +11,6 @@
     {
       "partner_name": "Oscar Wilde",
       "period": "Oxford, from 1877",
-      "note": "Recorded without a connection line. The first source is Pater's own words, not Wilde's.",
       "sources": [
         {
           "work": "letters-2000",
@@ -28,26 +27,19 @@
           },
           "supports": "The first contact, in Pater's own hand, and what it was worth to Wilde.",
           "verification": "verified-exact",
-          "how_verified": "pdf-at-page",
-          "provenance": "Repo PDF page 86; printed folio 59 confirmed on the rendered page image, read 2026-08-05.",
-          "verified_by": "claude-at-page",
+          "how_verified": "pdf-image",
+          "provenance": "Repo PDF page 86; printed folio 59 confirmed on the rendered page image.",
           "verified_on": "2026-08-05",
           "voice": "period"
         }
       ]
     }
   ],
-  "research_status": "phase-a",
-  "bio_sources": [
-    "letters-2000"
-  ],
+  "bio_sources": ["letters-2000"],
   "name": "Walter Pater",
   "sort_name": "Pater, Walter",
-  "aka": [
-    "Pater",
-    "Walter Horatio Pater"
-  ],
+  "aka": ["Pater", "Walter Horatio Pater"],
   "group": "aesthete",
   "bio": "Fellow and Tutor of Brasenose College, Oxford (1839-94), and the writer whose Studies in the History of the Renaissance (1873) formed the aesthetic creed of Wilde's generation at Oxford. Its six-page 'Conclusion' caused enough of a stir that Pater removed it from the second edition of 1877. In July of that same year he wrote to Wilde, then twenty-two and unknown, to praise an article and ask to meet him. Wilde copied the letter out in full and posted it to a friend, unable to keep it to himself.",
-  "bio_note": "Added 2026-08-05, per Lovelle, from the parked list. NO CONNECTION LINE and none is suggested. HE IS HERE FOR TWO THINGS. First, the withdrawn 'Conclusion': the editors note at printed 59 that it 'caused such a stir that Pater omitted it from the second edition (1877)' - an author removing his own most-quoted pages, and the third such removal on this map beside [[mahaffy]] and [[gide]]. Second, his letter to Wilde, which survives only because Wilde could not resist copying it out to someone else. HIS OWN LETTER IS QUOTED AS THE PRIMARY SOURCE and Wilde's transcription is the manuscript; the editors note Wilde got three small words wrong, which is recorded rather than silently corrected. NOTHING IS ASSERTED about why the Conclusion was withdrawn beyond the editors' 'such a stir'."
+  "bio_note": "HIS OWN LETTER IS QUOTED AS THE PRIMARY SOURCE and Wilde's transcription is the manuscript; the editors note Wilde got three small words wrong, which is recorded rather than silently corrected."
 }

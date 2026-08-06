@@ -1,9 +1,6 @@
 {
   "id": "barney--de-gramont",
-  "people": [
-    "barney",
-    "de-gramont"
-  ],
+  "people": ["barney", "de-gramont"],
   "certainty": "second-hand",
   "certainty_status": "proposed",
   "start": {
@@ -12,7 +9,7 @@
   "end": null,
   "date_label": "Lovers from 1910; the attachment lasted until de Gramont's death",
   "summary": "Barney's lover from 1910 and her companion for the rest of de Gramont's life. Two biographers state the relationship independently, and both frame it as outlasting the sexual phase: Wickes has it running 'almost half a century, until the duchess' death'.",
-  "certainty_reasoning": "SECOND-HAND, not self-reported: both quotations here are biographers writing about the pair, not either woman's own words. De Gramont wrote four volumes of memoirs and dedicated a book to Barney, and Barney's own Souvenirs Indiscrets is already in this corpus - so participant testimony very likely exists and would raise this class. It has not been read, and the class states what has been read. Two independent biographers agreeing is why it is second-hand rather than uncorroborated.",
+  "certainty_reasoning": "It has not been read, and the class states what has been read.",
   "sources": [
     {
       "work": "souhami-2004",
@@ -25,9 +22,8 @@
       },
       "supports": "The start of the relationship, dated, and de Gramont's identity.",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF page 98; printed folio 72 confirmed on the rendered page image, read 2026-08-05. The superscript footnote marker after 'de Gramont' in the printed text is dropped from the transcription. NOTE the offset is not constant in this scan - printed 72 is PDF 98 (+26) while printed 137 is PDF 171 (+34) - so every folio here was confirmed on its own page image.",
-      "verified_by": "claude-at-page",
+      "how_verified": "pdf-image",
+      "provenance": "Repo PDF page 98; printed folio 72 confirmed on the rendered page image. The superscript footnote marker after 'de Gramont' in the printed text is dropped from the transcription. NOTE the offset is not constant in this scan - printed 72 is PDF 98 (+26) while printed 137 is PDF 171 (+34) - so every folio here was confirmed on its own page image.",
       "verified_on": "2026-08-05",
       "voice": "modern"
     },
@@ -40,9 +36,8 @@
       "evidence_date": null,
       "supports": "The relationship stated by a second, independent biographer, with its duration and the manner of their meeting.",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF page 124; printed folio 122 confirmed on the rendered page image, read 2026-08-05.",
-      "verified_by": "claude-at-page",
+      "how_verified": "pdf-image",
+      "provenance": "Repo PDF page 124; printed folio 122 confirmed on the rendered page image.",
       "verified_on": "2026-08-05",
       "voice": "modern"
     }

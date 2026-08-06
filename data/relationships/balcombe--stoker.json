@@ -1,12 +1,8 @@
 {
   "id": "balcombe--stoker",
-  "people": [
-    "balcombe",
-    "stoker"
-  ],
+  "people": ["balcombe", "stoker"],
   "certainty": "married",
   "certainty_status": "proposed",
-  "certainty_reasoning": "Married, on the plainest kind of evidence this map has: a dated editorial footnote in the standard scholarly edition of Wilde's letters, giving the day, the church and the husband's dates, read at the printed page. Nothing here is in dispute and nothing rests on a name match.",
   "start": {
     "y": 1878,
     "m": 12,
@@ -31,9 +27,8 @@
       },
       "supports": "The Stoker marriage: date, church, husband",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF page 99, printed folio 72 confirmed on rendered page, read as page image 2026-08-03.",
-      "verified_by": "agent-mechanical",
+      "how_verified": "pdf-text",
+      "provenance": "Repo PDF page 99, printed folio 72 confirmed on rendered page.",
       "verified_on": "2026-08-03",
       "voice": "modern"
     }

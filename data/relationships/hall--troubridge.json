@@ -1,12 +1,9 @@
 {
   "id": "hall--troubridge",
-  "people": [
-    "hall",
-    "troubridge"
-  ],
+  "people": ["hall", "troubridge"],
   "certainty": "second-hand",
   "certainty_status": "proposed",
-  "certainty_reasoning": "Same reasoning as batten--hall: the sentence read is the Ransom Center's own biographical sketch, uncited per claim. The participant record here is unusually large - Troubridge's 131 volumes of diaries and her memoir The Life and Death of Radclyffe Hall (1961), both at or from the Ransom Center - so this is a strong candidate to become self-reported on a later pass; pointers recorded. The finding aid's collection-level description independently calls Troubridge Hall's 'long-time partner', and the separation of the Troubridge marriage 'because of Una's relationship with Radclyffe Hall' is stated as fact.",
+  "certainty_reasoning": "The participant record here is unusually large - Troubridge's 131 volumes of diaries and her memoir The Life and Death of Radclyffe Hall (1961), both at or from the Ransom Center - so this is a strong candidate to become self-reported on a later pass; pointers recorded.",
   "start": {
     "y": 1915
   },
@@ -29,7 +26,6 @@
       "verification": "verified-exact",
       "how_verified": "web",
       "provenance": "https://norman.hrc.utexas.edu/fasearch/findingAid.cfm?eadid=00163 fetched (curl) and read in full 2026-08-03; quote sliced byte-exact from the downloaded HTML, then whitespace artifacts introduced by stripping inline markup (spaces around quotation marks, italic titles and punctuation) normalized to the printed reading.",
-      "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -46,7 +42,6 @@
       "verification": "verified-exact",
       "how_verified": "web",
       "provenance": "https://norman.hrc.utexas.edu/fasearch/findingAid.cfm?eadid=00163 fetched (curl) and read in full 2026-08-03; quote sliced byte-exact from the downloaded HTML, then whitespace artifacts introduced by stripping inline markup (spaces around quotation marks, italic titles and punctuation) normalized to the printed reading.",
-      "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -61,7 +56,6 @@
       "verification": "verified-exact",
       "how_verified": "web",
       "provenance": "https://norman.hrc.utexas.edu/fasearch/findingAid.cfm?eadid=00163 fetched (curl) and read in full 2026-08-03; quote sliced byte-exact from the downloaded HTML, then whitespace artifacts introduced by stripping inline markup (spaces around quotation marks, italic titles and punctuation) normalized to the printed reading.",
-      "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -76,9 +70,8 @@
       },
       "supports": "Troubridge's first-person account of the relationship.",
       "verification": "verified-elision",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF page 137, printed folio 139 confirmed at the foot of the rendered page, read as a page image 2026-08-04. 'dull' is italicised in the printed text..",
-      "verified_by": "agent-mechanical",
+      "how_verified": "pdf-text",
+      "provenance": "Repo PDF page 137, printed folio 139 confirmed at the foot of the rendered page. 'dull' is italicised in the printed text.",
       "verified_on": "2026-08-04",
       "voice": "period"
     },
@@ -93,7 +86,6 @@
       "verification": "unverified",
       "how_verified": "unverified",
       "provenance": "",
-      "verified_by": null,
       "verified_on": null
     }
   ]

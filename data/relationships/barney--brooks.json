@@ -1,9 +1,6 @@
 {
   "id": "barney--brooks",
-  "people": [
-    "barney",
-    "brooks"
-  ],
+  "people": ["barney", "brooks"],
   "certainty": "self-reported",
   "certainty_status": "proposed",
   "start": {
@@ -12,7 +9,6 @@
   "end": null,
   "date_label": "Met 1915; companions for the rest of Barney's life",
   "summary": "Barney and Brooks met in 1915 and remained attached for the rest of Barney's life, on terms Brooks set: Souhami records that she did not want a sustained one-to-one relationship, and found Barney's other affairs hard to endure. Barney's own words for her survive - 'I love my Angel better than anything else in the world and prove it.'",
-  "certainty_reasoning": "SELF-REPORTED on the strength of the second quotation, which is Barney's own sentence about Brooks, printed by Souhami. The first quotation from the same page is Souhami's narration and is marked modern; the class rests on the participant's words, not on the biographer's. Note what is NOT claimed: the pages read establish love declared and a lifelong attachment, and say nothing about sexual acts, which this map does not claim in either direction.",
   "sources": [
     {
       "work": "souhami-2004",
@@ -25,9 +21,8 @@
       },
       "supports": "The dated meeting, the ages as the page states them, and the names they used for each other.",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF page 171; printed folio 137 confirmed on the rendered page image, read 2026-08-05.",
-      "verified_by": "claude-at-page",
+      "how_verified": "pdf-image",
+      "provenance": "Repo PDF page 171; printed folio 137 confirmed on the rendered page image.",
       "verified_on": "2026-08-05",
       "voice": "modern"
     },
@@ -41,9 +36,8 @@
       "evidence_date": null,
       "supports": "Barney's own declaration of love for Brooks - the participant testimony this connection's class rests on.",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF page 171; printed folio 137 confirmed on the rendered page image, read 2026-08-05. The sentence is printed inside Souhami's narration and is quoted here alone, so that what stands as the quotation is entirely in Barney's voice.",
-      "verified_by": "claude-at-page",
+      "how_verified": "pdf-image",
+      "provenance": "Repo PDF page 171; printed folio 137 confirmed on the rendered page image. The sentence is printed inside Souhami's narration and is quoted here alone, so that what stands as the quotation is entirely in Barney's voice.",
       "verified_on": "2026-08-05",
       "voice": "period"
     }

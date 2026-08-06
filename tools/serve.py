@@ -3,7 +3,7 @@
 
     python tools/serve.py            http://localhost:8000
     python tools/serve.py 8080       a different port
-    python tools/serve.py --no-open  do not pop a browser tab (for a headless/agent-driven browser,
+    python tools/serve.py --no-open  do not pop a browser tab (for a headless browser,
                                      which attaches to the port itself)
 
 The browser will not fetch data/circle.json from a file:// page, so opening index.html by

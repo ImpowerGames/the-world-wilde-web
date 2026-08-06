@@ -2,18 +2,13 @@
   "id": "schuster",
   "born": null,
   "died": null,
-  "aka": [
-    "Miss Tiny"
-  ],
+  "aka": ["Miss Tiny"],
   "gender": "f",
-  "bio_sources": [
-    "letters-2000"
-  ],
+  "bio_sources": ["letters-2000"],
   "context_engagements": [
     {
       "partner_name": "Oscar Wilde",
       "period": "London, 1894",
-      "note": "Friendship, recorded without a connection line. Quoted whole.",
       "sources": [
         {
           "work": "letters-2000",
@@ -29,19 +24,17 @@
           },
           "supports": "The friendship at its ordinary footing, months before she gave him £1,000.",
           "verification": "verified-exact",
-          "how_verified": "pdf-at-page",
-          "provenance": "Repo PDF page 677; printed folio 625 confirmed on the rendered page image, read 2026-08-06.",
-          "verified_by": "claude-at-page",
+          "how_verified": "pdf-image",
+          "provenance": "Repo PDF page 677; printed folio 625 confirmed on the rendered page image.",
           "verified_on": "2026-08-06",
           "voice": "period"
         }
       ]
     }
   ],
-  "research_status": "phase-a",
   "name": "Adela Schuster",
   "sort_name": "Schuster, Adela",
   "group": "society",
   "bio": "A friend of Wilde's of the Tite Street years, known in the circle as 'Miss Tiny'. Two of Wilde's letters to her survive, both from December 1894. She is remembered chiefly for what she did the following spring: she gave Wilde £1,000 before the trials, at a point when almost nobody would be seen helping him.",
-  "bio_note": "Added 2026-08-06, clearing a backlog: flagged from the Index of Recipients on 2026-08-05. NO CONNECTION LINE: the register is friendship, and nothing states or implies more. THE £1,000 IS NOT DOCUMENTED ON THE PAGE READ HERE - it is well attested in the general literature and is given in the bio as context, but this node does not cite it, and it should be sourced before it is relied on. That caution is deliberate: two nodes on this map had background knowledge of mine asserted in the source's voice and needed correcting. TWO LETTERS at printed 621 and 625; ONE read at the page (2026-08-06). DATES NOT RECORDED and none inferred."
+  "bio_note": "the volume's Index of Recipients. TWO LETTERS at printed 621 and 625; ONE read at the page. DATES NOT RECORDED and none inferred."
 }

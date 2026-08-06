@@ -1,12 +1,8 @@
 {
   "id": "ashton--walter",
-  "people": [
-    "ashton",
-    "walter"
-  ],
+  "people": ["ashton", "walter"],
   "certainty": "attraction-expressed",
   "certainty_status": "proposed",
-  "certainty_reasoning": "Attraction expressed, arrow from Ashton, outcome unknown. The entire record is one clause in one letter, and it records a feeling in one direction only: Ashton's 'absurd love of Walter'. There is no approach, no reply, no shared address, nothing of Walter's side, and no statement that the two men had any dealings at all beyond the fact of Ashton loving him - which is a weaker record than Joseph's, where at least a shared establishment is documented. Second-hand would overstate it by implying Wilde attests a relationship; he attests a feeling he disapproved of.",
   "direction": "ashton",
   "outcome": "unknown",
   "start": {
@@ -30,9 +26,8 @@
       },
       "supports": "Ashton's second recorded attachment, and Wilde's position as its commentator",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF page 1164, printed folio 1118 confirmed on rendered page, read as page image 2026-08-03. Contiguous run from the passage transcribed in full in the dossier (A4). The editors bracket the letter's date with a query mark, preserved here in the context line.",
-      "verified_by": "agent-mechanical",
+      "how_verified": "pdf-text",
+      "provenance": "Repo PDF page 1164, printed folio 1118 confirmed on rendered page. Contiguous run from the passage transcribed in full in the dossier (A4). The editors bracket the letter's date with a query mark, preserved here in the context line.",
       "verified_on": "2026-08-03",
       "voice": "period"
     }

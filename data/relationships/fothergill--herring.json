@@ -1,12 +1,9 @@
 {
   "id": "fothergill--herring",
-  "people": [
-    "fothergill",
-    "herring"
-  ],
+  "people": ["fothergill", "herring"],
   "certainty": "married",
   "certainty_status": "proposed",
-  "certainty_reasoning": "Married, on a repo book by a historian working from the Warren-Marshall correspondence and Fothergill's own unpublished memoirs - but read in the PDF's text layer rather than at a rendered page, and undated in the source. The sharpest detail, that the marriage went unconsummated, is Romaine Brooks's recollection reported by Sox: second-hand, decades after, and recorded as hers. It is kept because the marriage's character is the substance of what survives about it, and because Sox's surrounding point - that Fothergill erased her name from his own account of his life - is itself part of the evidence.",
+  "certainty_reasoning": "The sharpest detail, that the marriage went unconsummated, is Romaine Brooks's recollection reported by Sox: second-hand, decades after, and recorded as hers.",
   "start": null,
   "end": null,
   "date_label": "c. 1905-06; ended in separation, date unrecorded",
@@ -21,9 +18,8 @@
       "evidence_date": null,
       "supports": "The first marriage, the wife's name, where they met, and Sox's point that Fothergill never named her.",
       "verification": "verified-exact",
-      "how_verified": "repo-file",
+      "how_verified": "digital-copy",
       "provenance": "David Sox, Bachelors of Art (1991), read in the repo TEXT MIRROR of the PDF on 2026-08-05, not at a rendered page image. The locator is the repo PDF page; the printed folio was not confirmed on an image for this passage, which is a weaker provenance than the rest of this module's Sox citations and is flagged as such.",
-      "verified_by": "agent-mechanical",
       "verified_on": "2026-08-05",
       "voice": "modern",
       "order_hint": {

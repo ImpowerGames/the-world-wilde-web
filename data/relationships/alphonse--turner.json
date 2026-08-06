@@ -16,14 +16,13 @@
   },
   "date_label": "Paris, December 1898",
   "summary": "Wilde told Reginald Turner that 'your little friend Alphonse' had been arrested for blackmail, and added that he was 'quite an imp, though attractive in love-scenes'.",
-  "certainty_reasoning": "SECOND-HAND: the sole attestation is Wilde's, writing to Turner about a young man he calls Turner's. Neither participant is on record about it. THE CLASS FOLLOWS AN EXISTING PRECEDENT ON THIS SAME FOLIO: `ashton--joseph` is second-hand on the phrase 'his little friend Joseph', in the paragraph immediately above this one. 'Your little friend' is the same formula, in the same letter, from the same pen. WHAT SUPPLIES THE ROMANTIC/SEXUAL ELEMENT that this map requires before any line is drawn is Wilde's closing clause, 'attractive in love-scenes'. WHAT COMPLICATES IT, and is recorded rather than smoothed: 'love-scenes' could conceivably be theatrical, and the sentence is a joke at the expense of a young man who had just been arrested. NOTHING SEXUAL IS ESTABLISHED and none is claimed. NO AGE is on the page. The money is on the page and stays on it: this is a transaction that went wrong, and the map's exile tier is largely made of such transactions.",
   "sources": [
     {
       "work": "letters-2000",
       "locator": "p. 1107",
       "locator_type": "page",
       "quote": "Your little friend Alphonse was arrested last night for chantage. He demanded fifteen francs, and was only given ten and a cab-fare, so on being expelled from the house he made a scene and was taken up. There is much joy amongst his friends, as his general conduct did not meet with approval. It is a pity he always wanted to behave badly; it gave him a demoniac pleasure. He was quite an imp, though attractive in love-scenes.",
-      "context": "Wilde to Reginald Turner, Tuesday [postmark 6 December 1898], Hôtel d'Alsace, Paris (MS Hyde) - the whole of the Alphonse paragraph. The editors gloss 'chantage' as blackmail. THE FOLIO IS A CENSUS OF THE PARIS EXILE HOUSEHOLD in December 1898 and should be read as one: Sir John Ashton and his 'little friend' Joseph (both already on this map, connected on this same page), Turner's 'little friend' Alphonse, and Hylton with 'his boy' Herbert. Four young men in three sentences, all described to Wilde's closest correspondent in the same possessive formula.",
+      "context": "Wilde to Reginald Turner, Tuesday [postmark 6 December 1898], Hôtel d'Alsace, Paris (MS Hyde) - the whole of the Alphonse paragraph. The editors gloss 'chantage' as blackmail. THE FOLIO IS A CENSUS OF THE PARIS EXILE HOUSEHOLD in December 1898 and form one: Sir John Ashton and his 'little friend' Joseph (both already on this map, connected on this same page), Turner's 'little friend' Alphonse, and Hylton with 'his boy' Herbert. Four young men in three sentences, all described to Wilde's closest correspondent in the same possessive formula.",
       "speaker": "Oscar Wilde",
       "addressee": "Reginald Turner",
       "evidence_date": {
@@ -33,9 +32,8 @@
       },
       "supports": "That Alphonse was Turner's, and what Wilde thought of him.",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF page 1153; printed folio 1107 confirmed on the rendered page image, read 2026-08-06.",
-      "verified_by": "claude-at-page",
+      "how_verified": "pdf-image",
+      "provenance": "Repo PDF page 1153; printed folio 1107 confirmed on the rendered page image.",
       "verified_on": "2026-08-06",
       "voice": "period"
     }

@@ -18,10 +18,7 @@
     "mckenna-2008",
     "croft-cooke-1972"
   ],
-  "bio_note": "Dates 1868-1940 from the Complete Letters editors (p. 603 n. 2), who also note Croft-Cooke's suggestion that the marriage was genuine; McKenna calls him 'a twenty-five-year-old male prostitute' at the time of the ceremony, which is consistent with those dates. Transcription and provenance for the Parker testimony reused unchanged from the context_engagement on taylor.json, where he was held off-roster until 2026-08-05.",
+  "bio_note": "Dates 1868-1940 from the Complete Letters editors (p. 603 n. 2), who also note Croft-Cooke's suggestion that the marriage was genuine; McKenna calls him 'a twenty-five-year-old male prostitute' at the time of the ceremony, which is consistent with those dates.",
   "context_engagements": [],
-  "research_status": "phase-a",
-  "wikidata": null,
-  "wikipedia": null,
-  "roster_note": "Promoted from an off-roster context_engagement on taylor.json, 2026-08-05, in the pass that put every off-roster person on the map. The sources moved with him unchanged."
+  "wikipedia": null
 }

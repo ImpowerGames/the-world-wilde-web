@@ -1,9 +1,6 @@
 {
   "id": "armando--wilde",
-  "people": [
-    "armando",
-    "wilde"
-  ],
+  "people": ["armando", "wilde"],
   "certainty": "attraction-expressed",
   "certainty_status": "proposed",
   "direction": "wilde",
@@ -18,7 +15,6 @@
   },
   "date_label": "Rome, April 1900",
   "summary": "Wilde knew Armando in Rome in April 1900. He gave him up over the incessant cost of his clothes, took up his best friend Arnaldo instead, forgave him a stolen coat because he looked handsome in it, and a fortnight later was describing him at length as the Apollo Belvedere.",
-  "certainty_reasoning": "ATTRACTION-EXPRESSED, arrow from Wilde, outcome 'unknown'. The acquaintance certainly ended and then partly resumed - 'I have given up Armando', then 'Armando, forgiven for the moment' - but OUTCOME on this map records whether the attraction was RECIPROCATED, not how long it lasted, and on that the record is silent: Armando never speaks here. WHAT CARRIES IT is not one phrase but a sustained aesthetic-erotic description: 'a very smart elegant young Roman Sporus', 'He was beautiful', and then the whole paragraph at printed 1184 on his lips, his hair, his pride, his slim dandy-like body 'without a single great curve'. SPORUS was Nero's boy-favourite. WINCKELMANN, whom Wilde invokes to describe his own state in Armando's presence, is the eighteenth-century scholar whose passion for Greek sculpture of young men Pater had written a chapter about and whom this circle read as one of their own. NOTHING SEXUAL IS ESTABLISHED and none is claimed. THE MONEY IS PART OF THE RECORD: raiment, neckties, boots. This is the same transactional shape as the rest of the map's exile tier and is recorded, not softened. NO AGE IS ON THE PAGE - the editors' index calls him a boy, Wilde does not, and nothing is inferred.",
   "sources": [
     {
       "work": "letters-2000",
@@ -34,9 +30,8 @@
       },
       "supports": "The relationship, its cost, its ending, and Wilde forgiving a theft because the thief looked well in the coat.",
       "verification": "verified-elision",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF page 1228; printed folio 1182 confirmed on the rendered page image, read 2026-08-06.",
-      "verified_by": "claude-at-page",
+      "how_verified": "pdf-image",
+      "provenance": "Repo PDF page 1228; printed folio 1182 confirmed on the rendered page image.",
       "verified_on": "2026-08-06",
       "voice": "period"
     },
@@ -54,9 +49,8 @@
       },
       "supports": "The fullest physical description Wilde wrote of anyone in his last year.",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF page 1230; printed folio 1184 confirmed on the rendered page image, read 2026-08-06.",
-      "verified_by": "claude-at-page",
+      "how_verified": "pdf-image",
+      "provenance": "Repo PDF page 1230; printed folio 1184 confirmed on the rendered page image.",
       "verified_on": "2026-08-06",
       "voice": "period"
     }

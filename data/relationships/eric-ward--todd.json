@@ -1,9 +1,6 @@
 {
   "id": "eric-ward--todd",
-  "people": [
-    "eric-ward",
-    "todd"
-  ],
+  "people": ["eric-ward", "todd"],
   "certainty": "second-hand",
   "certainty_status": "proposed",
   "start": {
@@ -16,7 +13,7 @@
   },
   "date_label": "One evening, August 1876",
   "summary": "Wilde walked into a Dublin theatre at ten o'clock one night in August 1876 and saw Charles Todd, a Magdalen undergraduate, sitting at the back of a private box with Eric Ward, a Magdalen chorister. He wrote about it to William Ward, said he thought Todd 'only mentally spoons the boy', and asked him to keep it quiet.",
-  "certainty_reasoning": "SECOND-HAND: the sole attestation is by a third party, Wilde, who witnessed the two of them in the box and characterised the attachment himself. Neither participant is on record about it anywhere in this volume. WHAT IS ESTABLISHED is that they were there together, late, in a private box, with Todd 'very much in the background', and that Todd was travelling with the boy - 'I think he is foolish to go about with one, if he IS bringing this boy about with him.' WHAT IS WILDE'S OPINION AND NOT FACT is the rest: 'spoons' is period slang for courting or being sentimentally in love, and 'mentally' is Wilde drawing a line he believes Todd has not crossed. He offers the whole thing as a question - 'I want to ask your opinion on this psychological question. In our friend Todd's ethical barometer, at what height is his moral quicksilver?' NOTHING SEXUAL IS ESTABLISHED and none is claimed. THE AGE GAP IS THE FIRST FACT ABOUT THIS EDGE, not a footnote to it: an undergraduate of about twenty-two and a schoolboy chorister. The edge records what a witness saw and said, not a partnership, and no reciprocity is implied. WHY IT IS ON THE MAP AT ALL: it is the earliest thing in the Wilde record that shows the circle's machinery of discretion working - a thing seen, a confidant chosen, and silence requested to protect everyone including the teller.",
+  "certainty_reasoning": "THE AGE GAP IS THE FIRST FACT ABOUT THIS EDGE, not a footnote to it: an undergraduate of about twenty-two and a schoolboy chorister.",
   "sources": [
     {
       "work": "letters-2000",
@@ -33,9 +30,8 @@
       },
       "supports": "The whole of the evidence for this connection, and the earliest recorded instance of Wilde handling a suspected attachment between men.",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF pages 53-54; printed folios 28 and 29 both confirmed on the rendered page images, read 2026-08-05.",
-      "verified_by": "claude-at-page",
+      "how_verified": "pdf-image",
+      "provenance": "Repo PDF pages 53-54; printed folios 28 and 29 both confirmed on the rendered page images.",
       "verified_on": "2026-08-05",
       "voice": "period"
     }

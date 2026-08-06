@@ -12,10 +12,6 @@
     "kantrowitz-wwa-stafford-encyclopedia",
     "whitman-archive-correspondence"
   ],
-  "bio_note": "NO DATES OF HER OWN ARE RECORDED anywhere read. THE MARRIAGE YEAR IS IN CONFLICT AND IS LEFT STANDING: 1883 per the Whitman Archive's correspondent note attached to Stafford's letters, 1884 per Kantrowitz's encyclopedia entry. The person file for Stafford already carries this conflict and does not resolve it either. **NO VERBATIM QUOTATION HAS BEEN TRANSCRIBED**: the Whitman Archive sits behind a Cloudflare challenge that returns 403 to scripted fetching, so this edge carries a source POINTER rather than a quotation, and is marked pending verification. A browser session would close it, and could also try for her own dates.",
   "context_engagements": [],
-  "research_status": "phase-a",
-  "wikidata": null,
-  "wikipedia": null,
-  "roster_note": "Added 2026-08-05 in the pass that put every spouse and every off-roster person on the map."
+  "wikipedia": null
 }

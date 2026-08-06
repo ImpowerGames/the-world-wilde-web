@@ -1,0 +1,41 @@
+{
+  "id": "loverde--wilde",
+  "people": [
+    "loverde",
+    "wilde"
+  ],
+  "certainty": "self-reported",
+  "certainty_status": "proposed",
+  "start": {
+    "y": 1900,
+    "m": 4
+  },
+  "end": {
+    "y": 1900,
+    "m": 4
+  },
+  "date_label": "Palermo, April 1900",
+  "summary": "Wilde described his daily meetings with a young seminarist at the Cathedral of Palermo, over eight days in April 1900, in a letter to Robert Ross. The account is Wilde's own and includes his conduct toward the boy and the boy's stated age.",
+  "sources": [
+    {
+      "work": "letters-2000",
+      "locator": "p. 1179",
+      "locator_type": "page",
+      "quote": "I also made great friends with a young Seminarist who lived in the Cathedral of Palermo, he and eleven others in little rooms beneath the roof, like birds.\n\nEvery day he showed me all over the Cathedral, and I really knelt before the huge porphyry sarcophagus in which Frederick II lies. It is a sublime bare monstrous thing, blood-coloured, and held up by lions, who have caught some of the rage of the great Emperor's restless soul. At first, my young friend, Giuseppe Loverde by name, gave me information but on the third day I gave information to him, and rewrote History as usual, and told him all about the Supreme King and his Court of Poets, and the terrible book that he never wrote. Giuseppe was fifteen, and most sweet. His reason for entering the Church was singularly medieval. I asked him why he thought of becoming a clerico and how.\n\nHe answered ”my father is a cook, and most poor, and we are many at home, so it seemed to me a good thing that there should be in so small a house as ours one mouth less to feed, for, though I am slim, I eat much: too much alas! I fear”.\n\nI told him to be comforted, because God used poverty often as a means of bringing people to Him. and used riches never, or but rarely. So Giuseppe was comforted, and I gave him a little book of devotion, very pretty and with far more pictures than prayers in it;  so of great service to Giuseppe, whose eyes are beautiful. I also gave him many lire,and prophesied for him a Cardinal's hat, if he remain very good, and never forgot me.\n\nHe said he never would: and indeed I don't think he will, for every day I kissed him behind the high altar.",
+      "context": "Wilde to Robert Ross, 16 April [1900], c/o Cook & Son, Piazza di Spagna, Rome (MS Clark). The heading is verified at printed 1178. TO BE COMPLETED BY THE EDITOR: paste the passage from printed 1179 - it begins 'I also made great friends with a young Seminarist' and runs to the end of that paragraph - then set `verification` to verified-exact or verified-elision, set `verified_by`, and confirm the folio on the rendered page image.",
+      "speaker": "Oscar Wilde",
+      "addressee": "Robert Ross",
+      "evidence_date": {
+        "y": 1900,
+        "m": 4,
+        "d": 16
+      },
+      "supports": "Wilde's own account of the eight days at Palermo and of his conduct toward Loverde.",
+      "verification": "unverified",
+      "how_verified": "unverified",
+      "provenance": "Repo PDF page 1225; printed folio 1179. TO BE CONFIRMED BY THE EDITOR when the quotation is transcribed.",
+      "verified_on": null,
+      "voice": "period"
+    }
+  ]
+}

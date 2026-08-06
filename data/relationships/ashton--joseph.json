@@ -1,12 +1,8 @@
 {
   "id": "ashton--joseph",
-  "people": [
-    "ashton",
-    "joseph"
-  ],
+  "people": ["ashton", "joseph"],
   "certainty": "second-hand",
   "certainty_status": "proposed",
-  "certainty_reasoning": "Second-hand: Wilde is the only witness and he is writing about somebody else's household, not his own. What he attests directly is the association - the shared establishment, the waiting at table, the standing enough to be called Ashton's 'little friend' - and that is what the class covers. The word 'infatuation' is Wilde's, and the sentence carrying it ('Sir John is getting cured of his infatuation') NAMES NO OBJECT; the identification with Joseph is contextual, from the paragraph it closes, and is recorded as contextual rather than stated. Nothing of Joseph's own view survives, and no sexual claim is made or implied here.",
   "start": {
     "y": 1898,
     "m": 12
@@ -28,9 +24,8 @@
       },
       "supports": "Ashton's attachment in Paris, December 1898, reported by Wilde as an onlooker",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF page 1153, printed folio 1107 confirmed on rendered page, read as page image 2026-08-03. Contiguous run from the passage transcribed in full in the dossier (A3).",
-      "verified_by": "agent-mechanical",
+      "how_verified": "pdf-text",
+      "provenance": "Repo PDF page 1153, printed folio 1107 confirmed on rendered page. Contiguous run from the passage transcribed in full in the dossier (A3).",
       "verified_on": "2026-08-03",
       "voice": "period"
     }

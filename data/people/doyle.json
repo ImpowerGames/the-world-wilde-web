@@ -19,13 +19,11 @@
   "group": "beyond",
   "gender": "m",
   "bio": "Irish-born American transit worker, and the companion to whom Walt Whitman wrote the letters published in 1897 as Calamus. Born in Limerick on 3 June 1843 and raised in the American South, he enlisted in the Confederate army in 1861 and was discharged after being wounded; he was in the audience at Ford's Theatre on the night Lincoln was shot. After the war he worked in Washington as a conductor on the Pennsylvania Avenue horsecars, which is how he and Whitman met one winter's evening in 1865 - Doyle twenty-one, Whitman forty-five and the car's only passenger. He later worked for the Pennsylvania Railroad, first as a brakeman and then as a baggage master, and in the mid-1880s settled in Philadelphia and visited Whitman weekly across the river in Camden. He kept Whitman's letters, entrusted them to Richard Maurice Bucke in 1880, and allowed him to publish them in 1897 - a decision without which almost nothing of this relationship would survive. He attended Whitman's funeral. He died in Philadelphia on 19 April 1907, aged sixty-three, and is buried in Congressional Cemetery, Washington.",
-  "bio_note": "Dates, birthplace, war service, occupations and burial from Martin G. Murray's entry on Doyle in Walt Whitman: An Encyclopedia, read in full on the Whitman Archive 2026-08-04 (the site 403s to automated fetching; it was read in a browser). Murray is the author of the fullest published biography of Doyle. The meeting year is given as 1865 there; **Doyle himself, interviewed by Bucke, says 'I think the year of this was 1866'** - the hedge is his, and both readings are kept rather than reconciled. No portrait: Doyle has a Wikidata entity (Q105806793) and an article at 'Peter Doyle (transit worker)', but the portrait pipeline takes the article's own lead image and has not been run for him.",
+  "bio_note": "Murray's entry on Doyle in Walt Whitman: An Encyclopedia, read in full on the Whitman Archive 2026-08-04 (the site 403s to automated fetching; it was read in a browser). Murray is the author of the fullest published biography of Doyle.",
   "bio_sources": [
     "murray-wwa-doyle-encyclopedia",
     "bucke-calamus-1897"
   ],
   "context_engagements": [],
-  "research_status": "phase-a",
-  "wikidata": "Q105806793",
   "wikipedia": "https://en.wikipedia.org/wiki/Peter_Doyle_(transit_worker)"
 }

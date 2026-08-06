@@ -1,9 +1,6 @@
 {
   "id": "sherard--wilde",
-  "people": [
-    "sherard",
-    "wilde"
-  ],
+  "people": ["sherard", "wilde"],
   "certainty": "attraction-expressed",
   "certainty_status": "proposed",
   "start": {
@@ -14,7 +11,7 @@
   },
   "date_label": "Met in Paris, early 1883; letters to February 1898",
   "summary": "Fifteen years, and the arc is legible in the letters. In 1883 Wilde accepted the dedication of Sherard's poems — 'one whom I love so much as I love you' — thought of him 'wandering in violet valleys with your honey-coloured hair', and closed a letter 'confidence in our love'. From Holloway in 1895, with almost everyone gone, he wrote 'your chivalrous friendship — your fine, chivalrous friendship — is worth more than all the money in the world'; from Reading in 1896, 'you are one of the few people I would like to see'. Then in 1897 Sherard denounced the reunion with Douglas and Wilde answered coldly. The last letter, in 1898, sends him a book 'in memory of our long friendship' because he would not come in person.",
-  "certainty_reasoning": "ATTRACTION-EXPRESSED, arrow from Wilde, outcome unknown. UPGRADED FROM UNCORROBORATED on 2026-08-05 after reading the letters whole, under Lovelle's rule that one instance of Wilde admiring Sherard physically would carry the arrow. It is in the May-June 1883 letter: 'I think of you often, wandering in violet valleys with your honey-coloured hair.' The same year he wrote 'you who are yourself so dear to me' and closed 'confidence in our love'. WHAT IS NOT CLAIMED: no source says the attachment was sexual, and Wilde names the thing friendship every time he names it — 'the mirror of perfect friendship' (1883), 'your chivalrous friendship' (1895), 'our uninterrupted friendship, of twelve years' standing' (1896), 'an old and noble friendship' (1898). The arrow records admiration expressed, not a relationship attested, which is exactly what this class is for. OUTCOME is 'unknown' because Sherard's side of the correspondence is not in this volume. The two scholarly readings that carried the earlier class still stand in the record - Ellmann on 'young, blond, and idolatrous', McKenna on Sherard being 'obsessed by him' - and both now read as corroboration rather than as the whole case. NOTE ON THE 1897 QUARREL (printed 963, already cited above): an earlier pass had it, and on 2026-08-06 I re-added it from the page without checking, which the duplicate validator caught. Worth recording because the folio's OTHER half was genuinely new - Wilde's letter to [[osullivan]] thanking him for taking his side at the same Authors' Club meeting. The map held the attack and not the defence.",
+  "certainty_reasoning": "WHAT IS NOT CLAIMED: no source says the attachment was sexual, and Wilde names the thing friendship every time he names it — 'the mirror of perfect friendship' (1883), 'your chivalrous friendship' (1895), 'our uninterrupted friendship, of twelve years' standing' (1896), 'an old and noble friendship' (1898). OUTCOME is 'unknown' because Sherard's side of the correspondence is not in this volume. The two scholarly readings that carried the earlier class still stand in the record - Ellmann on 'young, blond, and idolatrous', McKenna on Sherard being 'obsessed by him' - and both now read as corroboration rather than as the whole case. NOTE ON THE 1897 QUARREL (printed 963, already cited above): an earlier pass had it, and on 2026-08-06 I re-added it from the page without checking, which the duplicate validator caught.",
   "sources": [
     {
       "work": "letters-2000",
@@ -31,9 +28,8 @@
       },
       "supports": "The warmest surviving language between them, in Wilde's own hand, including the letter's actual close — 'confidence in our love'.",
       "verification": "verified-elision",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF pages 232-233; printed folios 210 and 211 both confirmed on the rendered page images, read 2026-08-05. The letter runs across the page break and ENDS on 211 - an earlier version of this record stopped it at 'purified but consumed' on 210, missing the close. The elision drops the two middle paragraphs on friendship and art, which are quoted separately below. This also corrects the 2026-08-04 sweep's citation of printed 202.",
-      "verified_by": "claude-at-page",
+      "how_verified": "pdf-image",
+      "provenance": "Repo PDF pages 232-233; printed folios 210 and 211 both confirmed on the rendered page images. The letter runs across the page break and ENDS on 211 - an earlier version of this record stopped it at 'purified but consumed' on 210, missing the close. The elision drops the two middle paragraphs on friendship and art, which are quoted separately below. This also corrects the 2026-08-04 sweep's citation of printed 202.",
       "verified_on": "2026-08-05",
       "voice": "period"
     },
@@ -52,9 +48,8 @@
       },
       "supports": "Wilde's own framing of the attachment, against which the affectionate language has to be read.",
       "verification": "verified-elision",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF page 232; printed folio 210 confirmed on the rendered page image, read 2026-08-05. The ellipsis drops a paragraph on art and beauty.",
-      "verified_by": "claude-at-page",
+      "how_verified": "pdf-image",
+      "provenance": "Repo PDF page 232; printed folio 210 confirmed on the rendered page image. The ellipsis drops a paragraph on art and beauty.",
       "verified_on": "2026-08-05",
       "voice": "period"
     },
@@ -67,9 +62,8 @@
       "evidence_date": null,
       "supports": "A scholar attributing Wilde's interest in Sherard partly to youth and looks — one of the two readings this connection's class rests on.",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF page 305, read as a page image 2026-08-05. **PAGINATION WARNING: this file carries NO printed folios** - checked at PDF 200, 305, 306 and 400, where the text layer begins and ends in running prose - so the locator is written 'PDF p.' and must be re-anchored to a paginated copy before publication, exactly as with murray-2020.",
-      "verified_by": "claude-at-page",
+      "how_verified": "pdf-image",
+      "provenance": "Repo PDF page 305. **PAGINATION WARNING: this file carries NO printed folios** - checked at PDF 200, 305, 306 and 400, where the text layer begins and ends in running prose - so the locator is written 'PDF p.' and must be re-anchored to a paginated copy before publication, exactly as with murray-2020.",
       "verified_on": "2026-08-05",
       "voice": "modern"
     },
@@ -84,7 +78,6 @@
       "verification": "unverified",
       "how_verified": "unverified",
       "provenance": "Repo PDF page 74, located in the text layer 2026-08-05 and quoted from it. NOT read at the rendered page and NOT folio-confirmed, so it is marked unverified rather than dressed up: it is here because the disputed block cites it, and it should be read at the page before it is relied on.",
-      "verified_by": null,
       "verified_on": null,
       "voice": "modern"
     },
@@ -103,9 +96,8 @@
       },
       "supports": "What Sherard was to Wilde at the worst moment of his life, in Wilde's own hand — and how Wilde signed off to him from prison.",
       "verification": "verified-elision",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF pages 693-694; printed folios 642 and 643 both confirmed on the rendered page images, read 2026-08-05. The letter runs across the page break.",
-      "verified_by": "claude-at-page",
+      "how_verified": "pdf-image",
+      "provenance": "Repo PDF pages 693-694; printed folios 642 and 643 both confirmed on the rendered page images. The letter runs across the page break.",
       "verified_on": "2026-08-05",
       "voice": "period"
     },
@@ -124,9 +116,8 @@
       },
       "supports": "The warmest surviving statement of what the attachment was — and Wilde's own word for it, said twice: friendship.",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF page 695; printed folio 644 confirmed on the rendered page image, read 2026-08-05.",
-      "verified_by": "claude-at-page",
+      "how_verified": "pdf-image",
+      "provenance": "Repo PDF page 695; printed folio 644 confirmed on the rendered page image.",
       "verified_on": "2026-08-05",
       "voice": "period"
     },
@@ -144,9 +135,8 @@
       },
       "supports": "Wilde dwelling on Sherard's appearance — the one thing the record needed to carry an arrow, and the reason this connection is attraction-expressed rather than uncorroborated.",
       "verification": "verified-elision",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF page 233; printed folio 211 confirmed on the rendered page image, read 2026-08-05.",
-      "verified_by": "claude-at-page",
+      "how_verified": "pdf-image",
+      "provenance": "Repo PDF page 233; printed folio 211 confirmed on the rendered page image.",
       "verified_on": "2026-08-05",
       "voice": "period"
     },
@@ -165,9 +155,8 @@
       },
       "supports": "Wilde's own dating of the friendship, his account of what Sherard had done for him, and the Ives link.",
       "verification": "verified-elision",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF page 713; printed folio 662 confirmed on the rendered page image, read 2026-08-05.",
-      "verified_by": "claude-at-page",
+      "how_verified": "pdf-image",
+      "provenance": "Repo PDF page 713; printed folio 662 confirmed on the rendered page image.",
       "verified_on": "2026-08-05",
       "voice": "period"
     },
@@ -186,9 +175,8 @@
       },
       "supports": "The rupture — Sherard attacking Wilde publicly, and Wilde's cold answer.",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF page 1011; printed folio 963 confirmed on the rendered page image, read 2026-08-05.",
-      "verified_by": "claude-at-page",
+      "how_verified": "pdf-image",
+      "provenance": "Repo PDF page 1011; printed folio 963 confirmed on the rendered page image.",
       "verified_on": "2026-08-05",
       "voice": "period"
     },
@@ -206,9 +194,8 @@
       },
       "supports": "The reconciliation, and its distance — a book sent because the man would not come.",
       "verification": "verified-elision",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF page 1072; printed folio 1026 confirmed on the rendered page image, read 2026-08-05.",
-      "verified_by": "claude-at-page",
+      "how_verified": "pdf-image",
+      "provenance": "Repo PDF page 1072; printed folio 1026 confirmed on the rendered page image.",
       "verified_on": "2026-08-05",
       "voice": "period"
     },
@@ -227,9 +214,8 @@
       },
       "supports": "The close of the Holloway sequence, and how Wilde signed off to him: 'Dear old Robert. Ever affectionately yours.'",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF page 696; printed folio 645 confirmed on the rendered page image, read 2026-08-05.",
-      "verified_by": "claude-at-page",
+      "how_verified": "pdf-image",
+      "provenance": "Repo PDF page 696; printed folio 645 confirmed on the rendered page image.",
       "verified_on": "2026-08-05",
       "voice": "period"
     },
@@ -246,9 +232,8 @@
       },
       "supports": "The friendship in its ordinary years: Wilde reading his journalism, asking after his wife, and saying he is missed.",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF pages 369-370; printed folios 347 and 348 both confirmed on the rendered page images, read 2026-08-05. The letter runs across the page break.",
-      "verified_by": "claude-at-page",
+      "how_verified": "pdf-image",
+      "provenance": "Repo PDF pages 369-370; printed folios 347 and 348 both confirmed on the rendered page images. The letter runs across the page break.",
       "verified_on": "2026-08-05",
       "voice": "period"
     },
@@ -266,9 +251,8 @@
       },
       "supports": "The working intimacy — Wilde editing Sherard's account of him, and asking him to dinner the same evening.",
       "verification": "verified-elision",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF page 524; printed folio 504 confirmed on the rendered page image, read 2026-08-05.",
-      "verified_by": "claude-at-page",
+      "how_verified": "pdf-image",
+      "provenance": "Repo PDF page 524; printed folio 504 confirmed on the rendered page image.",
       "verified_on": "2026-08-05",
       "voice": "period"
     },
@@ -286,9 +270,8 @@
       },
       "supports": "Wilde's approval after the duel, and — through the note — what Sherard said his letters meant to him, which nothing else here supplies.",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF page 530; printed folio 510 confirmed on the rendered page image, read 2026-08-05.",
-      "verified_by": "claude-at-page",
+      "how_verified": "pdf-image",
+      "provenance": "Repo PDF page 530; printed folio 510 confirmed on the rendered page image.",
       "verified_on": "2026-08-05",
       "voice": "period"
     },
@@ -307,9 +290,8 @@
       },
       "supports": "Wilde making an exception to a standing rule for Sherard, and saying why: 'as we are old friends and I appreciate and admire you'.",
       "verification": "verified-elision",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF page 676; printed folio 624 confirmed on the rendered page image, read 2026-08-05.",
-      "verified_by": "claude-at-page",
+      "how_verified": "pdf-image",
+      "provenance": "Repo PDF page 676; printed folio 624 confirmed on the rendered page image.",
       "verified_on": "2026-08-05",
       "voice": "period"
     }

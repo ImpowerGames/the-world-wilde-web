@@ -6,7 +6,6 @@
   ],
   "certainty": "self-reported",
   "certainty_status": "proposed",
-  "certainty_reasoning": "Both men's own letters survive and both are quoted here, which is the README's self-reported test met from both sides. Stafford's letter of May 1877 asks Whitman to 'take me back and love me the same' and signs itself 'Your lovin but bad tempered Harry'; Whitman's letters run from 'Dear Hank' to 'Your Walt', and his notebooks call Stafford 'the central figure of them all'. The Whitman Archive's own correspondent note states that the relationship 'also had a romantic, erotic charge to it'. What the record does not settle is how far that went, and the scholarship openly disagrees - Kantrowitz reports readings ranging 'from asexual and paternal to erotic and promiscuous', and Stafford's own line about 'something wanting to compleete our friendship' is glossed by Kantrowitz with a 'perhaps'. This entry records who attests the bond, not what they did.",
   "start": {
     "y": 1876
   },
@@ -31,7 +30,6 @@
       "verification": "verified-elision",
       "how_verified": "web",
       "provenance": "https://whitmanarchive.org/item/loc.03964 read in full in a browser 2026-08-04. **The site sits behind Cloudflare and returns 403 to curl and to plain fetching**; it was read in a real browser. An automated retrieval will falsely report it unavailable. Transcribed from the archive's text; the archive's invisible sic markers were dropped and the writer's spelling kept.",
-      "verified_by": "agent-mechanical",
       "verified_on": "2026-08-04",
       "speaker": "Harry Stafford, letter to Walt Whitman",
       "addressee": "Walt Whitman",
@@ -52,7 +50,6 @@
       "verification": "verified-elision",
       "how_verified": "web",
       "provenance": "https://whitmanarchive.org/item/nyp.00423 read in full in a browser 2026-08-04. The archive's transcription derives from Miller's Correspondence, p. 211; original in the Berg Collection, New York Public Library. **The site sits behind Cloudflare and returns 403 to curl and to plain fetching**; it was read in a real browser. An automated retrieval will falsely report it unavailable.",
-      "verified_by": "agent-mechanical",
       "verified_on": "2026-08-04",
       "speaker": "Walt Whitman, letter to Harry Stafford",
       "addressee": "Harry Stafford",
@@ -69,7 +66,6 @@
       "verification": "verified-elision",
       "how_verified": "web",
       "provenance": "https://whitmanarchive.org/item/encyclopedia_entry55 read in full in a browser 2026-08-04. **The site sits behind Cloudflare and returns 403 to curl and to plain fetching**; it was read in a real browser. An automated retrieval will falsely report it unavailable. Curly quotation marks around 'my nephew' are the source's; the parenthetical page citations to Miller's Correspondence are omitted.",
-      "verified_by": "agent-mechanical",
       "verified_on": "2026-08-04",
       "speaker": "Arnie Kantrowitz",
       "voice": "modern"

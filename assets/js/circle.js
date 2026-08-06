@@ -1,7 +1,5 @@
 "use strict";
-/* The World Wilde Web — behaviour.
-   Data is fetched at runtime from data/circle.json, which tools/validate.py generates from the
-   per-entity files in data/people and data/relationships. Edit those, not the bundle. */
+
 async function loadCircle() {
   const r = await fetch("data/circle.json", { cache: "no-cache" });
   if (!r.ok)
@@ -23,7 +21,7 @@ async function loadCircle() {
     console.error(err);
     return;
   }
-  /* ============ utilities ============ */
+
   const $ = (s) => document.querySelector(s);
   const MONTHS = [
     "January",
@@ -61,14 +59,6 @@ async function loadCircle() {
     if (d.m) return `${MONTHS[d.m - 1]}${y}`;
     return withYear ? String(d.y) : "";
   }
-  /* A DATE CAN BE A RANGE, and the range formats itself. Several things here happened across a span
-   rather than on a day - De Profundis was written over January to March 1897, and the editors date
-   the Royal Palace Hotel letter only to "[? May-June 1892]" - and until now the only way to show
-   that was a hand-written `label` string, which meant every range was spelled however its author
-   spelled it. `to` holds the far end and the formatting is derived: shared parts are said once,
-   so a range inside one month reads "3-5 May 1892", one inside a year reads "May - June 1892", and
-   one crossing years reads "May 1892 - June 1893". `label` survives for the things a date object
-   genuinely cannot say, and the validator refuses both at once. */
   function fmtDate(d) {
     if (!d || d.y == null) return "date unknown";
     if (d.label) return (d.circa ? "c. " : "") + d.label;
@@ -105,10 +95,6 @@ async function loadCircle() {
       return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
     };
   }
-  /* A pseudo-certainty for people the map records but connects to no one. They are not a kind of
-   connection, but they behave like one in the legend: without a switch of their own they stayed at
-   full strength while every real connection was filtered away, so an "Attraction expressed" view
-   put the six most isolated people on the map at the top of the visual hierarchy. See applyFilters. */
   const NO_EDGE = "no-connection";
   const CERT_LABEL = {
     "self-reported": "Self-Reported",
@@ -123,10 +109,7 @@ async function loadCircle() {
     unknown: "outcome unknown",
     unreciprocated: "not reciprocated",
   };
-  const DEFAULT_OFF = new Set(
-    [],
-  ); /* attraction-expressed switched ON by default 2026-08-04 - the
-   layout now separates those clusters cleanly enough to show them without crowding */
+  const DEFAULT_OFF = new Set([]);
   const VER_META = {
     "verified-exact": ["✓ Source Verified", "v-ok"],
     "verified-elision": ["✓ Source Verified", "v-ok"],
@@ -135,8 +118,8 @@ async function loadCircle() {
     unverified: ["⧖ Pending verification", "v-pend"],
   };
   const HOW_LABEL = {
-    "pdf-at-page": "read in the repo PDF",
-    "repo-file": "repo transcript",
+    "pdf-image": "read in the repo PDF",
+    "digital-copy": "read in a digital copy of the document",
     "archive-org": "read on archive.org",
     web: "web source",
     unverified: "",
@@ -153,7 +136,6 @@ async function loadCircle() {
     beyond: "Beyond Europe",
   };
 
-  /* ============ data prep ============ */
   const P = new Map(CIRCLE.people.map((p) => [p.id, p]));
   const RELS = CIRCLE.relationships.filter((r) =>
     r.people.every((id) => P.has(id)),
@@ -165,8 +147,7 @@ async function loadCircle() {
       byPerson.get(id).push(r);
     }
   const degree = (id) => (byPerson.get(id) || []).length;
-  /* Labels that are a description rather than a name - the fisherman at Napoule, the Naples
-   'Sea-God' - are shown in quotation marks, so the map does not read them as surnames. */
+
   function shortLabel(p) {
     const s = shortLabelRaw(p);
     return p.name_is_descriptor ? "“" + s + "”" : s;
@@ -181,9 +162,7 @@ async function loadCircle() {
         o.id !== p.id && (o.sort_name || o.name).split(",")[0].trim() === sur,
     );
     if (!clash) return sur;
-    /* Skip an honorific before taking the initial. "Sir Ernest Troubridge" was rendering as
-     "Troubridge S.", which reads as a man whose name begins with S; the same trap is waiting for
-     "Lord Alfred Douglas" the moment a second Douglas joins the roster. */
+
     const first =
       (p.name || "")
         .split(/\s+/)
@@ -217,19 +196,6 @@ async function loadCircle() {
     return { ok, pend, total, pointers };
   }
 
-  /* ============ layout / simulation ============ */
-  /* THE WEB HAS NO WALLS. It used to be clamped inside a W x H box, so every person who joined
-   raised the pressure inside a fixed room and the crowding came out as edges buried under labels
-   and nodes with nowhere to escape to. Growing the room with the roster helped - crossings 16 to 8
-   - but only by trading crowding for smaller type, because fitting a bigger world into the same
-   pane is what shrinks it. So the box is gone entirely: the centring force is now the only thing
-   holding the web together, it spreads radially as far as the repulsion takes it, and THE VIEW is
-   what is bounded instead. The map opens centred on Wilde at a fixed readable scale; people out at
-   the rim start beyond the frame and are reached by dragging, by the wheel, or by the fit control
-   in the header, which frames the whole web at once.
-
-   W and H survive as two things only - the opening window, and the origin the web is arranged
-   around. They are not a wall, and nothing below may clamp to them. */
   const W = 1200,
     H = 800;
   const SIM = {
@@ -247,39 +213,19 @@ async function loadCircle() {
   const CLEAR = 13,
     MAX_SHOVE = 7; // clearance from unconnected lines; per-tick displacement cap
   const KEEPOUT = 120; // clearance a connectionless person keeps from any cluster member
-  /* Every node carries its NAME in a box underneath it, and until now the solver knew only about the
-   discs - so a name could sit squarely on top of the node below it while the two discs were
-   properly clear of each other. LABEL_* describe that box: it hangs below the disc and is as wide
-   as the text, which is why the half-width is estimated from the string rather than from n.r. */
   const LABEL_BELOW = 15,
     LABEL_H = 13,
     LABEL_PAD = 3,
     LABEL_CH = 3.0;
-  /* THE LAYOUT'S IDEA OF A NODE INCLUDES ITS NAME. Each node is separated as a BOX that covers the
-   disc and the label hanging under it, not as a bare disc - otherwise two nodes can be properly
-   clear of each other while one's name is written straight across the other. Half-width is the
-   wider of the disc and the text; the box runs from the top of the disc to the bottom of the text,
-   so its centre sits below the node's own centre by half the label drop. Widths are the real
-   measured ones: the node elements are in the DOM before the solver runs, so getComputedTextLength
-   is available and nothing has to be guessed from the string length. */
   function fitLabelBoxes() {
     for (const n of nodes) {
-      /* ESTIMATED from the string, NOT measured with getComputedTextLength. Measuring made the
-       LAYOUT depend on which fonts the machine has: Chrome has Georgia and headless Chromium
-       falls back to something else, and the two produced different drawings - they disagreed
-       about which nodes ended up on lines, 1 against 5, which made layout_report useless as a
-       picture of what a reader sees. Everything else here is deliberately deterministic, down to
-       a seeded RNG and a banned Math.random, so the layout must not be the one part that varies
-       by environment. LABEL_CH is calibrated to the real thing: Georgia at 12px averages 5.97px
-       per character, so 3.0 per character of half-width. */
       const w = shortLabel(n.p).length * LABEL_CH * 2;
       n.hw = Math.max(n.r, w / 2 + LABEL_PAD); // half-width of disc+label
       n.hh = (n.r + LABEL_BELOW + LABEL_PAD) / 2 + n.r / 2; // half-height of the combined box
       n.oy = (LABEL_BELOW + LABEL_PAD) / 2; // box centre sits this far below the node centre
     }
   }
-  /* Separate two boxes along whichever axis they overlap least: a shallow vertical overlap is fixed
-   by a small vertical nudge rather than by shoving them sideways across the drawing. */
+
   function boxPush(a, b, pad, apply) {
     const dx = b.x - a.x,
       dy = b.y + b.oy - (a.y + a.oy);
@@ -296,10 +242,7 @@ async function loadCircle() {
     return oyv;
   }
   const rand = mulberry32(0x57196f);
-  /* `layout: {x,y}` on a person record is a placement hint: the solver is pulled hard toward it
-   but the node still takes part in collision and line-clearance, so it settles near the hint
-   rather than on top of something. Use it when a node lands somewhere unreadable - a hub's
-   spokes will always sweep the ring around it, and no amount of tuning fixes every case. */
+
   const nodes = CIRCLE.people.map((p) => ({
     id: p.id,
     p,
@@ -324,22 +267,14 @@ async function loadCircle() {
     }
   });
   const N = new Map(nodes.map((n) => [n.id, n]));
-  /* The hub, anchored to the middle of the canvas by a force in tick(). Left to itself the solver
-   settled Wilde about 120px BELOW centre while the rest of the web filled the canvas evenly to
-   both margins - so the drawing was balanced and its subject was not, which read as the whole web
-   sagging away from him. He is the one node whose position carries meaning (every ring is a hop
-   count from him), so he is the one node worth holding. This is a much smaller intervention than
-   holding all the seeded positions, which was tried and measured worse. */
+
   const HUB = nodes.reduce((a, b) => (degree(a.id) >= degree(b.id) ? a : b));
   const edges = RELS.map((r) => ({
     r,
     a: N.get(r.people[0]),
     b: N.get(r.people[1]),
   }));
-  /* Per-edge tether. Most connections here are leaves - a household or a set of partners
-   hanging off one hub - and leaves have nothing pulling them toward each other, so a
-   uniform spring lets general repulsion fan them across the canvas until a group no
-   longer reads as a group. Leaf edges therefore get a shorter, stiffer tether. */
+
   for (const e of edges) {
     const leaf =
       (byPerson.get(e.a.id) || []).length === 1 ||
@@ -348,13 +283,6 @@ async function loadCircle() {
     e.k = leaf ? SIM.K_SPRING * 2.4 : SIM.K_SPRING;
   }
 
-  /* Territories. Groups with no path to Wilde - the Vernon Lee circle, Radclyffe Hall's,
-   Michael Field, Ricketts and Shannon - drawn through the middle of his web produce
-   crossings implying relationships the data does not contain, so each gets its own
-   ground. Components are computed over the connections VISIBLE BY DEFAULT: a group
-   joined to Wilde only by a attraction-expressed link (the Lewes House circle, hanging off
-   Fothergill) is detached on screen whenever the lead pool is switched off, and should
-   sit apart rather than float unexplained in the middle. */
   const compOf = new Map(),
     compHome = new Map(),
     compSoft = new Set();
@@ -420,8 +348,7 @@ async function loadCircle() {
         compHome.set(ci, null);
         return;
       }
-      // No recorded connection at all: a berth down the side margins, clear of the main
-      // web and of the clusters - parked among a group's members they would read as one.
+      // No recorded connection at all.
       const side = solo % 2 ? W - 70 : 70,
         row = Math.floor(solo / 2);
       compHome.set(ci, [side, 285 + row * 115]);
@@ -449,16 +376,6 @@ async function loadCircle() {
       }
     }
 
-    /* Radial seeding for the main web. The graph is very nearly a forest - 71 people, 67
-     connections, only 7 of which close a cycle - with one overwhelming hub. Started from a
-     phyllotaxis spiral, the solver spent its whole run undoing an arbitrary arrangement, and
-     people kept settling inside the hub's spoke fan where a line runs straight through them.
-
-     So lay the spanning tree out first: ring by hop count from the hub, angle by subtree size so
-     siblings never claim the same wedge. Ring number is the person's distance from Wilde, which
-     is also what the map means by connectedness. The 7 chords are NOT special-cased - the force
-     pass that follows lets them pull the rings into a web, which is why this seeds the solver
-     rather than replacing it. */
     {
       const hub = nodes.reduce((a, b) =>
         degree(a.id) >= degree(b.id) ? a : b,
@@ -487,12 +404,7 @@ async function loadCircle() {
           ch.length ? ch.reduce((s, c) => s + leaves.get(c), 0) : 1,
         );
       }
-      /* Order siblings so that the people they are ALSO connected to end up nearby. Four of the seven
-       chords are Douglas's - to Ives, Ross, Schwabe and Wood, all of them Wilde's own children in
-       different wedges - so a tree that ignores chords seats him in one place and then four springs
-       tear him out of it toward four others. Sorting each sibling group by the mean angle of its
-       chord partners (a barycentre pass, run twice so the estimate improves) puts those wedges
-       beside one another, and the springs then have far less work to undo. */
+
       const angleOf = new Map();
       const RING = [0, 150, 255, 340, 410];
       const layout = () => {
@@ -541,12 +453,6 @@ async function loadCircle() {
             RING[Math.min(d, RING.length - 1)] +
             (d >= RING.length ? (d - RING.length + 1) * 70 : 0);
         const n = N.get(id);
-        /* CIRCULAR, not squashed. The seed used to be flattened to 0.66 of its height because the
-         canvas was a wide box and a round seed wasted the corners. With the box gone the web
-         relaxes into a round shape whatever it is seeded with, so a flattened seed just gives the
-         solver something to undo. Measured, not assumed: 0.66 -> 9 crossings and 2 nodes on lines,
-         0.80 -> 13 and 4, 0.90 -> 6 and 2, and circular -> 6 crossings, 1 node on a line, which is
-         the best this drawing has measured at any roster size. */
         n.x = W / 2 + Math.cos(mid) * rad;
         n.y = H / 2 + Math.sin(mid) * rad;
       }
@@ -556,10 +462,6 @@ async function loadCircle() {
           n.sy = n.y;
           n.seedDepth = depth.get(n.id);
         }
-      /* MEASURED AND REJECTED: holding each node to its seeded seat with a weak spring, to stop the
-       relaxation dragging anyone round to the far side of the hub. Every strength tried made the
-       drawing worse - crossings went from 27 to between 37 and 54 - because the seating is only a
-       guess and the springs are carrying real structure. Seed, then get out of the way. */
       for (const n of nodes)
         if (n.hx != null) {
           n.x = n.hx;
@@ -699,8 +601,6 @@ async function loadCircle() {
         sx *= MAX_SHOVE / mag;
         sy *= MAX_SHOVE / mag;
       }
-      /* The escape used to be reversed when it ran into a wall. There are no walls now - outward is
-       always available, and the centring force pulls the node back once it is clear. */
       n.x += sx;
       n.y += sy;
     }
@@ -727,7 +627,6 @@ async function loadCircle() {
     }
   }
 
-  /* ============ svg build ============ */
   const svg = $("#web"),
     gE = $("#gEdges"),
     gN = $("#gNodes"),
@@ -752,10 +651,6 @@ async function loadCircle() {
     e.main = mk("path", { class: "e-main" }, g);
     e.hit = mk("path", { class: "e-hit" }, g);
     e.g = g;
-    /* No click handler. Opening a connection is decided in endPointer, from the same quick-press
-       test that opens a person, because this element now begins a pan like any other. A click
-       listener here would fire again at the end of a drag that merely passed over the line, and
-       reopen the connection the reader was scrolling away from. */
     e.hit.addEventListener("pointerenter", (ev) => {
       if (ev.pointerType !== "mouse") return;
       const [pa, pb] = e.r.people.map((id) => P.get(id));
@@ -773,10 +668,7 @@ async function loadCircle() {
     tip.style.left = Math.min(x, wrap.width - tip.offsetWidth - 8) + "px";
     tip.style.top = Math.min(y, wrap.height - tip.offsetHeight - 8) + "px";
   }
-  /* Portraits, where one exists. The shape still carries the meaning - square for men, circle for
-   women, dashed where the record does not say - so the picture is clipped INTO that shape and the
-   group colour stays as the ring around it. Most people here have no portrait and keep the plain
-   colour fill; that gap is not an oversight, it tracks who was photographed. */
+
   const PORTRAITS = CIRCLE.portraits || {};
   const defs = $("#web defs") || mk("defs", {}, $("#web")); // reuse the one in the markup
   for (const n of nodes) {
@@ -822,10 +714,7 @@ async function loadCircle() {
         },
         g,
       );
-      /* Fade the face in when it arrives instead of letting it pop. A hundred portraits decode over
-       a second or two and each one appearing at full strength reads as a flicker across the whole
-       map. `loaded` is set by the load event, and also immediately for anything already in cache,
-       where a transition from nothing would be a flicker of its own. */
+
       im.addEventListener("load", () => im.classList.add("loaded"), {
         once: true,
       });
@@ -848,29 +737,14 @@ async function loadCircle() {
     });
   }
   fitLabelBoxes();
-  /* Edges are TRIMMED to the node boundary at both ends, not drawn centre to centre. An opaque node
-   hides the overshoot, so centre-to-centre looked fine until a node was dimmed - at 40% opacity the
-   line showed straight through the middle of it. Trimming fixes that for every opacity state
-   instead of patching the dimmed one. The invisible hit path stays full length, so the clickable
-   target still reaches both centres and short edges remain easy to grab. */
-  /* AN EDGE STOPS AT THE SHAPE, and only at the shape. It briefly also cleared the node's NAME, to
-   stop the Cooper->Berenson arrowhead landing in the middle of the letters of "Berenson" - but the
-   cure was worse: a connection running downward out of a node then began some 37px below it, which
-   reads as two things that are not quite joined, and every near-vertical spoke under Wilde grew
-   that gap. The name is the wrong thing to trim to anyway. It is not part of the node's body, it
-   is a caption of it, and it already carries a paint-order halo so a line passing beneath stays
-   legible and the word stays readable. Connection first, caption second. */
+
   function trimPastLabel(n, dx, dy, base) {
     return base;
   }
   function render() {
     for (const e of edges) {
       const d = `M${e.a.x.toFixed(1)},${e.a.y.toFixed(1)}L${e.b.x.toFixed(1)},${e.b.y.toFixed(1)}`;
-      /* The arrowhead is a `marker-end`, so it lands wherever the path STOPS. The path must
-       therefore run from the person who expressed the attraction to the person it was felt for -
-       drawing it a-to-b and hoping the marker sorts itself out reverses the arrow on every edge
-       whose expresser happens to be the second id, which is most of them, since ids are
-       alphabetical and "wilde" sorts last. */
+
       const arrow = e.r.certainty === "attraction-expressed" && e.r.direction;
       const src = arrow && e.r.direction === e.b.id ? e.b : e.a,
         tgt = src === e.a ? e.b : e.a;
@@ -885,8 +759,7 @@ async function loadCircle() {
         ts = src.r;
         tt = tgt.r + (arrow ? 11 : 0);
       }
-      /* Falling back to the bare discs when the label-aware trim would eat the whole segment: a
-       line crossing a word still reads, a line that vanishes does not. */
+
       let dm;
       if (len <= ts + tt + 2) {
         // nodes overlapping: nothing sane to draw between them
@@ -907,19 +780,10 @@ async function loadCircle() {
       );
   }
 
-  /* ============ pan / zoom / drag ============ */
   const vb = { x: 0, y: 0, w: W, h: H };
-  /* The wheel and pinch used to stop at 3x the opening frame, which was ample while the web was
-   clamped inside that frame. It is not any more: the web reaches roughly 2,000 units each way, so
-   3x barely frames it and a reader zooming out to look for the rim would hit the stop first. */
+
   const ZOOM_OUT_MAX = 6;
-  /* THE ZOOM SLIDER READS THE VIEW, it does not keep its own idea of it. Every zoom in the map -
-   wheel, pinch, Fit, and the framing that happens when a person is opened - ends at applyVB, so
-   that is where the thumb is put back in step. A control that tracked only its own drags would sit
-   at one end of its travel while the map was at the other.
-   The travel is LOGARITHMIC. Scale runs 0.35 to 6, so half of a linear slider would be spent
-   between 3x and 6x out, where the drawing barely changes, and the readable range would be a
-   sliver at one end. Left is out, right is in, the direction the wheel already moves. */
+
   const SCALE_MIN = 0.35,
     LN_MIN = Math.log(SCALE_MIN),
     LN_SPAN = Math.log(ZOOM_OUT_MAX) - LN_MIN;
@@ -945,12 +809,7 @@ async function loadCircle() {
       vb.y + ((cy - r.top) / r.height) * vb.h,
     ];
   }
-  /* ZOOM IS ALWAYS BUILT ON THE PANE'S OWN ASPECT, never on W:H. The opening frame is W wide by
-   W/paneAspect tall, but the wheel used to rebuild the box as W*scale by H*scale - so the very
-   first zoom silently changed the viewBox's shape from the pane's (about 1.22 here) to 1.5, which
-   preserveAspectRatio then letterboxes into margins. One helper now owns every zoom so the two
-   cannot drift apart again. `scale` is relative to the opening frame; (cx,cy) is the client point
-   to hold still under the fingers or the cursor. */
+
   function zoomAbout(scale, cx, cy) {
     scale = Math.max(0.35, Math.min(ZOOM_OUT_MAX, scale));
     const [wx, wy] = clientToWorld(cx, cy);
@@ -964,15 +823,9 @@ async function loadCircle() {
   }
   let drag = null; // {node,dx,dy,sx,sy,t0,moved} or {pan:true,...}
   const pointers = new Map(); // every finger/pen currently down, for pinch and two-finger pan
-  /* Middle and right buttons pan, wherever they are pressed - including on top of a person. Dragging
-   the map with the left button means starting on empty ground, and on a web this dense that is a
-   real hazard: aim slightly off and you move somebody instead of the view, which silently edits the
-   layout. A dedicated pan button removes the aim requirement entirely. */
+
   const PAN_BUTTON = (ev) => ev.button === 1 || ev.button === 2;
-  /* The reference for a two-finger gesture is taken THE MOMENT the second finger lands, not on the
-   first move afterwards. Taking it on the first move records a separation the fingers have already
-   started changing, so the gesture begins from a distance that was never real - the zoom origin
-   drifts, and a pure two-finger drag comes out with a scale change baked into it. */
+
   function beginPinch() {
     if (pointers.size !== 2) return;
     const pts = [...pointers.values()];
@@ -986,13 +839,7 @@ async function loadCircle() {
     };
   }
   svg.addEventListener("contextmenu", (ev) => ev.preventDefault()); // right-drag must not open the menu
-  /* ...but the menu does not necessarily open on the map. On Windows and Linux `contextmenu` fires on
-   RELEASE, and it fires at whatever is under the cursor then - so a right-drag that starts on the
-   map and finishes over the header or the details panel raises the menu there, where nothing was
-   listening. (macOS never showed this: it fires the event on press, while the cursor is still on
-   the map.) So the suppression follows the GESTURE rather than the element: a right-button pan arms
-   it, and the next contextmenu anywhere is swallowed. Armed for one event only, and disarmed on the
-   next press, so an ordinary right-click in the panel - to copy a quotation - still gets its menu. */
+
   let killContextMenu = false;
   addEventListener(
     "contextmenu",
@@ -1004,14 +851,10 @@ async function loadCircle() {
     },
     true,
   );
-  /* How long a press has to last before a person becomes draggable, and how far it may wander first.
-   450ms is the usual long-press dwell; 8px is generous enough for the hand-shake in a real press
-   and small enough that any deliberate pan cancels it on the first frame. */
+
   const LONGPRESS_MS = 450,
     LONGPRESS_SLOP = 8;
-  /* Arming has to leave the node exactly where it is. The grab offset is taken from where the pointer
-   is NOW, not from where the press began - computing it at pointerdown would snap the node by
-   however far the finger had drifted during the hold. */
+
   function armNodeDrag() {
     const d = drag;
     if (!d || d.armed || !d.cand) return;
@@ -1053,12 +896,6 @@ async function loadCircle() {
     const nodeEl = panning ? null : ev.target.closest(".node");
     const [wx, wy] = clientToWorld(ev.clientX, ev.clientY);
     if (nodeEl) {
-      /* PRESSING A PERSON PANS, UNTIL YOU HOLD. Starting on someone used to move them immediately,
-       which made the commonest gesture on the map - dragging to see somewhere else - the one gesture
-       that quietly took the drawing apart, since the web is dense enough that you are usually on
-       somebody. The press begins as a pan and only becomes a drag if it is still there after
-       LONGPRESS_MS; moving first cancels the timer for good, so a pan can never turn into a drag
-       part-way through. The node is remembered either way, because a quick tap still opens them. */
       const n = N.get(nodeEl.getAttribute("data-id"));
       killContextMenu = false;
       drag = {
@@ -1078,13 +915,6 @@ async function loadCircle() {
       drag.timer = setTimeout(armNodeDrag, LONGPRESS_MS);
       svg.setPointerCapture(ev.pointerId);
     } else {
-      /* PRESSING A CONNECTION PANS TOO. This branch used to be guarded by `!ev.target.closest(
-       ".edge")`, so a press that landed on a line built no drag object at all and the map simply
-       would not move - and the lines are long, so a reader dragging across the web hits one
-       constantly. It is the same problem the node branch above solves, and it gets the same answer:
-       the press is a pan, the edge is remembered as a candidate, and a QUICK press still opens the
-       connection on release. No hold is needed here because there is no second gesture to make room
-       for - an edge cannot be dragged. */
       const edgeEl = panning ? null : ev.target.closest(".edge");
       killContextMenu = false; // a fresh press disarms any suppression left over from the last one
       drag = {
@@ -1105,12 +935,7 @@ async function loadCircle() {
   svg.addEventListener("pointermove", (ev) => {
     if (pointers.has(ev.pointerId))
       pointers.set(ev.pointerId, [ev.clientX, ev.clientY]);
-    /* TWO FINGERS: pinch to zoom AND drag to pan, in one gesture, and neither can disturb a person.
-     It used to zoom only - the midpoint was used to anchor the scale, so two fingers moved together
-     without changing their separation produced no movement at all, and the obvious touch way to
-     shift the map did nothing. The world point under the fingers when they went down is now simply
-     kept under them as they move, which gives pan and zoom together and is what the gesture feels
-     like it should do. */
+
     if (pointers.size === 2) {
       const pts = [...pointers.values()];
       const d = Math.hypot(pts[0][0] - pts[1][0], pts[0][1] - pts[1][1]);
@@ -1138,8 +963,7 @@ async function loadCircle() {
       drag.moved,
       Math.hypot(ev.clientX - drag.sx, ev.clientY - drag.sy),
     );
-    /* Moved before the hold completed: this is a pan. Cancelled for good rather than restarted, so
-     stopping mid-pan and resting cannot hand you a node you were not reaching for. */
+
     if (!drag.armed && drag.timer && drag.moved > LONGPRESS_SLOP) {
       clearTimeout(drag.timer);
       drag.timer = 0;
@@ -1151,13 +975,7 @@ async function loadCircle() {
       drag.node.y = wy + drag.dy;
       drag.node.vx = 0;
       drag.node.vy = 0;
-      /* NO REHEAT. Dragging used to raise the global alpha, and `alpha` is one temperature for the
-       whole system - so a five-pixel nudge of a person connected to NOTHING woke all 110 nodes and
-       the solver began undoing the five passes that composed the drawing. Measured: crossings 3 to
-       13, nodes sitting on lines 1 to 7, shortest connection 96px to 66px, with the Hall and
-       Troubridge cluster travelling a thousand pixels. Dragging Wilde, who has 41 connections, did
-       the same damage as dragging Hickey, who has none - the node was never the cause, the reheat
-       was. The dragged node is pinned and follows the cursor; nothing else has any reason to move. */
+
       if (drag.moved > 3) {
         drag.node.pinned = true;
         drag.node.g.classList.add("pinned");
@@ -1179,11 +997,7 @@ async function loadCircle() {
     if (!drag) return;
     if (drag.pan && drag.btn === 2) killContextMenu = true; // see the contextmenu note above
     const quick = drag.moved < 6 && performance.now() - drag.t0 < 350;
-    /* A hold that never travelled is the way BACK. The same gesture that moves someone returns them,
-     so the one thing you can do to a person on the map is also the thing that undoes it - and there
-     is no second gesture to document. (Double-click used to do this and could not: the first click
-     is a tap, which opens the person and pans the map to frame them, so the second click landed on
-     empty ground and no dblclick was ever raised. It is gone rather than left as a promise.) */
+
     if (drag.armed && drag.node) {
       const stayed =
         Math.hypot(drag.lastX - drag.armX, drag.lastY - drag.armY) < 6;
@@ -1191,12 +1005,7 @@ async function loadCircle() {
     } else if (drag.cand && quick) location.hash = `#/p/${drag.cand.id}`;
     else if (drag.edge && quick) location.hash = `#/r/${drag.edge}`;
     disarmNodeDrag();
-    /* A quick tap on EMPTY GROUND clears the selection. `!drag.cand` is what makes it empty ground:
-     a press on a person is also a pan until the hold completes, so without that test this rule fired
-     on every tap of a person and wiped the hash the line above had just set - the tap opened them
-     and closed them again in the same event. Only the LEFT button does it: a stray right- or
-     middle-click is a pan that happened not to move, and having it deselect the person whose sources
-     you are reading would be its own small betrayal. */
+
     if (drag.pan && !drag.cand && !drag.edge && quick && !drag.btn) {
       if (location.hash) location.hash = "";
     }
@@ -1204,11 +1013,7 @@ async function loadCircle() {
   }
   svg.addEventListener("pointerup", endPointer);
   svg.addEventListener("pointercancel", endPointer);
-  /* Double-click puts one person back where the composition put them. It used to unpin them and
-   reheat, which is asking the solver to re-place a single node and getting the whole drawing
-   re-solved instead - the same damage the drag did, from a gesture that means the opposite of
-   "rearrange everything". The composed position is remembered at boot, so this is a move rather
-   than a re-solve, and every other node keeps the position it was measured in. */
+
   function returnHome(n) {
     n.pinned = false;
     n.g.classList.remove("pinned");
@@ -1252,7 +1057,6 @@ async function loadCircle() {
     { passive: false },
   );
 
-  /* ============ legend / filters ============ */
   const legend = $("#legend");
   const groupsInData = [...new Set(CIRCLE.people.map((p) => p.group))];
   const groupOrder = [
@@ -1266,10 +1070,7 @@ async function loadCircle() {
     "beyond",
     "liaisons",
   ].filter((g) => groupsInData.includes(g));
-  /* ONE definition of what each connection looks like, used by the legend and by the About panel.
-   The About text used to describe them in words - "(dash-dot, arrowed)" - which is a caption of a
-   picture the reader is looking at anyway, and which silently goes stale the moment a dash pattern
-   changes. Drawing the real line instead cannot go stale, and it is the thing being named. */
+
   const SAMPLES = {
     "self-reported":
       // 2.1, tracking the map - see the note on .cert-self-reported in circle.css
@@ -1304,16 +1105,7 @@ async function loadCircle() {
   const DEFAULT_OFF_GROUPS = new Set(["liaisons"]);
   const offGroups = new Set(),
     offCerts = new Set();
-  /* SOLO IS NOT A SEPARATE FILTER. It means "everything else in this row off", so it is expressed
-   through the very switches it appears to override - which is why the legend then shows exactly
-   what is happening, with the other switches visibly out. An earlier version made it a parallel
-   override and that was worse in two ways: the legend went dead while it was up, and a soloed row
-   looked different from a hand-switched one that meant the same thing.
-   Right-click any switch to solo its row; right-click again, or left-click the soloed switch, to
-   put the row back as it was. The previous state is remembered per row, so soloing is genuinely
-   undoable rather than approximately. Each row is independent - soloing a sphere leaves Gender and
-   Connections alone - and they compose, so a soloed sphere and a soloed gender reads as "only the
-   aesthete men". */
+
   const AXES = Object.create(null);
   const soloKey = Object.create(null),
     soloPrev = Object.create(null);
@@ -1355,8 +1147,6 @@ async function loadCircle() {
     b.innerHTML = html;
     a.btns.set(key, b);
     b.addEventListener("click", () => {
-      /* The soloed switch is the off switch for the state it is displaying. Toggling it the ordinary
-       way would switch off the one row-member still showing, which is never what anyone means. */
       if (soloKey[name] === key) {
         toggleSolo(name, key);
         return;
@@ -1374,10 +1164,7 @@ async function loadCircle() {
     legend.appendChild(b);
     return b;
   }
-  /* Suppress the native menu across the WHOLE legend, not only on the switches. Right-click is the
-   solo gesture here, and the switches are small: miss one by a few pixels - on the row title, on
-   the gap between two chips - and the browser menu opens over the map instead. Nothing in the
-   legend is text worth copying, so there is nothing to lose by it. */
+
   legend.addEventListener("contextmenu", (ev) => ev.preventDefault());
   const SOLO_HINT = " · right-click to show only this";
   if (groupOrder.length) {
@@ -1442,9 +1229,7 @@ async function loadCircle() {
     t.className = "lg-title";
     t.textContent = "Connections";
     legend.appendChild(t);
-    /* No sample for No-connection, and no empty swatch box either: it is not a line style, and
-     inventing a glyph for it would put an absence in the same visual vocabulary as the five
-     real ones. The label carries it alone. */
+
     registerAxis(
       "cert",
       certOrder,
@@ -1463,19 +1248,7 @@ async function loadCircle() {
   }
   let searchTerm = "",
     searchScope = "names";
-  /* Two haystacks per person, built once. NAMES is what the box has always searched. QUOTES is the
-   evidence attached to every connection they are party to - the quotation itself, the context note
-   around it and what it is said to evidence - plus their own biography, which is where a detail
-   like a trade or a regiment usually sits. Scope is a deliberate choice rather than a widening of
-   the default: searching everything by default would mean typing a common name and lighting half
-   the map, because names recur constantly inside the quotations. */
-  /* THREE haystacks, because they answer different questions. NAMES is who. QUOTATIONS is what the
-   sources say. NOTES is what WE say about them - and that turned out to be a large body of writing
-   nobody could search: the reasoning behind every certainty class, the disputed blocks, the
-   bio_notes recording where each fact came from, the provenance lines, the placement reasons for
-   undated sources. It is where this project explains itself, and until now the only way to read it
-   was to already know which card it was on. It is deliberately NOT in the Quotations scope, which
-   would blur the line the whole map rests on: a quotation is evidence, a note is us. */
+
   const NAME_TEXT = new Map(),
     QUOTE_TEXT = new Map(),
     NOTE_TEXT = new Map();
@@ -1509,9 +1282,7 @@ async function loadCircle() {
     }
     for (const r of RELS) {
       const bits = [r.summary];
-      /* Translations go in the haystack too. A French quotation is otherwise unsearchable to an
-       English reader - they would have to already know the French to find it, which is the same
-       barrier the translation exists to remove. */
+
       for (const q of r.sources || [])
         bits.push(q.quote, q.translation, q.context, q.supports);
       const blob = bits.filter(Boolean).join("  ");
@@ -1561,8 +1332,7 @@ async function loadCircle() {
       (QUOTE_TEXT.get(p.id) || "").includes(searchTerm)
     )
       return "quote";
-    /* Notes are reached only from All. Quotations stays quotations - putting our own reasoning in
-     there would blur the distinction the map is built on. */
+
     if (
       searchScope === "all" &&
       (NOTE_TEXT.get(p.id) || "").includes(searchTerm)
@@ -1581,9 +1351,7 @@ async function loadCircle() {
       el.removeAttribute("title");
       return;
     }
-    /* The pill says WHERE the hits came from, so a node lighting up for a word that appears only
-     inside a note is never unexplained - the same reason it already distinguished names from
-     quotations. */
+
     const by = { name: 0, quote: 0, note: 0 };
     for (const p of CIRCLE.people) {
       const k = hitKind(p);
@@ -1610,13 +1378,7 @@ async function loadCircle() {
         : by.name
           ? people
           : `${people}, matched ${by.quote ? "in quotations" : "in notes"}`;
-    /* CLICK THE PILL TO FRAME THE HITS. This started as focus-on-type and was wrong: the frame
-     moved while the reader was still typing, and it needed a debounce, a minimum term length and a
-     remembered previous view to be bearable - three guards propping up an interaction that should
-     not have been automatic. A search is a question, and the reader should say when they want to be
-     taken to the answer. So the pill that already reports the count becomes the control that acts
-     on it: no movement until it is clicked, nothing to undo if it is not, and no special case for
-     zero hits because there is nothing to press. */
+
     el.classList.add("clickable");
     el.setAttribute("role", "button");
     el.setAttribute("tabindex", "0");
@@ -1639,25 +1401,12 @@ async function loadCircle() {
       });
     }
   }
-  /* SOLO: the sphere chip above a person's name narrows the map to that sphere alone. It is a
-   different kind of control from the legend switches, and deliberately so - the legend is a
-   standing set of preferences you build up, while this is one temporary question ("who else is an
-   aesthete?") asked and then dismissed with a second click. So it OVERRIDES the group switches
-   rather than joining them: soloing a sphere shows it even if the legend has it switched off,
-   which is the only reading of the click that is never surprising.
-   Gender and Connections are untouched - they are asking different questions and a sphere filter
-   has no business answering them. */
+
   function personHidden(p) {
     // dimmed by a legend switch
     return offGroups.has(p.group) || (p.gender && offGenders.has(p.gender));
   }
-  /* THE CHIP TRIGGERS THE FILTER; THE LEGEND HOLDS IT. Two things went wrong when the state lived on
-   the chip. The chip only exists while somebody is selected, so it was a switch that vanished -
-   and worse, a live selection already fades everything outside it to 13%, the same fade the sphere
-   filter uses, so soloing while selected changed classes and changed almost no pixels. Backing out
-   of the selection first removes that conflict at its source instead of papering over it, and the
-   legend is where a standing filter belongs: always on screen, and next to the switches it is
-   made of. */
+
   function soloFromChip(g) {
     if (soloKey.group !== g && location.hash) location.hash = ""; // back out of the selection first
     toggleSolo("group", g);
@@ -1667,11 +1416,6 @@ async function loadCircle() {
     return !searchTerm || hitKind(p) !== null;
   }
   function applyFilters() {
-    /* While a search is running the SEARCH decides what is lit, not the group switches: a hit stays
-     visible even if its group is switched off. Otherwise searching for one of the Outside-the-circle
-     men - a group that is off by default - returned a result you could not see. An edge is lit when
-     either end matches, so a search shows its hits and the links out of them. Clear the box and the
-     group switches take over again. */
     for (const e of edges) {
       e.g.classList.toggle("hidden", offCerts.has(e.r.certainty));
       const gdim = personHidden(e.a.p) || personHidden(e.b.p);
@@ -1680,9 +1424,7 @@ async function loadCircle() {
     }
     for (const n of nodes) {
       const es = byPerson.get(n.id) || [];
-      /* Someone with no connections at all has no certainty to test, so the old rule (which required
-       at least one edge) never faded them and they stayed bright while everything else filtered
-       out. They answer to the No-connection switch instead. */
+
       const allHidden = es.length
         ? es.every((r) => offCerts.has(r.certainty))
         : offCerts.has(NO_EDGE);
@@ -1710,8 +1452,6 @@ async function loadCircle() {
       updateSearchNote();
     }
     if (ev.key === "Enter" && searchTerm) {
-      /* A name hit wins over a quotation hit: searching "Ross" in All scope matches everyone whose
-       evidence mentions him, and jumping to one of those instead of to Ross would be wrong. */
       const named = CIRCLE.people.filter((p) => hitKind(p) === "name");
       const any = CIRCLE.people.filter((p) => hitKind(p) !== null);
       const pick =
@@ -1720,7 +1460,6 @@ async function loadCircle() {
     }
   });
 
-  /* ============ panel rendering ============ */
   const panel = $("#panel");
   function certBadge(r) {
     const SAMPLES = {
@@ -1760,13 +1499,7 @@ async function loadCircle() {
             : 'stroke-width="4"'
     }/></svg>`;
   }
-  /* Sources read in the order the evidence was made: a letter of 1895 before a biographer's
-   account of 1985. Stable - equal or missing dates keep the order they were entered in - and
-   undated sources fall to the end rather than to the top.
-   A source whose date is genuinely unknown may carry `order_hint` instead, which places it in the
-   reading order without pretending to be a date; it sorts exactly as a date would. The two are
-   mutually exclusive and the validator enforces that, so that getting a sequence to read properly
-   never means inventing an evidence_date. */
+
   function byEvidenceDate(list, get) {
     const g = get || ((x) => x);
     const key = (x) => {
@@ -1789,13 +1522,7 @@ async function loadCircle() {
       })
       .map((x) => x[0]);
   }
-  /* Speaker and addressee link to their own node WHEN THE NAME IS ONE OF OURS. Matching is exact
-   against a person's name, their sort_name and every alias on their record, all normalised for
-   case, punctuation and accents - deliberately not fuzzy. A loose match here would quietly send a
-   reader to the wrong person, which is the same failure the portrait pipeline hit twice, and the
-   cost of missing a link is only a name that stays plain. Names outside the roster - counsel, a
-   landlady, a publisher, Wilde's mother - simply do not link, which is correct: they are not on
-   this map. */
+
   const NAME_INDEX = (() => {
     const norm = (s) =>
       String(s || "")
@@ -1825,30 +1552,13 @@ async function loadCircle() {
     }
     return { norm, get: (s) => m.get(norm(s)) || null };
   })();
-  /* The date the card is SORTED by, shown on the card. Sources run in date order, and a run of
-   letters is only legible as a sequence if you can see the dates you are being ordered by - the
-   pattern worth catching on a person's page is Wilde writing to Ross one day and to Douglas the
-   next, which is invisible while the dates sit buried in the citation. Reuses fmtDate, so "circa"
-   and hand-written labels print the same here as everywhere else. An undated source prints
-   "undated" rather than its order_hint, because the hint is a placement and the line below the
-   quote already explains it. */
+
   function whenLabel(q) {
     const d = q && q.evidence_date;
     if (d && d.y != null) return fmtDate(d);
     return q && q.order_hint && q.order_hint.y ? "undated" : "";
   }
-  /* AN EXCHANGE IS SET AS A TRANSCRIPT, one speaker per line. Run together as a paragraph, a
-   cross-examination reads as though one person said all of it - which is the thing the `exchange`
-   voice exists to stop. Two shapes appear in these sources and both are turned into the same rows:
 
-     CARSON: Did you ever kiss him? WILDE: Never in my life.      (Holland's transcript)
-     Did you know Walter Grainger?-Yes. How old is he?-He was...  (Hyde: the dash IS the turn)
-
-   The dash form is the awkward one, because only the change from question to answer is marked -
-   the change back is not. Splitting after each "?-" leaves chunks of "answer, then next question",
-   and the question is the last sentence of the chunk. Where that cannot be told apart the whole
-   chunk stays as one turn rather than being cut in the wrong place: a transcript mis-split is
-   worse than a transcript under-split. If nothing parses, the caller falls back to a plain block. */
   function shortWho(s) {
     if (!s) return "";
     const main = String(s)
@@ -1860,11 +1570,7 @@ async function loadCircle() {
       .filter((x) => !/^(sir|mr|mrs|dr|lord|lady|the)\.?$/i.test(x));
     return w.length ? w[w.length - 1] : main;
   }
-  /* Where does the previous answer stop and the next question start? At the LAST sentence break whose
-   tail is a single question - and "Mr." is not a sentence break. Skipping abbreviations matters:
-   without it "I was introduced by telegram. By Mr. Justice Charles—…" split inside the judge's
-   title and handed half his name to counsel. Returns null when no boundary is safe, and the caller
-   then leaves the chunk whole. */
+
   const ABBREV =
     /\b(?:Mr|Mrs|Ms|Dr|St|Sir|Rev|Hon|Capt|Col|Lieut|Lt|Prof|Messrs|Jr|Sr|Esq|No|vol|pp?)\.$/;
   const ABBREV_ANY =
@@ -1927,16 +1633,11 @@ async function loadCircle() {
       // stop in "Mr." as a sentence break left it unattributed.
       else if (!/[.!?…]\s+\S/.test(c.replace(ABBREV_ANY, "")))
         turns.push({ who: asks, text: c });
-      /* More than one sentence and no boundary we trust: the turn changes somewhere inside this
-       chunk and we cannot say where, so the row goes out UNATTRIBUTED. Guessing put an answer and
-       a judge's interjection under counsel's name, which is the misattribution this whole voice
-       exists to prevent - committing it one line lower would be no better. */ else
-        turns.push({ who: "", text: c });
+      else turns.push({ who: "", text: c });
     }
     return turns;
   }
-  /* Named languages rather than bare codes: the heading on a translation reads "French — English",
-   which says both what was set aside and what is being offered. Extend as the corpus does. */
+
   const LANG_NAME = {
     fr: "French",
     it: "Italian",
@@ -1955,25 +1656,17 @@ async function loadCircle() {
       ? `<a class="qlink" href="#/p/${esc(id)}">${esc(name)}</a>`
       : esc(name);
   }
-  /* The thin rule across the top of a card: which connection it belongs to on the left, when the
-   evidence was made on the right. The date used to sit at the end of the speaker line, where a long
-   "X to Y" heading left it nowhere to go and it wrapped; this bar is mostly empty on the right, so
-   it is the roomier place for it. Drawn whenever there is either a partner or a date, which means a
-   relationship page - no partner chip, the page is the partner - still gets a bar with the date
-   alone, right-aligned. */
+
   function withBar(withWhom, when) {
     if (!withWhom && !when) return "";
-    /* Two shapes. A connection gets a link and its certainty badge. An engagement recorded WITHOUT a
-     connection gets the name in plain text - there is no page to send the reader to, and inventing
-     a link to one would assert the connection the record declined to make. */
+
     const one = (w) =>
       w && w.r
         ? `<a href="#/r/${esc(w.r.id)}">${esc(w.other.name)}</a>${miniBadge(w.r.certainty)}`
         : w && w.label
           ? `${w.labelId ? `<a href="#/p/${esc(w.labelId)}">${esc(w.label)}</a>` : esc(w.label)}<span class="noedge">no connection</span>`
           : "";
-    /* A source that evidences more than one connection is printed once and names them all, rather
-     than repeating the paragraph per connection. See the collapse in personSources. */
+
     const parts = [one(withWhom)]
       .concat(((withWhom && withWhom.also) || []).map(one))
       .filter(Boolean);
@@ -1987,9 +1680,7 @@ async function loadCircle() {
       VER_META[q.verification || "unverified"] || VER_META.unverified;
     const siAttr = si == null ? "" : ` data-si="${si}"`; // the handle the sources filter hides the card by
     const wk = CIRCLE.works[q.work] || null;
-    /* Who is speaking, not who the volume is filed under. An explicit per-quote `speaker` wins; a
-     modern-voice quote inside an edited volume of someone else's writings is credited to the
-     editors, so an editorial footnote in Wilde's Letters is not bylined to Wilde. */
+
     const byline = wk
       ? q.speaker ||
         (q.voice === "modern" && wk.editors
@@ -1997,13 +1688,7 @@ async function loadCircle() {
           : wk.author || "")
       : "";
     const inVol = wk && byline && byline !== (wk.author || "") ? ", in " : ", ";
-    /* The name that opens a citation is a person on this map more often than not — 173 of the
-     quotations here — and for an exchange it is the ONLY place the speaker is named, since a
-     transcript has no single-speaker heading. Linking it adds no furniture at all: the text is
-     already printed. Split at the first comma so "Charles Parker, examination-in-chief" links the
-     name and leaves the role alone; personLink matches a FULL NAME exactly, so "The Clerk of
-     Arraigns and the Foreman of the jury", an editors' byline, and a historian who is not on the
-     map all stay plain rather than being guessed at. */
+
     const bcut = byline.indexOf(","); // NOT `cut` - the speaker heading below already owns that name
     const bylineHtml = byline
       ? personLink(bcut > 0 ? byline.slice(0, bcut) : byline) +
@@ -2016,9 +1701,6 @@ async function loadCircle() {
         : "";
     const prov = (q.provenance || "").trim();
     if ((q.quote || "") === "") {
-      /* A pointer gets the same bar as a quotation. It used to return before the bar was drawn, so on
-       a person's page - where the run mixes every connection together - a pointer was the one card
-       that did not say which connection it came from. */
       return `<div class="qcard qpointer"${siAttr}>
       ${withBar(withWhom, whenLabel(q))}
       <div class="qhead">Source pointer — not yet transcribed</div>
@@ -2027,35 +1709,16 @@ async function loadCircle() {
       <div class="chips"><span class="chip v-pend">⧖ Pending verification</span></div>
     </div>`;
     }
-    /* A first-hand quotation names its speaker ABOVE the quote, in the reading size. Sources on a
-     person's page now run in one date order across all their connections, so a run alternates
-     between voices - Wilde about Fothergill, then Fothergill about Wilde - and finding out who was
-     talking only after the quote made that unreadable. The full citation still follows the quote;
-     this is a heading, not a replacement for it. Modern voices keep the old shape, because "the
-     historian is speaking" is already carried by the plain rule down the side. */
-    /* The heading falls back to the work's author only when that author could actually have SPOKEN
-     the words. In an edited volume the "author" is the editor - Hyde's Trials, Holland's Real
-     Trial - and 54 quotations here are sworn testimony inside those books: period voices, but not
-     the editor's. Printing "H. Montgomery Hyde, ed." over a witness's answer states a falsehood in
-     the largest type on the card, so the fallback is refused and no heading is drawn until a real
-     speaker is recorded. Saying nothing is the honest default; the citation under the quote still
-     credits the edition. */
+
     const auth = (wk && wk.author) || "";
     const authIsEditor = /,\s*eds?\.?$/i.test(auth.trim());
-    /* An exchange gets no "X to Y" heading. That heading was the misattribution the voice exists to
-     fix - it put counsel's questions in the witness's mouth - and it is now redundant, because
-     every turn carries its own speaker and the context line above names the proceeding. */
+
     const spk =
       q.voice === "period" ? q.speaker || (authIsEditor ? "" : auth) || "" : "";
     const cut = spk.indexOf(",");
     let spkMain = cut > 0 ? spk.slice(0, cut) : spk,
       spkRest = cut > 0 ? spk.slice(cut + 1).trim() : "";
-    /* Who they were speaking TO, when the record says. Reading a person's sources in date order means
-     reading letters that mostly are NOT addressed to them - Wilde writing to Ross about Fothergill
-     sits in Fothergill's run - so "Oscar Wilde" alone at the head of a quotation is misleading by
-     omission. `addressee` is null wherever the source does not state it, and nothing is printed
-     then rather than a guess. Some speakers already carry it in their own text ("Charles Ricketts,
-     letter to John Gray"); that phrasing is folded in here so it is not said twice. */
+
     const to = q.addressee || "";
     const when = whenLabel(q);
     if (
@@ -2070,13 +1733,8 @@ async function loadCircle() {
     ${(() => {
       const langAttr = q.lang ? ` lang="${esc(q.lang)}"` : "";
       if (q.voice === "exchange") {
-        /* The stored `turns` are the reviewed ones - split by the parser, then read line by line
-           and corrected where it could not know better, and checked to reproduce the quotation
-           word for word. Prefer them; parseExchange is the first pass for anything newly added. */
         const turns = q.turns && q.turns.length ? q.turns : parseExchange(q);
-        /* Two grid children per turn, not a wrapper each: the columns can only line up across the
-           whole transcript if every name and every line are items of the SAME grid. An unattributed
-           turn still emits its empty name cell, to keep the column. */
+
         if (turns)
           return `<blockquote class="q-exchange"${langAttr}>${turns
             .map(
@@ -2095,25 +1753,12 @@ async function loadCircle() {
     <div class="chips">
       <span class="chip ${vClass}">${vLabel}</span>
     </div>
-    ${prov ? `<details><summary>Provenance</summary><div>${esc(prov)}${q.verified_by ? ` · ${esc(q.verified_by)}` : ""}${q.verified_on ? ` · ${esc(q.verified_on)}` : ""}</div></details>` : ""}
+    ${prov ? `<details><summary>Provenance</summary><div>${esc(prov)}${q.how_verified ? ` · ${esc(q.how_verified)}` : ""}${q.verified_on ? ` · ${esc(q.verified_on)}` : ""}</div></details>` : ""}
   </div>`;
   }
-  /* FILTERING A LONG RUN OF SOURCES. Wilde's page carries 178 quotations and the longest connection
-   carries fifteen; past a certain length the run stops working as a reading order and becomes a
-   haystack, where the only way to reach the letter you half-remember is to scroll for it. Two
-   controls, because there are two questions readers actually arrive with - "where does he say X"
-   and "what was happening in 1895" - and neither answers the other.
 
-   ALWAYS DRAWN, from one source up (changed 2026-08-06, per Lovelle). It used to appear only from
-   four sources up, on the argument that a filter above one card is furniture pretending to be a
-   tool. That reasoning was about the control's usefulness ON THAT PAGE and missed how it is
-   actually used: as the one consistent way to search a letter's text, reached for by habit rather
-   than by judging whether this particular panel has enough cards to be worth it. A control that
-   vanishes on some pages is worse than a redundant one, because the reader has to notice it is
-   gone and fall back to the browser's own find. Same box, every panel, every time. */
   const SRC_FILTER_MIN = 1;
-  /* One letter matches nearly every card and would paint a few thousand marks on each keystroke for
-   no information at all - the filtering still runs at one character, only the painting waits. */
+
   const MARK_MIN = 2;
   let PANEL_SRC = []; // {hay,y} per rendered card, indexed by its data-si
   function srcYear(q) {
@@ -2125,11 +1770,7 @@ async function loadCircle() {
           : null;
     return d ? d.y : null;
   }
-  /* Everything the card shows, plus what its Provenance fold keeps closed. Searching the quotation
-   alone would miss the two things most likely to be half-remembered - which book it came from, and
-   which connection it belongs to - and on a person's page the partner's name is the quickest way to
-   cut 178 sources down to a single correspondence. The turns are folded in for their speaker
-   labels, which are the one part of a transcript the quoted text does not contain. */
+
   function srcHay(q, withWhom) {
     const wk = CIRCLE.works[q.work] || null;
     return [
@@ -2142,7 +1783,7 @@ async function loadCircle() {
       q.supports,
       q.locator,
       q.provenance,
-      q.verified_by,
+      q.how_verified,
       wk && wk.title,
       wk && wk.author,
       wk && wk.editors,
@@ -2155,8 +1796,7 @@ async function loadCircle() {
       .join("  ")
       .toLowerCase();
   }
-  /* The year boxes carry this list's own span as their placeholders rather than a fixed 1865-1947, so
-   the range you are being offered is the range that exists on the page you are looking at. */
+
   function sourceFilterBar(n) {
     if (n < SRC_FILTER_MIN) return "";
     const ys = PANEL_SRC.map((s) => s.y).filter((y) => y != null);
@@ -2177,16 +1817,7 @@ async function loadCircle() {
   <p id="sfnone" class="sfnone" hidden>Nothing here matches. The filter reads the quotation, its
      translation, the speaker, the work and the provenance — not only the words in the quote.</p>`;
   }
-  /* WHOSE PAGE IS THIS. Once the name has scrolled away there is nothing on screen saying who you are
-   reading - and on a connection page, where the run of sources mixes both people's voices with a
-   third party's, that is exactly where you most want telling. The head takes over the title as soon
-   as the real one goes behind it.
 
-   Read from the rendered <h2> rather than passed in, so one function serves every panel and cannot
-   fall out of step with what the page actually says: a person's name, "A & B" for a connection,
-   "About". An IntersectionObserver against the panel, its top edge pulled in by the head's own
-   height, so the handover happens exactly as the name disappears underneath it rather than at some
-   guessed scroll offset. Crossfaded on opacity, not display, so the head never reflows. */
   let titleWatch = null;
   function wirePanelTitle() {
     if (titleWatch) {
@@ -2196,10 +1827,7 @@ async function loadCircle() {
     const slot = panel.querySelector(".phead .phtitle"),
       h2 = panel.querySelector(".pwrap>h2");
     if (!slot || !h2) return;
-    /* innerHTML, not textContent: a connection's heading is two LINKS - "A & B", each going to that
-     person - and flattening it to text would have quietly dropped the only way out of a connection
-     page to either of the people on it. The markup being copied is our own, already escaped where
-     it was built. */
+
     slot.innerHTML = h2.innerHTML.trim();
     const head = panel.querySelector(".phead");
     titleWatch = new IntersectionObserver(
@@ -2212,13 +1840,7 @@ async function loadCircle() {
     );
     titleWatch.observe(h2);
   }
-  /* THE HANDLE IS A HANDLE NOW. It was taken out for being a grip that gripped nothing - a sheet you
-   appeared to be able to drag, whose only dismissal was the button beside it. It comes back because
-   the panel turned out to need one: Close sits at the top of a column that runs 96,000px on Wilde's
-   page, so from anywhere below the first screen the only way to shut the panel was to scroll all
-   the way back up for the button. Pinning the head solves that on its own; the handle is what makes
-   the pinned head worth its height on a phone, where flicking a sheet away is the expected gesture.
-   Downward only. A sheet that follows a finger upward implies it can be expanded, which it cannot. */
+
   function wirePanelHandle() {
     const h = panel.querySelector(".phead .grab");
     if (!h) return;
@@ -2239,8 +1861,7 @@ async function loadCircle() {
     const end = (e) => {
       if (!start) return;
       const dy = Math.max(0, e.clientY - start.y);
-      /* Distance OR speed. Judging on distance alone makes a quick flick - which is how people
-       actually dismiss a sheet - feel like the gesture was ignored. */
+
       const flick = dy / Math.max(1, performance.now() - start.t) > 0.5;
       start = null;
       panel.style.transition = "transform .18s ease-out";
@@ -2259,17 +1880,7 @@ async function loadCircle() {
     h.addEventListener("pointerup", end);
     h.addEventListener("pointercancel", end);
   }
-  /* HIGHLIGHTING THE HIT. Filtering to 40 cards answers "which sources", not "where in them" - and
-   on a card carrying a long letter the matched word can be twelve lines down. Worse, the filter
-   reads several things the card keeps out of sight (the provenance, the verifier, the editors), so
-   a card could appear with no visible reason at all.
 
-   Done by walking TEXT NODES, never by touching innerHTML. A string replace over the card's markup
-   would rewrite href attributes and class names and would break the citation links; and <mark>
-   inserts no characters, so a highlighted quotation still copies out exactly as printed - which
-   matters here more than it would elsewhere, because these quotations are verified to the
-   character. Marks that span an element boundary are not found: "Wilde, in" straddles the </a> at
-   the end of a linked byline. That is a real limit and it is the safe direction to fail in. */
   const MARK_STOP = new Set(["SCRIPT", "STYLE", "MARK"]);
   function clearMarks(root) {
     const marks = root.querySelectorAll("mark.sfhit");
@@ -2310,18 +1921,13 @@ async function loadCircle() {
     }
     return n;
   }
-  /* A card whose only hit is inside the closed Provenance fold would otherwise sit there looking
-   like a false positive. Say so on the summary rather than springing the fold open, which would
-   shove every card below it down the page as you type. */
+
   function flagHiddenHits(card) {
     const det = card.querySelector("details");
     if (det && !det.open && det.querySelector("mark.sfhit"))
       det.classList.add("sfdeep");
   }
-  /* A date bound hides every undated source, and SAYS SO. Eighty of the 389 quotations here carry no
-   year - a fifth of the evidence - so a range that quietly dropped them would be the map telling a
-   reader it had shown them everything from 1895 when it had not. The count line names the number it
-   removed, which is the same reason an unattributed turn is left blank rather than guessed at. */
+
   function wireSourceFilter() {
     const box = $("#sfq");
     if (!box) return;
@@ -2352,8 +1958,7 @@ async function loadCircle() {
         }
         el.classList.toggle("sfhide", !ok);
         if (ok) shown++;
-        /* Cleared on every card, marked only on the ones still standing: a hidden card keeping its
-         marks would come back highlighted for a term nobody is searching any more. */
+
         clearMarks(el);
         el.querySelectorAll("details.sfdeep").forEach((d) =>
           d.classList.remove("sfdeep"),
@@ -2367,10 +1972,7 @@ async function loadCircle() {
       cnt.textContent = active
         ? `${shown} of ${cards.length}${dropped ? ` · ${dropped} undated hidden` : ""}`
         : "";
-      /* The button belongs to the YEARS, not to the whole bar - it sits in their row, so showing it
-       for a text-only filter offered to clear something the reader had not set, and clicking it
-       would have thrown away the text they were actually using. The text box is type="search" and
-       carries its own native ✕, so each control now clears itself. */
+
       clr.hidden = !dated;
       none.hidden = !(active && shown === 0);
     };
@@ -2383,8 +1985,7 @@ async function loadCircle() {
       apply();
       y1.focus();
     });
-    /* Escape backs out of the control you are in, not out of the person - the panel's own Escape
-     would close the whole card. Scoped the same way the clearing is. */
+
     box.addEventListener("keydown", (e) => {
       if (e.key === "Escape" && box.value) {
         e.stopPropagation();
@@ -2402,18 +2003,7 @@ async function loadCircle() {
         }
       });
   }
-  /* The evidence for every one of a person's connections, on their own page, grouped under the
-   person it concerns - so reading someone's life does not mean clicking out to each connection and
-   back. Ordered like the timeline above it: connections earliest first, quotations within each
-   ordered by the date of the thing evidenced. The heading links to the connection's own page,
-   which is still where the classification and the contested block live. */
-  /* CONTEXT ENGAGEMENTS ARE ONE-SIDED IN THE DATA AND TWO-SIDED IN FACT. They live in one person's
-   file, so Ward's file holds the letters Wilde wrote him - and Wilde's own page showed the two
-   hundred quotations from his connections and not one of the letters he wrote to friends who have
-   no connection line. Searching his sources for "Kitten" found nothing, which is how this surfaced.
-   Indexed here by the OTHER end, using the same name matcher the citation links use, so an
-   engagement recorded on Ward appears on Wilde's page too. Only engagements that actually carry
-   quotations are indexed; the rest are timeline rows and belong nowhere else. */
+
   const CE_BY_PARTNER = (() => {
     const m = new Map();
     for (const p of CIRCLE.people)
@@ -2427,11 +2017,6 @@ async function loadCircle() {
     return m;
   })();
   function sourcesByPerson(id) {
-    /* ONE run, in date order, across every connection this person has - not grouped by partner.
-     Grouping hid the thing the evidence is most useful for: Wilde writing to Ross about how Douglas
-     frightens him, and the very next letter going to Douglas about how Ross keeps them apart. That
-     pattern is only visible when the letters sit in the order they were written, whoever they were
-     to. Each card carries a link saying which connection it belongs to, so nothing is lost. */
     const rels = (byPerson.get(id) || []).filter(
       (r) => (r.sources || []).length,
     );
@@ -2440,32 +2025,19 @@ async function loadCircle() {
       const other = P.get(partnerOf(r, id));
       for (const q of r.sources || []) flat.push({ q, r, other });
     }
-    /* CONTEXT ENGAGEMENTS CARRY QUOTATIONS TOO, and until now nobody could read them. A person with
-     no connection line has no relationship file, so their evidence lives in a context engagement
-     instead - which the panel drew as a one-line timeline row and stopped. Ward held seven letters
-     that way, Harding four, Barlas two: transcribed, folio-confirmed, and invisible on the page.
-     That is the worst failure state available to this project, because the data looks done.
-     They join the same date-ordered run as the connections, labelled by who the engagement is with
-     rather than linked to a connection that does not exist. */
+
     const p2 = P.get(id);
     for (const ce of (p2 && p2.context_engagements) || []) {
       for (const q of ce.sources || [])
         flat.push({ q, label: ce.partner_name || ce.name || "" });
     }
-    /* ...and the same engagements seen from the other end. */
+
     for (const { owner, ce } of CE_BY_PARTNER.get(id) || []) {
       for (const q of ce.sources || [])
         flat.push({ q, label: owner.name, labelId: owner.id });
     }
     if (!flat.length) return "";
-    /* ONE LETTER, ONE CARD. A single source often evidences two claims at once - the letter naming
-     Raphael and Fortune is cited on both their connections; Ives's household quotes belong to four
-     of them; the letter about Rolla is also the letter where Wilde asks Smithers to come out. Each
-     connection genuinely needs its own citation, so the duplication is right in the DATA and wrong
-     only on the PAGE, where the shared person's panel printed the same paragraph two, three, four
-     times over. Collapse identical (work, locator, text) into one card and let it say which
-     connections it belongs to. Pointers - sources with no quote text - never collapse: several
-     different pointers can share a locator and they are not the same evidence. */
+
     const merged = [],
       byKey = new Map();
     for (const f of flat) {
@@ -2494,8 +2066,6 @@ async function loadCircle() {
       `<div class="sect">Sources, in date order (${merged.length})</div>` +
       `<p class="sect-note">Every quotation attached to this person, in the order the evidence was
        made${(() => {
-         /* Three shapes, because a person may have connections, engagements without one, or both -
-            and "all 0 of their connections" is what you get for saying it in one sentence. */
          const c = rels.length,
            e = flat.some((f) => f.label);
          const conn =
@@ -2567,7 +2137,7 @@ async function loadCircle() {
         : `<p class="bio" style="font-style:italic;color:var(--ink3)">No engagements recorded yet (research pending).</p>`
     }
     ${sourcesByPerson(id)}
-    ${p.bio_note ? `<details class="method"><summary>Sources and method</summary><div>${esc(p.bio_note)}</div></details>` : ""}
+    ${p.bio_note ? `<details class="method"><summary>Sources</summary><div>${esc(p.bio_note)}</div></details>` : ""}
   </div>`;
     $("#ptag").addEventListener("click", () => soloFromChip(p.group));
     wireSourceFilter();
@@ -2634,12 +2204,7 @@ async function loadCircle() {
     showPanel();
     focusGraph({});
   }
-  /* Any inline transform from a swipe that sprang back is cleared on the way in, so a panel can
-   never open already pushed halfway off the screen. */
-  /* The title watcher is started HERE, not at render time. Its root is the panel, and until the panel
-   is shown it has no layout box - an observer built against it never fired, so the head stayed blank
-   however far you scrolled. Everything that opens a panel comes through this function, so hanging it
-   here is also the one place it cannot be forgotten. */
+
   function showPanel() {
     panel.style.transition = "";
     panel.style.transform = "";
@@ -2647,10 +2212,7 @@ async function loadCircle() {
     panel.scrollTop = 0;
     wirePanelTitle();
   }
-  /* The About text is written in content/ABOUT.md and compiled to HTML by tools/validate.py, so the
-   prose can be edited without going anywhere near markup. Two placeholders are filled in here
-   because only the page knows them: the connection samples, which come from the same SAMPLES the
-   legend uses, and the colophon, which is generated per build. */
+
   function mountAbout() {
     const host = $("#aboutBody");
     if (!host || !CIRCLE.about) return;
@@ -2659,13 +2221,7 @@ async function loadCircle() {
     );
   }
   const isDesktop = () => matchMedia("(min-width:901px)").matches;
-  /* ONE PANEL EVERYWHERE. About used to open its own overlay on a phone - a second scroll container
-   with its own padding, its own background and its own close - which meant every panel behaviour
-   had to be built twice, and the second copy kept being the one that was missed: the pinned
-   headings did not reach it, and when they were added there, the overlay's 26px padding let the
-   text scroll visibly through the band above them. It is the same panel now, as it always was on
-   desktop, so About inherits the pinned head, the handle, the sticky headings and the swipe.
-   #about stays in the markup purely to hold the compiled text; it is never shown. */
+
   function renderAbout() {
     panel.innerHTML = `<div class="pwrap">
     ${isDesktop() ? "" : `<div class="phead"><span class="grab" aria-hidden="true"></span><span class="phtitle"></span><button class="pclose" onclick="location.hash=''">Close</button></div>`}
@@ -2673,11 +2229,8 @@ async function loadCircle() {
     wirePanelHandle();
     showPanel();
   }
-  /* About is a modal on narrow screens and the sidebar's resting state on wide ones, so "is About
-   showing" is two different questions. Both light the header button, the way All relationships does. */
+
   function syncAbout() {
-    /* About is a route now, not an overlay's class. On desktop it is also the panel's resting state,
-     so an empty hash counts there too. */
     const h = location.hash;
     $("#btnAbout").setAttribute(
       "aria-pressed",
@@ -2692,9 +2245,7 @@ async function loadCircle() {
   function focusGraph({ person, rel }) {
     for (const e of edges) e.g.classList.remove("focus");
     for (const n of nodes) n.g.classList.remove("focus", "primary");
-    /* Selecting someone lights them AND everyone they are connected to, which is the point - but it
-     leaves no way to tell which one was actually chosen. The chosen node gets a second, offset ring
-     on top of the shared accent. */
+
     if (person) {
       const n = N.get(person);
       if (n) n.g.classList.add("focus", "primary");
@@ -2716,14 +2267,7 @@ async function loadCircle() {
     }
     svg.classList.toggle("focusing", !!(person || rel));
   }
-  /* Selecting somebody used to be safe to ignore, because every node was inside the frame. It is not
-   any more: the map opens close in on Wilde and people out at the rim start beyond the edge, so
-   searching for Makaroff or clicking through to a Le Gallienne wife would highlight a node the
-   reader cannot see and quietly look broken. Pan to them - and widen only if the pair genuinely
-   does not fit, never zooming in on its own, since an unrequested zoom change is disorienting. */
-  /* Eases the frame from where it is to where it should be. A selection that needed the view moved
-   used to arrive by cut, which reads as the map having been replaced rather than travelled across -
-   and worst on a connection, where you have just pointed at something you could already see. */
+
   let vbTween = 0;
   function stopVBTween() {
     if (vbTween) {
@@ -2756,13 +2300,7 @@ async function loadCircle() {
       else vbTween = 0;
     })();
   }
-  /* MOVES THE LEAST IT CAN. The rule that nothing moves while the selection is comfortably in frame
-   was already here; what jarred was the other branch, which re-CENTRED - so a connection with one
-   end a little past the margin was hauled into the middle of the pane, a large movement to fix a
-   small problem, and the thing you had clicked ended up somewhere you were not looking. Now the
-   frame slides just far enough to clear the margin and no further. Re-centring is kept for the one
-   case that has no smaller answer: a selection too big for the current frame, where the box has to
-   be resized and there is no "nearest edge" to slide to. */
+
   function bringIntoView(ns) {
     if (!ns.length) return;
     const m = 70;
@@ -2804,16 +2342,7 @@ async function loadCircle() {
     }
     tweenVB(x, y, w, h);
   }
-  /* FRAMES THE SEARCH RESULTS, which bringIntoView deliberately will not do. That function moves the
-   least it can, which is right for a selection you just clicked - you know where it is. A search is
-   the opposite case: the reader has no idea where the hits are, and half of them are usually off
-   the pane entirely. Three guards, all learned from watching it:
-     - a floor on the zoom (MIN_FOCUS_HALFW), so a single hit does not slam the frame down to one
-       node and lose every landmark around it;
-     - a minimum term length, because one character matches most of the roster and the frame would
-       just lurch to fit-all on the way to the second keystroke;
-     - the view before the search is remembered and tweened back to when the box is cleared, so
-       searching is not a one-way trip that leaves the reader somewhere they did not choose. */
+
   const MIN_FOCUS_HALFW = 190;
   function fitNodes(ns, ms) {
     if (!ns.length) return;
@@ -2854,9 +2383,6 @@ async function loadCircle() {
     location.hash = location.hash === "#/list" ? "" : "#/list";
   });
 
-  /* ============ about / theme / stamp ============ */
-  /* One route, both breakpoints. On desktop `` also lands on About, since that is the panel's resting
-   state, so toggling off simply returns there; on a phone it closes the sheet back to the map. */
   $("#btnAbout").addEventListener("click", () => {
     location.hash = location.hash === "#/about" ? "" : "#/about";
   });
@@ -2877,27 +2403,6 @@ async function loadCircle() {
   $("#colophon").innerHTML =
     `Updated <b>${esc(CIRCLE.built)}</b> · ${CIRCLE.people.length} people, ${RELS.length} relationships, ${vc.total} source records (${vc.ok} verified, ${vc.pend} pending verification, ${vc.pointers} pointers)`;
 
-  /* A node sitting on a line it is not an endpoint of reads as a junction, implying a connection
-   that is not in the data. tick() already pushes against that, but inside the simulation the
-   springs pull the node straight back, and with one person holding 35 connections his spokes
-   sweep the whole annulus around him - so a few nodes always settle on a line.
-
-   This is a final pass with the springs switched off: push each offender clear, then stop the
-   escape from stacking two nodes on each other, and repeat until nobody needs to move. Small
-   steps on purpose; large ones just trade one overlap for another. */
-  /* A node can end the run sitting on a line it is not an endpoint of, with nowhere local to go: the
-   escape in settleOffLines moves it a few pixels perpendicular to the nearest line, which inside a
-   hub's spoke fan just trades one line for another. Measured on Atkins, who sat 6px off
-   ives--wilde: relaxing him from there under the solver's own forces lands him at (650,498), still
-   8px from a line, while relaxing him from the open ground below Ross lands him at (886,372) and
-   holds - 71px clear, and at LOWER net force (3.2 against 23.5). So the better position exists and
-   the solver simply cannot walk to it downhill.
-
-   This gives it a way to jump. For each node still on a line, try discrete positions on rings
-   around its anchor - the partner it is actually tethered to - and take the best that is clear.
-   The move is accepted only if the whole drawing improves: fewer nodes on lines, no new node
-   overlaps. A candidate teleport with a global accept test cannot make things worse, which is what
-   lets it be tried at all after three failed attempts at solving this with forces. */
   function nodeLineClearance(n, skip) {
     let m = Infinity;
     for (const e of edges) {
@@ -2985,19 +2490,7 @@ async function loadCircle() {
       }
     }
   }
-  /* EVERY SATELLITE COMPONENT ON THIS MAP IS A TREE, AND A TREE CAN ALWAYS BE DRAWN WITHOUT A SINGLE
-   CROSSING. The force solver does not know that - it treats a detached household as just more nodes
-   to relax - so Hall's seven people came out carrying 2 of the drawing's 6 crossings: a third of
-   them, in 6% of the roster. Counted per component: the 82-person main web had 3, Hall's household
-   2, and 1 fell between components.
 
-   So each satellite is laid out exactly instead of approximately. Standard radial tree: angular
-   slots shared out by how many leaves hang below each node, radius by depth, rooted at the busiest
-   person. Sixteen rotations are tried and the best kept, because the tree's own shape is
-   crossing-free at any angle but its placement against the REST of the drawing is not. The
-   arrangement is accepted only if the whole drawing improves - the same test rescueOnLines uses.
-   Deliberately NOT applied to the main component: it is not a tree, it has cycles, and forcing a
-   tree layout on it would misrepresent the graph. */
   function countCrossings() {
     let c = 0;
     const side = (ax, ay, bx, by, cx, cy) =>
@@ -3015,9 +2508,7 @@ async function loadCircle() {
       }
     return c;
   }
-  /* The length actually DRAWN, which is what a reader sees - the same trims render() applies, so this
-   cannot drift from the picture. Centre-to-centre would count the two discs and the name, none of
-   which carry any dashes. */
+
   function drawnLen(e) {
     const dx = e.b.x - e.a.x,
       dy = e.b.y - e.a.y,
@@ -3035,12 +2526,7 @@ async function loadCircle() {
       trimPastLabel(tgt, -sx, -sy, tgt.r + (arrow ? 11 : 0))
     );
   }
-  /* Push the ends of any too-short connection apart until its drawn line clears MIN_EDGE. The busier
-   person moves LESS: hauling Wilde a few pixels drags thirty-five spokes with him, while moving the
-   leaf on the other end costs nothing, so the correction is split in inverse proportion to degree.
-   Node separation is re-run each round so a spreading edge cannot stack two people on each other,
-   and the whole pass is reverted if it makes the drawing worse - legibility of one connection is
-   not worth a crossing somewhere else. */
+
   function spreadShortEdges() {
     const was = { c: countCrossings(), o: countOverlaps(), l: countOnLines() };
     const snap = nodes.map((n) => [n.x, n.y]);
@@ -3209,38 +2695,7 @@ async function loadCircle() {
       }
     }
   }
-  /* COMPONENT PACKING, borrowed in spirit from ELK's DisCo rather than by importing it. DisCo's
-   insight is that disconnected components should be laid out INDEPENDENTLY and then packed as whole
-   objects, because nothing about component A's internal arrangement should be decided by component
-   B. Here the territories are handed out before the solve runs, from a fixed table of slots, so a
-   satellite that grows during relaxation can end up sitting on its neighbour - which is where the
-   one remaining crossing BETWEEN components came from.
 
-   This separates them afterwards as rigid bodies: bounding boxes including labels, pushed apart
-   along the axis of least overlap, main component held still. A rigid translation cannot create a
-   crossing inside a component, so the tree layouts above stay exact.
-
-   IT IS DONE WITH AN OCCUPANCY GRID, WHICH IS DISCO'S POLYOMINO IDEA AND NOT A BOUNDING BOX. That
-   distinction turned out to be the whole ballgame. A first version separated bounding rectangles
-   and measured fine - no overlaps, gaps of 66 to 270 units - but LOOKED wrong, with Vernon Lee,
-   Ashton and the Michael Field women flung to the far edges. The reason: this web is a radial star,
-   so its bounding box is 1745 x 2388 and mostly EMPTY, and "outside the rectangle" means out in the
-   corners of that emptiness, a thousand units from Wilde. A rectangle is a terrible model of a star.
-
-   So each component is rasterised into cells it actually occupies - nodes AND the lines between
-   them, since a satellite dropped across a long spoke would make a crossing - and every satellite
-   is then placed at the position CLOSEST TO WILDE where its own silhouette fits into the gaps of
-   everything already placed. Big components go first, because they are the hardest to fit. */
-  /* A CONNECTION HAS TO BE LONG ENOUGH TO READ ITS OWN LINE STYLE. The style is the whole point of
-   the drawing - it is how the map says what the evidence is - and a stub of line cannot carry it:
-   at 24px the Douglas-Schwabe connection showed a single mark and could have been any class at all.
-   The bar comes from the dash patterns themselves. Attraction expressed cycles `2 4 8 4`, an
-   18-unit period, and loses its last 11 units to the arrowhead; second-hand is `7 5`, a 12-unit
-   period; uncorroborated `1.5 6`; married draws two parallel strokes that need room to read as two.
-   58px of DRAWN line - after both nodes and any label are trimmed away, not centre to centre - buys
-   at least three full periods of the coarsest pattern, which is the point where a reader can name
-   the style without counting. Measured before the pass: the shortest edge in each class ran 24, 37,
-   40, 42 and 62. */
   const MIN_EDGE = 58;
   const PACK_CELL = 52;
   function packComponents() {
@@ -3261,8 +2716,7 @@ async function loadCircle() {
       if (!cedges.has(ci)) cedges.set(ci, []);
       cedges.get(ci).push(e);
     }
-    /* The cells one component covers: each node's disc plus its name, and every line walked at
-     half-cell steps so a long thin spoke is not invisible to the packer. */
+
     const cellsOf = (ci) => {
       const s = new Set();
       for (const n of members.get(ci) || []) {
@@ -3301,7 +2755,7 @@ async function loadCircle() {
     const hub = N.get("wilde") || ms[0];
     if (!hub) return;
     const [hi, hj] = cellOf(hub.x, hub.y);
-    /* Candidate anchor cells, nearest to Wilde first. Ordered once and reused for every component. */
+
     const cand = [];
     for (let i = -46; i <= 46; i++)
       for (let j = -46; j <= 46; j++)
@@ -3369,9 +2823,7 @@ async function loadCircle() {
           }
         }
         if (!ax && !ay) continue;
-        /* named `mag`, not `m`: this block also iterates nodes, and a `for(const m of nodes)` added
-         beside a block-scoped `const m` here is a trap - the shadowing is legal, reads as a bug,
-         and cost an afternoon once. */
+
         const mag = Math.hypot(ax, ay);
         if (mag > worst) worst = mag;
         const step = Math.min(mag, 3.5) / mag;
@@ -3397,54 +2849,24 @@ async function loadCircle() {
     }
   }
 
-  /* ============ boot ============ */
   if (!CIRCLE.people.length) $("#emptymsg").hidden = false;
   applyVB();
-  /* Open in the settled arrangement. Cooling from alpha=1 on screen took ~245 ticks - about four
-   seconds of nodes shuffling into place, which read as jitter rather than as information. The
-   solver now runs to rest BEFORE the first paint, so the graph appears already composed.
-   The stop condition is the animation loop's own, so the result is the identical layout, just
-   not watched. (Do not swap this for a fixed tick count: `alpha` decrements unconditionally in
-   tick(), so overrunning drives it negative and starts inverting the forces.) */
+
   while (alpha > SIM.ALPHA_MIN) tick();
   settleOffLines(220);
   rescueOnLines();
   settleOffLines(60); // let the neighbours of anyone moved settle again
   treeLayoutSatellites(); // detached households are trees: draw them exactly, not approximately
   settleOffLines(40);
-  /* Spreading runs LAST of the passes that move individual nodes. It used to run before a final
-   settle, and the settle pulled two connections back under the bar - the pass has its own node
-   separation and its own revert test, so it needs nothing after it. Packing is safe to follow
-   because it translates whole components rigidly and cannot change a drawn length. */
+
   spreadShortEdges(); // no connection too short to read its own line style
   packComponents(); // then pack the components into each other's gaps, DisCo-fashion
-  /* THE COMPOSED POSITION, remembered. Everything above this line is what makes the drawing worth
-   reading - 3 crossings, one node touching a line, no connection under 58px - and NONE of it is
-   the force solver's own resting state: the solver ran cold first, and then five deterministic
-   passes moved nodes and translated whole components into each other's gaps. The solver has never
-   seen this arrangement and does not agree with it, which is why waking it up used to take the
-   drawing apart. Keeping each node's finished position is what lets a nudged node be put back. */
+
   for (const n of nodes) {
     n.cx = n.x;
     n.cy = n.y;
   }
-  /* A second rescue round was tried at 110 people and found nothing - the three nodes still on
-   lines have no candidate position that clears a line without breaching another node's gap, so
-   the pass is genuinely out of moves rather than short of attempts. Not kept: it cost a full
-   extra sweep on every load and changed no pixel. */
 
-  /* SUPERSEDED, kept only as a note: this used to translate the finished layout so the hub landed
-   centre and then grow the viewBox around it. That did centre him, but the canvas was already
-   full to both margins, so the symmetric box came out nearly twice the width of the content and
-   the graph read as having shrunk. Centring is now done by the solver instead - see HUB above.
-
-   Original note: Put the hub in the middle of the frame. The radial seeding starts Wilde at the centre, but he has
-   far more spokes below and to the left than above, and the relaxation pass answers that pull by
-   sliding him downward - he settled about a tenth of the canvas below centre, which reads as the
-   whole web sagging. Rather than pin him (holding nodes to their seats was measured worse - see the
-   README), the finished layout is translated so he lands dead centre, and the opening viewBox is
-   then grown symmetrically about him so that nothing is pushed out of frame. The relative positions
-   the solver found are untouched. */
   function centreOnHub() {
     // no longer called
     if (!nodes.length) return;
@@ -3464,9 +2886,7 @@ async function loadCircle() {
       ex = Math.max(ex, Math.abs(n.x - W / 2) + n.r + 30);
       ey = Math.max(ey, Math.abs(n.y - H / 2) + n.r + 38); // +label below the node
     }
-    /* Build the box on the SVG element's OWN aspect, not on W:H. preserveAspectRatio letterboxes a
-     viewBox whose shape does not match the element, and a 1200x800 box inside a wide short pane
-     loses the difference as empty margin on both sides - which read as the graph having shrunk. */
+
     const rect = svg.getBoundingClientRect();
     const aspect = rect.width && rect.height ? rect.width / rect.height : W / H;
     let hw = Math.max(ex, ey * aspect),
@@ -3482,18 +2902,11 @@ async function loadCircle() {
     applyVB();
   }
 
-  /* The pane's own aspect, so a viewBox of a different shape is never letterboxed into margins that
-   read as the graph having shrunk. */
   function paneAspect() {
     const rect = svg.getBoundingClientRect();
     return rect.width && rect.height ? rect.width / rect.height : W / H;
   }
-  /* OPEN ON WILDE AT A READABLE SCALE, rather than fitting the whole web into the pane. Since the web
-   lost its walls it reaches about 2,000 units across and the same again down, and fitting that into
-   a 900px pane would put the type below legibility - the box was always really protecting the type,
-   not the layout. So the opening frame is a fixed W-wide window centred on the hub, which is the
-   same scale the map has always opened at; people out at the rim start beyond it and are reached by
-   dragging, by the wheel, or by Fit. */
+
   const OPEN_SCALE = 1.45; // how much wider than W the opening frame is; see openOnHub
   function openOnHub() {
     if (!nodes.length) return;
@@ -3508,8 +2921,6 @@ async function loadCircle() {
     vb.y = hub.y - hh;
     applyVB();
   }
-  /* Frame the whole web. Without this, a reader has no way to learn that anyone exists outside the
-   opening frame - "you can drag to find them" only works once you know there is something to find. */
   function fitAll() {
     if (!nodes.length) return;
     let x0 = Infinity,
@@ -3539,9 +2950,7 @@ async function loadCircle() {
     stopVBTween();
     fitAll();
   });
-  /* Zooms about the CENTRE OF THE PANE. The wheel and the pinch hold the point under the cursor or
-   the fingers still, because that point is what the reader is pointing at; a slider is nowhere near
-   the map, so the middle of the view is the only thing it can sensibly keep. */
+
   if (zoomRange)
     zoomRange.addEventListener("input", () => {
       stopVBTween();
@@ -3565,15 +2974,6 @@ async function loadCircle() {
   if (reduceMotion) {
     render();
   } else {
-    /* A short settle-in, so it reads as a live graph you can grab rather than a picture.
-     NOT done by reheating the solver: at rest the forces are balanced, so even alpha=0.4 moves
-     the median node about a pixel - it buys a longer pause in which nothing visibly happens.
-     Instead each node opens pulled a little toward the middle and eases out to rest.
-     NOT a uniform proportional pull: that is arithmetically a scale transform, and it reads as the
-     whole canvas zooming rather than as nodes finding their places. So the pull is broken up three
-     ways - the direction is jittered off pure radial, the distance varies per node, and each node
-     starts on its own short delay - which reads as many objects settling. Deterministic (hashed
-     from the index, no Math.random) so the opening is identical every load. */
     const SETTLE_MS = 620,
       cx = W / 2,
       cy = H / 2;
@@ -3620,9 +3020,7 @@ async function loadCircle() {
   }
   applyFilters();
   route();
-  /* a handle for the browser console and for the QA scripts in tools/ */
-  /* `parseExchange` is exported so tools/dump_turns.py can run it over the corpus and print every
-   transcript for review. Nothing in the page reads it from here. */
+
   window.circle = {
     CIRCLE,
     nodes,

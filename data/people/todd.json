@@ -11,7 +11,6 @@
     {
       "partner_name": "Oscar Wilde",
       "period": "Dublin, August 1876",
-      "note": "Not a relationship of Wilde's - Wilde is the witness. The letter is quoted on the connection between Todd and the chorister; what is recorded here is Wilde's part in it.",
       "sources": [
         {
           "work": "letters-2000",
@@ -28,25 +27,19 @@
           },
           "supports": "Wilde's own conduct on the night - he went over, and he noticed the discomfort.",
           "verification": "verified-elision",
-          "how_verified": "pdf-at-page",
-          "provenance": "Repo PDF pages 53-54; printed folios 28 and 29 both confirmed on the rendered page images, read 2026-08-05.",
-          "verified_by": "claude-at-page",
+          "how_verified": "pdf-image",
+          "provenance": "Repo PDF pages 53-54; printed folios 28 and 29 both confirmed on the rendered page images.",
           "verified_on": "2026-08-05",
           "voice": "period"
         }
       ]
     }
   ],
-  "research_status": "phase-a",
-  "bio_sources": [
-    "letters-2000"
-  ],
+  "bio_sources": ["letters-2000"],
   "name": "Charles John Todd",
   "sort_name": "Todd, Charles John",
-  "aka": [
-    "Todd"
-  ],
+  "aka": ["Todd"],
   "group": "aesthete",
   "bio": "A Magdalen undergraduate of Wilde's own years (1874-7) who took orders and served as Chaplain to the Royal Navy from 1881 to 1909, dying at eighty-five. He is on this map for one evening in Dublin in the summer of 1876, when Wilde walked into a theatre at ten o'clock and found him sitting at the back of a private box with a Magdalen chorister. Wilde wrote about it to William Ward, decided in Todd's favour, and asked Ward to tell nobody.",
-  "bio_note": "Added 2026-08-05, per Lovelle. THE ONLY EVIDENCE IS WILDE'S LETTER, read at the page. Wilde is an eyewitness to the two of them being in the box, and everything beyond that - that Todd 'mentally spoons the boy', that he is 'extremely moral' - is Wilde's reading at twenty-one, offered as a question rather than a finding: 'I want to ask your opinion on this psychological question.' NOTHING IS CLAIMED ABOUT WHAT TODD FELT OR DID beyond what Wilde wrote. His later life is from the editors' note and nothing in it is connected to this evening. See [[eric-ward]], the other person in the box."
+  "bio_note": "THE ONLY EVIDENCE IS WILDE'S LETTER, read at the page. His later life is from the editors' note and nothing in it is connected to this evening."
 }

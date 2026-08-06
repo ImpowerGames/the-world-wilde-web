@@ -1,12 +1,9 @@
 {
   "id": "holt--ives",
-  "people": [
-    "holt",
-    "ives"
-  ],
+  "people": ["holt", "ives"],
   "certainty": "self-reported",
   "certainty_status": "proposed",
-  "certainty_reasoning": "Cook states plainly that Ives shared his bed with Harold Holt ('Cubby') at the Albany, which is more explicit than the household-membership evidence behind the Bloodworth record. It stays 'alleged' on the single-source rule: Cook (2003) is the only work read that attests it, and bed-sharing in a shared bachelor household is not by itself a statement of sexual relations. Promoted to a relationship record at the editor's direction, 2026-08-03; the fuller diary basis sits in the Ives papers and in Kaplan (2005), neither yet consulted. CORROBORATION (2026-08-03): Cook returns to this household at much greater length in Queer Domesticities (2014), where he states that the Adelaide Road relationships 'possibly started sexually' before settling into something platonic, with bed-sharing continuing throughout. That sharpens the evidence but does not lift the class: it remains one historian's careful inference, and he does not assert sexual relations outright. EVIDENCE-TIER CORRECTION 2026-08-03 (): reclassified to self-reported. Cook's account of the Ives household is drawn from Ives's own 122-volume diary and his endnotes cite it by volume and date; the tier follows whose testimony underlies the claim, not whether our record happens to carry a direct quotation rather than the historian's summary of the same diary.",
+  "certainty_reasoning": "Cook states plainly that Ives shared his bed with Harold Holt ('Cubby') at the Albany, which is more explicit than the household-membership evidence behind the Bloodworth record. It stays 'alleged' on the single-source rule: Cook (2003) is the only work read that attests it, and bed-sharing in a shared bachelor household is not by itself a statement of sexual relations. CORROBORATION: Cook returns to this household at much greater length in Queer Domesticities (2014), where he states that the Adelaide Road relationships 'possibly started sexually' before settling into something platonic, with bed-sharing continuing throughout. Cook's account of the Ives household is drawn from Ives's own 122-volume diary and his endnotes cite it by volume and date; the tier follows whose testimony underlies the claim, not whether our record happens to carry a direct quotation rather than the historian's summary of the same diary.",
   "start": {
     "y": 1894,
     "label": "from 1894 (the move to E4 the Albany)"
@@ -34,9 +31,8 @@
       },
       "supports": "PROMOTED TO LEAD and QUOTE EXTENDED by the Q2 quality pass 2026-08-03. This is the only passage on this edge in which a participant speaks: Ives's diary, vol. 76, 20 January 1921, as quoted by Cook. The record previously led with Cook's narration and stopped this quotation at 'beyond all worlds beautiful', cutting the clause where Ives says what the bond gave him - 'Not exciting, but oh such a protection and sympathy, of healing to the heart's many wounds'. Ives names love, disclaims passion, and locates the value in comfort; that is the most explicit account of this relationship in his own words that survives in the sources read. THE CRUX OF THE CUBBY IDENTITY CONFLICT: Cook 2014 glosses Cubby as 'Charles Gee', where Cook 2003 p. 146 (quoted above in this record) glosses Cubby as 'Harold Holt'. Same author; neither statement carries a source note; the name 'Holt' does not appear anywhere in the 2014 book. Recorded so the conflict is visible in the record itself. Not resolved here - awaits a decision. Also carries Ives's own declaration of love for the two men and his explicit separation of love from passion.",
       "verification": "verified-elision",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF p. 112 (printed folio 101 confirmed on the rendered page), read as page image 2026-08-03.",
-      "verified_by": "agent-mechanical",
+      "how_verified": "pdf-text",
+      "provenance": "Repo PDF p. 112 (printed folio 101 confirmed on the rendered page).",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -49,9 +45,8 @@
       "evidence_date": null,
       "supports": "Bed-sharing household intimacy at the Albany, in Cook's own words",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF page 162, printed folio 146 confirmed on rendered page, read as page image 2026-08-03 (transcribed by the Ives research pass; promoted from an ives.json context engagement to a relationship record 2026-08-03).",
-      "verified_by": "agent-mechanical",
+      "how_verified": "pdf-text",
+      "provenance": "Repo PDF page 162, printed folio 146 confirmed on rendered page (transcribed by the Ives research pass; promoted from an ives.json context engagement to a relationship record 2026-08-03).",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -64,9 +59,8 @@
       "evidence_date": null,
       "supports": "Cook's own careful reading: a possible sexual beginning, a platonic settling, continued bed-sharing throughout.",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF p. 112 (printed folio 101 confirmed on the rendered page), read as page image 2026-08-03.",
-      "verified_by": "agent-mechanical",
+      "how_verified": "pdf-text",
+      "provenance": "Repo PDF p. 112 (printed folio 101 confirmed on the rendered page).",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -79,9 +73,8 @@
       "evidence_date": null,
       "supports": "A specific, dated instance of bed-sharing between Ives and Cubby, and of Ives's distress at its interruption - more concrete than the general 'sometimes his bed' of Cook 2003.",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF p. 112 (printed folio 101 confirmed on the rendered page), read as page image 2026-08-03.",
-      "verified_by": "agent-mechanical",
+      "how_verified": "pdf-text",
+      "provenance": "Repo PDF p. 112 (printed folio 101 confirmed on the rendered page).",
       "verified_on": "2026-08-03",
       "voice": "modern"
     }

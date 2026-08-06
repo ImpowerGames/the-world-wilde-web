@@ -1,12 +1,8 @@
 {
   "id": "balcombe--wilde",
-  "people": [
-    "balcombe",
-    "wilde"
-  ],
+  "people": ["balcombe", "wilde"],
   "certainty": "self-reported",
   "certainty_status": "proposed",
-  "certainty_reasoning": "A documented courtship carried by Wilde's own letters: the August 1876 'exquisitely pretty girl' he took to cathedral service (editors: 'almost certainly Florence Balcombe'), a Christmas gold cross given and reclaimed as 'a memory of two sweet years - the sweetest of all the years of my youth', formal chaperoned parting letters on her 1878 engagement, and the 1881 letter to Ellen Terry - 'She thinks I never loved her, thinks I forget. My God how could I!' The editors caption her portrait 'Wilde's first love'. No sexual claim appears in any source read; the class is the README's own exemplar for this pairing.",
   "start": {
     "y": 1876,
     "m": 8
@@ -29,15 +25,14 @@
       },
       "supports": "The participant's own naming of what the relationship was: two sweet years, 'the sweetest of all the years of my youth', and lives whose currents 'flowed too long beside one another' to leave him indifferent",
       "verification": "verified-elision",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF pages 98-99, printed folios 71 and 72 confirmed on the rendered pages, read as page images 2026-08-03. The quoted run spans the page-turn. Elisions drop the arrangements for handing the cross back (via her sister Philippa) and his remark that she had not told him of her marriage, and, at the end, the closing sentence about never meeting again and remembering her at prayer.",
-      "verified_by": "agent-mechanical",
+      "how_verified": "pdf-text",
+      "provenance": "Repo PDF pages 98-99, printed folios 71 and 72 confirmed on the rendered pages. The quoted run spans the page-turn. Elisions drop the arrangements for handing the cross back (via her sister Philippa) and his remark that she had not told him of her marriage, and, at the end, the closing sentence about never meeting again and remembering her at prayer.",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Florence Balcombe"
     },
     {
-      "quote": "I am just going out to bring an exquisitely pretty girl to afternoon service in the Cathedral.   She is just seventeen with the most perfectly beautiful face I ever saw and not a sixpence of money.   I will show you her photograph when I see you next.",
+      "quote": "I am just going out to bring an exquisitely pretty girl to afternoon service in the Cathedral. She is just seventeen with the most perfectly beautiful face I ever saw and not a sixpence of money. I will show you her photograph when I see you next.",
       "context": "Wilde to Reginald Harding, Sunday [6 August 1876], 1 Merrion Square North; italics in original; the editors' note reads 'Almost certainly Florence Balcombe' - the identification is editorial",
       "work": "letters-2000",
       "locator": "p. 29",
@@ -49,15 +44,14 @@
       },
       "supports": "The courtship's opening, August 1876 (identification of the girl as Balcombe is the editors', marked 'almost certainly')",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF page 54, printed folio 29 confirmed on rendered page, read as page image 2026-08-03.",
-      "verified_by": "agent-mechanical",
+      "how_verified": "pdf-text",
+      "provenance": "Repo PDF page 54, printed folio 29 confirmed on rendered page.",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Reginald Harding"
     },
     {
-      "quote": "The other – don't think me treacherous, Nellie – but the other please give to Florrie from yourself.   I should like to think that she was wearing something of mine the first night she comes on the stage, that anything of mine should touch her. … She thinks I never loved her, thinks I forget.   My God how could I!",
+      "quote": "The other – don't think me treacherous, Nellie – but the other please give to Florrie from yourself. I should like to think that she was wearing something of mine the first night she comes on the stage, that anything of mine should touch her. … She thinks I never loved her, thinks I forget. My God how could I!",
       "context": "Wilde to Ellen Terry, [3 January 1881], Tite Street, Chelsea - sending two flower crowns, one to be given secretly to Florence, appearing that night in The Cup at the Lyceum; italics in original",
       "work": "letters-2000",
       "locator": "p. 107",
@@ -69,15 +63,14 @@
       },
       "supports": "Wilde's retrospective avowal of having loved her, two years after the parting",
       "verification": "verified-elision",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF page 132, printed folio 107 confirmed on rendered page, read as page image 2026-08-03. Elision drops two short sentences ('Of course if you think - but you won't think she will suspect? How could she?'); full text in dossier.",
-      "verified_by": "agent-mechanical",
+      "how_verified": "pdf-text",
+      "provenance": "Repo PDF page 132, printed folio 107 confirmed on rendered page. Elision drops two short sentences ('Of course if you think - but you won't think she will suspect? How could she?'); full text in dossier.",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Ellen Terry"
     },
     {
-      "quote": "My dear Florence, Will you accept a copy of Salomé – my strange venture in a tongue that is not my own, but that I love as one loves an instrument of music on which one has not played before.   You will get it, I hope, tomorrow, and I hope you will like it.   With kind regards to Bram, believe me, always your sincere friend",
+      "quote": "My dear Florence, Will you accept a copy of Salomé – my strange venture in a tongue that is not my own, but that I love as one loves an instrument of music on which one has not played before. You will get it, I hope, tomorrow, and I hope you will like it. With kind regards to Bram, believe me, always your sincere friend",
       "context": "Wilde to Florence Balcombe Stoker, [Postmark 22 February 1893], Babbacombe Cliff; signed OSCAR WILDE; Salomé italicised in original",
       "work": "letters-2000",
       "locator": "p. 552",
@@ -89,9 +82,8 @@
       },
       "supports": "Cordial contact persisting to 1893, fifteen years after the parting",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF page 604, printed folio 552 confirmed on rendered page, read as page image 2026-08-03.",
-      "verified_by": "agent-mechanical",
+      "how_verified": "pdf-text",
+      "provenance": "Repo PDF page 604, printed folio 552 confirmed on rendered page.",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Florence Balcombe Stoker"
@@ -110,9 +102,8 @@
       },
       "supports": "The courtship at its steadiest - a year measured by a card she sent.",
       "verification": "verified-elision",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF page 93; printed folio 66 confirmed on the rendered page image, read 2026-08-06.",
-      "verified_by": "claude-at-page",
+      "how_verified": "pdf-image",
+      "provenance": "Repo PDF page 93; printed folio 66 confirmed on the rendered page image.",
       "verified_on": "2026-08-06",
       "voice": "period"
     }

@@ -2,23 +2,18 @@
   "id": "blacker",
   "name": "Carlos Blacker",
   "sort_name": "Blacker, Carlos",
-  "aka": [
-    "Carlos"
-  ],
+  "aka": ["Carlos"],
   "born": null,
   "died": null,
   "group": "later",
   "gender": "m",
   "bio": "A gentleman of independent means, linguist and friend of Wilde's from the 1880s, who stood by him for years and to whom Wilde wrote some of the warmest letters of his exile. Fifteen survive, from 1897 to 1898. Blacker was living in Freiburg with knowledge of the Dreyfus affair; the friendship later broke over it.",
-  "bio_sources": [
-    "letters-2000"
-  ],
-  "bio_note": "Added 2026-08-05, per Lovelle. NO CONNECTION LINE: the register is deep friendship between men and nothing read states or implies more. He is on the map because the letter below is one of the very few places where Wilde looks back over a long friendship and says what it was made of - conversation, dinners, laughter - and because he says he thought about him in prison. FIFTEEN LETTERS at repo PDF 961, 970, 971, 985, 986, 995, 1081, 1085, 1090 and others; ONE read at the page (printed 911, folio confirmed, 2026-08-05). DATES NOT RECORDED - the editors give none on the page read, and none is inferred. THE BREAK IS DOCUMENTED AFTER ALL, corrected 2026-08-06. This note previously said it was 'in the general literature and NOT documented on any page read here'. That was true of the pages then read and false as a description of the volume: the General Index lists folios 1085-8, and printed 1085 carries Wilde's own account - Blacker 'has behaved like a hypocritical ass to me', an accusation of an anonymous attack, 'I wrote him a very strong letter' - together with the Dreyfus entanglement the old note had relegated to hearsay. HOW THE ERROR WAS FOUND is worth keeping: the book's own index contradicted a claim in our data, which is exactly what indexing it was for. FOLIOS 1086-8 REMAIN UNREAD and carry, per the index, the accusation of cheating at cards and Blacker leaving his mistress to starve - Wilde's charges, not established facts, and they should be read before any of that is characterised.",
+  "bio_sources": ["letters-2000"],
+  "bio_note": "FIFTEEN LETTERS at repo PDF 961, 970, 971, 985, 986, 995, 1081, 1085, 1090 and others; ONE read at the page (printed 911, folios confirmed). DATES NOT RECORDED - the editors give none on the page read, and none is inferred. That was true of the pages then read and false as a description of the volume: the General Index lists folios 1085-8, and printed 1085 carries Wilde's own account - Blacker 'has behaved like a hypocritical ass to me', an accusation of an anonymous attack, 'I wrote him a very strong letter' - together with the Dreyfus entanglement the old note had relegated to hearsay.",
   "context_engagements": [
     {
       "partner_name": "Oscar Wilde",
       "period": "London and the exile, 1880s-1898",
-      "note": "Friendship, recorded without a connection line.",
       "sources": [
         {
           "work": "letters-2000",
@@ -35,9 +30,8 @@
           },
           "supports": "What Wilde thought a long friendship had been made of, and who came to Berneval.",
           "verification": "verified-elision",
-          "how_verified": "pdf-at-page",
-          "provenance": "Repo PDF page 961; printed folio 911 confirmed on the rendered page image, read 2026-08-05.",
-          "verified_by": "claude-at-page",
+          "how_verified": "pdf-image",
+          "provenance": "Repo PDF page 961; printed folio 911 confirmed on the rendered page image.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -56,14 +50,12 @@
           },
           "supports": "The break with Blacker, in Wilde's own words, and its entanglement with the Dreyfus affair.",
           "verification": "verified-elision",
-          "how_verified": "pdf-at-page",
-          "provenance": "Repo PDF page 1131; printed folio 1085 confirmed on the rendered page image, read 2026-08-06.",
-          "verified_by": "claude-at-page",
+          "how_verified": "pdf-image",
+          "provenance": "Repo PDF page 1131; printed folio 1085 confirmed on the rendered page image.",
           "verified_on": "2026-08-06",
           "voice": "period"
         }
       ]
     }
-  ],
-  "research_status": "phase-a"
+  ]
 }

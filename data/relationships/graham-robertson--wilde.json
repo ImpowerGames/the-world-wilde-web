@@ -18,7 +18,7 @@
   },
   "date_label": "Letters from December 1887 to April 1893",
   "summary": "Seven letters over five and a half years, warming from 'Dear Mr Robertson' to 'My dear Graham' and from 'Very truly yours' to 'am always yours'. Wilde asks when he will see him again, is sorry when he goes away, calls twice in three days to catch him, tells him he is made for olive-groves and meadows of white narcissi, and says he should have loved to have been with him. Robertson was twenty-one when it began and Wilde thirty-three.",
-  "certainty_reasoning": "ATTRACTION-EXPRESSED, arrow from Wilde, outcome unknown — Lovelle's call, 2026-08-05, after all seven letters were read at the page. WHAT SUPPORTS IT: the register is Wilde's aestheticising one turned on a person rather than a thing — 'your narcissus keeps you in my memory', 'You are made for olive-groves, and for meadows starred with white narcissi' — together with wanting his company plainly and repeatedly ('When shall I see you again?', 'I should have loved to have been with you', 'I am so sorry you are going away', two calls in three days), and the narcissus, which in Wilde is never only a flower. WHAT COMPLICATES IT, and is recorded rather than smoothed: Wilde's wife is present in these letters as she is not in the Sherard ones ('neither my wife or I ever go to dances'; 'I hope to have the pleasure of introducing my wife to her some day'), and the imagery is landscape rather than body — unlike Sherard's 'honey-coloured hair', nothing here describes Robertson's person directly. OUTCOME is 'unknown' because Robertson's side does not survive in this volume; he lived to 1948 and wrote a memoir, Time Was (1931), which has not been consulted and is the obvious next source. NOTHING SEXUAL IS CLAIMED, in either direction.",
+  "certainty_reasoning": "OUTCOME is 'unknown' because Robertson's side does not survive in this volume; he lived to 1948 and wrote a memoir, Time Was (1931), which has not been consulted and is the obvious next source.",
   "sources": [
     {
       "work": "letters-2000",
@@ -35,9 +35,8 @@
       },
       "supports": "The start of the correspondence, on formal terms, already eager.",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF page 359; printed folio 337 confirmed on the rendered page image, read 2026-08-05.",
-      "verified_by": "claude-at-page",
+      "how_verified": "pdf-image",
+      "provenance": "Repo PDF page 359; printed folio 337 confirmed on the rendered page image.",
       "verified_on": "2026-08-05",
       "voice": "period"
     },
@@ -54,9 +53,8 @@
       },
       "supports": "The move onto first-name terms, and the narcissus that keeps him in mind.",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF page 369; printed folio 347 confirmed on the rendered page image, read 2026-08-05.",
-      "verified_by": "claude-at-page",
+      "how_verified": "pdf-image",
+      "provenance": "Repo PDF page 369; printed folio 347 confirmed on the rendered page image.",
       "verified_on": "2026-08-05",
       "voice": "period"
     },
@@ -75,9 +73,8 @@
       },
       "supports": "Dinner at Tite Street, and a play promised for his return.",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF page 412; printed folio 390 confirmed on the rendered page image, read 2026-08-05.",
-      "verified_by": "claude-at-page",
+      "how_verified": "pdf-image",
+      "provenance": "Repo PDF page 412; printed folio 390 confirmed on the rendered page image.",
       "verified_on": "2026-08-05",
       "voice": "period"
     },
@@ -96,9 +93,8 @@
       },
       "supports": "The centre of the case: Wilde telling him what he is made for, and that he should have loved to have been with him.",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF page 420; printed folio 398 confirmed on the rendered page image, read 2026-08-05.",
-      "verified_by": "claude-at-page",
+      "how_verified": "pdf-image",
+      "provenance": "Repo PDF page 420; printed folio 398 confirmed on the rendered page image.",
       "verified_on": "2026-08-05",
       "voice": "period"
     },
@@ -116,9 +112,8 @@
       },
       "supports": "Regret at his going, and two attempts to catch him in three days.",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF page 432; printed folio 410 confirmed on the rendered page image, read 2026-08-05.",
-      "verified_by": "claude-at-page",
+      "how_verified": "pdf-image",
+      "provenance": "Repo PDF page 432; printed folio 410 confirmed on the rendered page image.",
       "verified_on": "2026-08-05",
       "voice": "period"
     },
@@ -137,9 +132,8 @@
       },
       "supports": "Five and a half years on, still 'My dear Graham' — and now 'am always yours'.",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF page 612; printed folio 560 confirmed on the rendered page image, read 2026-08-05.",
-      "verified_by": "claude-at-page",
+      "how_verified": "pdf-image",
+      "provenance": "Repo PDF page 612; printed folio 560 confirmed on the rendered page image.",
       "verified_on": "2026-08-05",
       "voice": "period"
     }

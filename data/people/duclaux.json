@@ -21,10 +21,7 @@
   "bio_sources": [
     "wikipedia-duclaux"
   ],
-  "bio_note": "Dates from Wikidata Q2354446. THE MARRIAGE YEAR IS IN CONFLICT AND IS NOT RESOLVED: Wikipedia says 1902, Wikidata's P580 qualifier says 1901, and NEITHER CARRIES A REFERENCE. 1902 is entered because it is the fuller of the two statements and sits in continuous prose, but a later pass should settle it from the ODNB entry for Mary Duclaux or from Patricia Rigg's Blackwell encyclopedia article. Note that 'Duclaux' is the name the map's own person file already carries for her in its aka list, alongside 'Mary Darmesteter'. THE EXTRACT READ GAVE THE NAME WITHOUT ITS ACCENT, as 'Emile Duclaux'. The accented form is the standard one for the Pasteur Institute's second director and is used as the node name here; the ASCII form the source gave is kept in aka. The QUOTATION IS UNCHANGED and still reads 'Emile' - a transcription is not silently corrected.",
+  "bio_note": "THE MARRIAGE YEAR IS IN CONFLICT AND IS NOT RESOLVED: Wikipedia says 1902, Wikidata's P580 qualifier says 1901, and NEITHER CARRIES A REFERENCE. 1902 is entered because it is the fuller of the two statements and sits in continuous prose, but a later pass should settle it from the ODNB entry for Mary Duclaux or from Patricia Rigg's Blackwell encyclopedia article.",
   "context_engagements": [],
-  "research_status": "phase-a",
-  "wikidata": null,
-  "wikipedia": null,
-  "roster_note": "Added 2026-08-05 in the pass that put every spouse and every off-roster person on the map."
+  "wikipedia": null
 }

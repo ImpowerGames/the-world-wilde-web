@@ -1,9 +1,6 @@
 {
   "id": "brooks--ellingham-brooks",
-  "people": [
-    "brooks",
-    "ellingham-brooks"
-  ],
+  "people": ["brooks", "ellingham-brooks"],
   "certainty": "married",
   "certainty_status": "proposed",
   "start": {
@@ -14,7 +11,6 @@
   "end": null,
   "date_label": "Married 13 June 1903; she left within weeks",
   "summary": "A marriage of convenience between two queer people. Romaine Brooks wanted a name of her own and protection from importunate men; he wanted an income and his debts paid. She recorded it in her diary in a single word — 'Married' — and within weeks could not tolerate his company, disliking his habits, his manners, his boyfriends and the smell of his tobacco. She kept the surname for the rest of her life.",
-  "certainty_reasoning": "MARRIED: a legal marriage with a date. The class describes the legal fact and makes no claim about the nature of the attachment — which is the point here, since the sources describe an arrangement neither party wanted for its own sake.",
   "sources": [
     {
       "work": "souhami-2004",
@@ -29,9 +25,8 @@
       },
       "supports": "The marriage, its date, and what each of them wanted from it.",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF page 147; printed folio 113 confirmed on the rendered page image, read 2026-08-05.",
-      "verified_by": "claude-at-page",
+      "how_verified": "pdf-image",
+      "provenance": "Repo PDF page 147; printed folio 113 confirmed on the rendered page image.",
       "verified_on": "2026-08-05",
       "voice": "modern"
     },
@@ -46,9 +41,8 @@
       },
       "supports": "How quickly the marriage failed, and that it was a marriage between two queer people rather than a heterosexual union she left.",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF page 147; printed folio 113 confirmed on the rendered page image, read 2026-08-05.",
-      "verified_by": "claude-at-page",
+      "how_verified": "pdf-image",
+      "provenance": "Repo PDF page 147; printed folio 113 confirmed on the rendered page image.",
       "verified_on": "2026-08-05",
       "voice": "modern"
     }

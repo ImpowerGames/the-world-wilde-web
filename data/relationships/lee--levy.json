@@ -1,14 +1,10 @@
 {
   "id": "lee--levy",
-  "people": [
-    "lee",
-    "levy"
-  ],
+  "people": ["lee", "levy"],
   "certainty": "attraction-expressed",
   "certainty_status": "proposed",
   "direction": "levy",
   "outcome": "unreciprocated",
-  "certainty_reasoning": "One-sided and documented as such. Levy's own poems addressed to Lee are the vehicle of the desire - her biographer Linda Hunt Beckman, writing the Shalvi/Hyman encyclopedia entry, calls them 'love poems' and adds that 'in letters Levy expressed her admiration' - so the desire clears the README's bar twice over: it is legible as desire to a reader without the coding hypothesis, and a scholarly source reads it that way. Direction is Levy's. Outcome 'unreciprocated' rather than 'declined' because no refusal by Lee is on record: Diniejko states that Levy 'never experienced a requited love attachment with any of the women to whom she was attracted', which is an absence of reciprocation, not a documented rebuff. Diniejko also flags that Levy's sexuality 'remains a point of contention among scholars', and that caveat is part of the record here. This is not classified as self-reported because the class is attraction-expressed, which the README treats as its own category rather than a certainty tier.",
   "start": {
     "y": 1886
   },
@@ -31,7 +27,6 @@
       "verification": "verified-exact",
       "how_verified": "web",
       "provenance": "https://jwa.org/encyclopedia/article/levy-amy fetched (curl) and read in full 2026-08-03; quote sliced byte-exact from the downloaded HTML, then whitespace artifacts introduced by stripping inline markup (spaces around quotation marks, italic titles and punctuation) normalized to the printed reading.",
-      "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -48,7 +43,6 @@
       "verification": "verified-exact",
       "how_verified": "web",
       "provenance": "https://victorianweb.org/authors/levy/bio.html fetched (curl) and read in full 2026-08-03; quote sliced byte-exact from the downloaded HTML, then whitespace artifacts introduced by stripping inline markup (spaces around quotation marks, italic titles and punctuation) normalized to the printed reading.",
-      "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -63,9 +57,8 @@
       },
       "supports": "Levy's professional tie to Wilde and the manner of her death, which sets the end of this record; her dates as Wilde's editors give them (superseded on the birth year).",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
+      "how_verified": "pdf-text",
       "provenance": "Repo PDF p. 348 read as a rendered page image 2026-08-03; printed folio 326 confirmed on the image.",
-      "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -80,9 +73,8 @@
       },
       "supports": "Levy's letters to and about Vernon Lee, in her own words.",
       "verification": "verified-elision",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF pages 138-139, printed folios 120 and 121 confirmed in the running heads on the rendered pages, read as page images 2026-08-03. The ellipsis spans the page break and an intervening quotation from Irene Cooper Willis.",
-      "verified_by": "agent-mechanical",
+      "how_verified": "pdf-text",
+      "provenance": "Repo PDF pages 138-139, printed folios 120 and 121 confirmed in the running heads on the rendered pages. The ellipsis spans the page break and an intervening quotation from Irene Cooper Willis.",
       "verified_on": "2026-08-03",
       "voice": "modern"
     }

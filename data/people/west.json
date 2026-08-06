@@ -11,10 +11,7 @@
   "bio_sources": [
     "sox-1991"
   ],
-  "bio_note": "Transcription and provenance reused unchanged from the context_engagement on warren.json, where he was held off-roster until 2026-08-05. Sox pp. 38-39, read as rendered page images 2026-08-03. The quotation is marked verified-elision: the elision drops Warren's worry about appearing to be 'a rich man travelling with a friend when he was in reality accepting both salary and hospitality'.",
+  "bio_note": "Sox pp. 38-39, read as rendered page images 2026-08-03.",
   "context_engagements": [],
-  "research_status": "phase-a",
-  "wikidata": null,
-  "wikipedia": null,
-  "roster_note": "Promoted from an off-roster context_engagement on warren.json, 2026-08-05, in the pass that put every off-roster person on the map. The sources moved with him unchanged."
+  "wikipedia": null
 }

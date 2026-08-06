@@ -1,14 +1,10 @@
 {
   "id": "lawley--wilde",
-  "people": [
-    "lawley",
-    "wilde"
-  ],
+  "people": ["lawley", "wilde"],
   "certainty": "attraction-expressed",
   "certainty_status": "proposed",
   "direction": "wilde",
   "outcome": "unknown",
-  "certainty_reasoning": "**The faintest connection on the map, and it is recorded as faint.** One postscript survives. Wilde remembers him warmly, generalises admiringly about soldiers being \"neat, and smart\", and exerts himself to get him a place. The admiration in the sentence attaches to soldiers as a class rather than to Lawley in particular, which is the honest reading and is why nothing stronger is claimed. The editors are not even certain of his name. He is here on the principle that a man Wilde troubled to write about should not be absent from a map that records everyone else Wilde wrote about, and the reader can see exactly how little sits under it. On the class. `attraction-expressed` records that **the surviving record is one-sided** - Wilde's letter survives and the other man's does not - and since August 2026 its bar is attraction legible to an ordinary reader rather than an approach or a declaration. That widening is what lets this person onto the map at all. It is a statement about the paper, not about what either man felt or did.",
   "start": {
     "y": 1895
   },
@@ -30,9 +26,8 @@
       },
       "supports": "That the man existed, that Wilde thought well of him, and how little else the record kept.",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
+      "how_verified": "pdf-text",
       "provenance": "Repo PDF p. 947 read as a rendered page image 2026-08-04; printed folio 897 confirmed at the foot of the image. Located first in the complete OCR mirror, which locates only. Superscript note markers omitted as typography.",
-      "verified_by": "agent-mechanical",
       "verified_on": "2026-08-04",
       "speaker": "Oscar Wilde",
       "voice": "period"

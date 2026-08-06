@@ -8,15 +8,12 @@
   "group": "later",
   "gender": "m",
   "bio": "Editor of The Adult, a magazine promoting freedom in sexual relations outside marriage, and secretary of the Legitimation League, which campaigned for the legal recognition of children born out of wedlock. In 1898 he published Havelock Ellis's Sexual Inversion - the first English study of homosexuality - at his Watford University Press, and on 31 May that year he was arrested for selling a copy of it to a plain-clothes policeman. Ten weeks earlier he had sent Wilde a bound edition of his essays and a Salomé illustrated by Max Beerbohm, and Wilde had written back to thank him.",
-  "bio_sources": [
-    "letters-2000"
-  ],
-  "bio_note": "Added 2026-08-06, found in the volume's General Index at printed 1239 and read at the page the same hour. NO CONNECTION LINE: one letter, courteous and grateful, and nothing states or implies attraction. HE IS ON THIS MAP FOR THE COLLISION OF DATES. Wilde wrote to him on 15 March 1898. Bedborough reviewed The Ballad sympathetically in the April number of The Adult, ending with the hope that Wilde's next song would be 'signed with the old familiar name' - a public call for Wilde to write under his own name again, made while Wilde was living in Paris as Sebastian Melmoth. On 31 May he was arrested for selling Sexual Inversion. THE PROSECUTION IS THE POINT: it is the case that established in England that a scientific study of homosexuality could be handled as obscenity, and it drove Havelock Ellis to publish in America thereafter. This map already holds three suppressions from the same decade - Pater's withdrawn Conclusion, Mahaffy's deleted chapter, Gide's torn-out journal - and Wilde's own suppressed dedication to [[ross]]. Bedborough is the fifth, and the only one where the state did the suppressing. WHAT IS NOT ASSERTED: nothing here says Wilde knew what Bedborough was publishing, or that the two men ever met - Wilde writes 'I do hope to see you', which suggests they had not. NOT YET READ: the Legitimation League and Sexual Inversion material lies outside this volume.",
+  "bio_sources": ["letters-2000"],
+  "bio_note": "found in the volume's General Index at printed 1239 and read at the page the same hour. NOT YET READ: the Legitimation League and Sexual Inversion material lies outside this volume.",
   "context_engagements": [
     {
       "partner_name": "Oscar Wilde",
       "period": "Paris and London, March 1898",
-      "note": "One letter, quoted whole, recorded without a connection line.",
       "sources": [
         {
           "work": "letters-2000",
@@ -33,14 +30,12 @@
           },
           "supports": "The whole of the correspondence, ten weeks before Bedborough's arrest.",
           "verification": "verified-exact",
-          "how_verified": "pdf-at-page",
-          "provenance": "Repo PDF page 1083; printed folio 1037 confirmed on the rendered page image, read 2026-08-06.",
-          "verified_by": "claude-at-page",
+          "how_verified": "pdf-image",
+          "provenance": "Repo PDF page 1083; printed folio 1037 confirmed on the rendered page image.",
           "verified_on": "2026-08-06",
           "voice": "period"
         }
       ]
     }
-  ],
-  "research_status": "phase-a"
+  ]
 }

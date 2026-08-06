@@ -1,12 +1,8 @@
 {
   "id": "bliss--marshall",
-  "people": [
-    "bliss",
-    "marshall"
-  ],
+  "people": ["bliss", "marshall"],
   "certainty": "married",
   "certainty_status": "proposed",
-  "certainty_reasoning": "Married, and the strongest-sourced marriage added in this pass: a book on disk about this exact household, read at the printed page with the folio confirmed on the image, and independent of anything on the web. Sox writes from the Warren-Marshall correspondence and from Fothergill's unpublished memoirs, and Fothergill is himself on this map - the judgement that she 'courted Ned and Marshall, either of which she was well prepared to marry' is his, from inside the house.",
   "start": {
     "y": 1907,
     "m": 11,
@@ -31,9 +27,8 @@
       },
       "supports": "The marriage date",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF page 92, printed folio 76 confirmed on rendered page, read as page image 2026-08-03.",
-      "verified_by": "agent-mechanical",
+      "how_verified": "pdf-text",
+      "provenance": "Repo PDF page 92, printed folio 76 confirmed on rendered page.",
       "verified_on": "2026-08-03",
       "voice": "modern"
     }

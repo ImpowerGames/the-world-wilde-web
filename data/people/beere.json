@@ -2,17 +2,12 @@
   "id": "beere",
   "born": null,
   "died": null,
-  "aka": [
-    "Bernie"
-  ],
-  "bio_sources": [
-    "letters-2000"
-  ],
+  "aka": ["Bernie"],
+  "bio_sources": ["letters-2000"],
   "context_engagements": [
     {
       "partner_name": "Oscar Wilde",
       "period": "London and Berneval, 1880-1897",
-      "note": "Friendship, recorded without a connection line. Quoted whole.",
       "sources": [
         {
           "work": "letters-2000",
@@ -29,20 +24,18 @@
           },
           "supports": "One of the first friends written to after prison, and the alias entrusted to her.",
           "verification": "verified-exact",
-          "how_verified": "pdf-at-page",
-          "provenance": "Repo PDF page 925; printed folio 875 confirmed on the rendered page image, read 2026-08-06.",
-          "verified_by": "claude-at-page",
+          "how_verified": "pdf-image",
+          "provenance": "Repo PDF page 925; printed folio 875 confirmed on the rendered page image.",
           "verified_on": "2026-08-06",
           "voice": "period"
         }
       ]
     }
   ],
-  "research_status": "phase-a",
   "name": "Mrs Bernard Beere",
   "sort_name": "Beere, Mrs Bernard",
   "group": "society",
   "gender": "f",
   "bio": "Actress, and one of Wilde's oldest theatrical friends - she created Mrs Arbuthnot in A Woman of No Importance. Nine of Wilde's letters to her survive, running from 1880 to 1897. The last of them was written from Berneval a fortnight after he came out of prison, and he signed it with his new name and asked her to keep it a secret.",
-  "bio_note": "Added 2026-08-06. **SHE WAS NOT ON ANY FLAGGED LIST.** She is here because the folio was read whole rather than mined for Dalhousie Young, the name that sent me to it - which is the entire argument for the page being the unit of reading. NO CONNECTION LINE: the register is long affectionate friendship between a writer and an actress, and nothing states or implies more. NINE LETTERS at printed 152, 161, 330, 416, 590, 592, 631, 846 and 875; ONE read at the page (2026-08-06). THE LETTER BELOW IS A POST-PRISON ONE and belongs with the small group of people who were written to as friends that summer - [[leverson]], [[laurence-housman]], [[blacker]], [[dalhousie-young]]."
+  "bio_note": "NINE LETTERS at printed 152, 161, 330, 416, 590, 592, 631, 846 and 875; ONE read at the page."
 }

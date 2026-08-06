@@ -1,14 +1,11 @@
 {
   "id": "georges--wilde",
-  "people": [
-    "georges",
-    "wilde"
-  ],
+  "people": ["georges", "wilde"],
   "certainty": "attraction-expressed",
+  "certainty_status": "proposed",
   "direction": "wilde",
   "outcome": "unknown",
-  "certainty_status": "proposed",
-  "certainty_reasoning": "The page gives an existing acquaintance ('A great friend of mine, a Paris boy called le petit Georges'), an arranged meeting Wilde has undertaken to keep ('I have promised to run over and see him'), and four clauses of physical praise. That is the same shape as rolla--wilde, which the corpus already classes attraction-expressed - a man written to or promised in advance, described, and looked forward to, with nothing recorded of what happened - and it is classed the same way here for consistency as well as on its merits. Against the README bar, a reader who does not hold the coding hypothesis reads an older man promising to travel to see a beautiful young man and dwelling on his face; the desire is legible without the hypothesis, though the reading is this project's and no scholarly source was consulted. romantic-nonsexual was weighed: 'a great friend of mine' and the promise do imply contact from Georges's side, which is more mutuality than the rest of this tier offers. It was rejected because every expression of feeling on the page is Wilde's, because 'friend' is not documented courtship, and because the class displays as 'Romantic'. documented-sexual is unavailable - no first-person statement of sexual relations appears. Recorded exactly and without gloss, because it bears on how the connection should be read: Wilde says Georges 'is visiting Nice on speculative business', and the paragraph continues, on the following printed page, with a remark about combining romance with business; that continuation was not read in the source and is carried below as a pointer. Whether Georges was selling sex is not stated on the page read, and no such finding is entered here. Standing caveat for this tier: the record is one-sided by nature. These men left no papers; everything known is what Wilde wrote to a friend. An unrecorded outcome is not evidence of no outcome - here Wilde states an intention to go to Nice, and no letter read says whether he and Georges met. SECOND PAGE ADDED 2026-08-05: printed 1108, read at the page, puts the same boy in Paris three weeks earlier - 'One beautiful boy of bad character - of the name of Georges … so like Antinous'. The editors' index ties the two pages to one person. This does not change the certainty class; it doubles the evidence for it and shows the acquaintance predated the Nice meeting Wilde had 'promised' to keep.",
+  "certainty_reasoning": "SECOND PAGE ADDED 2026-08-05: printed 1108, read at the page, puts the same boy in Paris three weeks earlier - 'One beautiful boy of bad character - of the name of Georges … so like Antinous'.",
   "start": {
     "y": 1899,
     "m": 1
@@ -34,9 +31,8 @@
       },
       "supports": "That Wilde knew him in Paris before Nice, and how he described him to a correspondent other than Turner.",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
+      "how_verified": "pdf-image",
       "provenance": "Repo PDF page 1154; printed folio 1108 confirmed on the rendered page image. The editors' index entry confirmed on the rendered page image of PDF 1292. Both read 2026-08-05.",
-      "verified_by": "claude-at-page",
       "verified_on": "2026-08-05",
       "voice": "period"
     },
@@ -53,9 +49,8 @@
       },
       "supports": "The whole of the verified record: an existing friendship, a promised meeting at Nice, Wilde's description of him, and the statement that he was at Nice on speculative business; no outcome recorded",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF page 1163, printed folio 1117 confirmed at the foot of the rendered page, read as page image 2026-08-03.",
-      "verified_by": "agent-mechanical",
+      "how_verified": "pdf-text",
+      "provenance": "Repo PDF page 1163, printed folio 1117 confirmed at the foot of the rendered page.",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Reginald Turner"
@@ -73,9 +68,8 @@
       },
       "supports": "How Wilde glosses Georges's 'speculative business' at Nice - the sentence completes on the following page and bears directly on how the connection should be read",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF pages 1163-1164, printed folios 1117 and 1118 read off the rendered pages; 'le petit Georges' is italic in the printed text., read as a page image 2026-08-03.",
-      "verified_by": "agent-mechanical",
+      "how_verified": "pdf-text",
+      "provenance": "Repo PDF pages 1163-1164, printed folios 1117 and 1118 read off the rendered pages; 'le petit Georges' is italic in the printed text.",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Reginald Turner"

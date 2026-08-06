@@ -11,7 +11,6 @@
     {
       "partner_name": "Oscar Wilde",
       "period": "Read but apparently never met, 1876",
-      "note": "Recorded without a connection line, and on a single sentence.",
       "sources": [
         {
           "work": "letters-2000",
@@ -28,25 +27,19 @@
           },
           "supports": "That Wilde was reading Symonds closely at twenty-one, and that what he wrote about him did not survive into print.",
           "verification": "verified-exact",
-          "how_verified": "pdf-at-page",
-          "provenance": "Repo PDF page 56; printed folio 31 confirmed on the rendered page image, read 2026-08-05.",
-          "verified_by": "claude-at-page",
+          "how_verified": "pdf-image",
+          "provenance": "Repo PDF page 56; printed folio 31 confirmed on the rendered page image.",
           "verified_on": "2026-08-05",
           "voice": "period"
         }
       ]
     }
   ],
-  "research_status": "phase-a",
-  "bio_sources": [
-    "letters-2000"
-  ],
+  "bio_sources": ["letters-2000"],
   "name": "John Addington Symonds",
   "sort_name": "Symonds, John Addington",
-  "aka": [
-    "Symonds"
-  ],
+  "aka": ["Symonds"],
   "group": "aesthete",
   "bio": "Writer and cultural historian (1840-93), author of Studies of the Greek Poets and, privately, of A Problem in Greek Ethics - one of the earliest sustained defences of homosexuality written in English. In the summer of 1876 Wilde, then twenty-one, was writing a review of Studies of the Greek Poets between fishing trips in Connemara. The review was never published.",
-  "bio_note": "Added 2026-08-05, per Lovelle, from the parked list. NO CONNECTION LINE and none is suggested - there is no evidence in this volume that the two men ever met. THE EVIDENCE IS ONE SENTENCE, read at the page, plus the editors' identification of the book and their statement that the review went unpublished. THAT IS THIN, and it is said plainly rather than dressed up: he is on the map because a twenty-one-year-old Wilde was reading and reviewing the period's most important homosexual apologist at exactly the moment he was also writing the Todd letter, and because his absence from a map of this circle would be stranger than his presence. WHAT WOULD MAKE THIS FIRMER: the review text itself, which has not been consulted, and Symonds's own Memoirs and letters, which are outside this volume. NOTHING IS ASSERTED about what Wilde thought of the book beyond that he liked working on it."
+  "bio_note": "THE EVIDENCE IS ONE SENTENCE, read at the page, plus the editors' identification of the book and their statement that the review went unpublished. WHAT WOULD MAKE THIS FIRMER: the review text itself, which has not been consulted, and Symonds's own Memoirs and letters, which are outside this volume."
 }

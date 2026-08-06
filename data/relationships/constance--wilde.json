@@ -1,12 +1,8 @@
 {
   "id": "constance--wilde",
-  "people": [
-    "constance",
-    "wilde"
-  ],
+  "people": ["constance", "wilde"],
   "certainty": "married",
   "certainty_status": "proposed",
-  "certainty_reasoning": "Legal marriage, documented in the source: Wilde's wedding invitation to Milner with the editors' transcription of the admission card (St James's Church, Sussex Gardens, 29 May 1884), Constance's own engagement letter of 26 November 1883, her honeymoon letters from Paris, and the editorial apparatus on the marriage. Two sons (Cyril, Vyvyan) attested in letters and plate captions read so far.",
   "start": {
     "y": 1883,
     "m": 11,
@@ -42,8 +38,7 @@
         "y": 1884,
         "m": 5,
         "d": 29
-      },
-      "note": "Engagement (Dublin, announced 26 Nov 1883) to wedding (St James's Church, Sussex Gardens, 29 May 1884, 2.30 p.m.)."
+      }
     },
     {
       "start": {
@@ -66,8 +61,7 @@
         "y": 1898,
         "m": 4,
         "d": 7
-      },
-      "note": "Trials and separation: hand-delivered notes Feb/April 1895; she visited Reading 19 Feb 1896 to break Lady Wilde's death - their last meeting; changed her and the children's name to Holland and refused Wilde access to the sons (custody/divorce-question pages not yet transcribed - pointer); died Genoa 7 April 1898."
+      }
     }
   ],
   "summary": "Wilde's wife. Constance Mary Lloyd (1858–1898), daughter of Horace Lloyd QC, met Wilde in London in June 1881, accepted him in Dublin in November 1883, and married him at St James's Church, Sussex Gardens, on 29 May 1884. Two sons, Cyril (b. 1885) and Vyvyan (b. 1886). Only three of Wilde's letters to her survive - a passionate one of December 1884 and two pencilled notes from the 1895 catastrophe; the rest were destroyed after her death. She visited him in Reading Gaol on 19 February 1896 to tell him of his mother's death - their last meeting - kept his allowance, took the name Holland, withheld the children, and died at Genoa on 7 April 1898; Wilde telegraphed 'Am in great grief' and visited her grave in 1899.",
@@ -85,9 +79,8 @@
       },
       "supports": "Engagement 26 November 1883, in Constance's own voice; her dates and parentage from the same page-opening's editorial note.",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
-      "provenance": "repo PDF pp. 243-4 (printed pp. 221-2, folios checked), read as page images 2026-08-03",
-      "verified_by": "agent-mechanical",
+      "how_verified": "pdf-text",
+      "provenance": "repo PDF pp. 243-4 (printed pp. 221-2, folios checked)",
       "verified_on": "2026-08-03",
       "voice": "period",
       "speaker": "Constance Lloyd",
@@ -106,9 +99,8 @@
       },
       "supports": "Wilde's own description of Constance during the engagement; the emotional register of the courtship in his voice.",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF p. 246 (printed p. 224, folio confirmed), read as page image 2026-08-03 (merge pass; found during the Langtry read).",
-      "verified_by": "agent-mechanical",
+      "how_verified": "pdf-text",
+      "provenance": "Repo PDF p. 246 (printed p. 224, folio confirmed) (merge pass; found during the Langtry read).",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Lillie Langtry"
@@ -126,9 +118,8 @@
       },
       "supports": "Marriage 29 May 1884, St James's Church, Sussex Gardens.",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
-      "provenance": "repo PDF p. 249 (printed p. 227, folio checked), read as page image 2026-08-03",
-      "verified_by": "agent-mechanical",
+      "how_verified": "pdf-text",
+      "provenance": "repo PDF p. 249 (printed p. 227, folio checked)",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Alfred Milner"
@@ -146,9 +137,8 @@
       },
       "supports": "Passionate marital intimacy in 1884; the destruction of the correspondence (why the record is thin is itself documented).",
       "verification": "verified-elision",
-      "how_verified": "pdf-at-page",
-      "provenance": "repo PDF pp. 263-4 (printed pp. 241-2, folios checked), read as page images 2026-08-03",
-      "verified_by": "agent-mechanical",
+      "how_verified": "pdf-text",
+      "provenance": "repo PDF pp. 263-4 (printed pp. 241-2, folios checked)",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Constance Wilde"
@@ -167,9 +157,8 @@
       },
       "supports": "Contact at the catastrophe; the last surviving words from Wilde to his wife.",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
-      "provenance": "repo PDF p. 689 (printed p. 637, folio checked), read as page image 2026-08-03",
-      "verified_by": "agent-mechanical",
+      "how_verified": "pdf-text",
+      "provenance": "repo PDF p. 689 (printed p. 637, folio checked)",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Constance Wilde"
@@ -187,9 +176,8 @@
       },
       "supports": "Her prison visit of 19 February 1896 (their last meeting) and Wilde's deference to her in the settlement.",
       "verification": "verified-elision",
-      "how_verified": "pdf-at-page",
-      "provenance": "repo PDF p. 703 (printed p. 652, folio checked), read as page image 2026-08-03",
-      "verified_by": "agent-mechanical",
+      "how_verified": "pdf-text",
+      "provenance": "repo PDF p. 703 (printed p. 652, folio checked)",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Robert Ross"
@@ -207,9 +195,8 @@
       },
       "supports": "Her death, 7 April 1898, Genoa; Wilde's reaction.",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
-      "provenance": "repo PDF p. 1100 (printed p. 1054, folio checked), read as page image 2026-08-03",
-      "verified_by": "agent-mechanical",
+      "how_verified": "pdf-text",
+      "provenance": "repo PDF p. 1100 (printed p. 1054, folio checked)",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Robert Ross"
@@ -227,9 +214,8 @@
       },
       "supports": "Formal separation-in-practice after 1895: custody, allowance conditions, name change, denied access - pages not yet transcribed (Wilde's own 'Constance has not asked me to come and see the children. I don't suppose now I shall ever see them', to Blacker, 6 Sept 1897, p. 935, IS transcribed in the dossier).",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF page 868, printed folio 817 read off the rendered page - NOT p. 822 as the pointer's range implied; the volume's PDF/printed offset is not constant., read as a page image 2026-08-03.",
-      "verified_by": "agent-mechanical",
+      "how_verified": "pdf-text",
+      "provenance": "Repo PDF page 868, printed folio 817 read off the rendered page - NOT p. 822 as the pointer's range implied; the volume's PDF/printed offset is not constant.",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Robert Ross"

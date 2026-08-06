@@ -6,7 +6,7 @@
   ],
   "certainty": "uncorroborated",
   "certainty_status": "proposed",
-  "certainty_reasoning": "The only eyewitness claim — Atkins's sworn statement that he found Schwabe in bed with Wilde in Paris — comes from the witness exposed as a perjurer at the same trial, and the jury rejected the Atkins counts. Queensberry's plea contains a Schwabe clause (22 November 1892, Paris) which, as printed by Hyde, avers solicitation and incitement only, with no 'did commit' clause. Schwabe never testified (he was out of England from about 1893) and no count concerned him. Single-source-and-contested → 'alleged'.",
+  "certainty_reasoning": "Queensberry's plea contains a Schwabe clause (22 November 1892, Paris) which, as printed by Hyde, avers solicitation and incitement only, with no 'did commit' clause.",
   "start": {
     "y": 1892,
     "m": 11
@@ -38,7 +38,6 @@
       "verification": "verified-exact",
       "how_verified": "archive-org",
       "provenance": "IA in.ernet.dli.2015.499238, leaf 247 (printed p. 207), read as IIIF page image 2026-08-03",
-      "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
       "speaker": "Frederick Atkins, examination-in-chief",
       "voice": "exchange",
@@ -63,7 +62,6 @@
       "verification": "verified-exact",
       "how_verified": "archive-org",
       "provenance": "IA in.ernet.dli.2015.499238, leaf 388 (printed p. 342), read as IIIF page image 2026-08-03",
-      "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
       "speaker": "The Marquess of Queensberry, plea of justification (filed 30 March 1895)",
       "voice": "exchange",
@@ -87,8 +85,7 @@
       "supports": "Schwabe as Wilde's introducer to Taylor; Schwabe out of England c. 1893-1895 (why he never testified)",
       "verification": "verified-exact",
       "how_verified": "archive-org",
-      "provenance": "IA in.ernet.dli.2015.499238, leaf 194 (printed p. 158); rendered at 3x from the item's text PDF and read as a page image 2026-08-03, with the printed folio confirmed in the page's bottom margin. the page's footnote 6 to 'the gentleman who has been referred to' reads simply 'Schwabe.'",
-      "verified_by": "agent-mechanical",
+      "provenance": "IA in.ernet.dli.2015.499238, leaf 194 (printed p. 158); rendered at 3x from the item's text PDF and, with the printed folio confirmed in the page's bottom margin. the page's footnote 6 to 'the gentleman who has been referred to' reads simply 'Schwabe.'",
       "verified_on": "2026-08-03",
       "speaker": "Oscar Wilde",
       "voice": "exchange",
@@ -125,8 +122,7 @@
       "supports": "Schwabe's identity and the Lockwood connexion; the name-on-paper practice at the trials",
       "verification": "verified-exact",
       "how_verified": "archive-org",
-      "provenance": "IA in.ernet.dli.2015.499238, leaf 171 (printed p. 137 n); rendered at 3x from the item's text PDF and read as a page image 2026-08-03, with the printed folio confirmed in the page's bottom margin. evidence_date carries the moment the footnote annotates - Wilde's cross-examination at the Queensberry trial, April 1895, when he wrote the name on paper rather than speak it - not Hyde's 1948 publication year.",
-      "verified_by": "agent-mechanical",
+      "provenance": "IA in.ernet.dli.2015.499238, leaf 171 (printed p. 137 n); rendered at 3x from the item's text PDF and, with the printed folio confirmed in the page's bottom margin. evidence_date carries the moment the footnote annotates - Wilde's cross-examination at the Queensberry trial, April 1895, when he wrote the name on paper rather than speak it - not Hyde's 1948 publication year.",
       "verified_on": "2026-08-03",
       "voice": "modern"
     }

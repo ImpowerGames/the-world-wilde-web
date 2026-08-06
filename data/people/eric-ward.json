@@ -4,7 +4,6 @@
   "died": null,
   "gender": "m",
   "context_engagements": [],
-  "research_status": "phase-a",
   "bio_sources": [
     "letters-2000"
   ],
@@ -16,5 +15,5 @@
   ],
   "group": "aesthete",
   "bio": "A chorister of Magdalen College, Oxford, from 1874 to 1878. He survives in the record of Wilde's circle as four words in a letter - 'young Ward the quire boy' - and in an editor's footnote giving his full name and his years in the choir. Nothing else about him is known here: not his birth, not his death, not what he made of the evening Wilde saw him in a private box at a Dublin theatre with an older Magdalen man.",
-  "bio_note": "Added 2026-08-05, per Lovelle. RELATION TO WILLIAM WARD: NOT STATED BY THE EDITORS, and this node overstated it until 2026-08-06, when Lovelle asked directly and the footnotes were re-read. The whole of note 7 at printed 28 is 'Eric Richard Ward, Magdalen chorister 1874-8' - no parentage, no relation, nothing further. The earlier claim here that 'the shared surname is coincidence' was an inference of mine dressed as the editors' statement. WHAT THE EVIDENCE ACTUALLY SUPPORTS, offered as reasoning rather than fact: (1) THIS EDITION ROUTINELY FLAGS FAMILY TIES in its notes - Amy Harding is given as 'sister to Reginald and James Harding', William Parker as Charles's brother - and it flags nothing here. (2) The two men's circumstances do not fit: William Welsford Ward (1854-1932) came to Magdalen from Radley as a Classical Demy and went home to follow his father as a solicitor in Bristol, while a Magdalen chorister was a schoolboy at Magdalen College School, admitted for his voice. (3) Strongest of all, the letter itself: Wilde reports 'young Ward the quire boy' to William Ward in a register of detached gossip - 'I wonder what young Ward is doing with him' - and adds 'You are the only one I would tell about it'. None of that is how a man writes to someone about his own brother. SO: almost certainly unrelated, but the record does not say so, and this node no longer pretends it does. HE IS A BOY AND THE OTHER PARTY IS AN ADULT, and the map should not let that go unsaid: choristers at Magdalen were schoolboys, Todd was an undergraduate of about twenty-two, and the only account of the evening is a third man's. NO RECIPROCITY IS CLAIMED and nothing is asserted about what he wanted or understood. GROUPED aesthete because he is a Magdalen figure, but there is a real argument for 'outside the circle': he is exactly the kind of person this map otherwise loses, surviving only because someone with more standing mentioned him in passing. Left as aesthete because he is at least fully named, which the fisher-boys and the waiters are not. Flagged for Lovelle rather than decided. See [[todd]]."
+  "bio_note": "The whole of note 7 at printed 28 is 'Eric Richard Ward, Magdalen chorister 1874-8' - no parentage, no relation, nothing further."
 }

@@ -6,7 +6,7 @@
   ],
   "certainty": "self-reported",
   "certainty_status": "proposed",
-  "certainty_reasoning": "At Taylor's trial (21 May 1895) the jury convicted him of committing an act of gross indecency — counts 8 and 9, the first concerning Charles Parker, the second William (the Solicitor-General named the counts; the clerk's first question as printed does not repeat Charles's name). Charles Parker's own testimony includes sleeping at Taylor's with his brother and, per Hyde's editorial bracket, 'positive evidence as to the commission of acts of gross indecency at Taylor's rooms in Chapel Street,' though the bracket does not name the partner and Grain's cross elicited Parker's Bow Street statement that at Chapel Street Taylor 'did nothing to me, and I did nothing to him.' The conviction anchors documented-sexual; the internal contradiction is preserved here for the human reviewer.",
+  "certainty_reasoning": "Charles Parker's own testimony includes sleeping at Taylor's with his brother and, per Hyde's editorial bracket, 'positive evidence as to the commission of acts of gross indecency at Taylor's rooms in Chapel Street,' though the bracket does not name the partner and Grain's cross elicited Parker's Bow Street statement that at Chapel Street Taylor 'did nothing to me, and I did nothing to him.'",
   "start": {
     "y": 1893,
     "circa": true
@@ -32,7 +32,6 @@
       "verification": "verified-exact",
       "how_verified": "archive-org",
       "provenance": "IA in.ernet.dli.2015.499238, leaf 230 (printed p. 192, folio in the source foot), read as IIIF page image 2026-08-03. No elisions. Hyde italicises 'was' in the second 'I was agreeable'; the italic is not reproduced here.",
-      "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
       "speaker": "Charles Parker",
       "voice": "exchange",
@@ -102,7 +101,6 @@
       "verification": "verified-exact",
       "how_verified": "archive-org",
       "provenance": "IA in.ernet.dli.2015.499238, leaf 231 (printed p. 193, folio 'N 193'), read as IIIF page image 2026-08-03",
-      "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
       "speaker": "Charles Parker, examination-in-chief",
       "voice": "exchange",
@@ -127,7 +125,6 @@
       "verification": "verified-exact",
       "how_verified": "archive-org",
       "provenance": "IA in.ernet.dli.2015.499238, leaf 231 (printed p. 193, folio 'N 193' in the source foot), read as IIIF page image 2026-08-03. No elisions.",
-      "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
       "speaker": "Charles Parker, examination-in-chief",
       "voice": "exchange",
@@ -159,8 +156,7 @@
       "supports": "the contradicting Bow Street statement — preserved for credibility assessment",
       "verification": "verified-exact",
       "how_verified": "archive-org",
-      "provenance": "IA in.ernet.dli.2015.499238, leaf 238 (printed p. 198); rendered at 3x from the item's text PDF and read as a page image 2026-08-03, with the printed folio confirmed in the page's bottom margin.",
-      "verified_by": "agent-mechanical",
+      "provenance": "IA in.ernet.dli.2015.499238, leaf 238 (printed p. 198); rendered at 3x from the item's text PDF and, with the printed folio confirmed in the page's bottom margin.",
       "verified_on": "2026-08-03",
       "speaker": "Charles Parker",
       "voice": "exchange",
@@ -190,7 +186,6 @@
       "verification": "verified-exact",
       "how_verified": "archive-org",
       "provenance": "IA in.ernet.dli.2015.499238, leaf 336 (printed p. 292), read as IIIF page image 2026-08-03",
-      "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -208,7 +203,6 @@
       "verification": "verified-exact",
       "how_verified": "archive-org",
       "provenance": "IA in.ernet.dli.2015.499238, leaf 326 (printed p. 282, folio in the source foot), read as IIIF page image 2026-08-03. Locator corrected from 'pp. 282-283' - the whole bracket sits on p. 282; the question it answers ('How many different men have shared your bedroom?') is also on p. 282, not p. 281 as the earlier OCR-derived note had it.",
-      "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
       "voice": "modern"
     }

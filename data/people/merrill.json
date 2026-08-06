@@ -6,18 +6,13 @@
   "died": {
     "y": 1915
   },
-  "aka": [
-    "Stuart Fitzrandolph Merrill"
-  ],
+  "aka": ["Stuart Fitzrandolph Merrill"],
   "gender": "m",
-  "bio_sources": [
-    "letters-2000"
-  ],
+  "bio_sources": ["letters-2000"],
   "context_engagements": [
     {
       "partner_name": "Oscar Wilde",
       "period": "Paris, 1891",
-      "note": "One letter, recorded without a connection line. Quoted whole.",
       "sources": [
         {
           "work": "letters-2000",
@@ -33,19 +28,17 @@
           },
           "supports": "The whole of the correspondence, and the Paris circle it sits in.",
           "verification": "verified-exact",
-          "how_verified": "pdf-at-page",
-          "provenance": "Repo PDF page 520; printed folio 500 confirmed on the rendered page image, read 2026-08-06.",
-          "verified_by": "claude-at-page",
+          "how_verified": "pdf-image",
+          "provenance": "Repo PDF page 520; printed folio 500 confirmed on the rendered page image.",
           "verified_on": "2026-08-06",
           "voice": "period"
         }
       ]
     }
   ],
-  "research_status": "phase-a",
   "name": "Stuart Merrill",
   "sort_name": "Merrill, Stuart",
   "group": "beyond",
   "bio": "American poet who wrote in French and lived in Paris (1863-1915). He met Wilde in 1890 and went over the French of Salomé before Pierre Louÿs did. As manager of the Théâtre de l'Oeuvre he was there when Salomé had its first production, in February 1896 - while Wilde was in Reading Gaol.",
-  "bio_note": "Added 2026-08-06, clearing a backlog: flagged on 2026-08-05 as a candidate surfaced by the Louÿs reading. NO CONNECTION LINE: one short dinner invitation, and nothing states or implies more. THE FACT WORTH HAVING is the one in the editors' note: he managed the theatre where Salomé was first performed in February 1896, which is to say the play went on in Paris while its author was in prison in England. ONE LETTER at printed 500, read at the page. DATES 1863-1915 and the Théâtre de l'Oeuvre from the editors' note there. ADOLPHE RETTÉ IS NOW A NODE ([[rette]], added 2026-08-06). This note previously said he was not, on the ground that 'Ask Retté to come' documents no relationship. That was decided from a single reference; the General Index lists him at 500 AND 506n, and the second is his own memoir account of correcting Salomé. Both men, and [[louys]], are named in the same chain of hands the play passed through."
+  "bio_note": "ONE LETTER at printed 500, read at the page. DATES 1863-1915 and the Théâtre de l'Oeuvre from the editors' note there. That was decided from a single reference; the General Index lists him at 500 AND 506n, and the second is his own memoir account of correcting Salomé."
 }

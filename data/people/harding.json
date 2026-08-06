@@ -2,11 +2,7 @@
   "id": "harding",
   "name": "Richard Reginald Harding",
   "sort_name": "Harding, Richard Reginald",
-  "aka": [
-    "Kitten",
-    "Reggie Harding",
-    "Reginald Harding"
-  ],
+  "aka": ["Kitten", "Reggie Harding", "Reginald Harding"],
   "born": {
     "y": 1857
   },
@@ -16,15 +12,12 @@
   "group": "aesthete",
   "gender": "m",
   "bio": "Magdalen Commoner 1875-9 and an Oxford friend of Wilde's, addressed in sixteen surviving letters as 'Kitten'. The nickname was not Wilde's invention and was not private to him: it came from a music-hall song about the family's surname — 'Beg your parding, Mrs Harding, / Is my kitting in your garding?' — and his elder brother James was Puss and his sister Amy Miss Puss. The letters run from 1876 to 1879. The tenderest belong to April 1878, when Wilde was ill at Magdalen and Harding stole him flowering branches from the New Buildings: 'I heard your light quick step down the passage this morning… I can bury my face in them and dream how nice it would be to be out again. You are the nicest of kittens.' He joined the London Stock Exchange in 1895 and remained a member until his death.",
-  "bio_sources": [
-    "letters-2000"
-  ],
-  "bio_note": "Added 2026-08-05 under the rule that friendship belongs on the map. NO CONNECTION LINE — but he is the strongest candidate for one among the people added today, and the decision is Lovelle's, not mine. WHAT WOULD SUPPORT A LINE: the April 1878 sequence, where Wilde asks a young man for flowers, is brought a basket, knows his footsteps by their sound, buries his face in the blossoms and calls him the nicest of kittens. WHAT ARGUES AGAINST: he is ill and housebound in all three, the tenderness is of the sickroom, and 'Kitten' is demonstrably not an endearment Wilde coined — it is a family nickname from a music-hall song, shared with a brother called Puss and a sister called Miss Puss (printed 15). SIXTEEN LETTERS at repo PDF 42, 43, 46, 48, 54, 55, 59, 68, 72, 79, 86, 92 (three on one page), 93 and 109. TEN have been read at the page (printed 30, 65 and 66, folios confirmed, 2026-08-05); the other ten are located, not read, and all are rendered in the session scratchpad. DATES 1857-1932, the full name and the nickname's origin are from the editors' note at printed 15, read at the rendered page 2026-08-05. 'PUSS' IS SETTLED and is NOT another name for Kitten, which was the obvious guess: the editors' note at printed 15 gives him as JAMES HARDING, Reginald's elder brother, with their sister Amy as Miss Puss; the volume's index lists all three separately, and a third letter (printed 21) settles the sex beyond doubt — 'Miss Puss has fallen in my estimation if SHE is fetched with Swan'. The grammar of the 1876 letter agrees — 'Best love to Puss. I hope he is reading hard' is written TO Kitten ABOUT a third person. The cat-naming is a family joke on the surname, not a private endearment between Wilde and Harding, which is worth knowing before anyone reads weight into it. CROFT-COOKE TESTED AND NOT SUPPORTED. Croft-Cooke (The Unrecorded Life of Oscar Wilde, 1972) writes that 'the only occasions on which one detects an alien note in his letters both to Bouncer and Kitten is when he mentions Frank Miles, and this brings us to the first of Wilde's passionate friendships with another man'. Every page in these two correspondences that mentions Frank or the Miles family has now been read at the page - repo PDF 42, 46, 47, 49, 54, 56 and 72, printed 17, 21, 22, 24, 29, 31 and 47 - and the note is not audible in any of them. Miles appears flatly and briefly: as a travelling companion ('I have been waiting for my brother who is on circuit, and for Frank Miles'), as a name in a postscript added after the signature ('I have Frank Miles with me'), as one of a party ('a delightful time in town with Frank Miles and a lot of friends'), and most often as his father, Canon Miles, the advanced Anglican whose theology Wilde argued about at Bingham. WHERE WILDE DOES SWOON IN THESE SAME LETTERS IT IS OVER WOMEN, twice in the sentence immediately following a Miles mention: the four Miles daughters ('all very pretty indeed... My heart is torn in sunder with admiration for them all'), an unnamed seventeen-year-old with 'the most perfectly beautiful face I ever saw', and Florence Balcombe, 'more lovely than ever'. This is recorded as a negative finding rather than left out. It does not show that Wilde felt nothing for Miles; it shows that these letters are not the evidence for it, and that a much-repeated secondary claim rests on pages that do not say what it says they say. COUNT CORRECTED 2026-08-05: the figure first written here was a count of PDF PAGES, not of letters - the locator deduplicated by page, and letters to one person are often printed two or three to a page. The corrected figure is a count of 'To <name>' headings in the volume. Every such correction was upward, so the unread remainder is larger than this node first claimed.",
+  "bio_sources": ["letters-2000"],
+  "bio_note": "SIXTEEN LETTERS at repo PDF 42, 43, 46, 48, 54, 55, 59, 68, 72, 79, 86, 92 (three on one page), 93 and 109. TEN have been read at the page (printed 30, 65 and 66, folios confirmed); the other ten are located, not read, and all are rendered in the session scratchpad. DATES 1857-1932, the full name and the nickname's origin are from the editors' note at printed 15, read at the rendered page 2026-08-05. 'PUSS' IS SETTLED and is NOT another name for Kitten, which was the obvious guess: the editors' note at printed 15 gives him as JAMES HARDING, Reginald's elder brother, with their sister Amy as Miss Puss; the volume's index lists all three separately, and a third letter (printed 21) settles the sex beyond doubt — 'Miss Puss has fallen in my estimation if SHE is fetched with Swan'. Every page in these two correspondences that mentions Frank or the Miles family has now been read at the page - repo PDF 42, 46, 47, 49, 54, 56 and 72, printed 17, 21, 22, 24, 29, 31 and 47 - and the note is not audible in any of them.",
   "context_engagements": [
     {
       "partner_name": "Oscar Wilde",
       "period": "Oxford and after, 1876-1879",
-      "note": "Friendship. All four letters quoted entire — they are short, and nothing in them is off the subject of the two of them.",
       "sources": [
         {
           "work": "letters-2000",
@@ -41,9 +34,8 @@
           },
           "supports": "The earliest register of the friendship — teasing, cat-named, and reproachful about silence — and Wilde and Frank Miles on holiday together in 1876.",
           "verification": "verified-elision",
-          "how_verified": "pdf-at-page",
-          "provenance": "Repo PDF page 55; printed folio 30 confirmed on the rendered page image, read 2026-08-05.",
-          "verified_by": "claude-at-page",
+          "how_verified": "pdf-image",
+          "provenance": "Repo PDF page 55; printed folio 30 confirmed on the rendered page image.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -62,9 +54,8 @@
           },
           "supports": "What Harding's congratulations were worth to him, the first Miles-household letter in the correspondence, and the sisters at the end of it.",
           "verification": "verified-elision",
-          "how_verified": "pdf-at-page",
-          "provenance": "Repo PDF pages 46-47; printed folios 21 and 22 both confirmed on the rendered page images, read 2026-08-05.",
-          "verified_by": "claude-at-page",
+          "how_verified": "pdf-image",
+          "provenance": "Repo PDF pages 46-47; printed folios 21 and 22 both confirmed on the rendered page images.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -83,9 +74,8 @@
           },
           "supports": "The three of them as a set, and Wilde's solicitude for Ward expressed to Harding.",
           "verification": "verified-elision",
-          "how_verified": "pdf-at-page",
-          "provenance": "Repo PDF page 43; printed folio 18 confirmed on the rendered page image, read 2026-08-05.",
-          "verified_by": "claude-at-page",
+          "how_verified": "pdf-image",
+          "provenance": "Repo PDF page 43; printed folio 18 confirmed on the rendered page image.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -103,9 +93,8 @@
           },
           "supports": "The register at its lightest: a note across college, imagining where he is.",
           "verification": "verified-exact",
-          "how_verified": "pdf-at-page",
-          "provenance": "Repo PDF page 92; printed folio 65 confirmed on the rendered page image, read 2026-08-05.",
-          "verified_by": "claude-at-page",
+          "how_verified": "pdf-image",
+          "provenance": "Repo PDF page 92; printed folio 65 confirmed on the rendered page image.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -123,9 +112,8 @@
           },
           "supports": "The ask — flowers, from him specifically, because he is sick at heart for want of beauty.",
           "verification": "verified-exact",
-          "how_verified": "pdf-at-page",
-          "provenance": "Repo PDF page 92; printed folio 65 confirmed on the rendered page image, read 2026-08-05.",
-          "verified_by": "claude-at-page",
+          "how_verified": "pdf-image",
+          "provenance": "Repo PDF page 92; printed folio 65 confirmed on the rendered page image.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -141,11 +129,10 @@
             "y": 1878,
             "m": 4
           },
-          "supports": "The tenderest thing in either Oxford correspondence, and the one that would carry a connection line if Lovelle judges it should.",
+          "supports": "The tenderest thing in either Oxford correspondence.",
           "verification": "verified-exact",
-          "how_verified": "pdf-at-page",
-          "provenance": "Repo PDF pages 92-93; printed folios 65 and 66 both confirmed on the rendered page images, read 2026-08-05.",
-          "verified_by": "claude-at-page",
+          "how_verified": "pdf-image",
+          "provenance": "Repo PDF pages 92-93; printed folios 65 and 66 both confirmed on the rendered page images.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -164,9 +151,8 @@
           },
           "supports": "The clearest single test of the Croft-Cooke claim, and it fails in the space of two paragraphs.",
           "verification": "verified-exact",
-          "how_verified": "pdf-at-page",
-          "provenance": "Repo PDF page 54; printed folio 29 confirmed on the rendered page image, read 2026-08-05.",
-          "verified_by": "claude-at-page",
+          "how_verified": "pdf-image",
+          "provenance": "Repo PDF page 54; printed folio 29 confirmed on the rendered page image.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -185,9 +171,8 @@
           },
           "supports": "The last of the seven Miles pages, and the third time a Miles mention sits next to praise of a woman.",
           "verification": "verified-elision",
-          "how_verified": "pdf-at-page",
-          "provenance": "Repo PDF page 72; printed folio 47 confirmed on the rendered page image, read 2026-08-05.",
-          "verified_by": "claude-at-page",
+          "how_verified": "pdf-image",
+          "provenance": "Repo PDF page 72; printed folio 47 confirmed on the rendered page image.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -205,14 +190,12 @@
           },
           "supports": "The ordinary footing of the friendship between the tender letters - fishing, house guests, and a joke about his own misanthropy.",
           "verification": "verified-elision",
-          "how_verified": "pdf-at-page",
-          "provenance": "Repo PDF page 86; printed folio 59 confirmed on the rendered page image, read 2026-08-06.",
-          "verified_by": "claude-at-page",
+          "how_verified": "pdf-image",
+          "provenance": "Repo PDF page 86; printed folio 59 confirmed on the rendered page image.",
           "verified_on": "2026-08-06",
           "voice": "period"
         }
       ]
     }
-  ],
-  "research_status": "phase-a"
+  ]
 }

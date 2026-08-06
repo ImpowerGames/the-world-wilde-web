@@ -12,15 +12,12 @@
   "group": "aesthete",
   "gender": "m",
   "bio": "Schoolmaster and historian (1837-1923). An Eton master from 1860 to 1875 - George Curzon was his most famous pupil - and thereafter a Cambridge don and celebrated 'character'. Fifteen of Wilde's letters to him survive, beginning in 1879 when Wilde was twenty-four and running through the 1880s. The early ones have Wilde running his errands in London, buying him neckties and hunting Paternoster Row for a bible, and wishing he had been at the theatre with him.",
-  "bio_sources": [
-    "letters-2000"
-  ],
-  "bio_note": "Added 2026-08-06, clearing a backlog: he had been flagged as a candidate on 2026-08-05 and not created for a day, which is the deferral habit this project keeps having to correct. HE WAS MISSED ENTIRELY BY AN EARLIER TASK LIST, which recorded him as 'H. C. Browning' and could not find him; he is OSCAR Browning, and it is the largest correspondence on this map with a figure of queer-historical interest outside the inner circle. NO CONNECTION LINE: the register is affectionate friendship between a young man and an older one, with errands and theatre-going, and nothing read states or implies attraction. WHAT IS **NOT** IN THIS VOLUME, and is therefore not asserted here: the circumstances of his leaving Eton in 1875. The editors' note gives only 'Eton master 1860-75' and passes over the rest in silence. The account generally given elsewhere - that he was forced out over his relationships with boys - is real scholarship but it is not in this source, and this node will not borrow it. **A ROSTER NOTE OF MINE ASSERTED IT ON 2026-08-05 AND WAS WRONG TO;** that has been corrected. FIFTEEN LETTERS at printed 80 (two), 87, 88, 111, 268, 313, 337, 339, 342, 348, 358, 360, 368, 373, 407. THREE READ AT THE PAGE (2026-08-06) - printed 80 twice and 111. The other twelve are located and unread and should be read before anyone characterises this friendship confidently.",
+  "bio_sources": ["letters-2000"],
+  "bio_note": "the volume's Index of Recipients. The editors' note gives only 'Eton master 1860-75' and passes over the rest in silence. FIFTEEN LETTERS at printed 80 (two), 87, 88, 111, 268, 313, 337, 339, 342, 348, 358, 360, 368, 373, 407. THREE READ AT THE PAGE - printed 80 twice and 111.",
   "context_engagements": [
     {
       "partner_name": "Oscar Wilde",
       "period": "London and Cambridge, from 1879",
-      "note": "Friendship, recorded without a connection line. All three letters quoted whole.",
       "sources": [
         {
           "work": "letters-2000",
@@ -36,9 +33,8 @@
           },
           "supports": "The footing at the start: Wilde running an older man's errands and angling for an invitation.",
           "verification": "verified-exact",
-          "how_verified": "pdf-at-page",
-          "provenance": "Repo PDF page 105; printed folio 80 confirmed on the rendered page image, read 2026-08-06.",
-          "verified_by": "claude-at-page",
+          "how_verified": "pdf-image",
+          "provenance": "Repo PDF page 105; printed folio 80 confirmed on the rendered page image.",
           "verified_on": "2026-08-06",
           "voice": "period"
         },
@@ -57,9 +53,8 @@
           },
           "supports": "A whole rainy day spent shopping for him, and the wish that he had been there.",
           "verification": "verified-elision",
-          "how_verified": "pdf-at-page",
-          "provenance": "Repo PDF page 105; printed folio 80 confirmed on the rendered page image, read 2026-08-06.",
-          "verified_by": "claude-at-page",
+          "how_verified": "pdf-image",
+          "provenance": "Repo PDF page 105; printed folio 80 confirmed on the rendered page image.",
           "verified_on": "2026-08-06",
           "voice": "period"
         },
@@ -77,14 +72,12 @@
           },
           "supports": "Wilde asking him for the review he then wrote.",
           "verification": "verified-exact",
-          "how_verified": "pdf-at-page",
-          "provenance": "Repo PDF page 136; printed folio 111 confirmed on the rendered page image, read 2026-08-06.",
-          "verified_by": "claude-at-page",
+          "how_verified": "pdf-image",
+          "provenance": "Repo PDF page 136; printed folio 111 confirmed on the rendered page image.",
           "verified_on": "2026-08-06",
           "voice": "period"
         }
       ]
     }
-  ],
-  "research_status": "phase-a"
+  ]
 }

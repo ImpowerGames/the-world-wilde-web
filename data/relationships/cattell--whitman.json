@@ -6,7 +6,6 @@
   ],
   "certainty": "self-reported",
   "certainty_status": "proposed",
-  "certainty_reasoning": "Both men's own letters survive. Whitman's of January 1877 declares 'unalterable love' and asks for total secrecy about the letter and about his visits; Cattell's of October 1877 answers 'i love you Walt and all ways will'. That is the self-reported test met from both sides. The secrecy is itself part of the evidence rather than a gap in it - Whitman asks Cattell to stop calling at the Stafford farm, not to say why, to tell nobody, and to keep the letter itself from anyone, while insisting 'There is nothing in it that I think I do wrong, nor am ashamed of'. What the record does not state, and this entry does not assert, is what the meetings by the pond consisted of; the diary entries the archive quotes are suggestive and elliptical, which is what surveillance and shame produce.",
   "start": {
     "y": 1876
   },
@@ -31,7 +30,6 @@
       "verification": "verified-elision",
       "how_verified": "web",
       "provenance": "https://whitmanarchive.org/item/loc.01251 read in full in a browser 2026-08-04. **The site sits behind Cloudflare and returns 403 to curl and to plain fetching**; it was read in a real browser. An automated retrieval will falsely report it unavailable. Original draft in the Feinberg Collection, Library of Congress. Superscript note markers omitted.",
-      "verified_by": "agent-mechanical",
       "verified_on": "2026-08-04",
       "speaker": "Walt Whitman, draft letter to Edward Cattell",
       "addressee": "Edward Cattell",
@@ -52,7 +50,6 @@
       "verification": "verified-elision",
       "how_verified": "web",
       "provenance": "https://whitmanarchive.org/item/loc.01253 read in full in a browser 2026-08-04. **The site sits behind Cloudflare and returns 403 to curl and to plain fetching**; it was read in a real browser. An automated retrieval will falsely report it unavailable. Original in the Feinberg Collection, Library of Congress. The archive's invisible sic markers were dropped and every non-standard spelling kept.",
-      "verified_by": "agent-mechanical",
       "verified_on": "2026-08-04",
       "speaker": "Edward P. Cattell, letter to Walt Whitman",
       "addressee": "Walt Whitman",

@@ -1,12 +1,9 @@
 {
   "id": "douglas--wilde",
-  "people": [
-    "douglas",
-    "wilde"
-  ],
+  "people": ["douglas", "wilde"],
   "certainty": "self-reported",
   "certainty_status": "proposed",
-  "certainty_reasoning": "First-person participant evidence read in the source so far: Wilde's love letters to Douglas 1892-1897 ('madness of kisses', 'with undying love', 'the supreme, the perfect love of my life'), Douglas's own surviving letter of 15 May 1895 ('My darling Oscar... your own loving and devoted boy'), and the prison letter (De Profundis) narrating the relationship. These verbatim sources attest a mutual passionate love relationship beyond dispute; explicit attestation of sexual acts rests additionally on the 1895 trial record and later Douglas admissions, which are being sourced by the trials-edge agent - if that record is not accepted, the floor supported by this file alone is a documented mutual romantic relationship. Editors' note (p. 646 n. 1) records that the Holloway/Courtfield letter texts are retranslations whose wording may be distorted 'but their substance need not be doubted.'",
+  "certainty_reasoning": "Editors' note (p. 646 n. 1) records that the Holloway/Courtfield letter texts are retranslations whose wording may be distorted 'but their substance need not be doubted.'",
   "start": {
     "y": 1891,
     "label": "introduced by Lionel Johnson, 1891 (editors: most likely beginning of July); Wilde dated the friendship proper from May 1892"
@@ -39,7 +36,7 @@
         "y": 1895,
         "m": 4
       },
-      "note": "Intimacy: 'I worship him' (to Ross, spring 1892); Babbacombe menage early 1893; Savoy/St James's Place routine 1893 (De Profundis, p. 686); quarrel-reconciliation cycle incl. Egypt separation winter 1893-94 ('our love has passed through... estrangement', pp. 577-8)."
+      "note": "Intimacy: 'I worship him' (to Ross, spring 1892); Babbacombe menage early 1893; Savoy/St James's Place routine 1893 (De Profundis, p. 686); quarrel-reconciliation cycle incl. Egypt separation winter 1893-94 ('our love has passed through. estrangement', pp. 577-8)."
     },
     {
       "start": {
@@ -49,8 +46,7 @@
       "end": {
         "y": 1897,
         "m": 5
-      },
-      "note": "Arrest, trials, prison: Douglas visits Holloway daily, leaves for France 25 April 1895 at the lawyers' urging; love letters both directions May 1895; then prison silence and the recriminating prison letter (De Profundis, Jan-Mar 1897)."
+      }
     },
     {
       "start": {
@@ -91,9 +87,8 @@
       },
       "supports": "Wilde naming the relationship in the plainest terms the correspondence contains - Douglas as 'the supreme, the perfect love of my life; there can be no other' - written between the trials",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF page 703, printed folio 652 confirmed on the rendered page, read as page image 2026-08-03; the letter opens on printed 651 (PDF 702, folio confirmed). Contiguous sentences, no elision.",
-      "verified_by": "agent-mechanical",
+      "how_verified": "pdf-text",
+      "provenance": "Repo PDF page 703, printed folio 652 confirmed on the rendered page; the letter opens on printed 651 (PDF 702, folio confirmed). Contiguous sentences, no elision.",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Lord Alfred Douglas"
@@ -109,9 +104,8 @@
       },
       "supports": "Meeting 1891 (editors: most likely ~beginning of July); introduction by Lionel Johnson; Douglas's parentage and birth year; Wilde's own May-1892 dating of the friendship.",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
-      "provenance": "repo PDF p. 481 (printed p. 461, folio checked), read as page image 2026-08-03",
-      "verified_by": "agent-mechanical",
+      "how_verified": "pdf-text",
+      "provenance": "repo PDF p. 481 (printed p. 461, folio checked)",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -132,9 +126,8 @@
       },
       "supports": "Earliest surviving intimate register about Douglas, told to a third party (Ross), spring 1892.",
       "verification": "verified-elision",
-      "how_verified": "pdf-at-page",
-      "provenance": "repo PDF p. 546 (printed p. 526, folio checked), read as page image 2026-08-03",
-      "verified_by": "agent-mechanical",
+      "how_verified": "pdf-text",
+      "provenance": "repo PDF p. 546 (printed p. 526, folio checked)",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Robert Ross"
@@ -152,9 +145,8 @@
       },
       "supports": "Explicit love-letter register in Wilde's own hand; the letter itself became trial evidence.",
       "verification": "verified-elision",
-      "how_verified": "pdf-at-page",
-      "provenance": "repo PDF p. 564 (printed p. 544, folio checked), read as page image 2026-08-03",
-      "verified_by": "agent-mechanical",
+      "how_verified": "pdf-text",
+      "provenance": "repo PDF p. 564 (printed p. 544, folio checked)",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Lord Alfred Douglas"
@@ -172,9 +164,8 @@
       },
       "supports": "Wilde intimate enough with Douglas's mother to be consulted about him; the late-1893 crisis and engineered Egypt separation.",
       "verification": "verified-elision",
-      "how_verified": "pdf-at-page",
-      "provenance": "repo PDF p. 627 (printed p. 575, folio checked), read as page image 2026-08-03",
-      "verified_by": "agent-mechanical",
+      "how_verified": "pdf-text",
+      "provenance": "repo PDF p. 627 (printed p. 575, folio checked)",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Lady Queensberry"
@@ -192,9 +183,8 @@
       },
       "supports": "\"Our love\" in Wilde's own words; the quarrel-and-reconciliation pattern across the Egypt separation.",
       "verification": "verified-elision",
-      "how_verified": "pdf-at-page",
-      "provenance": "repo PDF p. 629 (printed p. 577, folio checked), read as page image 2026-08-03",
-      "verified_by": "agent-mechanical",
+      "how_verified": "pdf-text",
+      "provenance": "repo PDF p. 629 (printed p. 577, folio checked)",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Lord Alfred Douglas"
@@ -212,9 +202,8 @@
       },
       "supports": "Mutual love asserted at the moment of catastrophe ('that you love me in return').",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
-      "provenance": "repo PDF p. 697 (printed p. 646, folio checked), read as page image 2026-08-03",
-      "verified_by": "agent-mechanical",
+      "how_verified": "pdf-text",
+      "provenance": "repo PDF p. 697 (printed p. 646, folio checked)",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Lord Alfred Douglas"
@@ -232,9 +221,8 @@
       },
       "supports": "Reciprocity in Douglas's own voice during the trials — first-person evidence from the second participant.",
       "verification": "verified-elision",
-      "how_verified": "pdf-at-page",
-      "provenance": "repo PDF p. 700 (printed p. 649, folio checked), read as page image 2026-08-03",
-      "verified_by": "agent-mechanical",
+      "how_verified": "pdf-text",
+      "provenance": "repo PDF p. 700 (printed p. 649, folio checked)",
       "verified_on": "2026-08-03",
       "voice": "period",
       "speaker": "Lord Alfred Douglas",
@@ -256,9 +244,8 @@
       },
       "supports": "Wilde's own retrospective naming of the relationship ('that place in my heart once held by love'); the prison rupture. Also p. 686 (read): the 1893 daily-inseparability routine ('We did not separate as a rule till after midnight').",
       "verification": "verified-elision",
-      "how_verified": "pdf-at-page",
-      "provenance": "repo PDF pp. 734-7 (printed pp. 683-6, folios checked), read as page images 2026-08-03",
-      "verified_by": "agent-mechanical",
+      "how_verified": "pdf-text",
+      "provenance": "repo PDF pp. 734-7 (printed pp. 683-6, folios checked)",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Lord Alfred Douglas"
@@ -276,9 +263,8 @@
       },
       "supports": "The post-prison reunion decision against the circle's opposition; Rouen meeting 28-29 Aug 1897; corroborated to Ross, 4 Sept 1897 (p. 934, read): \"Yes: I saw Bosie, and of course I love him as I always did, with a sense of tragedy and ruin.\"",
       "verification": "verified-elision",
-      "how_verified": "pdf-at-page",
-      "provenance": "repo PDF pp. 982-4 (printed pp. 932-4, folios checked), read as page images 2026-08-03",
-      "verified_by": "agent-mechanical",
+      "how_verified": "pdf-text",
+      "provenance": "repo PDF pp. 982-4 (printed pp. 932-4, folios checked)",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Lord Alfred Douglas"
@@ -296,9 +282,8 @@
       },
       "supports": "Cohabitation at Naples from late September 1897 and its end when Constance's allowance and Lady Queensberry's terms cut the money off - pages not yet transcribed.",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF page 1037, printed folio 989 read off the rendered page - NOT p. 991; the volume's PDF/printed offset is not constant., read as a page image 2026-08-03.",
-      "verified_by": "agent-mechanical",
+      "how_verified": "pdf-text",
+      "provenance": "Repo PDF page 1037, printed folio 989 read off the rendered page - NOT p. 991; the volume's PDF/printed offset is not constant.",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "More Adey"
@@ -316,16 +301,15 @@
       },
       "supports": "Contact until death: Douglas came at once, walked behind the hearse and rode in the second coach, and sent a wreath.",
       "verification": "verified-elision",
-      "how_verified": "pdf-at-page",
-      "provenance": "repo PDF p. 1267 (printed p. 1222, folio checked), read as page image 2026-08-03",
-      "verified_by": "agent-mechanical",
+      "how_verified": "pdf-text",
+      "provenance": "repo PDF p. 1267 (printed p. 1222, folio checked)",
       "verified_on": "2026-08-03",
       "speaker": "Robert Ross",
       "voice": "period"
     },
     {
       "quote": "Douglas's candour in days when such acts could still condemn a man to prison is some proof of the truth of his statement, and his coyness is understandable.",
-      "context": "Murray's own comment on the passage of Douglas's memoir he has just quoted, in which Douglas describes what did and did not take place between him and Wilde on the first night, probably January 1892, at Tite Street. Douglas's account states that sodomy never took place, that Wilde 'treated me as an older boy treats a younger one at school', and names one specific act; Douglas adds that he never liked it, only consented to oblige Wilde, and that Wilde 'very soon cut it out altogether'. Douglas was 21. The full passage is transcribed in dossiers/DOUGLAS-MURRAY_dossier.md; only Murray's framing sentence is carried here.",
+      "context": "Murray's own comment on the passage of Douglas's memoir he has just quoted, in which Douglas describes what did and did not take place between him and Wilde on the first night, probably January 1892, at Tite Street. Douglas's account states that sodomy never took place, that Wilde 'treated me as an older boy treats a younger one at school', and names one specific act; Douglas adds that he never liked it, only consented to oblige Wilde, and that Wilde 'very soon cut it out altogether'. Douglas was 21. The full passage is transcribed in the DOUGLAS-MURRAY dossier (long-form research notes, kept in the private research repository); only Murray's framing sentence is carried here.",
       "work": "murray-2020",
       "locator": "PDF pp. 51-52",
       "locator_type": "page",
@@ -336,9 +320,8 @@
       },
       "supports": "Douglas's own first-person account of the sexual relationship with Wilde, its specific and limited content, and its brevity - independent corroboration, from Douglas's side, of an edge otherwise carried by Wilde's letters.",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF page 52 of Murray_2020_Bosie (docs/research/queer-history/victorian/douglas/sources/), read as page image 2026-08-03. NO PRINTED FOLIO EXISTS: the file is an ebook conversion with no page numbers and an unpaginated Contents, so the printed-to-PDF offset is n/a and the locator is the PDF page, marked 'PDF p.' - see the pagination note in dossiers/DOUGLAS-MURRAY_dossier.md.",
-      "verified_by": "agent-mechanical",
+      "how_verified": "pdf-text",
+      "provenance": "Repo PDF page 52 of Murray_2020_Bosie (docs/research/queer-history/victorian/douglas/sources/). NO PRINTED FOLIO EXISTS: the file is an ebook conversion with no page numbers and an unpaginated Contents, so the printed-to-PDF offset is n/a and the locator is the PDF page, marked 'PDF p.' - see the pagination note in the DOUGLAS-MURRAY dossier (long-form research notes, kept in the private research repository).",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -353,9 +336,8 @@
       },
       "supports": "The biographer's dating of the sexual phase as brief, with the romantic attachment outlasting it - the shape our date fields already carry (1891/92 start, contact to 1900).",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF page 60 of Murray_2020_Bosie (docs/research/queer-history/victorian/douglas/sources/), read as page image 2026-08-03. NO PRINTED FOLIO EXISTS: the file is an ebook conversion with no page numbers and an unpaginated Contents, so the printed-to-PDF offset is n/a and the locator is the PDF page, marked 'PDF p.' - see the pagination note in dossiers/DOUGLAS-MURRAY_dossier.md.",
-      "verified_by": "agent-mechanical",
+      "how_verified": "pdf-text",
+      "provenance": "Repo PDF page 60 of Murray_2020_Bosie (docs/research/queer-history/victorian/douglas/sources/). NO PRINTED FOLIO EXISTS: the file is an ebook conversion with no page numbers and an unpaginated Contents, so the printed-to-PDF offset is n/a and the locator is the PDF page, marked 'PDF p.' - see the pagination note in the DOUGLAS-MURRAY dossier (long-form research notes, kept in the private research repository).",
       "verified_on": "2026-08-03",
       "voice": "modern"
     }

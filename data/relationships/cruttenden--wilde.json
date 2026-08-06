@@ -1,14 +1,10 @@
 {
   "id": "cruttenden--wilde",
-  "people": [
-    "cruttenden",
-    "wilde"
-  ],
+  "people": ["cruttenden", "wilde"],
   "certainty": "attraction-expressed",
   "certainty_status": "proposed",
   "direction": "wilde",
   "outcome": "unknown",
-  "certainty_reasoning": "One-sided by survival - Wilde's letters about him exist, nothing of his does. **This is the mildest of the Reading three and the record should say so.** There is no physical note anywhere in it: what Wilde expresses is warm personal regard, sponsorship and a wish that his friends receive the man socially rather than charitably - \"I hope you will be able to see him as a friend of mine\". Read strictly it is fond patronage, the shape recorded as a null on `mellor--wilde`. It is carried here as a connection rather than a null because the alternative is that a saddler who spent a fortnight of Wilde's post-prison life with him leaves no mark on the map at all, and because the class is a claim about the paper. Lovelle may want to re-characterise this one. On the class. `attraction-expressed` records that **the surviving record is one-sided** - Wilde's letter survives and the other man's does not - and since August 2026 its bar is attraction legible to an ordinary reader rather than an approach or a declaration. That widening is what lets this person onto the map at all. It is a statement about the paper, not about what either man felt or did.",
   "start": {
     "y": 1895
   },
@@ -31,9 +27,8 @@
       },
       "supports": "Wilde's personal regard for him, and the deliberate attempt to place him socially rather than charitably.",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
+      "how_verified": "pdf-text",
       "provenance": "Repo PDF p. 950 read as a rendered page image 2026-08-04; printed folio 900 confirmed at the foot of the image. Located first in the complete OCR mirror, which locates only. Superscript note markers omitted as typography.",
-      "verified_by": "agent-mechanical",
       "verified_on": "2026-08-04",
       "speaker": "Oscar Wilde",
       "addressee": "Reggie Turner",

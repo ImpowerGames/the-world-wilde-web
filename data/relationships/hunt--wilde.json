@@ -1,12 +1,8 @@
 {
   "id": "hunt--wilde",
-  "people": [
-    "hunt",
-    "wilde"
-  ],
+  "people": ["hunt", "wilde"],
   "certainty": "self-reported",
   "certainty_status": "proposed",
-  "certainty_reasoning": "The letters read are courtship-register but proper: Wilde calls Violet 'the sweetest Violet in England' in a letter to her mother (March 1880) while asking that she not be told, breaks and redeems a promise of a poem for her (August 1880), and thanks her directly and warmly for admiring his Poems (July 1881). Nothing read makes any sexual claim, and the marriage-proposal tradition in later accounts was not reachable in the source so far (pointer below), so the documented-courtship class fits the read evidence; a later check may revisit once the proposal claim is run down.",
   "start": {
     "y": 1880,
     "m": 3
@@ -31,9 +27,8 @@
       },
       "supports": "The courtship-register compliment routed through her mother, with the request that Violet not be told; March 1880",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF pages 113-114, printed folios 88-89 confirmed on rendered pages, read as page images 2026-08-03. The sentence breaks across the page-turn at 'the | sweetest'.",
-      "verified_by": "agent-mechanical",
+      "how_verified": "pdf-text",
+      "provenance": "Repo PDF pages 113-114, printed folios 88-89 confirmed on rendered pages. The sentence breaks across the page-turn at 'the | sweetest'.",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Margaret Raine Hunt"
@@ -51,9 +46,8 @@
       },
       "supports": "Direct warm correspondence by July 1881, closing 'You have made me very happy'",
       "verification": "verified-elision",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF page 139, printed folio 114 confirmed on rendered page, read as page image 2026-08-03. Elision drops the Slander/Ridicule/Envy sentence, his ranking of 'The Burden of Itys' and 'The Garden of Eros', and the Burne-Jones river outing; fuller text in dossier.",
-      "verified_by": "agent-mechanical",
+      "how_verified": "pdf-text",
+      "provenance": "Repo PDF page 139, printed folio 114 confirmed on rendered page. Elision drops the Slander/Ridicule/Envy sentence, his ranking of 'The Burden of Itys' and 'The Garden of Eros', and the Burne-Jones river outing; fuller text in dossier.",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Violet Hunt"
@@ -69,9 +63,8 @@
       },
       "supports": "The marriage-proposal tradition",
       "verification": "verified-elision",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF page 330, read as a page image 2026-08-04. This 2013 edition carries NO printed folios, so the locator is the PDF page - re-anchored from the ellmann-1988 pointer..",
-      "verified_by": "agent-mechanical",
+      "how_verified": "pdf-text",
+      "provenance": "Repo PDF page 330. This 2013 edition carries NO printed folios, so the locator is the PDF page - re-anchored from the ellmann-1988 pointer.",
       "verified_on": "2026-08-04",
       "voice": "modern"
     }

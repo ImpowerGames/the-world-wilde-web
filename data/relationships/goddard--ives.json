@@ -6,7 +6,7 @@
   ],
   "certainty": "self-reported",
   "certainty_status": "proposed",
-  "certainty_reasoning": "Cook states plainly that Ives shared his bed with James Goddard ('Kit') at the Albany, which is more explicit than the household-membership evidence behind the Bloodworth record. It stays 'alleged' on the single-source rule: Cook (2003) is the only work read that attests it, and bed-sharing in a shared bachelor household is not by itself a statement of sexual relations. Promoted to a relationship record at the editor's direction, 2026-08-03; the fuller diary basis sits in the Ives papers and in Kaplan (2005), neither yet consulted. CORROBORATION (2026-08-03): Cook returns to this household at much greater length in Queer Domesticities (2014), where he states that the Adelaide Road relationships 'possibly started sexually' before settling into something platonic, with bed-sharing continuing throughout. That sharpens the evidence but does not lift the class: it remains one historian's careful inference, and he does not assert sexual relations outright. EVIDENCE-TIER CORRECTION 2026-08-03 (): reclassified to self-reported. Cook's account of the Ives household is drawn from Ives's own 122-volume diary and his endnotes cite it by volume and date; the tier follows whose testimony underlies the claim, not whether our record happens to carry a direct quotation rather than the historian's summary of the same diary.",
+  "certainty_reasoning": "Cook states plainly that Ives shared his bed with James Goddard ('Kit') at the Albany, which is more explicit than the household-membership evidence behind the Bloodworth record. It stays 'alleged' on the single-source rule: Cook (2003) is the only work read that attests it, and bed-sharing in a shared bachelor household is not by itself a statement of sexual relations. CORROBORATION: Cook returns to this household at much greater length in Queer Domesticities (2014), where he states that the Adelaide Road relationships 'possibly started sexually' before settling into something platonic, with bed-sharing continuing throughout. Cook's account of the Ives household is drawn from Ives's own 122-volume diary and his endnotes cite it by volume and date; the tier follows whose testimony underlies the claim, not whether our record happens to carry a direct quotation rather than the historian's summary of the same diary.",
   "start": {
     "y": 1894,
     "label": "from 1894 (the move to E4 the Albany)"
@@ -23,7 +23,7 @@
   "sources": [
     {
       "quote": "Using pet names for his co-residents, he wrote: 'Kit has been with me some 35 years. His wife over 20. Pug 9 or 10. [...] and the 2 Kit girls all their lives'. 'Kit' (James Goddard) had been a servant at the Ives' family seat in Hampshire and then moved with George to London.",
-      "context": "Cook's opening to the Ives chapter, quoting the roll call Ives made in his diary in 1917 of his 'family' home at Adelaide Road; Cook's endnote 1 cites Diary vol. 70, 21 May 1917, p. 118. The '[...]' is Cook's own elision inside Ives's sentence.",
+      "context": "Cook's opening to the Ives chapter, quoting the roll call Ives made in his diary in 1917 of his 'family' home at Adelaide Road; Cook's endnote 1 cites Diary vol. 70, 21 May 1917, p. 118. The '[..]' is Cook's own elision inside Ives's sentence.",
       "work": "cook-2014",
       "locator": "pp. 95-96",
       "locator_type": "page",
@@ -32,9 +32,8 @@
       },
       "supports": "Goddard in Ives's own words, and the plainest first-hand statement of what this bond was: Ives counts Kit first in the roll call of his household and measures the attachment in decades - 'some 35 years' by 1917, which reaches back past the Albany to Ives's father's estate in Hampshire. It is a claim of family rather than of service or of sex; Cook notes on the same page that Ives called the group 'my little circle in the world'. Ives's diary, vol. 70, 21 May 1917, as quoted by Cook.",
       "verification": "verified-elision",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF pp. 106-107 (printed folios 95 and 96 confirmed on the rendered pages; the quotation runs across the page break, breaking at 'has been with me some / 35 years'), read as page images 2026-08-03.",
-      "verified_by": "agent-mechanical",
+      "how_verified": "pdf-text",
+      "provenance": "Repo PDF pp. 106-107 (printed folios 95 and 96 confirmed on the rendered pages; the quotation runs across the page break, breaking at 'has been with me some / 35 years').",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -47,9 +46,8 @@
       "evidence_date": null,
       "supports": "Bed-sharing household intimacy at the Albany, in Cook's own words",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF page 162, printed folio 146 confirmed on rendered page, read as page image 2026-08-03 (transcribed by the Ives research pass; promoted from an ives.json context engagement to a relationship record 2026-08-03).",
-      "verified_by": "agent-mechanical",
+      "how_verified": "pdf-text",
+      "provenance": "Repo PDF page 162, printed folio 146 confirmed on rendered page (transcribed by the Ives research pass; promoted from an ives.json context engagement to a relationship record 2026-08-03).",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -62,9 +60,8 @@
       "evidence_date": null,
       "supports": "Cook records that Kit later brought his wife and children to live at Adelaide Road for a time - the household intimacy outlasting his marriage. Transcription pending.",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF page 164, printed folio 148 confirmed in the running head on the rendered page, read as a page image 2026-08-03.",
-      "verified_by": "agent-mechanical",
+      "how_verified": "pdf-text",
+      "provenance": "Repo PDF page 164, printed folio 148 confirmed in the running head on the rendered page.",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -77,9 +74,8 @@
       "evidence_date": null,
       "supports": "Cook's own careful reading: a possible sexual beginning, a platonic settling, continued bed-sharing throughout.",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF p. 112 (printed folio 101 confirmed on the rendered page), read as page image 2026-08-03.",
-      "verified_by": "agent-mechanical",
+      "how_verified": "pdf-text",
+      "provenance": "Repo PDF p. 112 (printed folio 101 confirmed on the rendered page).",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -92,9 +88,8 @@
       "evidence_date": null,
       "supports": "The trajectory Cook proposes for these relationships.",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF p. 112 (printed folio 101 confirmed on the rendered page), read as page image 2026-08-03.",
-      "verified_by": "agent-mechanical",
+      "how_verified": "pdf-text",
+      "provenance": "Repo PDF p. 112 (printed folio 101 confirmed on the rendered page).",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -107,9 +102,8 @@
       "evidence_date": null,
       "supports": "A second statement by Cook, in his 2014 book, of the Goddard bed-sharing - located specifically at the Albany and framed as an aside qualifying Goddard's servant role. Corroborates the Cook 2003 p. 146 sentence already in this record, but from the same author, so it does not supply independent attestation. Cook hedges: 'seems also to have'.",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF pp. 109-110 (printed folios 98 and 99 confirmed on the rendered pages; the sentence runs across the page break), read as page images 2026-08-03.",
-      "verified_by": "agent-mechanical",
+      "how_verified": "pdf-text",
+      "provenance": "Repo PDF pp. 109-110 (printed folios 98 and 99 confirmed on the rendered pages; the sentence runs across the page break).",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -122,9 +116,8 @@
       "evidence_date": null,
       "supports": "Duration: the Goddard co-residence with Ives lasted until the Goddards' deaths - the longest attachment in the household apart from Bloodworth's. Also dates the daughters' departure to the early 1940s.",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF p. 111 (printed folio 100 confirmed on the rendered page), read as page image 2026-08-03.",
-      "verified_by": "agent-mechanical",
+      "how_verified": "pdf-text",
+      "provenance": "Repo PDF p. 111 (printed folio 100 confirmed on the rendered page).",
       "verified_on": "2026-08-03",
       "voice": "modern"
     }

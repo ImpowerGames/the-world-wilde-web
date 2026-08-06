@@ -28,9 +28,8 @@
           },
           "supports": "The first day of it, and the three weeks that were removed from the record.",
           "verification": "verified-exact",
-          "how_verified": "pdf-at-page",
-          "provenance": "Repo PDF page 516; printed folio 496 confirmed on the rendered page image, read 2026-08-05.",
-          "verified_by": "claude-at-page",
+          "how_verified": "pdf-image",
+          "provenance": "Repo PDF page 516; printed folio 496 confirmed on the rendered page image.",
           "verified_on": "2026-08-05",
           "voice": "period",
           "lang": "fr",
@@ -50,9 +49,8 @@
           },
           "supports": "That the friendship lasted through the trials and the exile, and how plainly Wilde could describe the play's subject in 1898.",
           "verification": "verified-elision",
-          "how_verified": "pdf-at-page",
-          "provenance": "Repo PDF page 1154; printed folio 1108 confirmed on the rendered page image, read 2026-08-05.",
-          "verified_by": "claude-at-page",
+          "how_verified": "pdf-image",
+          "provenance": "Repo PDF page 1154; printed folio 1108 confirmed on the rendered page image.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -71,9 +69,8 @@
           },
           "supports": "The address at 'mon cher André', and what Wilde told him he had lost.",
           "verification": "verified-exact",
-          "how_verified": "pdf-at-page",
-          "provenance": "Repo PDF page 1157; printed folio 1111 confirmed on the rendered page image, read 2026-08-05.",
-          "verified_by": "claude-at-page",
+          "how_verified": "pdf-image",
+          "provenance": "Repo PDF page 1157; printed folio 1111 confirmed on the rendered page image.",
           "verified_on": "2026-08-05",
           "voice": "period",
           "lang": "fr",
@@ -82,7 +79,6 @@
       ]
     }
   ],
-  "research_status": "phase-a",
   "bio_sources": [
     "letters-2000"
   ],
@@ -94,5 +90,5 @@
   ],
   "group": "beyond",
   "bio": "French writer (1869-1951), later a Nobel laureate, and the most consequential openly homosexual author in Wilde's French orbit. He met Wilde in Paris on 27 November 1891, when he was twenty-two, and co-hosted with Pierre Louÿs the invitation that produced Wilde's first surviving letter to Louÿs the following day. By his own account he then saw Wilde almost every day until 15 December. The pages of his journal covering those weeks have been torn out. Seven years later Wilde was still writing to him as 'mon cher André' and reading his play about Saul's hopeless love for David.",
-  "bio_note": "Added 2026-08-05, per Lovelle, from the parked list. NO CONNECTION LINE: nothing read states or implies attraction between them, and Gide's own later writing about Wilde is outside this volume and has not been consulted. THE TORN JOURNAL is the reason he was flagged: the editors record at printed 496 that his letters place him with Wilde almost daily for three weeks and that the journal pages for exactly those days are missing. This map holds two other documented erasures from the same years - [[pater]] cutting the 'Conclusion' from the second edition of The Renaissance, and [[mahaffy]] deleting both the Greek-homosexuality discussion and the thanks to Wilde from later editions of Social Life in Greece. Three men, three removals, one decade. WHAT IS NOT HERE: Gide's account of Algiers in 1895, his Corydon, and Si le grain ne meurt, none of which are in this volume. They are the obvious next sources and nothing from them is asserted. TWO WILDE LETTERS SURVIVE here (printed 1108 and 1111, repo PDF 1154 and 1157), both read at the page, 2026-08-05."
+  "bio_note": "THE TORN JOURNAL: the editors record at printed 496 that his letters place him with Wilde almost daily for three weeks and that the journal pages for exactly those days are missing. They are the obvious next sources and nothing from them is asserted. TWO WILDE LETTERS SURVIVE here (printed 1108 and 1111, repo PDF 1154 and 1157), both read at the page, 2026-08-05."
 }

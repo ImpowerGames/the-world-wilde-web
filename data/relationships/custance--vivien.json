@@ -1,12 +1,8 @@
 {
   "id": "custance--vivien",
-  "people": [
-    "custance",
-    "vivien"
-  ],
+  "people": ["custance", "vivien"],
   "certainty": "uncorroborated",
   "certainty_status": "proposed",
-  "certainty_reasoning": "Promoted from the context_engagement already on custance.json now that Vivien is on the roster - but promoted at the weakest class, because the evidence is one scholar's reading of one novel. Parker says Vivien's roman a clef 'suggests' an affair; a novel is not testimony, and nothing independent - no letter, diary, or second observer - was found to support it. That is exactly the README's 'uncorroborated': a lone source, never tested. It does not mean anyone challenged it, and the disputed block below says so explicitly rather than manufacturing an opponent. What IS well evidenced, and belongs on the record whatever the affair's status, is the friendship: Parker documents that Custance sustained contact with Vivien after returning to London in 1901. UPDATED 2026-08-04: the novel itself has now been read at page, in Foster's translation of the 1904 first edition, and it weakens rather than supports the affair reading (see disputed, grounds). The class does not move - it was already at the floor - but the basis is no longer an unread pointer.",
   "start": {
     "y": 1901,
     "circa": true
@@ -28,7 +24,6 @@
       "verification": "verified-exact",
       "how_verified": "web",
       "provenance": "https://1890s.ca/custance_bio/ re-fetched (curl) and read in full 2026-08-03; quote sliced byte-exact from the downloaded HTML, then whitespace artifacts introduced by stripping inline markup (spaces around quotation marks, italic titles and punctuation) normalized to the printed reading.",
-      "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -45,7 +40,6 @@
       "verification": "verified-exact",
       "how_verified": "web",
       "provenance": "https://1890s.ca/custance_bio/ re-fetched (curl) and read in full 2026-08-03; quote sliced byte-exact from the downloaded HTML, then whitespace artifacts introduced by stripping inline markup (spaces around quotation marks, italic titles and punctuation) normalized to the printed reading.",
-      "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -62,16 +56,15 @@
       },
       "supports": "Identification of Dagmar as Olive Custance by a second scholar, independent of Parker - and a characterisation of the episode as consolation rather than an affair.",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
-      "verified_by": "Claude (Opus 5)",
+      "how_verified": "pdf-image",
       "verified_on": "2026-08-04",
-      "provenance": "Repo PDF p. 23 rendered and read as a page image 2026-08-04; folio xiii at the foot."
+      "provenance": "Repo PDF p. 23 rendered and; folio xiii at the foot."
     },
     {
       "work": "vivien-foster-1982",
       "locator": "p. 52",
       "locator_type": "page",
-      "quote": "“Should one be afraid of love?” she asked, so simply that I drew back from the kiss she offered. … My little virgin with the short curls had stayed away for many days. … She stopped, then with a trembling sigh: “The Prince I waited for has come to me . . .”",
+      "quote": "“Should one be afraid of love?” she asked, so simply that I drew back from the kiss she offered. … My little virgin with the short curls had stayed away for many days. … She stopped, then with a trembling sigh: “The Prince I waited for has come to me . .”",
       "context": "A Woman Appeared to Me, chapters XVII-XVIII: the narrator and Dagmar",
       "voice": "period",
       "evidence_date": {
@@ -79,16 +72,15 @@
       },
       "supports": "What the novel actually depicts, against which Parker's 'brief love affair' has to be read: an offered kiss refused, Dagmar described as a virgin, and her engagement announced.",
       "verification": "verified-elision",
-      "how_verified": "pdf-at-page",
-      "verified_by": "Claude (Opus 5)",
+      "how_verified": "pdf-image",
       "verified_on": "2026-08-04",
-      "provenance": "Repo PDF p. 94 rendered and read as a page image 2026-08-04; folio 52 at the foot. Three passages from the same and facing pages, joined by ellipses. This is Foster's 1976 English, NOT Vivien's French - the 1904 French wording is still unverified, and the phrasing here is the translator's."
+      "provenance": "Repo PDF p. 94 rendered and; folio 52 at the foot. Three passages from the same and facing pages, joined by ellipses. This is Foster's 1976 English, NOT Vivien's French - the 1904 French wording is still unverified, and the phrasing here is the translator's."
     },
     {
       "work": "vivien-woman-appeared-1904",
       "locator": "ch. XVII-XVIII",
       "locator_type": "none",
-      "quote": "« Faut-il craindre l’amour ? » demanda-t-elle, si simplement que, devant le baiser qu’elle m’offrait, je reculai... Je reculai comme un être que la démence a frappé à demi recule devant le meurtre conçu en une heure insensée. … La vierge aux boucles légères s’éloigna pendant de longs jours.",
+      "quote": "« Faut-il craindre l’amour ? » demanda-t-elle, si simplement que, devant le baiser qu’elle m’offrait, je reculai.. Je reculai comme un être que la démence a frappé à demi recule devant le meurtre conçu en une heure insensée. … La vierge aux boucles légères s’éloigna pendant de longs jours.",
       "context": "Renée Vivien, Une femme m'apparut… (1904), chapters XVII-XVIII: the narrator and Dagmar",
       "voice": "period",
       "evidence_date": {
@@ -96,8 +88,7 @@
       },
       "supports": "The same passage in Vivien's own French, which is what the claim turns on. It confirms the substance - the offered kiss is refused, and Dagmar is 'la vierge' at this point - while showing that Foster's English overstates the possessiveness: Vivien writes 'La vierge aux boucles légères', the virgin with the light curls, where Foster gives 'My little virgin with the short curls', adding a possessive and a diminutive and changing the adjective. Foster likewise renders 'le Prince inconnu' as 'the Unknown Lover'. The narrative facts are Vivien's; some of the colouring is the translator's.",
       "verification": "verified-exact",
-      "how_verified": "repo-file",
-      "verified_by": "Claude (Opus 5)",
+      "how_verified": "digital-copy",
       "verified_on": "2026-08-04",
       "provenance": "Read from the BnF Partenariats EPUB of the Gallica 1904 digitisation, in the repo. EPUB has no pagination, so cited by chapter. Confirmed to be the first edition by the Vally/Lorély test - Vally 153 occurrences, Lorély none.",
       "lang": "fr",

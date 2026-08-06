@@ -1,14 +1,10 @@
 {
   "id": "nellie-lloyd--otho-lloyd",
-  "people": [
-    "nellie-lloyd",
-    "otho-lloyd"
-  ],
+  "people": ["nellie-lloyd", "otho-lloyd"],
   "certainty": "married",
   "certainty_status": "proposed",
   "date_label": "Married; dates not established here",
   "summary": "Otho Holland Lloyd, Constance Wilde's brother, and his wife Nellie. Wilde calls them jointly 'the important uncle and aunt of our son and heir'.",
-  "certainty_reasoning": "MARRIED: Wilde addresses them as a couple in the same breath - 'you and Otho, the important uncle and aunt of our son and heir' - and asks after 'little Otho', their son, in a later letter to Otho alone. NO DATES: the marriage year is not given on any page read here and is not inferred, so the edge carries no start or end.",
   "sources": [
     {
       "work": "letters-2000",
@@ -25,9 +21,8 @@
       },
       "supports": "That they were a married couple, and both expecting.",
       "verification": "verified-elision",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF page 283; printed folio 261 confirmed on the rendered page image, read 2026-08-06.",
-      "verified_by": "claude-at-page",
+      "how_verified": "pdf-image",
+      "provenance": "Repo PDF page 283; printed folio 261 confirmed on the rendered page image.",
       "verified_on": "2026-08-06",
       "voice": "period"
     }

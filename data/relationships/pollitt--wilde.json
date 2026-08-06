@@ -1,14 +1,11 @@
 {
   "id": "pollitt--wilde",
-  "people": [
-    "pollitt",
-    "wilde"
-  ],
+  "people": ["pollitt", "wilde"],
   "certainty": "attraction-expressed",
+  "certainty_status": "proposed",
   "direction": "wilde",
   "outcome": "unknown",
-  "certainty_status": "proposed",
-  "certainty_reasoning": "Proposed on the primary record read in the source. FACTS FIRST: the editors state that four Wilde-to-Pollitt letters survive and that Wilde misspelt his name in all four (p. 1120 n. 2); no letter from Pollitt to Wilde is printed in this edition, so only one side of the exchange exists in the record. The two men appear never to have met during the correspondence: on 3 December 1898 Wilde takes the colour of Pollitt's hair on Ada Leverson's authority and says of a photograph 'not a bit like you, I am sure' (pp. 1106-07), and on 3 January 1899, having received two dissimilar photographs, he is still asking their mutual publisher Leonard Smithers 'What is he like?' (p. 1117). DIRECTION: Wilde's, and the anchor is his first letter - the request for a photograph is made by Wilde, unprompted, on 26 November 1898 (p. 1103), before any photograph is sent. This CORRECTS the earlier record dossier's reading of the 3 December letter as evidence that the photograph traffic was Pollitt-initiated. Across the four letters Wilde requests a photograph, thanks Pollitt for further ones and comments on his appearance in them, invites him to Paris while steering him away from his own hotel, and asks him to write. OUTCOME: unknown - Pollitt answered, sent at least four photographs, signed himself 'Jerome', kept the letters (now MS Princeton) and accepted inscribed presentation copies of the French Ballad of Reading Gaol and The Importance of Being Earnest, which is real reciprocity of a kind; but with no Pollitt text in evidence nothing shows what he understood himself to be answering, and no meeting is recorded. THE COUNTERVAILING READ, which the editor should weigh: the README warns that Wilde's epistolary extravagance is not by itself an edge, and the ANNOTATIONS-TRIAGE pass judged Pollitt 'context-engagement-worthy' rather than edge-worthy on exactly that ground. What lifts this above the ordinary Wilde flourish is narrow and should be named as such: a sustained request-and-comment pattern about a stranger's body, carried across the whole of a four-letter correspondence with a man he had never seen. If that reads to Lovelle as connoisseurship rather than desire, the correct disposition is no edge and a context engagement on wilde instead. attraction-expressed edges are hidden by default on the map, so this sits in the lead pool, not the documented web.",
+  "certainty_reasoning": "FACTS FIRST: the editors state that four Wilde-to-Pollitt letters survive and that Wilde misspelt his name in all four (p. 1120 n. 2); no letter from Pollitt to Wilde is printed in this edition, so only one side of the exchange exists in the record. The two men appear never to have met during the correspondence: on 3 December 1898 Wilde takes the colour of Pollitt's hair on Ada Leverson's authority and says of a photograph 'not a bit like you, I am sure' (pp. 1106-07), and on 3 January 1899, having received two dissimilar photographs, he is still asking their mutual publisher Leonard Smithers 'What is he like?' (p. 1117). DIRECTION: Wilde's, and the anchor is his first letter - the request for a photograph is made by Wilde, unprompted, on 26 November 1898 (p. 1103), before any photograph is sent. OUTCOME: unknown - Pollitt answered, sent at least four photographs, signed himself 'Jerome', kept the letters (now MS Princeton) and accepted inscribed presentation copies of the French Ballad of Reading Gaol and The Importance of Being Earnest, which is real reciprocity of a kind; but with no Pollitt text in evidence nothing shows what he understood himself to be answering, and no meeting is recorded.",
   "start": {
     "y": 1898,
     "m": 11
@@ -29,9 +26,8 @@
       "evidence_date": null,
       "supports": "The size of the surviving corpus - four Wilde-to-Pollitt letters - and the editors' correction of the misspelling to Wilde's account rather than Pollitt's",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF page 1166, printed folio 1120 confirmed on the rendered page, read as page image 2026-08-03. Whole footnote.",
-      "verified_by": "agent-mechanical",
+      "how_verified": "pdf-text",
+      "provenance": "Repo PDF page 1166, printed folio 1120 confirmed on the rendered page. Whole footnote.",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -44,9 +40,8 @@
       "evidence_date": null,
       "supports": "The misspelling itself, as Wilde wrote it on the envelope - 'Pollit' for 'Pollitt' - and the fact that Wilde addressed him by the preferred Christian name Jerome at his Kendal house",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF page 1162, printed folio 1116 confirmed on the rendered page, read as page image 2026-08-03. Second sentence of the two-sentence footnote; the first sentence is the cross-reference.",
-      "verified_by": "agent-mechanical",
+      "how_verified": "pdf-text",
+      "provenance": "Repo PDF page 1162, printed folio 1116 confirmed on the rendered page. Second sentence of the two-sentence footnote; the first sentence is the cross-reference.",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -63,9 +58,8 @@
       },
       "supports": "THE CLASS-DECIDING FACT: five weeks into the correspondence and holding two photographs, Wilde still had to ask a third party what Pollitt looked like - the two had not met",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF page 1163, printed folio 1117 confirmed on the rendered page, read as page image 2026-08-03.",
-      "verified_by": "agent-mechanical",
+      "how_verified": "pdf-text",
+      "provenance": "Repo PDF page 1163, printed folio 1117 confirmed on the rendered page.",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Leonard Smithers"
@@ -83,9 +77,8 @@
       },
       "supports": "THE DIRECTION-DECIDING FACT: the photograph traffic is opened by Wilde, unprompted, in the first letter - correcting the earlier record dossier's note that it was Pollitt-initiated",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF page 1149, printed folio 1103 confirmed on the rendered page, read as page image 2026-08-03.",
-      "verified_by": "agent-mechanical",
+      "how_verified": "pdf-text",
+      "provenance": "Repo PDF page 1149, printed folio 1103 confirmed on the rendered page.",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Herbert Charles Pollitt"
@@ -99,9 +92,8 @@
       "evidence_date": null,
       "supports": "The Green Window as a real house rather than a conceit - the running private reference in the correspondence",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF page 1153, printed folio 1107 confirmed on the rendered page, read as page image 2026-08-03; carried forward with its original provenance.",
-      "verified_by": "agent-mechanical",
+      "how_verified": "pdf-text",
+      "provenance": "Repo PDF page 1153, printed folio 1107 confirmed on the rendered page; carried forward with its original provenance.",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -118,9 +110,8 @@
       },
       "supports": "The sustained request-and-comment pattern on which the direction rests; recorded as description because the passages are the flirtatious core of the correspondence",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF pages 1152-1153, printed folios 1106 and 1107 read off the rendered pages; the editors' footnote marker after 'Hollyer' is dropped., read as a page image 2026-08-03.",
-      "verified_by": "agent-mechanical",
+      "how_verified": "pdf-text",
+      "provenance": "Repo PDF pages 1152-1153, printed folios 1106 and 1107 read off the rendered pages; the editors' footnote marker after 'Hollyer' is dropped.",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Herbert Charles Pollitt"
@@ -139,9 +130,8 @@
       },
       "supports": "Wilde on Pollitt's goldness, and telling him where not to stay.",
       "verification": "verified-elision",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF page 1153; printed folio 1107 confirmed on the rendered page image, read 2026-08-06.",
-      "verified_by": "claude-at-page",
+      "how_verified": "pdf-image",
+      "provenance": "Repo PDF page 1153; printed folio 1107 confirmed on the rendered page image.",
       "verified_on": "2026-08-06",
       "voice": "period"
     }

@@ -20,12 +20,12 @@
   "bio_sources": [
     "letters-2000"
   ],
-  "bio_note": "Added 2026-08-05 under Lovelle's instruction to put friendship on the map as well as romance. NO CONNECTION LINE: the record is warm friendship and professional loyalty, and nothing read supports a romantic or sexual claim. The 2026-08-04 sweep cleared him on the ground that his 'I love you' hits were Wilde drafting play dialogue - which is correct, and is not the same as there being nothing here. THE THIRTEEN LETTERS are at repo PDF 443, 483, 506, 532, 534, 535, 634, 647, 651, 662, 672, 685 and 1239. TWELVE OF THE THIRTEEN have been read at the page — printed 421, 463, 486, 512, 515, 582, 595, 599, 610, 620, 633 and 1193 — every folio confirmed on its own page image. ONE remains unread (repo PDF 534): it is the first half of a mid-February 1892 rehearsal letter whose second half was read at printed 515, and both halves are staging notes on Lady Windermere's Fan. DATES AND NAME are from the editors' note at printed 421. THE 1892 REHEARSAL LETTERS are not quoted beyond the one at printed 512: they are line-by-line direction ('Lord A's coat is too horsy'), and the only human sentence in them is 'I write from bed which accounts for pencil', and the openings visible in the OCR mirror run 'Dear Aleck' and 'My dear Aleck'. DATES: the death year comes from the editors' note at printed 1193; no birth year is given there and none is inferred. THE ARC WORTH NOTING, and worth finishing: in February 1899 Wilde wrote to Ross that Alexander had passed him on a bicycle by the sea and 'gave me a crooked, sickly smile, and hurried on without stopping. How absurd and mean of him!' (printed 1111, located in the mirror, not yet read at the page). Eighteen months later they met by chance and shook hands, and the letter below is what Wilde wrote the next day. A THREAD WORTH FOLLOWING: Wilde sends 'kind regards to Mrs Aleck' in 1894 and, in 1900, says he will not forget 'your dear wife's charming and affectionate greeting of me'. Florence Alexander is not on this roster and could be, under the spouse rule.",
+  "bio_note": "THE THIRTEEN LETTERS are at repo PDF 443, 483, 506, 532, 534, 535, 634, 647, 651, 662, 672, 685 and 1239. TWELVE OF THE THIRTEEN have been read at the page — printed 421, 463, 486, 512, 515, 582, 595, 599, 610, 620, 633 and 1193 — every folio confirmed on its own page image. ONE remains unread (repo PDF 534): it is the first half of a mid-February 1892 rehearsal letter whose second half was read at printed 515, and both halves are staging notes on Lady Windermere's Fan. DATES AND NAME are from the editors' note at printed 421. THE 1892 REHEARSAL LETTERS are not quoted beyond the one at printed 512: they are line-by-line direction ('Lord A's coat is too horsy'), and the only human sentence in them is 'I write from bed which accounts for pencil', and the openings visible in the OCR mirror run 'Dear Aleck' and 'My dear Aleck'. DATES: the death year comes from the editors' note at printed 1193; no birth year is given there and none is inferred. (printed 1111, located in the mirror, not yet read at the page).",
   "context_engagements": [
     {
       "partner_name": "Oscar Wilde",
       "period": "Professional friendship 1890-1900; the correspondence runs the whole of it",
-      "note": "Friendship and professional loyalty. WHAT READING THEM ALL SHOWS: this correspondence is overwhelmingly a working one. Two of the thirteen are long play scenarios — the first sketch of The Importance of Being Earnest at printed 595, and the plot later sold to Frank Harris as Mr and Mrs Daventry at printed 599 — and several more are staging, rights and money. The affection is not in the bodies of the letters but in their edges: the salutation ('My dear Aleck' throughout), the regards to his wife, and two exceptional letters where Wilde drops his guard — the confession of February 1895 and the reunion of July 1900. That distribution is itself the finding, and it is why the warm passages are quoted here with the business trimmed rather than the other way round.",
+      "note": "Two of the thirteen are long play scenarios — the first sketch of The Importance of Being Earnest at printed 595, and the plot later sold to Frank Harris as Mr and Mrs Daventry at printed 599 — and several more are staging, rights and money.",
       "sources": [
         {
           "work": "letters-2000",
@@ -41,9 +41,8 @@
           },
           "supports": "The beginning of the correspondence, and its social side — Wilde and Constance wanting to come to his opening night.",
           "verification": "verified-exact",
-          "how_verified": "pdf-at-page",
-          "provenance": "Repo PDF page 443; printed folio 421 confirmed on the rendered page image, read 2026-08-05.",
-          "verified_by": "claude-at-page",
+          "how_verified": "pdf-image",
+          "provenance": "Repo PDF page 443; printed folio 421 confirmed on the rendered page image.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -62,9 +61,8 @@
           },
           "supports": "Wilde admitting to his manager that the commissioned play is not working, and why — candour rather than excuse.",
           "verification": "verified-elision",
-          "how_verified": "pdf-at-page",
-          "provenance": "Repo PDF page 483; printed folio 463 confirmed on the rendered page image, read 2026-08-05.",
-          "verified_by": "claude-at-page",
+          "how_verified": "pdf-image",
+          "provenance": "Repo PDF page 483; printed folio 463 confirmed on the rendered page image.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -83,9 +81,8 @@
           },
           "supports": "The early register of the friendship, and the candour in it.",
           "verification": "verified-exact",
-          "how_verified": "pdf-at-page",
-          "provenance": "Repo PDF page 506; printed folio 486 confirmed on the rendered page image, read 2026-08-05.",
-          "verified_by": "claude-at-page",
+          "how_verified": "pdf-image",
+          "provenance": "Repo PDF page 506; printed folio 486 confirmed on the rendered page image.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -103,9 +100,8 @@
           },
           "supports": "The working relationship under strain, and Wilde's care to keep a disagreement from becoming a quarrel.",
           "verification": "verified-elision",
-          "how_verified": "pdf-at-page",
-          "provenance": "Repo PDF page 532; printed folio 512 confirmed on the rendered page image, read 2026-08-05.",
-          "verified_by": "claude-at-page",
+          "how_verified": "pdf-image",
+          "provenance": "Repo PDF page 532; printed folio 512 confirmed on the rendered page image.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -123,9 +119,8 @@
           },
           "supports": "The care taken not to wound: a letter written for no reason except that a friend might otherwise feel passed over.",
           "verification": "verified-exact",
-          "how_verified": "pdf-at-page",
-          "provenance": "Repo PDF page 634; printed folio 582 confirmed on the rendered page image, read 2026-08-05.",
-          "verified_by": "claude-at-page",
+          "how_verified": "pdf-image",
+          "provenance": "Repo PDF page 634; printed folio 582 confirmed on the rendered page image.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -143,9 +138,8 @@
           },
           "supports": "The loyalty underneath the business — 'I want to come back to you' — and Wilde poor enough at Worthing to say so plainly.",
           "verification": "verified-elision",
-          "how_verified": "pdf-at-page",
-          "provenance": "Repo PDF page 662; printed folio 610 confirmed on the rendered page image, read 2026-08-05.",
-          "verified_by": "claude-at-page",
+          "how_verified": "pdf-image",
+          "provenance": "Repo PDF page 662; printed folio 610 confirmed on the rendered page image.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -165,9 +159,8 @@
           },
           "supports": "The friendship at its most companionable — illness, a joke shared at a rival's expense, and regards to the wife who greets him again in the last letter of 1900.",
           "verification": "verified-elision",
-          "how_verified": "pdf-at-page",
-          "provenance": "Repo PDF page 672; printed folio 620 confirmed on the rendered page image, read 2026-08-05.",
-          "verified_by": "claude-at-page",
+          "how_verified": "pdf-image",
+          "provenance": "Repo PDF page 672; printed folio 620 confirmed on the rendered page image.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -185,9 +178,8 @@
           },
           "supports": "What Wilde told Alexander about himself weeks before the collapse — the trust in the friendship, measured by the confession rather than by any endearment.",
           "verification": "verified-exact",
-          "how_verified": "pdf-at-page",
-          "provenance": "Repo PDF page 685; printed folio 633 confirmed on the rendered page image, read 2026-08-05.",
-          "verified_by": "claude-at-page",
+          "how_verified": "pdf-image",
+          "provenance": "Repo PDF page 685; printed folio 633 confirmed on the rendered page image.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -207,9 +199,8 @@
           },
           "supports": "The warmth of the friendship at the very end of Wilde's life, and what he had learned to value - a handshake, and a wife's greeting.",
           "verification": "verified-elision",
-          "how_verified": "pdf-at-page",
-          "provenance": "Repo PDF page 1239; printed folio 1193 confirmed on the rendered page image, read 2026-08-05. The OCR mirror attributes this letter to printed 1192; the page image gives 1193.",
-          "verified_by": "claude-at-page",
+          "how_verified": "pdf-image",
+          "provenance": "Repo PDF page 1239; printed folio 1193 confirmed on the rendered page image. The OCR mirror attributes this letter to printed 1192; the page image gives 1193.",
           "verified_on": "2026-08-05",
           "voice": "period"
         }
@@ -218,7 +209,6 @@
     {
       "partner_name": "Oscar Wilde",
       "period": "London, February 1891",
-      "note": "Added 2026-08-06 during the deferred-items pass. Professional, and kept for what Wilde says about his own working method rather than for any warmth beyond 'My dear Aleck'.",
       "sources": [
         {
           "work": "letters-2000",
@@ -235,14 +225,12 @@
           },
           "supports": "Wilde admitting to his manager that he cannot work to order.",
           "verification": "verified-exact",
-          "how_verified": "pdf-at-page",
-          "provenance": "Repo PDF page 483; printed folio 463 confirmed on the rendered page image, read 2026-08-06.",
-          "verified_by": "claude-at-page",
+          "how_verified": "pdf-image",
+          "provenance": "Repo PDF page 483; printed folio 463 confirmed on the rendered page image.",
           "verified_on": "2026-08-06",
           "voice": "period"
         }
       ]
     }
-  ],
-  "research_status": "phase-a"
+  ]
 }

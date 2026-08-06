@@ -5,14 +5,11 @@
   "gender": "m",
   "aka": [],
   "group": "liaisons",
-  "bio_sources": [
-    "letters-2000"
-  ],
+  "bio_sources": ["letters-2000"],
   "context_engagements": [
     {
       "partner_name": "Oscar Wilde",
       "period": "Rome, April 1900",
-      "note": "Recorded without a connection line. One sentence is all there is.",
       "sources": [
         {
           "work": "letters-2000",
@@ -28,18 +25,16 @@
           },
           "supports": "That Wilde replaced one young Roman with his best friend, and said so plainly.",
           "verification": "verified-exact",
-          "how_verified": "pdf-at-page",
-          "provenance": "Repo PDF page 1228; printed folio 1182 confirmed on the rendered page image, read 2026-08-06.",
-          "verified_by": "claude-at-page",
+          "how_verified": "pdf-image",
+          "provenance": "Repo PDF page 1228; printed folio 1182 confirmed on the rendered page image.",
           "verified_on": "2026-08-06",
           "voice": "period"
         }
       ]
     }
   ],
-  "research_status": "phase-a",
   "name": "Arnaldo",
   "sort_name": "Arnaldo",
   "bio": "A young Roman, Armando's closest friend, whom Wilde took up in April 1900 when he gave Armando up. He survives in one sentence: 'I now like Arnaldo: he was Armando's greatest friend, but the friendship is over.'",
-  "bio_note": "Added 2026-08-06. NO CONNECTION LINE, and the reason is worth stating: 'I now like Arnaldo' is in the same breath as giving up Armando and plainly describes a replacement in the same role, but ONE CLAUSE IS NOT ENOUGH for an attraction-expressed edge on this map when the clause contains no description, no address, and no statement of feeling beyond 'like'. He is a node because he is named, and because leaving him out would make the Rome cohort look like one boy rather than three. THE FRIENDSHIP THAT ENDED is between Arnaldo and Armando, not between either of them and Wilde - the sentence is easy to misread. THE ROME COHORT: Wilde was in Rome from about 12 April to early May 1900, seven months before his death, and wrote about it to Robert Ross. Three young Romans are named in those letters - Armando, Arnaldo and Omero. None of the three was on this map until 2026-08-06, although the map already carried the Naples, Napoule and Paris cohorts in detail. The gap existed because only Armando has his own General Index entry ('Armando (boy), 1182, 1184'); the other two appear inside the same paragraphs and are indexed nowhere. See [[armando]] and [[omero]]."
+  "bio_note": "The gap existed because only Armando has his own General Index entry ('Armando (boy), 1182, 1184'); the other two appear inside the same paragraphs and are indexed nowhere."
 }

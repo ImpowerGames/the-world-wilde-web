@@ -1,12 +1,9 @@
 {
   "id": "fothergill--kirby",
-  "people": [
-    "fothergill",
-    "kirby"
-  ],
+  "people": ["fothergill", "kirby"],
   "certainty": "married",
   "certainty_status": "proposed",
-  "certainty_reasoning": "Married, and the best-attested of the two Fothergill marriages: named in a repo biography working from his unpublished memoirs and his Times obituary, and independently in his OWN published book, where he credits her by name for the running of the inn. Wikipedia carries the same, naming her and not the first wife. The date is the weak part and is openly arithmetic rather than documented.",
+  "certainty_reasoning": "Wikipedia carries the same, naming her and not the first wife.",
   "start": {
     "y": 1920
   },
@@ -25,9 +22,8 @@
       "evidence_date": null,
       "supports": "The second marriage, the wife's name, and its dating relative to the Spread Eagle.",
       "verification": "verified-exact",
-      "how_verified": "repo-file",
+      "how_verified": "digital-copy",
       "provenance": "David Sox, Bachelors of Art (1991), read in the repo TEXT MIRROR of the PDF on 2026-08-05, not at a rendered page image. The locator is the repo PDF page; the printed folio was not confirmed on an image for this passage, which is a weaker provenance than the rest of this module's Sox citations and is flagged as such.",
-      "verified_by": "agent-mechanical",
       "verified_on": "2026-08-05",
       "voice": "modern",
       "order_hint": {
@@ -46,7 +42,6 @@
       "verification": "verified-exact",
       "how_verified": "web",
       "provenance": "Plain-text extract of the article fetched through the MediaWiki API and read 2026-08-05; quotation sliced from that extract. Reference-marker brackets omitted as typography.",
-      "verified_by": "agent-mechanical",
       "verified_on": "2026-08-05",
       "voice": "modern"
     }

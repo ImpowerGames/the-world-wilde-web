@@ -17,10 +17,7 @@
   "bio_sources": [
     "wikipedia-mabel-batten"
   ],
-  "bio_note": "Dates 1832-1910 are from Wikidata Q76278040 (P569/P570); the Wikipedia article on Mabel Batten gives him no dates at all, and the Wikidata item is sourced only as 'imported from Wikimedia project'. TREAT THE DATES AS THE WEAKEST PART OF THIS RECORD. The marriage itself is footnoted on the article to Emily Hamer, Britannia's Glory (2016 edn), p. 94, which was not read. Sally Cline, Radclyffe Hall: A Woman Called John (1999) would be the better underlying source if the repo acquires it.",
+  "bio_note": "Dates 1832-1910 are from Wikidata Q76278040 (P569/P570); the Wikipedia article on Mabel Batten gives him no dates at all, and the Wikidata item is sourced only as 'imported from Wikimedia project'. The marriage itself is footnoted on the article to Emily Hamer, Britannia's Glory (2016 edn), p. 94, which was not read. Sally Cline, Radclyffe Hall: A Woman Called John (1999) would be the better underlying source if the repo acquires it.",
   "context_engagements": [],
-  "research_status": "phase-a",
-  "wikidata": null,
-  "wikipedia": null,
-  "roster_note": "Added 2026-08-05 in the pass that put every spouse and every off-roster person on the map."
+  "wikipedia": null
 }

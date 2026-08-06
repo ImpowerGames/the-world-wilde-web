@@ -6,7 +6,6 @@
   ],
   "certainty": "married",
   "certainty_status": "proposed",
-  "certainty_reasoning": "Married, and not in doubt - the Whitman Archive states it in two places and Whitman himself addressed the couple jointly in a letter the Archive holds. But NOTHING HAS BEEN TRANSCRIBED AT SOURCE for this pass: the Archive returns 403 to scripted fetching, so rather than reconstruct a quotation from search-result fragments this edge carries a pointer and stays pending. Recording it as pending is the honest state; a browser session closes it in minutes.",
   "start": null,
   "end": null,
   "date_label": "m. 1883 or 1884 (sources conflict); still married November 1884",

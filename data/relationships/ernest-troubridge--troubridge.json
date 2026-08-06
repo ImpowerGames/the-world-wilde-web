@@ -6,7 +6,7 @@
   ],
   "certainty": "married",
   "certainty_status": "proposed",
-  "certainty_reasoning": "Married, on the Ransom Center's own finding aid - a repository sketch written over the couple's papers, which is the better authority here - corroborated independently by Wikipedia and by Wikidata Q3549170. THE EDGE IS ON THE MAP BECAUSE IT IS NOT A ROUTINE FACT: this marriage is the documented cost of a relationship the map exists to record, and its ending is dated by the Ransom Center to Una's relationship with Hall in so many words. Wikidata's exact wedding day is not adopted; see the person file.",
+  "certainty_reasoning": "Married, on the Ransom Center's own finding aid - a repository sketch written over the couple's papers, which is the better authority here - corroborated independently by Wikipedia and by Wikidata Q3549170.",
   "start": {
     "y": 1908,
     "m": 10
@@ -33,7 +33,6 @@
       "verification": "verified-elision",
       "how_verified": "web",
       "provenance": "Plain-text extract of the article fetched through the MediaWiki API and read 2026-08-05; quotation sliced from that extract. Reference-marker brackets omitted as typography.",
-      "verified_by": "agent-mechanical",
       "verified_on": "2026-08-05",
       "voice": "modern"
     },
@@ -50,7 +49,6 @@
       "verification": "verified-exact",
       "how_verified": "web",
       "provenance": "Quotation carried unchanged from the context_engagement on troubridge.json, where it was recorded from the finding aid fetched and read in full 2026-08-03. The sketch carries no per-claim citations.",
-      "verified_by": "agent-mechanical",
       "verified_on": "2026-08-05",
       "voice": "modern"
     }

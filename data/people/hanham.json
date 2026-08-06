@@ -3,17 +3,12 @@
   "born": null,
   "died": null,
   "gender": "m",
-  "aka": [
-    "Sir John"
-  ],
-  "bio_sources": [
-    "letters-2000"
-  ],
+  "aka": ["Sir John"],
+  "bio_sources": ["letters-2000"],
   "context_engagements": [
     {
       "partner_name": "Harold Boulton",
       "period": "Oxford, April 1878",
-      "note": "Recorded without a connection line. He is named only as the preferred companion; nothing states what passed between him and Boulton.",
       "sources": [
         {
           "work": "letters-2000",
@@ -29,19 +24,17 @@
           },
           "supports": "That Boulton had a preferred companion, and who the editors think he was.",
           "verification": "verified-elision",
-          "how_verified": "pdf-at-page",
-          "provenance": "Repo PDF page 93; printed folio 66 confirmed on the rendered page image, read 2026-08-05.",
-          "verified_by": "claude-at-page",
+          "how_verified": "pdf-image",
+          "provenance": "Repo PDF page 93; printed folio 66 confirmed on the rendered page image.",
           "verified_on": "2026-08-05",
           "voice": "period"
         }
       ]
     }
   ],
-  "research_status": "phase-a",
   "name": "Sir John Alexander Hanham",
   "sort_name": "Hanham, Sir John Alexander",
   "group": "aesthete",
   "bio": "Ninth Baronet, and a Magdalen undergraduate from 1875 to 1878, having succeeded to the baronetcy on his uncle's death in 1877. He is on this map as the third point of a triangle: the 'Sir John' whose company Wilde believed Harold Boulton preferred to his own.",
-  "bio_note": "Added 2026-08-06. NO CONNECTION LINE OF HIS OWN - nothing records what he felt about anyone, and he appears in the record only as the man Wilde was jealous of. HE IS LOAD-BEARING ANYWAY: `boulton--wilde` is an attraction-expressed edge drawn entirely on Wilde's pique that Boulton liked someone 'much better than yours truly', and leaving that someone unnamed left the edge's evidence half-invisible. IDENTIFICATION IS THE EDITORS' AND IS HEDGED - 'most probably Sir John Alexander Hanham' (printed 66, note 2) - and that hedge is kept rather than dropped. See [[boulton]]."
+  "bio_note": "IDENTIFICATION IS THE EDITORS' AND IS HEDGED - 'most probably Sir John Alexander Hanham' (printed 66, note 2) - and that hedge is kept rather than dropped."
 }

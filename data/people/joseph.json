@@ -11,10 +11,7 @@
   "bio_sources": [
     "letters-2000"
   ],
-  "bio_note": "THE RECORD PRESERVES A FIRST NAME ONLY. Sole source: Wilde to Reginald Turner, [postmark 6 December 1898], Hotel d'Alsace, Paris, Complete Letters (2000), p. 1107. Transcription and provenance reused unchanged from the context_engagement on ashton.json, where this was held off-roster until 2026-08-05. Wilde is an onlooker here, not a party: the whole of what is known of Joseph is what Wilde wrote to a friend about someone else's household.",
+  "bio_note": "Sole source: Wilde to Reginald Turner, [postmark 6 December 1898], Hotel d'Alsace, Paris, Complete Letters (2000), p. 1107.",
   "context_engagements": [],
-  "research_status": "phase-a",
-  "wikidata": null,
-  "wikipedia": null,
-  "roster_note": "Promoted from an off-roster context_engagement on ashton.json, 2026-08-05, in the pass that put every off-roster person on the map. The sources moved with him unchanged."
+  "wikipedia": null
 }

@@ -1,9 +1,6 @@
 {
   "id": "branca-doro--wilde",
-  "people": [
-    "branca-doro",
-    "wilde"
-  ],
+  "people": ["branca-doro", "wilde"],
   "certainty": "attraction-expressed",
   "certainty_status": "proposed",
   "direction": "wilde",
@@ -18,7 +15,6 @@
   },
   "date_label": "Palermo and Rome, April 1900",
   "summary": "Wilde told Robert Ross in April 1900 that he had added Pietro Branca-d'Oro to his circle, describing him as dark and gloomy and saying he loved him very much.",
-  "certainty_reasoning": "ATTRACTION-EXPRESSED, arrow from Wilde, outcome unknown. THE EVIDENCE IS ONE SENTENCE and it is unusually direct for this tier - 'I love him very much' - said in Wilde's own hand to the person he was most candid with. NOTHING SEXUAL IS ESTABLISHED and none is claimed. OUTCOME UNKNOWN because Branca-d'Oro never speaks in this record. WHAT IS THIN: one sentence, no second mention, and 'I love him very much' sits in a paragraph of circle news between a complaint about Homer and a request for photographs, which is a lighter setting than the words alone suggest. WHAT IS NOT THIN: Wilde names him in full, which he does for almost none of the young men of these years - Georges, Armando, Arnaldo, Omero, Raphael, Fortuné and Alphonse all survive under first names only. A surname is a small thing that means he was somebody rather than an encounter.",
   "sources": [
     {
       "work": "letters-2000",
@@ -34,9 +30,8 @@
       },
       "supports": "The whole of the record for Branca-d'Oro, and Wilde saying he loved him.",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF page 1227; printed folio 1181 confirmed on the rendered page image, read 2026-08-06.",
-      "verified_by": "claude-at-page",
+      "how_verified": "pdf-image",
+      "provenance": "Repo PDF page 1227; printed folio 1181 confirmed on the rendered page image.",
       "verified_on": "2026-08-06",
       "voice": "period"
     }

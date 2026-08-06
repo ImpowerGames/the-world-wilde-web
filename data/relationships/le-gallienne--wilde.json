@@ -1,14 +1,11 @@
 {
   "id": "le-gallienne--wilde",
-  "people": [
-    "le-gallienne",
-    "wilde"
-  ],
+  "people": ["le-gallienne", "wilde"],
   "certainty": "attraction-expressed",
   "certainty_status": "proposed",
   "direction": "wilde",
   "outcome": "unknown",
-  "certainty_reasoning": "Wilde's own words, and only Wilde's: Le Gallienne's side of the correspondence is not in this volume, so the record is one-sided by survival. The December 1890 letter names the bond itself - \"Friendship and love like ours\" - and closes on an image of kissing him, hedged into a compliment about his laurels. That is legible as attraction without needing any coding hypothesis, and it is the strongest thing the sweep of the whole volume turned up outside the people already mapped. What follows from it is not recorded, hence `outcome: unknown`. On the class. `attraction-expressed` records that **the surviving record is one-sided** - Wilde's letter survives and the other man's does not - and since August 2026 its bar is attraction legible to an ordinary reader rather than an approach or a declaration. That widening is what lets this person onto the map at all. It is a statement about the paper, not about what either man felt or did.",
+  "certainty_reasoning": "Wilde's own words, and only Wilde's: Le Gallienne's side of the correspondence is not in this volume, so the record is one-sided by survival. What follows from it is not recorded, hence `outcome: unknown`.",
   "start": {
     "y": 1890
   },
@@ -29,9 +26,8 @@
       },
       "supports": "The class, and the direction - this is Wilde writing, and only Wilde.",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
+      "how_verified": "pdf-text",
       "provenance": "Repo PDF p. 479 read as a rendered page image 2026-08-04; printed folio 457 confirmed at the foot of the image. Located first in the complete OCR mirror, which locates only. Superscript note markers omitted as typography.",
-      "verified_by": "agent-mechanical",
       "verified_on": "2026-08-04",
       "speaker": "Oscar Wilde",
       "addressee": "Richard Le Gallienne",

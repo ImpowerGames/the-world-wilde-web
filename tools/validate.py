@@ -30,7 +30,7 @@ CERTAINTY = {"self-reported", "second-hand", "uncorroborated", "married", "attra
 OUTCOMES = {"declined", "unknown", "unreciprocated"}
 CERTAINTY_STATUS = {"proposed", "confirmed"}
 VERIFICATION = {"verified-exact", "verified-elision", "needs-fix", "rejected", "unverified"}
-HOW = {"pdf-at-page", "repo-file", "archive-org", "web", "unverified"}
+HOW = {"pdf-image", "pdf-text", "digital-copy", "archive-org", "web", "unverified"}
 LOCATOR_TYPES = {"page", "diary-entry", "trial-day", "letter-date", "none"}
 GROUPS = {"core", "family", "society", "aesthete", "trials", "chaeronea",
           "later", "liaisons", "beyond"}
@@ -160,7 +160,7 @@ def check_turns(q, where, errors):
         return
     if (q.get("quote") or "").strip() and not turns:
         errors.append(f"{where}: voice is 'exchange' but there are no `turns` - run "
-                      f"tools/dump_turns.py, read the split, and store it")
+                      f"the dump_turns tool, read the split, and store it")
         return
     if not turns:
         return

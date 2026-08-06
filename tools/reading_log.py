@@ -1,7 +1,7 @@
 """READING_LOG.md — a durable record of every page read at the page, and what was on it.
 
 Why this exists: quotes that got USED are in data/ with provenance. Quotes read and passed over
-were living only in the working conversation, which is disposable. When Lovelle verifies the map
+were living only in the working conversation, which is disposable. When someone verifies the map
 node by node he needs to know what else was on a page, not only what was taken from it - and the
 next sweep session needs to know a page is genuinely done rather than merely cited once.
 

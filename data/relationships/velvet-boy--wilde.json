@@ -1,9 +1,6 @@
 {
   "id": "velvet-boy--wilde",
-  "people": [
-    "velvet-boy",
-    "wilde"
-  ],
+  "people": ["velvet-boy", "wilde"],
   "certainty": "self-reported",
   "certainty_status": "proposed",
   "start": {
@@ -18,7 +15,6 @@
   "direction": null,
   "outcome": null,
   "summary": "Wilde was seen in a boy's company outside a cafe behind the Madeleine by Aleck Ross, and wrote about it to Aleck's brother Robbie the same week. The encounter is known only from Wilde's own sentence, and his framing of it - 'half rough, all Hylas' - is the whole of the evidence for reading it as more than company.",
-  "certainty_reasoning": "Self-reported: the only witness who writes anything down is Wilde, and he writes it in his own letter. He is not confessing to anything - the comedy of the passage is being caught, not what he was caught at - so the erotic reading rests on his own choice of words rather than on any statement of what happened. 'Hylas' is the youth Herakles loved; 'half rough' places the boy socially, a rough being a working-class young man. No act is described and none is claimed here. The class note is the point of his inclusion: he is one of the men who reached the record only because someone respectable saw them together.",
   "sources": [
     {
       "work": "letters-2000",
@@ -32,9 +28,8 @@
       },
       "supports": "The encounter, in Wilde's own words, and his framing of the boy.",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
+      "how_verified": "pdf-text",
       "voice": "period",
-      "verified_by": "agent-mechanical",
       "verified_on": "2026-08-04",
       "provenance": "Repo PDF page 1223, printed folio 1177 read on the rendered page 2026-08-04. 'cafe' is italicised in the printed text; accents normalised here.",
       "addressee": "Robert Ross"

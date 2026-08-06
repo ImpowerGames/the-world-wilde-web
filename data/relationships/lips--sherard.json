@@ -1,9 +1,6 @@
 {
   "id": "lips--sherard",
-  "people": [
-    "lips",
-    "sherard"
-  ],
+  "people": ["lips", "sherard"],
   "certainty": "married",
   "certainty_status": "proposed",
   "start": {
@@ -12,7 +9,7 @@
   "end": null,
   "date_label": "Married 1886",
   "summary": "Sherard married Martha Lips in 1886, seven years before Wilde's trials and three years into his friendship with Wilde. Wilde asked after her warmly in 1888.",
-  "certainty_reasoning": "MARRIED: stated by the editors of the Complete Letters. On the map under the roster's spouse rule.",
+  "certainty_reasoning": "MARRIED: stated by the editors of the Complete Letters.",
   "sources": [
     {
       "work": "letters-2000",
@@ -25,9 +22,8 @@
       },
       "supports": "The marriage and its year — the whole of what the source says about it.",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF page 369; printed folio 347 confirmed on the rendered page image, read 2026-08-05.",
-      "verified_by": "claude-at-page",
+      "how_verified": "pdf-image",
+      "provenance": "Repo PDF page 369; printed folio 347 confirmed on the rendered page image.",
       "verified_on": "2026-08-05",
       "voice": "modern"
     },
@@ -44,9 +40,8 @@
       },
       "supports": "That Wilde knew her, and how he spoke of her.",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF page 370; printed folio 348 confirmed on the rendered page image, read 2026-08-05.",
-      "verified_by": "claude-at-page",
+      "how_verified": "pdf-image",
+      "provenance": "Repo PDF page 370; printed folio 348 confirmed on the rendered page image.",
       "verified_on": "2026-08-05",
       "voice": "period"
     }

@@ -6,7 +6,7 @@
   ],
   "certainty": "married",
   "certainty_status": "proposed",
-  "certainty_reasoning": "Married, and not in doubt as a fact - but the record is thin and web-borne, which is worth stating plainly. The claim rests on one Wikipedia sentence footnoted to Hamer (2016), p. 94, a page nobody in this module has read, corroborated by a Wikidata P26 statement whose only source is the Wikipedia article itself. That is one source wearing two hats. The identification is nevertheless secure: Mabel Batten is matched on 1856-1916, the years on her person file and in the Ransom Center finding aid, and the husband is the reason her surname is Batten at all.",
+  "certainty_reasoning": "The claim rests on one Wikipedia sentence footnoted to Hamer (2016), p. 94, a page nobody in this module has read, corroborated by a Wikidata P26 statement whose only source is the Wikipedia article itself.",
   "start": {
     "y": 1874
   },
@@ -29,7 +29,6 @@
       "verification": "verified-exact",
       "how_verified": "web",
       "provenance": "Plain-text extract of the article fetched through the MediaWiki API and read 2026-08-05; quotation sliced from that extract. Reference-marker brackets omitted as typography. The inline reference marker after 'India' is omitted as typography.",
-      "verified_by": "agent-mechanical",
       "verified_on": "2026-08-05",
       "voice": "modern"
     }

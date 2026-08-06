@@ -6,7 +6,7 @@
   ],
   "certainty": "married",
   "certainty_status": "proposed",
-  "certainty_reasoning": "Married - but on the weakest evidential footing of any marriage edge on this map, and the edge should be read that way. ALL THREE LE GALLIENNE MARRIAGES REST ON AN UNCITED WIKIPEDIA NARRATIVE. The sentences carry no inline footnote; Wikidata Q545544 is not an independent check, holding a single P26 claim with zero references and nothing at all for two of the three wives, so the two web sources are one source. What keeps the edge honest rather than speculative is that the repo's own person file states independently that 'He married three times' - the map's record and the article agree on the substance before any date is taken from either - and that the identification is exact, matching 1866-1947 on the person file, the Wikipedia article and Wikidata alike. WHAT WOULD CLOSE IT: Whittington-Egan and Smerdon, The Quest of the Golden Boy (1960), the standard life, and Eva Le Gallienne's memoirs; failing those, the GRO and New York civil registers. Neither is in the repo. This is the best-dated of the three - a marriage year and a divorce month and year - and the only one Wikidata records at all, though without a reference.",
+  "certainty_reasoning": "ALL THREE LE GALLIENNE MARRIAGES REST ON AN UNCITED WIKIPEDIA NARRATIVE. The sentences carry no inline footnote; Wikidata Q545544 is not an independent check, holding a single P26 claim with zero references and nothing at all for two of the three wives, so the two web sources are one source. WHAT WOULD CLOSE IT: Whittington-Egan and Smerdon, The Quest of the Golden Boy (1960), the standard life, and Eva Le Gallienne's memoirs; failing those, the GRO and New York civil registers.",
   "start": {
     "y": 1897
   },
@@ -30,7 +30,6 @@
       "verification": "verified-elision",
       "how_verified": "web",
       "provenance": "Plain-text extract of the article fetched through the MediaWiki API and read 2026-08-05; quotation sliced from that extract. Reference-marker brackets omitted as typography. THE SENTENCES CARRY NO CITATION ON THE PAGE.",
-      "verified_by": "agent-mechanical",
       "verified_on": "2026-08-05",
       "voice": "modern"
     }

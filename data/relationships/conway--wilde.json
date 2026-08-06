@@ -1,12 +1,8 @@
 {
   "id": "conway--wilde",
-  "people": [
-    "conway",
-    "wilde"
-  ],
+  "people": ["conway", "wilde"],
   "certainty": "uncorroborated",
   "certainty_status": "proposed",
-  "certainty_reasoning": "The sexual allegation exists only in Queensberry's plea of justification (Worthing, Aug-Sept 1894; Albion Hotel Brighton ~27 Sept 1894). Conway never testified in any of the three proceedings; Mr Justice Charles explained the Conway and Grainger offences were left out of the indictment as outside the Central Criminal Court's jurisdiction. Wilde on oath admitted intimacy-as-friendship, the presents, and the Brighton overnight (adjoining rooms), and specifically denied the alleged Lancing-road kissing. Plea-only → 'alleged' with disputed block, per the project decision rule.",
   "start": {
     "y": 1894,
     "m": 8
@@ -37,8 +33,7 @@
       "supports": "Wilde's admitted six-week companionship, presents and Brighton trip, and his denial of the specific sexual allegation; Wilde's age-estimate 'about eighteen'",
       "verification": "verified-elision",
       "how_verified": "archive-org",
-      "provenance": "IA in.ernet.dli.2015.499238, leaf 171 (printed p. 137-138); rendered at 3x from the item's text PDF and read as a page image 2026-08-03, with the printed folio confirmed in the page's bottom margin.",
-      "verified_by": "agent-mechanical",
+      "provenance": "IA in.ernet.dli.2015.499238, leaf 171 (printed p. 137-138); rendered at 3x from the item's text PDF and, with the printed folio confirmed in the page's bottom margin.",
       "verified_on": "2026-08-03",
       "speaker": "Oscar Wilde",
       "voice": "exchange",
@@ -91,8 +86,7 @@
       "supports": "the Brighton overnight in adjoining rooms; Conway present around the Court in May 1895 though never called",
       "verification": "verified-elision",
       "how_verified": "archive-org",
-      "provenance": "IA in.ernet.dli.2015.499238, leaf 364 (printed p. 318-319); rendered at 3x from the item's text PDF and read as a page image 2026-08-03, with the printed folio confirmed in the page's bottom margin.",
-      "verified_by": "agent-mechanical",
+      "provenance": "IA in.ernet.dli.2015.499238, leaf 364 (printed p. 318-319); rendered at 3x from the item's text PDF and, with the printed folio confirmed in the page's bottom margin.",
       "verified_on": "2026-08-03",
       "speaker": "Oscar Wilde, cross-examined by the Solicitor-General",
       "voice": "exchange",
@@ -137,7 +131,6 @@
       "verification": "verified-exact",
       "how_verified": "archive-org",
       "provenance": "IA in.ernet.dli.2015.499238, leaf 390 (printed p. 344), read as IIIF page image 2026-08-03",
-      "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
       "speaker": "The Marquess of Queensberry, plea of justification (filed 30 March 1895)",
       "voice": "exchange",
@@ -161,8 +154,7 @@
       "supports": "why the Conway (and Grainger) allegations were never charged — the 'plea-only' status",
       "verification": "verified-elision",
       "how_verified": "archive-org",
-      "provenance": "IA in.ernet.dli.2015.499238, leaf 298 (printed p. 256); rendered at 3x from the item's text PDF and read as a page image 2026-08-03, with the printed folio confirmed in the page's bottom margin. the printed bracket continues 'He continued:]'; that tail is dropped",
-      "verified_by": "agent-mechanical",
+      "provenance": "IA in.ernet.dli.2015.499238, leaf 298 (printed p. 256); rendered at 3x from the item's text PDF and, with the printed folio confirmed in the page's bottom margin. the printed bracket continues 'He continued:]'; that tail is dropped",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -178,9 +170,8 @@
       },
       "supports": "primary contemporaneous evidence of the Worthing companionship ('my only companion'), sailing and bathing excursions, August 1894",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
-      "provenance": "repo PDF 'Complete Letters' (Fourth Estate 2000), PDF p. 654 = printed p. 602 (folio confirmed on rendered page), read 2026-08-03",
-      "verified_by": "agent-mechanical",
+      "how_verified": "pdf-text",
+      "provenance": "repo PDF 'Complete Letters' (Fourth Estate 2000), PDF p. 654 = printed p. 602 (folio confirmed on rendered page)",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Lord Alfred Douglas"
@@ -192,11 +183,10 @@
       "quote": "CARSON: Did you take him one evening after nine o'clock to walk towards Lancing? WILDE: No. CARSON: Are you quite sure of that? WILDE: Yes, quite certain. Yes. … CARSON: Did you kiss him on the road? WILDE: Certainly not. CARSON: Did you put your hands inside his trousers? WILDE: No, certainly not. CARSON: And had you any familiarities with him of any kind? WILDE: None of any kind.",
       "context": "Carson's cross-examination on Alphonse Conway - whom Wilde calls 'Alfonso' throughout the shorthand. Compare Hyde 1948 p. 138, which compresses the whole sequence into a single narrative denial ('It is not true that I met him by appointment one evening and took him on the road to Lancing, kissing him and indulging in familiarities on the way') and drops Carson's explicit question about the trousers altogether.",
       "verification": "verified-elision",
-      "how_verified": "pdf-at-page",
-      "verified_by": "agent-mechanical",
+      "how_verified": "pdf-text",
       "verified_on": "2026-08-03",
       "speaker": "Oscar Wilde",
-      "provenance": "Repo PDF page 194, printed folio 146 confirmed at the foot of the rendered page, read as a page image 2026-08-03.",
+      "provenance": "Repo PDF page 194, printed folio 146 confirmed at the foot of the rendered page.",
       "evidence_date": {
         "y": 1895,
         "m": 4,

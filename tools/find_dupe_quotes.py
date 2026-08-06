@@ -5,9 +5,7 @@ A person's panel aggregates three streams:
   2. quotes on every relationship they are a party to
   3. quotes on OTHER people's context_engagements naming them as partner (the two-ended rendering)
 
-If the same excerpt reaches one panel by two routes it is printed twice, which is what Lovelle
-spotted on `alphonse`: the letter about him appeared once under his (spurious) engagement with
-Wilde and again under `alphonse--turner`.
+If the same excerpt reaches one panel by two routes it is printed twice.
 
 Duplicate key is (work, locator, normalised quote text) — the same excerpt of the same source.
 Different excerpts of the same letter are NOT duplicates; a letter can legitimately evidence several

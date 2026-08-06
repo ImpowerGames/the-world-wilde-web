@@ -2,10 +2,7 @@
   "id": "louys",
   "name": "Pierre Louÿs",
   "sort_name": "Louÿs, Pierre",
-  "aka": [
-    "Pierre Louys",
-    "Louys"
-  ],
+  "aka": ["Pierre Louys", "Louys"],
   "born": {
     "y": 1870
   },
@@ -15,15 +12,12 @@
   "group": "beyond",
   "gender": "m",
   "bio": "French poet and novelist (1870-1925). He founded the review La Conque in 1889, at nineteen, and printed Swinburne, Verlaine, Mallarmé, Maeterlinck, Gide and Moréas in it. He met Wilde in Paris in November 1891, went over the French of Salomé line by line, and Wilde dedicated the play to him - 'À mon ami Pierre Louÿs', his name, as Wilde put it, written in gold on purple. Fifteen months later the friendship was over. Seven of Wilde's letters to him survive and they hold the whole arc, from 'Cher Monsieur Louÿs' to 'Mon très cher Ennemi' to the last one, which ends: 'It is new to me to think that friendship is more brittle than love is.'",
-  "bio_sources": [
-    "letters-2000"
-  ],
-  "bio_note": "Added 2026-08-05 under the rule that friendship belongs on the map. NO CONNECTION LINE: nothing in the letters states or implies attraction in either direction, and the warmth is the literary-Parisian kind - collaborators, a dedication, dinner at the Café Royal. He is here because the correspondence is a complete friendship with a beginning and an end, and because the end is one of the few places Wilde writes directly about what friendship was worth to him. A SIXTH SOURCE, added the same day, is not a letter to him at all but one about him - Wilde seating him in the front row seven weeks after the break letter, which complicates the break and is recorded for that reason. FOUR OF SEVEN LETTERS READ AT THE PAGE: printed 496, 506, 528 and 557 (repo PDF 516, 526, 548, 609), every folio confirmed on its own page image, 2026-08-05. THE FIFTH, repo PDF 549, is located but unread; the OCR mirror shows it badly scrambled and it will need the page image. WHY THE BREAK CAME is not in these letters and is not asserted here: the standard account is that Louÿs broke with Wilde in May 1893 over Douglas, which this volume does not document at any page read so far. DATES 1870-1925 from the editors' note at printed 496. GROUPED beyond, which is the map's group for figures outside the London circle who are linked into it. COUNT CORRECTED 2026-08-05: the figure first written here was a count of PDF PAGES, not of letters - the locator deduplicated by page, and letters to one person are often printed two or three to a page. The corrected figure is a count of 'To <name>' headings in the volume. Every such correction was upward, so the unread remainder is larger than this node first claimed.",
+  "bio_sources": ["letters-2000"],
+  "bio_note": "FOUR OF SEVEN LETTERS READ AT THE PAGE: printed 496, 506, 528 and 557 (repo PDF 516, 526, 548, 609), every folio confirmed on its own page image, 2026-08-05. THE FIFTH, repo PDF 549, is located but unread; the OCR mirror shows it badly scrambled and it will need the page image. DATES 1870-1925 from the editors' note at printed 496.",
   "context_engagements": [
     {
       "partner_name": "Oscar Wilde",
       "period": "Paris and London, 1891-1893",
-      "note": "Friendship, recorded without a connection line, and quoted in full - all four letters read are short enough to give entire.",
       "sources": [
         {
           "work": "letters-2000",
@@ -42,9 +36,8 @@
           },
           "supports": "The opening of the friendship, and the fact that Gide was there from the first day of it.",
           "verification": "verified-exact",
-          "how_verified": "pdf-at-page",
-          "provenance": "Repo PDF page 516; printed folio 496 confirmed on the rendered page image, read 2026-08-05.",
-          "verified_by": "claude-at-page",
+          "how_verified": "pdf-image",
+          "provenance": "Repo PDF page 516; printed folio 496 confirmed on the rendered page image.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -64,9 +57,8 @@
           },
           "supports": "The collaboration the dedication was payment for.",
           "verification": "verified-exact",
-          "how_verified": "pdf-at-page",
-          "provenance": "Repo PDF page 526; printed folio 506 confirmed on the rendered page image, read 2026-08-05.",
-          "verified_by": "claude-at-page",
+          "how_verified": "pdf-image",
+          "provenance": "Repo PDF page 526; printed folio 506 confirmed on the rendered page image.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -86,9 +78,8 @@
           },
           "supports": "The friendship at its most familiar - a joke address, two days of looking, and John Gray asked along.",
           "verification": "verified-exact",
-          "how_verified": "pdf-at-page",
-          "provenance": "Repo PDF page 548; printed folio 528 confirmed on the rendered page image, read 2026-08-05.",
-          "verified_by": "claude-at-page",
+          "how_verified": "pdf-image",
+          "provenance": "Repo PDF page 548; printed folio 528 confirmed on the rendered page image.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -107,9 +98,8 @@
           },
           "supports": "The end of it, in Wilde's own hand, and the sentence the whole node is for.",
           "verification": "verified-exact",
-          "how_verified": "pdf-at-page",
-          "provenance": "Repo PDF page 609; printed folio 557 confirmed on the rendered page image, read 2026-08-05.",
-          "verified_by": "claude-at-page",
+          "how_verified": "pdf-image",
+          "provenance": "Repo PDF page 609; printed folio 557 confirmed on the rendered page image.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -128,14 +118,12 @@
           },
           "supports": "That the break was not clean, and that Wilde was still placing him well seven weeks later.",
           "verification": "verified-exact",
-          "how_verified": "pdf-at-page",
-          "provenance": "Repo PDF page 613; printed folio 561 confirmed on the rendered page image, read 2026-08-05.",
-          "verified_by": "claude-at-page",
+          "how_verified": "pdf-image",
+          "provenance": "Repo PDF page 613; printed folio 561 confirmed on the rendered page image.",
           "verified_on": "2026-08-05",
           "voice": "period"
         }
       ]
     }
-  ],
-  "research_status": "phase-a"
+  ]
 }

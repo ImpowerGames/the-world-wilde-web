@@ -4,14 +4,11 @@
   "died": null,
   "gender": "m",
   "aka": [],
-  "bio_sources": [
-    "letters-2000"
-  ],
+  "bio_sources": ["letters-2000"],
   "context_engagements": [
     {
       "partner_name": "Oscar Wilde",
       "period": "Paris and Nice, 1898",
-      "note": "Recorded without a connection line. Both letters quoted whole.",
       "sources": [
         {
           "work": "letters-2000",
@@ -27,9 +24,8 @@
           },
           "supports": "Wilde's own account of how The Ballad had done, sent to a journalist.",
           "verification": "verified-elision",
-          "how_verified": "pdf-at-page",
-          "provenance": "Repo PDF page 1073; printed folio 1027 confirmed on the rendered page image, read 2026-08-05.",
-          "verified_by": "claude-at-page",
+          "how_verified": "pdf-image",
+          "provenance": "Repo PDF page 1073; printed folio 1027 confirmed on the rendered page image.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -47,19 +43,17 @@
           },
           "supports": "What a good review was worth to him, and what he needed in the same breath.",
           "verification": "verified-elision",
-          "how_verified": "pdf-at-page",
-          "provenance": "Repo PDF page 1073; printed folio 1027 confirmed on the rendered page image, read 2026-08-05.",
-          "verified_by": "claude-at-page",
+          "how_verified": "pdf-image",
+          "provenance": "Repo PDF page 1073; printed folio 1027 confirmed on the rendered page image.",
           "verified_on": "2026-08-05",
           "voice": "period"
         }
       ]
     }
   ],
-  "research_status": "phase-a",
   "name": "Rowland Strong",
   "sort_name": "Strong, Rowland",
   "group": "later",
   "bio": "A Paris-based English journalist of the exile years, correspondent for the Observer and the New York Times, who in September 1898 published Esterhazy's confession that he had written the bordereau at the heart of the Dreyfus affair. Two of Wilde's letters to him survive, both from the spring of 1898, both about The Ballad of Reading Gaol.",
-  "bio_note": "Added 2026-08-05, per Lovelle - he had been parked as a candidate. NO CONNECTION LINE: the register is a poet and a journalist who liked his poem, and nothing states or implies attraction. TWO LETTERS at repo PDF 1073, both read at the page (printed 1027, folio confirmed, 2026-08-05). Both are quoted whole below because together they make one small complete thing: the first is pride, the second is gratitude followed immediately by a request for fifty francs, and the exile is audible in the join. THE DREYFUS CONNECTION is from the editors' note and is context only; nothing about Wilde's part in it is asserted here."
+  "bio_note": "TWO LETTERS at repo PDF 1073, both read at the page (printed 1027, folios confirmed). THE DREYFUS CONNECTION is from the editors' note and is context only; nothing about Wilde's part in it is asserted here."
 }

@@ -6,7 +6,6 @@
   ],
   "certainty": "attraction-expressed",
   "certainty_status": "proposed",
-  "certainty_reasoning": "Attraction expressed, arrow from Cooper, outcome unknown. The whole of the record is one clause of a modern biography: a crush, held for a period, with no approach, no reply and nothing whatever of Berenson's side. Second-hand would overstate it by implying a relationship the source does not describe. It is recorded rather than dropped because Evangelista sets it against the Bradley-Cooper partnership deliberately, and leaving it out would make that partnership tidier than its own historian makes it.",
   "direction": "cooper",
   "outcome": "unknown",
   "start": null,
@@ -25,7 +24,6 @@
       "verification": "verified-exact",
       "how_verified": "web",
       "provenance": "Quotation carried unchanged from the context_engagement on cooper.json, where it was recorded from the Y90s biography read 2026-08-03.",
-      "verified_by": "agent-mechanical",
       "verified_on": "2026-08-05",
       "voice": "modern"
     }

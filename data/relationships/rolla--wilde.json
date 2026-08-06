@@ -1,14 +1,11 @@
 {
   "id": "rolla--wilde",
-  "people": [
-    "rolla",
-    "wilde"
-  ],
+  "people": ["rolla", "wilde"],
   "certainty": "attraction-expressed",
+  "certainty_status": "proposed",
   "direction": "wilde",
   "outcome": "unknown",
-  "certainty_status": "proposed",
-  "certainty_reasoning": "Against the README bar - that the desire be legible as desire to a reader who does not already hold the coding hypothesis - this project reads this as clearing it, on the strength of the four-sentence run itself: a named young man, a physical description ('He has fair hair, and is always in dark blue'), the fact that Wilde has written ahead to arrange the meeting ('I have written to him'), and then, immediately, an explicit statement of longing set against virginity - 'After the chill virginity of Swiss Alps and snow, I long for the red flowers of life that stain the feet of summer in Italy.' A reader without the hypothesis reads an older man looking forward to a young man he has written to. What such a reader would not independently supply is the sexual character, and that is not proposed here. Whose reading: the agent's, as transcriber; no scholarly source was consulted, and the editors' index classing 'Rolla, Edoardo (boy)' (triage mirror, unverified in the source) is an editorial classing, not a reading of desire. Outcome is genuinely unknown rather than unreciprocated: nothing in the pages read says whether the meeting happened. COOLING DOCUMENTED 2026-08-05: printed 1141, read at the page, has Wilde telling Smithers 'I do not love the lad Edoardo Rolla as much as I did' - within weeks of the Genoa meeting. It does not change the class; it bounds the duration.",
+  "certainty_reasoning": "COOLING DOCUMENTED 2026-08-05: printed 1141, read at the page, has Wilde telling Smithers 'I do not love the lad Edoardo Rolla as much as I did' - within weeks of the Genoa meeting.",
   "start": {
     "y": 1899,
     "m": 4
@@ -32,9 +29,8 @@
       },
       "supports": "The approach itself: a named young man written to in advance, described, and awaited, with Wilde's longing stated in the same breath; no outcome recorded",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF page 1186, printed folio 1140 confirmed on rendered page, read as page image 2026-08-03.",
-      "verified_by": "agent-mechanical",
+      "how_verified": "pdf-text",
+      "provenance": "Repo PDF page 1186, printed folio 1140 confirmed on rendered page.",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Robert Ross"
@@ -54,9 +50,8 @@
       },
       "supports": "That the attachment cooled, and how fast - stated by Wilde himself to a third party.",
       "verification": "verified-elision",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF page 1187; printed folio 1141 confirmed on the rendered page image, read 2026-08-05.",
-      "verified_by": "claude-at-page",
+      "how_verified": "pdf-image",
+      "provenance": "Repo PDF page 1187; printed folio 1141 confirmed on the rendered page image.",
       "verified_on": "2026-08-05",
       "voice": "period"
     }

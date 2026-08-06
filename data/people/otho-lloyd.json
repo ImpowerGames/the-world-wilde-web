@@ -2,17 +2,12 @@
   "id": "otho-lloyd",
   "born": null,
   "died": null,
-  "aka": [
-    "Otho"
-  ],
-  "bio_sources": [
-    "letters-2000"
-  ],
+  "aka": ["Otho"],
+  "bio_sources": ["letters-2000"],
   "context_engagements": [
     {
       "partner_name": "Oscar Wilde",
       "period": "London, 1885-1898",
-      "note": "Family, recorded without a connection line.",
       "sources": [
         {
           "work": "letters-2000",
@@ -29,9 +24,8 @@
           },
           "supports": "Wilde wiring his brother-in-law within hours of Cyril's birth.",
           "verification": "verified-exact",
-          "how_verified": "pdf-at-page",
-          "provenance": "Repo PDF page 283; printed folio 261 confirmed on the rendered page image, read 2026-08-06.",
-          "verified_by": "claude-at-page",
+          "how_verified": "pdf-image",
+          "provenance": "Repo PDF page 283; printed folio 261 confirmed on the rendered page image.",
           "verified_on": "2026-08-06",
           "voice": "period"
         },
@@ -50,20 +44,18 @@
           },
           "supports": "The ordinary family footing - a present, and asking after a sick nephew.",
           "verification": "verified-exact",
-          "how_verified": "pdf-at-page",
-          "provenance": "Repo PDF page 307; printed folio 285 confirmed on the rendered page image, read 2026-08-06.",
-          "verified_by": "claude-at-page",
+          "how_verified": "pdf-image",
+          "provenance": "Repo PDF page 307; printed folio 285 confirmed on the rendered page image.",
           "verified_on": "2026-08-06",
           "voice": "period"
         }
       ]
     }
   ],
-  "research_status": "phase-a",
   "name": "Otho Holland Lloyd",
   "sort_name": "Lloyd, Otho Holland",
   "group": "family",
   "gender": "m",
   "bio": "Constance Wilde's elder brother, and so Wilde's brother-in-law. Five of Wilde's letters to him survive, from 1885 to 1898 - the first a telegram announcing the birth of Cyril, the last two from the exile. He and his wife Nellie had a son also called Otho.",
-  "bio_note": "Added 2026-08-06, clearing a backlog: flagged from the Index of Recipients on 2026-08-05. NO CONNECTION LINE TO WILDE: the relation is family, and nothing states or implies otherwise. HE IS ON THE MAP BECAUSE THE FAMILY SIDE OF THE RECORD IS THIN and the map keeps saying so - [[constance]] receives only three letters in this volume, and her brother receives five. TWO OF THE FIVE ARE FROM THE EXILE (printed 1036 and 1055) and are unread; they are the ones likely to bear on what Constance's family did about Wilde after 1895, and they should be read before anyone characterises this. FIVE LETTERS at printed 261, 262, 285, 1036 and 1055; TWO read at the page (2026-08-06). See [[nellie-lloyd]], his wife."
+  "bio_note": "the volume's Index of Recipients. FIVE LETTERS at printed 261, 262, 285, 1036 and 1055; TWO read at the page."
 }

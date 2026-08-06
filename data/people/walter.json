@@ -11,10 +11,7 @@
   "bio_sources": [
     "letters-2000"
   ],
-  "bio_note": "THE RECORD PRESERVES A FIRST NAME ONLY, and one sentence with it. Sole source: Wilde to Robert Ross, Thursday [? 12 January 1899], Hotel des Bains, Napoule, Complete Letters (2000), p. 1118 - the editors' own query mark on the date is preserved. Transcription and provenance reused unchanged from the context_engagement on ashton.json, where this was held off-roster until 2026-08-05. Wilde's description of him is unkind and is recorded as Wilde's, not endorsed; it is also the only physical description of any kind that survives of this man.",
+  "bio_note": "Sole source: Wilde to Robert Ross, Thursday [? 12 January 1899], Hotel des Bains, Napoule, Complete Letters (2000), p. 1118 - the editors' own query mark on the date is preserved.",
   "context_engagements": [],
-  "research_status": "phase-a",
-  "wikidata": null,
-  "wikipedia": null,
-  "roster_note": "Promoted from an off-roster context_engagement on ashton.json, 2026-08-05, in the pass that put every off-roster person on the map. The sources moved with him unchanged."
+  "wikipedia": null
 }

@@ -7,7 +7,6 @@
     {
       "partner_name": "Oscar Wilde",
       "period": "London, 1891-1892",
-      "note": "Friendship, recorded without a connection line and without a claim attached to it.",
       "sources": [
         {
           "work": "letters-2000",
@@ -24,25 +23,19 @@
           },
           "supports": "Warmth between men, recorded whether or not it amounts to anything.",
           "verification": "verified-elision",
-          "how_verified": "pdf-at-page",
-          "provenance": "Repo PDF page 548; printed folio 528 confirmed on the rendered page image, read 2026-08-05.",
-          "verified_by": "claude-at-page",
+          "how_verified": "pdf-image",
+          "provenance": "Repo PDF page 548; printed folio 528 confirmed on the rendered page image.",
           "verified_on": "2026-08-05",
           "voice": "period"
         }
       ]
     }
   ],
-  "research_status": "phase-a",
-  "bio_sources": [
-    "letters-2000"
-  ],
+  "bio_sources": ["letters-2000"],
   "name": "Coulson Kernahan",
   "sort_name": "Kernahan, Coulson",
-  "aka": [
-    "Kernahan"
-  ],
+  "aka": ["Kernahan"],
   "group": "aesthete",
   "bio": "Writer, and a reader for the publisher Ward, Lock. Six of Wilde's letters to him survive, from around 1891 to 1892, mostly on the business of A House of Pomegranates and Lord Arthur Savile's Crime. One of them is not business at all: an unprompted page telling a younger writer that his gift for fairy tales is beneath him and that he should be writing about passion instead.",
-  "bio_note": "Added 2026-08-05, per Lovelle, from the parked list, WHERE IT WAS FLAGGED AS THE WEAKEST OF THEM and that assessment stands. NO CONNECTION LINE: the register is a senior writer urging a junior one to be bolder, and 'you know what passion is, what passions are' is about what Kernahan should write, not about Kernahan. It is recorded because the standing rule is that warmth between men gets quoted whether or not it amounts to anything, and because leaving it out would mean the map only keeps the letters that support a thesis. SIX LETTERS at repo PDF 459, 493, 494, 507, 541 and 548; ONE read at the page (printed 528, folio confirmed, 2026-08-05). The other five are located and unread, and are unlikely to change this."
+  "bio_note": "SIX LETTERS at repo PDF 459, 493, 494, 507, 541 and 548; ONE read at the page (printed 528, folios confirmed)."
 }

@@ -11,7 +11,6 @@
     {
       "partner_name": "Oscar Wilde",
       "period": "Dublin, Oxford and after, 1874-1893",
-      "note": "Teacher and pupil, recorded without a connection line.",
       "sources": [
         {
           "work": "letters-2000",
@@ -27,9 +26,8 @@
           },
           "supports": "What Wilde said he owed him, in the words the later editions removed.",
           "verification": "verified-exact",
-          "how_verified": "pdf-at-page",
-          "provenance": "Repo PDF pages 613-614; printed folios 561 and 562 both confirmed on the rendered page images, read 2026-08-05.",
-          "verified_by": "claude-at-page",
+          "how_verified": "pdf-image",
+          "provenance": "Repo PDF pages 613-614; printed folios 561 and 562 both confirmed on the rendered page images.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -48,16 +46,14 @@
           },
           "supports": "The closeness at the start, against which the deletion has to be read.",
           "verification": "verified-elision",
-          "how_verified": "pdf-at-page",
-          "provenance": "Repo PDF pages 53-54; printed folios 28 and 29 both confirmed on the rendered page images, read 2026-08-05.",
-          "verified_by": "claude-at-page",
+          "how_verified": "pdf-image",
+          "provenance": "Repo PDF pages 53-54; printed folios 28 and 29 both confirmed on the rendered page images.",
           "verified_on": "2026-08-05",
           "voice": "period"
         }
       ]
     }
   ],
-  "research_status": "phase-a",
   "bio_sources": [
     "letters-2000"
   ],
@@ -69,5 +65,5 @@
   ],
   "group": "aesthete",
   "bio": "Classical scholar (1839-1919), Wilde's tutor at Trinity College Dublin and later its Provost. He took Wilde to Greece in 1877, and Wilde corrected the proofs of his Rambles and Studies in Greece and made 'improvements and corrections all through' an earlier book, Social Life in Greece from Homer to Menander (1874), for which Mahaffy thanked him by name in the preface. Social Life contained a discussion of Greek homosexuality. In later editions both that discussion and the thanks to Wilde were removed.",
-  "bio_note": "Added 2026-08-05, per Lovelle, from the parked list. NO CONNECTION LINE and none is suggested: this is a teacher and a pupil. HE IS HERE FOR THE DELETION. The editors state it flatly at printed 28: 'Significantly, in later editions of Social Life both the discussion of Greek homosexuality and the reference to Wilde were dropped.' The two removals travel together, which is the point. THE OTHER HALF OF THE ENTRY is Wilde's letter of 1893, seventeen years after he corrected the proofs and two years before the trials, thanking him as 'the scholar who showed me how to love Greek things' - the exact thing the later editions took out. Neither man is recorded commenting on the other's part in it. THIS IS ONE OF THREE ERASURES on this map from the same decades; see [[pater]] and [[gide]]. WHAT IS NOT ASSERTED: when the deletion was made, at whose instance, or whether the trials prompted it. TWO LETTERS at repo PDF 301 and 613-14; the 1893 one is read at the page, the earlier one is located and unread."
+  "bio_note": "The editors state it flatly at printed 28: 'Significantly, in later editions of Social Life both the discussion of Greek homosexuality and the reference to Wilde were dropped.' TWO LETTERS at repo PDF 301 and 613-14; the 1893 one is read at the page, the earlier one is located and unread."
 }

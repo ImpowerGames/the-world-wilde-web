@@ -6,7 +6,7 @@
   ],
   "certainty": "married",
   "certainty_status": "proposed",
-  "certainty_reasoning": "Married, but on the weakest kind of web sourcing: an uncited Wikipedia sentence, with Wikidata giving a DIFFERENT year and no reference either. The marriage itself is not in doubt - the woman is known to scholarship as Mary Duclaux, the map's own person file carries that name in her aka list, and the identification matches 1857-1944 exactly on the person file, the article and Wikidata alike. It is the YEAR that is unsettled, and the edge says so rather than picking silently.",
+  "certainty_reasoning": "Married, but on the weakest kind of web sourcing: an uncited Wikipedia sentence, with Wikidata giving a DIFFERENT year and no reference either.",
   "start": {
     "y": 1902
   },
@@ -31,7 +31,6 @@
       "verification": "verified-exact",
       "how_verified": "web",
       "provenance": "Plain-text extract of the article fetched through the MediaWiki API and read 2026-08-05; quotation sliced from that extract. Reference-marker brackets omitted as typography. THE SENTENCE CARRIES NO CITATION ON THE PAGE; the article's only footnote in this area attaches to a different paragraph, and the paragraph carrying her first marriage is tagged 'citation needed' (August 2017).",
-      "verified_by": "agent-mechanical",
       "verified_on": "2026-08-05",
       "voice": "modern"
     }

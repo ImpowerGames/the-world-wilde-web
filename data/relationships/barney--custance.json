@@ -1,12 +1,8 @@
 {
   "id": "barney--custance",
-  "people": [
-    "barney",
-    "custance"
-  ],
+  "people": ["barney", "custance"],
   "certainty": "second-hand",
   "certainty_status": "proposed",
-  "certainty_reasoning": "Romantic pursuit is documented in two independent read secondary sources: Parker's Y90s biography (Barney 'wooed Custance with several love poems and invited her to Paris') and McDermott's Fortnightly Review profile (Barney 'pursued' Custance; joint Italian holiday c. 1901; the 'quadrangle' reading), with Barney's own memoir as participant testimony reported via Parker. Whether the liaison was consummated rests on works not reachable so far — Parker (2011) calls the Barney/Vivien connections 'rumoured entanglements', citing Wickes 1977: 58-60 and Souhami 2004 — so the sexual layer is carried by pointers. Honest fallback if review restricts to read-verified evidence: 'romantic-nonsexual'.",
   "start": {
     "y": 1901,
     "circa": true
@@ -32,7 +28,6 @@
       "verification": "verified-exact",
       "how_verified": "web",
       "provenance": "https://1890s.ca/custance_bio/ fetched (curl) and read in full 2026-08-03; quote extracted byte-exact from the downloaded HTML, line-wrap whitespace normalized.",
-      "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -49,7 +44,6 @@
       "verification": "verified-exact",
       "how_verified": "web",
       "provenance": "https://1890s.ca/custance_bio/ fetched and read in full 2026-08-03; quote extracted byte-exact from the downloaded HTML.",
-      "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -67,7 +61,6 @@
       "verification": "verified-elision",
       "how_verified": "web",
       "provenance": "https://fortnightlyreview.co.uk/2020/04/olive-custance/ fetched (curl) 2026-08-03, decoded strict UTF-8; sentences extracted byte-exact from the downloaded HTML.",
-      "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -82,12 +75,11 @@
       "verification": "verified-exact",
       "how_verified": "web",
       "provenance": "Loughborough repository AM (figshare file 16939550) downloaded and read at rendered p. 1, 2026-08-03. evidence_date deliberately left null: this card is not evidence of a dated event but a statement about the state of scholarship - Parker recording that the Barney and Vivien entanglements are treated as 'rumoured' in lesbian biography. Dating it 1901, to the entanglement itself, would file modern historiography among the contemporary sources as though it were one of them; it therefore sorts to the end, with the other undated cards.",
-      "verified_by": "agent-mechanical",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
     {
-      "quote": "... For I would dance to make you smile, and sing / Of those who with some sweet mad sin have played, / And how Love walks with delicate feet afraid / Twixt maid and maid.",
+      "quote": ".. For I would dance to make you smile, and sing / Of those who with some sweet mad sin have played, / And how Love walks with delicate feet afraid / Twixt maid and maid.",
       "context": "Custance's verse answering Barney's first letter to her. Barney had written to the author of Opale enclosing two of her own books; 'Opale répondit avec feu' - Opale answered with fire. **Barney never names Custance in this memoir**: she is 'Opale' throughout, after her first collection, and the surname Custance does not occur in the volume. The suspension points opening the quotation are Barney's, marking that she quotes from mid-poem; slashes mark line breaks; endnote marker 3 omitted as typography. Custance's English is printed in italic inside the French text.",
       "work": "barney-souvenirs-1960",
       "locator": "PDF p. 42 (ch. 'RENÉE VIVIEN')",
@@ -95,9 +87,8 @@
       "evidence_date": null,
       "supports": "Custance's own words to Barney at the opening of the courtship - participant testimony from the other side, and unambiguous as to register.",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
+      "how_verified": "pdf-text",
       "provenance": "Repo PDF p. 42 read as a rendered page image 2026-08-04. **This printing carries no printed folios and no running heads** - it is an EPUB-to-PDF conversion whose front matter is a 'Sommaire' listing 'Couverture' and 'Page de titre' - so the locator is the PDF page plus the chapter, per the works.json rule. The chapter 'RENÉE VIVIEN' runs PDF pp. 22-84.",
-      "verified_by": "agent-mechanical",
       "verified_on": "2026-08-04",
       "speaker": "Olive Custance, letter to Natalie Barney",
       "addressee": "Natalie Barney",
@@ -115,9 +106,8 @@
       "evidence_date": null,
       "supports": "The participant's own account of the physical opening of the liaison, and of Vivien's jealousy of it.",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
+      "how_verified": "pdf-text",
       "provenance": "Repo PDF p. 48 read as a rendered page image 2026-08-04. **This printing carries no printed folios and no running heads** - it is an EPUB-to-PDF conversion whose front matter is a 'Sommaire' listing 'Couverture' and 'Page de titre' - so the locator is the PDF page plus the chapter, per the works.json rule. The chapter 'RENÉE VIVIEN' runs PDF pp. 22-84.",
-      "verified_by": "agent-mechanical",
       "verified_on": "2026-08-04",
       "speaker": "Natalie Clifford Barney",
       "voice": "period"
@@ -131,9 +121,8 @@
       "evidence_date": null,
       "supports": "The liaison at its height, named obliquely but unmistakably by the participant; and Custance's own manoeuvre to keep both Barney and Douglas.",
       "verification": "verified-elision",
-      "how_verified": "pdf-at-page",
+      "how_verified": "pdf-text",
       "provenance": "Repo PDF p. 50 read as a rendered page image 2026-08-04. **This printing carries no printed folios and no running heads** - it is an EPUB-to-PDF conversion whose front matter is a 'Sommaire' listing 'Couverture' and 'Page de titre' - so the locator is the PDF page plus the chapter, per the works.json rule. The chapter 'RENÉE VIVIEN' runs PDF pp. 22-84.",
-      "verified_by": "agent-mechanical",
       "verified_on": "2026-08-04",
       "speaker": "Natalie Clifford Barney",
       "voice": "period",
@@ -152,9 +141,8 @@
       },
       "supports": "Biographer account of the Barney–Custance entanglement.",
       "verification": "verified-elision",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF page 70, printed folio 68 confirmed at the foot of the rendered page, read as a page image 2026-08-04. Re-anchored: the inherited locator 'pp. 58-60 (as cited by Parker 2011)' does not match this 1978 printing..",
-      "verified_by": "agent-mechanical",
+      "how_verified": "pdf-text",
+      "provenance": "Repo PDF page 70, printed folio 68 confirmed at the foot of the rendered page. Re-anchored: the inherited locator 'pp. 58-60 (as cited by Parker 2011)' does not match this 1978 printing.",
       "verified_on": "2026-08-04",
       "voice": "modern"
     },
@@ -169,9 +157,8 @@
       },
       "supports": "Biographer account of the Barney–Custance liaison.",
       "verification": "verified-exact",
-      "how_verified": "pdf-at-page",
-      "provenance": "Repo PDF page 58, printed folio 40 confirmed at the foot of the rendered page, read as a page image 2026-08-04. Re-anchored: the inherited 'pp. 56-51 [sic]' does not match this 2005 printing..",
-      "verified_by": "agent-mechanical",
+      "how_verified": "pdf-text",
+      "provenance": "Repo PDF page 58, printed folio 40 confirmed at the foot of the rendered page. Re-anchored: the inherited 'pp. 56-51 [sic]' does not match this 2005 printing.",
       "verified_on": "2026-08-04",
       "voice": "modern"
     }
