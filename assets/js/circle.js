@@ -2200,7 +2200,7 @@ async function loadCircle() {
         return `<button class="lrow" onclick="location.hash='#/r/${esc(r.id)}'">
         <span class="when">${esc(relDateLabel(r))}</span><br>
         ${esc(a.name)} &amp; ${esc(b.name)}${miniBadge(r.certainty)}
-        <span class="vs">${ok ? `✓ ${ok}` : ""} ${pend ? `⧖ ${pend}` : ""}</span>
+        <span class="vs">${ok ? `(${ok})` : ""}${pend ? ` (⧖${pend})` : ""}</span>
       </button>`;
       })
       .join("")}
@@ -2250,7 +2250,10 @@ async function loadCircle() {
       "aria-pressed",
       String(h === "#/about" || (isDesktop() && !h)),
     );
-    $("#btnContrib").setAttribute("aria-pressed", String(h === "#/contributing"));
+    $("#btnContrib").setAttribute(
+      "aria-pressed",
+      String(h === "#/contributing"),
+    );
   }
   function closePanel() {
     focusGraph({});
