@@ -20,22 +20,6 @@ The sphere categories are organizational shorthands rather than rigid boundaries
 | **Beyond Europe**      | Figures and connections operating primarily outside the European continent.                                                                                                                                                                                                                                                                   |
 | **Outside the circle** | Those who were never part of the propertied social world the rest of this map describes—a fisherman at Napoule, a waiter at the Café d'Égypte, a soldier in Reading Gaol. Most survive only under a first name, a nickname, or no name at all. They are here because the record of a life should not depend on its subject's status or class. |
 
-## Narrowing the map
-
-Every switch in the legend can be clicked to turn its category off. **Right-click to solo that category** — every other switch in the same row will turn off, and the one you picked will light up. Click it again, and the row goes back to how it was. Each row is independent, so soloing a Sphere leaves Gender and Connections alone. The sphere chip above a person's name does the same thing for their sphere.
-
-## Controls
-
-To **pan**, _click-and-drag_.
-
-To **zoom**, _scroll_ or _pinch-and-zoom_.
-
-To **move a node**, _press-and-hold the node until it turns gold_, then _drag it_.
-
-To **reset a node**, _press, hold, and release the node without moving_.
-
-To **solo a filter**, _right-click or long-press the switch for the filter in the legend_, and it will toggle on that filter and toggle off all the others in the same category.
-
 ## Connections
 
 The line style records **how we know** about a connection. This reference deliberately makes **no claim about sexual acts** in either direction. Criminal law was designed precisely to keep that evidence out of the record, so treating its absence as a finding would mistake the effect of prosecution for a fact about people's lives.
@@ -51,6 +35,22 @@ Every classification is checked by hand against the sources before it is relied 
 For completeness, if an individual had both queer and straight romantic or sexual connections over the course of their lifetime, both are included for full context. Sources depicting purely platonic warmth and friendship are also documented in the profiles, though they do not generate a connection line on the map.
 
 Categorizing historical relationships is an inherently interpretive endeavor. Because the exact nature of these bonds cannot always be definitively proven, we encourage you to evaluate the cited sources and draw your own conclusions. Ultimately, this map is designed to serve as a visual bibliography and finding aid, not a definitive historical verdict.
+
+## Narrowing the map
+
+Every switch in the legend can be clicked to turn its category off. **Right-click to solo that category** — every other switch in the same row will turn off, and the one you picked will light up. Click it again, and the row goes back to how it was. Each row is independent, so soloing a Sphere leaves Gender and Connections alone. The sphere chip above a person's name does the same thing for their sphere.
+
+## Controls
+
+To **pan**, _click-and-drag_.
+
+To **zoom**, _scroll_ or _pinch-and-zoom_.
+
+To **move a node**, _press-and-hold the node until it turns gold_, then _drag it_.
+
+To **reset a node**, _press, hold, and release the node without moving_.
+
+To **solo a filter**, _right-click or long-press the switch for the filter in the legend_, and it will toggle on that filter and toggle off all the others in the same category.
 
 ## Verification of quotes
 
