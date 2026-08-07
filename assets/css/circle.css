@@ -137,7 +137,7 @@ header {
   border: 1px solid var(--rule2);
   border-radius: 999px;
   padding: 7px 14px;
-  width: 230px;
+  width: 286px;
 }
 #search::placeholder {
   color: var(--ink3);
@@ -1620,6 +1620,7 @@ mark.sfhit {
   border-radius: 3px;
   padding: 1px 5px;
   white-space: nowrap;
+  user-select: none;
 }
 
 /* Contributing panel
@@ -1819,5 +1820,31 @@ mark.sfhit {
 }
 .sfscope:hover {
   border-color: var(--accent);
+  color: var(--ink);
+}
+
+/* Tapping a control should not select its label.
+   -webkit-tap-highlight-color kills the flash Android draws on tap, but not the text selection
+   that a tap on a word can start - which paints the same blue and stays until you tap elsewhere.
+   Applied to controls only: prose, quotations and citations must stay selectable, since copying
+   a quotation out is a thing readers of this map actually do. */
+button,
+.hbtn,
+.lgc,
+.pclose,
+.sfclear,
+#searchnote.clickable,
+#btnFit,
+.lrow,
+label,
+select,
+summary {
+  -webkit-user-select: none;
+  user-select: none;
+}
+/* The map's own selection colour, for the text that IS selectable - the browser default is a
+   blue that belongs to no part of this palette. */
+::selection {
+  background: var(--accent-soft);
   color: var(--ink);
 }

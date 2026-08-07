@@ -26,23 +26,24 @@
         ></div>
       </div>
       <div class="searchwrap">
-        <select id="searchscope" aria-label="What to search">
-          <option value="names" selected>Names</option>
-          <option value="quotes">Quotations</option>
-          <option
-            value="all"
-            title="Names, quotations, and the project's own notes — certainty reasoning, provenance, biographies"
-          >
-            All
-          </option>
-        </select>
         <input
           id="search"
           type="search"
-          placeholder="Search a name&hellip;"
+          placeholder="Search names, quotations, and notes&hellip;"
           aria-label="Search"
           aria-describedby="searchnote"
         />
+        <select id="searchscope" aria-label="What to search">
+          <option
+            value="all"
+            title="Names, quotations, and the project's own notes — certainty reasoning, provenance, biographies"
+            selected
+          >
+            All
+          </option>
+          <option value="names">Names</option>
+          <option value="quotes">Quotations</option>
+        </select>
         <div id="searchnote" role="status" aria-live="polite"></div>
       </div>
       <div class="hbtns">

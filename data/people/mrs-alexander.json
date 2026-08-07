@@ -2,19 +2,14 @@
   "id": "mrs-alexander",
   "name": "Mrs Alexander",
   "sort_name": "Alexander, Mrs",
-  "aka": [
-    "Mrs Aleck",
-    "Lady Alexander"
-  ],
+  "aka": ["Mrs Aleck", "Lady Alexander"],
   "born": null,
   "died": null,
   "group": "family",
   "gender": "f",
   "name_is_descriptor": true,
   "bio": "George Alexander's wife. Wilde sent her his regards in 1894 and, in the last letter he wrote to her husband in July 1900, said he would not forget 'your dear wife's charming and affectionate greeting of me. I know now how to value things like that.' She had greeted him in the street in Paris, five years after the trials. After her husband's knighthood in 1911 she was Lady Alexander, and it is to her that the survival of this correspondence is owed: the editors record that Wilde's letters to Alexander were still in her possession in the 1930s, when A. E. W. Mason worked from them for his life of her husband.",
-  "bio_sources": [
-    "letters-2000"
-  ],
-  "bio_note": "The label is A descriptor, not A name, on the rule set by napoule-fisherman: **no source in this repository gives her given name.** The Complete Letters call her only 'Mrs Aleck' and 'your dear wife'; searches of the letters' full OCR mirror, Ellmann and McKenna return nothing further. Both quotations were read at the rendered page (printed 620 and 1193, folios confirmed). Dates: none recorded. Her title and her custody of the letters are from the editors' note at printed 515, read at the rendered page : the text of one 1892 letter is 'corroborated by a typescript at the Clark Library almost certainly made by Mason direct from Wilde's letters which were still in Lady Alexander's possession in the 1930s'.",
+  "bio_sources": ["letters-2000"],
+  "bio_note": "The label is A descriptor, not A name: **no source in this repository gives her given name.** The Complete Letters call her only 'Mrs Aleck' and 'your dear wife'; searches of the letters' full OCR mirror, Ellmann and McKenna return nothing further. Both quotations were read at the rendered page (printed 620 and 1193, folios confirmed). Dates: none recorded. Her title and her custody of the letters are from the editors' note at printed 515, read at the rendered page : the text of one 1892 letter is 'corroborated by a typescript at the Clark Library almost certainly made by Mason direct from Wilde's letters which were still in Lady Alexander's possession in the 1930s'.",
   "context_engagements": []
 }

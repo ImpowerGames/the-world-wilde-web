@@ -1253,8 +1253,10 @@ async function loadCircle() {
     }
     syncAxis("cert");
   }
-  let searchTerm = "",
-    searchScope = "names";
+  let searchTerm = "";
+  let searchScope = Array.from($("#searchscope").options).find(
+    (option) => option.defaultSelected,
+  )?.value;
 
   const NAME_TEXT = new Map(),
     QUOTE_TEXT = new Map(),
@@ -1684,7 +1686,9 @@ async function loadCircle() {
     const parts = [withWhom]
       .concat((withWhom && withWhom.also) || [])
       .filter((w) => {
-        const key = w && (w.r ? `r:${w.r.id}` : w.label ? `l:${w.labelId || w.label}` : "");
+        const key =
+          w &&
+          (w.r ? `r:${w.r.id}` : w.label ? `l:${w.labelId || w.label}` : "");
         if (!key || seen.has(key)) return false;
         seen.add(key);
         return true;
@@ -1802,14 +1806,14 @@ async function loadCircle() {
     // engagement and Leverson's - and they merge into a single card reading "with X and Y". Taking
     // only the primary left whichever name lost the merge unsearchable.
     const partner = (w) =>
-      w && ((w.other && w.other.name) || w.label || (w.r && w.r.id)) ;
+      w && ((w.other && w.other.name) || w.label || (w.r && w.r.id));
     const names = join([
       q.speaker,
       q.addressee,
       wk && wk.author,
       wk && wk.editors,
       partner(withWhom),
-      ...(((withWhom && withWhom.also) || []).map(partner)),
+      ...((withWhom && withWhom.also) || []).map(partner),
       ...(q.turns || []).map((t) => t.who),
     ]);
     const quotes = join([
@@ -1853,13 +1857,13 @@ async function loadCircle() {
       hi = ys.length ? Math.max(...ys) : "";
     return `<div class="sfilter">
     <div class="sfqwrap">
+      <input id="sfq" class="sfq" type="search" autocomplete="off" spellcheck="false"
+             placeholder="Filter sources…" aria-label="Filter sources">
       <select id="sfscope" class="sfscope" aria-label="What to filter on">
         <option value="all" selected>All</option>
         <option value="names">Names</option>
         <option value="quotes">Quotations</option>
       </select>
-      <input id="sfq" class="sfq" type="search" autocomplete="off" spellcheck="false"
-             placeholder="Filter sources…" aria-label="Filter sources">
     </div>
     <div class="sfrow">
       <label class="sfyl" for="sfy1">Years</label>

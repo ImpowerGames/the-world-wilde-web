@@ -1,9 +1,6 @@
 {
   "id": "fothergill--warren",
-  "people": [
-    "fothergill",
-    "warren"
-  ],
+  "people": ["fothergill", "warren"],
   "certainty": "uncorroborated",
   "certainty_status": "proposed",
   "certainty_reasoning": "This edge was deferred pending Part V ch. 3-4 (printed 145-166); those chapters were read so far and carry strong texture but no explicit statement of romance or sex. What Sox gives: 'taken up with Warren in Rome' (p. 142) and 'taken up with Ned and Marshall' (p. 151); his own sentence that Fothergill's longing for 'something like a gentleman protector' 'certainly appeared to be fulfilled in Ned' (p. 150); Fothergill's memoir on the arrangement - 'could I ever be worth his keeping me? At once he said he'd give me £300 a year' (p. 151) - and on his feelings ('He became to me. part of my being. I seem to live as one with him', p. 150); Sox's verdict counting Fothergill among the four men Warren loved and 'wanted to possess' (p. 129); and, on Fothergill's marriage soon after Marshall's, that he 'followed his rival to the altar' (p. 155) - 'rival' being the strongest romantic-parallel word applied to the pair. Against that: every explicit sentence describes employment, patronage, nursing and discipleship, and the protective moustache advice (p. 142) is framed as collecting-security. Proposed 'alleged' with a disputed{} block per the mandate for thin characterization; 'romantic-nonsexual' was considered and rejected as overstating what Sox asserts. Single source (Sox), drawing on Fothergill's unpublished 1954 memoir.",
@@ -20,7 +17,7 @@
     "claim": "that the Warren-Fothergill bond was a romantic or kept-companion attachment, over and above secretarial employment and patronage",
     "asserted_by": "No single sentence of Sox's - the reading is a composite of his framings: 'taken up with Warren in Rome' (p. 142); the 'gentleman protector' longing 'certainly appeared to be fulfilled in Ned' (p. 150); Fothergill's 'could I ever be worth his keeping me?' with the £300 settlement (p. 151); 'More than loving Marshall, Harry, Matt and Fothergill, he wanted to possess them' (p. 129); Marshall as Fothergill's 'rival' (p. 155); the Introduction's Warren who 'collected art and young men' (p. viii)",
     "disputed_by": "Nothing read contests a close bond; the reservation is evidential - nowhere in the pages read does Sox assert a romance or sexual relationship between them, and every explicit description is of employment, patronage, nursing and discipleship",
-    "grounds": "Single-source (Sox 1991, itself built on Fothergill's unfinished 1954 memoir, which Sox flags as gappy: 'Apparently, he did not want to tell us about certain aspects of his life', p. 133); classification rests on implication, so 'alleged' with this block per the module's thin-characterization rule"
+    "grounds": "Single-source (Sox 1991, itself built on Fothergill's unfinished 1954 memoir, which Sox flags as gappy: 'Apparently, he did not want to tell us about certain aspects of his life', p. 133); classification rests on implication, so 'alleged'."
   },
   "sources": [
     {

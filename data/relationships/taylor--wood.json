@@ -1,9 +1,6 @@
 {
   "id": "taylor--wood",
-  "people": [
-    "taylor",
-    "wood"
-  ],
+  "people": ["taylor", "wood"],
   "certainty": "uncorroborated",
   "certainty_status": "proposed",
   "start": {
@@ -22,7 +19,7 @@
     "claim": "that sexual relations occurred between Taylor and Wood at 13 Little College Street, January 1893",
     "asserted_by": "the implication of Wood's own sworn testimony (a single bed shared for three weeks; first acts of indecency dated to 'when I went to College Street' — Hyde pp. 201, 205)",
     "disputed_by": "no direct attestation by any witness; no charge concerning acts between Taylor and Wood; the counts charging Taylor with procuring Wood for Wilde ended in a directed verdict of Not Guilty (Hyde pp. 292-293)",
-    "grounds": "testimony implies but never states acts with Taylor himself; classification per the single-source/contested rule"
+    "grounds": "testimony implies but never states acts with Taylor himself"
   },
   "sources": [
     {
@@ -134,7 +131,7 @@
         "y": 1895,
         "m": 5
       },
-      "supports": "Taylor's conflicting (earlier) dating of the acquaintance — recorded per the never-sharpen-dates rule",
+      "supports": "Taylor's conflicting (earlier) dating of the acquaintance",
       "verification": "verified-exact",
       "how_verified": "archive-org",
       "provenance": "IA in.ernet.dli.2015.499238, leaf 330 (printed p. 286), read as IIIF page image",

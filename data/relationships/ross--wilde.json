@@ -1,9 +1,6 @@
 {
   "id": "ross--wilde",
-  "people": [
-    "ross",
-    "wilde"
-  ],
+  "people": ["ross", "wilde"],
   "certainty": "self-reported",
   "certainty_status": "proposed",
   "certainty_reasoning": "The suppressed dedication, added: Wilde composed a dedication to Ross for The Ballad - 'When I came out of prison / some met me with garments and with spices, / and others with wise counsel. / You met me with love' - deliberately without initials or name, and it was never printed (editors' note, printed 973).",
@@ -112,7 +109,7 @@
     },
     {
       "quote": "Little did Eliza Ross or Constance Wilde suspect, when they finalized this arrangement, that some time the previous year, the thirty-two-year-old Oscar and the seventeen-year-old Robbie had become lovers.",
-      "context": "Fryer introducing Ross's 1887 residence as the Wildes' lodger at 16 Tite Street, Chelsea. The biographer's own assertion, not a participant's words. Ages stated exactly as Fryer states them (readme register rule).",
+      "context": "Fryer introducing Ross's 1887 residence as the Wildes' lodger at 16 Tite Street, Chelsea. The biographer's own assertion, not a participant's words. Ages stated exactly as Fryer states them.",
       "work": "fryer-2000",
       "locator": "p. 18",
       "locator_type": "page",
