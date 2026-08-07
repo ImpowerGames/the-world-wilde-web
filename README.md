@@ -7,21 +7,21 @@ It began with Wilde because that is where the surviving paper is thickest. The i
 ## Running it
 
 ```bash
-python tools/serve.py     # or: npm start
+python tools/serve.py
 ```
 
 Rebuilds the data bundle, validates it, and serves at <http://localhost:8000>. Double-clicking `index.html` will not work — the browser will not fetch the data from a `file://` page.
 
-There is **no JavaScript toolchain and nothing to install** — `package.json` only wraps the Python scripts so `npm start` works if that is the habit. Python 3.8+ is the only requirement.
+There is **no JavaScript toolchain and nothing to install** Python 3.8+ is the only requirement.
 
-|                                                      |                                                         |
-| ---------------------------------------------------- | ------------------------------------------------------- |
-| `npm start` / `python tools/serve.py`                | rebuild, validate, serve                                |
-| `npm run build` / `python tools/validate.py`         | rebuild `data/circle.json`                              |
-| `npm run check` / `python tools/validate.py --check` | validate only — use in CI                               |
-| `npm run layout` / `python tools/layout_report.py`   | measure the drawing                                     |
-| `python tools/test_navigation.py`                    | assert the pan/zoom gestures (needs the site served)    |
-| `python tools/test_solo.py`                          | assert the legend's solo filter (needs the site served) |
+|                                    |                                                         |
+| ---------------------------------- | ------------------------------------------------------- |
+| `python tools/serve.py`            | rebuild, validate, serve                                |
+| `python tools/validate.py`         | rebuild `data/circle.json`                              |
+| `python tools/validate.py --check` | validate only — use in CI                               |
+| `python tools/layout_report.py`    | measure the drawing                                     |
+| `python tools/test_navigation.py`  | assert the pan/zoom gestures (needs the site served)    |
+| `python tools/test_solo.py`        | assert the legend's solo filter (needs the site served) |
 
 It is a plain static site: HTML, one stylesheet, one script, JSON and images. It can be published to GitHub Pages or any static host with no build step beyond `python tools/validate.py`.
 
