@@ -12,7 +12,7 @@
   "end": {
     "y": 1892
   },
-  "date_label": "met on a Washington horsecar one stormy winter evening, 1865 by the scholarship and 1866 by Doyle's own reckoning; closest through the Washington years to about 1873, renewed in the mid-1880s when Doyle moved to Philadelphia, and running until Whitman's death on 26 March 1892",
+  "date_label": "Met on a Washington horsecar one stormy winter evening, 1865 by the scholarship and 1866 by Doyle's own reckoning; closest through the Washington years to about 1873, renewed in the mid-1880s when Doyle moved to Philadelphia, and running until Whitman's death on 26 March 1892",
   "summary": "Peter Doyle was twenty-one and conducting a Pennsylvania Avenue horsecar on a stormy night when Walt Whitman, forty-five, boarded as its only passenger with a blanket round his shoulders. By Doyle's account they understood one another before either had spoken much. They spent the Washington years riding the streetcars, eating fruit at Center Market and walking the Potomac by moonlight - Whitman reciting Shakespeare's sonnets, Doyle telling limericks - and Whitman was taken into Doyle's family. Whitman's stroke in 1873 and his move to Camden put a river and a state between them and the intensity cooled; Harry Stafford filled some of the gap in New Jersey. Doyle moved to Philadelphia in the mid-1880s and visited weekly until the nurses of Whitman's last years crowded him out. He came to the funeral. In 1897 he let Bucke print Whitman's letters to him, which is the only reason the relationship is documented at all; his own letters to Whitman largely are not.",
   "sources": [
     {
@@ -27,7 +27,7 @@
       "supports": "The meeting, in the other participant's own words - and the class, since it puts Doyle's voice beside Whitman's rather than leaving the edge resting on Whitman alone.",
       "verification": "verified-exact",
       "how_verified": "archive-org",
-      "provenance": "Read as a rendered page image from the archive.org scan (calamusseriesofl00whitrich, scan n36) 2026-08-04; printed folio 23 confirmed on the image, with the running head 'INTERVIEW WITH PETER DOYLE'. Scan = printed + 13 at this point. The IA OCR text was used only to locate the passage.",
+      "provenance": "Read as a rendered page image from the archive.org scan (calamusseriesofl00whitrich, scan n36); printed folio 23 confirmed on the image, with the running head 'INTERVIEW WITH PETER DOYLE'. Scan = printed + 13 at this point. The IA OCR text was used only to locate the passage.",
       "verified_on": "2026-08-04",
       "speaker": "Peter Doyle, interviewed by R. M. Bucke",
       "addressee": "Richard Maurice Bucke",
@@ -47,7 +47,7 @@
       "supports": "Whitman's own register toward Doyle at the start of the correspondence - 'dear friend', 'my dear comrade' - and the fact of a sustained private correspondence.",
       "verification": "verified-elision",
       "how_verified": "archive-org",
-      "provenance": "Read as a rendered page image from the archive.org scan (calamusseriesofl00whitrich, scan n48) 2026-08-04; printed folio 35 confirmed on the image, with the running head 'LETTERS OF 1868'. Scan = printed + 13 at this point. The IA OCR text was used only to locate the passage.",
+      "provenance": "Read as a rendered page image from the archive.org scan (calamusseriesofl00whitrich, scan n48); printed folio 35 confirmed on the image, with the running head 'LETTERS OF 1868'. Scan = printed + 13 at this point. The IA OCR text was used only to locate the passage.",
       "verified_on": "2026-08-04",
       "speaker": "Walt Whitman, letter to Peter Doyle",
       "addressee": "Peter Doyle",
@@ -63,7 +63,7 @@
       "supports": "The scholarly characterisation of the relationship, and its span - corroboration, not the basis of the class.",
       "verification": "verified-exact",
       "how_verified": "web",
-      "provenance": "https://whitmanarchive.org/item/encyclopedia_entry3 read in full 2026-08-04 in a real browser - the site sits behind Cloudflare and returns 403 to curl and to plain fetching, so an automated retrieval will falsely report it unavailable. Curly quotation marks around 'love of comrades' and 'Calamus' are the source's; the en dash in the date range is as printed.",
+      "provenance": "Https://whitmanarchive.org/item/encyclopedia_entry3 read in full in a real browser - the site sits behind Cloudflare and returns 403 to curl and to plain fetching, so an automated retrieval will falsely report it unavailable. Curly quotation marks around 'love of comrades' and 'Calamus' are the source's; the en dash in the date range is as printed.",
       "verified_on": "2026-08-04",
       "speaker": "Martin G. Murray",
       "voice": "modern"

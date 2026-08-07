@@ -6,7 +6,7 @@
   ],
   "certainty": "married",
   "certainty_status": "proposed",
-  "certainty_reasoning": "ALL THREE LE GALLIENNE MARRIAGES REST ON AN UNCITED WIKIPEDIA NARRATIVE. The sentences carry no inline footnote; Wikidata Q545544 is not an independent check, holding a single P26 claim with zero references and nothing at all for two of the three wives, so the two web sources are one source. WHAT WOULD CLOSE IT: Whittington-Egan and Smerdon, The Quest of the Golden Boy (1960), the standard life, and Eva Le Gallienne's memoirs; failing those, the GRO and New York civil registers.",
+  "certainty_reasoning": "All three le Gallienne marriages rest on an uncited Wikipedia narrative. The sentences carry no inline footnote; Wikidata Q545544 is not an independent check, holding a single P26 claim with zero references and nothing at all for two of the three wives, so the two web sources are one source. What would close it: Whittington-Egan and Smerdon, The Quest of the Golden Boy (1960), the standard life, and Eva Le Gallienne's memoirs; failing those, the GRO and New York civil registers.",
   "start": {
     "y": 1911,
     "m": 10,
@@ -15,7 +15,7 @@
   "end": {
     "y": 1947
   },
-  "date_label": "m. 27 October 1911; no end recorded before his death in 1947",
+  "date_label": "M. 27 October 1911; no end recorded before his death in 1947",
   "summary": "Four months after Julie Norregaard divorced him, Le Gallienne married Irma Perry, herself divorced since 1904 from her first cousin the sculptor Roland Hinton Perry. They were living in Paris from the late 1920s, and the marriage is not recorded as ending before he died at Menton in 1947.",
   "sources": [
     {
@@ -32,7 +32,7 @@
       "supports": "The third marriage: exact date, the wife's identity and her previous marriage.",
       "verification": "verified-exact",
       "how_verified": "web",
-      "provenance": "Plain-text extract of the article fetched through the MediaWiki API and read 2026-08-05; quotation sliced from that extract. Reference-marker brackets omitted as typography. THE SENTENCE CARRIES NO CITATION ON THE PAGE.",
+      "provenance": "Plain-text extract of the article fetched through the MediaWiki API and read; quotation sliced from that extract. Reference-marker brackets omitted as typography. The sentence carries no citation on the page.",
       "verified_on": "2026-08-05",
       "voice": "modern"
     }

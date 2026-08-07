@@ -14,7 +14,7 @@
     "y": 1895,
     "m": 2
   },
-  "date_label": "late 1893 – February 1895 (acquaintance); Oct 1893 – Apr 1894 (plea allegation)",
+  "date_label": "Late 1893 – February 1895 (acquaintance); Oct 1893 – Apr 1894 (plea allegation)",
   "summary": "Ernest Scarfe, a young valet-turned-clerk who had been to the Australian gold-diggings — meeting Lord Douglas of Hawick on the voyage out in 1893 — knew Taylor from the Knightsbridge Skating Rink and was introduced by him to Wilde at 10 St James's Place. He visited repeatedly, dined alone with Wilde, and received the customary cigarette case; the acquaintance ran to a dinner at the Avondale in February 1895. Queensberry's plea alleged solicitation and gross indecency at St James's Place; Scarfe was never called and the allegation never charged.",
   "disputed": {
     "claim": "that Wilde solicited Ernest Scarfe to commit sodomy and committed acts of gross indecency with him at 10 St James's Place between October 1893 and April 1894",
@@ -33,7 +33,7 @@
         "y": 1895,
         "m": 4
       },
-      "supports": "the acquaintance's shape on Wilde's oath: Taylor's introduction, dinners, the cigarette case, the February 1895 Avondale dinner, and the denial of physical contact",
+      "supports": "The acquaintance's shape on Wilde's oath: Taylor's introduction, dinners, the cigarette case, the February 1895 Avondale dinner, and the denial of physical contact",
       "verification": "verified-elision",
       "how_verified": "archive-org",
       "provenance": "IA in.ernet.dli.2015.499238, leaf 184 (printed p. 148-149); rendered at 3x from the item's text PDF and, with the printed folio confirmed in the page's bottom margin.",
@@ -70,10 +70,10 @@
         "y": 1895,
         "m": 3
       },
-      "supports": "the plea-only allegation, its dates and place — the class-deciding text",
+      "supports": "The plea-only allegation, its dates and place — the class-deciding text",
       "verification": "verified-exact",
       "how_verified": "archive-org",
-      "provenance": "IA in.ernet.dli.2015.499238, leaf 389 (printed p. 343), read as IIIF page image 2026-08-03",
+      "provenance": "IA in.ernet.dli.2015.499238, leaf 389 (printed p. 343), read as IIIF page image",
       "verified_on": "2026-08-03",
       "speaker": "The Marquess of Queensberry, plea of justification (filed 30 March 1895)",
       "voice": "exchange",
@@ -97,7 +97,7 @@
       "supports": "Taylor's own sworn account of introducing Scarfe to Wilde at St James's Place",
       "verification": "verified-exact",
       "how_verified": "archive-org",
-      "provenance": "IA in.ernet.dli.2015.499238, leaf 330 (printed p. 286), read as IIIF page image 2026-08-03",
+      "provenance": "IA in.ernet.dli.2015.499238, leaf 330 (printed p. 286), read as IIIF page image",
       "verified_on": "2026-08-03",
       "speaker": "Alfred Taylor",
       "voice": "exchange",
@@ -123,7 +123,7 @@
         "y": 1895,
         "m": 5
       },
-      "supports": "tête-à-tête dinners admitted on oath at the final trial",
+      "supports": "Tête-à-tête dinners admitted on oath at the final trial",
       "verification": "verified-elision",
       "how_verified": "archive-org",
       "provenance": "IA in.ernet.dli.2015.499238, leaf 364 (printed p. 318); rendered at 3x from the item's text PDF and, with the printed folio confirmed in the page's bottom margin.",
@@ -173,7 +173,7 @@
           "m": 8
         }
       },
-      "supports": "a possible (editorially tentative) 1894 begging letter from Scarfe to Wilde — continuation of the acquaintance into mid-1894",
+      "supports": "A possible (editorially tentative) 1894 begging letter from Scarfe to Wilde — continuation of the acquaintance into mid-1894",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
       "provenance": "PDF 'Complete Letters' (Fourth Estate 2000), PDF p. 650 = printed p. 598 (folio confirmed on rendered page)",

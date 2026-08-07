@@ -13,7 +13,7 @@
   "end": {
     "y": 1957
   },
-  "date_label": "c. 1920; still married at his death, 26 April 1957",
+  "date_label": "C. 1920; still married at his death, 26 April 1957",
   "summary": "Fothergill married Kate Headley Kirby about 1920 and two years later took on the Spread Eagle at Thame. She ran it with him and he credited her in print; the inn made his name, and its collapse ended it. They were still married when he died in 1957.",
   "sources": [
     {
@@ -26,7 +26,7 @@
       "supports": "The second marriage, the wife's name, and its dating relative to the Spread Eagle.",
       "verification": "verified-exact",
       "how_verified": "digital-copy",
-      "provenance": "David Sox, Bachelors of Art (1991), read in the repo TEXT MIRROR of the PDF on 2026-08-05, not at a rendered page image. The locator is PDF page; the printed folio was not confirmed on an image for this passage, which is a weaker provenance than the rest of this module's Sox citations and is flagged as such.",
+      "provenance": "David Sox, Bachelors of Art (1991), read in the repo text mirror of the PDF on, not at a rendered page image. The locator is PDF page; the printed folio was not confirmed on an image for this passage, which is a weaker provenance than the rest of this module's Sox citations and is flagged as such.",
       "verified_on": "2026-08-05",
       "voice": "modern",
       "order_hint": {
@@ -36,7 +36,7 @@
     },
     {
       "quote": "Under Fothergill's and his wife Kate's management, the Spread Eagle became a destination restaurant.",
-      "context": "Wikipedia, 'John Fothergill (innkeeper)'. The article separately records that Fothergill, in his 1931 An Innkeeper's Diary, credited his wife Kate with making the trifle on a regular basis - i.e. his own published testimony to the marriage.",
+      "context": "Wikipedia, 'John Fothergill (innkeeper)'. The article separately records that Fothergill, in his 1931 An Innkeeper's Diary, credited his wife Kate with making the trifle on a regular basis - i.e. His own published testimony to the marriage.",
       "work": "wikipedia-john-fothergill",
       "locator": "section on the Spread Eagle",
       "locator_type": "none",
@@ -44,7 +44,7 @@
       "supports": "Independent naming of Kate as Fothergill's wife and co-manager.",
       "verification": "verified-exact",
       "how_verified": "web",
-      "provenance": "Plain-text extract of the article fetched through the MediaWiki API and read 2026-08-05; quotation sliced from that extract. Reference-marker brackets omitted as typography.",
+      "provenance": "Plain-text extract of the article fetched through the MediaWiki API and read; quotation sliced from that extract. Reference-marker brackets omitted as typography.",
       "verified_on": "2026-08-05",
       "voice": "modern"
     }

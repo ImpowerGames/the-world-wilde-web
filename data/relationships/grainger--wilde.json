@@ -103,10 +103,10 @@
         "y": 1895,
         "m": 3
       },
-      "supports": "the plea-only allegation, its dates and places — the class-deciding text. Note: the plea as printed states no age for Grainger",
+      "supports": "The plea-only allegation, its dates and places — the class-deciding text. Note: the plea as printed states no age for Grainger",
       "verification": "verified-exact",
       "how_verified": "archive-org",
-      "provenance": "IA in.ernet.dli.2015.499238, leaves 389-390 (printed pp. 343-344), read as IIIF page images 2026-08-03",
+      "provenance": "IA in.ernet.dli.2015.499238, leaves 389-390 (printed pp. 343-344), read as IIIF page images",
       "verified_on": "2026-08-03",
       "speaker": "The Marquess of Queensberry, plea of justification (filed 30 March 1895)",
       "voice": "exchange",
@@ -127,7 +127,7 @@
         "y": 1895,
         "m": 5
       },
-      "supports": "the service dates (July-October 1893) from the final trial",
+      "supports": "The service dates (July-October 1893) from the final trial",
       "verification": "verified-exact",
       "how_verified": "archive-org",
       "provenance": "IA in.ernet.dli.2015.499238, leaf 366 (printed p. 320); rendered at 3x from the item's text PDF and, with the printed folio confirmed in the page's bottom margin.",

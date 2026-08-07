@@ -13,7 +13,7 @@
   "end": {
     "y": 1943
   },
-  "date_label": "met 1915; partners until Hall's death on 7 October 1943",
+  "date_label": "Met 1915; partners until Hall's death on 7 October 1943",
   "summary": "Una Troubridge, a sculptor and translator and Mabel Batten's cousin, met Radclyffe Hall in 1915 and the two became lifelong partners. Troubridge's marriage to the naval officer Sir Ernest Troubridge ended in separation by 1919, the Ransom Center's sketch states, because of the relationship with Hall. The partnership lasted until Hall's death in 1943 and survived Hall's long affair with the Russian nurse Evguenia Souline in her last nine years, which the same sketch records Troubridge as tolerating despite the unhappiness it caused her. Troubridge afterwards wrote The Life and Death of Radclyffe Hall (1961) and left 131 volumes of diaries.",
   "sources": [
     {
@@ -28,7 +28,7 @@
       "supports": "The meeting date, the partnership, and the Batten-Troubridge kinship that links the two Hall records.",
       "verification": "verified-exact",
       "how_verified": "web",
-      "provenance": "https://norman.hrc.utexas.edu/fasearch/findingAid.cfm?eadid=00163 fetched (curl) and read in full 2026-08-03; quote sliced byte-exact from the downloaded HTML, then whitespace artifacts introduced by stripping inline markup (spaces around quotation marks, italic titles and punctuation) normalized to the printed reading.",
+      "provenance": "Https://norman.hrc.utexas.edu/fasearch/findingAid.cfm?eadid=00163 fetched (curl) and read in full; quote sliced byte-exact from the downloaded HTML, then whitespace artifacts introduced by stripping inline markup (spaces around quotation marks, italic titles and punctuation) normalized to the printed reading.",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -44,7 +44,7 @@
       "supports": "That the relationship with Hall ended Troubridge's marriage - a consequence recorded as fact by the holding archive.",
       "verification": "verified-exact",
       "how_verified": "web",
-      "provenance": "https://norman.hrc.utexas.edu/fasearch/findingAid.cfm?eadid=00163 fetched (curl) and read in full 2026-08-03; quote sliced byte-exact from the downloaded HTML, then whitespace artifacts introduced by stripping inline markup (spaces around quotation marks, italic titles and punctuation) normalized to the printed reading.",
+      "provenance": "Https://norman.hrc.utexas.edu/fasearch/findingAid.cfm?eadid=00163 fetched (curl) and read in full; quote sliced byte-exact from the downloaded HTML, then whitespace artifacts introduced by stripping inline markup (spaces around quotation marks, italic titles and punctuation) normalized to the printed reading.",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -58,7 +58,7 @@
       "supports": "That the Hall-Troubridge partnership continued through, and accommodated, Hall's affair with Evguenia Souline.",
       "verification": "verified-exact",
       "how_verified": "web",
-      "provenance": "https://norman.hrc.utexas.edu/fasearch/findingAid.cfm?eadid=00163 fetched (curl) and read in full 2026-08-03; quote sliced byte-exact from the downloaded HTML, then whitespace artifacts introduced by stripping inline markup (spaces around quotation marks, italic titles and punctuation) normalized to the printed reading.",
+      "provenance": "Https://norman.hrc.utexas.edu/fasearch/findingAid.cfm?eadid=00163 fetched (curl) and read in full; quote sliced byte-exact from the downloaded HTML, then whitespace artifacts introduced by stripping inline markup (spaces around quotation marks, italic titles and punctuation) normalized to the printed reading.",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },

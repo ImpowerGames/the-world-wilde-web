@@ -8,7 +8,7 @@
   "certainty_status": "proposed",
   "direction": "wilde",
   "outcome": "unknown",
-  "certainty_reasoning": "The editors state it flatly in the main-particulars footnote: Wilkinson invented an 'Ipswich Dramatic Society' and its wish to dramatise The Picture of Dorian Gray 'so as to get into correspondence with Wilde, whom he never met' (p. 1109 n. 1). AGE, STATED AS THE RECORD STATES IT: the editors give his dates as 1881-1966 and say he 'was at this time a Radley schoolboy' (p. 1109 n. 1); Wilde, describing the correspondence to Reginald Turner on 3 January 1899, calls him 'a Radley schoolboy, aged seventeen' (p. 1118). DIRECTION is Wilde's, and rests on documented acts rather than on tone: Wilde asks for a photograph in his first letter (p. 1109), asks again when a promised enclosure proved missing from the envelope (p. 1113), comments on the photographs when they arrive (p. 1122), reports to Turner that the boy sends them constantly (p. 1118), and asks Robert Ross to go to Radley and see him (p. 1127). OUTCOME is unknown, and cannot be otherwise: no meeting took place, no Wilkinson letter survives in this edition, and the boy's own account came fifty-four years later in Seven Friends (1953), unread here. WEIGH THIS AGAINST THE EDGE: the initiative in the whole affair was Wilkinson's, not Wilde's - he manufactured a theatrical society and, per the editors, at least one further false claim to attract Wilde's attention (p. 1127 n. 2), so the approach that started it ran the other way. QUOTE DEBT ON THIS EDGE, recorded 2026-08-05: nine of its eleven sources were logged by the earlier conservative method and several are far too short to be read - one is the eleven characters 'My dear Boy' (printed 1133), where the whole letter should stand. They are to be re-read at the page and extended during the sweep, per CONTRIBUTING.md.",
+  "certainty_reasoning": "The editors state it flatly in the main-particulars footnote: Wilkinson invented an 'Ipswich Dramatic Society' and its wish to dramatise The Picture of Dorian Gray 'so as to get into correspondence with Wilde, whom he never met' (p. 1109 n. 1). Age, stated as the record states it: the editors give his dates as 1881-1966 and say he 'was at this time a Radley schoolboy' (p. 1109 n. 1); Wilde, describing the correspondence to Reginald Turner on 3 January 1899, calls him 'a Radley schoolboy, aged seventeen' (p. 1118). Direction is Wilde's, and rests on documented acts rather than on tone: Wilde asks for a photograph in his first letter (p. 1109), asks again when a promised enclosure proved missing from the envelope (p. 1113), comments on the photographs when they arrive (p. 1122), reports to Turner that the boy sends them constantly (p. 1118), and asks Robert Ross to go to Radley and see him (p. 1127). Outcome is unknown, and cannot be otherwise: no meeting took place, no Wilkinson letter survives in this edition, and the boy's own account came fifty-four years later in Seven Friends (1953), unread here. Weigh this against the edge: the initiative in the whole affair was Wilkinson's, not Wilde's - he manufactured a theatrical society and, per the editors, at least one further false claim to attract Wilde's attention (p. 1127 n. 2), so the approach that started it ran the other way. Quote debt on this edge, recorded : nine of its eleven sources were logged by the earlier conservative method and several are far too short to be read - one is the eleven characters 'My dear Boy' (printed 1133), where the whole letter should stand. They are to be re-read at the page and extended during the sweep, per contributing.md.",
   "start": {
     "y": 1898,
     "m": 12
@@ -27,7 +27,7 @@
       "locator": "p. 1109 n. 1",
       "locator_type": "page",
       "evidence_date": null,
-      "supports": "THE CLASS-DECIDING FACT - 'whom he never met' - together with his dates, his being a Radley schoolboy at the time, the pen-name, the 1953 memoir, and the fabricated Ipswich Dramatic Society that opened the correspondence",
+      "supports": "The class-deciding fact - 'whom he never met' - together with his dates, his being a Radley schoolboy at the time, the pen-name, the 1953 memoir, and the fabricated Ipswich Dramatic Society that opened the correspondence",
       "verification": "verified-elision",
       "how_verified": "pdf-text",
       "provenance": "PDF pages 1155-56, printed folios 1109 and 1110 both confirmed on the rendered pages; carried forward with its original provenance. En-dash in the date range as printed.",
@@ -95,7 +95,7 @@
       "supports": "The escalation of address across the correspondence, as a matter of documented salutation and signature rather than of interpretation",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "PDF page 1179, printed folio 1133 confirmed on the rendered page. The earlier salutations and signatures were read at PDF 1155 (folio 1109, predecessor session), 1159 (folio 1113), and 1168-69 (folios 1122 and 1123).",
+      "provenance": "PDF page 1179, printed folio 1133 confirmed on the rendered page. The earlier salutations and signatures were read at PDF 1155 (folio 1109), 1159 (folio 1113), and 1168-69 (folios 1122 and 1123).",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Louis Wilkinson"
@@ -171,7 +171,7 @@
       "supports": "Wilde's own words placing Wilkinson's photograph at the centre of his room and his attention - the desire, expressed obliquely and unmistakably.",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "PDF p. 1215 read as a rendered page image 2026-08-04; printed folio 1169 confirmed at the foot of the image.",
+      "provenance": "PDF p. 1215 read as a rendered page image; printed folio 1169 confirmed at the foot of the image.",
       "verified_on": "2026-08-04",
       "speaker": "Oscar Wilde",
       "addressee": "Louis Wilkinson",
@@ -191,7 +191,7 @@
       "supports": "The direction of the edge, in one line: Wilde asking, and saying what he wants it for.",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "PDF pp. 1216-1217 read as rendered page images 2026-08-04; printed folios 1170 and 1171 confirmed at the feet of the images. The salutation 'My dear Boy' and postmark are on 1170; the quoted close is on 1171.",
+      "provenance": "PDF pp. 1216-1217 read as rendered page images; printed folios 1170 and 1171 confirmed at the feet of the images. The salutation 'My dear Boy' and postmark are on 1170; the quoted close is on 1171.",
       "verified_on": "2026-08-04",
       "speaker": "Oscar Wilde",
       "addressee": "Louis Wilkinson",
@@ -202,7 +202,7 @@
       "locator": "p. 1113",
       "locator_type": "page",
       "quote": "Dear Mr Wilkinson, Thank you so much for your long and interesting letter. I envy you going to Oxford: it is the most flower-like time of one's life. One sees the shadow of things in silver mirrors. Later on, one sees the Gorgon's head, and one suffers, because it does not turn one to stone. I am on the Riviera, in blue and gold weather, the sun warm as wine, and apricot-coloured. The little hotel where I am staying is right on the Golfe de Juan, and all round are pine-woods with their pungent breath: the wind growing aromatic as it moves through the branches: one's feet crushing sweetness out of the fallen needles: I wish you were here. In your second letter you tell me that you enclose your photograph for me, but no photograph was in the envelope. Your thoughts must have been in the crystal of the moon. Call them back, and let me have your portrait. Sincerely yours",
-      "context": "Wilde to Louis Wilkinson, 28 December [1898], Hôtel des Bains, Napoule (MS Hyde) - quoted whole. Wilkinson was seventeen and the two never met. NOTE WHAT WILDE DOES HERE: the identical landscape - pine-woods, pungent breath, feet crushing sweetness out of fallen needles - appears in the letter to Laurence Housman written the same day and printed on the same opening. To Housman it ends in the fisher-boys; to this schoolboy it ends 'I wish you were here' and a second request for his photograph. ADDED 2026-08-05 during the page sweep: this letter was read at the page but never logged, and the connection carried ten sources without it.",
+      "context": "Wilde to Louis Wilkinson, 28 December [1898], Hôtel des Bains, Napoule (MS Hyde) - quoted whole. Wilkinson was seventeen and the two never met. Note what Wilde does here: the identical landscape - pine-woods, pungent breath, feet crushing sweetness out of fallen needles - appears in the letter to Laurence Housman written the same day and printed on the same opening. To Housman it ends in the fisher-boys; to this schoolboy it ends 'I wish you were here' and a second request for his photograph.: this letter was read at the page but never logged, and the connection carried ten sources without it.",
       "speaker": "Oscar Wilde",
       "addressee": "Louis Wilkinson",
       "evidence_date": {

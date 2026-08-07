@@ -6,7 +6,7 @@
   ],
   "certainty": "self-reported",
   "certainty_status": "proposed",
-  "certainty_reasoning": "The sexual reading, standard across major biographers, rests on later Ross statements reported in secondary literature not yet read in the source for this project (Ellmann/McKenna verification is a standing next step). THE SUPPRESSED DEDICATION, added 2026-08-06: Wilde composed a dedication to Ross for The Ballad - 'When I came out of prison / some met me with garments and with spices, / and others with wise counsel. / You met me with love' - deliberately without initials or name, and it was never printed (editors' note, printed 973).",
+  "certainty_reasoning": "The sexual reading, standard across major biographers, rests on later Ross statements reported in secondary literature not yet read in the source for this project (Ellmann/McKenna verification is a standing next step). The suppressed dedication, added: Wilde composed a dedication to Ross for The Ballad - 'When I came out of prison / some met me with garments and with spices, / and others with wise counsel. / You met me with love' - deliberately without initials or name, and it was never printed (editors' note, printed 973).",
   "start": {
     "y": 1886
   },
@@ -112,7 +112,7 @@
     },
     {
       "quote": "Little did Eliza Ross or Constance Wilde suspect, when they finalized this arrangement, that some time the previous year, the thirty-two-year-old Oscar and the seventeen-year-old Robbie had become lovers.",
-      "context": "Fryer introducing Ross's 1887 residence as the Wildes' lodger at 16 Tite Street, Chelsea. The biographer's own assertion, not a participant's words. Ages stated exactly as Fryer states them (README register rule).",
+      "context": "Fryer introducing Ross's 1887 residence as the Wildes' lodger at 16 Tite Street, Chelsea. The biographer's own assertion, not a participant's words. Ages stated exactly as Fryer states them (readme register rule).",
       "work": "fryer-2000",
       "locator": "p. 18",
       "locator_type": "page",
@@ -122,7 +122,7 @@
       "supports": "Ross's dedicated biographer dates the start of a sexual relationship to 1886 - the traditional dating, against which Ross's own 1900 letter to Adela Schuster stands.",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "PDF page 32 of Fryer_2000_Robbie-Ross, printed folio 18 confirmed on the rendered page. NOTE the offset is not constant in this scan (+14 here, +22 after the plate section).",
+      "provenance": "PDF page 32 of Fryer_2000_Robbie-Ross, printed folio 18 confirmed on the rendered page. Note the offset is not constant in this scan (+14 here, +22 after the plate section).",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -135,7 +135,7 @@
       "evidence_date": {
         "y": 1886
       },
-      "supports": "A reported chain of PARTICIPANT testimony for the 1886 dating - Wilde told Turner, Ross told Ransome - which is the nearest thing Fryer offers to first-person evidence. It remains Fryer's report of an unsourced oral confirmation, not the participant's surviving words: a lead toward self-reported evidence rather than an instance of it.",
+      "supports": "A reported chain of participant testimony for the 1886 dating - Wilde told Turner, Ross told Ransome - which is the nearest thing Fryer offers to first-person evidence. It remains Fryer's report of an unsourced oral confirmation, not the participant's surviving words: a lead toward self-reported evidence rather than an instance of it.",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
       "provenance": "PDF page 32, printed folio 18 confirmed on the rendered page. Contiguous sentences; the preceding block on the same page is quoted separately, with no elision joining them.",
@@ -180,7 +180,7 @@
     },
     {
       "quote": "Robbie seems to have felt no jealousy towards John Gray. Indeed, he was remarkably generous and understanding when it came to Oscar's other lovers. Of course, he himself was enjoying various encounters with youths, though none at this stage held any claim to his affections, let alone to the sort of love he felt for Oscar.",
-      "context": "c. 1889-90, immediately before the family council that sent Ross to Edinburgh away from 'myriad temptations, including Oscar Wilde'. Fryer's own characterisation of Ross's feeling; no participant statement is quoted.",
+      "context": "C. 1889-90, immediately before the family council that sent Ross to Edinburgh away from 'myriad temptations, including Oscar Wilde'. Fryer's own characterisation of Ross's feeling; no participant statement is quoted.",
       "work": "fryer-2000",
       "locator": "p. 42",
       "locator_type": "page",
@@ -203,7 +203,7 @@
       "locator": "p. 1006",
       "locator_type": "page",
       "quote": "As for dear Robbie, if he will kindly send me out a pair of his oldest boots I will blacken them with pleasure, and send them back to him with a sonnet. I have loved Robbie all my life, and have not the smallest intention of giving up loving him. Of all my old friends he is the one who has the most beautiful nature; had my other friends been like him, I would not be the pariah-dog of the nineteenth century. But natures like his are not found twice in a life-time. When dear Robbie heavily bombarded me (an unfair thing, as unfortified places are usually respected in civilised war) I bore it with patriarchal patience. I admit, however, that when he seemed to me slightly casual about someone else, I sent up a rocket of several colours. I am sorry I did so.",
-      "context": "Wilde to Leonard Smithers, Saturday [11 December 1897], Villa Giudice, Posilippo (MS Hyde) - written to a third party, which is what makes it worth having. WILDE IS LIVING WITH DOUGLAS AT POSILIPPO AS HE WRITES IT, and Ross had been 'bombarding' him with objections to that. He is not appeasing Ross here and he is not writing to him; he is telling his publisher what he thinks, in a letter Ross was never meant to see. The quarrel he apologises for is over Ross being 'slightly casual about someone else' - the someone else is not named on the page.",
+      "context": "Wilde to Leonard Smithers, Saturday [11 December 1897], Villa Giudice, Posilippo (MS Hyde) - written to a third party, which is what makes it worth having. Wilde is living with Douglas at posilippo as he writes it, and Ross had been 'bombarding' him with objections to that. He is not appeasing Ross here and he is not writing to him; he is telling his publisher what he thinks, in a letter Ross was never meant to see. The quarrel he apologises for is over Ross being 'slightly casual about someone else' - the someone else is not named on the page.",
       "speaker": "Oscar Wilde",
       "addressee": "Leonard Smithers",
       "evidence_date": {
@@ -223,7 +223,7 @@
       "locator": "p. 1184",
       "locator_type": "page",
       "quote": "I am at the Roma, the first time for ten days. Would you were here. Do you observe that I have fallen in love with you again? Our Indian winter. Ever yours",
-      "context": "Wilde to Robert Ross, Rome, April 1900 - the close of the letter, quoted whole. IT COMES DIRECTLY AFTER the paragraph describing Armando's body, on the same folio, which is the reason to have both: Wilde tells Ross he has fallen in love with him again in the sentence after describing another young man's thighs. Seven months before his death. 'Our Indian winter' is a late warm spell. ADDED 2026-08-06 during the General Index sweep, from a folio reached by following an index entry for Armando - not by reading the Ross correspondence, which remains largely unread.",
+      "context": "Wilde to Robert Ross, Rome, April 1900 - the close of the letter, quoted whole. It comes directly after the paragraph describing Armando's body, on the same folio, which is the reason to have both: Wilde tells Ross he has fallen in love with him again in the sentence after describing another young man's thighs. Seven months before his death. 'Our Indian winter' is a late warm spell. during the General Index sweep, from a folio reached by following an index entry for Armando - not by reading the Ross correspondence, which remains largely unread.",
       "speaker": "Oscar Wilde",
       "addressee": "Robert Ross",
       "evidence_date": {
@@ -242,7 +242,7 @@
       "locator": "p. 1182",
       "locator_type": "page",
       "quote": "I also go to look at that beautiful voluptuous marble boy I went to worship with you at the Museo Nazionale. What a lovely thing it is!",
-      "context": "Wilde to Robert Ross, Rome, April 1900. A shared act of looking, recalled: the two of them had gone together to worship a statue. from the reading log, which recorded it as read-but-unlogged on the folio taken for Armando.",
+      "context": "Wilde to Robert Ross, Rome, April 1900. A shared act of looking, recalled: the two of them had gone together to worship a statue. From the reading log, which recorded it as read-but-unlogged on the folio taken for Armando.",
       "speaker": "Oscar Wilde",
       "addressee": "Robert Ross",
       "evidence_date": {
@@ -261,7 +261,7 @@
       "locator": "p. 1141",
       "locator_type": "page",
       "quote": "This is a really lovely little place: only reached by mules or boats. … Have not yet been here: but have decided to enter the chiostro - just the place for me.",
-      "context": "Two postcards from Wilde to Robert Ross, both postmarked 7 April 1899, the first from Portofino and the second from San Fruttuoso (MS Clark), quoted whole and joined by an ellipsis. Both are signed 'S. M.' - Sebastian Melmoth. 'chiostro' the editors gloss as cloister. ADDED 2026-08-06: read at the page during the Rolla sweep and left unlogged. Trivial in content and kept for what it shows - that Wilde sent Ross postcards from wherever he was, twice in a day.",
+      "context": "Two postcards from Wilde to Robert Ross, both postmarked 7 April 1899, the first from Portofino and the second from San Fruttuoso (MS Clark), quoted whole and joined by an ellipsis. Both are signed 'S. M.' - Sebastian Melmoth. 'chiostro' the editors gloss as cloister. : read at the page and left unlogged. Trivial in content and kept for what it shows - that Wilde sent Ross postcards from wherever he was, twice in a day.",
       "speaker": "Oscar Wilde",
       "addressee": "Robert Ross",
       "evidence_date": {
@@ -281,7 +281,7 @@
       "locator": "p. 973",
       "locator_type": "page",
       "quote": "I am going to have a dedication. I don't put any initials or name. I simply say: When I came out of prison / some met me with garments and with spices, / and others with wise counsel. / You met me with love. Please let me see it in some nice type. I think it a beautiful and simple dedication. I hope you do too.",
-      "context": "Wilde to Leonard Smithers, [October 1897], Villa Giudice, Posillipo - quoted whole from where the dedication is raised. THE DEDICATION IS TO ROSS AND IT WAS NEVER PRINTED. The editors' footnote is unambiguous: 'These words were addressed to Robbie Ross, but they did not appear in The Ballad.' Wilde is explicit that the name is to be withheld - 'I don't put any initials or name' - so what he proposed was an unsigned declaration that only its addressee would recognise, and even that was dropped. A SECOND, PUBLISHED dedication went instead to C. T. W., the hanged trooper. NOTE ALSO THE SETTING: Wilde was at Posillipo living with Douglas as he wrote this. CORRECTED 2026-08-06 - an earlier note of mine filed this phrase as Wilde writing to Smithers about Smithers, because the line sits in a letter to Smithers and the page-break hid the footnote. Re-reading the following folio settled it.",
+      "context": "Wilde to Leonard Smithers, [October 1897], Villa Giudice, Posillipo - quoted whole from where the dedication is raised. The dedication is to Ross and it was never printed. The editors' footnote is unambiguous: 'These words were addressed to Robbie Ross, but they did not appear in The Ballad.' Wilde is explicit that the name is to be withheld - 'I don't put any initials or name' - so what he proposed was an unsigned declaration that only its addressee would recognise, and even that was dropped. A second, published dedication went instead to C. T. W., the hanged trooper. Note also the setting: Wilde was at Posillipo living with Douglas as he wrote this. Corrected - an earlier note of mine filed this phrase as Wilde writing to Smithers about Smithers, because the line sits in a letter to Smithers and the page-break hid the footnote. Re-reading the following folio settled it.",
       "speaker": "Oscar Wilde",
       "addressee": "Leonard Smithers",
       "evidence_date": {

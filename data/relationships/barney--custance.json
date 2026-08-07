@@ -11,7 +11,7 @@
     "circa": true
   },
   "end": null,
-  "date_label": "correspondence from c. 1897–98 (after Opals); pursuit, Paris visit, and Italian holiday c. 1901; contact sustained after Custance's 1902 marriage",
+  "date_label": "Correspondence from c. 1897–98 (after Opals); pursuit, Paris visit, and Italian holiday c. 1901; contact sustained after Custance's 1902 marriage",
   "summary": "After Opals (1897) Barney opened the acquaintance with a letter of admiration, wooed Custance with love poems, and invited her to Paris, where Custance also befriended Barney's former lover Renée Vivien; around 1901 Barney and Custance holidayed together in Italy while Custance was simultaneously conducting her courtship with Douglas. Accounts of the Barney–Vivien–Custance ménage are contradictory: Barney's memoir says she tried to persuade Custance to join a Sapphic community at Mytilene (stymied by Vivien's jealousy), and per McDermott she 'supposedly envisaged marrying Douglas as a way of inducing Olive to live with her too'. Custance kept up contact with Barney after returning to London in 1901 and marrying in 1902, and Custance verse survives among Barney's papers.",
   "sources": [
     {
@@ -30,7 +30,7 @@
       "supports": "Barney initiated the acquaintance after Opals; wooing with love poems; the Paris invitation.",
       "verification": "verified-exact",
       "how_verified": "web",
-      "provenance": "https://1890s.ca/custance_bio/ fetched (curl) and read in full 2026-08-03; quote extracted byte-exact from the downloaded HTML, line-wrap whitespace normalized.",
+      "provenance": "Https://1890s.ca/custance_bio/ fetched (curl) and read in full; quote extracted byte-exact from the downloaded HTML, line-wrap whitespace normalized.",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -46,7 +46,7 @@
       "supports": "Custance back in London 1901; the connection continued past the liaison; diaries/poems as evidence of her attraction to women.",
       "verification": "verified-exact",
       "how_verified": "web",
-      "provenance": "https://1890s.ca/custance_bio/ fetched and read in full 2026-08-03; quote extracted byte-exact from the downloaded HTML.",
+      "provenance": "Https://1890s.ca/custance_bio/ fetched and read in full; quote extracted byte-exact from the downloaded HTML.",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -63,13 +63,13 @@
       "supports": "Independent secondary source frames Barney as pursuer; a joint Italian holiday c. 1901; the Douglas courtship running inside the Barney liaison.",
       "verification": "verified-elision",
       "how_verified": "web",
-      "provenance": "https://fortnightlyreview.co.uk/2020/04/olive-custance/ fetched (curl) 2026-08-03, decoded strict UTF-8; sentences extracted byte-exact from the downloaded HTML.",
+      "provenance": "Https://fortnightlyreview.co.uk/2020/04/olive-custance/ fetched (curl), decoded strict UTF-8; sentences extracted byte-exact from the downloaded HTML.",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
     {
       "quote": "Another arena in which Custance’s name arises is that of lesbian biography, in which her rumoured entanglements with Natalie Barney and Renée Vivien in Paris attract passing interest (Wickes 1977: 58-60; Souhami 2004: 56-51).",
-      "context": "Parker's peer-reviewed 2011 article, opening page; read in the Loughborough repository accepted manuscript, whose pagination differs from the journal printing (22.2-3 (2011), 220-40). The page span '56-51' is as printed in the AM. Full citations per the AM reference list: Wickes, The Amazon of Letters (London: W. H. Allen, 1977); Souhami, Wild Girls (London: Orion Books, 2004).",
+      "context": "Parker's peer-reviewed 2011 article, opening page; read in the Loughborough repository accepted manuscript, whose pagination differs from the journal printing (22.2-3 (2011), 220-40). The page span '56-51' is as printed in the am. Full citations per the am reference list: Wickes, The Amazon of Letters (London: W. H. Allen, 1977); Souhami, Wild Girls (London: Orion Books, 2004).",
       "work": "parker-2011-girls-love",
       "locator": "p. 1 (accepted manuscript)",
       "locator_type": "page",
@@ -77,7 +77,7 @@
       "supports": "Status of the claim in scholarship: the Barney (and Vivien) entanglements are 'rumoured', treated in lesbian biography at the cited loci.",
       "verification": "verified-exact",
       "how_verified": "web",
-      "provenance": "Loughborough repository AM (figshare file 16939550) downloaded and read at rendered p. 1, 2026-08-03. evidence_date deliberately left null: this card is not evidence of a dated event but a statement about the state of scholarship - Parker recording that the Barney and Vivien entanglements are treated as 'rumoured' in lesbian biography. Dating it 1901, to the entanglement itself, would file modern historiography among the contemporary sources as though it were one of them; it therefore sorts to the end, with the other undated cards.",
+      "provenance": "Loughborough repository am (figshare file 16939550) downloaded and read at rendered p. 1. Evidence_date deliberately left null: this card is not evidence of a dated event but a statement about the state of scholarship - Parker recording that the Barney and Vivien entanglements are treated as 'rumoured' in lesbian biography. Dating it 1901, to the entanglement itself, would file modern historiography among the contemporary sources as though it were one of them; it therefore sorts to the end, with the other undated cards.",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -91,7 +91,7 @@
       "supports": "Custance's own words to Barney at the opening of the courtship - participant testimony from the other side, and unambiguous as to register.",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "PDF p. 42 read as a rendered page image 2026-08-04. **This printing carries no printed folios and no running heads** - it is an EPUB-to-PDF conversion whose front matter is a 'Sommaire' listing 'Couverture' and 'Page de titre' - so the locator is PDF page plus the chapter, per the works.json rule. The chapter 'RENÉE VIVIEN' runs PDF pp. 22-84.",
+      "provenance": "PDF p. 42 read as a rendered page image. **This printing carries no printed folios and no running heads** - it is an epub-to-PDF conversion whose front matter is a 'Sommaire' listing 'Couverture' and 'Page de titre' - so the locator is PDF page plus the chapter, per the works.json rule. The chapter 'RENÉE VIVIEN' runs PDF pp. 22-84.",
       "verified_on": "2026-08-04",
       "speaker": "Olive Custance, letter to Natalie Barney",
       "addressee": "Natalie Barney",
@@ -110,7 +110,7 @@
       "supports": "The participant's own account of the physical opening of the liaison, and of Vivien's jealousy of it.",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "PDF p. 48 read as a rendered page image 2026-08-04. **This printing carries no printed folios and no running heads** - it is an EPUB-to-PDF conversion whose front matter is a 'Sommaire' listing 'Couverture' and 'Page de titre' - so the locator is PDF page plus the chapter, per the works.json rule. The chapter 'RENÉE VIVIEN' runs PDF pp. 22-84.",
+      "provenance": "PDF p. 48 read as a rendered page image. **This printing carries no printed folios and no running heads** - it is an epub-to-PDF conversion whose front matter is a 'Sommaire' listing 'Couverture' and 'Page de titre' - so the locator is PDF page plus the chapter, per the works.json rule. The chapter 'RENÉE VIVIEN' runs PDF pp. 22-84.",
       "verified_on": "2026-08-04",
       "speaker": "Natalie Clifford Barney",
       "voice": "period"
@@ -125,7 +125,7 @@
       "supports": "The liaison at its height, named obliquely but unmistakably by the participant; and Custance's own manoeuvre to keep both Barney and Douglas.",
       "verification": "verified-elision",
       "how_verified": "pdf-text",
-      "provenance": "PDF p. 50 read as a rendered page image 2026-08-04. **This printing carries no printed folios and no running heads** - it is an EPUB-to-PDF conversion whose front matter is a 'Sommaire' listing 'Couverture' and 'Page de titre' - so the locator is PDF page plus the chapter, per the works.json rule. The chapter 'RENÉE VIVIEN' runs PDF pp. 22-84.",
+      "provenance": "PDF p. 50 read as a rendered page image. **This printing carries no printed folios and no running heads** - it is an epub-to-PDF conversion whose front matter is a 'Sommaire' listing 'Couverture' and 'Page de titre' - so the locator is PDF page plus the chapter, per the works.json rule. The chapter 'RENÉE VIVIEN' runs PDF pp. 22-84.",
       "verified_on": "2026-08-04",
       "speaker": "Natalie Clifford Barney",
       "voice": "period",

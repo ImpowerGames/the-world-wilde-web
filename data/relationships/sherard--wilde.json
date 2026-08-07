@@ -14,7 +14,7 @@
   },
   "date_label": "Met in Paris, early 1883; letters to February 1898",
   "summary": "Fifteen years, and the arc is legible in the letters. In 1883 Wilde accepted the dedication of Sherard's poems — 'one whom I love so much as I love you' — thought of him 'wandering in violet valleys with your honey-coloured hair', and closed a letter 'confidence in our love'. From Holloway in 1895, with almost everyone gone, he wrote 'your chivalrous friendship — your fine, chivalrous friendship — is worth more than all the money in the world'; from Reading in 1896, 'you are one of the few people I would like to see'. Then in 1897 Sherard denounced the reunion with Douglas and Wilde answered coldly. The last letter, in 1898, sends him a book 'in memory of our long friendship' because he would not come in person.",
-  "certainty_reasoning": "WHAT IS NOT CLAIMED: no source says the attachment was sexual, and Wilde names the thing friendship every time he names it — 'the mirror of perfect friendship' (1883), 'your chivalrous friendship' (1895), 'our uninterrupted friendship, of twelve years' standing' (1896), 'an old and noble friendship' (1898). OUTCOME is 'unknown' because Sherard's side of the correspondence is not in this volume. The two scholarly readings that carried the earlier class still stand in the record - Ellmann on 'young, blond, and idolatrous', McKenna on Sherard being 'obsessed by him' - and both now read as corroboration rather than as the whole case. NOTE ON THE 1897 QUARREL (printed 963, already cited above): an earlier pass had it, and on 2026-08-06 I re-added it from the page without checking, which the duplicate validator caught.",
+  "certainty_reasoning": "What is not claimed: no source says the attachment was sexual, and Wilde names the thing friendship every time he names it — 'the mirror of perfect friendship' (1883), 'your chivalrous friendship' (1895), 'our uninterrupted friendship, of twelve years' standing' (1896), 'an old and noble friendship' (1898). Outcome is 'unknown' because Sherard's side of the correspondence is not in this volume. The two scholarly readings that carried the earlier class still stand in the record - Ellmann on 'young, blond, and idolatrous', McKenna on Sherard being 'obsessed by him' - and both now read as corroboration rather than as the whole case.",
   "sources": [
     {
       "work": "letters-2000",
@@ -32,7 +32,7 @@
       "supports": "The warmest surviving language between them, in Wilde's own hand, including the letter's actual close — 'confidence in our love'.",
       "verification": "verified-elision",
       "how_verified": "pdf-image",
-      "provenance": "PDF pages 232-233; printed folios 210 and 211 both confirmed on the rendered page images. The letter runs across the page break and ENDS on 211 - an earlier version of this record stopped it at 'purified but consumed' on 210, missing the close. The elision drops the two middle paragraphs on friendship and art, which are quoted separately below. This also corrects the 2026-08-04 sweep's citation of printed 202.",
+      "provenance": "PDF pages 232-233; printed folios 210 and 211 both confirmed on the rendered page images. The letter runs across the page break and ends on 211 - an earlier version of this record stopped it at 'purified but consumed' on 210, missing the close. The elision drops the two middle paragraphs on friendship and art, which are quoted separately below. This also corrects the sweep's citation of printed 202.",
       "verified_on": "2026-08-05",
       "voice": "period"
     },
@@ -66,7 +66,7 @@
       "supports": "A scholar attributing Wilde's interest in Sherard partly to youth and looks — one of the two readings this connection's class rests on.",
       "verification": "verified-exact",
       "how_verified": "pdf-image",
-      "provenance": "PDF page 305. **PAGINATION WARNING: this file carries NO printed folios** - checked at PDF 200, 305, 306 and 400, where the text layer begins and ends in running prose - so the locator is written 'PDF p.' and must be re-anchored to a paginated copy before publication, exactly as with murray-2020.",
+      "provenance": "PDF page 305. **pagination warning: this file carries no printed folios** - checked at PDF 200, 305, 306 and 400, where the text layer begins and ends in running prose - so the locator is written 'PDF p.' and must be re-anchored to a paginated copy before publication, exactly as with murray-2020.",
       "verified_on": "2026-08-05",
       "voice": "modern"
     },
@@ -75,12 +75,12 @@
       "locator": "PDF p. 74",
       "locator_type": "page",
       "quote": "Sherard was not so much devoted to Oscar as obsessed by him. It was an obsession that was to last to the end of his life.",
-      "context": "McKenna on Sherard's attachment to Wilde. Located in the PDF's text layer; NOT yet read at the rendered page.",
+      "context": "McKenna on Sherard's attachment to Wilde. Located in the pdf's text layer; not yet read at the rendered page.",
       "evidence_date": null,
       "supports": "The second of the two scholarly readings — and the one that makes the attachment asymmetric.",
       "verification": "unverified",
       "how_verified": "unverified",
-      "provenance": "PDF page 74, located in the text layer 2026-08-05 and quoted from it. NOT read at the rendered page and NOT folio-confirmed, so it is marked unverified rather than dressed up: it is here because the disputed block cites it, and it should be read at the page before it is relied on.",
+      "provenance": "PDF page 74, located in the text layer and quoted from it. Not read at the rendered page and not folio-confirmed, so it is marked unverified rather than dressed up: it is here because the disputed block cites it, and it should be read at the page before it is relied on.",
       "verified_on": null,
       "voice": "modern"
     },
@@ -129,7 +129,7 @@
       "locator": "p. 211",
       "locator_type": "page",
       "quote": "Dear Robert, Your letters are charming, they are iridescent, and everything you see or hear seems to become touched with colour, and tinged with joy. I think of you often, wandering in violet valleys with your honey-coloured hair, and meditating on the influence of paradoxes on the pastoral mind. But you should be here … My book you will have next week: it is a great pleasure to give it to anyone so sympathetic as you. Poet to poet I give you my work because your joy in it makes it more dear to me. Who is your young man who likes what I said of the primrose?",
-      "context": "Wilde to R. H. Sherard, [May-June 1883], London (MS Clark). The elision drops a paragraph of London gossip and self-description. THIS IS THE PHYSICAL ADMIRATION the classification turns on: Wilde thinking of Sherard often, and picturing his hair.",
+      "context": "Wilde to R. H. Sherard, [May-June 1883], London (MS Clark). The elision drops a paragraph of London gossip and self-description. This is the physical admiration the classification turns on: Wilde thinking of Sherard often, and picturing his hair.",
       "speaker": "Oscar Wilde",
       "addressee": "Robert Harborough Sherard",
       "evidence_date": {
@@ -148,7 +148,7 @@
       "locator": "p. 662",
       "locator_type": "page",
       "quote": "My dear Robert, The Governor has told me that you have written to ask to see me. It is most kind and affectionate of you, but an order has already been sent to More Adey and Arthur Clifton … I often think of you and of our uninterrupted friendship, of twelve years' standing, and while I bitterly regret the sorrow that I have brought on you and others of my friends, I remember with pride and gratitude your chivalry and courage on my behalf. Should the end of my terrible punishment ever come, you are one of the few people I would like to see, and be with from time to time. Please remember me very kindly to George Ives. I was greatly touched at hearing of his desire to come and see me. In the terrible solitude and silence in which one lives a message or a memory means a great deal. … I was so disappointed at not seeing you that I have been allowed as a favour to write this letter to you.",
-      "context": "Wilde to R. H. Sherard, Wednesday [26 August 1896], HM Prison, Reading (MS Hyde). Sherard had applied to visit and been shut out by the two-visitor rule. The elisions drop the visiting-order mechanics and a paragraph routing correspondence through More Adey. NOTE the George Ives paragraph: Ives is on this map, and this is Wilde asking to be remembered to him from prison, through Sherard.",
+      "context": "Wilde to R. H. Sherard, Wednesday [26 August 1896], HM Prison, Reading (MS Hyde). Sherard had applied to visit and been shut out by the two-visitor rule. The elisions drop the visiting-order mechanics and a paragraph routing correspondence through More Adey. Note the George Ives paragraph: Ives is on this map, and this is Wilde asking to be remembered to him from prison, through Sherard.",
       "speaker": "Oscar Wilde",
       "addressee": "Robert Harborough Sherard",
       "evidence_date": {
@@ -168,7 +168,7 @@
       "locator": "p. 963",
       "locator_type": "page",
       "quote": "When you wish to talk morality – always an amusement – and to attack me behind my back, don't, like a good fellow, talk so loud, as the reverberation reaches from the [Authors'] Club to Naples; also, it is easy – far too easy – for you to find an audience that does not contain any friends of mine; before them, play Tartuffe in the style of Termagant to your heart's content; but when you do it in the presence of friends of mine, you expose yourself to rebuke and contempt, and of course I hear all about it.",
-      "context": "Wilde to R. H. Sherard, [circa 16 October 1897], Naples — the whole of the surviving fragment, taken by the editors from Sherard's own Story of an Unhappy Friendship. Sherard had been denouncing Wilde's reunion with Lord Alfred Douglas at Naples. THE RECORD IS NOT ALL WARMTH and this is why it is here.",
+      "context": "Wilde to R. H. Sherard, [circa 16 October 1897], Naples — the whole of the surviving fragment, taken by the editors from Sherard's own Story of an Unhappy Friendship. Sherard had been denouncing Wilde's reunion with Lord Alfred Douglas at Naples. The record is not all warmth and this is why it is here.",
       "speaker": "Oscar Wilde",
       "addressee": "Robert Harborough Sherard",
       "evidence_date": {
@@ -188,7 +188,7 @@
       "locator": "p. 1026",
       "locator_type": "page",
       "quote": "… I am sending you a copy of my Ballad – first edition – which I hope you will accept in memory of our long friendship. I had hoped to give it to you personally, but I know you are very busy, tho' I am sorry you are too busy to come and see me or to let me know where you are to be seen …",
-      "context": "Wilde to R. H. Sherard, [? end February 1898], Paris — the last surviving letter to him, four months after the rebuke, and printed by the editors from Sherard's own book. The ellipses are the editors' own, marking a fragment. The editors add that the surviving copy (Hyde Collection) is inscribed 'Robert Harborough Sherard: in memory of an old and noble friendship: from the author Oscar Wilde'.",
+      "context": "Wilde to R. H. Sherard, [? End February 1898], Paris — the last surviving letter to him, four months after the rebuke, and printed by the editors from Sherard's own book. The ellipses are the editors' own, marking a fragment. The editors add that the surviving copy (Hyde Collection) is inscribed 'Robert Harborough Sherard: in memory of an old and noble friendship: from the author Oscar Wilde'.",
       "speaker": "Oscar Wilde",
       "addressee": "Robert Harborough Sherard",
       "evidence_date": {
@@ -264,7 +264,7 @@
       "locator": "p. 510",
       "locator_type": "page",
       "quote": "Dear Robert, I am so pleased you are all right. Never mind about the brute. You have asserted yourself like a brave gentleman. Ever",
-      "context": "Wilde to R. H. Sherard, [? early 1892], Lyric Club (MS Montague) — quoted whole. It follows a duel Sherard fought in Paris. THE OTHER SIDE OF THE CORRESPONDENCE IS IN THE EDITORS' NOTE, and is the only statement from Sherard's own hand anywhere in this record: he describes Wilde talking his alarmed relation out of going to the police, which 'would have put me under taboo in Paris for the rest of my days', and then writing to approve his conduct — 'I do not think that any of his letters ever gave me so much pleasure.'",
+      "context": "Wilde to R. H. Sherard, [? Early 1892], Lyric Club (MS Montague) — quoted whole. It follows a duel Sherard fought in Paris. The other side of the Correspondence is in the editors' note, and is the only statement from Sherard's own hand anywhere in this record: he describes Wilde talking his alarmed relation out of going to the police, which 'would have put me under taboo in Paris for the rest of my days', and then writing to approve his conduct — 'I do not think that any of his letters ever gave me so much pleasure.'",
       "speaker": "Oscar Wilde",
       "addressee": "Robert Harborough Sherard",
       "evidence_date": {

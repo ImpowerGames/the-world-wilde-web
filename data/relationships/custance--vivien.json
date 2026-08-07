@@ -26,7 +26,7 @@
       "supports": "The affair claim, at exactly the strength the source gives it; and the Dagmar identification.",
       "verification": "verified-exact",
       "how_verified": "web",
-      "provenance": "https://1890s.ca/custance_bio/ re-fetched (curl) and read in full 2026-08-03; quote sliced byte-exact from the downloaded HTML, then whitespace artifacts introduced by stripping inline markup (spaces around quotation marks, italic titles and punctuation) normalized to the printed reading.",
+      "provenance": "Https://1890s.ca/custance_bio/ re-fetched (curl) and read in full; quote sliced byte-exact from the downloaded HTML, then whitespace artifacts introduced by stripping inline markup (spaces around quotation marks, italic titles and punctuation) normalized to the printed reading.",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -42,7 +42,7 @@
       "supports": "The sustained friendship after 1901, which is the well-evidenced part of this pair's record.",
       "verification": "verified-exact",
       "how_verified": "web",
-      "provenance": "https://1890s.ca/custance_bio/ re-fetched (curl) and read in full 2026-08-03; quote sliced byte-exact from the downloaded HTML, then whitespace artifacts introduced by stripping inline markup (spaces around quotation marks, italic titles and punctuation) normalized to the printed reading.",
+      "provenance": "Https://1890s.ca/custance_bio/ re-fetched (curl) and read in full; quote sliced byte-exact from the downloaded HTML, then whitespace artifacts introduced by stripping inline markup (spaces around quotation marks, italic titles and punctuation) normalized to the printed reading.",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -68,7 +68,7 @@
       "locator": "p. 52",
       "locator_type": "page",
       "quote": "“Should one be afraid of love?” she asked, so simply that I drew back from the kiss she offered. … My little virgin with the short curls had stayed away for many days. … She stopped, then with a trembling sigh: “The Prince I waited for has come to me.”",
-      "context": "A Woman Appeared to Me, chapters XVII-XVIII: the narrator and Dagmar",
+      "context": "A Woman Appeared to Me, chapters xvii-xviii: the narrator and Dagmar",
       "voice": "period",
       "evidence_date": {
         "y": 1901
@@ -77,14 +77,14 @@
       "verification": "verified-elision",
       "how_verified": "pdf-image",
       "verified_on": "2026-08-04",
-      "provenance": "PDF p. 94 rendered and; folio 52 at the foot. Three passages from the same and facing pages, joined by ellipses. This is Foster's 1976 English, NOT Vivien's French - the 1904 French wording is still unverified, and the phrasing here is the translator's."
+      "provenance": "PDF p. 94 rendered and; folio 52 at the foot. Three passages from the same and facing pages, joined by ellipses. This is Foster's 1976 English, not Vivien's French - the 1904 French wording is still unverified, and the phrasing here is the translator's."
     },
     {
       "work": "vivien-woman-appeared-1904",
       "locator": "ch. XVII-XVIII",
       "locator_type": "none",
       "quote": "« Faut-il craindre l’amour ? » demanda-t-elle, si simplement que, devant le baiser qu’elle m’offrait, je reculai. Je reculai comme un être que la démence a frappé à demi recule devant le meurtre conçu en une heure insensée. … La vierge aux boucles légères s’éloigna pendant de longs jours.",
-      "context": "Renée Vivien, Une femme m'apparut… (1904), chapters XVII-XVIII: the narrator and Dagmar",
+      "context": "Renée Vivien, Une femme m'apparut… (1904), chapters xvii-xviii: the narrator and Dagmar",
       "voice": "period",
       "evidence_date": {
         "y": 1901

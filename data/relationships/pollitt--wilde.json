@@ -8,7 +8,7 @@
   "certainty_status": "proposed",
   "direction": "wilde",
   "outcome": "unknown",
-  "certainty_reasoning": "FACTS FIRST: the editors state that four Wilde-to-Pollitt letters survive and that Wilde misspelt his name in all four (p. 1120 n. 2); no letter from Pollitt to Wilde is printed in this edition, so only one side of the exchange exists in the record. The two men appear never to have met during the correspondence: on 3 December 1898 Wilde takes the colour of Pollitt's hair on Ada Leverson's authority and says of a photograph 'not a bit like you, I am sure' (pp. 1106-07), and on 3 January 1899, having received two dissimilar photographs, he is still asking their mutual publisher Leonard Smithers 'What is he like?' (p. 1117). DIRECTION: Wilde's, and the anchor is his first letter - the request for a photograph is made by Wilde, unprompted, on 26 November 1898 (p. 1103), before any photograph is sent. OUTCOME: unknown - Pollitt answered, sent at least four photographs, signed himself 'Jerome', kept the letters (now MS Princeton) and accepted inscribed presentation copies of the French Ballad of Reading Gaol and The Importance of Being Earnest, which is real reciprocity of a kind; but with no Pollitt text in evidence nothing shows what he understood himself to be answering, and no meeting is recorded.",
+  "certainty_reasoning": "Facts first: the editors state that four Wilde-to-Pollitt letters survive and that Wilde misspelt his name in all four (p. 1120 n. 2); no letter from Pollitt to Wilde is printed in this edition, so only one side of the exchange exists in the record. The two men appear never to have met during the correspondence: on 3 December 1898 Wilde takes the colour of Pollitt's hair on Ada Leverson's authority and says of a photograph 'not a bit like you, I am sure' (pp. 1106-07), and on 3 January 1899, having received two dissimilar photographs, he is still asking their mutual publisher Leonard Smithers 'What is he like?' (p. 1117). Direction: Wilde's, and the anchor is his first letter - the request for a photograph is made by Wilde, unprompted, on 26 November 1898 (p. 1103), before any photograph is sent. Outcome: unknown - Pollitt answered, sent at least four photographs, signed himself 'Jerome', kept the letters (now MS Princeton) and accepted inscribed presentation copies of the French Ballad of Reading Gaol and The Importance of Being Earnest, which is real reciprocity of a kind; but with no Pollitt text in evidence nothing shows what he understood himself to be answering, and no meeting is recorded.",
   "start": {
     "y": 1898,
     "m": 11
@@ -59,7 +59,7 @@
         "m": 1,
         "d": 3
       },
-      "supports": "THE CLASS-DECIDING FACT: five weeks into the correspondence and holding two photographs, Wilde still had to ask a third party what Pollitt looked like - the two had not met",
+      "supports": "The class-deciding fact: five weeks into the correspondence and holding two photographs, Wilde still had to ask a third party what Pollitt looked like - the two had not met",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
       "provenance": "PDF page 1163, printed folio 1117 confirmed on the rendered page.",
@@ -78,7 +78,7 @@
         "m": 11,
         "d": 26
       },
-      "supports": "THE DIRECTION-DECIDING FACT: the photograph traffic is opened by Wilde, unprompted, in the first letter - correcting the earlier record long-form notes's note that it was Pollitt-initiated",
+      "supports": "The direction-deciding fact: the photograph traffic is opened by Wilde, unprompted, in the first letter - correcting the earlier record long-form notes's note that it was Pollitt-initiated",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
       "provenance": "PDF page 1149, printed folio 1103 confirmed on the rendered page.",
@@ -124,7 +124,7 @@
       "locator": "p. 1107",
       "locator_type": "page",
       "quote": "… assured me you were quite golden, and I have always thought of you as a sort of gilt sunbeam masquerading in clothes, but, no doubt, you are Protean, and have many forms. When you come to Paris pray be golden entirely, and leave your more serious aspect in charge of Smithers, who needs, indeed, some stern monitor for his manner of living. No: don't come to the Hôtel d'Alsace; it is a poor little Bohemian hotel, only suited for those Sybarites who are exiled from Sybaris. It would be a poor background for you, and background is so much. Go to some purple place, which will go with your hair: and bring a green window with you that you may look out on life in proper fashion: attitude is all. Ever yours",
-      "context": "Wilde to H. C. Pollitt, Paris, December 1898 - the close of the letter; it begins on the preceding folio and the quote starts where this page does, mid-sentence. The editors note that Pollitt's Kendal home was called The Green Window, which is the joke in the last sentence. THE SAME FOLIO carries the letter to Turner that names Alphonse, Joseph and Hylton's boy Herbert. ADDED 2026-08-06: this letter was read at the page during the Alphonse sweep and left unlogged; it is written in now rather than deferred.",
+      "context": "Wilde to H. C. Pollitt, Paris, December 1898 - the close of the letter; it begins on the preceding folio and the quote starts where this page does, mid-sentence. The editors note that Pollitt's Kendal home was called The Green Window, which is the joke in the last sentence. The same folio carries the letter to Turner that names Alphonse, Joseph and Hylton's boy Herbert. : this letter was read at the page and left unlogged; it is written in now rather than deferred.",
       "speaker": "Oscar Wilde",
       "addressee": "H. C. Pollitt",
       "evidence_date": {

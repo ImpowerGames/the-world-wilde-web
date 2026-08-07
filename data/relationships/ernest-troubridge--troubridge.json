@@ -16,7 +16,7 @@
     "m": 1,
     "d": 28
   },
-  "date_label": "m. October 1908; legally separated by 1919; ended by his death, 28 January 1926",
+  "date_label": "M. October 1908; legally separated by 1919; ended by his death, 28 January 1926",
   "summary": "Una Taylor married Captain Ernest Troubridge in October 1908, soon after her father's death, and their daughter Andrea was born in 1910. In 1915 she met Radclyffe Hall - then the partner of Una's own cousin, Mabel Batten - and by June 1919, when the Admiral was knighted and Una became Lady Troubridge, the couple were already legally separated because of the relationship. She lived with Hall until Hall's death in 1943, under the title her husband had given her, and afterwards had Hall's suits altered to fit her.",
   "sources": [
     {
@@ -32,7 +32,7 @@
       "supports": "The marriage, its month and year, the daughter, and the legal separation by 1919.",
       "verification": "verified-elision",
       "how_verified": "web",
-      "provenance": "Plain-text extract of the article fetched through the MediaWiki API and read 2026-08-05; quotation sliced from that extract. Reference-marker brackets omitted as typography.",
+      "provenance": "Plain-text extract of the article fetched through the MediaWiki API and read; quotation sliced from that extract. Reference-marker brackets omitted as typography.",
       "verified_on": "2026-08-05",
       "voice": "modern"
     },
@@ -48,7 +48,7 @@
       "supports": "The repository's own statement of why and when the marriage ended.",
       "verification": "verified-exact",
       "how_verified": "web",
-      "provenance": "Quotation carried unchanged from the context_engagement on troubridge.json, where it was recorded from the finding aid fetched and read in full 2026-08-03. The sketch carries no per-claim citations.",
+      "provenance": "Quotation carried unchanged from the context entry on Troubridge's entry, where it was recorded from the finding aid fetched and read in full. The sketch carries no per-claim citations.",
       "verified_on": "2026-08-05",
       "voice": "modern"
     }

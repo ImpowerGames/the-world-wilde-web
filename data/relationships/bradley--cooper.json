@@ -6,12 +6,12 @@
   ],
   "certainty": "self-reported",
   "certainty_status": "proposed",
-  "certainty_reasoning": "Evangelista's Y90s biography quotes their boast of being 'closer married' than the Brownings and cites it to Works and Days, p. 16 - so a participant's own testimony is underneath the sentence, which is the self-reported test as the README states it (the vehicle is irrelevant; check whose testimony the historian's citation points to).",
+  "certainty_reasoning": "Evangelista's Y90s biography quotes their boast of being 'closer married' than the Brownings and cites it to Works and Days, p. 16 - so a participant's own testimony is underneath the sentence, which is the self-reported test as the readme states it (the vehicle is irrelevant; check whose testimony the historian's citation points to).",
   "start": null,
   "end": {
     "y": 1913
   },
-  "date_label": "lifelong: joint authorship from 1884 (Callirrhoe) until Cooper's death in 1913; Bradley died the following year",
+  "date_label": "Lifelong: joint authorship from 1884 (Callirrhoe) until Cooper's death in 1913; Bradley died the following year",
   "summary": "Katharine Bradley and her niece Edith Cooper lived together, wrote together, and published everything as one poet under the single name 'Michael Field' - eight volumes of verse, some twenty-seven verse dramas, and a joint diary, Works and Days, in which they recorded their life together and boasted of being more thoroughly married than the Brownings, on the grounds that unlike the Brownings they wrote under one name. Their poems were composed separately and merged in revision until the printed voice was single. Wilde corresponded with 'Michael Field' as a single addressee between 1890 and 1893 about their verse dramas. Cooper died of cancer in 1913 and Bradley survived her by less than a year.",
   "sources": [
     {
@@ -24,7 +24,7 @@
       "supports": "Participant testimony (their diary) that the two understood their union as a marriage, and understood the single authorial name as what made it one.",
       "verification": "verified-exact",
       "how_verified": "web",
-      "provenance": "https://1890s.ca/field_bio/ fetched (curl) and read in full 2026-08-03; quote sliced byte-exact from the downloaded HTML, then whitespace artifacts introduced by stripping inline markup (spaces around quotation marks, italic titles and punctuation) normalized to the printed reading.",
+      "provenance": "Https://1890s.ca/field_bio/ fetched (curl) and read in full; quote sliced byte-exact from the downloaded HTML, then whitespace artifacts introduced by stripping inline markup (spaces around quotation marks, italic titles and punctuation) normalized to the printed reading.",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -38,7 +38,7 @@
       "supports": "The scholarly characterisation of the relationship, and the fact that 'Michael Field' is one name for two people.",
       "verification": "verified-exact",
       "how_verified": "web",
-      "provenance": "https://1890s.ca/field_bio/ fetched (curl) and read in full 2026-08-03; quote sliced byte-exact from the downloaded HTML, then whitespace artifacts introduced by stripping inline markup (spaces around quotation marks, italic titles and punctuation) normalized to the printed reading.",
+      "provenance": "Https://1890s.ca/field_bio/ fetched (curl) and read in full; quote sliced byte-exact from the downloaded HTML, then whitespace artifacts introduced by stripping inline markup (spaces around quotation marks, italic titles and punctuation) normalized to the printed reading.",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -54,7 +54,7 @@
       "supports": "Both women's dates; the aunt-niece relation; the single joint pen-name - from Wilde's own editors, i.e. independent of the Michael Field scholarship.",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "PDF p. 471 read as a rendered page image 2026-08-03; printed folio 449 confirmed on the image. Transcribed from the image, en-dashes as printed.",
+      "provenance": "PDF p. 471 read as a rendered page image; printed folio 449 confirmed on the image. Transcribed from the image, en-dashes as printed.",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -72,7 +72,7 @@
       "supports": "That Wilde corresponded with the pair under their single male name - the basis for their presence on this roster.",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "PDF p. 624 read as a rendered page image 2026-08-03; printed folio 572 confirmed on the image (post-plate-insert offset +52).",
+      "provenance": "PDF p. 624 read as a rendered page image; printed folio 572 confirmed on the image (post-plate-insert offset +52).",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Michael Field"
@@ -87,13 +87,13 @@
       "supports": "Locates the first-hand source: a joint diary kept by both women, of which only part is in print.",
       "verification": "verified-exact",
       "how_verified": "web",
-      "provenance": "https://1890s.ca/field_bio/ fetched (curl) and read in full 2026-08-03; quote sliced byte-exact from the downloaded HTML, then whitespace artifacts introduced by stripping inline markup (spaces around quotation marks, italic titles and punctuation) normalized to the printed reading.",
+      "provenance": "Https://1890s.ca/field_bio/ fetched (curl) and read in full; quote sliced byte-exact from the downloaded HTML, then whitespace artifacts introduced by stripping inline markup (spaces around quotation marks, italic titles and punctuation) normalized to the printed reading.",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
     {
       "quote": "Sweet Wife, the hardships of early married life are beginning: let us bear them together bravely, & grow all the dearer to each other for the derision of the world. There has nothing happened to us; but what is common to all poets: let us rejoice to share their bitter herbs of adversity.",
-      "context": "Katharine Bradley to Edith Cooper, undated [August 1885], written the morning after a hostile Pall Mall Gazette review of their 1885 verse dramas. 'Sweet Wife' is Bradley's salutation, not an editorial gloss. ! Corrected 2026-08-05: the entry carried no speaker, so it inherited the volume's authorship - the JOINT pen name 'Michael Field' - and rendered as the pair writing to one of themselves. The letter is Bradley's, to Cooper; the whole point of it is that they are two people.",
+      "context": "Katharine Bradley to Edith Cooper, undated [August 1885], written the morning after a hostile Pall Mall Gazette review of their 1885 verse dramas. 'Sweet Wife' is Bradley's salutation, not an editorial gloss. ! Corrected : the entry carried no speaker, so it inherited the volume's authorship - the joint pen name 'Michael Field' - and rendered as the pair writing to one of themselves. The letter is Bradley's, to Cooper; the whole point of it is that they are two people.",
       "work": "field-2009-thain-parejo",
       "locator": "p. 304 (Letters section, letter 5)",
       "locator_type": "page",
@@ -104,7 +104,7 @@
       "supports": "The 'closer married' passage in the participants' own words.",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "PDF page 306, printed folio 304 confirmed at the foot of the rendered page. RE-POINTED from the moore-works-and-days-1933 pointer: this critical edition prints the letter itself, so the participants' own words are now first-hand rather than reached through Evangelista.",
+      "provenance": "PDF page 306, printed folio 304 confirmed at the foot of the rendered page. Re-pointed from the moore-works-and-days-1933 pointer: this critical edition prints the letter itself, so the participants' own words are now first-hand rather than reached through Evangelista.",
       "verified_on": "2026-08-03",
       "speaker": "Katharine Bradley",
       "voice": "period",

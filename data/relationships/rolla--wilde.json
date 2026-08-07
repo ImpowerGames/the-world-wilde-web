@@ -8,7 +8,7 @@
   "certainty_status": "proposed",
   "direction": "wilde",
   "outcome": "unknown",
-  "certainty_reasoning": "COOLING DOCUMENTED 2026-08-05: printed 1141, read at the page, has Wilde telling Smithers 'I do not love the lad Edoardo Rolla as much as I did' - within weeks of the Genoa meeting.",
+  "certainty_reasoning": "Cooling documented : printed 1141, read at the page, has Wilde telling Smithers 'I do not love the lad Edoardo Rolla as much as I did' - within weeks of the Genoa meeting.",
   "start": {
     "y": 1899,
     "m": 4
@@ -43,7 +43,7 @@
       "locator": "p. 1141",
       "locator_type": "page",
       "quote": "My dear Smithers, … The £10 arrived safe - many thanks. Of course it was a blow not getting the £20, but I do hope you will send the balance soon. I now want to get back to Paris - my life here is too lonely. … Is there really any chance of your coming out here? I wish you would. I am at Santa Margherita, Ligure, Genoa, where please write and send the DC: the only consolation I have as I do not love the lad Edoardo Rolla as much as I did. Yours",
-      "context": "Wilde to Leonard Smithers, [? 8 April 1899], Albergo di Firenze, Genoa (MS Simpson). The elisions drop the proofs of the play and a request for £100. THE END OF IT, in the same sentence as an address for forwarding: the Daily Chronicle is to be sent on because Rolla is no longer consolation enough. Wilde had met him at Genoa that same April, so this is a matter of weeks. Nothing is said about what Rolla felt, then or now.",
+      "context": "Wilde to Leonard Smithers, [? 8 April 1899], Albergo di Firenze, Genoa (MS Simpson). The elisions drop the proofs of the play and a request for £100. The end of it, in the same sentence as an address for forwarding: the Daily Chronicle is to be sent on because Rolla is no longer consolation enough. Wilde had met him at Genoa that same April, so this is a matter of weeks. Nothing is said about what Rolla felt, then or now.",
       "speaker": "Oscar Wilde",
       "addressee": "Leonard Smithers",
       "evidence_date": {

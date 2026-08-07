@@ -8,7 +8,7 @@
   "certainty_status": "proposed",
   "direction": "wilde",
   "outcome": "unknown",
-  "certainty_reasoning": "SECOND PAGE ADDED 2026-08-05: printed 1108, read at the page, puts the same boy in Paris three weeks earlier - 'One beautiful boy of bad character - of the name of Georges … so like Antinous'.",
+  "certainty_reasoning": "Second page added: printed 1108, read at the page, puts the same boy in Paris three weeks earlier - 'One beautiful boy of bad character - of the name of Georges … so like Antinous'.",
   "start": {
     "y": 1899,
     "m": 1
@@ -25,7 +25,7 @@
       "locator": "p. 1108",
       "locator_type": "page",
       "quote": "Kalisaya, the American Bar near the Crédit Lyonnais, is now the literary resort of myself and my friends: and we all gather there at five o'clock - Moréas, and La Jeunesse, and all the young poets. One beautiful boy of bad character - of the name of Georges - goes there too, but he is so like Antinous, and so smart, that he is allowed to talk to poets.",
-      "context": "Wilde in Paris, December 1898, three weeks before the Nice letter. THE EDITORS INDEX THIS AS THE SAME BOY: their entry reads 'Georges (boy), 1097, 1108, 1117' - confirmed on the rendered index page - and printed 1117 is the 'le petit Georges' letter that this connection already rests on. INDEX SLIP WORTH RECORDING: the 1097 in that string is wrong. Printed 1097 carries only the letter to MONSIEUR Georges, the proprietor of L'Écu, whom Wilde thanks for a week's lodging and whose wife and parents he sends compliments to; he has his own index entry at the same page. A future sweep chasing 'Georges' should not merge them. Antinous was the boy the emperor Hadrian loved and deified after his death, and in Wilde's vocabulary the comparison is never neutral.",
+      "context": "Wilde in Paris, December 1898, three weeks before the Nice letter. The editors index this as the same boy: their entry reads 'Georges (boy), 1097, 1108, 1117' - confirmed on the rendered index page - and printed 1117 is the 'le petit Georges' letter that this connection already rests on. Index slip worth recording: the 1097 in that string is wrong. Printed 1097 carries only the letter to monsieur Georges, the proprietor of l'Écu, whom Wilde thanks for a week's lodging and whose wife and parents he sends compliments to; he has his own index entry at the same page. A future sweep chasing 'Georges' should not merge them. Antinous was the boy the emperor Hadrian loved and deified after his death, and in Wilde's vocabulary the comparison is never neutral.",
       "speaker": "Oscar Wilde",
       "addressee": null,
       "evidence_date": {
@@ -35,7 +35,7 @@
       "supports": "That Wilde knew him in Paris before Nice, and how he described him to a correspondent other than Turner.",
       "verification": "verified-exact",
       "how_verified": "pdf-image",
-      "provenance": "PDF page 1154; printed folio 1108 confirmed on the rendered page image. The editors' index entry confirmed on the rendered page image of PDF 1292. Both read 2026-08-05.",
+      "provenance": "PDF page 1154; printed folio 1108 confirmed on the rendered page image. The editors' index entry confirmed on the rendered page image of PDF 1292. Both read.",
       "verified_on": "2026-08-05",
       "voice": "period"
     },

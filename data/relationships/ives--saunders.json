@@ -50,7 +50,7 @@
     },
     {
       "quote": "",
-      "context": "POINTER - DOCUMENTED ABSENCE, recorded by the Q2 quality pass 2026-08-03. Saunders ('Elephant') as a named member and reputed lover in Ives's later household. No first-person passage about Saunders exists in either Cook book. Searched: the whole of Cook (2014) for both 'Saunders' and 'Elephant' - the words occur only in Cook's own narration at printed 96, 100, 102, 109-110 and 110, never inside a quotation from Ives; the chapter's endnotes (printed 125-131) cite the diary by volume and date for twenty-odd passages, none of them attached to a sentence naming Saunders. Cook's endnote 22, the source for Ives choosing Elephant over the Goddard daughters, credits Brian Lewis by personal communication with no archival citation at all. Also searched the Cook (2003) text mirror: neither name appears in the Ives material.",
+      "context": "Pointer - documented absence, recorded by the Q2 quality pass. Saunders ('Elephant') as a named member and reputed lover in Ives's later household. No first-person passage about Saunders exists in either Cook book. Searched: the whole of Cook (2014) for both 'Saunders' and 'Elephant' - the words occur only in Cook's own narration at printed 96, 100, 102, 109-110 and 110, never inside a quotation from Ives; the chapter's endnotes (printed 125-131) cite the diary by volume and date for twenty-odd passages, none of them attached to a sentence naming Saunders. Cook's endnote 22, the source for Ives choosing Elephant over the Goddard daughters, credits Brian Lewis by personal communication with no archival citation at all. Also searched the Cook (2003) text mirror: neither name appears in the Ives material.",
       "work": "ives-diary",
       "locator": null,
       "locator_type": "diary-entry",
@@ -84,7 +84,7 @@
       "evidence_date": {
         "y": 1939
       },
-      "supports": "FIRST CITABLE SOURCE NAMING SAUNDERS. This record's certainty_reasoning states that no citable source read had named Stanley Saunders in the household; Cook (2014) names him repeatedly - here as co-heir with Bloodworth to the Adelaide Road house and contents. The reasoning and disputed fields are now stale and need the editor's review.",
+      "supports": "First citable source naming Saunders. This record's certainty_reasoning states that no citable source read had named Stanley Saunders in the household; Cook (2014) names him repeatedly - here as co-heir with Bloodworth to the Adelaide Road house and contents. The reasoning and disputed fields are now stale and need the editor's review.",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
       "provenance": "PDF pp. 120-121 (printed folios 109 and 110 confirmed on the rendered pages; the sentence runs across the page break).",

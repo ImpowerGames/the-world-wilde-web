@@ -6,7 +6,7 @@
   ],
   "certainty": "uncorroborated",
   "certainty_status": "proposed",
-  "certainty_reasoning": "Hyde prints Douglas's own Autobiography account of coaching Mavor in the Bow Street corridor to 'deny the whole thing' — the recantation the ROSTER notes.",
+  "certainty_reasoning": "Hyde prints Douglas's own Autobiography account of coaching Mavor in the Bow Street corridor to 'deny the whole thing' — the recantation the roster notes.",
   "start": {
     "y": 1892,
     "m": 10
@@ -58,10 +58,10 @@
         "y": 1895,
         "m": 4
       },
-      "supports": "the witness's on-stand denial that anything occurred — the class-deciding quote",
+      "supports": "The witness's on-stand denial that anything occurred — the class-deciding quote",
       "verification": "verified-exact",
       "how_verified": "archive-org",
-      "provenance": "IA in.ernet.dli.2015.499238, leaf 252 (printed p. 212), read as IIIF page image 2026-08-03",
+      "provenance": "IA in.ernet.dli.2015.499238, leaf 252 (printed p. 212), read as IIIF page image",
       "verified_on": "2026-08-03",
       "speaker": "Sidney Mavor",
       "voice": "exchange",
@@ -82,7 +82,7 @@
         "y": 1895,
         "m": 4
       },
-      "supports": "the recantation's backstory: Douglas coached Mavor to deny",
+      "supports": "The recantation's backstory: Douglas coached Mavor to deny",
       "verification": "verified-exact",
       "how_verified": "archive-org",
       "provenance": "IA in.ernet.dli.2015.499238, leaf 95 (printed p. 73 n); rendered at 3x from the item's text PDF and, with the printed folio confirmed in the page's bottom margin. Hyde's footnote 5, quoting Douglas's Autobiography (2nd edn.) at p. 119; the square brackets around [Wood] and [Atkins] are Hyde's own and are preserved",
@@ -100,10 +100,10 @@
         "y": 1895,
         "m": 3
       },
-      "supports": "the formal allegation and its date/place",
+      "supports": "The formal allegation and its date/place",
       "verification": "verified-exact",
       "how_verified": "archive-org",
-      "provenance": "IA in.ernet.dli.2015.499238, leaves 387-388 (printed pp. 341-342), read as IIIF page images 2026-08-03",
+      "provenance": "IA in.ernet.dli.2015.499238, leaves 387-388 (printed pp. 341-342), read as IIIF page images",
       "verified_on": "2026-08-03",
       "speaker": "The Marquess of Queensberry, plea of justification (filed 30 March 1895)",
       "voice": "exchange",

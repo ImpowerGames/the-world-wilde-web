@@ -31,7 +31,7 @@
       "supports": "How the two men met and what was proposed, in the participant's own sworn words: Taylor's approach at the bar, his proposition quoted verbatim by Parker, Parker's answer that 'if any old gentleman with money took a fancy to me, I was agreeable', and Taylor's invitation to Little College Street with the offer to introduce 'a man who was good for plenty of money'. The plainest first-hand characterization of the connection.",
       "verification": "verified-exact",
       "how_verified": "archive-org",
-      "provenance": "IA in.ernet.dli.2015.499238, leaf 230 (printed p. 192, folio in the source foot), read as IIIF page image 2026-08-03. No elisions. Hyde italicises 'was' in the second 'I was agreeable'; the italic is not reproduced here.",
+      "provenance": "IA in.ernet.dli.2015.499238, leaf 230 (printed p. 192, folio in the source foot), read as IIIF page image. No elisions. Hyde italicises 'was' in the second 'I was agreeable'; the italic is not reproduced here.",
       "verified_on": "2026-08-03",
       "speaker": "Charles Parker",
       "voice": "exchange",
@@ -97,10 +97,10 @@
         "y": 1895,
         "m": 4
       },
-      "supports": "shared sleeping at Taylor's; refused proposals by Taylor; gross-indecency evidence at Chapel Street (partner unnamed in the bracket) — the class-deciding testimony page",
+      "supports": "Shared sleeping at Taylor's; refused proposals by Taylor; gross-indecency evidence at Chapel Street (partner unnamed in the bracket) — the class-deciding testimony page",
       "verification": "verified-exact",
       "how_verified": "archive-org",
-      "provenance": "IA in.ernet.dli.2015.499238, leaf 231 (printed p. 193, folio 'N 193'), read as IIIF page image 2026-08-03",
+      "provenance": "IA in.ernet.dli.2015.499238, leaf 231 (printed p. 193, folio 'N 193'), read as IIIF page image",
       "verified_on": "2026-08-03",
       "speaker": "Charles Parker, examination-in-chief",
       "voice": "exchange",
@@ -124,7 +124,7 @@
       "supports": "What Taylor told Parker about himself on the night they shared a bed - Parker reporting Taylor's own account of his mock marriage to Mason, and of taking the woman's part in it",
       "verification": "verified-exact",
       "how_verified": "archive-org",
-      "provenance": "IA in.ernet.dli.2015.499238, leaf 231 (printed p. 193, folio 'N 193' in the source foot), read as IIIF page image 2026-08-03. No elisions.",
+      "provenance": "IA in.ernet.dli.2015.499238, leaf 231 (printed p. 193, folio 'N 193' in the source foot), read as IIIF page image. No elisions.",
       "verified_on": "2026-08-03",
       "speaker": "Charles Parker, examination-in-chief",
       "voice": "exchange",
@@ -153,7 +153,7 @@
         "y": 1895,
         "m": 4
       },
-      "supports": "the contradicting Bow Street statement — preserved for credibility assessment",
+      "supports": "The contradicting Bow Street statement — preserved for credibility assessment",
       "verification": "verified-exact",
       "how_verified": "archive-org",
       "provenance": "IA in.ernet.dli.2015.499238, leaf 238 (printed p. 198); rendered at 3x from the item's text PDF and, with the printed folio confirmed in the page's bottom margin.",
@@ -185,7 +185,7 @@
       "supports": "Taylor's conviction on the Charles Parker gross-indecency count",
       "verification": "verified-exact",
       "how_verified": "archive-org",
-      "provenance": "IA in.ernet.dli.2015.499238, leaf 336 (printed p. 292), read as IIIF page image 2026-08-03",
+      "provenance": "IA in.ernet.dli.2015.499238, leaf 336 (printed p. 292), read as IIIF page image",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -202,7 +202,7 @@
       "supports": "Taylor's own admission that both Parkers were among the men who shared his bedroom",
       "verification": "verified-exact",
       "how_verified": "archive-org",
-      "provenance": "IA in.ernet.dli.2015.499238, leaf 326 (printed p. 282, folio in the source foot), read as IIIF page image 2026-08-03. Locator corrected from 'pp. 282-283' - the whole bracket sits on p. 282; the question it answers ('How many different men have shared your bedroom?') is also on p. 282, not p. 281 as the earlier OCR-derived note had it.",
+      "provenance": "IA in.ernet.dli.2015.499238, leaf 326 (printed p. 282, folio in the source foot), read as IIIF page image. Locator corrected from 'pp. 282-283' - the whole bracket sits on p. 282; the question it answers ('How many different men have shared your bedroom?') is also on p. 282, not p. 281 as the earlier ocr-derived note had it.",
       "verified_on": "2026-08-03",
       "voice": "modern"
     }

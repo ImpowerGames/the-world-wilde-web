@@ -79,7 +79,7 @@
   "sources": [
     {
       "quote": "Love me always, love me always. You have been the supreme, the perfect love of my life; there can be no other.",
-      "context": "Wilde to Lord Alfred Douglas, [20 May 1895], [? 2 Courtfield Gardens], on bail between the trials, written the day the verdicts were ordered to be rendered separately; the letter closes 'O sweetest of all boys, most loved of all loves' and is signed OSCAR. Editors' n. 1 refers this text's provenance to their note on p. 646 - like the Holloway letters it survives as a retranslation whose wording may be distorted, 'but their substance need not be doubted'.",
+      "context": "Wilde to Lord Alfred Douglas, [20 May 1895], [? 2 Courtfield Gardens], on bail between the trials, written the day the verdicts were ordered to be rendered separately; the letter closes 'O sweetest of all boys, most loved of all loves' and is signed Oscar. Editors' n. 1 refers this text's provenance to their note on p. 646 - like the Holloway letters it survives as a retranslation whose wording may be distorted, 'but their substance need not be doubted'.",
       "work": "letters-2000",
       "locator": "p. 652",
       "locator_type": "page",
@@ -98,7 +98,7 @@
     },
     {
       "quote": "It was in the year 1891 that there entered Wilde's life the man who was to be in some sense his inspiration and in every sense his evil genius. Lord Alfred Bruce Douglas, the third son of the eighth Marquess of Queensberry, had been born in 1870, educated at Winchester and was now a second-year undergraduate at Magdalen College, Oxford. Lionel Johnson, a Winchester contemporary and Oxford friend, brought him to see Wilde at Tite Street.",
-      "context": "Holland & Hart-Davis, editorial headnote on the first Wilde–Douglas meeting; the same note quotes Wilde to More Adey, 7 April 1897: \"The friendship began in May 1892 by his brother appealing to me in a very pathetic letter to help him in terrible trouble with people who were blackmailing him. I hardly knew him at the time. I had known him eighteen months, but had only seen him four times in that space.\" ! Corrected 2026-08-05: this was tagged as a period voice, which attributed the editors' own headnote to Wilde himself and printed it under his name. It is Holland and Hart-Davis writing about him - the giveaway is in the quotation, which speaks of \"Wilde's life\" in the third person.",
+      "context": "Holland & Hart-Davis, editorial headnote on the first Wilde–Douglas meeting; the same note quotes Wilde to More Adey, 7 April 1897: \"The friendship began in May 1892 by his brother appealing to me in a very pathetic letter to help him in terrible trouble with people who were blackmailing him. I hardly knew him at the time. I had known him eighteen months, but had only seen him four times in that space.\" ! Corrected : this was tagged as a period voice, which attributed the editors' own headnote to Wilde himself and printed it under his name. It is Holland and Hart-Davis writing about him - the giveaway is in the quotation, which speaks of \"Wilde's life\" in the third person.",
       "work": "letters-2000",
       "locator": "p. 461",
       "locator_type": "page",
@@ -286,7 +286,7 @@
       "supports": "Cohabitation at Naples from late September 1897 and its end when Constance's allowance and Lady Queensberry's terms cut the money off - pages not yet transcribed.",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "PDF page 1037, printed folio 989 read off the rendered page - NOT p. 991; the volume's PDF/printed offset is not constant.",
+      "provenance": "PDF page 1037, printed folio 989 read off the rendered page - not p. 991; the volume's PDF/printed offset is not constant.",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "More Adey"
@@ -324,7 +324,7 @@
       "supports": "Douglas's own first-person account of the sexual relationship with Wilde, its specific and limited content, and its brevity - independent corroboration, from Douglas's side, of an edge otherwise carried by Wilde's letters.",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "PDF page 52 of Murray_2020_Bosie. NO PRINTED FOLIO EXISTS: the file is an ebook conversion with no page numbers and an unpaginated Contents, so the printed-to-PDF offset is n/a and the locator is PDF page, marked 'PDF p.'.",
+      "provenance": "PDF page 52 of Murray_2020_Bosie. No printed folio exists: the file is an ebook conversion with no page numbers and an unpaginated Contents, so the printed-to-PDF offset is n/a and the locator is PDF page, marked 'PDF p.'.",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -340,7 +340,7 @@
       "supports": "The biographer's dating of the sexual phase as brief, with the romantic attachment outlasting it - the shape our date fields already carry (1891/92 start, contact to 1900).",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "PDF page 60 of Murray_2020_Bosie. NO PRINTED FOLIO EXISTS: the file is an ebook conversion with no page numbers and an unpaginated Contents, so the printed-to-PDF offset is n/a and the locator is PDF page, marked 'PDF p.'.",
+      "provenance": "PDF page 60 of Murray_2020_Bosie. No printed folio exists: the file is an ebook conversion with no page numbers and an unpaginated Contents, so the printed-to-PDF offset is n/a and the locator is PDF page, marked 'PDF p.'.",
       "verified_on": "2026-08-03",
       "voice": "modern"
     }

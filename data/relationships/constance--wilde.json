@@ -103,7 +103,7 @@
       "supports": "Wilde's own description of Constance during the engagement; the emotional register of the courtship in his voice.",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "PDF p. 246 (printed p. 224, folio confirmed) (merge pass; found during the Langtry read).",
+      "provenance": "PDF p. 246 (printed p. 224, folio confirmed).",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Lillie Langtry"
@@ -215,10 +215,10 @@
         "m": 5,
         "d": 13
       },
-      "supports": "Formal separation-in-practice after 1895: custody, allowance conditions, name change, denied access - pages not yet transcribed (Wilde's own 'Constance has not asked me to come and see the children. I don't suppose now I shall ever see them', to Blacker, 6 Sept 1897, p. 935, IS transcribed).",
+      "supports": "Formal separation-in-practice after 1895: custody, allowance conditions, name change, denied access - pages not yet transcribed (Wilde's own 'Constance has not asked me to come and see the children. I don't suppose now I shall ever see them', to Blacker, 6 Sept 1897, p. 935, is transcribed).",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "PDF page 868, printed folio 817 read off the rendered page - NOT p. 822 as the pointer's range implied; the volume's PDF/printed offset is not constant.",
+      "provenance": "PDF page 868, printed folio 817 read off the rendered page - not p. 822 as the pointer's range implied; the volume's PDF/printed offset is not constant.",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Robert Ross"

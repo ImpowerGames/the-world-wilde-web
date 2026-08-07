@@ -13,7 +13,7 @@
   "end": {
     "y": 1887
   },
-  "date_label": "met 1880; attachment lasting until Robinson's marriage in 1887",
+  "date_label": "Met 1880; attachment lasting until Robinson's marriage in 1887",
   "summary": "Vernon Lee met the poet Mary Robinson in 1880, the year Lee came to public notice with Studies of the Eighteenth Century in Italy, and the two formed what Pulham calls a romantic friendship. Robinson visited Lee's home in Florence and Lee returned the visit in London in 1881, where Robinson introduced her to the Burne-Joneses, Gosse, the Morrises, the Rossettis and Oscar Wilde - which is how Lee entered the London circle this map charts. The attachment ended with Robinson's marriage in 1887 to the orientalist James Darmesteter; Kit Anstruther-Thomson replaced her as Lee's companion that same year.",
   "sources": [
     {
@@ -28,7 +28,7 @@
       "supports": "The relationship, its character as Pulham states it, and both its start and end dates.",
       "verification": "verified-exact",
       "how_verified": "web",
-      "provenance": "https://1890s.ca/lee_bio/ fetched (curl) and read in full 2026-08-03; quote sliced byte-exact from the downloaded HTML, then whitespace artifacts introduced by stripping inline markup (spaces around quotation marks, italic titles and punctuation) normalized to the printed reading.",
+      "provenance": "Https://1890s.ca/lee_bio/ fetched (curl) and read in full; quote sliced byte-exact from the downloaded HTML, then whitespace artifacts introduced by stripping inline markup (spaces around quotation marks, italic titles and punctuation) normalized to the printed reading.",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -44,7 +44,7 @@
       "supports": "That the connection to Wilde's London circle ran through Robinson - relevant to why both women are on this roster.",
       "verification": "verified-exact",
       "how_verified": "web",
-      "provenance": "https://1890s.ca/lee_bio/ fetched (curl) and read in full 2026-08-03; quote sliced byte-exact from the downloaded HTML, then whitespace artifacts introduced by stripping inline markup (spaces around quotation marks, italic titles and punctuation) normalized to the printed reading.",
+      "provenance": "Https://1890s.ca/lee_bio/ fetched (curl) and read in full; quote sliced byte-exact from the downloaded HTML, then whitespace artifacts introduced by stripping inline markup (spaces around quotation marks, italic titles and punctuation) normalized to the printed reading.",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -60,7 +60,7 @@
       "supports": "The standard edition stating the relationship as romantic, dating its start exactly, giving its length, and recording Lee's depression after the marriage.",
       "verification": "verified-elision",
       "how_verified": "pdf-text",
-      "provenance": "PDF p. 119-120 read as a rendered page image 2026-08-04. **This volume carries no printed folios** - it is an ebook conversion - so the locator is PDF page, per the works.json rule; the letter is additionally identifiable by its date and correspondents. Superscript footnote markers omitted as typography.",
+      "provenance": "PDF p. 119-120 read as a rendered page image. **This volume carries no printed folios** - it is an ebook conversion - so the locator is PDF page, per the works.json rule; the letter is additionally identifiable by its date and correspondents. Superscript footnote markers omitted as typography.",
       "verified_on": "2026-08-04",
       "speaker": "Sophie Geoffroy and Amanda Gagel, eds.",
       "voice": "modern"
@@ -79,7 +79,7 @@
       "supports": "Robinson's own voice on the relationship and on its aftermath - the surviving affection, and the mutual retrieval of the love letters that documented it.",
       "verification": "verified-elision",
       "how_verified": "pdf-text",
-      "provenance": "PDF p. 490-491 read as a rendered page image 2026-08-04. **This volume carries no printed folios** - it is an ebook conversion - so the locator is PDF page, per the works.json rule; the letter is additionally identifiable by its date and correspondents. Superscript footnote markers omitted as typography.",
+      "provenance": "PDF p. 490-491 read as a rendered page image. **This volume carries no printed folios** - it is an ebook conversion - so the locator is PDF page, per the works.json rule; the letter is additionally identifiable by its date and correspondents. Superscript footnote markers omitted as typography.",
       "verified_on": "2026-08-04",
       "speaker": "Mary Robinson (Mme Darmesteter), letter to Vernon Lee",
       "addressee": "Vernon Lee",

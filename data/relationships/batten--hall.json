@@ -23,7 +23,7 @@
       "supports": "That Batten was Hall's first lover, her dates, and her role in bringing Hall into queer society.",
       "verification": "verified-exact",
       "how_verified": "web",
-      "provenance": "https://norman.hrc.utexas.edu/fasearch/findingAid.cfm?eadid=00163 fetched (curl) and read in full 2026-08-03; quote sliced byte-exact from the downloaded HTML, then whitespace artifacts introduced by stripping inline markup (spaces around quotation marks, italic titles and punctuation) normalized to the printed reading.",
+      "provenance": "Https://norman.hrc.utexas.edu/fasearch/findingAid.cfm?eadid=00163 fetched (curl) and read in full; quote sliced byte-exact from the downloaded HTML, then whitespace artifacts introduced by stripping inline markup (spaces around quotation marks, italic titles and punctuation) normalized to the printed reading.",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -37,7 +37,7 @@
       "supports": "An editor's reading that Hall's worst remembered grief was Batten's death, and that Batten was grieved by Hall's passion for Troubridge - second-hand, hedged, and the only thing in this volume that bears on this pair.",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "PDF p. 7 read as a rendered page image 2026-08-04, and the footnote re-read at 400 dpi. The scan is TWO PRINTED PAGES PER PDF PAGE: PDF 7 carries printed 28 and 29, and the folio 29 is confirmed in the running head ('The Love Letters of Radclyffe Hall 29') on the image. The PDF's own text layer is unreliable here - it renders 'sheer' as 'shere' and 'a very' as 'aa very' - so the transcription is taken from the image, not the layer.",
+      "provenance": "PDF p. 7 read as a rendered page image, and the footnote re-read at 400 dpi. The scan is two printed pages per PDF page: PDF 7 carries printed 28 and 29, and the folio 29 is confirmed in the running head ('The Love Letters of Radclyffe Hall 29') on the image. The pdf's own text layer is unreliable here - it renders 'sheer' as 'shere' and 'a very' as 'aa very' - so the transcription is taken from the image, not the layer.",
       "verified_on": "2026-08-04",
       "speaker": "Joanne Glasgow, ed.",
       "voice": "modern"

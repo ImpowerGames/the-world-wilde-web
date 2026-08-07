@@ -16,7 +16,7 @@
     "m": 10,
     "d": 19
   },
-  "date_label": "accepted him in 1887; m. August 1888; ended by his death, 19 October 1894",
+  "date_label": "Accepted him in 1887; m. August 1888; ended by his death, 19 October 1894",
   "summary": "Mary Robinson accepted James Darmesteter in 1887, over the objections of both families, and married him in August 1888, moving to Paris. It ended her eight-year partnership with Vernon Lee, who broke down at the announcement and was depressed for a long time after the wedding; Kit Anstruther-Thomson took Robinson's place as Lee's companion the same year. Darmesteter died in 1894 after a short illness. Five years later Robinson - by then Mme Darmesteter - and Lee were still writing to each other, and arranging through discreet intermediaries to return each other's old love letters.",
   "sources": [
     {
@@ -31,7 +31,7 @@
       "supports": "The relationship, its character as Pulham states it, and both its start and end dates.",
       "verification": "verified-exact",
       "how_verified": "web",
-      "provenance": "https://1890s.ca/lee_bio/ fetched (curl) and read in full 2026-08-03; quote sliced byte-exact from the downloaded HTML, then whitespace artifacts introduced by stripping inline markup (spaces around quotation marks, italic titles and punctuation) normalized to the printed reading.",
+      "provenance": "Https://1890s.ca/lee_bio/ fetched (curl) and read in full; quote sliced byte-exact from the downloaded HTML, then whitespace artifacts introduced by stripping inline markup (spaces around quotation marks, italic titles and punctuation) normalized to the printed reading.",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -47,7 +47,7 @@
       "supports": "That the connection to Wilde's London circle ran through Robinson - relevant to why both women are on this roster.",
       "verification": "verified-exact",
       "how_verified": "web",
-      "provenance": "https://1890s.ca/lee_bio/ fetched (curl) and read in full 2026-08-03; quote sliced byte-exact from the downloaded HTML, then whitespace artifacts introduced by stripping inline markup (spaces around quotation marks, italic titles and punctuation) normalized to the printed reading.",
+      "provenance": "Https://1890s.ca/lee_bio/ fetched (curl) and read in full; quote sliced byte-exact from the downloaded HTML, then whitespace artifacts introduced by stripping inline markup (spaces around quotation marks, italic titles and punctuation) normalized to the printed reading.",
       "verified_on": "2026-08-03",
       "voice": "modern"
     }

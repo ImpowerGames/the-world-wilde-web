@@ -6,7 +6,7 @@
   ],
   "certainty": "married",
   "certainty_status": "proposed",
-  "certainty_reasoning": "Married, but on the weakest kind of web sourcing: an uncited Wikipedia sentence, with Wikidata giving a DIFFERENT year and no reference either.",
+  "certainty_reasoning": "Married, but on the weakest kind of web sourcing: an uncited Wikipedia sentence, with Wikidata giving a different year and no reference either.",
   "start": {
     "y": 1902
   },
@@ -15,7 +15,7 @@
     "m": 5,
     "d": 3
   },
-  "date_label": "m. 1902 (Wikidata says 1901); ended by his death, 3 May 1904",
+  "date_label": "M. 1902 (Wikidata says 1901); ended by his death, 3 May 1904",
   "summary": "Widowed since 1894, Mary Robinson married the microbiologist Emile Duclaux in 1902, having moved among the scientific community of France. He died two years later. She did not marry again, kept his name, was hidden with her sister at Aurillac when war came in 1939, and died there in 1944 at eighty-six.",
   "sources": [
     {
@@ -30,7 +30,7 @@
       "supports": "The second marriage, its year and the husband's identity.",
       "verification": "verified-exact",
       "how_verified": "web",
-      "provenance": "Plain-text extract of the article fetched through the MediaWiki API and read 2026-08-05; quotation sliced from that extract. Reference-marker brackets omitted as typography. THE SENTENCE CARRIES NO CITATION ON THE PAGE; the article's only footnote in this area attaches to a different paragraph, and the paragraph carrying her first marriage is tagged 'citation needed' (August 2017).",
+      "provenance": "Plain-text extract of the article fetched through the MediaWiki API and read; quotation sliced from that extract. Reference-marker brackets omitted as typography. The sentence carries no citation on the page; the article's only footnote in this area attaches to a different paragraph, and the paragraph carrying her first marriage is tagged 'citation needed' (August 2017).",
       "verified_on": "2026-08-05",
       "voice": "modern"
     }

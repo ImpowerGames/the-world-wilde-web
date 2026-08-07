@@ -14,7 +14,7 @@
   "end": {
     "y": 1889
   },
-  "date_label": "met at Florence, 1886; the poems and letters follow; Levy died in 1889",
+  "date_label": "Met at Florence, 1886; the poems and letters follow; Levy died in 1889",
   "summary": "Amy Levy met Vernon Lee at Florence in 1886 and fell in love with her. She sent Lee love poems - the sonnet 'To Vernon Lee', set on Bellosguardo, and 'New Love, New Life' - and expressed her admiration in letters; the friendship also brought her into Lee's circle, notably the poet Dorothy Blomfield. Nothing in the sources read records reciprocation by Lee, and Levy's biographer describes a woman who never had a requited attachment to any of the women she loved. Levy died by suicide in 1889, three years after the Florence meeting. The two women's other point of contact is Wilde himself, who was publishing Levy in the Woman's World across exactly these years.",
   "sources": [
     {
@@ -29,7 +29,7 @@
       "supports": "That Levy sent Lee love poems and expressed admiration in letters: the desire, and its direction.",
       "verification": "verified-exact",
       "how_verified": "web",
-      "provenance": "https://jwa.org/encyclopedia/article/levy-amy fetched (curl) and read in full 2026-08-03; quote sliced byte-exact from the downloaded HTML, then whitespace artifacts introduced by stripping inline markup (spaces around quotation marks, italic titles and punctuation) normalized to the printed reading.",
+      "provenance": "Https://jwa.org/encyclopedia/article/levy-amy fetched (curl) and read in full; quote sliced byte-exact from the downloaded HTML, then whitespace artifacts introduced by stripping inline markup (spaces around quotation marks, italic titles and punctuation) normalized to the printed reading.",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -45,7 +45,7 @@
       "supports": "The one-sidedness (outcome = unreciprocated), the 1886 Florence meeting, and the dedication of the sonnet.",
       "verification": "verified-exact",
       "how_verified": "web",
-      "provenance": "https://victorianweb.org/authors/levy/bio.html fetched (curl) and read in full 2026-08-03; quote sliced byte-exact from the downloaded HTML, then whitespace artifacts introduced by stripping inline markup (spaces around quotation marks, italic titles and punctuation) normalized to the printed reading.",
+      "provenance": "Https://victorianweb.org/authors/levy/bio.html fetched (curl) and read in full; quote sliced byte-exact from the downloaded HTML, then whitespace artifacts introduced by stripping inline markup (spaces around quotation marks, italic titles and punctuation) normalized to the printed reading.",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -61,13 +61,13 @@
       "supports": "Levy's professional tie to Wilde and the manner of her death, which sets the end of this record; her dates as Wilde's editors give them (superseded on the birth year).",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "PDF p. 348 read as a rendered page image 2026-08-03; printed folio 326 confirmed on the image.",
+      "provenance": "PDF p. 348 read as a rendered page image; printed folio 326 confirmed on the image.",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
     {
       "quote": "Both Levy's letters and poems indicate that Levy fell in love with Vernon Lee (and her feelings must have received a charge when Lee visited London only three months after they parted). … Since sending such poems to Vernon Lee at this juncture was tantamount to announcing her love, these lyrics call for a biographical reading.",
-      "context": "Beckman on Levy's 1886 Florence acquaintance with Lee and the five poems Levy enclosed with a letter that autumn, two of them 'To Vernon Lee' and 'Neue Liebe, Neues Leben'. Beckman also states that Levy's letters show she was NOT aware of the nature of Lee's attachment to Mary Robinson.",
+      "context": "Beckman on Levy's 1886 Florence acquaintance with Lee and the five poems Levy enclosed with a letter that autumn, two of them 'To Vernon Lee' and 'Neue Liebe, Neues Leben'. Beckman also states that Levy's letters show she was not aware of the nature of Lee's attachment to Mary Robinson.",
       "work": "beckman-2000-levy",
       "locator": "pp. 120-121",
       "locator_type": "page",
