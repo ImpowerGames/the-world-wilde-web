@@ -515,7 +515,7 @@ main {
   padding: 0 20px 40px;
 }
 :root {
-  --phead-h: 48px;
+  --phead-h: 44px;
 }
 .phead {
   position: sticky;
@@ -690,12 +690,22 @@ main {
   white-space: pre-wrap;
 }
 .sect {
+  position: sticky;
+  top: var(--phead-h);
+  z-index: 4;
+  background: var(--paper2);
+  margin-left: -20px;
+  margin-right: -20px;
+  padding-left: 20px;
+  padding-right: 20px;
   font-family: var(--sans);
   font-size: 12px;
   letter-spacing: 0.18em;
   text-transform: uppercase;
   color: var(--ink3);
   border-bottom: 1px solid var(--rule);
+  margin-top: -4px;
+  padding-top: 4px;
   padding-bottom: 4px;
   margin-bottom: 16px;
 }
@@ -1564,10 +1574,6 @@ mark.sfhit {
     height: 88px;
   }
 }
-#panel .pwrap > .sect:first-child,
-#panel .phead + .sect {
-  margin-top: 0;
-}
 #panel:not(:has(.phead)) .pwrap > *:first-child:not(.sect) {
   padding-top: 18px;
 }
@@ -1579,19 +1585,9 @@ mark.sfhit {
 #panel:not(:has(.phead)) .sfilter {
   top: 35px;
 }
-#panel .sect {
-  position: sticky;
-  top: var(--phead-h);
-  z-index: 4;
-  background: var(--paper2);
-  margin-left: -20px;
-  margin-right: -20px;
-  padding-left: 20px;
-  padding-right: 20px;
-}
 #panel .sfilter {
   position: sticky;
-  top: calc(var(--phead-h) + 16px);
+  top: calc(var(--phead-h) + 19px);
   z-index: 3;
   background: var(--paper2);
   margin-left: -20px;
