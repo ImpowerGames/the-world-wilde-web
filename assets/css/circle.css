@@ -1591,7 +1591,7 @@ mark.sfhit {
 }
 #panel .sfilter {
   position: sticky;
-  top: calc(var(--phead-h) + 20px);
+  top: calc(var(--phead-h) + 18px);
   z-index: 3;
   background: var(--paper2);
   margin-left: -20px;
