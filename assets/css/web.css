@@ -1657,14 +1657,16 @@ mark.sfhit {
   padding: 0;
   white-space: pre;
 }
-#panel.doc code {
+code {
   font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
   font-size: 0.85em;
   color: var(--ink2);
   background: rgba(0, 0, 0, 0.24);
   border: 1px solid var(--rule);
-  border-radius: 3px;
-  padding: 0.5px 4px;
+  border-radius: 4px;
+  padding: 0.2em 0.4em;
+  font-weight: 500;
+  white-space: nowrap;
 }
 #panel.doc table {
   display: block;

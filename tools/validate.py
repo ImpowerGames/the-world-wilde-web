@@ -584,7 +584,7 @@ def md_html(src):
         s = re.sub(r"(?<![A-Za-z0-9_])_([^_\n]+)_(?![A-Za-z0-9_])", r"<i>\1</i>", s)
         return re.sub(r"\x00(\d+)\x00", lambda m: f"<code>{spans[int(m.group(1))]}</code>", s)
 
-    out, ul, fence, fence_lang, table, para = [], False, None, "", [], []
+    out, ul, ol, fence, fence_lang, table, para = [], False, False, None, "", [], []
     def close_para():
         """Consecutive prose lines are ONE paragraph, as markdown says. ABOUT.md happens to keep
         each paragraph on a single line, so splitting per line looked right until CONTRIBUTING.md
@@ -599,12 +599,17 @@ def md_html(src):
         cls = ' class="sub" style="font-style:italic"' if wrapped else ""
         body = inline(line[1:-1]) if cls else inline(line)
         out.append(f"<p{cls}>{body}</p>")
-    def close_ul():
-        nonlocal ul
+        
+    def close_lists():
+        nonlocal ul, ol
         close_para()
         if ul:
             out.append("</ul>")
             ul = False
+        if ol:
+            out.append("</ol>")
+            ol = False
+            
     def close_table():
         """A markdown table becomes a real table; the alignment row is dropped, not rendered."""
         if not table:
@@ -631,29 +636,33 @@ def md_html(src):
                 fence.append(line)
             continue
         if line.startswith("```"):
-            close_ul(); close_table()
+            close_lists(); close_table()
             fence, fence_lang = [], re.sub(r"[^a-z]", "", line[3:].strip().lower())
             continue
         if line.lstrip().startswith("|") and line.rstrip().endswith("|"):
-            close_ul(); table.append(line)
+            close_lists(); table.append(line)
             continue
         close_table()
+        
         # A bullet continued on the next line belongs to that bullet, not to a new paragraph.
-        if ul and para == [] and raw[:1].isspace() and line.strip() and out and out[-1].endswith("</li>"):
+        if (ul or ol) and para == [] and raw[:1].isspace() and line.strip() and out and out[-1].endswith("</li>"):
             out[-1] = out[-1][:-5] + " " + inline(line.strip()) + "</li>"
             continue
+            
         if not line.strip():
-            close_ul(); continue
+            close_lists(); continue
         if line.strip() in ("---", "***", "___"):
-            close_ul(); out.append("<hr>")
+            close_lists(); out.append("<hr>")
         elif line.startswith("### "):
-            close_ul(); out.append(f"<h3>{inline(line[4:])}</h3>")
+            close_lists(); out.append(f"<h3>{inline(line[4:])}</h3>")
         elif line.startswith("## "):
-            close_ul(); out.append(f'<div class="sect">{inline(line[3:])}</div>')
+            close_lists(); out.append(f'<div class="sect">{inline(line[3:])}</div>')
         elif line.startswith("# "):
-            close_ul(); out.append(f"<h2>{inline(line[2:])}</h2>")
+            close_lists(); out.append(f"<h2>{inline(line[2:])}</h2>")
         elif line.startswith("- "):
             close_para()
+            if ol:
+                out.append("</ol>"); ol = False
             if not ul:
                 out.append("<ul>"); ul = True
             body = line[2:]
@@ -662,11 +671,22 @@ def md_html(src):
             # into the same panel on desktop, so the two would share a stylesheet rule.
             cls = ' class="lkey"' if body.startswith("{{line:") else ""
             out.append(f"<li{cls}>{inline(body)}</li>")
+        elif re.match(r"^\d+\.\s+", line):
+            close_para()
+            if ul:
+                out.append("</ul>"); ul = False
+            if not ol:
+                out.append("<ol>"); ol = True
+            # maxsplit guarantees we pull everything after the number space
+            body = line.split(maxsplit=1)[1]
+            cls = ' class="lkey"' if body.startswith("{{line:") else ""
+            out.append(f"<li{cls}>{inline(body)}</li>")
         elif line.strip() == "{{colophon}}":
-            close_ul(); out.append('<p id="colophon"></p>')
+            close_lists(); out.append('<p id="colophon"></p>')
         else:
             para.append(line.strip())
-    close_ul()
+            
+    close_lists()
     close_table()
     return "\n".join(out)
 
