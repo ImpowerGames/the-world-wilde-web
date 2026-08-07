@@ -130,7 +130,7 @@
     },
     {
       "quote": "They met frequently, and their friendship suddenly seemed to deepen into love. It is unlikely that the relationship was ever sexual, but there may have been drunken embraces and declarations of undying love.",
-      "context": "McKenna on the June 1897 Dieppe weeks, immediately before he quotes the 'fatality about our being together' letter. This is the one scholarly reading in the corpus that names the connection as love, and it is explicitly speculative ('seemed', 'may have been'); works.json records that McKenna is never a sufficient basis on his own. The file carries no printed folios, so the locator is a PDF page.",
+      "context": "McKenna on the June 1897 Dieppe weeks, immediately before he quotes the 'fatality about our being together' letter. The file carries no printed folios, so the locator is a PDF page.",
       "work": "mckenna-2008",
       "locator": "PDF p. 665",
       "locator_type": "page",
@@ -141,7 +141,7 @@
       "supports": "The scholarly-reading half of the readme's attraction-expressed bar - and, by its own hedging, the reason the class stays at attraction-expressed rather than rising higher",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "PDF page 665; no printed folio or running head appears on the rendered page, consistent with the pagination warning on mckenna-2008 in works.json. McKenna's source note for the adjoining 'first hyacinth since Douglas' phrase, at PDF 852, reads 'Sox, Bachelors of Art, page 141'.",
+      "provenance": "McKenna's source note for the adjoining 'first hyacinth since Douglas' phrase, at PDF 852, reads 'Sox, Bachelors of Art, page 141'.",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },

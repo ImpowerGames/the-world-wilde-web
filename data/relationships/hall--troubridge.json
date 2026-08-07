@@ -6,7 +6,6 @@
   ],
   "certainty": "second-hand",
   "certainty_status": "proposed",
-  "certainty_reasoning": "The participant record here is unusually large - Troubridge's 131 volumes of diaries and her memoir The Life and Death of Radclyffe Hall (1961), both at or from the Ransom Center - so this is a strong candidate to become self-reported on a later pass; pointers recorded.",
   "start": {
     "y": 1915
   },
@@ -50,7 +49,7 @@
     },
     {
       "quote": "During the last nine years of her life, Hall had an affair with a Russian nurse named Evguenia Souline (1904-1958?), tolerated by Troubridge despite the unhappiness it caused her.",
-      "context": "The same sketch. Souline is off-roster and gets no node; the sentence is kept because it bears on this pair - the partnership's shape in its last decade.",
+      "context": "The same sketch.",
       "work": "hrc-hall-troubridge-fa",
       "locator": "Biographical Sketch",
       "locator_type": "none",

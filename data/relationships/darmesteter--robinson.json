@@ -44,7 +44,6 @@
       "evidence_date": {
         "y": 1881
       },
-      "supports": "That the connection to Wilde's London circle ran through Robinson - relevant to why both women are on this roster.",
       "verification": "verified-exact",
       "how_verified": "web",
       "provenance": "Https://1890s.ca/lee_bio/ fetched (curl) and read in full; quote sliced byte-exact from the downloaded HTML, then whitespace artifacts introduced by stripping inline markup (spaces around quotation marks, italic titles and punctuation) normalized to the printed reading.",

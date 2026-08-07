@@ -121,11 +121,11 @@
       "supports": "Wilde's own register about Gilbert in a letter to a third party - affectionate, possessive and communal at once.",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "PDF p. 1119 read as a rendered page image; printed folio 1073 confirmed at the foot of the image (offset +46 in this region, consistent with the works.json warning that it is not constant).",
       "verified_on": "2026-08-04",
       "speaker": "Oscar Wilde",
       "addressee": "Robert Ross",
-      "voice": "period"
+      "voice": "period",
+      "provenance": "PDF p. 1119 read as a rendered page image; printed folio 1073 confirmed at the foot of the image (offset +46 in this region, which is not constant across the volume)."
     }
   ],
   "prior_class": "romantic-nonsexual",

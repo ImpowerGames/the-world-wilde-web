@@ -41,7 +41,6 @@
       "evidence_date": {
         "y": 1881
       },
-      "supports": "That the connection to Wilde's London circle ran through Robinson - relevant to why both women are on this roster.",
       "verification": "verified-exact",
       "how_verified": "web",
       "provenance": "Https://1890s.ca/lee_bio/ fetched (curl) and read in full; quote sliced byte-exact from the downloaded HTML, then whitespace artifacts introduced by stripping inline markup (spaces around quotation marks, italic titles and punctuation) normalized to the printed reading.",
@@ -50,7 +49,7 @@
     },
     {
       "quote": "Lee and Robinson met in Florence on 16 October 1880 at a party at Maria Spartali Stillman's and they became steadfast friends and romantic partners for almost eight years – a romantic friendship to which their letters testify (Selected Letters of Vernon Lee, Vols. I and II); and Lee took on the role in Mary's life of a strong companion who at times was both nurturing and domineering. … Lee suffered a long period of depression after the marriage took place in August 1888.",
-      "context": "The editors' biographical note on Mary Robinson in the standard scholarly edition of Lee's correspondence. It states the relationship's character, its exact beginning and its length without hedging, and cites the letters themselves in Vols. I and II. The elision drops the account of Robinson's proposal to James Darmesteter in 1887 and the two families' objections. Note that the edition names the correspondence as the evidence but places it in volumes this project does not hold - Vol. III, the volume on disk, begins in 1890, after the attachment ended.",
+      "context": "The editors' biographical note on Mary Robinson in the standard scholarly edition of Lee's correspondence. It states the relationship's character, its exact beginning and its length without hedging, and cites the letters themselves in Vols. I and II. The elision drops the account of Robinson's proposal to James Darmesteter in 1887 and the two families' objections. III, the volume on disk, begins in 1890, after the attachment ended.",
       "work": "geoffroy-gagel-vernon-lee-letters-vol3",
       "locator": "PDF pp. 119-120",
       "locator_type": "page",
@@ -60,7 +59,7 @@
       "supports": "The standard edition stating the relationship as romantic, dating its start exactly, giving its length, and recording Lee's depression after the marriage.",
       "verification": "verified-elision",
       "how_verified": "pdf-text",
-      "provenance": "PDF p. 119-120 read as a rendered page image. **This volume carries no printed folios** - it is an ebook conversion - so the locator is PDF page, per the works.json rule; the letter is additionally identifiable by its date and correspondents. Superscript footnote markers omitted as typography.",
+      "provenance": "Superscript footnote markers omitted as typography.",
       "verified_on": "2026-08-04",
       "speaker": "Sophie Geoffroy and Amanda Gagel, eds.",
       "voice": "modern"
@@ -79,7 +78,7 @@
       "supports": "Robinson's own voice on the relationship and on its aftermath - the surviving affection, and the mutual retrieval of the love letters that documented it.",
       "verification": "verified-elision",
       "how_verified": "pdf-text",
-      "provenance": "PDF p. 490-491 read as a rendered page image. **This volume carries no printed folios** - it is an ebook conversion - so the locator is PDF page, per the works.json rule; the letter is additionally identifiable by its date and correspondents. Superscript footnote markers omitted as typography.",
+      "provenance": "Superscript footnote markers omitted as typography.",
       "verified_on": "2026-08-04",
       "speaker": "Mary Robinson (Mme Darmesteter), letter to Vernon Lee",
       "addressee": "Vernon Lee",
