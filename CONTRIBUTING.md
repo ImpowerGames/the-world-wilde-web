@@ -1,15 +1,15 @@
 # Contributing
 
-This is a map of documented queer relationships during the late-nineteenth- and early-twentieth-century. If you know a corner of it we have not covered, please add it. You can contribute sources and corrections by [opening a ticket here]({{repo}}/issues/new/choose).
+This is a map of documented queer relationships during the late-nineteenth- and early-twentieth-century. If you know a corner of it we have not covered, please add it. You can contribute new information, quotes, sources, images, or anything else you feel would be useful for the map by [opening a ticket here]({{repo}}/issues/new/choose).
 
-We welcome corrections most of all, including to things already marked verified. If a locator is wrong, a transcription drifts, or a classification overstates its evidence, [open an issue]({{repo}}/issues/new/choose) or [submit a pull request]({{repo}}/blob/HEAD/CONTRIBUTING-CODE.md) and say what you checked. Null findings are worth recording too. You are also welcome to contribute new information, quotes, sources, images, or anything else you feel would be useful for the map.
+We especially welcome corrections. If a citation is wrong, a transcription drifts, or a classification overstates its evidence, [open an issue]({{repo}}/issues/new/choose) or [submit a pull request]({{repo}}/blob/HEAD/CONTRIBUTING-CODE.md).
 
-Make sure your claims are appropriately evidenced. We will often reject:
+Make sure your claims are appropriately evidenced. We will reject:
 
 - A claim with no citation behind it.
-- A quotation marked verified that was read in a search index rather than on the page itself.
-- Reading absence of evidence as evidence of absence, in either direction.
-- Inferring an age, date, or relationship the source does not state.
+- A quotation that was only remembered or read in a search index rather than verified directly on the page.
+- A claim that reads absence of evidence as evidence itself, in either direction.
+- A claim that infers an age, date, or relationship that the source does not state.
 
 ---
 
@@ -38,7 +38,7 @@ You do not need to argue for a particular classification. Just say what the sour
 
 **For short letters, quote the whole letter**.
 
-**For long letters, quote the whole letter and elide only what does not characterize the relationship**. This is the reverse of what may be your initial instinct, which is to lift only the sentence that proves the point. Do not do that. Start from the whole letter and cut anything irrelevant that says nothing about the two people, or does not provide useful context for the conversation. Mark each cut with an ellipsis.
+**For long letters, quote the whole letter and elide only what does not characterize the relationship**. This is the reverse of what may be your initial inclination, which is to lift only the sentence that proves the point. Do not do that. Start from the whole letter and cut anything irrelevant which says nothing about the two people, or does not provide useful context for the conversation. Mark each cut with an ellipsis.
 
 **Friendship counts.** A quotation does not have to reach romance to be worth recording, and a person does not have to carry a connection line to belong on the map. Warmth between individuals in this period is part of what the record shows and part of what the map is for; George Alexander and
 Graham Hill are here as nodes with no line, holding letters that are simply fond. Record the friendship, let the certainty class stay empty, and let a reader see the affection and make judgements for themselves.
