@@ -11,14 +11,10 @@ Make sure your claims are appropriately evidenced. We will not accept:
 - A claim that reads absence of evidence as evidence itself, in either direction.
 - A claim that infers an age or date that the source does not state.
 
----
-
 ## Two ways to contribute
 
 - **[Open a ticket]({{repo}}/issues)**. Tell us what you know and we'll update the site accordingly. This is the right path if you have found an error, know of a source we have not read, or know of a person or a connection that belongs on the map.
 - **[Submit a pull request]({{repo}}/blob/HEAD/CONTRIBUTING-CODE.md)**. If you are comfortable editing json data directly or wish to contribute something to the code of the site itself, you are welcome to submit a pull request.
-
----
 
 ## What to put in a ticket
 
@@ -31,8 +27,6 @@ The forms ask for these, but in short — a ticket we can act on says:
 If you do not have all of that, open the ticket anyway. A pointer to where the evidence may be is better than nothing.
 
 You do not need to argue for a particular classification. Just say what the source says and where you found it, and we will do our best to classify the connection accordingly.
-
----
 
 ## Quotes & Sources
 
