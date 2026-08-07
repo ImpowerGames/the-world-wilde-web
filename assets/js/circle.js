@@ -2402,6 +2402,12 @@ async function loadCircle() {
   $("#btnAbout").addEventListener("click", () => {
     location.hash = location.hash === "#/about" ? "" : "#/about";
   });
+  // The legend folds away on small screens (see the media query in circle.css). It stays in the
+  // DOM either way, so the filter chips inside it keep working whether or not it is on screen.
+  $("#btnLegend").addEventListener("click", () => {
+    const open = $("#legend").classList.toggle("open");
+    $("#btnLegend").setAttribute("aria-expanded", String(open));
+  });
   $("#btnContrib").addEventListener("click", () => {
     location.hash = location.hash === "#/contributing" ? "" : "#/contributing";
   });

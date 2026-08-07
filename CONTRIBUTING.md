@@ -1,6 +1,6 @@
 # Contributing
 
-This is a map of documented queer relationships during the late-nineteenth- and early-twentieth-century. If you know a corner of it we have not covered, please add it. You can contribute new information, quotes, sources, images, or anything else you feel would be useful for the map by [opening a ticket here]({{repo}}/issues).
+This is a map of documented queer relationships during the late-nineteenth- and early-twentieth-century. If you know a corner of it we have not covered, please add it. You can contribute new information, quotes, sources, images, or anything else that might be useful for the map by [opening a ticket here]({{repo}}/issues).
 
 We especially welcome corrections. If a citation is wrong, a transcription drifts, or a classification overstates its evidence, [open an issue]({{repo}}/issues) or [submit a pull request]({{repo}}/blob/HEAD/CONTRIBUTING-CODE.md).
 
