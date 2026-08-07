@@ -6,7 +6,7 @@
 GitHub Pages serves assets with `Cache-Control: max-age=600`, so for ten minutes after a deploy a
 returning reader can be handed yesterday's stylesheet against today's markup - which looks like a
 broken site, not a stale one. A URL that changes when the bytes change ends that: the browser has
-no cached copy of `circle.css?v=9f2a1c04` until this build exists, so it must fetch it, and when
+no cached copy of `web.css?v=9f2a1c04` until this build exists, so it must fetch it, and when
 nothing changed the URL is identical and the cached copy is still used.
 
 Run against the STAGED copy, never the working tree. index.html in the repository stays clean, so
@@ -18,7 +18,7 @@ import sys
 from pathlib import Path
 
 sys.stdout.reconfigure(encoding="utf-8")
-# href="assets/css/circle.css" / src="assets/js/circle.js", with or without a stamp already on it.
+# href="assets/css/web.css" / src="assets/js/web.js", with or without a stamp already on it.
 REF = re.compile(r'((?:href|src)=")((?:assets|content)/[^"?]+\.(?:css|js))(?:\?v=[0-9a-f]+)?(")')
 
 

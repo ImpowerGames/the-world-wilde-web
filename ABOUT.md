@@ -1,10 +1,6 @@
 # About
 
-_A working historical reference._
-
-## What this is
-
-A map of documented romantic and sexual relationships in Oscar Wilde's social circle. Every relationship carries quoted, cited sources. Click a person for a biography and a birth-to-death timeline of their engagements; click a connection for the evidence itself.
+_This is a map of documented queer relationships during Oscar Wilde's time. Every relationship carries quoted, cited sources. Click a person for a biography and a birth-to-death timeline of their engagements; click a connection to view sources specifically concerning the two connected individuals._
 
 ## Reading the map
 

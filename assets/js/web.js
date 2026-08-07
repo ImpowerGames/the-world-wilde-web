@@ -1,10 +1,10 @@
 "use strict";
 
-async function loadCircle() {
-  const r = await fetch("data/circle.json", { cache: "no-cache" });
+async function loadWeb() {
+  const r = await fetch("data/web.json", { cache: "no-cache" });
   if (!r.ok)
     throw new Error(
-      "could not load data/circle.json (" +
+      "could not load data/web.json (" +
         r.status +
         "). " +
         "If you opened this file directly, serve it instead: python tools/serve.py",
@@ -12,9 +12,9 @@ async function loadCircle() {
   return r.json();
 }
 (async function boot() {
-  let CIRCLE;
+  let WEB;
   try {
-    CIRCLE = await loadCircle();
+    WEB = await loadWeb();
   } catch (err) {
     document.querySelector("#emptymsg").hidden = false;
     document.querySelector("#emptymsg").textContent = err.message;
@@ -143,8 +143,8 @@ async function loadCircle() {
     beyond: "Beyond Europe",
   };
 
-  const P = new Map(CIRCLE.people.map((p) => [p.id, p]));
-  const RELS = CIRCLE.relationships.filter((r) =>
+  const P = new Map(WEB.people.map((p) => [p.id, p]));
+  const RELS = WEB.relationships.filter((r) =>
     r.people.every((id) => P.has(id)),
   );
   const byPerson = new Map();
@@ -164,7 +164,7 @@ async function loadCircle() {
     // long double-barrelled surnames overrun their neighbours; keep the first element
     if (sur.length > 13 && sur.includes("-")) sur = sur.split("-")[0];
     if (sur.length > 15) sur = sur.slice(0, 14) + "…";
-    const clash = CIRCLE.people.some(
+    const clash = WEB.people.some(
       (o) =>
         o.id !== p.id && (o.sort_name || o.name).split(",")[0].trim() === sur,
     );
@@ -250,7 +250,7 @@ async function loadCircle() {
   }
   const rand = mulberry32(0x57196f);
 
-  const nodes = CIRCLE.people.map((p) => ({
+  const nodes = WEB.people.map((p) => ({
     id: p.id,
     p,
     r: 16 + 3 * Math.sqrt(degree(p.id)),
@@ -676,7 +676,7 @@ async function loadCircle() {
     tip.style.top = Math.min(y, wrap.height - tip.offsetHeight - 8) + "px";
   }
 
-  const PORTRAITS = CIRCLE.portraits || {};
+  const PORTRAITS = WEB.portraits || {};
   const defs = $("#web defs") || mk("defs", {}, $("#web")); // reuse the one in the markup
   for (const n of nodes) {
     const g = mk(
@@ -1065,7 +1065,7 @@ async function loadCircle() {
   );
 
   const legend = $("#legend");
-  const groupsInData = [...new Set(CIRCLE.people.map((p) => p.group))];
+  const groupsInData = [...new Set(WEB.people.map((p) => p.group))];
   const groupOrder = [
     "core",
     "aesthete",
@@ -1080,7 +1080,7 @@ async function loadCircle() {
 
   const SAMPLES = {
     "self-reported":
-      // 2.1, tracking the map - see the note on .cert-self-reported in circle.css
+      // 2.1, tracking the map - see the note on .cert-self-reported in web.css
       '<line x1="1" y1="5" x2="33" y2="5" stroke="var(--edge)" stroke-width="2.1"/>',
     "second-hand":
       '<line x1="1" y1="5" x2="33" y2="5" stroke="var(--edge)" stroke-width="1.9" stroke-dasharray="7 5"/>',
@@ -1104,7 +1104,7 @@ async function loadCircle() {
     "attraction-expressed",
   ].filter((c) => RELS.some((r) => r.certainty === c));
   const ISOLATED = new Set(
-    CIRCLE.people
+    WEB.people
       .map((p) => p.id)
       .filter((id) => !(byPerson.get(id) || []).length),
   );
@@ -1265,7 +1265,7 @@ async function loadCircle() {
     const push = (m, id, s) => {
       if (s) m.set(id, (m.get(id) || "") + " " + String(s).toLowerCase());
     };
-    for (const p of CIRCLE.people) {
+    for (const p of WEB.people) {
       push(
         NAME_TEXT,
         p.id,
@@ -1325,8 +1325,8 @@ async function loadCircle() {
   }
   const SCOPE_PLACEHOLDER = {
     names: "Search a name…",
-    quotes: "Search quotations…",
-    all: "Search names, quotations, and notes…",
+    quotes: "Search quotes",
+    all: "Search names, quotes, and info…",
   };
   function hitKind(p) {
     // "name" | "quote" | "note" | null
@@ -1362,7 +1362,7 @@ async function loadCircle() {
     }
 
     const by = { name: 0, quote: 0, note: 0 };
-    for (const p of CIRCLE.people) {
+    for (const p of WEB.people) {
       const k = hitKind(p);
       if (k) by[k]++;
     }
@@ -1461,8 +1461,8 @@ async function loadCircle() {
       updateSearchNote();
     }
     if (ev.key === "Enter" && searchTerm) {
-      const named = CIRCLE.people.filter((p) => hitKind(p) === "name");
-      const any = CIRCLE.people.filter((p) => hitKind(p) !== null);
+      const named = WEB.people.filter((p) => hitKind(p) === "name");
+      const any = WEB.people.filter((p) => hitKind(p) !== null);
       const pick =
         named.length === 1 ? named[0] : any.length === 1 ? any[0] : null;
       if (pick) location.hash = `#/p/${pick.id}`;
@@ -1500,7 +1500,7 @@ async function loadCircle() {
       return `<svg class="mini" width="24" height="8" aria-hidden="true"><line x1="1" y1="4" x2="17" y2="4" stroke="var(--edge)" stroke-width="1.6" stroke-dasharray="2 3 5 3"/><path d="M17,1 L22,4 L17,7 z" fill="var(--edge)"/></svg>`;
     return `<svg class="mini" width="24" height="8" aria-hidden="true"><line x1="1" y1="4" x2="23" y2="4" stroke="var(--edge)" ${
       c === "self-reported"
-        ? 'stroke-width="2.1"' // tracks the map; see the note in circle.css
+        ? 'stroke-width="2.1"' // tracks the map; see the note in web.css
         : c === "second-hand"
           ? 'stroke-width="1.6" stroke-dasharray="6 4"'
           : c === "uncorroborated"
@@ -1542,7 +1542,7 @@ async function loadCircle() {
         .replace(/[^a-z0-9]+/g, " ")
         .trim();
     const m = new Map();
-    for (const p of CIRCLE.people) {
+    for (const p of WEB.people) {
       const keys = [p.name, p.sort_name, ...(p.aka || [])];
       if (p.sort_name && p.sort_name.includes(",")) {
         // "Doyle, Peter" -> "Peter Doyle"
@@ -1706,7 +1706,7 @@ async function loadCircle() {
     const [vLabel, vClass] =
       VER_META[q.verification || "unverified"] || VER_META.unverified;
     const siAttr = si == null ? "" : ` data-si="${si}"`; // the handle the sources filter hides the card by
-    const wk = CIRCLE.works[q.work] || null;
+    const wk = WEB.works[q.work] || null;
 
     const byline = wk
       ? q.speaker ||
@@ -1799,7 +1799,7 @@ async function loadCircle() {
   // Three haystacks per source, so the filter's scope selector can narrow the same way the
   // header search does. `all` is what the bar searched before this existed.
   function srcHay(q, withWhom) {
-    const wk = CIRCLE.works[q.work] || null;
+    const wk = WEB.works[q.work] || null;
     const join = (a) => a.filter(Boolean).join("  ").toLowerCase();
     // Every name the card's header can show, including the ones folded into `also`. One quotation
     // can reach a panel through several records - the Chameleon letter arrives via both Bloxam's
@@ -1862,7 +1862,7 @@ async function loadCircle() {
       <select id="sfscope" class="sfscope" aria-label="What to filter on">
         <option value="all" selected>All</option>
         <option value="names">Names</option>
-        <option value="quotes">Quotations</option>
+        <option value="quotes">Quotes</option>
       </select>
     </div>
     <div class="sfrow">
@@ -2069,7 +2069,7 @@ async function loadCircle() {
 
   const CE_BY_PARTNER = (() => {
     const m = new Map();
-    for (const p of CIRCLE.people)
+    for (const p of WEB.people)
       for (const ce of p.context_engagements || []) {
         if (!(ce.sources || []).length) continue;
         const other = NAME_INDEX.get(ce.partner_name || "");
@@ -2278,14 +2278,14 @@ async function loadCircle() {
 
   function mountAbout() {
     const host = $("#aboutBody");
-    if (!host || !CIRCLE.about) return;
-    host.innerHTML = CIRCLE.about.replace(/\{\{line:([a-z-]+)\}\}/g, (m, c) =>
+    if (!host || !WEB.about) return;
+    host.innerHTML = WEB.about.replace(/\{\{line:([a-z-]+)\}\}/g, (m, c) =>
       lineSample(c),
     );
   }
   function mountContrib() {
     const host = $("#contribBody");
-    if (host && CIRCLE.contributing) host.innerHTML = CIRCLE.contributing;
+    if (host && WEB.contributing) host.innerHTML = WEB.contributing;
   }
   const isDesktop = () => matchMedia("(min-width:901px)").matches;
 
@@ -2463,7 +2463,7 @@ async function loadCircle() {
   $("#btnAbout").addEventListener("click", () => {
     location.hash = location.hash === "#/about" ? "" : "#/about";
   });
-  // The legend folds away on small screens (see the media query in circle.css). It stays in the
+  // The legend folds away on small screens (see the media query in web.css). It stays in the
   // DOM either way, so the filter chips inside it keep working whether or not it is on screen.
   $("#btnLegend").addEventListener("click", () => {
     const open = $("#legend").classList.toggle("open");
@@ -2484,11 +2484,11 @@ async function loadCircle() {
   mountAbout(); // must precede the colophon fill below: it replaces the element that holds it
   mountContrib();
   $("#stamp").textContent =
-    CIRCLE.built === "unbuilt"
+    WEB.built === "unbuilt"
       ? ""
-      : `${CIRCLE.people.length} people · ${RELS.length} connections · ✓ ${vc.ok} quotes verified, ⧖ ${vc.pend} quotes pending verification · updated ${CIRCLE.built}`;
+      : `${WEB.people.length} people · ${RELS.length} connections · ✓ ${vc.ok} quotes verified, ⧖ ${vc.pend} quotes pending verification · updated ${WEB.built}`;
   $("#colophon").innerHTML =
-    `Updated <b>${esc(CIRCLE.built)}</b> · ${CIRCLE.people.length} people, ${RELS.length} relationships, ${vc.total} source records (${vc.ok} verified, ${vc.pend} pending verification, ${vc.pointers} pointers)`;
+    `Updated <b>${esc(WEB.built)}</b> · ${WEB.people.length} people, ${RELS.length} relationships, ${vc.total} source records (${vc.ok} verified, ${vc.pend} pending verification, ${vc.pointers} pointers)`;
 
   function nodeLineClearance(n, skip) {
     let m = Infinity;
@@ -2936,7 +2936,7 @@ async function loadCircle() {
     }
   }
 
-  if (!CIRCLE.people.length) $("#emptymsg").hidden = false;
+  if (!WEB.people.length) $("#emptymsg").hidden = false;
   applyVB();
 
   while (alpha > SIM.ALPHA_MIN) tick();
@@ -3108,8 +3108,8 @@ async function loadCircle() {
   applyFilters();
   route();
 
-  window.circle = {
-    CIRCLE,
+  window.web = {
+    WEB,
     nodes,
     edges,
     RELS,

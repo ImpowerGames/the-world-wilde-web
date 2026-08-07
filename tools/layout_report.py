@@ -39,7 +39,7 @@ ROOT = Path(__file__).resolve().parent.parent
 PORT = 8791
 
 MEASURE = r"""() => {
-  const {nodes, edges} = circle;
+  const {nodes, edges} = web;
   const ccw = (ax,ay,bx,by,cx,cy) => (cy-ay)*(bx-ax) > (by-ay)*(cx-ax);
   const crosses = (e,f) => {
     if (e.a===f.a || e.a===f.b || e.b===f.a || e.b===f.b) return false;

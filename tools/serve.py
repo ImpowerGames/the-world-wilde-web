@@ -6,7 +6,7 @@
     python tools/serve.py --no-open  do not pop a browser tab (for a headless browser,
                                      which attaches to the port itself)
 
-The browser will not fetch data/circle.json from a file:// page, so opening index.html by
+The browser will not fetch data/web.json from a file:// page, so opening index.html by
 double-clicking shows an empty map. Run this instead.
 
 Rebuilds the bundle first, so what you see reflects the JSON you just edited. Files are served
@@ -101,7 +101,7 @@ class Handler(http.server.SimpleHTTPRequestHandler):
 
 
 def main():
-    print("rebuilding data/circle.json …")
+    print("rebuilding data/web.json …")
     r = subprocess.run([sys.executable, str(ROOT / "tools" / "validate.py")],
                        cwd=ROOT, capture_output=True, text=True)
     sys.stdout.write(r.stdout)

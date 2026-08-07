@@ -35,7 +35,7 @@ with sync_playwright() as pw:
     pg.goto("http://localhost:8000/", wait_until="networkidle")
     pg.wait_for_timeout(2600)
 
-    state = lambda: pg.evaluate("""()=>{const ns=window.circle.nodes, es=window.circle.edges;
+    state = lambda: pg.evaluate("""()=>{const ns=window.web.nodes, es=window.web.edges;
         const lit={}; for(const n of ns) if(!n.g.classList.contains('dimmed')) lit[n.p.group]=(lit[n.p.group]||0)+1;
         return {lit, spheres:Object.keys(lit).length,
                 litMen:ns.filter(n=>n.p.gender==='m'&&!n.g.classList.contains('dimmed')).length,

@@ -51,7 +51,7 @@ jobs:
           server=$!
           trap 'kill $server 2>/dev/null' EXIT
           for i in $(seq 1 30); do
-            curl -sf http://localhost:8000/data/circle.json -o /dev/null && break
+            curl -sf http://localhost:8000/data/web.json -o /dev/null && break
             if [ "$i" = 30 ]; then echo "the server never came up on :8000"; exit 1; fi
             sleep 1
           done

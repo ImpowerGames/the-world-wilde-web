@@ -1,6 +1,6 @@
 name: Deploy to Pages
 
-# The site is built here rather than committed. data/circle.json is generated from the per-entity
+# The site is built here rather than committed. data/web.json is generated from the per-entity
 # files under data/, and committing it would put a 1.2 MB blob in the way of every pull request:
 # two contributors adding two different people would both rewrite it and conflict, which is the
 # thing one-file-per-entity exists to prevent.
@@ -49,7 +49,7 @@ jobs:
             --exclude='tools' \
             --exclude='__pycache__' \
             ./ _site/
-          test -f _site/data/circle.json
+          test -f _site/data/web.json
           test -f _site/CNAME
 
       # Pages caches assets for ten minutes, so without this a returning reader can get the

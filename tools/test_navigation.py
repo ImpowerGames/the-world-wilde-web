@@ -43,11 +43,11 @@ with sync_playwright() as pw:
     vb = lambda: [float(x) for x in pg.evaluate(
         "document.getElementById('web').getAttribute('viewBox')").split()]
     node = lambda i: pg.evaluate(
-        "i=>{const n=window.circle.nodes.find(n=>n.id===i);return [Math.round(n.x),Math.round(n.y)];}", i)
+        "i=>{const n=window.web.nodes.find(n=>n.id===i);return [Math.round(n.x),Math.round(n.y)];}", i)
     # a person sitting under the opening frame, to right-drag ON TOP OF
     target = pg.evaluate("""()=>{const v=document.getElementById('web').getAttribute('viewBox').split(' ').map(Number);
         const r=document.getElementById('web').getBoundingClientRect();
-        const n=window.circle.nodes.find(n=>n.id==='wilde');
+        const n=window.web.nodes.find(n=>n.id==='wilde');
         return {id:n.id, cx:r.left+(n.x-v[0])/v[2]*r.width, cy:r.top+(n.y-v[1])/v[3]*r.height};}""")
 
     # ---- right-drag ON a node: pans, does not move the node
@@ -63,7 +63,7 @@ with sync_playwright() as pw:
     check("right-drag on a person does NOT move them", after_n == before_n,
           f"{before_n} -> {after_n}")
     check("right-drag does not pin them",
-          not pg.evaluate("()=>window.circle.nodes.find(n=>n.id==='wilde').pinned"))
+          not pg.evaluate("()=>window.web.nodes.find(n=>n.id==='wilde').pinned"))
 
     # ---- context menu suppressed
     cm = pg.evaluate("""()=>{const e=new MouseEvent('contextmenu',{bubbles:true,cancelable:true});
@@ -152,7 +152,7 @@ with sync_playwright() as pw:
     def at(nid):
         return pg.evaluate("""id=>{const v=document.getElementById('web').getAttribute('viewBox').split(' ').map(Number);
             const r=document.getElementById('web').getBoundingClientRect();
-            const n=window.circle.nodes.find(n=>n.id===id);
+            const n=window.web.nodes.find(n=>n.id===id);
             return {cx:r.left+(n.x-v[0])/v[2]*r.width, cy:r.top+(n.y-v[1])/v[3]*r.height};}""", nid)
 
     t2, before_n, before_vb = at("wilde"), node("wilde"), vb()
@@ -179,7 +179,7 @@ with sync_playwright() as pw:
     pg.mouse.move(t2["cx"], t2["cy"]); pg.mouse.down()
     pg.wait_for_timeout(650); pg.mouse.up()
     pg.wait_for_timeout(600)
-    home = pg.evaluate("()=>{const n=window.circle.nodes.find(n=>n.id==='wilde');return [n.cx,n.cy];}")
+    home = pg.evaluate("()=>{const n=window.web.nodes.find(n=>n.id==='wilde');return [n.cx,n.cy];}")
     now = node("wilde")
     check("a hold released in place sends them home",
           abs(now[0] - home[0]) < 2 and abs(now[1] - home[1]) < 2, f"{now} vs {home}")

@@ -17,7 +17,7 @@ There is **no JavaScript toolchain and nothing to install** Python 3.8+ is the o
 |                                    |                                                         |
 | ---------------------------------- | ------------------------------------------------------- |
 | `python tools/serve.py`            | rebuild, validate, serve                                |
-| `python tools/validate.py`         | rebuild `data/circle.json`                              |
+| `python tools/validate.py`         | rebuild `data/web.json`                                 |
 | `python tools/validate.py --check` | validate only — use in CI                               |
 | `python tools/layout_report.py`    | measure the drawing                                     |
 | `python tools/test_navigation.py`  | assert the pan/zoom gestures (needs the site served)    |
@@ -61,12 +61,12 @@ ABOUT.md                   text that populates ABOUT panel
 CONTRIBUTING.md            text that populates CONTRIBUTING panel
 favicon.svg                tab icon
 index.html                 site structure
-assets/css/circle.css      site styling
-assets/js/circle.js        site behavior
+assets/css/web.css         site styling
+assets/js/web.js           site behavior
 data/people/*.json         one file per person
 data/relationships/*.json  one file per connection
 data/works.json            the bibliography, with pagination warnings per source
-data/circle.json           GENERATED bundle — do not hand-edit
+data/web.json              GENERATED bundle — do not hand-edit
 portraits/                 images + credits.json
 tools/validate.py          validator + bundler (non-zero exit on failure, so it can gate a PR)
 tools/serve.py             local dev server

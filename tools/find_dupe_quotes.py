@@ -26,7 +26,7 @@ def norm(q):
 
 
 def main():
-    C = json.loads((HERE / "data/circle.json").read_text(encoding="utf-8"))
+    C = json.loads((HERE / "data/web.json").read_text(encoding="utf-8"))
     people = {p["id"]: p for p in C["people"]}
     name_to_id = {}
     for p in C["people"]:

@@ -16,7 +16,7 @@ Download the repo and run:
 python tools/serve.py
 ```
 
-That rebuilds the data bundle, checks it, and serves the site at <http://localhost:8000>. There is no JavaScript toolchain. Python 3.8+ is all you need. Opening `index.html` by double-clicking will _not_ work — the browser refuses to fetch `data/circle.json` from a `file://` page, and you will get an empty map with an error in it.
+That rebuilds the data bundle, checks it, and serves the site at <http://localhost:8000>. There is no JavaScript toolchain. Python 3.8+ is all you need. Opening `index.html` by double-clicking will _not_ work — the browser refuses to fetch `data/web.json` from a `file://` page, and you will get an empty map with an error in it.
 
 To check your edits without starting a server:
 

@@ -9,7 +9,7 @@
       content="A sourced map of romantic and sexual relationships in Oscar Wilde's circle, 1870s-1940s. Every claim carries a quotation and a citation."
     />
     <link rel="icon" href="favicon.svg" type="image/svg+xml" />
-    <link rel="stylesheet" href="assets/css/circle.css" />
+    <link rel="stylesheet" href="assets/css/web.css" />
   </head>
   <body>
     <header>
@@ -29,20 +29,20 @@
         <input
           id="search"
           type="search"
-          placeholder="Search names, quotations, and notes&hellip;"
+          placeholder="Search names, quotes, and info&hellip;"
           aria-label="Search"
           aria-describedby="searchnote"
         />
         <select id="searchscope" aria-label="What to search">
           <option
             value="all"
-            title="Names, quotations, and the project's own notes — certainty reasoning, provenance, biographies"
+            title="Names, quotes, and the project's own notes — certainty reasoning, provenance, biographies"
             selected
           >
             All
           </option>
           <option value="names">Names</option>
-          <option value="quotes">Quotations</option>
+          <option value="quotes">Quotes</option>
         </select>
         <div id="searchnote" role="status" aria-live="polite"></div>
       </div>
@@ -129,7 +129,7 @@
         <div id="tip" role="status"></div>
         <div id="emptymsg" hidden>
           No data injected yet &mdash; run
-          <code>&nbsp;python build_circle_web.py</code>
+          <code>&nbsp;python build_web.py</code>
         </div>
       </div>
       <aside id="panel" aria-label="Details panel"></aside>
@@ -139,7 +139,7 @@
       <div class="abox">
         <button class="pclose" id="aboutClose">Close</button>
         <!-- The About text is written in ABOUT.md and compiled into the data bundle by
-         tools/validate.py; circle.js mounts it here. Edit the markdown, not this file. -->
+         tools/validate.py; web.js mounts it here. Edit the markdown, not this file. -->
         <div id="aboutBody"></div>
       </div>
     </div>
@@ -148,6 +148,6 @@
      reads on the repo and the page a reader sees here can never drift apart. -->
     <div id="contribBody" hidden></div>
 
-    <script src="assets/js/circle.js"></script>
+    <script src="assets/js/web.js"></script>
   </body>
 </html>

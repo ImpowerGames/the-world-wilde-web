@@ -41,7 +41,7 @@ def cited_pages():
     """Pages named in a provenance string somewhere in data/, with the nodes that cite them."""
     out = {}
     for f in HERE.rglob("data/**/*.json"):
-        if f.name == "circle.json":
+        if f.name == "web.json":
             continue
         blob = f.read_text(encoding="utf-8")
         for m in re.finditer(r"\bPDF pages?\s+(\d+)(?:\s*[-–]\s*(\d+))?", blob):
