@@ -32,9 +32,7 @@ Every classification is checked by hand against the sources before it is relied 
 
 Every quote carries a chip saying how far it has been checked. **⧖** means **not yet confirmed on the printed page** — either a passage found in a text search or index but not yet checked against the source page, or a **source pointer**: a claim recorded with nothing transcribed yet, naming only where to look.
 
-These chips describe the _research_ pass. They are not a final scholarly verdict. A separate audit runs by hand through a ledger kept beside the data, where each quotation is checked against the page it came from to characterize the connection.
-
-Not all connections are currently accurate. They may shift as more information is uncovered. And characterization will always remain somewhat inconclusive, as the classification of relationships is an inherently subjective endeavour. The goal of the project is to provide sources depicting warmth and affection in an easily searchable way, not to definitively prove things one way or another. The reader is welcome draw their own conclusions and contribute their own sources by [opening a ticket]({{repo}}/issues).
+These chips describe the _research_ pass. They are not a final scholarly verdict. Not all connections are currently accurate. They may shift as more information is uncovered. And characterization will always remain somewhat inconclusive, as the classification of relationships is an inherently subjective endeavour. The goal of the project is to provide sources depicting warmth and affection in an easily searchable way, not to definitively prove things one way or another. The reader is welcome draw their own conclusions and contribute their own sources by [opening a ticket]({{repo}}/issues).
 
 ## A note on the trial record
 
