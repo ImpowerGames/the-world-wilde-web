@@ -34,7 +34,7 @@ Every quote carries a chip saying how far it has been checked. **⧖** means **n
 
 These chips describe the _research_ pass, not a final scholarly verdict. A separate audit runs by hand through a ledger kept beside the data, where each quotation is checked against the page it came from to characterize the connection.
 
-Not all connections are currently accurate. They may shift as more information is uncovered. And characterization will always remain somewhat inconclusive, as the classification of relationships is an inherently subjective endeavour. The goal of the project is to provide sources depicting warmth and affection in an easily searchable way, not to definitively prove things one way or another. The reader is welcome draw their own conclusions and contribute their own sources by [opening a ticket]({{repo}}/issues/new/choose).
+Not all connections are currently accurate. They may shift as more information is uncovered. And characterization will always remain somewhat inconclusive, as the classification of relationships is an inherently subjective endeavour. The goal of the project is to provide sources depicting warmth and affection in an easily searchable way, not to definitively prove things one way or another. The reader is welcome draw their own conclusions and contribute their own sources by [opening a ticket]({{repo}}/issues).
 
 ## A note on the trial record
 

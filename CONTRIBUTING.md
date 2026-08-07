@@ -1,8 +1,8 @@
 # Contributing
 
-This is a map of documented queer relationships during the late-nineteenth- and early-twentieth-century. If you know a corner of it we have not covered, please add it. You can contribute new information, quotes, sources, images, or anything else you feel would be useful for the map by [opening a ticket here]({{repo}}/issues/new/choose).
+This is a map of documented queer relationships during the late-nineteenth- and early-twentieth-century. If you know a corner of it we have not covered, please add it. You can contribute new information, quotes, sources, images, or anything else you feel would be useful for the map by [opening a ticket here]({{repo}}/issues).
 
-We especially welcome corrections. If a citation is wrong, a transcription drifts, or a classification overstates its evidence, [open an issue]({{repo}}/issues/new/choose) or [submit a pull request]({{repo}}/blob/HEAD/CONTRIBUTING-CODE.md).
+We especially welcome corrections. If a citation is wrong, a transcription drifts, or a classification overstates its evidence, [open an issue]({{repo}}/issues) or [submit a pull request]({{repo}}/blob/HEAD/CONTRIBUTING-CODE.md).
 
 Make sure your claims are appropriately evidenced. We will not accept:
 
@@ -15,7 +15,7 @@ Make sure your claims are appropriately evidenced. We will not accept:
 
 ## Two ways to contribute
 
-- **[Open a ticket]({{repo}}/issues/new/choose)**. Tell us what you know and we'll update the site accordingly. This is the right path if you have found an error, know of a source we have not read, or know of a person or a connection that belongs on the map.
+- **[Open a ticket]({{repo}}/issues)**. Tell us what you know and we'll update the site accordingly. This is the right path if you have found an error, know of a source we have not read, or know of a person or a connection that belongs on the map.
 - **[Submit a pull request]({{repo}}/blob/HEAD/CONTRIBUTING-CODE.md)**. If you are comfortable editing json data directly or wish to contribute something to the code of the site itself, you are welcome to submit a pull request.
 
 ---
