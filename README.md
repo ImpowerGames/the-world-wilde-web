@@ -91,7 +91,7 @@ Re-measure with `python tools/layout_report.py` after adding anyone — it print
   from +51 to +46. Compute a folio and you will cite the wrong page. Read it off the rendered page.
 - **A text layer is for finding; the page is for verifying.** Automated OCR mirrors and search indexes locate a passage. Nothing is marked verified until someone has looked at the page it sits on.
 - **Editions differ.** Locators inherited from another scholar's citation frequently will not match the printing you hold. Re-anchor before citing them.
-- **Undated sources can specify an order hint.** Sources display in date order. Undated sources carry `order_hint` instead — it sorts like a date, states what the placement rests on, and says on the card that it is a placement. The validator refuses both fields at once, and refuses an `order_hint` with no reasoning.
+- **Undated sources can specify an order hint.** Sources display in chronological order. Undated sources carry `order_hint` instead — it sorts like a date, states what the placement rests on, and says on the card that it is a placement. The validator refuses both fields at once, and refuses an `order_hint` with no reasoning.
 - **Null findings are recorded**, not discarded.
 - **A source that cannot be reached becomes a pointer.**
 

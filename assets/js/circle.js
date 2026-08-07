@@ -2126,7 +2126,7 @@ async function loadCircle() {
       })
       .join("");
     return (
-      `<div class="sect">Sources, in date order (${merged.length})</div>` +
+      `<div class="sect">Sources, in chronological order (${merged.length})</div>` +
       `<p class="sect-note">Every quotation attached to this person, in the order the evidence was
        made${(() => {
          const c = rels.length,
@@ -2231,7 +2231,7 @@ async function loadCircle() {
     ${r.summary ? `<p class="summary">${esc(r.summary)}</p>` : ""}
     ${(r.phases || []).length ? `<div class="sect">Phases</div><ul class="phases">${r.phases.map((ph) => `<li><b>${esc(fmtDate(ph.start))}${ph.end ? ` – ${esc(fmtDate(ph.end))}` : ""}</b>${ph.note ? ` — ${esc(ph.note)}` : ""}</li>`).join("")}</ul>` : ""}
     ${d ? `<div class="disputed"><b>Contested.</b> ${esc(d.claim || "")}${d.asserted_by ? `<div class="dline"><span>Asserted</span>${esc(d.asserted_by)}</div>` : ""}${d.disputed_by ? `<div class="dline"><span>Against</span>${esc(d.disputed_by)}</div>` : ""}${d.grounds ? `<div class="dline"><span>Grounds</span>${esc(d.grounds)}</div>` : ""}</div>` : ""}
-    <div class="sect">Sources (${(r.sources || []).length})</div>
+    <div class="sect">Sources, in chronological order (${(r.sources || []).length})</div>
     ${sourceFilterBar((r.sources || []).length)}
     ${srcCards || `<p class="bio" style="font-style:italic;color:var(--ink3)">No sources recorded yet.</p>`}
     ${r.certainty_reasoning ? `<details class="method"><summary>Classification Reasoning</summary><div>${esc(r.certainty_reasoning)}</div></details>` : ""}

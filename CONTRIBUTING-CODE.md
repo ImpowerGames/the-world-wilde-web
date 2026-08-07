@@ -147,7 +147,7 @@ An `uncorroborated` connection must carry `disputed` with `claim`, `asserted_by`
 
 When the thing happened across a **span**, give the date a `to` rather than writing the range into a `label`: `{"y": 1897, "m": 1, "to": {"y": 1897, "m": 3}}` displays as _January–March 1897_, and every range on the map is then spelled the same way. `label` is for what a date object cannot say at all; the validator refuses a date carrying both.
 
-Sources display in date order. If a source is undated, use **`order_hint`** instead:
+Sources display in chronological order. If a source is undated, use **`order_hint`** instead:
 
 ```json
 "evidence_date": null,
