@@ -646,7 +646,6 @@ main {
 .bio {
   font-size: 14.5px;
   line-height: 1.62;
-  margin-bottom: 16px;
   max-width: 62ch;
 }
 .bionote {
@@ -702,7 +701,7 @@ main {
 /* timeline */
 .tl {
   list-style: none;
-  margin: 0;
+  margin: 16px 0;
   padding: 0 0 0 3px;
 }
 .tl li {
@@ -1762,4 +1761,62 @@ mark.sfhit {
   .searchwrap {
     flex: 1 1 100%;
   }
+}
+
+/* Connection header: two cells, names and date.
+   The names cell wraps; the date holds one line at the right. align-items is flex-start rather
+   than center so a two-line list of names does not drag the date down to sit between them. */
+.qwith {
+  align-items: flex-start;
+  flex-wrap: nowrap;
+}
+.qwith .qnames {
+  flex: 1 1 auto;
+  min-width: 0;
+  line-height: 1.6;
+}
+.qwith .qdate {
+  flex: 0 0 auto;
+  margin-left: auto;
+}
+
+/* A name and its line-sample are one unit and never break apart across a wrap. */
+.qwith .qpair {
+  display: inline-block;
+  white-space: nowrap;
+}
+
+/* Scope selector on the sources filter. Mirrors the header search's Names/Quotations/All so the
+   two searches behave the same way, and shares the header select's chevron so they read as one
+   control family. */
+.sfqwrap {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+.sfqwrap .sfq {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+.sfscope {
+  -webkit-appearance: none;
+  appearance: none;
+  flex: 0 0 auto;
+  font-family: var(--sans);
+  font-size: 10.5px;
+  letter-spacing: 0.03em;
+  color: var(--ink2);
+  background-color: var(--paper2);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 10 6'%3E%3Cpath d='M1 1l4 4 4-4' fill='none' stroke='%23b5ac9b' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 9px center;
+  background-size: 8px 5px;
+  border: 1px solid var(--rule2);
+  border-radius: 999px;
+  padding: 5px 24px 5px 10px;
+  cursor: pointer;
+}
+.sfscope:hover {
+  border-color: var(--accent);
+  color: var(--ink);
 }

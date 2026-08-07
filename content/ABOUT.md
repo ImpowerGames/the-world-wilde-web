@@ -4,11 +4,11 @@ _A working historical reference._
 
 ## What this is
 
-A map of the documented romantic and sexual relationships in Oscar Wilde's social circle. Every relationship carries quoted, cited sources; nothing rests on received anecdote. Click a person for a biography and a birth-to-death timeline of their engagements; click a connection for the evidence itself.
+A map of documented romantic and sexual relationships in Oscar Wilde's social circle. Every relationship carries quoted, cited sources. Click a person for a biography and a birth-to-death timeline of their engagements; click a connection for the evidence itself.
 
 ## Reading the map
 
-Node **color ** groups people by sphere (Wilde, aesthetes, the 1895 trials, society, spouse, the Order of Chaeronea, the later circle, outside the circle, beyond Europe). Node **shape** marks the subject's legally recognized gender in the genogram convention — **squares for men, circles for women**. Line **style** carries the certainty of each connection, below.
+Node **color** groups people by sphere (Wilde, aesthetes, the 1895 trials, society, spouse, the Order of Chaeronea, the later circle, outside the circle, beyond Europe). Node **shape** marks the subject's legally recognized gender in the genogram convention — **squares for men, circles for women**. Line **style** carries the certainty of each connection, below.
 
 **Outside the circle** collects those who were never part of the propertied social world the rest of this map describes — a fisherman at Napoule, a waiter at the Café d'Égypte, a soldier in Reading Gaol, a servant who waited at table in a Paris boarding house. Most survive only under a first name, a nickname, or no name at all. They are here because the record of a life should not depend on its subject's status or class.
 
@@ -32,7 +32,7 @@ Every classification is checked by hand against the sources before it is relied 
 
 Every quote carries a chip saying how far it has been checked. **⧖** means **not yet confirmed on the printed page** — either a passage found in a text search or index but not yet checked against the source page, or a **source pointer**: a claim recorded with nothing transcribed yet, naming only where to look.
 
-These chips describe the _research_ pass, not a final scholarly verdict. A separate audit runs by hand through a ledger kept beside the data, where each quotation is checked against the page it came from to characterize the connection.
+These chips describe the _research_ pass. They are not a final scholarly verdict. A separate audit runs by hand through a ledger kept beside the data, where each quotation is checked against the page it came from to characterize the connection.
 
 Not all connections are currently accurate. They may shift as more information is uncovered. And characterization will always remain somewhat inconclusive, as the classification of relationships is an inherently subjective endeavour. The goal of the project is to provide sources depicting warmth and affection in an easily searchable way, not to definitively prove things one way or another. The reader is welcome draw their own conclusions and contribute their own sources by [opening a ticket]({{repo}}/issues).
 

@@ -1667,20 +1667,36 @@ async function loadCircle() {
   function withBar(withWhom, when) {
     if (!withWhom && !when) return "";
 
+    // Each name and its line-sample travel as one unit: the pair is what identifies the
+    // connection, and a wrap that leaves the chip stranded on the next line reads as though it
+    // belongs to whoever follows.
     const one = (w) =>
       w && w.r
-        ? `<a href="#/r/${esc(w.r.id)}">${esc(w.other.name)}</a>${miniBadge(w.r.certainty)}`
+        ? `<span class="qpair"><a href="#/r/${esc(w.r.id)}">${esc(w.other.name)}</a>${miniBadge(w.r.certainty)}</span>`
         : w && w.label
-          ? `${w.labelId ? `<a href="#/p/${esc(w.labelId)}">${esc(w.label)}</a>` : esc(w.label)}<span class="noedge">no connection</span>`
+          ? `<span class="qpair">${w.labelId ? `<a href="#/p/${esc(w.labelId)}">${esc(w.label)}</a>` : esc(w.label)}<span class="noedge">no connection</span></span>`
           : "";
 
-    const parts = [one(withWhom)]
-      .concat(((withWhom && withWhom.also) || []).map(one))
+    // Dedupe by WHO, not by rendered html. One quotation can reach this card through two records
+    // naming the same person - a stray duplicate engagement, say - and without this the header
+    // reads "with George Alexander and George Alexander".
+    const seen = new Set();
+    const parts = [withWhom]
+      .concat((withWhom && withWhom.also) || [])
+      .filter((w) => {
+        const key = w && (w.r ? `r:${w.r.id}` : w.label ? `l:${w.labelId || w.label}` : "");
+        if (!key || seen.has(key)) return false;
+        seen.add(key);
+        return true;
+      })
+      .map(one)
       .filter(Boolean);
     const who = parts.length
       ? `with ${parts.join(' <span class="qand">and</span> ')}`
       : "";
-    return `<div class="qwith">${who}${when ? `<span class="qdate">${esc(when)}</span>` : ""}</div>`;
+    // Names and date are separate cells: the names column wraps, the date stays on one line at
+    // the right rather than being carried down by a long list of names.
+    return `<div class="qwith">${who ? `<span class="qnames">${who}</span>` : ""}${when ? `<span class="qdate">${esc(when)}</span>` : ""}</div>`;
   }
   function quoteCard(q, withWhom, si) {
     const [vLabel, vClass] =
@@ -1776,8 +1792,36 @@ async function loadCircle() {
     return d ? d.y : null;
   }
 
+  // Three haystacks per source, so the filter's scope selector can narrow the same way the
+  // header search does. `all` is what the bar searched before this existed.
   function srcHay(q, withWhom) {
     const wk = CIRCLE.works[q.work] || null;
+    const join = (a) => a.filter(Boolean).join("  ").toLowerCase();
+    // Every name the card's header can show, including the ones folded into `also`. One quotation
+    // can reach a panel through several records - the Chameleon letter arrives via both Bloxam's
+    // engagement and Leverson's - and they merge into a single card reading "with X and Y". Taking
+    // only the primary left whichever name lost the merge unsearchable.
+    const partner = (w) =>
+      w && ((w.other && w.other.name) || w.label || (w.r && w.r.id)) ;
+    const names = join([
+      q.speaker,
+      q.addressee,
+      wk && wk.author,
+      wk && wk.editors,
+      partner(withWhom),
+      ...(((withWhom && withWhom.also) || []).map(partner)),
+      ...(q.turns || []).map((t) => t.who),
+    ]);
+    const quotes = join([
+      q.quote,
+      q.translation,
+      q.translation_note,
+      ...(q.turns || []).map((t) => t.text),
+    ]);
+    return { names, quotes, all: srcHayAll(q, withWhom, wk) };
+  }
+
+  function srcHayAll(q, withWhom, wk) {
     return [
       q.quote,
       q.translation,
@@ -1808,8 +1852,15 @@ async function loadCircle() {
     const lo = ys.length ? Math.min(...ys) : "",
       hi = ys.length ? Math.max(...ys) : "";
     return `<div class="sfilter">
-    <input id="sfq" class="sfq" type="search" autocomplete="off" spellcheck="false"
-           placeholder="Filter sources…" aria-label="Filter sources">
+    <div class="sfqwrap">
+      <select id="sfscope" class="sfscope" aria-label="What to filter on">
+        <option value="all" selected>All</option>
+        <option value="names">Names</option>
+        <option value="quotes">Quotations</option>
+      </select>
+      <input id="sfq" class="sfq" type="search" autocomplete="off" spellcheck="false"
+             placeholder="Filter sources…" aria-label="Filter sources">
+    </div>
     <div class="sfrow">
       <label class="sfyl" for="sfy1">Years</label>
       <input id="sfy1" class="sfy" inputmode="numeric" maxlength="4" placeholder="${lo}" aria-label="From year">
@@ -1936,6 +1987,7 @@ async function loadCircle() {
   function wireSourceFilter() {
     const box = $("#sfq");
     if (!box) return;
+    const scope = $("#sfscope") || { value: "all" };
     const y1 = $("#sfy1"),
       y2 = $("#sfy2"),
       cnt = $("#sfcount"),
@@ -1953,8 +2005,9 @@ async function loadCircle() {
       let shown = 0,
         dropped = 0;
       for (const el of cards) {
-        const s = PANEL_SRC[+el.dataset.si] || { hay: "", y: null };
-        let ok = !term || s.hay.includes(term);
+        const s = PANEL_SRC[+el.dataset.si] || { hay: {}, y: null };
+        const hay = (s.hay && (s.hay[scope.value] ?? s.hay.all)) || "";
+        let ok = !term || hay.includes(term);
         if (ok && dated) {
           if (s.y == null) {
             ok = false;
@@ -1982,6 +2035,7 @@ async function loadCircle() {
       none.hidden = !(active && shown === 0);
     };
     box.addEventListener("input", apply);
+    if (scope.addEventListener) scope.addEventListener("change", apply);
     y1.addEventListener("input", apply);
     y2.addEventListener("input", apply);
     clr.addEventListener("click", () => {

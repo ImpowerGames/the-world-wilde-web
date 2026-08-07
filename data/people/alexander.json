@@ -205,32 +205,6 @@
           "voice": "period"
         }
       ]
-    },
-    {
-      "partner_name": "Oscar Wilde",
-      "period": "London, February 1891",
-      "sources": [
-        {
-          "work": "letters-2000",
-          "locator": "p. 463",
-          "locator_type": "page",
-          "quote": "My dear Aleck, I am not satisfied with myself or my work. I can't get a grip of the play yet: I can't get my people real. The fact is I worked at it when I was not in the mood for work, and must first forget it, and then go back quite fresh to it. I am very sorry, but artistic work can't be done unless one is in the mood; certainly my work can't. Sometimes I spend months over a thing, and don't do any good; at other times I write a thing in a fortnight.",
-          "context": "Wilde to George Alexander, [2 February 1891], 16 Tite Street (MS Arents). The play is Lady Windermere's Fan, which Alexander had commissioned and would produce the following year. The letter continues about The Duchess of Padua's anonymous New York production. The same folio carries the Horne and Clifton letters already on this map; this one had been logged as read-but-unentered and is now closed.",
-          "speaker": "Oscar Wilde",
-          "addressee": "George Alexander",
-          "evidence_date": {
-            "y": 1891,
-            "m": 2,
-            "d": 2
-          },
-          "supports": "Wilde admitting to his manager that he cannot work to order.",
-          "verification": "verified-exact",
-          "how_verified": "pdf-image",
-          "provenance": "PDF page 483; printed folio 463 confirmed on the rendered page image.",
-          "verified_on": "2026-08-06",
-          "voice": "period"
-        }
-      ]
     }
   ]
 }
