@@ -16,7 +16,7 @@ Node **color ** groups people by sphere (Wilde, aesthetes, the 1895 trials, soci
 
 Every switch in the legend can be clicked to turn its category off. **Right-click to solo that category** — every other switch in the same row will turn off, and the one you picked will light up. Click it again, and the row goes back to how it was. Each row is independent, so soloing a Sphere leaves Gender and Connections alone. The sphere chip above a person's name does the same thing for their sphere.
 
-## How a connection is evidenced (line styles)
+## Connections
 
 The line style records **how we know** about a connection. This reference deliberately makes **no claim about sexual acts** in either direction. Criminal law was designed precisely to keep that evidence out of the record, so treating its absence as a finding would mistake the effect of prosecution for a fact about people's lives.
 
