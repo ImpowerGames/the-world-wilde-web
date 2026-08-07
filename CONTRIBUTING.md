@@ -32,7 +32,7 @@ You do not need to argue for a particular classification. Just say what the sour
 
 ## Quotes & Sources
 
-**For letters, quote the whole letter**. If the letter is long, you may also include a shortened version that elides anything that neither characterizes the relationship nor provides useful context (marking each cut with an ellipsis). But always include the full letter in your ticket alongside your shortened version.
+**For letters, quote the whole letter**. If the letter is long, you may also include a shortened version that elides anything that neither characterizes the relationship nor provides useful context (marking each cut with an ellipsis). But always include the full letter in the ticket alongside your shortened version.
 
 **Friendship counts.** A quotation does not have to reach romance to be worth recording, and a person does not have to carry a connection line to belong on the map. Warmth between individuals in this period is part of what the record shows and part of what the map is for; George Alexander and Graham Hill are here as nodes with no line, holding letters that are simply fond. Record the friendship, let the certainty class stay empty, and let a reader see the affection and make judgments for themselves.
 
