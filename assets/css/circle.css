@@ -514,7 +514,7 @@ main {
   padding: 0 20px 40px;
 }
 :root {
-  --phead-h: 46px;
+  --phead-h: 48px;
 }
 .phead {
   position: sticky;
