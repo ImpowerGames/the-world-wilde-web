@@ -2,8 +2,12 @@
   "id": "beere",
   "born": null,
   "died": null,
-  "aka": ["Bernie"],
-  "bio_sources": ["letters-2000"],
+  "aka": [
+    "Bernie"
+  ],
+  "bio_sources": [
+    "letters-2000"
+  ],
   "context_engagements": [
     {
       "partner_name": "Oscar Wilde",
@@ -25,7 +29,7 @@
           "supports": "One of the first friends written to after prison, and the alias entrusted to her.",
           "verification": "verified-exact",
           "how_verified": "pdf-image",
-          "provenance": "Repo PDF page 925; printed folio 875 confirmed on the rendered page image.",
+          "provenance": "PDF page 925; printed folio 875 confirmed on the rendered page image.",
           "verified_on": "2026-08-06",
           "voice": "period"
         }

@@ -1,6 +1,9 @@
 {
   "id": "miles--wilde",
-  "people": ["miles", "wilde"],
+  "people": [
+    "miles",
+    "wilde"
+  ],
   "certainty": "uncorroborated",
   "certainty_status": "proposed",
   "certainty_reasoning": "That tradition has now been consulted rather than merely pointed at: McKenna asserts it outright and footnotes nothing for it (see disputed, grounds).",
@@ -37,7 +40,7 @@
       "supports": "The cohabitation, first-person: the joint move to Keats House.",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "Repo PDF p. 119 (printed p. 94, folio confirmed). The editors' n. 1 on the same page identifies the house and the renaming of the street.",
+      "provenance": "PDF p. 119 (printed p. 94, folio confirmed). The editors' n. 1 on the same page identifies the house and the renaming of the street.",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Mrs Alfred Hunt"
@@ -55,7 +58,7 @@
       "supports": "The Salisbury Street cohabitation and its end date, in the editors' words.",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "Repo PDF p. 103 (printed p. 78, folio confirmed).",
+      "provenance": "PDF p. 103 (printed p. 78, folio confirmed).",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -75,7 +78,7 @@
       "verification": "verified-elision",
       "how_verified": "pdf-image",
       "verified_on": "2026-08-04",
-      "provenance": "Repo PDF p. 55 rendered and; folio 30 printed at the foot, giving offset +25 in this part of the volume - well below the page map's lowest anchor (printed 78), so the offset here was previously unestablished. The elision drops a paragraph on Miles's drawings.",
+      "provenance": "PDF p. 55 rendered and; folio 30 printed at the foot, giving offset +25 in this part of the volume - well below the page map's lowest anchor (printed 78), so the offset here was previously unestablished. The elision drops a paragraph on Miles's drawings.",
       "addressee": "Reginald Harding"
     },
     {
@@ -92,7 +95,7 @@
       "verification": "verified-exact",
       "how_verified": "pdf-image",
       "verified_on": "2026-08-04",
-      "provenance": "Repo PDF p. 34 rendered and. No printed folio on the page, so cited as a PDF page per the convention for this work. 'nostalgia de la bone' is transcribed as printed; read 'nostalgie de la boue'."
+      "provenance": "PDF p. 34 rendered and. No printed folio on the page, so cited as a PDF page per the convention for this work. 'nostalgia de la bone' is transcribed as printed; read 'nostalgie de la boue'."
     },
     {
       "work": "croft-cooke-1972",
@@ -108,7 +111,7 @@
       "verification": "verified-exact",
       "how_verified": "pdf-image",
       "verified_on": "2026-08-04",
-      "provenance": "Repo PDF p. 56 rendered and; running head gives folio 40."
+      "provenance": "PDF p. 56 rendered and; running head gives folio 40."
     },
     {
       "work": "croft-cooke-1972",
@@ -125,7 +128,7 @@
       "verification": "verified-elision",
       "how_verified": "pdf-image",
       "verified_on": "2026-08-04",
-      "provenance": "Repo PDF p. 61 rendered and; running head gives folio 45."
+      "provenance": "PDF p. 61 rendered and; running head gives folio 45."
     }
   ],
   "prior_class": "alleged"

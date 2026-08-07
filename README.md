@@ -44,7 +44,7 @@ The lightest class is deliberately light. **Attraction expressed** covers everyt
 
 **Married means a legal marriage.** Alfred Taylor and Charles Mason went through a marriage in 1893, Taylor in a wedding dress as the bride, rings exchanged, a wedding breakfast for friends afterwards. Charles Parker gave it in evidence at the Old Bailey, Pierre Louÿs wrote to Gide about it in the present tense as _"a marriage — a real marriage"_, Taylor retold it himself for years, and Wilde wrote to Mason asking after his _"married life"_. It is filed as **Self-reported** instead of **Married**, because two men in England in 1893 could not contract a legal marriage. The edge carries the ceremony in full in its summary and sources either way.
 
-**Node shape marks legal gender** in the genogram convention — squares for men, circles for women, a dashed outline where the record does not say. **Colour groups people by sphere**, using a [ColorBrewer](https://colorbrewer2.org/#type=qualitative&scheme=Paired&n=9) palette
+**Node shape marks legal gender** in the genogram convention — squares for men, circles for women, a dashed outline where the record does not say. **Color groups people by sphere**, using a [ColorBrewer](https://colorbrewer2.org/#type=qualitative&scheme=Paired&n=9) palette
 
 **Verification chips.** ✓ means the passage has been checked against the source itself — nearly always by opening the page and reading it there. ⧖ means the source has not been read yet: **every ⧖ on this map is a pointer**, a note of where to look that carries no quoted text.
 

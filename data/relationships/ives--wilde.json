@@ -1,6 +1,9 @@
 {
   "id": "ives--wilde",
-  "people": ["ives", "wilde"],
+  "people": [
+    "ives",
+    "wilde"
+  ],
   "certainty": "self-reported",
   "certainty_status": "proposed",
   "certainty_reasoning": "One documented passionate kiss - Wilde kissed Ives 'passionately' goodbye at the New Travellers' Club, the word being Cook's in the source quotation from the Ives diary - inside a close, teasing friendship that ran from the early 1890s to Wilde's last months (surviving letters to Ives from Oct. 1893 to Sept. 1900, plus prison messages via Sherard). No source read asserts sexual relations; the editorial note that Ives's anonymous A Book of Chains (1897) held 'poems bearing directly on his feelings for Wilde in prison' supports a romantic charge on Ives's side.",
@@ -28,7 +31,7 @@
       "supports": "Wilde in his own hand, writing to Ives, saying plainly what the friendship was: a pleasure, and a private subject-matter shared by the two of them and nobody else. Wilde is refusing Ives's insistence on hidden meeting-places, so the sentence doubles as his statement that this bond needs no concealment - the sharpest first-hand characterization of the Ives-Wilde relationship in the record, and unmediated, unlike the diary-quoting passages below.",
       "verification": "verified-elision",
       "how_verified": "pdf-text",
-      "provenance": "Repo PDF page 1218 (printed folio 1172 confirmed on the rendered page). Three intervening sentences elided with a spaced ellipsis; both sentences are from the same letter's closing two paragraphs.",
+      "provenance": "PDF page 1218 (printed folio 1172 confirmed on the rendered page). Three intervening sentences elided with a spaced ellipsis; both sentences are from the same letter's closing two paragraphs.",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "George Ives"
@@ -43,7 +46,7 @@
       "supports": "The documented kiss: Wilde kissed Ives 'passionately' goodbye at the New Travellers' Club (undated by Cook)",
       "verification": "verified-elision",
       "how_verified": "pdf-text",
-      "provenance": "Repo PDF page 161, printed folio 145 confirmed on rendered page. Leading clause of the sentence ('London, he said in October 1891, was a \"grand place\", and') elided; full sentence transcribed in dossier.",
+      "provenance": "PDF page 161, printed folio 145 confirmed on rendered page. Leading clause of the sentence ('London, he said in October 1891, was a \"grand place\", and') elided; full sentence transcribed in long-form notes.",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -61,7 +64,7 @@
       "supports": "The bond held through prison: Ives sought to visit; Wilde 'greatly touched'",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "Repo PDF page 713, printed folio 662 confirmed on rendered page.",
+      "provenance": "PDF page 713, printed folio 662 confirmed on rendered page.",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "R. H. Sherard"
@@ -78,7 +81,7 @@
       "supports": "Ives's side of the attachment: published poems on his feelings for Wilde (editorial characterization)",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "Repo PDF page 713, printed folio 662 confirmed on rendered page.",
+      "provenance": "PDF page 713, printed folio 662 confirmed on rendered page.",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -96,7 +99,7 @@
       "supports": "Late-friendship intimacy and friction; the 'silly mania for secrecy' line is from this letter",
       "verification": "verified-elision",
       "how_verified": "pdf-text",
-      "provenance": "Repo PDF page 1218, printed folio 1172 confirmed on rendered page. Intervening paragraphs elided with spaced ellipsis; fuller text in dossier.",
+      "provenance": "PDF page 1218, printed folio 1172 confirmed on rendered page. Intervening paragraphs elided with spaced ellipsis; fuller text in long-form notes.",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "George Ives"
@@ -115,7 +118,7 @@
       "supports": "Wilde's own naming of what he and Ives held in common: the campaign against the law that criminalized them. The first-person plural is the point - 'we shall win' puts Wilde inside Ives's cause, and the specific target he names is Ives's own, the repeal of the Criminal Law Amendment Act 1885. This is the passage most often cited as evidence that the friendship was political as well as personal, and it was missing from this record.",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "Repo PDF page 1090 (printed folio 1044 confirmed on the rendered page).",
+      "provenance": "PDF page 1090 (printed folio 1044 confirmed on the rendered page).",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "George Ives"

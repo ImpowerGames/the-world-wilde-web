@@ -1,0 +1,40 @@
+name: Something wrong with the site
+description: The map will not load, a panel is broken, a control doesn't work, something is unreadable or unreachable
+labels: [site]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you did, what you expected, what you got instead.
+    validations:
+      required: true
+
+  - type: input
+    id: where
+    attributes:
+      label: Where
+      description: The address, including the part after the \# if there is one.
+      placeholder: theworldwildeweb.com/#/p/ross
+
+  - type: input
+    id: browser
+    attributes:
+      label: Browser and device
+      placeholder: Safari on an iPhone / Firefox on Windows
+
+  - type: textarea
+    id: shot
+    attributes:
+      label: A screenshot, if it is something you can see
+      description: Drag the image into this box.
+
+  - type: checkboxes
+    id: access
+    attributes:
+      label: Is this an accessibility problem?
+      description: >
+        Tick if it affects a screen reader, keyboard navigation, contrast, or text size. These are
+        treated as bugs, not as enhancements.
+      options:
+        - label: Yes, this affects how the site can be used

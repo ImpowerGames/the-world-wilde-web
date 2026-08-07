@@ -1621,3 +1621,94 @@ mark.sfhit {
   padding: 1px 5px;
   white-space: nowrap;
 }
+
+/* Contributing panel
+   Scoped to .doc so the code, table and rule styles reach only the compiled CONTRIBUTING.md and
+   cannot leak into a person panel, where <code> and <table> mean something else. Every wide
+   construct scrolls inside its own box: the panel itself must never scroll sideways. */
+/* Subordinate to .sect, which is what `##` becomes. Uppercase at a larger size read as the
+   senior of the two, which is backwards, so this stays sentence-case and takes its weight from
+   the serif instead. */
+#panel.doc h3 {
+  font-family: var(--serif);
+  font-size: 15px;
+  font-weight: 600;
+  font-style: italic;
+  color: var(--ink);
+  margin: 20px 0 6px;
+}
+#panel.doc hr {
+  border: 0;
+  border-top: 1px solid var(--rule);
+  margin: 22px 0;
+}
+#panel.doc pre {
+  overflow-x: auto;
+  background: rgba(0, 0, 0, 0.24);
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+  padding: 9px 11px;
+  margin: 10px 0;
+}
+#panel.doc pre code {
+  background: none;
+  border: 0;
+  padding: 0;
+  white-space: pre;
+}
+#panel.doc code {
+  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 0.85em;
+  color: var(--ink2);
+  background: rgba(0, 0, 0, 0.24);
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+  padding: 0.5px 4px;
+}
+#panel.doc table {
+  display: block;
+  overflow-x: auto;
+  border-collapse: collapse;
+  font-family: var(--sans);
+  font-size: 12px;
+  margin: 12px 0;
+}
+#panel.doc th,
+#panel.doc td {
+  border: 1px solid var(--rule);
+  padding: 5px 9px;
+  text-align: left;
+  vertical-align: top;
+}
+#panel.doc th {
+  font-size: 9.5px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink3);
+  font-weight: 400;
+  white-space: nowrap;
+}
+
+/* Code tokens, coloured by tools/validate.py at build time.
+   Kept inside the page's warm range rather than a stock editor theme: the comments only have to
+   fall back from the data, not compete with it. */
+#panel.doc .t-com {
+  color: var(--ink3);
+  font-style: italic;
+}
+#panel.doc .t-key {
+  color: var(--accent);
+}
+#panel.doc .t-str {
+  color: #a3b98d;
+}
+#panel.doc .t-num,
+#panel.doc .t-kw {
+  color: #9fb2cd;
+}
+#panel.doc .t-flag {
+  color: var(--accent);
+}
+#panel.doc .t-cmd {
+  color: var(--ink);
+}

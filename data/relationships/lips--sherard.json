@@ -1,6 +1,9 @@
 {
   "id": "lips--sherard",
-  "people": ["lips", "sherard"],
+  "people": [
+    "lips",
+    "sherard"
+  ],
   "certainty": "married",
   "certainty_status": "proposed",
   "start": {
@@ -23,7 +26,7 @@
       "supports": "The marriage and its year — the whole of what the source says about it.",
       "verification": "verified-exact",
       "how_verified": "pdf-image",
-      "provenance": "Repo PDF page 369; printed folio 347 confirmed on the rendered page image.",
+      "provenance": "PDF page 369; printed folio 347 confirmed on the rendered page image.",
       "verified_on": "2026-08-05",
       "voice": "modern"
     },
@@ -41,7 +44,7 @@
       "supports": "That Wilde knew her, and how he spoke of her.",
       "verification": "verified-exact",
       "how_verified": "pdf-image",
-      "provenance": "Repo PDF page 370; printed folio 348 confirmed on the rendered page image.",
+      "provenance": "PDF page 370; printed folio 348 confirmed on the rendered page image.",
       "verified_on": "2026-08-05",
       "voice": "period"
     }

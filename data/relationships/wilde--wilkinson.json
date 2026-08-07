@@ -1,6 +1,9 @@
 {
   "id": "wilde--wilkinson",
-  "people": ["wilde", "wilkinson"],
+  "people": [
+    "wilde",
+    "wilkinson"
+  ],
   "certainty": "attraction-expressed",
   "certainty_status": "proposed",
   "direction": "wilde",
@@ -27,7 +30,7 @@
       "supports": "THE CLASS-DECIDING FACT - 'whom he never met' - together with his dates, his being a Radley schoolboy at the time, the pen-name, the 1953 memoir, and the fabricated Ipswich Dramatic Society that opened the correspondence",
       "verification": "verified-elision",
       "how_verified": "pdf-text",
-      "provenance": "Repo PDF pages 1155-56, printed folios 1109 and 1110 both confirmed on the rendered pages; carried forward with its original provenance. En-dash in the date range as printed.",
+      "provenance": "PDF pages 1155-56, printed folios 1109 and 1110 both confirmed on the rendered pages; carried forward with its original provenance. En-dash in the date range as printed.",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -45,7 +48,7 @@
       "supports": "Wilkinson's age at the time of the correspondence, in Wilde's own contemporaneous words and exactly as the record states it - seventeen; and the fact that Wilde described the correspondence to a third party as constant",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "Repo PDF page 1164, printed folio 1118 confirmed on the rendered page. Single sentence, complete.",
+      "provenance": "PDF page 1164, printed folio 1118 confirmed on the rendered page. Single sentence, complete.",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Reginald Turner"
@@ -60,7 +63,7 @@
       "supports": "That the fabrications continued past the opening gambit, and that the initiative in the acquaintance was Wilkinson's; also that Wilde was recommending him to Ross in person",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "Repo PDF page 1173, printed folio 1127 confirmed on the rendered page. Whole footnote.",
+      "provenance": "PDF page 1173, printed folio 1127 confirmed on the rendered page. Whole footnote.",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -74,7 +77,7 @@
       "supports": "A correction to the 1127 n. 2 picture of wholesale invention - the FitzGerald connection was real but paternal, so not every claim Wilkinson made was manufactured",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "Repo PDF page 1179, printed folio 1133 confirmed on the rendered page. Final two sentences of the footnote, quoted complete; the preceding sentences concern the manuscript's provenance.",
+      "provenance": "PDF page 1179, printed folio 1133 confirmed on the rendered page. Final two sentences of the footnote, quoted complete; the preceding sentences concern the manuscript's provenance.",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -92,7 +95,7 @@
       "supports": "The escalation of address across the correspondence, as a matter of documented salutation and signature rather than of interpretation",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "Repo PDF page 1179, printed folio 1133 confirmed on the rendered page. The earlier salutations and signatures were read at repo PDF 1155 (folio 1109, predecessor session), 1159 (folio 1113), and 1168-69 (folios 1122 and 1123).",
+      "provenance": "PDF page 1179, printed folio 1133 confirmed on the rendered page. The earlier salutations and signatures were read at PDF 1155 (folio 1109, predecessor session), 1159 (folio 1113), and 1168-69 (folios 1122 and 1123).",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Louis Wilkinson"
@@ -111,7 +114,7 @@
       "supports": "The documented acts on which direction rests - three photograph requests, the comments on the photographs when they came, and the reports to Turner and Ross; recorded as description because the addressee was seventeen",
       "verification": "verified-elision",
       "how_verified": "pdf-text",
-      "provenance": "Repo PDF page 1164, printed folio 1118 read off the rendered page. The ellipsis spans the end of the Turner letter and the opening of the Ross letter, both on this folio - it is not an elision inside a single letter.",
+      "provenance": "PDF page 1164, printed folio 1118 read off the rendered page. The ellipsis spans the end of the Turner letter and the opening of the Ross letter, both on this folio - it is not an elision inside a single letter.",
       "verified_on": "2026-08-03",
       "voice": "period"
     },
@@ -131,7 +134,7 @@
       "verification": "verified-exact",
       "how_verified": "pdf-image",
       "verified_on": "2026-08-04",
-      "provenance": "Repo PDF p. 1238 rendered at 2.6x and; folio 1192 printed at the foot of that page, giving offset +46 here. Located first in the OCR mirror, then confirmed on the rendered page.",
+      "provenance": "PDF p. 1238 rendered at 2.6x and; folio 1192 printed at the foot of that page, giving offset +46 here. Located first in the OCR mirror, then confirmed on the rendered page.",
       "addressee": "Louis Wilkinson"
     },
     {
@@ -149,7 +152,7 @@
       "verification": "verified-exact",
       "how_verified": "pdf-image",
       "verified_on": "2026-08-04",
-      "provenance": "Repo PDF p. 1239; folio 1193 printed at the foot.",
+      "provenance": "PDF p. 1239; folio 1193 printed at the foot.",
       "addressee": "Louis Wilkinson",
       "lang": "fr",
       "translation": "I am very ill. Do not come this week. I will write to you."
@@ -168,7 +171,7 @@
       "supports": "Wilde's own words placing Wilkinson's photograph at the centre of his room and his attention - the desire, expressed obliquely and unmistakably.",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "Repo PDF p. 1215 read as a rendered page image 2026-08-04; printed folio 1169 confirmed at the foot of the image.",
+      "provenance": "PDF p. 1215 read as a rendered page image 2026-08-04; printed folio 1169 confirmed at the foot of the image.",
       "verified_on": "2026-08-04",
       "speaker": "Oscar Wilde",
       "addressee": "Louis Wilkinson",
@@ -188,7 +191,7 @@
       "supports": "The direction of the edge, in one line: Wilde asking, and saying what he wants it for.",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "Repo PDF pp. 1216-1217 read as rendered page images 2026-08-04; printed folios 1170 and 1171 confirmed at the feet of the images. The salutation 'My dear Boy' and postmark are on 1170; the quoted close is on 1171.",
+      "provenance": "PDF pp. 1216-1217 read as rendered page images 2026-08-04; printed folios 1170 and 1171 confirmed at the feet of the images. The salutation 'My dear Boy' and postmark are on 1170; the quoted close is on 1171.",
       "verified_on": "2026-08-04",
       "speaker": "Oscar Wilde",
       "addressee": "Louis Wilkinson",
@@ -210,7 +213,7 @@
       "supports": "The clearest single letter in the correspondence: the wish, and the portrait asked for twice.",
       "verification": "verified-exact",
       "how_verified": "pdf-image",
-      "provenance": "Repo PDF page 1159; printed folio 1113 confirmed on the rendered page image.",
+      "provenance": "PDF page 1159; printed folio 1113 confirmed on the rendered page image.",
       "verified_on": "2026-08-05",
       "voice": "period"
     }

@@ -1,0 +1,66 @@
+name: A connection that belongs on the map
+description: Two people whose attachment is documented and is not drawn
+labels: [connection]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        The threshold is warmth, not proof of desire — friendship counts if the record carries it.
+        The map makes no claim about sexual acts in either direction, so you are not being asked to
+        establish one.
+
+  - type: input
+    id: pair
+    attributes:
+      label: Between whom
+      placeholder: Amy Levy and Vernon Lee
+    validations:
+      required: true
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: What the source says
+      description: >
+        Quote it, with a few sentences of surrounding context — the context is usually what shows
+        who is speaking and about whom. Where a letter is short, quote the whole letter.
+      render: text
+    validations:
+      required: true
+
+  - type: input
+    id: citation
+    attributes:
+      label: Where to find it
+      description: Author, title, year, page. Or a manuscript reference, an archive and shelfmark, a URL.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: how
+    attributes:
+      label: How did you see it?
+      options:
+        - Read it on the printed page
+        - Read it in a scan or photograph of the page
+        - Found it in a search index or text layer, did not see the page
+        - Saw it quoted in another book or article
+        - Something else, described below
+    validations:
+      required: true
+
+  - type: input
+    id: when
+    attributes:
+      label: When the thing happened
+      description: >
+        The date of the letter, the meeting, the testimony — not the publication year of the book
+        you found it in. Leave blank if the source does not say.
+
+  - type: textarea
+    id: against
+    attributes:
+      label: Anything that argues against it
+      description: >
+        Optional, and genuinely useful. A source that complicates the reading is worth more to us
+        than one that only supports it.

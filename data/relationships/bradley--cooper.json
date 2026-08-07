@@ -1,6 +1,9 @@
 {
   "id": "bradley--cooper",
-  "people": ["bradley", "cooper"],
+  "people": [
+    "bradley",
+    "cooper"
+  ],
   "certainty": "self-reported",
   "certainty_status": "proposed",
   "certainty_reasoning": "Evangelista's Y90s biography quotes their boast of being 'closer married' than the Brownings and cites it to Works and Days, p. 16 - so a participant's own testimony is underneath the sentence, which is the self-reported test as the README states it (the vehicle is irrelevant; check whose testimony the historian's citation points to).",
@@ -51,7 +54,7 @@
       "supports": "Both women's dates; the aunt-niece relation; the single joint pen-name - from Wilde's own editors, i.e. independent of the Michael Field scholarship.",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "Repo PDF p. 471 read as a rendered page image 2026-08-03; printed folio 449 confirmed on the image. Transcribed from the image, en-dashes as printed.",
+      "provenance": "PDF p. 471 read as a rendered page image 2026-08-03; printed folio 449 confirmed on the image. Transcribed from the image, en-dashes as printed.",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -69,7 +72,7 @@
       "supports": "That Wilde corresponded with the pair under their single male name - the basis for their presence on this roster.",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "Repo PDF p. 624 read as a rendered page image 2026-08-03; printed folio 572 confirmed on the image (post-plate-insert offset +52).",
+      "provenance": "PDF p. 624 read as a rendered page image 2026-08-03; printed folio 572 confirmed on the image (post-plate-insert offset +52).",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Michael Field"
@@ -101,7 +104,7 @@
       "supports": "The 'closer married' passage in the participants' own words.",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "Repo PDF page 306, printed folio 304 confirmed at the foot of the rendered page. RE-POINTED from the moore-works-and-days-1933 pointer: this critical edition prints the letter itself, so the participants' own words are now first-hand rather than reached through Evangelista.",
+      "provenance": "PDF page 306, printed folio 304 confirmed at the foot of the rendered page. RE-POINTED from the moore-works-and-days-1933 pointer: this critical edition prints the letter itself, so the participants' own words are now first-hand rather than reached through Evangelista.",
       "verified_on": "2026-08-03",
       "speaker": "Katharine Bradley",
       "voice": "period",
@@ -116,7 +119,7 @@
       "verification": "verified-exact",
       "how_verified": "pdf-text",
       "verified_on": "2026-08-03",
-      "provenance": "Repo PDF page 25, printed folio 23 confirmed at the foot of the rendered page. Independently corroborates both the wording and the Works and Days page (16) that the earlier Evangelista-mediated pointer carried.",
+      "provenance": "PDF page 25, printed folio 23 confirmed at the foot of the rendered page. Independently corroborates both the wording and the Works and Days page (16) that the earlier Evangelista-mediated pointer carried.",
       "supports": "Second, independent scholarly attestation of the 'closer married' passage and of its page in Works and Days.",
       "voice": "modern"
     }

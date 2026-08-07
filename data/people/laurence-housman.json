@@ -2,7 +2,9 @@
   "id": "laurence-housman",
   "name": "Laurence Housman",
   "sort_name": "Housman, Laurence",
-  "aka": ["Housman"],
+  "aka": [
+    "Housman"
+  ],
   "born": {
     "y": 1865
   },
@@ -12,8 +14,11 @@
   "group": "chaeronea",
   "gender": "m",
   "bio": "Poet, dramatist, novelist and artist (1865-1959), younger brother of A. E. Housman. He sent Wilde his book of imaginary legends All-Fellows in August 1897, three months after Wilde came out of Reading, and five of Wilde's replies survive, running to the end of 1898. In 1923 he published Echo de Paris, a reconstructed dialogue recording Wilde's conversation in his last years, which remains one of the standard accounts of it. He was a member of the Order of Chaeronea, and when George Ives came to make his will in 1939 he left Housman a ring bearing the numbers 338 - the year of the battle at which the Theban Band was destroyed, and the number the Order took its name and its dating system from. He is on this map for two reasons: that, and the fact that he is the man Wilde told about Raphael and Fortune.",
-  "bio_sources": ["letters-2000", "cook-2014"],
-  "bio_note": "ALL FIVE LETTERS READ AT THE PAGE: printed 923, 928, 1027, 1111 and 1113 (repo PDF 973, 978, 1073, 1157, 1159), every folio confirmed on its own page image, 2026-08-05. DATES 1865-1959 from the editors' note at printed 923.",
+  "bio_sources": [
+    "letters-2000",
+    "cook-2014"
+  ],
+  "bio_note": "ALL FIVE LETTERS READ AT THE PAGE: printed 923, 928, 1027, 1111 and 1113 (PDF 973, 978, 1073, 1157, 1159), every folio confirmed on its own page image, 2026-08-05. DATES 1865-1959 from the editors' note at printed 923.",
   "context_engagements": [
     {
       "partner_name": "Oscar Wilde",
@@ -35,7 +40,7 @@
           "supports": "The opening of the friendship, and what counted as happiness to Wilde that summer.",
           "verification": "verified-elision",
           "how_verified": "pdf-image",
-          "provenance": "Repo PDF page 973; printed folio 923 confirmed on the rendered page image.",
+          "provenance": "PDF page 973; printed folio 923 confirmed on the rendered page image.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -55,7 +60,7 @@
           "supports": "Wilde telling a near-stranger, unprompted, that he thinks he has betrayed himself.",
           "verification": "verified-elision",
           "how_verified": "pdf-image",
-          "provenance": "Repo PDF page 978; printed folio 928 confirmed on the rendered page image.",
+          "provenance": "PDF page 978; printed folio 928 confirmed on the rendered page image.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -74,7 +79,7 @@
           "supports": "The Ballad received, and the nearest thing to a statement of belief in the correspondence.",
           "verification": "verified-exact",
           "how_verified": "pdf-image",
-          "provenance": "Repo PDF page 1073; printed folio 1027 confirmed on the rendered page image.",
+          "provenance": "PDF page 1073; printed folio 1027 confirmed on the rendered page image.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -94,7 +99,7 @@
           "supports": "The correspondence at its warmest, and the journey to Napoule that produced the next letter.",
           "verification": "verified-exact",
           "how_verified": "pdf-image",
-          "provenance": "Repo PDF page 1157; printed folio 1111 confirmed on the rendered page image.",
+          "provenance": "PDF page 1157; printed folio 1111 confirmed on the rendered page image.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -114,7 +119,7 @@
           "supports": "Wilde's candour about the Napoule fishermen, and the choice of Housman to receive it.",
           "verification": "verified-exact",
           "how_verified": "pdf-image",
-          "provenance": "Repo PDF page 1159; printed folio 1113 confirmed on the rendered page image.",
+          "provenance": "PDF page 1159; printed folio 1113 confirmed on the rendered page image.",
           "verified_on": "2026-08-05",
           "voice": "period"
         }

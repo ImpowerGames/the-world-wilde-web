@@ -12,7 +12,9 @@
   "group": "aesthete",
   "gender": "m",
   "bio": "Schoolmaster and historian (1837-1923). An Eton master from 1860 to 1875 - George Curzon was his most famous pupil - and thereafter a Cambridge don and celebrated 'character'. Fifteen of Wilde's letters to him survive, beginning in 1879 when Wilde was twenty-four and running through the 1880s. The early ones have Wilde running his errands in London, buying him neckties and hunting Paternoster Row for a bible, and wishing he had been at the theatre with him.",
-  "bio_sources": ["letters-2000"],
+  "bio_sources": [
+    "letters-2000"
+  ],
   "bio_note": "the volume's Index of Recipients. The editors' note gives only 'Eton master 1860-75' and passes over the rest in silence. FIFTEEN LETTERS at printed 80 (two), 87, 88, 111, 268, 313, 337, 339, 342, 348, 358, 360, 368, 373, 407. THREE READ AT THE PAGE - printed 80 twice and 111.",
   "context_engagements": [
     {
@@ -34,7 +36,7 @@
           "supports": "The footing at the start: Wilde running an older man's errands and angling for an invitation.",
           "verification": "verified-exact",
           "how_verified": "pdf-image",
-          "provenance": "Repo PDF page 105; printed folio 80 confirmed on the rendered page image.",
+          "provenance": "PDF page 105; printed folio 80 confirmed on the rendered page image.",
           "verified_on": "2026-08-06",
           "voice": "period"
         },
@@ -54,7 +56,7 @@
           "supports": "A whole rainy day spent shopping for him, and the wish that he had been there.",
           "verification": "verified-elision",
           "how_verified": "pdf-image",
-          "provenance": "Repo PDF page 105; printed folio 80 confirmed on the rendered page image.",
+          "provenance": "PDF page 105; printed folio 80 confirmed on the rendered page image.",
           "verified_on": "2026-08-06",
           "voice": "period"
         },
@@ -73,7 +75,7 @@
           "supports": "Wilde asking him for the review he then wrote.",
           "verification": "verified-exact",
           "how_verified": "pdf-image",
-          "provenance": "Repo PDF page 136; printed folio 111 confirmed on the rendered page image.",
+          "provenance": "PDF page 136; printed folio 111 confirmed on the rendered page image.",
           "verified_on": "2026-08-06",
           "voice": "period"
         }

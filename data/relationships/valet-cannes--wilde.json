@@ -1,6 +1,9 @@
 {
   "id": "valet-cannes--wilde",
-  "people": ["valet-cannes", "wilde"],
+  "people": [
+    "valet-cannes",
+    "wilde"
+  ],
   "certainty": "attraction-expressed",
   "certainty_status": "proposed",
   "direction": "wilde",
@@ -30,7 +33,7 @@
       "supports": "The whole of the record for this connection: Wilde's sighting, his description of the young man as very handsome, and the frame he put round it.",
       "verification": "verified-exact",
       "how_verified": "pdf-image",
-      "provenance": "Repo PDF page 1167; printed folio 1121 confirmed on the rendered page image. The sweep cited this as 'printed ~1119', which the page image corrects.",
+      "provenance": "PDF page 1167; printed folio 1121 confirmed on the rendered page image. The sweep cited this as 'printed ~1119', which the page image corrects.",
       "verified_on": "2026-08-05",
       "voice": "period"
     }

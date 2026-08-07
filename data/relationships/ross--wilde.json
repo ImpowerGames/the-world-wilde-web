@@ -1,6 +1,9 @@
 {
   "id": "ross--wilde",
-  "people": ["ross", "wilde"],
+  "people": [
+    "ross",
+    "wilde"
+  ],
   "certainty": "self-reported",
   "certainty_status": "proposed",
   "certainty_reasoning": "The sexual reading, standard across major biographers, rests on later Ross statements reported in secondary literature not yet read in the source for this project (Ellmann/McKenna verification is a standing next step). THE SUPPRESSED DEDICATION, added 2026-08-06: Wilde composed a dedication to Ross for The Ballad - 'When I came out of prison / some met me with garments and with spices, / and others with wise counsel. / You met me with love' - deliberately without initials or name, and it was never printed (editors' note, printed 973).",
@@ -29,7 +32,7 @@
       "supports": "Wilde naming what Ross was to him, in his own words: the one friend left to him, and the one who met him at his release with love rather than counsel - the most explicit first-hand characterization of the bond in the correspondence read",
       "verification": "verified-elision",
       "how_verified": "pdf-text",
-      "provenance": "Repo PDF pages 908-909, printed folios 858 and 859 confirmed on the rendered pages. The quoted run spans the page-turn; the elision drops the passage on Wilde fearing he harms Ross, the naming of him as St Robert of Phillimore, and the sentence introducing the misquoted lines. 'you' is italicised in the printed text of the poem lines.",
+      "provenance": "PDF pages 908-909, printed folios 858 and 859 confirmed on the rendered pages. The quoted run spans the page-turn; the elision drops the passage on Wilde fearing he harms Ross, the naming of him as St Robert of Phillimore, and the sentence introducing the misquoted lines. 'you' is italicised in the printed text of the poem lines.",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Robert Ross"
@@ -44,7 +47,7 @@
       "supports": "Frame of the bond: met 1886; 'most faithful friend' to Wilde's death; literary executor",
       "verification": "verified-elision",
       "how_verified": "pdf-text",
-      "provenance": "Repo PDF page 382, printed folio 360 confirmed on rendered page (ROSS_dossier.md Passage 2). Genealogical detail between the two quoted sentences elided; paraphrase in dossier.",
+      "provenance": "PDF page 382, printed folio 360 confirmed on rendered page. Genealogical detail between the two quoted sentences elided.",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -62,7 +65,7 @@
       "supports": "Warmest register of the early correspondence: 'Yours, with much love' (1889)",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "Repo PDF page 431, printed folio 409 confirmed on rendered page (ROSS_dossier.md Passage 6; this is the contiguous close of the letter, transcribed without elision).",
+      "provenance": "PDF page 431, printed folio 409 confirmed on rendered page.",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Robert Ross"
@@ -81,7 +84,7 @@
       "supports": "Ross's own timeline: met Wilde 1886, intimacy only from the Lady Windermere period (c. 1891) - complicates the common claim that the liaison began in 1886",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "Repo PDF page 1274, printed folio 1229 confirmed on rendered page; key sentences re-verified on 4x zoomed region render (ROSS_dossier.md Passage 7).",
+      "provenance": "PDF page 1274, printed folio 1229 confirmed on rendered page; key sentences re-verified on 4x zoomed region render.",
       "verified_on": "2026-08-03",
       "voice": "period",
       "speaker": "Robert Ross",
@@ -101,7 +104,7 @@
       "supports": "Ross at the bedside holding Wilde's hand at the moment of death - the terminal point of the lifelong bond",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "Repo PDF page 1265, printed folio 1220 confirmed on rendered page (ROSS_dossier.md Passage 12; this sentence-pair is contiguous in the transcription, no internal elision).",
+      "provenance": "PDF page 1265, printed folio 1220 confirmed on rendered page.",
       "verified_on": "2026-08-03",
       "voice": "period",
       "speaker": "Robert Ross",
@@ -119,7 +122,7 @@
       "supports": "Ross's dedicated biographer dates the start of a sexual relationship to 1886 - the traditional dating, against which Ross's own 1900 letter to Adela Schuster stands.",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "Repo PDF page 32 of Fryer_2000_Robbie-Ross (docs/research/queer-history/victorian/ross/sources/), printed folio 18 confirmed on the rendered page. NOTE the offset is not constant in this scan (+14 here, +22 after the plate section) - see the pagination box in the ROSS-FRYER dossier (long-form research notes, kept in the private research repository).",
+      "provenance": "PDF page 32 of Fryer_2000_Robbie-Ross, printed folio 18 confirmed on the rendered page. NOTE the offset is not constant in this scan (+14 here, +22 after the plate section).",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -135,7 +138,7 @@
       "supports": "A reported chain of PARTICIPANT testimony for the 1886 dating - Wilde told Turner, Ross told Ransome - which is the nearest thing Fryer offers to first-person evidence. It remains Fryer's report of an unsourced oral confirmation, not the participant's surviving words: a lead toward self-reported evidence rather than an instance of it.",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "Repo PDF page 32, printed folio 18 confirmed on the rendered page. Contiguous sentences; the preceding block on the same page is quoted separately, with no elision joining them.",
+      "provenance": "PDF page 32, printed folio 18 confirmed on the rendered page. Contiguous sentences; the preceding block on the same page is quoted separately, with no elision joining them.",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -148,10 +151,10 @@
       "evidence_date": {
         "y": 1887
       },
-      "supports": "Fryer separates a single initiating episode in 1886 from a sustained affair, and denies the latter for 1887 - supplying the middle term under which the 1886 tradition and Ross's own 'only became intimate.. Lady Windermere' (1900) can both be true. Fryer never cites the Schuster letter, so the reconciliation is available from him but not stated by him.",
+      "supports": "Fryer separates a single initiating episode in 1886 from a sustained affair, and denies the latter for 1887 - supplying the middle term under which the 1886 tradition and Ross's own 'only became intimate. Lady Windermere' (1900) can both be true. Fryer never cites the Schuster letter, so the reconciliation is available from him but not stated by him.",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "Repo PDF page 35, printed folio 21 confirmed on the rendered page.",
+      "provenance": "PDF page 35, printed folio 21 confirmed on the rendered page.",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -171,7 +174,7 @@
       "supports": "Fryer's summary formula for the bond - 'disciple and sometime lover'. 'Sometime' is his word, and his second signal that he does not read the relationship as a continuous affair.",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "Repo PDF page 47, printed folio 33 confirmed on the rendered page.",
+      "provenance": "PDF page 47, printed folio 33 confirmed on the rendered page.",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -191,7 +194,7 @@
       "supports": "The asymmetry Fryer builds the life on: Ross in love with Wilde and unpossessive about Gray and Wilde's other lovers, while sexually occupied elsewhere. Bears on the ross--wilde bond and on why no jealousy edge to gray or douglas is warranted.",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "Repo PDF page 56, printed folio 42 confirmed on the rendered page.",
+      "provenance": "PDF page 56, printed folio 42 confirmed on the rendered page.",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -211,7 +214,7 @@
       "supports": "The plainest statement of the Ross attachment anywhere in the correspondence, made behind Ross's back and therefore not flattery.",
       "verification": "verified-exact",
       "how_verified": "pdf-image",
-      "provenance": "Repo PDF page 1054; printed folio 1006 confirmed on the rendered page image.",
+      "provenance": "PDF page 1054; printed folio 1006 confirmed on the rendered page image.",
       "verified_on": "2026-08-05",
       "voice": "period"
     },
@@ -230,7 +233,7 @@
       "supports": "Wilde telling Ross he had fallen in love with him again, in his last year.",
       "verification": "verified-exact",
       "how_verified": "pdf-image",
-      "provenance": "Repo PDF page 1230; printed folio 1184 confirmed on the rendered page image.",
+      "provenance": "PDF page 1230; printed folio 1184 confirmed on the rendered page image.",
       "verified_on": "2026-08-06",
       "voice": "period"
     },
@@ -249,7 +252,7 @@
       "supports": "Something the two of them had done together, and the word Wilde used for it.",
       "verification": "verified-exact",
       "how_verified": "pdf-image",
-      "provenance": "Repo PDF page 1228; printed folio 1182 confirmed on the rendered page image.",
+      "provenance": "PDF page 1228; printed folio 1182 confirmed on the rendered page image.",
       "verified_on": "2026-08-06",
       "voice": "period"
     },
@@ -269,7 +272,7 @@
       "supports": "The ordinary daily traffic of the friendship.",
       "verification": "verified-exact",
       "how_verified": "pdf-image",
-      "provenance": "Repo PDF page 1187; printed folio 1141 confirmed on the rendered page image.",
+      "provenance": "PDF page 1187; printed folio 1141 confirmed on the rendered page image.",
       "verified_on": "2026-08-06",
       "voice": "period"
     },
@@ -288,7 +291,7 @@
       "supports": "A dedication of love to Ross, composed, shown to the publisher, and then suppressed.",
       "verification": "verified-elision",
       "how_verified": "pdf-image",
-      "provenance": "Repo PDF page 1021; printed folio 973 confirmed on the rendered page image.",
+      "provenance": "PDF page 1021; printed folio 973 confirmed on the rendered page image.",
       "verified_on": "2026-08-06",
       "voice": "period"
     }

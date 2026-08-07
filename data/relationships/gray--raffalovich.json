@@ -1,6 +1,9 @@
 {
   "id": "gray--raffalovich",
-  "people": ["gray", "raffalovich"],
+  "people": [
+    "gray",
+    "raffalovich"
+  ],
   "certainty": "second-hand",
   "certainty_status": "proposed",
   "certainty_reasoning": "A second independent secondary attestation (McKenna pointer below) awaits verification in the source; if a later check finds biographers agree only on devoted companionship, romantic-nonsexual may fit better.",
@@ -24,7 +27,7 @@
       "supports": "The lifelong bond - 'close friends for the rest of his life' - and the editorially reported breakup of Wilde's friendship with Gray",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "Repo PDF page 278, printed folio 256 confirmed on rendered page; footnote begins at p. 255 n. 2 (repo PDF 277, folio confirmed).",
+      "provenance": "PDF page 278, printed folio 256 confirmed on rendered page; footnote begins at p. 255 n. 2 (PDF 277, folio confirmed).",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -41,7 +44,7 @@
       "supports": "'His close friend Andre Raffalovich' and the joint play, produced June 1893 - the bond's documented start-region",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "Repo PDF page 540, printed folio 520 confirmed on rendered page.",
+      "provenance": "PDF page 540, printed folio 520 confirmed on rendered page.",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -55,7 +58,7 @@
       "supports": "The Edinburgh later years and the church Raffalovich built for Gray - the bond's material devotion",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "Repo PDF page 540, printed folio 520 confirmed on rendered page.",
+      "provenance": "PDF page 540, printed folio 520 confirmed on rendered page.",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -69,7 +72,7 @@
       "supports": "Independent secondary characterization of the partnership as romantic; requires verification in the source",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "Repo PDF page 216. This edition carries no printed folios or running heads, so the locator is the PDF page. The file renders opening single quotes as backticks; they are transcribed here as quotation marks. Re-pointed from the mckenna-2003 pointer, which predated the PDF - cite the 2008 edition.",
+      "provenance": "PDF page 216. This edition carries no printed folios or running heads, so the locator is PDF page. The file renders opening single quotes as backticks; they are transcribed here as quotation marks. Re-pointed from the mckenna-2003 pointer, which predated the PDF - cite the 2008 edition.",
       "verified_on": "2026-08-03",
       "voice": "modern"
     }

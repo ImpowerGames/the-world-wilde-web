@@ -2,7 +2,9 @@
   "id": "rothenstein",
   "name": "William Rothenstein",
   "sort_name": "Rothenstein, William",
-  "aka": ["Will Rothenstein"],
+  "aka": [
+    "Will Rothenstein"
+  ],
   "born": {
     "y": 1872
   },
@@ -12,8 +14,10 @@
   "group": "aesthete",
   "gender": "m",
   "bio": "Painter and lithographer (1872-1945), later Principal of the Royal College of Art. Sixteen of Wilde's letters to him survive, from 1893 to 1899. He was one of the friends who came out to Berneval to see Wilde after prison, and he drew the hotel at Napoule on a postcard Wilde sent his publisher.",
-  "bio_sources": ["letters-2000"],
-  "bio_note": "SIXTEEN LETTERS at repo PDF 523, 551, 614, 616, 643, 653, 941, 954, 975 and others; TWO read at the page (printed 562 and 1024, folios confirmed).",
+  "bio_sources": [
+    "letters-2000"
+  ],
+  "bio_note": "SIXTEEN LETTERS at PDF 523, 551, 614, 616, 643, 653, 941, 954, 975 and others; TWO read at the page (printed 562 and 1024, folios confirmed).",
   "context_engagements": [
     {
       "partner_name": "Oscar Wilde",
@@ -34,7 +38,7 @@
           "supports": "Wilde jumping out of a cab to end a coldness he had been maintaining on principle.",
           "verification": "verified-exact",
           "how_verified": "pdf-image",
-          "provenance": "Repo PDF page 614; printed folio 562 confirmed on the rendered page image.",
+          "provenance": "PDF page 614; printed folio 562 confirmed on the rendered page image.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -53,7 +57,7 @@
           "supports": "What one friend's letter about The Ballad was worth to him, and the wish that Rothenstein never learn what skilly is.",
           "verification": "verified-exact",
           "how_verified": "pdf-image",
-          "provenance": "Repo PDF page 1070; printed folio 1024 confirmed on the rendered page image.",
+          "provenance": "PDF page 1070; printed folio 1024 confirmed on the rendered page image.",
           "verified_on": "2026-08-05",
           "voice": "period"
         }

@@ -1,6 +1,9 @@
 {
   "id": "custance--douglas",
-  "people": ["custance", "douglas"],
+  "people": [
+    "custance",
+    "douglas"
+  ],
   "certainty": "married",
   "certainty_status": "proposed",
   "start": {
@@ -97,7 +100,7 @@
       "supports": "Courtship-letter texture; elopement details; separation and later relations.",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "Repo PDF page 134. Re-pointed from the murray-2000 pointer to the 2020 Sceptre reissue actually held; that edition is an ebook conversion carrying no printed folios, so the locator is the PDF page.",
+      "provenance": "PDF page 134. Re-pointed from the murray-2000 pointer to the 2020 Sceptre reissue actually held; that edition is an ebook conversion carrying no printed folios, so the locator is PDF page.",
       "verified_on": "2026-08-04",
       "voice": "period",
       "speaker": "Olive Custance",
@@ -117,7 +120,7 @@
       "supports": "The marriage date, church, witnesses and the special licence - independent of the Parker biography and of Douglas's own memoir, both already cited here.",
       "verification": "verified-elision",
       "how_verified": "pdf-text",
-      "provenance": "Repo PDF page 141 of Murray_2020_Bosie (docs/research/queer-history/victorian/douglas/sources/). NO PRINTED FOLIO EXISTS: the file is an ebook conversion with no page numbers and an unpaginated Contents, so the printed-to-PDF offset is n/a and the locator is the PDF page, marked 'PDF p.' - see the pagination note in the DOUGLAS-MURRAY dossier (long-form research notes, kept in the private research repository).",
+      "provenance": "PDF page 141 of Murray_2020_Bosie. NO PRINTED FOLIO EXISTS: the file is an ebook conversion with no page numbers and an unpaginated Contents, so the printed-to-PDF offset is n/a and the locator is PDF page, marked 'PDF p.'.",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -133,7 +136,7 @@
       "supports": "The 1913 separation, the four-month gap, the short-lived reconciliation, and the second desertion - the shape of the marriage after the courtship years, which this record did not previously carry.",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "Repo PDF page 195 of Murray_2020_Bosie (docs/research/queer-history/victorian/douglas/sources/). NO PRINTED FOLIO EXISTS: the file is an ebook conversion with no page numbers and an unpaginated Contents, so the printed-to-PDF offset is n/a and the locator is the PDF page, marked 'PDF p.' - see the pagination note in the DOUGLAS-MURRAY dossier (long-form research notes, kept in the private research repository).",
+      "provenance": "PDF page 195 of Murray_2020_Bosie. NO PRINTED FOLIO EXISTS: the file is an ebook conversion with no page numbers and an unpaginated Contents, so the printed-to-PDF offset is n/a and the locator is PDF page, marked 'PDF p.'.",
       "verified_on": "2026-08-03",
       "voice": "modern"
     }

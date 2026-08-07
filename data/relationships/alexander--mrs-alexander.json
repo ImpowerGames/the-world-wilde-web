@@ -1,6 +1,9 @@
 {
   "id": "alexander--mrs-alexander",
-  "people": ["alexander", "mrs-alexander"],
+  "people": [
+    "alexander",
+    "mrs-alexander"
+  ],
   "certainty": "married",
   "certainty_status": "proposed",
   "start": null,
@@ -24,7 +27,7 @@
       "supports": "That she existed, that Wilde knew her, and the name he had for her.",
       "verification": "verified-exact",
       "how_verified": "pdf-image",
-      "provenance": "Repo PDF page 672; printed folio 620 confirmed on the rendered page image.",
+      "provenance": "PDF page 672; printed folio 620 confirmed on the rendered page image.",
       "verified_on": "2026-08-05",
       "voice": "period"
     },
@@ -44,7 +47,7 @@
       "supports": "The one thing the record preserves about her — that she greeted a disgraced man warmly in public, and what it meant to him.",
       "verification": "verified-exact",
       "how_verified": "pdf-image",
-      "provenance": "Repo PDF page 1239; printed folio 1193 confirmed on the rendered page image.",
+      "provenance": "PDF page 1239; printed folio 1193 confirmed on the rendered page image.",
       "verified_on": "2026-08-05",
       "voice": "period"
     }

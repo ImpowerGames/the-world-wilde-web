@@ -24,13 +24,18 @@ from datetime import date
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
+
+# The public repository. {{repo}} in the markdown documents is replaced with this, so that a link
+# to the issue forms works both on GitHub and on the published site, where a relative path to
+# /issues would go nowhere. CHANGE THIS if the repository is named or owned differently.
+REPO = "https://github.com/ImpowerGames/the-world-wilde-web"
 DATA = ROOT / "data"
 
 CERTAINTY = {"self-reported", "second-hand", "uncorroborated", "married", "attraction-expressed"}
 OUTCOMES = {"declined", "unknown", "unreciprocated"}
 CERTAINTY_STATUS = {"proposed", "confirmed"}
 VERIFICATION = {"verified-exact", "verified-elision", "needs-fix", "rejected", "unverified"}
-HOW = {"pdf-image", "pdf-text", "digital-copy", "archive-org", "web", "unverified"}
+HOW = {"pdf-image", "pdf-text", "digital-copy", "physical-copy", "archive-org", "web", "unverified"}
 LOCATOR_TYPES = {"page", "diary-entry", "trial-day", "letter-date", "none"}
 GROUPS = {"core", "family", "society", "aesthete", "trials", "chaeronea",
           "later", "liaisons", "beyond"}
@@ -488,29 +493,87 @@ def write_ledger(works, rels):
     print(f"ledger written: {out.relative_to(ROOT)} ({len(rels)} sections)")
 
 
-def about_html():
-    """Compile content/ABOUT.md into the HTML the About panel shows.
+# Syntax highlighting is done HERE, at build time, for the same reason the markdown is: the site
+# ships one script and no toolchain, and a highlighter is a lot of bytes to send every reader so
+# that eight code samples can have coloured comments. The scanner is deliberately shallow - it
+# knows comments, strings, keys, numbers and keywords, and nothing about grammar - because that is
+# all these samples need. An unrecognised language is escaped and left plain rather than guessed at.
+JSONC_TOK = re.compile(r"""
+      (?P<str>"(?:[^"\\]|\\.)*")
+    | (?P<com>//[^\n]*)
+    | (?P<num>-?\b\d+(?:\.\d+)?\b)
+    | (?P<kw>\b(?:true|false|null)\b)
+""", re.X)
+SH_TOK = re.compile(r"""
+      (?P<com>\#[^\n]*)
+    | (?P<str>'[^']*'|"(?:[^"\\]|\\.)*")
+    | (?P<flag>(?<![\w-])--?[A-Za-z][\w-]*)
+""", re.X)
 
-    The panel's text used to live inside index.html, which meant editing prose in among the markup.
+
+def highlight(code, lang):
+    """Wrap the tokens of one code sample in spans. Returns escaped HTML either way."""
+    def esc(s):
+        return s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+    lang = (lang or "").strip().lower()
+    if lang in ("json", "jsonc"):
+        rx, first_word = JSONC_TOK, False
+    elif lang in ("bash", "sh", "shell", "console"):
+        rx, first_word = SH_TOK, True
+    else:
+        return esc(code)
+    out, pos = [], 0
+    for m in rx.finditer(code):
+        out.append(esc(code[pos:m.start()]))
+        kind = m.lastgroup
+        text = m.group()
+        # A JSON string followed by a colon is a key, not a value, and the two want to look
+        # different - that is most of what makes a sample readable at a glance.
+        if kind == "str" and rx is JSONC_TOK and code[m.end():].lstrip(" \t").startswith(":"):
+            kind = "key"
+        out.append(f'<span class="t-{kind}">{esc(text)}</span>')
+        pos = m.end()
+    out.append(esc(code[pos:]))
+    html = "".join(out)
+    if first_word:
+        # The command itself, once per line, so `python` reads as the verb it is.
+        html = re.sub(r"(?m)^(\s*)([\w./-]+)", r'\1<span class="t-cmd">\2</span>', html)
+    return html
+
+
+def md_html(src):
+    """Compile one of the site's markdown documents into the HTML a panel shows.
+
+    The About text used to live inside index.html, which meant editing prose in among the markup.
     It is a markdown file now, compiled here rather than parsed in the browser: the site's bargain
-    is one script and no toolchain, and shipping a markdown parser to every reader to render one
-    static document would be a poor trade. `python tools/validate.py` already has to run before the
-    site is served, so this costs nothing new.
+    is one script and no toolchain, and shipping a markdown parser to every reader to render two
+    static documents would be a poor trade. `python tools/validate.py` already has to run before
+    the site is served, so this costs nothing new.
 
-    The subset is deliberately small - headings, paragraphs, bullets, bold, italic, links - because
-    it only has to serve one document that we control. Two placeholders survive into the HTML for
-    the page to fill in: {{line:<certainty>}} becomes the real connection line, drawn from the same
-    definitions the legend uses, and {{colophon}} becomes the generated build line.
+    The subset is only as large as the two documents need - headings, paragraphs, bullets, bold,
+    italic, links, and for CONTRIBUTING.md also fenced code, tables, rules and inline code. Two
+    placeholders survive into the HTML for the page to fill in: {{line:<certainty>}} becomes the
+    real connection line, drawn from the same definitions the legend uses, and {{colophon}} becomes
+    the generated build line.
     """
-    src = ROOT / "content" / "ABOUT.md"
     if not src.exists():
         return ""
     def esc(s):
         return s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
     def inline(s):
         s = esc(s)
+        # Code spans first, and their contents are held out of every rule below, so that a path
+        # like `docs/**/*.json` cannot have its asterisks read as emphasis.
+        spans = []
+        def hold(m):
+            spans.append(m.group(1))
+            return f"\x00{len(spans) - 1}\x00"
+        s = re.sub(r"`([^`]+)`", hold, s)
         s = re.sub(r"\[([^\]]+)\]\(([^)]+)\)",
                    r'<a href="\2" target="_blank" rel="noopener">\1</a>', s)
+        # Autolinks: <https://example.com> survives escaping as &lt;https://…&gt;.
+        s = re.sub(r"&lt;(https?://[^\s&]+)&gt;",
+                   r'<a href="\1" target="_blank" rel="noopener">\1</a>', s)
         # Both spellings of emphasis. A markdown formatter rewrites *this* to _this_ whenever it
         # runs over ABOUT.md, so reading only the asterisks meant the page printed the underscores.
         s = re.sub(r"\*\*(.+?)\*\*", r"<b>\1</b>", s)
@@ -519,22 +582,78 @@ def about_html():
         # ...but the underscore form only between word boundaries, or `evidence_date` and
         # `order_hint` - ordinary words here - would come out with their middles in italics.
         s = re.sub(r"(?<![A-Za-z0-9_])_([^_\n]+)_(?![A-Za-z0-9_])", r"<i>\1</i>", s)
-        return s
-    out, ul = [], False
+        return re.sub(r"\x00(\d+)\x00", lambda m: f"<code>{spans[int(m.group(1))]}</code>", s)
+
+    out, ul, fence, fence_lang, table, para = [], False, None, "", [], []
+    def close_para():
+        """Consecutive prose lines are ONE paragraph, as markdown says. ABOUT.md happens to keep
+        each paragraph on a single line, so splitting per line looked right until CONTRIBUTING.md
+        arrived soft-wrapped and broke sentences in half mid-clause."""
+        if not para:
+            return
+        line = " ".join(para)
+        para.clear()
+        # The subtitle is a whole paragraph in italics, in either spelling.
+        wrapped = ((line.startswith("*") and line.endswith("*") and not line.startswith("**"))
+                   or (line.startswith("_") and line.endswith("_") and not line.startswith("__")))
+        cls = ' class="sub" style="font-style:italic"' if wrapped else ""
+        body = inline(line[1:-1]) if cls else inline(line)
+        out.append(f"<p{cls}>{body}</p>")
     def close_ul():
         nonlocal ul
+        close_para()
         if ul:
             out.append("</ul>")
             ul = False
-    for raw in src.read_text(encoding="utf-8").splitlines():
+    def close_table():
+        """A markdown table becomes a real table; the alignment row is dropped, not rendered."""
+        if not table:
+            return
+        rows = [[c.strip() for c in r.strip().strip("|").split("|")] for r in table]
+        body = [r for r in rows[1:] if not all(re.fullmatch(r":?-{2,}:?", c) for c in r)]
+        cells = "".join(f"<th>{inline(c)}</th>" for c in rows[0])
+        out.append(f"<table><thead><tr>{cells}</tr></thead><tbody>")
+        for r in body:
+            out.append("<tr>" + "".join(f"<td>{inline(c)}</td>" for c in r) + "</tr>")
+        out.append("</tbody></table>")
+        table.clear()
+
+    for raw in src.read_text(encoding="utf-8").replace("{{repo}}", REPO).splitlines():
         line = raw.rstrip()
+        # Inside a fence every line is literal, including blanks and anything that looks like syntax.
+        if fence is not None:
+            if line.startswith("```"):
+                body = highlight("\n".join(fence), fence_lang)
+                cls = f' class="lang-{fence_lang}"' if fence_lang else ""
+                out.append(f"<pre><code{cls}>{body}</code></pre>")
+                fence = None
+            else:
+                fence.append(line)
+            continue
+        if line.startswith("```"):
+            close_ul(); close_table()
+            fence, fence_lang = [], re.sub(r"[^a-z]", "", line[3:].strip().lower())
+            continue
+        if line.lstrip().startswith("|") and line.rstrip().endswith("|"):
+            close_ul(); table.append(line)
+            continue
+        close_table()
+        # A bullet continued on the next line belongs to that bullet, not to a new paragraph.
+        if ul and para == [] and raw[:1].isspace() and line.strip() and out and out[-1].endswith("</li>"):
+            out[-1] = out[-1][:-5] + " " + inline(line.strip()) + "</li>"
+            continue
         if not line.strip():
             close_ul(); continue
-        if line.startswith("## "):
+        if line.strip() in ("---", "***", "___"):
+            close_ul(); out.append("<hr>")
+        elif line.startswith("### "):
+            close_ul(); out.append(f"<h3>{inline(line[4:])}</h3>")
+        elif line.startswith("## "):
             close_ul(); out.append(f'<div class="sect">{inline(line[3:])}</div>')
         elif line.startswith("# "):
             close_ul(); out.append(f"<h2>{inline(line[2:])}</h2>")
         elif line.startswith("- "):
+            close_para()
             if not ul:
                 out.append("<ul>"); ul = True
             body = line[2:]
@@ -546,15 +665,9 @@ def about_html():
         elif line.strip() == "{{colophon}}":
             close_ul(); out.append('<p id="colophon"></p>')
         else:
-            close_ul()
-            # The subtitle is a whole line in italics, in either spelling.
-            wrapped = ((line.startswith("*") and line.endswith("*") and not line.startswith("**"))
-                       or (line.startswith("_") and line.endswith("_")
-                           and not line.startswith("__")))
-            cls = ' class="sub" style="font-style:italic"' if wrapped else ""
-            body = inline(line[1:-1]) if cls else inline(line)
-            out.append(f"<p{cls}>{body}</p>")
+            para.append(line.strip())
     close_ul()
+    close_table()
     return "\n".join(out)
 
 
@@ -601,7 +714,9 @@ def main():
                 portraits[pid] = c
     bundle = {"people": [p for p in people if "__load_error__" not in p],
               "relationships": [r for r in rels if "__load_error__" not in r],
-              "works": works, "portraits": portraits, "about": about_html(),
+              "works": works, "portraits": portraits,
+              "about": md_html(ROOT / "content" / "ABOUT.md"),
+              "contributing": md_html(ROOT / "CONTRIBUTING.md"),
               "built": date.today().isoformat()}
     out = DATA / "circle.json"
     out.write_text(json.dumps(bundle, ensure_ascii=False, separators=(",", ":")) + "\n",

@@ -1,6 +1,9 @@
 {
   "id": "whitman--wilde",
-  "people": ["whitman", "wilde"],
+  "people": [
+    "whitman",
+    "wilde"
+  ],
   "certainty": "self-reported",
   "certainty_status": "proposed",
   "certainty_reasoning": "(a) The kiss: 'The kiss of Walt Whitman is still on my lips' is transcribed from Richard Ellmann's 'Oscar Meets Walt' (NYRB, 3 Dec. 1987), read at the article page so far; Ellmann's prose attributes it as what Wilde 'would later tell George Ives' and places it at the parting of the second (early-May 1882) visit. The deeper traditional chain - Ives's diary, commonly printed in the source in McKenna 2003 and in Ellmann's 1988 biography - was NOT verified so far (both lending-only); the article's footnote text was unreachable.",
@@ -30,7 +33,7 @@
       "supports": "Wilde's side after the January Camden visit: love-and-honour declaration and stated intent to visit again before leaving America",
       "verification": "verified-elision",
       "how_verified": "pdf-text",
-      "provenance": "Repo PDF pages 167-168, printed folios 144 and 145 confirmed on rendered pages. Elisions skip the body of the quoted Swinburne letter and the request that Whitman send Swinburne his Essay on Poetry; fuller text in dossier.",
+      "provenance": "PDF pages 167-168, printed folios 144 and 145 confirmed on rendered pages. Elisions skip the body of the quoted Swinburne letter and the request that Whitman send Swinburne his Essay on Poetry; fuller text in long-form notes.",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Walt Whitman"
@@ -46,10 +49,10 @@
         "m": 1,
         "d": 18
       },
-      "supports": "The first Camden visit: 18 January 1882, Wilde taken by J. M. Stoddart. (The visit was at Whitman's invitation: 'I go to see Walt Whitman, at his invitation, tomorrow', Wilde to Mrs George Lewis, [17 January 1882], p. 128 - transcribed in dossier.)",
+      "supports": "The first Camden visit: 18 January 1882, Wilde taken by J. M. Stoddart. (The visit was at Whitman's invitation: 'I go to see Walt Whitman, at his invitation, tomorrow', Wilde to Mrs George Lewis, [17 January 1882], p. 128 - transcribed in long-form notes.)",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "Repo PDF page 167, printed folio 144 confirmed on rendered page.",
+      "provenance": "PDF page 167, printed folio 144 confirmed on rendered page.",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -67,7 +70,7 @@
       "supports": "Whitman's own next-day account of the first visit: first-name intimacy on 'thee and thou' terms, Wilde's hand on his knee, 'a great big, splendid boy'",
       "verification": "verified-exact",
       "how_verified": "web",
-      "provenance": "Whitman Archive item med.00534 ('Our transcription is based on a digital image of a microfilm copy of an original issue'), read in full via Wayback capture 20260113032354 of whitmanarchive.org/item/med.00534, page text extracted 2026-08-03. Exact against the Archive transcription; microfilm image not read. Fuller passage in dossier.",
+      "provenance": "Whitman Archive item med.00534 ('Our transcription is based on a digital image of a microfilm copy of an original issue'), read in full via Wayback capture 20260113032354 of whitmanarchive.org/item/med.00534, page text extracted 2026-08-03. Exact against the Archive transcription; microfilm image not read. Fuller passage in long-form notes.",
       "verified_on": "2026-08-03",
       "speaker": "Walt Whitman, interviewed by the Philadelphia Press",
       "voice": "period"
@@ -100,7 +103,7 @@
         "y": 1882,
         "m": 5
       },
-      "supports": "The second visit ('early in May' 1882) and the reported parting kiss, with the attribution chain as Ellmann prints it: Wilde said it later to George Ives. Deeper chain (Ives diary; in the source prints in McKenna 2003 / Ellmann 1988 bio) unverified so far - see dossier pointer.",
+      "supports": "The second visit ('early in May' 1882) and the reported parting kiss, with the attribution chain as Ellmann prints it: Wilde said it later to George Ives. Deeper chain (Ives diary; in the source prints in McKenna 2003 / Ellmann 1988 bio) unverified so far. pointer.",
       "verification": "verified-exact",
       "how_verified": "web",
       "provenance": "nybooks.com/articles/1987/12/03/oscar-meets-walt/ HTML curl-fetched 2026-08-03; passage read directly in the raw extracted page text (article free on the site). Exact as the article prints it, ending before the footnote marker.",

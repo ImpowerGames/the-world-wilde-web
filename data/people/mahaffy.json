@@ -27,7 +27,7 @@
           "supports": "What Wilde said he owed him, in the words the later editions removed.",
           "verification": "verified-exact",
           "how_verified": "pdf-image",
-          "provenance": "Repo PDF pages 613-614; printed folios 561 and 562 both confirmed on the rendered page images.",
+          "provenance": "PDF pages 613-614; printed folios 561 and 562 both confirmed on the rendered page images.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -47,7 +47,7 @@
           "supports": "The closeness at the start, against which the deletion has to be read.",
           "verification": "verified-elision",
           "how_verified": "pdf-image",
-          "provenance": "Repo PDF pages 53-54; printed folios 28 and 29 both confirmed on the rendered page images.",
+          "provenance": "PDF pages 53-54; printed folios 28 and 29 both confirmed on the rendered page images.",
           "verified_on": "2026-08-05",
           "voice": "period"
         }
@@ -65,5 +65,5 @@
   ],
   "group": "aesthete",
   "bio": "Classical scholar (1839-1919), Wilde's tutor at Trinity College Dublin and later its Provost. He took Wilde to Greece in 1877, and Wilde corrected the proofs of his Rambles and Studies in Greece and made 'improvements and corrections all through' an earlier book, Social Life in Greece from Homer to Menander (1874), for which Mahaffy thanked him by name in the preface. Social Life contained a discussion of Greek homosexuality. In later editions both that discussion and the thanks to Wilde were removed.",
-  "bio_note": "The editors state it flatly at printed 28: 'Significantly, in later editions of Social Life both the discussion of Greek homosexuality and the reference to Wilde were dropped.' TWO LETTERS at repo PDF 301 and 613-14; the 1893 one is read at the page, the earlier one is located and unread."
+  "bio_note": "The editors state it flatly at printed 28: 'Significantly, in later editions of Social Life both the discussion of Greek homosexuality and the reference to Wilde were dropped.' TWO LETTERS at PDF 301 and 613-14; the 1893 one is read at the page, the earlier one is located and unread."
 }

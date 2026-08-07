@@ -8,7 +8,9 @@
   },
   "gender": "m",
   "aka": [],
-  "bio_sources": ["letters-2000"],
+  "bio_sources": [
+    "letters-2000"
+  ],
   "context_engagements": [
     {
       "partner_name": "Oscar Wilde",
@@ -29,7 +31,7 @@
           "supports": "A plain wish to see more of someone, and to be often together.",
           "verification": "verified-exact",
           "how_verified": "pdf-image",
-          "provenance": "Repo PDF page 374; printed folio 352 confirmed on the rendered page image.",
+          "provenance": "PDF page 374; printed folio 352 confirmed on the rendered page image.",
           "verified_on": "2026-08-05",
           "voice": "period"
         }
@@ -40,5 +42,5 @@
   "sort_name": "Melvill, Harry",
   "group": "society",
   "bio": "A dandy and, by all accounts, a relentless talker - known to Jacques-Emile Blanche as 'Mr Chatterbox', the model for the central character of Osbert Sitwell's story 'The Machine Breaks Down' and caricatured as Mr Cherry-Marvel in Michael Arlen's The Green Hat. One letter from Wilde survives, from June 1888, after a country-house visit.",
-  "bio_note": "ONE LETTER at repo PDF 374, read at the page (printed 352, folios confirmed). Dates 1861-1936 from the editors' note at printed 352."
+  "bio_note": "ONE LETTER at PDF 374, read at the page (printed 352, folios confirmed). Dates 1861-1936 from the editors' note at printed 352."
 }

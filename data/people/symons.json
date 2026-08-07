@@ -8,7 +8,9 @@
   },
   "aka": [],
   "gender": "m",
-  "bio_sources": ["letters-2000"],
+  "bio_sources": [
+    "letters-2000"
+  ],
   "context_engagements": [
     {
       "partner_name": "Oscar Wilde",
@@ -30,7 +32,7 @@
           "supports": "The beginning of the acquaintance.",
           "verification": "verified-elision",
           "how_verified": "pdf-image",
-          "provenance": "Repo PDF page 477; printed folio 455 confirmed on the rendered page image.",
+          "provenance": "PDF page 477; printed folio 455 confirmed on the rendered page image.",
           "verified_on": "2026-08-06",
           "voice": "period"
         }

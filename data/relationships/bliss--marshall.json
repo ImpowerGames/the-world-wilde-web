@@ -1,6 +1,9 @@
 {
   "id": "bliss--marshall",
-  "people": ["bliss", "marshall"],
+  "people": [
+    "bliss",
+    "marshall"
+  ],
   "certainty": "married",
   "certainty_status": "proposed",
   "start": {
@@ -28,7 +31,7 @@
       "supports": "The marriage date",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "Repo PDF page 92, printed folio 76 confirmed on rendered page.",
+      "provenance": "PDF page 92, printed folio 76 confirmed on rendered page.",
       "verified_on": "2026-08-03",
       "voice": "modern"
     }

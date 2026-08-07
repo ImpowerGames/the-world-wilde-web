@@ -1,6 +1,9 @@
 {
   "id": "balcombe--wilde",
-  "people": ["balcombe", "wilde"],
+  "people": [
+    "balcombe",
+    "wilde"
+  ],
   "certainty": "self-reported",
   "certainty_status": "proposed",
   "start": {
@@ -26,7 +29,7 @@
       "supports": "The participant's own naming of what the relationship was: two sweet years, 'the sweetest of all the years of my youth', and lives whose currents 'flowed too long beside one another' to leave him indifferent",
       "verification": "verified-elision",
       "how_verified": "pdf-text",
-      "provenance": "Repo PDF pages 98-99, printed folios 71 and 72 confirmed on the rendered pages. The quoted run spans the page-turn. Elisions drop the arrangements for handing the cross back (via her sister Philippa) and his remark that she had not told him of her marriage, and, at the end, the closing sentence about never meeting again and remembering her at prayer.",
+      "provenance": "PDF pages 98-99, printed folios 71 and 72 confirmed on the rendered pages. The quoted run spans the page-turn. Elisions drop the arrangements for handing the cross back (via her sister Philippa) and his remark that she had not told him of her marriage, and, at the end, the closing sentence about never meeting again and remembering her at prayer.",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Florence Balcombe"
@@ -45,7 +48,7 @@
       "supports": "The courtship's opening, August 1876 (identification of the girl as Balcombe is the editors', marked 'almost certainly')",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "Repo PDF page 54, printed folio 29 confirmed on rendered page.",
+      "provenance": "PDF page 54, printed folio 29 confirmed on rendered page.",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Reginald Harding"
@@ -64,7 +67,7 @@
       "supports": "Wilde's retrospective avowal of having loved her, two years after the parting",
       "verification": "verified-elision",
       "how_verified": "pdf-text",
-      "provenance": "Repo PDF page 132, printed folio 107 confirmed on rendered page. Elision drops two short sentences ('Of course if you think - but you won't think she will suspect? How could she?'); full text in dossier.",
+      "provenance": "PDF page 132, printed folio 107 confirmed on rendered page. Elision drops two short sentences ('Of course if you think - but you won't think she will suspect? How could she?'); full text in long-form notes.",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Ellen Terry"
@@ -83,7 +86,7 @@
       "supports": "Cordial contact persisting to 1893, fifteen years after the parting",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "Repo PDF page 604, printed folio 552 confirmed on rendered page.",
+      "provenance": "PDF page 604, printed folio 552 confirmed on rendered page.",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Florence Balcombe Stoker"
@@ -103,7 +106,7 @@
       "supports": "The courtship at its steadiest - a year measured by a card she sent.",
       "verification": "verified-elision",
       "how_verified": "pdf-image",
-      "provenance": "Repo PDF page 93; printed folio 66 confirmed on the rendered page image.",
+      "provenance": "PDF page 93; printed folio 66 confirmed on the rendered page image.",
       "verified_on": "2026-08-06",
       "voice": "period"
     }

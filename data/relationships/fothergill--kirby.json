@@ -1,6 +1,9 @@
 {
   "id": "fothergill--kirby",
-  "people": ["fothergill", "kirby"],
+  "people": [
+    "fothergill",
+    "kirby"
+  ],
   "certainty": "married",
   "certainty_status": "proposed",
   "certainty_reasoning": "Wikipedia carries the same, naming her and not the first wife.",
@@ -17,13 +20,13 @@
       "quote": "two years after he had apparently resolved previous emotional ambivalences by marrying Kate Headley Kirby. In many respects, Kate was his salvation",
       "context": "Sox on Fothergill's turn to innkeeping at forty-six. The index entry reads 'Kirby, Kate Headley (see Fothergill), 159, 162'.",
       "work": "sox-1991",
-      "locator": "repo PDF p. 183",
+      "locator": "PDF p. 183",
       "locator_type": "page",
       "evidence_date": null,
       "supports": "The second marriage, the wife's name, and its dating relative to the Spread Eagle.",
       "verification": "verified-exact",
       "how_verified": "digital-copy",
-      "provenance": "David Sox, Bachelors of Art (1991), read in the repo TEXT MIRROR of the PDF on 2026-08-05, not at a rendered page image. The locator is the repo PDF page; the printed folio was not confirmed on an image for this passage, which is a weaker provenance than the rest of this module's Sox citations and is flagged as such.",
+      "provenance": "David Sox, Bachelors of Art (1991), read in the repo TEXT MIRROR of the PDF on 2026-08-05, not at a rendered page image. The locator is PDF page; the printed folio was not confirmed on an image for this passage, which is a weaker provenance than the rest of this module's Sox citations and is flagged as such.",
       "verified_on": "2026-08-05",
       "voice": "modern",
       "order_hint": {

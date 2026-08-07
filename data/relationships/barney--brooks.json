@@ -1,6 +1,9 @@
 {
   "id": "barney--brooks",
-  "people": ["barney", "brooks"],
+  "people": [
+    "barney",
+    "brooks"
+  ],
   "certainty": "self-reported",
   "certainty_status": "proposed",
   "start": {
@@ -22,7 +25,7 @@
       "supports": "The dated meeting, the ages as the page states them, and the names they used for each other.",
       "verification": "verified-exact",
       "how_verified": "pdf-image",
-      "provenance": "Repo PDF page 171; printed folio 137 confirmed on the rendered page image.",
+      "provenance": "PDF page 171; printed folio 137 confirmed on the rendered page image.",
       "verified_on": "2026-08-05",
       "voice": "modern"
     },
@@ -37,7 +40,7 @@
       "supports": "Barney's own declaration of love for Brooks - the participant testimony this connection's class rests on.",
       "verification": "verified-exact",
       "how_verified": "pdf-image",
-      "provenance": "Repo PDF page 171; printed folio 137 confirmed on the rendered page image. The sentence is printed inside Souhami's narration and is quoted here alone, so that what stands as the quotation is entirely in Barney's voice.",
+      "provenance": "PDF page 171; printed folio 137 confirmed on the rendered page image. The sentence is printed inside Souhami's narration and is quoted here alone, so that what stands as the quotation is entirely in Barney's voice.",
       "verified_on": "2026-08-05",
       "voice": "period"
     }

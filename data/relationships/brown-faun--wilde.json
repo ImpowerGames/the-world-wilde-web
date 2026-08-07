@@ -1,6 +1,9 @@
 {
   "id": "brown-faun--wilde",
-  "people": ["brown-faun", "wilde"],
+  "people": [
+    "brown-faun",
+    "wilde"
+  ],
   "certainty": "self-reported",
   "certainty_status": "proposed",
   "start": {
@@ -32,7 +35,7 @@
       "how_verified": "pdf-text",
       "voice": "period",
       "verified_on": "2026-08-04",
-      "provenance": "Repo PDF page 1242, printed folio 1196 confirmed at the foot of the rendered page. 'Cafe d'Egypte' carries an acute accent in the printed text; accents normalised here. The letter is incomplete and descends from a printed memoir and a saleroom catalogue rather than a manuscript - see the editors' footnote 1 on the same page.",
+      "provenance": "PDF page 1242, printed folio 1196 confirmed at the foot of the rendered page. 'Cafe d'Egypte' carries an acute accent in the printed text; accents normalised here. The letter is incomplete and descends from a printed memoir and a saleroom catalogue rather than a manuscript - see the editors' footnote 1 on the same page.",
       "addressee": "Leonard Smithers"
     }
   ]

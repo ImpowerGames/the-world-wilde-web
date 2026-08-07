@@ -8,13 +8,13 @@ A map of the documented romantic and sexual relationships in Oscar Wilde's socia
 
 ## Reading the map
 
-Node **colour ** groups people by sphere (Wilde, aesthetes, the 1895 trials, society, spouse, the Order of Chaeronea, the later circle, outside the circle, beyond Europe). Node **shape** marks the subject's legally recognized gender in the genogram convention — **squares for men, circles for women**. Line **style** carries the certainty of each connection, below.
+Node **color ** groups people by sphere (Wilde, aesthetes, the 1895 trials, society, spouse, the Order of Chaeronea, the later circle, outside the circle, beyond Europe). Node **shape** marks the subject's legally recognized gender in the genogram convention — **squares for men, circles for women**. Line **style** carries the certainty of each connection, below.
 
 **Outside the circle** collects those who were never part of the propertied social world the rest of this map describes — a fisherman at Napoule, a waiter at the Café d'Égypte, a soldier in Reading Gaol, a servant who waited at table in a Paris boarding house. Most survive only under a first name, a nickname, or no name at all. They are here because the record of a life should not depend on its subject's status or class.
 
 ## Narrowing the map
 
-Every switch in the legend can be clicked to turn its category off. **Right-click to solo that category** — every other switch in the same row will turn off, and the one you picked will light up. Click it again, and the row goes back to how it was. Each row is independent, so soloing a sphere leaves Gender and Connections alone. The sphere chip above a person's name does the same thing for their sphere.
+Every switch in the legend can be clicked to turn its category off. **Right-click to solo that category** — every other switch in the same row will turn off, and the one you picked will light up. Click it again, and the row goes back to how it was. Each row is independent, so soloing a Sphere leaves Gender and Connections alone. The sphere chip above a person's name does the same thing for their sphere.
 
 ## How a connection is evidenced (line styles)
 
@@ -32,7 +32,9 @@ Every classification is checked by hand against the sources before it is relied 
 
 Every quote carries a chip saying how far it has been checked. **⧖** means **not yet confirmed on the printed page** — either a passage found in a text search or index but not yet checked against the source page, or a **source pointer**: a claim recorded with nothing transcribed yet, naming only where to look.
 
-These chips describe the _research_ pass, not a final scholarly verdict. A separate audit runs by hand through a ledger kept beside the data, where each quotation is checked against the page it came from to characterize the connection. Not all connections are currently accurate. They may shift as more information is uncovered. And characterization will always remain somewhat inconclusive, as the classification of relationships is an inherently subjective endeavour. The goal of the project is to provide sources depicting warmth and affection in an easily searchable way, not to definitively prove things one way or another. The reader is welcome draw their own conclusions and contribute their own sources by opening a ticket in our open-source repository.
+These chips describe the _research_ pass, not a final scholarly verdict. A separate audit runs by hand through a ledger kept beside the data, where each quotation is checked against the page it came from to characterize the connection.
+
+Not all connections are currently accurate. They may shift as more information is uncovered. And characterization will always remain somewhat inconclusive, as the classification of relationships is an inherently subjective endeavour. The goal of the project is to provide sources depicting warmth and affection in an easily searchable way, not to definitively prove things one way or another. The reader is welcome draw their own conclusions and contribute their own sources by [opening a ticket]({{repo}}/issues/new/choose).
 
 ## A note on the trial record
 

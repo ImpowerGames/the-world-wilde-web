@@ -5,7 +5,9 @@
   "gender": "m",
   "aka": [],
   "group": "liaisons",
-  "bio_sources": ["letters-2000"],
+  "bio_sources": [
+    "letters-2000"
+  ],
   "context_engagements": [
     {
       "partner_name": "Oscar Wilde",
@@ -26,7 +28,7 @@
           "supports": "That Wilde replaced one young Roman with his best friend, and said so plainly.",
           "verification": "verified-exact",
           "how_verified": "pdf-image",
-          "provenance": "Repo PDF page 1228; printed folio 1182 confirmed on the rendered page image.",
+          "provenance": "PDF page 1228; printed folio 1182 confirmed on the rendered page image.",
           "verified_on": "2026-08-06",
           "voice": "period"
         }

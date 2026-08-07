@@ -1,6 +1,9 @@
 {
   "id": "gilbert--wilde",
-  "people": ["gilbert", "wilde"],
+  "people": [
+    "gilbert",
+    "wilde"
+  ],
   "certainty": "self-reported",
   "certainty_status": "proposed",
   "start": {
@@ -28,7 +31,7 @@
       "supports": "Wilde's plainest first-person statement of the attachment - 'He grows dearer to me daily' - set in the daily domestic texture (the bank errand, the two-franc dinners)",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "Repo PDF page 1077, printed folio 1031 confirmed on the rendered page.",
+      "provenance": "PDF page 1077, printed folio 1031 confirmed on the rendered page.",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Leonard Smithers"
@@ -43,7 +46,7 @@
       "supports": "Gilbert's identity and the editors' own characterization of the friendship; the sum of what the editors say is knowable about him",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "Repo PDF page 1071, printed folio 1025 confirmed on the rendered page. Whole footnote, both sentences.",
+      "provenance": "PDF page 1071, printed folio 1025 confirmed on the rendered page. Whole footnote, both sentences.",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -61,7 +64,7 @@
       "supports": "The amorous turn inside the comic bezique register - Wilde's own 'lost my heart', staked on a side-game",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "Repo PDF page 1077, printed folio 1031 confirmed on the rendered page; the letter opens on printed 1030 (PDF 1076, folio confirmed). En-dashes as printed.",
+      "provenance": "PDF page 1077, printed folio 1031 confirmed on the rendered page; the letter opens on printed 1030 (PDF 1076, folio confirmed). En-dashes as printed.",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Leonard Smithers"
@@ -80,7 +83,7 @@
       "supports": "Gilbert as the single exemption from Wilde's misery in this stretch - 'sweeter than ever'",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "Repo PDF page 1080, printed folio 1034 confirmed on the rendered page. En-dashes as printed.",
+      "provenance": "PDF page 1080, printed folio 1034 confirmed on the rendered page. En-dashes as printed.",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Leonard Smithers"
@@ -101,7 +104,7 @@
       "verification": "verified-exact",
       "how_verified": "pdf-image",
       "verified_on": "2026-08-04",
-      "provenance": "Repo PDF p. 1130 rendered and; folio 1084 printed at the foot. 'early' and 'oeufs à l'aurore' are italic in the printing.",
+      "provenance": "PDF p. 1130 rendered and; folio 1084 printed at the foot. 'early' and 'oeufs à l'aurore' are italic in the printing.",
       "addressee": "Maurice Gilbert"
     },
     {
@@ -118,7 +121,7 @@
       "supports": "Wilde's own register about Gilbert in a letter to a third party - affectionate, possessive and communal at once.",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "Repo PDF p. 1119 read as a rendered page image 2026-08-04; printed folio 1073 confirmed at the foot of the image (offset +46 in this region, consistent with the works.json warning that it is not constant).",
+      "provenance": "PDF p. 1119 read as a rendered page image 2026-08-04; printed folio 1073 confirmed at the foot of the image (offset +46 in this region, consistent with the works.json warning that it is not constant).",
       "verified_on": "2026-08-04",
       "speaker": "Oscar Wilde",
       "addressee": "Robert Ross",

@@ -1,6 +1,9 @@
 {
   "id": "ricketts--shannon",
-  "people": ["ricketts", "shannon"],
+  "people": [
+    "ricketts",
+    "shannon"
+  ],
   "certainty": "self-reported",
   "certainty_status": "proposed",
   "certainty_reasoning": "The single most explicit surviving characterisation of the partnership by either participant is Ricketts's, written to John Gray in late 1929 and read at the page in Delaney p. 389: the trial of Shannon's injury \"is small compared to the forty years of perfect companionship I have enjoyed\". Matt Cook's chapter on their households is built on the same letters, journals and diary, and Cook states the point outright - the bond \"was articulated by the men themselves and by their circle of friends\". Cook records that neither man described himself as homosexual, Uranian or inverted, that neither alluded to sex between them, and that Ricketts's biographer J. Delaney reads Shannon as basically heterosexual on the strength of his affairs with women and his more-than-once contemplated marriage; Cook's own position is that \"Even if this couple did not have a sexual relationship (which is possible), that should not detract from the strength of their connection and intimacy\".",
@@ -25,7 +28,7 @@
       "supports": "Ricketts, in his own words, naming the relationship as forty years of companionship - the class-deciding participant testimony, now read at the page of the book that carries it rather than through a historian's quotation of it.",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "Repo PDF p. 417 read as a rendered page image 2026-08-04; printed folio 389 confirmed in the running head on the image, and the quotation and endnote 55 both re-read at 420 dpi to settle the spelling (offset: printed = PDF - 28, also confirmed at PDF 416 = printed 388). Superscript endnote marker 55 omitted as typography; Delaney's enclosing single quotation marks dropped.",
+      "provenance": "PDF p. 417 read as a rendered page image 2026-08-04; printed folio 389 confirmed in the running head on the image, and the quotation and endnote 55 both re-read at 420 dpi to settle the spelling (offset: printed = PDF - 28, also confirmed at PDF 416 = printed 388). Superscript endnote marker 55 omitted as typography; Delaney's enclosing single quotation marks dropped.",
       "verified_on": "2026-08-04",
       "speaker": "Charles Ricketts, letter to John Gray",
       "addressee": "John Gray",
@@ -63,12 +66,12 @@
       "supports": "A historian's reading of the partnership's last years - retained alongside the two underlying letters so that the compression is visible in the record rather than inherited from it.",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "Repo PDF p. 65 read as a rendered page image 2026-08-03; printed folio 52 confirmed on the image (chapter-1 offset: printed = PDF - 13, NOT the -11 recorded in works.json for ch. 3). Superscript endnote markers 150 and 151 omitted as typography. Re-examined 2026-08-04: the two quoted fragments were traced to their own sources (Self-Portrait p. 342 and Delaney p. 389) and found to be seven years apart.",
+      "provenance": "PDF p. 65 read as a rendered page image 2026-08-03; printed folio 52 confirmed on the image (chapter-1 offset: printed = PDF - 13, NOT the -11 recorded in works.json for ch. 3). Superscript endnote markers 150 and 151 omitted as typography. Re-examined 2026-08-04: the two quoted fragments were traced to their own sources (Self-Portrait p. 342 and Delaney p. 389) and found to be seven years apart.",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
     {
-      "quote": "Ricketts wrote romantically from Florence: 'Dear Old Chap [...] At each meal time they plonk down a plate of strawberries which make me think of you – no, this is not quite accurate. I really think of the strawberries. Only when they are done, \"I think of thee.\"'",
+      "quote": "Ricketts wrote romantically from Florence: 'Dear Old Chap [.] At each meal time they plonk down a plate of strawberries which make me think of you – no, this is not quite accurate. I really think of the strawberries. Only when they are done, \"I think of thee.\"'",
       "context": "Cook, Queer Domesticities (2014), ch. 1, in a run of quotations from the two men's letters and diaries. The bracketed ellipsis is Cook's, not ours. \"I think of thee\" is a quotation-within-the-quotation in Ricketts's letter. The addressee is Shannon. **! Cook's transcription diverges from the printed letter.** Self-Portrait p. 96 (Ricketts to Shannon, 1903, from Vienna) reads \"At each meal they plank down a plate of strawberries which makes me think of you\" - \"plank\", not \"plonk\"; \"makes\", not \"make\"; and no \"meal time\". \"Old Chap\" stands in the sign-off (\"Yours, Old Chap, C. R.\"), not the salutation, so Cook's bracketed ellipsis is carrying a move from the foot of the letter to its head. Confirmed against HathiTrust uc1.$b73973 on 2026-08-04: \"plank down a plate\" returns scan #126 = printed p. 96; \"plonk down a plate\" returns no results.",
       "work": "cook-2014",
       "locator": "p. 48",
@@ -77,7 +80,7 @@
       "supports": "Ricketts writing to Shannon in the register Cook calls romantic - participant testimony, one man to the other.",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "Repo PDF p. 61 read as a rendered page image 2026-08-03; printed folio 48 confirmed on the image. Superscript endnote marker 111 omitted as typography.",
+      "provenance": "PDF p. 61 read as a rendered page image 2026-08-03; printed folio 48 confirmed on the image. Superscript endnote marker 111 omitted as typography.",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -93,7 +96,7 @@
       "supports": "Both participants, in their own hands, treating money, purchases and life as jointly held.",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "Repo PDF p. 61 read as a rendered page image 2026-08-03; printed folio 48 confirmed on the image. Superscript endnote marker 114 omitted as typography.",
+      "provenance": "PDF p. 61 read as a rendered page image 2026-08-03; printed folio 48 confirmed on the image. Superscript endnote marker 114 omitted as typography.",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -107,7 +110,7 @@
       "supports": "The classification warrant - the men themselves are the source - together with the explicit limit of what survives.",
       "verification": "verified-elision",
       "how_verified": "pdf-text",
-      "provenance": "Repo PDF pp. 46-47 read as rendered page images 2026-08-03; printed folios 33 and 34 confirmed on the images. Superscript endnote markers 26, 27 omitted as typography; one intervening sentence elided with a spaced ellipsis.",
+      "provenance": "PDF pp. 46-47 read as rendered page images 2026-08-03; printed folios 33 and 34 confirmed on the images. Superscript endnote markers 26, 27 omitted as typography; one intervening sentence elided with a spaced ellipsis.",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -121,7 +124,7 @@
       "supports": "That the sexual character of the partnership is disputed among specialists and unsettled - and that the connection itself is not.",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "Repo PDF p. 47 read as a rendered page image 2026-08-03; printed folio 34 confirmed on the image. Superscript endnote markers 30, 31 omitted as typography.",
+      "provenance": "PDF p. 47 read as a rendered page image 2026-08-03; printed folio 34 confirmed on the image. Superscript endnote markers 30, 31 omitted as typography.",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -137,7 +140,7 @@
       "supports": "Both men's dates and the shared household, stated as plain fact by Wilde's editors; and the date the pair entered Wilde's circle.",
       "verification": "verified-elision",
       "how_verified": "pdf-text",
-      "provenance": "Repo PDF pp. 432-433 read as rendered page images 2026-08-03; printed folios 410 and 411 confirmed on the images (early offset +22). En-dashes as printed.",
+      "provenance": "PDF pp. 432-433 read as rendered page images 2026-08-03; printed folios 410 and 411 confirmed on the images (early offset +22). En-dashes as printed.",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -151,7 +154,7 @@
       "supports": "A biographer's plain assertion that the two fell in love - the strongest such statement located so far, and the weakest kind of evidence in this record.",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "Repo PDF p. 190 read as a rendered page image 2026-08-03; no printed folio or running head on the page (ebook conversion), so the locator is the PDF page per the works.json instruction. The conversion renders opening single quotes as backticks; normalised to typographic quotation marks.",
+      "provenance": "PDF p. 190 read as a rendered page image 2026-08-03; no printed folio or running head on the page (ebook conversion), so the locator is PDF page per the works.json instruction. The conversion renders opening single quotes as backticks; normalised to typographic quotation marks.",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -189,7 +192,7 @@
       "voice": "period"
     },
     {
-      "quote": "Then, a little more than a fortnight ago, Shannon met with a serious accident... Please do not write to express sympathy; this is unnecessary and painful to both, and well-meaning friends have added to the sadness of the situation. … Should all go well, and should we meet again, do not mention any of these facts to Shannon; he will probably never be told how dangerous his case has been. For the moment, my dear friend, don't ask me to write more. I am being well cared for, but have gone through a great deal during these tragic days.",
+      "quote": "Then, a little more than a fortnight ago, Shannon met with a serious accident. Please do not write to express sympathy; this is unnecessary and painful to both, and well-meaning friends have added to the sadness of the situation. … Should all go well, and should we meet again, do not mention any of these facts to Shannon; he will probably never be told how dangerous his case has been. For the moment, my dear friend, don't ask me to write more. I am being well cared for, but have gone through a great deal during these tragic days.",
       "context": "Ricketts to R. N. R. Holst, Townshend House, 29 January 1929 - the Dutch artist Richard Roland Holst. The four suspension points after \"a serious accident\" are the volume's own elision, not ours; ours is the spaced one. **! This letter, not the letter to Cecil Lewis on the preceding page, is the source of \"do not mention any of these facts to Shannon\" and \"gone through a great deal during these tragic days\".** An earlier version of this record joined the two letters with a single ellipsis and credited the whole to Lewis.",
       "work": "ricketts-self-portrait-1939",
       "locator": "p. 410",

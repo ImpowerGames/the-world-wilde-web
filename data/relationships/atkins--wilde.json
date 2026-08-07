@@ -1,6 +1,9 @@
 {
   "id": "atkins--wilde",
-  "people": ["atkins", "wilde"],
+  "people": [
+    "atkins",
+    "wilde"
+  ],
   "certainty": "uncorroborated",
   "certainty_status": "proposed",
   "start": {
@@ -146,7 +149,7 @@
       "supports": "Wilde's retrospective characterization ('wretched perjured Atkins') and his counter-claim that the testimony transferred someone else's doings onto him",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "repo PDF 'Complete Letters' (Fourth Estate 2000), PDF p. 765 = printed p. 714 (folio confirmed on rendered page)",
+      "provenance": "PDF 'Complete Letters' (Fourth Estate 2000), PDF p. 765 = printed p. 714 (folio confirmed on rendered page)",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Lord Alfred Douglas"

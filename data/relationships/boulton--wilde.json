@@ -1,6 +1,9 @@
 {
   "id": "boulton--wilde",
-  "people": ["boulton", "wilde"],
+  "people": [
+    "boulton",
+    "wilde"
+  ],
   "certainty": "attraction-expressed",
   "certainty_status": "proposed",
   "direction": "wilde",
@@ -31,7 +34,7 @@
       "supports": "Wilde jealous of a young man's preference for someone else, and italicising it.",
       "verification": "verified-elision",
       "how_verified": "pdf-image",
-      "provenance": "Repo PDF page 93; printed folio 66 confirmed on the rendered page image.",
+      "provenance": "PDF page 93; printed folio 66 confirmed on the rendered page image.",
       "verified_on": "2026-08-05",
       "voice": "period"
     }

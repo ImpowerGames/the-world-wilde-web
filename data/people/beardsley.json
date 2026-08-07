@@ -12,7 +12,9 @@
   "group": "aesthete",
   "gender": "m",
   "bio": "Artist (1872-98). He was working in an insurance office until 1892; his drawings were first published in February 1893, he illustrated the English Salomé, and he was art editor of the Yellow Book and then the Savoy before dying of tuberculosis at twenty-five. One letter from Wilde to him survives - an invitation to dinner at Kettner's with Robert Ross - but the warmer document is an inscription Wilde wrote in a copy of Salomé in March 1893: 'For Aubrey: for the only artist who, besides myself, knows what the dance of the seven veils is, and can see that invisible dance.'",
-  "bio_sources": ["letters-2000"],
+  "bio_sources": [
+    "letters-2000"
+  ],
   "bio_note": "the volume's General Index. THE EDITORS NOTE THE LETTER IS 'APPARENTLY THE ONLY SURVIVING LETTER FROM WILDE TO BEARDSLEY' and that it cannot be dated within six months - they include it anyway for that reason, which is worth recording as an editorial decision. HIS OWN INDEX ENTRY RECORDS A COOLING: 'his dislike of W' (printed 919n) at Dieppe in 1897, alongside his being supported by [[raffalovich]] and his connection to [[smithers]], who published the Savoy. Those folios are unread and the falling-out is not documented here.",
   "context_engagements": [
     {
@@ -34,7 +36,7 @@
           "supports": "The only surviving letter, and that Wilde, Ross and Beardsley dined together.",
           "verification": "verified-exact",
           "how_verified": "pdf-image",
-          "provenance": "Repo PDF page 630; printed folio 578 confirmed on the rendered page image.",
+          "provenance": "PDF page 630; printed folio 578 confirmed on the rendered page image.",
           "verified_on": "2026-08-06",
           "voice": "period"
         },
@@ -53,7 +55,7 @@
           "supports": "What Wilde thought Beardsley alone could see.",
           "verification": "verified-exact",
           "how_verified": "pdf-image",
-          "provenance": "Repo PDF page 630; printed folio 578 confirmed on the rendered page image.",
+          "provenance": "PDF page 630; printed folio 578 confirmed on the rendered page image.",
           "verified_on": "2026-08-06",
           "voice": "period"
         }

@@ -6,9 +6,13 @@
   "died": {
     "y": 1915
   },
-  "aka": ["Stuart Fitzrandolph Merrill"],
+  "aka": [
+    "Stuart Fitzrandolph Merrill"
+  ],
   "gender": "m",
-  "bio_sources": ["letters-2000"],
+  "bio_sources": [
+    "letters-2000"
+  ],
   "context_engagements": [
     {
       "partner_name": "Oscar Wilde",
@@ -29,7 +33,7 @@
           "supports": "The whole of the correspondence, and the Paris circle it sits in.",
           "verification": "verified-exact",
           "how_verified": "pdf-image",
-          "provenance": "Repo PDF page 520; printed folio 500 confirmed on the rendered page image.",
+          "provenance": "PDF page 520; printed folio 500 confirmed on the rendered page image.",
           "verified_on": "2026-08-06",
           "voice": "period"
         }

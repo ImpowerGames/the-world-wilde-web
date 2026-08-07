@@ -1,0 +1,4 @@
+# Blank issues stay on. The forms cover what we expect; they should not be a fence around
+# everything else, and a scholar with something that fits none of them should still be able to
+# say it.
+blank_issues_enabled: true

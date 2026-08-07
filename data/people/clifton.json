@@ -8,8 +8,10 @@
   "group": "aesthete",
   "gender": "m",
   "bio": "A solicitor and friend of Wilde's from the 1880s, later a director of the Carfax Gallery. Seven of Wilde's letters to him survive. He was among the small number of people Wilde asked to dinner to meet other friends, and one of the letters is Wilde going over a poem of his line by line.",
-  "bio_sources": ["letters-2000"],
-  "bio_note": "SEVEN LETTERS at repo PDF 396, 404, 407, 432, 482, 483 and 537; TWO read at the page (printed 410 and 463, folios confirmed). DATES NOT RECORDED and none inferred.",
+  "bio_sources": [
+    "letters-2000"
+  ],
+  "bio_note": "SEVEN LETTERS at PDF 396, 404, 407, 432, 482, 483 and 537; TWO read at the page (printed 410 and 463, folios confirmed). DATES NOT RECORDED and none inferred.",
   "context_engagements": [
     {
       "partner_name": "Oscar Wilde",
@@ -31,7 +33,7 @@
           "supports": "Wilde refusing the vocabulary of moral censure, in private, four years before it was used on him.",
           "verification": "verified-exact",
           "how_verified": "pdf-image",
-          "provenance": "Repo PDF page 483; printed folio 463 confirmed on the rendered page image.",
+          "provenance": "PDF page 483; printed folio 463 confirmed on the rendered page image.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -51,7 +53,7 @@
           "supports": "The everyday footing of the friendship.",
           "verification": "verified-elision",
           "how_verified": "pdf-image",
-          "provenance": "Repo PDF page 432; printed folio 410 confirmed on the rendered page image.",
+          "provenance": "PDF page 432; printed folio 410 confirmed on the rendered page image.",
           "verified_on": "2026-08-05",
           "voice": "period"
         }

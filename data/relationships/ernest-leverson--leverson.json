@@ -1,6 +1,9 @@
 {
   "id": "ernest-leverson--leverson",
-  "people": ["ernest-leverson", "leverson"],
+  "people": [
+    "ernest-leverson",
+    "leverson"
+  ],
   "certainty": "married",
   "certainty_status": "proposed",
   "date_label": "Married; dates not established here",
@@ -21,7 +24,7 @@
       "supports": "That the debt was to a married couple, not to one of them.",
       "verification": "verified-exact",
       "how_verified": "pdf-image",
-      "provenance": "Repo PDF page 701; printed folio 650 confirmed on the rendered page image.",
+      "provenance": "PDF page 701; printed folio 650 confirmed on the rendered page image.",
       "verified_on": "2026-08-05",
       "voice": "period"
     },
@@ -41,7 +44,7 @@
       "supports": "That he was there at the other end of it as well.",
       "verification": "verified-elision",
       "how_verified": "pdf-image",
-      "provenance": "Repo PDF page 895; printed folio 845 confirmed on the rendered page image.",
+      "provenance": "PDF page 895; printed folio 845 confirmed on the rendered page image.",
       "verified_on": "2026-08-05",
       "voice": "period"
     }

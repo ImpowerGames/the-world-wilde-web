@@ -1,0 +1,69 @@
+name: Deploy to Pages
+
+# The site is built here rather than committed. data/circle.json is generated from the per-entity
+# files under data/, and committing it would put a 1.2 MB blob in the way of every pull request:
+# two contributors adding two different people would both rewrite it and conflict, which is the
+# thing one-file-per-entity exists to prevent.
+#
+# Requires the repository's Pages source to be set to "GitHub Actions" (Settings -> Pages), not
+# to a branch. On a branch source this workflow's output is ignored and the live site has no data.
+
+on:
+  push:
+    branches: [main, master]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Let a running deploy finish rather than cancelling it: a half-published site is worse than a
+# slightly stale one.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # No dependencies: validate.py is standard library only, by design.
+      - name: Build and validate the data bundle
+        run: python tools/validate.py
+
+      - name: Stage the site
+        # Explicit about what gets published. tools/ and the workflows are how the site is built,
+        # not part of it, and .git has no business on a web server.
+        run: |
+          mkdir -p _site
+          rsync -a \
+            --exclude='.git' \
+            --exclude='.github' \
+            --exclude='tools' \
+            --exclude='__pycache__' \
+            ./ _site/
+          test -f _site/data/circle.json
+          test -f _site/CNAME
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

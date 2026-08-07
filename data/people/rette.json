@@ -2,7 +2,9 @@
   "id": "rette",
   "name": "Adolphe Retté",
   "sort_name": "Retté, Adolphe",
-  "aka": ["Adolphe Rette"],
+  "aka": [
+    "Adolphe Rette"
+  ],
   "born": {
     "y": 1863
   },
@@ -12,7 +14,9 @@
   "group": "beyond",
   "gender": "m",
   "bio": "Symbolist poet (1863-1910), and one of the three Frenchmen who went over the French of Salomé before it was printed. In Le Symbolisme, Anecdotes et Souvenirs (1903) he described what he did to it: struck out the over-formal anglicisms, marked corrections in the margin, and made Wilde cut a long list of jewels from Herod's mouth. Wilde asked him to dinner through Stuart Merrill in the winter of 1891.",
-  "bio_sources": ["letters-2000"],
+  "bio_sources": [
+    "letters-2000"
+  ],
   "bio_note": "The General Index entry reads 'Retté, Adolphe, 500, 506n', and 506n carries a page of his own first-hand account of working on Salomé, plus Merrill corroborating it.",
   "context_engagements": [
     {
@@ -35,7 +39,7 @@
           "supports": "What Retté actually did to Salomé, in his own words.",
           "verification": "verified-elision",
           "how_verified": "pdf-image",
-          "provenance": "Repo PDF page 526; printed folio 506 confirmed on the rendered page image.",
+          "provenance": "PDF page 526; printed folio 506 confirmed on the rendered page image.",
           "verified_on": "2026-08-06",
           "voice": "period"
         }

@@ -1,6 +1,9 @@
 {
   "id": "pollitt--wilde",
-  "people": ["pollitt", "wilde"],
+  "people": [
+    "pollitt",
+    "wilde"
+  ],
   "certainty": "attraction-expressed",
   "certainty_status": "proposed",
   "direction": "wilde",
@@ -27,7 +30,7 @@
       "supports": "The size of the surviving corpus - four Wilde-to-Pollitt letters - and the editors' correction of the misspelling to Wilde's account rather than Pollitt's",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "Repo PDF page 1166, printed folio 1120 confirmed on the rendered page. Whole footnote.",
+      "provenance": "PDF page 1166, printed folio 1120 confirmed on the rendered page. Whole footnote.",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -41,7 +44,7 @@
       "supports": "The misspelling itself, as Wilde wrote it on the envelope - 'Pollit' for 'Pollitt' - and the fact that Wilde addressed him by the preferred Christian name Jerome at his Kendal house",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "Repo PDF page 1162, printed folio 1116 confirmed on the rendered page. Second sentence of the two-sentence footnote; the first sentence is the cross-reference.",
+      "provenance": "PDF page 1162, printed folio 1116 confirmed on the rendered page. Second sentence of the two-sentence footnote; the first sentence is the cross-reference.",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -59,7 +62,7 @@
       "supports": "THE CLASS-DECIDING FACT: five weeks into the correspondence and holding two photographs, Wilde still had to ask a third party what Pollitt looked like - the two had not met",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "Repo PDF page 1163, printed folio 1117 confirmed on the rendered page.",
+      "provenance": "PDF page 1163, printed folio 1117 confirmed on the rendered page.",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Leonard Smithers"
@@ -75,10 +78,10 @@
         "m": 11,
         "d": 26
       },
-      "supports": "THE DIRECTION-DECIDING FACT: the photograph traffic is opened by Wilde, unprompted, in the first letter - correcting the earlier record dossier's note that it was Pollitt-initiated",
+      "supports": "THE DIRECTION-DECIDING FACT: the photograph traffic is opened by Wilde, unprompted, in the first letter - correcting the earlier record long-form notes's note that it was Pollitt-initiated",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "Repo PDF page 1149, printed folio 1103 confirmed on the rendered page.",
+      "provenance": "PDF page 1149, printed folio 1103 confirmed on the rendered page.",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Herbert Charles Pollitt"
@@ -93,7 +96,7 @@
       "supports": "The Green Window as a real house rather than a conceit - the running private reference in the correspondence",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "Repo PDF page 1153, printed folio 1107 confirmed on the rendered page; carried forward with its original provenance.",
+      "provenance": "PDF page 1153, printed folio 1107 confirmed on the rendered page; carried forward with its original provenance.",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -111,7 +114,7 @@
       "supports": "The sustained request-and-comment pattern on which the direction rests; recorded as description because the passages are the flirtatious core of the correspondence",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "Repo PDF pages 1152-1153, printed folios 1106 and 1107 read off the rendered pages; the editors' footnote marker after 'Hollyer' is dropped.",
+      "provenance": "PDF pages 1152-1153, printed folios 1106 and 1107 read off the rendered pages; the editors' footnote marker after 'Hollyer' is dropped.",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Herbert Charles Pollitt"
@@ -131,7 +134,7 @@
       "supports": "Wilde on Pollitt's goldness, and telling him where not to stay.",
       "verification": "verified-elision",
       "how_verified": "pdf-image",
-      "provenance": "Repo PDF page 1153; printed folio 1107 confirmed on the rendered page image.",
+      "provenance": "PDF page 1153; printed folio 1107 confirmed on the rendered page image.",
       "verified_on": "2026-08-06",
       "voice": "period"
     }

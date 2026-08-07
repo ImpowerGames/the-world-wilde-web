@@ -1,6 +1,9 @@
 {
   "id": "dowson--wilde",
-  "people": ["dowson", "wilde"],
+  "people": [
+    "dowson",
+    "wilde"
+  ],
   "certainty": "attraction-expressed",
   "certainty_status": "proposed",
   "direction": "wilde",
@@ -19,7 +22,7 @@
   "sources": [
     {
       "quote": "There is a fatality about our being together that is astounding – or rather quite probable. Had I stayed at Arques I should have given up all hopes of ever separating from you. Why are you so persistently and perversely wonderful? … I suppose I shall see you in ten minutes from this. I am looking out for the green costume that goes so well with your dark hyacinth locks. … Now I am alive, and all is perfect, except your absence. Tout à toi",
-      "context": "Wilde to Ernest Dowson, [? 16 June 1897], Café Suisse, Dieppe (MS Maguire); signed SEBASTIAN MELMOTH. Elisions drop the servant anecdote, the paragraph on Thompson and Socrates, the line 'Come with vine-leaves in your hair' (the editors gloss it to Ibsen's Hedda Gabler), and the first half of the Pernod sentence. Full letter in the dossier. 'Hyacinth' is Wilde's Douglas register: cf. Wilde to Douglas, 'Hyacinthus, whom Apollo loved so madly, was you in Greek days' (Complete Letters p. 544, cited at Frankel p. 328 n. 30).",
+      "context": "Wilde to Ernest Dowson, [? 16 June 1897], Café Suisse, Dieppe (MS Maguire); signed SEBASTIAN MELMOTH. Elisions drop the servant anecdote, the paragraph on Thompson and Socrates, the line 'Come with vine-leaves in your hair' (the editors gloss it to Ibsen's Hedda Gabler), and the first half of the Pernod sentence. Full letter. 'Hyacinth' is Wilde's Douglas register: cf. Wilde to Douglas, 'Hyacinthus, whom Apollo loved so madly, was you in Greek days' (Complete Letters p. 544, cited at Frankel p. 328 n. 30).",
       "work": "letters-2000",
       "locator": "p. 901",
       "locator_type": "page",
@@ -31,7 +34,7 @@
       "supports": "Wilde's own most explicit statement of attachment to Dowson: inseparability, a compliment on Dowson's hair in the mythological register he used for Douglas, absence as the single flaw in the day, and 'Tout à toi'. This is also the letter Sox is quoting for both 'the green costume' and 'dark hyacinth locks'.",
       "verification": "verified-elision",
       "how_verified": "pdf-text",
-      "provenance": "Repo PDF page 951, printed folio 901 confirmed on the rendered page. Three elisions marked with spaced ellipses; nothing omitted alters the sense of what is quoted. The editors reproduce a photograph of Dowson in the unfoliated plate section (repo PDF 600, plate 85) captioned with the first sentence of this passage.",
+      "provenance": "PDF page 951, printed folio 901 confirmed on the rendered page. Three elisions marked with spaced ellipses; nothing omitted alters the sense of what is quoted. The editors reproduce a photograph of Dowson in the unfoliated plate section (PDF 600, plate 85) captioned with the first sentence of this passage.",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Ernest Dowson"
@@ -50,7 +53,7 @@
       "supports": "The register at its warmest outside the 16 June letter, and the daily rhythm of the Dieppe weeks",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "Repo PDF page 957, printed folio 907 confirmed on the rendered page.",
+      "provenance": "PDF page 957, printed folio 907 confirmed on the rendered page.",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Ernest Dowson"
@@ -69,7 +72,7 @@
       "supports": "Summons and dependence: Wilde asking to be consoled, and prescribing what Dowson is to wear - the second such instruction in a week",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "Repo PDF page 958, printed folio 908 confirmed on the rendered page.",
+      "provenance": "PDF page 958, printed folio 908 confirmed on the rendered page.",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Ernest Dowson"
@@ -88,7 +91,7 @@
       "supports": "The only line in the twelve letters that gestures at something withheld from the page ('and other things, always'), and the plan to gather the four of them at Berneval",
       "verification": "verified-elision",
       "how_verified": "pdf-text",
-      "provenance": "Repo PDF pages 958-959, printed folios 908 and 909 both confirmed on the rendered pages. One elision marked with a spaced ellipsis; full letter in the dossier.",
+      "provenance": "PDF pages 958-959, printed folios 908 and 909 both confirmed on the rendered pages. One elision marked with a spaced ellipsis; full letter.",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Ernest Dowson"
@@ -105,12 +108,12 @@
       "supports": "The only romantic characterization of the pair in the literature, and its unresolved attribution; Fothergill's counter-observation that Dowson's own attachment lay elsewhere; and the quarrel in which Dowson cut off the curls Wilde had admired - the evidential basis for outcome 'unreciprocated'",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "Repo PDF page 157, printed folio 141 confirmed on the rendered page; the setting sentence from repo PDF 156, printed folio 140 confirmed. Endnote 12 read on the rendered page at repo PDF 303, printed folio 271 confirmed, and the superscript markers on p. 141 checked in a 4x zoom render. Sox's index (printed p. 282) lists Dowson at p. 141 only, and a full-text search of the file confirms this is his sole treatment.",
+      "provenance": "PDF page 157, printed folio 141 confirmed on the rendered page; the setting sentence from PDF 156, printed folio 140 confirmed. Endnote 12 read on the rendered page at PDF 303, printed folio 271 confirmed, and the superscript markers on p. 141 checked in a 4x zoom render. Sox's index (printed p. 282) lists Dowson at p. 141 only, and a full-text search of the file confirms this is his sole treatment.",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
     {
-      "quote": "For his part, Dowson was impressed by Wilde's \"enormous joy in life just at this moment\" and \"had some difficulty in suppressing my own sourness\" as a result. His first impression was that Wilde had changed a great deal for the better: \"he seems of much broader sympathies, much more human and simple. . His delight in the country, in walking, in the simplicities of life is enchanting.\" … \"His gorgeous spirits cheered me mightily,\" Dowson wrote of Wilde at this time",
+      "quote": "For his part, Dowson was impressed by Wilde's \"enormous joy in life just at this moment\" and \"had some difficulty in suppressing my own sourness\" as a result. His first impression was that Wilde had changed a great deal for the better: \"he seems of much broader sympathies, much more human and simple. His delight in the country, in walking, in the simplicities of life is enchanting.\" … \"His gorgeous spirits cheered me mightily,\" Dowson wrote of Wilde at this time",
       "context": "Frankel quoting Dowson's own letters of summer 1897, from Letters of Ernest Dowson, ed. Desmond Flower and Henry Maas (Fairleigh Dickinson UP, 1968), pp. 384 and 387 - his notes 64, 65 and 68 at printed pp. 324-325. The elision drops Frankel's intervening paragraph on the brothel story and the absinthe. Frankel's own reading of the pair, on the same page and the one before, is 'frank and unguarded friendship' and Dowson as 'one of his closest confidantes' (p. 113).",
       "work": "frankel-2017",
       "locator": "p. 114",
@@ -121,7 +124,7 @@
       "supports": "The second participant's own testimony - the counter-weight that keeps this edge below a relationship class. Dowson's register toward Wilde is admiring and wry, never romantic.",
       "verification": "verified-elision",
       "how_verified": "pdf-text",
-      "provenance": "Repo PDF page 128, printed folio 114 confirmed on the rendered page. Frankel's printed-to-PDF offset established so far as a constant PDF - 14, holding across body and notes (see DOWSON_dossier.md). Frankel p. 113 read at repo PDF 127, folio confirmed. One elision marked with a spaced ellipsis; Frankel's own internal ellipsis inside the Dowson quotation is his.",
+      "provenance": "PDF page 128, printed folio 114 confirmed on the rendered page. Frankel's printed-to-PDF offset established so far as a constant PDF - 14, holding across body and notes. Frankel p. 113 read at PDF 127, folio confirmed. One elision marked with a spaced ellipsis; Frankel's own internal ellipsis inside the Dowson quotation is his.",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -138,7 +141,7 @@
       "supports": "The scholarly-reading half of the README's attraction-expressed bar - and, by its own hedging, the reason the class stays at attraction-expressed rather than rising higher",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "Repo PDF page 665; no printed folio or running head appears on the rendered page, consistent with the pagination warning on mckenna-2008 in works.json. McKenna's source note for the adjoining 'first hyacinth since Douglas' phrase, at repo PDF 852, reads 'Sox, Bachelors of Art, page 141'.",
+      "provenance": "PDF page 665; no printed folio or running head appears on the rendered page, consistent with the pagination warning on mckenna-2008 in works.json. McKenna's source note for the adjoining 'first hyacinth since Douglas' phrase, at PDF 852, reads 'Sox, Bachelors of Art, page 141'.",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -156,7 +159,7 @@
       "supports": "The close of the connection in Wilde's own voice; 'he knew what love is' is elegiac and unspecific - Wilde does not say for whom",
       "verification": "verified-elision",
       "how_verified": "pdf-text",
-      "provenance": "Repo PDF page 1219, printed folio 1173 confirmed on the rendered page. One elision marked with a spaced ellipsis; full passage in the dossier.",
+      "provenance": "PDF page 1219, printed folio 1173 confirmed on the rendered page. One elision marked with a spaced ellipsis; full passage.",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Leonard Smithers"

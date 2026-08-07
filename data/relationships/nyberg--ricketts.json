@@ -1,6 +1,9 @@
 {
   "id": "nyberg--ricketts",
-  "people": ["nyberg", "ricketts"],
+  "people": [
+    "nyberg",
+    "ricketts"
+  ],
   "certainty": "uncorroborated",
   "certainty_status": "proposed",
   "certainty_reasoning": "Cook writes 'secretary, companion and possibly also sexual partner', and 'possibly' is doing all the work: no letter, diary, memoir or second witness read here says anything further, and Cook's supporting endnote has not been chased.",
@@ -29,7 +32,7 @@
       "supports": "A named companion in Ricketts's household in his last years; the sexual element is the historian's hedge, not a finding.",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "Repo PDF p. 65 read as a rendered page image 2026-08-03; printed folio 52 confirmed on the image. Superscript endnote marker 149 omitted as typography.",
+      "provenance": "PDF p. 65 read as a rendered page image 2026-08-03; printed folio 52 confirmed on the image. Superscript endnote marker 149 omitted as typography.",
       "verified_on": "2026-08-03",
       "voice": "modern"
     }

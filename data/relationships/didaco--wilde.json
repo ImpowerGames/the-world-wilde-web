@@ -1,6 +1,9 @@
 {
   "id": "didaco--wilde",
-  "people": ["didaco", "wilde"],
+  "people": [
+    "didaco",
+    "wilde"
+  ],
   "certainty": "self-reported",
   "certainty_status": "proposed",
   "start": {
@@ -26,7 +29,7 @@
       "supports": "The whole of the record: Wilde's account of meeting Didaco at Genoa, of loving him, and of three days spent together",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "Repo PDF page 1178, printed folio 1132 confirmed on rendered page.",
+      "provenance": "PDF page 1178, printed folio 1132 confirmed on rendered page.",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Reginald Turner"

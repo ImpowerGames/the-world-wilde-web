@@ -24,18 +24,22 @@
           "supports": "Warmth between men, recorded whether or not it amounts to anything.",
           "verification": "verified-elision",
           "how_verified": "pdf-image",
-          "provenance": "Repo PDF page 548; printed folio 528 confirmed on the rendered page image.",
+          "provenance": "PDF page 548; printed folio 528 confirmed on the rendered page image.",
           "verified_on": "2026-08-05",
           "voice": "period"
         }
       ]
     }
   ],
-  "bio_sources": ["letters-2000"],
+  "bio_sources": [
+    "letters-2000"
+  ],
   "name": "Coulson Kernahan",
   "sort_name": "Kernahan, Coulson",
-  "aka": ["Kernahan"],
+  "aka": [
+    "Kernahan"
+  ],
   "group": "aesthete",
   "bio": "Writer, and a reader for the publisher Ward, Lock. Six of Wilde's letters to him survive, from around 1891 to 1892, mostly on the business of A House of Pomegranates and Lord Arthur Savile's Crime. One of them is not business at all: an unprompted page telling a younger writer that his gift for fairy tales is beneath him and that he should be writing about passion instead.",
-  "bio_note": "SIX LETTERS at repo PDF 459, 493, 494, 507, 541 and 548; ONE read at the page (printed 528, folios confirmed)."
+  "bio_note": "SIX LETTERS at PDF 459, 493, 494, 507, 541 and 548; ONE read at the page (printed 528, folios confirmed)."
 }

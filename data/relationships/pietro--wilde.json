@@ -1,6 +1,9 @@
 {
   "id": "pietro--wilde",
-  "people": ["pietro", "wilde"],
+  "people": [
+    "pietro",
+    "wilde"
+  ],
   "certainty": "attraction-expressed",
   "certainty_status": "proposed",
   "direction": "wilde",
@@ -30,7 +33,7 @@
       "supports": "The whole of the record for Pietro: a named young Italian met at Nice, compared to a young St John, with Wilde's declaration that one would have followed him into the desert; no outcome recorded",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "Repo PDF page 1164, printed folio 1118 confirmed on rendered page; transcription and provenance carried forward unchanged (the EXILE-COMPANIONS dossier (long-form research notes, kept in the private research repository) T1).",
+      "provenance": "PDF page 1164, printed folio 1118 confirmed on rendered page; transcription and provenance carried forward unchanged.",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Robert Ross"

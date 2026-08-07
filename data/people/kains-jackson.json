@@ -2,7 +2,9 @@
   "id": "kains-jackson",
   "name": "Charles Kains-Jackson",
   "sort_name": "Kains-Jackson, Charles",
-  "aka": ["C. K.-J."],
+  "aka": [
+    "C. K.-J."
+  ],
   "born": {
     "y": 1857
   },
@@ -12,7 +14,9 @@
   "group": "aesthete",
   "gender": "m",
   "bio": "London solicitor specialising in literary matters (1857-1933), and from 1888 to 1894 editor of The Artist and Journal of Home Culture - a magazine which, in the editors' own words, he used in part as a forum for London's homosexual coterie, and to which Lord Alfred Douglas contributed. Wilde consulted him professionally over Salomé in November 1893.",
-  "bio_sources": ["letters-2000"],
+  "bio_sources": [
+    "letters-2000"
+  ],
   "bio_note": "the volume's Index of Recipients. THE DESCRIPTION OF HIS MAGAZINE IS THE EDITORS' OWN AND IS QUOTED RATHER THAN PARAPHRASED - 'which he used in part as a forum for London's homosexual coterie' (printed 574, note 1). TWO ITEMS at printed 574 and 576; ONE read at the page. HIS OWN CIRCLE - the Uranian poets, and his editorship's place in that literature - lies outside this volume and is not asserted here.",
   "context_engagements": [
     {
@@ -35,7 +39,7 @@
           "supports": "That Wilde used him as his solicitor at the height of the Salomé dispute.",
           "verification": "verified-exact",
           "how_verified": "pdf-image",
-          "provenance": "Repo PDF page 626; printed folio 574 confirmed on the rendered page image.",
+          "provenance": "PDF page 626; printed folio 574 confirmed on the rendered page image.",
           "verified_on": "2026-08-06",
           "voice": "period"
         }

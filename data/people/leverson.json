@@ -2,7 +2,10 @@
   "id": "leverson",
   "name": "Ada Leverson",
   "sort_name": "Leverson, Ada",
-  "aka": ["the Sphinx", "Sphinx"],
+  "aka": [
+    "the Sphinx",
+    "Sphinx"
+  ],
   "born": {
     "y": 1862
   },
@@ -12,8 +15,10 @@
   "group": "aesthete",
   "gender": "f",
   "bio": "Novelist and parodist, whom Wilde called the Sphinx and addressed as nothing else for five years. Thirty-five of his letters to her survive, running from 1893 to 1897. In May 1895, between the second and third trials, when no hotel in London would take him and his brother's house had become impossible, she and her husband Ernest moved their children out of the nursery floor and put Wilde in it, and kept him there until the day he was convicted. She was among the first people to greet him when he came out of prison two years later, having got up before dawn to do it.",
-  "bio_sources": ["letters-2000"],
-  "bio_note": "THIRTY-FIVE LETTERS at repo PDF 621, 622, 640, 645, 667, 670, 677, 680, 682, 695, 696, 698, 699, 700, 701, 895, 921 and 1028. FOUR READ AT THE PAGE - printed 650, 845 and, on the same opening, the Holloway sequence - folios confirmed on the rendered page images, 2026-08-05. The thirty-two unread are largely Yellow Book and Punch business and are located, not read.",
+  "bio_sources": [
+    "letters-2000"
+  ],
+  "bio_note": "THIRTY-FIVE LETTERS at PDF 621, 622, 640, 645, 667, 670, 677, 680, 682, 695, 696, 698, 699, 700, 701, 895, 921 and 1028. FOUR READ AT THE PAGE - printed 650, 845 and, on the same opening, the Holloway sequence - folios confirmed on the rendered page images, 2026-08-05. The thirty-two unread are largely Yellow Book and Punch business and are located, not read.",
   "context_engagements": [
     {
       "partner_name": "Oscar Wilde",
@@ -34,7 +39,7 @@
           "supports": "What Wilde told her about the story that would be used against him at trial.",
           "verification": "verified-exact",
           "how_verified": "pdf-image",
-          "provenance": "Repo PDF page 677; printed folio 625 confirmed on the rendered page image.",
+          "provenance": "PDF page 677; printed folio 625 confirmed on the rendered page image.",
           "verified_on": "2026-08-06",
           "voice": "period"
         },
@@ -53,7 +58,7 @@
           "supports": "The warmest thing Wilde wrote her, at the worst moment of his life.",
           "verification": "verified-exact",
           "how_verified": "pdf-image",
-          "provenance": "Repo PDF page 701; printed folio 650 confirmed on the rendered page image.",
+          "provenance": "PDF page 701; printed folio 650 confirmed on the rendered page image.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -73,7 +78,7 @@
           "supports": "That she was among the first to meet him out of prison, and that he trusted her with the aliases.",
           "verification": "verified-exact",
           "how_verified": "pdf-image",
-          "provenance": "Repo PDF page 895; printed folio 845 confirmed on the rendered page image.",
+          "provenance": "PDF page 895; printed folio 845 confirmed on the rendered page image.",
           "verified_on": "2026-08-05",
           "voice": "period"
         }

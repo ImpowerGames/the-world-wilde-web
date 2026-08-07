@@ -1,6 +1,9 @@
 {
   "id": "constance--wilde",
-  "people": ["constance", "wilde"],
+  "people": [
+    "constance",
+    "wilde"
+  ],
   "certainty": "married",
   "certainty_status": "proposed",
   "start": {
@@ -80,7 +83,7 @@
       "supports": "Engagement 26 November 1883, in Constance's own voice; her dates and parentage from the same page-opening's editorial note.",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "repo PDF pp. 243-4 (printed pp. 221-2, folios checked)",
+      "provenance": "PDF pp. 243-4 (printed pp. 221-2, folios checked)",
       "verified_on": "2026-08-03",
       "voice": "period",
       "speaker": "Constance Lloyd",
@@ -100,7 +103,7 @@
       "supports": "Wilde's own description of Constance during the engagement; the emotional register of the courtship in his voice.",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "Repo PDF p. 246 (printed p. 224, folio confirmed) (merge pass; found during the Langtry read).",
+      "provenance": "PDF p. 246 (printed p. 224, folio confirmed) (merge pass; found during the Langtry read).",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Lillie Langtry"
@@ -119,7 +122,7 @@
       "supports": "Marriage 29 May 1884, St James's Church, Sussex Gardens.",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "repo PDF p. 249 (printed p. 227, folio checked)",
+      "provenance": "PDF p. 249 (printed p. 227, folio checked)",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Alfred Milner"
@@ -138,7 +141,7 @@
       "supports": "Passionate marital intimacy in 1884; the destruction of the correspondence (why the record is thin is itself documented).",
       "verification": "verified-elision",
       "how_verified": "pdf-text",
-      "provenance": "repo PDF pp. 263-4 (printed pp. 241-2, folios checked)",
+      "provenance": "PDF pp. 263-4 (printed pp. 241-2, folios checked)",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Constance Wilde"
@@ -158,7 +161,7 @@
       "supports": "Contact at the catastrophe; the last surviving words from Wilde to his wife.",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "repo PDF p. 689 (printed p. 637, folio checked)",
+      "provenance": "PDF p. 689 (printed p. 637, folio checked)",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Constance Wilde"
@@ -177,7 +180,7 @@
       "supports": "Her prison visit of 19 February 1896 (their last meeting) and Wilde's deference to her in the settlement.",
       "verification": "verified-elision",
       "how_verified": "pdf-text",
-      "provenance": "repo PDF p. 703 (printed p. 652, folio checked)",
+      "provenance": "PDF p. 703 (printed p. 652, folio checked)",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Robert Ross"
@@ -196,7 +199,7 @@
       "supports": "Her death, 7 April 1898, Genoa; Wilde's reaction.",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "repo PDF p. 1100 (printed p. 1054, folio checked)",
+      "provenance": "PDF p. 1100 (printed p. 1054, folio checked)",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Robert Ross"
@@ -212,10 +215,10 @@
         "m": 5,
         "d": 13
       },
-      "supports": "Formal separation-in-practice after 1895: custody, allowance conditions, name change, denied access - pages not yet transcribed (Wilde's own 'Constance has not asked me to come and see the children. I don't suppose now I shall ever see them', to Blacker, 6 Sept 1897, p. 935, IS transcribed in the dossier).",
+      "supports": "Formal separation-in-practice after 1895: custody, allowance conditions, name change, denied access - pages not yet transcribed (Wilde's own 'Constance has not asked me to come and see the children. I don't suppose now I shall ever see them', to Blacker, 6 Sept 1897, p. 935, IS transcribed).",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "Repo PDF page 868, printed folio 817 read off the rendered page - NOT p. 822 as the pointer's range implied; the volume's PDF/printed offset is not constant.",
+      "provenance": "PDF page 868, printed folio 817 read off the rendered page - NOT p. 822 as the pointer's range implied; the volume's PDF/printed offset is not constant.",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Robert Ross"

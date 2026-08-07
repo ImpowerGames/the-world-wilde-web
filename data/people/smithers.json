@@ -8,8 +8,10 @@
   "group": "later",
   "gender": "m",
   "bio": "Publisher, bookseller and pornographer, who issued The Ballad of Reading Gaol and both of Wilde's last plays in book form when no respectable house would touch his name. One hundred and eight of Wilde's letters to him survive - more than to anyone else in this volume except Douglas and Ross - and they are overwhelmingly about proofs, print runs and money. He died bankrupt in 1907.",
-  "bio_sources": ["letters-2000"],
-  "bio_note": "ONE HUNDRED AND EIGHT LETTERS at repo PDF 972, 977, 983, 987, 992, 999, 1000, 1006, 1010 and many more; FOUR read at the page (printed 1006, 1098, 1111 and 1141, folios confirmed) and both are quoted whole below because both are three lines long. DATES NOT RECORDED and none inferred. THE REMAINING HUNDRED-AND-SIX are located, not read, and are a large outstanding item for anyone continuing this work. Only 4 of 108 have been read at the page. The first pass filtered for desire and so treated this correspondence as business; on the warmth test it is not - 'I miss you very much' (printed ~1101), 'It was a great delight seeing you' (printed 1025), 'my life here is too lonely. I wish you would' (printed 1141).",
+  "bio_sources": [
+    "letters-2000"
+  ],
+  "bio_note": "ONE HUNDRED AND EIGHT LETTERS at PDF 972, 977, 983, 987, 992, 999, 1000, 1006, 1010 and many more; FOUR read at the page (printed 1006, 1098, 1111 and 1141, folios confirmed) and both are quoted whole below because both are three lines long. DATES NOT RECORDED and none inferred. THE REMAINING HUNDRED-AND-SIX are located, not read, and are a large outstanding item for anyone continuing this work. Only 4 of 108 have been read at the page. The first pass filtered for desire and so treated this correspondence as business; on the warmth test it is not - 'I miss you very much' (printed ~1101), 'It was a great delight seeing you' (printed 1025), 'my life here is too lonely. I wish you would' (printed 1141).",
   "context_engagements": [
     {
       "partner_name": "Oscar Wilde",
@@ -31,7 +33,7 @@
           "supports": "The two subjects of this correspondence in four sentences: money, and proofs.",
           "verification": "verified-exact",
           "how_verified": "pdf-image",
-          "provenance": "Repo PDF page 1144; printed folio 1098 confirmed on the rendered page image.",
+          "provenance": "PDF page 1144; printed folio 1098 confirmed on the rendered page image.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -51,7 +53,7 @@
           "supports": "Wilde still making jokes about attribution while asking to be paid attention to.",
           "verification": "verified-exact",
           "how_verified": "pdf-image",
-          "provenance": "Repo PDF page 1157; printed folio 1111 confirmed on the rendered page image.",
+          "provenance": "PDF page 1157; printed folio 1111 confirmed on the rendered page image.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -71,7 +73,7 @@
           "supports": "That Wilde wanted his publisher's company, not only his cheques.",
           "verification": "verified-elision",
           "how_verified": "pdf-image",
-          "provenance": "Repo PDF page 1187; printed folio 1141 confirmed on the rendered page image.",
+          "provenance": "PDF page 1187; printed folio 1141 confirmed on the rendered page image.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -91,7 +93,7 @@
           "supports": "That Wilde waited hours for him and was glad to have seen him.",
           "verification": "verified-exact",
           "how_verified": "pdf-image",
-          "provenance": "Repo PDF page 1071; printed folio 1025 confirmed on the rendered page image.",
+          "provenance": "PDF page 1071; printed folio 1025 confirmed on the rendered page image.",
           "verified_on": "2026-08-06",
           "voice": "period"
         },
@@ -111,7 +113,7 @@
           "supports": "Wilde in exile proposing to write the life of Heliogabalus - and calling himself a confirmed Smithersist.",
           "verification": "verified-exact",
           "how_verified": "pdf-image",
-          "provenance": "Repo PDF pages 1020-1021; printed folios 972 and 973 both confirmed on the rendered page images.",
+          "provenance": "PDF pages 1020-1021; printed folios 972 and 973 both confirmed on the rendered page images.",
           "verified_on": "2026-08-06",
           "voice": "period"
         }

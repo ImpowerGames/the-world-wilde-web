@@ -1,6 +1,9 @@
 {
   "id": "napoule-fisherman--wilde",
-  "people": ["napoule-fisherman", "wilde"],
+  "people": [
+    "napoule-fisherman",
+    "wilde"
+  ],
   "certainty": "self-reported",
   "certainty_status": "proposed",
   "certainty_reasoning": "Second, 'practically engaged' is hedged in its own words, and everything in the sentence is Wilde's assertion: the fisherman's side of it is not recorded, so a mutual connection is documented only in the sense that Wilde claims one.",
@@ -29,7 +32,7 @@
       "supports": "The whole of the record: Wilde's statement that he is practically engaged to an unnamed Napoule fisherman, with the age the letter gives, in its own comic frame",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "Repo PDF page 1162, printed folio 1116 confirmed at foot of the rendered page; transcription and provenance carried forward unchanged (the EXILE-COMPANIONS dossier (long-form research notes, kept in the private research repository) M3/T2).",
+      "provenance": "PDF page 1162, printed folio 1116 confirmed at foot of the rendered page; transcription and provenance carried forward unchanged.",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Robert Ross"

@@ -1,0 +1,56 @@
+name: Correct something on the map
+description: A wrong date, a misattributed quotation, a bad locator, or a classification that overstates its evidence
+labels: [correction]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Corrections are welcome, including to records already marked verified.
+        You do not need to be certain — say what you checked and what you found.
+
+  - type: input
+    id: where
+    attributes:
+      label: Where on the map
+      description: The person or the pair, and the quotation if it is one particular source.
+      placeholder: Robert Ross — the Fryer quotation dated 1886
+    validations:
+      required: true
+
+  - type: textarea
+    id: wrong
+    attributes:
+      label: What is wrong
+      description: What the map currently says, and what it should say instead.
+    validations:
+      required: true
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: What the source says
+      description: >
+        Quote it. A few sentences of surrounding context is better than one clipped phrase — the
+        context is usually what shows who is speaking and about whom.
+      render: text
+
+  - type: input
+    id: citation
+    attributes:
+      label: Where to find it
+      description: Author, title, year, page. Or a manuscript reference, an archive and shelfmark, a URL.
+      placeholder: Fryer, Robbie Ross (2000), p. 18
+
+  - type: dropdown
+    id: how
+    attributes:
+      label: How did you see it?
+      description: All four are useful. They are not equally strong, so we would rather know than guess.
+      options:
+        - Read it on the printed page
+        - Read it in a scan or photograph of the page
+        - Found it in a search index or text layer, did not see the page
+        - Saw it quoted in another book or article
+        - Something else, described below
+    validations:
+      required: true

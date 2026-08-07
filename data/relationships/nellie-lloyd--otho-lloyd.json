@@ -1,6 +1,9 @@
 {
   "id": "nellie-lloyd--otho-lloyd",
-  "people": ["nellie-lloyd", "otho-lloyd"],
+  "people": [
+    "nellie-lloyd",
+    "otho-lloyd"
+  ],
   "certainty": "married",
   "certainty_status": "proposed",
   "date_label": "Married; dates not established here",
@@ -22,7 +25,7 @@
       "supports": "That they were a married couple, and both expecting.",
       "verification": "verified-elision",
       "how_verified": "pdf-image",
-      "provenance": "Repo PDF page 283; printed folio 261 confirmed on the rendered page image.",
+      "provenance": "PDF page 283; printed folio 261 confirmed on the rendered page image.",
       "verified_on": "2026-08-06",
       "voice": "period"
     }

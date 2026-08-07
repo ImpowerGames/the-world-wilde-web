@@ -1,6 +1,9 @@
 {
   "id": "gray--wilde",
-  "people": ["gray", "wilde"],
+  "people": [
+    "gray",
+    "wilde"
+  ],
   "certainty": "uncorroborated",
   "certainty_status": "proposed",
   "certainty_reasoning": "The sexual/romantic characterization common in later biography was not reachable in the source so far (pointer to McKenna below), so the contested-single-source class with a disputed block is the honest mechanical proposal; a later check may raise it to consensus if two independent secondary attestations are verified.",
@@ -35,7 +38,7 @@
       "supports": "The public 'protege' characterization and Wilde's printed denial of it ('extremely recent'), Feb. 1892",
       "verification": "verified-elision",
       "how_verified": "pdf-text",
-      "provenance": "Repo PDF page 540, printed folio 520 confirmed on rendered page. Elision drops four sentences on artists needing protection; full text in dossier.",
+      "provenance": "PDF page 540, printed folio 520 confirmed on rendered page. Elision drops four sentences on artists needing protection; full text in long-form notes.",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Editor of the Daily Telegraph"
@@ -54,7 +57,7 @@
       "supports": "Wilde personally undertook the production costs of Gray's Silverpoints - the patronage in a primary document",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "Repo PDF page 547, printed folio 527 confirmed on rendered page.",
+      "provenance": "PDF page 547, printed folio 527 confirmed on rendered page.",
       "verified_on": "2026-08-03",
       "speaker": "Elkin Mathews and John Lane (The Bodley Head)",
       "voice": "period",
@@ -70,7 +73,7 @@
       "supports": "The falling-out; the 'Dorian' self-identification with the editors' no-evidence caveat",
       "verification": "verified-elision",
       "how_verified": "pdf-text",
-      "provenance": "Repo PDF page 540, printed folio 520 confirmed on rendered page. First elision drops the cross-reference '(see p.527)'; second bridges two non-adjacent footnote sentences; full footnote content in dossier.",
+      "provenance": "PDF page 540, printed folio 520 confirmed on rendered page. First elision drops the cross-reference '(see p.527)'; second bridges two non-adjacent footnote sentences; full footnote content in long-form notes.",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -91,7 +94,7 @@
       "supports": "Wilde's retrospective valuation of the Gray friendship - 'my real life, my higher life'",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "Repo PDF page 737, printed folio 686 confirmed on rendered page.",
+      "provenance": "PDF page 737, printed folio 686 confirmed on rendered page.",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Lord Alfred Douglas"
@@ -108,7 +111,7 @@
       "supports": "The sexual-relationship characterization underlying the 'alleged' claim; requires verification in the source",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "Repo PDF page 194. Re-pointed from the mckenna-2003 pointer to the 2008 edition held; no printed folios, so the locator is the PDF page. This replaces the earlier candidate at PDF 216, which was interrogative and could not carry the claim.",
+      "provenance": "PDF page 194. Re-pointed from the mckenna-2003 pointer to the 2008 edition held; no printed folios, so the locator is PDF page. This replaces the earlier candidate at PDF 216, which was interrogative and could not carry the claim.",
       "verified_on": "2026-08-04",
       "voice": "modern"
     }

@@ -2,7 +2,10 @@
   "id": "rodd",
   "name": "James Rennell Rodd",
   "sort_name": "Rodd, James Rennell",
-  "aka": ["Rennell Rodd", "Lord Rennell of Rodd"],
+  "aka": [
+    "Rennell Rodd",
+    "Lord Rennell of Rodd"
+  ],
   "born": {
     "y": 1858
   },
@@ -12,8 +15,11 @@
   "group": "aesthete",
   "gender": "m",
   "bio": "Poet and diplomat, later British Ambassador to Italy (1908-19) and first Lord Rennell of Rodd. A friend of Wilde at Oxford, where he won the Newdigate Prize in 1880, two years after Wilde. Wilde wrote the 'envoi' to his Rose Leaf and Apple Leaf (1882) and published, as its dedication, an inscription Rodd had written privately in Wilde's own copy — 'TO OSCAR WILDE— HEART'S BROTHER' — which Rodd found much more effusive than he had intended, and which helped end the friendship.",
-  "bio_sources": ["letters-2000", "ellmann-1988"],
-  "bio_note": "Dates 1858-1941 and the biography are from the editors' note 4 at Complete Letters printed 102, folio confirmed on the rendered page image. ONLY ONE LETTER to Rodd survives in the volume, headed 'To Rennell Rodd' at printed 102-103 (the whole of the correspondence, checked by extracting every letter heading in the OCR mirror). It sits in the same register the Complete Letters sweep ruled 'warm, and not desire' for Sherard's dedication. Ellmann's one suggestive line - that the two travelled under false names 'presumably to keep Rodd's friends from suspecting that their intimacy was so constant' (repo PDF 189) - is flagged by Ellmann himself as a presumption, and the editors' own note at printed 101 says the travelling companion was 'almost certainly Rennell Rodd', which is a second hedge on top of the first.",
+  "bio_sources": [
+    "letters-2000",
+    "ellmann-1988"
+  ],
+  "bio_note": "Dates 1858-1941 and the biography are from the editors' note 4 at Complete Letters printed 102, folio confirmed on the rendered page image. ONLY ONE LETTER to Rodd survives in the volume, headed 'To Rennell Rodd' at printed 102-103 (the whole of the correspondence, checked by extracting every letter heading in the OCR mirror). It sits in the same register the Complete Letters sweep ruled 'warm, and not desire' for Sherard's dedication. Ellmann's one suggestive line - that the two travelled under false names 'presumably to keep Rodd's friends from suspecting that their intimacy was so constant' (PDF 189) - is flagged by Ellmann himself as a presumption, and the editors' own note at printed 101 says the travelling companion was 'almost certainly Rennell Rodd', which is a second hedge on top of the first.",
   "context_engagements": [
     {
       "partner_name": "Oscar Wilde",
@@ -36,7 +42,7 @@
           "supports": "The entire surviving correspondence, and the extent of the affection in it: 'Dear Rennell' and 'Come back very soon'.",
           "verification": "verified-exact",
           "how_verified": "pdf-image",
-          "provenance": "Repo PDF pages 127-128; printed folios 102 and 103 both confirmed on the rendered page images. The letter runs across the page break and is transcribed whole.",
+          "provenance": "PDF pages 127-128; printed folios 102 and 103 both confirmed on the rendered page images. The letter runs across the page break and is transcribed whole.",
           "verified_on": "2026-08-05",
           "voice": "period"
         }

@@ -1,6 +1,9 @@
 {
   "id": "le-gallienne--wilde",
-  "people": ["le-gallienne", "wilde"],
+  "people": [
+    "le-gallienne",
+    "wilde"
+  ],
   "certainty": "attraction-expressed",
   "certainty_status": "proposed",
   "direction": "wilde",
@@ -27,7 +30,7 @@
       "supports": "The class, and the direction - this is Wilde writing, and only Wilde.",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "Repo PDF p. 479 read as a rendered page image 2026-08-04; printed folio 457 confirmed at the foot of the image. Located first in the complete OCR mirror, which locates only. Superscript note markers omitted as typography.",
+      "provenance": "PDF p. 479 read as a rendered page image 2026-08-04; printed folio 457 confirmed at the foot of the image. Located first in the complete OCR mirror, which locates only. Superscript note markers omitted as typography.",
       "verified_on": "2026-08-04",
       "speaker": "Oscar Wilde",
       "addressee": "Richard Le Gallienne",

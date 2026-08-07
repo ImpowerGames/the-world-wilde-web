@@ -1,6 +1,9 @@
 {
   "id": "thomas--warren",
-  "people": ["thomas", "warren"],
+  "people": [
+    "thomas",
+    "warren"
+  ],
   "certainty": "attraction-expressed",
   "certainty_status": "proposed",
   "certainty_reasoning": "Every word of feeling in this record is on Warren's side and is reported by Sox - 'infatuation', loved, 'wanted to possess'. What was seen from outside is carefully hedged in the source itself: SOME SAW Thomas as 'Ned's new boy friend', which records a perception and not a fact, and the quotation marks are Sox's.",
@@ -26,7 +29,7 @@
       "supports": "The contemporary perception of Thomas as 'Ned's new boy friend' and Marshall's jealousy",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "Repo PDF page 93, printed folio 77 confirmed on rendered page.",
+      "provenance": "PDF page 93, printed folio 77 confirmed on rendered page.",
       "verified_on": "2026-08-03",
       "voice": "modern"
     }

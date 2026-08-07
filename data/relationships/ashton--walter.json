@@ -1,6 +1,9 @@
 {
   "id": "ashton--walter",
-  "people": ["ashton", "walter"],
+  "people": [
+    "ashton",
+    "walter"
+  ],
   "certainty": "attraction-expressed",
   "certainty_status": "proposed",
   "direction": "ashton",
@@ -27,7 +30,7 @@
       "supports": "Ashton's second recorded attachment, and Wilde's position as its commentator",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "Repo PDF page 1164, printed folio 1118 confirmed on rendered page. Contiguous run from the passage transcribed in full in the dossier (A4). The editors bracket the letter's date with a query mark, preserved here in the context line.",
+      "provenance": "PDF page 1164, printed folio 1118 confirmed on rendered page. Contiguous run from a longer passage transcribed in full. The editors bracket the letter's date with a query mark, preserved here in the context line.",
       "verified_on": "2026-08-03",
       "voice": "period"
     }

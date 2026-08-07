@@ -1,0 +1,66 @@
+name: Someone who belongs on the map
+description: A person who should be here and is not
+labels: [person]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        The map doesn't only record renowned individuals. It carries everyday people: fishermen, waiters, soldiers and servants who
+        survive under a first name, a nickname, or no name at all. If the record preserves someone,
+        they belong here.
+
+  - type: input
+    id: who
+    attributes:
+      label: Who
+      description: >
+        A name, or the description the record uses if it gives no name — "a fisherman, Napoule" is
+        a perfectly good answer.
+    validations:
+      required: true
+
+  - type: textarea
+    id: why
+    attributes:
+      label: Why they belong
+      description: Their connection to the circle, and to whom, as far as the record states it.
+    validations:
+      required: true
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: What the source says about them
+      description: >
+        Quote it, with a few sentences of surrounding context. If several sources mention them,
+        quote the fullest one and list the others below.
+      render: text
+    validations:
+      required: true
+
+  - type: input
+    id: citation
+    attributes:
+      label: Where to find it
+      description: Author, title, year, page. Or a manuscript reference, an archive and shelfmark, a URL.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: how
+    attributes:
+      label: How did you see it?
+      options:
+        - Read it on the printed page
+        - Read it in a scan or photograph of the page
+        - Found it in a search index or text layer, did not see the page
+        - Saw it quoted in another book or article
+        - Something else, described below
+    validations:
+      required: true
+
+  - type: input
+    id: dates
+    attributes:
+      label: Birth and death, if the record gives them
+      description: Leave blank if it does not. An unknown date is a finding, not a gap to fill in.

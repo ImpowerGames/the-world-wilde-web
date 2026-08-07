@@ -1,6 +1,9 @@
 {
   "id": "sea-god--wilde",
-  "people": ["sea-god", "wilde"],
+  "people": [
+    "sea-god",
+    "wilde"
+  ],
   "certainty": "attraction-expressed",
   "certainty_status": "proposed",
   "direction": "wilde",
@@ -30,7 +33,7 @@
       "supports": "The whole of the record: Wilde's own statement that he fell in love, the young man's institution, and the absence of any recorded outcome",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "Repo PDF page 1225, printed folio 1179 confirmed at the foot of the rendered page. The letter's heading (recipient, date, address) stands on an earlier printed page not read and is mirror-derived; the page read carries the editors' footnote 'Easter Day 1900 was on 15 April'.",
+      "provenance": "PDF page 1225, printed folio 1179 confirmed at the foot of the rendered page. The letter's heading (recipient, date, address) stands on an earlier printed page not read and is mirror-derived; the page read carries the editors' footnote 'Easter Day 1900 was on 15 April'.",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Robert Ross"

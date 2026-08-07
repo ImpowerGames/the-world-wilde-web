@@ -118,12 +118,15 @@ async function loadCircle() {
     unverified: ["⧖ Pending verification", "v-pend"],
   };
   const HOW_LABEL = {
-    "pdf-image": "read in the repo PDF",
+    "pdf-image": "read at the page image",
+    "pdf-text": "read from the PDF text layer",
     "digital-copy": "read in a digital copy of the document",
+    "physical-copy": "read in a physical copy of the document",
     "archive-org": "read on archive.org",
     web: "web source",
     unverified: "",
   };
+  const howLabel = (h) => (h in HOW_LABEL ? HOW_LABEL[h] : h || "");
   const GROUP_LABEL = {
     core: "Wilde",
     family: "Spouse",
@@ -1170,7 +1173,7 @@ async function loadCircle() {
   if (groupOrder.length) {
     const t = document.createElement("span");
     t.className = "lg-title";
-    t.textContent = "People";
+    t.textContent = "Sphere";
     legend.appendChild(t);
     registerAxis(
       "group",
@@ -1753,7 +1756,7 @@ async function loadCircle() {
     <div class="chips">
       <span class="chip ${vClass}">${vLabel}</span>
     </div>
-    ${prov ? `<details><summary>Provenance</summary><div>${esc(prov)}${q.how_verified ? ` · ${esc(q.how_verified)}` : ""}${q.verified_on ? ` · ${esc(q.verified_on)}` : ""}</div></details>` : ""}
+    ${prov ? `<details><summary>Provenance</summary><div>${esc(prov)}${howLabel(q.how_verified) ? ` · ${esc(howLabel(q.how_verified))}` : ""}${q.verified_on ? ` · ${esc(q.verified_on)}` : ""}</div></details>` : ""}
   </div>`;
   }
 
@@ -2220,15 +2223,24 @@ async function loadCircle() {
       lineSample(c),
     );
   }
+  function mountContrib() {
+    const host = $("#contribBody");
+    if (host && CIRCLE.contributing) host.innerHTML = CIRCLE.contributing;
+  }
   const isDesktop = () => matchMedia("(min-width:901px)").matches;
 
-  function renderAbout() {
+  // Both documents render into the same panel, so they share one renderer. About is what the
+  // panel falls back to on desktop with no hash; Contributing is only ever reached by its route.
+  function renderDoc(id) {
     panel.innerHTML = `<div class="pwrap">
     ${isDesktop() ? "" : `<div class="phead"><span class="grab" aria-hidden="true"></span><span class="phtitle"></span><button class="pclose" onclick="location.hash=''">Close</button></div>`}
-    ${$("#aboutBody").innerHTML}</div>`;
+    ${$(id).innerHTML}</div>`;
+    panel.classList.toggle("doc", id === "#contribBody");
     wirePanelHandle();
     showPanel();
   }
+  const renderAbout = () => renderDoc("#aboutBody");
+  const renderContrib = () => renderDoc("#contribBody");
 
   function syncAbout() {
     const h = location.hash;
@@ -2236,6 +2248,7 @@ async function loadCircle() {
       "aria-pressed",
       String(h === "#/about" || (isDesktop() && !h)),
     );
+    $("#btnContrib").setAttribute("aria-pressed", String(h === "#/contributing"));
   }
   function closePanel() {
     focusGraph({});
@@ -2376,6 +2389,7 @@ async function loadCircle() {
     else if (h.startsWith("#/r/")) openRel(decodeURIComponent(h.slice(4)));
     else if (h === "#/list") openList();
     else if (h === "#/about") renderAbout();
+    else if (h === "#/contributing") renderContrib();
     else closePanel();
   }
   addEventListener("hashchange", route);
@@ -2385,6 +2399,9 @@ async function loadCircle() {
 
   $("#btnAbout").addEventListener("click", () => {
     location.hash = location.hash === "#/about" ? "" : "#/about";
+  });
+  $("#btnContrib").addEventListener("click", () => {
+    location.hash = location.hash === "#/contributing" ? "" : "#/contributing";
   });
   addEventListener("resize", () => {
     if (!location.hash) closePanel();
@@ -2396,6 +2413,7 @@ async function loadCircle() {
   });
   const vc = verCounts();
   mountAbout(); // must precede the colophon fill below: it replaces the element that holds it
+  mountContrib();
   $("#stamp").textContent =
     CIRCLE.built === "unbuilt"
       ? ""

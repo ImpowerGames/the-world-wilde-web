@@ -7,7 +7,9 @@
     "y": 1921
   },
   "aka": [],
-  "bio_sources": ["letters-2000"],
+  "bio_sources": [
+    "letters-2000"
+  ],
   "context_engagements": [
     {
       "partner_name": "Oscar Wilde",
@@ -29,7 +31,7 @@
           "supports": "That Young came to see him within a fortnight of his release.",
           "verification": "verified-exact",
           "how_verified": "pdf-image",
-          "provenance": "Repo PDF page 925; printed folio 875 confirmed on the rendered page image.",
+          "provenance": "PDF page 925; printed folio 875 confirmed on the rendered page image.",
           "verified_on": "2026-08-06",
           "voice": "period"
         },
@@ -49,7 +51,7 @@
           "supports": "A public defence of Wilde published by a stranger six days after the conviction.",
           "verification": "verified-exact",
           "how_verified": "pdf-image",
-          "provenance": "Repo PDF page 925; printed folio 875 confirmed on the rendered page image.",
+          "provenance": "PDF page 925; printed folio 875 confirmed on the rendered page image.",
           "verified_on": "2026-08-06",
           "voice": "period"
         }

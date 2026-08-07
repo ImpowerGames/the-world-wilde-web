@@ -7,8 +7,12 @@
     "y": 1936
   },
   "gender": "m",
-  "aka": ["Alfred Edward Housman"],
-  "bio_sources": ["letters-2000"],
+  "aka": [
+    "Alfred Edward Housman"
+  ],
+  "bio_sources": [
+    "letters-2000"
+  ],
   "context_engagements": [
     {
       "partner_name": "Oscar Wilde",
@@ -30,7 +34,7 @@
           "supports": "Both directions of the contact: the poems carried into Reading by Ross, and the book sent on release.",
           "verification": "verified-exact",
           "how_verified": "pdf-image",
-          "provenance": "Repo PDF page 973; printed folio 923 confirmed on the rendered page image.",
+          "provenance": "PDF page 973; printed folio 923 confirmed on the rendered page image.",
           "verified_on": "2026-08-05",
           "voice": "period"
         }

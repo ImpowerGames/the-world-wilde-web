@@ -19,7 +19,7 @@ LOG = HERE / "READING_LOG.md"
 
 HEADER = """# Reading log — pages read at the page
 
-Every repo PDF page that has been opened as a rendered image, what was on it, and what was taken
+Every PDF page that has been opened as a rendered image, what was on it, and what was taken
 from it. **A page is only "done" when everything on it has been triaged, not when one quote has been
 lifted from it.**
 
@@ -44,7 +44,7 @@ def cited_pages():
         if f.name == "circle.json":
             continue
         blob = f.read_text(encoding="utf-8")
-        for m in re.finditer(r"Repo PDF pages?\s+(\d+)(?:\s*[-–]\s*(\d+))?", blob):
+        for m in re.finditer(r"\bPDF pages?\s+(\d+)(?:\s*[-–]\s*(\d+))?", blob):
             a = int(m.group(1))
             b = int(m.group(2)) if m.group(2) else a
             for pg in range(a, b + 1):
@@ -57,9 +57,9 @@ def sync():
     body = LOG.read_text(encoding="utf-8") if LOG.exists() else HEADER
     body = body.split("<!-- CITED-TABLE -->")[0].rstrip()
     rows = ["", "<!-- CITED-TABLE -->", "", "## Pages cited in `data/` (auto-synced)", "",
-            f"{len(cited)} distinct repo PDF pages are cited by at least one node. This table is "
+            f"{len(cited)} distinct PDF pages are cited by at least one node. This table is "
             "generated; the narrative entries above it are written by hand and are the useful part.",
-            "", "| repo PDF p. | cited by |", "|---|---|"]
+            "", "| PDF p. | cited by |", "|---|---|"]
     for pg in sorted(cited):
         rows.append(f"| {pg} | {', '.join(sorted(cited[pg]))} |")
     LOG.write_text(body + "\n" + "\n".join(rows) + "\n", encoding="utf-8")

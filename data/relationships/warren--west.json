@@ -1,6 +1,9 @@
 {
   "id": "warren--west",
-  "people": ["warren", "west"],
+  "people": [
+    "warren",
+    "west"
+  ],
   "certainty": "attraction-expressed",
   "certainty_status": "proposed",
   "certainty_reasoning": "Warren made the proposition; Sox reports West's refusal in terms of his discomfort with 'the possible implications', which is a refusal of the thing proposed and is recorded as such.",
@@ -25,7 +28,7 @@
       "supports": "The declined alter-ego proposition that preceded the Marshall wooing",
       "verification": "verified-elision",
       "how_verified": "pdf-text",
-      "provenance": "Repo PDF page 54, printed folio 38 confirmed on rendered page.",
+      "provenance": "PDF page 54, printed folio 38 confirmed on rendered page.",
       "verified_on": "2026-08-03",
       "voice": "modern"
     }

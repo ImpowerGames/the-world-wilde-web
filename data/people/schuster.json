@@ -2,9 +2,13 @@
   "id": "schuster",
   "born": null,
   "died": null,
-  "aka": ["Miss Tiny"],
+  "aka": [
+    "Miss Tiny"
+  ],
   "gender": "f",
-  "bio_sources": ["letters-2000"],
+  "bio_sources": [
+    "letters-2000"
+  ],
   "context_engagements": [
     {
       "partner_name": "Oscar Wilde",
@@ -25,7 +29,7 @@
           "supports": "The friendship at its ordinary footing, months before she gave him £1,000.",
           "verification": "verified-exact",
           "how_verified": "pdf-image",
-          "provenance": "Repo PDF page 677; printed folio 625 confirmed on the rendered page image.",
+          "provenance": "PDF page 677; printed folio 625 confirmed on the rendered page image.",
           "verified_on": "2026-08-06",
           "voice": "period"
         }

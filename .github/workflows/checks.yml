@@ -1,0 +1,58 @@
+name: Checks
+
+# What a pull request has to survive. The point is that a contributor learns their JSON is wrong
+# from their own PR, not from the live map going blank.
+
+on:
+  pull_request:
+  push:
+    branches: [main, master]
+  workflow_dispatch:
+
+jobs:
+  validate:
+    name: Corpus
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # Standard library only, so this stays fast enough to be worth waiting for.
+      - name: Validate the corpus
+        run: python tools/validate.py --check
+
+  navigation:
+    name: Navigation
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Playwright
+        run: |
+          pip install playwright
+          playwright install --with-deps chromium
+
+      - name: Build the bundle
+        run: python tools/validate.py
+
+      # Server and test share one step on purpose: a background process started in a previous step
+      # is not guaranteed to still be running in the next one.
+      #
+      # Guards the gestures that fail by a few per cent - a two-finger drag that quietly rescales,
+      # a wheel zoom that letterboxes the drawing. No screenshot would show either.
+      - name: Serve and run the navigation tests
+        run: |
+          python tools/serve.py --no-open &
+          server=$!
+          trap 'kill $server 2>/dev/null' EXIT
+          for i in $(seq 1 30); do
+            curl -sf http://localhost:8000/data/circle.json -o /dev/null && break
+            if [ "$i" = 30 ]; then echo "the server never came up on :8000"; exit 1; fi
+            sleep 1
+          done
+          python tools/test_navigation.py

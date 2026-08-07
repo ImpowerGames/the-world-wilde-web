@@ -1,6 +1,9 @@
 {
   "id": "paris-egyptian--wilde",
-  "people": ["paris-egyptian", "wilde"],
+  "people": [
+    "paris-egyptian",
+    "wilde"
+  ],
   "certainty": "attraction-expressed",
   "certainty_status": "proposed",
   "direction": "wilde",
@@ -31,7 +34,7 @@
       "supports": "The whole of the record: Wilde's description of the Café d'Egypte waiter and his statement that the man is no consolation for the departed Neapolitan; no outcome recorded",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "Repo PDF page 1242, printed folio 1196 confirmed at the foot of the rendered page. Transcribed exactly as printed in the Complete Letters; the editors' footnote 1 on the same page records that their text of this incomplete letter comes from W. T. Spencer's Forty Years in my Bookshop (1923), corrected and supplemented by the American Art Association catalogue of 1 February 1928, and the heading carries no manuscript line.",
+      "provenance": "PDF page 1242, printed folio 1196 confirmed at the foot of the rendered page. Transcribed exactly as printed in the Complete Letters; the editors' footnote 1 on the same page records that their text of this incomplete letter comes from W. T. Spencer's Forty Years in my Bookshop (1923), corrected and supplemented by the American Art Association catalogue of 1 February 1928, and the heading carries no manuscript line.",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Leonard Smithers"

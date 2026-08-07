@@ -1,6 +1,9 @@
 {
   "id": "manuele--wilde",
-  "people": ["manuele", "wilde"],
+  "people": [
+    "manuele",
+    "wilde"
+  ],
   "certainty": "attraction-expressed",
   "certainty_status": "proposed",
   "direction": "wilde",
@@ -32,7 +35,7 @@
       "supports": "The whole of the record for Manuele.",
       "verification": "verified-exact",
       "how_verified": "pdf-image",
-      "provenance": "Repo PDF pages 1224-1225; printed folios 1178 and 1179 both confirmed on the rendered page images.",
+      "provenance": "PDF pages 1224-1225; printed folios 1178 and 1179 both confirmed on the rendered page images.",
       "verified_on": "2026-08-06",
       "voice": "period"
     }

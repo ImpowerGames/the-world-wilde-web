@@ -1,6 +1,9 @@
 {
   "id": "hall--souline",
-  "people": ["hall", "souline"],
+  "people": [
+    "hall",
+    "souline"
+  ],
   "certainty": "self-reported",
   "certainty_status": "proposed",
   "start": {
@@ -26,7 +29,7 @@
       "supports": "The participant's own voice at the opening of the attachment, and its date.",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "Repo PDF p. 7 read as a rendered page image 2026-08-04 and re-read at 330 dpi; printed folio 28 confirmed in the running head on the image. The scan is TWO PRINTED PAGES PER PDF PAGE. The PDF's text layer is unreliable and was not used for transcription - besides misreading words it reorders blocks, and on this page it prints the date line above the preceding letter's sign-off, which would have mis-dated the quotation.",
+      "provenance": "PDF p. 7 read as a rendered page image 2026-08-04 and re-read at 330 dpi; printed folio 28 confirmed in the running head on the image. The scan is TWO PRINTED PAGES PER PDF PAGE. The PDF's text layer is unreliable and was not used for transcription - besides misreading words it reorders blocks, and on this page it prints the date line above the preceding letter's sign-off, which would have mis-dated the quotation.",
       "verified_on": "2026-08-04",
       "speaker": "Radclyffe Hall, letter to Evguenia Souline",
       "addressee": "Evguenia Souline",
@@ -45,7 +48,7 @@
       "supports": "The weight Hall placed on the attachment within weeks of its beginning, in her own words.",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "Repo PDF p. 7 read as a rendered page image 2026-08-04 and re-read at 330 dpi; printed folio 28 confirmed in the running head on the image. The scan is TWO PRINTED PAGES PER PDF PAGE. The PDF's text layer is unreliable and was not used for transcription - besides misreading words it reorders blocks, and on this page it prints the date line above the preceding letter's sign-off, which would have mis-dated the quotation.",
+      "provenance": "PDF p. 7 read as a rendered page image 2026-08-04 and re-read at 330 dpi; printed folio 28 confirmed in the running head on the image. The scan is TWO PRINTED PAGES PER PDF PAGE. The PDF's text layer is unreliable and was not used for transcription - besides misreading words it reorders blocks, and on this page it prints the date line above the preceding letter's sign-off, which would have mis-dated the quotation.",
       "verified_on": "2026-08-04",
       "speaker": "Radclyffe Hall, letter to Evguenia Souline",
       "addressee": "Evguenia Souline",
@@ -63,7 +66,7 @@
       "supports": "How and when the two met, and that the attachment ran to Hall's death alongside the Troubridge partnership rather than replacing it.",
       "verification": "verified-elision",
       "how_verified": "pdf-text",
-      "provenance": "Repo PDF p. 4 read as a rendered page image 2026-08-04 and re-read at 330 dpi; printed folio 2 confirmed in the running head on the image. The scan is TWO PRINTED PAGES PER PDF PAGE. The PDF's text layer is unreliable and was not used for transcription - besides misreading words it reorders blocks, and on this page it prints the date line above the preceding letter's sign-off, which would have mis-dated the quotation.",
+      "provenance": "PDF p. 4 read as a rendered page image 2026-08-04 and re-read at 330 dpi; printed folio 2 confirmed in the running head on the image. The scan is TWO PRINTED PAGES PER PDF PAGE. The PDF's text layer is unreliable and was not used for transcription - besides misreading words it reorders blocks, and on this page it prints the date line above the preceding letter's sign-off, which would have mis-dated the quotation.",
       "verified_on": "2026-08-04",
       "speaker": "Joanne Glasgow, ed.",
       "voice": "modern"
@@ -78,7 +81,7 @@
       "supports": "That the surviving record is Hall's alone, and the editor's own reading of what Souline's missing side may have held.",
       "verification": "verified-elision",
       "how_verified": "pdf-text",
-      "provenance": "Repo PDF p. 5 read as a rendered page image 2026-08-04; the page carries the section headnote and the printed folio 25 at its foot. Em-dash before 'flattered' as printed.",
+      "provenance": "PDF p. 5 read as a rendered page image 2026-08-04; the page carries the section headnote and the printed folio 25 at its foot. Em-dash before 'flattered' as printed.",
       "verified_on": "2026-08-04",
       "speaker": "Joanne Glasgow, ed.",
       "voice": "modern"
@@ -88,7 +91,7 @@
     {
       "work": "glasgow-1997-your-john",
       "checked_on": "2026-08-04",
-      "finding": "SCOPE LIMIT ON THE COPY USED. The repo PDF is a **30-page extract**, not the whole book: it carries the front matter and introduction plus printed pages running to 80, against a volume that ends at printed 271. Everything recorded on this edge is verified at page within that extract, and the extract covers the beginning of the correspondence, which is what the edge needed. The later years - 1937 to 1942, printed 147 onward, including whatever the letters say about the end - have not been read here."
+      "finding": "SCOPE LIMIT ON THE COPY USED. The PDF is a **30-page extract**, not the whole book: it carries the front matter and introduction plus printed pages running to 80, against a volume that ends at printed 271. Everything recorded on this edge is verified at page within that extract, and the extract covers the beginning of the correspondence, which is what the edge needed. The later years - 1937 to 1942, printed 147 onward, including whatever the letters say about the end - have not been read here."
     }
   ]
 }

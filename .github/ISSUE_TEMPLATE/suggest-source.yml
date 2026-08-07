@@ -1,0 +1,40 @@
+name: A source we should read
+description: A book, edition, archive or collection this map has not used
+labels: [source]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        You do not need to have read it yourself, and you do not need to know what is in it. A
+        pointer to where the evidence probably is beats a gap nobody knows about.
+
+  - type: input
+    id: source
+    attributes:
+      label: The source
+      description: Author, title, year, publisher. Or the archive, collection and shelfmark.
+    validations:
+      required: true
+
+  - type: textarea
+    id: why
+    attributes:
+      label: Why it matters here
+      description: Who or what it covers, and what you expect it would settle or complicate.
+    validations:
+      required: true
+
+  - type: input
+    id: access
+    attributes:
+      label: Where it can be consulted
+      description: >
+        A library, an archive with its reading-room terms, an Internet Archive identifier, a URL.
+        Anything that saves the next person the search.
+
+  - type: textarea
+    id: passages
+    attributes:
+      label: Particular passages, if you know them
+      description: Pages, chapters, letter numbers. Quote them if you have them to hand.
+      render: text

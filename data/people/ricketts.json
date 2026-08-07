@@ -2,7 +2,11 @@
   "id": "ricketts",
   "name": "Charles Ricketts",
   "sort_name": "Ricketts, Charles",
-  "aka": ["Charles de Sousy Ricketts", "Orchid", "Jean Paul Raymond"],
+  "aka": [
+    "Charles de Sousy Ricketts",
+    "Orchid",
+    "Jean Paul Raymond"
+  ],
   "born": {
     "y": 1866
   },
@@ -42,7 +46,7 @@
           "supports": "Wilde's first recorded impression of Ricketts, a year and a half before Ricketts began designing his books.",
           "verification": "verified-exact",
           "how_verified": "pdf-image",
-          "provenance": "Repo PDF page 432; printed folio 410 confirmed on the rendered page image.",
+          "provenance": "PDF page 432; printed folio 410 confirmed on the rendered page image.",
           "verified_on": "2026-08-05",
           "voice": "period"
         }
@@ -66,7 +70,7 @@
           "supports": "Ricketts as one of the friends through whom Wilde's spoken words survive.",
           "verification": "verified-exact",
           "how_verified": "pdf-image",
-          "provenance": "Repo PDF page 72; printed folio 47 confirmed on the rendered page image.",
+          "provenance": "PDF page 72; printed folio 47 confirmed on the rendered page image.",
           "verified_on": "2026-08-06",
           "voice": "modern"
         }

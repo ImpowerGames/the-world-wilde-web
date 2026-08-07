@@ -1,6 +1,9 @@
 {
   "id": "bradfield-boy--fothergill",
-  "people": ["bradfield-boy", "fothergill"],
+  "people": [
+    "bradfield-boy",
+    "fothergill"
+  ],
   "certainty": "attraction-expressed",
   "certainty_status": "proposed",
   "direction": "fothergill",
@@ -26,7 +29,7 @@
       "supports": "Fothergill's own account of the approach, in his own words.",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "Repo PDF p. 158 (printed folio 142 confirmed on the rendered page).",
+      "provenance": "PDF p. 158 (printed folio 142 confirmed on the rendered page).",
       "verified_on": "2026-08-03",
       "voice": "period",
       "speaker": "John Fothergill, memoir (1954)"
@@ -43,7 +46,7 @@
       "supports": "How the approach ended, and the legal pressure that ended it - three years after Wilde's release, the same criminal law operating without a prosecution.",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "Repo PDF pp. 158-159 (printed folios 142 and 143 confirmed on the rendered pages); the passage runs across the page break at 'not to rewrite to him again, | otherwise'.",
+      "provenance": "PDF pp. 158-159 (printed folios 142 and 143 confirmed on the rendered pages); the passage runs across the page break at 'not to rewrite to him again, | otherwise'.",
       "verified_on": "2026-08-03",
       "voice": "period",
       "speaker": "John Fothergill, memoir (1954)"

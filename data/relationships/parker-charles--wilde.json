@@ -1,6 +1,9 @@
 {
   "id": "parker-charles--wilde",
-  "people": ["parker-charles", "wilde"],
+  "people": [
+    "parker-charles",
+    "wilde"
+  ],
   "certainty": "self-reported",
   "certainty_status": "proposed",
   "start": {
@@ -146,7 +149,7 @@
       ]
     },
     {
-      "quote": "I had for a fortnight or three weeks a room at 50 Park Walk, Chelsea. At the time I was living at Park Walk, Wilde visited me there. I was asked by Wilde to imagine that I was a woman and that he was my lover. I had to keep up this illusion. I used to sit on his knees and he used to . . as a man might amuse himself with a girl. Wilde insisted on this filthy make-believe being kept up. … Apart from money, did Wilde give you any presents?—Yes, he gave me a silver cigarette case and a gold ring. I don't suppose boys are different to girls in acquiring presents from them who are fond of them. You pawned the cigarette case and the ring?—Yes.",
+      "quote": "I had for a fortnight or three weeks a room at 50 Park Walk, Chelsea. At the time I was living at Park Walk, Wilde visited me there. I was asked by Wilde to imagine that I was a woman and that he was my lover. I had to keep up this illusion. I used to sit on his knees and he used to. as a man might amuse himself with a girl. Wilde insisted on this filthy make-believe being kept up. … Apart from money, did Wilde give you any presents?—Yes, he gave me a silver cigarette case and a gold ring. I don't suppose boys are different to girls in acquiring presents from them who are fond of them. You pawned the cigarette case and the ring?—Yes.",
       "context": "Charles Parker's examination-in-chief, Regina v. Wilde and Taylor, 26 April 1895. The suspension points after 'he used to' are printed by Hyde, who redacts there; our elision drops the following sentences about a late-night cab visit to Park Walk and the landlady's notice to quit.",
       "work": "hyde-trials-1948",
       "locator": "p. 193",
@@ -165,7 +168,7 @@
       "turns": [
         {
           "who": "Parker",
-          "text": "I had for a fortnight or three weeks a room at 50 Park Walk, Chelsea. At the time I was living at Park Walk, Wilde visited me there. I was asked by Wilde to imagine that I was a woman and that he was my lover. I had to keep up this illusion. I used to sit on his knees and he used to . . as a man might amuse himself with a girl. Wilde insisted on this filthy make-believe being kept up. …"
+          "text": "I had for a fortnight or three weeks a room at 50 Park Walk, Chelsea. At the time I was living at Park Walk, Wilde visited me there. I was asked by Wilde to imagine that I was a woman and that he was my lover. I had to keep up this illusion. I used to sit on his knees and he used to. as a man might amuse himself with a girl. Wilde insisted on this filthy make-believe being kept up. …"
         },
         {
           "who": "Q.",
@@ -277,7 +280,7 @@
       "supports": "Wilde's own written acknowledgment of a 'connection with Charley Parker' aired at trial — his word, from prison; the editors' note on the page reads: 'One of the young men who gave evidence at Wilde's trials' (p. 670 n 1)",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "repo PDF 'Complete Letters' (Fourth Estate 2000), PDF p. 721 = printed p. 670 (folio confirmed on rendered page)",
+      "provenance": "PDF 'Complete Letters' (Fourth Estate 2000), PDF p. 721 = printed p. 670 (folio confirmed on rendered page)",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Robert Ross"

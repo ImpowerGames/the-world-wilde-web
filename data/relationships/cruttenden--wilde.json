@@ -1,6 +1,9 @@
 {
   "id": "cruttenden--wilde",
-  "people": ["cruttenden", "wilde"],
+  "people": [
+    "cruttenden",
+    "wilde"
+  ],
   "certainty": "attraction-expressed",
   "certainty_status": "proposed",
   "direction": "wilde",
@@ -28,7 +31,7 @@
       "supports": "Wilde's personal regard for him, and the deliberate attempt to place him socially rather than charitably.",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "Repo PDF p. 950 read as a rendered page image 2026-08-04; printed folio 900 confirmed at the foot of the image. Located first in the complete OCR mirror, which locates only. Superscript note markers omitted as typography.",
+      "provenance": "PDF p. 950 read as a rendered page image 2026-08-04; printed folio 900 confirmed at the foot of the image. Located first in the complete OCR mirror, which locates only. Superscript note markers omitted as typography.",
       "verified_on": "2026-08-04",
       "speaker": "Oscar Wilde",
       "addressee": "Reggie Turner",

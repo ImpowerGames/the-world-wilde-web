@@ -1,6 +1,9 @@
 {
   "id": "branca-doro--wilde",
-  "people": ["branca-doro", "wilde"],
+  "people": [
+    "branca-doro",
+    "wilde"
+  ],
   "certainty": "attraction-expressed",
   "certainty_status": "proposed",
   "direction": "wilde",
@@ -31,7 +34,7 @@
       "supports": "The whole of the record for Branca-d'Oro, and Wilde saying he loved him.",
       "verification": "verified-exact",
       "how_verified": "pdf-image",
-      "provenance": "Repo PDF page 1227; printed folio 1181 confirmed on the rendered page image.",
+      "provenance": "PDF page 1227; printed folio 1181 confirmed on the rendered page image.",
       "verified_on": "2026-08-06",
       "voice": "period"
     }

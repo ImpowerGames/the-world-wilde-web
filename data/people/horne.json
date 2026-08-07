@@ -2,14 +2,18 @@
   "id": "horne",
   "name": "Herbert Horne",
   "sort_name": "Horne, Herbert",
-  "aka": ["Herbert P. Horne"],
+  "aka": [
+    "Herbert P. Horne"
+  ],
   "born": null,
   "died": null,
   "group": "aesthete",
   "gender": "m",
   "bio": "Architect, designer, typographer, poet and art historian of the Century Guild circle, and later the founder of the Museo Horne in Florence. His one volume of poems, Diversi Colores, he printed himself in 1891. Eleven of Wilde's letters to him survive, from 1886 to 1891 - Wilde asking him to dinner alone, praising his verse twice at length, and arguing with him about how cautiously to restore a school building.",
-  "bio_sources": ["letters-2000"],
-  "bio_note": "ELEVEN LETTERS at repo PDF 305 (two), 306, 483, 504 and others; SIX READ AT THE PAGE (printed 283 twice, 463 and 484, folios confirmed). DATES NOT RECORDED and none inferred.",
+  "bio_sources": [
+    "letters-2000"
+  ],
+  "bio_note": "ELEVEN LETTERS at PDF 305 (two), 306, 483, 504 and others; SIX READ AT THE PAGE (printed 283 twice, 463 and 484, folios confirmed). DATES NOT RECORDED and none inferred.",
   "context_engagements": [
     {
       "partner_name": "Oscar Wilde",
@@ -31,7 +35,7 @@
           "supports": "A dinner for two, at no notice.",
           "verification": "verified-exact",
           "how_verified": "pdf-image",
-          "provenance": "Repo PDF page 305; printed folio 283 confirmed on the rendered page image.",
+          "provenance": "PDF page 305; printed folio 283 confirmed on the rendered page image.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -51,7 +55,7 @@
           "supports": "The praise that came a week later.",
           "verification": "verified-exact",
           "how_verified": "pdf-image",
-          "provenance": "Repo PDF page 305; printed folio 283 confirmed on the rendered page image.",
+          "provenance": "PDF page 305; printed folio 283 confirmed on the rendered page image.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -71,7 +75,7 @@
           "supports": "An evening of poems among men, declined but wanted.",
           "verification": "verified-exact",
           "how_verified": "pdf-image",
-          "provenance": "Repo PDF page 483; printed folio 463 confirmed on the rendered page image.",
+          "provenance": "PDF page 483; printed folio 463 confirmed on the rendered page image.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -91,7 +95,7 @@
           "supports": "The fullest thing Wilde wrote him, and a caution about reading praise of poems as praise of the poet.",
           "verification": "verified-elision",
           "how_verified": "pdf-image",
-          "provenance": "Repo PDF page 504; printed folio 484 confirmed on the rendered page image.",
+          "provenance": "PDF page 504; printed folio 484 confirmed on the rendered page image.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -111,7 +115,7 @@
           "supports": "The two of them working on a Chatterton memorial together, and Wilde wishing him there.",
           "verification": "verified-elision",
           "how_verified": "pdf-image",
-          "provenance": "Repo PDF page 307; printed folio 285 confirmed on the rendered page image.",
+          "provenance": "PDF page 307; printed folio 285 confirmed on the rendered page image.",
           "verified_on": "2026-08-06",
           "voice": "period"
         },
@@ -131,7 +135,7 @@
           "supports": "Wilde wanting a long talk before anything is announced.",
           "verification": "verified-exact",
           "how_verified": "pdf-image",
-          "provenance": "Repo PDF page 307; printed folio 285 confirmed on the rendered page image.",
+          "provenance": "PDF page 307; printed folio 285 confirmed on the rendered page image.",
           "verified_on": "2026-08-06",
           "voice": "period"
         }

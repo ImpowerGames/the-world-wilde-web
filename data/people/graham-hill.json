@@ -12,8 +12,10 @@
   "group": "aesthete",
   "gender": "m",
   "bio": "Poet, journalist and playwright; his musical play Havana was a success at the Gaiety in 1908. Five of Wilde's letters to him survive, three of them from 1888, when Hill was about twenty-three and sending Wilde his first book of verse. Wilde read it, criticised one rhyme, praised the touch, teased him about the woman it was dedicated to, and twice asked him to come round. The correspondence resumes in 1891 with the two warmest letters of the five, in which Wilde asks whether he is 'still enamoured of love and poetry' and says he thinks of him often.",
-  "bio_sources": ["letters-2000"],
-  "bio_note": "L. love you?' - is about a third party, which is right: the editors' note identifies M. ALL FIVE LETTERS have been read at the page: three at printed 380 (repo PDF 402), then printed 480 (PDF 500) and printed 483 (PDF 503), every folio confirmed on its own page image. Dates 1865-1933 from the editors' note at printed 380.",
+  "bio_sources": [
+    "letters-2000"
+  ],
+  "bio_note": "L. love you?' - is about a third party, which is right: the editors' note identifies M. ALL FIVE LETTERS have been read at the page: three at printed 380 (PDF 402), then printed 480 (PDF 500) and printed 483 (PDF 503), every folio confirmed on its own page image. Dates 1865-1933 from the editors' note at printed 380.",
   "context_engagements": [
     {
       "partner_name": "Oscar Wilde",
@@ -34,7 +36,7 @@
           "supports": "The invitation, and the terms of the friendship: an established writer amused by a young one.",
           "verification": "verified-exact",
           "how_verified": "pdf-image",
-          "provenance": "Repo PDF page 402; printed folio 380 confirmed on the rendered page image. Quoted whole.",
+          "provenance": "PDF page 402; printed folio 380 confirmed on the rendered page image. Quoted whole.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -53,7 +55,7 @@
           "supports": "Wilde reading a young poet's book closely, praising and correcting it, teasing him about his sweetheart, and asking him to call.",
           "verification": "verified-exact",
           "how_verified": "pdf-image",
-          "provenance": "Repo PDF page 402; printed folio 380 confirmed on the rendered page image. Quoted whole.",
+          "provenance": "PDF page 402; printed folio 380 confirmed on the rendered page image. Quoted whole.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -72,7 +74,7 @@
           "supports": "The shape of the friendship - Wilde withholding his name from Hill's publicity while backing his work.",
           "verification": "verified-exact",
           "how_verified": "pdf-image",
-          "provenance": "Repo PDF page 402; printed folio 380 confirmed on the rendered page image. Quoted whole.",
+          "provenance": "PDF page 402; printed folio 380 confirmed on the rendered page image. Quoted whole.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -91,7 +93,7 @@
           "supports": "Three years on from the first letters, the friendship still running — and Wilde saying plainly that he would like to see more of him.",
           "verification": "verified-exact",
           "how_verified": "pdf-image",
-          "provenance": "Repo PDF page 500; printed folio 480 confirmed on the rendered page image.",
+          "provenance": "PDF page 500; printed folio 480 confirmed on the rendered page image.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -110,7 +112,7 @@
           "supports": "The closest thing to a declaration in this correspondence: 'I often think of you, and am sorry we meet so rarely.'",
           "verification": "verified-exact",
           "how_verified": "pdf-image",
-          "provenance": "Repo PDF page 503; printed folio 483 confirmed on the rendered page image.",
+          "provenance": "PDF page 503; printed folio 483 confirmed on the rendered page image.",
           "verified_on": "2026-08-05",
           "voice": "period"
         }

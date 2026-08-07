@@ -2,8 +2,12 @@
   "id": "otho-lloyd",
   "born": null,
   "died": null,
-  "aka": ["Otho"],
-  "bio_sources": ["letters-2000"],
+  "aka": [
+    "Otho"
+  ],
+  "bio_sources": [
+    "letters-2000"
+  ],
   "context_engagements": [
     {
       "partner_name": "Oscar Wilde",
@@ -25,7 +29,7 @@
           "supports": "Wilde wiring his brother-in-law within hours of Cyril's birth.",
           "verification": "verified-exact",
           "how_verified": "pdf-image",
-          "provenance": "Repo PDF page 283; printed folio 261 confirmed on the rendered page image.",
+          "provenance": "PDF page 283; printed folio 261 confirmed on the rendered page image.",
           "verified_on": "2026-08-06",
           "voice": "period"
         },
@@ -45,7 +49,7 @@
           "supports": "The ordinary family footing - a present, and asking after a sick nephew.",
           "verification": "verified-exact",
           "how_verified": "pdf-image",
-          "provenance": "Repo PDF page 307; printed folio 285 confirmed on the rendered page image.",
+          "provenance": "PDF page 307; printed folio 285 confirmed on the rendered page image.",
           "verified_on": "2026-08-06",
           "voice": "period"
         }

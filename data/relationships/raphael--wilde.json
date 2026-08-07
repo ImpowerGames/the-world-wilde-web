@@ -1,6 +1,9 @@
 {
   "id": "raphael--wilde",
-  "people": ["raphael", "wilde"],
+  "people": [
+    "raphael",
+    "wilde"
+  ],
   "certainty": "attraction-expressed",
   "certainty_status": "proposed",
   "direction": "wilde",
@@ -30,7 +33,7 @@
       "supports": "The whole of the record for Raphael: named as one of Wilde's two special friends among the Napoule fisher-folk, called quite perfect, with no outcome recorded",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "Repo PDF page 1159, printed folio 1113 confirmed at the foot of the rendered page.",
+      "provenance": "PDF page 1159, printed folio 1113 confirmed at the foot of the rendered page.",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Laurence Housman"

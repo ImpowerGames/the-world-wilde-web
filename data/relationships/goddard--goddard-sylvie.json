@@ -1,6 +1,9 @@
 {
   "id": "goddard--goddard-sylvie",
-  "people": ["goddard", "goddard-sylvie"],
+  "people": [
+    "goddard",
+    "goddard-sylvie"
+  ],
   "certainty": "married",
   "certainty_status": "proposed",
   "certainty_reasoning": "Cook states the marriage as fact in passing while describing the Ives household; no date, place or maiden name is given on the page read.",
@@ -19,7 +22,7 @@
       "supports": "The marriage, Sylvie's entry into the household, and the two daughters",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "Repo PDF p. 107 (printed folio 96 confirmed on the rendered page).",
+      "provenance": "PDF p. 107 (printed folio 96 confirmed on the rendered page).",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -33,7 +36,7 @@
       "supports": "Cook reportedly records that Sylvie kept house for Ives, that she and James remained until their deaths, and that the daughters stayed until the early 1940s - one, Therese, still visiting in 1944. Known so far only from the PDF text layer; verify at the rendered page before quoting.",
       "verification": "verified-elision",
       "how_verified": "pdf-text",
-      "provenance": "Repo PDF page 111, printed folio 100 confirmed in the running head on the rendered page ('100 Queer Domesticities').",
+      "provenance": "PDF page 111, printed folio 100 confirmed in the running head on the rendered page ('100 Queer Domesticities').",
       "verified_on": "2026-08-03",
       "voice": "modern"
     }

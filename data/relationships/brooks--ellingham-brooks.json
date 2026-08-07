@@ -1,6 +1,9 @@
 {
   "id": "brooks--ellingham-brooks",
-  "people": ["brooks", "ellingham-brooks"],
+  "people": [
+    "brooks",
+    "ellingham-brooks"
+  ],
   "certainty": "married",
   "certainty_status": "proposed",
   "start": {
@@ -26,7 +29,7 @@
       "supports": "The marriage, its date, and what each of them wanted from it.",
       "verification": "verified-exact",
       "how_verified": "pdf-image",
-      "provenance": "Repo PDF page 147; printed folio 113 confirmed on the rendered page image.",
+      "provenance": "PDF page 147; printed folio 113 confirmed on the rendered page image.",
       "verified_on": "2026-08-05",
       "voice": "modern"
     },
@@ -42,7 +45,7 @@
       "supports": "How quickly the marriage failed, and that it was a marriage between two queer people rather than a heterosexual union she left.",
       "verification": "verified-exact",
       "how_verified": "pdf-image",
-      "provenance": "Repo PDF page 147; printed folio 113 confirmed on the rendered page image.",
+      "provenance": "PDF page 147; printed folio 113 confirmed on the rendered page image.",
       "verified_on": "2026-08-05",
       "voice": "modern"
     }

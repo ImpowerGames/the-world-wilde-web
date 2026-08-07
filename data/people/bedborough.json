@@ -8,7 +8,9 @@
   "group": "later",
   "gender": "m",
   "bio": "Editor of The Adult, a magazine promoting freedom in sexual relations outside marriage, and secretary of the Legitimation League, which campaigned for the legal recognition of children born out of wedlock. In 1898 he published Havelock Ellis's Sexual Inversion - the first English study of homosexuality - at his Watford University Press, and on 31 May that year he was arrested for selling a copy of it to a plain-clothes policeman. Ten weeks earlier he had sent Wilde a bound edition of his essays and a Salomé illustrated by Max Beerbohm, and Wilde had written back to thank him.",
-  "bio_sources": ["letters-2000"],
+  "bio_sources": [
+    "letters-2000"
+  ],
   "bio_note": "found in the volume's General Index at printed 1239 and read at the page the same hour. NOT YET READ: the Legitimation League and Sexual Inversion material lies outside this volume.",
   "context_engagements": [
     {
@@ -31,7 +33,7 @@
           "supports": "The whole of the correspondence, ten weeks before Bedborough's arrest.",
           "verification": "verified-exact",
           "how_verified": "pdf-image",
-          "provenance": "Repo PDF page 1083; printed folio 1037 confirmed on the rendered page image.",
+          "provenance": "PDF page 1083; printed folio 1037 confirmed on the rendered page image.",
           "verified_on": "2026-08-06",
           "voice": "period"
         }
