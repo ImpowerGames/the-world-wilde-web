@@ -4,7 +4,7 @@ _This is a map of documented queer relationships during Oscar Wilde's time. Ever
 
 ## Reading the map
 
-Node **color** groups people by sphere (Wilde, aesthetes, the 1895 trials, society, spouse, the Order of Chaeronea, the later circle, outside the circle, beyond Europe). Node **shape** marks the subject's legally recognized gender in the genogram convention — **squares for men, circles for women**. Line **style** carries the certainty of each connection, below.
+Node **color** groups people by sphere (Wilde, aesthetes, the 1895 trials, society, spouse, the Order of Chaeronea, the later circle, outside the circle, beyond Europe). Node **shape** marks the subject's legally recognized gender in the genogram convention — **squares for men, circles for women**. Line **style** represents the certainty of each connection.
 
 **Outside the circle** collects those who were never part of the propertied social world the rest of this map describes — a fisherman at Napoule, a waiter at the Café d'Égypte, a soldier in Reading Gaol, a servant who waited at table in a Paris boarding house. Most survive only under a first name, a nickname, or no name at all. They are here because the record of a life should not depend on its subject's status or class.
 
