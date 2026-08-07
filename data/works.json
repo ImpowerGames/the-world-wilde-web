@@ -806,5 +806,18 @@
     "ia_id": null,
     "locator_style": "none",
     "note": "Https://en.wikipedia.org/wiki/John_Fothergill_(innkeeper) - plain-text extract via the MediaWiki API, retrieved 2026-08-05. A tertiary source, used here only for marriage facts and only where the underlying footnote was inspected; each quotation's provenance records whether the sentence quoted carries a citation on the page. Names Kate Kirby as his wife and co-manager of the Spread Eagle, and records that Fothergill credited her in his own An Innkeeper's Diary (1931). Does not mention the first wife or the first marriage at all - Sox is the only source for Doris Herring."
+  },
+  "lewis-personal-communication": {
+    "kind": "interview",
+    "author": "Brian Lewis",
+    "editors": null,
+    "title": "Personal communication",
+    "publisher": null,
+    "place": null,
+    "year": 2026,
+    "short_cite": "Lewis, personal communication (2026)",
+    "ia_id": null,
+    "locator_style": "none",
+    "note": "Unpublished. Cited in the form Cook himself uses for Lewis throughout Queer Domesticities (2014), whose endnotes credit several claims to Brian Lewis by personal communication with no archival citation. Lewis is Ives's biographer and has read the diaries directly."
   }
 }

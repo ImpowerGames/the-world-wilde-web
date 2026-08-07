@@ -1,0 +1,44 @@
+{
+  "id": "gee--ives",
+  "people": [
+    "gee",
+    "ives"
+  ],
+  "certainty": "second-hand",
+  "certainty_status": "proposed",
+  "start": null,
+  "end": null,
+  "date_label": "Ives's Adelaide Road household - undated in any source read.",
+  "summary": "Charles Gee was one of the long-term residents of George Ives's Adelaide Road household. Cook's characterisation of Ives's bonds with the men who lived there is collective and covers Gee among them: relationships that 'possibly started sexually' and settled into something platonic, with Ives continuing to sleep beside them.",
+  "certainty_reasoning": "The attestation is Cook's and it is collective - he characterises Ives's relationships with 'the other men at Adelaide Road' as a group rather than naming Gee in the sentence. No passage in either man's own voice appears in any source read, so the evidence is the historian's account of the household Gee belonged to. Cook names Gee at p. 101, but in the same breath misassigns him the nickname Cubby, which Brian Lewis states belonged to Harold Holt.",
+  "sources": [
+    {
+      "work": "cook-2014",
+      "locator": "p. 101",
+      "locator_type": "page",
+      "quote": "Though Ives' relationships with the other men at Adelaide Road possibly started sexually, they seem quickly to have become platonic - even though he continued to sleep with them from time to time.",
+      "voice": "modern",
+      "evidence_date": null,
+      "supports": "Cook's collective characterisation of Ives's bonds with the Adelaide Road men, of whom Gee was one. The sentence does not name Gee; it is the household it describes that places him in it.",
+      "verification": "verified-exact",
+      "how_verified": "pdf-text",
+      "provenance": "PDF p. 112 (printed folio 101 confirmed on the rendered page)."
+    },
+    {
+      "work": "lewis-personal-communication",
+      "locator": "telephone, 2026-08-07",
+      "locator_type": "none",
+      "quote": "",
+      "voice": null,
+      "evidence_date": null,
+      "order_hint": {
+        "y": 1921,
+        "why": "Undated; placed beside the Adelaide Road material it corrects."
+      },
+      "supports": "That Gee's nickname was not Cubby - Lewis gives it as Wobby or Wubby, spelling awaiting his confirmation - and that Cook's gloss at p. 101 is an error. QUOTATION PENDING.",
+      "verification": "unverified",
+      "how_verified": "unverified",
+      "provenance": "Unpublished telephone communication; no transcript."
+    }
+  ]
+}
