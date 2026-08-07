@@ -34,7 +34,7 @@ Every classification is checked by hand against the sources before it is relied 
 
 For completeness, if an individual had queer and straight connections over the course of their lifetime, both are included for full context. Sources depicting purely platonic warmth and friendship are also documented in the profiles, though they do not generate a connection line on the map.
 
-Categorizing historical relationships is an inherently interpretive endeavor. Because the exact nature of these bonds cannot always be definitively proven, we encourage you to evaluate the cited sources and draw your own conclusions. Ultimately, this map is designed to serve as a visual bibliography and finding aid, not a definitive historical verdict.
+Categorizing historical relationships is an inherently interpretive endeavor. Because the exact nature of these bonds cannot be definitively proven, we encourage you to evaluate the cited sources and draw your own conclusions. Ultimately, this map is designed to serve as a visual bibliography and finding aid, not a definitive historical verdict.
 
 ## Narrowing the map
 
