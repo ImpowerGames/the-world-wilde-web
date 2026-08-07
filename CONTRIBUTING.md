@@ -38,7 +38,7 @@ You do not need to argue for a particular classification. Just say what the sour
 
 **For short letters, quote the whole letter**.
 
-**For long letters, quote the whole letter and elide only what does not characterize the relationship**. This is the reverse of what may be your initial inclination, which is to lift only the sentence that proves the point. Do not do that. Start from the whole letter and cut anything irrelevant which says nothing about the two people, or does not provide useful context for the conversation. Mark each cut with an ellipsis.
+**For long letters, quote the whole letter and elide only what does not characterize the relationship**. A common initial inclination is to lift only the sentence that proves the point. Do not do that. Instead, start from the whole letter and cut anything irrelevant which says nothing about the two people, or does not provide useful context for the conversation. Mark each cut with an ellipsis.
 
 **Friendship counts.** A quotation does not have to reach romance to be worth recording, and a person does not have to carry a connection line to belong on the map. Warmth between individuals in this period is part of what the record shows and part of what the map is for; George Alexander and
 Graham Hill are here as nodes with no line, holding letters that are simply fond. Record the friendship, let the certainty class stay empty, and let a reader see the affection and make judgements for themselves.
