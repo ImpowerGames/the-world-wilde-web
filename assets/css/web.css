@@ -694,20 +694,20 @@ main {
   top: var(--phead-h);
   z-index: 4;
   background: var(--paper2);
-  margin-left: -20px;
-  margin-right: -20px;
+  padding-top: 4px;
+  margin-top: -4px;
+  padding-bottom: 4px;
+  margin-bottom: 16px;
   padding-left: 20px;
+  margin-left: -20px;
   padding-right: 20px;
+  margin-right: -20px;
   font-family: var(--sans);
   font-size: 12px;
   letter-spacing: 0.18em;
   text-transform: uppercase;
   color: var(--ink3);
   border-bottom: 1px solid var(--rule);
-  margin-top: -4px;
-  padding-top: 4px;
-  padding-bottom: 4px;
-  margin-bottom: 16px;
 }
 /* timeline */
 .tl {
@@ -1112,6 +1112,8 @@ main {
   list-style: none;
   margin-left: -1.55em;
   padding-left: 2.9em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
   text-indent: -2.9em;
 }
 .lkey .lsample {
@@ -1643,7 +1645,7 @@ mark.sfhit {
 #panel th,
 #panel td {
   border-bottom: 1px solid var(--rule);
-  padding: 5px 9px;
+  padding: 10px 9px;
   text-align: left;
   vertical-align: top;
 }
