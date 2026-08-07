@@ -4,19 +4,13 @@
     "ives",
     "saunders"
   ],
-  "certainty": "self-reported",
+  "certainty": "second-hand",
   "certainty_status": "proposed",
-  "certainty_reasoning": "Cook, Queer Domesticities (2014), names him at printed 96, 100, 102 and 109 - as 'Elephant', a later addition to the household, an alcoholic Ives kept when the Goddard daughters left over his drinking, and joint inheritor of the Adelaide Road house with Bloodworth. The class stays 'alleged': Cook documents household membership, inheritance and Ives's paternal framing, and characterises the Adelaide Road relationships as having 'possibly started sexually' before becoming platonic - he nowhere asserts a sexual relationship with Saunders specifically, and it remains one historian's account. Cook's account of the Ives household is drawn from Ives's own 122-volume diary and his endnotes cite it by volume and date; the tier follows whose testimony underlies the claim, not whether our record happens to carry a direct quotation rather than the historian's summary of the same diary.",
+  "certainty_reasoning": "Cook, Queer Domesticities (2014), names him at printed 96, 100, 102 and 109 - as 'Elephant', a later addition to the household, an alcoholic Ives kept when the Goddard daughters left over his drinking, and joint inheritor of the Adelaide Road house with Bloodworth. Cook's account of the household is drawn from Ives's own 122-volume diary and his endnotes cite it by volume and date, but no passage naming Saunders in Ives's own voice appears in any source read, so the attestation is the historian's rather than a participant's.",
   "start": null,
   "end": null,
   "date_label": "Ives's household, later years - undated in any source read so far.",
-  "summary": "Stanley Saunders ('Elephant') is held by the project's research leads to have been a member of Ives's household - one of the 'children' - in Ives's later years. No citable source read so far names him; the claim awaits verification in the Ives diaries (Harry Ransom Center) or Brian Lewis's published work.",
-  "disputed": {
-    "claim": "That Saunders was a member of Ives's household and one of his lovers in Ives's later years",
-    "asserted_by": "Project research leads (interview prep drawing on Brian Lewis's account of Ives), which list Saunders ('Elephant') among Ives's household 'children'",
-    "disputed_by": null,
-    "grounds": "No citable source read so far asserts it. Cook (2014) documents household membership and inheritance but does not assert a sexual relationship with Saunders specifically; his general characterisation of the Adelaide Road men is 'possibly started sexually … quickly became platonic'. Ives's diaries at the Harry Ransom Center and Kaplan (2005) remain the verification targets."
-  },
+  "summary": "Stanley Saunders - 'Elephant' among the household nicknames - lived with George Ives at Adelaide Road in Ives's later years. Cook names him as a household member, as joint inheritor of the house and its contents with Harold Bloodworth, and as the man Ives kept when the Goddard daughters left over his drinking. Cook characterises the Adelaide Road relationships as having 'possibly started sexually' before becoming platonic, with bed-sharing continuing throughout. No first-person characterisation by either man survives in any source read; Ives's diaries at the Harry Ransom Center are where one would be.",
   "sources": [
     {
       "quote": "He referred to his housemates affectionately but patronisingly with infantilising nicknames (Cubby, Pug, Kit, Elephant - Therese was Chooki) and also frequently as his 'children'. … 'My children all laugh at me', he complained, 'but they have not the responsibility of running a house with six or eight people in it; all to be milked for'.",
@@ -84,7 +78,7 @@
       "evidence_date": {
         "y": 1939
       },
-      "supports": "First citable source naming Saunders. This record's certainty_reasoning states that no citable source read had named Stanley Saunders in the household; Cook (2014) names him repeatedly - here as co-heir with Bloodworth to the Adelaide Road house and contents. The reasoning and disputed fields are now stale and need the editor's review.",
+      "supports": "First citable source naming Saunders: co-heir with Bloodworth to the Adelaide Road house and contents.",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
       "provenance": "PDF pp. 120-121 (printed folios 109 and 110 confirmed on the rendered pages; the sentence runs across the page break).",
@@ -119,6 +113,5 @@
       "verified_on": "2026-08-03",
       "voice": "modern"
     }
-  ],
-  "prior_class": "alleged"
+  ]
 }
