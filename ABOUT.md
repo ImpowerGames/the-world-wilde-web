@@ -48,7 +48,7 @@ To **move a node**, _press-and-hold the node until it turns gold_, then _drag it
 
 To **reset a node**, _press, hold, and release the node without moving_.
 
-To **solo a filter**, _right-click the switch for the filter in the legend_, and it will toggle on that filter and toggle off all the others in the same category.
+To **solo a filter**, _right-click or long-press the switch for the filter in the legend_, and it will toggle on that filter and toggle off all the others in the same category.
 
 ## Colophon
 

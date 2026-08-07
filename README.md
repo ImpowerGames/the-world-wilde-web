@@ -25,7 +25,7 @@ There is **no JavaScript toolchain and nothing to install** Python 3.8+ is the o
 
 It is a plain static site: HTML, one stylesheet, one script, JSON and images. It can be published to GitHub Pages or any static host with no build step beyond `python tools/validate.py`.
 
-**The About panel's text is a markdown file**, `content/ABOUT.md`, compiled into the data bundle by `tools/validate.py`. `{{line:<certainty>}}` becomes the real connection line, drawn from the same definitions the legend uses, and `{{colophon}}` becomes the generated build line.
+**The About and Contributing panels' content are defined in markdown files**, `ABOUT.md` and `CONTRIBUTING.md`, compiled into the data bundle by `tools/validate.py`. `{{line:<certainty>}}` renders a connection line, drawn from the same definitions the legend uses, and `{{colophon}}` becomes the generated build information.
 
 ## What it does
 
@@ -35,7 +35,7 @@ The lightest class is deliberately light. **Attraction expressed** covers everyt
 
 |                          |                                                                                                                 |
 | ------------------------ | --------------------------------------------------------------------------------------------------------------- |
-| **Married** (`married`)  | a legal marriage                                                                                                |
+| **Married**              | a legal marriage                                                                                                |
 | **Self-reported**        | a participant's own words — letters, diaries, sworn testimony                                                   |
 | **Second-hand**          | someone else present, or a historian, attests it                                                                |
 | **Uncorroborated**       | asserted with very little supporting evidence; or actively contested                                            |
@@ -54,13 +54,15 @@ Thirty-one of the seventy-nine have one, taken from **the photograph at the head
 
 All are public domain or released as such; provenance, licence and artist for each are in [`portraits/credits.json`](portraits/credits.json).
 
-## Layout
+## Organization
 
 ```
-index.html                 markup
+ABOUT.md                   text that populates ABOUT panel
+CONTRIBUTING.md            text that populates CONTRIBUTING panel
 favicon.svg                tab icon
-assets/css/circle.css      presentation
-assets/js/circle.js        behaviour
+index.html                 site structure
+assets/css/circle.css      site styling
+assets/js/circle.js        site behavior
 data/people/*.json         one file per person
 data/relationships/*.json  one file per connection
 data/works.json            the bibliography, with pagination warnings per source
@@ -71,7 +73,7 @@ tools/serve.py             local dev server
 tools/layout_report.py     measures the drawing: crossings, overlaps, nodes sitting on lines
 ```
 
-## How the layout works
+## Layout
 
 The graph is very nearly a forest with one overwhelming hub (Wilde). So it is drawn as a radial tree first and relaxed second:
 
@@ -83,24 +85,7 @@ The graph is very nearly a forest with one overwhelming hub (Wilde). So it is dr
 
 Re-measure with `python tools/layout_report.py` after adding anyone — it prints the crossing count, the most-crossed connections and any node sitting on a line.
 
-## Controls
-
-To **pan**, _click-and-drag_.
-
-To **zoom**, _scroll_ or _pinch-and-zoom_.
-
-To **move a node**, _press-and-hold the node until it turns gold_, then _drag it_.
-
-To **reset a node**, _press, hold, and release the node without moving_.
-
-To **solo a filter**, _right-click the switch for the filter in the legend_, and it will toggle on that filter and toggle off all the others in the same category.
-
-**Right-click a legend switch to show only that one.** Solo means _everything else in this row off_. The row's previous state is remembered, so
-turning it off restores exactly what was there, including switches that were already off before soloing. Each row is independent and the rows compose: _Aesthetes only_ plus _Women only_ reads as the women among the aesthetes. The sphere chip above a person's name does the same for their sphere.
-
-## Method notes worth knowing
-
-Each of these was learned the hard way, and is recorded per source in `data/works.json`:
+## Important method notes
 
 - **Printed-to-PDF page offsets are frequently not constant.** Hyde's _Trials_ steps from +22 to +46 across the volume as unfoliated plates are bound in; the _Complete Letters_ offset _shrinks_
   from +51 to +46. Compute a folio and you will cite the wrong page. Read it off the rendered page.

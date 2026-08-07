@@ -715,7 +715,7 @@ def main():
     bundle = {"people": [p for p in people if "__load_error__" not in p],
               "relationships": [r for r in rels if "__load_error__" not in r],
               "works": works, "portraits": portraits,
-              "about": md_html(ROOT / "content" / "ABOUT.md"),
+              "about": md_html(ROOT / "ABOUT.md"),
               "contributing": md_html(ROOT / "CONTRIBUTING.md"),
               "built": date.today().isoformat()}
     out = DATA / "circle.json"
