@@ -1755,7 +1755,7 @@ async function loadCircle() {
     })()}
     ${q.translation ? `<div class="qtrans"><span class="qtrans-h">${esc(LANG_NAME[q.lang] || q.lang)} ⟶ English</span>${esc(q.translation)}${q.translation_note ? `<span class="qtrans-n">${esc(q.translation_note)}</span>` : ""}</div>` : ""}
     <div class="qattr">${attr}</div>
-    ${q.supports ? `<div class="qsupports">Evidences: ${esc(q.supports)}</div>` : ""}
+    ${q.supports ? `<div class="qsupports">Support: ${esc(q.supports)}</div>` : ""}
     ${q.order_hint && q.order_hint.why ? `<div class="qplaced">Undated — placed here for reading order: ${esc(q.order_hint.why)}</div>` : ""}
     ${vLabel ? `<div class="chips"><span class="chip ${vClass}">${vLabel}</span></div>` : ""}
     ${prov ? `<details><summary>Provenance</summary><div>${esc(prov)}${howLabel(q.how_verified) ? ` · ${esc(howLabel(q.how_verified))}` : ""}${q.verified_on ? ` · ${esc(q.verified_on)}` : ""}</div></details>` : ""}

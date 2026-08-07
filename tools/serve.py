@@ -14,6 +14,7 @@ with no-cache headers, so a plain reload picks up changes.
 """
 import http.server
 import functools
+import socket
 import socketserver
 import subprocess
 import sys
@@ -21,9 +22,46 @@ import webbrowser
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-ARGS = [a for a in sys.argv[1:] if a != "--no-open"]
+FLAGS = {"--no-open", "--force"}
+ARGS = [a for a in sys.argv[1:] if a not in FLAGS]
 OPEN_BROWSER = "--no-open" not in sys.argv[1:]
+FORCE = "--force" in sys.argv[1:]
 PORT = int(ARGS[0]) if ARGS else 8000
+
+
+def listeners(port):
+    """PIDs listening on `port`, with the command that started each."""
+    out = subprocess.run(["netstat", "-ano"], capture_output=True, text=True).stdout
+    pids = set()
+    for line in out.splitlines():
+        parts = line.split()
+        if len(parts) >= 5 and "LISTENING" in line and parts[1].endswith(f":{port}"):
+            pids.add(parts[-1])
+    found = []
+    for pid in sorted(pids):
+        cmd = subprocess.run(
+            ["powershell", "-NoProfile", "-Command",
+             f"(Get-CimInstance Win32_Process -Filter \"ProcessId={pid}\").CommandLine"],
+            capture_output=True, text=True).stdout.strip()
+        found.append((pid, cmd or "(command line unavailable)"))
+    return found
+
+
+def free_port(port):
+    """Stop whatever is listening, naming each process before killing it.
+
+    Deliberately not automatic. On Windows a second server binds the SAME port without complaint
+    and then receives nothing, so 'something is already there' is common and silent - but the
+    something might be a service, not a stray dev server, and killing it unasked would be worse
+    than the problem.
+    """
+    procs = listeners(port)
+    if not procs:
+        print(f"  nothing is listening on {port}")
+        return
+    for pid, cmd in procs:
+        print(f"  killing {pid}  {cmd[:96]}")
+        subprocess.run(["taskkill", "/PID", pid, "/F"], capture_output=True, text=True)
 
 
 class Handler(http.server.SimpleHTTPRequestHandler):
@@ -72,8 +110,42 @@ def main():
         sys.exit("\nvalidation failed — fix the errors above, the site was not started")
 
     handler = functools.partial(Handler, directory=str(ROOT))
-    socketserver.TCPServer.allow_reuse_address = True
-    with socketserver.TCPServer(("", PORT), handler) as httpd:
+
+    class Server(socketserver.TCPServer):
+        """Listen on IPv6 AND IPv4, and refuse to share the port.
+
+        `localhost` resolves to ::1 before 127.0.0.1 on Windows, so an IPv4-only server is simply
+        not there for a browser typing localhost. Binding IPv6 with V6ONLY off covers both.
+
+        allow_reuse_address is deliberately OFF. On Windows it does not mean "reuse a dead socket",
+        it means "bind anyway even though someone else is listening" - so a second serve.py starts
+        cleanly, prints its banner, and receives nothing, while the stale process keeps answering.
+        That failure is invisible and costs an afternoon. Better to fail loudly with an address-in-
+        use error that names the real problem.
+        """
+        allow_reuse_address = False
+        address_family = socket.AF_INET6
+
+        def server_bind(self):
+            try:
+                self.socket.setsockopt(socket.IPPROTO_IPV6, socket.IPV6_V6ONLY, 0)
+            except (AttributeError, OSError):
+                pass  # a stack without dual-mode; IPv6 clients still work
+            super().server_bind()
+
+    if FORCE:
+        free_port(PORT)
+
+    try:
+        httpd = Server(("", PORT), handler)
+    except OSError as e:
+        procs = listeners(PORT)
+        detail = "\n".join(f"    {pid}  {cmd[:96]}" for pid, cmd in procs)
+        sys.exit(f"\ncould not bind port {PORT}: {e}\n"
+                 + (f"\n  already listening:\n{detail}\n" if detail else "")
+                 + f"\n  stop it and retry:   python tools/serve.py --force"
+                 + f"\n  or by hand:          taskkill /PID <pid> /F\n")
+    with httpd:
         url = f"http://localhost:{PORT}/"
         print(f"\nserving {ROOT.name}/ at {url}   (ctrl-c to stop)\n")
         if OPEN_BROWSER:
