@@ -52,6 +52,12 @@ jobs:
           test -f _site/data/circle.json
           test -f _site/CNAME
 
+      # Pages caches assets for ten minutes, so without this a returning reader can get the
+      # previous stylesheet against the new markup. Runs on the STAGED copy so the repository's
+      # index.html keeps its plain paths.
+      - name: Stamp asset URLs with their content hash
+        run: python tools/stamp_assets.py _site
+
       - uses: actions/configure-pages@v5
 
       - uses: actions/upload-pages-artifact@v3

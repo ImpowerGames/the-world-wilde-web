@@ -27,8 +27,25 @@ PORT = int(ARGS[0]) if ARGS else 8000
 
 
 class Handler(http.server.SimpleHTTPRequestHandler):
+    def send_head(self):
+        """Never answer 304, so an edit can never be served stale.
+
+        `Cache-Control: no-store` below stops the browser storing a copy, but it does nothing
+        about a copy stored BEFORE the header existed, or one a browser holds on to anyway: that
+        browser still sends If-Modified-Since, and the stdlib handler answers "not modified" by
+        comparing whole seconds of mtime. Edit a file and reload inside the same second - which is
+        exactly what editing a stylesheet and hitting refresh looks like - and you get the old one
+        back with no way to tell. Dropping the conditional headers makes every request
+        unconditional, which is what a dev server should do.
+        """
+        del self.headers["If-Modified-Since"]
+        del self.headers["If-None-Match"]
+        return super().send_head()
+
     def end_headers(self):
         self.send_header("Cache-Control", "no-store, must-revalidate")
+        self.send_header("Pragma", "no-cache")
+        self.send_header("Expires", "0")
         super().end_headers()
 
     # One tidy line per request. These are split out rather than filtered inside log_message,
