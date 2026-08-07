@@ -4,7 +4,7 @@ This is a map of documented queer relationships during the late-nineteenth- and 
 
 We especially welcome corrections. If a citation is wrong, a transcription drifts, or a classification overstates its evidence, [open an issue]({{repo}}/issues/new/choose) or [submit a pull request]({{repo}}/blob/HEAD/CONTRIBUTING-CODE.md).
 
-Make sure your claims are appropriately evidenced. We will reject:
+Make sure your claims are appropriately evidenced. We will not accept:
 
 - A claim with no citation behind it.
 - A quotation that was only remembered or read in a search index rather than verified directly on the page.
