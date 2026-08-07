@@ -38,7 +38,7 @@ Categorizing historical relationships is an inherently interpretive endeavor. Be
 
 ## Narrowing the map
 
-Every switch in the legend can be clicked to turn its category off. **Right-click to solo that category** — every other switch in the same row will turn off, and the one you picked will light up. Click it again, and the row goes back to how it was. Each row is independent, so soloing a Sphere leaves Gender and Connections alone. The sphere chip above a person's name does the same thing for their sphere.
+Every switch in the legend can be clicked to turn its category off. **Right-click or long-press to solo that category** — every other switch in the same row will turn off, and the one you picked will light up. Click it again, and the row goes back to how it was. Each row is independent, so soloing a Sphere leaves Gender and Connections alone. The sphere chip above a person's name does the same thing for their sphere.
 
 ## Controls
 
