@@ -9,7 +9,7 @@ Make sure your claims are appropriately evidenced. We will reject:
 - A claim with no citation behind it.
 - A quotation that was only remembered or read in a search index rather than verified directly on the page.
 - A claim that reads absence of evidence as evidence itself, in either direction.
-- A claim that infers an age, date, or relationship that the source does not state.
+- A claim that infers an age or date that the source does not state.
 
 ---
 
