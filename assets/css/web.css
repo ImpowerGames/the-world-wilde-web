@@ -1643,6 +1643,26 @@ mark.sfhit {
   border-top: 1px solid var(--rule);
   margin: 22px 0;
 }
+
+#panel th,
+#panel td {
+  border-bottom: 1px solid var(--rule);
+  padding: 5px 9px;
+  text-align: left;
+  vertical-align: top;
+}
+#panel thead th {
+  border-bottom: 2px solid var(--rule);
+}
+#panel th {
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink3);
+  font-weight: 500;
+  white-space: nowrap;
+}
+
 #panel.doc pre {
   overflow-x: auto;
   background: rgba(0, 0, 0, 0.24);
@@ -1668,30 +1688,15 @@ code {
   font-weight: 500;
   white-space: nowrap;
 }
+
 #panel.doc table {
-  display: block;
-  overflow-x: auto;
+  width: 100%; /* Tell the table to use full container width */
   border-collapse: collapse;
   font-family: var(--sans);
-  font-size: 12px;
-  margin: 12px 0;
+  font-size: 14px; /* Increased from 12px for better mobile reading */
+  line-height: 1.5; /* Essential for large blocks of text */
+  margin: 16px 0;
 }
-#panel.doc th,
-#panel.doc td {
-  border: 1px solid var(--rule);
-  padding: 5px 9px;
-  text-align: left;
-  vertical-align: top;
-}
-#panel.doc th {
-  font-size: 9.5px;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  color: var(--ink3);
-  font-weight: 400;
-  white-space: nowrap;
-}
-
 /* Code tokens, coloured by tools/validate.py at build time.
    Kept inside the page's warm range rather than a stock editor theme: the comments only have to
    fall back from the data, not compete with it. */

@@ -540,7 +540,6 @@ def highlight(code, lang):
         html = re.sub(r"(?m)^(\s*)([\w./-]+)", r'\1<span class="t-cmd">\2</span>', html)
     return html
 
-
 def md_html(src):
     """Compile one of the site's markdown documents into the HTML a panel shows.
 
@@ -569,6 +568,11 @@ def md_html(src):
             spans.append(m.group(1))
             return f"\x00{len(spans) - 1}\x00"
         s = re.sub(r"`([^`]+)`", hold, s)
+        
+        # Restore <br> tags so multiline table cells work. Doing this after 'hold' 
+        # ensures `<br>` inside code backticks stays safely escaped as &lt;br&gt;
+        s = re.sub(r"(?i)&lt;br\s*/?&gt;", "<br>", s)
+
         s = re.sub(r"\[([^\]]+)\]\(([^)]+)\)",
                    r'<a href="\2" target="_blank" rel="noopener">\1</a>', s)
         # Autolinks: <https://example.com> survives escaping as &lt;https://…&gt;.
@@ -677,7 +681,6 @@ def md_html(src):
                 out.append("</ul>"); ul = False
             if not ol:
                 out.append("<ol>"); ol = True
-            # maxsplit guarantees we pull everything after the number space
             body = line.split(maxsplit=1)[1]
             cls = ' class="lkey"' if body.startswith("{{line:") else ""
             out.append(f"<li{cls}>{inline(body)}</li>")
@@ -689,7 +692,6 @@ def md_html(src):
     close_lists()
     close_table()
     return "\n".join(out)
-
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__,

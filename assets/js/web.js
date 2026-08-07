@@ -1090,11 +1090,15 @@ async function loadWeb() {
       '<line x1="1" y1="5" x2="33" y2="5" stroke="var(--edge)" stroke-width="5"/><line x1="1" y1="5" x2="33" y2="5" stroke="var(--paper)" stroke-width="1.8"/>',
     "attraction-expressed":
       '<line x1="1" y1="5" x2="27" y2="5" stroke="var(--edge)" stroke-width="1.7" stroke-dasharray="2 3 6 3"/><path d="M27,1.5 L33,5 L27,8.5 z" fill="var(--edge)"/>',
+    none: "[none]",
   };
   function lineSample(c) {
-    return SAMPLES[c]
-      ? `<svg class="lsample" width="34" height="10" aria-hidden="true">${SAMPLES[c]}</svg>`
-      : "";
+    const line = SAMPLES[c];
+    return line && line.startsWith("<")
+      ? `<svg class="lsample" width="34" height="10" aria-hidden="true">${line}</svg>`
+      : line
+        ? `<small>${line}</small>`
+        : "";
   }
   const certOrder = [
     "married",
@@ -1102,6 +1106,7 @@ async function loadWeb() {
     "second-hand",
     "uncorroborated",
     "attraction-expressed",
+    "none",
   ].filter((c) => RELS.some((r) => r.certainty === c));
   const ISOLATED = new Set(
     WEB.people
