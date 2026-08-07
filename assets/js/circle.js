@@ -110,9 +110,13 @@ async function loadCircle() {
     unreciprocated: "not reciprocated",
   };
   const DEFAULT_OFF = new Set([]);
+  // Verified carries NO chip. Nothing unverified is supposed to reach the map in the first place,
+  // so a badge on every quotation saying so was labelling the rule rather than the exception -
+  // and made the handful that genuinely are pending harder to spot, not easier. Empty label = no
+  // chip; only the states that need a reader's attention still show one.
   const VER_META = {
-    "verified-exact": ["✓ Source Verified", "v-ok"],
-    "verified-elision": ["✓ Source Verified", "v-ok"],
+    "verified-exact": ["", ""],
+    "verified-elision": ["", ""],
     "needs-fix": ["! Needs fix", "v-warn"],
     rejected: ["✗ Rejected", "v-bad"],
     unverified: ["⧖ Pending verification", "v-pend"],
@@ -1753,9 +1757,7 @@ async function loadCircle() {
     <div class="qattr">${attr}</div>
     ${q.supports ? `<div class="qsupports">Evidences: ${esc(q.supports)}</div>` : ""}
     ${q.order_hint && q.order_hint.why ? `<div class="qplaced">Undated — placed here for reading order: ${esc(q.order_hint.why)}</div>` : ""}
-    <div class="chips">
-      <span class="chip ${vClass}">${vLabel}</span>
-    </div>
+    ${vLabel ? `<div class="chips"><span class="chip ${vClass}">${vLabel}</span></div>` : ""}
     ${prov ? `<details><summary>Provenance</summary><div>${esc(prov)}${howLabel(q.how_verified) ? ` · ${esc(howLabel(q.how_verified))}` : ""}${q.verified_on ? ` · ${esc(q.verified_on)}` : ""}</div></details>` : ""}
   </div>`;
   }
