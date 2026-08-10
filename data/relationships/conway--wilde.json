@@ -35,7 +35,7 @@
       },
       "supports": "Wilde's admitted six-week companionship, presents and Brighton trip, and his denial of the specific sexual allegation; Wilde's age-estimate 'about eighteen'",
       "verification": "verified-elision",
-      "how_verified": "archive-org",
+      "how_verified": "page-image",
       "provenance": "IA in.ernet.dli.2015.499238, leaf 171 (printed pp. 137-138)",
       "verified_on": "2026-08-03",
       "speaker": "Oscar Wilde",
@@ -74,7 +74,8 @@
           "who": "Wilde",
           "text": "Yes."
         }
-      ]
+      ],
+      "document": "testimony"
     },
     {
       "quote": "Do you remember Alphonse Conway?—Yes. I met him on the beach at Worthing last year in August. … What rooms had you at Brighton?—Two bedrooms and a sitting-room. We slept in adjoining rooms. When did you see Conway last?—Outside the Court two days ago.",
@@ -88,7 +89,7 @@
       },
       "supports": "The Brighton overnight in adjoining rooms; Conway present around the Court in May 1895 though never called",
       "verification": "verified-elision",
-      "how_verified": "archive-org",
+      "how_verified": "page-image",
       "provenance": "IA in.ernet.dli.2015.499238, leaf 364 (printed pp. 318-319)",
       "verified_on": "2026-08-03",
       "speaker": "Oscar Wilde, cross-examined by the Solicitor-General",
@@ -118,7 +119,8 @@
           "who": "Wilde",
           "text": "Outside the Court two days ago."
         }
-      ]
+      ],
+      "document": "testimony"
     },
     {
       "quote": "And that the said Oscar Fingal O'Flahertie Wills Wilde upon several occasions in the months of August and September in the year of our Lord One thousand eight hundred and ninety-four at Worthing in the County of Sussex and on or about the twenty-seventh day of September in the said year at the Albion Hotel Brighton in the same County did solicit and incite one Alfonso Harold Conway to commit sodomy and other acts of gross indecency and immorality with him the said Oscar Fingal O'Flahertie Wills Wilde. And that the said Oscar Fingal O'Flahertie Wills Wilde did in fact at the said times and places commit the said other acts of gross indecency with the said Alfonso Harold Conway.",
@@ -132,7 +134,7 @@
       },
       "supports": "The plea-only allegation, its dates and places, and Conway's full name as pleaded — the class-deciding text. Note: the plea as printed states no age for Conway",
       "verification": "verified-exact",
-      "how_verified": "archive-org",
+      "how_verified": "page-image",
       "provenance": "IA in.ernet.dli.2015.499238, leaf 390 (printed p. 344)",
       "verified_on": "2026-08-03",
       "speaker": "The Marquess of Queensberry, plea of justification (filed 30 March 1895)",
@@ -142,7 +144,8 @@
           "who": "Queensberry",
           "text": "And that the said Oscar Fingal O'Flahertie Wills Wilde upon several occasions in the months of August and September in the year of our Lord One thousand eight hundred and ninety-four at Worthing in the County of Sussex and on or about the twenty-seventh day of September in the said year at the Albion Hotel Brighton in the same County did solicit and incite one Alfonso Harold Conway to commit sodomy and other acts of gross indecency and immorality with him the said Oscar Fingal O'Flahertie Wills Wilde. And that the said Oscar Fingal O'Flahertie Wills Wilde did in fact at the said times and places commit the said other acts of gross indecency with the said Alfonso Harold Conway."
         }
-      ]
+      ],
+      "document": "testimony"
     },
     {
       "quote": "[His lordship proceeded to explain that the reason why such offences as the plea of justification alleged, in connexion with the lads Conway and Grainger, were not included in the present indictment was because those offences had occurred, if at all, outside the jurisdiction of the Court.]",
@@ -156,7 +159,7 @@
       },
       "supports": "Why the Conway (and Grainger) allegations were never charged — the 'plea-only' status",
       "verification": "verified-elision",
-      "how_verified": "archive-org",
+      "how_verified": "page-image",
       "provenance": "IA in.ernet.dli.2015.499238, leaf 298 (printed p. 256)",
       "verified_on": "2026-08-03",
       "voice": "modern"
@@ -173,11 +176,12 @@
       },
       "supports": "Primary contemporaneous evidence of the Worthing companionship ('my only companion'), sailing and bathing excursions, August 1894",
       "verification": "verified-exact",
-      "how_verified": "pdf-text",
+      "how_verified": "text-layer",
       "provenance": "Complete Letters (Fourth Estate 2000), PDF p. 654 = printed p. 602",
       "verified_on": "2026-08-03",
       "voice": "period",
-      "addressee": "Lord Alfred Douglas"
+      "addressee": "Lord Alfred Douglas",
+      "document": "letter"
     },
     {
       "work": "holland-2003",
@@ -186,7 +190,7 @@
       "quote": "CARSON: Did you take him one evening after nine o'clock to walk towards Lancing? WILDE: No. CARSON: Are you quite sure of that? WILDE: Yes, quite certain. Yes. … CARSON: Did you kiss him on the road? WILDE: Certainly not. CARSON: Did you put your hands inside his trousers? WILDE: No, certainly not. CARSON: And had you any familiarities with him of any kind? WILDE: None of any kind.",
       "context": "Carson's cross-examination on Alphonse Conway - whom Wilde calls 'Alfonso' throughout the shorthand. Compare Hyde 1948 p. 138, which compresses the whole sequence into a single narrative denial ('It is not true that I met him by appointment one evening and took him on the road to Lancing, kissing him and indulging in familiarities on the way') and drops Carson's explicit question about the trousers altogether.",
       "verification": "verified-elision",
-      "how_verified": "pdf-text",
+      "how_verified": "text-layer",
       "verified_on": "2026-08-03",
       "speaker": "Oscar Wilde",
       "provenance": "PDF p. 194 (printed folio 146)",
@@ -239,7 +243,8 @@
           "who": "Wilde",
           "text": "None of any kind."
         }
-      ]
+      ],
+      "document": "testimony"
     }
   ]
 }

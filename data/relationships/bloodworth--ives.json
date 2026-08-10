@@ -29,7 +29,7 @@
       },
       "supports": "Ives's own diary on sleeping beside Pug (Bloodworth) and Cubby - 'those two' names both men; participant testimony, quoted by Cook from Diary vol. 76. The quoted sentence names love, disclaims passion, and locates the value in comfort.",
       "verification": "verified-elision",
-      "how_verified": "pdf-text",
+      "how_verified": "text-layer",
       "provenance": "PDF p. 112.",
       "verified_on": "2026-08-03",
       "voice": "modern"
@@ -45,7 +45,7 @@
       },
       "supports": "Bloodworth entered the household in 1909 as 'a teenage footballer' and stayed until Ives's death in 1950; the household's 'children' framing",
       "verification": "verified-elision",
-      "how_verified": "pdf-text",
+      "how_verified": "text-layer",
       "provenance": "PDF p. 164. Sentence opening ('Adelaide Road was, according to historian Donald Olsen, \"the essence of suburbia\", and') elided; full passage transcribed in long-form notes.",
       "verified_on": "2026-08-03",
       "voice": "modern"
@@ -59,7 +59,7 @@
       "evidence_date": null,
       "supports": "The household pattern - Bloodworth is the stayed-for-decades case, though Lewis names no one; Lewis frames these as 'domestic relationships' and elsewhere notes Ives's 'relationships were all with adults'",
       "verification": "verified-exact",
-      "how_verified": "digital-copy",
+      "how_verified": "as-published",
       "provenance": "Discovery & Inspiration - Brian Lewis, \"George Cecil Ives and the Transformation of Discourses on Sexuality\"",
       "verified_on": "2026-08-03",
       "voice": "modern"
@@ -75,7 +75,8 @@
       "verification": "unverified",
       "how_verified": "unverified",
       "provenance": "",
-      "verified_on": "2026-08-03"
+      "verified_on": "2026-08-03",
+      "document": "diary"
     },
     {
       "quote": "Though Ives' relationships with the other men at Adelaide Road possibly started sexually, they seem quickly to have become platonic - even though he continued to sleep with them from time to time.",
@@ -86,7 +87,7 @@
       "evidence_date": null,
       "supports": "Cook's own careful reading: a possible sexual beginning, a platonic settling, continued bed-sharing throughout.",
       "verification": "verified-exact",
-      "how_verified": "pdf-text",
+      "how_verified": "text-layer",
       "provenance": "PDF p. 112.",
       "verified_on": "2026-08-03",
       "voice": "modern"
@@ -100,7 +101,7 @@
       "evidence_date": null,
       "supports": "The trajectory Cook proposes for these relationships.",
       "verification": "verified-exact",
-      "how_verified": "pdf-text",
+      "how_verified": "text-layer",
       "provenance": "PDF p. 112.",
       "verified_on": "2026-08-03",
       "voice": "modern"
@@ -116,7 +117,7 @@
       },
       "supports": "The strongest single statement of Bloodworth's standing in the household: he and Saunders inherit the house itself. Ives's own ranking of his attachments, in a legal document.",
       "verification": "verified-exact",
-      "how_verified": "pdf-text",
+      "how_verified": "text-layer",
       "provenance": "PDF pp. 120-121; the sentence runs across the page break.",
       "verified_on": "2026-08-03",
       "voice": "modern"
@@ -132,7 +133,7 @@
       },
       "supports": "Cook explicitly frames the Ives/Bloodworth/Saunders triad against the spousal model - the nearest he comes to calling it a partnership, though 'affections' is not a claim of sexual relations. Independently corroborates the 1909 start date already in this record: 'around 30 years' before the 1939 will.",
       "verification": "verified-exact",
-      "how_verified": "pdf-text",
+      "how_verified": "text-layer",
       "provenance": "PDF p. 121.",
       "verified_on": "2026-08-03",
       "voice": "modern"
@@ -150,7 +151,7 @@
       },
       "supports": "The clearest first-hand statement of the terms Ives set for this relationship, and the one that bears directly on the disputed block above: Ives knows Bloodworth spends nights with women, casts himself as parent rather than partner, and declines to ask - while still claiming 'we have no secrets between us'. Ives's diary, vol. 76, 2 October 1920, as quoted by Cook. Read against the lead quotation, the two together give the shape of the bond in Ives's own terms: love and a shared bed, without exclusivity and without the vocabulary of coupledom.",
       "verification": "verified-exact",
-      "how_verified": "pdf-text",
+      "how_verified": "text-layer",
       "provenance": "PDF p. 112.",
       "verified_on": "2026-08-03",
       "voice": "modern"
@@ -170,7 +171,8 @@
         "y": 1921,
         "m": 1,
         "why": "The communication is of 2026 but what it settles is who 'Cubby' was in the diary entry of 20 January 1921, so it reads beside that entry rather than at the end of a life."
-      }
+      },
+      "document": "interview"
     }
   ]
 }

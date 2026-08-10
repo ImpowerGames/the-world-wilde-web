@@ -49,6 +49,23 @@ async function loadWeb() {
           "'": "&#39;",
         })[c],
     );
+  // Emphasis markup in quote fields, parsed after esc(): *italics*, **bold**,
+  // _underline_, __double underline__, ~~strikethrough~~. Only well-formed pairs
+  // render; a stray marker is left literal rather than mangling the text.
+  //
+  // The double underline is drawn as one, not as some heavier substitute. It is a mark the
+  // writer actually made and the Complete Letters explicitly discard - "no indication is given
+  // of the occasional words which have more than one underlining" - so where the manuscript has
+  // been read, this is the only place that degree survives. __ must be tried before _, or the
+  // single-underline rule eats the inner pair and strands the outer markers.
+  function fmtEmphasis(s) {
+    return String(s ?? "")
+      .replace(/\*\*([^*\n]+)\*\*/g, "<b>$1</b>")
+      .replace(/\*([^*\n]+)\*/g, "<i>$1</i>")
+      .replace(/__([^_\n]+)__/g, '<u class="u2">$1</u>')
+      .replace(/_([^_\n]+)_/g, "<u>$1</u>")
+      .replace(/~~([^~\n]+)~~/g, "<s>$1</s>");
+  }
   function sortKey(d) {
     if (!d || d.y == null) return Infinity;
     return d.y + ((d.m ?? 6.5) - 1) / 12 + (d.d ?? 15) / 372;
@@ -118,13 +135,33 @@ async function loadWeb() {
     unverified: ["⧖ Pending verification", "v-pend"],
   };
   const HOW_LABEL = {
-    "pdf-image": "read at the page image",
-    "pdf-text": "read from the PDF text layer",
-    "digital-copy": "read in a digital copy of the document",
-    "physical-copy": "read in a physical copy of the document",
-    "archive-org": "read on archive.org",
-    web: "web source",
+    "page-image": "read at the page image",
+    "text-layer": "read from an extracted text layer, not at the page",
+    "in-hand": "read in the physical copy",
+    "as-published": "read as published",
     unverified: "",
+  };
+  // What is being quoted, where that differs from the work it was read in. `hand` marks the
+  // documents somebody wrote out, which are the only ones with an original left to check:
+  // a printed pamphlet has nothing behind the print.
+  // [singular for the chip, written by hand, plural for the filter's option list]. The plurals
+  // are spelled out because two of them are irregular and one of them is not a plural at all:
+  // court evidence is "Testimony" however much of it there is.
+  const DOC_META = {
+    letter: ["Letter", true, "Letters"],
+    telegram: ["Telegram", true, "Telegrams"],
+    postcard: ["Postcard", true, "Postcards"],
+    diary: ["Diary", true, "Diaries"],
+    inscription: ["Inscription", true, "Inscriptions"],
+    manuscript: ["Manuscript", true, "Manuscripts"],
+    memoir: ["Memoir", false, "Memoirs"],
+    testimony: ["Testimony", false, "Testimony"],
+    interview: ["Interview", false, "Interviews"],
+    pamphlet: ["Pamphlet", false, "Pamphlets"],
+    novel: ["Novel", false, "Novels"],
+    essay: ["Essay", false, "Essays"],
+    poem: ["Poem", false, "Poems"],
+    typescript: ["Typescript", false, "Typescripts"],
   };
   const howLabel = (h) => (h in HOW_LABEL ? HOW_LABEL[h] : h || "");
   const GROUP_LABEL = {
@@ -1705,6 +1742,60 @@ async function loadWeb() {
     // the right rather than being carried down by a long list of names.
     return `<div class="qwith">${who ? `<span class="qnames">${who}</span>` : ""}${when ? `<span class="qdate">${esc(when)}</span>` : ""}</div>`;
   }
+  // Every facsimile opened this session, indexed by the number its button carries. The reader is
+  // one element reused by every card, so the card hands it a number rather than a copy of the
+  // record - cards are rebuilt on every filter keystroke and would otherwise leak a page of
+  // manifest data each time.
+  const FACS = [];
+  function facsButton(q) {
+    const f = q && q.facsimile;
+    if (!f || !f.pages || !f.pages.length) return "";
+    const n = FACS.push(f) - 1;
+    const arc = (WEB.archives || {})[f.archive] || {};
+    const title = ((arc.items || {})[f.item] || {}).title || "Manuscript";
+    const many = f.pages.length > 1;
+    return `<button class="qfacs" data-facs="${n}" title="${esc(
+      `${title} — ${f.pages.length} page${many ? "s" : ""} at full resolution`,
+    )}"><svg class="qfacs-i" viewBox="0 0 16 16" aria-hidden="true" focusable="false"
+      ><circle cx="6.8" cy="6.8" r="4.3" fill="none" stroke="currentColor" stroke-width="1.5"
+      /><path d="M10 10 L14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+      /></svg>View original</button>`;
+  }
+  function docChip(q) {
+    const meta = DOC_META[q && q.document];
+    if (!meta) return "";
+    const [label, hand] = meta;
+    const seen = hand && q.verified_against === "original";
+    const what = hand
+      ? seen
+        ? `The ${label.toLowerCase()} itself has been read — in the original hand, not only in print.`
+        : `Quoted from a ${label.toLowerCase()}, read in print. The original has not been checked.`
+      : `Quoted from a ${label.toLowerCase()}. It is printed, so the work cited is the original.`;
+    // A button, not a label: clicking narrows the panel to this kind of document, which is the
+    // question the chip provokes ("how much of this rests on letters?") answered in one click.
+    return `<button class="chip doc${seen ? " seen" : ""}" data-doc="${esc(q.document)}"
+      aria-pressed="false" title="${esc(what + " Click to show only these.")}"
+      >${seen ? "✓ " : ""}${esc(label)}</button>`;
+  }
+  function chipRow(q, vLabel, vClass) {
+    // Where there is no scan, the archive holding the original is still worth saying: it is the
+    // difference between a document we cannot show and a document nobody can find.
+    const ms = q && q.manuscript;
+    const msChip = ms
+      ? `<span class="chip how" title="The original survives here. This map does not hold a scan of it.">MS ${
+          ms.url
+            ? `<a href="${esc(ms.url)}" target="_blank" rel="noopener">${esc(ms.repository)}</a>`
+            : esc(ms.repository)
+        }</span>`
+      : "";
+    const bits = [
+      docChip(q),
+      vLabel ? `<span class="chip ${vClass}">${vLabel}</span>` : "",
+      facsButton(q),
+      msChip,
+    ].filter(Boolean);
+    return bits.length ? `<div class="chips">${bits.join("")}</div>` : "";
+  }
   function quoteCard(q, withWhom, si) {
     const [vLabel, vClass] =
       VER_META[q.verification || "unverified"] || VER_META.unverified;
@@ -1758,7 +1849,7 @@ async function loadWeb() {
       spkRest = "";
     return `<div class="qcard"${siAttr}>
     ${withBar(withWhom, when)}
-    ${q.context ? `<div class="qctx${q.context.length > 90 ? " long" : ""}">${esc(q.context)}</div>` : ""}
+    ${q.context ? `<div class="qctx${q.context.length > 90 ? " long" : ""}">${fmtEmphasis(esc(q.context))}</div>` : ""}
     ${spk ? `<div class="qspeaker">${personLink(spkMain)}${spkRest ? `<span class="qspeaker-x">, ${esc(spkRest)}</span>` : ""}${to ? `<span class="qspeaker-to"> to </span>${personLink(to)}` : ""}</div>` : ""}
     ${(() => {
       const langAttr = q.lang ? ` lang="${esc(q.lang)}"` : "";
@@ -1769,23 +1860,25 @@ async function loadWeb() {
           return `<blockquote class="q-exchange"${langAttr}>${turns
             .map(
               (t) =>
-                `<span class="who">${esc(t.who || "")}</span><span class="said">${esc(t.text)}</span>`,
+                `<span class="who">${esc(t.who || "")}</span><span class="said">${fmtEmphasis(esc(t.text))}</span>`,
             )
             .join("")}</blockquote>`;
-        return `<blockquote class="q-exchange plain"${langAttr}>${esc(q.quote)}</blockquote>`;
+        return `<blockquote class="q-exchange plain"${langAttr}>${fmtEmphasis(esc(q.quote))}</blockquote>`;
       }
-      return `<blockquote class="${q.voice === "period" ? "q-period" : "q-modern"}"${langAttr}>${esc(q.quote)}</blockquote>`;
+      return `<blockquote class="${q.voice === "period" ? "q-period" : "q-modern"}"${langAttr}>${fmtEmphasis(esc(q.quote))}</blockquote>`;
     })()}
-    ${q.translation ? `<div class="qtrans"><span class="qtrans-h">${esc(LANG_NAME[q.lang] || q.lang)} ⟶ English</span>${esc(q.translation)}${q.translation_note ? `<span class="qtrans-n">${esc(q.translation_note)}</span>` : ""}</div>` : ""}
+    ${q.translation ? `<div class="qtrans"><span class="qtrans-h">${esc(LANG_NAME[q.lang] || q.lang)} ⟶ English</span>${fmtEmphasis(esc(q.translation))}${q.translation_note ? `<span class="qtrans-n">${esc(q.translation_note)}</span>` : ""}</div>` : ""}
     <div class="qattr">${attr}</div>
     ${q.supports ? `<div class="qsupports">Support: ${esc(q.supports)}</div>` : ""}
     ${q.order_hint && q.order_hint.why ? `<div class="qplaced">Undated — placed here for reading order: ${esc(q.order_hint.why)}</div>` : ""}
-    ${vLabel ? `<div class="chips"><span class="chip ${vClass}">${vLabel}</span></div>` : ""}
+    ${chipRow(q, vLabel, vClass)}
     ${prov ? `<details><summary>Provenance</summary><div>${esc(prov)}${howLabel(q.how_verified) ? ` · ${esc(howLabel(q.how_verified))}` : ""}${q.verified_on ? ` · ${esc(q.verified_on)}` : ""}</div></details>` : ""}
   </div>`;
   }
 
   const SRC_FILTER_MIN = 1;
+  let srcDocFilter = null;
+  let reapplySrcFilter = null;
 
   const MARK_MIN = 2;
   let PANEL_SRC = []; // {hay,y} per rendered card, indexed by its data-si
@@ -1857,10 +1950,32 @@ async function loadWeb() {
     const ys = PANEL_SRC.map((s) => s.y).filter((y) => y != null);
     const lo = ys.length ? Math.min(...ys) : "",
       hi = ys.length ? Math.max(...ys) : "";
+    const docs = new Map();
+    for (const r of PANEL_SRC)
+      if (r.doc) docs.set(r.doc, (docs.get(r.doc) || 0) + 1);
+    const docOpts = [...docs]
+      .filter(([k]) => DOC_META[k])
+      .sort(
+        (a, b) =>
+          b[1] - a[1] || DOC_META[a[0]][0].localeCompare(DOC_META[b[0]][0]),
+      )
+      .map(
+        ([k, c]) =>
+          `<option value="${esc(k)}">${esc(DOC_META[k][2])} · ${c}</option>`,
+      )
+      .join("");
+    const docSel =
+      docs.size < 2
+        ? ""
+        : `<select id="sfdoc" class="sfdoc"
+        aria-label="Filter by kind of document"><option value="">All documents</option>${docOpts}</select>`;
     return `<div class="sfilter">
     <div class="sfqwrap">
-      <input id="sfq" class="sfq" type="search" autocomplete="off" spellcheck="false"
-             placeholder="Filter sources…" aria-label="Filter sources">
+      <div class="sfqfield">
+        <input id="sfq" class="sfq" type="search" autocomplete="off" spellcheck="false"
+               placeholder="Filter sources…" aria-label="Filter sources">
+        <span id="sfcount" class="sfcount" role="status"></span>
+      </div>
       <select id="sfscope" class="sfscope" aria-label="What to filter on">
         <option value="all" selected>All</option>
         <option value="names">Names</option>
@@ -1873,7 +1988,7 @@ async function loadWeb() {
       <span class="sfdash">–</span>
       <input id="sfy2" class="sfy" inputmode="numeric" maxlength="4" placeholder="${hi}" aria-label="To year">
       <button id="sfclear" class="sfclear" type="button" aria-label="Clear year range" hidden>Clear</button>
-      <span id="sfcount" class="sfcount" role="status"></span>
+      ${docSel}
     </div>
   </div>
   <p id="sfnone" class="sfnone" hidden>Nothing here matches. The filter reads the quotation, its
@@ -1991,6 +2106,8 @@ async function loadWeb() {
   }
 
   function wireSourceFilter() {
+    srcDocFilter = null;
+    reapplySrcFilter = null;
     const box = $("#sfq");
     if (!box) return;
     const scope = $("#sfscope") || { value: "all" };
@@ -1998,6 +2115,7 @@ async function loadWeb() {
       y2 = $("#sfy2"),
       cnt = $("#sfcount"),
       clr = $("#sfclear"),
+      dsel = $("#sfdoc"),
       none = $("#sfnone");
     const cards = [...panel.querySelectorAll(".qcard[data-si]")];
     const apply = () => {
@@ -2014,6 +2132,7 @@ async function loadWeb() {
         const s = PANEL_SRC[+el.dataset.si] || { hay: {}, y: null };
         const hay = (s.hay && (s.hay[scope.value] ?? s.hay.all)) || "";
         let ok = !term || hay.includes(term);
+        if (ok && srcDocFilter) ok = s.doc === srcDocFilter;
         if (ok && dated) {
           if (s.y == null) {
             ok = false;
@@ -2032,14 +2151,28 @@ async function loadWeb() {
           flagHiddenHits(el);
         }
       }
-      const active = !!term || dated;
+      const active = !!term || dated || !!srcDocFilter;
       cnt.textContent = active
         ? `${shown} of ${cards.length}${dropped ? ` · ${dropped} undated hidden` : ""}`
         : "";
+      cnt.parentElement.classList.toggle("counting", !!cnt.textContent);
+      for (const b of panel.querySelectorAll(".chip.doc[data-doc]"))
+        b.setAttribute("aria-pressed", String(b.dataset.doc === srcDocFilter));
+      if (dsel) {
+        if (dsel.value !== (srcDocFilter || ""))
+          dsel.value = srcDocFilter || "";
+        dsel.classList.toggle("on", !!srcDocFilter);
+      }
 
       clr.hidden = !dated;
       none.hidden = !(active && shown === 0);
     };
+    reapplySrcFilter = apply;
+    if (dsel)
+      dsel.addEventListener("change", () => {
+        srcDocFilter = dsel.value || null;
+        apply();
+      });
     box.addEventListener("input", apply);
     if (scope.addEventListener) scope.addEventListener("change", apply);
     y1.addEventListener("input", apply);
@@ -2129,7 +2262,11 @@ async function loadWeb() {
     PANEL_SRC = [];
     const cards = byEvidenceDate(merged, (f) => f.q)
       .map((f) => {
-        PANEL_SRC.push({ hay: srcHay(f.q, f), y: srcYear(f.q) });
+        PANEL_SRC.push({
+          hay: srcHay(f.q, f),
+          y: srcYear(f.q),
+          doc: f.q.document || null,
+        });
         return quoteCard(f.q, f, PANEL_SRC.length - 1);
       })
       .join("");
@@ -2229,7 +2366,11 @@ async function loadWeb() {
     PANEL_SRC = [];
     const srcCards = byEvidenceDate(r.sources || [])
       .map((q) => {
-        PANEL_SRC.push({ hay: srcHay(q, null), y: srcYear(q) });
+        PANEL_SRC.push({
+          hay: srcHay(q, null),
+          y: srcYear(q),
+          doc: q.document || null,
+        });
         return quoteCard(q, null, PANEL_SRC.length - 1);
       })
       .join("");
@@ -2301,7 +2442,11 @@ async function loadWeb() {
     PANEL_SRC = [];
     const cards = byEvidenceDate(merged, (f) => f.q)
       .map((f) => {
-        PANEL_SRC.push({ hay: srcHay(f.q, f), y: srcYear(f.q) });
+        PANEL_SRC.push({
+          hay: srcHay(f.q, f),
+          y: srcYear(f.q),
+          doc: f.q.document || null,
+        });
         return quoteCard(f.q, f, PANEL_SRC.length - 1);
       })
       .join("");
@@ -3153,6 +3298,238 @@ async function loadWeb() {
       if (u < 1) requestAnimationFrame(settleIn);
     })(t0);
   }
+  // ============ the manuscript reader ============
+  // A quotation is a transcription, and a transcription is a claim. This puts the document
+  // behind it one click away: the letter in the writer's own hand, at the resolution the archive
+  // released, with the shelfmark and the rights marker the archive attached to it.
+  //
+  // The pages a source names are the pages of the LETTER. The rest of the archival folder is
+  // reachable behind them, greyed in the thumbnail strip, because a folder is how the papers
+  // are actually kept and the boundary between one letter and the next is a reading, not a fact
+  // recorded in the metadata.
+  const FACS_EL = $("#facs"),
+    FACS_IMG = $("#facsImg"),
+    FACS_STAGE = $("#facsStage");
+  let facsPages = [], // what the reader is currently showing, letter pages first
+    facsAt = 0,
+    facsZoomed = false,
+    facsReturn = null; // the button that opened it, so focus goes back where it came from
+
+  const ARCHIVES = WEB.archives || {};
+  const fill = (tpl, pointer) =>
+    tpl && pointer ? tpl.replace("{pointer}", encodeURIComponent(pointer)) : "";
+  // The pages are served by the archive that made them, over IIIF, not copied here. `size` is a
+  // IIIF Image API size parameter: "full" for the sheet at the resolution the archive released,
+  // "240," for a thumbnail 240px wide. Asking the archive for the small one keeps a 95-sheet
+  // folder's filmstrip from pulling thirty megabytes to draw a row of stamps.
+  //
+  // Width-only, NOT the "!240,240" fit-in-a-box form: the Ransom Center advertises IIIF Image
+  // level 1, which has sizeByW but not sizeByConfinedWh, and answers the confined form with a
+  // broken image rather than an error.
+  const iiif = (arc, p, size) => {
+    const base = fill(arc.iiif_url, p.pointer);
+    return base ? `${base}/full/${size}/0/default.jpg` : "";
+  };
+
+  // A source cites an archive, an item and page numbers. Everything else about those pages -
+  // file, shelfmark, pointer, rights - lives once in the bundle's archive index.
+  function facsItem(f) {
+    const arc = ARCHIVES[f.archive] || {};
+    return { arc, item: (arc.items || {})[f.item] || { pages: [] } };
+  }
+  function openFacsimile(f, startAt) {
+    const { arc, item } = facsItem(f);
+    const wanted = new Set(f.pages || []);
+    // The letter's own pages, then the remainder of the folder. `rest` is flagged so the strip
+    // can show where the quoted document stops and its neighbours begin.
+    const own = item.pages
+      .filter((p) => wanted.has(p.n))
+      .map((p) => ({ ...p, rest: false }));
+    if (!own.length) return;
+    const rest = item.pages
+      .filter((p) => !wanted.has(p.n))
+      .map((p) => ({ ...p, rest: true }));
+    facsPages = own.concat(rest);
+    facsAt = Math.max(0, Math.min(startAt || 0, facsPages.length - 1));
+    FACS_EL.facs = { f, arc, item };
+    FACS_EL.hidden = false;
+    document.body.style.overflow = "hidden";
+    setZoom(false);
+    drawThumbs();
+    showPage(facsAt);
+    $("#facsClose").focus();
+  }
+  function closeFacsimile() {
+    FACS_EL.hidden = true;
+    document.body.style.overflow = "";
+    FACS_IMG.removeAttribute("src"); // let a 300 KB scan go rather than hold every one opened
+    if (facsReturn && document.contains(facsReturn)) facsReturn.focus();
+    facsReturn = null;
+  }
+  function showPage(i) {
+    if (!facsPages.length) return;
+    facsAt = (i + facsPages.length) % facsPages.length;
+    const p = facsPages[facsAt],
+      { f, arc, item } = FACS_EL.facs,
+      of = item.pages.length;
+    FACS_STAGE.classList.add("loading");
+    FACS_IMG.src = iiif(arc, p, "full");
+    FACS_IMG.alt = `Manuscript page ${p.n}${p.shelfmark ? `, shelfmark ${p.shelfmark}` : ""}`;
+    setZoom(false);
+
+    const own = facsPages.filter((x) => !x.rest).length;
+    $(".fname").textContent = item.title || arc.collection || "Manuscript";
+    $(".fpager").textContent = p.rest
+      ? `Page ${p.n} of ${of} · elsewhere in the folder`
+      : `Page ${facsAt + 1} of ${own}${own < of ? ` · folder page ${p.n} of ${of}` : ""}`;
+
+    const rec = fill(arc.record_url, p.pointer);
+    $(".fcite").innerHTML = [
+      p.shelfmark ? `<b>${esc(p.shelfmark)}</b>` : "",
+      item.box_folder ? esc(item.box_folder) : "",
+      arc.name ? esc(arc.name) : "",
+      rec
+        ? `<a href="${esc(rec)}" target="_blank" rel="noopener">Archive record</a>`
+        : "",
+      f.caption ? esc(f.caption) : "",
+    ]
+      .filter(Boolean)
+      .join(" · ");
+    // NoC-US is the archive saying the image is free of copyright in the United States.
+    // Undetermined means they have not resolved it - shown plainly, because a reader who wants
+    // to reuse the scan needs the archive's own answer, not ours.
+    const noc = /NoC|NKC/.test(p.rights || "");
+    $(".frights").innerHTML = p.rights_label
+      ? `<a class="rmark${noc ? " rnoc" : ""}" href="${esc(p.rights)}" target="_blank" rel="noopener">${esc(p.rights_label)}</a>`
+      : "";
+    for (const t of $("#facsThumbs").children)
+      if (t.dataset.i != null)
+        t.setAttribute("aria-current", String(+t.dataset.i === facsAt));
+    const cur = $(`#facsThumbs [data-i="${facsAt}"]`);
+    if (cur) cur.scrollIntoView({ block: "nearest", inline: "nearest" });
+  }
+  function drawThumbs() {
+    const strip = $("#facsThumbs");
+    strip.textContent = "";
+    if (facsPages.length < 2) return;
+    facsPages.forEach((p, i) => {
+      if (p.rest && !facsPages[i - 1].rest)
+        strip.insertAdjacentHTML(
+          "beforeend",
+          `<span class="fgap">the rest of the folder</span>`,
+        );
+      const b = document.createElement("button");
+      b.className = "fthumb" + (p.rest ? " frest" : "");
+      b.dataset.i = i;
+      b.title = p.shelfmark || `Page ${p.n}`;
+      b.setAttribute("aria-label", `Page ${p.n}`);
+      // loading="lazy" matters here: the biggest folder is 95 sheets, and the strip would
+      // otherwise pull thirty megabytes to draw a row of thumbnails.
+      b.innerHTML = `<img src="${esc(iiif(FACS_EL.facs.arc, p, "240,"))}" alt="" loading="lazy" decoding="async">`;
+      b.addEventListener("click", () => showPage(i));
+      strip.appendChild(b);
+    });
+  }
+  function setZoom(on) {
+    facsZoomed = !!on;
+    FACS_STAGE.classList.toggle("zoomed", facsZoomed);
+    $("#facsZoom").setAttribute("aria-pressed", String(facsZoomed));
+  }
+  // Zoom to a POINT, not to the middle. The reader clicks the word they want to see, so the
+  // scroll lands where their eye already is rather than at the centre of the sheet.
+  function zoomAt(clientX, clientY) {
+    const r = FACS_IMG.getBoundingClientRect();
+    const fx = r.width ? (clientX - r.left) / r.width : 0.5,
+      fy = r.height ? (clientY - r.top) / r.height : 0.5;
+    setZoom(true);
+    const s = FACS_STAGE;
+    s.scrollLeft = fx * FACS_IMG.offsetWidth - s.clientWidth / 2;
+    s.scrollTop = fy * FACS_IMG.offsetHeight - s.clientHeight / 2;
+  }
+  FACS_IMG.addEventListener("load", () => {
+    FACS_STAGE.classList.remove("loading", "failed");
+  });
+  // The pages come from the archive's server, so they can fail in ways a local file cannot: the
+  // service down, the collection reorganised, a reader offline. Say which, and keep the record
+  // link reachable - the citation under the page is still good even when the image is not.
+  FACS_IMG.addEventListener("error", () => {
+    if (!FACS_IMG.getAttribute("src")) return; // cleared on close, not a failure
+    FACS_STAGE.classList.remove("loading");
+    FACS_STAGE.classList.add("failed");
+  });
+  FACS_STAGE.addEventListener("click", (ev) => {
+    if (dragMoved) return; // a drag that ends on the page is not a click on it
+    if (facsZoomed) setZoom(false);
+    else if (ev.target === FACS_IMG) zoomAt(ev.clientX, ev.clientY);
+    else closeFacsimile(); // the margin around the sheet dismisses, as an overlay should
+  });
+  // Drag to pan. Pointer events cover mouse, pen and touch in one path, and setPointerCapture
+  // keeps the drag alive when the cursor leaves the stage mid-pull.
+  let dragFrom = null,
+    dragMoved = false;
+  FACS_STAGE.addEventListener("pointerdown", (ev) => {
+    dragMoved = false;
+    if (!facsZoomed || ev.button) return;
+    dragFrom = {
+      x: ev.clientX,
+      y: ev.clientY,
+      l: FACS_STAGE.scrollLeft,
+      t: FACS_STAGE.scrollTop,
+    };
+    FACS_STAGE.setPointerCapture(ev.pointerId);
+    FACS_STAGE.classList.add("dragging");
+  });
+  FACS_STAGE.addEventListener("pointermove", (ev) => {
+    if (!dragFrom) return;
+    const dx = ev.clientX - dragFrom.x,
+      dy = ev.clientY - dragFrom.y;
+    if (Math.abs(dx) + Math.abs(dy) > 4) dragMoved = true;
+    FACS_STAGE.scrollLeft = dragFrom.l - dx;
+    FACS_STAGE.scrollTop = dragFrom.t - dy;
+  });
+  for (const e of ["pointerup", "pointercancel"])
+    FACS_STAGE.addEventListener(e, () => {
+      dragFrom = null;
+      FACS_STAGE.classList.remove("dragging");
+    });
+  $("#facsPrev").addEventListener("click", () => showPage(facsAt - 1));
+  $("#facsNext").addEventListener("click", () => showPage(facsAt + 1));
+  $("#facsZoom").addEventListener("click", () => {
+    if (facsZoomed) setZoom(false);
+    else {
+      const r = FACS_IMG.getBoundingClientRect();
+      zoomAt(r.left + r.width / 2, r.top + r.height / 2);
+    }
+  });
+  $("#facsClose").addEventListener("click", closeFacsimile);
+  document.addEventListener("click", (ev) => {
+    const c = ev.target.closest && ev.target.closest(".chip.doc[data-doc]");
+    if (!c || !reapplySrcFilter) return;
+    srcDocFilter = srcDocFilter === c.dataset.doc ? null : c.dataset.doc;
+    reapplySrcFilter();
+    if (srcDocFilter) c.scrollIntoView({ block: "nearest" }); // the card may have moved up
+  });
+  document.addEventListener("click", (ev) => {
+    const b = ev.target.closest && ev.target.closest(".qfacs");
+    if (!b) return;
+    const f = FACS[+b.dataset.facs];
+    if (!f) return;
+    facsReturn = b;
+    openFacsimile(f, 0);
+  });
+  addEventListener("keydown", (ev) => {
+    if (FACS_EL.hidden) return;
+    const k = ev.key;
+    if (k === "Escape") facsZoomed ? setZoom(false) : closeFacsimile();
+    else if (k === "ArrowRight") showPage(facsAt + 1);
+    else if (k === "ArrowLeft") showPage(facsAt - 1);
+    else if (k === "+" || k === "=") $("#facsZoom").click();
+    else if (k === "-" || k === "_") setZoom(false);
+    else return;
+    ev.preventDefault();
+    ev.stopPropagation(); // the map and the panel both listen for Escape
+  });
+
   applyFilters();
   route();
 

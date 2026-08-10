@@ -35,10 +35,11 @@
       },
       "supports": "The entire surviving correspondence, and the extent of the affection in it: 'Dear Rennell' and 'Come back very soon'.",
       "verification": "verified-exact",
-      "how_verified": "pdf-image",
+      "how_verified": "page-image",
       "provenance": "PDF pp. 127-128. The letter runs across the page break and is transcribed whole.",
       "verified_on": "2026-08-05",
-      "voice": "period"
+      "voice": "period",
+      "document": "letter"
     }
   ],
   "date_label": "Oxford friendship from the late 1870s; the correspondence survives only for 1880"

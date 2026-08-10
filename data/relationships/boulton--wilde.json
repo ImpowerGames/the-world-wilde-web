@@ -17,26 +17,27 @@
     "m": 4
   },
   "date_label": "Oxford, April 1878",
-  "summary": "Wilde, aged twenty-three, complained to Harold Boulton that he had not written, that music made him forget everybody else, and that he believed Boulton liked another young man - italicised - much better than himself.",
+  "summary": "Wilde, aged twenty-three, complained to Harold Boulton that he had not written, that music made him forget everybody else, and that he believed Boulton liked another young man - emphasised - much better than himself.",
   "sources": [
     {
       "work": "letters-2000",
       "locator": "p. 66",
       "locator_type": "page",
-      "quote": "My dear Harold, I really never expected to hear from you again. I wish music was not such a siren to you as to make you forget everybody else. Will you come and see me tonight at nine o'clock or any time when you can escape from 'Sir John' - whom by the bye I believe you like much better than yours truly … I have some men dining tonight with me - not very intellectual - but you will find Vaughan Hughes amongst them.",
-      "context": "Wilde to Harold Boulton, [? April 1878], Magdalen College (MS Yale) - quoted whole; the ellipsis marks where the signature falls, mid-letter, before the postscript. 'much better' is italicised in the printed text. The editors identify 'Sir John' as most probably Sir John Alexander Hanham, ninth Baronet, a Magdalen undergraduate of 1875-8. Wilde was twenty-three; Boulton was eighteen or nineteen and about to go up to Balliol.",
+      "quote": "My dear Harold, I really never expected to hear from you again. I wish music was not such a siren to you as to make you forget everybody else. Will you come and see me tonight at nine o'clock or any time when you can escape from 'Sir John' - whom by the bye I believe you like _much better_ than yours truly … I have some men dining tonight with me - not very intellectual - but you will find Vaughan Hughes amongst them.",
+      "context": "Wilde to Harold Boulton, [? April 1878], Magdalen College (MS Yale) - quoted whole; the ellipsis marks where the signature falls, mid-letter, before the postscript. 'much better' is underlined in the original. The editors identify 'Sir John' as most probably Sir John Alexander Hanham, ninth Baronet, a Magdalen undergraduate of 1875-8. Wilde was twenty-three; Boulton was eighteen or nineteen and about to go up to Balliol.",
       "speaker": "Oscar Wilde",
       "addressee": "Harold Boulton",
       "evidence_date": {
         "y": 1878,
         "m": 4
       },
-      "supports": "Wilde jealous of a young man's preference for someone else, and italicising it.",
+      "supports": "Wilde jealous of a young man's preference for someone else, and emphasising it.",
       "verification": "verified-elision",
-      "how_verified": "pdf-image",
+      "how_verified": "page-image",
       "provenance": "PDF p. 93.",
       "verified_on": "2026-08-05",
-      "voice": "period"
+      "voice": "period",
+      "document": "letter"
     }
   ]
 }

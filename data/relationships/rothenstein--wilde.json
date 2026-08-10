@@ -31,10 +31,11 @@
       },
       "supports": "Wilde jumping out of a cab to end a coldness he had been maintaining on principle.",
       "verification": "verified-exact",
-      "how_verified": "pdf-image",
+      "how_verified": "page-image",
       "provenance": "PDF p. 614.",
       "verified_on": "2026-08-05",
-      "voice": "period"
+      "voice": "period",
+      "document": "letter"
     },
     {
       "work": "letters-2000",
@@ -50,10 +51,11 @@
       },
       "supports": "What one friend's letter about The Ballad was worth to him, and the wish that Rothenstein never learn what skilly is.",
       "verification": "verified-exact",
-      "how_verified": "pdf-image",
+      "how_verified": "page-image",
       "provenance": "PDF p. 1070.",
       "verified_on": "2026-08-05",
-      "voice": "period"
+      "voice": "period",
+      "document": "letter"
     }
   ],
   "date_label": "London and Berneval, 1893-1899"

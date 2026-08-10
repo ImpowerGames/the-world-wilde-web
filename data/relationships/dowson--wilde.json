@@ -33,11 +33,12 @@
       },
       "supports": "Wilde's own most explicit statement of attachment to Dowson: inseparability, a compliment on Dowson's hair in the mythological register he used for Douglas, absence as the single flaw in the day, and 'Tout à toi'. This is also the letter Sox is quoting for both 'the green costume' and 'dark hyacinth locks'.",
       "verification": "verified-elision",
-      "how_verified": "pdf-text",
+      "how_verified": "text-layer",
       "provenance": "PDF p. 951. Three elisions marked.",
       "verified_on": "2026-08-03",
       "voice": "period",
-      "addressee": "Ernest Dowson"
+      "addressee": "Ernest Dowson",
+      "document": "letter"
     },
     {
       "quote": "My dear Ernest, Do come here at once: Monsieur Meyer is presiding over a morning meal of absinthe, and we want you. I am a wreck of course, but la belle soeur is like the moon. You were wonderful and charming all last night. Ever yours OSCAR",
@@ -52,15 +53,16 @@
       },
       "supports": "The register at its warmest outside the 16 June letter, and the daily rhythm of the Dieppe weeks",
       "verification": "verified-exact",
-      "how_verified": "pdf-text",
+      "how_verified": "text-layer",
       "provenance": "PDF p. 957.",
       "verified_on": "2026-08-03",
       "voice": "period",
-      "addressee": "Ernest Dowson"
+      "addressee": "Ernest Dowson",
+      "document": "letter"
     },
     {
-      "quote": "Dear Ernest, I must see you: so I propose to breakfast at St Martin L'Eglise tomorrow at 11.30 and you must come: take a voiture and be there. I want to have a poet to talk to, as I have had lots of bad news since you left me. Do try, like a good chap, to be there, and wear a blue tie. I want to be consoled.",
-      "context": "Postcard, Wilde to Ernest Dowson, Monday [postmark 28 June 1897], [postmark Dieppe] (MS Maguire); signed sebastian melmoth. Italics on 'must', 'voiture' and 'blue' in the original. The 'bad news' is his solicitor's resignation and the cancellation of Douglas's visit (Frankel, p. 116).",
+      "quote": "Dear Ernest, I _must_ see you: so I propose to breakfast at St Martin L'Eglise tomorrow at 11.30 and you _must_ come: take a *voiture* and be there. I want to have a poet to talk to, as I have had lots of bad news since you left me. Do try, like a good chap, to be there, and wear a _blue_ tie. I want to be consoled.",
+      "context": "Postcard, Wilde to Ernest Dowson, Monday [postmark 28 June 1897], [postmark Dieppe] (MS Maguire); signed sebastian melmoth. 'must' and 'blue' are underlined in the original; 'voiture' is italicized as a foreign word. The 'bad news' is his solicitor's resignation and the cancellation of Douglas's visit (Frankel, p. 116).",
       "work": "letters-2000",
       "locator": "p. 908",
       "locator_type": "page",
@@ -71,11 +73,12 @@
       },
       "supports": "Summons and dependence: Wilde asking to be consoled, and prescribing what Dowson is to wear - the second such instruction in a week",
       "verification": "verified-exact",
-      "how_verified": "pdf-text",
+      "how_verified": "text-layer",
       "provenance": "PDF p. 958.",
       "verified_on": "2026-08-03",
       "voice": "period",
-      "addressee": "Ernest Dowson"
+      "addressee": "Ernest Dowson",
+      "document": "letter"
     },
     {
       "quote": "Dear Ernest, I write a little line, whose only excuse is its entire illegibility, to tell you how charming you are (at Berneval) and how much I like your friend, and mine, the dear Achille. … You and Achille and Achille's friend and I must all be at Berneval together. I am making arrangements. Give to Achille my sincere friendship: you have it, and other things, always.",
@@ -90,11 +93,12 @@
       },
       "supports": "The only line in the twelve letters that gestures at something withheld from the page ('and other things, always'), and the plan to gather the four of them at Berneval",
       "verification": "verified-elision",
-      "how_verified": "pdf-text",
+      "how_verified": "text-layer",
       "provenance": "PDF pp. 958-959. One elision marked with a spaced ellipsis; full letter.",
       "verified_on": "2026-08-03",
       "voice": "period",
-      "addressee": "Ernest Dowson"
+      "addressee": "Ernest Dowson",
+      "document": "letter"
     },
     {
       "quote": "Dowson was described as Wilde's 'first hyacinth since Douglas: But this flower was wilting, and had not much longer to live'. Despite the wilting, Wilde looked for 'the green costume' which went well with Dowson's 'dark hyacinth locks'. Fothergill commented that Dowson was in love with the owner of the Café Royal, but was 'faithful only after his fashion'. Although Dowson was in the house he did not appear. Wilde said they had quarrelled and Dowson, to spite him, 'had had all his long curls cut'.",
@@ -107,7 +111,7 @@
       },
       "supports": "The only romantic characterization of the pair in the literature, and its unresolved attribution; Fothergill's counter-observation that Dowson's own attachment lay elsewhere; and the quarrel in which Dowson cut off the curls Wilde had admired - the evidential basis for outcome 'unreciprocated'",
       "verification": "verified-exact",
-      "how_verified": "pdf-text",
+      "how_verified": "text-layer",
       "provenance": "PDF p. 157 (setting sentence from PDF 156, printed folio 140). Sox's index lists Dowson only at p. 141.",
       "verified_on": "2026-08-03",
       "voice": "modern"
@@ -123,7 +127,7 @@
       },
       "supports": "The second participant's own testimony - the counter-weight that keeps this edge below a relationship class. Dowson's register toward Wilde is admiring and wry, never romantic.",
       "verification": "verified-elision",
-      "how_verified": "pdf-text",
+      "how_verified": "text-layer",
       "provenance": "PDF p. 128 (printed folio 114). One elision marked with a spaced ellipsis; Frankel's own internal ellipsis is his.",
       "verified_on": "2026-08-03",
       "voice": "modern"
@@ -140,7 +144,7 @@
       },
       "supports": "The scholarly reading of the friendship as deepening into love - and, by its own hedging, the reason the class stays at attraction-expressed rather than rising higher",
       "verification": "verified-exact",
-      "how_verified": "pdf-text",
+      "how_verified": "text-layer",
       "provenance": "McKenna's source note for the adjoining 'first hyacinth since Douglas' phrase, at PDF 852, reads 'Sox, Bachelors of Art, page 141'.",
       "verified_on": "2026-08-03",
       "voice": "modern"
@@ -158,11 +162,12 @@
       },
       "supports": "The close of the connection in Wilde's own voice; 'he knew what love is' is elegiac and unspecific - Wilde does not say for whom",
       "verification": "verified-elision",
-      "how_verified": "pdf-text",
+      "how_verified": "text-layer",
       "provenance": "PDF p. 1219. One elision marked with a spaced ellipsis; full passage.",
       "verified_on": "2026-08-03",
       "voice": "period",
-      "addressee": "Leonard Smithers"
+      "addressee": "Leonard Smithers",
+      "document": "letter"
     }
   ]
 }

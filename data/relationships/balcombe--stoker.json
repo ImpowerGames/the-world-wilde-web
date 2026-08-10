@@ -30,7 +30,7 @@
       },
       "supports": "The Stoker marriage: date, church, husband",
       "verification": "verified-exact",
-      "how_verified": "pdf-text",
+      "how_verified": "text-layer",
       "provenance": "PDF p. 99.",
       "verified_on": "2026-08-03",
       "voice": "modern"

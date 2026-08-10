@@ -35,7 +35,7 @@
       },
       "supports": "The acquaintance's shape on Wilde's oath: Taylor's introduction, dinners, the cigarette case, the February 1895 Avondale dinner, and the denial of physical contact",
       "verification": "verified-elision",
-      "how_verified": "archive-org",
+      "how_verified": "page-image",
       "provenance": "IA in.ernet.dli.2015.499238, leaf 184 (printed pp. 148-149)",
       "verified_on": "2026-08-03",
       "speaker": "Oscar Wilde",
@@ -58,7 +58,8 @@
           "who": "Wilde",
           "text": "Yes, a cigarette case. It cost £4. It is my custom to present cigarette cases. I last saw Scarfe in February when he dined with me at the Avondale Hotel."
         }
-      ]
+      ],
+      "document": "testimony"
     },
     {
       "quote": "And that the said Oscar Fingal O'Flahertie Wills Wilde between the month of October in the year of our Lord One thousand eight hundred and ninety-three and the month of April in the year of our Lord One thousand eight hundred and ninety-four at the said house No. 10 St. James Place did solicit and incite one Ernest Scarfe to commit sodomy and other acts of gross indecency and immorality with him the said Oscar Fingal O'Flahertie Wills Wilde and did then and there commit the said other acts of gross indecency and immorality with the said Ernest Scarfe.",
@@ -72,7 +73,7 @@
       },
       "supports": "The plea-only allegation, its dates and place — the class-deciding text",
       "verification": "verified-exact",
-      "how_verified": "archive-org",
+      "how_verified": "page-image",
       "provenance": "IA in.ernet.dli.2015.499238, leaf 389 (printed p. 343)",
       "verified_on": "2026-08-03",
       "speaker": "The Marquess of Queensberry, plea of justification (filed 30 March 1895)",
@@ -82,7 +83,8 @@
           "who": "Queensberry",
           "text": "And that the said Oscar Fingal O'Flahertie Wills Wilde between the month of October in the year of our Lord One thousand eight hundred and ninety-three and the month of April in the year of our Lord One thousand eight hundred and ninety-four at the said house No. 10 St. James Place did solicit and incite one Ernest Scarfe to commit sodomy and other acts of gross indecency and immorality with him the said Oscar Fingal O'Flahertie Wills Wilde and did then and there commit the said other acts of gross indecency and immorality with the said Ernest Scarfe."
         }
-      ]
+      ],
+      "document": "testimony"
     },
     {
       "quote": "Where did you first meet him [Marling]?—At the Knightsbridge Skating Rink. I was introduced by a young man named Scarfe. I understood Scarfe had just returned from the gold diggings. I introduced Scarfe to Mr. Wilde at 10 St. James's Place. I did not know that he was the son of a domestic servant.",
@@ -96,7 +98,7 @@
       },
       "supports": "Taylor's own sworn account of introducing Scarfe to Wilde at St James's Place",
       "verification": "verified-exact",
-      "how_verified": "archive-org",
+      "how_verified": "page-image",
       "provenance": "IA in.ernet.dli.2015.499238, leaf 330 (printed p. 286)",
       "verified_on": "2026-08-03",
       "speaker": "Alfred Taylor",
@@ -111,7 +113,8 @@
           "who": "Taylor",
           "text": "At the Knightsbridge Skating Rink. I was introduced by a young man named Scarfe. I understood Scarfe had just returned from the gold diggings. I introduced Scarfe to Mr. Wilde at 10 St. James's Place. I did not know that he was the son of a domestic servant."
         }
-      ]
+      ],
+      "document": "testimony"
     },
     {
       "quote": "Do you remember a young man named Scarfe?—Yes. Taylor brought him to see me. Scarfe represented himself as a young man who had made money in Australia. … Did you give him a cigarette case?—Yes. Has he dined alone with you?—Yes.",
@@ -125,7 +128,7 @@
       },
       "supports": "Tête-à-tête dinners admitted on oath at the final trial",
       "verification": "verified-elision",
-      "how_verified": "archive-org",
+      "how_verified": "page-image",
       "provenance": "IA in.ernet.dli.2015.499238, leaf 364 (printed p. 318)",
       "verified_on": "2026-08-03",
       "speaker": "Oscar Wilde",
@@ -156,7 +159,8 @@
           "who": "Wilde",
           "text": "Yes."
         }
-      ]
+      ],
+      "document": "testimony"
     },
     {
       "quote": "Ernesto has written to me begging for money — a very nice letter — but I really have nothing just now.",
@@ -175,11 +179,12 @@
       },
       "supports": "A possible (editorially tentative) 1894 begging letter from Scarfe to Wilde — continuation of the acquaintance into mid-1894",
       "verification": "verified-exact",
-      "how_verified": "pdf-text",
+      "how_verified": "text-layer",
       "provenance": "Complete Letters (Fourth Estate 2000), PDF p. 650 = printed p. 598",
       "verified_on": "2026-08-03",
       "voice": "period",
-      "addressee": "Lord Alfred Douglas"
+      "addressee": "Lord Alfred Douglas",
+      "document": "letter"
     },
     {
       "work": "holland-2003",
@@ -188,7 +193,7 @@
       "quote": "CARSON: Did you ever kiss him? WILDE: Never in my life. CARSON: Or caress him in any way? WILDE: No. CARSON: Or attempt to have indecencies with him? WILDE: Never in my life. CARSON: Why did you ask him to dinner? WILDE: Because I am very good-natured, because it is one of the best ways perhaps of pleasing anybody, particularly anyone not in one's social position, to ask him to dine. (Laughter.)",
       "context": "Carson's cross-examination on Ernest Scarfe, Thursday morning 4 April 1895. Compare Hyde 1948 p. 149, which reduces the three-question sequence to 'I have never embraced, kissed or caressed him' and omits the class answer and the court's laughter entirely.",
       "verification": "verified-elision",
-      "how_verified": "pdf-text",
+      "how_verified": "text-layer",
       "verified_on": "2026-08-03",
       "speaker": "Oscar Wilde",
       "provenance": "PDF p. 247 (printed folio 199)",
@@ -233,7 +238,8 @@
           "who": "Wilde",
           "text": "Because I am very good-natured, because it is one of the best ways perhaps of pleasing anybody, particularly anyone not in one's social position, to ask him to dine. (Laughter.)"
         }
-      ]
+      ],
+      "document": "testimony"
     }
   ]
 }

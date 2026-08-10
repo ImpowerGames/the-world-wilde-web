@@ -28,7 +28,7 @@
       },
       "supports": "That Levy sent Lee love poems and expressed admiration in letters: the desire, and its direction.",
       "verification": "verified-exact",
-      "how_verified": "web",
+      "how_verified": "as-published",
       "provenance": "Https://jwa.org/encyclopedia/article/levy-amy",
       "verified_on": "2026-08-03",
       "voice": "modern"
@@ -44,7 +44,7 @@
       },
       "supports": "The one-sidedness (outcome = unreciprocated), the 1886 Florence meeting, and the dedication of the sonnet.",
       "verification": "verified-exact",
-      "how_verified": "web",
+      "how_verified": "as-published",
       "provenance": "Https://victorianweb.org/authors/levy/bio.html",
       "verified_on": "2026-08-03",
       "voice": "modern"
@@ -60,7 +60,7 @@
       },
       "supports": "Levy's professional tie to Wilde and the manner of her death, which sets the end of this record; her dates as Wilde's editors give them (superseded on the birth year).",
       "verification": "verified-exact",
-      "how_verified": "pdf-text",
+      "how_verified": "text-layer",
       "provenance": "PDF p. 348 (printed folio 326).",
       "verified_on": "2026-08-03",
       "voice": "modern"
@@ -76,7 +76,7 @@
       },
       "supports": "Levy's letters to and about Vernon Lee, in her own words.",
       "verification": "verified-elision",
-      "how_verified": "pdf-text",
+      "how_verified": "text-layer",
       "provenance": "PDF pp. 138-139, printed folios 120 and 121 confirmed in the running heads on the rendered pages. The ellipsis spans the page break and an intervening quotation from Irene Cooper Willis.",
       "verified_on": "2026-08-03",
       "voice": "modern"

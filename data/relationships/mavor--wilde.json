@@ -35,7 +35,7 @@
       },
       "supports": "Taylor's procuring pitch, the Kettner's introduction dinner, and the dated cigarette case fixing the acquaintance to October 1892",
       "verification": "verified-elision",
-      "how_verified": "archive-org",
+      "how_verified": "page-image",
       "provenance": "IA in.ernet.dli.2015.499238, leaf 251 (printed p. 211)",
       "verified_on": "2026-08-03",
       "speaker": "Sidney Mavor",
@@ -45,7 +45,8 @@
           "who": "Mavor",
           "text": "One day, however, Taylor said to me, \"I know a man in an influential position who could be of great use to you, Mavor. He likes young men when they're modest and nice in appearance. I'll introduce you.\" It was arranged that we should dine at Kettner's Restaurant the next evening. I called for Taylor, who said, \"I'm glad you've made yourself pretty. Mr. Wilde likes nice clean boys.\" … Wilde took my address, and soon afterwards I received a silver cigarette case with my Christian name scratched inside it. It was inscribed \"Sidney from O. W., October, 1892.\""
         }
-      ]
+      ],
+      "document": "testimony"
     },
     {
       "quote": "I subsequently stayed the night. No misconduct occurred when I stayed in the hotel. I called Mr. Wilde \"Oscar\" and he called me \"Sidney.\" … Cross-examined by Sir Edward Clarke—No impropriety has ever taken place between me and Mr. Wilde, and Mr. Wilde has never given me any money. I was always glad of Mr. Wilde's friendship.",
@@ -59,7 +60,7 @@
       },
       "supports": "The witness's on-stand denial that anything occurred — the class-deciding quote",
       "verification": "verified-exact",
-      "how_verified": "archive-org",
+      "how_verified": "page-image",
       "provenance": "IA in.ernet.dli.2015.499238, leaf 252 (printed p. 212)",
       "verified_on": "2026-08-03",
       "speaker": "Sidney Mavor",
@@ -69,7 +70,8 @@
           "who": "Mavor",
           "text": "I subsequently stayed the night. No misconduct occurred when I stayed in the hotel. I called Mr. Wilde \"Oscar\" and he called me \"Sidney.\" … Cross-examined by Sir Edward Clarke—No impropriety has ever taken place between me and Mr. Wilde, and Mr. Wilde has never given me any money. I was always glad of Mr. Wilde's friendship."
         }
-      ]
+      ],
+      "document": "testimony"
     },
     {
       "quote": "\"Surely you are not going to give evidence against Oscar?\" said Douglas. \"Well, what can I do?\" answered Mavor, looking round in a frightened manner. \"I daren't refuse to give evidence now. They got a statement out of me.\" \"For God's sake,\" rejoined Douglas, \"remember you are a gentleman and a public school boy. Don't put yourself on a level with scum like [Wood] and [Atkins]. When counsel asks you the questions, deny the whole thing, and say you made the statement because you were frightened by the police. They can't do anything to you.\" \"All right,\" said Mavor, grabbing Douglas's hand. \"I'll do what you say.\"",
@@ -83,11 +85,12 @@
       },
       "supports": "The recantation's backstory: Douglas coached Mavor to deny",
       "verification": "verified-exact",
-      "how_verified": "archive-org",
+      "how_verified": "page-image",
       "provenance": "IA in.ernet.dli.2015.499238, leaf 95 (printed p. 73 n); Hyde's footnote 5 quotes Douglas's Autobiography (2nd edn.), p. 119",
       "verified_on": "2026-08-03",
       "voice": "period",
-      "speaker": "Lord Alfred Douglas, Autobiography"
+      "speaker": "Lord Alfred Douglas, Autobiography",
+      "document": "testimony"
     },
     {
       "quote": "And that the said Oscar Fingal O'Flahertie Wills Wilde in the month of October in the year of our Lord One thousand eight hundred and ninety-two at the said Albemarle Hotel did solicit and incite one Sidney Mavor to commit sodomy and other acts of gross indecency and immorality and did then and there commit the said other acts of gross indecency and immorality with the said Sidney Mavor.",
@@ -101,7 +104,7 @@
       },
       "supports": "The formal allegation and its date/place",
       "verification": "verified-exact",
-      "how_verified": "archive-org",
+      "how_verified": "page-image",
       "provenance": "IA in.ernet.dli.2015.499238, leaves 387-388 (printed pp. 341-342)",
       "verified_on": "2026-08-03",
       "speaker": "The Marquess of Queensberry, plea of justification (filed 30 March 1895)",
@@ -111,7 +114,8 @@
           "who": "Queensberry",
           "text": "And that the said Oscar Fingal O'Flahertie Wills Wilde in the month of October in the year of our Lord One thousand eight hundred and ninety-two at the said Albemarle Hotel did solicit and incite one Sidney Mavor to commit sodomy and other acts of gross indecency and immorality and did then and there commit the said other acts of gross indecency and immorality with the said Sidney Mavor."
         }
-      ]
+      ],
+      "document": "testimony"
     }
   ]
 }

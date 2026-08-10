@@ -1,6 +1,9 @@
 {
   "id": "whitman--wilde",
-  "people": ["whitman", "wilde"],
+  "people": [
+    "whitman",
+    "wilde"
+  ],
   "certainty": "self-reported",
   "certainty_status": "proposed",
   "certainty_reasoning": "(a) The kiss: 'The kiss of Walt Whitman is still on my lips' is transcribed from Richard Ellmann's 'Oscar Meets Walt' (NYRB, 3 Dec. 1987); Ellmann's prose attributes it as what Wilde 'would later tell George Ives' and places it at the parting of the second (early-May 1882) visit. The deeper traditional chain - Ives's diary, as printed in McKenna 2003 and in Ellmann's 1988 biography - remains unverified.",
@@ -29,11 +32,12 @@
       },
       "supports": "Wilde's side after the January Camden visit: love-and-honour declaration and stated intent to visit again before leaving America",
       "verification": "verified-elision",
-      "how_verified": "pdf-text",
+      "how_verified": "text-layer",
       "provenance": "PDF pp. 167-168. Elisions skip the body of the quoted Swinburne letter and the request that Whitman send Swinburne his Essay on Poetry.",
       "verified_on": "2026-08-03",
       "voice": "period",
-      "addressee": "Walt Whitman"
+      "addressee": "Walt Whitman",
+      "document": "letter"
     },
     {
       "quote": "The great American poet (1819–92) was now living in Camden, New Jersey, a suburb of Philadelphia across the Delaware, where Wilde had been taken by Stoddart to see him on 18 January.",
@@ -48,7 +52,7 @@
       },
       "supports": "The first Camden visit: 18 January 1882, Wilde taken by J. M. Stoddart. (The visit was at Whitman's invitation: 'I go to see Walt Whitman, at his invitation, tomorrow', Wilde to Mrs George Lewis, [17 January 1882], p. 128 - transcribed in long-form notes.)",
       "verification": "verified-exact",
-      "how_verified": "pdf-text",
+      "how_verified": "text-layer",
       "provenance": "PDF p. 167.",
       "verified_on": "2026-08-03",
       "voice": "modern"
@@ -66,11 +70,12 @@
       },
       "supports": "Whitman's own next-day account of the first visit: first-name intimacy on 'thee and thou' terms, Wilde's hand on his knee, 'a great big, splendid boy'",
       "verification": "verified-exact",
-      "how_verified": "web",
+      "how_verified": "as-published",
       "provenance": "Whitman Archive item med.00534 (transcription based on a microfilm copy of an original issue), read at whitmanarchive.org/item/med.00534",
       "verified_on": "2026-08-03",
       "speaker": "Walt Whitman, interviewed by the Philadelphia Press",
-      "voice": "period"
+      "voice": "period",
+      "document": "interview"
     },
     {
       "quote": "W. gave me the Wilde letter. I thought he might say more about it. He said little: only this: \"It seems all straight and honest to me. I have been told a thousand times what Wilde is but I do not see why Wilde is not what he is and I am not what I am with both of us friends according each other a mutual respect. There is no parade in this note: it wears the simplest clothes—has no sunflower in its button hole—has in fact a cast of virgin simplicity, sincerity. Read it for yourself: see if the letter does not bear me out.\" He said nothing while I read.",
@@ -85,7 +90,7 @@
       },
       "supports": "Whitman's side, six years on: he preserved the letter and framed the bond as 'both of us friends according each other a mutual respect'",
       "verification": "verified-exact",
-      "how_verified": "archive-org",
+      "how_verified": "page-image",
       "provenance": "IA withwaltwhitmani0002unse_c4l4 (Rowman & Littlefield 1961 reprint; orig. copyright 1908), leaves 317-318 (printed folios 287-288)",
       "verified_on": "2026-08-03",
       "voice": "period"
@@ -102,7 +107,7 @@
       },
       "supports": "The second visit ('early in May' 1882) and the reported parting kiss, with the attribution chain as Ellmann prints it: Wilde said it later to George Ives. The deeper chain - Ives's diary, as printed in McKenna 2003 and Ellmann 1988 - remains unverified.",
       "verification": "verified-exact",
-      "how_verified": "web",
+      "how_verified": "as-published",
       "provenance": "nybooks.com/articles/1987/12/03/oscar-meets-walt/; exact as the article prints it, ending before the footnote marker",
       "verified_on": "2026-08-03",
       "voice": "modern"

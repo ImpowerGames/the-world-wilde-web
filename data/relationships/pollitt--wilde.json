@@ -29,7 +29,7 @@
       "evidence_date": null,
       "supports": "The size of the surviving corpus - four Wilde-to-Pollitt letters - and the editors' correction of the misspelling to Wilde's account rather than Pollitt's",
       "verification": "verified-exact",
-      "how_verified": "pdf-text",
+      "how_verified": "text-layer",
       "provenance": "PDF p. 1166. Whole footnote.",
       "verified_on": "2026-08-03",
       "voice": "modern"
@@ -43,14 +43,14 @@
       "evidence_date": null,
       "supports": "The misspelling itself, as Wilde wrote it on the envelope - 'Pollit' for 'Pollitt' - and the fact that Wilde addressed him by the preferred Christian name Jerome at his Kendal house",
       "verification": "verified-exact",
-      "how_verified": "pdf-text",
+      "how_verified": "text-layer",
       "provenance": "PDF p. 1162. Second sentence of the two-sentence footnote; the first sentence is the cross-reference.",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
     {
-      "quote": "How is Pollitt? He has sent me two photographs of himself: in one he is fair, in the other dark; and neither resembles the other. What is he like?",
-      "context": "Wilde to Leonard Smithers, [postmark 3 January 1899], Hotel des Bains, Napoule; the closing lines of the letter, immediately before 'Ever yours OSCAR'. Heading as printed: 'To Leonard Smithers / MS Princeton'. 'is' italic in the original.",
+      "quote": "How is Pollitt? He has sent me two photographs of himself: in one he is fair, in the other dark; and neither resembles the other. What _is_ he like?",
+      "context": "Wilde to Leonard Smithers, [postmark 3 January 1899], Hotel des Bains, Napoule; the closing lines of the letter, immediately before 'Ever yours OSCAR'. Heading as printed: 'To Leonard Smithers / MS Princeton'. 'is' underlined in the original.",
       "work": "letters-2000",
       "locator": "p. 1117",
       "locator_type": "page",
@@ -61,11 +61,12 @@
       },
       "supports": "The class-deciding fact: five weeks into the correspondence and holding two photographs, Wilde still had to ask a third party what Pollitt looked like - the two had not met",
       "verification": "verified-exact",
-      "how_verified": "pdf-text",
+      "how_verified": "text-layer",
       "provenance": "PDF p. 1163.",
       "verified_on": "2026-08-03",
       "voice": "period",
-      "addressee": "Leonard Smithers"
+      "addressee": "Leonard Smithers",
+      "document": "letter"
     },
     {
       "quote": "Dear Mr Pollitt, I should like a photograph of you, of all things. Pray let me have one.",
@@ -80,11 +81,12 @@
       },
       "supports": "The direction-deciding fact: the photograph traffic is opened by Wilde, unprompted, in the first letter - correcting the earlier record long-form notes's note that it was Pollitt-initiated",
       "verification": "verified-exact",
-      "how_verified": "pdf-text",
+      "how_verified": "text-layer",
       "provenance": "PDF p. 1149.",
       "verified_on": "2026-08-03",
       "voice": "period",
-      "addressee": "Herbert Charles Pollitt"
+      "addressee": "Herbert Charles Pollitt",
+      "document": "letter"
     },
     {
       "quote": "Pollitt's Kendal home was called The Green Window.",
@@ -95,7 +97,7 @@
       "evidence_date": null,
       "supports": "The Green Window as a real house rather than a conceit - the running private reference in the correspondence",
       "verification": "verified-exact",
-      "how_verified": "pdf-text",
+      "how_verified": "text-layer",
       "provenance": "PDF p. 1153.",
       "verified_on": "2026-08-03",
       "voice": "modern"
@@ -113,11 +115,12 @@
       },
       "supports": "The sustained request-and-comment pattern on which the direction rests; the passages are the flirtatious core of the correspondence",
       "verification": "verified-exact",
-      "how_verified": "pdf-text",
+      "how_verified": "text-layer",
       "provenance": "PDF pp. 1152-1153; the editors' footnote marker after 'Hollyer' is dropped.",
       "verified_on": "2026-08-03",
       "voice": "period",
-      "addressee": "Herbert Charles Pollitt"
+      "addressee": "Herbert Charles Pollitt",
+      "document": "letter"
     },
     {
       "work": "letters-2000",
@@ -133,10 +136,11 @@
       },
       "supports": "Wilde on Pollitt's goldness, and telling him where not to stay.",
       "verification": "verified-elision",
-      "how_verified": "pdf-image",
+      "how_verified": "page-image",
       "provenance": "PDF p. 1153.",
       "verified_on": "2026-08-06",
-      "voice": "period"
+      "voice": "period",
+      "document": "letter"
     }
   ]
 }

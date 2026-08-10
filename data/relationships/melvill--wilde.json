@@ -31,10 +31,11 @@
       },
       "supports": "A plain wish to see more of someone, and to be often together.",
       "verification": "verified-exact",
-      "how_verified": "pdf-image",
+      "how_verified": "page-image",
       "provenance": "PDF p. 374.",
       "verified_on": "2026-08-05",
-      "voice": "period"
+      "voice": "period",
+      "document": "letter"
     }
   ],
   "date_label": "London, 1888"

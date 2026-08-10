@@ -24,11 +24,12 @@
       "evidence_date": null,
       "supports": "The only passage on this edge in which a participant speaks, and the most explicit characterization available of what Ives thought he was doing with Douglas. The clause that carries it is 'I had no objection to the thing itself' - Ives conceding the sex and objecting only to the risk of arrest, which is as close to a plain statement of a sexual relationship as either man left. Ives's diary, undated entry, as quoted by Cook (2003).",
       "verification": "verified-exact",
-      "how_verified": "pdf-text",
+      "how_verified": "text-layer",
       "provenance": "PDF pp. 162-163.",
       "verified_on": "2026-08-03",
       "voice": "period",
-      "speaker": "George Ives, diary"
+      "speaker": "George Ives, diary",
+      "document": "diary"
     },
     {
       "quote": "Ives slept with Lord Alfred Douglas at the Albany, and he also enjoyed uninterrupted meals there, at his former chambers in St James', and at nearby clubs with Wilde, Edward Carpenter, Robert Ross, Oscar Browning and others.",
@@ -39,7 +40,7 @@
       "evidence_date": null,
       "supports": "Ives slept with Douglas at the Albany (Cook's assertion, resting on the Ives diary)",
       "verification": "verified-exact",
-      "how_verified": "pdf-text",
+      "how_verified": "text-layer",
       "provenance": "PDF p. 48.",
       "verified_on": "2026-08-03",
       "voice": "modern"
@@ -53,7 +54,7 @@
       "evidence_date": null,
       "supports": "Douglas spent the night at Ives's Albany rooms; Ives refused a third man, in the diary's words 'thought it wouldn't do in the Albany'",
       "verification": "verified-exact",
-      "how_verified": "pdf-text",
+      "how_verified": "text-layer",
       "provenance": "PDF p. 162.",
       "verified_on": "2026-08-03",
       "voice": "modern"
@@ -71,7 +72,7 @@
       },
       "supports": "Douglas at Ives's Albany rooms, 5 July 1894 (diary); fixes the E4 move-in at 30 June 1894, so the Albany night(s) postdate it",
       "verification": "verified-exact",
-      "how_verified": "pdf-text",
+      "how_verified": "text-layer",
       "provenance": "PDF p. 644.",
       "verified_on": "2026-08-03",
       "voice": "modern"
@@ -85,7 +86,7 @@
       "evidence_date": null,
       "supports": "Cook states in his own voice that Ives and Douglas had sex at the Albany - the refusal is of a third participant only, and the stated reason is decorum rather than disinclination.",
       "verification": "verified-exact",
-      "how_verified": "pdf-text",
+      "how_verified": "text-layer",
       "provenance": "PDF p. 110.",
       "verified_on": "2026-08-03",
       "voice": "modern"
@@ -99,7 +100,7 @@
       "evidence_date": null,
       "supports": "How Ives ended it, in Ives's own word. This record's summary already asserted the 'traitor' annotation without a source entry behind it; this supplies one. Note what the word is answering: Ives broke with Douglas over Douglas's conduct towards Wilde, not over anything between Douglas and himself. Ives's diary, undated, as quoted by Cook.",
       "verification": "verified-exact",
-      "how_verified": "pdf-text",
+      "how_verified": "text-layer",
       "provenance": "PDF p. 163 .",
       "verified_on": "2026-08-03",
       "voice": "modern"

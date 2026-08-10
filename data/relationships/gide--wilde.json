@@ -34,12 +34,13 @@
       },
       "supports": "The first day of it, and the three weeks that were removed from the record.",
       "verification": "verified-exact",
-      "how_verified": "pdf-image",
+      "how_verified": "page-image",
       "provenance": "PDF p. 516.",
       "verified_on": "2026-08-05",
       "voice": "period",
       "lang": "fr",
-      "translation": "Dear Monsieur Louÿs, I accept with the keenest pleasure the gracious and charming invitation which you and M. Gide have been kind enough to address to me."
+      "translation": "Dear Monsieur Louÿs, I accept with the keenest pleasure the gracious and charming invitation which you and M. Gide have been kind enough to address to me.",
+      "document": "letter"
     },
     {
       "work": "letters-2000",
@@ -55,7 +56,7 @@
       },
       "supports": "That the friendship lasted through the trials and the exile, and how plainly Wilde could describe the play's subject in 1898.",
       "verification": "verified-elision",
-      "how_verified": "pdf-image",
+      "how_verified": "page-image",
       "provenance": "PDF p. 1154.",
       "verified_on": "2026-08-05",
       "voice": "period"
@@ -75,12 +76,13 @@
       },
       "supports": "The address at 'mon cher André', and what Wilde told him he had lost.",
       "verification": "verified-exact",
-      "how_verified": "pdf-image",
+      "how_verified": "page-image",
       "provenance": "PDF p. 1157.",
       "verified_on": "2026-08-05",
       "voice": "period",
       "lang": "fr",
-      "translation": "My dear André, Thank you very much. One of my friends, the editor of the Saturday Review in London, has just arrived in Paris, and is taking me to Cannes with him for a month. Perhaps there I shall find my soul again. I hope to see you on my return. All yours"
+      "translation": "My dear André, Thank you very much. One of my friends, the editor of the Saturday Review in London, has just arrived in Paris, and is taking me to Cannes with him for a month. Perhaps there I shall find my soul again. I hope to see you on my return. All yours",
+      "document": "letter"
     }
   ],
   "date_label": "Paris, 1891-1898"

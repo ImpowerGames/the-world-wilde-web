@@ -18,8 +18,8 @@
   "summary": "Marillier, the 'blue-coat boy' who had lodged in Wilde's Salisbury Street building in 1880-81, wrote to Wilde from Peterhouse, Cambridge, in autumn 1885; Wilde's replies over the following eight months are the most romantically charged letters he is known to have written to a young man before Ross - a missed train mourned, a photograph requested, a Cambridge visit remembered as 'a dream', and the December 1885 Glasgow letter naming what they shared as 'the love of things impossible. L'amour de l'impossible'. The letters record visits in both directions through the winter; the last surviving letter (June 1886) still insists 'You are certainly not to call me Mr Wilde.'",
   "sources": [
     {
-      "quote": "But your letter has reached me, like a strain of music wind-blown from a far land. You too have the love of things impossible – ἔρως τῶν ἀδυνάτων – l'amour de l'impossible (how do men name it?). Some day you will find, even as I have found, that there is no such thing as a romantic experience; there are romantic memories, and there is the desire of romance – that is all.",
-      "context": "Wilde to H. C. Marillier, [Postmark 12 December 1885], Central Station Hotel, Glasgow; 'l'amour de l'impossible' italicised in the original",
+      "quote": "But your letter has reached me, like a strain of music wind-blown from a far land. You too have the love of things impossible – ἔρως τῶν ἀδυνάτων – *l'amour de l'impossible* (how do men name it?). Some day you will find, even as I have found, that there is no such thing as a romantic experience; there are romantic memories, and there is the desire of romance – that is all.",
+      "context": "Wilde to H. C. Marillier, [Postmark 12 December 1885], Central Station Hotel, Glasgow; 'l'amour de l'impossible' italicized in the original",
       "work": "letters-2000",
       "locator": "p. 272",
       "locator_type": "page",
@@ -30,11 +30,12 @@
       },
       "supports": "Wilde naming the bond itself - a shared 'love of things impossible', l'amour de l'impossible - and asking what men call it: the correspondence's most explicit characterization of what passed between them",
       "verification": "verified-exact",
-      "how_verified": "pdf-text",
+      "how_verified": "text-layer",
       "provenance": "PDF p. 294.",
       "verified_on": "2026-08-03",
       "voice": "period",
-      "addressee": "H. C. Marillier"
+      "addressee": "H. C. Marillier",
+      "document": "letter"
     },
     {
       "quote": "I have a very vivid remembrance of the bright enthusiastic boy who used to bring me my coffee in Salisbury Street, and am delighted to find he is devoted to the muses, but I suppose you don't flirt with all nine ladies at once? Which of them do you really love?",
@@ -49,11 +50,12 @@
       },
       "supports": "Acquaintance renewed from the Salisbury Street years (1880-81); flirtatious register from the first reply",
       "verification": "verified-exact",
-      "how_verified": "pdf-text",
+      "how_verified": "text-layer",
       "provenance": "PDF p. 288.",
       "verified_on": "2026-08-03",
       "voice": "period",
-      "addressee": "H. C. Marillier"
+      "addressee": "H. C. Marillier",
+      "document": "letter"
     },
     {
       "quote": "Harry, why did you let me catch my train? I would have liked to have gone to the National Gallery with you, … In our meeting again there was a touch of Browning – keen curiosity, wonder, delight. … When am I to see you again? Write me a long letter to Tite Street and I will get it when I come back. I wish you were here, Harry. … I have never learned anything except from people younger than myself, and you are infinitely young. Your affectionate friend",
@@ -68,11 +70,12 @@
       },
       "supports": "The reunion's emotional charge and the wish for more meetings, in Wilde's own words",
       "verification": "verified-elision",
-      "how_verified": "pdf-text",
+      "how_verified": "text-layer",
       "provenance": "PDF p. 289. Elisions drop the National Gallery picture-list, the Gautier sentence and the vacation invitation; full text in long-form notes.",
       "verified_on": "2026-08-03",
       "voice": "period",
-      "addressee": "H. C. Marillier"
+      "addressee": "H. C. Marillier",
+      "document": "letter"
     },
     {
       "quote": "Your letter came to me at Manchester. I had been thinking a great deal about you. There is at least this beautiful mystery in life, that at the moment it feels most complete it finds some secret sacred niche in its shrine empty and waiting. … You are certainly not to call me Mr Wilde. What should you call me but",
@@ -87,11 +90,12 @@
       },
       "supports": "The correspondence's end-point (June 1886), still on deliberately intimate first-name terms",
       "verification": "verified-elision",
-      "how_verified": "pdf-text",
+      "how_verified": "text-layer",
       "provenance": "PDF p. 304. Elision drops the middle paragraphs declining to read a paper; full text in long-form notes.",
       "verified_on": "2026-08-03",
       "voice": "period",
-      "addressee": "H. C. Marillier"
+      "addressee": "H. C. Marillier",
+      "document": "letter"
     }
   ]
 }

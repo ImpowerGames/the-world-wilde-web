@@ -33,16 +33,17 @@
       },
       "supports": "The first thanks, and the clothes he came out of prison in.",
       "verification": "verified-exact",
-      "how_verified": "pdf-image",
+      "how_verified": "page-image",
       "provenance": "PDF p. 895.",
       "verified_on": "2026-08-05",
-      "voice": "period"
+      "voice": "period",
+      "document": "letter"
     },
     {
       "work": "letters-2000",
       "locator": "p. 894",
       "locator_type": "page",
-      "quote": "My dear Frank, I know you do not like writing letters, but still I think you might have written me a line in answer, or acknowledgement of my letter to you from Dieppe. I have been thinking of a story to be called 'The Silence of Frank Harris'. I have, however, heard during the last few days that you do not speak of me in the friendly manner I would like. This distresses me very much. I am told that you are hurt with me because my letter of thanks to you was not sufficiently elaborated in expression. This I can hardly credit. It seems so unworthy of a big strong nature like yours, that knows the realities of life. I told you I was grateful to you for your kindness to me. Words, now, to me signify things, actualities, real emotions, realised thoughts. I learnt in prison to be grateful. I used to think gratitude a burden. Now I know that it is something that makes life lighter as well as lovelier for one. I am grateful for a thousand things, from my good friends down to the sun and the sea. But I cannot say more than that I am grateful. I cannot make phrases about it. For me to use such a word shows an enormous development in my nature. Two years ago I did not know the feeling the word denotes. … But I must say again that I no longer make roulades of phrases about the deep things I feel. When I write directly to you I speak directly. Violin-variations don't interest me. I am grateful to you. If that does not content you, then you do not understand, what you of all men should understand, how sincerity of feeling expresses itself.",
+      "quote": "My dear Frank, I know you do not like writing letters, but still I think you might have written me a line in answer, or acknowledgement of my letter to you from Dieppe. I have been thinking of a story to be called 'The Silence of Frank Harris'. I have, however, heard during the last few days that you do not speak of me in the friendly manner I would like. This distresses me very much. I am told that you are hurt with me because my letter of thanks to you was not sufficiently elaborated in expression. This I can hardly credit. It seems so unworthy of a big strong nature like yours, that knows the realities of life. I told you I was grateful to you for your kindness to me. Words, _now_, to me signify _things_, actualities, real emotions, realised thoughts. I learnt in prison to be grateful. I used to think gratitude a burden. Now I know that it is something that makes life lighter as well as lovelier for one. I am grateful for a thousand things, from my good friends down to the sun and the sea. But I cannot say more than that I am grateful. I cannot make phrases about it. For __me__ to use such a word shows an enormous development in my nature. Two years ago I did not know the feeling the word denotes. … But I must say again that I no longer make _*roulades*_ of phrases about the deep things I feel. When I write directly to you I speak directly. Violin-variations don't interest me. I am grateful to you. If that does not content you, then you do not understand, what you of all men should understand, how sincerity of feeling expresses itself.",
       "context": "Wilde to Frank Harris, 13 June 1897, Hôtel de la Plage, Berneval-sur-Mer (MS Texas), three weeks out of prison. Harris had been offended that Wilde's thanks for money and clothes were not elaborate enough. Wilde's answer is a defence of plain speech as the form sincerity actually takes, and it doubles as a statement about his own post-prison prose. The elision drops a paragraph about the driving-tour he declined. The letter continues past the printed page.",
       "speaker": "Oscar Wilde",
       "addressee": "Frank Harris",
@@ -53,10 +54,34 @@
       },
       "supports": "The friendship being repaired in the open, and Wilde defining what gratitude and directness now meant to him.",
       "verification": "verified-elision",
-      "how_verified": "pdf-image",
-      "provenance": "PDF p. 944.",
-      "verified_on": "2026-08-05",
-      "voice": "period"
+      "how_verified": "page-image",
+      "provenance": "PDF p. 944. Emphasis checked against the manuscript, HRC MSS_WildeO_2_6_067-081. 'now' and 'things' are underlined once each for stress. The French 'roulades' is underlined too, carrying the mark a hand uses where type would be italic, so it is marked as both. 'me' in 'For me to use such a word' is underlined TWICE - the degree the Complete Letters discard by their own account - restored here as __me__. An underline under the interlineated 'lighter as well as' is an insertion mark, not emphasis, and is not reproduced.",
+      "verified_on": "2026-08-10",
+      "voice": "period",
+      "facsimile": {
+        "archive": "hrc",
+        "item": "2676",
+        "pages": [
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80,
+          81
+        ],
+        "caption": "fifteen sides written at Berneval three weeks out of prison, the sheets numbered by Wilde 1 to 5; the postscript about Lawley follows the signature on the last of them"
+      },
+      "verified_against": "original",
+      "document": "letter"
     },
     {
       "work": "letters-2000",
@@ -72,10 +97,11 @@
       },
       "supports": "What Wilde told a friend he had left, and that seeing him was still worth staying for.",
       "verification": "verified-elision",
-      "how_verified": "pdf-image",
+      "how_verified": "page-image",
       "provenance": "PDF pp. 1070-1071.",
       "verified_on": "2026-08-05",
-      "voice": "period"
+      "voice": "period",
+      "document": "letter"
     },
     {
       "work": "letters-2000",
@@ -91,10 +117,11 @@
       },
       "supports": "What the friendship had become by 1898, in Wilde's own accounting.",
       "verification": "verified-exact",
-      "how_verified": "pdf-image",
+      "how_verified": "page-image",
       "provenance": "PDF p. 1143.",
       "verified_on": "2026-08-05",
-      "voice": "period"
+      "voice": "period",
+      "document": "letter"
     }
   ],
   "date_label": "London and the exile, 1890s-1900"

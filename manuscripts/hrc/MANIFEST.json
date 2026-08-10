@@ -1,0 +1,4985 @@
+{
+ "collection": "Harry Ransom Center, The University of Texas at Austin — Oscar Wilde Papers, 1851-1957 (bulk 1877-1957)",
+ "collection_id": "p15878coll50",
+ "archive": {
+  "name": "Harry Ransom Center, The University of Texas at Austin",
+  "short_name": "Harry Ransom Center",
+  "collection": "Oscar Wilde Papers, 1851-1957",
+  "collection_url": "https://hrc.contentdm.oclc.org/digital/collection/p15878coll50/search",
+  "record_url": "https://hrc.contentdm.oclc.org/digital/collection/p15878coll50/id/{pointer}",
+  "iiif_url": "https://hrc.contentdm.oclc.org/digital/iiif/p15878coll50/{pointer}",
+  "shelfmark_note": "Page titles in the HRC records are archival shelfmarks: MSS_WildeO_2_7_002 is Oscar Wilde Papers, Box 2, Folder 7, image 002."
+ },
+ "purpose": "Page scans of the digitized Wilde correspondence, for verifying that emphasis (underlines) in the original letters is preserved in web/data quote markup.",
+ "downloaded": "2026-08-10",
+ "download_url": "https://hrc.contentdm.oclc.org/digital/collection/p15878coll50/search",
+ "notes": [
+  "13 of the collection's 23 items were downloaded: all correspondence items. The 10 literary-work/manuscript items (plays, poems, third-party works) were excluded; their itemIds are 3220, 1785, 2504, 2083, 2980, 3157, 2299, 1967, 2940, 3432.",
+  "Image files are full-resolution IIIF JPEGs (native size, ~2000px wide), one per manuscript page.",
+  "Items 2568 (Wilde to recipients A-Z), 2777/2854/2898 (letters to Wilde), and 3286/3305/3401/3411 (third-party) are grab-bag folders: page-level identification of the recipient/author requires reading each letter, which the verification AI is expected to do."
+ ],
+ "items": [
+  {
+   "itemId": "2568",
+   "title": "Letters from Oscar Wilde to recipients A-Z and unidentified recipients",
+   "boxFolder": "Box 2, Folder 4",
+   "dates": "1877-1900",
+   "slug": "2568-wilde-to-recipients-a-z",
+   "dir": "2568-wilde-to-recipients-a-z",
+   "pages": [
+    {
+     "page": 1,
+     "pointer": "2505",
+     "file": "2568-wilde-to-recipients-a-z/page-01-2505.jpg",
+     "bytes": 422096,
+     "shelfmark": "MSS_WildeO_2_4_001",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 2,
+     "pointer": "2506",
+     "file": "2568-wilde-to-recipients-a-z/page-02-2506.jpg",
+     "bytes": 263128,
+     "shelfmark": "MSS_WildeO_2_4_002",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 3,
+     "pointer": "2507",
+     "file": "2568-wilde-to-recipients-a-z/page-03-2507.jpg",
+     "bytes": 310304,
+     "shelfmark": "MSS_WildeO_2_4_003",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 4,
+     "pointer": "2508",
+     "file": "2568-wilde-to-recipients-a-z/page-04-2508.jpg",
+     "bytes": 250004,
+     "shelfmark": "MSS_WildeO_2_4_004",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 5,
+     "pointer": "2509",
+     "file": "2568-wilde-to-recipients-a-z/page-05-2509.jpg",
+     "bytes": 267819,
+     "shelfmark": "MSS_WildeO_2_4_005",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 6,
+     "pointer": "2510",
+     "file": "2568-wilde-to-recipients-a-z/page-06-2510.jpg",
+     "bytes": 237574,
+     "shelfmark": "MSS_WildeO_2_4_006",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 7,
+     "pointer": "2511",
+     "file": "2568-wilde-to-recipients-a-z/page-07-2511.jpg",
+     "bytes": 391614,
+     "shelfmark": "MSS_WildeO_2_4_007",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 8,
+     "pointer": "2512",
+     "file": "2568-wilde-to-recipients-a-z/page-08-2512.jpg",
+     "bytes": 335950,
+     "shelfmark": "MSS_WildeO_2_4_008",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 9,
+     "pointer": "2513",
+     "file": "2568-wilde-to-recipients-a-z/page-09-2513.jpg",
+     "bytes": 337874,
+     "shelfmark": "MSS_WildeO_2_4_009",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 10,
+     "pointer": "2514",
+     "file": "2568-wilde-to-recipients-a-z/page-10-2514.jpg",
+     "bytes": 310819,
+     "shelfmark": "MSS_WildeO_2_4_010",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 11,
+     "pointer": "2515",
+     "file": "2568-wilde-to-recipients-a-z/page-11-2515.jpg",
+     "bytes": 309083,
+     "shelfmark": "MSS_WildeO_2_4_011",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 12,
+     "pointer": "2516",
+     "file": "2568-wilde-to-recipients-a-z/page-12-2516.jpg",
+     "bytes": 275735,
+     "shelfmark": "MSS_WildeO_2_4_012",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 13,
+     "pointer": "2517",
+     "file": "2568-wilde-to-recipients-a-z/page-13-2517.jpg",
+     "bytes": 221910,
+     "shelfmark": "MSS_WildeO_2_4_013",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 14,
+     "pointer": "2518",
+     "file": "2568-wilde-to-recipients-a-z/page-14-2518.jpg",
+     "bytes": 257447,
+     "shelfmark": "MSS_WildeO_2_4_014",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 15,
+     "pointer": "2519",
+     "file": "2568-wilde-to-recipients-a-z/page-15-2519.jpg",
+     "bytes": 282093,
+     "shelfmark": "MSS_WildeO_2_4_015",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 16,
+     "pointer": "2520",
+     "file": "2568-wilde-to-recipients-a-z/page-16-2520.jpg",
+     "bytes": 253599,
+     "shelfmark": "MSS_WildeO_2_4_016",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 17,
+     "pointer": "2521",
+     "file": "2568-wilde-to-recipients-a-z/page-17-2521.jpg",
+     "bytes": 248070,
+     "shelfmark": "MSS_WildeO_2_4_017",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 18,
+     "pointer": "2522",
+     "file": "2568-wilde-to-recipients-a-z/page-18-2522.jpg",
+     "bytes": 243970,
+     "shelfmark": "MSS_WildeO_2_4_018",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 19,
+     "pointer": "2523",
+     "file": "2568-wilde-to-recipients-a-z/page-19-2523.jpg",
+     "bytes": 304185,
+     "shelfmark": "MSS_WildeO_2_4_019",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 20,
+     "pointer": "2524",
+     "file": "2568-wilde-to-recipients-a-z/page-20-2524.jpg",
+     "bytes": 249132,
+     "shelfmark": "MSS_WildeO_2_4_020",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 21,
+     "pointer": "2525",
+     "file": "2568-wilde-to-recipients-a-z/page-21-2525.jpg",
+     "bytes": 291216,
+     "shelfmark": "MSS_WildeO_2_4_021",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 22,
+     "pointer": "2526",
+     "file": "2568-wilde-to-recipients-a-z/page-22-2526.jpg",
+     "bytes": 235335,
+     "shelfmark": "MSS_WildeO_2_4_022",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 23,
+     "pointer": "2527",
+     "file": "2568-wilde-to-recipients-a-z/page-23-2527.jpg",
+     "bytes": 219749,
+     "shelfmark": "MSS_WildeO_2_4_023",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 24,
+     "pointer": "2528",
+     "file": "2568-wilde-to-recipients-a-z/page-24-2528.jpg",
+     "bytes": 251778,
+     "shelfmark": "MSS_WildeO_2_4_024",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 25,
+     "pointer": "2529",
+     "file": "2568-wilde-to-recipients-a-z/page-25-2529.jpg",
+     "bytes": 212919,
+     "shelfmark": "MSS_WildeO_2_4_025",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 26,
+     "pointer": "2530",
+     "file": "2568-wilde-to-recipients-a-z/page-26-2530.jpg",
+     "bytes": 370164,
+     "shelfmark": "MSS_WildeO_2_4_026",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 27,
+     "pointer": "2531",
+     "file": "2568-wilde-to-recipients-a-z/page-27-2531.jpg",
+     "bytes": 329228,
+     "shelfmark": "MSS_WildeO_2_4_027",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 28,
+     "pointer": "2532",
+     "file": "2568-wilde-to-recipients-a-z/page-28-2532.jpg",
+     "bytes": 169114,
+     "shelfmark": "MSS_WildeO_2_4_028",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 29,
+     "pointer": "2533",
+     "file": "2568-wilde-to-recipients-a-z/page-29-2533.jpg",
+     "bytes": 177615,
+     "shelfmark": "MSS_WildeO_2_4_029",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 30,
+     "pointer": "2534",
+     "file": "2568-wilde-to-recipients-a-z/page-30-2534.jpg",
+     "bytes": 210002,
+     "shelfmark": "MSS_WildeO_2_4_030",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 31,
+     "pointer": "2535",
+     "file": "2568-wilde-to-recipients-a-z/page-31-2535.jpg",
+     "bytes": 187278,
+     "shelfmark": "MSS_WildeO_2_4_031",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 32,
+     "pointer": "2536",
+     "file": "2568-wilde-to-recipients-a-z/page-32-2536.jpg",
+     "bytes": 313721,
+     "shelfmark": "MSS_WildeO_2_4_032",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 33,
+     "pointer": "2537",
+     "file": "2568-wilde-to-recipients-a-z/page-33-2537.jpg",
+     "bytes": 199539,
+     "shelfmark": "MSS_WildeO_2_4_033",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 34,
+     "pointer": "2538",
+     "file": "2568-wilde-to-recipients-a-z/page-34-2538.jpg",
+     "bytes": 311312,
+     "shelfmark": "MSS_WildeO_2_4_034",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 35,
+     "pointer": "2539",
+     "file": "2568-wilde-to-recipients-a-z/page-35-2539.jpg",
+     "bytes": 266274,
+     "shelfmark": "MSS_WildeO_2_4_035",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 36,
+     "pointer": "2540",
+     "file": "2568-wilde-to-recipients-a-z/page-36-2540.jpg",
+     "bytes": 328608,
+     "shelfmark": "MSS_WildeO_2_4_036",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 37,
+     "pointer": "2541",
+     "file": "2568-wilde-to-recipients-a-z/page-37-2541.jpg",
+     "bytes": 312661,
+     "shelfmark": "MSS_WildeO_2_4_037",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 38,
+     "pointer": "2542",
+     "file": "2568-wilde-to-recipients-a-z/page-38-2542.jpg",
+     "bytes": 253722,
+     "shelfmark": "MSS_WildeO_2_4_038",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 39,
+     "pointer": "2543",
+     "file": "2568-wilde-to-recipients-a-z/page-39-2543.jpg",
+     "bytes": 245046,
+     "shelfmark": "MSS_WildeO_2_4_039",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 40,
+     "pointer": "2544",
+     "file": "2568-wilde-to-recipients-a-z/page-40-2544.jpg",
+     "bytes": 311756,
+     "shelfmark": "MSS_WildeO_2_4_040",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 41,
+     "pointer": "2545",
+     "file": "2568-wilde-to-recipients-a-z/page-41-2545.jpg",
+     "bytes": 280814,
+     "shelfmark": "MSS_WildeO_2_4_041",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 42,
+     "pointer": "2546",
+     "file": "2568-wilde-to-recipients-a-z/page-42-2546.jpg",
+     "bytes": 262019,
+     "shelfmark": "MSS_WildeO_2_4_042",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 43,
+     "pointer": "2547",
+     "file": "2568-wilde-to-recipients-a-z/page-43-2547.jpg",
+     "bytes": 228070,
+     "shelfmark": "MSS_WildeO_2_4_043",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 44,
+     "pointer": "2548",
+     "file": "2568-wilde-to-recipients-a-z/page-44-2548.jpg",
+     "bytes": 319272,
+     "shelfmark": "MSS_WildeO_2_4_044",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 45,
+     "pointer": "2549",
+     "file": "2568-wilde-to-recipients-a-z/page-45-2549.jpg",
+     "bytes": 288697,
+     "shelfmark": "MSS_WildeO_2_4_045",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 46,
+     "pointer": "2550",
+     "file": "2568-wilde-to-recipients-a-z/page-46-2550.jpg",
+     "bytes": 310297,
+     "shelfmark": "MSS_WildeO_2_4_046",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 47,
+     "pointer": "2551",
+     "file": "2568-wilde-to-recipients-a-z/page-47-2551.jpg",
+     "bytes": 275490,
+     "shelfmark": "MSS_WildeO_2_4_047",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 48,
+     "pointer": "2552",
+     "file": "2568-wilde-to-recipients-a-z/page-48-2552.jpg",
+     "bytes": 388569,
+     "shelfmark": "MSS_WildeO_2_4_048",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 49,
+     "pointer": "2553",
+     "file": "2568-wilde-to-recipients-a-z/page-49-2553.jpg",
+     "bytes": 355219,
+     "shelfmark": "MSS_WildeO_2_4_049",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 50,
+     "pointer": "2554",
+     "file": "2568-wilde-to-recipients-a-z/page-50-2554.jpg",
+     "bytes": 230783,
+     "shelfmark": "MSS_WildeO_2_4_050",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 51,
+     "pointer": "2555",
+     "file": "2568-wilde-to-recipients-a-z/page-51-2555.jpg",
+     "bytes": 225917,
+     "shelfmark": "MSS_WildeO_2_4_051",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 52,
+     "pointer": "2556",
+     "file": "2568-wilde-to-recipients-a-z/page-52-2556.jpg",
+     "bytes": 364448,
+     "shelfmark": "MSS_WildeO_2_4_052",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 53,
+     "pointer": "2557",
+     "file": "2568-wilde-to-recipients-a-z/page-53-2557.jpg",
+     "bytes": 333863,
+     "shelfmark": "MSS_WildeO_2_4_053",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 54,
+     "pointer": "2558",
+     "file": "2568-wilde-to-recipients-a-z/page-54-2558.jpg",
+     "bytes": 309423,
+     "shelfmark": "MSS_WildeO_2_4_054",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 55,
+     "pointer": "2559",
+     "file": "2568-wilde-to-recipients-a-z/page-55-2559.jpg",
+     "bytes": 288161,
+     "shelfmark": "MSS_WildeO_2_4_055",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 56,
+     "pointer": "2560",
+     "file": "2568-wilde-to-recipients-a-z/page-56-2560.jpg",
+     "bytes": 282949,
+     "shelfmark": "MSS_WildeO_2_4_056",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 57,
+     "pointer": "2561",
+     "file": "2568-wilde-to-recipients-a-z/page-57-2561.jpg",
+     "bytes": 216416,
+     "shelfmark": "MSS_WildeO_2_4_057",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 58,
+     "pointer": "2562",
+     "file": "2568-wilde-to-recipients-a-z/page-58-2562.jpg",
+     "bytes": 375445,
+     "shelfmark": "MSS_WildeO_2_4_058",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 59,
+     "pointer": "2563",
+     "file": "2568-wilde-to-recipients-a-z/page-59-2563.jpg",
+     "bytes": 315558,
+     "shelfmark": "MSS_WildeO_2_4_059",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 60,
+     "pointer": "2564",
+     "file": "2568-wilde-to-recipients-a-z/page-60-2564.jpg",
+     "bytes": 242617,
+     "shelfmark": "MSS_WildeO_2_4_060",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 61,
+     "pointer": "2565",
+     "file": "2568-wilde-to-recipients-a-z/page-61-2565.jpg",
+     "bytes": 190656,
+     "shelfmark": "MSS_WildeO_2_4_061",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 62,
+     "pointer": "2566",
+     "file": "2568-wilde-to-recipients-a-z/page-62-2566.jpg",
+     "bytes": 227027,
+     "shelfmark": "MSS_WildeO_2_4_062",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 63,
+     "pointer": "2567",
+     "file": "2568-wilde-to-recipients-a-z/page-63-2567.jpg",
+     "bytes": 223605,
+     "shelfmark": "MSS_WildeO_2_4_063",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    }
+   ],
+   "matches": []
+  },
+  {
+   "itemId": "2586",
+   "title": "Letters from Oscar Wilde to Sir George Alexander",
+   "boxFolder": "Box 2, Folder 5",
+   "dates": "1877-1900",
+   "slug": "2586-wilde-to-george-alexander",
+   "dir": "2586-wilde-to-george-alexander",
+   "pages": [
+    {
+     "page": 1,
+     "pointer": "2569",
+     "file": "2586-wilde-to-george-alexander/page-01-2569.jpg",
+     "bytes": 295841,
+     "shelfmark": "MSS_WildeO_2_5_001",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 2,
+     "pointer": "2570",
+     "file": "2586-wilde-to-george-alexander/page-02-2570.jpg",
+     "bytes": 340354,
+     "shelfmark": "MSS_WildeO_2_5_002",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 3,
+     "pointer": "2571",
+     "file": "2586-wilde-to-george-alexander/page-03-2571.jpg",
+     "bytes": 306730,
+     "shelfmark": "MSS_WildeO_2_5_003",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 4,
+     "pointer": "2572",
+     "file": "2586-wilde-to-george-alexander/page-04-2572.jpg",
+     "bytes": 289607,
+     "shelfmark": "MSS_WildeO_2_5_004",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 5,
+     "pointer": "2573",
+     "file": "2586-wilde-to-george-alexander/page-05-2573.jpg",
+     "bytes": 349226,
+     "shelfmark": "MSS_WildeO_2_5_005",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 6,
+     "pointer": "2574",
+     "file": "2586-wilde-to-george-alexander/page-06-2574.jpg",
+     "bytes": 278144,
+     "shelfmark": "MSS_WildeO_2_5_006",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 7,
+     "pointer": "2575",
+     "file": "2586-wilde-to-george-alexander/page-07-2575.jpg",
+     "bytes": 272867,
+     "shelfmark": "MSS_WildeO_2_5_007",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 8,
+     "pointer": "2576",
+     "file": "2586-wilde-to-george-alexander/page-08-2576.jpg",
+     "bytes": 335043,
+     "shelfmark": "MSS_WildeO_2_5_008",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 9,
+     "pointer": "2577",
+     "file": "2586-wilde-to-george-alexander/page-09-2577.jpg",
+     "bytes": 294258,
+     "shelfmark": "MSS_WildeO_2_5_009",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 10,
+     "pointer": "2578",
+     "file": "2586-wilde-to-george-alexander/page-10-2578.jpg",
+     "bytes": 288610,
+     "shelfmark": "MSS_WildeO_2_5_010",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 11,
+     "pointer": "2579",
+     "file": "2586-wilde-to-george-alexander/page-11-2579.jpg",
+     "bytes": 319386,
+     "shelfmark": "MSS_WildeO_2_5_011",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 12,
+     "pointer": "2580",
+     "file": "2586-wilde-to-george-alexander/page-12-2580.jpg",
+     "bytes": 299324,
+     "shelfmark": "MSS_WildeO_2_5_012",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 13,
+     "pointer": "2581",
+     "file": "2586-wilde-to-george-alexander/page-13-2581.jpg",
+     "bytes": 142305,
+     "shelfmark": "MSS_WildeO_2_5_013",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 14,
+     "pointer": "2582",
+     "file": "2586-wilde-to-george-alexander/page-14-2582.jpg",
+     "bytes": 336410,
+     "shelfmark": "MSS_WildeO_2_5_014",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 15,
+     "pointer": "2583",
+     "file": "2586-wilde-to-george-alexander/page-15-2583.jpg",
+     "bytes": 293586,
+     "shelfmark": "MSS_WildeO_2_5_015",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 16,
+     "pointer": "2584",
+     "file": "2586-wilde-to-george-alexander/page-16-2584.jpg",
+     "bytes": 327927,
+     "shelfmark": "MSS_WildeO_2_5_016",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 17,
+     "pointer": "2585",
+     "file": "2586-wilde-to-george-alexander/page-17-2585.jpg",
+     "bytes": 276970,
+     "shelfmark": "MSS_WildeO_2_5_017",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    }
+   ],
+   "matches": [
+    {
+     "file": "data/relationships/alexander--wilde.json",
+     "certainty": "platonic",
+     "certainty_status": "proposed",
+     "sources": [
+      {
+       "work": "letters-2000",
+       "locator": "p. 421",
+       "addressee": "George Alexander",
+       "date": 1890
+      },
+      {
+       "work": "letters-2000",
+       "locator": "p. 463",
+       "addressee": "George Alexander",
+       "date": 1891
+      },
+      {
+       "work": "letters-2000",
+       "locator": "p. 486",
+       "addressee": "George Alexander",
+       "date": 1891
+      },
+      {
+       "work": "letters-2000",
+       "locator": "p. 512",
+       "addressee": "George Alexander",
+       "date": 1892
+      },
+      {
+       "work": "letters-2000",
+       "locator": "p. 582",
+       "addressee": "George Alexander",
+       "date": 1894
+      },
+      {
+       "work": "letters-2000",
+       "locator": "p. 610",
+       "addressee": "George Alexander",
+       "date": 1894
+      },
+      {
+       "work": "letters-2000",
+       "locator": "p. 620",
+       "addressee": "George Alexander",
+       "date": 1894
+      },
+      {
+       "work": "letters-2000",
+       "locator": "p. 633",
+       "addressee": "George Alexander",
+       "date": 1895
+      },
+      {
+       "work": "letters-2000",
+       "locator": "p. 1193",
+       "addressee": "George Alexander",
+       "date": 1900
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "itemId": "2676",
+   "title": "Letters from Oscar Wilde to Frank Harris",
+   "boxFolder": "Box 2, Folder 6",
+   "dates": "1877-1900",
+   "slug": "2676-wilde-to-harris",
+   "dir": "2676-wilde-to-harris",
+   "pages": [
+    {
+     "page": 1,
+     "pointer": "2587",
+     "file": "2676-wilde-to-harris/page-01-2587.jpg",
+     "bytes": 280836,
+     "shelfmark": "MSS_WildeO_2_6_001",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 2,
+     "pointer": "2588",
+     "file": "2676-wilde-to-harris/page-02-2588.jpg",
+     "bytes": 284449,
+     "shelfmark": "MSS_WildeO_2_6_002",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 3,
+     "pointer": "2589",
+     "file": "2676-wilde-to-harris/page-03-2589.jpg",
+     "bytes": 325837,
+     "shelfmark": "MSS_WildeO_2_6_003",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 4,
+     "pointer": "2590",
+     "file": "2676-wilde-to-harris/page-04-2590.jpg",
+     "bytes": 281776,
+     "shelfmark": "MSS_WildeO_2_6_004",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 5,
+     "pointer": "2591",
+     "file": "2676-wilde-to-harris/page-05-2591.jpg",
+     "bytes": 362085,
+     "shelfmark": "MSS_WildeO_2_6_005",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 6,
+     "pointer": "2592",
+     "file": "2676-wilde-to-harris/page-06-2592.jpg",
+     "bytes": 359001,
+     "shelfmark": "MSS_WildeO_2_6_006",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 7,
+     "pointer": "2593",
+     "file": "2676-wilde-to-harris/page-07-2593.jpg",
+     "bytes": 270192,
+     "shelfmark": "MSS_WildeO_2_6_007",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 8,
+     "pointer": "2594",
+     "file": "2676-wilde-to-harris/page-08-2594.jpg",
+     "bytes": 327478,
+     "shelfmark": "MSS_WildeO_2_6_008",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 9,
+     "pointer": "2595",
+     "file": "2676-wilde-to-harris/page-09-2595.jpg",
+     "bytes": 329400,
+     "shelfmark": "MSS_WildeO_2_6_009",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 10,
+     "pointer": "2596",
+     "file": "2676-wilde-to-harris/page-10-2596.jpg",
+     "bytes": 144923,
+     "shelfmark": "MSS_WildeO_2_6_010",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 11,
+     "pointer": "2597",
+     "file": "2676-wilde-to-harris/page-11-2597.jpg",
+     "bytes": 211565,
+     "shelfmark": "MSS_WildeO_2_6_011",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 12,
+     "pointer": "2598",
+     "file": "2676-wilde-to-harris/page-12-2598.jpg",
+     "bytes": 218102,
+     "shelfmark": "MSS_WildeO_2_6_012",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 13,
+     "pointer": "2599",
+     "file": "2676-wilde-to-harris/page-13-2599.jpg",
+     "bytes": 213925,
+     "shelfmark": "MSS_WildeO_2_6_013",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 14,
+     "pointer": "2600",
+     "file": "2676-wilde-to-harris/page-14-2600.jpg",
+     "bytes": 202794,
+     "shelfmark": "MSS_WildeO_2_6_014",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 15,
+     "pointer": "2601",
+     "file": "2676-wilde-to-harris/page-15-2601.jpg",
+     "bytes": 208769,
+     "shelfmark": "MSS_WildeO_2_6_015",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 16,
+     "pointer": "2602",
+     "file": "2676-wilde-to-harris/page-16-2602.jpg",
+     "bytes": 212279,
+     "shelfmark": "MSS_WildeO_2_6_016",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 17,
+     "pointer": "2603",
+     "file": "2676-wilde-to-harris/page-17-2603.jpg",
+     "bytes": 217576,
+     "shelfmark": "MSS_WildeO_2_6_017",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 18,
+     "pointer": "2604",
+     "file": "2676-wilde-to-harris/page-18-2604.jpg",
+     "bytes": 203381,
+     "shelfmark": "MSS_WildeO_2_6_018",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 19,
+     "pointer": "2605",
+     "file": "2676-wilde-to-harris/page-19-2605.jpg",
+     "bytes": 198356,
+     "shelfmark": "MSS_WildeO_2_6_019",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 20,
+     "pointer": "2606",
+     "file": "2676-wilde-to-harris/page-20-2606.jpg",
+     "bytes": 202071,
+     "shelfmark": "MSS_WildeO_2_6_020",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 21,
+     "pointer": "2607",
+     "file": "2676-wilde-to-harris/page-21-2607.jpg",
+     "bytes": 214823,
+     "shelfmark": "MSS_WildeO_2_6_021",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 22,
+     "pointer": "2608",
+     "file": "2676-wilde-to-harris/page-22-2608.jpg",
+     "bytes": 203911,
+     "shelfmark": "MSS_WildeO_2_6_022",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 23,
+     "pointer": "2609",
+     "file": "2676-wilde-to-harris/page-23-2609.jpg",
+     "bytes": 203798,
+     "shelfmark": "MSS_WildeO_2_6_023",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 24,
+     "pointer": "2610",
+     "file": "2676-wilde-to-harris/page-24-2610.jpg",
+     "bytes": 210357,
+     "shelfmark": "MSS_WildeO_2_6_024",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 25,
+     "pointer": "2611",
+     "file": "2676-wilde-to-harris/page-25-2611.jpg",
+     "bytes": 212818,
+     "shelfmark": "MSS_WildeO_2_6_025",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 26,
+     "pointer": "2612",
+     "file": "2676-wilde-to-harris/page-26-2612.jpg",
+     "bytes": 302349,
+     "shelfmark": "MSS_WildeO_2_6_026",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 27,
+     "pointer": "2613",
+     "file": "2676-wilde-to-harris/page-27-2613.jpg",
+     "bytes": 287758,
+     "shelfmark": "MSS_WildeO_2_6_027",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 28,
+     "pointer": "2614",
+     "file": "2676-wilde-to-harris/page-28-2614.jpg",
+     "bytes": 365064,
+     "shelfmark": "MSS_WildeO_2_6_028",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 29,
+     "pointer": "2615",
+     "file": "2676-wilde-to-harris/page-29-2615.jpg",
+     "bytes": 269994,
+     "shelfmark": "MSS_WildeO_2_6_029",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 30,
+     "pointer": "2616",
+     "file": "2676-wilde-to-harris/page-30-2616.jpg",
+     "bytes": 355070,
+     "shelfmark": "MSS_WildeO_2_6_030",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 31,
+     "pointer": "2617",
+     "file": "2676-wilde-to-harris/page-31-2617.jpg",
+     "bytes": 316450,
+     "shelfmark": "MSS_WildeO_2_6_031",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 32,
+     "pointer": "2618",
+     "file": "2676-wilde-to-harris/page-32-2618.jpg",
+     "bytes": 186326,
+     "shelfmark": "MSS_WildeO_2_6_032",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 33,
+     "pointer": "2619",
+     "file": "2676-wilde-to-harris/page-33-2619.jpg",
+     "bytes": 180436,
+     "shelfmark": "MSS_WildeO_2_6_033",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 34,
+     "pointer": "2620",
+     "file": "2676-wilde-to-harris/page-34-2620.jpg",
+     "bytes": 174379,
+     "shelfmark": "MSS_WildeO_2_6_034",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 35,
+     "pointer": "2621",
+     "file": "2676-wilde-to-harris/page-35-2621.jpg",
+     "bytes": 188521,
+     "shelfmark": "MSS_WildeO_2_6_035",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 36,
+     "pointer": "2622",
+     "file": "2676-wilde-to-harris/page-36-2622.jpg",
+     "bytes": 263274,
+     "shelfmark": "MSS_WildeO_2_6_036",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 37,
+     "pointer": "2623",
+     "file": "2676-wilde-to-harris/page-37-2623.jpg",
+     "bytes": 236650,
+     "shelfmark": "MSS_WildeO_2_6_037",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 38,
+     "pointer": "2624",
+     "file": "2676-wilde-to-harris/page-38-2624.jpg",
+     "bytes": 277413,
+     "shelfmark": "MSS_WildeO_2_6_038",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 39,
+     "pointer": "2625",
+     "file": "2676-wilde-to-harris/page-39-2625.jpg",
+     "bytes": 293349,
+     "shelfmark": "MSS_WildeO_2_6_039",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 40,
+     "pointer": "2626",
+     "file": "2676-wilde-to-harris/page-40-2626.jpg",
+     "bytes": 285235,
+     "shelfmark": "MSS_WildeO_2_6_040",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 41,
+     "pointer": "2627",
+     "file": "2676-wilde-to-harris/page-41-2627.jpg",
+     "bytes": 316261,
+     "shelfmark": "MSS_WildeO_2_6_041",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 42,
+     "pointer": "2628",
+     "file": "2676-wilde-to-harris/page-42-2628.jpg",
+     "bytes": 283949,
+     "shelfmark": "MSS_WildeO_2_6_042",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 43,
+     "pointer": "2629",
+     "file": "2676-wilde-to-harris/page-43-2629.jpg",
+     "bytes": 197700,
+     "shelfmark": "MSS_WildeO_2_6_043",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 44,
+     "pointer": "2630",
+     "file": "2676-wilde-to-harris/page-44-2630.jpg",
+     "bytes": 183327,
+     "shelfmark": "MSS_WildeO_2_6_044",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 45,
+     "pointer": "2631",
+     "file": "2676-wilde-to-harris/page-45-2631.jpg",
+     "bytes": 269296,
+     "shelfmark": "MSS_WildeO_2_6_045",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 46,
+     "pointer": "2632",
+     "file": "2676-wilde-to-harris/page-46-2632.jpg",
+     "bytes": 259892,
+     "shelfmark": "MSS_WildeO_2_6_046",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 47,
+     "pointer": "2633",
+     "file": "2676-wilde-to-harris/page-47-2633.jpg",
+     "bytes": 252648,
+     "shelfmark": "MSS_WildeO_2_6_047",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 48,
+     "pointer": "2634",
+     "file": "2676-wilde-to-harris/page-48-2634.jpg",
+     "bytes": 331241,
+     "shelfmark": "MSS_WildeO_2_6_048",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 49,
+     "pointer": "2635",
+     "file": "2676-wilde-to-harris/page-49-2635.jpg",
+     "bytes": 290571,
+     "shelfmark": "MSS_WildeO_2_6_049",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 50,
+     "pointer": "2636",
+     "file": "2676-wilde-to-harris/page-50-2636.jpg",
+     "bytes": 271180,
+     "shelfmark": "MSS_WildeO_2_6_050",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 51,
+     "pointer": "2637",
+     "file": "2676-wilde-to-harris/page-51-2637.jpg",
+     "bytes": 279794,
+     "shelfmark": "MSS_WildeO_2_6_051",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 52,
+     "pointer": "2638",
+     "file": "2676-wilde-to-harris/page-52-2638.jpg",
+     "bytes": 313084,
+     "shelfmark": "MSS_WildeO_2_6_052",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 53,
+     "pointer": "2639",
+     "file": "2676-wilde-to-harris/page-53-2639.jpg",
+     "bytes": 320583,
+     "shelfmark": "MSS_WildeO_2_6_053",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 54,
+     "pointer": "2640",
+     "file": "2676-wilde-to-harris/page-54-2640.jpg",
+     "bytes": 310773,
+     "shelfmark": "MSS_WildeO_2_6_054",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 55,
+     "pointer": "2641",
+     "file": "2676-wilde-to-harris/page-55-2641.jpg",
+     "bytes": 299413,
+     "shelfmark": "MSS_WildeO_2_6_055",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 56,
+     "pointer": "2642",
+     "file": "2676-wilde-to-harris/page-56-2642.jpg",
+     "bytes": 315846,
+     "shelfmark": "MSS_WildeO_2_6_056",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 57,
+     "pointer": "2643",
+     "file": "2676-wilde-to-harris/page-57-2643.jpg",
+     "bytes": 331231,
+     "shelfmark": "MSS_WildeO_2_6_057",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 58,
+     "pointer": "2644",
+     "file": "2676-wilde-to-harris/page-58-2644.jpg",
+     "bytes": 336086,
+     "shelfmark": "MSS_WildeO_2_6_058",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 59,
+     "pointer": "2645",
+     "file": "2676-wilde-to-harris/page-59-2645.jpg",
+     "bytes": 263785,
+     "shelfmark": "MSS_WildeO_2_6_059",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 60,
+     "pointer": "2646",
+     "file": "2676-wilde-to-harris/page-60-2646.jpg",
+     "bytes": 182158,
+     "shelfmark": "MSS_WildeO_2_6_060",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 61,
+     "pointer": "2647",
+     "file": "2676-wilde-to-harris/page-61-2647.jpg",
+     "bytes": 210308,
+     "shelfmark": "MSS_WildeO_2_6_061",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 62,
+     "pointer": "2648",
+     "file": "2676-wilde-to-harris/page-62-2648.jpg",
+     "bytes": 174032,
+     "shelfmark": "MSS_WildeO_2_6_062",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 63,
+     "pointer": "2649",
+     "file": "2676-wilde-to-harris/page-63-2649.jpg",
+     "bytes": 165672,
+     "shelfmark": "MSS_WildeO_2_6_063",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 64,
+     "pointer": "2650",
+     "file": "2676-wilde-to-harris/page-64-2650.jpg",
+     "bytes": 194628,
+     "shelfmark": "MSS_WildeO_2_6_064",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 65,
+     "pointer": "2651",
+     "file": "2676-wilde-to-harris/page-65-2651.jpg",
+     "bytes": 190598,
+     "shelfmark": "MSS_WildeO_2_6_065",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 66,
+     "pointer": "2652",
+     "file": "2676-wilde-to-harris/page-66-2652.jpg",
+     "bytes": 335233,
+     "shelfmark": "MSS_WildeO_2_6_066",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 67,
+     "pointer": "2653",
+     "file": "2676-wilde-to-harris/page-67-2653.jpg",
+     "bytes": 273156,
+     "shelfmark": "MSS_WildeO_2_6_067",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 68,
+     "pointer": "2654",
+     "file": "2676-wilde-to-harris/page-68-2654.jpg",
+     "bytes": 292959,
+     "shelfmark": "MSS_WildeO_2_6_068",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 69,
+     "pointer": "2655",
+     "file": "2676-wilde-to-harris/page-69-2655.jpg",
+     "bytes": 305842,
+     "shelfmark": "MSS_WildeO_2_6_069",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 70,
+     "pointer": "2656",
+     "file": "2676-wilde-to-harris/page-70-2656.jpg",
+     "bytes": 277023,
+     "shelfmark": "MSS_WildeO_2_6_070",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 71,
+     "pointer": "2657",
+     "file": "2676-wilde-to-harris/page-71-2657.jpg",
+     "bytes": 291743,
+     "shelfmark": "MSS_WildeO_2_6_071",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 72,
+     "pointer": "2658",
+     "file": "2676-wilde-to-harris/page-72-2658.jpg",
+     "bytes": 283670,
+     "shelfmark": "MSS_WildeO_2_6_072",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 73,
+     "pointer": "2659",
+     "file": "2676-wilde-to-harris/page-73-2659.jpg",
+     "bytes": 273451,
+     "shelfmark": "MSS_WildeO_2_6_073",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 74,
+     "pointer": "2660",
+     "file": "2676-wilde-to-harris/page-74-2660.jpg",
+     "bytes": 301224,
+     "shelfmark": "MSS_WildeO_2_6_074",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 75,
+     "pointer": "2661",
+     "file": "2676-wilde-to-harris/page-75-2661.jpg",
+     "bytes": 266464,
+     "shelfmark": "MSS_WildeO_2_6_075",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 76,
+     "pointer": "2662",
+     "file": "2676-wilde-to-harris/page-76-2662.jpg",
+     "bytes": 266314,
+     "shelfmark": "MSS_WildeO_2_6_076",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 77,
+     "pointer": "2663",
+     "file": "2676-wilde-to-harris/page-77-2663.jpg",
+     "bytes": 290765,
+     "shelfmark": "MSS_WildeO_2_6_077",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 78,
+     "pointer": "2664",
+     "file": "2676-wilde-to-harris/page-78-2664.jpg",
+     "bytes": 267517,
+     "shelfmark": "MSS_WildeO_2_6_078",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 79,
+     "pointer": "2665",
+     "file": "2676-wilde-to-harris/page-79-2665.jpg",
+     "bytes": 282875,
+     "shelfmark": "MSS_WildeO_2_6_079",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 80,
+     "pointer": "2666",
+     "file": "2676-wilde-to-harris/page-80-2666.jpg",
+     "bytes": 284245,
+     "shelfmark": "MSS_WildeO_2_6_080",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 81,
+     "pointer": "2667",
+     "file": "2676-wilde-to-harris/page-81-2667.jpg",
+     "bytes": 256951,
+     "shelfmark": "MSS_WildeO_2_6_081",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 82,
+     "pointer": "2668",
+     "file": "2676-wilde-to-harris/page-82-2668.jpg",
+     "bytes": 225001,
+     "shelfmark": "MSS_WildeO_2_6_082",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 83,
+     "pointer": "2669",
+     "file": "2676-wilde-to-harris/page-83-2669.jpg",
+     "bytes": 192313,
+     "shelfmark": "MSS_WildeO_2_6_083",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 84,
+     "pointer": "2670",
+     "file": "2676-wilde-to-harris/page-84-2670.jpg",
+     "bytes": 239576,
+     "shelfmark": "MSS_WildeO_2_6_084",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 85,
+     "pointer": "2671",
+     "file": "2676-wilde-to-harris/page-85-2671.jpg",
+     "bytes": 239036,
+     "shelfmark": "MSS_WildeO_2_6_085",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 86,
+     "pointer": "2672",
+     "file": "2676-wilde-to-harris/page-86-2672.jpg",
+     "bytes": 301258,
+     "shelfmark": "MSS_WildeO_2_6_086",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 87,
+     "pointer": "2673",
+     "file": "2676-wilde-to-harris/page-87-2673.jpg",
+     "bytes": 275597,
+     "shelfmark": "MSS_WildeO_2_6_087",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 88,
+     "pointer": "2674",
+     "file": "2676-wilde-to-harris/page-88-2674.jpg",
+     "bytes": 236534,
+     "shelfmark": "MSS_WildeO_2_6_088",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 89,
+     "pointer": "2675",
+     "file": "2676-wilde-to-harris/page-89-2675.jpg",
+     "bytes": 212568,
+     "shelfmark": "MSS_WildeO_2_6_089",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    }
+   ],
+   "matches": [
+    {
+     "file": "data/relationships/frank-harris--wilde.json",
+     "certainty": "platonic",
+     "certainty_status": "proposed",
+     "sources": [
+      {
+       "work": "letters-2000",
+       "locator": "p. 845",
+       "addressee": "Frank Harris",
+       "date": 1897
+      },
+      {
+       "work": "letters-2000",
+       "locator": "p. 894",
+       "addressee": "Frank Harris",
+       "date": 1897
+      },
+      {
+       "work": "letters-2000",
+       "locator": "pp. 1024-1025",
+       "addressee": "Frank Harris",
+       "date": 1898
+      },
+      {
+       "work": "letters-2000",
+       "locator": "p. 1097",
+       "addressee": "Frank Harris",
+       "date": 1898
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "itemId": "2700",
+   "title": "Letters from Oscar Wilde to George Ives",
+   "boxFolder": "Box 2, Folder 7",
+   "dates": "1877-1900",
+   "slug": "2700-wilde-to-ives",
+   "dir": "2700-wilde-to-ives",
+   "pages": [
+    {
+     "page": 1,
+     "pointer": "2677",
+     "file": "2700-wilde-to-ives/page-01-2677.jpg",
+     "bytes": 280459,
+     "shelfmark": "MSS_WildeO_2_7_001",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 2,
+     "pointer": "2678",
+     "file": "2700-wilde-to-ives/page-02-2678.jpg",
+     "bytes": 255820,
+     "shelfmark": "MSS_WildeO_2_7_002",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 3,
+     "pointer": "2679",
+     "file": "2700-wilde-to-ives/page-03-2679.jpg",
+     "bytes": 339551,
+     "shelfmark": "MSS_WildeO_2_7_003",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 4,
+     "pointer": "2680",
+     "file": "2700-wilde-to-ives/page-04-2680.jpg",
+     "bytes": 324103,
+     "shelfmark": "MSS_WildeO_2_7_004",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 5,
+     "pointer": "2681",
+     "file": "2700-wilde-to-ives/page-05-2681.jpg",
+     "bytes": 240882,
+     "shelfmark": "MSS_WildeO_2_7_005",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 6,
+     "pointer": "2682",
+     "file": "2700-wilde-to-ives/page-06-2682.jpg",
+     "bytes": 245092,
+     "shelfmark": "MSS_WildeO_2_7_006",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 7,
+     "pointer": "2683",
+     "file": "2700-wilde-to-ives/page-07-2683.jpg",
+     "bytes": 241216,
+     "shelfmark": "MSS_WildeO_2_7_007",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 8,
+     "pointer": "2684",
+     "file": "2700-wilde-to-ives/page-08-2684.jpg",
+     "bytes": 239205,
+     "shelfmark": "MSS_WildeO_2_7_008",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 9,
+     "pointer": "2685",
+     "file": "2700-wilde-to-ives/page-09-2685.jpg",
+     "bytes": 403558,
+     "shelfmark": "MSS_WildeO_2_7_009",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 10,
+     "pointer": "2686",
+     "file": "2700-wilde-to-ives/page-10-2686.jpg",
+     "bytes": 375267,
+     "shelfmark": "MSS_WildeO_2_7_010",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 11,
+     "pointer": "2687",
+     "file": "2700-wilde-to-ives/page-11-2687.jpg",
+     "bytes": 359608,
+     "shelfmark": "MSS_WildeO_2_7_011",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 12,
+     "pointer": "2688",
+     "file": "2700-wilde-to-ives/page-12-2688.jpg",
+     "bytes": 357537,
+     "shelfmark": "MSS_WildeO_2_7_012",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 13,
+     "pointer": "2689",
+     "file": "2700-wilde-to-ives/page-13-2689.jpg",
+     "bytes": 353113,
+     "shelfmark": "MSS_WildeO_2_7_013",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 14,
+     "pointer": "2690",
+     "file": "2700-wilde-to-ives/page-14-2690.jpg",
+     "bytes": 324059,
+     "shelfmark": "MSS_WildeO_2_7_014",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 15,
+     "pointer": "2691",
+     "file": "2700-wilde-to-ives/page-15-2691.jpg",
+     "bytes": 185998,
+     "shelfmark": "MSS_WildeO_2_7_015",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 16,
+     "pointer": "2692",
+     "file": "2700-wilde-to-ives/page-16-2692.jpg",
+     "bytes": 219427,
+     "shelfmark": "MSS_WildeO_2_7_016",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 17,
+     "pointer": "2693",
+     "file": "2700-wilde-to-ives/page-17-2693.jpg",
+     "bytes": 370891,
+     "shelfmark": "MSS_WildeO_2_7_017",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 18,
+     "pointer": "2694",
+     "file": "2700-wilde-to-ives/page-18-2694.jpg",
+     "bytes": 351811,
+     "shelfmark": "MSS_WildeO_2_7_018",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 19,
+     "pointer": "2695",
+     "file": "2700-wilde-to-ives/page-19-2695.jpg",
+     "bytes": 228388,
+     "shelfmark": "MSS_WildeO_2_7_019",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 20,
+     "pointer": "2696",
+     "file": "2700-wilde-to-ives/page-20-2696.jpg",
+     "bytes": 241798,
+     "shelfmark": "MSS_WildeO_2_7_020",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 21,
+     "pointer": "2697",
+     "file": "2700-wilde-to-ives/page-21-2697.jpg",
+     "bytes": 337888,
+     "shelfmark": "MSS_WildeO_2_7_021",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 22,
+     "pointer": "2698",
+     "file": "2700-wilde-to-ives/page-22-2698.jpg",
+     "bytes": 319504,
+     "shelfmark": "MSS_WildeO_2_7_022",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 23,
+     "pointer": "2699",
+     "file": "2700-wilde-to-ives/page-23-2699.jpg",
+     "bytes": 193493,
+     "shelfmark": "MSS_WildeO_2_7_023",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    }
+   ],
+   "matches": [
+    {
+     "file": "data/relationships/ives--wilde.json",
+     "certainty": "self-reported",
+     "certainty_status": "proposed",
+     "sources": [
+      {
+       "work": "letters-2000",
+       "locator": "p. 1172",
+       "addressee": "George Ives",
+       "date": 1900
+      },
+      {
+       "work": "cook-2003",
+       "locator": "p. 145",
+       "addressee": "",
+       "date": null
+      },
+      {
+       "work": "letters-2000",
+       "locator": "p. 662",
+       "addressee": "R. H. Sherard",
+       "date": 1896
+      },
+      {
+       "work": "letters-2000",
+       "locator": "p. 662 n. 2",
+       "addressee": "",
+       "date": 1897
+      },
+      {
+       "work": "letters-2000",
+       "locator": "p. 1172",
+       "addressee": "George Ives",
+       "date": 1900
+      },
+      {
+       "work": "letters-2000",
+       "locator": "p. 1044",
+       "addressee": "George Ives",
+       "date": 1898
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "itemId": "2705",
+   "title": "Letter from Oscar Wilde to Bernard Quaritch",
+   "boxFolder": "Box 2, Folder 8",
+   "dates": "1877-1900",
+   "slug": "2705-wilde-to-quaritch",
+   "dir": "2705-wilde-to-quaritch",
+   "pages": [
+    {
+     "page": 1,
+     "pointer": "2701",
+     "file": "2705-wilde-to-quaritch/page-01-2701.jpg",
+     "bytes": 646021,
+     "shelfmark": "MSS_WildeO_2_8_001",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 2,
+     "pointer": "2702",
+     "file": "2705-wilde-to-quaritch/page-02-2702.jpg",
+     "bytes": 239654,
+     "shelfmark": "MSS_WildeO_2_8_002",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 3,
+     "pointer": "2703",
+     "file": "2705-wilde-to-quaritch/page-03-2703.jpg",
+     "bytes": 217452,
+     "shelfmark": "MSS_WildeO_2_8_003",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 4,
+     "pointer": "2704",
+     "file": "2705-wilde-to-quaritch/page-04-2704.jpg",
+     "bytes": 615175,
+     "shelfmark": "MSS_WildeO_2_8_004",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    }
+   ],
+   "matches": []
+  },
+  {
+   "itemId": "2710",
+   "title": "Letters from Oscar Wilde to Alexander Galt Ross",
+   "boxFolder": "Box 2, Folder 9",
+   "dates": "1877-1900",
+   "slug": "2710-wilde-to-ross",
+   "dir": "2710-wilde-to-ross",
+   "pages": [
+    {
+     "page": 1,
+     "pointer": "2706",
+     "file": "2710-wilde-to-ross/page-01-2706.jpg",
+     "bytes": 729127,
+     "shelfmark": "MSS_WildeO_2_9_001",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 2,
+     "pointer": "2707",
+     "file": "2710-wilde-to-ross/page-02-2707.jpg",
+     "bytes": 242223,
+     "shelfmark": "MSS_WildeO_2_9_002",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 3,
+     "pointer": "2708",
+     "file": "2710-wilde-to-ross/page-03-2708.jpg",
+     "bytes": 234383,
+     "shelfmark": "MSS_WildeO_2_9_003",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    },
+    {
+     "page": 4,
+     "pointer": "2709",
+     "file": "2710-wilde-to-ross/page-04-2709.jpg",
+     "bytes": 729614,
+     "shelfmark": "MSS_WildeO_2_9_004",
+     "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/"
+    }
+   ],
+   "matches": [
+    {
+     "file": "data/relationships/ross--wilde.json",
+     "certainty": "self-reported",
+     "certainty_status": "proposed",
+     "sources": [
+      {
+       "work": "letters-2000",
+       "locator": "pp. 858-859",
+       "addressee": "Robert Ross",
+       "date": 1897
+      },
+      {
+       "work": "letters-2000",
+       "locator": "p. 360 n. 1",
+       "addressee": "",
+       "date": null
+      },
+      {
+       "work": "letters-2000",
+       "locator": "p. 409",
+       "addressee": "Robert Ross",
+       "date": 1889
+      },
+      {
+       "work": "letters-2000",
+       "locator": "p. 1229",
+       "addressee": "Adela Schuster",
+       "date": 1900
+      },
+      {
+       "work": "letters-2000",
+       "locator": "p. 1220",
+       "addressee": "More Adey",
+       "date": 1900
+      },
+      {
+       "work": "fryer-2000",
+       "locator": "p. 18",
+       "addressee": "",
+       "date": 1886
+      },
+      {
+       "work": "fryer-2000",
+       "locator": "p. 18",
+       "addressee": "",
+       "date": 1886
+      },
+      {
+       "work": "fryer-2000",
+       "locator": "p. 21",
+       "addressee": "",
+       "date": 1887
+      },
+      {
+       "work": "fryer-2000",
+       "locator": "p. 33",
+       "addressee": "",
+       "date": 1888
+      },
+      {
+       "work": "fryer-2000",
+       "locator": "p. 42",
+       "addressee": "",
+       "date": 1889
+      },
+      {
+       "work": "letters-2000",
+       "locator": "p. 1006",
+       "addressee": "Leonard Smithers",
+       "date": 1897
+      },
+      {
+       "work": "letters-2000",
+       "locator": "p. 1184",
+       "addressee": "Robert Ross",
+       "date": 1900
+      },
+      {
+       "work": "letters-2000",
+       "locator": "p. 1182",
+       "addressee": "Robert Ross",
+       "date": 1900
+      },
+      {
+       "work": "letters-2000",
+       "locator": "p. 1141",
+       "addressee": "Robert Ross",
+       "date": 1899
+      },
+      {
+       "work": "letters-2000",
+       "locator": "p. 973",
+       "addressee": "Leonard Smithers",
+       "date": 1897
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "itemId": "2777",
+   "title": "Letters to Oscar Wilde from correspondents A-H and unidentified correspondents",
+   "boxFolder": "Box 2, Folder 10",
+   "dates": "1877-1900",
+   "slug": "2777-to-wilde-a-h",
+   "dir": "2777-to-wilde-a-h",
+   "pages": [
+    {
+     "page": 1,
+     "pointer": "2711",
+     "file": "2777-to-wilde-a-h/page-01-2711.jpg",
+     "bytes": 328071,
+     "shelfmark": "MSS_WildeO_2_10_001",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 2,
+     "pointer": "2712",
+     "file": "2777-to-wilde-a-h/page-02-2712.jpg",
+     "bytes": 256810,
+     "shelfmark": "MSS_WildeO_2_10_002",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 3,
+     "pointer": "2713",
+     "file": "2777-to-wilde-a-h/page-03-2713.jpg",
+     "bytes": 263262,
+     "shelfmark": "MSS_WildeO_2_10_003",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 4,
+     "pointer": "2714",
+     "file": "2777-to-wilde-a-h/page-04-2714.jpg",
+     "bytes": 344846,
+     "shelfmark": "MSS_WildeO_2_10_004",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 5,
+     "pointer": "2715",
+     "file": "2777-to-wilde-a-h/page-05-2715.jpg",
+     "bytes": 254387,
+     "shelfmark": "MSS_WildeO_2_10_005",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 6,
+     "pointer": "2716",
+     "file": "2777-to-wilde-a-h/page-06-2716.jpg",
+     "bytes": 334235,
+     "shelfmark": "MSS_WildeO_2_10_006",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 7,
+     "pointer": "2717",
+     "file": "2777-to-wilde-a-h/page-07-2717.jpg",
+     "bytes": 267503,
+     "shelfmark": "MSS_WildeO_2_10_007",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 8,
+     "pointer": "2718",
+     "file": "2777-to-wilde-a-h/page-08-2718.jpg",
+     "bytes": 263819,
+     "shelfmark": "MSS_WildeO_2_10_008",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 9,
+     "pointer": "2719",
+     "file": "2777-to-wilde-a-h/page-09-2719.jpg",
+     "bytes": 277724,
+     "shelfmark": "MSS_WildeO_2_10_009",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 10,
+     "pointer": "2720",
+     "file": "2777-to-wilde-a-h/page-10-2720.jpg",
+     "bytes": 414841,
+     "shelfmark": "MSS_WildeO_2_10_010",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 11,
+     "pointer": "2721",
+     "file": "2777-to-wilde-a-h/page-11-2721.jpg",
+     "bytes": 422090,
+     "shelfmark": "MSS_WildeO_2_10_011",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 12,
+     "pointer": "2722",
+     "file": "2777-to-wilde-a-h/page-12-2722.jpg",
+     "bytes": 289684,
+     "shelfmark": "MSS_WildeO_2_10_012",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 13,
+     "pointer": "2723",
+     "file": "2777-to-wilde-a-h/page-13-2723.jpg",
+     "bytes": 281785,
+     "shelfmark": "MSS_WildeO_2_10_013",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 14,
+     "pointer": "2724",
+     "file": "2777-to-wilde-a-h/page-14-2724.jpg",
+     "bytes": 369478,
+     "shelfmark": "MSS_WildeO_2_10_014",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 15,
+     "pointer": "2725",
+     "file": "2777-to-wilde-a-h/page-15-2725.jpg",
+     "bytes": 417958,
+     "shelfmark": "MSS_WildeO_2_10_015",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 16,
+     "pointer": "2726",
+     "file": "2777-to-wilde-a-h/page-16-2726.jpg",
+     "bytes": 398195,
+     "shelfmark": "MSS_WildeO_2_10_016",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 17,
+     "pointer": "2727",
+     "file": "2777-to-wilde-a-h/page-17-2727.jpg",
+     "bytes": 437135,
+     "shelfmark": "MSS_WildeO_2_10_017",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 18,
+     "pointer": "2728",
+     "file": "2777-to-wilde-a-h/page-18-2728.jpg",
+     "bytes": 275824,
+     "shelfmark": "MSS_WildeO_2_10_018",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 19,
+     "pointer": "2729",
+     "file": "2777-to-wilde-a-h/page-19-2729.jpg",
+     "bytes": 246041,
+     "shelfmark": "MSS_WildeO_2_10_019",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 20,
+     "pointer": "2730",
+     "file": "2777-to-wilde-a-h/page-20-2730.jpg",
+     "bytes": 219555,
+     "shelfmark": "MSS_WildeO_2_10_020",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 21,
+     "pointer": "2731",
+     "file": "2777-to-wilde-a-h/page-21-2731.jpg",
+     "bytes": 245838,
+     "shelfmark": "MSS_WildeO_2_10_021",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 22,
+     "pointer": "2732",
+     "file": "2777-to-wilde-a-h/page-22-2732.jpg",
+     "bytes": 229546,
+     "shelfmark": "MSS_WildeO_2_10_022",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 23,
+     "pointer": "2733",
+     "file": "2777-to-wilde-a-h/page-23-2733.jpg",
+     "bytes": 245938,
+     "shelfmark": "MSS_WildeO_2_10_023",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 24,
+     "pointer": "2734",
+     "file": "2777-to-wilde-a-h/page-24-2734.jpg",
+     "bytes": 207335,
+     "shelfmark": "MSS_WildeO_2_10_024",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 25,
+     "pointer": "2735",
+     "file": "2777-to-wilde-a-h/page-25-2735.jpg",
+     "bytes": 240809,
+     "shelfmark": "MSS_WildeO_2_10_025",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 26,
+     "pointer": "2736",
+     "file": "2777-to-wilde-a-h/page-26-2736.jpg",
+     "bytes": 234617,
+     "shelfmark": "MSS_WildeO_2_10_026",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 27,
+     "pointer": "2737",
+     "file": "2777-to-wilde-a-h/page-27-2737.jpg",
+     "bytes": 269184,
+     "shelfmark": "MSS_WildeO_2_10_027",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 28,
+     "pointer": "2738",
+     "file": "2777-to-wilde-a-h/page-28-2738.jpg",
+     "bytes": 221799,
+     "shelfmark": "MSS_WildeO_2_10_028",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 29,
+     "pointer": "2739",
+     "file": "2777-to-wilde-a-h/page-29-2739.jpg",
+     "bytes": 215237,
+     "shelfmark": "MSS_WildeO_2_10_029",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 30,
+     "pointer": "2740",
+     "file": "2777-to-wilde-a-h/page-30-2740.jpg",
+     "bytes": 344564,
+     "shelfmark": "MSS_WildeO_2_10_030",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 31,
+     "pointer": "2741",
+     "file": "2777-to-wilde-a-h/page-31-2741.jpg",
+     "bytes": 345882,
+     "shelfmark": "MSS_WildeO_2_10_031",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 32,
+     "pointer": "2742",
+     "file": "2777-to-wilde-a-h/page-32-2742.jpg",
+     "bytes": 348216,
+     "shelfmark": "MSS_WildeO_2_10_032",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 33,
+     "pointer": "2743",
+     "file": "2777-to-wilde-a-h/page-33-2743.jpg",
+     "bytes": 452055,
+     "shelfmark": "MSS_WildeO_2_10_033",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 34,
+     "pointer": "2744",
+     "file": "2777-to-wilde-a-h/page-34-2744.jpg",
+     "bytes": 261410,
+     "shelfmark": "MSS_WildeO_2_10_034",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 35,
+     "pointer": "2745",
+     "file": "2777-to-wilde-a-h/page-35-2745.jpg",
+     "bytes": 341194,
+     "shelfmark": "MSS_WildeO_2_10_035",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 36,
+     "pointer": "2746",
+     "file": "2777-to-wilde-a-h/page-36-2746.jpg",
+     "bytes": 278247,
+     "shelfmark": "MSS_WildeO_2_10_036",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 37,
+     "pointer": "2747",
+     "file": "2777-to-wilde-a-h/page-37-2747.jpg",
+     "bytes": 339343,
+     "shelfmark": "MSS_WildeO_2_10_037",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 38,
+     "pointer": "2748",
+     "file": "2777-to-wilde-a-h/page-38-2748.jpg",
+     "bytes": 222373,
+     "shelfmark": "MSS_WildeO_2_10_038",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 39,
+     "pointer": "2749",
+     "file": "2777-to-wilde-a-h/page-39-2749.jpg",
+     "bytes": 247910,
+     "shelfmark": "MSS_WildeO_2_10_039",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 40,
+     "pointer": "2750",
+     "file": "2777-to-wilde-a-h/page-40-2750.jpg",
+     "bytes": 195464,
+     "shelfmark": "MSS_WildeO_2_10_040",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 41,
+     "pointer": "2751",
+     "file": "2777-to-wilde-a-h/page-41-2751.jpg",
+     "bytes": 351911,
+     "shelfmark": "MSS_WildeO_2_10_041",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 42,
+     "pointer": "2752",
+     "file": "2777-to-wilde-a-h/page-42-2752.jpg",
+     "bytes": 262390,
+     "shelfmark": "MSS_WildeO_2_10_042",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 43,
+     "pointer": "2753",
+     "file": "2777-to-wilde-a-h/page-43-2753.jpg",
+     "bytes": 255683,
+     "shelfmark": "MSS_WildeO_2_10_043",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 44,
+     "pointer": "2754",
+     "file": "2777-to-wilde-a-h/page-44-2754.jpg",
+     "bytes": 227637,
+     "shelfmark": "MSS_WildeO_2_10_044",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 45,
+     "pointer": "2755",
+     "file": "2777-to-wilde-a-h/page-45-2755.jpg",
+     "bytes": 268830,
+     "shelfmark": "MSS_WildeO_2_10_045",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 46,
+     "pointer": "2756",
+     "file": "2777-to-wilde-a-h/page-46-2756.jpg",
+     "bytes": 261926,
+     "shelfmark": "MSS_WildeO_2_10_046",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 47,
+     "pointer": "2757",
+     "file": "2777-to-wilde-a-h/page-47-2757.jpg",
+     "bytes": 442520,
+     "shelfmark": "MSS_WildeO_2_10_047",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 48,
+     "pointer": "2758",
+     "file": "2777-to-wilde-a-h/page-48-2758.jpg",
+     "bytes": 452069,
+     "shelfmark": "MSS_WildeO_2_10_048",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 49,
+     "pointer": "2759",
+     "file": "2777-to-wilde-a-h/page-49-2759.jpg",
+     "bytes": 280302,
+     "shelfmark": "MSS_WildeO_2_10_049",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 50,
+     "pointer": "2760",
+     "file": "2777-to-wilde-a-h/page-50-2760.jpg",
+     "bytes": 264960,
+     "shelfmark": "MSS_WildeO_2_10_050",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 51,
+     "pointer": "2761",
+     "file": "2777-to-wilde-a-h/page-51-2761.jpg",
+     "bytes": 263750,
+     "shelfmark": "MSS_WildeO_2_10_051",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 52,
+     "pointer": "2762",
+     "file": "2777-to-wilde-a-h/page-52-2762.jpg",
+     "bytes": 222877,
+     "shelfmark": "MSS_WildeO_2_10_052",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 53,
+     "pointer": "2763",
+     "file": "2777-to-wilde-a-h/page-53-2763.jpg",
+     "bytes": 274918,
+     "shelfmark": "MSS_WildeO_2_10_053",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 54,
+     "pointer": "2764",
+     "file": "2777-to-wilde-a-h/page-54-2764.jpg",
+     "bytes": 454810,
+     "shelfmark": "MSS_WildeO_2_10_054",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 55,
+     "pointer": "2765",
+     "file": "2777-to-wilde-a-h/page-55-2765.jpg",
+     "bytes": 512773,
+     "shelfmark": "MSS_WildeO_2_10_055",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 56,
+     "pointer": "2766",
+     "file": "2777-to-wilde-a-h/page-56-2766.jpg",
+     "bytes": 261654,
+     "shelfmark": "MSS_WildeO_2_10_056",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 57,
+     "pointer": "2767",
+     "file": "2777-to-wilde-a-h/page-57-2767.jpg",
+     "bytes": 236206,
+     "shelfmark": "MSS_WildeO_2_10_057",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 58,
+     "pointer": "2768",
+     "file": "2777-to-wilde-a-h/page-58-2768.jpg",
+     "bytes": 294468,
+     "shelfmark": "MSS_WildeO_2_10_058",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 59,
+     "pointer": "2769",
+     "file": "2777-to-wilde-a-h/page-59-2769.jpg",
+     "bytes": 236275,
+     "shelfmark": "MSS_WildeO_2_10_059",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 60,
+     "pointer": "2770",
+     "file": "2777-to-wilde-a-h/page-60-2770.jpg",
+     "bytes": 382628,
+     "shelfmark": "MSS_WildeO_2_10_060",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 61,
+     "pointer": "2771",
+     "file": "2777-to-wilde-a-h/page-61-2771.jpg",
+     "bytes": 298554,
+     "shelfmark": "MSS_WildeO_2_10_061",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 62,
+     "pointer": "2772",
+     "file": "2777-to-wilde-a-h/page-62-2772.jpg",
+     "bytes": 228869,
+     "shelfmark": "MSS_WildeO_2_10_062",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 63,
+     "pointer": "2773",
+     "file": "2777-to-wilde-a-h/page-63-2773.jpg",
+     "bytes": 253870,
+     "shelfmark": "MSS_WildeO_2_10_063",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 64,
+     "pointer": "2774",
+     "file": "2777-to-wilde-a-h/page-64-2774.jpg",
+     "bytes": 263148,
+     "shelfmark": "MSS_WildeO_2_10_064",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 65,
+     "pointer": "2775",
+     "file": "2777-to-wilde-a-h/page-65-2775.jpg",
+     "bytes": 417778,
+     "shelfmark": "MSS_WildeO_2_10_065",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 66,
+     "pointer": "2776",
+     "file": "2777-to-wilde-a-h/page-66-2776.jpg",
+     "bytes": 230188,
+     "shelfmark": "MSS_WildeO_2_10_066",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    }
+   ],
+   "matches": []
+  },
+  {
+   "itemId": "2854",
+   "title": "Letters to Oscar Wilde from correspondents I-R",
+   "boxFolder": "Box 2, Folder 11",
+   "dates": "1877-1900",
+   "slug": "2854-to-wilde-i-r",
+   "dir": "2854-to-wilde-i-r",
+   "pages": [
+    {
+     "page": 1,
+     "pointer": "2778",
+     "file": "2854-to-wilde-i-r/page-01-2778.jpg",
+     "bytes": 261113,
+     "shelfmark": "MSS_WildeO_2_11_001",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 2,
+     "pointer": "2779",
+     "file": "2854-to-wilde-i-r/page-02-2779.jpg",
+     "bytes": 268262,
+     "shelfmark": "MSS_WildeO_2_11_002",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 3,
+     "pointer": "2780",
+     "file": "2854-to-wilde-i-r/page-03-2780.jpg",
+     "bytes": 251339,
+     "shelfmark": "MSS_WildeO_2_11_003",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 4,
+     "pointer": "2781",
+     "file": "2854-to-wilde-i-r/page-04-2781.jpg",
+     "bytes": 260121,
+     "shelfmark": "MSS_WildeO_2_11_004",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 5,
+     "pointer": "2782",
+     "file": "2854-to-wilde-i-r/page-05-2782.jpg",
+     "bytes": 285243,
+     "shelfmark": "MSS_WildeO_2_11_005",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 6,
+     "pointer": "2783",
+     "file": "2854-to-wilde-i-r/page-06-2783.jpg",
+     "bytes": 406845,
+     "shelfmark": "MSS_WildeO_2_11_006",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 7,
+     "pointer": "2784",
+     "file": "2854-to-wilde-i-r/page-07-2784.jpg",
+     "bytes": 356475,
+     "shelfmark": "MSS_WildeO_2_11_007",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 8,
+     "pointer": "2785",
+     "file": "2854-to-wilde-i-r/page-08-2785.jpg",
+     "bytes": 316358,
+     "shelfmark": "MSS_WildeO_2_11_008",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 9,
+     "pointer": "2786",
+     "file": "2854-to-wilde-i-r/page-09-2786.jpg",
+     "bytes": 307455,
+     "shelfmark": "MSS_WildeO_2_11_009",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 10,
+     "pointer": "2787",
+     "file": "2854-to-wilde-i-r/page-10-2787.jpg",
+     "bytes": 408143,
+     "shelfmark": "MSS_WildeO_2_11_010",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 11,
+     "pointer": "2788",
+     "file": "2854-to-wilde-i-r/page-11-2788.jpg",
+     "bytes": 359745,
+     "shelfmark": "MSS_WildeO_2_11_011",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 12,
+     "pointer": "2789",
+     "file": "2854-to-wilde-i-r/page-12-2789.jpg",
+     "bytes": 345433,
+     "shelfmark": "MSS_WildeO_2_11_012",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 13,
+     "pointer": "2790",
+     "file": "2854-to-wilde-i-r/page-13-2790.jpg",
+     "bytes": 234221,
+     "shelfmark": "MSS_WildeO_2_11_013",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 14,
+     "pointer": "2791",
+     "file": "2854-to-wilde-i-r/page-14-2791.jpg",
+     "bytes": 373096,
+     "shelfmark": "MSS_WildeO_2_11_014",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 15,
+     "pointer": "2792",
+     "file": "2854-to-wilde-i-r/page-15-2792.jpg",
+     "bytes": 414181,
+     "shelfmark": "MSS_WildeO_2_11_015",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 16,
+     "pointer": "2793",
+     "file": "2854-to-wilde-i-r/page-16-2793.jpg",
+     "bytes": 334533,
+     "shelfmark": "MSS_WildeO_2_11_016",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 17,
+     "pointer": "2794",
+     "file": "2854-to-wilde-i-r/page-17-2794.jpg",
+     "bytes": 251518,
+     "shelfmark": "MSS_WildeO_2_11_017",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 18,
+     "pointer": "2795",
+     "file": "2854-to-wilde-i-r/page-18-2795.jpg",
+     "bytes": 309615,
+     "shelfmark": "MSS_WildeO_2_11_018",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 19,
+     "pointer": "2796",
+     "file": "2854-to-wilde-i-r/page-19-2796.jpg",
+     "bytes": 360984,
+     "shelfmark": "MSS_WildeO_2_11_019",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 20,
+     "pointer": "2797",
+     "file": "2854-to-wilde-i-r/page-20-2797.jpg",
+     "bytes": 366615,
+     "shelfmark": "MSS_WildeO_2_11_020",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 21,
+     "pointer": "2798",
+     "file": "2854-to-wilde-i-r/page-21-2798.jpg",
+     "bytes": 364825,
+     "shelfmark": "MSS_WildeO_2_11_021",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 22,
+     "pointer": "2799",
+     "file": "2854-to-wilde-i-r/page-22-2799.jpg",
+     "bytes": 357801,
+     "shelfmark": "MSS_WildeO_2_11_022",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 23,
+     "pointer": "2800",
+     "file": "2854-to-wilde-i-r/page-23-2800.jpg",
+     "bytes": 310627,
+     "shelfmark": "MSS_WildeO_2_11_023",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 24,
+     "pointer": "2801",
+     "file": "2854-to-wilde-i-r/page-24-2801.jpg",
+     "bytes": 296917,
+     "shelfmark": "MSS_WildeO_2_11_024",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 25,
+     "pointer": "2802",
+     "file": "2854-to-wilde-i-r/page-25-2802.jpg",
+     "bytes": 297410,
+     "shelfmark": "MSS_WildeO_2_11_025",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 26,
+     "pointer": "2803",
+     "file": "2854-to-wilde-i-r/page-26-2803.jpg",
+     "bytes": 367336,
+     "shelfmark": "MSS_WildeO_2_11_026",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 27,
+     "pointer": "2804",
+     "file": "2854-to-wilde-i-r/page-27-2804.jpg",
+     "bytes": 156010,
+     "shelfmark": "MSS_WildeO_2_11_027",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 28,
+     "pointer": "2805",
+     "file": "2854-to-wilde-i-r/page-28-2805.jpg",
+     "bytes": 245406,
+     "shelfmark": "MSS_WildeO_2_11_028",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 29,
+     "pointer": "2806",
+     "file": "2854-to-wilde-i-r/page-29-2806.jpg",
+     "bytes": 319042,
+     "shelfmark": "MSS_WildeO_2_11_029",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 30,
+     "pointer": "2807",
+     "file": "2854-to-wilde-i-r/page-30-2807.jpg",
+     "bytes": 343768,
+     "shelfmark": "MSS_WildeO_2_11_030",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 31,
+     "pointer": "2808",
+     "file": "2854-to-wilde-i-r/page-31-2808.jpg",
+     "bytes": 285664,
+     "shelfmark": "MSS_WildeO_2_11_031",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 32,
+     "pointer": "2809",
+     "file": "2854-to-wilde-i-r/page-32-2809.jpg",
+     "bytes": 300700,
+     "shelfmark": "MSS_WildeO_2_11_032",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 33,
+     "pointer": "2810",
+     "file": "2854-to-wilde-i-r/page-33-2810.jpg",
+     "bytes": 252249,
+     "shelfmark": "MSS_WildeO_2_11_033",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 34,
+     "pointer": "2811",
+     "file": "2854-to-wilde-i-r/page-34-2811.jpg",
+     "bytes": 252003,
+     "shelfmark": "MSS_WildeO_2_11_034",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 35,
+     "pointer": "2812",
+     "file": "2854-to-wilde-i-r/page-35-2812.jpg",
+     "bytes": 312292,
+     "shelfmark": "MSS_WildeO_2_11_035",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 36,
+     "pointer": "2813",
+     "file": "2854-to-wilde-i-r/page-36-2813.jpg",
+     "bytes": 285158,
+     "shelfmark": "MSS_WildeO_2_11_036",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 37,
+     "pointer": "2814",
+     "file": "2854-to-wilde-i-r/page-37-2814.jpg",
+     "bytes": 334574,
+     "shelfmark": "MSS_WildeO_2_11_037",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 38,
+     "pointer": "2815",
+     "file": "2854-to-wilde-i-r/page-38-2815.jpg",
+     "bytes": 329346,
+     "shelfmark": "MSS_WildeO_2_11_038",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 39,
+     "pointer": "2816",
+     "file": "2854-to-wilde-i-r/page-39-2816.jpg",
+     "bytes": 329105,
+     "shelfmark": "MSS_WildeO_2_11_039",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 40,
+     "pointer": "2817",
+     "file": "2854-to-wilde-i-r/page-40-2817.jpg",
+     "bytes": 207206,
+     "shelfmark": "MSS_WildeO_2_11_040",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 41,
+     "pointer": "2818",
+     "file": "2854-to-wilde-i-r/page-41-2818.jpg",
+     "bytes": 296861,
+     "shelfmark": "MSS_WildeO_2_11_041",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 42,
+     "pointer": "2819",
+     "file": "2854-to-wilde-i-r/page-42-2819.jpg",
+     "bytes": 248335,
+     "shelfmark": "MSS_WildeO_2_11_042",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 43,
+     "pointer": "2820",
+     "file": "2854-to-wilde-i-r/page-43-2820.jpg",
+     "bytes": 308482,
+     "shelfmark": "MSS_WildeO_2_11_043",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 44,
+     "pointer": "2821",
+     "file": "2854-to-wilde-i-r/page-44-2821.jpg",
+     "bytes": 260344,
+     "shelfmark": "MSS_WildeO_2_11_044",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 45,
+     "pointer": "2822",
+     "file": "2854-to-wilde-i-r/page-45-2822.jpg",
+     "bytes": 340827,
+     "shelfmark": "MSS_WildeO_2_11_045",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 46,
+     "pointer": "2823",
+     "file": "2854-to-wilde-i-r/page-46-2823.jpg",
+     "bytes": 269528,
+     "shelfmark": "MSS_WildeO_2_11_046",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 47,
+     "pointer": "2824",
+     "file": "2854-to-wilde-i-r/page-47-2824.jpg",
+     "bytes": 281134,
+     "shelfmark": "MSS_WildeO_2_11_047",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 48,
+     "pointer": "2825",
+     "file": "2854-to-wilde-i-r/page-48-2825.jpg",
+     "bytes": 270006,
+     "shelfmark": "MSS_WildeO_2_11_048",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 49,
+     "pointer": "2826",
+     "file": "2854-to-wilde-i-r/page-49-2826.jpg",
+     "bytes": 220966,
+     "shelfmark": "MSS_WildeO_2_11_049",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 50,
+     "pointer": "2827",
+     "file": "2854-to-wilde-i-r/page-50-2827.jpg",
+     "bytes": 256609,
+     "shelfmark": "MSS_WildeO_2_11_050",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 51,
+     "pointer": "2828",
+     "file": "2854-to-wilde-i-r/page-51-2828.jpg",
+     "bytes": 307782,
+     "shelfmark": "MSS_WildeO_2_11_051",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 52,
+     "pointer": "2829",
+     "file": "2854-to-wilde-i-r/page-52-2829.jpg",
+     "bytes": 335581,
+     "shelfmark": "MSS_WildeO_2_11_052",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 53,
+     "pointer": "2830",
+     "file": "2854-to-wilde-i-r/page-53-2830.jpg",
+     "bytes": 260294,
+     "shelfmark": "MSS_WildeO_2_11_053",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 54,
+     "pointer": "2831",
+     "file": "2854-to-wilde-i-r/page-54-2831.jpg",
+     "bytes": 287107,
+     "shelfmark": "MSS_WildeO_2_11_054",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 55,
+     "pointer": "2832",
+     "file": "2854-to-wilde-i-r/page-55-2832.jpg",
+     "bytes": 195162,
+     "shelfmark": "MSS_WildeO_2_11_055",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 56,
+     "pointer": "2833",
+     "file": "2854-to-wilde-i-r/page-56-2833.jpg",
+     "bytes": 239244,
+     "shelfmark": "MSS_WildeO_2_11_056",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 57,
+     "pointer": "2834",
+     "file": "2854-to-wilde-i-r/page-57-2834.jpg",
+     "bytes": 244563,
+     "shelfmark": "MSS_WildeO_2_11_057",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 58,
+     "pointer": "2835",
+     "file": "2854-to-wilde-i-r/page-58-2835.jpg",
+     "bytes": 333209,
+     "shelfmark": "MSS_WildeO_2_11_058",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 59,
+     "pointer": "2836",
+     "file": "2854-to-wilde-i-r/page-59-2836.jpg",
+     "bytes": 361421,
+     "shelfmark": "MSS_WildeO_2_11_059",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 60,
+     "pointer": "2837",
+     "file": "2854-to-wilde-i-r/page-60-2837.jpg",
+     "bytes": 435575,
+     "shelfmark": "MSS_WildeO_2_11_060",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 61,
+     "pointer": "2838",
+     "file": "2854-to-wilde-i-r/page-61-2838.jpg",
+     "bytes": 209122,
+     "shelfmark": "MSS_WildeO_2_11_061",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 62,
+     "pointer": "2839",
+     "file": "2854-to-wilde-i-r/page-62-2839.jpg",
+     "bytes": 224801,
+     "shelfmark": "MSS_WildeO_2_11_062",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 63,
+     "pointer": "2840",
+     "file": "2854-to-wilde-i-r/page-63-2840.jpg",
+     "bytes": 221036,
+     "shelfmark": "MSS_WildeO_2_11_063",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 64,
+     "pointer": "2841",
+     "file": "2854-to-wilde-i-r/page-64-2841.jpg",
+     "bytes": 314220,
+     "shelfmark": "MSS_WildeO_2_11_064",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 65,
+     "pointer": "2842",
+     "file": "2854-to-wilde-i-r/page-65-2842.jpg",
+     "bytes": 320440,
+     "shelfmark": "MSS_WildeO_2_11_065",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 66,
+     "pointer": "2843",
+     "file": "2854-to-wilde-i-r/page-66-2843.jpg",
+     "bytes": 255056,
+     "shelfmark": "MSS_WildeO_2_11_066",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 67,
+     "pointer": "2844",
+     "file": "2854-to-wilde-i-r/page-67-2844.jpg",
+     "bytes": 239565,
+     "shelfmark": "MSS_WildeO_2_11_067",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 68,
+     "pointer": "2845",
+     "file": "2854-to-wilde-i-r/page-68-2845.jpg",
+     "bytes": 391308,
+     "shelfmark": "MSS_WildeO_2_11_068",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 69,
+     "pointer": "2846",
+     "file": "2854-to-wilde-i-r/page-69-2846.jpg",
+     "bytes": 342916,
+     "shelfmark": "MSS_WildeO_2_11_069",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 70,
+     "pointer": "2847",
+     "file": "2854-to-wilde-i-r/page-70-2847.jpg",
+     "bytes": 280468,
+     "shelfmark": "MSS_WildeO_2_11_070",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 71,
+     "pointer": "2848",
+     "file": "2854-to-wilde-i-r/page-71-2848.jpg",
+     "bytes": 335863,
+     "shelfmark": "MSS_WildeO_2_11_071",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 72,
+     "pointer": "2849",
+     "file": "2854-to-wilde-i-r/page-72-2849.jpg",
+     "bytes": 258649,
+     "shelfmark": "MSS_WildeO_2_11_072",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 73,
+     "pointer": "2850",
+     "file": "2854-to-wilde-i-r/page-73-2850.jpg",
+     "bytes": 228187,
+     "shelfmark": "MSS_WildeO_2_11_073",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 74,
+     "pointer": "2851",
+     "file": "2854-to-wilde-i-r/page-74-2851.jpg",
+     "bytes": 261980,
+     "shelfmark": "MSS_WildeO_2_11_074",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 75,
+     "pointer": "2852",
+     "file": "2854-to-wilde-i-r/page-75-2852.jpg",
+     "bytes": 317339,
+     "shelfmark": "MSS_WildeO_2_11_075",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 76,
+     "pointer": "2853",
+     "file": "2854-to-wilde-i-r/page-76-2853.jpg",
+     "bytes": 230771,
+     "shelfmark": "MSS_WildeO_2_11_076",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    }
+   ],
+   "matches": []
+  },
+  {
+   "itemId": "2898",
+   "title": "Letters to Oscar Wilde from correspondents S-Z",
+   "boxFolder": "Box 3, Folder 1",
+   "dates": "1877-1900",
+   "slug": "2898-to-wilde-s-z",
+   "dir": "2898-to-wilde-s-z",
+   "pages": [
+    {
+     "page": 1,
+     "pointer": "2855",
+     "file": "2898-to-wilde-s-z/page-01-2855.jpg",
+     "bytes": 304868,
+     "shelfmark": "MSS_WildeO_3_1_001",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 2,
+     "pointer": "2856",
+     "file": "2898-to-wilde-s-z/page-02-2856.jpg",
+     "bytes": 301978,
+     "shelfmark": "MSS_WildeO_3_1_002",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 3,
+     "pointer": "2857",
+     "file": "2898-to-wilde-s-z/page-03-2857.jpg",
+     "bytes": 218907,
+     "shelfmark": "MSS_WildeO_3_1_003",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 4,
+     "pointer": "2858",
+     "file": "2898-to-wilde-s-z/page-04-2858.jpg",
+     "bytes": 224736,
+     "shelfmark": "MSS_WildeO_3_1_004",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 5,
+     "pointer": "2859",
+     "file": "2898-to-wilde-s-z/page-05-2859.jpg",
+     "bytes": 235824,
+     "shelfmark": "MSS_WildeO_3_1_005",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 6,
+     "pointer": "2860",
+     "file": "2898-to-wilde-s-z/page-06-2860.jpg",
+     "bytes": 297871,
+     "shelfmark": "MSS_WildeO_3_1_006",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 7,
+     "pointer": "2861",
+     "file": "2898-to-wilde-s-z/page-07-2861.jpg",
+     "bytes": 302916,
+     "shelfmark": "MSS_WildeO_3_1_007",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 8,
+     "pointer": "2862",
+     "file": "2898-to-wilde-s-z/page-08-2862.jpg",
+     "bytes": 293142,
+     "shelfmark": "MSS_WildeO_3_1_008",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 9,
+     "pointer": "2863",
+     "file": "2898-to-wilde-s-z/page-09-2863.jpg",
+     "bytes": 304822,
+     "shelfmark": "MSS_WildeO_3_1_009",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 10,
+     "pointer": "2864",
+     "file": "2898-to-wilde-s-z/page-10-2864.jpg",
+     "bytes": 301671,
+     "shelfmark": "MSS_WildeO_3_1_010",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 11,
+     "pointer": "2865",
+     "file": "2898-to-wilde-s-z/page-11-2865.jpg",
+     "bytes": 234488,
+     "shelfmark": "MSS_WildeO_3_1_011",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 12,
+     "pointer": "2866",
+     "file": "2898-to-wilde-s-z/page-12-2866.jpg",
+     "bytes": 258178,
+     "shelfmark": "MSS_WildeO_3_1_012",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 13,
+     "pointer": "2867",
+     "file": "2898-to-wilde-s-z/page-13-2867.jpg",
+     "bytes": 342893,
+     "shelfmark": "MSS_WildeO_3_1_013",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 14,
+     "pointer": "2868",
+     "file": "2898-to-wilde-s-z/page-14-2868.jpg",
+     "bytes": 315383,
+     "shelfmark": "MSS_WildeO_3_1_014",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 15,
+     "pointer": "2869",
+     "file": "2898-to-wilde-s-z/page-15-2869.jpg",
+     "bytes": 263561,
+     "shelfmark": "MSS_WildeO_3_1_015",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 16,
+     "pointer": "2870",
+     "file": "2898-to-wilde-s-z/page-16-2870.jpg",
+     "bytes": 336488,
+     "shelfmark": "MSS_WildeO_3_1_016",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 17,
+     "pointer": "2871",
+     "file": "2898-to-wilde-s-z/page-17-2871.jpg",
+     "bytes": 305050,
+     "shelfmark": "MSS_WildeO_3_1_017",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 18,
+     "pointer": "2872",
+     "file": "2898-to-wilde-s-z/page-18-2872.jpg",
+     "bytes": 342512,
+     "shelfmark": "MSS_WildeO_3_1_018",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 19,
+     "pointer": "2873",
+     "file": "2898-to-wilde-s-z/page-19-2873.jpg",
+     "bytes": 539111,
+     "shelfmark": "MSS_WildeO_3_1_019",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 20,
+     "pointer": "2874",
+     "file": "2898-to-wilde-s-z/page-20-2874.jpg",
+     "bytes": 521570,
+     "shelfmark": "MSS_WildeO_3_1_020",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 21,
+     "pointer": "2875",
+     "file": "2898-to-wilde-s-z/page-21-2875.jpg",
+     "bytes": 347868,
+     "shelfmark": "MSS_WildeO_3_1_021",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 22,
+     "pointer": "2876",
+     "file": "2898-to-wilde-s-z/page-22-2876.jpg",
+     "bytes": 340194,
+     "shelfmark": "MSS_WildeO_3_1_022",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 23,
+     "pointer": "2877",
+     "file": "2898-to-wilde-s-z/page-23-2877.jpg",
+     "bytes": 347308,
+     "shelfmark": "MSS_WildeO_3_1_023",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 24,
+     "pointer": "2878",
+     "file": "2898-to-wilde-s-z/page-24-2878.jpg",
+     "bytes": 238734,
+     "shelfmark": "MSS_WildeO_3_1_024",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 25,
+     "pointer": "2879",
+     "file": "2898-to-wilde-s-z/page-25-2879.jpg",
+     "bytes": 277677,
+     "shelfmark": "MSS_WildeO_3_1_025",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 26,
+     "pointer": "2880",
+     "file": "2898-to-wilde-s-z/page-26-2880.jpg",
+     "bytes": 243466,
+     "shelfmark": "MSS_WildeO_3_1_026",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 27,
+     "pointer": "2881",
+     "file": "2898-to-wilde-s-z/page-27-2881.jpg",
+     "bytes": 339282,
+     "shelfmark": "MSS_WildeO_3_1_027",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 28,
+     "pointer": "2882",
+     "file": "2898-to-wilde-s-z/page-28-2882.jpg",
+     "bytes": 364980,
+     "shelfmark": "MSS_WildeO_3_1_028",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 29,
+     "pointer": "2883",
+     "file": "2898-to-wilde-s-z/page-29-2883.jpg",
+     "bytes": 340258,
+     "shelfmark": "MSS_WildeO_3_1_029",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 30,
+     "pointer": "2884",
+     "file": "2898-to-wilde-s-z/page-30-2884.jpg",
+     "bytes": 360817,
+     "shelfmark": "MSS_WildeO_3_1_030",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 31,
+     "pointer": "2885",
+     "file": "2898-to-wilde-s-z/page-31-2885.jpg",
+     "bytes": 245015,
+     "shelfmark": "MSS_WildeO_3_1_031",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 32,
+     "pointer": "2886",
+     "file": "2898-to-wilde-s-z/page-32-2886.jpg",
+     "bytes": 329674,
+     "shelfmark": "MSS_WildeO_3_1_032",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 33,
+     "pointer": "2887",
+     "file": "2898-to-wilde-s-z/page-33-2887.jpg",
+     "bytes": 265948,
+     "shelfmark": "MSS_WildeO_3_1_033",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 34,
+     "pointer": "2888",
+     "file": "2898-to-wilde-s-z/page-34-2888.jpg",
+     "bytes": 311504,
+     "shelfmark": "MSS_WildeO_3_1_034",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 35,
+     "pointer": "2889",
+     "file": "2898-to-wilde-s-z/page-35-2889.jpg",
+     "bytes": 272233,
+     "shelfmark": "MSS_WildeO_3_1_035",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 36,
+     "pointer": "2890",
+     "file": "2898-to-wilde-s-z/page-36-2890.jpg",
+     "bytes": 346319,
+     "shelfmark": "MSS_WildeO_3_1_036",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 37,
+     "pointer": "2891",
+     "file": "2898-to-wilde-s-z/page-37-2891.jpg",
+     "bytes": 355251,
+     "shelfmark": "MSS_WildeO_3_1_037",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 38,
+     "pointer": "2892",
+     "file": "2898-to-wilde-s-z/page-38-2892.jpg",
+     "bytes": 288000,
+     "shelfmark": "MSS_WildeO_3_1_038",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 39,
+     "pointer": "2893",
+     "file": "2898-to-wilde-s-z/page-39-2893.jpg",
+     "bytes": 275669,
+     "shelfmark": "MSS_WildeO_3_1_039",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 40,
+     "pointer": "2894",
+     "file": "2898-to-wilde-s-z/page-40-2894.jpg",
+     "bytes": 255015,
+     "shelfmark": "MSS_WildeO_3_1_040",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 41,
+     "pointer": "2895",
+     "file": "2898-to-wilde-s-z/page-41-2895.jpg",
+     "bytes": 252552,
+     "shelfmark": "MSS_WildeO_3_1_041",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 42,
+     "pointer": "2896",
+     "file": "2898-to-wilde-s-z/page-42-2896.jpg",
+     "bytes": 296630,
+     "shelfmark": "MSS_WildeO_3_1_042",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 43,
+     "pointer": "2897",
+     "file": "2898-to-wilde-s-z/page-43-2897.jpg",
+     "bytes": 246254,
+     "shelfmark": "MSS_WildeO_3_1_043",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    }
+   ],
+   "matches": []
+  },
+  {
+   "itemId": "3286",
+   "title": "Third-Party correspondence from individuals A-H and unidentified correspondents",
+   "boxFolder": "Box 3, Folder 7",
+   "dates": "1882-1957",
+   "slug": "3286-third-party-a-h",
+   "dir": "3286-third-party-a-h",
+   "pages": [
+    {
+     "page": 1,
+     "pointer": "3221",
+     "file": "3286-third-party-a-h/page-01-3221.jpg",
+     "bytes": 296542,
+     "shelfmark": "MSS_WildeO_3_7_001",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 2,
+     "pointer": "3222",
+     "file": "3286-third-party-a-h/page-02-3222.jpg",
+     "bytes": 234273,
+     "shelfmark": "MSS_WildeO_3_7_002",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 3,
+     "pointer": "3223",
+     "file": "3286-third-party-a-h/page-03-3223.jpg",
+     "bytes": 355253,
+     "shelfmark": "MSS_WildeO_3_7_003",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 4,
+     "pointer": "3224",
+     "file": "3286-third-party-a-h/page-04-3224.jpg",
+     "bytes": 382664,
+     "shelfmark": "MSS_WildeO_3_7_004",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 5,
+     "pointer": "3225",
+     "file": "3286-third-party-a-h/page-05-3225.jpg",
+     "bytes": 371560,
+     "shelfmark": "MSS_WildeO_3_7_005",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 6,
+     "pointer": "3226",
+     "file": "3286-third-party-a-h/page-06-3226.jpg",
+     "bytes": 385012,
+     "shelfmark": "MSS_WildeO_3_7_006",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 7,
+     "pointer": "3227",
+     "file": "3286-third-party-a-h/page-07-3227.jpg",
+     "bytes": 371075,
+     "shelfmark": "MSS_WildeO_3_7_007",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 8,
+     "pointer": "3228",
+     "file": "3286-third-party-a-h/page-08-3228.jpg",
+     "bytes": 371378,
+     "shelfmark": "MSS_WildeO_3_7_008",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 9,
+     "pointer": "3229",
+     "file": "3286-third-party-a-h/page-09-3229.jpg",
+     "bytes": 369796,
+     "shelfmark": "MSS_WildeO_3_7_009",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 10,
+     "pointer": "3230",
+     "file": "3286-third-party-a-h/page-10-3230.jpg",
+     "bytes": 380242,
+     "shelfmark": "MSS_WildeO_3_7_010",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 11,
+     "pointer": "3231",
+     "file": "3286-third-party-a-h/page-11-3231.jpg",
+     "bytes": 349022,
+     "shelfmark": "MSS_WildeO_3_7_011",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 12,
+     "pointer": "3232",
+     "file": "3286-third-party-a-h/page-12-3232.jpg",
+     "bytes": 369361,
+     "shelfmark": "MSS_WildeO_3_7_012",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 13,
+     "pointer": "3233",
+     "file": "3286-third-party-a-h/page-13-3233.jpg",
+     "bytes": 339479,
+     "shelfmark": "MSS_WildeO_3_7_013",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 14,
+     "pointer": "3234",
+     "file": "3286-third-party-a-h/page-14-3234.jpg",
+     "bytes": 330073,
+     "shelfmark": "MSS_WildeO_3_7_014",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 15,
+     "pointer": "3235",
+     "file": "3286-third-party-a-h/page-15-3235.jpg",
+     "bytes": 291204,
+     "shelfmark": "MSS_WildeO_3_7_015",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 16,
+     "pointer": "3236",
+     "file": "3286-third-party-a-h/page-16-3236.jpg",
+     "bytes": 329181,
+     "shelfmark": "MSS_WildeO_3_7_016",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 17,
+     "pointer": "3237",
+     "file": "3286-third-party-a-h/page-17-3237.jpg",
+     "bytes": 301848,
+     "shelfmark": "MSS_WildeO_3_7_017",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 18,
+     "pointer": "3238",
+     "file": "3286-third-party-a-h/page-18-3238.jpg",
+     "bytes": 445943,
+     "shelfmark": "MSS_WildeO_3_7_018",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 19,
+     "pointer": "3239",
+     "file": "3286-third-party-a-h/page-19-3239.jpg",
+     "bytes": 403787,
+     "shelfmark": "MSS_WildeO_3_7_019",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 20,
+     "pointer": "3240",
+     "file": "3286-third-party-a-h/page-20-3240.jpg",
+     "bytes": 414466,
+     "shelfmark": "MSS_WildeO_3_7_020",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 21,
+     "pointer": "3241",
+     "file": "3286-third-party-a-h/page-21-3241.jpg",
+     "bytes": 323791,
+     "shelfmark": "MSS_WildeO_3_7_021",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 22,
+     "pointer": "3242",
+     "file": "3286-third-party-a-h/page-22-3242.jpg",
+     "bytes": 332100,
+     "shelfmark": "MSS_WildeO_3_7_022",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 23,
+     "pointer": "3243",
+     "file": "3286-third-party-a-h/page-23-3243.jpg",
+     "bytes": 237785,
+     "shelfmark": "MSS_WildeO_3_7_023",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 24,
+     "pointer": "3244",
+     "file": "3286-third-party-a-h/page-24-3244.jpg",
+     "bytes": 215443,
+     "shelfmark": "MSS_WildeO_3_7_024",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 25,
+     "pointer": "3245",
+     "file": "3286-third-party-a-h/page-25-3245.jpg",
+     "bytes": 251903,
+     "shelfmark": "MSS_WildeO_3_7_025",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 26,
+     "pointer": "3246",
+     "file": "3286-third-party-a-h/page-26-3246.jpg",
+     "bytes": 248695,
+     "shelfmark": "MSS_WildeO_3_7_026",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 27,
+     "pointer": "3247",
+     "file": "3286-third-party-a-h/page-27-3247.jpg",
+     "bytes": 235537,
+     "shelfmark": "MSS_WildeO_3_7_027",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 28,
+     "pointer": "3248",
+     "file": "3286-third-party-a-h/page-28-3248.jpg",
+     "bytes": 311889,
+     "shelfmark": "MSS_WildeO_3_7_028",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 29,
+     "pointer": "3249",
+     "file": "3286-third-party-a-h/page-29-3249.jpg",
+     "bytes": 293798,
+     "shelfmark": "MSS_WildeO_3_7_029",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 30,
+     "pointer": "3250",
+     "file": "3286-third-party-a-h/page-30-3250.jpg",
+     "bytes": 289911,
+     "shelfmark": "MSS_WildeO_3_7_030",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 31,
+     "pointer": "3251",
+     "file": "3286-third-party-a-h/page-31-3251.jpg",
+     "bytes": 295429,
+     "shelfmark": "MSS_WildeO_3_7_031",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 32,
+     "pointer": "3252",
+     "file": "3286-third-party-a-h/page-32-3252.jpg",
+     "bytes": 294195,
+     "shelfmark": "MSS_WildeO_3_7_032",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 33,
+     "pointer": "3253",
+     "file": "3286-third-party-a-h/page-33-3253.jpg",
+     "bytes": 270442,
+     "shelfmark": "MSS_WildeO_3_7_033",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 34,
+     "pointer": "3254",
+     "file": "3286-third-party-a-h/page-34-3254.jpg",
+     "bytes": 290424,
+     "shelfmark": "MSS_WildeO_3_7_034",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 35,
+     "pointer": "3255",
+     "file": "3286-third-party-a-h/page-35-3255.jpg",
+     "bytes": 192509,
+     "shelfmark": "MSS_WildeO_3_7_035",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 36,
+     "pointer": "3256",
+     "file": "3286-third-party-a-h/page-36-3256.jpg",
+     "bytes": 252043,
+     "shelfmark": "MSS_WildeO_3_7_036",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 37,
+     "pointer": "3257",
+     "file": "3286-third-party-a-h/page-37-3257.jpg",
+     "bytes": 280036,
+     "shelfmark": "MSS_WildeO_3_7_037",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 38,
+     "pointer": "3258",
+     "file": "3286-third-party-a-h/page-38-3258.jpg",
+     "bytes": 299678,
+     "shelfmark": "MSS_WildeO_3_7_038",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 39,
+     "pointer": "3259",
+     "file": "3286-third-party-a-h/page-39-3259.jpg",
+     "bytes": 270007,
+     "shelfmark": "MSS_WildeO_3_7_039",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 40,
+     "pointer": "3260",
+     "file": "3286-third-party-a-h/page-40-3260.jpg",
+     "bytes": 281529,
+     "shelfmark": "MSS_WildeO_3_7_040",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 41,
+     "pointer": "3261",
+     "file": "3286-third-party-a-h/page-41-3261.jpg",
+     "bytes": 214926,
+     "shelfmark": "MSS_WildeO_3_7_041",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 42,
+     "pointer": "3262",
+     "file": "3286-third-party-a-h/page-42-3262.jpg",
+     "bytes": 349340,
+     "shelfmark": "MSS_WildeO_3_7_042",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 43,
+     "pointer": "3263",
+     "file": "3286-third-party-a-h/page-43-3263.jpg",
+     "bytes": 346248,
+     "shelfmark": "MSS_WildeO_3_7_043",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 44,
+     "pointer": "3264",
+     "file": "3286-third-party-a-h/page-44-3264.jpg",
+     "bytes": 255448,
+     "shelfmark": "MSS_WildeO_3_7_044",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 45,
+     "pointer": "3265",
+     "file": "3286-third-party-a-h/page-45-3265.jpg",
+     "bytes": 273282,
+     "shelfmark": "MSS_WildeO_3_7_045",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 46,
+     "pointer": "3266",
+     "file": "3286-third-party-a-h/page-46-3266.jpg",
+     "bytes": 332680,
+     "shelfmark": "MSS_WildeO_3_7_046",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 47,
+     "pointer": "3267",
+     "file": "3286-third-party-a-h/page-47-3267.jpg",
+     "bytes": 310948,
+     "shelfmark": "MSS_WildeO_3_7_047",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 48,
+     "pointer": "3268",
+     "file": "3286-third-party-a-h/page-48-3268.jpg",
+     "bytes": 262205,
+     "shelfmark": "MSS_WildeO_3_7_048",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 49,
+     "pointer": "3269",
+     "file": "3286-third-party-a-h/page-49-3269.jpg",
+     "bytes": 184483,
+     "shelfmark": "MSS_WildeO_3_7_049",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 50,
+     "pointer": "3270",
+     "file": "3286-third-party-a-h/page-50-3270.jpg",
+     "bytes": 243231,
+     "shelfmark": "MSS_WildeO_3_7_050",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 51,
+     "pointer": "3271",
+     "file": "3286-third-party-a-h/page-51-3271.jpg",
+     "bytes": 244319,
+     "shelfmark": "MSS_WildeO_3_7_051",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 52,
+     "pointer": "3272",
+     "file": "3286-third-party-a-h/page-52-3272.jpg",
+     "bytes": 260283,
+     "shelfmark": "MSS_WildeO_3_7_052",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 53,
+     "pointer": "3273",
+     "file": "3286-third-party-a-h/page-53-3273.jpg",
+     "bytes": 283434,
+     "shelfmark": "MSS_WildeO_3_7_053",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 54,
+     "pointer": "3274",
+     "file": "3286-third-party-a-h/page-54-3274.jpg",
+     "bytes": 322487,
+     "shelfmark": "MSS_WildeO_3_7_054",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 55,
+     "pointer": "3275",
+     "file": "3286-third-party-a-h/page-55-3275.jpg",
+     "bytes": 301792,
+     "shelfmark": "MSS_WildeO_3_7_055",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 56,
+     "pointer": "3276",
+     "file": "3286-third-party-a-h/page-56-3276.jpg",
+     "bytes": 312022,
+     "shelfmark": "MSS_WildeO_3_7_056",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 57,
+     "pointer": "3277",
+     "file": "3286-third-party-a-h/page-57-3277.jpg",
+     "bytes": 322591,
+     "shelfmark": "MSS_WildeO_3_7_057",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 58,
+     "pointer": "3278",
+     "file": "3286-third-party-a-h/page-58-3278.jpg",
+     "bytes": 298363,
+     "shelfmark": "MSS_WildeO_3_7_058",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 59,
+     "pointer": "3279",
+     "file": "3286-third-party-a-h/page-59-3279.jpg",
+     "bytes": 349485,
+     "shelfmark": "MSS_WildeO_3_7_059",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 60,
+     "pointer": "3280",
+     "file": "3286-third-party-a-h/page-60-3280.jpg",
+     "bytes": 291892,
+     "shelfmark": "MSS_WildeO_3_7_060",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 61,
+     "pointer": "3281",
+     "file": "3286-third-party-a-h/page-61-3281.jpg",
+     "bytes": 277913,
+     "shelfmark": "MSS_WildeO_3_7_061",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 62,
+     "pointer": "3282",
+     "file": "3286-third-party-a-h/page-62-3282.jpg",
+     "bytes": 251823,
+     "shelfmark": "MSS_WildeO_3_7_062",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 63,
+     "pointer": "3283",
+     "file": "3286-third-party-a-h/page-63-3283.jpg",
+     "bytes": 277633,
+     "shelfmark": "MSS_WildeO_3_7_063",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 64,
+     "pointer": "3284",
+     "file": "3286-third-party-a-h/page-64-3284.jpg",
+     "bytes": 331372,
+     "shelfmark": "MSS_WildeO_3_7_064",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 65,
+     "pointer": "3285",
+     "file": "3286-third-party-a-h/page-65-3285.jpg",
+     "bytes": 288948,
+     "shelfmark": "MSS_WildeO_3_7_065",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    }
+   ],
+   "matches": []
+  },
+  {
+   "itemId": "3305",
+   "title": "Third-Party correspondence to or from Margaret Lumley Brown",
+   "boxFolder": "Box 3, Folder 8",
+   "dates": "1914 January 28",
+   "slug": "3305-third-party-lumley-brown",
+   "dir": "3305-third-party-lumley-brown",
+   "pages": [
+    {
+     "page": 1,
+     "pointer": "3287",
+     "file": "3305-third-party-lumley-brown/page-01-3287.jpg",
+     "bytes": 300084,
+     "shelfmark": "MSS_WildeO_3_8_001",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 2,
+     "pointer": "3288",
+     "file": "3305-third-party-lumley-brown/page-02-3288.jpg",
+     "bytes": 316393,
+     "shelfmark": "MSS_WildeO_3_8_002",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 3,
+     "pointer": "3289",
+     "file": "3305-third-party-lumley-brown/page-03-3289.jpg",
+     "bytes": 327226,
+     "shelfmark": "MSS_WildeO_3_8_003",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 4,
+     "pointer": "3290",
+     "file": "3305-third-party-lumley-brown/page-04-3290.jpg",
+     "bytes": 319361,
+     "shelfmark": "MSS_WildeO_3_8_004",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 5,
+     "pointer": "3291",
+     "file": "3305-third-party-lumley-brown/page-05-3291.jpg",
+     "bytes": 304559,
+     "shelfmark": "MSS_WildeO_3_8_005",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 6,
+     "pointer": "3292",
+     "file": "3305-third-party-lumley-brown/page-06-3292.jpg",
+     "bytes": 281564,
+     "shelfmark": "MSS_WildeO_3_8_006",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 7,
+     "pointer": "3293",
+     "file": "3305-third-party-lumley-brown/page-07-3293.jpg",
+     "bytes": 226676,
+     "shelfmark": "MSS_WildeO_3_8_007",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 8,
+     "pointer": "3294",
+     "file": "3305-third-party-lumley-brown/page-08-3294.jpg",
+     "bytes": 205286,
+     "shelfmark": "MSS_WildeO_3_8_008",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 9,
+     "pointer": "3295",
+     "file": "3305-third-party-lumley-brown/page-09-3295.jpg",
+     "bytes": 364409,
+     "shelfmark": "MSS_WildeO_3_8_009",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 10,
+     "pointer": "3296",
+     "file": "3305-third-party-lumley-brown/page-10-3296.jpg",
+     "bytes": 418136,
+     "shelfmark": "MSS_WildeO_3_8_010",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 11,
+     "pointer": "3297",
+     "file": "3305-third-party-lumley-brown/page-11-3297.jpg",
+     "bytes": 377883,
+     "shelfmark": "MSS_WildeO_3_8_011",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 12,
+     "pointer": "3298",
+     "file": "3305-third-party-lumley-brown/page-12-3298.jpg",
+     "bytes": 440500,
+     "shelfmark": "MSS_WildeO_3_8_012",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 13,
+     "pointer": "3299",
+     "file": "3305-third-party-lumley-brown/page-13-3299.jpg",
+     "bytes": 405184,
+     "shelfmark": "MSS_WildeO_3_8_013",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 14,
+     "pointer": "3300",
+     "file": "3305-third-party-lumley-brown/page-14-3300.jpg",
+     "bytes": 446017,
+     "shelfmark": "MSS_WildeO_3_8_014",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 15,
+     "pointer": "3301",
+     "file": "3305-third-party-lumley-brown/page-15-3301.jpg",
+     "bytes": 438513,
+     "shelfmark": "MSS_WildeO_3_8_015",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 16,
+     "pointer": "3302",
+     "file": "3305-third-party-lumley-brown/page-16-3302.jpg",
+     "bytes": 412327,
+     "shelfmark": "MSS_WildeO_3_8_016",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 17,
+     "pointer": "3303",
+     "file": "3305-third-party-lumley-brown/page-17-3303.jpg",
+     "bytes": 377527,
+     "shelfmark": "MSS_WildeO_3_8_017",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 18,
+     "pointer": "3304",
+     "file": "3305-third-party-lumley-brown/page-18-3304.jpg",
+     "bytes": 407845,
+     "shelfmark": "MSS_WildeO_3_8_018",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    }
+   ],
+   "matches": []
+  },
+  {
+   "itemId": "3401",
+   "title": "Third-Party correspondence from individuals I-Z",
+   "boxFolder": "Box 3, Folder 9",
+   "dates": "1851-1955",
+   "slug": "3401-third-party-i-z",
+   "dir": "3401-third-party-i-z",
+   "pages": [
+    {
+     "page": 1,
+     "pointer": "3306",
+     "file": "3401-third-party-i-z/page-01-3306.jpg",
+     "bytes": 352607,
+     "shelfmark": "MSS_WildeO_3_9_001",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 2,
+     "pointer": "3307",
+     "file": "3401-third-party-i-z/page-02-3307.jpg",
+     "bytes": 341924,
+     "shelfmark": "MSS_WildeO_3_9_002",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 3,
+     "pointer": "3308",
+     "file": "3401-third-party-i-z/page-03-3308.jpg",
+     "bytes": 289497,
+     "shelfmark": "MSS_WildeO_3_9_003",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 4,
+     "pointer": "3309",
+     "file": "3401-third-party-i-z/page-04-3309.jpg",
+     "bytes": 329164,
+     "shelfmark": "MSS_WildeO_3_9_004",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 5,
+     "pointer": "3310",
+     "file": "3401-third-party-i-z/page-05-3310.jpg",
+     "bytes": 233757,
+     "shelfmark": "MSS_WildeO_3_9_005",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 6,
+     "pointer": "3311",
+     "file": "3401-third-party-i-z/page-06-3311.jpg",
+     "bytes": 221632,
+     "shelfmark": "MSS_WildeO_3_9_006",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 7,
+     "pointer": "3312",
+     "file": "3401-third-party-i-z/page-07-3312.jpg",
+     "bytes": 287968,
+     "shelfmark": "MSS_WildeO_3_9_007",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 8,
+     "pointer": "3313",
+     "file": "3401-third-party-i-z/page-08-3313.jpg",
+     "bytes": 275175,
+     "shelfmark": "MSS_WildeO_3_9_008",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 9,
+     "pointer": "3314",
+     "file": "3401-third-party-i-z/page-09-3314.jpg",
+     "bytes": 319604,
+     "shelfmark": "MSS_WildeO_3_9_009",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 10,
+     "pointer": "3315",
+     "file": "3401-third-party-i-z/page-10-3315.jpg",
+     "bytes": 287624,
+     "shelfmark": "MSS_WildeO_3_9_010",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 11,
+     "pointer": "3316",
+     "file": "3401-third-party-i-z/page-11-3316.jpg",
+     "bytes": 353732,
+     "shelfmark": "MSS_WildeO_3_9_011",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 12,
+     "pointer": "3317",
+     "file": "3401-third-party-i-z/page-12-3317.jpg",
+     "bytes": 353047,
+     "shelfmark": "MSS_WildeO_3_9_012",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 13,
+     "pointer": "3318",
+     "file": "3401-third-party-i-z/page-13-3318.jpg",
+     "bytes": 397705,
+     "shelfmark": "MSS_WildeO_3_9_013",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 14,
+     "pointer": "3319",
+     "file": "3401-third-party-i-z/page-14-3319.jpg",
+     "bytes": 434971,
+     "shelfmark": "MSS_WildeO_3_9_014",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 15,
+     "pointer": "3320",
+     "file": "3401-third-party-i-z/page-15-3320.jpg",
+     "bytes": 376900,
+     "shelfmark": "MSS_WildeO_3_9_015",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 16,
+     "pointer": "3321",
+     "file": "3401-third-party-i-z/page-16-3321.jpg",
+     "bytes": 368758,
+     "shelfmark": "MSS_WildeO_3_9_016",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 17,
+     "pointer": "3322",
+     "file": "3401-third-party-i-z/page-17-3322.jpg",
+     "bytes": 296983,
+     "shelfmark": "MSS_WildeO_3_9_017",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 18,
+     "pointer": "3323",
+     "file": "3401-third-party-i-z/page-18-3323.jpg",
+     "bytes": 299705,
+     "shelfmark": "MSS_WildeO_3_9_018",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 19,
+     "pointer": "3324",
+     "file": "3401-third-party-i-z/page-19-3324.jpg",
+     "bytes": 250716,
+     "shelfmark": "MSS_WildeO_3_9_019",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 20,
+     "pointer": "3325",
+     "file": "3401-third-party-i-z/page-20-3325.jpg",
+     "bytes": 234581,
+     "shelfmark": "MSS_WildeO_3_9_020",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 21,
+     "pointer": "3326",
+     "file": "3401-third-party-i-z/page-21-3326.jpg",
+     "bytes": 279443,
+     "shelfmark": "MSS_WildeO_3_9_021",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 22,
+     "pointer": "3327",
+     "file": "3401-third-party-i-z/page-22-3327.jpg",
+     "bytes": 314876,
+     "shelfmark": "MSS_WildeO_3_9_022",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 23,
+     "pointer": "3328",
+     "file": "3401-third-party-i-z/page-23-3328.jpg",
+     "bytes": 331785,
+     "shelfmark": "MSS_WildeO_3_9_023",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 24,
+     "pointer": "3329",
+     "file": "3401-third-party-i-z/page-24-3329.jpg",
+     "bytes": 318851,
+     "shelfmark": "MSS_WildeO_3_9_024",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 25,
+     "pointer": "3330",
+     "file": "3401-third-party-i-z/page-25-3330.jpg",
+     "bytes": 323007,
+     "shelfmark": "MSS_WildeO_3_9_025",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 26,
+     "pointer": "3331",
+     "file": "3401-third-party-i-z/page-26-3331.jpg",
+     "bytes": 316879,
+     "shelfmark": "MSS_WildeO_3_9_026",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 27,
+     "pointer": "3332",
+     "file": "3401-third-party-i-z/page-27-3332.jpg",
+     "bytes": 249761,
+     "shelfmark": "MSS_WildeO_3_9_027",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 28,
+     "pointer": "3333",
+     "file": "3401-third-party-i-z/page-28-3333.jpg",
+     "bytes": 386286,
+     "shelfmark": "MSS_WildeO_3_9_028",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 29,
+     "pointer": "3334",
+     "file": "3401-third-party-i-z/page-29-3334.jpg",
+     "bytes": 349685,
+     "shelfmark": "MSS_WildeO_3_9_029",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 30,
+     "pointer": "3335",
+     "file": "3401-third-party-i-z/page-30-3335.jpg",
+     "bytes": 263765,
+     "shelfmark": "MSS_WildeO_3_9_030",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 31,
+     "pointer": "3336",
+     "file": "3401-third-party-i-z/page-31-3336.jpg",
+     "bytes": 239488,
+     "shelfmark": "MSS_WildeO_3_9_031",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 32,
+     "pointer": "3337",
+     "file": "3401-third-party-i-z/page-32-3337.jpg",
+     "bytes": 291181,
+     "shelfmark": "MSS_WildeO_3_9_032",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 33,
+     "pointer": "3338",
+     "file": "3401-third-party-i-z/page-33-3338.jpg",
+     "bytes": 355271,
+     "shelfmark": "MSS_WildeO_3_9_033",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 34,
+     "pointer": "3339",
+     "file": "3401-third-party-i-z/page-34-3339.jpg",
+     "bytes": 366289,
+     "shelfmark": "MSS_WildeO_3_9_034",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 35,
+     "pointer": "3340",
+     "file": "3401-third-party-i-z/page-35-3340.jpg",
+     "bytes": 375274,
+     "shelfmark": "MSS_WildeO_3_9_035",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 36,
+     "pointer": "3341",
+     "file": "3401-third-party-i-z/page-36-3341.jpg",
+     "bytes": 356428,
+     "shelfmark": "MSS_WildeO_3_9_036",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 37,
+     "pointer": "3342",
+     "file": "3401-third-party-i-z/page-37-3342.jpg",
+     "bytes": 373108,
+     "shelfmark": "MSS_WildeO_3_9_037",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 38,
+     "pointer": "3343",
+     "file": "3401-third-party-i-z/page-38-3343.jpg",
+     "bytes": 376628,
+     "shelfmark": "MSS_WildeO_3_9_038",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 39,
+     "pointer": "3344",
+     "file": "3401-third-party-i-z/page-39-3344.jpg",
+     "bytes": 375527,
+     "shelfmark": "MSS_WildeO_3_9_039",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 40,
+     "pointer": "3345",
+     "file": "3401-third-party-i-z/page-40-3345.jpg",
+     "bytes": 355423,
+     "shelfmark": "MSS_WildeO_3_9_040",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 41,
+     "pointer": "3346",
+     "file": "3401-third-party-i-z/page-41-3346.jpg",
+     "bytes": 374546,
+     "shelfmark": "MSS_WildeO_3_9_041",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 42,
+     "pointer": "3347",
+     "file": "3401-third-party-i-z/page-42-3347.jpg",
+     "bytes": 361080,
+     "shelfmark": "MSS_WildeO_3_9_042",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 43,
+     "pointer": "3348",
+     "file": "3401-third-party-i-z/page-43-3348.jpg",
+     "bytes": 371687,
+     "shelfmark": "MSS_WildeO_3_9_043",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 44,
+     "pointer": "3349",
+     "file": "3401-third-party-i-z/page-44-3349.jpg",
+     "bytes": 358866,
+     "shelfmark": "MSS_WildeO_3_9_044",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 45,
+     "pointer": "3350",
+     "file": "3401-third-party-i-z/page-45-3350.jpg",
+     "bytes": 294055,
+     "shelfmark": "MSS_WildeO_3_9_045",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 46,
+     "pointer": "3351",
+     "file": "3401-third-party-i-z/page-46-3351.jpg",
+     "bytes": 451316,
+     "shelfmark": "MSS_WildeO_3_9_046",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 47,
+     "pointer": "3352",
+     "file": "3401-third-party-i-z/page-47-3352.jpg",
+     "bytes": 449271,
+     "shelfmark": "MSS_WildeO_3_9_047",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 48,
+     "pointer": "3353",
+     "file": "3401-third-party-i-z/page-48-3353.jpg",
+     "bytes": 437983,
+     "shelfmark": "MSS_WildeO_3_9_048",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 49,
+     "pointer": "3354",
+     "file": "3401-third-party-i-z/page-49-3354.jpg",
+     "bytes": 394597,
+     "shelfmark": "MSS_WildeO_3_9_049",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 50,
+     "pointer": "3355",
+     "file": "3401-third-party-i-z/page-50-3355.jpg",
+     "bytes": 255735,
+     "shelfmark": "MSS_WildeO_3_9_050",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 51,
+     "pointer": "3356",
+     "file": "3401-third-party-i-z/page-51-3356.jpg",
+     "bytes": 313106,
+     "shelfmark": "MSS_WildeO_3_9_051",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 52,
+     "pointer": "3357",
+     "file": "3401-third-party-i-z/page-52-3357.jpg",
+     "bytes": 340339,
+     "shelfmark": "MSS_WildeO_3_9_052",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 53,
+     "pointer": "3358",
+     "file": "3401-third-party-i-z/page-53-3358.jpg",
+     "bytes": 322894,
+     "shelfmark": "MSS_WildeO_3_9_053",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 54,
+     "pointer": "3359",
+     "file": "3401-third-party-i-z/page-54-3359.jpg",
+     "bytes": 305811,
+     "shelfmark": "MSS_WildeO_3_9_054",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 55,
+     "pointer": "3360",
+     "file": "3401-third-party-i-z/page-55-3360.jpg",
+     "bytes": 338554,
+     "shelfmark": "MSS_WildeO_3_9_055",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 56,
+     "pointer": "3361",
+     "file": "3401-third-party-i-z/page-56-3361.jpg",
+     "bytes": 309048,
+     "shelfmark": "MSS_WildeO_3_9_056",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 57,
+     "pointer": "3362",
+     "file": "3401-third-party-i-z/page-57-3362.jpg",
+     "bytes": 313886,
+     "shelfmark": "MSS_WildeO_3_9_057",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 58,
+     "pointer": "3363",
+     "file": "3401-third-party-i-z/page-58-3363.jpg",
+     "bytes": 286844,
+     "shelfmark": "MSS_WildeO_3_9_058",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 59,
+     "pointer": "3364",
+     "file": "3401-third-party-i-z/page-59-3364.jpg",
+     "bytes": 306878,
+     "shelfmark": "MSS_WildeO_3_9_059",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 60,
+     "pointer": "3365",
+     "file": "3401-third-party-i-z/page-60-3365.jpg",
+     "bytes": 375069,
+     "shelfmark": "MSS_WildeO_3_9_060",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 61,
+     "pointer": "3366",
+     "file": "3401-third-party-i-z/page-61-3366.jpg",
+     "bytes": 427915,
+     "shelfmark": "MSS_WildeO_3_9_061",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 62,
+     "pointer": "3367",
+     "file": "3401-third-party-i-z/page-62-3367.jpg",
+     "bytes": 421544,
+     "shelfmark": "MSS_WildeO_3_9_062",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 63,
+     "pointer": "3368",
+     "file": "3401-third-party-i-z/page-63-3368.jpg",
+     "bytes": 270911,
+     "shelfmark": "MSS_WildeO_3_9_063",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 64,
+     "pointer": "3369",
+     "file": "3401-third-party-i-z/page-64-3369.jpg",
+     "bytes": 317915,
+     "shelfmark": "MSS_WildeO_3_9_064",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 65,
+     "pointer": "3370",
+     "file": "3401-third-party-i-z/page-65-3370.jpg",
+     "bytes": 226136,
+     "shelfmark": "MSS_WildeO_3_9_065",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 66,
+     "pointer": "3371",
+     "file": "3401-third-party-i-z/page-66-3371.jpg",
+     "bytes": 335435,
+     "shelfmark": "MSS_WildeO_3_9_066",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 67,
+     "pointer": "3372",
+     "file": "3401-third-party-i-z/page-67-3372.jpg",
+     "bytes": 440154,
+     "shelfmark": "MSS_WildeO_3_9_067",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 68,
+     "pointer": "3373",
+     "file": "3401-third-party-i-z/page-68-3373.jpg",
+     "bytes": 393362,
+     "shelfmark": "MSS_WildeO_3_9_068",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 69,
+     "pointer": "3374",
+     "file": "3401-third-party-i-z/page-69-3374.jpg",
+     "bytes": 317999,
+     "shelfmark": "MSS_WildeO_3_9_069",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 70,
+     "pointer": "3375",
+     "file": "3401-third-party-i-z/page-70-3375.jpg",
+     "bytes": 441785,
+     "shelfmark": "MSS_WildeO_3_9_070",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 71,
+     "pointer": "3376",
+     "file": "3401-third-party-i-z/page-71-3376.jpg",
+     "bytes": 460981,
+     "shelfmark": "MSS_WildeO_3_9_071",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 72,
+     "pointer": "3377",
+     "file": "3401-third-party-i-z/page-72-3377.jpg",
+     "bytes": 214827,
+     "shelfmark": "MSS_WildeO_3_9_072",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 73,
+     "pointer": "3378",
+     "file": "3401-third-party-i-z/page-73-3378.jpg",
+     "bytes": 373184,
+     "shelfmark": "MSS_WildeO_3_9_073",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 74,
+     "pointer": "3379",
+     "file": "3401-third-party-i-z/page-74-3379.jpg",
+     "bytes": 283690,
+     "shelfmark": "MSS_WildeO_3_9_074",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 75,
+     "pointer": "3380",
+     "file": "3401-third-party-i-z/page-75-3380.jpg",
+     "bytes": 325027,
+     "shelfmark": "MSS_WildeO_3_9_075",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 76,
+     "pointer": "3381",
+     "file": "3401-third-party-i-z/page-76-3381.jpg",
+     "bytes": 292909,
+     "shelfmark": "MSS_WildeO_3_9_076",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 77,
+     "pointer": "3382",
+     "file": "3401-third-party-i-z/page-77-3382.jpg",
+     "bytes": 370274,
+     "shelfmark": "MSS_WildeO_3_9_077",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 78,
+     "pointer": "3383",
+     "file": "3401-third-party-i-z/page-78-3383.jpg",
+     "bytes": 398357,
+     "shelfmark": "MSS_WildeO_3_9_078",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 79,
+     "pointer": "3384",
+     "file": "3401-third-party-i-z/page-79-3384.jpg",
+     "bytes": 381563,
+     "shelfmark": "MSS_WildeO_3_9_079",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 80,
+     "pointer": "3385",
+     "file": "3401-third-party-i-z/page-80-3385.jpg",
+     "bytes": 361632,
+     "shelfmark": "MSS_WildeO_3_9_080",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 81,
+     "pointer": "3386",
+     "file": "3401-third-party-i-z/page-81-3386.jpg",
+     "bytes": 316066,
+     "shelfmark": "MSS_WildeO_3_9_081",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 82,
+     "pointer": "3387",
+     "file": "3401-third-party-i-z/page-82-3387.jpg",
+     "bytes": 369057,
+     "shelfmark": "MSS_WildeO_3_9_082",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 83,
+     "pointer": "3388",
+     "file": "3401-third-party-i-z/page-83-3388.jpg",
+     "bytes": 297779,
+     "shelfmark": "MSS_WildeO_3_9_083",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 84,
+     "pointer": "3389",
+     "file": "3401-third-party-i-z/page-84-3389.jpg",
+     "bytes": 274117,
+     "shelfmark": "MSS_WildeO_3_9_084",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 85,
+     "pointer": "3390",
+     "file": "3401-third-party-i-z/page-85-3390.jpg",
+     "bytes": 348033,
+     "shelfmark": "MSS_WildeO_3_9_085",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 86,
+     "pointer": "3391",
+     "file": "3401-third-party-i-z/page-86-3391.jpg",
+     "bytes": 352981,
+     "shelfmark": "MSS_WildeO_3_9_086",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 87,
+     "pointer": "3392",
+     "file": "3401-third-party-i-z/page-87-3392.jpg",
+     "bytes": 339997,
+     "shelfmark": "MSS_WildeO_3_9_087",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 88,
+     "pointer": "3393",
+     "file": "3401-third-party-i-z/page-88-3393.jpg",
+     "bytes": 313339,
+     "shelfmark": "MSS_WildeO_3_9_088",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 89,
+     "pointer": "3394",
+     "file": "3401-third-party-i-z/page-89-3394.jpg",
+     "bytes": 252809,
+     "shelfmark": "MSS_WildeO_3_9_089",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 90,
+     "pointer": "3395",
+     "file": "3401-third-party-i-z/page-90-3395.jpg",
+     "bytes": 285285,
+     "shelfmark": "MSS_WildeO_3_9_090",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 91,
+     "pointer": "3396",
+     "file": "3401-third-party-i-z/page-91-3396.jpg",
+     "bytes": 253120,
+     "shelfmark": "MSS_WildeO_3_9_091",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 92,
+     "pointer": "3397",
+     "file": "3401-third-party-i-z/page-92-3397.jpg",
+     "bytes": 327386,
+     "shelfmark": "MSS_WildeO_3_9_092",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 93,
+     "pointer": "3398",
+     "file": "3401-third-party-i-z/page-93-3398.jpg",
+     "bytes": 343310,
+     "shelfmark": "MSS_WildeO_3_9_093",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 94,
+     "pointer": "3399",
+     "file": "3401-third-party-i-z/page-94-3399.jpg",
+     "bytes": 258512,
+     "shelfmark": "MSS_WildeO_3_9_094",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 95,
+     "pointer": "3400",
+     "file": "3401-third-party-i-z/page-95-3400.jpg",
+     "bytes": 164776,
+     "shelfmark": "MSS_WildeO_3_9_095",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    }
+   ],
+   "matches": []
+  },
+  {
+   "itemId": "3411",
+   "title": "Third-Party correspondence to or from W. F. Morse",
+   "boxFolder": "Box 3, Folder 10",
+   "dates": "Circa 1884",
+   "slug": "3411-third-party-morse",
+   "dir": "3411-third-party-morse",
+   "pages": [
+    {
+     "page": 1,
+     "pointer": "3402",
+     "file": "3411-third-party-morse/page-01-3402.jpg",
+     "bytes": 283744,
+     "shelfmark": "MSS_WildeO_3_10_001",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 2,
+     "pointer": "3403",
+     "file": "3411-third-party-morse/page-02-3403.jpg",
+     "bytes": 352984,
+     "shelfmark": "MSS_WildeO_3_10_002",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 3,
+     "pointer": "3404",
+     "file": "3411-third-party-morse/page-03-3404.jpg",
+     "bytes": 309329,
+     "shelfmark": "MSS_WildeO_3_10_003",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 4,
+     "pointer": "3405",
+     "file": "3411-third-party-morse/page-04-3405.jpg",
+     "bytes": 264201,
+     "shelfmark": "MSS_WildeO_3_10_004",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 5,
+     "pointer": "3406",
+     "file": "3411-third-party-morse/page-05-3406.jpg",
+     "bytes": 246957,
+     "shelfmark": "MSS_WildeO_3_10_005",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 6,
+     "pointer": "3407",
+     "file": "3411-third-party-morse/page-06-3407.jpg",
+     "bytes": 260931,
+     "shelfmark": "MSS_WildeO_3_10_006",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 7,
+     "pointer": "3408",
+     "file": "3411-third-party-morse/page-07-3408.jpg",
+     "bytes": 298393,
+     "shelfmark": "MSS_WildeO_3_10_007",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 8,
+     "pointer": "3409",
+     "file": "3411-third-party-morse/page-08-3409.jpg",
+     "bytes": 272633,
+     "shelfmark": "MSS_WildeO_3_10_008",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    },
+    {
+     "page": 9,
+     "pointer": "3410",
+     "file": "3411-third-party-morse/page-09-3410.jpg",
+     "bytes": 216628,
+     "shelfmark": "MSS_WildeO_3_10_009",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/"
+    }
+   ],
+   "matches": []
+  }
+ ],
+ "rights": {
+  "statement": [
+   "http://rightsstatements.org/vocab/NoC-US/1.0/",
+   "http://rightsstatements.org/vocab/UND/1.0/"
+  ],
+  "note": "Per-page metadata in the HRC CONTENTdm records carries the RightsStatements.org marker. Page-level titles are the archival shelfmarks (e.g. MSS_WildeO_2_7_002 = Oscar Wilde Papers, Box 2, Folder 7, image 002)."
+ }
+}

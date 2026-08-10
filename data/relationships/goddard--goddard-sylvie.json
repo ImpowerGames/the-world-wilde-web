@@ -21,7 +21,7 @@
       "evidence_date": null,
       "supports": "The marriage, Sylvie's entry into the household, and the two daughters",
       "verification": "verified-exact",
-      "how_verified": "pdf-text",
+      "how_verified": "text-layer",
       "provenance": "PDF p. 107.",
       "verified_on": "2026-08-03",
       "voice": "modern"
@@ -35,7 +35,7 @@
       "evidence_date": null,
       "supports": "Cook reportedly records that Sylvie kept house for Ives, that she and James remained until their deaths, and that the daughters stayed until the early 1940s - one, Therese, still visiting in 1944.",
       "verification": "verified-elision",
-      "how_verified": "pdf-text",
+      "how_verified": "text-layer",
       "provenance": "PDF p. 111 ('100 Queer Domesticities')",
       "verified_on": "2026-08-03",
       "voice": "modern"

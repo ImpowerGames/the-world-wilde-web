@@ -28,12 +28,13 @@
       },
       "supports": "The younger participant's own words - the asking-back, the 'I cannot give you up', and the register of the whole attachment.",
       "verification": "verified-elision",
-      "how_verified": "web",
+      "how_verified": "as-published",
       "provenance": "Https://whitmanarchive.org/item/loc.03964. Transcribed from the archive's text; the writer's spelling kept.",
       "verified_on": "2026-08-04",
       "speaker": "Harry Stafford, letter to Walt Whitman",
       "addressee": "Walt Whitman",
-      "voice": "period"
+      "voice": "period",
+      "document": "letter"
     },
     {
       "quote": "Dear Hank— Yours of 9th rec'd—am a little surprised you take to L of G so quickly—I guess it is because the last five years had been preparing & fixing the ground, more & more & more—& now that the seed is dropt in it sprouts quickly … Hank, I am still feeling under the weather—My appetite is fair, (when I can get what I like)—& sleep middling, but I am as weak as a cat … (Hank, you do not appreciate your mother—there is not a nobler woman in Jersey)— Your Walt",
@@ -48,12 +49,13 @@
       },
       "supports": "The sustained private correspondence and its everyday register.",
       "verification": "verified-elision",
-      "how_verified": "web",
+      "how_verified": "as-published",
       "provenance": "Https://whitmanarchive.org/item/nyp.00423. The archive's transcription derives from Miller's Correspondence, p. 211; original in the Berg Collection, New York Public Library.",
       "verified_on": "2026-08-04",
       "speaker": "Walt Whitman, letter to Harry Stafford",
       "addressee": "Harry Stafford",
-      "voice": "period"
+      "voice": "period",
+      "document": "letter"
     },
     {
       "quote": "Stafford and Whitman slept together in the same top floor bedroom, and when they traveled together Whitman referred to him as \"my nephew\" and insisted that they be accommodated in the same bed. … Despite the frolicking, the relationship was a stormy one. They quarreled frequently, and several times Stafford returned a friendship ring given to him by Whitman. … The nature of their bond remains mysterious, and critics have interpreted it as everything from asexual and paternal to erotic and promiscuous.",
@@ -64,7 +66,7 @@
       "evidence_date": null,
       "supports": "The shared bed, the ring, the quarrels - and that the sexual question is contested among specialists rather than settled.",
       "verification": "verified-elision",
-      "how_verified": "web",
+      "how_verified": "as-published",
       "provenance": "Https://whitmanarchive.org/item/encyclopedia_entry55. Curly quotation marks around 'my nephew' are the source's.",
       "verified_on": "2026-08-04",
       "speaker": "Arnie Kantrowitz",

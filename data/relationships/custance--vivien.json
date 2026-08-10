@@ -25,7 +25,7 @@
       },
       "supports": "The affair claim, at exactly the strength the source gives it; and the Dagmar identification.",
       "verification": "verified-exact",
-      "how_verified": "web",
+      "how_verified": "as-published",
       "provenance": "Https://1890s.ca/custance_bio/",
       "verified_on": "2026-08-03",
       "voice": "modern"
@@ -41,7 +41,7 @@
       },
       "supports": "The sustained friendship after 1901, which is the well-evidenced part of this pair's record.",
       "verification": "verified-exact",
-      "how_verified": "web",
+      "how_verified": "as-published",
       "provenance": "Https://1890s.ca/custance_bio/",
       "verified_on": "2026-08-03",
       "voice": "modern"
@@ -59,7 +59,7 @@
       },
       "supports": "Identification of Dagmar as Olive Custance by a second scholar, independent of Parker - and a characterisation of the episode as consolation rather than an affair.",
       "verification": "verified-exact",
-      "how_verified": "pdf-image",
+      "how_verified": "page-image",
       "verified_on": "2026-08-04",
       "provenance": "PDF p. 23 (printed folio xiii)."
     },
@@ -75,9 +75,10 @@
       },
       "supports": "What the novel actually depicts, against which Parker's 'brief love affair' has to be read: an offered kiss refused, Dagmar described as a virgin, and her engagement announced.",
       "verification": "verified-elision",
-      "how_verified": "pdf-image",
+      "how_verified": "page-image",
       "verified_on": "2026-08-04",
-      "provenance": "PDF p. 94 (printed folio 52). Three passages from the same and facing pages, joined by ellipses. This is Foster's 1976 English, not Vivien's French."
+      "provenance": "PDF p. 94 (printed folio 52). Three passages from the same and facing pages, joined by ellipses. This is Foster's 1976 English, not Vivien's French.",
+      "document": "letter"
     },
     {
       "work": "vivien-woman-appeared-1904",
@@ -91,7 +92,7 @@
       },
       "supports": "The same passage in Vivien's own French, which is what the claim turns on. It confirms the substance - the offered kiss is refused, and Dagmar is 'la vierge' at this point - while showing that Foster's English overstates the possessiveness: Vivien writes 'La vierge aux boucles légères', the virgin with the light curls, where Foster gives 'My little virgin with the short curls', adding a possessive and a diminutive and changing the adjective. Foster likewise renders 'le Prince inconnu' as 'the Unknown Lover'. The narrative facts are Vivien's; some of the colouring is the translator's.",
       "verification": "verified-exact",
-      "how_verified": "digital-copy",
+      "how_verified": "as-published",
       "verified_on": "2026-08-04",
       "provenance": "Read from the BnF Partenariats EPUB of the Gallica 1904 digitisation, in the repo. EPUB has no pagination, so cited by chapter. Confirmed to be the first edition by the Vally/Lorély test - Vally 153 occurrences, Lorély none.",
       "lang": "fr",

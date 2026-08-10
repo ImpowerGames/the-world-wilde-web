@@ -1,6 +1,9 @@
 {
   "id": "cattell--whitman",
-  "people": ["cattell", "whitman"],
+  "people": [
+    "cattell",
+    "whitman"
+  ],
   "certainty": "self-reported",
   "certainty_status": "proposed",
   "start": {
@@ -25,12 +28,13 @@
       },
       "supports": "Whitman's own declaration of love to Cattell, and - in the same breath - the concealment it was conducted under.",
       "verification": "verified-elision",
-      "how_verified": "web",
+      "how_verified": "as-published",
       "provenance": "Https://whitmanarchive.org/item/loc.01251. Original draft in the Feinberg Collection, Library of Congress.",
       "verified_on": "2026-08-04",
       "speaker": "Walt Whitman, draft letter to Edward Cattell",
       "addressee": "Edward Cattell",
-      "voice": "period"
+      "voice": "period",
+      "document": "letter"
     },
     {
       "quote": "old man i got your kind and welcom letter last week and was glad to hear from you my loving old friend i love to hear from you and to know that you ar well and i would Com up to see you But i cant get of a day now for we ar so Bisse now husking corn i went with some Boys up the Pond to day and i seen your old Chir floting down the stream … i think of you old man think of the times down on the Crieek. … i love you Walt and all ways will so may god Bless you is my prayer from of your frend Edward P Cattell",
@@ -45,12 +49,13 @@
       },
       "supports": "Cattell's own voice - the only substantial thing of his that survives, and the other half of the self-reported class.",
       "verification": "verified-elision",
-      "how_verified": "web",
+      "how_verified": "as-published",
       "provenance": "Https://whitmanarchive.org/item/loc.01253. Original in the Feinberg Collection, Library of Congress. Non-standard spellings kept.",
       "verified_on": "2026-08-04",
       "speaker": "Edward P. Cattell, letter to Walt Whitman",
       "addressee": "Walt Whitman",
-      "voice": "period"
+      "voice": "period",
+      "document": "letter"
     }
   ],
   "null_findings": [

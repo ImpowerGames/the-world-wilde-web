@@ -1,6 +1,9 @@
 {
   "id": "gray--wilde",
-  "people": ["gray", "wilde"],
+  "people": [
+    "gray",
+    "wilde"
+  ],
   "certainty": "second-hand",
   "certainty_status": "proposed",
   "certainty_reasoning": "The romantic characterization - Wilde in love with Gray, Gray his 'officially beloved' - rests on two independent secondary sources: McKenna (Secret Life, 2008 edn, PDF pp. 194, 239) and McCormack (John Gray, 1991, pp. 50, 84, 88), with Raffalovich's first-hand account (Uranisme et Unisexualite, 1896, pp. 247-248) as near-contemporary colour; no primary attestation from either man has been read. The sexual element remains McKenna's assertion alone - McCormack explicitly leaves it open ('It is impossible to know whether Gray was Wilde's lover') - and the c. 1889 start rests on secondary tradition, so those two elements stay in the disputed block.",
@@ -22,8 +25,8 @@
   },
   "sources": [
     {
-      "quote": "Your writer describes the author of the brilliant fantastic lecture on 'The Modern Actor' as 'a protégé' of mine. Allow me to state that my acquaintance with Mr John Gray is, I regret to say, extremely recent, and that I sought it because he had already a perfected mode of expression both in prose and verse. … These qualities Mr John Gray possesses in a marked degree. He needs no other protection, nor, indeed, would he accept it.",
-      "context": "Wilde to the Editor of the Daily Telegraph, 19 February [1892], published 20 February headed puppets and actors; 'a protégé' italicised in original",
+      "quote": "Your writer describes the author of the brilliant fantastic lecture on 'The Modern Actor' as 'a *protégé*' of mine. Allow me to state that my acquaintance with Mr John Gray is, I regret to say, extremely recent, and that I sought it because he had already a perfected mode of expression both in prose and verse. … These qualities Mr John Gray possesses in a marked degree. He needs no other protection, nor, indeed, would he accept it.",
+      "context": "Wilde to the Editor of the Daily Telegraph, 19 February [1892], published 20 February headed puppets and actors; 'a protégé' italicized in original",
       "work": "letters-2000",
       "locator": "p. 520",
       "locator_type": "page",
@@ -34,15 +37,16 @@
       },
       "supports": "The public 'protege' characterization and Wilde's printed denial of it ('extremely recent'), Feb. 1892",
       "verification": "verified-elision",
-      "how_verified": "pdf-text",
+      "how_verified": "text-layer",
       "provenance": "PDF p. 540. Elision drops four sentences on artists needing protection; full text in long-form notes.",
       "verified_on": "2026-08-03",
       "voice": "period",
-      "addressee": "Editor of the Daily Telegraph"
+      "addressee": "Editor of the Daily Telegraph",
+      "document": "letter"
     },
     {
-      "quote": "Dear Sir, Silverpoints (poems) by John Gray. We agree to issue the above book in the autumn on your undertaking the cost of the designs – block for same – paper, printing and binding of an edition not exceeding 250 copies.",
-      "context": "Mathews and Lane (The Bodley Head) to Wilde, 17 June 1892, Vigo Street - the publishers' agreement printed in Complete Letters; Silverpoints italicised in original.",
+      "quote": "Dear Sir, *Silverpoints* (poems) by John Gray. We agree to issue the above book in the autumn on your undertaking the cost of the designs – block for same – paper, printing and binding of an edition not exceeding 250 copies.",
+      "context": "Mathews and Lane (The Bodley Head) to Wilde, 17 June 1892, Vigo Street - the publishers' agreement printed in Complete Letters; Silverpoints italicized in original.",
       "work": "letters-2000",
       "locator": "p. 527",
       "locator_type": "page",
@@ -53,12 +57,13 @@
       },
       "supports": "Wilde personally undertook the production costs of Gray's Silverpoints - the patronage in a primary document",
       "verification": "verified-exact",
-      "how_verified": "pdf-text",
+      "how_verified": "text-layer",
       "provenance": "PDF p. 547.",
       "verified_on": "2026-08-03",
       "speaker": "Elkin Mathews and John Lane (The Bodley Head)",
       "voice": "period",
-      "addressee": "Oscar Wilde"
+      "addressee": "Oscar Wilde",
+      "document": "letter"
     },
     {
       "quote": "His book of poems, Silverpoints (Mathews and Lane, 1893), was designed by Ricketts, and initially underwritten by Wilde … before they fell out. … While there is no evidence for the persistent suggestion that he was the original of Dorian Gray, after the publication of the story he referred to himself as Dorian and allowed others in the Wilde circle to do so.",
@@ -69,7 +74,7 @@
       "evidence_date": null,
       "supports": "The falling-out; the 'Dorian' self-identification with the editors' no-evidence caveat",
       "verification": "verified-elision",
-      "how_verified": "pdf-text",
+      "how_verified": "text-layer",
       "provenance": "PDF p. 540. Elisions drop a cross-reference ('see p. 527') and bridge two non-adjacent footnote sentences.",
       "verified_on": "2026-08-03",
       "voice": "modern"
@@ -90,11 +95,12 @@
       },
       "supports": "Wilde's retrospective valuation of the Gray friendship - 'my real life, my higher life'",
       "verification": "verified-exact",
-      "how_verified": "pdf-text",
+      "how_verified": "text-layer",
       "provenance": "PDF p. 737.",
       "verified_on": "2026-08-03",
       "voice": "period",
-      "addressee": "Lord Alfred Douglas"
+      "addressee": "Lord Alfred Douglas",
+      "document": "letter"
     },
     {
       "quote": "In fact, the John Gray that Oscar met and fell in love with was a construction, an exquisite fiction, a carefully crafted sonnet of a young man, hewn and marvellously fashioned from very rough clay.",
@@ -107,7 +113,7 @@
       },
       "supports": "The romantic characterization ('fell in love with') - verified in the repo copy at the text layer",
       "verification": "verified-exact",
-      "how_verified": "pdf-text",
+      "how_verified": "text-layer",
       "provenance": "PDF p. 194 (2008 edition; no printed folios).",
       "verified_on": "2026-08-04",
       "voice": "modern"
@@ -121,7 +127,7 @@
       "evidence_date": null,
       "supports": "Corroborates the romantic characterization ('officially beloved') from a second McKenna passage.",
       "verification": "verified-exact",
-      "how_verified": "pdf-text",
+      "how_verified": "text-layer",
       "provenance": "PDF p. 239 (2008 edition; no printed folios).",
       "verified_on": "2026-08-09",
       "voice": "modern"
@@ -135,7 +141,7 @@
       "evidence_date": null,
       "supports": "Gray's first homosexual attachment was Wilde - an independent biography's direct statement",
       "verification": "verified-exact",
-      "how_verified": "pdf-image",
+      "how_verified": "page-image",
       "provenance": "Printed p. 50 (PDF p. 67); read from the rendered page image.",
       "verified_on": "2026-08-09",
       "voice": "modern"
@@ -149,7 +155,7 @@
       "evidence_date": null,
       "supports": "The public valence of the association: named as Wilde's protege or as 'Dorian' read as lover-status",
       "verification": "verified-exact",
-      "how_verified": "pdf-image",
+      "how_verified": "page-image",
       "provenance": "Printed p. 84 (PDF p. 101); read from the rendered page image.",
       "verified_on": "2026-08-09",
       "voice": "modern"
@@ -163,7 +169,7 @@
       "evidence_date": null,
       "supports": "The romantic characterization - intense, idealized, mutually attached through 1892 - from a second, independent biography",
       "verification": "verified-exact",
-      "how_verified": "pdf-image",
+      "how_verified": "page-image",
       "provenance": "Printed p. 88 (PDF p. 105); read from the rendered page image.",
       "verified_on": "2026-08-09",
       "voice": "modern"
@@ -180,7 +186,7 @@
       },
       "supports": "Gray's own inscription - 'To my loved master' - the closest surviving first-person expression of the relationship",
       "verification": "verified-exact",
-      "how_verified": "pdf-image",
+      "how_verified": "page-image",
       "provenance": "Printed p. 88 (PDF p. 105); read from the rendered page image.",
       "verified_on": "2026-08-09",
       "voice": "modern"
@@ -196,7 +202,7 @@
       "lang": "fr",
       "supports": "A near-contemporary's account of Wilde's young men being openly called 'Oscar's new boy' - the circle's code",
       "verification": "verified-exact",
-      "how_verified": "pdf-image",
+      "how_verified": "page-image",
       "provenance": "Printed p. 247 (PDF p. 253); read from the rendered page image.",
       "verified_on": "2026-08-09",
       "voice": "period"
@@ -212,7 +218,7 @@
       "lang": "fr",
       "supports": "Near-contemporary confirmation that Wilde 'preached corruption' among his young men - McKenna's cited source, now read directly",
       "verification": "verified-exact",
-      "how_verified": "pdf-image",
+      "how_verified": "page-image",
       "provenance": "Printed p. 248 (PDF p. 254); read from the rendered page image.",
       "verified_on": "2026-08-09",
       "voice": "period"

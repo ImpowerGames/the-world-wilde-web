@@ -37,7 +37,7 @@
       },
       "supports": "The household pattern and Mavor's nights at Taylor's, from the landlady.",
       "verification": "verified-exact",
-      "how_verified": "archive-org",
+      "how_verified": "page-image",
       "provenance": "IA in.ernet.dli.2015.499238, printed p. 199.",
       "verified_on": "2026-08-03",
       "speaker": "Ellen Grant, landlady of 13 Little College Street",
@@ -51,7 +51,8 @@
           "who": "Grant",
           "text": "Men—young men from sixteen to thirty. … Others were Sidney Ma[v]or, Charles Mason, and Ernest Macklin. Mavor and Mason stayed there for nights with Taylor."
         }
-      ]
+      ],
+      "document": "testimony"
     },
     {
       "quote": "I have slept there with Taylor.",
@@ -65,7 +66,7 @@
       },
       "supports": "Mavor's own statement of the shared bed.",
       "verification": "verified-exact",
-      "how_verified": "archive-org",
+      "how_verified": "page-image",
       "provenance": "IA in.ernet.dli.2015.499238, leaf 251 (printed p. 211)",
       "verified_on": "2026-08-03",
       "speaker": "Sidney Mavor",
@@ -75,7 +76,8 @@
           "who": "Mavor",
           "text": "I have slept there with Taylor."
         }
-      ]
+      ],
+      "document": "testimony"
     }
   ]
 }

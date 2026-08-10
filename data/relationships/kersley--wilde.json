@@ -30,10 +30,11 @@
       },
       "supports": "That the friendship was acknowledged from Kersley's side too, in print.",
       "verification": "verified-exact",
-      "how_verified": "pdf-image",
+      "how_verified": "page-image",
       "provenance": "PDF p. 273.",
       "verified_on": "2026-08-05",
-      "voice": "period"
+      "voice": "period",
+      "document": "letter"
     },
     {
       "work": "letters-2000",
@@ -50,10 +51,11 @@
       },
       "supports": "How it started: a death in the family, and Wilde proposing himself for tea.",
       "verification": "verified-exact",
-      "how_verified": "pdf-image",
+      "how_verified": "page-image",
       "provenance": "PDF p. 273.",
       "verified_on": "2026-08-05",
-      "voice": "period"
+      "voice": "period",
+      "document": "letter"
     },
     {
       "work": "letters-2000",
@@ -70,10 +72,11 @@
       },
       "supports": "Wilde passing a young poet on to Whitman.",
       "verification": "verified-exact",
-      "how_verified": "pdf-image",
+      "how_verified": "page-image",
       "provenance": "PDF p. 305.",
       "verified_on": "2026-08-05",
-      "voice": "period"
+      "voice": "period",
+      "document": "letter"
     },
     {
       "work": "letters-2000",
@@ -90,10 +93,11 @@
       },
       "supports": "The book promised in 1885, three years later, and what Wilde said his stories were for.",
       "verification": "verified-exact",
-      "how_verified": "pdf-image",
+      "how_verified": "page-image",
       "provenance": "PDF p. 374.",
       "verified_on": "2026-08-05",
-      "voice": "period"
+      "voice": "period",
+      "document": "letter"
     },
     {
       "work": "letters-2000",
@@ -110,10 +114,11 @@
       },
       "supports": "Reproach for not calling, and Wilde offering to put a word in for him.",
       "verification": "verified-exact",
-      "how_verified": "pdf-image",
+      "how_verified": "page-image",
       "provenance": "PDF p. 432.",
       "verified_on": "2026-08-05",
-      "voice": "period"
+      "voice": "period",
+      "document": "letter"
     },
     {
       "work": "letters-2000",
@@ -130,17 +135,18 @@
       },
       "supports": "The warmest of the invitations, and the reproach repeated five months on.",
       "verification": "verified-exact",
-      "how_verified": "pdf-image",
+      "how_verified": "page-image",
       "provenance": "PDF p. 442.",
       "verified_on": "2026-08-05",
-      "voice": "period"
+      "voice": "period",
+      "document": "letter"
     },
     {
       "work": "letters-2000",
       "locator": "p. 443",
       "locator_type": "page",
-      "quote": "My dear Kersley, Kleon might do, till we get something better. I dine out tomorrow, but come on Tuesday morning and see me. Ever yours",
-      "context": "Wilde to G. H. Kersley, [postmark 1 August 1890], 16 Tite Street (MS Clark) - quoted whole; the whole letter is two sentences. 'Kleon' is italicised in the printed text and appears to be a proposed pen-name or title they had been discussing. The sign-off has reached 'Ever yours' and the signature is 'OSCAR' alone.",
+      "quote": "My dear Kersley, _Kleon_ might do, till we get something better. I dine out tomorrow, but come on Tuesday morning and see me. Ever yours",
+      "context": "Wilde to G. H. Kersley, [postmark 1 August 1890], 16 Tite Street (MS Clark) - quoted whole; the whole letter is two sentences. 'Kleon' is underlined in the original and appears to be a proposed pen-name or title they had been discussing. The sign-off has reached 'Ever yours' and the signature is 'OSCAR' alone.",
       "speaker": "Oscar Wilde",
       "addressee": "G. H. Kersley",
       "evidence_date": {
@@ -150,10 +156,11 @@
       },
       "supports": "Two sentences, and both of them are 'come and see me'.",
       "verification": "verified-exact",
-      "how_verified": "pdf-image",
+      "how_verified": "page-image",
       "provenance": "PDF p. 465.",
       "verified_on": "2026-08-05",
-      "voice": "period"
+      "voice": "period",
+      "document": "letter"
     },
     {
       "work": "letters-2000",
@@ -170,10 +177,11 @@
       },
       "supports": "How Wilde said sorry for losing touch, five months before the trials.",
       "verification": "verified-exact",
-      "how_verified": "pdf-image",
+      "how_verified": "page-image",
       "provenance": "PDF p. 675.",
       "verified_on": "2026-08-05",
-      "voice": "period"
+      "voice": "period",
+      "document": "letter"
     }
   ],
   "date_label": "London, 1885-1894"

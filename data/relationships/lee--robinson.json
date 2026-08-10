@@ -27,7 +27,7 @@
       },
       "supports": "The relationship, its character as Pulham states it, and both its start and end dates.",
       "verification": "verified-exact",
-      "how_verified": "web",
+      "how_verified": "as-published",
       "provenance": "Https://1890s.ca/lee_bio/",
       "verified_on": "2026-08-03",
       "voice": "modern"
@@ -42,7 +42,7 @@
         "y": 1881
       },
       "verification": "verified-exact",
-      "how_verified": "web",
+      "how_verified": "as-published",
       "provenance": "Https://1890s.ca/lee_bio/",
       "verified_on": "2026-08-03",
       "voice": "modern"
@@ -58,7 +58,7 @@
       },
       "supports": "The standard edition stating the relationship as romantic, dating its start exactly, giving its length, and recording Lee's depression after the marriage.",
       "verification": "verified-elision",
-      "how_verified": "pdf-text",
+      "how_verified": "text-layer",
       "provenance": "Editors' note, Vernon Lee's Letters, vol. III (2024), PDF pp. 119-120.",
       "verified_on": "2026-08-04",
       "speaker": "Sophie Geoffroy and Amanda Gagel, eds.",
@@ -77,12 +77,13 @@
       },
       "supports": "Robinson's own voice on the relationship and on its aftermath - the surviving affection, and the mutual retrieval of the love letters that documented it.",
       "verification": "verified-elision",
-      "how_verified": "pdf-text",
+      "how_verified": "text-layer",
       "provenance": "Robinson to Lee, Christmas Eve 1893, Vernon Lee's Letters, vol. III (2024), PDF pp. 490-491.",
       "verified_on": "2026-08-04",
       "speaker": "Mary Robinson (Mme Darmesteter), letter to Vernon Lee",
       "addressee": "Vernon Lee",
-      "voice": "period"
+      "voice": "period",
+      "document": "letter"
     },
     {
       "work": "beckman-2000-levy",
@@ -91,7 +92,7 @@
       "quote": "At the time that Levy became acquainted with her, Lee had been in a romantic relationship with the poet and novelist Agnes Mary Robinson (called Mary) since at least the autumn of 1880. When Vernon Lee was in London she stayed with the Robinsons, and when Mary was in Florence she stayed at the Pagets' villa, sharing a room with Lee.",
       "context": "Beckman, incidentally, while setting up Levy's own attachment to Lee.",
       "verification": "verified-exact",
-      "how_verified": "pdf-text",
+      "how_verified": "text-layer",
       "verified_on": "2026-08-03",
       "provenance": "PDF p. 138.",
       "evidence_date": {

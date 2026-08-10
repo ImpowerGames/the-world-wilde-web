@@ -32,10 +32,11 @@
       },
       "supports": "What Wilde told her about the story that would be used against him at trial.",
       "verification": "verified-exact",
-      "how_verified": "pdf-image",
+      "how_verified": "page-image",
       "provenance": "PDF p. 677.",
       "verified_on": "2026-08-06",
-      "voice": "period"
+      "voice": "period",
+      "document": "letter"
     },
     {
       "work": "letters-2000",
@@ -51,10 +52,11 @@
       },
       "supports": "The warmest thing Wilde wrote her, at the worst moment of his life.",
       "verification": "verified-exact",
-      "how_verified": "pdf-image",
+      "how_verified": "page-image",
       "provenance": "PDF p. 701.",
       "verified_on": "2026-08-05",
-      "voice": "period"
+      "voice": "period",
+      "document": "letter"
     },
     {
       "work": "letters-2000",
@@ -71,10 +73,11 @@
       },
       "supports": "That she was among the first to meet him out of prison, and that he trusted her with the aliases.",
       "verification": "verified-exact",
-      "how_verified": "pdf-image",
+      "how_verified": "page-image",
       "provenance": "PDF p. 895.",
       "verified_on": "2026-08-05",
-      "voice": "period"
+      "voice": "period",
+      "document": "letter"
     }
   ],
   "date_label": "London, Holloway and Dieppe, 1893-1897"

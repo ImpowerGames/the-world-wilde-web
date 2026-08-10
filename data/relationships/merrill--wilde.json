@@ -21,8 +21,8 @@
       "work": "letters-2000",
       "locator": "p. 500",
       "locator_type": "page",
-      "quote": "Dear Stuart, I will call for you tomorrow at 7 o'clock. We must have a delightful evening. Ask Retté to come, if you think he would like it. Ever yours",
-      "context": "Wilde to Stuart Merrill, [November-December 1891], 29 boulevard des Capucines (MS Hyde) - quoted whole. 'tomorrow' is italicised in the printed text. This is the Paris winter in which Wilde also met Gide and Louÿs; the same folio carries a long letter in French to Juliette Adam about Dorian Gray and Walter Pater.",
+      "quote": "Dear Stuart, I will call for you _tomorrow_ at 7 o'clock. We must have a delightful evening. Ask Retté to come, if you think he would like it. Ever yours",
+      "context": "Wilde to Stuart Merrill, [November-December 1891], 29 boulevard des Capucines (MS Hyde) - quoted whole. 'tomorrow' is underlined in the original. This is the Paris winter in which Wilde also met Gide and Louÿs; the same folio carries a long letter in French to Juliette Adam about Dorian Gray and Walter Pater.",
       "speaker": "Oscar Wilde",
       "addressee": "Stuart Merrill",
       "evidence_date": {
@@ -31,10 +31,11 @@
       },
       "supports": "The whole of the correspondence, and the Paris circle it sits in.",
       "verification": "verified-exact",
-      "how_verified": "pdf-image",
+      "how_verified": "page-image",
       "provenance": "PDF p. 520.",
       "verified_on": "2026-08-06",
-      "voice": "period"
+      "voice": "period",
+      "document": "letter"
     }
   ],
   "date_label": "Paris, 1891"

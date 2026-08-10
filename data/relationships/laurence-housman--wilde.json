@@ -34,10 +34,11 @@
       },
       "supports": "The opening of the friendship, and what counted as happiness to Wilde that summer.",
       "verification": "verified-elision",
-      "how_verified": "pdf-image",
+      "how_verified": "page-image",
       "provenance": "PDF p. 973.",
       "verified_on": "2026-08-05",
-      "voice": "period"
+      "voice": "period",
+      "document": "letter"
     },
     {
       "work": "letters-2000",
@@ -54,10 +55,11 @@
       },
       "supports": "Wilde telling a near-stranger, unprompted, that he thinks he has betrayed himself.",
       "verification": "verified-elision",
-      "how_verified": "pdf-image",
+      "how_verified": "page-image",
       "provenance": "PDF p. 978.",
       "verified_on": "2026-08-05",
-      "voice": "period"
+      "voice": "period",
+      "document": "letter"
     },
     {
       "work": "letters-2000",
@@ -73,10 +75,11 @@
       },
       "supports": "The Ballad received, and the nearest thing to a statement of belief in the correspondence.",
       "verification": "verified-exact",
-      "how_verified": "pdf-image",
+      "how_verified": "page-image",
       "provenance": "PDF p. 1073.",
       "verified_on": "2026-08-05",
-      "voice": "period"
+      "voice": "period",
+      "document": "letter"
     },
     {
       "work": "letters-2000",
@@ -93,10 +96,11 @@
       },
       "supports": "The correspondence at its warmest, and the journey to Napoule that produced the next letter.",
       "verification": "verified-exact",
-      "how_verified": "pdf-image",
+      "how_verified": "page-image",
       "provenance": "PDF p. 1157.",
       "verified_on": "2026-08-05",
-      "voice": "period"
+      "voice": "period",
+      "document": "letter"
     },
     {
       "work": "letters-2000",
@@ -113,10 +117,11 @@
       },
       "supports": "Wilde's candour about the Napoule fishermen, and the choice of Housman to receive it.",
       "verification": "verified-exact",
-      "how_verified": "pdf-image",
+      "how_verified": "page-image",
       "provenance": "PDF p. 1159.",
       "verified_on": "2026-08-05",
-      "voice": "period"
+      "voice": "period",
+      "document": "letter"
     }
   ],
   "date_label": "After Reading, 1897-1898"

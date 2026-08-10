@@ -25,7 +25,7 @@
       },
       "supports": "The marriage and its year — the whole of what the source says about it.",
       "verification": "verified-exact",
-      "how_verified": "pdf-image",
+      "how_verified": "page-image",
       "provenance": "PDF p. 369.",
       "verified_on": "2026-08-05",
       "voice": "modern"
@@ -43,10 +43,11 @@
       },
       "supports": "That Wilde knew her, and how he spoke of her.",
       "verification": "verified-exact",
-      "how_verified": "pdf-image",
+      "how_verified": "page-image",
       "provenance": "PDF p. 370.",
       "verified_on": "2026-08-05",
-      "voice": "period"
+      "voice": "period",
+      "document": "letter"
     }
   ]
 }

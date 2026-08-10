@@ -82,12 +82,13 @@
       },
       "supports": "Engagement 26 November 1883, in Constance's own voice; her dates and parentage from the same page-opening's editorial note.",
       "verification": "verified-exact",
-      "how_verified": "pdf-text",
+      "how_verified": "text-layer",
       "provenance": "PDF pp. 243-244 (printed pp. 221-222)",
       "verified_on": "2026-08-03",
       "voice": "period",
       "speaker": "Constance Lloyd",
-      "addressee": "Otho Holland Lloyd"
+      "addressee": "Otho Holland Lloyd",
+      "document": "letter"
     },
     {
       "quote": "I am going to be married to a beautiful young girl called Constance Lloyd, a grave, slight, violet-eyed little Artemis, with great coils of heavy brown hair which make her flower-like head droop like a flower, and wonderful ivory hands which draw music from the piano so sweet that the birds stop singing to listen to her. We are to be married in April.",
@@ -102,11 +103,12 @@
       },
       "supports": "Wilde's own description of Constance during the engagement; the emotional register of the courtship in his voice.",
       "verification": "verified-exact",
-      "how_verified": "pdf-text",
+      "how_verified": "text-layer",
       "provenance": "PDF p. 246 (printed p. 224)",
       "verified_on": "2026-08-03",
       "voice": "period",
-      "addressee": "Lillie Langtry"
+      "addressee": "Lillie Langtry",
+      "document": "letter"
     },
     {
       "quote": "My dear Milner, I am going to be married tomorrow – quite privately – but would be so glad to see you at the church and afterwards at 100 Lancaster Gate. Enclosed ticket.",
@@ -121,11 +123,12 @@
       },
       "supports": "Marriage 29 May 1884, St James's Church, Sussex Gardens.",
       "verification": "verified-exact",
-      "how_verified": "pdf-text",
+      "how_verified": "text-layer",
       "provenance": "PDF p. 249 (printed p. 227)",
       "verified_on": "2026-08-03",
       "voice": "period",
-      "addressee": "Alfred Milner"
+      "addressee": "Alfred Milner",
+      "document": "letter"
     },
     {
       "quote": "Dear and Beloved, Here am I, and you at the Antipodes. O execrable facts, that keep our lips from kissing, though our souls are one. … I feel your fingers in my hair, and your cheek brushing mine. The air is full of the music of your voice, my soul and body seem no longer mine, but mingled in some exquisite ecstasy with yours. I feel incomplete without you.",
@@ -140,11 +143,12 @@
       },
       "supports": "Passionate marital intimacy in 1884; the destruction of the correspondence (why the record is thin is itself documented).",
       "verification": "verified-elision",
-      "how_verified": "pdf-text",
+      "how_verified": "text-layer",
       "provenance": "PDF pp. 263-264 (printed pp. 241-242)",
       "verified_on": "2026-08-03",
       "voice": "period",
-      "addressee": "Constance Wilde"
+      "addressee": "Constance Wilde",
+      "document": "letter"
     },
     {
       "quote": "Dear Constance, Allow no one to enter my bedroom or sittingroom – except servants – today. See no one but your friends. Ever yours OSCAR",
@@ -160,11 +164,12 @@
       },
       "supports": "Contact at the catastrophe; the last surviving words from Wilde to his wife.",
       "verification": "verified-exact",
-      "how_verified": "pdf-text",
+      "how_verified": "text-layer",
       "provenance": "PDF p. 689 (printed p. 637)",
       "verified_on": "2026-08-03",
       "voice": "period",
-      "addressee": "Constance Wilde"
+      "addressee": "Constance Wilde",
+      "document": "letter"
     },
     {
       "quote": "I feel that I have brought such unhappiness on her and such ruin on my children that I have no right to go against her wishes in anything. She was gentle and good to me here, when she came to see me. I have full trust in her.",
@@ -179,11 +184,12 @@
       },
       "supports": "Her prison visit of 19 February 1896 (their last meeting) and Wilde's deference to her in the settlement.",
       "verification": "verified-elision",
-      "how_verified": "pdf-text",
+      "how_verified": "text-layer",
       "provenance": "PDF p. 703 (printed p. 652)",
       "verified_on": "2026-08-03",
       "voice": "period",
-      "addressee": "Robert Ross"
+      "addressee": "Robert Ross",
+      "document": "letter"
     },
     {
       "quote": "Constance is dead. Please come tomorrow and stay at my hotel. Am in great grief. OSCAR",
@@ -198,11 +204,12 @@
       },
       "supports": "Her death, 7 April 1898, Genoa; Wilde's reaction.",
       "verification": "verified-exact",
-      "how_verified": "pdf-text",
+      "how_verified": "text-layer",
       "provenance": "PDF p. 1100 (printed p. 1054)",
       "verified_on": "2026-08-03",
       "voice": "period",
-      "addressee": "Robert Ross"
+      "addressee": "Robert Ross",
+      "document": "letter"
     },
     {
       "quote": "My children are taken from me by an order of the court. I am legally no longer their father. I have no right to speak to them. If I try to communicate with them I can be put into prison for contempt of court. My wife also is of course wounded with me for what she considers a breach of faith on my part. On Monday I sign here a deed of separation of the most painfully stringent kind and of the most humiliating conditions. If I try to communicate with my wife against her will, or without her leave, I lose my wretched £150 a year at once. My life is to be ruled after a pattern of respectability.",
@@ -217,11 +224,12 @@
       },
       "supports": "Formal separation-in-practice after 1895: custody, allowance conditions, name change, denied access. Wilde's own words: 'Constance has not asked me to come and see the children. I don't suppose now I shall ever see them' (to Blacker, 6 Sept 1897, p. 935).",
       "verification": "verified-exact",
-      "how_verified": "pdf-text",
+      "how_verified": "text-layer",
       "provenance": "PDF p. 868.",
       "verified_on": "2026-08-03",
       "voice": "period",
-      "addressee": "Robert Ross"
+      "addressee": "Robert Ross",
+      "document": "letter"
     }
   ]
 }

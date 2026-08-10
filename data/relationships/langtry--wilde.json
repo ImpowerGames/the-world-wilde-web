@@ -33,12 +33,13 @@
       },
       "supports": "Langtry's own words for what Wilde was to her - 'my kind tutor' - and the standing invitation to call: the only first-hand statement from her side in the record",
       "verification": "verified-exact",
-      "how_verified": "pdf-text",
+      "how_verified": "text-layer",
       "provenance": "PDF p. 116 (printed p. 91)",
       "verified_on": "2026-08-03",
       "voice": "period",
       "speaker": "Lillie Langtry",
-      "addressee": "Oscar Wilde"
+      "addressee": "Oscar Wilde",
+      "document": "letter"
     },
     {
       "quote": "Wilde's poem to her, 'The New Helen', appeared in Time for July 1879 and was reprinted, with revisions, in Poems (1881). In Mrs Langtry's copy of this book Wilde wrote: 'To Helen, formerly of Troy, now of London.'",
@@ -52,7 +53,7 @@
       },
       "supports": "The public devotion: the poem and the inscription.",
       "verification": "verified-exact",
-      "how_verified": "pdf-text",
+      "how_verified": "text-layer",
       "provenance": "PDF p. 116 (printed p. 91)",
       "verified_on": "2026-08-03",
       "voice": "modern"
@@ -68,7 +69,7 @@
       },
       "supports": "Wilde's own late-life framing of the admiration; reaches us via o'Sullivan as printed by the editors.",
       "verification": "verified-exact",
-      "how_verified": "pdf-text",
+      "how_verified": "text-layer",
       "provenance": "PDF p. 116 (printed p. 91)",
       "verified_on": "2026-08-03",
       "voice": "modern"
@@ -86,11 +87,12 @@
       },
       "supports": "The durable intimate-friend register ('My dear Lil', 'Venus Victrix of our age'); she is among the first told of the engagement.",
       "verification": "verified-elision",
-      "how_verified": "pdf-text",
+      "how_verified": "text-layer",
       "provenance": "PDF p. 246 (printed p. 224). Elision drops the American-tour sentences and the description of Constance (quoted on the constance--wilde record)",
       "verified_on": "2026-08-03",
       "voice": "period",
-      "addressee": "Lillie Langtry"
+      "addressee": "Lillie Langtry",
+      "document": "letter"
     }
   ]
 }

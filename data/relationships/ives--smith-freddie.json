@@ -29,7 +29,8 @@
       "supports": "That Smith was attached to Ives before Ross, and left Ives for him. Brian Lewis quoted a diary passage supporting this.",
       "verification": "unverified",
       "how_verified": "unverified",
-      "provenance": "Unpublished video call; a recording exists but has not yet been transcribed. Entered now so the connection is on the map, marked pending until the diary passage can be quoted and cited by volume and date."
+      "provenance": "Unpublished video call; a recording exists but has not yet been transcribed. Entered now so the connection is on the map, marked pending until the diary passage can be quoted and cited by volume and date.",
+      "document": "interview"
     },
     {
       "quote": "Also in the house were Pug and Elephant and other intimate male friends of Ives who became housemates for often extended periods before moving on - often to marry, or in the case of Freddie Smith to move in with Robbie Ross who was a good friend of both Ives and Wilde.",
@@ -40,7 +41,7 @@
       "evidence_date": null,
       "supports": "Freddie Smith's household membership and his departure to live with Robert Ross - the Ives-circle/Wilde-circle bridge.",
       "verification": "verified-exact",
-      "how_verified": "pdf-text",
+      "how_verified": "text-layer",
       "provenance": "PDF p. 111.",
       "verified_on": "2026-08-03",
       "voice": "modern"

@@ -33,10 +33,11 @@
       },
       "supports": "The whole of the record for Branca-d'Oro, and Wilde saying he loved him.",
       "verification": "verified-exact",
-      "how_verified": "pdf-image",
+      "how_verified": "page-image",
       "provenance": "PDF p. 1227.",
       "verified_on": "2026-08-06",
-      "voice": "period"
+      "voice": "period",
+      "document": "letter"
     }
   ]
 }

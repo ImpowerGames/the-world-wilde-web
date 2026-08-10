@@ -31,10 +31,11 @@
       },
       "supports": "The whole of the correspondence, and that the two men were in contact in 1890.",
       "verification": "verified-exact",
-      "how_verified": "pdf-image",
+      "how_verified": "page-image",
       "provenance": "PDF p. 477.",
       "verified_on": "2026-08-06",
-      "voice": "period"
+      "voice": "period",
+      "document": "letter"
     }
   ],
   "date_label": "London, 1890"

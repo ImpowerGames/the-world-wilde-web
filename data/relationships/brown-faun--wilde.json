@@ -23,8 +23,8 @@
       "work": "letters-2000",
       "locator": "p. 1196",
       "locator_type": "page",
-      "quote": "Is there any chance of your being in Paris? My dear Neapolitans have returned to Naples and I miss that brown faun with his deep woodland eyes and his sensuous grace of limb. A slim brown Egyptian, rather like a handsome bamboo walking-stick, occasionally serves me drinks at the Cafe d'Egypte, but he does not console me for the loss of the wanton sylvan boy of Italy.",
-      "context": "Wilde to Leonard Smithers, [Postmark 2 September 1900], Paris - three months before his death. The same sentence introduces the Cafe d'Egypte waiter, who has his own entry; the two are different men, and the sentence turns on the contrast between them.",
+      "quote": "Is there any chance of your being in Paris? My dear Neapolitans have returned to Naples and I miss that brown faun with his deep woodland eyes and his sensuous grace of limb. A slim brown Egyptian, rather like a handsome bamboo walking-stick, occasionally serves me drinks at the Café d'Égypte, but he does not console me for the loss of the wanton sylvan boy of Italy.",
+      "context": "Wilde to Leonard Smithers, [Postmark 2 September 1900], Paris - three months before his death. The same sentence introduces the Café d'Égypte waiter, who has his own entry; the two are different men, and the sentence turns on the contrast between them.",
       "evidence_date": {
         "y": 1900,
         "m": 9,
@@ -32,11 +32,12 @@
       },
       "supports": "The association and its ending, in Wilde's own words, and the terms he describes him in.",
       "verification": "verified-exact",
-      "how_verified": "pdf-text",
+      "how_verified": "text-layer",
       "voice": "period",
       "verified_on": "2026-08-04",
-      "provenance": "PDF p. 1242. 'Cafe d'Egypte' carries an acute accent in the printed text; accents normalised here. The letter is incomplete and descends from a printed memoir and a saleroom catalogue rather than a manuscript - see the editors' footnote 1 on the same page.",
-      "addressee": "Leonard Smithers"
+      "provenance": "PDF p. 1242. 'Café d'Égypte' carries its accents in the printed text. The letter is incomplete and descends from a printed memoir and a saleroom catalogue rather than a manuscript - see the editors' footnote 1 on the same page.",
+      "addressee": "Leonard Smithers",
+      "document": "letter"
     }
   ]
 }

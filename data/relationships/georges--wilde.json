@@ -34,14 +34,14 @@
       },
       "supports": "That Wilde knew him in Paris before Nice, and how he described him to a correspondent other than Turner.",
       "verification": "verified-exact",
-      "how_verified": "pdf-image",
+      "how_verified": "page-image",
       "provenance": "PDF p. 1154.",
       "verified_on": "2026-08-05",
       "voice": "period"
     },
     {
-      "quote": "My friend, my new friend, Harold Mellor comes here today to stay at the hotel, and tomorrow we go to Nice, for the day. A great friend of mine, a Paris boy called le petit Georges, is now at Nice, and I have promised to run over and see him. He is like a very handsome Roman boy, dark, and bronze-like, with splendidly chiselled nose and mouth, and the tents of midnight are folded in his eyes; moons hide in their curtains. He is visiting Nice on speculative business.",
-      "context": "Wilde to Reginald Turner, [Postmark 3 January 1899], Hôtel des Bains, Napoule - the second paragraph of the letter, following the weather. 'le petit Georges' is italicised on the page. The paragraph continues past the last sentence quoted here onto printed 1118.",
+      "quote": "My friend, my new friend, Harold Mellor comes here today to stay at the hotel, and tomorrow we go to Nice, for the day. A great friend of mine, a Paris boy called *le petit Georges*, is now at Nice, and I have promised to run over and see him. He is like a very handsome Roman boy, dark, and bronze-like, with splendidly chiselled nose and mouth, and the tents of midnight are folded in his eyes; moons hide in their curtains. He is visiting Nice on speculative business.",
+      "context": "Wilde to Reginald Turner, [Postmark 3 January 1899], Hôtel des Bains, Napoule - the second paragraph of the letter, following the weather. 'le petit Georges' is italicized on the page. The paragraph continues past the last sentence quoted here onto printed 1118.",
       "work": "letters-2000",
       "locator": "p. 1117",
       "locator_type": "page",
@@ -52,14 +52,15 @@
       },
       "supports": "The whole of the verified record: an existing friendship, a promised meeting at Nice, Wilde's description of him, and the statement that he was at Nice on speculative business; no outcome recorded",
       "verification": "verified-exact",
-      "how_verified": "pdf-text",
+      "how_verified": "text-layer",
       "provenance": "PDF p. 1163.",
       "verified_on": "2026-08-03",
       "voice": "period",
-      "addressee": "Reginald Turner"
+      "addressee": "Reginald Turner",
+      "document": "letter"
     },
     {
-      "quote": "A great friend of mine, a Paris boy called le petit Georges, is now at Nice, and I have promised to run over and see him. He is like a very handsome Roman boy, dark, and bronze-like, with splendidly chiselled nose and mouth, and the tents of midnight are folded in his eyes; moons hide in their curtains. He is visiting Nice on speculative business. It is beautiful, and encouraging, to find people who can combine romance with business – blend them indeed, and make them one.",
+      "quote": "A great friend of mine, a Paris boy called *le petit Georges*, is now at Nice, and I have promised to run over and see him. He is like a very handsome Roman boy, dark, and bronze-like, with splendidly chiselled nose and mouth, and the tents of midnight are folded in his eyes; moons hide in their curtains. He is visiting Nice on speculative business. It is beautiful, and encouraging, to find people who can combine romance with business – blend them indeed, and make them one.",
       "context": "Wilde to Reginald Turner, postmark 3 January 1899, Hotel des Bains, Napoule. The sentence begun on p. 1117 completes on p. 1118.",
       "work": "letters-2000",
       "locator": "pp. 1117-1118",
@@ -71,11 +72,12 @@
       },
       "supports": "How Wilde glosses Georges's 'speculative business' at Nice - the sentence completes on the following page and bears directly on how the connection should be read",
       "verification": "verified-exact",
-      "how_verified": "pdf-text",
-      "provenance": "PDF pp. 1163-1164; 'le petit Georges' is italic in the printed text.",
+      "how_verified": "text-layer",
+      "provenance": "PDF pp. 1163-1164; 'le petit Georges' is italicized in the printed text.",
       "verified_on": "2026-08-03",
       "voice": "period",
-      "addressee": "Reginald Turner"
+      "addressee": "Reginald Turner",
+      "document": "letter"
     }
   ]
 }

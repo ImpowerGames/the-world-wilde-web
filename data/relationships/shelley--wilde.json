@@ -35,7 +35,7 @@
       },
       "supports": "The first-person account of the Albemarle nights: kisses, embraces, shared bed, resistance — the class-deciding quote",
       "verification": "verified-exact",
-      "how_verified": "archive-org",
+      "how_verified": "page-image",
       "provenance": "IA in.ernet.dli.2015.499238, leaf 253 (printed p. 213). The preceding page (leaf 252, printed p. 212) gives Shelley's employment from 1891 and dates the firm's publishing for Wilde to 1892.",
       "verified_on": "2026-08-03",
       "speaker": "Edward Shelley, examination-in-chief",
@@ -45,7 +45,8 @@
           "who": "Shelley",
           "text": "Mr. Wilde said, \"Will you come into my bedroom?\" I did not know what he meant. As I went into the room Mr. Wilde kissed me. He also put his arms round me. I had been taking a lot of wine. I felt insulted, degraded, and objected vigorously. Mr. Wilde said he was sorry and that he had drunk too much wine. I stayed the night and shared his bed. Mr. Wilde saw me next day and again kissed me and there was a repetition of the previous night's performance."
         }
-      ]
+      ],
+      "document": "testimony"
     },
     {
       "quote": "In March, 1893, I went to see Mr. Wilde at the Savoy Hotel, where we quarrelled. I told him not to be a beast, and he expressed his sorrow. \"I am so fond of you, Edward,\" he said. After that visit I wrote to Mr. Wilde saying that I would not see him again. I think now that attempts at improprieties took place on two occasions. On the first occasion I was not quite sober. I was excited, but not drunk. I resented the prisoner's acts at the time.",
@@ -59,7 +60,7 @@
       },
       "supports": "Shelley's final-trial framing: 'attempts at improprieties' on two occasions, resented at the time; the March 1893 Savoy quarrel and break-off",
       "verification": "verified-exact",
-      "how_verified": "archive-org",
+      "how_verified": "page-image",
       "provenance": "IA in.ernet.dli.2015.499238, leaf 340 (printed p. 296)",
       "verified_on": "2026-08-03",
       "speaker": "Edward Shelley",
@@ -70,7 +71,8 @@
           "who": "Shelley",
           "text": "In March, 1893, I went to see Mr. Wilde at the Savoy Hotel, where we quarrelled. I told him not to be a beast, and he expressed his sorrow. \"I am so fond of you, Edward,\" he said. After that visit I wrote to Mr. Wilde saying that I would not see him again. I think now that attempts at improprieties took place on two occasions. On the first occasion I was not quite sober. I was excited, but not drunk. I resented the prisoner's acts at the time."
         }
-      ]
+      ],
+      "document": "testimony"
     },
     {
       "quote": "Mr. Justice Wills—With regard to Shelley I am very clearly of the opinion that he must be treated, on his own evidence, on the footing of an accomplice, and that his evidence should be corroborated. It seems to me there is nothing of the kind here. … I adhere to the view, which I had already formed, that there is no corroboration of the nature required by law to warrant conviction, and therefore I feel justified in withdrawing this part of the case from the consideration of the jury.",
@@ -84,7 +86,7 @@
       },
       "supports": "The count's withdrawal for want of corroboration — the legal outcome the 'alleged' class rests on",
       "verification": "verified-elision",
-      "how_verified": "archive-org",
+      "how_verified": "page-image",
       "provenance": "IA in.ernet.dli.2015.499238, leaf 352 (printed pp. 306-307)",
       "verified_on": "2026-08-03",
       "speaker": "Mr Justice Wills, ruling from the bench",
@@ -94,7 +96,8 @@
           "who": "Mr. Justice Wills",
           "text": "With regard to Shelley I am very clearly of the opinion that he must be treated, on his own evidence, on the footing of an accomplice, and that his evidence should be corroborated. It seems to me there is nothing of the kind here. … I adhere to the view, which I had already formed, that there is no corroboration of the nature required by law to warrant conviction, and therefore I feel justified in withdrawing this part of the case from the consideration of the jury."
         }
-      ]
+      ],
+      "document": "testimony"
     },
     {
       "quote": "… the said Oscar Fingal O'Flahertie Wills Wilde between the month of February in the year of our Lord One thousand eight hundred and ninety-two and the month of May in the same year at the Albemarle Hotel in the County of London did solicit and incite one Edward Shelley to commit sodomy and other acts of gross indecency with him the said Oscar Fingal O'Flahertie Wills Wilde and that the said Oscar Fingal O'Flahertie Wills Wilde did then indecently assault and commit acts of gross indecency and immorality with the said Edward Shelley.",
@@ -108,7 +111,7 @@
       },
       "supports": "The formal allegation and its date-window (Feb-May 1892, Albemarle Hotel)",
       "verification": "verified-exact",
-      "how_verified": "archive-org",
+      "how_verified": "page-image",
       "provenance": "IA in.ernet.dli.2015.499238, leaf 387 (printed p. 341)",
       "verified_on": "2026-08-03",
       "speaker": "The Marquess of Queensberry, plea of justification (filed 30 March 1895)",
@@ -118,7 +121,8 @@
           "who": "Queensberry",
           "text": "… the said Oscar Fingal O'Flahertie Wills Wilde between the month of February in the year of our Lord One thousand eight hundred and ninety-two and the month of May in the same year at the Albemarle Hotel in the County of London did solicit and incite one Edward Shelley to commit sodomy and other acts of gross indecency with him the said Oscar Fingal O'Flahertie Wills Wilde and that the said Oscar Fingal O'Flahertie Wills Wilde did then indecently assault and commit acts of gross indecency and immorality with the said Edward Shelley."
         }
-      ]
+      ],
+      "document": "testimony"
     }
   ]
 }

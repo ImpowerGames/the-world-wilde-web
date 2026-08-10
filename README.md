@@ -48,6 +48,49 @@ The lightest class is deliberately light. **Attraction expressed** covers everyt
 
 **Verification chips.** ✓ means the passage has been checked against the source itself — nearly always by opening the page and reading it there. ⧖ means the source has not been read yet: **every ⧖ on this map is a pointer**, a note of where to look that carries no quoted text.
 
+## Manuscripts
+
+Where the holding archive publishes page images, a quotation carries a **Read the manuscript**
+button, and the letter opens in the writer's own hand at the resolution the archive released —
+zoom, page through the sheets, and walk on into the rest of the archival folder behind them.
+Beneath the page sit its shelfmark, the repository, a link to the archive's own record, and the
+rights statement the archive attached to that image.
+
+**The images are linked, not copied.** They come from the archive's IIIF service at request time,
+so every scan is served by the institution that made it, under that institution's own rights
+determination rather than our reading of the law. `manuscripts/<archive>/MANIFEST.json` holds the
+index that makes this work — page numbers, shelfmarks, pointers, rights — and contains no images.
+See [`manuscripts/README.md`](manuscripts/README.md) to add another archive.
+
+Where the original survives somewhere with no public images, the card says so instead: **MS
+William Andrews Clark Memorial Library, UCLA**. And where the volume prints no manuscript
+location at all, neither is shown — a letter surviving only in a memoir or a dealer's catalogue
+has no original to point at, and saying otherwise would invent one.
+
+**This is what emphasis rests on.** The _Complete Letters_ italicise Wilde's underlinings, but
+they also italicise titles and every foreign word, and they discard the difference between one
+underline and three — the editors say so in their own note on the text. So the printed page
+cannot tell stress from typography, and only the document settles it. Quotations checked against
+the manuscript carry `verified_against: original`, and their document chip is ticked —
+**Letter ✓** against a bare **Letter** — so which quotations rest on Wilde's own hand and
+which rest on his editors is visible without opening anything.
+
+**The mark on the page is the mark in the quote.** Underlined in the letter, underlined here —
+including the count. Wilde underlined _me_ **twice** in the Berneval letter to Frank Harris —
+_"For me to use such a word"_ — and _groom_ twice again in its postscript. The printed edition
+shows both as ordinary italic, exactly as its editors warn. Here they are drawn with two rules,
+because that is how he drew them.
+
+His punctuation stays his, too. Wilde put _'Ballad of Reading Gaol'_ in single quotation marks;
+the printed edition removes them and sets the title in italic instead. The quotation marks are
+restored here.
+
+**Italics are the one deliberate departure.** A hand cannot italicise, so a writer underlines a
+title or a foreign word as an instruction to the compositor rather than for stress — and this
+map italicises books, plays, periodicals, ships and foreign words as an editorial consistency on
+top of whatever the hand did. Where he underlined the title too, it is set _italic **and**
+underlined_. Which means the type itself tells you whether anyone has opened the letter.
+
 ## Portraits
 
 Thirty-one of the seventy-nine have one, taken from **the photograph at the head of that person's Wikipedia article where available and from other public domain sources when not**.
@@ -67,6 +110,7 @@ data/people/*.json         one file per person
 data/relationships/*.json  one file per connection
 data/works.json            the bibliography, with pagination warnings per source
 data/web.json              GENERATED bundle — do not hand-edit
+manuscripts/               per-archive MANIFEST.json — page index only, no images
 portraits/                 images + credits.json
 tools/validate.py          validator + bundler (non-zero exit on failure, so it can gate a PR)
 tools/serve.py             local dev server

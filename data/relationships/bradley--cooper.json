@@ -23,7 +23,7 @@
       "evidence_date": null,
       "supports": "Participant testimony (their diary) that the two understood their union as a marriage, and understood the single authorial name as what made it one.",
       "verification": "verified-exact",
-      "how_verified": "web",
+      "how_verified": "as-published",
       "provenance": "Https://1890s.ca/field_bio/",
       "verified_on": "2026-08-03",
       "voice": "modern"
@@ -37,7 +37,7 @@
       "evidence_date": null,
       "supports": "The scholarly characterisation of the relationship, and the fact that 'Michael Field' is one name for two people.",
       "verification": "verified-exact",
-      "how_verified": "web",
+      "how_verified": "as-published",
       "provenance": "Https://1890s.ca/field_bio/",
       "verified_on": "2026-08-03",
       "voice": "modern"
@@ -53,7 +53,7 @@
       },
       "supports": "Both women's dates; the aunt-niece relation; the single joint pen-name - from Wilde's own editors, i.e. independent of the Michael Field scholarship.",
       "verification": "verified-exact",
-      "how_verified": "pdf-text",
+      "how_verified": "text-layer",
       "provenance": "PDF p. 471 (printed folio 449). Transcribed from the image, en-dashes as printed.",
       "verified_on": "2026-08-03",
       "voice": "modern"
@@ -70,11 +70,12 @@
         "circa": true
       },
       "verification": "verified-exact",
-      "how_verified": "pdf-text",
+      "how_verified": "text-layer",
       "provenance": "PDF p. 624 (printed folio 572)",
       "verified_on": "2026-08-03",
       "voice": "period",
-      "addressee": "Michael Field"
+      "addressee": "Michael Field",
+      "document": "letter"
     },
     {
       "quote": "Bradley and Cooper also left a vast joint diary, which they entitled Works and Days. Parts of it were published in the 1930s by their executor Thomas Sturge Moore.",
@@ -85,7 +86,7 @@
       "evidence_date": null,
       "supports": "Locates the first-hand source: a joint diary kept by both women, of which only part is in print.",
       "verification": "verified-exact",
-      "how_verified": "web",
+      "how_verified": "as-published",
       "provenance": "Https://1890s.ca/field_bio/",
       "verified_on": "2026-08-03",
       "voice": "modern"
@@ -102,21 +103,22 @@
       },
       "supports": "The 'closer married' passage in the participants' own words.",
       "verification": "verified-exact",
-      "how_verified": "pdf-text",
+      "how_verified": "text-layer",
       "provenance": "PDF p. 306 (printed folio 304)",
       "verified_on": "2026-08-03",
       "speaker": "Katharine Bradley",
       "voice": "period",
-      "addressee": "Edith Cooper"
+      "addressee": "Edith Cooper",
+      "document": "letter"
     },
     {
       "work": "field-2009-thain-parejo",
       "locator": "p. 23 n. 3",
       "locator_type": "page",
-      "quote": "Of Robert and Elizabeth Barrett Browning's marriage they observed: “those two poets, man and wife, wrote alone; each wrote, but did not bless or quicken one another at their work; we are closer married” (Michael Field, Works and Days. From the Journal of Michael Field, ed. T. & D.C. Sturge Moore [London: John Murray, 1933], 16).",
-      "context": "The editors' footnote to their statement that Bradley and Cooper 'often spoke' of their relationship 'as a “marriage.”' 'we are closer married' is italicised in the printed footnote.",
+      "quote": "Of Robert and Elizabeth Barrett Browning's marriage they observed: “those two poets, man and wife, wrote alone; each wrote, but did not bless or quicken one another at their work; _we are closer married_” (Michael Field, Works and Days. From the Journal of Michael Field, ed. T. & D.C. Sturge Moore [London: John Murray, 1933], 16).",
+      "context": "The editors' footnote to their statement that Bradley and Cooper 'often spoke' of their relationship 'as a “marriage.”' 'we are closer married' is underlined in the original.",
       "verification": "verified-exact",
-      "how_verified": "pdf-text",
+      "how_verified": "text-layer",
       "verified_on": "2026-08-03",
       "provenance": "PDF p. 25 (printed folio 23); corroborates Works and Days p. 16.",
       "supports": "Second, independent scholarly attestation of the 'closer married' passage and of its page in Works and Days.",

@@ -27,7 +27,7 @@
       },
       "supports": "The companionship and its span, and its position in Lee's life as successor to the Robinson attachment.",
       "verification": "verified-exact",
-      "how_verified": "web",
+      "how_verified": "as-published",
       "provenance": "Https://1890s.ca/lee_bio/",
       "verified_on": "2026-08-03",
       "voice": "modern"
@@ -43,7 +43,7 @@
       },
       "supports": "Shared household; Anstruther-Thomson's death in 1921; Lee's own written tribute.",
       "verification": "verified-exact",
-      "how_verified": "web",
+      "how_verified": "as-published",
       "provenance": "Https://1890s.ca/lee_bio/",
       "verified_on": "2026-08-03",
       "voice": "modern"
@@ -59,7 +59,7 @@
       },
       "supports": "Lee's own retrospective account of the relationship.",
       "verification": "verified-elision",
-      "how_verified": "archive-org",
+      "how_verified": "page-image",
       "provenance": "IA in.ernet.dli.2015.37546, PDF leaf 17. The ellipsis spans one intervening paragraph on the same page.",
       "verified_on": "2026-08-03",
       "speaker": "Vernon Lee, introduction to Art and Man",

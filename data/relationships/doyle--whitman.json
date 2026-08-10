@@ -26,12 +26,13 @@
       },
       "supports": "The meeting, in the other participant's own words - and the class, since it puts Doyle's voice beside Whitman's rather than leaving the edge resting on Whitman alone.",
       "verification": "verified-exact",
-      "how_verified": "archive-org",
+      "how_verified": "page-image",
       "provenance": "Archive.org scan calamusseriesofl00whitrich, scan n36 (printed folio 23, running head 'INTERVIEW WITH PETER DOYLE')",
       "verified_on": "2026-08-04",
       "speaker": "Peter Doyle, interviewed by R. M. Bucke",
       "addressee": "Richard Maurice Bucke",
-      "voice": "period"
+      "voice": "period",
+      "document": "letter"
     },
     {
       "quote": "New York, Friday, 25 Sept., 1868. Dear Boy. I received your second letter yesterday—it is a real comfort to me to get such letters from you, dear friend. Every word does me good. … I put down off hand and write all about myself and my doings, etc., because I suppose that will be really what my dear comrade wants most to hear while we are separated.",
@@ -46,12 +47,13 @@
       },
       "supports": "Whitman's own register toward Doyle at the start of the correspondence - 'dear friend', 'my dear comrade' - and the fact of a sustained private correspondence.",
       "verification": "verified-elision",
-      "how_verified": "archive-org",
+      "how_verified": "page-image",
       "provenance": "Archive.org scan calamusseriesofl00whitrich, scan n48 (printed folio 35, running head 'LETTERS OF 1868')",
       "verified_on": "2026-08-04",
       "speaker": "Walt Whitman, letter to Peter Doyle",
       "addressee": "Peter Doyle",
-      "voice": "period"
+      "voice": "period",
+      "document": "letter"
     },
     {
       "quote": "The romantic friendship that Walt Whitman shared with Peter Doyle embodied the \"love of comrades\" celebrated in Whitman's \"Calamus\" poems. Their thirty-year friendship (1865–1892) left a legacy of loving letters from the older man to his younger companion which are invaluable reference points for the student seeking to understand Whitman's emotional and sexual nature.",
@@ -62,7 +64,7 @@
       "evidence_date": null,
       "supports": "The scholarly characterisation of the relationship, and its span - corroboration, not the basis of the class.",
       "verification": "verified-exact",
-      "how_verified": "web",
+      "how_verified": "as-published",
       "provenance": "Https://whitmanarchive.org/item/encyclopedia_entry3. Curly quotation marks around 'love of comrades' and 'Calamus' are the source's.",
       "verified_on": "2026-08-04",
       "speaker": "Martin G. Murray",

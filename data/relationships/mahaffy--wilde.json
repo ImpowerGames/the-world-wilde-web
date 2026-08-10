@@ -33,10 +33,11 @@
       },
       "supports": "The closeness at the start, against which the deletion has to be read.",
       "verification": "verified-elision",
-      "how_verified": "pdf-image",
+      "how_verified": "page-image",
       "provenance": "PDF pp. 53-54.",
       "verified_on": "2026-08-05",
-      "voice": "period"
+      "voice": "period",
+      "document": "letter"
     },
     {
       "work": "letters-2000",
@@ -52,10 +53,11 @@
       },
       "supports": "What Wilde said he owed him, in the words the later editions removed.",
       "verification": "verified-exact",
-      "how_verified": "pdf-image",
+      "how_verified": "page-image",
       "provenance": "PDF pp. 613-614.",
       "verified_on": "2026-08-05",
-      "voice": "period"
+      "voice": "period",
+      "document": "letter"
     }
   ],
   "date_label": "Dublin, Oxford and after, 1874-1893"

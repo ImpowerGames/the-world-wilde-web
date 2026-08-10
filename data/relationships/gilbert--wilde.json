@@ -1,6 +1,9 @@
 {
   "id": "gilbert--wilde",
-  "people": ["gilbert", "wilde"],
+  "people": [
+    "gilbert",
+    "wilde"
+  ],
   "certainty": "self-reported",
   "certainty_status": "proposed",
   "start": {
@@ -15,8 +18,8 @@
   "summary": "Maurice Gilbert, a young soldier of the marine infantry with an English father and a French mother, was part of Wilde's Paris household of the exile years. Through the spring of 1898 Wilde's letters to his publisher Leonard Smithers report him as a daily fixture - a nightly bezique opponent whose running score Wilde keeps for Smithers, a dinner companion at a two-franc restaurant, the man who takes the cheque to the bank and writes out the signatures Wilde is too tired to write - in a register that keeps sliding from domestic to amorous: Gilbert's 'beaux yeux', a heart 'unfortunately lost' on a side-bet, a friend who 'grows dearer to me daily' and is 'sweeter than ever'. The editors' own note calls him one of Wilde's closest and most devoted friends of the last years, and he was present through the final illness, took the deathbed photograph and walked behind the hearse in November 1900.",
   "sources": [
     {
-      "quote": "Maurice took it to the bank, so I dare say it was on account of his beaux yeux. He grows dearer to me daily, and we now dine at a restaurant for two francs!",
-      "context": "Wilde to Leonard Smithers, Saturday [postmark 5 March 1898], on café paper, Paris; the 'it' is Smithers's cheque, which 'with reckless confidence, the banker cashed'. 'beaux yeux' italic in the original. The same letter ends: 'Maurice says he is too old to play marbles, and I am too young to begin, so we bezique our youthful lives away.'",
+      "quote": "Maurice took it to the bank, so I dare say it was on account of his *beaux yeux*. He grows dearer to me daily, and we now dine at a restaurant for two francs!",
+      "context": "Wilde to Leonard Smithers, Saturday [postmark 5 March 1898], on café paper, Paris; the 'it' is Smithers's cheque, which 'with reckless confidence, the banker cashed'. 'beaux yeux' italicized in the original. The same letter ends: 'Maurice says he is too old to play marbles, and I am too young to begin, so we bezique our youthful lives away.'",
       "work": "letters-2000",
       "locator": "p. 1031",
       "locator_type": "page",
@@ -27,11 +30,12 @@
       },
       "supports": "Wilde's plainest first-person statement of the attachment - 'He grows dearer to me daily' - set in the daily domestic texture (the bank errand, the two-franc dinners)",
       "verification": "verified-exact",
-      "how_verified": "pdf-text",
+      "how_verified": "text-layer",
       "provenance": "PDF p. 1077.",
       "verified_on": "2026-08-03",
       "voice": "period",
-      "addressee": "Leonard Smithers"
+      "addressee": "Leonard Smithers",
+      "document": "letter"
     },
     {
       "quote": "Maurice Gilbert, one of Wilde's closest and most devoted friends during these last years. Except that his father was English and his mother French, and that he was a young soldier in the marine infantry, nothing is known of him.",
@@ -42,7 +46,7 @@
       "evidence_date": null,
       "supports": "Gilbert's identity and the editors' own characterization of the friendship; the sum of what the editors say is knowable about him",
       "verification": "verified-exact",
-      "how_verified": "pdf-text",
+      "how_verified": "text-layer",
       "provenance": "PDF p. 1071. Whole footnote, both sentences.",
       "verified_on": "2026-08-03",
       "voice": "modern"
@@ -60,11 +64,12 @@
       },
       "supports": "The amorous turn inside the comic bezique register - Wilde's own 'lost my heart', staked on a side-game",
       "verification": "verified-exact",
-      "how_verified": "pdf-text",
+      "how_verified": "text-layer",
       "provenance": "PDF p. 1077; the letter opens on printed 1030 (PDF 1076)",
       "verified_on": "2026-08-03",
       "voice": "period",
-      "addressee": "Leonard Smithers"
+      "addressee": "Leonard Smithers",
+      "document": "letter"
     },
     {
       "quote": "Without my morning letter from you life would be dreadful – is dreadful – except for Maurice, who is sweeter than ever.",
@@ -79,17 +84,18 @@
       },
       "supports": "Gilbert as the single exemption from Wilde's misery in this stretch - 'sweeter than ever'",
       "verification": "verified-exact",
-      "how_verified": "pdf-text",
+      "how_verified": "text-layer",
       "provenance": "PDF p. 1080.",
       "verified_on": "2026-08-03",
       "voice": "period",
-      "addressee": "Leonard Smithers"
+      "addressee": "Leonard Smithers",
+      "document": "letter"
     },
     {
       "work": "letters-2000",
       "locator": "p. 1084",
       "locator_type": "page",
-      "quote": "My dear Maurice, Bosie and I are at Nogent. Do come down either tonight or tomorrow early. I have taught them how to make oeufs à l'aurore. Ever yours O.",
+      "quote": "My dear Maurice, Bosie and I are at Nogent. Do come down either tonight or tomorrow _early_. I have taught them how to make *oeufs à l'aurore*. Ever yours O.",
       "context": "Petit Bleu, Wilde to Maurice Gilbert, [Postmark 18 June 1898], [Nogent-sur-Marne]",
       "voice": "period",
       "evidence_date": {
@@ -99,10 +105,11 @@
       },
       "supports": "The General Index lead, now read. It widens the affectionate run by a note rather than changing its character: Gilbert summoned to join a household Wilde is already sharing with Douglas, in the domestic register of who is cooking. Nothing here strengthens a romantic reading.",
       "verification": "verified-exact",
-      "how_verified": "pdf-image",
+      "how_verified": "page-image",
       "verified_on": "2026-08-04",
-      "provenance": "PDF p. 1130 (printed folio 1084). 'early' and 'oeufs à l'aurore' are italic in the printing.",
-      "addressee": "Maurice Gilbert"
+      "provenance": "PDF p. 1130 (printed folio 1084). 'early' is underlined in the original; 'oeufs à l'aurore' is italicized in the printing as a foreign phrase.",
+      "addressee": "Maurice Gilbert",
+      "document": "letter"
     },
     {
       "quote": "My dear Robbie, No cheque this morning, but instead my sweet Maurice, our sweet Maurice, looking quite charming and as delightful as ever. He seemed a little tired, but of course that was the journey. He was full of affectionate memories of you and Reggie, and is quite devoted to you both.",
@@ -117,12 +124,13 @@
       },
       "supports": "Wilde's own register about Gilbert in a letter to a third party - affectionate, possessive and communal at once.",
       "verification": "verified-exact",
-      "how_verified": "pdf-text",
+      "how_verified": "text-layer",
       "verified_on": "2026-08-04",
       "speaker": "Oscar Wilde",
       "addressee": "Robert Ross",
       "voice": "period",
-      "provenance": "PDF p. 1119 (printed folio 1073)"
+      "provenance": "PDF p. 1119 (printed folio 1073)",
+      "document": "letter"
     }
   ],
   "null_findings": [

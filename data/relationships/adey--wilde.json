@@ -34,10 +34,11 @@
       },
       "supports": "Wilde's verdict on Naples; the closing questions are the warmest thing in the letter.",
       "verification": "verified-elision",
-      "how_verified": "pdf-image",
+      "how_verified": "page-image",
       "provenance": "PDF pp. 1069-1070.",
       "verified_on": "2026-08-06",
-      "voice": "period"
+      "voice": "period",
+      "document": "letter"
     },
     {
       "work": "letters-2000",
@@ -54,10 +55,11 @@
       },
       "supports": "That the quarrel ended, and what Adey had done for Wilde's mother.",
       "verification": "verified-elision",
-      "how_verified": "pdf-image",
+      "how_verified": "page-image",
       "provenance": "PDF p. 1230.",
       "verified_on": "2026-08-06",
-      "voice": "period"
+      "voice": "period",
+      "document": "letter"
     }
   ]
 }

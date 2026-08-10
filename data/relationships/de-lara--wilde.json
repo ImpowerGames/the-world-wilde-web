@@ -31,10 +31,11 @@
       },
       "supports": "The whole of the record: one inscription, in Wilde's hand, calling him a friend.",
       "verification": "verified-exact",
-      "how_verified": "pdf-image",
+      "how_verified": "page-image",
       "provenance": "PDF p. 1182.",
       "verified_on": "2026-08-06",
-      "voice": "period"
+      "voice": "period",
+      "document": "letter"
     }
   ],
   "date_label": "London, 1887"

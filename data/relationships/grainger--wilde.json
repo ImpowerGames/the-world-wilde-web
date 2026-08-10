@@ -35,7 +35,7 @@
       },
       "supports": "Grainger's age (sixteen) on Wilde's own oath; the servant relationship; the notorious kiss exchange",
       "verification": "verified-elision",
-      "how_verified": "archive-org",
+      "how_verified": "page-image",
       "provenance": "IA in.ernet.dli.2015.499238, leaf 186 (printed p. 150)",
       "verified_on": "2026-08-03",
       "speaker": "Oscar Wilde",
@@ -66,7 +66,8 @@
           "who": "Wilde",
           "text": "Oh, dear no. He was a peculiarly plain boy. He was, unfortunately, extremely ugly. I pitied him for it."
         }
-      ]
+      ],
+      "document": "testimony"
     },
     {
       "quote": "Cross-examination continued—No indecencies ever took place between myself and Grainger. I went down in June, 1893, to stay at a cottage at Goring. I brought over Grainger as under-butler. He had asked me to get him a situation. I never on any occasion asked him to come into my bedroom.",
@@ -80,7 +81,7 @@
       },
       "supports": "Wilde's denial on oath; the Goring under-butler arrangement from June 1893",
       "verification": "verified-exact",
-      "how_verified": "archive-org",
+      "how_verified": "page-image",
       "provenance": "IA in.ernet.dli.2015.499238, leaf 186 (printed pp. 150-151)",
       "verified_on": "2026-08-03",
       "speaker": "Oscar Wilde",
@@ -91,7 +92,8 @@
           "who": "Wilde",
           "text": "Cross-examination continued—No indecencies ever took place between myself and Grainger. I went down in June, 1893, to stay at a cottage at Goring. I brought over Grainger as under-butler. He had asked me to get him a situation. I never on any occasion asked him to come into my bedroom."
         }
-      ]
+      ],
+      "document": "testimony"
     },
     {
       "quote": "… in the City of Oxford and also upon several occasions in the months of June July and August in the year of our Lord One thousand eight hundred and ninety-three at a house called \"The Cottage\" at Goring in the County of Oxford did solicit and incite one Walter Grainger to commit sodomy and other acts of gross indecency and immorality with him the said Oscar Fingal O'Flahertie Wills Wilde and did then and there commit the said other acts of gross indecency and immorality with the said Walter Grainger.",
@@ -105,7 +107,7 @@
       },
       "supports": "The plea-only allegation, its dates and places — the class-deciding text. Note: the plea as printed states no age for Grainger",
       "verification": "verified-exact",
-      "how_verified": "archive-org",
+      "how_verified": "page-image",
       "provenance": "IA in.ernet.dli.2015.499238, leaves 389-390 (printed pp. 343-344)",
       "verified_on": "2026-08-03",
       "speaker": "The Marquess of Queensberry, plea of justification (filed 30 March 1895)",
@@ -115,7 +117,8 @@
           "who": "Queensberry",
           "text": "… in the City of Oxford and also upon several occasions in the months of June July and August in the year of our Lord One thousand eight hundred and ninety-three at a house called \"The Cottage\" at Goring in the County of Oxford did solicit and incite one Walter Grainger to commit sodomy and other acts of gross indecency and immorality with him the said Oscar Fingal O'Flahertie Wills Wilde and did then and there commit the said other acts of gross indecency and immorality with the said Walter Grainger."
         }
-      ]
+      ],
+      "document": "testimony"
     },
     {
       "quote": "Do you know a boy named Walter Grainger?—He was a servant in Lord Alfred Douglas's lodgings at Oxford. He asked me if I would get him a place in London. Did you find him a place?—Yes. Where?—In my own house at Goring. When did he come?—I should think it was in July, 1893. He remained in my service till I left Goring in October.",
@@ -129,7 +132,7 @@
       },
       "supports": "The service dates (July-October 1893) from the final trial",
       "verification": "verified-exact",
-      "how_verified": "archive-org",
+      "how_verified": "page-image",
       "provenance": "IA in.ernet.dli.2015.499238, leaf 366 (printed p. 320)",
       "verified_on": "2026-08-03",
       "speaker": "Oscar Wilde",
@@ -168,7 +171,8 @@
           "who": "Wilde",
           "text": "I should think it was in July, 1893. He remained in my service till I left Goring in October."
         }
-      ]
+      ],
+      "document": "testimony"
     },
     {
       "work": "holland-2003",
@@ -177,7 +181,7 @@
       "quote": "CARSON: Did you know Walter Grainger? WILDE: Yes. CARSON: What was he? WILDE: A servant at Lord Alfred Douglas's rooms in Oxford. … CARSON: How old was he? WILDE: I should think about sixteen. … CARSON: Were you on familiar terms with Grainger? WILDE: What do you mean by 'familiar terms'? CARSON: I mean to say did you have him to dine with you or anything of that kind? WILDE: Never in my life. CARSON: What? WILDE: No! It is really trying to ask me such a question. No, of course not. He waited on me at table; he did not dine with me. … CARSON: Did you ever kiss him? WILDE: Oh, no, never in my life; he was a peculiarly plain boy. CARSON: He was what? WILDE: I said I thought him unfortunately — his appearance was",
       "context": "Carson's cross-examination, Thursday morning 4 April 1895. Compare Hyde 1948 p. 150, which renders the same exchange as continuous narrative answers and gives 'Oh, dear no.' where the shorthand has 'Oh, no, never in my life'. Hyde also omits the 'familiar terms' exchange entirely, and smooths Wilde's broken self-correction under Carson's interruption into the finished sentence 'He was, unfortunately, extremely ugly. I pitied him for it.' The quote ends mid-sentence because the page does.",
       "verification": "verified-elision",
-      "how_verified": "pdf-text",
+      "how_verified": "text-layer",
       "verified_on": "2026-08-03",
       "speaker": "Oscar Wilde",
       "provenance": "PDF pp. 254-255s.",
@@ -254,7 +258,8 @@
           "who": "Wilde",
           "text": "I said I thought him unfortunately — his appearance was"
         }
-      ]
+      ],
+      "document": "testimony"
     }
   ]
 }

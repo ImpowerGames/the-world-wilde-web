@@ -32,10 +32,11 @@
       },
       "supports": "That Alphonse was Turner's, and what Wilde thought of him.",
       "verification": "verified-exact",
-      "how_verified": "pdf-image",
+      "how_verified": "page-image",
       "provenance": "PDF p. 1153.",
       "verified_on": "2026-08-06",
-      "voice": "period"
+      "voice": "period",
+      "document": "letter"
     }
   ]
 }

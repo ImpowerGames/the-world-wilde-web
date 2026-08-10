@@ -9,7 +9,7 @@
     "year": 2000,
     "short_cite": "Wilde, Complete Letters (2000)",
     "ia_id": "completeletterso0000wild_r5i0",
-    "note": "Image-only scan, 1315 pp.; the printed-to-PDF offset is not constant across the volume (e.g. +51 at printed 817, +46 at printed 1119). Editorial footnotes citable as Holland & Hart-Davis annotations. Index of Recipients at printed pp. 1231-1236; General Index from printed p. 1237."
+    "note": "Image-only scan, 1315 pp.; the printed-to-PDF offset is not constant across the volume (e.g. +51 at printed 817, +46 at printed 1119). Editorial footnotes citable as Holland & Hart-Davis annotations. Index of Recipients at printed pp. 1231-1236; General Index from printed p. 1237. EMPHASIS CANNOT BE READ OFF THIS EDITION. The editors' note on the text: ‘The printing of titles has been standardised: those of poems, stories and articles are printed in roman type between quotation marks; those of books, plays, periodicals and ships in italics. All foreign words are printed in italics unless the whole letter is in French. All underlined words are italicised, but no indication is given of the occasional words which have more than one underlining.’ One italic therefore stands for three different things - Wilde's underline, a title, a foreign word - and the degree of a double or triple underline is discarded. Only the manuscript settles what Wilde stressed. Every letter carries its holding archive above it (‘MS Clark’, ‘MS Texas’); a letter with no MS line survives only in print. See tools/ms_locations.py."
   },
   "letters-1962": {
     "kind": "primary",

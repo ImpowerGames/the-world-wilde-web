@@ -34,7 +34,7 @@
       "evidence_date": null,
       "supports": "The counter-evidence: Sox's own framing is love-as-filial-discipleship, not romance. This is the sentence the null finding rested on.",
       "verification": "verified-exact",
-      "how_verified": "pdf-text",
+      "how_verified": "text-layer",
       "provenance": "PDF p. 196 (printed folio 172)",
       "verified_on": "2026-08-03",
       "voice": "modern"
@@ -48,7 +48,7 @@
       "evidence_date": null,
       "supports": "Third-party reading of the bond as affective rivalry — the strongest positive signal for a romantic classification.",
       "verification": "verified-exact",
-      "how_verified": "pdf-text",
+      "how_verified": "text-layer",
       "provenance": "PDF p. 199 (printed folio 175)",
       "verified_on": "2026-08-03",
       "voice": "modern"
@@ -62,11 +62,12 @@
       "evidence_date": null,
       "supports": "Warren himself reading disappointment in Prichard at not occupying Marshall's place — first-person, though Sox glosses it as positional rather than romantic.",
       "verification": "verified-exact",
-      "how_verified": "pdf-text",
+      "how_verified": "text-layer",
       "provenance": "PDF p. 199 (printed folio 175)",
       "verified_on": "2026-08-03",
       "speaker": "Edward Perry Warren",
-      "voice": "period"
+      "voice": "period",
+      "document": "memoir"
     },
     {
       "quote": "… in the end, it was Prichard and not Marshall who came nearest to Warren's peculiar brand of aestheticism, and the only member of the brotherhood who was as openly misogynistic as Ned.",
@@ -77,7 +78,7 @@
       "evidence_date": null,
       "supports": "Temperamental closeness to Warren beyond the secretarial role.",
       "verification": "verified-elision",
-      "how_verified": "pdf-text",
+      "how_verified": "text-layer",
       "provenance": "PDF p. 200 (printed folio 176); sentence opens mid-paragraph, elision marked.",
       "verified_on": "2026-08-03",
       "voice": "modern"
@@ -91,7 +92,7 @@
       "evidence_date": null,
       "supports": "(a) p. 129: Sox lists Prichard ('Matt') among the four men Warren loved and 'wanted to possess'; (b) p. 174: Warren's salutation to Prichard, 'Dear Ducky'.",
       "verification": "verified-elision",
-      "how_verified": "pdf-text",
+      "how_verified": "text-layer",
       "provenance": "PDF pp. 145, 198 (printed folios 129, 174)",
       "verified_on": "2026-08-03",
       "voice": "modern"

@@ -26,8 +26,8 @@
           "work": "letters-2000",
           "locator": "p. 1006",
           "locator_type": "page",
-          "quote": "My life cannot be patched up. There is a doom on it. Neither to myself, nor others, am I any longer a joy. I am now simply an ordinary pauper of a rather low order: the fact that I am also a pathological problem in the eyes of German scientists is only interesting to German scientists: and even in their works I am tabulated, and come under the law of averages! Quantum mutatus!",
-          "context": "Wilde to Leonard Smithers, Saturday [11 December 1897], Villa Giudice, Posilippo (MS Hyde). 'averages' is italicised in the printed text; the Latin is Virgil, 'How changed from what he once was'. The german scientists are the sexologists - Krafft-Ebing's Psychopathia Sexualis and its successors, in which the Wilde trials had become standard case material within two years. Wilde is describing his own conversion into a data point, and the sting he picks out is not being called pathological but being tabulated: made ordinary, averaged, one of a class. No specific work is named on the page and none is inferred here.",
+          "quote": "My life cannot be patched up. There is a doom on it. Neither to myself, nor others, am I any longer a joy. I am now simply an ordinary pauper of a rather low order: the fact that I am also a pathological problem in the eyes of German scientists is only interesting to German scientists: and even in their works I am tabulated, and come under the law of _averages_! Quantum mutatus!",
+          "context": "Wilde to Leonard Smithers, Saturday [11 December 1897], Villa Giudice, Posilippo (MS Hyde). 'averages' is underlined in the original; the Latin is Virgil, 'How changed from what he once was'. The german scientists are the sexologists - Krafft-Ebing's Psychopathia Sexualis and its successors, in which the Wilde trials had become standard case material within two years. Wilde is describing his own conversion into a data point, and the sting he picks out is not being called pathological but being tabulated: made ordinary, averaged, one of a class. No specific work is named on the page and none is inferred here.",
           "speaker": "Oscar Wilde",
           "addressee": "Leonard Smithers",
           "evidence_date": {
@@ -37,10 +37,11 @@
           },
           "supports": "Wilde's own awareness that he had become a case study in the medical literature of homosexuality, in his lifetime.",
           "verification": "verified-exact",
-          "how_verified": "pdf-image",
+          "how_verified": "page-image",
           "provenance": "PDF p. 1054.",
           "verified_on": "2026-08-05",
-          "voice": "period"
+          "voice": "period",
+          "document": "letter"
         }
       ]
     }

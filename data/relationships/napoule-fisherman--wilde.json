@@ -31,11 +31,12 @@
       },
       "supports": "The whole of the record: Wilde's statement that he is practically engaged to an unnamed Napoule fisherman, with the age the letter gives, in its own comic frame",
       "verification": "verified-exact",
-      "how_verified": "pdf-text",
+      "how_verified": "text-layer",
       "provenance": "PDF p. 1162.",
       "verified_on": "2026-08-03",
       "voice": "period",
-      "addressee": "Robert Ross"
+      "addressee": "Robert Ross",
+      "document": "letter"
     }
   ]
 }

@@ -28,11 +28,12 @@
       },
       "supports": "Fothergill's own account of the approach, in his own words.",
       "verification": "verified-exact",
-      "how_verified": "pdf-text",
+      "how_verified": "text-layer",
       "provenance": "PDF p. 158.",
       "verified_on": "2026-08-03",
       "voice": "period",
-      "speaker": "John Fothergill, memoir (1954)"
+      "speaker": "John Fothergill, memoir (1954)",
+      "document": "memoir"
     },
     {
       "quote": "They said, in the end that no man of the world reading my letter (which incidentally had been perfectly nice) could possibly form two opinions about my intentions toward the boy, and that I must undertake not to rewrite to him again, otherwise they must put the matter before the police. I felt a fool and afraid.",
@@ -45,11 +46,12 @@
       },
       "supports": "How the approach ended, and the legal pressure that ended it - three years after Wilde's release, the same criminal law operating without a prosecution.",
       "verification": "verified-exact",
-      "how_verified": "pdf-text",
+      "how_verified": "text-layer",
       "provenance": "PDF pp. 158-159; the passage runs across the page break at 'not to rewrite to him again, | otherwise'.",
       "verified_on": "2026-08-03",
       "voice": "period",
-      "speaker": "John Fothergill, memoir (1954)"
+      "speaker": "John Fothergill, memoir (1954)",
+      "document": "memoir"
     }
   ]
 }

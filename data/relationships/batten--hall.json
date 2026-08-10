@@ -22,7 +22,7 @@
       "evidence_date": null,
       "supports": "That Batten was Hall's first lover, her dates, and her role in bringing Hall into queer society.",
       "verification": "verified-exact",
-      "how_verified": "web",
+      "how_verified": "as-published",
       "provenance": "Https://norman.hrc.utexas.edu/fasearch/findingAid.cfm?eadid=00163",
       "verified_on": "2026-08-03",
       "voice": "modern"
@@ -36,7 +36,7 @@
       "evidence_date": null,
       "supports": "An editor's reading that Hall's worst remembered grief was Batten's death, and that Batten was grieved by Hall's passion for Troubridge - second-hand, hedged, and the only thing in this volume that bears on this pair.",
       "verification": "verified-exact",
-      "how_verified": "pdf-text",
+      "how_verified": "text-layer",
       "provenance": "PDF p. 7 (printed pp. 28-29; folio 29 in the running head)",
       "verified_on": "2026-08-04",
       "speaker": "Joanne Glasgow, ed.",
@@ -55,7 +55,7 @@
       },
       "supports": "Biographer's full account of the Batten relationship, including its start.",
       "verification": "verified-exact",
-      "how_verified": "pdf-text",
+      "how_verified": "text-layer",
       "provenance": "PDF p. 52.",
       "verified_on": "2026-08-04",
       "voice": "modern"

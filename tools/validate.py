@@ -35,7 +35,37 @@ CERTAINTY = {"self-reported", "second-hand", "uncorroborated", "married", "attra
 OUTCOMES = {"declined", "unknown", "unreciprocated"}
 CERTAINTY_STATUS = {"proposed", "confirmed"}
 VERIFICATION = {"verified-exact", "verified-elision", "needs-fix", "rejected", "unverified"}
-HOW = {"pdf-image", "pdf-text", "digital-copy", "physical-copy", "archive-org", "web", "unverified"}
+# Verification asks three questions, and each has its own field, because one field answering all
+# three produced values that overlapped and could not be told apart - "archive-org" and "web"
+# named a medium, "pdf-text" named a reading method, "manuscript" named a document.
+#
+#   how_verified      HOW directly were the words read?
+#   verified_against  WHICH document was read? (absent = the work being cited)
+#   document          WHAT KIND of thing is quoted, where that differs from the work
+#
+# The MEDIUM - PDF, archive.org, a website, an EPUB, a physical copy - is deliberately not here.
+# `provenance` already records it exactly ("IA in.ernet.dli.2015.499238, leaf 326"), and it says
+# nothing about whether the reading can be trusted.
+HOW = {
+    "page-image",    # read the words on a reproduction of the page: a scan, a IIIF image, film
+    "text-layer",    # taken from extracted or OCR text; the page itself was NOT looked at
+    "in-hand",       # read the physical object
+    "as-published",  # born-digital - a web page, an EPUB - read as its publisher renders it
+    "unverified",
+}
+# The only thing worth naming apart from the work is the ORIGINAL: the document itself, or a
+# photograph of it. Everything else a quotation might be read in is the work already cited.
+VERIFIED_AGAINST = {"original", None}
+
+# What kind of thing is being quoted, and whether it was written out by hand. `hand` decides
+# whether checking the original is even a question: for a printed book the work IS the original,
+# so there is no second document to go and look at - and no emphasis a compositor did not set.
+DOCUMENTS = {
+    "letter": True, "telegram": True, "postcard": True, "diary": True,
+    "inscription": True, "manuscript": True,
+    "memoir": False, "testimony": False, "interview": False, "pamphlet": False,
+    "novel": False, "essay": False, "poem": False, "typescript": False,
+}
 LOCATOR_TYPES = {"page", "diary-entry", "trial-day", "letter-date", "none"}
 GROUPS = {"core", "family", "society", "aesthete", "trials", "chaeronea",
           "later", "liaisons", "beyond"}
@@ -47,11 +77,227 @@ GENDERS = {"m", "f", None}
 VOICES = {"period", "exchange", "modern", None}
 
 
+MANUSCRIPTS = ROOT / "manuscripts"
+
+# RightsStatements.org markers as the archives apply them, in words a reader can act on. A page
+# whose marker is not in here still displays - it just shows the bare URI, which is honest about
+# the fact that nobody has read it yet.
+RIGHTS_LABEL = {
+    "http://rightsstatements.org/vocab/NoC-US/1.0/": "No Copyright – United States",
+    "http://rightsstatements.org/vocab/UND/1.0/": "Copyright Undetermined",
+    "http://rightsstatements.org/vocab/InC/1.0/": "In Copyright",
+    "http://rightsstatements.org/vocab/NKC/1.0/": "No Known Copyright",
+}
+
+
 def load(p: Path):
     try:
         return json.loads(p.read_text(encoding="utf-8"))
     except Exception as e:  # noqa: BLE001
         return {"__load_error__": f"{p.name}: {e}"}
+
+
+def load_archives():
+    """Index the manuscript pages described under manuscripts/, one archive per subdirectory.
+
+    Metadata only. The IMAGES are not here and are not published by this repository: each page is
+    drawn from the holding archive's own IIIF image service, addressed by the pointer recorded in
+    the manifest. That is deliberate - it leaves every scan being served by the institution that
+    made it, under the rights statement that institution attached to it, and it keeps a research
+    corpus from turning into an image host.
+
+    A source record therefore cites an item and a page NUMBER, and the manifest resolves it. The
+    numbers are stable across a re-fetch in a way filenames and pointers are not.
+
+    Returns {} when no manifest is present; the map is meant to build without one.
+    """
+    archives = {}
+    if not MANUSCRIPTS.is_dir():
+        return archives
+    for man in sorted(MANUSCRIPTS.glob("*/MANIFEST.json")):
+        key = man.parent.name
+        m = load(man)
+        if "__load_error__" in m:
+            archives[key] = {"__load_error__": m["__load_error__"]}
+            continue
+        meta = m.get("archive") or {}
+        items = {}
+        for it in m.get("items") or []:
+            pages = []
+            for pg in it.get("pages") or []:
+                rights = pg.get("rights") or ""
+                pages.append({
+                    "n": pg.get("page"),
+                    "shelfmark": pg.get("shelfmark") or "",
+                    "pointer": str(pg.get("pointer") or ""),
+                    "rights": rights,
+                    "rights_label": RIGHTS_LABEL.get(rights, rights),
+                })
+            items[str(it.get("itemId"))] = {
+                "title": it.get("title") or "",
+                "box_folder": it.get("boxFolder") or "",
+                "pages": pages,
+            }
+        archives[key] = {
+            "key": key,
+            "name": meta.get("name") or m.get("collection") or key,
+            "short_name": meta.get("short_name") or meta.get("name") or key,
+            "collection": meta.get("collection") or "",
+            "collection_url": meta.get("collection_url") or m.get("download_url") or "",
+            "record_url": meta.get("record_url") or "",
+            "iiif_url": meta.get("iiif_url") or "",
+            "items": items,
+        }
+    return archives
+
+
+def check_facsimile(q, where, archives, errors, warnings):
+    """A source may point at the scanned pages of the document it quotes.
+
+        "facsimile": {"archive": "hrc", "item": "2700", "pages": [5, 6, 7],
+                      "caption": "the letter runs across two folded sheets"}
+
+    `pages` are page numbers WITHIN the item, as the manifest numbers them, and they are the
+    pages of the LETTER - not of the quoted sentence. A reader who opens a facsimile wants the
+    document, and a letter that runs over four sides is misrepresented by the one side its
+    quotable line happens to fall on.
+    """
+    f = q.get("facsimile")
+    if f is None:
+        return
+    if not isinstance(f, dict):
+        errors.append(f"{where}: facsimile must be an object with archive/item/pages")
+        return
+    for k in ("archive", "item"):
+        if not isinstance(f.get(k), str) or not f[k].strip():
+            errors.append(f"{where}.facsimile: {k} is required and must be a string")
+            return
+    ak, ik = f["archive"], f["item"]
+    if ak not in archives:
+        errors.append(f"{where}.facsimile: unknown archive {ak!r} - expected a directory under "
+                      f"manuscripts/ with a MANIFEST.json "
+                      f"({', '.join(sorted(archives)) or 'none present'})")
+        return
+    arc = archives[ak]
+    if "__load_error__" in arc:
+        errors.append(f"{where}.facsimile: archive {ak!r} has an unreadable manifest: "
+                      f"{arc['__load_error__']}")
+        return
+    if ik not in arc["items"]:
+        errors.append(f"{where}.facsimile: {ak} has no item {ik!r}")
+        return
+    pages = f.get("pages")
+    if not isinstance(pages, list) or not pages:
+        errors.append(f"{where}.facsimile: pages must be a non-empty list of page numbers")
+        return
+    have = {p["n"]: p for p in arc["items"][ik]["pages"]}
+    if pages != sorted(pages):
+        errors.append(f"{where}.facsimile: pages must be in ascending order, got {pages}")
+    if len(set(pages)) != len(pages):
+        errors.append(f"{where}.facsimile: the same page is listed twice: {pages}")
+    for n in pages:
+        if not isinstance(n, int):
+            errors.append(f"{where}.facsimile: page {n!r} is not a number - pages are numbered "
+                          f"within the item, not named by file")
+        elif n not in have:
+            errors.append(f"{where}.facsimile: {ak} item {ik} has no page {n} "
+                          f"(1-{len(have)})")
+        elif not have[n]["pointer"]:
+            errors.append(f"{where}.facsimile: {ak} item {ik} page {n} has no archive pointer, "
+                          f"so the page cannot be addressed at the archive's image service")
+    check_document(q, where, errors)
+
+
+def check_manuscript(q, where, errors):
+    """Where the original survives, for a source whose document is not scanned here.
+
+        "manuscript": {"repository": "William Andrews Clark Memorial Library, UCLA",
+                       "url": "https://…"}
+
+    The counterpart to `facsimile`, and the commoner case by far: of the letters this map quotes
+    from the Complete Letters, 8 have manuscripts at the Harry Ransom Center and roughly 100 at
+    the Clark. Naming the repository is not a substitute for the image, but it is the difference
+    between "we cannot show you this" and "nobody knows where this is" - and for a handful of
+    letters printed from a dealer's catalogue or a memoir, the second is the true answer.
+    """
+    m = q.get("manuscript")
+    if m is None:
+        return
+    if not isinstance(m, dict):
+        errors.append(f"{where}: manuscript must be an object with a repository")
+        return
+    if not isinstance(m.get("repository"), str) or not m["repository"].strip():
+        errors.append(f"{where}.manuscript: repository is required - write it out in full, as it "
+                      f"appears on the card ('William Andrews Clark Memorial Library, UCLA'), "
+                      f"not as the abbreviation the Complete Letters print")
+    u = m.get("url")
+    if u is not None and (not isinstance(u, str) or not u.startswith(("http://", "https://"))):
+        errors.append(f"{where}.manuscript: url must be an http(s) address, got {u!r}")
+    if q.get("facsimile") is not None:
+        errors.append(f"{where}: carries both a facsimile and a manuscript pointer - the "
+                      f"facsimile already names the archive holding the pages it shows")
+
+
+def check_document(q, where, errors):
+    """`document` and `verified_against`: what is quoted, and whether the original was read.
+
+    A quotation is nearly always read in something other than the thing it was written on - a
+    letter in a printed edition of the letters, testimony in a trial transcript. `document` names
+    the artifact when it differs from the work; a historian's own sentence leaves it unset,
+    because there the work IS the document and a label would say nothing.
+
+    `verified_against: "original"` then means someone went to that artifact. It is only a
+    meaningful claim for something written out by hand: a printed pamphlet has no original behind
+    the print, and no emphasis a compositor did not set.
+    """
+    doc = q.get("document")
+    if doc is not None and doc not in DOCUMENTS:
+        errors.append(f"{where}: unknown document {doc!r} - one of "
+                      f"{', '.join(sorted(DOCUMENTS))}, or omit it when the work being cited IS "
+                      f"the document")
+    va = q.get("verified_against")
+    if va not in VERIFIED_AGAINST:
+        errors.append(f"{where}: verified_against must be 'original' or absent, got {va!r}")
+        return
+    if va != "original":
+        return
+    if doc is None:
+        errors.append(f"{where}: verified_against 'original' needs a `document` saying WHICH "
+                      f"original was read")
+    elif not DOCUMENTS.get(doc):
+        errors.append(f"{where}: verified_against 'original' on a {doc}, which is printed - the "
+                      f"work cited is already the original, so there is nothing further to read")
+    if q.get("how_verified") not in {"page-image", "in-hand"}:
+        errors.append(f"{where}: verified_against 'original' but how_verified is "
+                      f"{q.get('how_verified')!r} - reading the original means seeing it, in "
+                      f"hand or as a page image")
+    if not (q.get("provenance") or "").strip():
+        errors.append(f"{where}: verified_against 'original' with empty provenance - say which "
+                      f"pages were read and what was found, including a null finding")
+
+
+def resolve_facsimile(q, archives):
+    """Reduce a source's facsimile to the reference the browser can resolve, or drop it.
+
+    Deliberately NOT expanded here. The page records - file, shelfmark, pointer, rights - go into
+    the bundle once, under `archives`, and a source keeps nothing but the item and the page
+    numbers. Expanding them into each source instead would copy the same records into every
+    quotation from the same letter, and the reader needs the WHOLE folder available anyway to
+    page past the letter's own sheets.
+    """
+    f = q.get("facsimile")
+    if not isinstance(f, dict):
+        return None
+    arc = archives.get(f.get("archive")) or {}
+    item = (arc.get("items") or {}).get(str(f.get("item"))) or {}
+    have = {p["n"] for p in item.get("pages") or []}
+    pages = [n for n in (f.get("pages") or []) if n in have]
+    if not pages:
+        return None
+    out = {"archive": f["archive"], "item": str(f["item"]), "pages": pages}
+    if (f.get("caption") or "").strip():
+        out["caption"] = f["caption"].strip()
+    return out
 
 
 def date_sort_key(d):
@@ -221,7 +467,7 @@ def _guess_foreign(text, min_hits=4, min_density=0.14):
     return None, 0, words
 
 
-def validate_quote(q, where, works, errors, warnings=None):
+def validate_quote(q, where, works, errors, warnings=None, archives=None):
     warnings = warnings if warnings is not None else []
     v = q.get("verification")
     if v not in VERIFICATION:
@@ -246,6 +492,8 @@ def validate_quote(q, where, works, errors, warnings=None):
     check_order_hint(q, where, errors)
     check_speaker_addressee(q, where, works, errors)
     check_turns(q, where, errors)
+    check_facsimile(q, where, archives if archives is not None else {}, errors, warnings)
+    check_manuscript(q, where, errors)
     if q.get("addressee") is not None:
         if not isinstance(q["addressee"], str) or not q["addressee"].strip():
             errors.append(f"{where}: addressee must be a name, or absent - use null/omit when the "
@@ -287,6 +535,29 @@ def validate_quote(q, where, works, errors, warnings=None):
             warnings.append(f"{where}: reads like {guess} ({hits} function words in {words}) but "
                             f"has no `lang`. Set lang and add a translation, or ignore this if the "
                             f"quotation really is English")
+    # Emphasis markup in the quoted text: *italics*, **bold**, _underline_,
+    # ~~strikethrough~~. The renderer pairs the markers after escaping, so an odd
+    # marker would print literally - an unbalanced pair is a data error, not a
+    # rendering choice.
+    for _fld, _txt in ([("quote", q.get("quote") or "")] +
+                       [("translation", q.get("translation") or "")] +
+                       [(f"turns[{_i}].text", (t.get("text") or ""))
+                        for _i, t in enumerate(q.get("turns") or [])]):
+        if not _txt:
+            continue
+        # Markers NEST: `_*Salome*_` is a title Wilde underlined, italic inside underline. Each
+        # matched pair collapses to a placeholder rather than to nothing, exactly as the renderer
+        # leaves HTML behind - strip to "" instead and the inner pair hands the outer one an
+        # empty `__`, which then reads as a stray marker and fails a sound quotation.
+        _t = _txt
+        for _pat in (r"\*\*[^*\n]+\*\*", r"\*[^*\n]+\*",
+                     r"__[^_\n]+__", r"_[^_\n]+_",     # __ before _, as the renderer does
+                     r"~~[^~\n]+~~"):
+            _t = re.sub(_pat, "x", _t)
+        if re.search(r"[*_~]", _t):
+            errors.append(f"{where}.{_fld}: unbalanced emphasis marker - use *italics*, "
+                          f"**bold**, _underline_, __double underline__, ~~strikethrough~~ "
+                          f"in pairs (they may nest: _*Title*_ is an underlined title)")
     if d and (d.get("y") or 0) > 1945:
         errors.append(f"{where}: evidence_date {d.get('y')} looks like a publication year. "
                       f"It should be the date of the thing evidenced - see works.json "
@@ -328,7 +599,8 @@ def check_bare_label(r, rid, errors):
                       f"generated labels cannot look different")
 
 
-def validate(works, people, rels):
+def validate(works, people, rels, archives=None):
+    archives = archives if archives is not None else {}
     errors, warnings = [], []
     pids = set()
     for p in people:
@@ -352,7 +624,8 @@ def validate(works, people, rels):
             if "name" in ce:
                 errors.append(f"{pid}: sexuality_source uses 'name'; the field is 'subject'")
             for q in ce.get("sources", []) or []:
-                validate_quote(q, f"{pid}.sexuality[{ce.get('subject')}]", works, errors, warnings)
+                validate_quote(q, f"{pid}.sexuality[{ce.get('subject')}]", works, errors,
+                               warnings, archives)
 
     rids = set()
     for r in rels:
@@ -395,7 +668,7 @@ def validate(works, people, rels):
         if not r.get("sources"):
             warnings.append(f"{rid}: no sources at all")
         for q in r.get("sources", []) or []:
-            validate_quote(q, rid, works, errors, warnings)
+            validate_quote(q, rid, works, errors, warnings, archives)
 
     orphans = pids - {p for r in rels if "__load_error__" not in r for p in r.get("people", [])}
     for o in sorted(orphans):
@@ -699,8 +972,9 @@ def main():
     works = json.loads((DATA / "works.json").read_text(encoding="utf-8"))
     people = [load(p) for p in sorted((DATA / "people").glob("*.json"))]
     rels = [load(p) for p in sorted((DATA / "relationships").glob("*.json"))]
+    archives = load_archives()
 
-    errors, warnings = validate(works, people, rels)
+    errors, warnings = validate(works, people, rels, archives)
     dash, vq = dashboard([p for p in people if "__load_error__" not in p],
                          [r for r in rels if "__load_error__" not in r])
     print(dash)
@@ -728,9 +1002,32 @@ def main():
         for pid, c in json.loads(cred.read_text(encoding="utf-8")).items():
             if (ROOT / c["file"]).exists():
                 portraits[pid] = c
-    bundle = {"people": [p for p in people if "__load_error__" not in p],
-              "relationships": [r for r in rels if "__load_error__" not in r],
-              "works": works, "portraits": portraits,
+    # Facsimiles are resolved in place: every source that cites scanned pages carries its files,
+    # shelfmarks and rights by the time the browser sees it. `archives` then holds only what a
+    # facsimile cannot say for itself - who holds the papers, and how to reach their own record.
+    kept_rels = [r for r in rels if "__load_error__" not in r]
+    kept_people = [p for p in people if "__load_error__" not in p]
+    fac_count = 0
+    for sources in ([r.get("sources") or [] for r in kept_rels] +
+                    [ce.get("sources") or [] for p in kept_people
+                     for ce in p.get("sexuality_sources") or []]):
+        for q in sources:
+            if q.get("facsimile") is None:
+                continue
+            resolved = resolve_facsimile(q, archives)
+            if resolved:
+                q["facsimile"] = resolved
+                fac_count += 1
+            else:
+                q.pop("facsimile", None)
+    # Archives that nothing cites are still bundled whole. The scans are published, and the
+    # reader lets you walk out of a quoted letter into the folder it is kept in - which is only
+    # possible if the browser holds the folder's page list, not just the cited sheets.
+    arc_meta = {k: a for k, a in archives.items() if "__load_error__" not in a}
+
+    bundle = {"people": kept_people,
+              "relationships": kept_rels,
+              "works": works, "portraits": portraits, "archives": arc_meta,
               "about": md_html(ROOT / "ABOUT.md"),
               "contributing": md_html(ROOT / "CONTRIBUTING.md"),
               "built": date.today().isoformat()}
@@ -739,6 +1036,11 @@ def main():
                    encoding="utf-8")
     print(f"\nwrote {out.relative_to(ROOT)} ({out.stat().st_size/1024:.0f} KB) — "
           f"generated, do not hand-edit")
+    if archives:
+        pages = sum(len(i["pages"]) for a in archives.values() if "__load_error__" not in a
+                    for i in a["items"].values())
+        print(f"{pages} manuscript pages indexed in {len(arc_meta)} archive(s); "
+              f"{fac_count} source(s) show a facsimile")
 
 
 main()

@@ -28,7 +28,7 @@
       },
       "supports": "The only passage on this edge in which a participant speaks: Ives's diary, vol. 76, 20 January 1921, as quoted by Cook. Ives names love, disclaims passion, and locates the value in comfort. The 'Cubby' identification is disputed: Cook 2014 glosses Cubby as 'Charles Gee'; Cook 2003, p. 146 glosses it as 'Harold Holt', and the name 'Holt' does not appear in the 2014 book. Also carries Ives's own declaration of love for the two men and his explicit separation of love from passion.",
       "verification": "verified-elision",
-      "how_verified": "pdf-text",
+      "how_verified": "text-layer",
       "provenance": "PDF p. 112.",
       "verified_on": "2026-08-03",
       "voice": "modern"
@@ -42,7 +42,7 @@
       "evidence_date": null,
       "supports": "Bed-sharing household intimacy at the Albany, in Cook's own words",
       "verification": "verified-exact",
-      "how_verified": "pdf-text",
+      "how_verified": "text-layer",
       "provenance": "PDF p. 162 (printed folio 146)",
       "verified_on": "2026-08-03",
       "voice": "modern"
@@ -56,7 +56,7 @@
       "evidence_date": null,
       "supports": "Cook's own careful reading: a possible sexual beginning, a platonic settling, continued bed-sharing throughout.",
       "verification": "verified-exact",
-      "how_verified": "pdf-text",
+      "how_verified": "text-layer",
       "provenance": "PDF p. 112.",
       "verified_on": "2026-08-03",
       "voice": "modern"
@@ -70,7 +70,7 @@
       "evidence_date": null,
       "supports": "A specific, dated instance of bed-sharing between Ives and Cubby, and of Ives's distress at its interruption - more concrete than the general 'sometimes his bed' of Cook 2003.",
       "verification": "verified-exact",
-      "how_verified": "pdf-text",
+      "how_verified": "text-layer",
       "provenance": "PDF p. 112.",
       "verified_on": "2026-08-03",
       "voice": "modern"
@@ -90,7 +90,8 @@
         "y": 1921,
         "m": 1,
         "why": "The communication is of 2026 but what it settles is who 'Cubby' was in the diary entry of 20 January 1921, so it reads beside that entry rather than at the end of a life."
-      }
+      },
+      "document": "interview"
     }
   ]
 }

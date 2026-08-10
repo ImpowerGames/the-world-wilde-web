@@ -30,12 +30,13 @@
       },
       "supports": "Wilde's personal regard for him, and the deliberate attempt to place him socially rather than charitably.",
       "verification": "verified-exact",
-      "how_verified": "pdf-text",
+      "how_verified": "text-layer",
       "provenance": "PDF p. 950 (printed folio 900).",
       "verified_on": "2026-08-04",
       "speaker": "Oscar Wilde",
       "addressee": "Reggie Turner",
-      "voice": "period"
+      "voice": "period",
+      "document": "letter"
     }
   ]
 }

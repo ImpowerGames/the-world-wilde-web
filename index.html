@@ -147,6 +147,43 @@
      reads on the repo and the page a reader sees here can never drift apart. -->
     <div id="contribBody" hidden></div>
 
+    <!-- The manuscript reader. A quotation that cites scanned pages opens here, on the document
+     itself: the letter in the writer's own hand, at the full resolution the archive released.
+     Filled by web.js from the facsimile each source carries; empty until something is opened. -->
+    <div id="facs" role="dialog" aria-modal="true" aria-label="Manuscript" hidden>
+      <div class="fbar">
+        <div class="ftitle">
+          <span class="fname"></span>
+          <span class="fpager" role="status" aria-live="polite"></span>
+        </div>
+        <div class="fbtns">
+          <button class="fbtn" id="facsPrev" aria-label="Previous page">
+            &larr;
+          </button>
+          <button class="fbtn" id="facsNext" aria-label="Next page">
+            &rarr;
+          </button>
+          <button
+            class="fbtn"
+            id="facsZoom"
+            aria-pressed="false"
+            title="Click the page, or press + and -"
+          >
+            Zoom
+          </button>
+          <button class="fbtn fclose" id="facsClose">Close</button>
+        </div>
+      </div>
+      <div class="fstage" id="facsStage">
+        <img id="facsImg" alt="" draggable="false" />
+      </div>
+      <div class="ffoot">
+        <div class="fcite"></div>
+        <div class="frights"></div>
+      </div>
+      <div class="fthumbs" id="facsThumbs"></div>
+    </div>
+
     <script src="assets/js/web.js"></script>
   </body>
 </html>

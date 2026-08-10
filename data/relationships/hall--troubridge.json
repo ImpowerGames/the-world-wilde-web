@@ -26,7 +26,7 @@
       },
       "supports": "The meeting date, the partnership, and the Batten-Troubridge kinship that links the two Hall records.",
       "verification": "verified-exact",
-      "how_verified": "web",
+      "how_verified": "as-published",
       "provenance": "Https://norman.hrc.utexas.edu/fasearch/findingAid.cfm?eadid=00163",
       "verified_on": "2026-08-03",
       "voice": "modern"
@@ -42,7 +42,7 @@
       },
       "supports": "That the relationship with Hall ended Troubridge's marriage - a consequence recorded as fact by the holding archive.",
       "verification": "verified-exact",
-      "how_verified": "web",
+      "how_verified": "as-published",
       "provenance": "Https://norman.hrc.utexas.edu/fasearch/findingAid.cfm?eadid=00163",
       "verified_on": "2026-08-03",
       "voice": "modern"
@@ -56,13 +56,13 @@
       "evidence_date": null,
       "supports": "That the Hall-Troubridge partnership continued through, and accommodated, Hall's affair with Evguenia Souline.",
       "verification": "verified-exact",
-      "how_verified": "web",
+      "how_verified": "as-published",
       "provenance": "Https://norman.hrc.utexas.edu/fasearch/findingAid.cfm?eadid=00163",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
     {
-      "quote": "Life with John was by no means always easy, but her variety was infinite and it was always interesting. If I knew discouragement, weariness and exasperation throughout the twenty-eight years that we were together I never knew boredom. … That is why life is so dull without her. That is why when at last her overtaxed body gave out and she could drive it no longer and she went to God for rest, I found that I had lost my occupation as well as my infinitely beloved companion.",
+      "quote": "Life with John was by no means always easy, but her variety was infinite and it was always interesting. If I knew discouragement, weariness and exasperation throughout the twenty-eight years that we were together I never knew boredom. … That is why life is so _dull_ without her. That is why when at last her overtaxed body gave out and she could drive it no longer and she went to God for rest, I found that I had lost my occupation as well as my infinitely beloved companion.",
       "context": "Troubridge's own retrospect, written after Hall's death in 1943. 'John' is Hall. They met on 1 August 1915 - a date Troubridge marks as the point where 'the story becomes also my own story' (printed 54).",
       "work": "troubridge-1961-life-and-death",
       "locator": "p. 139",
@@ -72,8 +72,8 @@
       },
       "supports": "Troubridge's first-person account of the relationship.",
       "verification": "verified-elision",
-      "how_verified": "pdf-text",
-      "provenance": "PDF p. 137. 'dull' is italicised in the printed text.",
+      "how_verified": "text-layer",
+      "provenance": "PDF p. 137. 'dull' is underlined in the original.",
       "verified_on": "2026-08-04",
       "voice": "period"
     },
@@ -88,7 +88,8 @@
       "verification": "unverified",
       "how_verified": "unverified",
       "provenance": "",
-      "verified_on": null
+      "verified_on": null,
+      "document": "diary"
     }
   ]
 }

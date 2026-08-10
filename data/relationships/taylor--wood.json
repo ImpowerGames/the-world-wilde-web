@@ -1,6 +1,9 @@
 {
   "id": "taylor--wood",
-  "people": ["taylor", "wood"],
+  "people": [
+    "taylor",
+    "wood"
+  ],
   "certainty": "uncorroborated",
   "certainty_status": "proposed",
   "start": {
@@ -34,7 +37,7 @@
       },
       "supports": "The three-week single-bed cohabitation, January 1893 — the class-deciding quote",
       "verification": "verified-exact",
-      "how_verified": "archive-org",
+      "how_verified": "page-image",
       "provenance": "IA in.ernet.dli.2015.499238, leaf 241 (printed p. 201)",
       "verified_on": "2026-08-03",
       "speaker": "Alfred Wood",
@@ -61,7 +64,8 @@
           "who": "Wood",
           "text": "In the same room with Taylor. There was only one bed there."
         }
-      ]
+      ],
+      "document": "testimony"
     },
     {
       "quote": "Had you been guilty of any acts of indecency before you knew Wilde?—No, not with any man until I went to College Street.",
@@ -75,7 +79,7 @@
       },
       "supports": "Wood dating his first acts of indecency to going to Taylor's — implication, not attestation, of acts with Taylor",
       "verification": "verified-exact",
-      "how_verified": "archive-org",
+      "how_verified": "page-image",
       "provenance": "IA in.ernet.dli.2015.499238, leaf 245 (printed p. 205)",
       "verified_on": "2026-08-03",
       "speaker": "Alfred Wood",
@@ -90,7 +94,8 @@
           "who": "Wood",
           "text": "No, not with any man until I went to College Street."
         }
-      ]
+      ],
+      "document": "testimony"
     },
     {
       "quote": "Were Taylor's visitors, as a class, women or men?—Men—young men from sixteen to thirty. I have seen Alfred Wood there. He once stayed for three weeks.",
@@ -104,7 +109,7 @@
       },
       "supports": "Independent corroboration of the three-week stay",
       "verification": "verified-exact",
-      "how_verified": "archive-org",
+      "how_verified": "page-image",
       "provenance": "IA in.ernet.dli.2015.499238, leaf 239 (printed p. 199)",
       "verified_on": "2026-08-03",
       "speaker": "Ellen Grant, landlady of 13 Little College Street",
@@ -119,7 +124,8 @@
           "who": "Grant",
           "text": "Men—young men from sixteen to thirty. I have seen Alfred Wood there. He once stayed for three weeks."
         }
-      ]
+      ],
+      "document": "testimony"
     },
     {
       "quote": "When did you first make the acquaintance of Alfred Wood?—In May, 1892. Where?—At Atkins's rooms in Alderney Street.",
@@ -133,7 +139,7 @@
       },
       "supports": "Taylor's conflicting (earlier) dating of the acquaintance",
       "verification": "verified-exact",
-      "how_verified": "archive-org",
+      "how_verified": "page-image",
       "provenance": "IA in.ernet.dli.2015.499238, leaf 330 (printed p. 286)",
       "verified_on": "2026-08-03",
       "speaker": "Alfred Taylor",
@@ -156,7 +162,8 @@
           "who": "Taylor",
           "text": "At Atkins's rooms in Alderney Street."
         }
-      ]
+      ],
+      "document": "testimony"
     }
   ]
 }

@@ -18,8 +18,8 @@
   "summary": "Lawley - or possibly Langley; the editors of Wilde's letters could not settle it - was a soldier who served time in Reading with Wilde and struck him as quiet and well conducted. In a postscript to a long, raw letter written a month after his release, Wilde put in a word to get him a place as a groom. That postscript is the whole of him.",
   "sources": [
     {
-      "quote": "With regard to Lawley. All soldiers are neat, and smart, and make capital servants. He would be a good groom; he is, I believe, a Third Hussars man. He was a quiet well-conducted chap in Reading always.",
-      "context": "A postscript, printed in italic beneath Wilde's signature, to a long letter of June 1897 whose main body is about a brother prisoner released on 4 June and about the writer's own hurt feelings. The editors' footnote to the name reads, in full, \"Or possibly Langley.\" Wilde signs the letter itself \"your sincere friend and admirer\".",
+      "quote": "_With regard to Lawley._ All soldiers are neat, and smart, and make capital servants. He would be a good __groom__; he is, I believe, a Third Hussars man. He was a quiet well-conducted chap in Reading always.",
+      "context": "A postscript below Wilde's signature, to the long letter of 13 June 1897 from Berneval whose body is about a brother prisoner released on 4 June and about Wilde's own hurt feelings (MS Texas). The editors' footnote to the name reads, in full, \"Or possibly Langley.\" Wilde signs the letter itself \"your sincere friend and admirer\".",
       "work": "letters-2000",
       "locator": "p. 897",
       "locator_type": "page",
@@ -29,11 +29,35 @@
       },
       "supports": "That the man existed, that Wilde thought well of him, and how little else the record kept.",
       "verification": "verified-exact",
-      "how_verified": "pdf-text",
-      "provenance": "PDF p. 947 (printed folio 897).",
-      "verified_on": "2026-08-04",
+      "how_verified": "page-image",
+      "provenance": "PDF p. 947 (printed folio 897). Emphasis corrected against the manuscript, HRC MSS_WildeO_2_6_081. The previous transcription underlined the WHOLE postscript, which the printed page does not support and the manuscript refutes: only 'With regard to Lawley' carries an underline, and 'groom' carries TWO - the degree the Complete Letters discard by their own account, restored here as __groom__. The earlier reading came from the PDF text layer, which loses italic boundaries.",
+      "verified_on": "2026-08-10",
       "speaker": "Oscar Wilde",
-      "voice": "period"
+      "voice": "period",
+      "facsimile": {
+        "archive": "hrc",
+        "item": "2676",
+        "pages": [
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80,
+          81
+        ],
+        "caption": "fifteen sides written at Berneval three weeks out of prison, the sheets numbered by Wilde 1 to 5; the postscript about Lawley follows the signature on the last of them"
+      },
+      "verified_against": "original",
+      "document": "letter"
     }
   ]
 }

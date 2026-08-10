@@ -33,10 +33,11 @@
       },
       "supports": "The three of them as a set, and Wilde's solicitude for Ward expressed to Harding.",
       "verification": "verified-elision",
-      "how_verified": "pdf-image",
+      "how_verified": "page-image",
       "provenance": "PDF p. 43.",
       "verified_on": "2026-08-05",
-      "voice": "period"
+      "voice": "period",
+      "document": "letter"
     },
     {
       "work": "letters-2000",
@@ -53,10 +54,11 @@
       },
       "supports": "What Harding's congratulations were worth to him, the first Miles-household letter in the correspondence, and the sisters at the end of it.",
       "verification": "verified-elision",
-      "how_verified": "pdf-image",
+      "how_verified": "page-image",
       "provenance": "PDF pp. 46-47.",
       "verified_on": "2026-08-05",
-      "voice": "period"
+      "voice": "period",
+      "document": "letter"
     },
     {
       "work": "letters-2000",
@@ -73,10 +75,11 @@
       },
       "supports": "The clearest single test of the Croft-Cooke claim, and it fails in the space of two paragraphs.",
       "verification": "verified-exact",
-      "how_verified": "pdf-image",
+      "how_verified": "page-image",
       "provenance": "PDF p. 54.",
       "verified_on": "2026-08-05",
-      "voice": "period"
+      "voice": "period",
+      "document": "letter"
     },
     {
       "work": "letters-2000",
@@ -93,10 +96,11 @@
       },
       "supports": "The earliest register of the friendship — teasing, cat-named, and reproachful about silence — and Wilde and Frank Miles on holiday together in 1876.",
       "verification": "verified-elision",
-      "how_verified": "pdf-image",
+      "how_verified": "page-image",
       "provenance": "PDF p. 55.",
       "verified_on": "2026-08-05",
-      "voice": "period"
+      "voice": "period",
+      "document": "letter"
     },
     {
       "work": "letters-2000",
@@ -113,10 +117,11 @@
       },
       "supports": "The last of the seven Miles pages, and the third time a Miles mention sits next to praise of a woman.",
       "verification": "verified-elision",
-      "how_verified": "pdf-image",
+      "how_verified": "page-image",
       "provenance": "PDF p. 72.",
       "verified_on": "2026-08-05",
-      "voice": "period"
+      "voice": "period",
+      "document": "letter"
     },
     {
       "work": "letters-2000",
@@ -132,10 +137,11 @@
       },
       "supports": "The ordinary footing of the friendship between the tender letters - fishing, house guests, and a joke about his own misanthropy.",
       "verification": "verified-elision",
-      "how_verified": "pdf-image",
+      "how_verified": "page-image",
       "provenance": "PDF p. 86.",
       "verified_on": "2026-08-06",
-      "voice": "period"
+      "voice": "period",
+      "document": "letter"
     },
     {
       "work": "letters-2000",
@@ -151,10 +157,11 @@
       },
       "supports": "The register at its lightest: a note across college, imagining where he is.",
       "verification": "verified-exact",
-      "how_verified": "pdf-image",
+      "how_verified": "page-image",
       "provenance": "PDF p. 92.",
       "verified_on": "2026-08-05",
-      "voice": "period"
+      "voice": "period",
+      "document": "letter"
     },
     {
       "work": "letters-2000",
@@ -170,10 +177,11 @@
       },
       "supports": "The ask — flowers, from him specifically, because he is sick at heart for want of beauty.",
       "verification": "verified-exact",
-      "how_verified": "pdf-image",
+      "how_verified": "page-image",
       "provenance": "PDF p. 92.",
       "verified_on": "2026-08-05",
-      "voice": "period"
+      "voice": "period",
+      "document": "letter"
     },
     {
       "work": "letters-2000",
@@ -189,10 +197,11 @@
       },
       "supports": "The tenderest thing in either Oxford correspondence.",
       "verification": "verified-exact",
-      "how_verified": "pdf-image",
+      "how_verified": "page-image",
       "provenance": "PDF pp. 92-93.",
       "verified_on": "2026-08-05",
-      "voice": "period"
+      "voice": "period",
+      "document": "letter"
     }
   ],
   "date_label": "Oxford and after, 1876-1879"

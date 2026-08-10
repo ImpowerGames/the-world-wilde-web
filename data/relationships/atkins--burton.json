@@ -28,7 +28,7 @@
       },
       "supports": "Cohabitation with Burton across multiple addresses",
       "verification": "verified-exact",
-      "how_verified": "archive-org",
+      "how_verified": "page-image",
       "provenance": "IA in.ernet.dli.2015.499238, leaf 247 (printed p. 207)",
       "verified_on": "2026-08-03",
       "voice": "exchange",
@@ -41,7 +41,8 @@
           "who": "A.",
           "text": "Yes, at Osnaburgh Street, Tachbrook Street, and other places."
         }
-      ]
+      ],
+      "document": "testimony"
     }
   ]
 }

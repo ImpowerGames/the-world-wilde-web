@@ -31,7 +31,7 @@
       },
       "supports": "The Taylor-Mason 'marriage' evidence at trial",
       "verification": "verified-exact",
-      "how_verified": "archive-org",
+      "how_verified": "page-image",
       "provenance": "IA in.ernet.dli.2015.499238, leaf 231 (printed p. 193)",
       "verified_on": "2026-08-03",
       "voice": "exchange",
@@ -48,7 +48,8 @@
           "who": "A.",
           "text": "Yes; he said he did; that he was in woman's dress, and that they had a wedding breakfast."
         }
-      ]
+      ],
+      "document": "testimony"
     }
   ]
 }
