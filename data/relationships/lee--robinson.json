@@ -6,7 +6,7 @@
   ],
   "certainty": "second-hand",
   "certainty_status": "proposed",
-  "certainty_reasoning": "Patricia Pulham's Y90s biography states the attachment and its span; no letter, diary or statement by Lee or Robinson about the relationship was read so far, and Pulham's one citation to Robinson's own writing ('Robinson, 935') is about the visitors to Casa Paget, not about the relationship. Second-hand is a statement about who is talking, not a mark of doubt: Pulham is the standard scholarly account and calls it a romantic friendship without hedging.",
+  "certainty_reasoning": "Patricia Pulham's Y90s biography states the attachment and its span; no letter, diary or statement by Lee or Robinson about the relationship has been read, and Pulham's one citation to Robinson's own writing ('Robinson, 935') concerns the visitors to Casa Paget, not the relationship. Second-hand is a statement about who is talking, not a mark of doubt: Pulham is the standard scholarly account and calls it a romantic friendship without hedging.",
   "start": {
     "y": 1880
   },
@@ -28,7 +28,7 @@
       "supports": "The relationship, its character as Pulham states it, and both its start and end dates.",
       "verification": "verified-exact",
       "how_verified": "web",
-      "provenance": "Https://1890s.ca/lee_bio/ fetched (curl) and read in full; quote sliced byte-exact from the downloaded HTML, then whitespace artifacts introduced by stripping inline markup (spaces around quotation marks, italic titles and punctuation) normalized to the printed reading.",
+      "provenance": "Https://1890s.ca/lee_bio/",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -43,13 +43,13 @@
       },
       "verification": "verified-exact",
       "how_verified": "web",
-      "provenance": "Https://1890s.ca/lee_bio/ fetched (curl) and read in full; quote sliced byte-exact from the downloaded HTML, then whitespace artifacts introduced by stripping inline markup (spaces around quotation marks, italic titles and punctuation) normalized to the printed reading.",
+      "provenance": "Https://1890s.ca/lee_bio/",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
     {
       "quote": "Lee and Robinson met in Florence on 16 October 1880 at a party at Maria Spartali Stillman's and they became steadfast friends and romantic partners for almost eight years – a romantic friendship to which their letters testify (Selected Letters of Vernon Lee, Vols. I and II); and Lee took on the role in Mary's life of a strong companion who at times was both nurturing and domineering. … Lee suffered a long period of depression after the marriage took place in August 1888.",
-      "context": "The editors' biographical note on Mary Robinson in the standard scholarly edition of Lee's correspondence. It states the relationship's character, its exact beginning and its length without hedging, and cites the letters themselves in Vols. I and II. The elision drops the account of Robinson's proposal to James Darmesteter in 1887 and the two families' objections. III, the volume on disk, begins in 1890, after the attachment ended.",
+      "context": "The editors' biographical note on Mary Robinson in the standard scholarly edition of Lee's correspondence. It states the relationship's character, its exact beginning and its length without hedging, and cites the letters themselves in Vols. I and II. The elision drops the account of Robinson's proposal to James Darmesteter in 1887 and the two families' objections. Volume III (1890-1896) begins after the attachment ended.",
       "work": "geoffroy-gagel-vernon-lee-letters-vol3",
       "locator": "PDF pp. 119-120",
       "locator_type": "page",
@@ -59,7 +59,7 @@
       "supports": "The standard edition stating the relationship as romantic, dating its start exactly, giving its length, and recording Lee's depression after the marriage.",
       "verification": "verified-elision",
       "how_verified": "pdf-text",
-      "provenance": "Superscript footnote markers omitted as typography.",
+      "provenance": "Editors' note, Vernon Lee's Letters, vol. III (2024), PDF pp. 119-120.",
       "verified_on": "2026-08-04",
       "speaker": "Sophie Geoffroy and Amanda Gagel, eds.",
       "voice": "modern"
@@ -78,7 +78,7 @@
       "supports": "Robinson's own voice on the relationship and on its aftermath - the surviving affection, and the mutual retrieval of the love letters that documented it.",
       "verification": "verified-elision",
       "how_verified": "pdf-text",
-      "provenance": "Superscript footnote markers omitted as typography.",
+      "provenance": "Robinson to Lee, Christmas Eve 1893, Vernon Lee's Letters, vol. III (2024), PDF pp. 490-491.",
       "verified_on": "2026-08-04",
       "speaker": "Mary Robinson (Mme Darmesteter), letter to Vernon Lee",
       "addressee": "Vernon Lee",
@@ -93,7 +93,7 @@
       "verification": "verified-exact",
       "how_verified": "pdf-text",
       "verified_on": "2026-08-03",
-      "provenance": "PDF page 138, printed folio 120 confirmed in the running head on the rendered page.",
+      "provenance": "PDF p. 138.",
       "evidence_date": {
         "y": 1880
       },
@@ -105,7 +105,7 @@
     {
       "work": "geoffroy-gagel-vernon-lee-letters-vol3",
       "checked_on": "2026-08-04",
-      "finding": "WRONG VOLUME FOR THE ORIGINAL ASK, and the pointer has been re-pointed accordingly. The pointer named `gagel-vernon-lee-letters` (the 2016 Pickering Masters entry, which has no repo path) and wanted 'Lee's own account of the relationship and of its ending'. The volume actually on disk is **Volume III, 1890-1896** - the attachment ran 1880-1888, so Lee's own account of it is in Vols. I and II, which this project does not hold; the edition itself points there. What Vol. III does carry, and what is now recorded, is the editors' biographical note and one letter from Robinson's side in 1893. A whole-volume search finds no letter addressed to Robinson in it: 'Robinson' appears on 70 of 815 pages, almost all editorial apparatus, bibliography and archive listings."
+      "finding": "The copy available is Volume III (1890-1896) of Lee's letters; the attachment ran 1880-1888, so Lee's own account of it is in Vols. I and II, not held here. Vol. III carries the editors' biographical note and one letter from Robinson's side in 1893. A whole-volume search finds no letter addressed to Robinson in it: 'Robinson' appears on 70 of 815 pages, almost all editorial apparatus, bibliography and archive listings."
     }
   ]
 }

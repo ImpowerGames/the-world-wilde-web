@@ -29,7 +29,7 @@
       "supports": "First-person letters by Douglas, quoted in the source by his biographer, addressing Schwabe in explicitly amorous and self-feminising terms - the class-deciding evidence for this edge.",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "PDF page 20 of Murray_2020_Bosie. No printed folio exists: the repo file is an ebook conversion with no page numbers, no running heads and an unpaginated Contents; the offset is n/a and the locator is therefore PDF page, marked 'PDF p.' so it cannot be mistaken for a printed folio.",
+      "provenance": "PDF p. 20. No printed folio exists: the repo file is an ebook conversion with no page numbers, no running heads and an unpaginated Contents; the offset is n/a and the locator is therefore PDF page, marked 'PDF p.' so it cannot be mistaken for a printed folio.",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -45,7 +45,7 @@
       "supports": "That Douglas himself, in a letter to his wife a few months after the March 1902 wedding, reported Schwabe staying with him - the participant-sourced basis for this edge's end date.",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "PDF page 143 of Murray_2020_Bosie. No printed folio exists on the page (ebook conversion); locator is PDF page, marked 'PDF p.'. Murray's superscript endnote marker 47, printed after 'staying with him,', is dropped from the transcription; nothing else altered.",
+      "provenance": "PDF p. 143 (ebook conversion; no printed folios)",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -61,7 +61,7 @@
       "supports": "The precedence of the friendship (Schwabe was Douglas's friend first, 'for some years' before Wilde), and Murray's own reading of it as sexual - stated as inference.",
       "verification": "verified-elision",
       "how_verified": "pdf-text",
-      "provenance": "PDF page 53; no printed folio on the page (ebook conversion). One elision, marked. Evidence_date carries the date of the event described - Douglas bringing Schwabe into Wilde's circle, the friendship already some years old - not Murray's publication year, so the card sorts with the events rather than at the end of the run.",
+      "provenance": "PDF p. 53 (ebook conversion; no printed folios)",
       "verified_on": "2026-08-03",
       "voice": "modern"
     }

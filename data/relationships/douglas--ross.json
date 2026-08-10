@@ -3,7 +3,7 @@
   "people": ["douglas", "ross"],
   "certainty": "second-hand",
   "certainty_status": "proposed",
-  "certainty_reasoning": "Mckenna read in the source - this record's basis changed. (2) The dating is corrected: McKenna places the meeting in 1893, with Wilde's involvement with Walter Grainger as the time-marker, not before or around Douglas's 1891 introduction to Wilde as this record previously framed it. Against McKenna stand two biographers read in full who never assert it - see the disputed block.",
+  "certainty_reasoning": "McKenna places the meeting in 1893, with Wilde's involvement with Walter Grainger as the time-marker - not before or around Douglas's 1891 introduction to Wilde. Two biographers never assert the affair; see the disputed block.",
   "start": {
     "y": 1892,
     "circa": true
@@ -15,8 +15,8 @@
   "summary": "Douglas and Ross were fellow intimates of Wilde from 1892 and remained on good terms long after Wilde's death: Custance and Douglas courted in the upper room of Ross's Carfax gallery with his consent, and Ross stood at the back of the church at their 1902 wedding. McKenna and others have alleged a brief affair between the two around Douglas's entry into the circle; no primary evidence for it was reachable so far, and the Letters apparatus records only the Lionel Johnson introduction of 1891. From the Ransome libel trial of 1913 — brought over a book Douglas said was written 'at the instigation of' Ross — the friendship collapsed into open war: Douglas libelled Ross in deliberately actionable terms ('a notorious sodomite', among others) until Ross prosecuted him at the Old Bailey, where an eight-day trial ended without a verdict; the enmity ran until Ross's death in 1918.",
   "disputed": {
     "claim": "That the Douglas-Ross connection was sexual or romantic, as distinct from a close friendship.",
-    "asserted_by": "Neil McKenna, The Secret Life of Oscar Wilde, PDF p. 378, read in the source 2026-08-03: 'some sort of relationship ensued, sexual as well as emotional'. His own characterization; the Douglas quotation he adduces attests devotion and admiration only.",
-    "disputed_by": "Two biographers read in full, by informative silence. Douglas Murray, Bosie (2020 edn): 388 Ross occurrences across 103 pages, every pre-1900 one read in context, never asserts or rejects an affair; at the point where it would belong he writes friendship. Jonathan Fryer, Robbie Ross (2000), Ross's own biographer: asserts nothing romantic, and his index subheadings for Douglas are 'battle against Ross' and 'and the Dansey affair'. Fryer states negatives explicitly when he means them - he writes that Ross and More Adey shared lodgings 'not as lovers, but as two bachelor friends' - which is what makes his silence here carry weight.",
+    "asserted_by": "Neil McKenna, The Secret Life of Oscar Wilde, PDF p. 378: 'some sort of relationship ensued, sexual as well as emotional'. His own characterization; the Douglas quotation he adduces attests devotion and admiration only.",
+    "disputed_by": "By informative silence, two biographers: Douglas Murray, Bosie (2020 edn): 388 Ross occurrences across 103 pages, every pre-1900 one read in context, never asserts or rejects an affair; at the point where it would belong he writes friendship. Jonathan Fryer, Robbie Ross (2000), Ross's own biographer: asserts nothing romantic, and his index subheadings for Douglas are 'battle against Ross' and 'and the Dansey affair'. Fryer states negatives explicitly when he means them - he writes that Ross and More Adey shared lodgings 'not as lovers, but as two bachelor friends' - which is what makes his silence here carry weight.",
     "grounds": "One asserting biographer against two silent ones, with the single piece of participant testimony falling short of the claim. Fryer does record that Ross named Douglas among the three most important men in his life (p. 198) - importance, in indirect speech, not romance."
   },
   "sources": [
@@ -29,10 +29,10 @@
       "evidence_date": {
         "y": 1893
       },
-      "supports": "The assertion at issue: McKenna states a Douglas-Ross relationship 'sexual as well as emotional'. Note it is McKenna's own characterization, and that he dates the meeting to 1893 - not, as this record previously framed it, to before or around Douglas's 1891 introduction to Wilde.",
+      "supports": "The assertion at issue: McKenna states a Douglas-Ross relationship 'sexual as well as emotional'. Note it is McKenna's own characterization, and that he dates the meeting to 1893.",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "PDF p. 378. This edition carries no printed folios or running heads (ebook conversion) - the locator is a PDF page, not a printed page.",
+      "provenance": "PDF p. 378 (ebook conversion; no printed folios)",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -46,7 +46,7 @@
       "supports": "Douglas's own words - the only participant testimony on this pair. They attest devotion and admiration professed by Ross, not a sexual relationship; the sexual reading is McKenna's addition.",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "PDF p. 378. This edition carries no printed folios or running heads (ebook conversion) - the locator is a PDF page, not a printed page.",
+      "provenance": "PDF p. 378 (ebook conversion; no printed folios)",
       "verified_on": "2026-08-03",
       "voice": "period",
       "speaker": "Lord Alfred Douglas, Autobiography"
@@ -63,13 +63,13 @@
       "supports": "The standard editorial account of Douglas's entry into Wilde's orbit — via Johnson in 1891; the apparatus nowhere derives the introduction from Ross or states a Ross–Douglas affair.",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "PDF p. 445 (printed folio 423 confirmed on the rendered page).",
+      "provenance": "PDF p. 445.",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
     {
       "quote": "My dearest Bobbie, Bosie has insisted on stopping here for sandwiches. He is quite like a narcissus – so white and gold. I will come either Wednesday or Thursday night to your rooms. Send me a line. Bosie is so tired: he lies like a hyacinth on the sofa, and I worship him. You dear boy. Ever yours OSCAR",
-      "context": "Wilde to Robert Ross, [? May–June 1892], Royal Palace Hotel, Kensington. Editors' note 1 at the page: 'This letter cannot be dated exactly, but it seems likely to have been written fairly soon after May 1892 (see p.461).' Earliest read evidence of Douglas and Ross sharing Wilde's intimate orbit — evidence of co-presence, not of relations between the two.",
+      "context": "Wilde to Robert Ross, [? May–June 1892], Royal Palace Hotel, Kensington. Editors' note 1: 'This letter cannot be dated exactly, but it seems likely to have been written fairly soon after May 1892 (see p.461).' Earliest read evidence of Douglas and Ross sharing Wilde's intimate orbit — evidence of co-presence, not of relations between the two.",
       "work": "letters-2000",
       "locator": "p. 526",
       "locator_type": "page",
@@ -85,7 +85,7 @@
       "supports": "By mid-1892 Wilde writes to Ross about Bosie in terms assuming familiarity; the two men are co-members of the inner circle.",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "PDF p. 546 (printed folio 526 confirmed on the rendered page).",
+      "provenance": "PDF p. 546.",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Robert Ross"
@@ -103,7 +103,7 @@
       "supports": "Friendly relations at and 'for several years after' the 1902 wedding; Ross hosted the couple's secret meetings and attended the ceremony.",
       "verification": "verified-exact",
       "how_verified": "archive-org",
-      "provenance": "IA autobiographyofl0000doug leaf 226, IIIF page image read; printed folio 198 confirmed (Carfax sentence verified at leaf 225, folio 197).",
+      "provenance": "IA autobiographyofl0000doug leaf 226 (printed folio 198); Carfax sentence at leaf 225 (folio 197)",
       "verified_on": "2026-08-03",
       "voice": "period"
     },
@@ -119,7 +119,7 @@
       "supports": "The break dated to 1913 (Ransome trial) — with Douglas himself placing the estrangement earlier ('because I declined to go on associating with him'); Douglas's belief that Ross instigated the Ransome book.",
       "verification": "verified-elision",
       "how_verified": "archive-org",
-      "provenance": "IA autobiographyofl0000doug leaf 51, IIIF page image read; printed folio 33 confirmed (campaign passages verified at leaves 60-61, folios 42-43).",
+      "provenance": "IA autobiographyofl0000doug leaf 51 (printed folio 33); campaign passages at leaves 60-61 (folios 42-43)",
       "verified_on": "2026-08-03",
       "voice": "period"
     },
@@ -136,10 +136,10 @@
           "y": 1892
         }
       },
-      "supports": "Non-corroboration of the alleged early-1890s Douglas-Ross affair by a named biographer who can be read in the source: Murray's account of their meeting is friendship formed inside Wilde's circle, with the rivalry running through Wilde rather than between the two men.",
+      "supports": "Non-corroboration of the alleged early-1890s Douglas-Ross affair by a named biographer: Murray's account of their meeting is friendship formed inside Wilde's circle, with the rivalry running through Wilde rather than between the two men.",
       "verification": "verified-elision",
       "how_verified": "pdf-text",
-      "provenance": "PDF page 53 of Murray_2020_Bosie. No printed folio exists: the file is an ebook conversion with no page numbers, no running heads and an unpaginated Contents, so the offset is n/a and the locator is PDF page, marked 'PDF p.'.",
+      "provenance": "PDF p. 53. No printed folio exists: the file is an ebook conversion with no page numbers, no running heads and an unpaginated Contents, so the offset is n/a and the locator is PDF page, marked 'PDF p.'.",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -155,7 +155,7 @@
       "supports": "The closest thing in Murray to intimacy between the two men in the alleged period - and it runs through a third person, not between them: Ross passes the boy's whereabouts to Douglas, and the two are jointly exposed to prosecution. Evidence of shared sexual milieu, not of a relationship.",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "PDF pages 68 and 69 of Murray_2020_Bosie, both; no printed folios (ebook conversion). The quoted sentences are contiguous on PDF p. 68; the continuation quoted in the context line is at PDF p. 69.",
+      "provenance": "PDF pp. 68-69 (ebook conversion; no printed folios)",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -172,7 +172,7 @@
       "supports": "Douglas's own retrospective denial, in 1909 and in his own hand, that Ross had ever been a real friend - dating the break four years before the Ransome trial and locating it in Douglas's post-conversion turn against homosexuality rather than in 1913.",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "PDF page 170 of Murray_2020_Bosie; no printed folio (ebook conversion).",
+      "provenance": "PDF p. 170 (ebook conversion; no printed folios.)",
       "verified_on": "2026-08-03",
       "voice": "period",
       "speaker": "Lord Alfred Douglas",
@@ -190,7 +190,7 @@
       "supports": "A reported first-person statement by Ross placing Douglas beside his two documented lovers - Wilde and Freddie Smith - as the three most important men in his life. The claim reported is importance, not romance, and it is unsourced on the page: a lead toward a Douglas-Ross intimacy, not evidence of one.",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "PDF page 220 of Fryer_2000_Robbie-Ross, printed folio 198 confirmed on the rendered page. Offset is +22 in this half of the scan and +14 in the first half.",
+      "provenance": "PDF p. 220. Offset is +22 in this half of the scan and +14 in the first half.",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -207,7 +207,7 @@
       "supports": "Non-corroboration calibrated: Fryer's readiness to state a negative explicitly is what makes his silence on a Douglas-Ross affair informative rather than merely incurious.",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "PDF page 80, printed folio 66 confirmed on the rendered page.",
+      "provenance": "PDF p. 80.",
       "verified_on": "2026-08-03",
       "voice": "modern"
     }
@@ -216,7 +216,7 @@
     {
       "work": "fryer-2000",
       "checked_on": "2026-08-04",
-      "finding": "COMPLETE SCAN of all 304 pages: eleven sentences contain both a Douglas token (Bosie/Douglas) and an intimacy token (lover/affair/slept with/sexual/seduced/in love with). NONE asserts a Ross-Douglas relationship. All eleven are false positives: 'the two lovers' means Wilde and Bosie (p. idx105); 'affair' means 'matter' (the Dansey affair, the Salome Row); Drumlanrig and Rosebery; Bosie's 'sexual interest in young women'; Crosland's attack ON Ross as a 'seducer of young boys'; and two index pages. The strongest single datum runs the other way: Douglas's own solicitors tried to get a Pentonville prisoner to state he had had sexual relations with Ross. Fryer - the biographer with the best access to Ross's papers and every incentive to know - never makes the claim. This confirms the absence the pointer was raised to test."
+      "finding": "None of the eleven sentences in Fryer that pair Douglas with an intimacy term (lover, affair, slept with, sexual, seduced, in love with) asserts a Ross-Douglas relationship. All are false positives: 'the two lovers' means Wilde and Bosie (p. idx105); 'affair' means 'matter' (the Dansey affair, the Salome Row); Drumlanrig and Rosebery; Bosie's 'sexual interest in young women'; Crosland's attack on Ross as a 'seducer of young boys'; and two index pages. The strongest datum runs the other way: Douglas's own solicitors tried to get a Pentonville prisoner to state he had had sexual relations with Ross, and Fryer - the biographer with the best access to Ross's papers - never makes the claim."
     }
   ]
 }

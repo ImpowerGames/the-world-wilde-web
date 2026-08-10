@@ -6,7 +6,7 @@
   ],
   "certainty": "self-reported",
   "certainty_status": "proposed",
-  "certainty_reasoning": "Sox's own wording is unambiguous and repeated: Marshall is 'the love of his life' (p. 37), 'his future lover' (p. 42), 'his great love' (p. 128), 'his beloved (Puppy)' (p. viii), and after the 1889 capitulation letter Sox writes flatly 'John Marshall admitted he was in love' (p. 44). The evidence Sox prints is participant correspondence in the source (drawn, per his pp. ix-x, from the Warren-Marshall letters printed by Burdett & Goddard 1941 and the originals at the Ashmolean): Warren's 1887-89 wooing letters ('take lodgings with me?', 'dine alone with me'), Marshall's 1889 'my love to you' letter, Marshall's 1893 'Puppy dear. Not proposed as documented-sexual: no passage read attests sexual relations in first person - the letters attest love, cohabitation and lifelong partnership; the nearest sexual framings are Warren's authorship of A Defence of Uranian Love (pp. 153-154) and his 'the Museum was truly a paederastic evangel. It must be counted as a result of love' (pp. 128-129), plus Fothergill's 'Ned never touched a woman in his life, nor, perhaps had Marshall' (p. 76), which cuts both ways. Caveat for the owner on the consensus criterion: Sox is the only secondary source read so far; Burdett & Goddard 1941 corroborates the pair-bond in passages Sox quotes ('replicas of each other' p. 39; Ned telling Burdett he had wanted Marshall 'to be buried with me' p. 130) but was not independently read - if two independently-read secondaries are required, this technically sits at single-source until Burdett-Goddard or Martin Green is read; 'alleged' would however misfit a bond that no source read contests. Addendum (p. 21, rendered): analysing Warren's A Tale of Pausanian Love, Sox writes that before they met 'Warren and Marshall were equally inexperienced, and both were very confused regarding their sexuality', and that while Marshall 'was not adverse to the idea of marriage', for Ned 'that course was utterly unthinkable and a betrayal of homosexual idealism' - Sox's most direct statement of the partnership's homosexual-idealist frame.",
+  "certainty_reasoning": "Sox's own wording is unambiguous and repeated: Marshall is 'the love of his life' (p. 37), 'his future lover' (p. 42), 'his great love' (p. 128), 'his beloved (Puppy)' (p. viii), and after the 1889 capitulation letter Sox writes flatly 'John Marshall admitted he was in love' (p. 44). The evidence Sox prints is participant correspondence in the source (drawn, per his pp. ix-x, from the Warren-Marshall letters printed by Burdett & Goddard 1941 and the originals at the Ashmolean): Warren's 1887-89 wooing letters ('take lodgings with me?', 'dine alone with me'), Marshall's 1889 'my love to you' letter, Marshall's 1893 'Puppy dear' letter. No passage attests sexual relations in the first person - the letters attest love, cohabitation and lifelong partnership; the nearest sexual framings are Warren's authorship of A Defence of Uranian Love (pp. 153-154) and his 'the Museum was truly a paederastic evangel. It must be counted as a result of love' (pp. 128-129), plus Fothergill's 'Ned never touched a woman in his life, nor, perhaps had Marshall' (p. 76), which cuts both ways. Sox is the only secondary source read; Burdett & Goddard 1941 corroborates the pair-bond in passages Sox quotes ('replicas of each other', p. 39; Ned telling Burdett he had wanted Marshall 'to be buried with me', p. 130) but was not independently read. Analysing Warren's A Tale of Pausanian Love, Sox writes that before they met 'Warren and Marshall were equally inexperienced, and both were very confused regarding their sexuality', and that while Marshall 'was not adverse to the idea of marriage', for Ned 'that course was utterly unthinkable and a betrayal of homosexual idealism' - Sox's most direct statement of the partnership's homosexual-idealist frame.",
   "start": {
     "y": 1889
   },
@@ -25,10 +25,10 @@
       "evidence_date": {
         "y": 1889
       },
-      "supports": "Promoted to lead by the Q2 quality pass, displacing Sox's phrase 'the love of his life'. This is the passage in which a participant says most plainly what the bond was: Marshall's own letter ending the two-year courtship, tracing how Warren stopped being a set of qualities and became simply 'Warren', and closing on 'my love to you'. Marshall's letter to Warren, September 1889, as printed by Sox; Sox's flat sentence after it - 'John Marshall admitted he was in love' - is the historian reading the same letter, and is kept inside the quotation so the reader can weigh the two. Partnership begun November 1889.",
+      "supports": "The passage in which a participant says most plainly what the bond was: Marshall's own letter ending the two-year courtship, tracing how Warren stopped being a set of qualities and became simply 'Warren', and closing on 'my love to you'. Marshall's letter to Warren, September 1889, as printed by Sox; Sox's flat sentence after it - 'John Marshall admitted he was in love' - is the historian reading the same letter, and is kept inside the quotation so the reader can weigh the two. Partnership begun November 1889.",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "PDF pages 59-60, printed folios 43-44 confirmed on rendered pages. Inner '. ' ellipses are as printed.",
+      "provenance": "PDF pp. 59-60. Inner '. ' ellipses are as printed.",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -42,7 +42,7 @@
       "supports": "Sox's class-deciding characterization: Marshall as 'the love of his life'; the 'Puppy' nickname",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "PDF page 53, printed folio 37 confirmed on rendered page.",
+      "provenance": "PDF p. 53.",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -56,7 +56,7 @@
       "supports": "Sox's 'his future lover' wording; the 'numerous and intense' courtship correspondence of 1887-89",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "PDF page 58, printed folio 42 confirmed on rendered page. The Curtius letter is undated in the pages read.",
+      "provenance": "PDF p. 58. The Curtius letter is undated in the pages read.",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -73,7 +73,7 @@
       "supports": "Participant letter: Marshall's emotional dependence ('I would sooner do anything than live alone'); the mutual 'Puppy' nickname in first-person use",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "PDF pages 80-81, printed folios 64-65 confirmed on rendered pages.",
+      "provenance": "PDF pp. 80-81.",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -89,7 +89,7 @@
       "supports": "The marriage as the record frames it: Mary's own hope that it 'would unite Johnny more closely to Ned'; Sox: 'Neither love nor sex had anything to do with the union'; Fothergill on the men's celibacy toward women",
       "verification": "verified-elision",
       "how_verified": "pdf-text",
-      "provenance": "PDF page 92, printed folio 76 confirmed on rendered page. Chain for the first block: Fothergill memoir, as printed in Sox 1991, p. 76.",
+      "provenance": "PDF p. 92. Chain for the first block: Fothergill memoir, as printed in Sox 1991, p. 76.",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -105,7 +105,7 @@
       "supports": "The marriage strain: Warren's 'betrayal of their common ideal' and his standing by Marshall 'married or unmarried'",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "PDF page 94, printed folio 78 confirmed on rendered page.",
+      "provenance": "PDF p. 94.",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -122,7 +122,7 @@
       "supports": "Warren's first-person account of Marshall's death: cohabiting again, the good-night kiss, 'good-bye Puppy' as Marshall's last words to him. Read with the burial passage below (p. 130), this is Warren's own answer to what Marshall was to him.",
       "verification": "verified-elision",
       "how_verified": "pdf-text",
-      "provenance": "PDF pages 142-143, printed folios 126-127 confirmed on rendered pages. Chain: Warren letter to Fothergill, as printed in Sox 1991, pp. 126-127.",
+      "provenance": "PDF pp. 142-143. Chain: Warren letter to Fothergill, as printed in Sox 1991, pp. 126-127.",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -138,7 +138,7 @@
       "supports": "Warren's own most explicit claim on the relationship, and the counterpart to Marshall's 1889 avowal at the head of this record: he had wanted to be buried with Marshall. It is a spousal claim made in the one register the law left open to him, and the clause that follows is Warren's account of why it failed - Marshall's will was made in the estrangement after his wife's death, 'before he had begun to understand me again'. Warren to Osbert Burdett, as quoted by Sox.",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "PDF page 146 (printed folio 130 confirmed on the rendered page).",
+      "provenance": "PDF p. 146 .",
       "verified_on": "2026-08-03",
       "voice": "modern"
     }

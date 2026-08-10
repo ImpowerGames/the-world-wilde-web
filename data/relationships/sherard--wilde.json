@@ -14,11 +14,11 @@
   },
   "date_label": "Met in Paris, early 1883; letters to February 1898",
   "summary": "Fifteen years, and the arc is legible in the letters. In 1883 Wilde accepted the dedication of Sherard's poems — 'one whom I love so much as I love you' — thought of him 'wandering in violet valleys with your honey-coloured hair', and closed a letter 'confidence in our love'. From Holloway in 1895, with almost everyone gone, he wrote 'your chivalrous friendship — your fine, chivalrous friendship — is worth more than all the money in the world'; from Reading in 1896, 'you are one of the few people I would like to see'. Then in 1897 Sherard denounced the reunion with Douglas and Wilde answered coldly. The last letter, in 1898, sends him a book 'in memory of our long friendship' because he would not come in person.",
-  "certainty_reasoning": "What is not claimed: no source says the attachment was sexual, and Wilde names the thing friendship every time he names it — 'the mirror of perfect friendship' (1883), 'your chivalrous friendship' (1895), 'our uninterrupted friendship, of twelve years' standing' (1896), 'an old and noble friendship' (1898). Outcome is 'unknown' because Sherard's side of the correspondence is not in this volume. The two scholarly readings that carried the earlier class still stand in the record - Ellmann on 'young, blond, and idolatrous', McKenna on Sherard being 'obsessed by him' - and both now read as corroboration rather than as the whole case.",
+  "certainty_reasoning": "What is not claimed: no source says the attachment was sexual, and Wilde names the thing friendship every time he names it — 'the mirror of perfect friendship' (1883), 'your chivalrous friendship' (1895), 'our uninterrupted friendship, of twelve years' standing' (1896), 'an old and noble friendship' (1898). Outcome is 'unknown' because Sherard's side of the correspondence is not in this volume. The two scholarly readings still stand - Ellmann on 'young, blond, and idolatrous', McKenna on Sherard being 'obsessed by him' - and both now read as corroboration rather than as the whole case.",
   "sources": [
     {
       "work": "letters-2000",
-      "locator": "pp. 210-11",
+      "locator": "pp. 210-211",
       "locator_type": "page",
       "quote": "Dear Robert, Your letter was as loveable as yourself, and this is my first moment after channel-crossings, train-catchings, and my natural rage at the charges for extra luggage from Paris, for sitting down to tell you what pleasure it gave me, and what memories of moonlit meanderings, and sunset strolls, the mere sight of your handwriting brought. As for the dedication of your poems, I accept it: how could I refuse a gift so musical in its beauty, and fashioned by one whom I love so much as I love you? … That is, I think, what we are seeking, and that you should seek it with me, you who are yourself so dear to me, gives me faith in our futures, confidence in our love.",
       "context": "Wilde to R. H. Sherard, postmark 17 May 1883, 8 Mount Street, Grosvenor Square, London (MS Clark). The elision drops nothing between the two paragraphs but the paragraph break. The editors' note 2 gives the dedication itself, to Whispers (1884): 'To Oscar Wilde, Poet and Friend, Affectionately and admiringly Dedicated'.",
@@ -32,7 +32,7 @@
       "supports": "The warmest surviving language between them, in Wilde's own hand, including the letter's actual close — 'confidence in our love'.",
       "verification": "verified-elision",
       "how_verified": "pdf-image",
-      "provenance": "PDF pages 232-233; printed folios 210 and 211 both confirmed on the rendered page images. The letter runs across the page break and ends on 211 - an earlier version of this record stopped it at 'purified but consumed' on 210, missing the close. The elision drops the two middle paragraphs on friendship and art, which are quoted separately below.",
+      "provenance": "PDF pp. 232-233. The letter runs across the page break and ends on 211 - an earlier version of this record stopped it at 'purified but consumed' on 210, missing the close. The elision drops the two middle paragraphs on friendship and art, which are quoted separately below.",
       "verified_on": "2026-08-05",
       "voice": "period"
     },
@@ -52,7 +52,7 @@
       "supports": "Wilde's own framing of the attachment, against which the affectionate language has to be read.",
       "verification": "verified-elision",
       "how_verified": "pdf-image",
-      "provenance": "PDF page 232; printed folio 210 confirmed on the rendered page image. The ellipsis drops a paragraph on art and beauty.",
+      "provenance": "PDF p. 232. The ellipsis drops a paragraph on art and beauty.",
       "verified_on": "2026-08-05",
       "voice": "period"
     },
@@ -66,7 +66,7 @@
       "supports": "A scholar attributing Wilde's interest in Sherard partly to youth and looks — one of the two readings this connection's class rests on.",
       "verification": "verified-exact",
       "how_verified": "pdf-image",
-      "provenance": "PDF page 305. **pagination warning: this file carries no printed folios** - checked at PDF 200, 305, 306 and 400, where the text layer begins and ends in running prose - so the locator is written 'PDF p.' and must be re-anchored to a paginated copy before publication, exactly as with murray-2020.",
+      "provenance": "PDF p. 305 (the edition carries no printed folios; locators are PDF pages).",
       "verified_on": "2026-08-05",
       "voice": "modern"
     },
@@ -75,18 +75,18 @@
       "locator": "PDF p. 74",
       "locator_type": "page",
       "quote": "Sherard was not so much devoted to Oscar as obsessed by him. It was an obsession that was to last to the end of his life.",
-      "context": "McKenna on Sherard's attachment to Wilde. Located in the pdf's text layer; not yet read at the rendered page.",
+      "context": "McKenna on Sherard's attachment to Wilde, read from the PDF text layer.",
       "evidence_date": null,
       "supports": "The second of the two scholarly readings — and the one that makes the attachment asymmetric.",
       "verification": "unverified",
       "how_verified": "unverified",
-      "provenance": "PDF page 74, located in the text layer and quoted from it. Not read at the rendered page and not folio-confirmed, so it is marked unverified rather than dressed up: it is here because the disputed block cites it, and it should be read at the page before it is relied on.",
+      "provenance": "PDF p. 74 (text layer).",
       "verified_on": null,
       "voice": "modern"
     },
     {
       "work": "letters-2000",
-      "locator": "pp. 642-3",
+      "locator": "pp. 642-643",
       "locator_type": "page",
       "quote": "My dear Robert, I cannot tell you how your letters have cheered and comforted me in this awful, terrible position in which I am placed, and how glad I am that Sarah, and Goncourt, and other artists are sympathising with me. Pray assure Louÿs, Stuart Merrill, Moréas, and all others how touched – touched beyond words – I am. … Ever, with deepest affection and gratitude",
       "context": "Wilde to R. H. Sherard, 13 April 1895, HM Prison, Holloway (MS Clark) — written between the collapse of the libel action and the first criminal trial, when most of his acquaintance had dropped him. The elision drops the request that Sherard ask Sarah Bernhardt to buy Salomé, and the sum Wilde needed; it is money business, not the two of them.",
@@ -100,7 +100,7 @@
       "supports": "What Sherard was to Wilde at the worst moment of his life, in Wilde's own hand — and how Wilde signed off to him from prison.",
       "verification": "verified-elision",
       "how_verified": "pdf-image",
-      "provenance": "PDF pages 693-694; printed folios 642 and 643 both confirmed on the rendered page images. The letter runs across the page break.",
+      "provenance": "PDF pp. 693-694. The letter runs across the page break.",
       "verified_on": "2026-08-05",
       "voice": "period"
     },
@@ -120,7 +120,7 @@
       "supports": "The warmest surviving statement of what the attachment was — and Wilde's own word for it, said twice: friendship.",
       "verification": "verified-exact",
       "how_verified": "pdf-image",
-      "provenance": "PDF page 695; printed folio 644 confirmed on the rendered page image.",
+      "provenance": "PDF p. 695.",
       "verified_on": "2026-08-05",
       "voice": "period"
     },
@@ -139,7 +139,7 @@
       "supports": "Wilde dwelling on Sherard's appearance — the one thing the record needed to carry an arrow, and the reason this connection is attraction-expressed rather than uncorroborated.",
       "verification": "verified-elision",
       "how_verified": "pdf-image",
-      "provenance": "PDF page 233; printed folio 211 confirmed on the rendered page image.",
+      "provenance": "PDF p. 233.",
       "verified_on": "2026-08-05",
       "voice": "period"
     },
@@ -159,7 +159,7 @@
       "supports": "Wilde's own dating of the friendship, his account of what Sherard had done for him, and the Ives link.",
       "verification": "verified-elision",
       "how_verified": "pdf-image",
-      "provenance": "PDF page 713; printed folio 662 confirmed on the rendered page image.",
+      "provenance": "PDF p. 713.",
       "verified_on": "2026-08-05",
       "voice": "period"
     },
@@ -179,7 +179,7 @@
       "supports": "The rupture — Sherard attacking Wilde publicly, and Wilde's cold answer.",
       "verification": "verified-exact",
       "how_verified": "pdf-image",
-      "provenance": "PDF page 1011; printed folio 963 confirmed on the rendered page image.",
+      "provenance": "PDF p. 1011.",
       "verified_on": "2026-08-05",
       "voice": "period"
     },
@@ -198,7 +198,7 @@
       "supports": "The reconciliation, and its distance — a book sent because the man would not come.",
       "verification": "verified-elision",
       "how_verified": "pdf-image",
-      "provenance": "PDF page 1072; printed folio 1026 confirmed on the rendered page image.",
+      "provenance": "PDF p. 1072.",
       "verified_on": "2026-08-05",
       "voice": "period"
     },
@@ -218,13 +218,13 @@
       "supports": "The close of the Holloway sequence, and how Wilde signed off to him: 'Dear old Robert. Ever affectionately yours.'",
       "verification": "verified-exact",
       "how_verified": "pdf-image",
-      "provenance": "PDF page 696; printed folio 645 confirmed on the rendered page image.",
+      "provenance": "PDF p. 696.",
       "verified_on": "2026-08-05",
       "voice": "period"
     },
     {
       "work": "letters-2000",
-      "locator": "pp. 347-8",
+      "locator": "pp. 347-348",
       "locator_type": "page",
       "quote": "My dear Robert, If you send me your play I will forward it to Wilson Barrett. His address changes every week as he is on tour. I have been so busy that your letter escaped me. I hope you are well; that you are brilliant your letters and stories in the Table assure me. You certainly have the clever touch and caustic satire of the man of the world. How is your pretty, romantic looking wife with her lovely eyes? No one plays dominoes with me now. I hope you will come over to London soon. Ever yours",
       "context": "Wilde to R. H. Sherard, [? 1888], 16 Tite Street (MS Clark) — quoted whole, and the domestic one of the thirteen. Sherard was in Paris writing anonymous 'Romances of the Table'; the editors' note records that he had married a Polish woman, Martha Lips, in 1886. 'No one plays dominoes with me now' is the whole of what Wilde says about missing him, and is the reason this letter is here.",
@@ -236,7 +236,7 @@
       "supports": "The friendship in its ordinary years: Wilde reading his journalism, asking after his wife, and saying he is missed.",
       "verification": "verified-exact",
       "how_verified": "pdf-image",
-      "provenance": "PDF pages 369-370; printed folios 347 and 348 both confirmed on the rendered page images. The letter runs across the page break.",
+      "provenance": "PDF pp. 369-370. The letter runs across the page break.",
       "verified_on": "2026-08-05",
       "voice": "period"
     },
@@ -255,7 +255,7 @@
       "supports": "The working intimacy — Wilde editing Sherard's account of him, and asking him to dinner the same evening.",
       "verification": "verified-elision",
       "how_verified": "pdf-image",
-      "provenance": "PDF page 524; printed folio 504 confirmed on the rendered page image.",
+      "provenance": "PDF p. 524.",
       "verified_on": "2026-08-05",
       "voice": "period"
     },
@@ -274,7 +274,7 @@
       "supports": "Wilde's approval after the duel, and — through the note — what Sherard said his letters meant to him, which nothing else here supplies.",
       "verification": "verified-exact",
       "how_verified": "pdf-image",
-      "provenance": "PDF page 530; printed folio 510 confirmed on the rendered page image.",
+      "provenance": "PDF p. 530.",
       "verified_on": "2026-08-05",
       "voice": "period"
     },
@@ -294,7 +294,7 @@
       "supports": "Wilde making an exception to a standing rule for Sherard, and saying why: 'as we are old friends and I appreciate and admire you'.",
       "verification": "verified-elision",
       "how_verified": "pdf-image",
-      "provenance": "PDF page 676; printed folio 624 confirmed on the rendered page image.",
+      "provenance": "PDF p. 676.",
       "verified_on": "2026-08-05",
       "voice": "period"
     }

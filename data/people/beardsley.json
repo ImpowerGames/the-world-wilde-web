@@ -15,7 +15,7 @@
   "bio_sources": [
     "letters-2000"
   ],
-  "bio_note": "The volume's General Index. The editors note the letter is 'APPARENTLY THE ONLY SURVIVING LETTER FROM WILDE TO BEARDSLEY' and that it cannot be dated within six months - they include it anyway for that reason, which is worth recording as an editorial decision. His own index entry records A cooling: 'his dislike of W' (printed 919n) at Dieppe in 1897, alongside his being supported by [[raffalovich]] and his connection to [[smithers]], who published the Savoy. Those folios are unread and the falling-out is not documented here.",
+  "bio_note": "The letter is 'APPARENTLY THE ONLY SURVIVING LETTER FROM WILDE TO BEARDSLEY', undatable within six months. The General Index records a cooling - 'his dislike of W' (printed 919 n.) at Dieppe in 1897.",
   "context_engagements": [
     {
       "partner_name": "Oscar Wilde",
@@ -36,7 +36,7 @@
           "supports": "The only surviving letter, and that Wilde, Ross and Beardsley dined together.",
           "verification": "verified-exact",
           "how_verified": "pdf-image",
-          "provenance": "PDF page 630; printed folio 578 confirmed on the rendered page image.",
+          "provenance": "PDF p. 630.",
           "verified_on": "2026-08-06",
           "voice": "period"
         },
@@ -55,7 +55,7 @@
           "supports": "What Wilde thought Beardsley alone could see.",
           "verification": "verified-exact",
           "how_verified": "pdf-image",
-          "provenance": "PDF page 630; printed folio 578 confirmed on the rendered page image.",
+          "provenance": "PDF p. 630.",
           "verified_on": "2026-08-06",
           "voice": "period"
         }

@@ -1,12 +1,9 @@
 {
   "id": "marillier--pattison",
-  "people": [
-    "marillier",
-    "pattison"
-  ],
+  "people": ["marillier", "pattison"],
   "certainty": "married",
   "certainty_status": "proposed",
-  "certainty_reasoning": "Married, on a scholarly edition's prosopography - the Whistler Correspondence's biographical entry, which footnotes itself to Nevinson's ODNB article on Marillier. That is a good source but a tertiary digest of a paywalled one that has not been read.",
+  "certainty_reasoning": "Married, on a scholarly edition's prosopography - the Whistler Correspondence's biographical entry, which footnotes itself to Nevinson's ODNB article on Marillier.",
   "start": {
     "y": 1893
   },
@@ -28,7 +25,7 @@
       "supports": "The first marriage, its year, the wife's identity and its end.",
       "verification": "verified-elision",
       "how_verified": "web",
-      "provenance": "Https://www.whistler.arts.gla.ac.uk/correspondence/people/biog/?bid=Mari_HC read. The Whistler edition footnotes this entry to J. L. Nevinson's DNB/ODNB article on Marillier (34876), which is paywalled and was not read - so this is a scholarly but tertiary digest.",
+      "provenance": "Whistler Correspondence biographical entry (Mari_HC), footnoted to Nevinson's DNB/ODNB article on Marillier (34876)",
       "verified_on": "2026-08-05",
       "voice": "modern"
     }

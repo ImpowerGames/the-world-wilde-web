@@ -6,7 +6,7 @@
   "certainty_reasoning": "Cook, Queer Domesticities (2014), names him at printed 96, 100, 102 and 109 - as 'Elephant', a later addition to the household, an alcoholic Ives kept when the Goddard daughters left over his drinking, and joint inheritor of the Adelaide Road house with Bloodworth. Cook's account of the household is drawn from Ives's own 122-volume diary and his endnotes cite it by volume and date, but no passage naming Saunders in Ives's own voice appears in any source read, so the attestation is the historian's rather than a participant's.",
   "start": null,
   "end": null,
-  "date_label": "Ives's household, later years - undated in any source read so far.",
+  "date_label": "Ives's household, later years - undated in the sources.",
   "summary": "Stanley Saunders - 'Elephant' among the household nicknames - lived with George Ives at Adelaide Road in Ives's later years. Cook names him as a household member, as joint inheritor of the house and its contents with Harold Bloodworth, and as the man Ives kept when the Goddard daughters left over his drinking. Cook characterises the Adelaide Road relationships as having 'possibly started sexually' before becoming platonic, with bed-sharing continuing throughout. No first-person characterisation by either man survives in any source read; Ives's diaries at the Harry Ransom Center are where one would be.",
   "sources": [
     {
@@ -18,10 +18,10 @@
       "evidence_date": {
         "y": 1923
       },
-      "supports": "The closest this record can come to Ives characterizing Saunders in his own voice, and the limit is worth stating exactly. Cook records that 'Elephant' was a name Ives himself used, and Ives's diary then names the household collectively as 'my children' - so the relationship Ives claimed with the men he lived with is paternal, proprietary and affectionate at once. But the naming is collective: Ives nowhere names Saunders or 'Elephant' in any first-person passage Cook prints, and Cook never dates Elephant's arrival, so whether Saunders was among the 'six or eight people' of the 1923 entry is not established. Ives's testimony reaching us through Cook, from Diary vol. 85. See the documented-absence note in the pointer entry below.",
+      "supports": "The closest this record can come to Ives characterizing Saunders in his own voice, and the limit is worth stating exactly. Cook records that 'Elephant' was a name Ives himself used, and Ives's diary then names the household collectively as 'my children' - so the relationship Ives claimed with the men he lived with is paternal, proprietary and affectionate at once. But the naming is collective: Ives nowhere names Saunders or 'Elephant' in any first-person passage Cook prints, and Cook never dates Elephant's arrival, so whether Saunders was among the 'six or eight people' of the 1923 entry is not established. Ives's testimony reaching us through Cook, from Diary vol. 85. See the documented-absence note below.",
       "verification": "verified-elision",
       "how_verified": "pdf-text",
-      "provenance": "PDF p. 111 (printed folio 100 confirmed on the rendered page).",
+      "provenance": "PDF p. 111.",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -41,7 +41,7 @@
     },
     {
       "quote": "",
-      "context": "Pointer - documented absence, recorded by the Q2 quality pass. Saunders ('Elephant') as a named member and reputed lover in Ives's later household. No first-person passage about Saunders exists in either Cook book. Searched: the whole of Cook (2014) for both 'Saunders' and 'Elephant' - the words occur only in Cook's own narration at printed 96, 100, 102, 109-110 and 110, never inside a quotation from Ives; the chapter's endnotes (printed 125-131) cite the diary by volume and date for twenty-odd passages, none of them attached to a sentence naming Saunders. Cook's endnote 22, the source for Ives choosing Elephant over the Goddard daughters, credits Brian Lewis by personal communication with no archival citation at all. Also searched the Cook (2003) text mirror: neither name appears in the Ives material.",
+      "context": "Saunders ('Elephant') as a named member and reputed lover in Ives's later household. No first-person passage about Saunders exists in either Cook book: the words 'Saunders' and 'Elephant' occur only in Cook's own narration (printed 96, 100, 102, 109-110, 110), never in a quotation from Ives; the chapter's endnotes (printed 125-131) cite the diary by volume and date for some twenty passages, none attached to a sentence naming Saunders. Cook's endnote 22, the source for Ives choosing Elephant over the Goddard daughters, credits Brian Lewis by personal communication with no archival citation. The Cook (2003) text mirror likewise shows neither name in the Ives material.",
       "work": "ives-diary",
       "locator": null,
       "locator_type": "diary-entry",
@@ -62,7 +62,7 @@
       "supports": "Cook's own careful reading: a possible sexual beginning, a platonic settling, continued bed-sharing throughout.",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "PDF p. 112 (printed folio 101 confirmed on the rendered page).",
+      "provenance": "PDF p. 112.",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -78,7 +78,7 @@
       "supports": "First citable source naming Saunders: co-heir with Bloodworth to the Adelaide Road house and contents.",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "PDF pp. 120-121 (printed folios 109 and 110 confirmed on the rendered pages; the sentence runs across the page break).",
+      "provenance": "PDF pp. 120-121; the sentence runs across the page break.",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -92,7 +92,7 @@
       "supports": "Saunders's alcoholism, and Cook's judgement that Ives preferred keeping Saunders to keeping the Goddard daughters. Note this is Cook's interpretive gloss on an outcome, not a recorded declaration by Ives; and Cook's endnote 22 credits the observation to Brian Lewis (personal communication), with no archival citation behind it.",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "PDF p. 111 (printed folio 100 confirmed on the rendered page).",
+      "provenance": "PDF p. 111.",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -106,7 +106,7 @@
       "supports": "Confirms 'Elephant' = Stanley Saunders from a second page, and records the friction with the Goddard daughters that Cook says drove them out.",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "PDF p. 113 (printed folio 102 confirmed on the rendered page).",
+      "provenance": "PDF p. 113.",
       "verified_on": "2026-08-03",
       "voice": "modern"
     }

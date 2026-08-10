@@ -15,7 +15,7 @@
   "bio_sources": [
     "letters-2000"
   ],
-  "bio_note": "L. Love you?' - is about a third party, which is right: the editors' note identifies M. All five letters have been read at the page: three at printed 380 (PDF 402), then printed 480 (PDF 500) and printed 483 (PDF 503), every folio confirmed on its own page image. Dates 1865-1933 from the editors' note at printed 380.",
+  "bio_note": "Five letters (printed 380 x3, 480, 483). Dates 1865-1933 from the editors' note at printed 380.",
   "context_engagements": [
     {
       "partner_name": "Oscar Wilde",
@@ -36,7 +36,7 @@
           "supports": "The invitation, and the terms of the friendship: an established writer amused by a young one.",
           "verification": "verified-exact",
           "how_verified": "pdf-image",
-          "provenance": "PDF page 402; printed folio 380 confirmed on the rendered page image. Quoted whole.",
+          "provenance": "PDF p. 402.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -45,7 +45,7 @@
           "locator": "p. 380",
           "locator_type": "page",
           "quote": "My dear Graham Hill, I am charmed with your little volume; the triolets, ballades, and rondeaus are very graceful and dainty. I am sorry you have rhymed 'tears' to 'ideas' in your envoy; rhymes of this kind are very wicked, but you certainly have a light touch and a pleasant fancy. The book is very prettily got up, and 'M. L.', whoever she is, should feel quite proud at such an artistic offering. Are you very much in love with M. L.? and does M. L. love you? Come and see me some day. Wednesday afternoon usually finds me in. Truly yours",
-          "context": "The second letter on the same page, on Hill's Under Her Window (1888). The editors' note 3 identifies 'M. L.' as Matilda (Minnie) Lloyd, whom Hill later married - the line is about a third party. It is quoted here in its place in the letter rather than on its own, because on its own it is the only thing anyone has noticed about this correspondence.",
+          "context": "The second letter on the same page, on Hill's Under Her Window (1888). The editors' note 3 identifies 'M. L.' as Matilda (Minnie) Lloyd, whom Hill later married - the line is about a third party.",
           "speaker": "Oscar Wilde",
           "addressee": "Graham Hill",
           "evidence_date": {
@@ -55,7 +55,7 @@
           "supports": "Wilde reading a young poet's book closely, praising and correcting it, teasing him about his sweetheart, and asking him to call.",
           "verification": "verified-exact",
           "how_verified": "pdf-image",
-          "provenance": "PDF page 402; printed folio 380 confirmed on the rendered page image. Quoted whole.",
+          "provenance": "PDF p. 402.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -74,7 +74,7 @@
           "supports": "The shape of the friendship - Wilde withholding his name from Hill's publicity while backing his work.",
           "verification": "verified-exact",
           "how_verified": "pdf-image",
-          "provenance": "PDF page 402; printed folio 380 confirmed on the rendered page image. Quoted whole.",
+          "provenance": "PDF p. 402.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -93,7 +93,7 @@
           "supports": "Three years on from the first letters, the friendship still running — and Wilde saying plainly that he would like to see more of him.",
           "verification": "verified-exact",
           "how_verified": "pdf-image",
-          "provenance": "PDF page 500; printed folio 480 confirmed on the rendered page image.",
+          "provenance": "PDF p. 500.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -112,7 +112,7 @@
           "supports": "The closest thing to a declaration in this correspondence: 'I often think of you, and am sorry we meet so rarely.'",
           "verification": "verified-exact",
           "how_verified": "pdf-image",
-          "provenance": "PDF page 503; printed folio 483 confirmed on the rendered page image.",
+          "provenance": "PDF p. 503.",
           "verified_on": "2026-08-05",
           "voice": "period"
         }

@@ -2,9 +2,7 @@
   "id": "de-lara",
   "name": "Isidore de Lara",
   "sort_name": "Lara, Isidore de",
-  "aka": [
-    "Isidore Cohen"
-  ],
+  "aka": ["Isidore Cohen"],
   "born": {
     "y": 1858
   },
@@ -14,10 +12,8 @@
   "group": "society",
   "gender": "m",
   "bio": "Composer (1858-1935), born Isidore Cohen, whose operas were produced at Monte Carlo under the patronage of the Princess of Monaco. Wilde inscribed a copy of his Poems to him in June 1887: 'To my friend Isidore de Lara, the poet of the musicians, in sincere admiration and affection.'",
-  "bio_sources": [
-    "letters-2000"
-  ],
-  "bio_note": "Both indexes checked before deciding: he has no entry in the Index of Recipients - no letter to him survives - and a single General Index entry, 'De Lara, Isidore, 1136n'. So one footnote really is all there is, which is now a conclusion rather than an assumption. Not consulted: Osbert Sitwell's pen portrait of him in Noble Essences (1950), which the editors name.",
+  "bio_sources": ["letters-2000"],
+  "bio_note": "No letter to him survives (no Index of Recipients entry); the record is a single General Index entry, 'De Lara, Isidore, 1136n'. The editors point to Osbert Sitwell's pen portrait in Noble Essences (1950).",
   "context_engagements": [
     {
       "partner_name": "Oscar Wilde",
@@ -28,7 +24,7 @@
           "locator": "p. 1136 n.",
           "locator_type": "page",
           "quote": "To my friend Isidore de Lara, the poet of the musicians, in sincere admiration and affection, Oscar Wilde, June '87.",
-          "context": "Wilde's inscription in a copy of his Poems (fifth edition, 1882), recorded by the editors in a note on de Lara's opera, produced at Monte Carlo under the patronage of Princess Alice of Monaco. Not A letter: no correspondence between them survives and he has no entry in the Index of Recipients. The editors point to Osbert Sitwell's Noble Essences (1950) for a portrait.",
+          "context": "Wilde's inscription in a copy of his Poems (fifth edition, 1882), recorded by the editors in a note on de Lara's opera, produced at Monte Carlo under the patronage of Princess Alice of Monaco. Not a letter: no correspondence between them survives. The editors point to Osbert Sitwell's Noble Essences (1950) for a portrait.",
           "speaker": "Oscar Wilde",
           "addressee": "Isidore de Lara",
           "evidence_date": {
@@ -38,7 +34,7 @@
           "supports": "The whole of the record: one inscription, in Wilde's hand, calling him a friend.",
           "verification": "verified-exact",
           "how_verified": "pdf-image",
-          "provenance": "PDF page 1182; printed folio 1136 confirmed on the rendered page image.",
+          "provenance": "PDF p. 1182.",
           "verified_on": "2026-08-06",
           "voice": "period"
         }

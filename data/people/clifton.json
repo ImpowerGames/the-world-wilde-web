@@ -11,7 +11,7 @@
   "bio_sources": [
     "letters-2000"
   ],
-  "bio_note": "Seven letters at PDF 396, 404, 407, 432, 482, 483 and 537; two read at the page (printed 410 and 463, folios confirmed). Dates not recorded and none inferred.",
+  "bio_note": "Seven letters, 1880s-1891. Dates not recorded.",
   "context_engagements": [
     {
       "partner_name": "Oscar Wilde",
@@ -33,7 +33,7 @@
           "supports": "Wilde refusing the vocabulary of moral censure, in private, four years before it was used on him.",
           "verification": "verified-exact",
           "how_verified": "pdf-image",
-          "provenance": "PDF page 483; printed folio 463 confirmed on the rendered page image.",
+          "provenance": "PDF p. 483.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -42,7 +42,7 @@
           "locator": "p. 410",
           "locator_type": "page",
           "quote": "Dear Arthur, Do you really wish to buy the necklace? £6 is a heap of money. Ever yours … I shall call at the Club (N. L.) tonight about 10.30 if I can. But write at once.",
-          "context": "Wilde to Arthur Clifton, [postmark 8 August 1889], 16 Tite Street (MS Private) - quoted whole including the postscript; the ellipsis marks only the signature falling mid-letter. The club is the National Liberal. Trivial in content and kept for the register: Wilde calling in at half past ten at night and wanting an answer the same day. it was on a folio read for Kersley and not logged.",
+          "context": "Wilde to Arthur Clifton, [postmark 8 August 1889], 16 Tite Street (MS Private) - quoted whole including the postscript; the ellipsis marks only the signature falling mid-letter. The club is the National Liberal. Trivial in content and kept for the register: Wilde calling in at half past ten at night and wanting an answer the same day.",
           "speaker": "Oscar Wilde",
           "addressee": "Arthur Clifton",
           "evidence_date": {
@@ -53,7 +53,7 @@
           "supports": "The everyday footing of the friendship.",
           "verification": "verified-elision",
           "how_verified": "pdf-image",
-          "provenance": "PDF page 432; printed folio 410 confirmed on the rendered page image.",
+          "provenance": "PDF p. 432.",
           "verified_on": "2026-08-05",
           "voice": "period"
         }

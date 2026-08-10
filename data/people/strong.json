@@ -27,7 +27,7 @@
           "supports": "Wilde's own account of how The Ballad had done, sent to a journalist.",
           "verification": "verified-elision",
           "how_verified": "pdf-image",
-          "provenance": "PDF page 1073; printed folio 1027 confirmed on the rendered page image.",
+          "provenance": "PDF p. 1073.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -46,7 +46,7 @@
           "supports": "What a good review was worth to him, and what he needed in the same breath.",
           "verification": "verified-elision",
           "how_verified": "pdf-image",
-          "provenance": "PDF page 1073; printed folio 1027 confirmed on the rendered page image.",
+          "provenance": "PDF p. 1073.",
           "verified_on": "2026-08-05",
           "voice": "period"
         }
@@ -57,5 +57,5 @@
   "sort_name": "Strong, Rowland",
   "group": "later",
   "bio": "A Paris-based English journalist of the exile years, correspondent for the Observer and the New York Times, who in September 1898 published Esterhazy's confession that he had written the bordereau at the heart of the Dreyfus affair. Two of Wilde's letters to him survive, both from the spring of 1898, both about The Ballad of Reading Gaol.",
-  "bio_note": "Two letters at PDF 1073, both read at the page (printed 1027, folios confirmed). The dreyfus connection is from the editors' note and is context only; nothing about Wilde's part in it is asserted here."
+  "bio_note": "Two letters (printed 1027). The Dreyfus connection is from the editors' note and is context only; nothing about Wilde's part in it is asserted here."
 }

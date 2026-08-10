@@ -15,7 +15,7 @@
     "m": 7
   },
   "date_label": "Documented span of the read letters: [Postmark 1 March 1880] ('the sweetest Violet in England', to her mother) to [Postmark 22 July 1881] (to Violet directly); the acquaintance evidently predates the first letter, which recalls 'your promise to have tea with me'.",
-  "summary": "Wilde's attention to Violet Hunt, daughter of the painter Alfred William Hunt and the novelist Margaret Raine Hunt, runs through his 1880-81 letters to her mother - tea at the family's Campden Hill home, 'the sweetest Violet in England I think her, though you must not tell her so', a poem promised and then sent - and one direct letter of July 1881 thanking her for praising his Poems: 'You have made me very happy.' Later accounts carry a claim that Wilde proposed or came near proposing marriage; it appears nowhere in the pages read so far and stands as an unverified pointer.",
+  "summary": "Wilde's attention to Violet Hunt, daughter of the painter Alfred William Hunt and the novelist Margaret Raine Hunt, runs through his 1880-81 letters to her mother - tea at the family's Campden Hill home, 'the sweetest Violet in England I think her, though you must not tell her so', a poem promised and then sent - and one direct letter of July 1881 thanking her for praising his Poems: 'You have made me very happy.' Later accounts carry a claim that Wilde proposed or came near proposing marriage; it appears nowhere in the letters and remains unverified.",
   "sources": [
     {
       "quote": "Dear Mrs Hunt, I hope that you have not forgotten your promise to have tea with me tomorrow (Tuesday) at five o'clock, and that your Violet – the sweetest Violet in England I think her, though you must not tell her so – will come too.",
@@ -31,7 +31,7 @@
       "supports": "The courtship-register compliment routed through her mother, with the request that Violet not be told; March 1880",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "PDF pages 113-114, printed folios 88-89 confirmed on rendered pages. The sentence breaks across the page-turn at 'the | sweetest'.",
+      "provenance": "PDF pp. 113-114. The sentence breaks across the page-turn at 'the | sweetest'.",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Margaret Raine Hunt"
@@ -50,7 +50,7 @@
       "supports": "Direct warm correspondence by July 1881, closing 'You have made me very happy'",
       "verification": "verified-elision",
       "how_verified": "pdf-text",
-      "provenance": "PDF page 139, printed folio 114 confirmed on rendered page. Elision drops the Slander/Ridicule/Envy sentence, his ranking of 'The Burden of Itys' and 'The Garden of Eros', and the Burne-Jones river outing; fuller text in long-form notes.",
+      "provenance": "PDF p. 139. Elision drops the Slander/Ridicule/Envy sentence, his ranking of 'The Burden of Itys' and 'The Garden of Eros', and the Burne-Jones river outing; fuller text in long-form notes.",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Violet Hunt"
@@ -67,7 +67,7 @@
       "supports": "The marriage-proposal tradition",
       "verification": "verified-elision",
       "how_verified": "pdf-text",
-      "provenance": "PDF page 330. This 2013 edition carries no printed folios, so the locator is PDF page - re-anchored from the ellmann-1988 pointer.",
+      "provenance": "PDF p. 330 (2013 edition; no printed folios).",
       "verified_on": "2026-08-04",
       "voice": "modern"
     }

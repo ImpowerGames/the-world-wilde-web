@@ -31,7 +31,7 @@
           "supports": "The whole of the correspondence, and that the two men were in contact in 1890.",
           "verification": "verified-exact",
           "how_verified": "pdf-image",
-          "provenance": "PDF page 477; printed folio 455 confirmed on the rendered page image.",
+          "provenance": "PDF p. 477.",
           "verified_on": "2026-08-06",
           "voice": "period"
         }
@@ -42,5 +42,5 @@
   "sort_name": "Galton, Arthur",
   "group": "aesthete",
   "bio": "Writer and editor (1852-1921), who edited a translation of the Tacitus Annals published in the Camelot Classics in 1890. One letter from Wilde survives, thanking him for it.",
-  "bio_note": "One letter at printed 455, read at the page. Dates 1852-1921 from the editors' note there."
+  "bio_note": "One letter (printed 455); dates from the editors' note there."
 }

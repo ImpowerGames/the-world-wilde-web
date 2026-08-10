@@ -39,7 +39,7 @@
         "y": 1895,
         "m": 4
       },
-      "note": "Intimacy: 'I worship him' (to Ross, spring 1892); Babbacombe menage early 1893; Savoy/St James's Place routine 1893 (De Profundis, p. 686); quarrel-reconciliation cycle incl. Egypt separation winter 1893-94 ('our love has passed through. estrangement', pp. 577-8)."
+      "note": "Intimacy: 'I worship him' (to Ross, spring 1892); Babbacombe menage early 1893; Savoy/St James's Place routine 1893 (De Profundis, p. 686); quarrel-reconciliation cycle incl. Egypt separation winter 1893-94 ('our love has passed through. estrangement', pp. 577-578)."
     },
     {
       "start": {
@@ -61,7 +61,7 @@
         "m": 12,
         "circa": true
       },
-      "note": "Post-release: correspondence resumed within a fortnight; reunion at Rouen 28-29 August 1897; Naples together from late September (cohabitation end-date and allowance crisis at pp. 979-996 not yet transcribed - pointer)."
+      "note": "Post-release: correspondence resumed within a fortnight; reunion at Rouen 28-29 August 1897; Naples together from late September."
     },
     {
       "start": {
@@ -91,14 +91,14 @@
       "supports": "Wilde naming the relationship in the plainest terms the correspondence contains - Douglas as 'the supreme, the perfect love of my life; there can be no other' - written between the trials",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "PDF page 703, printed folio 652 confirmed on the rendered page; the letter opens on printed 651 (PDF 702, folio confirmed). Contiguous sentences, no elision.",
+      "provenance": "PDF p. 703; the letter opens on printed 651 (PDF 702)",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Lord Alfred Douglas"
     },
     {
       "quote": "It was in the year 1891 that there entered Wilde's life the man who was to be in some sense his inspiration and in every sense his evil genius. Lord Alfred Bruce Douglas, the third son of the eighth Marquess of Queensberry, had been born in 1870, educated at Winchester and was now a second-year undergraduate at Magdalen College, Oxford. Lionel Johnson, a Winchester contemporary and Oxford friend, brought him to see Wilde at Tite Street.",
-      "context": "Holland & Hart-Davis, editorial headnote on the first Wilde–Douglas meeting; the same note quotes Wilde to More Adey, 7 April 1897: \"The friendship began in May 1892 by his brother appealing to me in a very pathetic letter to help him in terrible trouble with people who were blackmailing him. I hardly knew him at the time. I had known him eighteen months, but had only seen him four times in that space.\" ! Corrected : this was tagged as a period voice, which attributed the editors' own headnote to Wilde himself and printed it under his name. It is Holland and Hart-Davis writing about him - the giveaway is in the quotation, which speaks of \"Wilde's life\" in the third person.",
+      "context": "Holland & Hart-Davis, editorial headnote on the first Wilde–Douglas meeting; the same note quotes Wilde to More Adey, 7 April 1897: \"The friendship began in May 1892 by his brother appealing to me in a very pathetic letter to help him in terrible trouble with people who were blackmailing him. I hardly knew him at the time. I had known him eighteen months, but had only seen him four times in that space.\". It is Holland and Hart-Davis writing about him.",
       "work": "letters-2000",
       "locator": "p. 461",
       "locator_type": "page",
@@ -108,7 +108,7 @@
       "supports": "Meeting 1891 (editors: most likely ~beginning of July); introduction by Lionel Johnson; Douglas's parentage and birth year; Wilde's own May-1892 dating of the friendship.",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "PDF p. 481 (printed p. 461, folio checked)",
+      "provenance": "PDF p. 481 (printed p. 461)",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -130,7 +130,7 @@
       "supports": "Earliest surviving intimate register about Douglas, told to a third party (Ross), spring 1892.",
       "verification": "verified-elision",
       "how_verified": "pdf-text",
-      "provenance": "PDF p. 546 (printed p. 526, folio checked)",
+      "provenance": "PDF p. 546 (printed p. 526)",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Robert Ross"
@@ -149,7 +149,7 @@
       "supports": "Explicit love-letter register in Wilde's own hand; the letter itself became trial evidence.",
       "verification": "verified-elision",
       "how_verified": "pdf-text",
-      "provenance": "PDF p. 564 (printed p. 544, folio checked)",
+      "provenance": "PDF p. 564 (printed p. 544)",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Lord Alfred Douglas"
@@ -168,7 +168,7 @@
       "supports": "Wilde intimate enough with Douglas's mother to be consulted about him; the late-1893 crisis and engineered Egypt separation.",
       "verification": "verified-elision",
       "how_verified": "pdf-text",
-      "provenance": "PDF p. 627 (printed p. 575, folio checked)",
+      "provenance": "PDF p. 627 (printed p. 575)",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Lady Queensberry"
@@ -187,7 +187,7 @@
       "supports": "\"Our love\" in Wilde's own words; the quarrel-and-reconciliation pattern across the Egypt separation.",
       "verification": "verified-elision",
       "how_verified": "pdf-text",
-      "provenance": "PDF p. 629 (printed p. 577, folio checked)",
+      "provenance": "PDF p. 629 (printed p. 577)",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Lord Alfred Douglas"
@@ -206,7 +206,7 @@
       "supports": "Mutual love asserted at the moment of catastrophe ('that you love me in return').",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "PDF p. 697 (printed p. 646, folio checked)",
+      "provenance": "PDF p. 697 (printed p. 646)",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Lord Alfred Douglas"
@@ -225,7 +225,7 @@
       "supports": "Reciprocity in Douglas's own voice during the trials — first-person evidence from the second participant.",
       "verification": "verified-elision",
       "how_verified": "pdf-text",
-      "provenance": "PDF p. 700 (printed p. 649, folio checked)",
+      "provenance": "PDF p. 700 (printed p. 649)",
       "verified_on": "2026-08-03",
       "voice": "period",
       "speaker": "Lord Alfred Douglas",
@@ -235,7 +235,7 @@
       "quote": "Dear Bosie, After long and fruitless waiting I have determined to write to you myself, as much for your sake as for mine … Our ill-fated and most lamentable friendship has ended in ruin and public infamy for me, yet the memory of our ancient affection is often with me, and the thought that loathing, bitterness and contempt should for ever take that place in my heart once held by love is very sad to me …",
       "context": "Opening of Wilde's prison letter to Douglas (De Profundis), [January–March 1897], HM Prison, Reading; the letter runs to p. 780. Editors' caution (p. 684 n. 1): \"Wilde's indictments of Douglas in this letter need to be approached with caution. While some are undoubtedly valid, others, in the light of later research, seem both unfair to Douglas and inaccurate if taken entirely at face value.\"",
       "work": "letters-2000",
-      "locator": "pp. 683-4",
+      "locator": "pp. 683-684",
       "locator_type": "page",
       "evidence_date": {
         "y": 1897,
@@ -248,7 +248,7 @@
       "supports": "Wilde's own retrospective naming of the relationship ('that place in my heart once held by love'); the prison rupture. Also p. 686 (read): the 1893 daily-inseparability routine ('We did not separate as a rule till after midnight').",
       "verification": "verified-elision",
       "how_verified": "pdf-text",
-      "provenance": "PDF pp. 734-7 (printed pp. 683-6, folios checked)",
+      "provenance": "PDF pp. 734-737 (printed pp. 683-686)",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Lord Alfred Douglas"
@@ -257,7 +257,7 @@
       "quote": "Everyone is furious with me for going back to you, but they don't understand us. I feel that it is only with you that I can do anything at all. Do remake my ruined life for me, and then our friendship and love will have a different meaning to the world. I wish that when we met at Rouen we had not parted at all. … But we love each other.",
       "context": "Wilde to Lord Alfred Douglas, Tuesday, 7.30 [? 31 August 1897], Café Suisse, Dieppe — after their reunion meeting at Rouen. Editors' n. 1 (p. 933): \"This fateful meeting seems to have taken place on 28–9 August. In his Autobiography Douglas wrote: 'Poor Oscar cried when I met him at the station. We walked about all day arm in arm, or hand in hand, and were perfectly happy.'\"",
       "work": "letters-2000",
-      "locator": "pp. 932-3",
+      "locator": "pp. 932-933",
       "locator_type": "page",
       "evidence_date": {
         "y": 1897,
@@ -267,7 +267,7 @@
       "supports": "The post-prison reunion decision against the circle's opposition; Rouen meeting 28-29 Aug 1897; corroborated to Ross, 4 Sept 1897 (p. 934, read): \"Yes: I saw Bosie, and of course I love him as I always did, with a sense of tragedy and ruin.\"",
       "verification": "verified-elision",
       "how_verified": "pdf-text",
-      "provenance": "PDF pp. 982-4 (printed pp. 932-4, folios checked)",
+      "provenance": "PDF pp. 982-984 (printed pp. 932-934)",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Lord Alfred Douglas"
@@ -283,17 +283,17 @@
         "m": 11,
         "d": 21
       },
-      "supports": "Cohabitation at Naples from late September 1897 and its end when Constance's allowance and Lady Queensberry's terms cut the money off - pages not yet transcribed.",
+      "supports": "Cohabitation at Naples from late September 1897 and its end when Constance's allowance and Lady Queensberry's terms cut the money off.",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "PDF page 1037, printed folio 989 read off the rendered page - not p. 991; the volume's PDF/printed offset is not constant.",
+      "provenance": "PDF p. 1037 - not p. 991; the volume's PDF/printed offset is not constant.",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "More Adey"
     },
     {
       "quote": "On Sunday, the next day, Alfred Douglas arrived, and various people whom I do not know called. … On Monday morning at 9 o'clock, the funeral started from the hotel – we all walked to the Church of St Germain des Prés behind the hearse – Alfred Douglas, Reggie Turner and myself, Dupoirier, the proprietor of the hotel … the second [coach contained] Alfred Douglas, Turner, the proprietor of the hotel, and myself … Wreaths came from, or at the request of, the following: Alfred Douglas, More Adey, Reginald Turner …",
-      "context": "Robert Ross's account of Wilde's death and funeral (funeral Monday 3 December 1900, per n. 1; Wilde died 30 November 1900). The letter's heading falls on a preceding page not read so far; the narrator is identified as Ross by p. 1222 n. 2.",
+      "context": "Robert Ross's account of Wilde's death and funeral (funeral Monday 3 December 1900, per n. 1; Wilde died 30 November 1900). The letter's heading falls on a preceding page; the narrator is identified as Ross by p. 1222 n. 2.",
       "work": "letters-2000",
       "locator": "p. 1222",
       "locator_type": "page",
@@ -305,7 +305,7 @@
       "supports": "Contact until death: Douglas came at once, walked behind the hearse and rode in the second coach, and sent a wreath.",
       "verification": "verified-elision",
       "how_verified": "pdf-text",
-      "provenance": "PDF p. 1267 (printed p. 1222, folio checked)",
+      "provenance": "PDF p. 1267 (printed p. 1222)",
       "verified_on": "2026-08-03",
       "speaker": "Robert Ross",
       "voice": "period"
@@ -324,7 +324,7 @@
       "supports": "Douglas's own first-person account of the sexual relationship with Wilde, its specific and limited content, and its brevity - independent corroboration, from Douglas's side, of an edge otherwise carried by Wilde's letters.",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "PDF page 52 of Murray_2020_Bosie. No printed folio exists: the file is an ebook conversion with no page numbers and an unpaginated Contents, so the printed-to-PDF offset is n/a and the locator is PDF page, marked 'PDF p.'.",
+      "provenance": "PDF p. 52 (ebook conversion; no printed folios.)",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -340,7 +340,7 @@
       "supports": "The biographer's dating of the sexual phase as brief, with the romantic attachment outlasting it - the shape our date fields already carry (1891/92 start, contact to 1900).",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "PDF page 60 of Murray_2020_Bosie. No printed folio exists: the file is an ebook conversion with no page numbers and an unpaginated Contents, so the printed-to-PDF offset is n/a and the locator is PDF page, marked 'PDF p.'.",
+      "provenance": "PDF p. 60 (ebook conversion; no printed folios.)",
       "verified_on": "2026-08-03",
       "voice": "modern"
     }

@@ -9,7 +9,7 @@
   "gender": "m",
   "bio": "George Herbert Kersley, who published five volumes of verse between 1885 and 1897 and also painted. Wilde wrote to him over nearly ten years, from 1885 to 1894, and the seven surviving letters are almost entirely invitations: come to tea, read me one of your poems, come in this evening at nine, come on Tuesday morning and see me. In the preface to his first book Kersley called Wilde 'my noted friend'.",
   "bio_sources": ["letters-2000"],
-  "bio_note": "Whether Kersley ever went is not recorded here. All seven letters read: printed 251, 283, 352, 410, 420, 443 and 622-3 (PDF 273, 305, 374, 432, 442, 465, 675), every folio confirmed on its own page image. They are invitations, reproaches for not visiting, and an offer to find him work. The editors gave no dates for them.",
+  "bio_note": "Whether Kersley ever went is not recorded. All seven letters: printed 251, 283, 352, 410, 420, 443, 622-3 - invitations, reproaches for not visiting, and an offer to find him work; the editors gave no dates for them.",
   "context_engagements": [
     {
       "partner_name": "Oscar Wilde",
@@ -31,7 +31,7 @@
           "supports": "How it started: a death in the family, and Wilde proposing himself for tea.",
           "verification": "verified-exact",
           "how_verified": "pdf-image",
-          "provenance": "PDF page 273; printed folio 251 confirmed on the rendered page image.",
+          "provenance": "PDF p. 273.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -51,7 +51,7 @@
           "supports": "The book promised in 1885, three years later, and what Wilde said his stories were for.",
           "verification": "verified-exact",
           "how_verified": "pdf-image",
-          "provenance": "PDF page 374; printed folio 352 confirmed on the rendered page image.",
+          "provenance": "PDF p. 374.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -71,7 +71,7 @@
           "supports": "Wilde passing a young poet on to Whitman.",
           "verification": "verified-exact",
           "how_verified": "pdf-image",
-          "provenance": "PDF page 305; printed folio 283 confirmed on the rendered page image.",
+          "provenance": "PDF p. 305.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -91,7 +91,7 @@
           "supports": "Reproach for not calling, and Wilde offering to put a word in for him.",
           "verification": "verified-exact",
           "how_verified": "pdf-image",
-          "provenance": "PDF page 432; printed folio 410 confirmed on the rendered page image.",
+          "provenance": "PDF p. 432.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -111,7 +111,7 @@
           "supports": "The warmest of the invitations, and the reproach repeated five months on.",
           "verification": "verified-exact",
           "how_verified": "pdf-image",
-          "provenance": "PDF page 442; printed folio 420 confirmed on the rendered page image.",
+          "provenance": "PDF p. 442.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -131,13 +131,13 @@
           "supports": "Two sentences, and both of them are 'come and see me'.",
           "verification": "verified-exact",
           "how_verified": "pdf-image",
-          "provenance": "PDF page 465; printed folio 443 confirmed on the rendered page image.",
+          "provenance": "PDF p. 465.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
         {
           "work": "letters-2000",
-          "locator": "p. 622-3",
+          "locator": "pp. 622-623",
           "locator_type": "page",
           "quote": "My dear George, I fear that comic footmen do not come into my scheme of art, and the two minor parts of my play - two young dandies - do not come into the possibility of an offer: they are both cast already. But I am cheered to know that you will at any rate be a part of my play, so that I shall have an opportunity of seeing you. You must not think that I have forgotten you: friends who are also poets are never forgotten: memory keeps them in rose-leaves: but Life - coloured, turbulent Life - rushes like a river between oneself and those whom one likes, too often. Sincerely yours",
           "context": "Wilde to G. H. Kersley, [postmark 21 November 1894], 16 Tite Street (MS Hyde) - quoted whole, and the last of the seven. Kersley had asked for a part in An Ideal Husband and was given an understudy. Nine years after the first letter the address has reached 'My dear George'. The closing sentence is Wilde apologising for drift, and it is the best writing in the correspondence.",
@@ -151,7 +151,7 @@
           "supports": "How Wilde said sorry for losing touch, five months before the trials.",
           "verification": "verified-exact",
           "how_verified": "pdf-image",
-          "provenance": "PDF page 675; printed folio 623 (letter begins 622) confirmed on the rendered page image.",
+          "provenance": "PDF p. 675.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -169,7 +169,7 @@
           "supports": "That the friendship was acknowledged from Kersley's side too, in print.",
           "verification": "verified-exact",
           "how_verified": "pdf-image",
-          "provenance": "PDF page 273; printed folio 251 confirmed on the rendered page image.",
+          "provenance": "PDF p. 273.",
           "verified_on": "2026-08-05",
           "voice": "period"
         }

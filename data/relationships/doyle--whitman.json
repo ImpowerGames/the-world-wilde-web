@@ -27,7 +27,7 @@
       "supports": "The meeting, in the other participant's own words - and the class, since it puts Doyle's voice beside Whitman's rather than leaving the edge resting on Whitman alone.",
       "verification": "verified-exact",
       "how_verified": "archive-org",
-      "provenance": "Read as a rendered page image from the archive.org scan (calamusseriesofl00whitrich, scan n36); printed folio 23 confirmed on the image, with the running head 'INTERVIEW WITH PETER DOYLE'. Scan = printed + 13 at this point. The IA OCR text was used only to locate the passage.",
+      "provenance": "Archive.org scan calamusseriesofl00whitrich, scan n36 (printed folio 23, running head 'INTERVIEW WITH PETER DOYLE')",
       "verified_on": "2026-08-04",
       "speaker": "Peter Doyle, interviewed by R. M. Bucke",
       "addressee": "Richard Maurice Bucke",
@@ -47,7 +47,7 @@
       "supports": "Whitman's own register toward Doyle at the start of the correspondence - 'dear friend', 'my dear comrade' - and the fact of a sustained private correspondence.",
       "verification": "verified-elision",
       "how_verified": "archive-org",
-      "provenance": "Read as a rendered page image from the archive.org scan (calamusseriesofl00whitrich, scan n48); printed folio 35 confirmed on the image, with the running head 'LETTERS OF 1868'. Scan = printed + 13 at this point. The IA OCR text was used only to locate the passage.",
+      "provenance": "Archive.org scan calamusseriesofl00whitrich, scan n48 (printed folio 35, running head 'LETTERS OF 1868')",
       "verified_on": "2026-08-04",
       "speaker": "Walt Whitman, letter to Peter Doyle",
       "addressee": "Peter Doyle",
@@ -55,7 +55,7 @@
     },
     {
       "quote": "The romantic friendship that Walt Whitman shared with Peter Doyle embodied the \"love of comrades\" celebrated in Whitman's \"Calamus\" poems. Their thirty-year friendship (1865–1892) left a legacy of loving letters from the older man to his younger companion which are invaluable reference points for the student seeking to understand Whitman's emotional and sexual nature.",
-      "context": "The opening of Martin G. Murray's reference entry on Doyle, the standard short account and by the author of the fullest published biography of him. Recorded as the second-hand layer: it names the relationship 'romantic friendship' and points the reader at the letters for the sexual question without answering it. Murray also supplies the detail that Doyle was twenty-one and Whitman forty-five at the meeting, and that Doyle is buried in Congressional Cemetery.",
+      "context": "The opening of Martin G. Murray's reference entry on Doyle, the standard short account and by the author of the fullest published biography of him. It names the relationship 'romantic friendship' and points the reader at the letters for the sexual question without answering it. Murray also supplies the detail that Doyle was twenty-one and Whitman forty-five at the meeting, and that Doyle is buried in Congressional Cemetery.",
       "work": "murray-wwa-doyle-encyclopedia",
       "locator": "entry 'Doyle, Peter (1843-1907)'",
       "locator_type": "none",
@@ -63,7 +63,7 @@
       "supports": "The scholarly characterisation of the relationship, and its span - corroboration, not the basis of the class.",
       "verification": "verified-exact",
       "how_verified": "web",
-      "provenance": "Https://whitmanarchive.org/item/encyclopedia_entry3 read in full in a real browser - the site sits behind Cloudflare and returns 403 to curl and to plain fetching, so an automated retrieval will falsely report it unavailable. Curly quotation marks around 'love of comrades' and 'Calamus' are the source's; the en dash in the date range is as printed.",
+      "provenance": "Https://whitmanarchive.org/item/encyclopedia_entry3. Curly quotation marks around 'love of comrades' and 'Calamus' are the source's.",
       "verified_on": "2026-08-04",
       "speaker": "Martin G. Murray",
       "voice": "modern"
@@ -73,7 +73,7 @@
     {
       "work": "bucke-calamus-1897",
       "checked_on": "2026-08-04",
-      "finding": "ASYMMETRY WORTH KNOWING BEFORE ANYONE HUNTS FOR MORE. The volume is Whitman's letters TO Doyle plus Bucke's interview OF Doyle; **Doyle's own letters to Whitman are not in it**. Doyle kept Whitman's and gave them to Bucke in 1880; the reverse run largely does not survive, so apart from the interview this relationship is documented in one direction, like hall--souline. A few Doyle-to-Whitman letters are held elsewhere and are transcribed on the Whitman Archive (e.g. item nyp.00304, Doyle to Whitman, 5-6 October 1868) - not consulted here, and the obvious next step if this edge is ever deepened."
+      "finding": "The volume is Whitman's letters TO Doyle plus Bucke's interview OF Doyle; Doyle's own letters to Whitman are not in it. Doyle kept Whitman's and gave them to Bucke in 1880; the reverse run largely does not survive, so apart from the interview this relationship is documented in one direction. A few Doyle-to-Whitman letters are transcribed on the Whitman Archive (e.g. item nyp.00304, Doyle to Whitman, 5-6 October 1868)."
     }
   ]
 }

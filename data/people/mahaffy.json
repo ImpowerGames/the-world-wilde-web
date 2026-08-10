@@ -14,7 +14,7 @@
       "sources": [
         {
           "work": "letters-2000",
-          "locator": "pp. 561-2",
+          "locator": "pp. 561-562",
           "locator_type": "page",
           "quote": "My dear Mahaffy, I am so pleased you like the play, and thank you for your charming letter, all the more flattering to me as it comes not merely from a man of high and distinguished culture, but from one to whom I owe so much personally, from my first and my best teacher, from the scholar who showed me how to love Greek things. Let me sign myself, in affection and admiration, your old pupil and your old friend",
           "context": "Wilde to J. P. Mahaffy, [? April 1893], Haymarket Theatre (MS Dublin) - quoted whole. The play is A Woman of No Importance. Read it against the deletion recorded at printed 28: the thing Wilde thanks him for here, teaching him how to love Greek things, is the thing later editions of Mahaffy's book stopped mentioning, along with Wilde's name. Wilde had two years left before the trials.",
@@ -27,7 +27,7 @@
           "supports": "What Wilde said he owed him, in the words the later editions removed.",
           "verification": "verified-exact",
           "how_verified": "pdf-image",
-          "provenance": "PDF pages 613-614; printed folios 561 and 562 both confirmed on the rendered page images.",
+          "provenance": "PDF pp. 613-614.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -47,7 +47,7 @@
           "supports": "The closeness at the start, against which the deletion has to be read.",
           "verification": "verified-elision",
           "how_verified": "pdf-image",
-          "provenance": "PDF pages 53-54; printed folios 28 and 29 both confirmed on the rendered page images.",
+          "provenance": "PDF pp. 53-54.",
           "verified_on": "2026-08-05",
           "voice": "period"
         }
@@ -65,5 +65,5 @@
   ],
   "group": "aesthete",
   "bio": "Classical scholar (1839-1919), Wilde's tutor at Trinity College Dublin and later its Provost. He took Wilde to Greece in 1877, and Wilde corrected the proofs of his Rambles and Studies in Greece and made 'improvements and corrections all through' an earlier book, Social Life in Greece from Homer to Menander (1874), for which Mahaffy thanked him by name in the preface. Social Life contained a discussion of Greek homosexuality. In later editions both that discussion and the thanks to Wilde were removed.",
-  "bio_note": "The editors state it flatly at printed 28: 'Significantly, in later editions of Social Life both the discussion of Greek homosexuality and the reference to Wilde were dropped.' two letters at PDF 301 and 613-14; the 1893 one is read at the page, the earlier one is located and unread."
+  "bio_note": "The editors state it flatly at printed 28: 'Significantly, in later editions of Social Life both the discussion of Greek homosexuality and the reference to Wilde were dropped.' Two letters; the later (1893) one is quoted here, the earlier is at PDF 613-14."
 }

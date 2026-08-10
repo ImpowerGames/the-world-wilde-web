@@ -1,12 +1,9 @@
 {
   "id": "ricketts--shannon",
-  "people": [
-    "ricketts",
-    "shannon"
-  ],
+  "people": ["ricketts", "shannon"],
   "certainty": "self-reported",
   "certainty_status": "proposed",
-  "certainty_reasoning": "The single most explicit surviving characterisation of the partnership by either participant is Ricketts's, written to John Gray in late 1929 and read at the page in Delaney p. 389: the trial of Shannon's injury \"is small compared to the forty years of perfect companionship I have enjoyed\". Matt Cook's chapter on their households is built on the same letters, journals and diary, and Cook states the point outright - the bond \"was articulated by the men themselves and by their circle of friends\". Cook records that neither man described himself as homosexual, Uranian or inverted, that neither alluded to sex between them, and that Ricketts's biographer J. Delaney reads Shannon as basically heterosexual on the strength of his affairs with women and his more-than-once contemplated marriage; Cook's own position is that \"Even if this couple did not have a sexual relationship (which is possible), that should not detract from the strength of their connection and intimacy\".",
+  "certainty_reasoning": "The single most explicit surviving characterisation of the partnership by either participant is Ricketts's, written to John Gray in late 1929, in Delaney p. 389: the trial of Shannon's injury \"is small compared to the forty years of perfect companionship I have enjoyed\". Matt Cook's chapter on their households is built on the same letters, journals and diary, and Cook states the point outright - the bond \"was articulated by the men themselves and by their circle of friends\". Cook records that neither man described himself as homosexual, Uranian or inverted, that neither alluded to sex between them, and that Ricketts's biographer J. Delaney reads Shannon as basically heterosexual on the strength of his affairs with women and his more-than-once contemplated marriage; Cook's own position is that \"Even if this couple did not have a sexual relationship (which is possible), that should not detract from the strength of their connection and intimacy\".",
   "start": {
     "y": 1886
   },
@@ -25,10 +22,10 @@
       "evidence_date": {
         "y": 1929
       },
-      "supports": "Ricketts, in his own words, naming the relationship as forty years of companionship - the class-deciding participant testimony, now read at the page of the book that carries it rather than through a historian's quotation of it.",
+      "supports": "Ricketts, in his own words, naming the relationship as forty years of companionship - the class-deciding participant testimony, read directly rather than through a historian's quotation.",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "PDF p. 417 read as a rendered page image; printed folio 389 confirmed in the running head on the image, and the quotation and endnote 55 both re-read at 420 dpi to settle the spelling (offset: printed = PDF - 28, also confirmed at PDF 416 = printed 388). Superscript endnote marker 55 omitted as typography; Delaney's enclosing single quotation marks dropped.",
+      "provenance": "PDF p. 417 (printed folio 389)",
       "verified_on": "2026-08-04",
       "speaker": "Charles Ricketts, letter to John Gray",
       "addressee": "John Gray",
@@ -48,7 +45,7 @@
       "supports": "Ricketts's own retrospect on the Vale years he and Shannon shared - participant voice, and the true date and addressee of a fragment that has been read as a deathbed-adjacent one.",
       "verification": "verified-exact",
       "how_verified": "digital-copy",
-      "provenance": "Transcribed from the repo OCR dump, leaf 00000376, whose foot carries the printed folio 342; the letter opens on the previous leaf, headed \"To Gordon Bottomley / LANSDOWNE HOUSE, / 16th Sept. 1922\". The reading and the folio were independently confirmed against a second copy that was separately scanned and separately ocr'd - HathiTrust uc1.$b73973, the University of California copy of the same 1939 Peter Davies printing - whose search-only index returns \"flooded with sunlight\" at scan #378 = printed p. 342, matching this dump's own foot-of-leaf folio. Controls run on that index the same day: a positive ('Farquhar Buzzard' returns #449 = printed p. 409) and a negative ('plonk down a plate' returns nothing, where 'plank down a plate' returns #126 = printed p. 96), so the index discriminates and a null in it is informative. **What this method does not establish**: typography no text layer carries (italics, small caps, rule and indent placement) and anything both scans dropped in the same way. Neither is load-bearing for this quotation.",
+      "provenance": "Self-Portrait (1939), p. 342; the letter opens on the previous page, headed \"To Gordon Bottomley / LANSDOWNE HOUSE / 16 Sept. 1922\".",
       "verified_on": "2026-08-04",
       "speaker": "Charles Ricketts, letter to Gordon Bottomley",
       "addressee": "Gordon Bottomley",
@@ -56,7 +53,7 @@
     },
     {
       "quote": "Ricketts was nostalgic ('I now view old Vale work with a sort of affection, and the past seems flooded with sunlight') but also resigned: 'I realize that, viewed as a whole, this trial is small compared to the forty years of perfect companionship I have enjoyed.'",
-      "context": "Matt Cook, Queer Domesticities (2014), ch. 1, in his account of the period after Shannon's 1929 fall left him brain-damaged. Both phrases inside the single quotation marks are Ricketts's own; Cook's endnotes 150 and 151 carry the citations. **! The pairing compresses seven years and two correspondents.** \"Flooded with sunlight\" is from a letter to Gordon Bottomley of 16 September 1922, about the Vale and Dial days, printed in Ricketts's Self-Portrait at p. 342. \"Forty years of perfect companionship\" is from a letter to John Gray of late 1929, unpublished, surviving only in Delaney p. 389 - where the page reads \"realise\", not Cook's \"realize\". Both letters are now recorded here from their own sources. This entry is kept because Cook's framing is itself the reason the two were read as one moment, and because the reading is a historian's and should be visible as one.",
+      "context": "Matt Cook, Queer Domesticities (2014), ch. 1, in his account of the period after Shannon's 1929 fall left him brain-damaged. Both phrases inside the single quotation marks are Ricketts's own; Cook's endnotes 150 and 151 carry the citations. The pairing compresses seven years and two correspondents. \"Flooded with sunlight\" is from a letter to Gordon Bottomley of 16 September 1922, about the Vale and Dial days, printed in Ricketts's Self-Portrait at p. 342. \"Forty years of perfect companionship\" is from a letter to John Gray of late 1929, unpublished, surviving only in Delaney p. 389 - where the page reads \"realise\", not Cook's \"realize\". Both letters are now recorded here from their own sources. This entry is kept because Cook's framing is itself the reason the two were read as one moment.",
       "work": "cook-2014",
       "locator": "p. 52",
       "locator_type": "page",
@@ -66,13 +63,13 @@
       "supports": "A historian's reading of the partnership's last years - retained alongside the two underlying letters so that the compression is visible in the record rather than inherited from it.",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "Superscript endnote markers 150 and 151 omitted as typography. Re-examined : the two quoted fragments were traced to their own sources (Self-Portrait p. 342 and Delaney p. 389) and found to be seven years apart.",
+      "provenance": "The two quoted fragments come from separate sources seven years apart: Self-Portrait p. 342 and Delaney p. 389.",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
     {
       "quote": "Ricketts wrote romantically from Florence: 'Dear Old Chap [.] At each meal time they plonk down a plate of strawberries which make me think of you – no, this is not quite accurate. I really think of the strawberries. Only when they are done, \"I think of thee.\"'",
-      "context": "Cook, Queer Domesticities (2014), ch. 1, in a run of quotations from the two men's letters and diaries. The bracketed ellipsis is Cook's, not ours. \"I think of thee\" is a quotation-within-the-quotation in Ricketts's letter. The addressee is Shannon. **! Cook's transcription diverges from the printed letter.** Self-Portrait p. 96 (Ricketts to Shannon, 1903, from Vienna) reads \"At each meal they plank down a plate of strawberries which makes me think of you\" - \"plank\", not \"plonk\"; \"makes\", not \"make\"; and no \"meal time\". \"Old Chap\" stands in the sign-off (\"Yours, Old Chap, C. R.\"), not the salutation, so Cook's bracketed ellipsis is carrying a move from the foot of the letter to its head. Confirmed against HathiTrust uc1.$b73973 on : \"plank down a plate\" returns scan #126 = printed p. 96; \"plonk down a plate\" returns no results.",
+      "context": "Cook, Queer Domesticities (2014), ch. 1, in a run of quotations from the two men's letters and diaries. The bracketed ellipsis is Cook's, not ours. \"I think of thee\" is a quotation-within-the-quotation in Ricketts's letter. The addressee is Shannon. Cook's transcription diverges from the printed letter. Self-Portrait p. 96 (Ricketts to Shannon, 1903, from Vienna) reads \"At each meal they plank down a plate of strawberries which makes me think of you\" - \"plank\", not \"plonk\"; \"makes\", not \"make\"; and no \"meal time\". \"Old Chap\" stands in the sign-off (\"Yours, Old Chap, C. R.\"), not the salutation, so Cook's bracketed ellipsis is carrying a move from the foot of the letter to its head. Confirmed against HathiTrust uc1.$b73973: \"plank down a plate\" returns scan #126 = printed p. 96; \"plonk down a plate\" returns no results.",
       "work": "cook-2014",
       "locator": "p. 48",
       "locator_type": "page",
@@ -80,7 +77,7 @@
       "supports": "Ricketts writing to Shannon in the register Cook calls romantic - participant testimony, one man to the other.",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "PDF p. 61 read as a rendered page image; printed folio 48 confirmed on the image. Superscript endnote marker 111 omitted as typography.",
+      "provenance": "PDF p. 61 (printed folio 48).",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -96,7 +93,7 @@
       "supports": "Both participants, in their own hands, treating money, purchases and life as jointly held.",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "PDF p. 61 read as a rendered page image; printed folio 48 confirmed on the image. Superscript endnote marker 114 omitted as typography.",
+      "provenance": "PDF p. 61 (printed folio 48).",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -110,7 +107,7 @@
       "supports": "The classification warrant - the men themselves are the source - together with the explicit limit of what survives.",
       "verification": "verified-elision",
       "how_verified": "pdf-text",
-      "provenance": "PDF pp. 46-47 read as rendered page images; printed folios 33 and 34 confirmed on the images. Superscript endnote markers 26, 27 omitted as typography; one intervening sentence elided with a spaced ellipsis.",
+      "provenance": "PDF pp. 46-47 (printed folios 33 and 34); one intervening sentence elided with a spaced ellipsis.",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -124,7 +121,7 @@
       "supports": "That the sexual character of the partnership is disputed among specialists and unsettled - and that the connection itself is not.",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "PDF p. 47 read as a rendered page image; printed folio 34 confirmed on the image. Superscript endnote markers 30, 31 omitted as typography.",
+      "provenance": "PDF p. 47 (printed folio 34).",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -140,7 +137,7 @@
       "supports": "Both men's dates and the shared household, stated as plain fact by Wilde's editors; and the date the pair entered Wilde's circle.",
       "verification": "verified-elision",
       "how_verified": "pdf-text",
-      "provenance": "PDF pp. 432-433 read as rendered page images; printed folios 410 and 411 confirmed on the images (early offset +22). En-dashes as printed.",
+      "provenance": "PDF pp. 432-433 (printed folios 410-411)",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -168,7 +165,7 @@
       "supports": "That the partnership was legible to contemporaries as a couple, and that the surviving evidence is the two men's own diaries and letters.",
       "verification": "verified-exact",
       "how_verified": "web",
-      "provenance": "Https://1890s.ca/shannon_bio/ fetched (curl) and read in full; quote sliced from the downloaded HTML, then whitespace artifacts introduced by stripping inline markup normalized to the printed reading. Paragraph number counts body paragraphs from the first, including the two block quotations.",
+      "provenance": "Https://1890s.ca/shannon_bio/",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -185,7 +182,7 @@
       "supports": "Ricketts's own words about Shannon and their household, at first hand rather than through a historian's quotation.",
       "verification": "verified-elision",
       "how_verified": "digital-copy",
-      "provenance": "Transcribed from the repo OCR dump, leaf 00000447, whose foot carries the printed folio 409; OCR line-break hyphens closed (\"semi-conscious\"), and one sentence about the medical prognosis elided with a spaced ellipsis. The reading and the folio were independently confirmed against a second copy that was separately scanned and separately ocr'd - HathiTrust uc1.$b73973, the University of California copy of the same 1939 Peter Davies printing - whose search-only index returns both \"three male nurses\" and \"Farquhar Buzzard\" at scan #449 = printed p. 409, matching this dump's own foot-of-leaf folio. Controls run on that index the same day: a positive ('Farquhar Buzzard' returns #449 = printed p. 409) and a negative ('plonk down a plate' returns nothing, where 'plank down a plate' returns #126 = printed p. 96), so the index discriminates and a null in it is informative. **What this method does not establish**: typography no text layer carries (italics, small caps, rule and indent placement) and anything both scans dropped in the same way. Neither is load-bearing for this quotation. **This entry corrects an earlier record** which ran this letter and the next one together under a single ellipsis and credited both to Cecil Lewis; the two-digitisation pass is what caught it, because the halves came back on consecutive pages.",
+      "provenance": "Self-Portrait (1939), p. 409; OCR line-break hyphens closed (\"semi-conscious\"), and one sentence about the medical prognosis elided with a spaced ellipsis. This entry corrects an earlier record which ran this letter and the next together under a single ellipsis and credited both to Cecil Lewis.",
       "verified_on": "2026-08-04",
       "speaker": "Charles Ricketts, letter to Cecil Lewis",
       "addressee": "Cecil Lewis",
@@ -205,7 +202,7 @@
       "supports": "Ricketts, in his own voice, managing what Shannon would be told and what the nursing was costing him - participant testimony from inside the household.",
       "verification": "verified-elision",
       "how_verified": "digital-copy",
-      "provenance": "Transcribed from the repo OCR dump, leaf 00000448, whose foot carries the printed folio 410; one passage about the doctors' prognosis elided with a spaced ellipsis. The four suspension points after \"a serious accident\" are the volume's own. The reading and the folio were independently confirmed against a second copy that was separately scanned and separately ocr'd - HathiTrust uc1.$b73973, the University of California copy of the same 1939 Peter Davies printing - whose search-only index returns \"do not mention any of these facts\" at scan #450 = printed p. 410 - the page after the Lewis letter, which is how the splice was caught. Controls run on that index the same day: a positive ('Farquhar Buzzard' returns #449 = printed p. 409) and a negative ('plonk down a plate' returns nothing, where 'plank down a plate' returns #126 = printed p. 96), so the index discriminates and a null in it is informative. **What this method does not establish**: typography no text layer carries (italics, small caps, rule and indent placement) and anything both scans dropped in the same way. Neither is load-bearing for this quotation.",
+      "provenance": "Self-Portrait (1939), p. 410; one passage about the doctors' prognosis elided with a spaced ellipsis. The four suspension points after \"a serious accident\" are the volume's own.",
       "verified_on": "2026-08-04",
       "speaker": "Charles Ricketts, letter to R. N. R. Holst",
       "addressee": "Richard Roland Holst",
@@ -229,7 +226,7 @@
     {
       "work": "ricketts-self-portrait-1939",
       "checked_on": "2026-08-04",
-      "finding": "The \"forty years of perfect companionship\" line is NOT in Ricketts's Self-Portrait (1939). Searched across two independent digitisations: the repo per-leaf OCR of the NYPL copy (486 leaves) and HathiTrust uc1.$b73973, the University of California copy (488 scans), whose search-only index returns no results for \"perfect companionship\". A control phrase from the same region of the book, \"Farquhar Buzzard\", returns scan #449 = printed p. 409, so the index works and the negative is real. The line is from an unpublished letter to John Gray of late 1929, which Cook 2014 p. 52 cites to Delaney p. 389; it is now recorded from Delaney, read at the page. Do not hunt it in Self-Portrait again."
+      "finding": "The \"forty years of perfect companionship\" line is NOT in Ricketts's Self-Portrait (1939). Searched across two independent digitisations - the NYPL per-leaf OCR (486 leaves) and HathiTrust uc1.$b73973 (488 scans) - whose search-only indexes return no results for \"perfect companionship\"; a control phrase, \"Farquhar Buzzard\", returns scan #449 = printed p. 409. The line is from an unpublished letter to John Gray of late 1929, which Cook 2014 p. 52 cites to Delaney p. 389; it is now recorded from Delaney."
     }
   ]
 }

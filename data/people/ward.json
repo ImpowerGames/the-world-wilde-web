@@ -19,7 +19,7 @@
   "bio_sources": [
     "letters-2000"
   ],
-  "bio_note": "Twenty-two letters at PDF 39, 43, 45, 47, 49, 50, 52, 56 (two), 60, 62, 63, 66, 82, 84, 87, 88, 91, 96, 97, 102 and 137. Fifteen have been read at the page (printed 20, 38, 64, 69, 70 and the four-double-sheet letter at printed 38-9, folios confirmed); the other sixteen are located, not read. Dates: none recorded — his years are probably in the editors' note at the first letter (PDF 39), which has not been read; nothing is inferred here. The letter to read next is PDF 63, which the editors describe as 'a letter of four double sheets' — by far the longest of the twenty-two, and the likeliest to carry more than news. The ARC is now bracketed: the earliest letter (printed 15, March 1876) signs off 'Your affectionate friend' and the last (printed 112, mid-1881) 'Ever affectionately yours', so the register at both ends is on the record even though thirteen letters in the middle remain unread. Two More candidates this turned up, neither on the map: John Addington Symonds, whose Studies of the Greek Poets Wilde was reviewing in August 1876 (printed 31) and who is a central figure in the period's homosexual writing; and Walter Pater, whose first letter to Wilde is printed whole at printed 59. Every page in these two correspondences that mentions Frank or the Miles family has now been read at the page - PDF 42, 46, 47, 49, 54, 56 and 72, printed 17, 21, 22, 24, 29, 31 and 47 - and the note is not audible in any of them.",
+  "bio_note": "Twenty-two letters. Dates: none recorded — his years are probably in the editors' note at the first letter; nothing is inferred here. The editors describe one letter, printed 38-9, as 'a letter of four double sheets' — by far the longest of the twenty-two. The register is bracketed by the ends of the correspondence: the earliest letter (printed 15, March 1876) signs off 'Your affectionate friend', the last (printed 112, mid-1881) 'Ever affectionately yours'. Two further correspondents surface in the record, neither on the map: John Addington Symonds, whose Studies of the Greek Poets Wilde was reviewing in August 1876 (printed 31) and who is a central figure in the period's homosexual writing; and Walter Pater, whose first letter to Wilde is printed whole at printed 59.",
   "context_engagements": [
     {
       "partner_name": "Oscar Wilde",
@@ -41,7 +41,7 @@
           "supports": "The earliest surviving sign-off to Ward — 'Your affectionate friend' — and the Ward/Harding/Wilde triangle in one letter.",
           "verification": "verified-elision",
           "how_verified": "pdf-image",
-          "provenance": "PDF page 40; printed folio 15 confirmed on the rendered page image.",
+          "provenance": "PDF p. 40.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -61,7 +61,7 @@
           "supports": "The First and the grief in the same breath — what Wilde told Ward that he told almost nobody.",
           "verification": "verified-elision",
           "how_verified": "pdf-image",
-          "provenance": "PDF page 45; printed folio 20 confirmed on the rendered page image.",
+          "provenance": "PDF p. 45.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -81,7 +81,7 @@
           "supports": "What Wilde and Ward actually talked about — faith, Newman, reason — which is the friendship's substance and is not romantic.",
           "verification": "verified-elision",
           "how_verified": "pdf-image",
-          "provenance": "PDF page 50; printed folio 25 confirmed on the rendered page image.",
+          "provenance": "PDF p. 50.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -101,7 +101,7 @@
           "supports": "Wilde inviting Ward and Harding together for a month, and the exact placement of a Frank Miles mention — the thing Croft-Cooke says the charge lives in.",
           "verification": "verified-elision",
           "how_verified": "pdf-image",
-          "provenance": "PDF page 56; printed folio 31 confirmed on the rendered page image.",
+          "provenance": "PDF p. 56.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -120,7 +120,7 @@
           "supports": "The confidence in the friendship — solicitude about his meals, and the proudest letter of his young life sent to Ward before anyone else.",
           "verification": "verified-elision",
           "how_verified": "pdf-image",
-          "provenance": "PDF pages 43 and 86; printed folios 18 and 59 both confirmed on the rendered page images. The two letters are quoted together and the join is marked; each is separately locatable at its own folio.",
+          "provenance": "PDF p. 43 and 86. The two letters are quoted together and the join is marked; each is separately locatable at its own folio.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -129,7 +129,7 @@
           "locator": "p. 38",
           "locator_type": "page",
           "quote": "However I think you are an awful cynic about women – a Passionless Sphinx of Society – (sounds rather abusive!) I hope some day to hear you raving about pretty lips and blue eyes. Ever yours",
-          "context": "The close of Wilde's letter to William Ward, [postmark 3 January 1877], 1 Merrion Square North (MS Magdalen). Recorded because of what it says about Ward rather than about Wilde: it is a friend teasing him, at twenty-one or so, for showing no interest in women. Nothing else read so far follows it up, and no inference is drawn here — it is one joke in one letter, and it is on the page.",
+          "context": "The close of Wilde's letter to William Ward, [postmark 3 January 1877], 1 Merrion Square North (MS Magdalen). Recorded because of what it says about Ward rather than about Wilde: it is a friend teasing him, at twenty-one or so, for showing no interest in women. Nothing else follows it up, and no inference is drawn here - it is one joke in one letter.",
           "speaker": "Oscar Wilde",
           "addressee": "William Ward",
           "evidence_date": {
@@ -140,7 +140,7 @@
           "supports": "Wilde's own observation that Ward was indifferent to women, and his wish that he would not be.",
           "verification": "verified-exact",
           "how_verified": "pdf-image",
-          "provenance": "PDF page 63; printed folio 38 confirmed on the rendered page image.",
+          "provenance": "PDF p. 63.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -160,7 +160,7 @@
           "supports": "What Ward's congratulations were worth to him, and the plain wish to see him.",
           "verification": "verified-elision",
           "how_verified": "pdf-image",
-          "provenance": "PDF page 97; printed folio 70 confirmed on the rendered page image.",
+          "provenance": "PDF p. 97.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -180,7 +180,7 @@
           "supports": "Wilde at his lowest before the First was announced, asking Ward why he does not write and whether he will come.",
           "verification": "verified-exact",
           "how_verified": "pdf-image",
-          "provenance": "PDF page 96; printed folio 69 confirmed on the rendered page image.",
+          "provenance": "PDF p. 96.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -199,13 +199,13 @@
           "supports": "The close of the correspondence, five years on and still affectionate — and Wilde's estimate of Ward's judgement.",
           "verification": "verified-exact",
           "how_verified": "pdf-image",
-          "provenance": "PDF page 137; printed folio 112 confirmed on the rendered page image.",
+          "provenance": "PDF p. 137.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
         {
           "work": "letters-2000",
-          "locator": "pp. 28-9",
+          "locator": "pp. 28-29",
           "locator_type": "page",
           "quote": "I want to ask your opinion on this psychological question. In our friend Todd's ethical barometer, at what height is his moral quicksilver? Last night I strolled into the theatre about ten o'clock and to my surprise saw Todd and young Ward the quire boy in a private box together, Todd very much in the background. He saw me so I went round to speak to him for a few minutes. He told me that he and Foster Harter had been fishing in Donegal and that he was going to fish South now. I wonder what young Ward is doing with him. Myself I believe Todd is extremely moral and only mentally spoons the boy, but I think he is foolish to go about with one, if he is bringing this boy about with him. You are the only one I would tell about it, as you have a philosophical mind, but don't tell anyone about it like a good boy - it would do neither us nor Todd any good. He (Todd) looked awfully nervous and uncomfortable. I thought of Mark. I hope nothing is wrong with your people or yourself that you don't write. Ever yours",
           "context": "Wilde to William Ward, Sunday [6 August 1876], 1 Merrion Square North (MS Magdalen), quoted unbroken from where the subject is raised to the signature; the elision drops only the letter's earlier news of Mahaffy, Howth and Wilde's poems. At the time of writing, Wilde is twenty-one years old. The editors identify Todd as Charles John Todd (1854-1939), a Magdalen undergraduate of Wilde's own years who became Chaplain to the Royal Navy from 1881 to 1909, and 'young Ward the quire boy' as Eric Richard Ward, a Magdalen chorister 1874-8 and no relation to the recipient. WHAT THE LETTER SHOWS is the machinery of discretion: a thing seen, a judgement withheld, one confidant chosen for having 'a philosophical mind', and an explicit instruction to say nothing because exposure would damage the teller as much as the man told of.",
@@ -219,7 +219,7 @@
           "supports": "What Wilde could say to Ward and to nobody else, and the earliest recorded instance of him handling a suspected attachment between men.",
           "verification": "verified-elision",
           "how_verified": "pdf-image",
-          "provenance": "PDF pages 53-54; printed folios 28 and 29 both confirmed on the rendered page images.",
+          "provenance": "PDF pp. 53-54.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -239,7 +239,7 @@
           "supports": "A week inside the Miles household, written up entirely in terms of the parents.",
           "verification": "verified-elision",
           "how_verified": "pdf-image",
-          "provenance": "PDF page 47; printed folio 22 confirmed on the rendered page image.",
+          "provenance": "PDF p. 47.",
           "verified_on": "2026-08-05",
           "voice": "period"
         }

@@ -28,7 +28,7 @@
           "supports": "That Wilde replaced one young Roman with his best friend, and said so plainly.",
           "verification": "verified-exact",
           "how_verified": "pdf-image",
-          "provenance": "PDF page 1228; printed folio 1182 confirmed on the rendered page image.",
+          "provenance": "PDF p. 1228.",
           "verified_on": "2026-08-06",
           "voice": "period"
         }
@@ -38,5 +38,5 @@
   "name": "Arnaldo",
   "sort_name": "Arnaldo",
   "bio": "A young Roman, Armando's closest friend, whom Wilde took up in April 1900 when he gave Armando up. He survives in one sentence: 'I now like Arnaldo: he was Armando's greatest friend, but the friendship is over.'",
-  "bio_note": "The gap existed because only Armando has his own General Index entry ('Armando (boy), 1182, 1184'); the other two appear inside the same paragraphs and are indexed nowhere."
+  "bio_note": "He appears only inside a paragraph on Armando and is indexed nowhere."
 }

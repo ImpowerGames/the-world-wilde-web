@@ -17,7 +17,7 @@
   "bio_sources": [
     "letters-2000"
   ],
-  "bio_note": "Sixteen letters at PDF 523, 551, 614, 616, 643, 653, 941, 954, 975 and others; two read at the page (printed 562 and 1024, folios confirmed).",
+  "bio_note": "Sixteen letters.",
   "context_engagements": [
     {
       "partner_name": "Oscar Wilde",
@@ -38,7 +38,7 @@
           "supports": "Wilde jumping out of a cab to end a coldness he had been maintaining on principle.",
           "verification": "verified-exact",
           "how_verified": "pdf-image",
-          "provenance": "PDF page 614; printed folio 562 confirmed on the rendered page image.",
+          "provenance": "PDF p. 614.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -57,7 +57,7 @@
           "supports": "What one friend's letter about The Ballad was worth to him, and the wish that Rothenstein never learn what skilly is.",
           "verification": "verified-exact",
           "how_verified": "pdf-image",
-          "provenance": "PDF page 1070; printed folio 1024 confirmed on the rendered page image.",
+          "provenance": "PDF p. 1070.",
           "verified_on": "2026-08-05",
           "voice": "period"
         }

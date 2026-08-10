@@ -8,7 +8,7 @@
   "certainty_status": "proposed",
   "direction": "wilde",
   "outcome": "unreciprocated",
-  "certainty_reasoning": "The evidence read so far is Wilde's own twelve letters to Dowson (the primary source for this pair) plus Dowson's own words about Wilde as printed by Frankel from the Flower-Maas edition - so both participants are on record, which is rare here. That clears the readme's bar twice over: the ardour is legible as ardour without the coding hypothesis, and a scholarly source reads it that way (McKenna: 'their friendship suddenly seemed to deepen into love'). Frankel - the specialist monograph for exactly these years, and the most recent scholarship in the corpus - reads it flatly as 'frank and unguarded friendship' and never suggests otherwise; Dowson's own surviving words about Wilde are admiring, wry and entirely non-romantic; Dowson's documented sexual interest was in women, and by both Sox's and Frankel's accounts he tried to steer Wilde toward women; and the ardent lines are a handful within a correspondence that is otherwise practical (poems, absinthe, a translation, a debt). Sox prints it in an agentless passive with an endnote (n. 12) that names no describer and merely cross-refers to Wilde's own 16 June letter, which does not contain it; the phrase appears nowhere in the Complete Letters, so it is not Wilde's; and McKenna, the only other corpus source to use it, cites Sox p. 141 for it, closing the loop.",
+  "certainty_reasoning": "The evidence is Wilde's own twelve letters to Dowson (the primary source for this pair) plus Dowson's own words about Wilde as printed by Frankel from the Flower-Maas edition - so both participants are on record, which is rare here. The ardour is legible as ardour without a coding hypothesis, and a scholarly source reads it that way (McKenna: 'their friendship suddenly seemed to deepen into love'). Frankel - the specialist monograph for these years - reads it flatly as 'frank and unguarded friendship' and never suggests otherwise; Dowson's own surviving words about Wilde are admiring, wry and entirely non-romantic; Dowson's documented sexual interest was in women, and by both Sox's and Frankel's accounts he tried to steer Wilde toward women; and the ardent lines are a handful within a correspondence that is otherwise practical (poems, absinthe, a translation, a debt). Sox prints it in an agentless passive with an endnote (n. 12) that names no describer and merely cross-refers to Wilde's own 16 June letter, which does not contain it; the phrase appears nowhere in the Complete Letters, so it is not Wilde's; and McKenna, the only other source to use it, cites Sox p. 141 for it.",
   "start": {
     "y": 1897,
     "m": 6
@@ -34,7 +34,7 @@
       "supports": "Wilde's own most explicit statement of attachment to Dowson: inseparability, a compliment on Dowson's hair in the mythological register he used for Douglas, absence as the single flaw in the day, and 'Tout à toi'. This is also the letter Sox is quoting for both 'the green costume' and 'dark hyacinth locks'.",
       "verification": "verified-elision",
       "how_verified": "pdf-text",
-      "provenance": "PDF page 951, printed folio 901 confirmed on the rendered page. Three elisions marked with spaced ellipses; nothing omitted alters the sense of what is quoted. The editors reproduce a photograph of Dowson in the unfoliated plate section (PDF 600, plate 85) captioned with the first sentence of this passage.",
+      "provenance": "PDF p. 951. Three elisions marked.",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Ernest Dowson"
@@ -53,7 +53,7 @@
       "supports": "The register at its warmest outside the 16 June letter, and the daily rhythm of the Dieppe weeks",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "PDF page 957, printed folio 907 confirmed on the rendered page.",
+      "provenance": "PDF p. 957.",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Ernest Dowson"
@@ -72,7 +72,7 @@
       "supports": "Summons and dependence: Wilde asking to be consoled, and prescribing what Dowson is to wear - the second such instruction in a week",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "PDF page 958, printed folio 908 confirmed on the rendered page.",
+      "provenance": "PDF p. 958.",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Ernest Dowson"
@@ -91,14 +91,14 @@
       "supports": "The only line in the twelve letters that gestures at something withheld from the page ('and other things, always'), and the plan to gather the four of them at Berneval",
       "verification": "verified-elision",
       "how_verified": "pdf-text",
-      "provenance": "PDF pages 958-959, printed folios 908 and 909 both confirmed on the rendered pages. One elision marked with a spaced ellipsis; full letter.",
+      "provenance": "PDF pp. 958-959. One elision marked with a spaced ellipsis; full letter.",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Ernest Dowson"
     },
     {
       "quote": "Dowson was described as Wilde's 'first hyacinth since Douglas: But this flower was wilting, and had not much longer to live'. Despite the wilting, Wilde looked for 'the green costume' which went well with Dowson's 'dark hyacinth locks'. Fothergill commented that Dowson was in love with the owner of the Café Royal, but was 'faithful only after his fashion'. Although Dowson was in the house he did not appear. Wilde said they had quarrelled and Dowson, to spite him, 'had had all his long curls cut'.",
-      "context": "Sox, in the chapter 'Two Loves Have I', on the guests at Wilde's Chalet Bourgeat during Fothergill's own stay - 'Of the other guests at Chalet Bourgeat at this time, Fothergill mentioned seeing only two: Leonard Smithers … [and] the English poet Ernest Dowson' (p. 140). Sox's Part V note-head states that unnoted quotations in the section are from Fothergill's unpublished memoir, so the chain for the quarrel and the cut curls is Wilde -> Fothergill's memoir -> Sox. Endnote markers (nn. 12-13) omitted. Caution, and the reason this quote sits fifth rather than first: the 'first hyacinth' phrase is unattributed. Sox's n. 12 (printed p. 271) reads only 'Also see Hart-Davis, Selected Letters, pp. 290-1' - a cross-reference to Wilde's own 16 June letter, which does not contain the phrase. It is not Wilde's; McKenna, the only other corpus source to use it, cites Sox p. 141 for it. Whose words they are is a live open question. Note too the chronology tension: the Letters editors have Dowson back in England from mid-July (p. 924 n. 1), while Fothergill's undated visit falls in Wilde's last month at Berneval.",
+      "context": "Sox, in the chapter 'Two Loves Have I', on the guests at Wilde's Chalet Bourgeat during Fothergill's own stay - 'Of the other guests at Chalet Bourgeat at this time, Fothergill mentioned seeing only two: Leonard Smithers … [and] the English poet Ernest Dowson' (p. 140). Sox's Part V note-head states that unnoted quotations in the section are from Fothergill's unpublished memoir, so the chain for the quarrel and the cut curls is Wilde -> Fothergill's memoir -> Sox. Endnote markers (nn. 12-13) omitted. Caution, and the reason this quote sits fifth rather than first: the 'first hyacinth' phrase is unattributed. Sox's n. 12 (printed p. 271) reads only 'Also see Hart-Davis, Selected Letters, pp. 290-291' - a cross-reference to Wilde's own 16 June letter, which does not contain the phrase. It is not Wilde's; McKenna, the only other corpus source to use it, cites Sox p. 141 for it. Whose words they are is a live open question. Note too the chronology tension: the Letters editors have Dowson back in England from mid-July (p. 924 n. 1), while Fothergill's undated visit falls in Wilde's last month at Berneval.",
       "work": "sox-1991",
       "locator": "p. 141",
       "locator_type": "page",
@@ -108,7 +108,7 @@
       "supports": "The only romantic characterization of the pair in the literature, and its unresolved attribution; Fothergill's counter-observation that Dowson's own attachment lay elsewhere; and the quarrel in which Dowson cut off the curls Wilde had admired - the evidential basis for outcome 'unreciprocated'",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "PDF page 157, printed folio 141 confirmed on the rendered page; the setting sentence from PDF 156, printed folio 140 confirmed. Endnote 12 read on the rendered page at PDF 303, printed folio 271 confirmed, and the superscript markers on p. 141 checked in a 4x zoom render. Sox's index (printed p. 282) lists Dowson at p. 141 only, and a full-text search of the file confirms this is his sole treatment.",
+      "provenance": "PDF p. 157 (setting sentence from PDF 156, printed folio 140). Sox's index lists Dowson only at p. 141.",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -124,13 +124,13 @@
       "supports": "The second participant's own testimony - the counter-weight that keeps this edge below a relationship class. Dowson's register toward Wilde is admiring and wry, never romantic.",
       "verification": "verified-elision",
       "how_verified": "pdf-text",
-      "provenance": "PDF page 128, printed folio 114 confirmed on the rendered page. Frankel's printed-to-PDF offset established so far as a constant PDF - 14, holding across body and notes. Frankel p. 113 read at PDF 127, folio confirmed. One elision marked with a spaced ellipsis; Frankel's own internal ellipsis inside the Dowson quotation is his.",
+      "provenance": "PDF p. 128 (printed folio 114). One elision marked with a spaced ellipsis; Frankel's own internal ellipsis is his.",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
     {
       "quote": "They met frequently, and their friendship suddenly seemed to deepen into love. It is unlikely that the relationship was ever sexual, but there may have been drunken embraces and declarations of undying love.",
-      "context": "McKenna on the June 1897 Dieppe weeks, immediately before he quotes the 'fatality about our being together' letter. The file carries no printed folios, so the locator is a PDF page.",
+      "context": "McKenna on the June 1897 Dieppe weeks, immediately before he quotes the 'fatality about our being together' letter. The edition carries no printed folios; the locator is a PDF page.",
       "work": "mckenna-2008",
       "locator": "PDF p. 665",
       "locator_type": "page",
@@ -138,7 +138,7 @@
         "y": 1897,
         "m": 6
       },
-      "supports": "The scholarly-reading half of the readme's attraction-expressed bar - and, by its own hedging, the reason the class stays at attraction-expressed rather than rising higher",
+      "supports": "The scholarly reading of the friendship as deepening into love - and, by its own hedging, the reason the class stays at attraction-expressed rather than rising higher",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
       "provenance": "McKenna's source note for the adjoining 'first hyacinth since Douglas' phrase, at PDF 852, reads 'Sox, Bachelors of Art, page 141'.",
@@ -159,7 +159,7 @@
       "supports": "The close of the connection in Wilde's own voice; 'he knew what love is' is elegiac and unspecific - Wilde does not say for whom",
       "verification": "verified-elision",
       "how_verified": "pdf-text",
-      "provenance": "PDF page 1219, printed folio 1173 confirmed on the rendered page. One elision marked with a spaced ellipsis; full passage.",
+      "provenance": "PDF p. 1219. One elision marked with a spaced ellipsis; full passage.",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Leonard Smithers"

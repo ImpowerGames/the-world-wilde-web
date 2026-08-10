@@ -18,7 +18,7 @@
   "bio_sources": [
     "letters-2000"
   ],
-  "bio_note": "Four of seven letters read at the page: printed 496, 506, 528 and 557 (PDF 516, 526, 548, 609), every folio confirmed on its own page image. The fifth, PDF 549, is located but unread; the OCR mirror shows it badly scrambled and it will need the page image. Dates 1870-1925 from the editors' note at printed 496.",
+  "bio_note": "Seven letters; four read (printed 496, 506, 528, 557) Dates 1870-1925 from the editors' note at printed 496.",
   "context_engagements": [
     {
       "partner_name": "Oscar Wilde",
@@ -42,7 +42,7 @@
           "supports": "The opening of the friendship, and the fact that Gide was there from the first day of it.",
           "verification": "verified-exact",
           "how_verified": "pdf-image",
-          "provenance": "PDF page 516; printed folio 496 confirmed on the rendered page image.",
+          "provenance": "PDF p. 516.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -63,7 +63,7 @@
           "supports": "The collaboration the dedication was payment for.",
           "verification": "verified-exact",
           "how_verified": "pdf-image",
-          "provenance": "PDF page 526; printed folio 506 confirmed on the rendered page image.",
+          "provenance": "PDF p. 526.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -84,7 +84,7 @@
           "supports": "The friendship at its most familiar - a joke address, two days of looking, and John Gray asked along.",
           "verification": "verified-exact",
           "how_verified": "pdf-image",
-          "provenance": "PDF page 548; printed folio 528 confirmed on the rendered page image.",
+          "provenance": "PDF p. 548.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -104,7 +104,7 @@
           "supports": "The end of it, in Wilde's own hand, and the sentence the whole node is for.",
           "verification": "verified-exact",
           "how_verified": "pdf-image",
-          "provenance": "PDF page 609; printed folio 557 confirmed on the rendered page image.",
+          "provenance": "PDF p. 609.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -124,7 +124,7 @@
           "supports": "That the break was not clean, and that Wilde was still placing him well seven weeks later.",
           "verification": "verified-exact",
           "how_verified": "pdf-image",
-          "provenance": "PDF page 613; printed folio 561 confirmed on the rendered page image.",
+          "provenance": "PDF p. 613.",
           "verified_on": "2026-08-05",
           "voice": "period"
         }

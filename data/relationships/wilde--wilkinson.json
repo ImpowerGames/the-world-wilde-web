@@ -1,14 +1,11 @@
 {
   "id": "wilde--wilkinson",
-  "people": [
-    "wilde",
-    "wilkinson"
-  ],
+  "people": ["wilde", "wilkinson"],
   "certainty": "attraction-expressed",
   "certainty_status": "proposed",
   "direction": "wilde",
   "outcome": "unknown",
-  "certainty_reasoning": "The editors state it flatly in the main-particulars footnote: Wilkinson invented an 'Ipswich Dramatic Society' and its wish to dramatise The Picture of Dorian Gray 'so as to get into correspondence with Wilde, whom he never met' (p. 1109 n. 1). Age, stated as the record states it: the editors give his dates as 1881-1966 and say he 'was at this time a Radley schoolboy' (p. 1109 n. 1); Wilde, describing the correspondence to Reginald Turner on 3 January 1899, calls him 'a Radley schoolboy, aged seventeen' (p. 1118). Direction is Wilde's, and rests on documented acts rather than on tone: Wilde asks for a photograph in his first letter (p. 1109), asks again when a promised enclosure proved missing from the envelope (p. 1113), comments on the photographs when they arrive (p. 1122), reports to Turner that the boy sends them constantly (p. 1118), and asks Robert Ross to go to Radley and see him (p. 1127). Outcome is unknown, and cannot be otherwise: no meeting took place, no Wilkinson letter survives in this edition, and the boy's own account came fifty-four years later in Seven Friends (1953), unread here. Weigh this against the edge: the initiative in the whole affair was Wilkinson's, not Wilde's - he manufactured a theatrical society and, per the editors, at least one further false claim to attract Wilde's attention (p. 1127 n. 2), so the approach that started it ran the other way. Quote debt on this edge, recorded : nine of its eleven sources were logged by the earlier conservative method and several are far too short to be read - one is the eleven characters 'My dear Boy' (printed 1133), where the whole letter should stand.",
+  "certainty_reasoning": "The editors state it flatly in the main-particulars footnote: Wilkinson invented an 'Ipswich Dramatic Society' and its wish to dramatise The Picture of Dorian Gray 'so as to get into correspondence with Wilde, whom he never met' (p. 1109 n. 1). Age, stated as the record states it: the editors give his dates as 1881-1966 and say he 'was at this time a Radley schoolboy' (p. 1109 n. 1); Wilde, describing the correspondence to Reginald Turner on 3 January 1899, calls him 'a Radley schoolboy, aged seventeen' (p. 1118). Direction is Wilde's, and rests on documented acts rather than on tone: Wilde asks for a photograph in his first letter (p. 1109), asks again when a promised enclosure proved missing from the envelope (p. 1113), comments on the photographs when they arrive (p. 1122), reports to Turner that the boy sends them constantly (p. 1118), and asks Robert Ross to go to Radley and see him (p. 1127). Outcome is unknown, and cannot be otherwise: no meeting took place, no Wilkinson letter survives in this edition, and the boy's own account came fifty-four years later in Seven Friends (1953). The initiative in the whole affair was Wilkinson's, not Wilde's - he manufactured a theatrical society and, per the editors, at least one further false claim to attract Wilde's attention (p. 1127 n. 2), so the approach that started it ran the other way.",
   "start": {
     "y": 1898,
     "m": 12
@@ -17,7 +14,7 @@
     "y": 1900,
     "m": 7
   },
-  "date_label": "First surviving Wilde letter [postmark 14 December 1898] (p. 1109) to the letter of [postmark 15 July 1900] (p. 1192), four months before Wilde's death. The end date was previously pinned at March 1899, the last letter then read; the General Index leads were followed on 2026-08-04 and the correspondence runs a year and a third longer than the record showed. Wilkinson is also among the senders of funeral wreaths in Ross's post-mortem account (p. 1222).",
+  "date_label": "First surviving Wilde letter [postmark 14 December 1898] (p. 1109) to the letter of [postmark 15 July 1900] (p. 1192), four months before Wilde's death. Wilkinson is also among the senders of funeral wreaths in Ross's post-mortem account (p. 1222).",
   "summary": "In the winter of 1898 a seventeen-year-old Radley schoolboy named Louis Wilkinson wrote to Wilde in exile, having invented an Ipswich Dramatic Society and its wish to stage The Picture of Dorian Gray in order to have a reason to write. Wilde, who was forty-four, answered, granted the imaginary society four performances, asked who was to play Dorian - he should be beautiful - and closed by asking for the boy's photograph. Over the next four months Wilde asked for the photograph twice more, discussed the ones that arrived, praised and criticised the verse Wilkinson sent him, recommended his own 'The Portrait of Mr W. H.' when the boy said he loved Shakespeare's sonnets, told Reggie Turner and Robert Ross about him, and asked Ross to go down to Radley and look at him. The salutation moved from 'Dear Mr Wilkinson' to 'My dear Boy' and the signature from 'Sincerely yours' to 'Affectionately yours'. They never met. Wilkinson went up to Oxford, became the novelist Louis Marlow, sent a wreath to Wilde's funeral in 1900, and in 1953 printed the letters in Seven Friends, where he confessed that the dramatic society had never existed.",
   "sources": [
     {
@@ -30,7 +27,7 @@
       "supports": "The class-deciding fact - 'whom he never met' - together with his dates, his being a Radley schoolboy at the time, the pen-name, the 1953 memoir, and the fabricated Ipswich Dramatic Society that opened the correspondence",
       "verification": "verified-elision",
       "how_verified": "pdf-text",
-      "provenance": "PDF pages 1155-56, printed folios 1109 and 1110 both confirmed on the rendered pages; carried forward with its original provenance. En-dash in the date range as printed.",
+      "provenance": "PDF pp. 1155-1156.",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -48,7 +45,7 @@
       "supports": "Wilkinson's age at the time of the correspondence, in Wilde's own contemporaneous words and exactly as the record states it - seventeen; and the fact that Wilde described the correspondence to a third party as constant",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "PDF page 1164, printed folio 1118 confirmed on the rendered page. Single sentence, complete.",
+      "provenance": "PDF p. 1164. Single sentence, complete.",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Reginald Turner"
@@ -63,7 +60,7 @@
       "supports": "That the fabrications continued past the opening gambit, and that the initiative in the acquaintance was Wilkinson's; also that Wilde was recommending him to Ross in person",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "PDF page 1173, printed folio 1127 confirmed on the rendered page. Whole footnote.",
+      "provenance": "PDF p. 1173. Whole footnote.",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -77,13 +74,13 @@
       "supports": "A correction to the 1127 n. 2 picture of wholesale invention - the FitzGerald connection was real but paternal, so not every claim Wilkinson made was manufactured",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "PDF page 1179, printed folio 1133 confirmed on the rendered page. Final two sentences of the footnote, quoted complete; the preceding sentences concern the manuscript's provenance.",
+      "provenance": "PDF p. 1179. Final two sentences of the footnote, quoted complete; the preceding sentences concern the manuscript's provenance.",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
     {
       "quote": "My dear Boy",
-      "context": "Salutation of Wilde to Louis Wilkinson, [postmark 20 March 1899], Gland, Switzerland; heading as printed 'To Louis Wilkinson / MS Wilkinson', signed 'Affectionately yours OSCAR'. Recorded as the endpoint of a documented four-month register shift, each element read in the source so far or the last: [postmark 14 December 1898] p. 1109 opens 'Dear Mr Wilkinson' and signs 'Sincerely yours'; 28 December [1898] p. 1113 opens 'Dear Mr Wilkinson' and signs 'Sincerely yours'; [postmark 3 February 1899] pp. 1122-23 opens 'Dear Mr Wilkinson' and signs 'Your friend'; this letter opens 'My dear Boy' and signs 'Affectionately yours'. 'My dear Boy' is the salutation Wilde also used to Lord Alfred Douglas.",
+      "context": "Salutation of Wilde to Louis Wilkinson, [postmark 20 March 1899], Gland, Switzerland; heading as printed 'To Louis Wilkinson / MS Wilkinson', signed 'Affectionately yours OSCAR'. The endpoint of a documented four-month register shift: [postmark 14 December 1898] p. 1109 opens 'Dear Mr Wilkinson' and signs 'Sincerely yours'; 28 December [1898] p. 1113 opens 'Dear Mr Wilkinson' and signs 'Sincerely yours'; [postmark 3 February 1899] pp. 1122-1123 opens 'Dear Mr Wilkinson' and signs 'Your friend'; this letter opens 'My dear Boy' and signs 'Affectionately yours'. 'My dear Boy' is the salutation Wilde also used to Lord Alfred Douglas.",
       "work": "letters-2000",
       "locator": "p. 1133",
       "locator_type": "page",
@@ -95,7 +92,7 @@
       "supports": "The escalation of address across the correspondence, as a matter of documented salutation and signature rather than of interpretation",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "PDF page 1179, printed folio 1133 confirmed on the rendered page. The earlier salutations and signatures were read at PDF 1155 (folio 1109), 1159 (folio 1113), and 1168-69 (folios 1122 and 1123).",
+      "provenance": "PDF p. 1179; earlier salutations and signatures at PDF 1155 (folio 1109), 1159 (folio 1113), 1168-1169 (folios 1122-1123)",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Louis Wilkinson"
@@ -111,10 +108,10 @@
         "m": 1,
         "d": 3
       },
-      "supports": "The documented acts on which direction rests - three photograph requests, the comments on the photographs when they came, and the reports to Turner and Ross; recorded as description because the addressee was seventeen",
+      "supports": "The documented acts on which direction rests - three photograph requests, the comments on the photographs when they came, and the reports to Turner and Ross; the addressee was seventeen",
       "verification": "verified-elision",
       "how_verified": "pdf-text",
-      "provenance": "PDF page 1164, printed folio 1118 read off the rendered page. The ellipsis spans the end of the Turner letter and the opening of the Ross letter, both on this folio - it is not an elision inside a single letter.",
+      "provenance": "PDF p. 1164. The ellipsis spans the end of the Turner letter and the opening of the Ross letter, both on this folio - it is not an elision inside a single letter.",
       "verified_on": "2026-08-03",
       "voice": "period"
     },
@@ -134,7 +131,7 @@
       "verification": "verified-exact",
       "how_verified": "pdf-image",
       "verified_on": "2026-08-04",
-      "provenance": "PDF p. 1238 rendered at 2.6x and; folio 1192 printed at the foot of that page, giving offset +46 here. Located first in the OCR mirror, then confirmed on the rendered page.",
+      "provenance": "PDF p. 1238 (printed folio 1192).",
       "addressee": "Louis Wilkinson"
     },
     {
@@ -171,7 +168,7 @@
       "supports": "Wilde's own words placing Wilkinson's photograph at the centre of his room and his attention - the desire, expressed obliquely and unmistakably.",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "PDF p. 1215 read as a rendered page image; printed folio 1169 confirmed at the foot of the image.",
+      "provenance": "PDF p. 1215 (printed folio 1169).",
       "verified_on": "2026-08-04",
       "speaker": "Oscar Wilde",
       "addressee": "Louis Wilkinson",
@@ -181,7 +178,7 @@
       "quote": "Also, do come to Paris. I am ill and unhappy. The touch of your hand might heal me. Always affectionately yours",
       "context": "The close of Wilde's letter to Wilkinson postmarked 12 February 1900, which runs from printed 1170 onto 1171 and is signed 'OSCAR', followed by the postscript 'I am so glad you have found out my name.' The two had still never met; the editors state elsewhere that they never did.",
       "work": "letters-2000",
-      "locator": "pp. 1170-71",
+      "locator": "pp. 1170-1171",
       "locator_type": "page",
       "evidence_date": {
         "y": 1900,
@@ -191,7 +188,7 @@
       "supports": "The direction of the edge, in one line: Wilde asking, and saying what he wants it for.",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "PDF pp. 1216-1217 read as rendered page images; printed folios 1170 and 1171 confirmed at the feet of the images. The salutation 'My dear Boy' and postmark are on 1170; the quoted close is on 1171.",
+      "provenance": "PDF pp. 1216-1217 (printed folios 1170 and 1171). The salutation 'My dear Boy' and postmark are on 1170; the quoted close is on 1171.",
       "verified_on": "2026-08-04",
       "speaker": "Oscar Wilde",
       "addressee": "Louis Wilkinson",
@@ -202,7 +199,7 @@
       "locator": "p. 1113",
       "locator_type": "page",
       "quote": "Dear Mr Wilkinson, Thank you so much for your long and interesting letter. I envy you going to Oxford: it is the most flower-like time of one's life. One sees the shadow of things in silver mirrors. Later on, one sees the Gorgon's head, and one suffers, because it does not turn one to stone. I am on the Riviera, in blue and gold weather, the sun warm as wine, and apricot-coloured. The little hotel where I am staying is right on the Golfe de Juan, and all round are pine-woods with their pungent breath: the wind growing aromatic as it moves through the branches: one's feet crushing sweetness out of the fallen needles: I wish you were here. In your second letter you tell me that you enclose your photograph for me, but no photograph was in the envelope. Your thoughts must have been in the crystal of the moon. Call them back, and let me have your portrait. Sincerely yours",
-      "context": "Wilde to Louis Wilkinson, 28 December [1898], Hôtel des Bains, Napoule (MS Hyde) - quoted whole. Wilkinson was seventeen and the two never met. Note what Wilde does here: the identical landscape - pine-woods, pungent breath, feet crushing sweetness out of fallen needles - appears in the letter to Laurence Housman written the same day and printed on the same opening. To Housman it ends in the fisher-boys; to this schoolboy it ends 'I wish you were here' and a second request for his photograph.: this letter was read at the page but never logged, and the connection carried ten sources without it.",
+      "context": "Wilde to Louis Wilkinson, 28 December [1898], Hôtel des Bains, Napoule (MS Hyde) - quoted whole. Wilkinson was seventeen and the two never met. Note what Wilde does here: the identical landscape - pine-woods, pungent breath, feet crushing sweetness out of fallen needles - appears in the letter to Laurence Housman written the same day and printed on the same opening. To Housman it ends in the fisher-boys; to this schoolboy it ends 'I wish you were here' and a second request for his photograph.",
       "speaker": "Oscar Wilde",
       "addressee": "Louis Wilkinson",
       "evidence_date": {
@@ -213,7 +210,7 @@
       "supports": "The clearest single letter in the correspondence: the wish, and the portrait asked for twice.",
       "verification": "verified-exact",
       "how_verified": "pdf-image",
-      "provenance": "PDF page 1159; printed folio 1113 confirmed on the rendered page image.",
+      "provenance": "PDF p. 1159.",
       "verified_on": "2026-08-05",
       "voice": "period"
     }
@@ -222,7 +219,7 @@
     {
       "work": "letters-2000",
       "checked_on": "2026-08-04",
-      "finding": "POINTER CLEARED - all six locators read at rendered pages 2026-08-04 (PDF 1205, 1213, 1214, 1215, 1216, 1217, 1267; every printed folio confirmed on the image). The pointer's dates were exactly right and are now verified at page: printed 1167 = postmark 2 November 1899, 1168 = postmark of receipt 28 November 1899, 1169 = postmark 4 January 1900, 1170-71 = postmark 12 February 1900 (ONE letter across the two pages, not two). Its prediction also held: **the run does not move either end date**. The two remaining locators are immaterial to the relationship - printed 1159n is a footnote list of names carried over from the preceding page, in which 'Wilkinson' is the first of twenty-one; printed 1222 has him among the senders of funeral wreaths and among those Ross named as having shown Wilde kindness. Two quotations were taken from the middle of the run (printed 1169 and 1170-71) because they carry the edge's register; the rest is literary advice, Radley talk and book recommendations."
+      "finding": "The run of locators dates the letters: printed 1167 = postmark 2 November 1899, 1168 = postmark of receipt 28 November 1899, 1169 = postmark 4 January 1900, 1170-71 = postmark 12 February 1900 (ONE letter across the two pages, not two). The run does not move either end date. The remaining locators are immaterial: printed 1159n is a footnote list of names carried over from the preceding page, in which 'Wilkinson' is the first of twenty-one; printed 1222 has him among the senders of funeral wreaths and among those Ross named as having shown Wilde kindness. Two quotations were taken from the middle of the run (printed 1169 and 1170-71) because they carry the edge's register; the rest is literary advice, Radley talk and book recommendations."
     }
   ]
 }

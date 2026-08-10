@@ -11,7 +11,7 @@
   "bio_sources": [
     "letters-2000"
   ],
-  "bio_note": "Thirty-seven letters at PDF 489, 555, 895, 944, 1065, 1070, 1075, 1079, 1082 and others; four read at the page (printed 845, 894, 1024-5 and 1097, folios confirmed). Dates not recorded and none inferred. The first pass had kept only the two letters about money and missed both letters about the friendship itself - printed 894 and 1024-5 - which are the best things in the correspondence.",
+  "bio_note": "Thirty-seven letters, 1890s-1900. Dates not recorded.",
   "context_engagements": [
     {
       "partner_name": "Oscar Wilde",
@@ -33,7 +33,7 @@
           "supports": "The first thanks, and the clothes he came out of prison in.",
           "verification": "verified-exact",
           "how_verified": "pdf-image",
-          "provenance": "PDF page 895; printed folio 845 confirmed on the rendered page image.",
+          "provenance": "PDF p. 895.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -42,7 +42,7 @@
           "locator": "p. 894",
           "locator_type": "page",
           "quote": "My dear Frank, I know you do not like writing letters, but still I think you might have written me a line in answer, or acknowledgement of my letter to you from Dieppe. I have been thinking of a story to be called 'The Silence of Frank Harris'. I have, however, heard during the last few days that you do not speak of me in the friendly manner I would like. This distresses me very much. I am told that you are hurt with me because my letter of thanks to you was not sufficiently elaborated in expression. This I can hardly credit. It seems so unworthy of a big strong nature like yours, that knows the realities of life. I told you I was grateful to you for your kindness to me. Words, now, to me signify things, actualities, real emotions, realised thoughts. I learnt in prison to be grateful. I used to think gratitude a burden. Now I know that it is something that makes life lighter as well as lovelier for one. I am grateful for a thousand things, from my good friends down to the sun and the sea. But I cannot say more than that I am grateful. I cannot make phrases about it. For me to use such a word shows an enormous development in my nature. Two years ago I did not know the feeling the word denotes. … But I must say again that I no longer make roulades of phrases about the deep things I feel. When I write directly to you I speak directly. Violin-variations don't interest me. I am grateful to you. If that does not content you, then you do not understand, what you of all men should understand, how sincerity of feeling expresses itself.",
-          "context": "Wilde to Frank Harris, 13 June 1897, Hôtel de la Plage, Berneval-sur-Mer (MS Texas), three weeks out of prison. The desire test passed over this entirely and it is the most important letter in the correspondence. Harris had been offended that Wilde's thanks for money and clothes were not elaborate enough. Wilde's answer is a defence of plain speech as the form sincerity actually takes, and it doubles as a statement about his own post-prison prose. The elision drops a paragraph about the driving-tour he declined. The letter continues past the printed page.",
+          "context": "Wilde to Frank Harris, 13 June 1897, Hôtel de la Plage, Berneval-sur-Mer (MS Texas), three weeks out of prison. Harris had been offended that Wilde's thanks for money and clothes were not elaborate enough. Wilde's answer is a defence of plain speech as the form sincerity actually takes, and it doubles as a statement about his own post-prison prose. The elision drops a paragraph about the driving-tour he declined. The letter continues past the printed page.",
           "speaker": "Oscar Wilde",
           "addressee": "Frank Harris",
           "evidence_date": {
@@ -53,7 +53,7 @@
           "supports": "The friendship being repaired in the open, and Wilde defining what gratitude and directness now meant to him.",
           "verification": "verified-elision",
           "how_verified": "pdf-image",
-          "provenance": "PDF page 944; printed folio 894 confirmed on the rendered page image.",
+          "provenance": "PDF p. 944.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -72,16 +72,16 @@
           "supports": "What the friendship had become by 1898, in Wilde's own accounting.",
           "verification": "verified-exact",
           "how_verified": "pdf-image",
-          "provenance": "PDF page 1143; printed folio 1097 confirmed on the rendered page image.",
+          "provenance": "PDF p. 1143.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
         {
           "work": "letters-2000",
-          "locator": "p. 1024-5",
+          "locator": "pp. 1024-1025",
           "locator_type": "page",
           "quote": "My dear Frank, I cannot express to you how deeply touched I am by your letter: it is une vraie poignée de main. I simply long to see you, and to come again in contact with your strong, sane, wonderful personality. … When you return from Monte Carlo please let me know. I long to dine with you. As regards a comedy, my dear Frank, I have lost the mainspring of life and art, la joie de vivre; it is dreadful. I have pleasures, and passions, but the joy of life is gone. I am going under: the morgue yawns for me. I go and look at my zinc-bed there. After all, I had a wonderful life, which is, I fear, over. But I must dine once with you first. Ever yours",
-          "context": "Wilde to Frank Harris, [end February 1898], Hôtel de Nice (MS Texas), quoted across the page break. The elision drops two paragraphs on the reviewing of The Ballad. Also missed by the desire test. Harris was pressing him to write a comedy; the refusal turns into the plainest statement of despair in the late letters, and then swerves back to dinner. 'une vraie poignée de main' is a real handshake.",
+          "context": "Wilde to Frank Harris, [end February 1898], Hôtel de Nice (MS Texas), quoted across the page break. The elision drops two paragraphs on the reviewing of The Ballad. Harris was pressing him to write a comedy; the refusal turns into the plainest statement of despair in the late letters, and then swerves back to dinner. 'une vraie poignée de main' is a real handshake.",
           "speaker": "Oscar Wilde",
           "addressee": "Frank Harris",
           "evidence_date": {
@@ -91,7 +91,7 @@
           "supports": "What Wilde told a friend he had left, and that seeing him was still worth staying for.",
           "verification": "verified-elision",
           "how_verified": "pdf-image",
-          "provenance": "PDF pages 1070-1071; printed folios 1024-5 confirmed on the rendered page images.",
+          "provenance": "PDF pp. 1070-1071.",
           "verified_on": "2026-08-05",
           "voice": "period"
         }

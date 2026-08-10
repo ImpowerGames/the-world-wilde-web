@@ -16,7 +16,7 @@
   "group": "core",
   "bio": "Dublin-born writer; born 16 October 1854 at 21 Westland Row, educated at Trinity College Dublin and Magdalen College, Oxford. Married Constance Lloyd on 29 May 1884; two sons, Cyril (b. 1885) and Vyvyan (b. 1886). Convicted 25 May 1895 and sentenced to two years' hard labour following the three trials of that spring; released 19 May 1897 and lived thereafter in France and Italy. Died 30 November 1900 at the Hôtel d'Alsace, Paris, of cerebral meningitis; buried at Bagneux, moved to Père Lachaise in 1909.",
   "bio_sources": [],
-  "bio_note": "All facts from the Chronological Table, Holland & Hart-Davis, Complete Letters (2000), pp. viii-xii (PDF 8-12).",
+  "bio_note": "All facts from the Chronological Table, Holland & Hart-Davis, Complete Letters (2000), pp. viii-xii.",
   "context_engagements": [
     {
       "partner_name": "The sexologists",
@@ -38,7 +38,7 @@
           "supports": "Wilde's own awareness that he had become a case study in the medical literature of homosexuality, in his lifetime.",
           "verification": "verified-exact",
           "how_verified": "pdf-image",
-          "provenance": "PDF page 1054; printed folio 1006 confirmed on the rendered page image.",
+          "provenance": "PDF p. 1054.",
           "verified_on": "2026-08-05",
           "voice": "period"
         }

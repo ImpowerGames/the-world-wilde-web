@@ -20,7 +20,7 @@
   "disputed": {
     "claim": "That Douglas, as well as Wilde, had sexual relations with Alfred Wood.",
     "asserted_by": "Douglas Murray, Bosie (2020 edn), PDF p. 60 - in a subordinate clause, unfootnoted at that point, and phrased as a class statement about 'blackmailers like Wood'.",
-    "disputed_by": "Not rebutted in any source read so far. But nothing corroborates it: Wood's sworn testimony at the 1895 trials describes acts with Wilde, not with Douglas; Douglas was never charged; and the Complete Letters apparatus records only that Douglas gave Wood clothes and introduced him to Wilde by telegram.",
+    "disputed_by": "Nothing rebuts it, but nothing corroborates it either: Wood's sworn testimony at the 1895 trials describes acts with Wilde, not with Douglas; Douglas was never charged; and the Complete Letters apparatus records only that Douglas gave Wood clothes and introduced him to Wilde by telegram.",
     "grounds": "Single secondary source; assertion made in passing and in the plural rather than itemised; no first-person or testimonial evidence for the Douglas half."
   },
   "sources": [
@@ -37,7 +37,7 @@
       "supports": "The whole of the claim: that Douglas befriended Wood, and Murray's assertion that Wilde and Douglas had both slept with him.",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "PDF page 60 of Murray_2020_Bosie; no printed folio on the page - the file is an ebook conversion with no pagination, so the locator is PDF page.",
+      "provenance": "PDF p. 60 (ebook conversion; no printed folios.)",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -54,7 +54,7 @@
       "supports": "The documented, non-sexual connection between the two men - Wood worked as a valet in Douglas's Oxford rooms, and the old suits Douglas gave him carried Wilde's letters to Douglas into a blackmailer's hands.",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "PDF page 95 of Murray_2020_Bosie; no printed folio on the page (ebook conversion).",
+      "provenance": "PDF p. 95 (ebook conversion; no printed folios.)",
       "verified_on": "2026-08-03",
       "voice": "modern"
     }

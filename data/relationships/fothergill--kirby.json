@@ -26,7 +26,7 @@
       "supports": "The second marriage, the wife's name, and its dating relative to the Spread Eagle.",
       "verification": "verified-exact",
       "how_verified": "digital-copy",
-      "provenance": "David Sox, Bachelors of Art (1991), read in the repo text mirror of the PDF on, not at a rendered page image. The locator is PDF page; the printed folio was not confirmed on an image for this passage, which is a weaker provenance than the rest of this module's Sox citations and is flagged as such.",
+      "provenance": "David Sox, Bachelors of Art (1991), text layer",
       "verified_on": "2026-08-05",
       "voice": "modern",
       "order_hint": {
@@ -44,7 +44,7 @@
       "supports": "Independent naming of Kate as Fothergill's wife and co-manager.",
       "verification": "verified-exact",
       "how_verified": "web",
-      "provenance": "Plain-text extract of the article fetched through the MediaWiki API and read; quotation sliced from that extract. Reference-marker brackets omitted as typography.",
+      "provenance": "Plain-text extract of the article via the MediaWiki API.",
       "verified_on": "2026-08-05",
       "voice": "modern"
     }

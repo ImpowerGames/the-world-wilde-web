@@ -15,7 +15,7 @@
   "group": "aesthete",
   "gender": "f",
   "bio": "Poet, born 1846, the elder half of \"Michael Field\" and the aunt of her collaborator and life partner Edith Cooper (1862-1913), whom she raised. \"Michael Field\" is not a person but the single joint pen name under which Bradley and Cooper published everything: eight volumes of poetry, some twenty-seven verse dramas, and a joint diary, Works and Days. Wilde addressed his letters to \"Michael Field\", writing to the pair as one correspondent. Bradley and Cooper came from a well-off Birmingham family, read classics at University College, Bristol, and lived together first in Reigate and finally in Richmond; on the Y90s account Bradley was the older and the more glamorous and expansive of the two, and was \"Michael\" (also the Simiorg, or All-Wise-Fowl) in the private mythology of the diary. Wilde corresponded with \"Michael Field\" between 1890 and 1893 about their verse dramas and about placing A Question of Memory with J. T. Grein's Independent Theatre. Bradley survived Cooper by less than a year and died in 1914.",
-  "bio_note": "Dates (1846-1914) from the editors' identifying footnote to Wilde's letter to \"Michael Field\", Complete Letters (2000), p. 449, read at the rendered page image (the editors print the forename \"Katherine\"; the form \"Katharine\" follows the Y90s biography and her own usage).",
+  "bio_note": "Dates from the editors' identifying footnote to Wilde's letter to 'Michael Field', Complete Letters (2000), p. 449 (the editors print 'Katherine'; 'Katharine' follows the Y90s biography and her own usage).",
   "bio_sources": [
     "letters-2000",
     "evangelista-y90s-field-bio"
@@ -40,7 +40,7 @@
           "supports": "Wilde acting for them professionally, and what he thought of their play.",
           "verification": "verified-exact",
           "how_verified": "pdf-image",
-          "provenance": "PDF page 626; printed folio 574 confirmed on the rendered page image.",
+          "provenance": "PDF p. 626.",
           "verified_on": "2026-08-06",
           "voice": "period"
         }

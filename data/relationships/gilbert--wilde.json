@@ -1,9 +1,6 @@
 {
   "id": "gilbert--wilde",
-  "people": [
-    "gilbert",
-    "wilde"
-  ],
+  "people": ["gilbert", "wilde"],
   "certainty": "self-reported",
   "certainty_status": "proposed",
   "start": {
@@ -31,7 +28,7 @@
       "supports": "Wilde's plainest first-person statement of the attachment - 'He grows dearer to me daily' - set in the daily domestic texture (the bank errand, the two-franc dinners)",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "PDF page 1077, printed folio 1031 confirmed on the rendered page.",
+      "provenance": "PDF p. 1077.",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Leonard Smithers"
@@ -46,7 +43,7 @@
       "supports": "Gilbert's identity and the editors' own characterization of the friendship; the sum of what the editors say is knowable about him",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "PDF page 1071, printed folio 1025 confirmed on the rendered page. Whole footnote, both sentences.",
+      "provenance": "PDF p. 1071. Whole footnote, both sentences.",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -64,7 +61,7 @@
       "supports": "The amorous turn inside the comic bezique register - Wilde's own 'lost my heart', staked on a side-game",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "PDF page 1077, printed folio 1031 confirmed on the rendered page; the letter opens on printed 1030 (PDF 1076, folio confirmed). En-dashes as printed.",
+      "provenance": "PDF p. 1077; the letter opens on printed 1030 (PDF 1076)",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Leonard Smithers"
@@ -83,7 +80,7 @@
       "supports": "Gilbert as the single exemption from Wilde's misery in this stretch - 'sweeter than ever'",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "PDF page 1080, printed folio 1034 confirmed on the rendered page. En-dashes as printed.",
+      "provenance": "PDF p. 1080.",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Leonard Smithers"
@@ -104,12 +101,12 @@
       "verification": "verified-exact",
       "how_verified": "pdf-image",
       "verified_on": "2026-08-04",
-      "provenance": "PDF p. 1130 rendered and; folio 1084 printed at the foot. 'early' and 'oeufs à l'aurore' are italic in the printing.",
+      "provenance": "PDF p. 1130 (printed folio 1084). 'early' and 'oeufs à l'aurore' are italic in the printing.",
       "addressee": "Maurice Gilbert"
     },
     {
       "quote": "My dear Robbie, No cheque this morning, but instead my sweet Maurice, our sweet Maurice, looking quite charming and as delightful as ever. He seemed a little tired, but of course that was the journey. He was full of affectionate memories of you and Reggie, and is quite devoted to you both.",
-      "context": "Wilde to Robert Ross, 24 [actually 25] May 1898, from Paris. Read while clearing the pointer that named this page for its editorial footnote. Worth noting for the shape of this relationship: Gilbert is 'my sweet Maurice' and 'our sweet Maurice' in the same breath - the affection is real and is also shared openly with Ross and Turner, which is why this edge does not read as exclusive. The same page carries Wilde joking that he means to write a novel called The Boy-Snatcher of Clements Inn, Clements Inn being where Gilbert had been lodging with Reggie Turner.",
+      "context": "Wilde to Robert Ross, 24 [actually 25] May 1898, from Paris. Worth noting for the shape of this relationship: Gilbert is 'my sweet Maurice' and 'our sweet Maurice' in the same breath - the affection is real and is also shared openly with Ross and Turner, which is why this edge does not read as exclusive. The same page carries Wilde joking that he means to write a novel called The Boy-Snatcher of Clements Inn, Clements Inn being where Gilbert had been lodging with Reggie Turner.",
       "work": "letters-2000",
       "locator": "p. 1073",
       "locator_type": "page",
@@ -125,14 +122,14 @@
       "speaker": "Oscar Wilde",
       "addressee": "Robert Ross",
       "voice": "period",
-      "provenance": "PDF p. 1119 read as a rendered page image; printed folio 1073 confirmed at the foot of the image (offset +46 in this region, which is not constant across the volume)."
+      "provenance": "PDF p. 1119 (printed folio 1073)"
     }
   ],
   "null_findings": [
     {
       "work": "letters-2000",
       "checked_on": "2026-08-04",
-      "finding": "POINTER CLEARED, and its own prediction confirmed: neither of the two remaining Index mentions bears on the character of this relationship. Printed p. 1073 n. 2 reads in full: 'See p.878. Reggie Turner lived at 2 Clements Inn, where Maurice Gilbert had been staying with him.' Printed p. 1222 is Ross's post-mortem account of the funeral: Gilbert took an unsuccessful photograph of Wilde dead, walked in the procession, and is one of fourteen named senders of wreaths. Both read at rendered pages 2026-08-04 (PDF 1119 and 1267; printed folios confirmed on the images). One quotation was taken from p. 1073 for its register, not because the pointer required it."
+      "finding": "Neither of the two remaining Index mentions bears on the character of this relationship. Printed p. 1073 n. 2 reads in full: 'See p.878. Reggie Turner lived at 2 Clements Inn, where Maurice Gilbert had been staying with him.' Printed p. 1222 is Ross's post-mortem account of the funeral: Gilbert took an unsuccessful photograph of Wilde dead, walked in the procession, and is one of fourteen named senders of wreaths. One quotation was taken from p. 1073 for its register."
     }
   ]
 }

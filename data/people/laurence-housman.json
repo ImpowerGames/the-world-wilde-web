@@ -18,7 +18,7 @@
     "letters-2000",
     "cook-2014"
   ],
-  "bio_note": "All five letters read at the page: printed 923, 928, 1027, 1111 and 1113 (PDF 973, 978, 1073, 1157, 1159), every folio confirmed on its own page image. Dates 1865-1959 from the editors' note at printed 923.",
+  "bio_note": "Five letters: printed 923, 928, 1027, 1111, 1113. Dates 1865-1959 from the editors' note at printed 923.",
   "context_engagements": [
     {
       "partner_name": "Oscar Wilde",
@@ -40,7 +40,7 @@
           "supports": "The opening of the friendship, and what counted as happiness to Wilde that summer.",
           "verification": "verified-elision",
           "how_verified": "pdf-image",
-          "provenance": "PDF page 973; printed folio 923 confirmed on the rendered page image.",
+          "provenance": "PDF p. 973.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -60,7 +60,7 @@
           "supports": "Wilde telling a near-stranger, unprompted, that he thinks he has betrayed himself.",
           "verification": "verified-elision",
           "how_verified": "pdf-image",
-          "provenance": "PDF page 978; printed folio 928 confirmed on the rendered page image.",
+          "provenance": "PDF p. 978.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -79,7 +79,7 @@
           "supports": "The Ballad received, and the nearest thing to a statement of belief in the correspondence.",
           "verification": "verified-exact",
           "how_verified": "pdf-image",
-          "provenance": "PDF page 1073; printed folio 1027 confirmed on the rendered page image.",
+          "provenance": "PDF p. 1073.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -99,7 +99,7 @@
           "supports": "The correspondence at its warmest, and the journey to Napoule that produced the next letter.",
           "verification": "verified-exact",
           "how_verified": "pdf-image",
-          "provenance": "PDF page 1157; printed folio 1111 confirmed on the rendered page image.",
+          "provenance": "PDF p. 1157.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -119,7 +119,7 @@
           "supports": "Wilde's candour about the Napoule fishermen, and the choice of Housman to receive it.",
           "verification": "verified-exact",
           "how_verified": "pdf-image",
-          "provenance": "PDF page 1159; printed folio 1113 confirmed on the rendered page image.",
+          "provenance": "PDF p. 1159.",
           "verified_on": "2026-08-05",
           "voice": "period"
         }

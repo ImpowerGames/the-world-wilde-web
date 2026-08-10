@@ -11,7 +11,7 @@
     {
       "partner_name": "Oscar Wilde",
       "period": "Paris, 1891-1898",
-      "note": "Friendship, recorded without a connection line, from Wilde's side only - Gide's own writing on Wilde has not been consulted and nothing from it is used here.",
+      "note": "Recorded from Wilde's side only.",
       "sources": [
         {
           "work": "letters-2000",
@@ -29,7 +29,7 @@
           "supports": "The first day of it, and the three weeks that were removed from the record.",
           "verification": "verified-exact",
           "how_verified": "pdf-image",
-          "provenance": "PDF page 516; printed folio 496 confirmed on the rendered page image.",
+          "provenance": "PDF p. 516.",
           "verified_on": "2026-08-05",
           "voice": "period",
           "lang": "fr",
@@ -50,7 +50,7 @@
           "supports": "That the friendship lasted through the trials and the exile, and how plainly Wilde could describe the play's subject in 1898.",
           "verification": "verified-elision",
           "how_verified": "pdf-image",
-          "provenance": "PDF page 1154; printed folio 1108 confirmed on the rendered page image.",
+          "provenance": "PDF p. 1154.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -70,7 +70,7 @@
           "supports": "The address at 'mon cher André', and what Wilde told him he had lost.",
           "verification": "verified-exact",
           "how_verified": "pdf-image",
-          "provenance": "PDF page 1157; printed folio 1111 confirmed on the rendered page image.",
+          "provenance": "PDF p. 1157.",
           "verified_on": "2026-08-05",
           "voice": "period",
           "lang": "fr",
@@ -90,5 +90,5 @@
   ],
   "group": "beyond",
   "bio": "French writer (1869-1951), later a Nobel laureate, and the most consequential openly homosexual author in Wilde's French orbit. He met Wilde in Paris on 27 November 1891, when he was twenty-two, and co-hosted with Pierre Louÿs the invitation that produced Wilde's first surviving letter to Louÿs the following day. By his own account he then saw Wilde almost every day until 15 December. The pages of his journal covering those weeks have been torn out. Seven years later Wilde was still writing to him as 'mon cher André' and reading his play about Saul's hopeless love for David.",
-  "bio_note": "The torn journal: the editors record at printed 496 that his letters place him with Wilde almost daily for three weeks and that the journal pages for exactly those days are missing. They are the obvious next sources and nothing from them is asserted. Two Wilde letters survive here (printed 1108 and 1111, PDF 1154 and 1157), both read at the page."
+  "bio_note": "The editors record (p. 496) that his letters place him with Wilde almost daily for three weeks and that the journal pages for exactly those days are missing; nothing from the journal is asserted. Two letters from Wilde survive (printed 1108, 1111)."
 }

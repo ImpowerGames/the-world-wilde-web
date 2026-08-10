@@ -18,7 +18,7 @@
   "group": "aesthete",
   "gender": "m",
   "bio": "Wood-engraver, book designer, publisher, painter, sculptor and stage designer, born in Geneva in 1866 to a French mother and an English father, and from 1882 a student at the City and Guilds Technical Art School in Lambeth, where he met Charles Shannon (1863-1937) and began the partnership that lasted the rest of his life. The two shared every home they had - Kennington Park Road; Whistler's former house in The Vale, Chelsea, from 1888; Beaufort Street from 1894; three years at Spring Terrace, Richmond; a studio-flat at Lansdowne House, Kensington, from 1902; Townshend House by Regent's Park from 1923; and Chilham Keep in Kent, given them for life in 1918 by their patron Edmund Davis - and ran between them the privately printed magazine the Dial (1889-97) and, from 1896, Ricketts's Vale Press, which issued forty-six books in eight years and was named after their first Chelsea home. For Wilde he designed the title-page and binding of The Picture of Dorian Gray (1891), the binding of Intentions and of Lord Arthur Savile's Crime (both 1891), the limited edition of Poems (1892) and the whole of The Sphinx (1894), and with Shannon designed and decorated A House of Pomegranates (1891); he also painted, at Wilde's request, the forged Elizabethan portrait of Willie Hughes for \"The Portrait of Mr W. H.\", framed in worm-eaten moulding that Shannon pieced together. Wilde met the pair in August 1889 after they sent him the first number of the Dial, called Ricketts \"the subtle and fantastic decorator\" of his books and nicknamed him \"Orchid\"; Ricketts destroyed private letters and sections of his journal after Wilde's prosecution, visited him in Reading Gaol, and published recollections of him in 1932. He turned down the directorship of the National Gallery in 1914, was elected RA in 1928, and died of heart failure on 7 October 1931; the collection he and Shannon had built together passed to the Fitzwilliam Museum, Cambridge.",
-  "bio_note": "Dates from two sources read at the rendered page so far: the editors' identifying footnote in Wilde's Complete Letters (2000), pp. 410-411 n. 3 (\"Charles De Sousy Ricketts (1866-1931)\"), and Matt Cook, Queer Domesticities (2014), printed p. 29 (\"Charles Ricketts (1866-1931)\"). The precise death - heart failure on 7 October 1931 - is Cook's, printed p. 52. Birthplace, parentage and the Vale Press particulars are from Nicholas Frankel's Y90s biography of Ricketts; the household chronology is Cook's, printed pp. 31-33; the Willie Hughes picture and its frame are from the editors' note at Complete Letters p. 412 n. 2, quoting Ricketts. \"Jean Paul Raymond\" was the fictional persona under whose name Ricketts published his 1932 Wilde recollections; the Complete Letters general index enters the book as Recollections of Oscar Wilde (index read in the source, printed p. 1261).",
+  "bio_note": "Dates from two sources: the editors' identifying footnote in Wilde's Complete Letters (2000), pp. 410-411 n. 3 (\"Charles De Sousy Ricketts (1866-1931)\"), and Matt Cook, Queer Domesticities (2014), printed p. 29 (\"Charles Ricketts (1866-1931)\"). The precise death - heart failure on 7 October 1931 - is Cook's, printed p. 52. Birthplace, parentage and the Vale Press particulars are from Nicholas Frankel's Y90s biography of Ricketts; the household chronology is Cook's, printed pp. 31-33; the Willie Hughes picture and its frame are from the editors' note at Complete Letters p. 412 n. 2, quoting Ricketts. \"Jean Paul Raymond\" was the fictional persona under whose name Ricketts published his 1932 Wilde recollections; the Complete Letters general index enters the book as Recollections of Oscar Wilde (index read in the source, printed p. 1261).",
   "bio_sources": [
     "cook-2014",
     "letters-2000",
@@ -46,7 +46,7 @@
           "supports": "Wilde's first recorded impression of Ricketts, a year and a half before Ricketts began designing his books.",
           "verification": "verified-exact",
           "how_verified": "pdf-image",
-          "provenance": "PDF page 432; printed folio 410 confirmed on the rendered page image.",
+          "provenance": "PDF p. 432.",
           "verified_on": "2026-08-05",
           "voice": "period"
         }
@@ -70,7 +70,7 @@
           "supports": "Ricketts as one of the friends through whom Wilde's spoken words survive.",
           "verification": "verified-exact",
           "how_verified": "pdf-image",
-          "provenance": "PDF page 72; printed folio 47 confirmed on the rendered page image.",
+          "provenance": "PDF p. 72.",
           "verified_on": "2026-08-06",
           "voice": "modern"
         }

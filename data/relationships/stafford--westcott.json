@@ -21,7 +21,7 @@
       "supports": "That Harry Stafford married Eva Westcott, given as 1884 by Kantrowitz's encyclopedia entry and as 1883 by the correspondent note the Whitman Archive attaches to Stafford's letters - a conflict the Archive itself carries. Corroborated by the Archive's own item title for a letter of 18 November 1884, 'Walt Whitman to Harry and Eva Stafford' (whitmanarchive.org/item/loc.04000), in which Whitman addresses the two of them as a couple.",
       "verification": "unverified",
       "how_verified": "unverified",
-      "provenance": "Not transcribed. The Whitman Archive sits behind a Cloudflare challenge and returns HTTP 403 to curl and to plain fetching; a direct re-fetch was attempted and blocked on. Rather than rebuild a quotation out of search-result fragments, this stays a pointer until someone reads the page in a browser again.",
+      "provenance": "Whitman Archive encyclopedia entry on Stafford; the page could not be retrieved.",
       "voice": "modern"
     }
   ]

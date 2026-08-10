@@ -8,7 +8,7 @@
   "certainty_status": "proposed",
   "direction": "wilde",
   "outcome": "unknown",
-  "certainty_reasoning": "Cooling documented : printed 1141, read at the page, has Wilde telling Smithers 'I do not love the lad Edoardo Rolla as much as I did' - within weeks of the Genoa meeting.",
+  "certainty_reasoning": "Printed 1141 has Wilde telling Smithers 'I do not love the lad Edoardo Rolla as much as I did' - within weeks of the Genoa meeting.",
   "start": {
     "y": 1899,
     "m": 4
@@ -33,7 +33,7 @@
       "supports": "The approach itself: a named young man written to in advance, described, and awaited, with Wilde's longing stated in the same breath; no outcome recorded",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "PDF page 1186, printed folio 1140 confirmed on rendered page.",
+      "provenance": "PDF p. 1186.",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Robert Ross"
@@ -54,7 +54,7 @@
       "supports": "That the attachment cooled, and how fast - stated by Wilde himself to a third party.",
       "verification": "verified-elision",
       "how_verified": "pdf-image",
-      "provenance": "PDF page 1187; printed folio 1141 confirmed on the rendered page image.",
+      "provenance": "PDF p. 1187.",
       "verified_on": "2026-08-05",
       "voice": "period"
     }

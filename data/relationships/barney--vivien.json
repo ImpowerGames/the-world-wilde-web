@@ -24,7 +24,7 @@
       "supports": "The relationship itself, stated by a scholar, and Vivien's dates.",
       "verification": "verified-exact",
       "how_verified": "web",
-      "provenance": "Https://1890s.ca/custance_bio/ re-fetched (curl) and read in full; quote sliced byte-exact from the downloaded HTML, then whitespace artifacts introduced by stripping inline markup (spaces around quotation marks, italic titles and punctuation) normalized to the printed reading.",
+      "provenance": "Https://1890s.ca/custance_bio/",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -41,7 +41,7 @@
       "supports": "That Barney and Vivien were living in some arrangement together at the moment of the Custance visit, and Vivien's jealousy of it.",
       "verification": "verified-exact",
       "how_verified": "web",
-      "provenance": "Https://1890s.ca/custance_bio/ re-fetched (curl) and read in full; quote sliced byte-exact from the downloaded HTML, then whitespace artifacts introduced by stripping inline markup (spaces around quotation marks, italic titles and punctuation) normalized to the printed reading.",
+      "provenance": "Https://1890s.ca/custance_bio/",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -92,7 +92,7 @@
       "supports": "Biographer account of the Barney-Vivien relationship.",
       "verification": "verified-elision",
       "how_verified": "pdf-text",
-      "provenance": "PDF page 76, printed folio 74 confirmed at the foot of the rendered page. Opening bracket supplies the subject, who is named in the previous sentence.",
+      "provenance": "PDF p. 76. Opening bracket supplies the subject, who is named in the previous sentence.",
       "verified_on": "2026-08-04",
       "voice": "modern"
     }

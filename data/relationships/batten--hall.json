@@ -23,7 +23,7 @@
       "supports": "That Batten was Hall's first lover, her dates, and her role in bringing Hall into queer society.",
       "verification": "verified-exact",
       "how_verified": "web",
-      "provenance": "Https://norman.hrc.utexas.edu/fasearch/findingAid.cfm?eadid=00163 fetched (curl) and read in full; quote sliced byte-exact from the downloaded HTML, then whitespace artifacts introduced by stripping inline markup (spaces around quotation marks, italic titles and punctuation) normalized to the printed reading.",
+      "provenance": "Https://norman.hrc.utexas.edu/fasearch/findingAid.cfm?eadid=00163",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -37,7 +37,7 @@
       "supports": "An editor's reading that Hall's worst remembered grief was Batten's death, and that Batten was grieved by Hall's passion for Troubridge - second-hand, hedged, and the only thing in this volume that bears on this pair.",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "PDF p. 7 read as a rendered page image, and the footnote re-read at 400 dpi. The scan is two printed pages per PDF page: PDF 7 carries printed 28 and 29, and the folio 29 is confirmed in the running head ('The Love Letters of Radclyffe Hall 29') on the image. The pdf's own text layer is unreliable here - it renders 'sheer' as 'shere' and 'a very' as 'aa very' - so the transcription is taken from the image, not the layer.",
+      "provenance": "PDF p. 7 (printed pp. 28-29; folio 29 in the running head)",
       "verified_on": "2026-08-04",
       "speaker": "Joanne Glasgow, ed.",
       "voice": "modern"
@@ -56,7 +56,7 @@
       "supports": "Biographer's full account of the Batten relationship, including its start.",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "PDF page 52, printed folio 36 confirmed in the running head on the rendered page.",
+      "provenance": "PDF p. 52.",
       "verified_on": "2026-08-04",
       "voice": "modern"
     }
@@ -65,7 +65,7 @@
     {
       "work": "glasgow-1997-your-john",
       "checked_on": "2026-08-04",
-      "finding": "The pointer this replaces expected 'Hall's own words about her attachments'. Your John cannot supply them for THIS pair: it is Hall's love letters to Evguenia Souline, 1934-1942, and Batten had been dead since 1916. Across the copy on disk the words 'Ladye', 'Mabel' and 'Batten' occur on one page only - printed 29 - and only in Glasgow's footnote, now recorded. TWO LIMITS ON THIS SEARCH, both honest: the scan is a **30-page extract**, not the whole book (printed folios run 32 to 80 plus front matter), so this is not a whole-volume null; and the volume is by its nature a Hall-to-Souline source. Hall's testimony about Batten, if it is anywhere, is in the Troubridge diaries at the Harry Ransom Center."
+      "finding": "The words 'Ladye', 'Mabel' and 'Batten' occur on one page only - printed 29 - and only in Glasgow's footnote. The copy used is a 30-page extract, not the whole book (printed folios run 32 to 80 plus front matter), so this is not a whole-volume null; and the volume is by nature a Hall-to-Souline source. Hall's testimony about Batten, if anywhere, is in the Troubridge diaries at the Harry Ransom Center."
     }
   ]
 }

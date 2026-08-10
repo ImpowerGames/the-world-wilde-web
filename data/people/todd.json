@@ -14,7 +14,7 @@
       "sources": [
         {
           "work": "letters-2000",
-          "locator": "pp. 28-9",
+          "locator": "pp. 28-29",
           "locator_type": "page",
           "quote": "He saw me so I went round to speak to him for a few minutes. He told me that he and Foster Harter had been fishing in Donegal and that he was going to fish South now. … He (Todd) looked awfully nervous and uncomfortable. I thought of Mark.",
           "context": "Wilde to William Ward, Sunday [6 August 1876] (MS Magdalen). What Wilde did on seeing them: he went round to the box and made conversation, and Todd talked about fishing. The elision drops the judgement, which is quoted in full on the connection.",
@@ -28,7 +28,7 @@
           "supports": "Wilde's own conduct on the night - he went over, and he noticed the discomfort.",
           "verification": "verified-elision",
           "how_verified": "pdf-image",
-          "provenance": "PDF pages 53-54; printed folios 28 and 29 both confirmed on the rendered page images.",
+          "provenance": "PDF pp. 53-54.",
           "verified_on": "2026-08-05",
           "voice": "period"
         }
@@ -45,5 +45,5 @@
   ],
   "group": "aesthete",
   "bio": "A Magdalen undergraduate of Wilde's own years (1874-7) who took orders and served as Chaplain to the Royal Navy from 1881 to 1909, dying at eighty-five. He is on this map for one evening in Dublin in the summer of 1876, when Wilde walked into a theatre at ten o'clock and found him sitting at the back of a private box with a Magdalen chorister. Wilde wrote about it to William Ward, decided in Todd's favour, and asked Ward to tell nobody.",
-  "bio_note": "The only evidence is wilde's letter, read at the page. His later life is from the editors' note and nothing in it is connected to this evening."
+  "bio_note": "The only evidence is Wilde's letter. His later life is from the editors' note and nothing in it is connected to this evening."
 }

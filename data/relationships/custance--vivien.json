@@ -26,7 +26,7 @@
       "supports": "The affair claim, at exactly the strength the source gives it; and the Dagmar identification.",
       "verification": "verified-exact",
       "how_verified": "web",
-      "provenance": "Https://1890s.ca/custance_bio/ re-fetched (curl) and read in full; quote sliced byte-exact from the downloaded HTML, then whitespace artifacts introduced by stripping inline markup (spaces around quotation marks, italic titles and punctuation) normalized to the printed reading.",
+      "provenance": "Https://1890s.ca/custance_bio/",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -42,7 +42,7 @@
       "supports": "The sustained friendship after 1901, which is the well-evidenced part of this pair's record.",
       "verification": "verified-exact",
       "how_verified": "web",
-      "provenance": "Https://1890s.ca/custance_bio/ re-fetched (curl) and read in full; quote sliced byte-exact from the downloaded HTML, then whitespace artifacts introduced by stripping inline markup (spaces around quotation marks, italic titles and punctuation) normalized to the printed reading.",
+      "provenance": "Https://1890s.ca/custance_bio/",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -61,7 +61,7 @@
       "verification": "verified-exact",
       "how_verified": "pdf-image",
       "verified_on": "2026-08-04",
-      "provenance": "PDF p. 23 rendered and; folio xiii at the foot."
+      "provenance": "PDF p. 23 (printed folio xiii)."
     },
     {
       "work": "vivien-foster-1982",
@@ -77,7 +77,7 @@
       "verification": "verified-elision",
       "how_verified": "pdf-image",
       "verified_on": "2026-08-04",
-      "provenance": "PDF p. 94 rendered and; folio 52 at the foot. Three passages from the same and facing pages, joined by ellipses. This is Foster's 1976 English, not Vivien's French - the 1904 French wording is still unverified, and the phrasing here is the translator's."
+      "provenance": "PDF p. 94 (printed folio 52). Three passages from the same and facing pages, joined by ellipses. This is Foster's 1976 English, not Vivien's French."
     },
     {
       "work": "vivien-woman-appeared-1904",
@@ -102,7 +102,7 @@
   "disputed": {
     "claim": "That Olive Custance and Renee Vivien had a brief love affair in or around 1901.",
     "asserted_by": "Sarah Parker's Y90s biography of Custance, reading Vivien's roman a clef A Woman Appeared to Me (1904), in which Custance appears as 'the little English poetess Dagmar'; Parker's verb is 'suggests'.",
-    "disputed_by": "Nobody, in anything read so far - no source contests it. It is recorded as uncorroborated because nothing independent supports it, not because it was challenged.",
-    "grounds": "A single scholar's inference from a single work of fiction written by one of the two parties three years after the fact. THE FICTION HAS NOW BEEN READ (2026-08-04), and it does not depict the affair Parker's word points to. The narrator desires Dagmar and declares love, but when Dagmar offers a kiss the narrator draws back from it; Dagmar is called 'my little virgin'; she then announces her 'Prince' and marries. The novel closes with San Giovanni relaying Dagmar's question whether the narrator resents her, 'that she couldn't cure you by loving you with the terrific ardor you demanded of her' (p. 58). So on its own terms the book depicts an unconsummated courtship declined by both parties in turn, not a love affair. Gayle Rubin, introducing the translation, reads it the same way: the narrator 'attempts to console herself with Dagmar'. The French of the first edition has now been read too, and it holds: 'devant le baiser qu’elle m’offrait, je reculai'. Parker's reading is not unreasonable - the erotic charge is real and sustained - but the text does not carry it as far as 'enjoyed a brief love affair', and this remains a novel either way. Parker's own peer-reviewed article (2011, p. 1) puts the Barney and Vivien connections in the register of 'rumoured entanglements'. The friendship and sustained contact are separately documented and not in question."
+    "disputed_by": "No source contests it; it is recorded as uncorroborated because nothing independent supports it, not because it was challenged.",
+    "grounds": "A single scholar's inference from a single work of fiction written by one of the two parties three years after the fact. The novel does not depict the affair Parker's word points to. The narrator desires Dagmar and declares love, but when Dagmar offers a kiss the narrator draws back from it; Dagmar is called 'my little virgin'; she then announces her 'Prince' and marries. The novel closes with San Giovanni relaying Dagmar's question whether the narrator resents her, 'that she couldn't cure you by loving you with the terrific ardor you demanded of her' (p. 58). So on its own terms the book depicts an unconsummated courtship declined by both parties in turn, not a love affair. Gayle Rubin, introducing the translation, reads it the same way: the narrator 'attempts to console herself with Dagmar'. The French of the first edition confirms it: 'devant le baiser qu’elle m’offrait, je reculai'. Parker's reading is not unreasonable - the erotic charge is real and sustained - but the text does not carry it as far as 'enjoyed a brief love affair', and this remains a novel either way. Parker's own peer-reviewed article (2011, p. 1) puts the Barney and Vivien connections in the register of 'rumoured entanglements'. The friendship and sustained contact are separately documented and not in question."
   }
 }

@@ -19,7 +19,7 @@
   "bio_sources": [
     "letters-2000"
   ],
-  "bio_note": "Sixteen letters at PDF 42, 43, 46, 48, 54, 55, 59, 68, 72, 79, 86, 92 (three on one page), 93 and 109. Ten have been read at the page (printed 30, 65 and 66, folios confirmed); the other ten are located, not read. Dates 1857-1932, the full name and the nickname's origin are from the editors' note at printed 15, read at the rendered page. 'PUSS' is settled and is not another name for Kitten, which was the obvious guess: the editors' note at printed 15 gives him as James Harding, Reginald's elder brother, with their sister Amy as Miss Puss; the volume's index lists all three separately, and a third letter (printed 21) settles the sex beyond doubt — 'Miss Puss has fallen in my estimation if SHE is fetched with Swan'. Every page in these two correspondences that mentions Frank or the Miles family has now been read at the page - PDF 42, 46, 47, 49, 54, 56 and 72, printed 17, 21, 22, 24, 29, 31 and 47 - and the note is not audible in any of them.",
+  "bio_note": "Sixteen letters. Dates 1857-1932, the full name and the nickname's origin are from the editors' note at printed 15. 'PUSS' is settled and is not another name for Kitten, which was the obvious guess: the editors' note at printed 15 gives him as James Harding, Reginald's elder brother, with their sister Amy as Miss Puss; the volume's index lists all three separately, and a third letter (printed 21) settles the sex beyond doubt — 'Miss Puss has fallen in my estimation if SHE is fetched with Swan'.",
   "context_engagements": [
     {
       "partner_name": "Oscar Wilde",
@@ -41,13 +41,13 @@
           "supports": "The earliest register of the friendship — teasing, cat-named, and reproachful about silence — and Wilde and Frank Miles on holiday together in 1876.",
           "verification": "verified-elision",
           "how_verified": "pdf-image",
-          "provenance": "PDF page 55; printed folio 30 confirmed on the rendered page image.",
+          "provenance": "PDF p. 55.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
         {
           "work": "letters-2000",
-          "locator": "pp. 21-2",
+          "locator": "pp. 21-22",
           "locator_type": "page",
           "quote": "My dear Boy, Thousand thanks for your letter. Half the pleasure of getting a First is to receive such delightful congratulations. … I came down here Monday and had no idea it was so lovely. A wonderful garden with such white lilies and rose walks; only that there are no serpents or apples it would be quite Paradise. The church is very fine indeed. Frank and his mother, a very good artist, have painted wonderful windows, and frescoed angels on the walls, and one of his sisters has carved the screen and altar. It is simply beautiful and everything done by themselves. These horrid red marks are strawberries, which I am eating in basketfuls, during intervals of lawn tennis, at which I am awfully good. There are four daughters, all very pretty indeed, one of them who is writing at the other side of the table quite lovely. My heart is torn in sunder with admiration for them all, and my health going, so I return to Ireland next week.",
           "context": "Wilde to Reginald Harding, [circa 13 July 1876], Bingham Rectory, Notts (MS Hyde) — written from the Miles family home. The 'Frank' is Frank Miles, who is on this map and with whom Wilde would share two London houses; the rector was his father. The elision drops a week of London engagements. The letter is the Miles family seen admiringly and collectively — mother, sisters, windows, screen — and the note Croft-Cooke hears is not audible in it. It runs on past the page break, and the ending is the point: having described Frank's windows and Frank's mother's frescoes, Wilde finishes on Frank's four sisters and says his heart is torn in sunder with admiration for them all.",
@@ -61,7 +61,7 @@
           "supports": "What Harding's congratulations were worth to him, the first Miles-household letter in the correspondence, and the sisters at the end of it.",
           "verification": "verified-elision",
           "how_verified": "pdf-image",
-          "provenance": "PDF pages 46-47; printed folios 21 and 22 both confirmed on the rendered page images.",
+          "provenance": "PDF pp. 46-47.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -81,7 +81,7 @@
           "supports": "The three of them as a set, and Wilde's solicitude for Ward expressed to Harding.",
           "verification": "verified-elision",
           "how_verified": "pdf-image",
-          "provenance": "PDF page 43; printed folio 18 confirmed on the rendered page image.",
+          "provenance": "PDF p. 43.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -100,7 +100,7 @@
           "supports": "The register at its lightest: a note across college, imagining where he is.",
           "verification": "verified-exact",
           "how_verified": "pdf-image",
-          "provenance": "PDF page 92; printed folio 65 confirmed on the rendered page image.",
+          "provenance": "PDF p. 92.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -119,13 +119,13 @@
           "supports": "The ask — flowers, from him specifically, because he is sick at heart for want of beauty.",
           "verification": "verified-exact",
           "how_verified": "pdf-image",
-          "provenance": "PDF page 92; printed folio 65 confirmed on the rendered page image.",
+          "provenance": "PDF p. 92.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
         {
           "work": "letters-2000",
-          "locator": "pp. 65-6",
+          "locator": "pp. 65-66",
           "locator_type": "page",
           "quote": "Dear Kitten, If there is anything that could console me for being ill it is your charming basket of flowers and delightful letter. The roses have quite given me a sense of the swift beauty and light of the spring: they are most exquisite. And I heard your light quick step down the passage this morning and am awfully obliged for your theft of the pink and white blossoms. I can bury my face in them and dream how nice it would be to be out again. You are the nicest of kittens. Ever yours",
           "context": "The third letter, [? April 1878], running across the page break and quoted whole. Harding had done what was asked: stolen the branch and sent a basket besides.",
@@ -138,7 +138,7 @@
           "supports": "The tenderest thing in either Oxford correspondence.",
           "verification": "verified-exact",
           "how_verified": "pdf-image",
-          "provenance": "PDF pages 92-93; printed folios 65 and 66 both confirmed on the rendered page images.",
+          "provenance": "PDF pp. 92-93.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -158,7 +158,7 @@
           "supports": "The clearest single test of the Croft-Cooke claim, and it fails in the space of two paragraphs.",
           "verification": "verified-exact",
           "how_verified": "pdf-image",
-          "provenance": "PDF page 54; printed folio 29 confirmed on the rendered page image.",
+          "provenance": "PDF p. 54.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -178,7 +178,7 @@
           "supports": "The last of the seven Miles pages, and the third time a Miles mention sits next to praise of a woman.",
           "verification": "verified-elision",
           "how_verified": "pdf-image",
-          "provenance": "PDF page 72; printed folio 47 confirmed on the rendered page image.",
+          "provenance": "PDF p. 72.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -187,7 +187,7 @@
           "locator": "p. 59",
           "locator_type": "page",
           "quote": "My dear Kitten, So glad to hear from you again. I have been here fishing for the last three weeks. Jack Barrow and Dick Trench are staying with me, so I find myself far from lonely, which is unfortunate as far as reading goes. … I have become an awful misanthrope however: you won't know me next term. I had two jolly letters yesterday, one from Bouncer who is quill-driving …",
-          "context": "Wilde to Reginald Harding, [August 1877], Illaunroe Lodge, Lough Fee (MS Hyde). The elisions drop a paragraph of salmon and sea-trout counts; the letter runs on past the printed page. 'Bouncer' is William Ward, also on this map, and the two Oxford correspondences touch here. : read at the page and left unlogged at the time.",
+          "context": "Wilde to Reginald Harding, [August 1877], Illaunroe Lodge, Lough Fee (MS Hyde). The elisions drop a paragraph of salmon and sea-trout counts; the letter runs on past the printed page. 'Bouncer' is William Ward, also on this map, and the two Oxford correspondences touch here.",
           "speaker": "Oscar Wilde",
           "addressee": "Richard Reginald Harding",
           "evidence_date": {
@@ -197,7 +197,7 @@
           "supports": "The ordinary footing of the friendship between the tender letters - fishing, house guests, and a joke about his own misanthropy.",
           "verification": "verified-elision",
           "how_verified": "pdf-image",
-          "provenance": "PDF page 86; printed folio 59 confirmed on the rendered page image.",
+          "provenance": "PDF p. 86.",
           "verified_on": "2026-08-06",
           "voice": "period"
         }

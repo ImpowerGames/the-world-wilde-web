@@ -1,12 +1,9 @@
 {
   "id": "gray--wilde",
-  "people": [
-    "gray",
-    "wilde"
-  ],
-  "certainty": "uncorroborated",
+  "people": ["gray", "wilde"],
+  "certainty": "second-hand",
   "certainty_status": "proposed",
-  "certainty_reasoning": "The sexual/romantic characterization common in later biography was not reachable in the source so far (pointer to McKenna below), so the contested-single-source class with a disputed block is the honest mechanical proposal; a later check may raise it to consensus if two independent secondary attestations are verified.",
+  "certainty_reasoning": "The romantic characterization - Wilde in love with Gray, Gray his 'officially beloved' - rests on two independent secondary sources: McKenna (Secret Life, 2008 edn, PDF pp. 194, 239) and McCormack (John Gray, 1991, pp. 50, 84, 88), with Raffalovich's first-hand account (Uranisme et Unisexualite, 1896, pp. 247-248) as near-contemporary colour; no primary attestation from either man has been read. The sexual element remains McKenna's assertion alone - McCormack explicitly leaves it open ('It is impossible to know whether Gray was Wilde's lover') - and the c. 1889 start rests on secondary tradition, so those two elements stay in the disputed block.",
   "start": {
     "y": 1892,
     "circa": true
@@ -15,13 +12,13 @@
     "y": 1893,
     "circa": true
   },
-  "date_label": "Documented span Feb. 1892 (Wilde publicly calls the acquaintance 'extremely recent') through 1893 (Silverpoints published; The Blackmailers June 1893); the editors note Wilde and Gray later 'fell out' (undated). The conventional c. 1889 start rests on secondary tradition not read so far.",
-  "summary": "Gray was publicly tied to Wilde by February 1892, when the Daily Telegraph called him Wilde's 'protege' - a label Wilde corrected in print while praising Gray's 'perfected mode of expression'. In June 1892 Wilde personally undertook the production costs of Gray's Silverpoints (Mathews and Lane, 1893), and after The Picture of Dorian Gray appeared, Gray 'referred to himself as Dorian and allowed others in the Wilde circle to do so', though the editors find no evidence he was the character's original. The two fell out - the editors record the belief that Raffalovich broke the friendship up - but in De Profundis Wilde still ranked the friendship among those where 'my real life, my higher life' had been. Whether the bond was sexual rests on secondary claims not verified so far.",
+  "date_label": "Documented span Feb. 1892 (Wilde publicly calls the acquaintance 'extremely recent') through 1893 (Silverpoints published; The Blackmailers June 1893); the editors note Wilde and Gray later 'fell out' (undated). The conventional c. 1889 start rests on secondary tradition.",
+  "summary": "Gray was publicly tied to Wilde by February 1892, when the Daily Telegraph called him Wilde's 'protege' - a label Wilde corrected in print while praising Gray's 'perfected mode of expression'. In June 1892 Wilde personally undertook the production costs of Gray's Silverpoints (Mathews and Lane, 1893), and after The Picture of Dorian Gray appeared, Gray 'referred to himself as Dorian and allowed others in the Wilde circle to do so', though the editors find no evidence he was the character's original. The two fell out - the editors record the belief that Raffalovich broke the friendship up - but in De Profundis Wilde still ranked the friendship among those where 'my real life, my higher life' had been. Two independent biographers affirm the romantic bond - McKenna (Secret Life, 2008) and McCormack (John Gray, 1991), who calls the relationship 'absurdly romantic, intense, and idealized', records Gray's inscription 'To my loved master', and judges that being named Wilde's 'protege' in 1892 was 'the equivalent of being named Wilde's lover' - with Raffalovich's first-hand account (1896) as period colour. No first-person attestation from either man has been read, and McCormack leaves the sexual question open.",
   "disputed": {
-    "claim": "That Wilde and Gray were lovers, conventionally dated c. 1889-93.",
-    "asserted_by": "Later secondary tradition (e.g. McKenna 2003; commonly repeated in Wilde biography) - not verified in the source so far.",
-    "disputed_by": "Wilde's own public statement (Daily Telegraph, printed 20 Feb. 1892) that the acquaintance was 'extremely recent'; Holland & Hart-Davis note there is 'no evidence for the persistent suggestion' that Gray was the original of Dorian Gray.",
-    "grounds": "No first-person sexual attestation appears in the primary material read; the verified record documents patronage, the Dorian self-identification, retrospective affection in De Profundis, and a falling-out."
+    "claim": "That the bond was sexual as well as romantic, and that it ran from c. 1889 (the conventionally dated first meeting) through 1893.",
+    "asserted_by": "McKenna asserts the sexual element outright - 'Sex between them did take place', Gray 'still Oscar's officially beloved' (Secret Life, 2008 edn, PDF pp. 192, 239). The c. 1889 start rests on secondary tradition; McCormack's first definitive report of the two together is summer 1889, a date she says 'fits' the unverified story of a meeting that year.",
+    "disputed_by": "McCormack: 'It is impossible to know whether Gray was Wilde's lover' (John Gray, 1991, p. 88); Wilde's printed statement (Daily Telegraph, 20 Feb. 1892) that the acquaintance was 'extremely recent'; Holland & Hart-Davis note there is 'no evidence for the persistent suggestion' that Gray was the original of Dorian Gray.",
+    "grounds": "No first-person sexual attestation appears in the primary material read; the verified record documents patronage, the Dorian self-identification, Gray's 'To my loved master' inscription, retrospective affection in De Profundis, and a falling-out."
   },
   "sources": [
     {
@@ -38,14 +35,14 @@
       "supports": "The public 'protege' characterization and Wilde's printed denial of it ('extremely recent'), Feb. 1892",
       "verification": "verified-elision",
       "how_verified": "pdf-text",
-      "provenance": "PDF page 540, printed folio 520 confirmed on rendered page. Elision drops four sentences on artists needing protection; full text in long-form notes.",
+      "provenance": "PDF p. 540. Elision drops four sentences on artists needing protection; full text in long-form notes.",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Editor of the Daily Telegraph"
     },
     {
       "quote": "Dear Sir, Silverpoints (poems) by John Gray. We agree to issue the above book in the autumn on your undertaking the cost of the designs – block for same – paper, printing and binding of an edition not exceeding 250 copies.",
-      "context": "Mathews and Lane (The Bodley Head) to Wilde, 17 June 1892, Vigo Street - the publishers' agreement printed in Complete Letters; Silverpoints italicised in original ! Corrected : this carried no speaker, so the page fell back to the volume's author and printed the publishers' letter as Wilde writing - and once the addressee was recorded, as Wilde writing to himself.",
+      "context": "Mathews and Lane (The Bodley Head) to Wilde, 17 June 1892, Vigo Street - the publishers' agreement printed in Complete Letters; Silverpoints italicised in original.",
       "work": "letters-2000",
       "locator": "p. 527",
       "locator_type": "page",
@@ -57,7 +54,7 @@
       "supports": "Wilde personally undertook the production costs of Gray's Silverpoints - the patronage in a primary document",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "PDF page 547, printed folio 527 confirmed on rendered page.",
+      "provenance": "PDF p. 547.",
       "verified_on": "2026-08-03",
       "speaker": "Elkin Mathews and John Lane (The Bodley Head)",
       "voice": "period",
@@ -73,7 +70,7 @@
       "supports": "The falling-out; the 'Dorian' self-identification with the editors' no-evidence caveat",
       "verification": "verified-elision",
       "how_verified": "pdf-text",
-      "provenance": "PDF page 540, printed folio 520 confirmed on rendered page. First elision drops the cross-reference '(see p.527)'; second bridges two non-adjacent footnote sentences; full footnote content in long-form notes.",
+      "provenance": "PDF p. 540. Elisions drop a cross-reference ('see p. 527') and bridge two non-adjacent footnote sentences.",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -94,7 +91,7 @@
       "supports": "Wilde's retrospective valuation of the Gray friendship - 'my real life, my higher life'",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "PDF page 737, printed folio 686 confirmed on rendered page.",
+      "provenance": "PDF p. 737.",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Lord Alfred Douglas"
@@ -108,12 +105,117 @@
       "evidence_date": {
         "y": 1889
       },
-      "supports": "The sexual-relationship characterization underlying the 'alleged' claim; requires verification in the source",
+      "supports": "The romantic characterization ('fell in love with') - verified in the repo copy at the text layer",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "PDF page 194. Re-pointed from the mckenna-2003 pointer to the 2008 edition held; no printed folios, so the locator is PDF page. This replaces the earlier candidate at PDF 216, which was interrogative and could not carry the claim.",
+      "provenance": "PDF p. 194 (2008 edition; no printed folios).",
       "verified_on": "2026-08-04",
       "voice": "modern"
+    },
+    {
+      "quote": "John Gray was, of course, still Oscar's officially beloved, but for a while, at least, Johnson played the role of Oscar's 'new boy'.",
+      "context": "McKenna on Gray's standing in Wilde's affections relative to Lionel Johnson, whom he says Oscar probably became lovers with in 1890 - a second, independent McKenna passage making the sexual characterization.",
+      "work": "mckenna-2008",
+      "locator": "PDF p. 239",
+      "locator_type": "page",
+      "evidence_date": null,
+      "supports": "Corroborates the romantic characterization ('officially beloved') from a second McKenna passage.",
+      "verification": "verified-exact",
+      "how_verified": "pdf-text",
+      "provenance": "PDF p. 239 (2008 edition; no printed folios).",
+      "verified_on": "2026-08-09",
+      "voice": "modern"
+    },
+    {
+      "quote": "Whereas Reade identified that 'dedicated homosexual' as Raffalovich, it is clear that Gray's first such attachment was actually Oscar Wilde.",
+      "context": "McCormack correcting Brian Reade's claim that Gray was drawn into a homosexual relationship by a 'dedicated homosexual' (Reade named Raffalovich). She elsewhere leaves the sexual question open - 'It is impossible to know whether Gray was Wilde's lover' (p. 88) - so this is a statement of Gray's first homosexual attachment, not of consummation.",
+      "work": "mccormack-1991",
+      "locator": "p. 50",
+      "locator_type": "page",
+      "evidence_date": null,
+      "supports": "Gray's first homosexual attachment was Wilde - an independent biography's direct statement",
+      "verification": "verified-exact",
+      "how_verified": "pdf-image",
+      "provenance": "Printed p. 50 (PDF p. 67); read from the rendered page image.",
+      "verified_on": "2026-08-09",
+      "voice": "modern"
+    },
+    {
+      "quote": "In short, to be named in the spring of 1892 as Wilde's 'protégé' or as the original of 'Dorian Gray' was the equivalent of being named Wilde's lover.",
+      "context": "McCormack on the aftermath of The Star's 'Dorian' remark (6 February 1892) and the Daily Telegraph's 'literary and dramatic godfather' squib - what being publicly linked to Wilde meant in 1892.",
+      "work": "mccormack-1991",
+      "locator": "p. 84",
+      "locator_type": "page",
+      "evidence_date": null,
+      "supports": "The public valence of the association: named as Wilde's protege or as 'Dorian' read as lover-status",
+      "verification": "verified-exact",
+      "how_verified": "pdf-image",
+      "provenance": "Printed p. 84 (PDF p. 101); read from the rendered page image.",
+      "verified_on": "2026-08-09",
+      "voice": "modern"
+    },
+    {
+      "quote": "Still, the relationship was not one of cool and calculated exploitation, but in character with 'Dorian Gray' was in many ways 'absurdly romantic,' intense, and idealized. And so, despite Wilde's own infatuation with Douglas, Gray remained deeply attached to Wilde during the course of 1892.",
+      "context": "McCormack's assessment, immediately after her caveat that 'It is impossible to know whether Gray was Wilde's lover; that issue is of less importance than Gray's drive to efface himself...'",
+      "work": "mccormack-1991",
+      "locator": "p. 88",
+      "locator_type": "page",
+      "evidence_date": null,
+      "supports": "The romantic characterization - intense, idealized, mutually attached through 1892 - from a second, independent biography",
+      "verification": "verified-exact",
+      "how_verified": "pdf-image",
+      "provenance": "Printed p. 88 (PDF p. 105); read from the rendered page image.",
+      "verified_on": "2026-08-09",
+      "voice": "modern"
+    },
+    {
+      "quote": "It says much about the nature of Gray's feelings that, in October 1892, when his translation of Bourget's A Saint and Others appeared, Gray inscribed his copy to Wilde: 'To my loved master my dear friend Homage.'",
+      "context": "McCormack on Gray's presentation copy of his Bourget translation; the inscription is Gray's own hand. In the same passage Wilde is 'the poet' who that summer offered to underwrite Silverpoints.",
+      "work": "mccormack-1991",
+      "locator": "p. 88",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1892,
+        "m": 10
+      },
+      "supports": "Gray's own inscription - 'To my loved master' - the closest surviving first-person expression of the relationship",
+      "verification": "verified-exact",
+      "how_verified": "pdf-image",
+      "provenance": "Printed p. 88 (PDF p. 105); read from the rendered page image.",
+      "verified_on": "2026-08-09",
+      "voice": "modern"
+    },
+    {
+      "quote": "On permettait à ses fils de l'aduler et d'en être adulé, de se laisser appeler le nouveau boy d'Oscar.",
+      "translation": "His young men were allowed to flatter him and to be flattered by him in return, to let themselves be called Oscar's new boy.",
+      "context": "Raffalovich, writing of Wilde at the height of his fame (the passage continues with the first night of Lady Windermere's Fan). This is the passage behind McKenna's 'new boy' citation (McKenna, PDF p. 239); the sentence, including 'a ses fils', is confirmed on the rendered page image.",
+      "work": "raffalovich-1896",
+      "locator": "p. 247",
+      "locator_type": "page",
+      "evidence_date": null,
+      "lang": "fr",
+      "supports": "A near-contemporary's account of Wilde's young men being openly called 'Oscar's new boy' - the circle's code",
+      "verification": "verified-exact",
+      "how_verified": "pdf-image",
+      "provenance": "Printed p. 247 (PDF p. 253); read from the rendered page image.",
+      "verified_on": "2026-08-09",
+      "voice": "period"
+    },
+    {
+      "quote": "Même sans mener une vie exempte de soupçons, même en prêchant la corruption, même entouré des jeunes hommes les plus voyants, les plus chatoyants de Londres, il aurait pu ne pas dégringoler.",
+      "translation": "Even without leading a life free of suspicion, even preaching corruption, even surrounded by the most conspicuous, most glittering young men of London, he might not have fallen.",
+      "context": "Raffalovich on Wilde at the height of his success, before the Douglas affair - the source of McKenna's 'preaching corruption' citation (McKenna, PDF p. 216).",
+      "work": "raffalovich-1896",
+      "locator": "p. 248",
+      "locator_type": "page",
+      "evidence_date": null,
+      "lang": "fr",
+      "supports": "Near-contemporary confirmation that Wilde 'preached corruption' among his young men - McKenna's cited source, now read directly",
+      "verification": "verified-exact",
+      "how_verified": "pdf-image",
+      "provenance": "Printed p. 248 (PDF p. 254); read from the rendered page image.",
+      "verified_on": "2026-08-09",
+      "voice": "period"
     }
   ]
 }

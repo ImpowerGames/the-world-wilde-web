@@ -20,12 +20,12 @@
   "bio_sources": [
     "letters-2000"
   ],
-  "bio_note": "The thirteen letters are at PDF 443, 483, 506, 532, 534, 535, 634, 647, 651, 662, 672, 685 and 1239. Twelve of the thirteen have been read at the page — printed 421, 463, 486, 512, 515, 582, 595, 599, 610, 620, 633 and 1193 — every folio confirmed on its own page image. One remains unread (PDF 534): it is the first half of a mid-February 1892 rehearsal letter whose second half was read at printed 515, and both halves are staging notes on Lady Windermere's Fan. Dates and name are from the editors' note at printed 421. The 1892 rehearsal letters are not quoted beyond the one at printed 512: they are line-by-line direction ('Lord a's coat is too horsy'), and the only human sentence in them is 'I write from bed which accounts for pencil', and the openings visible in the OCR mirror run 'Dear Aleck' and 'My dear Aleck'. Dates: the death year comes from the editors' note at printed 1193; no birth year is given there and none is inferred. (printed 1111, located in the mirror, not yet read at the page).",
+  "bio_note": "Thirteen letters, 1890-1900; dates and name from the editors' note at printed 421. The 1892 rehearsal letters are staging notes ('Lord a's coat is too horsy'), the only human sentence in them being 'I write from bed which accounts for pencil'; their openings run 'Dear Aleck' and 'My dear Aleck'.",
   "context_engagements": [
     {
       "partner_name": "Oscar Wilde",
       "period": "Professional friendship 1890-1900; the correspondence runs the whole of it",
-      "note": "Two of the thirteen are long play scenarios — the first sketch of The Importance of Being Earnest at printed 595, and the plot later sold to Frank Harris as Mr and Mrs Daventry at printed 599 — and several more are staging, rights and money.",
+      "note": "Two are long play scenarios — the first sketch of The Importance of Being Earnest (printed 595) and the plot later sold to Frank Harris as Mr and Mrs Daventry (printed 599); the rest are staging, rights and money.",
       "sources": [
         {
           "work": "letters-2000",
@@ -42,7 +42,7 @@
           "supports": "The beginning of the correspondence, and its social side — Wilde and Constance wanting to come to his opening night.",
           "verification": "verified-exact",
           "how_verified": "pdf-image",
-          "provenance": "PDF page 443; printed folio 421 confirmed on the rendered page image.",
+          "provenance": "PDF p. 443.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -62,7 +62,7 @@
           "supports": "Wilde admitting to his manager that the commissioned play is not working, and why — candour rather than excuse.",
           "verification": "verified-elision",
           "how_verified": "pdf-image",
-          "provenance": "PDF page 483; printed folio 463 confirmed on the rendered page image.",
+          "provenance": "PDF p. 483.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -82,7 +82,7 @@
           "supports": "The early register of the friendship, and the candour in it.",
           "verification": "verified-exact",
           "how_verified": "pdf-image",
-          "provenance": "PDF page 506; printed folio 486 confirmed on the rendered page image.",
+          "provenance": "PDF p. 506.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -101,7 +101,7 @@
           "supports": "The working relationship under strain, and Wilde's care to keep a disagreement from becoming a quarrel.",
           "verification": "verified-elision",
           "how_verified": "pdf-image",
-          "provenance": "PDF page 532; printed folio 512 confirmed on the rendered page image.",
+          "provenance": "PDF p. 532.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -120,7 +120,7 @@
           "supports": "The care taken not to wound: a letter written for no reason except that a friend might otherwise feel passed over.",
           "verification": "verified-exact",
           "how_verified": "pdf-image",
-          "provenance": "PDF page 634; printed folio 582 confirmed on the rendered page image.",
+          "provenance": "PDF p. 634.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -139,7 +139,7 @@
           "supports": "The loyalty underneath the business — 'I want to come back to you' — and Wilde poor enough at Worthing to say so plainly.",
           "verification": "verified-elision",
           "how_verified": "pdf-image",
-          "provenance": "PDF page 662; printed folio 610 confirmed on the rendered page image.",
+          "provenance": "PDF p. 662.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -160,7 +160,7 @@
           "supports": "The friendship at its most companionable — illness, a joke shared at a rival's expense, and regards to the wife who greets him again in the last letter of 1900.",
           "verification": "verified-elision",
           "how_verified": "pdf-image",
-          "provenance": "PDF page 672; printed folio 620 confirmed on the rendered page image.",
+          "provenance": "PDF p. 672.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -179,7 +179,7 @@
           "supports": "What Wilde told Alexander about himself weeks before the collapse — the trust in the friendship, measured by the confession rather than by any endearment.",
           "verification": "verified-exact",
           "how_verified": "pdf-image",
-          "provenance": "PDF page 685; printed folio 633 confirmed on the rendered page image.",
+          "provenance": "PDF p. 685.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -200,7 +200,7 @@
           "supports": "The warmth of the friendship at the very end of Wilde's life, and what he had learned to value - a handshake, and a wife's greeting.",
           "verification": "verified-elision",
           "how_verified": "pdf-image",
-          "provenance": "PDF page 1239; printed folio 1193 confirmed on the rendered page image. The OCR mirror attributes this letter to printed 1192; the page image gives 1193.",
+          "provenance": "PDF p. 1239; the OCR mirror misattributes it to printed 1192.",
           "verified_on": "2026-08-05",
           "voice": "period"
         }

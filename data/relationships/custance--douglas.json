@@ -31,7 +31,7 @@
       "supports": "Courtship by correspondence begins June 1901; the Prince/Princess/Page personas; Custance's 'Opal' signature.",
       "verification": "verified-exact",
       "how_verified": "web",
-      "provenance": "Https://1890s.ca/custance_bio/ fetched (curl) and read in full; quote extracted byte-exact from the downloaded HTML, line-wrap whitespace normalized.",
+      "provenance": "Https://1890s.ca/custance_bio/",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -49,7 +49,7 @@
       "supports": "Elopement 4 March 1902; Paris honeymoon; son Raymond born 17 November 1902.",
       "verification": "verified-exact",
       "how_verified": "web",
-      "provenance": "Https://1890s.ca/custance_bio/ fetched and read in full; quote extracted byte-exact from the downloaded HTML.",
+      "provenance": "Https://1890s.ca/custance_bio/",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -67,7 +67,7 @@
       "supports": "Douglas's first-person account fixes the wedding: St George's, Hanover Square, by special licence, morning of Tuesday 4 March 1902.",
       "verification": "verified-exact",
       "how_verified": "archive-org",
-      "provenance": "IA autobiographyofl0000doug leaf 225, IIIF page image read; printed folio 197 confirmed on the image.",
+      "provenance": "IA autobiographyofl0000doug, leaf 225 (printed folio 197).",
       "verified_on": "2026-08-03",
       "voice": "period"
     },
@@ -83,7 +83,7 @@
       "supports": "Separation dated eleven years after the 1902 marriage (= 1913); no divorce; Douglas's insistence on the continuing bond.",
       "verification": "verified-exact",
       "how_verified": "archive-org",
-      "provenance": "IA autobiographyofl0000doug leaf 228, IIIF page image read; printed folio 200 confirmed on the image.",
+      "provenance": "IA autobiographyofl0000doug, leaf 228 (printed folio 200).",
       "verified_on": "2026-08-03",
       "voice": "period"
     },
@@ -100,7 +100,7 @@
       "supports": "Courtship-letter texture; elopement details; separation and later relations.",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "PDF page 134. Re-pointed from the murray-2000 pointer to the 2020 Sceptre reissue actually held; that edition is an ebook conversion carrying no printed folios, so the locator is PDF page.",
+      "provenance": "PDF p. 134 (2020 Sceptre reissue; an ebook conversion with no printed folios).",
       "verified_on": "2026-08-04",
       "voice": "period",
       "speaker": "Olive Custance",
@@ -120,7 +120,7 @@
       "supports": "The marriage date, church, witnesses and the special licence - independent of the Parker biography and of Douglas's own memoir, both already cited here.",
       "verification": "verified-elision",
       "how_verified": "pdf-text",
-      "provenance": "PDF page 141 of Murray_2020_Bosie. No printed folio exists: the file is an ebook conversion with no page numbers and an unpaginated Contents, so the printed-to-PDF offset is n/a and the locator is PDF page, marked 'PDF p.'.",
+      "provenance": "PDF p. 141 (ebook conversion; no printed folios.)",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -136,7 +136,7 @@
       "supports": "The 1913 separation, the four-month gap, the short-lived reconciliation, and the second desertion - the shape of the marriage after the courtship years, which this record did not previously carry.",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "PDF page 195 of Murray_2020_Bosie. No printed folio exists: the file is an ebook conversion with no page numbers and an unpaginated Contents, so the printed-to-PDF offset is n/a and the locator is PDF page, marked 'PDF p.'.",
+      "provenance": "PDF p. 195 (ebook conversion; no printed folios.)",
       "verified_on": "2026-08-03",
       "voice": "modern"
     }

@@ -11,7 +11,7 @@
   "bio_sources": [
     "letters-2000"
   ],
-  "bio_note": "Found in the volume's General Index at printed 1239 and read at the page the same hour. Not yet read: the Legitimation League and Sexual Inversion material lies outside this volume.",
+  "bio_note": "Identified from the volume's General Index, printed 1239; the Legitimation League material lies outside this volume.",
   "context_engagements": [
     {
       "partner_name": "Oscar Wilde",
@@ -33,7 +33,7 @@
           "supports": "The whole of the correspondence, ten weeks before Bedborough's arrest.",
           "verification": "verified-exact",
           "how_verified": "pdf-image",
-          "provenance": "PDF page 1083; printed folio 1037 confirmed on the rendered page image.",
+          "provenance": "PDF p. 1083.",
           "verified_on": "2026-08-06",
           "voice": "period"
         }

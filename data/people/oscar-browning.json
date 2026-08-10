@@ -15,7 +15,7 @@
   "bio_sources": [
     "letters-2000"
   ],
-  "bio_note": "The volume's Index of Recipients. The editors' note gives only 'Eton master 1860-75' and passes over the rest in silence. Fifteen letters at printed 80 (two), 87, 88, 111, 268, 313, 337, 339, 342, 348, 358, 360, 368, 373, 407. Three read at the page - printed 80 twice and 111.",
+  "bio_note": "The volume's Index of Recipients. The editors' note gives only 'Eton master 1860-75' and passes over the rest in silence. Fifteen letters at printed 80 (two), 87, 88, 111, 268, 313, 337, 339, 342, 348, 358, 360, 368, 373, 407.",
   "context_engagements": [
     {
       "partner_name": "Oscar Wilde",
@@ -36,7 +36,7 @@
           "supports": "The footing at the start: Wilde running an older man's errands and angling for an invitation.",
           "verification": "verified-exact",
           "how_verified": "pdf-image",
-          "provenance": "PDF page 105; printed folio 80 confirmed on the rendered page image.",
+          "provenance": "PDF p. 105.",
           "verified_on": "2026-08-06",
           "voice": "period"
         },
@@ -56,7 +56,7 @@
           "supports": "A whole rainy day spent shopping for him, and the wish that he had been there.",
           "verification": "verified-elision",
           "how_verified": "pdf-image",
-          "provenance": "PDF page 105; printed folio 80 confirmed on the rendered page image.",
+          "provenance": "PDF p. 105.",
           "verified_on": "2026-08-06",
           "voice": "period"
         },
@@ -75,7 +75,7 @@
           "supports": "Wilde asking him for the review he then wrote.",
           "verification": "verified-exact",
           "how_verified": "pdf-image",
-          "provenance": "PDF page 136; printed folio 111 confirmed on the rendered page image.",
+          "provenance": "PDF p. 136.",
           "verified_on": "2026-08-06",
           "voice": "period"
         }

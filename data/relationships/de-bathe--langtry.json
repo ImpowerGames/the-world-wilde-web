@@ -34,7 +34,7 @@
       "supports": "The second marriage: year, husband's identity and dates, exact date and place.",
       "verification": "verified-elision",
       "how_verified": "web",
-      "provenance": "Plain-text extract of the article fetched through the MediaWiki API and read; quotation sliced from that extract. Reference-marker brackets omitted as typography. Marked verified-elision: the quotation joins two sentences from the same section across an ellipsis.",
+      "provenance": "Plain-text extract of the article via the MediaWiki API. Marked verified-elision: the quotation joins two sentences from the same section across an ellipsis.",
       "verified_on": "2026-08-05",
       "voice": "modern"
     }

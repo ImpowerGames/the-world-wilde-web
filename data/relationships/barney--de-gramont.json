@@ -12,7 +12,7 @@
   "end": null,
   "date_label": "Lovers from 1910; the attachment lasted until de Gramont's death",
   "summary": "Barney's lover from 1910 and her companion for the rest of de Gramont's life. Two biographers state the relationship independently, and both frame it as outlasting the sexual phase: Wickes has it running 'almost half a century, until the duchess' death'.",
-  "certainty_reasoning": "It has not been read, and the class states what has been read.",
+  "certainty_reasoning": "No participant or primary source has been read; the classification rests on the two biographers cited, who state it independently.",
   "sources": [
     {
       "work": "souhami-2004",
@@ -26,7 +26,7 @@
       "supports": "The start of the relationship, dated, and de Gramont's identity.",
       "verification": "verified-exact",
       "how_verified": "pdf-image",
-      "provenance": "PDF page 98; printed folio 72 confirmed on the rendered page image. The superscript footnote marker after 'de Gramont' in the printed text is dropped from the transcription. Note the offset is not constant in this scan - printed 72 is PDF 98 (+26) while printed 137 is PDF 171 (+34) - so every folio here was confirmed on its own page image.",
+      "provenance": "PDF p. 98 (printed p. 72)",
       "verified_on": "2026-08-05",
       "voice": "modern"
     },
@@ -40,7 +40,7 @@
       "supports": "The relationship stated by a second, independent biographer, with its duration and the manner of their meeting.",
       "verification": "verified-exact",
       "how_verified": "pdf-image",
-      "provenance": "PDF page 124; printed folio 122 confirmed on the rendered page image.",
+      "provenance": "PDF p. 124.",
       "verified_on": "2026-08-05",
       "voice": "modern"
     }

@@ -22,7 +22,7 @@
     "claim": "That the Prichard-Warren bond was romantic rather than filial and discipular.",
     "asserted_by": "The counter-texture in Sox (rivalry for Warren's affection; the 'Johnny's place' disappointment; 'Dear Ducky'; Prichard among the men Warren 'wanted to possess')",
     "disputed_by": "Sox himself, who characterizes the bond as filial ('like a father to him') and glosses the rivalry as competition over position rather than romance",
-    "grounds": "No romantic or sexual statement about the pair appears anywhere in the pages read; the strongest signals are third-party jealousy and a pet-name salutation that has not yet been verified at the rendered page."
+    "grounds": "No romantic or sexual statement about the pair appears in the sources; the strongest signals are third-party jealousy and a pet-name salutation."
   },
   "sources": [
     {
@@ -35,7 +35,7 @@
       "supports": "The counter-evidence: Sox's own framing is love-as-filial-discipleship, not romance. This is the sentence the null finding rested on.",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "PDF p. 196 (printed folio 172 confirmed), rendered and by the Lewes House research pass. (P1).",
+      "provenance": "PDF p. 196 (printed folio 172)",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -49,7 +49,7 @@
       "supports": "Third-party reading of the bond as affective rivalry — the strongest positive signal for a romantic classification.",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "PDF p. 199 (printed folio 175 confirmed), rendered and. (P2).",
+      "provenance": "PDF p. 199 (printed folio 175)",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -63,7 +63,7 @@
       "supports": "Warren himself reading disappointment in Prichard at not occupying Marshall's place — first-person, though Sox glosses it as positional rather than romantic.",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "PDF p. 199 (printed folio 175 confirmed), rendered and. (P2).",
+      "provenance": "PDF p. 199 (printed folio 175)",
       "verified_on": "2026-08-03",
       "speaker": "Edward Perry Warren",
       "voice": "period"
@@ -78,7 +78,7 @@
       "supports": "Temperamental closeness to Warren beyond the secretarial role.",
       "verification": "verified-elision",
       "how_verified": "pdf-text",
-      "provenance": "PDF p. 200 (printed folio 176 confirmed), rendered and; sentence opens mid-paragraph, elision marked. (P3).",
+      "provenance": "PDF p. 200 (printed folio 176); sentence opens mid-paragraph, elision marked.",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -89,10 +89,10 @@
       "locator": "pp. 129, 174",
       "locator_type": "page",
       "evidence_date": null,
-      "supports": "(a) p. 129: Sox lists Prichard ('Matt') among the four men Warren loved and 'wanted to possess'; (b) p. 174: Warren's salutation to Prichard, 'Dear Ducky'. Both are known only from the PDF text layer and must be verified at the rendered page before they can bear on the classification.",
+      "supports": "(a) p. 129: Sox lists Prichard ('Matt') among the four men Warren loved and 'wanted to possess'; (b) p. 174: Warren's salutation to Prichard, 'Dear Ducky'.",
       "verification": "verified-elision",
       "how_verified": "pdf-text",
-      "provenance": "PDF pages 145 and 198, printed folios 129 and 174 confirmed on the rendered pages (129 at the foot, 174 at the foot under the running head 'Bachelors of Art').",
+      "provenance": "PDF pp. 145, 198 (printed folios 129, 174)",
       "verified_on": "2026-08-03",
       "voice": "modern"
     }

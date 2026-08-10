@@ -34,7 +34,7 @@
       "supports": "The first marriage: date, place, husband's identity and dates.",
       "verification": "verified-exact",
       "how_verified": "web",
-      "provenance": "Plain-text extract of the article fetched through the MediaWiki API and read; quotation sliced from that extract. Reference-marker brackets omitted as typography.",
+      "provenance": "Plain-text extract of the article via the MediaWiki API.",
       "verified_on": "2026-08-05",
       "voice": "modern"
     },
@@ -52,7 +52,7 @@
       "supports": "How the first marriage ended: divorce, its date and jurisdiction.",
       "verification": "verified-exact",
       "how_verified": "web",
-      "provenance": "Plain-text extract of the article fetched through the MediaWiki API and read; quotation sliced from that extract. Reference-marker brackets omitted as typography.",
+      "provenance": "Plain-text extract of the article via the MediaWiki API.",
       "verified_on": "2026-08-05",
       "voice": "modern"
     }

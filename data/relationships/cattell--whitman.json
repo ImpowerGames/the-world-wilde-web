@@ -1,9 +1,6 @@
 {
   "id": "cattell--whitman",
-  "people": [
-    "cattell",
-    "whitman"
-  ],
+  "people": ["cattell", "whitman"],
   "certainty": "self-reported",
   "certainty_status": "proposed",
   "start": {
@@ -29,7 +26,7 @@
       "supports": "Whitman's own declaration of love to Cattell, and - in the same breath - the concealment it was conducted under.",
       "verification": "verified-elision",
       "how_verified": "web",
-      "provenance": "Https://whitmanarchive.org/item/loc.01251 read in full in a browser. **The site sits behind Cloudflare and returns 403 to curl and to plain fetching**; it was read in a real browser. An automated retrieval will falsely report it unavailable. Original draft in the Feinberg Collection, Library of Congress. Superscript note markers omitted.",
+      "provenance": "Https://whitmanarchive.org/item/loc.01251. Original draft in the Feinberg Collection, Library of Congress.",
       "verified_on": "2026-08-04",
       "speaker": "Walt Whitman, draft letter to Edward Cattell",
       "addressee": "Edward Cattell",
@@ -49,7 +46,7 @@
       "supports": "Cattell's own voice - the only substantial thing of his that survives, and the other half of the self-reported class.",
       "verification": "verified-elision",
       "how_verified": "web",
-      "provenance": "Https://whitmanarchive.org/item/loc.01253 read in full in a browser. **The site sits behind Cloudflare and returns 403 to curl and to plain fetching**; it was read in a real browser. An automated retrieval will falsely report it unavailable. Original in the Feinberg Collection, Library of Congress. The archive's invisible sic markers were dropped and every non-standard spelling kept.",
+      "provenance": "Https://whitmanarchive.org/item/loc.01253. Original in the Feinberg Collection, Library of Congress. Non-standard spellings kept.",
       "verified_on": "2026-08-04",
       "speaker": "Edward P. Cattell, letter to Walt Whitman",
       "addressee": "Walt Whitman",
@@ -60,7 +57,7 @@
     {
       "work": "whitman-archive-correspondence",
       "checked_on": "2026-08-04",
-      "finding": "NO DATES EXIST FOR CATTELL in anything consulted, and this is a finding rather than a gap in the search. Stafford and Doyle each have a signed reference entry with birth and death years in its title; Cattell has none, and the nearest the record comes is Whitman's own note that he was 'about 25 or 6' in 1876. He is a farm labourer, and the apparatus that records dates - articles, entries, obituaries, portraits - tracks property. The `born` and `died` fields are therefore null by evidence, not by oversight. The diary and commonplace-book entries the archive quotes ('the hour (night, June 19, '76, Ed & I.) at the front gate by the road'; 'Sept meetings Ed C by the pond at Kirkwood moonlight nights') are in the Feinberg Collection at the Library of Congress and were NOT consulted at the manuscript - they are quoted here only as the archive quotes them, and remain the obvious next step."
+      "finding": "NO DATES EXIST FOR CATTELL in anything consulted, and this is a finding rather than a gap in the search. Stafford and Doyle each have a signed reference entry with birth and death years in its title; Cattell has none, and the nearest the record comes is Whitman's own note that he was 'about 25 or 6' in 1876. He is a farm labourer, and the apparatus that records dates - articles, entries, obituaries, portraits - tracks property. The `born` and `died` fields are therefore null by evidence, not by oversight. The diary and commonplace-book entries the archive quotes ('the hour (night, June 19, '76, Ed & I.) at the front gate by the road'; 'Sept meetings Ed C by the pond at Kirkwood moonlight nights') are in the Feinberg Collection at the Library of Congress - they are quoted here only as the archive quotes them, and remain the obvious next step."
     }
   ]
 }

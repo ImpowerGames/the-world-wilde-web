@@ -29,7 +29,7 @@
       "supports": "The second marriage and the divorce, with their dates.",
       "verification": "verified-elision",
       "how_verified": "web",
-      "provenance": "Plain-text extract of the article fetched through the MediaWiki API and read; quotation sliced from that extract. Reference-marker brackets omitted as typography. The sentences carry no citation on the page.",
+      "provenance": "Plain-text extract of the article via the MediaWiki API. The sentences carry no citation on the page.",
       "verified_on": "2026-08-05",
       "voice": "modern"
     }

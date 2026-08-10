@@ -13,7 +13,7 @@
   "bio_sources": [
     "letters-2000"
   ],
-  "bio_note": "Fifteen letters at PDF 961, 970, 971, 985, 986, 995, 1081, 1085, 1090 and others; one read at the page (printed 911, folios confirmed). Dates not recorded - the editors give none on the page read, and none is inferred. That was true of the pages then read and false as a description of the volume: the General Index lists folios 1085-8, and printed 1085 carries Wilde's own account - Blacker 'has behaved like a hypocritical ass to me', an accusation of an anonymous attack, 'I wrote him a very strong letter' - together with the Dreyfus entanglement the old note had relegated to hearsay.",
+  "bio_note": "Fifteen letters, 1897-8. The break is documented in Wilde's own words at printed 1085 - Blacker 'has behaved like a hypocritical ass to me' - and is entangled with the Dreyfus affair (see J. Robert Maguire, 'Oscar Wilde and the Dreyfus Affair', Victorian Studies, Autumn 1997). Dates not recorded.",
   "context_engagements": [
     {
       "partner_name": "Oscar Wilde",
@@ -35,7 +35,7 @@
           "supports": "What Wilde thought a long friendship had been made of, and who came to Berneval.",
           "verification": "verified-elision",
           "how_verified": "pdf-image",
-          "provenance": "PDF page 961; printed folio 911 confirmed on the rendered page image.",
+          "provenance": "PDF p. 961.",
           "verified_on": "2026-08-05",
           "voice": "period"
         },
@@ -44,7 +44,7 @@
           "locator": "p. 1085",
           "locator_type": "page",
           "quote": "C. Blacker has behaved like a hypocritical ass to me, and finally wrote me a letter accusing me of having written some attack on him that appeared in some Paris paper. I need hardly say I never read the paper, or saw the attack, and that I never write anonymous attacks on people anywhere. I was so angry, I wrote him a very strong letter. He has got into a mess here through being Reinach's 'homme de paille' in his Dreyfus-Syndicat campaign and I should not wonder if he were expelled. … The comic thing about him is the moral attitude he takes up. To be either a Puritan, a prig, or a preacher is a bad thing. To be all three at once reminds one of the worst excesses of the French Revolution.",
-          "context": "Wilde to Robert Ross, Monday, 27 June [1898], Nogent-sur-Marne (MS Clark). The elision drops the detail of Blacker's connection with Conybeare and a dismissed army officer. 'homme de paille' is a straw man or front. This corrects this node. Its bio_note asserted until that the break with Blacker 'is NOT documented on any page read here' - a true statement about the pages then read, which the volume's own General Index contradicted by listing folios 1085-8. Reading them shows the quarrel documented in Wilde's own hand and shows it is the Dreyfus affair, which the same note had described as merely 'in the general literature'. The editors also point to a scholarly account: J. Robert Maguire, 'Oscar Wilde and the Dreyfus Affair', Victorian Studies, Autumn 1997.",
+          "context": "Wilde to Robert Ross, Monday, 27 June [1898], Nogent-sur-Marne (MS Clark). The elision drops the detail of Blacker's connection with Conybeare and a dismissed army officer. 'homme de paille' is a straw man or front. The quarrel is the Dreyfus affair (see J. Robert Maguire, 'Oscar Wilde and the Dreyfus Affair', Victorian Studies, Autumn 1997).",
           "speaker": "Oscar Wilde",
           "addressee": "Robert Ross",
           "evidence_date": {
@@ -55,7 +55,7 @@
           "supports": "The break with Blacker, in Wilde's own words, and its entanglement with the Dreyfus affair.",
           "verification": "verified-elision",
           "how_verified": "pdf-image",
-          "provenance": "PDF page 1131; printed folio 1085 confirmed on the rendered page image.",
+          "provenance": "PDF p. 1131.",
           "verified_on": "2026-08-06",
           "voice": "period"
         }

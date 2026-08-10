@@ -29,7 +29,7 @@
           "supports": "Wilde wiring his brother-in-law within hours of Cyril's birth.",
           "verification": "verified-exact",
           "how_verified": "pdf-image",
-          "provenance": "PDF page 283; printed folio 261 confirmed on the rendered page image.",
+          "provenance": "PDF p. 283.",
           "verified_on": "2026-08-06",
           "voice": "period"
         },
@@ -49,7 +49,7 @@
           "supports": "The ordinary family footing - a present, and asking after a sick nephew.",
           "verification": "verified-exact",
           "how_verified": "pdf-image",
-          "provenance": "PDF page 307; printed folio 285 confirmed on the rendered page image.",
+          "provenance": "PDF p. 307.",
           "verified_on": "2026-08-06",
           "voice": "period"
         }
@@ -61,5 +61,5 @@
   "group": "family",
   "gender": "m",
   "bio": "Constance Wilde's elder brother, and so Wilde's brother-in-law. Five of Wilde's letters to him survive, from 1885 to 1898 - the first a telegram announcing the birth of Cyril, the last two from the exile. He and his wife Nellie had a son also called Otho.",
-  "bio_note": "The volume's Index of Recipients. Five letters at printed 261, 262, 285, 1036 and 1055; two read at the page."
+  "bio_note": "The volume's Index of Recipients. Five letters at printed 261, 262, 285, 1036 and 1055."
 }

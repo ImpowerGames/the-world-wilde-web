@@ -31,7 +31,7 @@
       "supports": "The relationship, its character as Pulham states it, and both its start and end dates.",
       "verification": "verified-exact",
       "how_verified": "web",
-      "provenance": "Https://1890s.ca/lee_bio/ fetched (curl) and read in full; quote sliced byte-exact from the downloaded HTML, then whitespace artifacts introduced by stripping inline markup (spaces around quotation marks, italic titles and punctuation) normalized to the printed reading.",
+      "provenance": "Https://1890s.ca/lee_bio/",
       "verified_on": "2026-08-03",
       "voice": "modern"
     },
@@ -46,7 +46,7 @@
       },
       "verification": "verified-exact",
       "how_verified": "web",
-      "provenance": "Https://1890s.ca/lee_bio/ fetched (curl) and read in full; quote sliced byte-exact from the downloaded HTML, then whitespace artifacts introduced by stripping inline markup (spaces around quotation marks, italic titles and punctuation) normalized to the printed reading.",
+      "provenance": "Https://1890s.ca/lee_bio/",
       "verified_on": "2026-08-03",
       "voice": "modern"
     }

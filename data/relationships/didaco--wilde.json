@@ -1,18 +1,19 @@
 {
   "id": "didaco--wilde",
-  "people": [
-    "didaco",
-    "wilde"
-  ],
+  "people": ["didaco", "wilde"],
   "certainty": "self-reported",
   "certainty_status": "proposed",
   "start": {
-    "y": 1899
+    "y": 1899,
+    "m": 2,
+    "circa": true
   },
   "end": {
-    "y": 1899
+    "y": 1899,
+    "m": 2,
+    "circa": true
   },
-  "date_label": "Three days at Genoa, on Wilde's journey from the Riviera into Switzerland, recounted in a letter postmarked 20 March 1899 from Gland. The letter dates neither the stop nor the days; the February 1899 placing of that journey is an itinerary inference, not read in the source.",
+  "date_label": "Three days at Genoa, on Wilde's journey from the Riviera into Switzerland, recounted in a letter postmarked 20 March 1899 from Gland. The letter dates neither the stop nor the days, but the letters fix the journey: Wilde left Nice for Switzerland 'via Genoa, where I wish to stay a day' on 25 February 1899 (to Ross, p. 1127) and wrote from Gland of his 'arrival from Genoa yesterday' ([circa 1 March 1899], p. 1127), so the stop fell in late February 1899.",
   "summary": "On his way from the Riviera to Harold Mellor's villa at Gland, Wilde broke his journey at Genoa and met a young Florentine actor named Didaco, with whom he spent three days. He reported it to Reginald Turner in a letter postmarked 20 March 1899 - a named, dated, first-person-attested liaison of the exile years, and one of the few for which Wilde records the other man's name. Nothing further about Didaco survives in the correspondence read: the letter ends on the following printed page with no second mention.",
   "sources": [
     {
@@ -29,7 +30,7 @@
       "supports": "The whole of the record: Wilde's account of meeting Didaco at Genoa, of loving him, and of three days spent together",
       "verification": "verified-exact",
       "how_verified": "pdf-text",
-      "provenance": "PDF page 1178, printed folio 1132 confirmed on rendered page.",
+      "provenance": "PDF p. 1178.",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Reginald Turner"
