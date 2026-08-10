@@ -20,33 +20,5 @@
     "ellmann-1988"
   ],
   "bio_note": "Dates 1858-1941 and the biography are from the editors' note 4 at Complete Letters (2000), printed 102. Only one letter to Rodd survives in the volume, headed 'To Rennell Rodd' at printed 102-103. It sits in the same register the Complete Letters reading gives 'warm, and not desire' for Sherard's dedication. Ellmann's one suggestive line - that the two travelled under false names 'presumably to keep Rodd's friends from suspecting that their intimacy was so constant' - is flagged by Ellmann himself as a presumption, and the editors' own note at printed 101 says the travelling companion was 'almost certainly Rennell Rodd', which is a second hedge on top of the first.",
-  "context_engagements": [
-    {
-      "partner_name": "Oscar Wilde",
-      "period": "Oxford friendship from the late 1870s; the correspondence survives only for 1880",
-      "sources": [
-        {
-          "work": "letters-2000",
-          "locator": "pp. 102-103",
-          "locator_type": "page",
-          "quote": "Dear Rennell, My best congratulations. Greats is the only fine school at Oxford, the only sphere of thought where one can be, simultaneously, brilliant and unreasonable, speculative and well-informed, creative as well as critical, and write with all the passion of youth about the truths which belong to the august serenity of old age. I wish you had got a First, that my compeers should not all be sluggish and syllogistic Scotchmen; still, a Second is perhaps for a man of culture a sweeter atmosphere than the chilly Caucasus of an atheistical First. Come back very soon. Truly yours",
-          "context": "Wilde to Rennell Rodd, circa 4 December 1880, Keats House (MS Private) - the only letter to Rodd in the volume, congratulating him on his Second in Greats, announced in The Times on 4 December 1880.",
-          "speaker": "Oscar Wilde",
-          "addressee": "James Rennell Rodd",
-          "evidence_date": {
-            "y": 1880,
-            "m": 12,
-            "d": 4,
-            "circa": true
-          },
-          "supports": "The entire surviving correspondence, and the extent of the affection in it: 'Dear Rennell' and 'Come back very soon'.",
-          "verification": "verified-exact",
-          "how_verified": "pdf-image",
-          "provenance": "PDF pp. 127-128. The letter runs across the page break and is transcribed whole.",
-          "verified_on": "2026-08-05",
-          "voice": "period"
-        }
-      ]
-    }
-  ]
+  "sexuality_sources": []
 }

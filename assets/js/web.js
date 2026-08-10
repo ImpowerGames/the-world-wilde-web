@@ -95,14 +95,13 @@ async function loadWeb() {
       return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
     };
   }
-  const NO_EDGE = "no-connection";
   const CERT_LABEL = {
     "self-reported": "Self-Reported",
     "second-hand": "Second-Hand",
     uncorroborated: "Uncorroborated",
     married: "Married",
     "attraction-expressed": "Attraction expressed",
-    [NO_EDGE]: "No connection",
+    platonic: "Platonic",
   };
   const OUTCOME_LABEL = {
     declined: "declined",
@@ -110,10 +109,7 @@ async function loadWeb() {
     unreciprocated: "not reciprocated",
   };
   const DEFAULT_OFF = new Set([]);
-  // Verified carries NO chip. Nothing unverified is supposed to reach the map in the first place,
-  // so a badge on every quotation saying so was labelling the rule rather than the exception -
-  // and made the handful that genuinely are pending harder to spot, not easier. Empty label = no
-  // chip; only the states that need a reader's attention still show one.
+  // Verified carries no chip: only the states that need a reader's attention show one.
   const VER_META = {
     "verified-exact": ["", ""],
     "verified-elision": ["", ""],
@@ -154,6 +150,17 @@ async function loadWeb() {
       byPerson.get(id).push(r);
     }
   const degree = (id) => (byPerson.get(id) || []).length;
+  // Platonic records draw no line and take no part in the layout: the map treats them
+  // as unconnected, so layout forces and rendered edges come from MAP_RELS. The panels,
+  // lists and pair view still use RELS, because the records are real.
+  const MAP_RELS = RELS.filter((r) => r.certainty !== "platonic");
+  const mapByPerson = new Map();
+  for (const r of MAP_RELS)
+    for (const id of r.people) {
+      if (!mapByPerson.has(id)) mapByPerson.set(id, []);
+      mapByPerson.get(id).push(r);
+    }
+  const mapDegree = (id) => (mapByPerson.get(id) || []).length;
 
   function shortLabel(p) {
     const s = shortLabelRaw(p);
@@ -253,7 +260,7 @@ async function loadWeb() {
   const nodes = WEB.people.map((p) => ({
     id: p.id,
     p,
-    r: 16 + 3 * Math.sqrt(degree(p.id)),
+    r: 16 + 3 * Math.sqrt(mapDegree(p.id)),
     x: 0,
     y: 0,
     vx: 0,
@@ -262,7 +269,7 @@ async function loadWeb() {
     hx: (p.layout && p.layout.x) ?? null,
     hy: (p.layout && p.layout.y) ?? null,
   }));
-  nodes.sort((a, b) => degree(b.id) - degree(a.id));
+  nodes.sort((a, b) => mapDegree(b.id) - mapDegree(a.id));
   nodes.forEach((n, i) => {
     const ang = i * 2.39996,
       rad = 30 + 16 * Math.sqrt(i) * 4;
@@ -275,8 +282,10 @@ async function loadWeb() {
   });
   const N = new Map(nodes.map((n) => [n.id, n]));
 
-  const HUB = nodes.reduce((a, b) => (degree(a.id) >= degree(b.id) ? a : b));
-  const edges = RELS.map((r) => ({
+  const HUB = nodes.reduce((a, b) =>
+    mapDegree(a.id) >= mapDegree(b.id) ? a : b,
+  );
+  const edges = MAP_RELS.map((r) => ({
     r,
     a: N.get(r.people[0]),
     b: N.get(r.people[1]),
@@ -284,8 +293,8 @@ async function loadWeb() {
 
   for (const e of edges) {
     const leaf =
-      (byPerson.get(e.a.id) || []).length === 1 ||
-      (byPerson.get(e.b.id) || []).length === 1;
+      (mapByPerson.get(e.a.id) || []).length === 1 ||
+      (mapByPerson.get(e.b.id) || []).length === 1;
     e.rest = leaf ? SIM.REST * 0.58 : SIM.REST;
     e.k = leaf ? SIM.K_SPRING * 2.4 : SIM.K_SPRING;
   }
@@ -304,7 +313,7 @@ async function loadWeb() {
         const stack = [n.id];
         while (stack.length) {
           const id = stack.pop();
-          for (const r of byPerson.get(id) || []) {
+          for (const r of mapByPerson.get(id) || []) {
             if (!useAll && DEFAULT_OFF.has(r.certainty)) continue;
             const o = partnerOf(r, id);
             if (!map.has(o)) {
@@ -350,7 +359,7 @@ async function loadWeb() {
         compHome.set(ci, SLOTS[s++]);
         return;
       }
-      if (degree(memberOf.get(ci).id)) {
+      if (mapDegree(memberOf.get(ci).id)) {
         leadOnly.push(ci);
         compHome.set(ci, null);
         return;
@@ -385,7 +394,7 @@ async function loadWeb() {
 
     {
       const hub = nodes.reduce((a, b) =>
-        degree(a.id) >= degree(b.id) ? a : b,
+        mapDegree(a.id) >= mapDegree(b.id) ? a : b,
       );
       const inMain = (id) => compOf.get(id) === mainComp;
       const kids = new Map(),
@@ -394,7 +403,7 @@ async function loadWeb() {
       for (let i = 0; i < order.length; i++) {
         const id = order[i];
         kids.set(id, []);
-        for (const r of byPerson.get(id) || []) {
+        for (const r of mapByPerson.get(id) || []) {
           const o = partnerOf(r, id);
           if (!inMain(o) || depth.has(o)) continue; // chords land back on a placed node: skip
           depth.set(o, depth.get(id) + 1);
@@ -421,7 +430,7 @@ async function loadWeb() {
           if (ch.length > 1 && angleOf.size > 1) {
             const bary = (c) => {
               const xs = [];
-              for (const r of byPerson.get(c) || []) {
+              for (const r of mapByPerson.get(c) || []) {
                 const o = partnerOf(r, c);
                 if (
                   o !== id &&
@@ -530,7 +539,7 @@ async function loadWeb() {
         n.fx += (home[0] - n.x) * k;
         n.fy += (home[1] - n.y) * k;
       } else {
-        const pull = SIM.K_CENTER * Math.sqrt(degree(n.id) + 1);
+        const pull = SIM.K_CENTER * Math.sqrt(mapDegree(n.id) + 1);
         n.fx += (W / 2 - n.x) * pull * 0.05;
         n.fy += (H / 2 - n.y) * pull * 0.05;
       }
@@ -1080,25 +1089,26 @@ async function loadWeb() {
 
   const SAMPLES = {
     "self-reported":
-      // 2.1, tracking the map - see the note on .cert-self-reported in web.css
+      // matches the .cert-self-reported stroke-width in web.css
       '<line x1="1" y1="5" x2="33" y2="5" stroke="var(--edge)" stroke-width="2.1"/>',
     "second-hand":
       '<line x1="1" y1="5" x2="33" y2="5" stroke="var(--edge)" stroke-width="1.9" stroke-dasharray="7 5"/>',
     uncorroborated:
-      '<line x1="1" y1="5" x2="33" y2="5" stroke="var(--edge)" stroke-width="1.8" stroke-dasharray="1.5 6" stroke-linecap="round"/>',
+      '<line x1="1" y1="5" x2="33" y2="5" stroke="var(--edge)" stroke-width="1.6" stroke-dasharray="1 6" stroke-linecap="round"/>',
     married:
       '<line x1="1" y1="5" x2="33" y2="5" stroke="var(--edge)" stroke-width="5"/><line x1="1" y1="5" x2="33" y2="5" stroke="var(--paper)" stroke-width="1.8"/>',
     "attraction-expressed":
       '<line x1="1" y1="5" x2="27" y2="5" stroke="var(--edge)" stroke-width="1.7" stroke-dasharray="2 3 6 3"/><path d="M27,1.5 L33,5 L27,8.5 z" fill="var(--edge)"/>',
-    none: "[none]",
   };
+  function lineSvg(line) {
+    return `<svg class="lsample" width="34" height="10" aria-hidden="true">${line || ""}</svg>`;
+  }
   function lineSample(c) {
     const line = SAMPLES[c];
-    return line && line.startsWith("<")
-      ? `<svg class="lsample" width="34" height="10" aria-hidden="true">${line}</svg>`
-      : line
-        ? `<small>${line}</small>`
-        : "";
+    if (!line) {
+      return "";
+    }
+    return lineSvg(line);
   }
   const certOrder = [
     "married",
@@ -1106,14 +1116,9 @@ async function loadWeb() {
     "second-hand",
     "uncorroborated",
     "attraction-expressed",
+    "platonic",
     "none",
   ].filter((c) => RELS.some((r) => r.certainty === c));
-  const ISOLATED = new Set(
-    WEB.people
-      .map((p) => p.id)
-      .filter((id) => !(byPerson.get(id) || []).length),
-  );
-  if (ISOLATED.size) certOrder.push(NO_EDGE);
   const DEFAULT_OFF_GROUPS = new Set(["liaisons"]);
   const offGroups = new Set(),
     offCerts = new Set();
@@ -1283,8 +1288,8 @@ async function loadWeb() {
         [
           p.bio_note,
           p.roster_note,
-          ...(p.context_engagements || []).flatMap((ce) => [
-            ce.partner_name,
+          ...(p.sexuality_sources || []).flatMap((ce) => [
+            ce.subject,
             ce.note,
             ce.date_label,
             ce.period,
@@ -1441,7 +1446,7 @@ async function loadWeb() {
 
       const allHidden = es.length
         ? es.every((r) => offCerts.has(r.certainty))
-        : offCerts.has(NO_EDGE);
+        : false;
       const dim = searchTerm ? !personMatches(n.p) : personHidden(n.p);
       n.g.classList.toggle("leadonly", allHidden && !dim);
       n.g.classList.toggle("dimmed", dim);
@@ -1498,20 +1503,16 @@ async function loadWeb() {
               .slice(-1)[0],
           )}, ${esc(OUTCOME_LABEL[r.outcome] || r.outcome || "")}`
         : "";
-    return `<span class="badge"><svg width="28" height="10" aria-hidden="true">${SAMPLES[r.certainty]}</svg>${esc(CERT_LABEL[r.certainty])}${dir}</span>`;
+    const sample = SAMPLES[r.certainty];
+    return `<span class="badge">${sample ? `<svg width="28" height="10" aria-hidden="true">${sample}</svg>` : ""}${esc(CERT_LABEL[r.certainty])}${dir}</span>`;
   }
   function miniBadge(c) {
     if (c === "attraction-expressed")
       return `<svg class="mini" width="24" height="8" aria-hidden="true"><line x1="1" y1="4" x2="17" y2="4" stroke="var(--edge)" stroke-width="1.6" stroke-dasharray="2 3 5 3"/><path d="M17,1 L22,4 L17,7 z" fill="var(--edge)"/></svg>`;
-    return `<svg class="mini" width="24" height="8" aria-hidden="true"><line x1="1" y1="4" x2="23" y2="4" stroke="var(--edge)" ${
-      c === "self-reported"
-        ? 'stroke-width="2.1"' // tracks the map; see the note in web.css
-        : c === "second-hand"
-          ? 'stroke-width="1.6" stroke-dasharray="6 4"'
-          : c === "uncorroborated"
-            ? 'stroke-width="1.6" stroke-dasharray="1.5 5" stroke-linecap="round"'
-            : 'stroke-width="4"'
-    }/></svg>`;
+    if (c === "platonic")
+      // platonic draws no line, so its marker is the word, not a sample
+      return `<span class="mini-plat">platonic</span>`;
+    return `<svg class="mini" width="32" height="8" aria-hidden="true">${SAMPLES[c]}</svg>`;
   }
 
   function byEvidenceDate(list, get) {
@@ -1631,11 +1632,8 @@ async function loadWeb() {
       says = shortWho(q.speaker) || "A.";
     for (let i = 0; i < chunks.length; i++) {
       const c = chunks[i].trim();
-      // Every chunk but the last ends on a question, and may have the tail of the previous answer in
-      // front of it. That includes the FIRST: several of these quotations open mid-answer, and
-      // labelling the opening narration as counsel's question put a witness's words in counsel's
-      // mouth - the same fault at the level of a line that the old single-speaker heading made at the
-      // level of the card.
+      // Every chunk but the last ends on a question, and may carry the tail of the previous answer
+      // in front of it - including the first, which opens mid-answer.
       const last = i === chunks.length - 1;
       const cut = last ? null : splitQuestionTail(c);
       if (cut) {
@@ -1681,7 +1679,7 @@ async function loadWeb() {
       w && w.r
         ? `<span class="qpair"><a href="#/r/${esc(w.r.id)}">${esc(w.other.name)}</a>${miniBadge(w.r.certainty)}</span>`
         : w && w.label
-          ? `<span class="qpair">${w.labelId ? `<a href="#/p/${esc(w.labelId)}">${esc(w.label)}</a>` : esc(w.label)}<span class="noedge">no connection</span></span>`
+          ? `<span class="qpair">${w.labelId ? `<a href="#/p/${esc(w.labelId)}">${esc(w.label)}</a>` : esc(w.label)}${w.owner && w.labelId && w.owner !== w.labelId ? `<a class="noedge" href="#/pair/${esc(w.owner)}--${esc(w.labelId)}" title="All sources connecting these two">no connection</a>` : `<span class="noedge">no connection</span>`}</span>`
           : "";
 
     // Dedupe by WHO, not by rendered html. One quotation can reach this card through two records
@@ -1801,15 +1799,14 @@ async function loadWeb() {
     return d ? d.y : null;
   }
 
-  // Three haystacks per source, so the filter's scope selector can narrow the same way the
-  // header search does. `all` is what the bar searched before this existed.
+  // Three haystacks per source, so the filter's scope selector narrows the same way the
+  // header search does.
   function srcHay(q, withWhom) {
     const wk = WEB.works[q.work] || null;
     const join = (a) => a.filter(Boolean).join("  ").toLowerCase();
     // Every name the card's header can show, including the ones folded into `also`. One quotation
-    // can reach a panel through several records - the Chameleon letter arrives via both Bloxam's
-    // engagement and Leverson's - and they merge into a single card reading "with X and Y". Taking
-    // only the primary left whichever name lost the merge unsearchable.
+    // can reach a panel through several records and merge into a single card, so the haystack has
+    // to hold every merged name, not just the primary.
     const partner = (w) =>
       w && ((w.other && w.other.name) || w.label || (w.r && w.r.id));
     const names = join([
@@ -2072,12 +2069,12 @@ async function loadWeb() {
       });
   }
 
-  const CE_BY_PARTNER = (() => {
+  const SX_BY_PARTNER = (() => {
     const m = new Map();
     for (const p of WEB.people)
-      for (const ce of p.context_engagements || []) {
+      for (const ce of p.sexuality_sources || []) {
         if (!(ce.sources || []).length) continue;
-        const other = NAME_INDEX.get(ce.partner_name || "");
+        const other = NAME_INDEX.get(ce.subject || "");
         if (!other || other === p.id) continue;
         if (!m.has(other)) m.set(other, []);
         m.get(other).push({ owner: p, ce });
@@ -2095,14 +2092,20 @@ async function loadWeb() {
     }
 
     const p2 = P.get(id);
-    for (const ce of (p2 && p2.context_engagements) || []) {
+    for (const ce of (p2 && p2.sexuality_sources) || []) {
+      const other = NAME_INDEX.get(ce.subject || "");
       for (const q of ce.sources || [])
-        flat.push({ q, label: ce.partner_name || ce.name || "" });
+        flat.push({
+          q,
+          label: ce.subject || ce.name || "",
+          labelId: other && other !== id ? other : null,
+          owner: id,
+        });
     }
 
-    for (const { owner, ce } of CE_BY_PARTNER.get(id) || []) {
+    for (const { owner: ceOwner, ce } of SX_BY_PARTNER.get(id) || []) {
       for (const q of ce.sources || [])
-        flat.push({ q, label: owner.name, labelId: owner.id });
+        flat.push({ q, label: ceOwner.name, labelId: ceOwner.id, owner: id });
     }
     if (!flat.length) return "";
 
@@ -2139,9 +2142,9 @@ async function loadWeb() {
          const conn =
            c === 1 ? "their one connection" : `all ${c} of their connections`;
          if (c && e)
-           return `, from ${conn} and from engagements recorded without a connection line`;
+           return `, from ${conn} and from sexuality sources not tied to a connection`;
          if (c) return `, from ${conn}`;
-         return ", from engagements recorded without a connection line";
+         return ", from sexuality sources not tied to a connection";
        })()}. Each says what it belongs to.</p>` +
       sourceFilterBar(merged.length) +
       cards
@@ -2171,15 +2174,17 @@ async function loadWeb() {
         what: `<a href="#/r/${esc(r.id)}">${esc(q.name)}</a>${miniBadge(r.certainty)}`,
       });
     }
-    for (const ce of p.context_engagements || []) {
+    for (const ce of p.sexuality_sources || []) {
+      const otherId = NAME_INDEX.get(ce.subject || "");
+      const ro = otherId && otherId !== p.id ? otherId : null;
       rows.push({
         k: sortKey(ce.start),
-        cls: "ctx",
+        cls: "sx",
         when:
           ce.start || ce.end
             ? `${fmtDate(ce.start)}${ce.end && ce.end.y != null ? ` – ${fmtDate(ce.end)}` : ""}`
             : "date unknown",
-        what: `${esc(ce.partner_name || ce.name || "unnamed")}<span class="offr">off-roster</span>${ce.note ? `<div style="font-size:12px;color:var(--ink3)">${esc(ce.note)}</div>` : ""}`,
+        what: `${ro ? `<a href="#/pair/${esc(p.id)}--${esc(ro)}">${esc(ce.subject)}</a>` : esc(ce.subject || ce.name || "unnamed")}${ro ? "" : `<span class="offr">off-roster</span>`}${ce.note ? `<div style="font-size:12px;color:var(--ink3)">${esc(ce.note)}</div>` : ""}`,
       });
     }
     rows.sort((a, b) => (a.k === Infinity) - (b.k === Infinity) || a.k - b.k);
@@ -2246,6 +2251,73 @@ async function loadWeb() {
     showPanel();
     focusGraph({ rel: id });
   }
+  function openPair(x, y) {
+    const pa = P.get(x),
+      pb = P.get(y);
+    if (!pa || !pb) {
+      closePanel();
+      return;
+    }
+    const flat = [];
+    const rel = (byPerson.get(x) || []).find((r) => r.people.includes(y));
+    if (rel)
+      for (const q of rel.sources || [])
+        flat.push({ q, r: rel, other: P.get(partnerOf(rel, x)) });
+    const addCE = (owner, pid, other) => {
+      for (const ce of owner.sexuality_sources || []) {
+        if (NAME_INDEX.get(ce.subject || "") !== other) continue;
+        for (const q of ce.sources || [])
+          flat.push({ q, label: ce.subject, labelId: other, owner: pid });
+      }
+    };
+    addCE(pa, x, y);
+    addCE(pb, y, x);
+    if (!flat.length) {
+      closePanel();
+      return;
+    }
+    if (rel)
+      for (const f of flat)
+        if (!f.r) {
+          f.r = rel;
+          f.other = P.get(partnerOf(rel, x));
+        }
+    const merged = [],
+      byKey = new Map();
+    for (const f of flat) {
+      const txt = (f.q.quote || "").replace(/\W+/g, " ").trim().toLowerCase();
+      if (!txt) {
+        merged.push(f);
+        continue;
+      }
+      const key = `${f.q.work}|${f.q.locator}|${txt}`;
+      const first = byKey.get(key);
+      if (first) (first.also = first.also || []).push(f);
+      else {
+        byKey.set(key, f);
+        merged.push(f);
+      }
+    }
+    PANEL_SRC = [];
+    const cards = byEvidenceDate(merged, (f) => f.q)
+      .map((f) => {
+        PANEL_SRC.push({ hay: srcHay(f.q, f), y: srcYear(f.q) });
+        return quoteCard(f.q, f, PANEL_SRC.length - 1);
+      })
+      .join("");
+    panel.innerHTML = `<div class="pwrap">
+    <div class="phead"><span class="grab" aria-hidden="true"></span><span class="phtitle"></span><button class="pclose" onclick="location.hash=''">Close</button></div>
+    <h2 class="rhead"><a href="#/p/${esc(x)}">${esc(pa.name)}</a> &amp; <a href="#/p/${esc(y)}">${esc(pb.name)}</a></h2>
+    <div class="datesline">${rel ? esc(relDateLabel(rel)) : "no connection recorded"}</div>
+    <div class="sect">Sources connecting them (${merged.length})</div>
+    <p class="sect-note">${rel ? "Their recorded connection, plus the quotations that put the two in the same frame." : "No connection line is recorded between them; these are the quotations that put the two in the same frame."}</p>
+    ${sourceFilterBar(merged.length)}
+    ${cards}
+  </div>`;
+    wireSourceFilter();
+    wirePanelHandle();
+    showPanel();
+  }
   function openList() {
     const sorted = [...RELS].sort(
       (x, y) => sortKey(x.start) - sortKey(y.start),
@@ -2285,7 +2357,7 @@ async function loadWeb() {
     const host = $("#aboutBody");
     if (!host || !WEB.about) return;
     host.innerHTML = WEB.about.replace(/\{\{line:([a-z-]+)\}\}/g, (m, c) =>
-      lineSample(c),
+      lineSvg(SAMPLES[c]),
     );
   }
   function mountContrib() {
@@ -2453,7 +2525,10 @@ async function loadWeb() {
     const h = location.hash;
     $("#btnList").setAttribute("aria-pressed", String(h === "#/list"));
     syncAbout();
-    if (h.startsWith("#/p/")) openPerson(decodeURIComponent(h.slice(4)));
+    if (h.startsWith("#/pair/")) {
+      const [x, y] = decodeURIComponent(h.slice(7)).split("--");
+      if (x && y) openPair(x, y);
+    } else if (h.startsWith("#/p/")) openPerson(decodeURIComponent(h.slice(4)));
     else if (h.startsWith("#/r/")) openRel(decodeURIComponent(h.slice(4)));
     else if (h === "#/list") openList();
     else if (h === "#/about") renderAbout();
@@ -2533,7 +2608,7 @@ async function loadWeb() {
     for (const n of nodes) {
       if (n.pinned || n.hx != null) continue;
       if (nodeLineClearance(n) >= n.r) continue;
-      const es = byPerson.get(n.id) || [];
+      const es = mapByPerson.get(n.id) || [];
       if (!es.length) continue;
       const anchor = N.get(partnerOf(es[0], n.id));
       if (!anchor) continue;
@@ -2634,8 +2709,8 @@ async function loadWeb() {
         const ux = dx / L,
           uy = dy / L,
           step = Math.min(need, 5);
-        const da = degree(e.a.id) + 1,
-          db = degree(e.b.id) + 1;
+        const da = mapDegree(e.a.id) + 1,
+          db = mapDegree(e.b.id) + 1;
         let wa = e.a.pinned ? 0 : db / (da + db),
           wb = e.b.pinned ? 0 : da / (da + db);
         const tot = wa + wb;
@@ -2959,41 +3034,6 @@ async function loadWeb() {
     n.cy = n.y;
   }
 
-  function centreOnHub() {
-    // no longer called
-    if (!nodes.length) return;
-    const hub = nodes.reduce(
-      (a, b) => (degree(b.id) > degree(a.id) ? b : a),
-      nodes[0],
-    );
-    const dx = W / 2 - hub.x,
-      dy = H / 2 - hub.y;
-    for (const n of nodes) {
-      n.x += dx;
-      n.y += dy;
-    }
-    let ex = 0,
-      ey = 0;
-    for (const n of nodes) {
-      ex = Math.max(ex, Math.abs(n.x - W / 2) + n.r + 30);
-      ey = Math.max(ey, Math.abs(n.y - H / 2) + n.r + 38); // +label below the node
-    }
-
-    const rect = svg.getBoundingClientRect();
-    const aspect = rect.width && rect.height ? rect.width / rect.height : W / H;
-    let hw = Math.max(ex, ey * aspect),
-      hh = hw / aspect;
-    if (hh < ey) {
-      hh = ey;
-      hw = hh * aspect;
-    }
-    vb.w = hw * 2;
-    vb.h = hh * 2;
-    vb.x = W / 2 - hw;
-    vb.y = H / 2 - hh;
-    applyVB();
-  }
-
   function paneAspect() {
     const rect = svg.getBoundingClientRect();
     return rect.width && rect.height ? rect.width / rect.height : W / H;
@@ -3004,7 +3044,10 @@ async function loadWeb() {
     if (!nodes.length) return;
     const hub =
       N.get("wilde") ||
-      nodes.reduce((a, b) => (degree(b.id) > degree(a.id) ? b : a), nodes[0]);
+      nodes.reduce(
+        (a, b) => (mapDegree(b.id) > mapDegree(a.id) ? b : a),
+        nodes[0],
+      );
     const hw = (W * OPEN_SCALE) / 2,
       hh = hw / paneAspect();
     vb.w = hw * 2;

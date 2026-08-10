@@ -29,6 +29,7 @@ The line style records **how we know** about a connection. This reference delibe
 - {{line:second-hand}} **Second-Hand**<br>Only non-participants attest to the romantic or sexual nature of the connection: observers, biographers, editors.
 - {{line:uncorroborated}} **Uncorroborated**<br>A claim of romantic or sexual connection with limited support: a lone source, or an allegation never confirmed — including those made only in Queensberry's 1895 plea of justification. Where someone genuinely contested the connection — testimony discredited at trial, a witness who recanted — that is stated in the note on the card.
 - {{line:attraction-expressed}} **Attraction expressed**<br>The record is one-sided: a declaration, an approach, or admiration noted in passing, the arrow pointing from the person who expressed it to its subject. Many of them — sailors, waiters, fishermen — left no papers of their own to confirm the nature of the connection.
+- {{line:platonic}} **Platonic**<br>A documented friendship or acquaintance — correspondence, visits, professional friendship — with no evidence of attraction or romance. Platonic connections are not drawn as lines on the map, but they appear in profiles and in the relationship list.
 
 Every classification is checked by hand against the sources before it is relied upon.
 

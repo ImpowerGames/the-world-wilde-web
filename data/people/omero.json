@@ -10,52 +10,7 @@
   "bio_sources": [
     "letters-2000"
   ],
-  "context_engagements": [
-    {
-      "partner_name": "Oscar Wilde",
-      "period": "Rome, April 1900",
-      "sources": [
-        {
-          "work": "letters-2000",
-          "locator": "p. 1182",
-          "locator_type": "page",
-          "quote": "Omero has never received your letter. I need not say I have not given him your London address - at least not your real one: he now believes that your real name is Edmondo Gosse, and that your address is the Savile. I also added that some of your more intimate friends prefer to write to you as Reginaldo Turner, Avvocato, The Reform Club: but that I, from old associations, prefer to address you as Sir Wemyss Reid, so I fancy there will be many interesting letters arriving in London.",
-          "context": "Wilde to Robert Ross, Rome, April 1900 - quoted whole. Edmund Gosse, Reginald Turner and Wemyss Reid are all real people and all appear elsewhere in this volume; Turner is on this map. The joke only works because concealing a real name from a young man was ordinary practice.",
-          "speaker": "Oscar Wilde",
-          "addressee": "Robert Ross",
-          "evidence_date": {
-            "y": 1900,
-            "m": 4
-          },
-          "supports": "The circle's discretion machinery, seen from the outside.",
-          "verification": "verified-exact",
-          "how_verified": "pdf-image",
-          "provenance": "PDF p. 1228.",
-          "verified_on": "2026-08-06",
-          "voice": "period"
-        },
-        {
-          "work": "letters-2000",
-          "locator": "p. 1184",
-          "locator_type": "page",
-          "quote": "Omero was with me, and Armando, forgiven for the moment.",
-          "context": "Wilde to Robert Ross, Rome, April 1900. The second and last mention: Omero is simply there, in company with Armando.",
-          "speaker": "Oscar Wilde",
-          "addressee": "Robert Ross",
-          "evidence_date": {
-            "y": 1900,
-            "m": 4
-          },
-          "supports": "That the three of them were together.",
-          "verification": "verified-exact",
-          "how_verified": "pdf-image",
-          "provenance": "PDF p. 1230.",
-          "verified_on": "2026-08-06",
-          "voice": "period"
-        }
-      ]
-    }
-  ],
+  "sexuality_sources": [],
   "name": "Omero",
   "sort_name": "Omero",
   "bio": "A young Roman of Wilde's April 1900 circle, present when Wilde and Armando were together, and the subject of a running joke: Wilde had given him a false name and address for Robert Ross, so that Omero believed Ross was really called Edmondo Gosse and lived at the Savile.",

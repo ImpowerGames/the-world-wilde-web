@@ -12,32 +12,5 @@
     "letters-2000"
   ],
   "bio_note": "Identified from the volume's General Index, printed 1239; the Legitimation League material lies outside this volume.",
-  "context_engagements": [
-    {
-      "partner_name": "Oscar Wilde",
-      "period": "Paris and London, March 1898",
-      "sources": [
-        {
-          "work": "letters-2000",
-          "locator": "p. 1037",
-          "locator_type": "page",
-          "quote": "My dear Sir, I must thank you very much for the books: the edition of my essays is a masterpiece of lovely binding and I was charmed to receive my dear father's book, and also Salomé with the dainty drawings of Max Beerbohm in his Oxford days. You really have been most kind to me and I do hope to see you. I am worried over the sordid things of life, so cannot write - at least intelligently - but I beg you to accept again my sincere thanks and I hope you will review The Ballad of Reading Gaol somewhere. You have been so charming to the author, that you may be charming also to the work. Truly yours",
-          "context": "Wilde to George Bedborough, [postmark 15 March 1898], Hôtel de Nice, Paris (MS Texas) - quoted whole. Bedborough had had Wilde's essays bound up out of the periodicals they first appeared in and inscribed the volume 'To the author from Geo. Bedborough, 5 March 1898'. Read the dates together: this is 15 March; Bedborough reviewed The Ballad in the April Adult, hoping Wilde's next song would be 'signed with the old familiar name'; and on 31 May he was arrested for selling Havelock Ellis's Sexual Inversion to a plain-clothes policeman. 'My dear father's book' is one of Sir William Wilde's.",
-          "speaker": "Oscar Wilde",
-          "addressee": "George Bedborough",
-          "evidence_date": {
-            "y": 1898,
-            "m": 3,
-            "d": 15
-          },
-          "supports": "The whole of the correspondence, ten weeks before Bedborough's arrest.",
-          "verification": "verified-exact",
-          "how_verified": "pdf-image",
-          "provenance": "PDF p. 1083.",
-          "verified_on": "2026-08-06",
-          "voice": "period"
-        }
-      ]
-    }
-  ]
+  "sexuality_sources": []
 }

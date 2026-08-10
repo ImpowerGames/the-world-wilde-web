@@ -1,0 +1,41 @@
+{
+  "id": "melvill--wilde",
+  "people": [
+    "melvill",
+    "wilde"
+  ],
+  "certainty": "platonic",
+  "certainty_status": "proposed",
+  "start": {
+    "y": 1888,
+    "m": 6
+  },
+  "end": {
+    "y": 1888,
+    "m": 6
+  },
+  "summary": "A plain wish to see more of Harry Melvill — the whole of the record, in one letter of 1888.",
+  "certainty_reasoning": "The record documents a friendship or acquaintance with no evidence of attraction or romance; classified platonic, upgradable if contrary evidence comes to light.",
+  "sources": [
+    {
+      "work": "letters-2000",
+      "locator": "p. 352",
+      "locator_type": "page",
+      "quote": "My dear Harry, I am going down to my publisher to tell him to send you a copy of my little book. It contains some studies in prose: the best I think being the first, though 'The Nightingale and the Rose' is the most elaborate. What a charming time we had at Abbots Hill. I have not enjoyed myself so much for a long time, and I hope that we will see much more of each other, and be often together. We are always at home on Wednesday afternoons, when you will always be le bienvenu. On Friday I am paying a visit in Beaufort Gardens. Will you be in about 5.30? Ouida has just sent me a clever article. Your affectionate friend",
+      "context": "Wilde to Harry Melvill, [? June 1888], 16 Tite Street (MS Clark) - quoted whole. The book is The Happy Prince and Other Tales. Beaufort Gardens is where Melvill was then living with his parents, so the 'visit' on Friday is to his house. The sign-off is 'Your affectionate friend'.",
+      "speaker": "Oscar Wilde",
+      "addressee": "Harry Melvill",
+      "evidence_date": {
+        "y": 1888,
+        "m": 6
+      },
+      "supports": "A plain wish to see more of someone, and to be often together.",
+      "verification": "verified-exact",
+      "how_verified": "pdf-image",
+      "provenance": "PDF p. 374.",
+      "verified_on": "2026-08-05",
+      "voice": "period"
+    }
+  ],
+  "date_label": "London, 1888"
+}

@@ -3,34 +3,7 @@
   "born": null,
   "died": null,
   "gender": "m",
-  "context_engagements": [
-    {
-      "partner_name": "Oscar Wilde",
-      "period": "London, 1891-1892",
-      "sources": [
-        {
-          "work": "letters-2000",
-          "locator": "p. 528",
-          "locator_type": "page",
-          "quote": "My dear Kernahan, I should have thanked you long ago for sending me your charming fairy tale, but the season with its red roses of pleasure has absorbed me quite, and I have almost forgotten how to write a letter. … But your strength lies not in such fanciful, winsome work. You must deal directly with Life - modern terrible Life - wrestle with it, and force it to yield you its secret. You have the power and the pen. You know what passion is, what passions are; you can give them their red raiment, and make them move before us. You can fashion puppets with bodies of flesh, and souls of turmoil: and so, you must sit down, and do a great thing. It is all in you. Your sincere friend",
-          "context": "Wilde to Coulson Kernahan, [postmark 20 June 1892], 16 Tite Street (MS British Library). The elision drops three sentences of praise for the tale's symbolism. Included for completeness rather than for what it proves: the 'passion' is the subject Wilde thinks he should be writing about.",
-          "speaker": "Oscar Wilde",
-          "addressee": "Coulson Kernahan",
-          "evidence_date": {
-            "y": 1892,
-            "m": 6,
-            "d": 20
-          },
-          "supports": "Warmth between men, recorded whether or not it amounts to anything.",
-          "verification": "verified-elision",
-          "how_verified": "pdf-image",
-          "provenance": "PDF p. 548.",
-          "verified_on": "2026-08-05",
-          "voice": "period"
-        }
-      ]
-    }
-  ],
+  "sexuality_sources": [],
   "bio_sources": [
     "letters-2000"
   ],

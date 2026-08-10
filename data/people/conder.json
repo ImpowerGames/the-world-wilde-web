@@ -11,53 +11,7 @@
   "bio_sources": [
     "letters-2000"
   ],
-  "context_engagements": [
-    {
-      "partner_name": "Oscar Wilde",
-      "period": "Berneval and after, 1897-8",
-      "sources": [
-        {
-          "work": "letters-2000",
-          "locator": "p. 911",
-          "locator_type": "page",
-          "quote": "Many friends, such as Will Rothenstein, the artist, Conder, who is a sort of Corot of the sunlight, Ernest Dowson, the poet, and others have come to see me for a few days: and next month I hope to see Ricketts and Shannon, who decorated all my books for me, dear Robbie Ross, and perhaps some others.",
-          "context": "Wilde to Carlos Blacker, 12 July 1897, Berneval-sur-Mer (MS Koch, Yale). The roll-call of who came after prison. Corot is the French landscape painter, and the compliment is to Conder's light.",
-          "speaker": "Oscar Wilde",
-          "addressee": "Carlos Blacker",
-          "evidence_date": {
-            "y": 1897,
-            "m": 7,
-            "d": 12
-          },
-          "supports": "That he came to Berneval, and what Wilde thought of his painting.",
-          "verification": "verified-exact",
-          "how_verified": "pdf-image",
-          "provenance": "PDF p. 961.",
-          "verified_on": "2026-08-05",
-          "voice": "period"
-        },
-        {
-          "work": "letters-2000",
-          "locator": "p. 928",
-          "locator_type": "page",
-          "quote": "Conder is now a vineyard: the Youngs are very serious about him, and there is a moral atmosphere about Dieppe that you should come over and dissipate.",
-          "context": "Wilde at Berneval, August 1897, on the same printed page as the second Laurence Housman letter. 'A vineyard' appears to be a joke at the expense of some improving influence being exerted on Conder at Dieppe; the sense is not explained on the page and nothing is inferred.",
-          "speaker": "Oscar Wilde",
-          "addressee": null,
-          "evidence_date": {
-            "y": 1897,
-            "m": 8
-          },
-          "supports": "Conder in the Dieppe circle, and Wilde's tone about him.",
-          "verification": "verified-exact",
-          "how_verified": "pdf-image",
-          "provenance": "PDF p. 978.",
-          "verified_on": "2026-08-05",
-          "voice": "period"
-        }
-      ]
-    }
-  ],
+  "sexuality_sources": [],
   "name": "Charles Conder",
   "sort_name": "Conder, Charles",
   "group": "aesthete",

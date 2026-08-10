@@ -1,0 +1,40 @@
+{
+  "id": "symonds--wilde",
+  "people": [
+    "symonds",
+    "wilde"
+  ],
+  "certainty": "platonic",
+  "certainty_status": "proposed",
+  "start": {
+    "y": 1876
+  },
+  "end": {
+    "y": 1876
+  },
+  "date_label": "Read but apparently never met, 1876",
+  "summary": "Wilde was deep in a review of Symonds's Studies of the Greek Poets at twenty-one - the review never published. The connection is one of reading, not meeting.",
+  "certainty_reasoning": "The record documents a friendship or acquaintance with no evidence of attraction or romance; classified platonic, upgradable if contrary evidence comes to light.",
+  "sources": [
+    {
+      "work": "letters-2000",
+      "locator": "p. 31",
+      "locator_type": "page",
+      "quote": "Dear Bouncer, I am very glad you like Aurora Leigh. I think it simply 'intense' in every way. I am deep in a review of Symonds's last book whenever I can get time and the weather is too bright for fishing.",
+      "context": "Wilde to William Ward, [postmark 28 August 1876], Illaunroe Lodge, Connemara (MS Magdalen). The editors identify the book as Symonds's Studies of the Greek Poets and state that Wilde's review was never published. Wilde was twenty-one and had taken his First that July. The same week's letters contain the Todd passage.",
+      "speaker": "Oscar Wilde",
+      "addressee": "William Ward",
+      "evidence_date": {
+        "y": 1876,
+        "m": 8,
+        "d": 28
+      },
+      "supports": "That Wilde was reading Symonds closely at twenty-one, and that what he wrote about him did not survive into print.",
+      "verification": "verified-exact",
+      "how_verified": "pdf-image",
+      "provenance": "PDF p. 56.",
+      "verified_on": "2026-08-05",
+      "voice": "period"
+    }
+  ]
+}

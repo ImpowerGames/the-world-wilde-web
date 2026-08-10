@@ -1,0 +1,45 @@
+{
+  "id": "custance--montagu",
+  "people": [
+    "custance",
+    "montagu"
+  ],
+  "certainty": "second-hand",
+  "certainty_status": "proposed",
+  "start": {
+    "y": 1901
+  },
+  "end": {
+    "y": 1902,
+    "m": 3
+  },
+  "date_label": "1901 – 1902",
+  "summary": "Olive Custance's official fiancé at the time of her elopement with Lord Alfred Douglas: Douglas's memoir records the King's letter congratulating Mrs Custance on 'her daughter's engagement to George' days before the 4 March 1902 wedding, and McDermott calls Montagu 'a rich school friend of Douglas's', heir to an earldom.",
+  "certainty_reasoning": "The engagement is attested only by non-participants - Douglas's memoir and McDermott's article - and neither passage has been read on the page, so the sources are entered as pointers pending verification. A betrothal is a formal romantic commitment; classified second-hand rather than platonic.",
+  "sources": [
+    {
+      "work": "douglas-autobiography-1929",
+      "locator": "p. 197",
+      "locator_type": "page",
+      "quote": "",
+      "voice": null,
+      "evidence_date": null,
+      "supports": "The King's letter congratulating Mrs Custance on 'her daughter's engagement to George' days before the 4 March 1902 wedding.",
+      "verification": "unverified",
+      "how_verified": "unverified",
+      "provenance": "Not yet read on the page; pointer entered from the note formerly on custance.json."
+    },
+    {
+      "work": "mcdermott-2020-fortnightly",
+      "locator": "",
+      "locator_type": "none",
+      "quote": "",
+      "voice": null,
+      "evidence_date": null,
+      "supports": "Montagu as 'a rich school friend of Douglas's', heir to an earldom.",
+      "verification": "unverified",
+      "how_verified": "unverified",
+      "provenance": "Not yet read on the page; pointer entered from the note formerly on custance.json."
+    }
+  ]
+}

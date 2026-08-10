@@ -1,0 +1,41 @@
+{
+  "id": "pickering--wilde",
+  "people": [
+    "pickering",
+    "wilde"
+  ],
+  "certainty": "platonic",
+  "certainty_status": "proposed",
+  "start": {
+    "y": 1890,
+    "m": 7
+  },
+  "end": {
+    "y": 1890,
+    "m": 7
+  },
+  "summary": "Wilde's charm turned on a stranger: the whole of the correspondence with Arthur Howard Pickering, who had written praising Dorian Gray.",
+  "certainty_reasoning": "The record documents a friendship or acquaintance with no evidence of attraction or romance; classified platonic, upgradable if contrary evidence comes to light.",
+  "sources": [
+    {
+      "work": "letters-2000",
+      "locator": "p. 443",
+      "locator_type": "page",
+      "quote": "My dear Pickering, We are all angry with you for not coming over. When the lilacs blossom and the laburnum hangs its dusty gold over the railings of our London squares we look for our American friends, and so we look for you. Come in the autumn, and we will ask the laburnum to grow honey-coloured for your pleasure. I am charmed you like Dorian Gray. It is my best piece of work, and I hope to make it still better, when it appears in book form. The fatal book that Lord Henry lent Dorian is one of my many unwritten works. Some day I must go through the formality of putting it on paper. My wife and my mother both send you their kindest and most affectionate greetings. So does your sincere friend",
+      "context": "Wilde to Arthur Howard Pickering, [late July 1890], 16 Tite Street (MS Clark) - quoted whole. Pickering had written from Roxbury on 7 July praising Dorian Gray in Lippincott's. Kept entire partly for the laburnum and partly for the middle paragraph, which is Wilde saying the poisonous yellow book of the novel was never written.",
+      "speaker": "Oscar Wilde",
+      "addressee": "Arthur Howard Pickering",
+      "evidence_date": {
+        "y": 1890,
+        "m": 7
+      },
+      "supports": "Wilde's charm turned on a stranger, and a note on Dorian Gray's unwritten book.",
+      "verification": "verified-exact",
+      "how_verified": "pdf-image",
+      "provenance": "PDF p. 465.",
+      "verified_on": "2026-08-05",
+      "voice": "period"
+    }
+  ],
+  "date_label": "London and Massachusetts, 1890"
+}

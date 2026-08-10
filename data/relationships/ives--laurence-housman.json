@@ -1,0 +1,36 @@
+{
+  "id": "ives--laurence-housman",
+  "people": [
+    "ives",
+    "laurence-housman"
+  ],
+  "certainty": "platonic",
+  "certainty_status": "proposed",
+  "start": {
+    "y": 1939
+  },
+  "end": {
+    "y": 1939
+  },
+  "summary": "Ives and Laurence Housman, fellow members of the Order of Chaeronea; Ives left Housman a ring in his 1939 will.",
+  "certainty_reasoning": "The record documents a friendship or acquaintance with no evidence of attraction or romance; classified platonic, upgradable if contrary evidence comes to light.",
+  "sources": [
+    {
+      "quote": "He left the poet and fellow member of the Order of the Chaeronea, Laurence Housman, a ring bearing the numbers 338 (the date of the last battle of the Theban Bands).",
+      "context": "Cook, on the bequests in Ives's 1939 will beyond his kin and household",
+      "work": "cook-2014",
+      "locator": "p. 110",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1939
+      },
+      "supports": "Housman's membership of the Order of Chaeronea alongside Ives, and a personal bequest marking it.",
+      "verification": "verified-exact",
+      "how_verified": "pdf-text",
+      "provenance": "PDF p. 121.",
+      "verified_on": "2026-08-03",
+      "voice": "modern"
+    }
+  ],
+  "date_label": "Named in the 1939 will"
+}

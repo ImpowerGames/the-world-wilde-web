@@ -1,0 +1,64 @@
+{
+  "id": "blacker--wilde",
+  "people": [
+    "blacker",
+    "wilde"
+  ],
+  "certainty": "platonic",
+  "certainty_status": "proposed",
+  "start": {
+    "y": 1897,
+    "m": 7,
+    "d": 12
+  },
+  "end": {
+    "y": 1898,
+    "m": 6,
+    "d": 27
+  },
+  "summary": "A long friendship with the engineer Carlos Blacker, one of the few who visited Wilde after prison, that broke in 1898 over money — in Wilde's own account.",
+  "certainty_reasoning": "The record documents a friendship or acquaintance with no evidence of attraction or romance; classified platonic, upgradable if contrary evidence comes to light.",
+  "sources": [
+    {
+      "work": "letters-2000",
+      "locator": "p. 911",
+      "locator_type": "page",
+      "quote": "My dear old Friend, I need not tell you with what feelings of affection and gratitude I read your letter. You were always my staunch friend and stood by my side for many years. Often in prison I used to think of you: of your chivalry of nature, of your limitless generosity, of your quick intellectual sympathies, of your culture so receptive, so refined. What marvellous evenings, dear Carlos, we used to have! What brilliant dinners! What days of laughter and delight! To you, as to me, conversation - that τερπνὸν κακόν as Euripides calls it - that sweet sin of phrases - was always among the supreme aims of life, and we tired many a moon with talk, and drank many a sun to rest with wine and words. You were always the truest of friends and the most sympathetic of companions. … Many friends, such as Will Rothenstein, the artist, Conder, who is a sort of Corot of the sunlight, Ernest Dowson, the poet, and others have come to see me for a few days: and next month I hope to see Ricketts and Shannon, who decorated all my books for me, dear Robbie Ross, and perhaps some others.",
+      "context": "Wilde to Carlos Blacker, 12 July 1897, Chalet Bourgeat, Berneval-sur-Mer (MS Koch, Yale). Seven weeks out of prison. The elision drops a description of the chalet and the beach. τερπνὸν κακόν is Euripides' 'delightful evil'; Wilde renders it himself as 'that sweet sin of phrases'. The roll-call at the end is a list of who actually came: Rothenstein, Dowson, Ricketts, Shannon and Ross are all on this map.",
+      "speaker": "Oscar Wilde",
+      "addressee": "Carlos Blacker",
+      "evidence_date": {
+        "y": 1897,
+        "m": 7,
+        "d": 12
+      },
+      "supports": "What Wilde thought a long friendship had been made of, and who came to Berneval.",
+      "verification": "verified-elision",
+      "how_verified": "pdf-image",
+      "provenance": "PDF p. 961.",
+      "verified_on": "2026-08-05",
+      "voice": "period"
+    },
+    {
+      "work": "letters-2000",
+      "locator": "p. 1085",
+      "locator_type": "page",
+      "quote": "C. Blacker has behaved like a hypocritical ass to me, and finally wrote me a letter accusing me of having written some attack on him that appeared in some Paris paper. I need hardly say I never read the paper, or saw the attack, and that I never write anonymous attacks on people anywhere. I was so angry, I wrote him a very strong letter. He has got into a mess here through being Reinach's 'homme de paille' in his Dreyfus-Syndicat campaign and I should not wonder if he were expelled. … The comic thing about him is the moral attitude he takes up. To be either a Puritan, a prig, or a preacher is a bad thing. To be all three at once reminds one of the worst excesses of the French Revolution.",
+      "context": "Wilde to Robert Ross, Monday, 27 June [1898], Nogent-sur-Marne (MS Clark). The elision drops the detail of Blacker's connection with Conybeare and a dismissed army officer. 'homme de paille' is a straw man or front. The quarrel is the Dreyfus affair (see J. Robert Maguire, 'Oscar Wilde and the Dreyfus Affair', Victorian Studies, Autumn 1997).",
+      "speaker": "Oscar Wilde",
+      "addressee": "Robert Ross",
+      "evidence_date": {
+        "y": 1898,
+        "m": 6,
+        "d": 27
+      },
+      "supports": "The break with Blacker, in Wilde's own words, and its entanglement with the Dreyfus affair.",
+      "verification": "verified-elision",
+      "how_verified": "pdf-image",
+      "provenance": "PDF p. 1131.",
+      "verified_on": "2026-08-06",
+      "voice": "period"
+    }
+  ],
+  "date_label": "London and the exile, 1880s-1898"
+}

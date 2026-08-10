@@ -122,6 +122,17 @@
     "cropped": true,
     "face_detected": true
   },
+  "gray": {
+    "file": "portraits/gray.jpg",
+    "source_file": "John2gray.jpg",
+    "qid": "Q730223",
+    "license": "Public domain",
+    "artist": "Unknown author Unknown author",
+    "page": "https://commons.wikimedia.org/wiki/File:John2gray.JPG",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/1b/John2gray.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "cropped": true,
+    "face_detected": true
+  },
   "hall": {
     "file": "portraits/hall.jpg",
     "source_file": "Radclyffe Hall, ca. 1930.jpg",

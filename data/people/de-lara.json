@@ -14,31 +14,5 @@
   "bio": "Composer (1858-1935), born Isidore Cohen, whose operas were produced at Monte Carlo under the patronage of the Princess of Monaco. Wilde inscribed a copy of his Poems to him in June 1887: 'To my friend Isidore de Lara, the poet of the musicians, in sincere admiration and affection.'",
   "bio_sources": ["letters-2000"],
   "bio_note": "No letter to him survives (no Index of Recipients entry); the record is a single General Index entry, 'De Lara, Isidore, 1136n'. The editors point to Osbert Sitwell's pen portrait in Noble Essences (1950).",
-  "context_engagements": [
-    {
-      "partner_name": "Oscar Wilde",
-      "period": "London, 1887",
-      "sources": [
-        {
-          "work": "letters-2000",
-          "locator": "p. 1136 n.",
-          "locator_type": "page",
-          "quote": "To my friend Isidore de Lara, the poet of the musicians, in sincere admiration and affection, Oscar Wilde, June '87.",
-          "context": "Wilde's inscription in a copy of his Poems (fifth edition, 1882), recorded by the editors in a note on de Lara's opera, produced at Monte Carlo under the patronage of Princess Alice of Monaco. Not a letter: no correspondence between them survives. The editors point to Osbert Sitwell's Noble Essences (1950) for a portrait.",
-          "speaker": "Oscar Wilde",
-          "addressee": "Isidore de Lara",
-          "evidence_date": {
-            "y": 1887,
-            "m": 6
-          },
-          "supports": "The whole of the record: one inscription, in Wilde's hand, calling him a friend.",
-          "verification": "verified-exact",
-          "how_verified": "pdf-image",
-          "provenance": "PDF p. 1182.",
-          "verified_on": "2026-08-06",
-          "voice": "period"
-        }
-      ]
-    }
-  ]
+  "sexuality_sources": []
 }

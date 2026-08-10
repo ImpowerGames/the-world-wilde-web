@@ -1,0 +1,47 @@
+{
+  "id": "atkins--burton",
+  "people": [
+    "atkins",
+    "burton"
+  ],
+  "certainty": "platonic",
+  "certainty_status": "proposed",
+  "start": {
+    "y": 1891
+  },
+  "end": {
+    "y": 1894
+  },
+  "date_label": "Osnaburgh Street, Tachbrook Street and elsewhere, 1891-1894",
+  "summary": "Fred Atkins testified in cross-examination at the 1895 trial that he had lived with Burton at Osnaburgh Street, Tachbrook Street, and other places in the early 1890s. The record is the cohabitation itself; nothing in it characterizes the relationship.",
+  "certainty_reasoning": "Documented cohabitation across several addresses, from Atkins's sworn testimony, with no evidence of attraction or romance in the record; classified platonic, upgradable if contrary evidence comes to light.",
+  "sources": [
+    {
+      "quote": "Have you ever lived with a man named Burton?—Yes, at Osnaburgh Street, Tachbrook Street, and other places.",
+      "context": "Fred Atkins cross-examined by Sir Edward Clarke, Regina v. Wilde and Taylor, 26 April 1895",
+      "work": "hyde-trials-1948",
+      "locator": "p. 207",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1895,
+        "m": 4
+      },
+      "supports": "Cohabitation with Burton across multiple addresses",
+      "verification": "verified-exact",
+      "how_verified": "archive-org",
+      "provenance": "IA in.ernet.dli.2015.499238, leaf 247 (printed p. 207)",
+      "verified_on": "2026-08-03",
+      "voice": "exchange",
+      "turns": [
+        {
+          "who": "Q.",
+          "text": "Have you ever lived with a man named Burton?"
+        },
+        {
+          "who": "A.",
+          "text": "Yes, at Osnaburgh Street, Tachbrook Street, and other places."
+        }
+      ]
+    }
+  ]
+}

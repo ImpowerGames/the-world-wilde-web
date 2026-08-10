@@ -337,9 +337,9 @@ main {
 }
 #web .edge.cert-uncorroborated .e-main {
   stroke-width: 1.8;
-  stroke-dasharray: 1.5 6;
+  stroke-dasharray: 1 6;
   stroke-linecap: round;
-  opacity: 0.9;
+  opacity: 0.65;
 }
 #web .edge.cert-attraction-expressed .e-main {
   stroke-width: 1.7;
@@ -450,7 +450,7 @@ main {
   display: block;
 }
 #web .node.leadonly {
-  opacity: 0.4;
+  opacity: 0.15;
 }
 #web .node.dimmed {
   opacity: 0.15;
@@ -737,7 +737,7 @@ main {
   background: var(--paper2);
   border: 2px solid var(--ink3);
 }
-.tl li.ctx .knot {
+.tl li.sx .knot {
   background: var(--paper2);
   border: 2px solid var(--edge);
 }
@@ -777,6 +777,20 @@ main {
   display: inline-block;
   vertical-align: 1px;
   margin-left: 7px;
+}
+.mini-plat {
+  display: inline-block;
+  margin-left: 7px;
+  font-family: var(--sans);
+  font-size: 8.5px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ink3);
+  border: 1px solid var(--rule2);
+  border-radius: 3px;
+  padding: 1px 5px;
+  white-space: nowrap;
+  user-select: none;
 }
 /* relationship card */
 .rhead {
@@ -1620,6 +1634,16 @@ mark.sfhit {
   white-space: nowrap;
   user-select: none;
 }
+.qwith a.noedge {
+  color: var(--ink2);
+  border-color: var(--rule);
+  text-decoration: none;
+  cursor: pointer;
+}
+.qwith a.noedge:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+}
 
 /* Contributing panel
    Scoped to .doc so the code, table and rule styles reach only the compiled CONTRIBUTING.md and
@@ -1688,16 +1712,15 @@ code {
 }
 
 #panel.doc table {
-  width: 100%; /* Tell the table to use full container width */
+  width: 100%;
   border-collapse: collapse;
   font-family: var(--sans);
-  font-size: 14px; /* Increased from 12px for better mobile reading */
+  font-size: 14px;
   line-height: 1.5; /* Essential for large blocks of text */
   margin: 16px 0;
 }
-/* Code tokens, coloured by tools/validate.py at build time.
-   Kept inside the page's warm range rather than a stock editor theme: the comments only have to
-   fall back from the data, not compete with it. */
+/* Code tokens, coloured by tools/validate.py at build time, kept inside the page's warm range
+   rather than a stock editor theme. */
 #panel.doc .t-com {
   color: var(--ink3);
   font-style: italic;
@@ -1719,9 +1742,7 @@ code {
   color: var(--ink);
 }
 
-/* Collapsible legend on small screens.
-   The header and legend together took 47% of a 375x812 viewport before the map appeared. The
-   legend is the bulk of it, and it is a key you consult now and then rather than a control you
+/* Collapsible legend on small screens: it is a key you consult now and then, not a control you
    keep open, so it folds away by default and the map gets the space. Desktop is untouched. */
 #btnLegend {
   display: none;
@@ -1739,9 +1760,8 @@ code {
 }
 
 @media (max-width: 900px) {
-  /* Four buttons do not fit on one 375px row, and without this the last one is simply cut off
-     the right edge. Wrapping is the only honest option: shrinking the type to fit would make
-     every button harder to hit on the device where hitting them is hardest. */
+  /* Four buttons do not fit on one 375px row; wrapping beats shrinking the type, which would
+     make every button harder to hit on the device where hitting them is hardest. */
   .hbtns {
     flex-wrap: wrap;
   }

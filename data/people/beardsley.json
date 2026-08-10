@@ -16,50 +16,5 @@
     "letters-2000"
   ],
   "bio_note": "The letter is 'APPARENTLY THE ONLY SURVIVING LETTER FROM WILDE TO BEARDSLEY', undatable within six months. The General Index records a cooling - 'his dislike of W' (printed 919 n.) at Dieppe in 1897.",
-  "context_engagements": [
-    {
-      "partner_name": "Oscar Wilde",
-      "period": "London, 1893",
-      "sources": [
-        {
-          "work": "letters-2000",
-          "locator": "p. 578",
-          "locator_type": "page",
-          "quote": "My dear Aubrey, I am charmed to find you are in town. Will you join Bobbie and me at dinner tonight at Kettner's (Church St, Soho) at 7.30. We are not going to dress. Ever yours",
-          "context": "Wilde to Aubrey Beardsley, [? December 1893], 10 & 11 St James's Place (MS Yale) - quoted whole, and the only surviving letter between them. 'Bobbie' is Robert Ross, who is on this map: the dinner is the three of them. The editors record that the word 'Aubrey' has been erased from the manuscript but remains legible.",
-          "speaker": "Oscar Wilde",
-          "addressee": "Aubrey Beardsley",
-          "evidence_date": {
-            "y": 1893,
-            "m": 12
-          },
-          "supports": "The only surviving letter, and that Wilde, Ross and Beardsley dined together.",
-          "verification": "verified-exact",
-          "how_verified": "pdf-image",
-          "provenance": "PDF p. 630.",
-          "verified_on": "2026-08-06",
-          "voice": "period"
-        },
-        {
-          "work": "letters-2000",
-          "locator": "p. 578 n. 3",
-          "locator_type": "page",
-          "quote": "March '93. For Aubrey: for the only artist who, besides myself, knows what the dance of the seven veils is, and can see that invisible dance.",
-          "context": "Wilde's inscription in a copy of the original French Salomé (1893), recorded by the editors, which survives in the Sterling Library at the University of London. Written months before Beardsley illustrated the English edition. It is the warmest thing Wilde is recorded as writing to him, and it is not a letter - which is why the correspondence alone understates the relation.",
-          "speaker": "Oscar Wilde",
-          "addressee": "Aubrey Beardsley",
-          "evidence_date": {
-            "y": 1893,
-            "m": 3
-          },
-          "supports": "What Wilde thought Beardsley alone could see.",
-          "verification": "verified-exact",
-          "how_verified": "pdf-image",
-          "provenance": "PDF p. 630.",
-          "verified_on": "2026-08-06",
-          "voice": "period"
-        }
-      ]
-    }
-  ]
+  "sexuality_sources": []
 }

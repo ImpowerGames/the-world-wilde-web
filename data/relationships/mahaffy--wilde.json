@@ -1,0 +1,62 @@
+{
+  "id": "mahaffy--wilde",
+  "people": [
+    "mahaffy",
+    "wilde"
+  ],
+  "certainty": "platonic",
+  "certainty_status": "proposed",
+  "start": {
+    "y": 1876,
+    "m": 8,
+    "d": 6
+  },
+  "end": {
+    "y": 1893,
+    "m": 4
+  },
+  "summary": "Wilde's old tutor J. P. Mahaffy, thanked in 1893 for the teaching that the later editions of the letter removed.",
+  "certainty_reasoning": "The record documents a friendship or acquaintance with no evidence of attraction or romance; classified platonic, upgradable if contrary evidence comes to light.",
+  "sources": [
+    {
+      "work": "letters-2000",
+      "locator": "p. 28",
+      "locator_type": "page",
+      "quote": "I am with that dear Mahaffy every day. He has a charming house by the sea here, on a place called the Hill of Howth … the only place near town with fields of yellow gorse, and stretches of wild myrtle, red heather and ferns. … Mahaffy's book of Travels in Greece will soon be out. I have been correcting his proofs and like it immensely.",
+      "context": "Wilde to William Ward, Sunday [6 August 1876] (MS Magdalen), aged twenty-one - the same letter as the Todd passage. The elision drops a party to the North of Ireland Wilde missed. The editors' note on this page is the reason the node exists: Mahaffy thanked 'my old pupil Mr Oscar Wilde of Magdalen College, Oxford' in the preface to Social Life in Greece for improvements 'all through the book', and 'Significantly, in later editions of Social Life both the discussion of Greek homosexuality and the reference to Wilde were dropped.'",
+      "speaker": "Oscar Wilde",
+      "addressee": "William Ward",
+      "evidence_date": {
+        "y": 1876,
+        "m": 8,
+        "d": 6
+      },
+      "supports": "The closeness at the start, against which the deletion has to be read.",
+      "verification": "verified-elision",
+      "how_verified": "pdf-image",
+      "provenance": "PDF pp. 53-54.",
+      "verified_on": "2026-08-05",
+      "voice": "period"
+    },
+    {
+      "work": "letters-2000",
+      "locator": "pp. 561-562",
+      "locator_type": "page",
+      "quote": "My dear Mahaffy, I am so pleased you like the play, and thank you for your charming letter, all the more flattering to me as it comes not merely from a man of high and distinguished culture, but from one to whom I owe so much personally, from my first and my best teacher, from the scholar who showed me how to love Greek things. Let me sign myself, in affection and admiration, your old pupil and your old friend",
+      "context": "Wilde to J. P. Mahaffy, [? April 1893], Haymarket Theatre (MS Dublin) - quoted whole. The play is A Woman of No Importance. Read it against the deletion recorded at printed 28: the thing Wilde thanks him for here, teaching him how to love Greek things, is the thing later editions of Mahaffy's book stopped mentioning, along with Wilde's name. Wilde had two years left before the trials.",
+      "speaker": "Oscar Wilde",
+      "addressee": "J. P. Mahaffy",
+      "evidence_date": {
+        "y": 1893,
+        "m": 4
+      },
+      "supports": "What Wilde said he owed him, in the words the later editions removed.",
+      "verification": "verified-exact",
+      "how_verified": "pdf-image",
+      "provenance": "PDF pp. 613-614.",
+      "verified_on": "2026-08-05",
+      "voice": "period"
+    }
+  ],
+  "date_label": "Dublin, Oxford and after, 1874-1893"
+}

@@ -7,78 +7,7 @@
     "y": 1951
   },
   "gender": "m",
-  "context_engagements": [
-    {
-      "partner_name": "Oscar Wilde",
-      "period": "Paris, 1891-1898",
-      "note": "Recorded from Wilde's side only.",
-      "sources": [
-        {
-          "work": "letters-2000",
-          "locator": "p. 496",
-          "locator_type": "page",
-          "quote": "Cher Monsieur Louÿs, J'accepte avec le plus vif plaisir la gracieuse et charmante invitation que vous et M. Gide ont eu la bonté de m'adresser.",
-          "context": "Wilde to Pierre Louÿs, 28 November 1891 - the day after Wilde and Gide first met, and the invitation is from the two of them jointly. Quoted here for the editors' note on the facing column, which is the substance: Gide wrote to Paul Valéry about Wilde that same week; 'according to his letters he saw Wilde almost every day till 15 December, but the pages in his journal covering those days have been torn out.' Who tore them out, and when, is not stated.",
-          "speaker": "Oscar Wilde",
-          "addressee": "Pierre Louÿs",
-          "evidence_date": {
-            "y": 1891,
-            "m": 11,
-            "d": 28
-          },
-          "supports": "The first day of it, and the three weeks that were removed from the record.",
-          "verification": "verified-exact",
-          "how_verified": "pdf-image",
-          "provenance": "PDF p. 516.",
-          "verified_on": "2026-08-05",
-          "voice": "period",
-          "lang": "fr",
-          "translation": "Dear Monsieur Louÿs, I accept with the keenest pleasure the gracious and charming invitation which you and M. Gide have been kind enough to address to me."
-        },
-        {
-          "work": "letters-2000",
-          "locator": "p. 1108",
-          "locator_type": "page",
-          "quote": "André Gide, one of my old friends here, has written an astonishing play on Saul, whose madness he ascribes to his hopeless love for David, and his wild jealousy of Jonathan: it is to be played at the Théâtre Antoine, but the parts of the lads are to be filled by women, which is, artistically, to be regretted.",
-          "context": "Wilde in Paris, December 1898, describing Gide's Saül - written in 1898 and not produced until 1922. Seven years after they met, Gide is 'one of my old friends here'. Wilde reads the play's subject without a flicker of euphemism - a king's madness ascribed to hopeless love for a man - and his only complaint is that boys' parts are going to actresses.",
-          "speaker": "Oscar Wilde",
-          "addressee": null,
-          "evidence_date": {
-            "y": 1898,
-            "m": 12
-          },
-          "supports": "That the friendship lasted through the trials and the exile, and how plainly Wilde could describe the play's subject in 1898.",
-          "verification": "verified-elision",
-          "how_verified": "pdf-image",
-          "provenance": "PDF p. 1154.",
-          "verified_on": "2026-08-05",
-          "voice": "period"
-        },
-        {
-          "work": "letters-2000",
-          "locator": "p. 1111",
-          "locator_type": "page",
-          "quote": "Mon cher André, Je vous remercie beaucoup. Un de mes amis, le rédacteur du Saturday Review, à Londres, vient d'arriver à Paris, et me prend à Cannes avec lui pour un mois. Peut-être là je retrouverai mon âme. J'espère vous voir à mon retour. Tout à vous",
-          "context": "Wilde to André Gide, [postmark 14 December 1898], Taverne F. Pousset, Paris (MS Doucet) - quoted whole, and written the same day as the letter to Housman on the same page, which reports the same journey in English. To Housman the hope is 'perhaps these may tune my soul to some note of beauty'; to Gide it is 'perhaps there I shall find my soul again', which is a harder thing to say.",
-          "speaker": "Oscar Wilde",
-          "addressee": "André Gide",
-          "evidence_date": {
-            "y": 1898,
-            "m": 12,
-            "d": 14
-          },
-          "supports": "The address at 'mon cher André', and what Wilde told him he had lost.",
-          "verification": "verified-exact",
-          "how_verified": "pdf-image",
-          "provenance": "PDF p. 1157.",
-          "verified_on": "2026-08-05",
-          "voice": "period",
-          "lang": "fr",
-          "translation": "My dear André, Thank you very much. One of my friends, the editor of the Saturday Review in London, has just arrived in Paris, and is taking me to Cannes with him for a month. Perhaps there I shall find my soul again. I hope to see you on my return. All yours"
-        }
-      ]
-    }
-  ],
+  "sexuality_sources": [],
   "bio_sources": [
     "letters-2000"
   ],

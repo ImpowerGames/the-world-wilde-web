@@ -1,0 +1,44 @@
+{
+  "id": "osullivan--wilde",
+  "people": [
+    "osullivan",
+    "wilde"
+  ],
+  "certainty": "platonic",
+  "certainty_status": "proposed",
+  "start": {
+    "y": 1897,
+    "m": 10,
+    "d": 19
+  },
+  "end": {
+    "y": 1897,
+    "m": 10,
+    "d": 19
+  },
+  "summary": "Wilde thanking Vincent O'Sullivan for defending him in public in 1897, when few would.",
+  "certainty_reasoning": "The record documents a friendship or acquaintance with no evidence of attraction or romance; classified platonic, upgradable if contrary evidence comes to light.",
+  "sources": [
+    {
+      "work": "letters-2000",
+      "locator": "p. 963",
+      "locator_type": "page",
+      "quote": "Dear Vincent O'Sullivan, I am delighted to hear from Smithers that there is really some chance of your being at Naples this winter, and look forward with the greatest pleasure, I need hardly say, to seeing you again. I have also heard incidentally of something that happened at the Authors' Club last week: and I cannot express to you adequately how deeply touched I was by the position you took up with regard to me, and by the dignity and, …",
+      "context": "Wilde to Vincent o'Sullivan, 19 October 1897, Villa Giudice, Posilippo (MS Bodley). The letter breaks where the printed page does. The same folio carries Wilde's rebuke to Sherard for the attack o'Sullivan had stood against.",
+      "speaker": "Oscar Wilde",
+      "addressee": "Vincent O'Sullivan",
+      "evidence_date": {
+        "y": 1897,
+        "m": 10,
+        "d": 19
+      },
+      "supports": "Wilde thanking a man for defending him in public in 1897, when few would.",
+      "verification": "verified-elision",
+      "how_verified": "pdf-image",
+      "provenance": "PDF p. 1011.",
+      "verified_on": "2026-08-06",
+      "voice": "period"
+    }
+  ],
+  "date_label": "Naples and Paris, 1897-1900"
+}

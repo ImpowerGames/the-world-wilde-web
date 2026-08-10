@@ -1,0 +1,53 @@
+{
+  "id": "ives--tilly-hayes",
+  "people": [
+    "ives",
+    "tilly-hayes"
+  ],
+  "certainty": "self-reported",
+  "certainty_status": "proposed",
+  "start": {
+    "y": 1910
+  },
+  "end": {
+    "y": 1940
+  },
+  "date_label": "1910s to 1940s",
+  "summary": "Matilda 'Tilly' Hayes, the woman with whom Ives had a long-running relationship from the 1910s to the 1940s and discussed having a child - the 'certain girl' of his 1920 diary. She stood third in line to inherit the Adelaide Road house under his 1939 will, after Bloodworth and Saunders and ahead of his kin.",
+  "certainty_reasoning": "Ives's own diary words survive and characterize the connection: 'she attracted me physically (not the romantic love; no girl can win that from me)'. Physical attraction with romantic love explicitly withheld; Cook's 'affair/friendship' compound is deliberately unresolved and is preserved rather than collapsed. The identification of Hayes with the diary's 'certain girl' rests on Cook's endnote 61, which credits Brian Lewis by personal communication.",
+  "sources": [
+    {
+      "quote": "This was Matilda (Tilly) Hayes with whom Ives had a long running affair/friendship from the 1910s to the 1940s.",
+      "context": "Cook, identifying the 'certain girl' with whom Ives had discussed having children in a 1920 diary entry",
+      "work": "cook-2014",
+      "locator": "p. 105",
+      "locator_type": "page",
+      "evidence_date": null,
+      "supports": "A named, decades-long relationship with a woman, in Cook's own deliberately unresolved formulation.",
+      "verification": "verified-exact",
+      "how_verified": "pdf-text",
+      "provenance": "PDF p. 116.",
+      "verified_on": "2026-08-03",
+      "voice": "modern"
+    },
+    {
+      "quote": "she attracted me physically (not the romantic love; no girl can win that from me) [.] she said she wanted a baby but only under married conditions.",
+      "context": "Ives's diary (vol. 76, 14 September 1920, p. 20, per Cook's endnote 62), quoted by Cook as a displayed block quotation; the ellipsis is Cook's own",
+      "work": "cook-2014",
+      "locator": "p. 105",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1920,
+        "m": 9,
+        "d": 14
+      },
+      "supports": "Ives's own account of the relationship: physical attraction, romantic love explicitly withheld, marriage refused.",
+      "verification": "verified-elision",
+      "how_verified": "pdf-text",
+      "provenance": "PDF p. 116.",
+      "verified_on": "2026-08-03",
+      "voice": "period",
+      "speaker": "George Ives, diary"
+    }
+  ]
+}

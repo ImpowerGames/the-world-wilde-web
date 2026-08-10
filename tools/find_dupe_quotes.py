@@ -1,9 +1,9 @@
 """Find quotes that render TWICE on the same person's panel.
 
 A person's panel aggregates three streams:
-  1. quotes on their own context_engagements
+  1. quotes on their own sexuality_sources
   2. quotes on every relationship they are a party to
-  3. quotes on OTHER people's context_engagements naming them as partner (the two-ended rendering)
+  3. quotes on OTHER people's sexuality_sources naming them as subject (the two-ended rendering)
 
 If the same excerpt reaches one panel by two routes it is printed twice.
 
@@ -38,13 +38,13 @@ def main():
     panel = defaultdict(list)
 
     for p in C["people"]:
-        for ce in p.get("context_engagements") or []:
-            other = name_to_id.get(ce.get("partner_name") or "")
+        for ce in p.get("sexuality_sources") or []:
+            other = name_to_id.get(ce.get("subject") or "")
             for q in ce.get("sources") or []:
                 key = (q.get("work"), q.get("locator"), norm(q.get("quote")))
-                panel[p["id"]].append((key, f"own context_engagement (partner={ce.get('partner_name')})"))
+                panel[p["id"]].append((key, f"own sexuality_source (subject={ce.get('subject')})"))
                 if other and other != p["id"]:
-                    panel[other].append((key, f"context_engagement on {p['id']}"))
+                    panel[other].append((key, f"sexuality_source on {p['id']}"))
 
     for r in C["relationships"]:
         for q in r.get("sources") or []:

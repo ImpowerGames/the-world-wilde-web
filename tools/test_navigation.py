@@ -89,7 +89,7 @@ with sync_playwright() as pw:
           pg.evaluate("()=>location.hash"))
     pg.evaluate("()=>{location.hash='';}"); pg.wait_for_timeout(400)
 
-    # ---- wheel zoom keeps the pane aspect (the bug: it rebuilt the box from W:H)
+    # ---- wheel zoom keeps the pane aspect
     pane = pg.evaluate("""()=>{const r=document.getElementById('web').getBoundingClientRect();
         return r.width/r.height;}""")
     pg.mouse.move(500, 600); pg.mouse.wheel(0, -240); pg.wait_for_timeout(200)
@@ -146,9 +146,8 @@ with sync_playwright() as pw:
     check("left-drag on empty ground still pans", abs(vb()[0] - before_vb[0]) > 10,
           f"vb.x {before_vb[0]:.0f} -> {vb()[0]:.0f}")
 
-    # Moving somebody is a HELD gesture now. A press that drags straight away is a pan - which is the
-    # point of the change, since on a web this dense you are usually starting on somebody - and only
-    # a press that survives the hold picks the person up.
+    # Moving somebody is a HELD gesture: a press that drags straight away is a pan, and only a
+    # press that survives the hold picks the person up.
     def at(nid):
         return pg.evaluate("""id=>{const v=document.getElementById('web').getAttribute('viewBox').split(' ').map(Number);
             const r=document.getElementById('web').getBoundingClientRect();

@@ -15,60 +15,7 @@
   "bio": "Translator and editor who published the first English translation of Ibsen's Brand (1891) under the pseudonym William Wilson, later ran the Carfax picture gallery with Robert Ross, and was joint editor of the Burlington Magazine, 1911-19. The editors of the Complete Letters describe him as a 'Close friend of Robert Ross'; the two shared lodgings at 24 Hornton Street, Kensington, and both were Roman Catholics - Wilde in 1897 teased 'you and More, especially More' as a unit for treating him 'as a Dissenter'. It was to Adey that Ross addressed, in installments, his narrative of Wilde's final illness, death and funeral (14 December 1900), and a rosary Adey had given Ross was placed around Wilde's neck at the laying-out.",
   "bio_sources": [],
   "bio_note": "Facts from the Complete Letters (2000) editorial notes: p. 577 n. 2 (dates, Brand translation, Carfax partnership; later years per Sassoon, Siegfried's Journey, 1945); p. 781 n. 2 (shared lodgings at 24 Hornton Street); p. 866 n. 1 ('Ross and Adey were both Roman Catholics'). Death-narrative addressee and rosary from the Epilogue, pp. 1219, 1221.",
-  "context_engagements": [
-    {
-      "partner_name": "Oscar Wilde",
-      "period": "Rome, April 1900",
-      "sources": [
-        {
-          "work": "letters-2000",
-          "locator": "p. 1184",
-          "locator_type": "page",
-          "quote": "My dear More, I hear with great regret from Robbie of the loss you have sustained. You were so kind to my mother, so sympathetic and gentle in your delicate attentions to her up to the last, that I know you will let me express my sorrow at the death of your mother: it seems to me that I have almost a right to do so: for friends have all things in common. I wish you could come out here: one is healed at Rome of every trouble: and I should like to go with you to the Vatican, where I hope you will some day walk gravely in mediaeval dress, with the gold chain of office, and guide pilgrims to the feet of the Pope.",
-          "context": "Wilde to More Adey, [postmark 26 April 1900], c/o Cook and Son, Rome (MS Clark). Adey's mother had died on 9 April; Wilde's own had died in February 1896 while he was in prison, and Adey had attended her. After two years of blaming him in the letters of 1897 ('incapable of managing affairs of tomtit in a hedge'), this is Wilde writing with unqualified tenderness.",
-          "speaker": "Oscar Wilde",
-          "addressee": "More Adey",
-          "evidence_date": {
-            "y": 1900,
-            "m": 4,
-            "d": 26
-          },
-          "supports": "That the quarrel ended, and what Adey had done for Wilde's mother.",
-          "verification": "verified-elision",
-          "how_verified": "pdf-image",
-          "provenance": "PDF p. 1230.",
-          "verified_on": "2026-08-06",
-          "voice": "period"
-        }
-      ]
-    },
-    {
-      "partner_name": "Oscar Wilde",
-      "period": "Paris, February 1898",
-      "sources": [
-        {
-          "work": "letters-2000",
-          "locator": "pp. 1023-1024",
-          "locator_type": "page",
-          "quote": "My dear More, I see your beautiful handwriting on the cover of the Echo, which reached me this morning. Many sincere thanks. It is a capital review, but, of course, I want the literary papers to criticise it. It is not altogether a pamphlet on prison-reform. I wonder what that good kind fellow Major Nelson thinks of it. I sent him a copy. I wish you could come over here and see me, but I suppose that is difficult. The intellectual atmosphere of Paris has done me good, and I now have ideas, not merely passions. Naples was fatal. … Are you writing? Are you in love? Are you happy?",
-          "context": "Wilde to More Adey, Monday [21 February 1898], Hôtel de Nice (text from a copy in Stuart Mason's hand, Clark). The Echo review of The Ballad had appeared on 19 February; Major Nelson was the governor of Reading. 'Naples was fatal' is Wilde's own verdict on the Posillipo months with Douglas, given to the friend he had spent 1897 blaming for everything.",
-          "speaker": "Oscar Wilde",
-          "addressee": "More Adey",
-          "evidence_date": {
-            "y": 1898,
-            "m": 2,
-            "d": 21
-          },
-          "supports": "Wilde's verdict on Naples; the closing questions are the warmest thing in the letter.",
-          "verification": "verified-elision",
-          "how_verified": "pdf-image",
-          "provenance": "PDF pp. 1069-1070.",
-          "verified_on": "2026-08-06",
-          "voice": "period"
-        }
-      ]
-    }
-  ],
+  "sexuality_sources": [],
   "gender": "m",
   "wikipedia": "https://en.wikipedia.org/wiki/More_Adey"
 }

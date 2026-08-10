@@ -18,32 +18,5 @@
     "letters-2000"
   ],
   "bio_note": "The General Index entry reads 'Retté, Adolphe, 500, 506n', and 506n carries a page of his own first-hand account of working on Salomé, plus Merrill corroborating it.",
-  "context_engagements": [
-    {
-      "partner_name": "Oscar Wilde",
-      "period": "Paris, 1891",
-      "sources": [
-        {
-          "work": "letters-2000",
-          "locator": "p. 506 n.",
-          "locator_type": "page",
-          "quote": "les anglicismes trop formels … J'indiquai quelques corrections en marge du drame. Je fis supprimer à Wilde une trop longue énumeration de pierreries mise dans la bouche d'Hérode. De son côté, Merrill lui proposa quelques retouches. Puis Salomé passa entre les mains de Pierre Louÿs qui modifia également quelques phrases. C'est ce texte qui a été imprimé.",
-          "lang": "fr",
-          "translation": "the over-formal anglicisms … I marked some corrections in the margin of the drama. I made Wilde cut a too-long enumeration of jewels put into Herod's mouth. For his part, Merrill proposed some retouches. Then Salomé passed into the hands of Pierre Louÿs, who likewise altered some phrases. It is that text which was printed.",
-          "context": "Adolphe Retté, Le Symbolisme, Anecdotes et Souvenirs (1903), quoted by the editors in their note on the manuscripts of Salomé. His own account, thirteen years after the fact. It names the whole chain of hands the play passed through - Retté, then [[merrill]], then [[louys]] - and all three are now on this map. The editors add that three manuscripts survive, all in Wilde's hand and all in French.",
-          "speaker": "Adolphe Retté",
-          "addressee": null,
-          "evidence_date": {
-            "y": 1903
-          },
-          "supports": "What Retté actually did to Salomé, in his own words.",
-          "verification": "verified-elision",
-          "how_verified": "pdf-image",
-          "provenance": "PDF p. 526.",
-          "verified_on": "2026-08-06",
-          "voice": "period"
-        }
-      ]
-    }
-  ]
+  "sexuality_sources": []
 }

@@ -7,34 +7,7 @@
   "bio_sources": [
     "letters-2000"
   ],
-  "context_engagements": [
-    {
-      "partner_name": "Oscar Wilde",
-      "period": "London, 1887-1892",
-      "sources": [
-        {
-          "work": "letters-2000",
-          "locator": "p. 455",
-          "locator_type": "page",
-          "quote": "My dear Arthur, I was charmed to get your letter, and it was delightful of you to remember my birthday. Though we see each other so rarely, I always think of you as one of my real friends, as I hope you will always think of me. Ricketts has just done for me a lovely cover for Dorian Gray - grey pastel-paper with a white back and tiny gold marigolds. When it appears I will send you a copy. How happy you must be in your little house; there are only two things in the world of any importance, Love and Art; you have both; they must never leave you. Let me send my kindest regards to your wife; I like to think that the wives of my friends are my friends also; and believe me, sincerely yours",
-          "context": "Wilde to Arthur Fish, [circa 16 October 1890] - quoted whole; the editors take the text from Cassell's Weekly of 2 May 1923. Written on or about Wilde's birthday, thanking him for remembering. The Ricketts is Charles Ricketts and the cover is the 1891 Dorian Gray.",
-          "speaker": "Oscar Wilde",
-          "addressee": "Arthur Fish",
-          "evidence_date": {
-            "y": 1890,
-            "m": 10,
-            "d": 16
-          },
-          "supports": "Wilde on his own birthday naming someone one of his real friends, and what he thought the only two important things were.",
-          "verification": "verified-exact",
-          "how_verified": "pdf-image",
-          "provenance": "PDF p. 477.",
-          "verified_on": "2026-08-06",
-          "voice": "period"
-        }
-      ]
-    }
-  ],
+  "sexuality_sources": [],
   "name": "Arthur Fish",
   "sort_name": "Fish, Arthur",
   "group": "aesthete",

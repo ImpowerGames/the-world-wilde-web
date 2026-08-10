@@ -1,0 +1,42 @@
+{
+  "id": "dupoirier--wilde",
+  "people": [
+    "dupoirier",
+    "wilde"
+  ],
+  "certainty": "platonic",
+  "certainty_status": "proposed",
+  "start": {
+    "y": 1899
+  },
+  "end": {
+    "y": 1900
+  },
+  "date_label": "Paris, 1899-1900",
+  "summary": "Wilde's hotel keeper, who held his apartment and his things through 1899 and 1900 - the ordinary arrangement that kept Wilde housed in Paris, signed 'Sebastian Melmoth'.",
+  "certainty_reasoning": "The record documents a friendship or acquaintance with no evidence of attraction or romance; classified platonic, upgradable if contrary evidence comes to light.",
+  "sources": [
+    {
+      "work": "letters-2000",
+      "locator": "p. 1181",
+      "locator_type": "page",
+      "quote": "Mon cher Patron, Je ne retournerai pas avant le premier juin, et par conséquence vous pouvez louer mon appartement: c'est inutile de le garder, et sans doute vous aurez beaucoup de touristes au mois de mai pour l'Exposition. Je vous prie d'avoir la bonté de conserver toutes mes choses pour moi, comme vous l'avez fait l'année passée. J'espère que Madame et la petite se portent bien. Je vous remercie pour mes lettres. Recevez mes compliments.",
+      "lang": "fr",
+      "translation": "My dear Patron, I shall not return before the first of June, and consequently you may let my apartment: it is useless to keep it, and no doubt you will have a great many tourists in May for the Exhibition. I beg you to have the goodness to keep all my things for me, as you did last year. I hope Madame and the little one are well. I thank you for my letters. Receive my compliments.",
+      "context": "Wilde to Jean Dupoirier, [postmark 18 April 1900], chez Cook et Fils, Rome - quoted whole, signed sebastian melmoth rather than with his own name. The Exhibition is the Paris Exposition Universelle of 1900. He asks after Dupoirier's wife and small child; Wilde would be dead in the Hôtel d'Alsace seven months later.",
+      "speaker": "Oscar Wilde",
+      "addressee": "Jean Dupoirier",
+      "evidence_date": {
+        "y": 1900,
+        "m": 4,
+        "d": 18
+      },
+      "supports": "The ordinary arrangement that kept Wilde housed, and that his things were kept for him a second year running.",
+      "verification": "verified-exact",
+      "how_verified": "pdf-image",
+      "provenance": "PDF p. 1227.",
+      "verified_on": "2026-08-06",
+      "voice": "period"
+    }
+  ]
+}

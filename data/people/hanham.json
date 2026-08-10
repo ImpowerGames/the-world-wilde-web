@@ -9,33 +9,7 @@
   "bio_sources": [
     "letters-2000"
   ],
-  "context_engagements": [
-    {
-      "partner_name": "Harold Boulton",
-      "period": "Oxford, April 1878",
-      "sources": [
-        {
-          "work": "letters-2000",
-          "locator": "p. 66",
-          "locator_type": "page",
-          "quote": "Will you come and see me tonight at nine o'clock or any time when you can escape from 'Sir John' - whom by the bye I believe you like much better than yours truly",
-          "context": "Wilde to Harold Boulton, [? April 1878], Magdalen College (MS Yale). 'much better' is italicised in the printed text. The editors identify 'Sir John' as most probably Sir John Alexander Hanham, ninth Baronet, Magdalen undergraduate 1875-8. He is the rival in the only letter that carries `boulton--wilde`.",
-          "speaker": "Oscar Wilde",
-          "addressee": "Harold Boulton",
-          "evidence_date": {
-            "y": 1878,
-            "m": 4
-          },
-          "supports": "That Boulton had a preferred companion, and who the editors think he was.",
-          "verification": "verified-elision",
-          "how_verified": "pdf-image",
-          "provenance": "PDF p. 93.",
-          "verified_on": "2026-08-05",
-          "voice": "period"
-        }
-      ]
-    }
-  ],
+  "sexuality_sources": [],
   "name": "Sir John Alexander Hanham",
   "sort_name": "Hanham, Sir John Alexander",
   "group": "aesthete",

@@ -12,52 +12,5 @@
     "letters-2000"
   ],
   "bio_note": "Seven letters, 1880s-1891. Dates not recorded.",
-  "context_engagements": [
-    {
-      "partner_name": "Oscar Wilde",
-      "period": "London, 1880s-1891",
-      "sources": [
-        {
-          "work": "letters-2000",
-          "locator": "p. 463",
-          "locator_type": "page",
-          "quote": "My dear Arthur, The new last line 'Paradise' is charming. 'Vice' does not do as it is a word tainted in its signification with moral censure - vitium: what is faulty. The evening was charming. I enjoyed it all. Ever yours",
-          "context": "Wilde to Arthur Clifton, [postmark 28 January 1891], [16 Tite Street] (MS Clark) - quoted whole. Wilde is editing a poem of Clifton's and reaches for the Latin: vitium means a flaw or defect, and his argument is that the English word has been contaminated by moralising and no longer means what its root means.",
-          "speaker": "Oscar Wilde",
-          "addressee": "Arthur Clifton",
-          "evidence_date": {
-            "y": 1891,
-            "m": 1,
-            "d": 28
-          },
-          "supports": "Wilde refusing the vocabulary of moral censure, in private, four years before it was used on him.",
-          "verification": "verified-exact",
-          "how_verified": "pdf-image",
-          "provenance": "PDF p. 483.",
-          "verified_on": "2026-08-05",
-          "voice": "period"
-        },
-        {
-          "work": "letters-2000",
-          "locator": "p. 410",
-          "locator_type": "page",
-          "quote": "Dear Arthur, Do you really wish to buy the necklace? £6 is a heap of money. Ever yours … I shall call at the Club (N. L.) tonight about 10.30 if I can. But write at once.",
-          "context": "Wilde to Arthur Clifton, [postmark 8 August 1889], 16 Tite Street (MS Private) - quoted whole including the postscript; the ellipsis marks only the signature falling mid-letter. The club is the National Liberal. Trivial in content and kept for the register: Wilde calling in at half past ten at night and wanting an answer the same day.",
-          "speaker": "Oscar Wilde",
-          "addressee": "Arthur Clifton",
-          "evidence_date": {
-            "y": 1889,
-            "m": 8,
-            "d": 8
-          },
-          "supports": "The everyday footing of the friendship.",
-          "verification": "verified-elision",
-          "how_verified": "pdf-image",
-          "provenance": "PDF p. 432.",
-          "verified_on": "2026-08-05",
-          "voice": "period"
-        }
-      ]
-    }
-  ]
+  "sexuality_sources": []
 }

@@ -1,0 +1,44 @@
+{
+  "id": "pater--wilde",
+  "people": [
+    "pater",
+    "wilde"
+  ],
+  "certainty": "platonic",
+  "certainty_status": "proposed",
+  "start": {
+    "y": 1877,
+    "m": 7,
+    "d": 14
+  },
+  "end": {
+    "y": 1877,
+    "m": 7,
+    "d": 14
+  },
+  "summary": "Walter Pater's first letter to Wilde, July 1877 — the only direct contact recorded here, kept because of what it was worth to Wilde.",
+  "certainty_reasoning": "The record documents a friendship or acquaintance with no evidence of attraction or romance; classified platonic, upgradable if contrary evidence comes to light.",
+  "sources": [
+    {
+      "work": "letters-2000",
+      "locator": "p. 59",
+      "locator_type": "page",
+      "quote": "Dear Mr Wilde, Accept my best thanks for the magazine and your letter. Your excellent article on the Grosvenor Gallery I read with very great pleasure: it makes me much wish to make your acquaintance, and I hope you will give me an early call on your return to Oxford. I should much like to talk over some of the points with you, though on the whole I think your criticisms very just, and they are certainly very pleasantly expressed. The article shows that you possess some beautiful, and, for your age, quite exceptionally cultivated tastes: and a considerable knowledge too of many beautiful things. I hope you will write a great deal in time to come. Very truly yours",
+      "context": "Walter Pater to Oscar Wilde, headed 'Bradmore Road. Oxford. July 14' [1877] (MS Texas), quoted whole. It survives inside a letter of Wilde's to William Ward, who had been sent the original and told to return it by registered post; Wilde then thought better of trusting it to the postman and copied it out instead. Wilde's transcription has three small errors, which the editors list. His own comment follows it: 'You won't think me snobbish for sending you this? After all, it is something to be honestly proud of.' Wilde was twenty-two; the article was his first.",
+      "speaker": "Walter Pater",
+      "addressee": "Oscar Wilde",
+      "evidence_date": {
+        "y": 1877,
+        "m": 7,
+        "d": 14
+      },
+      "supports": "The first contact, in Pater's own hand, and what it was worth to Wilde.",
+      "verification": "verified-exact",
+      "how_verified": "pdf-image",
+      "provenance": "PDF p. 86.",
+      "verified_on": "2026-08-05",
+      "voice": "period"
+    }
+  ],
+  "date_label": "Oxford, from 1877"
+}

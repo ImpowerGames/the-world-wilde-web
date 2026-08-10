@@ -1,0 +1,43 @@
+{
+  "id": "bloxam--wilde",
+  "people": [
+    "bloxam",
+    "wilde"
+  ],
+  "certainty": "attraction-expressed",
+  "certainty_status": "proposed",
+  "start": {
+    "y": 1894,
+    "m": 12
+  },
+  "end": {
+    "y": 1894,
+    "m": 12
+  },
+  "date_label": "Oxford and London, 1894",
+  "summary": "Wilde's only recorded description of Bloxam, the anonymous author of 'The Priest and the Acolyte' - the Chameleon story used against him at his trial: 'He is an undergraduate of strange beauty.'",
+  "certainty_reasoning": "Admiration noted in passing - 'an undergraduate of strange beauty', Wilde's only recorded notice of Bloxam - in a letter to Ada Leverson about the story; classified attraction-expressed, outcome unknown.",
+  "direction": "wilde",
+  "outcome": "unknown",
+  "sources": [
+    {
+      "work": "letters-2000",
+      "locator": "p. 625",
+      "locator_type": "page",
+      "quote": "Dear Sphinx, Your aphorisms must appear in the second number of the Chameleon: they are exquisite. 'The Priest and the Acolyte' is not by Dorian: though you were right in discerning by internal evidence that the author has a profile. He is an undergraduate of strange beauty. The story is, to my ears, too direct: there is no nuance: it profanes a little by revelation: God and other artists are always a little obscure. Still, it has interesting qualities, and is at moments poisonous: which is something. Ever yours",
+      "context": "Wilde to Ada Leverson, [early December 1894], Albemarle Club (MS Clark) - quoted whole. The editors identify the anonymous author as John Francis Bloxam, editor of The Chameleon and an undergraduate of Exeter College, and record that the story was attributed to Wilde and that 'much play was made' with it at his trial - along with Wilde's own aphorisms in the same issue and Douglas's poem 'Two Loves'. 'Dorian' here is John Gray, who is on this map.",
+      "speaker": "Oscar Wilde",
+      "addressee": "Ada Leverson",
+      "evidence_date": {
+        "y": 1894,
+        "m": 12
+      },
+      "supports": "Wilde's only recorded description of him - and his verdict on the story that would be used against him.",
+      "verification": "verified-exact",
+      "how_verified": "pdf-image",
+      "provenance": "PDF p. 677.",
+      "verified_on": "2026-08-06",
+      "voice": "period"
+    }
+  ]
+}

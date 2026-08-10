@@ -31,7 +31,7 @@ ROOT = Path(__file__).resolve().parent.parent
 REPO = "https://github.com/ImpowerGames/the-world-wilde-web"
 DATA = ROOT / "data"
 
-CERTAINTY = {"self-reported", "second-hand", "uncorroborated", "married", "attraction-expressed"}
+CERTAINTY = {"self-reported", "second-hand", "uncorroborated", "married", "attraction-expressed", "platonic"}
 OUTCOMES = {"declined", "unknown", "unreciprocated"}
 CERTAINTY_STATUS = {"proposed", "confirmed"}
 VERIFICATION = {"verified-exact", "verified-elision", "needs-fix", "rejected", "unverified"}
@@ -138,12 +138,11 @@ def check_speaker_addressee(q, where, works, errors):
 TURN_LABEL = re.compile(r"\b[A-Z][A-Z .'\-]*[A-Z]:\s*")
 TURN_DASH = re.compile(r"(?<=\?)\s*[\u2014\u2013]\s*")
 # Hyde attributes a third way: "The Clerk of Arraigns—Do you find…", a name and an em dash.
-# This is a LITERAL LIST of the markers actually in the corpus, not a rule for spotting them.
-# A general pattern was tried and was worse than useless: Hyde uses the same em dash inside
-# answers, so it read "Men—young men from sixteen to thirty" as a speaker called Men, and
-# "examined by Mr. Avory—" as Avory speaking words that are in fact the witness's. Four
-# transcripts use this convention. A fifth will fail the check loudly and be added here once
-# somebody has read it, which is the right way round.
+# This is a LITERAL LIST of the markers actually in the corpus, not a rule for spotting them:
+# Hyde uses the same em dash inside answers, so a general pattern reads "Men—young men from
+# sixteen to thirty" as a speaker called Men, and "examined by Mr. Avory—" as Avory speaking
+# words that are in fact the witness's. Four transcripts use this convention; a fifth fails the
+# check loudly and is added here once somebody has read it.
 TURN_ATTRIB = re.compile(r"(?:The Clerk of Arraigns|The Foreman|Mr\. Justice Wills)—")
 
 
@@ -278,9 +277,7 @@ def validate_quote(q, where, works, errors, warnings=None):
     if (q.get("translation") or "").strip() and not lang:
         errors.append(f"{where}: has a translation but no `lang` saying what it is translated from")
     # Both rules above start from `lang`, so a quotation that never declared itself foreign slipped
-    # past both - which is exactly how a French passage of Barney's reached the page untranslated
-    # for four days, its English sitting in `context` where nothing rendered it. Ask the question
-    # the other way round: does this look like it is not in English?
+    # past both. Ask the question the other way round: does this look like it is not in English?
     if not lang and (q.get("quote") or "").strip():
         if re.search(r"\bTranslation:\s*['\"‘“]", q.get("context") or ""):
             errors.append(f"{where}: the context carries a labelled translation. A translation goes "
@@ -349,13 +346,13 @@ def validate(works, people, rels):
             errors.append(f"{pid}: bad gender {p.get('gender')!r} (m / f / null)")
         check_date(p.get("born"), f"{pid}.born", errors)
         check_date(p.get("died"), f"{pid}.died", errors)
-        for ce in p.get("context_engagements", []) or []:
-            if not (ce.get("partner_name") or "").strip():
-                errors.append(f"{pid}: context_engagement missing partner_name")
+        for ce in p.get("sexuality_sources", []) or []:
+            if not (ce.get("subject") or "").strip():
+                errors.append(f"{pid}: sexuality_source missing subject")
             if "name" in ce:
-                errors.append(f"{pid}: context_engagement uses 'name'; the field is 'partner_name'")
+                errors.append(f"{pid}: sexuality_source uses 'name'; the field is 'subject'")
             for q in ce.get("sources", []) or []:
-                validate_quote(q, f"{pid}.context[{ce.get('partner_name')}]", works, errors, warnings)
+                validate_quote(q, f"{pid}.sexuality[{ce.get('subject')}]", works, errors, warnings)
 
     rids = set()
     for r in rels:
@@ -408,17 +405,15 @@ def validate(works, people, rels):
     # legitimately evidences several DIFFERENT connections - the letter naming Raphael and Fortune
     # is cited on both, and the panel collapses them at render time - but the same excerpt repeated
     # inside a single record, or on a person AND a connection they are party to, is duplication with
-    # nothing to distinguish it. `alphonse` shipped that way: the letter appeared once on a context
-    # engagement with Wilde and again on alphonse--turner, printing the paragraph twice and implying
-    # a pairing the source never made.
+    # nothing to distinguish it.
     def _qkey(q):
         return (q.get("work"), q.get("locator"),
                 re.sub(r"\W+", " ", (q.get("quote") or "")).strip().lower())
 
     for holder, sources in ([(r.get("id", "?"), r.get("sources") or []) for r in rels] +
-                            [(f"{p.get('id','?')}.context[{ce.get('partner_name','?')}]",
+                            [(f"{p.get('id','?')}.context[{ce.get('subject','?')}]",
                               ce.get("sources") or [])
-                             for p in people for ce in p.get("context_engagements") or []]):
+                             for p in people for ce in p.get("sexuality_sources") or []]):
         seen = set()
         for q in sources:
             k = _qkey(q)
@@ -436,7 +431,7 @@ def validate(works, people, rels):
                 by_person.setdefault(pid, {}).setdefault(_qkey(q), []).append(r.get("id", "?"))
     for p in people:
         pid = p.get("id")
-        for ce in p.get("context_engagements") or []:
+        for ce in p.get("sexuality_sources") or []:
             for q in ce.get("sources") or []:
                 k = _qkey(q)
                 if not k[2]:
@@ -543,11 +538,10 @@ def highlight(code, lang):
 def md_html(src):
     """Compile one of the site's markdown documents into the HTML a panel shows.
 
-    The About text used to live inside index.html, which meant editing prose in among the markup.
-    It is a markdown file now, compiled here rather than parsed in the browser: the site's bargain
-    is one script and no toolchain, and shipping a markdown parser to every reader to render two
-    static documents would be a poor trade. `python tools/validate.py` already has to run before
-    the site is served, so this costs nothing new.
+    Compiled here rather than parsed in the browser: the site's bargain is one script and no
+    toolchain, and shipping a markdown parser to every reader to render two static documents
+    would be a poor trade. `python tools/validate.py` already has to run before the site is
+    served, so this costs nothing new.
 
     The subset is only as large as the two documents need - headings, paragraphs, bullets, bold,
     italic, links, and for CONTRIBUTING.md also fenced code, tables, rules and inline code. Two
@@ -578,8 +572,8 @@ def md_html(src):
         # Autolinks: <https://example.com> survives escaping as &lt;https://…&gt;.
         s = re.sub(r"&lt;(https?://[^\s&]+)&gt;",
                    r'<a href="\1" target="_blank" rel="noopener">\1</a>', s)
-        # Both spellings of emphasis. A markdown formatter rewrites *this* to _this_ whenever it
-        # runs over ABOUT.md, so reading only the asterisks meant the page printed the underscores.
+        # Both spellings of emphasis: a markdown formatter rewrites *this* to _this_ whenever it
+        # runs over ABOUT.md, so both must be read.
         s = re.sub(r"\*\*(.+?)\*\*", r"<b>\1</b>", s)
         s = re.sub(r"(?<![A-Za-z0-9_])__(.+?)__(?![A-Za-z0-9_])", r"<b>\1</b>", s)
         s = re.sub(r"(?<!\*)\*([^*]+)\*(?!\*)", r"<i>\1</i>", s)

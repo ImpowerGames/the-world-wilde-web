@@ -7,34 +7,7 @@
     "y": 1939
   },
   "gender": "m",
-  "context_engagements": [
-    {
-      "partner_name": "Oscar Wilde",
-      "period": "Dublin, August 1876",
-      "sources": [
-        {
-          "work": "letters-2000",
-          "locator": "pp. 28-29",
-          "locator_type": "page",
-          "quote": "He saw me so I went round to speak to him for a few minutes. He told me that he and Foster Harter had been fishing in Donegal and that he was going to fish South now. … He (Todd) looked awfully nervous and uncomfortable. I thought of Mark.",
-          "context": "Wilde to William Ward, Sunday [6 August 1876] (MS Magdalen). What Wilde did on seeing them: he went round to the box and made conversation, and Todd talked about fishing. The elision drops the judgement, which is quoted in full on the connection.",
-          "speaker": "Oscar Wilde",
-          "addressee": "William Ward",
-          "evidence_date": {
-            "y": 1876,
-            "m": 8,
-            "d": 6
-          },
-          "supports": "Wilde's own conduct on the night - he went over, and he noticed the discomfort.",
-          "verification": "verified-elision",
-          "how_verified": "pdf-image",
-          "provenance": "PDF pp. 53-54.",
-          "verified_on": "2026-08-05",
-          "voice": "period"
-        }
-      ]
-    }
-  ],
+  "sexuality_sources": [],
   "bio_sources": [
     "letters-2000"
   ],

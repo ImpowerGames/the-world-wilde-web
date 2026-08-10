@@ -1,0 +1,41 @@
+{
+  "id": "merrill--wilde",
+  "people": [
+    "merrill",
+    "wilde"
+  ],
+  "certainty": "platonic",
+  "certainty_status": "proposed",
+  "start": {
+    "y": 1891,
+    "m": 11
+  },
+  "end": {
+    "y": 1891,
+    "m": 11
+  },
+  "summary": "The whole of the correspondence: Wilde's invitation to Stuart Merrill, November-December 1891, in the Paris circle.",
+  "certainty_reasoning": "The record documents a friendship or acquaintance with no evidence of attraction or romance; classified platonic, upgradable if contrary evidence comes to light.",
+  "sources": [
+    {
+      "work": "letters-2000",
+      "locator": "p. 500",
+      "locator_type": "page",
+      "quote": "Dear Stuart, I will call for you tomorrow at 7 o'clock. We must have a delightful evening. Ask Retté to come, if you think he would like it. Ever yours",
+      "context": "Wilde to Stuart Merrill, [November-December 1891], 29 boulevard des Capucines (MS Hyde) - quoted whole. 'tomorrow' is italicised in the printed text. This is the Paris winter in which Wilde also met Gide and Louÿs; the same folio carries a long letter in French to Juliette Adam about Dorian Gray and Walter Pater.",
+      "speaker": "Oscar Wilde",
+      "addressee": "Stuart Merrill",
+      "evidence_date": {
+        "y": 1891,
+        "m": 11
+      },
+      "supports": "The whole of the correspondence, and the Paris circle it sits in.",
+      "verification": "verified-exact",
+      "how_verified": "pdf-image",
+      "provenance": "PDF p. 520.",
+      "verified_on": "2026-08-06",
+      "voice": "period"
+    }
+  ],
+  "date_label": "Paris, 1891"
+}

@@ -1,0 +1,199 @@
+{
+  "id": "harding--wilde",
+  "people": [
+    "harding",
+    "wilde"
+  ],
+  "certainty": "platonic",
+  "certainty_status": "proposed",
+  "start": {
+    "y": 1876,
+    "m": 7,
+    "d": 5
+  },
+  "end": {
+    "y": 1878,
+    "m": 4
+  },
+  "summary": "Wilde's Oxford friendship with Reginald Harding ('the Kitten'), one of the two close friends of his undergraduate years, kept up by letters from 1876 to 1879.",
+  "certainty_reasoning": "The record documents a friendship or acquaintance with no evidence of attraction or romance; classified platonic, upgradable if contrary evidence comes to light.",
+  "sources": [
+    {
+      "work": "letters-2000",
+      "locator": "p. 18",
+      "locator_type": "page",
+      "quote": "My dear Kitten, I am very sorry to hear you did not meet the poor Bouncer Boy; see what comes of having rowdy friends fond of practical jokes. I had an awful pencil scrawl from him yesterday, written sitting on the rocks at Lundy. I hope nothing will happen to him. I had a very pleasant time in Lincolnshire … as probably Bouncer will tell you when you see him next (I wrote a full account to him). I examined schools in geography and history, sang glees, ate strawberries and argued fiercely with my poor uncle, who revenged himself on Sunday by preaching on Rome in the morning, and on humility in the evening. Both very 'nasty ones' for me.",
+      "context": "Wilde to Reginald Harding, Wednesday [5 July 1876], Magdalen College (MS Hyde), three days after the letter to Ward printed on the same page. The elision drops the weather. Kept because it shows the triangle from Harding's side: Wilde writing to Kitten about Bouncer, and saying he has already written Bouncer a fuller account.",
+      "speaker": "Oscar Wilde",
+      "addressee": "Richard Reginald Harding",
+      "evidence_date": {
+        "y": 1876,
+        "m": 7,
+        "d": 5
+      },
+      "supports": "The three of them as a set, and Wilde's solicitude for Ward expressed to Harding.",
+      "verification": "verified-elision",
+      "how_verified": "pdf-image",
+      "provenance": "PDF p. 43.",
+      "verified_on": "2026-08-05",
+      "voice": "period"
+    },
+    {
+      "work": "letters-2000",
+      "locator": "pp. 21-22",
+      "locator_type": "page",
+      "quote": "My dear Boy, Thousand thanks for your letter. Half the pleasure of getting a First is to receive such delightful congratulations. … I came down here Monday and had no idea it was so lovely. A wonderful garden with such white lilies and rose walks; only that there are no serpents or apples it would be quite Paradise. The church is very fine indeed. Frank and his mother, a very good artist, have painted wonderful windows, and frescoed angels on the walls, and one of his sisters has carved the screen and altar. It is simply beautiful and everything done by themselves. These horrid red marks are strawberries, which I am eating in basketfuls, during intervals of lawn tennis, at which I am awfully good. There are four daughters, all very pretty indeed, one of them who is writing at the other side of the table quite lovely. My heart is torn in sunder with admiration for them all, and my health going, so I return to Ireland next week.",
+      "context": "Wilde to Reginald Harding, [circa 13 July 1876], Bingham Rectory, Notts (MS Hyde) — written from the Miles family home. The 'Frank' is Frank Miles, who is on this map and with whom Wilde would share two London houses; the rector was his father. The elision drops a week of London engagements. The letter is the Miles family seen admiringly and collectively — mother, sisters, windows, screen — and the note Croft-Cooke hears is not audible in it. It runs on past the page break, and the ending is the point: having described Frank's windows and Frank's mother's frescoes, Wilde finishes on Frank's four sisters and says his heart is torn in sunder with admiration for them all.",
+      "speaker": "Oscar Wilde",
+      "addressee": "Richard Reginald Harding",
+      "evidence_date": {
+        "y": 1876,
+        "m": 7,
+        "d": 13
+      },
+      "supports": "What Harding's congratulations were worth to him, the first Miles-household letter in the correspondence, and the sisters at the end of it.",
+      "verification": "verified-elision",
+      "how_verified": "pdf-image",
+      "provenance": "PDF pp. 46-47.",
+      "verified_on": "2026-08-05",
+      "voice": "period"
+    },
+    {
+      "work": "letters-2000",
+      "locator": "p. 29",
+      "locator_type": "page",
+      "quote": "My dear Kitten, I suppose you are reading much too hard ever to write any letter now. It seems a long time since I heard from you, and as for Bouncer I have not heard anything about him for a fortnight. In his last letter he complained terribly that his mother and sisters would not let him read. I hope your people are better, and encourage your industry in every way. I have been waiting for my brother who is on circuit, and for Frank Miles who could not get away from home till we go down to Galway together. We expect them both tomorrow. I am rather tired of sea bathing and lawn tennis and shall be glad to be down for the 12th. After this rain too there will be a lot of fish up. I am just going out to bring an exquisitely pretty girl to afternoon service in the Cathedral. She is just seventeen with the most perfectly beautiful face I ever saw and not a sixpence of money. I will show you her photograph when I see you next.",
+      "context": "Wilde to Reginald Harding, Sunday [6 August 1876], 1 Merrion Square North (MS Hyde), quoted whole - written the same day as the Todd letter to Ward, and printed on the facing page to it. The girl is almost certainly Florence Balcombe, who later married Bram Stoker. The two paragraphs are consecutive and untouched: Frank Miles as a travel arrangement, and then the most perfectly beautiful face he ever saw, which belongs to a seventeen-year-old girl.",
+      "speaker": "Oscar Wilde",
+      "addressee": "Richard Reginald Harding",
+      "evidence_date": {
+        "y": 1876,
+        "m": 8,
+        "d": 6
+      },
+      "supports": "The clearest single test of the Croft-Cooke claim, and it fails in the space of two paragraphs.",
+      "verification": "verified-exact",
+      "how_verified": "pdf-image",
+      "provenance": "PDF p. 54.",
+      "verified_on": "2026-08-05",
+      "voice": "period"
+    },
+    {
+      "work": "letters-2000",
+      "locator": "p. 30",
+      "locator_type": "page",
+      "quote": "Dear Kitten, Have you fallen into a well, or been mislaid anywhere that you never write to me? Or has one of your nine lives gone? Frank Miles and I came down here last week, and have had a very royal time of it sailing. … Frank has done some wonderful sunsets since he came down; he has given me some more of his drawings. … Frank has never fired off a gun in his life (and says he doesn't want to) … But on Friday we go into Connemara to a charming little fishing lodge we have in the mountains where I hope to make him land a salmon and kill a brace of grouse. … Write to me there if your claws have not been clipped. Best love to Puss. I hope he is reading hard. Ever yours",
+      "context": "Wilde to Reginald Harding, Wednesday [? 16 August 1876], Moytura House, Cong, Co. Mayo (MS Hyde) — the house Sir William Wilde built above Lough Corrib. The elisions drop topography and a query about a drawing for Harding's sister. Two things worth noting: the cat-naming runs right through it — nine lives, clipped claws, and 'Puss', who is a third friend the letters do not identify; and Frank Miles, who is on this map, is here on holiday with Wilde in 1876, three years before they shared a house.",
+      "speaker": "Oscar Wilde",
+      "addressee": "Reginald Harding",
+      "evidence_date": {
+        "y": 1876,
+        "m": 8,
+        "d": 16
+      },
+      "supports": "The earliest register of the friendship — teasing, cat-named, and reproachful about silence — and Wilde and Frank Miles on holiday together in 1876.",
+      "verification": "verified-elision",
+      "how_verified": "pdf-image",
+      "provenance": "PDF p. 55.",
+      "verified_on": "2026-08-05",
+      "voice": "period"
+    },
+    {
+      "work": "letters-2000",
+      "locator": "p. 47",
+      "locator_type": "page",
+      "quote": "My dear Boy, Thanks for your letter: I had made out the facts by a careful study of the statutes going up to town, but it was comforting all the same to have it confirmed by such an authority as the Schools Clerk. I had a delightful time in town with Frank Miles and a lot of friends and came home on Friday. My mother was of course awfully astonished to hear my news and very much disgusted with the wretched stupidity of our college dons, while Mahaffy is raging! I never saw him so indignantly angry; he looks on it almost as an insult to himself. The weather is charming, Florrie more lovely than ever, and I am going",
+      "context": "Wilde to Reginald Harding, Tuesday [15 May 1877], 1 Merrion Square North (MS Hyde). The news is that Wilde had been fined and rusticated for returning to Oxford a month late from Greece; he later told Ricketts he was 'sent down from Oxford for being the first undergraduate to visit Olympia'. The quote breaks where the printed page does. The Florrie is Florence Balcombe. Again the pattern: Frank Miles in a subordinate clause, and the lovely thing in the sentence is a girl.",
+      "speaker": "Oscar Wilde",
+      "addressee": "Richard Reginald Harding",
+      "evidence_date": {
+        "y": 1877,
+        "m": 5,
+        "d": 15
+      },
+      "supports": "The last of the seven Miles pages, and the third time a Miles mention sits next to praise of a woman.",
+      "verification": "verified-elision",
+      "how_verified": "pdf-image",
+      "provenance": "PDF p. 72.",
+      "verified_on": "2026-08-05",
+      "voice": "period"
+    },
+    {
+      "work": "letters-2000",
+      "locator": "p. 59",
+      "locator_type": "page",
+      "quote": "My dear Kitten, So glad to hear from you again. I have been here fishing for the last three weeks. Jack Barrow and Dick Trench are staying with me, so I find myself far from lonely, which is unfortunate as far as reading goes. … I have become an awful misanthrope however: you won't know me next term. I had two jolly letters yesterday, one from Bouncer who is quill-driving …",
+      "context": "Wilde to Reginald Harding, [August 1877], Illaunroe Lodge, Lough Fee (MS Hyde). The elisions drop a paragraph of salmon and sea-trout counts; the letter runs on past the printed page. 'Bouncer' is William Ward, also on this map, and the two Oxford correspondences touch here.",
+      "speaker": "Oscar Wilde",
+      "addressee": "Richard Reginald Harding",
+      "evidence_date": {
+        "y": 1877,
+        "m": 8
+      },
+      "supports": "The ordinary footing of the friendship between the tender letters - fishing, house guests, and a joke about his own misanthropy.",
+      "verification": "verified-elision",
+      "how_verified": "pdf-image",
+      "provenance": "PDF p. 86.",
+      "verified_on": "2026-08-06",
+      "voice": "period"
+    },
+    {
+      "work": "letters-2000",
+      "locator": "p. 65",
+      "locator_type": "page",
+      "quote": "Dear Boy, You are in chapel I suppose with a divine calm in your soul. The doomed one is wretched at failure – and no tea. Ever yours",
+      "context": "Wilde to Reginald Harding, [? April 1878], Magdalen College (MS Hyde) — the first of three letters printed together on this page, and the whole of it.",
+      "speaker": "Oscar Wilde",
+      "addressee": "Reginald Harding",
+      "evidence_date": {
+        "y": 1878,
+        "m": 4
+      },
+      "supports": "The register at its lightest: a note across college, imagining where he is.",
+      "verification": "verified-exact",
+      "how_verified": "pdf-image",
+      "provenance": "PDF p. 92.",
+      "verified_on": "2026-08-05",
+      "voice": "period"
+    },
+    {
+      "work": "letters-2000",
+      "locator": "p. 65",
+      "locator_type": "page",
+      "quote": "My dear Kitten, Many thanks for your kind note. I have a childish longing for some flowers – I don't care what – only not wallflowers. If you have any spare moments and can get me a few you will be doing as benevolent an action as giving groundsel to a starving canary would be! I am very wretched and ill and as soon as possible I am to be sent away somewhere out of Oxford, so my Greats work has collapsed finally for ever. Only that Tuckwell and William are awfully kind to me I should jump into the muddy Cherwell. Ever yours … Could you steal a branch of that lovely red blossoming tree outside the New Buildings for me? I am sick at heart for want of some freshness and beauty in life.",
+      "context": "The second letter on the same page, Tuesday [? April 1878], quoted whole including its postscript. Wilde was ill and had been told to leave Oxford. 'William' is probably William Ward, who is also on this map.",
+      "speaker": "Oscar Wilde",
+      "addressee": "Reginald Harding",
+      "evidence_date": {
+        "y": 1878,
+        "m": 4
+      },
+      "supports": "The ask — flowers, from him specifically, because he is sick at heart for want of beauty.",
+      "verification": "verified-exact",
+      "how_verified": "pdf-image",
+      "provenance": "PDF p. 92.",
+      "verified_on": "2026-08-05",
+      "voice": "period"
+    },
+    {
+      "work": "letters-2000",
+      "locator": "pp. 65-66",
+      "locator_type": "page",
+      "quote": "Dear Kitten, If there is anything that could console me for being ill it is your charming basket of flowers and delightful letter. The roses have quite given me a sense of the swift beauty and light of the spring: they are most exquisite. And I heard your light quick step down the passage this morning and am awfully obliged for your theft of the pink and white blossoms. I can bury my face in them and dream how nice it would be to be out again. You are the nicest of kittens. Ever yours",
+      "context": "The third letter, [? April 1878], running across the page break and quoted whole. Harding had done what was asked: stolen the branch and sent a basket besides.",
+      "speaker": "Oscar Wilde",
+      "addressee": "Reginald Harding",
+      "evidence_date": {
+        "y": 1878,
+        "m": 4
+      },
+      "supports": "The tenderest thing in either Oxford correspondence.",
+      "verification": "verified-exact",
+      "how_verified": "pdf-image",
+      "provenance": "PDF pp. 92-93.",
+      "verified_on": "2026-08-05",
+      "voice": "period"
+    }
+  ],
+  "date_label": "Oxford and after, 1876-1879"
+}

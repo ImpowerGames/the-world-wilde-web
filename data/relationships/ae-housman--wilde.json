@@ -1,0 +1,40 @@
+{
+  "id": "ae-housman--wilde",
+  "people": [
+    "ae-housman",
+    "wilde"
+  ],
+  "certainty": "platonic",
+  "certainty_status": "proposed",
+  "start": {
+    "y": 1896
+  },
+  "end": {
+    "y": 1897
+  },
+  "date_label": "Reading and Berneval, 1896-7",
+  "summary": "A. E. Housman's poems reached Wilde in prison: Robert Ross learnt A Shropshire Lad by heart and recited it to him, and Housman sent a copy when Wilde came out. The two never corresponded; the record is Wilde's letter thanking Laurence Housman for the poems, with the editors' note carrying both directions of the contact.",
+  "certainty_reasoning": "The record documents a friendship or acquaintance with no evidence of attraction or romance; classified platonic, upgradable if contrary evidence comes to light.",
+  "sources": [
+    {
+      "work": "letters-2000",
+      "locator": "p. 923",
+      "locator_type": "page",
+      "quote": "I have lately been reading your brother's lovely lyrical poems, so you see you have both of you given me that rare thing happiness.",
+      "context": "Wilde to Laurence Housman, 9 August 1897, Chalet Bourgeat, Berneval-sur-Mer (MS Bryn Mawr) - the close of the letter thanking him for All-Fellows. The editors' note on the same page carries the rest: Robert Ross 'told me that when he visited his friend in jail he learnt some of the poems by heart and recited them to him', and A. E. Housman wrote to Seymour Adelman in 1928 that A Shropshire Lad 'was published while Mr Wilde was in prison, and when he came out I sent him a copy myself'.",
+      "speaker": "Oscar Wilde",
+      "addressee": "Laurence Housman",
+      "evidence_date": {
+        "y": 1897,
+        "m": 8,
+        "d": 9
+      },
+      "supports": "Both directions of the contact: the poems carried into Reading by Ross, and the book sent on release.",
+      "verification": "verified-exact",
+      "how_verified": "pdf-image",
+      "provenance": "PDF p. 973.",
+      "verified_on": "2026-08-05",
+      "voice": "period"
+    }
+  ]
+}

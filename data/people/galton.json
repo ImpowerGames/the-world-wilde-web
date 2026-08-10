@@ -11,33 +11,7 @@
   "bio_sources": [
     "letters-2000"
   ],
-  "context_engagements": [
-    {
-      "partner_name": "Oscar Wilde",
-      "period": "London, 1890",
-      "sources": [
-        {
-          "work": "letters-2000",
-          "locator": "p. 455",
-          "locator_type": "page",
-          "quote": "Dear Galton, Your Tacitus is a charming little book, and your preface, like everything you write, very perfect in its sanity of wise criticism and good English. Many thanks for your gift. I still hope that Tiberius was very wicked, but fear that philology was his only crime. Ever yours",
-          "context": "Wilde to Arthur Galton, [October 1890], 16 Tite Street (MS Montague) - quoted whole. The book is the Camelot Classics Tacitus of October 1890. The same year Galton received Lionel Johnson's letter about Wilde.",
-          "speaker": "Oscar Wilde",
-          "addressee": "Arthur Galton",
-          "evidence_date": {
-            "y": 1890,
-            "m": 10
-          },
-          "supports": "The whole of the correspondence, and that the two men were in contact in 1890.",
-          "verification": "verified-exact",
-          "how_verified": "pdf-image",
-          "provenance": "PDF p. 477.",
-          "verified_on": "2026-08-06",
-          "voice": "period"
-        }
-      ]
-    }
-  ],
+  "sexuality_sources": [],
   "name": "Arthur Galton",
   "sort_name": "Galton, Arthur",
   "group": "aesthete",

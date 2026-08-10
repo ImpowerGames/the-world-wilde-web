@@ -10,54 +10,7 @@
   "bio_sources": [
     "letters-2000"
   ],
-  "context_engagements": [
-    {
-      "partner_name": "Oscar Wilde",
-      "period": "Berneval, 1897",
-      "sources": [
-        {
-          "work": "letters-2000",
-          "locator": "p. 875",
-          "locator_type": "page",
-          "quote": "My dear Young, The saltimbanques cannot come to Berneval so I don't know if there are enough attractions to drag you and Mrs Young out so long a way.",
-          "context": "Wilde to Dalhousie Young, [? 2 June 1897], Café Suisse, Dieppe (MS Hyde). The saltimbanques are travelling acrobats. Wilde had been out of prison a fortnight and Young, who had defended him in print two years earlier while a stranger, was proposing to visit with his wife.",
-          "speaker": "Oscar Wilde",
-          "addressee": "Dalhousie Young",
-          "evidence_date": {
-            "y": 1897,
-            "m": 6,
-            "d": 2
-          },
-          "supports": "That Young came to see him within a fortnight of his release.",
-          "verification": "verified-exact",
-          "how_verified": "pdf-image",
-          "provenance": "PDF p. 925.",
-          "verified_on": "2026-08-06",
-          "voice": "period"
-        },
-        {
-          "work": "letters-2000",
-          "locator": "p. 875 n. 1",
-          "locator_type": "page",
-          "quote": "To sum up shortly: I do not see any evidence that Mr Wilde's love for beauty was a pose; and if there were such evidence it would not affect me in the least. His books do not seem to me to contain any element that is morbid or immoral. I can find no trace of bad influence in his friendships; and for the question of his life, as he was convicted (rightly or wrongly, it makes no difference) of breaking a law, he is being punished for breaking a law. As regards sin, even if we know, or think we know what a man has done, we know nothing about the motive or the manner; and under these circumstances, any outside judgment is a mere impertinence.",
-          "context": "The close of Young's pamphlet Apologia pro Oscar Wilde, dated 31 May 1895 - six days after the conviction - quoted in full by the editors. Young was a stranger to Wilde when he wrote it, and also gave £50 to the fund More Adey collected for Wilde's release.",
-          "speaker": "Dalhousie Young",
-          "addressee": null,
-          "evidence_date": {
-            "y": 1895,
-            "m": 5,
-            "d": 31
-          },
-          "supports": "A public defence of Wilde published by a stranger six days after the conviction.",
-          "verification": "verified-exact",
-          "how_verified": "pdf-image",
-          "provenance": "PDF p. 925.",
-          "verified_on": "2026-08-06",
-          "voice": "period"
-        }
-      ]
-    }
-  ],
+  "sexuality_sources": [],
   "name": "Dalhousie Young",
   "sort_name": "Young, Dalhousie",
   "group": "later",

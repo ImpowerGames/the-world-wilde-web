@@ -9,33 +9,7 @@
   "bio_sources": [
     "letters-2000"
   ],
-  "context_engagements": [
-    {
-      "partner_name": "Oscar Wilde",
-      "period": "London, 1894",
-      "sources": [
-        {
-          "work": "letters-2000",
-          "locator": "p. 625",
-          "locator_type": "page",
-          "quote": "Dear Miss Schuster, I was so sorry I could not come down yesterday: but I will try and come down for the afternoon next Sunday: I was so pleased at all you said of the Woman of No Importance. My new play the Ideal Husband - to be brought out in January - I like less - there is no one like myself in it - horrid objective creations of serious folk. However it has some dramatic scenes in it. Sincerely yours",
-          "context": "Wilde to Adela Schuster, [? December 1894], 16 Tite Street (MS Hyde) - quoted whole. Four months before the trials. 'there is no one like myself in it' is Wilde on An Ideal Husband, and is as good a statement of his own measure of a play as he gives anywhere.",
-          "speaker": "Oscar Wilde",
-          "addressee": "Adela Schuster",
-          "evidence_date": {
-            "y": 1894,
-            "m": 12
-          },
-          "supports": "The friendship at its ordinary footing, months before she gave him £1,000.",
-          "verification": "verified-exact",
-          "how_verified": "pdf-image",
-          "provenance": "PDF p. 677.",
-          "verified_on": "2026-08-06",
-          "voice": "period"
-        }
-      ]
-    }
-  ],
+  "sexuality_sources": [],
   "name": "Adela Schuster",
   "sort_name": "Schuster, Adela",
   "group": "society",

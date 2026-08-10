@@ -1,0 +1,43 @@
+{
+  "id": "arnaldo--wilde",
+  "people": [
+    "arnaldo",
+    "wilde"
+  ],
+  "certainty": "attraction-expressed",
+  "certainty_status": "proposed",
+  "start": {
+    "y": 1900,
+    "m": 4
+  },
+  "end": {
+    "y": 1900,
+    "m": 4
+  },
+  "date_label": "Rome, April 1900",
+  "summary": "Wilde, in Rome in April 1900, took up Arnaldo - Armando's greatest friend - the same week he gave Armando up: 'I now like Arnaldo: he was Armando's greatest friend, but the friendship is over.' The whole of the record for Arnaldo.",
+  "certainty_reasoning": "One sentence, in the same letter where Wilde gives up Armando and takes up his best friend; the armando--wilde record already reads the exchange as Wilde moving his interest to Arnaldo. The declaration is Wilde's own; outcome unknown.",
+  "direction": "wilde",
+  "outcome": "unknown",
+  "sources": [
+    {
+      "work": "letters-2000",
+      "locator": "p. 1182",
+      "locator_type": "page",
+      "quote": "I now like Arnaldo: he was Armando's greatest friend, but the friendship is over.",
+      "context": "Wilde to Robert Ross, Rome, April 1900, in the sentence immediately after giving up Armando. The whole of the record for Arnaldo.",
+      "speaker": "Oscar Wilde",
+      "addressee": "Robert Ross",
+      "evidence_date": {
+        "y": 1900,
+        "m": 4
+      },
+      "supports": "That Wilde replaced one young Roman with his best friend, and said so plainly.",
+      "verification": "verified-exact",
+      "how_verified": "pdf-image",
+      "provenance": "PDF p. 1228.",
+      "verified_on": "2026-08-06",
+      "voice": "period"
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "id": "laurence-housman--wilde",
+  "people": [
+    "laurence-housman",
+    "wilde"
+  ],
+  "certainty": "platonic",
+  "certainty_status": "proposed",
+  "start": {
+    "y": 1897,
+    "m": 8,
+    "d": 9
+  },
+  "end": {
+    "y": 1898,
+    "m": 12,
+    "d": 28
+  },
+  "summary": "Wilde's correspondence with Laurence Housman after Reading: five letters from August 1897 to December 1898 that open the friendship and end in Wilde's candour about the Napoule fishermen.",
+  "certainty_reasoning": "The record documents a friendship or acquaintance with no evidence of attraction or romance; classified platonic, upgradable if contrary evidence comes to light.",
+  "sources": [
+    {
+      "work": "letters-2000",
+      "locator": "p. 923",
+      "locator_type": "page",
+      "quote": "Dear Mr Housman, I cannot tell you how gratified and touched I was to receive your charming letter, and the beautiful book that it so gracefully heralded. Your prose is full of cadence and colour, and has a rhythmic music of words that makes that constant appeal to the ear, which, to me, is the very condition of literature. … The whole book, with its studied and imaginative decorations and its links of song, is a very lovely and almost unique work of art. Your title pleases me little, but every one has some secret reason for christening a child: some day you must tell me yours. Ricketts and Shannon, those good kind friends of mine, are coming to see me this month. It would be charming if you came with them. I have lately been reading your brother's lovely lyrical poems, so you see you have both of you given me that rare thing happiness. With renewal of my thanks, believe me truly yours",
+      "context": "Wilde to Laurence Housman, 9 August 1897, Chalet Bourgeat, Berneval-sur-Mer (MS Bryn Mawr) - the first of the five, written three months after Reading. The book is All-Fellows (1896); the brother's poems are A Shropshire Lad. The elision drops praise of three individual stories. Ricketts and Shannon are both on this map. The editors add that Robert Ross recited Housman's brother's poems to Wilde in prison.",
+      "speaker": "Oscar Wilde",
+      "addressee": "Laurence Housman",
+      "evidence_date": {
+        "y": 1897,
+        "m": 8,
+        "d": 9
+      },
+      "supports": "The opening of the friendship, and what counted as happiness to Wilde that summer.",
+      "verification": "verified-elision",
+      "how_verified": "pdf-image",
+      "provenance": "PDF p. 973.",
+      "verified_on": "2026-08-05",
+      "voice": "period"
+    },
+    {
+      "work": "letters-2000",
+      "locator": "p. 928",
+      "locator_type": "page",
+      "quote": "Dear Mr Housman, Thank you for your kind letter. I hope some day to see you here, or elsewhere. It is absurd of Ricketts and Shannon not to see the light lyrical beauty of your brother's work … but Shannon is inexcusable: you must get him alone, and read them to him: you can tell him I think your brother's poems exceedingly like his own lithographs! With regard to what you ask me about myself - well, I am occupied in finishing a poem, terribly realistic for me, and drawn from actual experience, a sort of denial of my own philosophy of art in many ways. I hope it is good, but every night I hear cocks crowing in Berneval, so I am afraid I may have denied myself, and would weep bitterly, if I had not wept away all my tears. I will send it to you, if you allow me, when it appears. Believe me truly yours",
+      "context": "Wilde to Laurence Housman, 22 August 1897, Chalet Bourgeat, Berneval-sur-Mer (MS Bryn Mawr). The poem is The Ballad of Reading Gaol. The elision drops a sentence on why Ricketts might dislike A Shropshire Lad. The cocks crowing are Peter's denial of Christ, and Wilde is applying it to himself.",
+      "speaker": "Oscar Wilde",
+      "addressee": "Laurence Housman",
+      "evidence_date": {
+        "y": 1897,
+        "m": 8,
+        "d": 22
+      },
+      "supports": "Wilde telling a near-stranger, unprompted, that he thinks he has betrayed himself.",
+      "verification": "verified-elision",
+      "how_verified": "pdf-image",
+      "provenance": "PDF p. 978.",
+      "verified_on": "2026-08-05",
+      "voice": "period"
+    },
+    {
+      "work": "letters-2000",
+      "locator": "p. 1027",
+      "locator_type": "page",
+      "quote": "Dear Mr Housman, I am so glad you got the copy I ordered to be sent to you. I was in Naples, so had to deny myself the pleasure of writing your name on the fly-leaf. I thank you very much for all you have said to me about The Ballad: it has greatly touched me. I quite hold with you on all you say about the relation of human suffering to art; as art is the most intense mode of expression, so suffering is the most real mode of life, the one for which we are all ultimately created.",
+      "context": "Wilde to Laurence Housman, [February-March 1898], Hotel de Nice, Paris (TS Clark). 'I was in Naples' is how Wilde refers, to someone outside the inner circle, to the months he spent living with Douglas at Posillipo. The quote breaks where the printed page does.",
+      "speaker": "Oscar Wilde",
+      "addressee": "Laurence Housman",
+      "evidence_date": {
+        "y": 1898,
+        "m": 2
+      },
+      "supports": "The Ballad received, and the nearest thing to a statement of belief in the correspondence.",
+      "verification": "verified-exact",
+      "how_verified": "pdf-image",
+      "provenance": "PDF p. 1073.",
+      "verified_on": "2026-08-05",
+      "voice": "period"
+    },
+    {
+      "work": "letters-2000",
+      "locator": "p. 1111",
+      "locator_type": "page",
+      "quote": "My dear Housman, Thank you so much, not merely for your kindness, but for your charming letter. Style is certainly part of your character: your soul has beautiful curves and colours. Frank Harris, late of the Saturday Review, a dear good friend of mine, has just arrived, and is taking me tomorrow to a lovely little place near Cannes called Napoule. I am to work there!! And to stay for a month, at the end of which I am to produce a work of art. I hope I shall be able to do something. The high sapphire wall of sea, the gold dust of the sun, the petals and perfumes of southern flowers - perhaps these may tune my soul to some note of beauty. Of course I shall write and let you know my address. Sincerely and affectionately yours",
+      "context": "Wilde to Laurence Housman, Wednesday, 14 December [1898], Taverne F. Pousset, Paris (MS Somerset) - quoted whole. The address has moved to 'My dear Housman' and the signature to 'Sincerely and affectionately yours'. 'Your kindness' is money. The warmest sentence Wilde wrote him is the second one, and it is a compliment paid to a man's prose style by way of his soul.",
+      "speaker": "Oscar Wilde",
+      "addressee": "Laurence Housman",
+      "evidence_date": {
+        "y": 1898,
+        "m": 12,
+        "d": 14
+      },
+      "supports": "The correspondence at its warmest, and the journey to Napoule that produced the next letter.",
+      "verification": "verified-exact",
+      "how_verified": "pdf-image",
+      "provenance": "PDF p. 1157.",
+      "verified_on": "2026-08-05",
+      "voice": "period"
+    },
+    {
+      "work": "letters-2000",
+      "locator": "p. 1113",
+      "locator_type": "page",
+      "quote": "My dear Housman, After your letter declaring the impossibility of coming here, I am surprised not to find you in the adjacent pinewoods, for these woods change the air to an aromatic: the wind that makes their branches restless is pungent with keen odours: when one walks in their dappled shadows one's feet crush sweetness out of the fallen needles: and the still sweeter sun is as warm as wine, and coloured like an apricot. I think your drawing lovely, so delicate in modulation of curve and line. I am sure Donatello would have liked it, and I wish I had ever written anything that Donatello would have liked. The people here - fisher-folk all - have beautiful eyes, crisp hair of a hyacinth colour, and no morals: an ideal race. I have two special friends, one called Raphael, the other Fortune - both quite perfect, except that they can read and write. How wrong of the young Greek Alexander to be ill: it is mixing up two distinct and separate styles. I think a little want of sympathy would make him well: it has a wonderful effect on invalids. Send him, however, all nice phrases from me. Sincerely yours",
+      "context": "Wilde to Laurence Housman, [circa 28 December 1898], Hotel des Bains, Napoule (MS Bryn Mawr) - quoted whole, and the reason this node exists. The same letter is the sole source for two other nodes on this map, Raphael and Fortune, where it is cited at this same page. What it shows about Housman is that Wilde picked him to say it to. 'No morals: an ideal race' is not ambiguous, and 'two special friends' who are 'quite perfect' is Wilde being as plain as he was ever going to be in writing again after 1895. He is at this point four months from bankruptcy and two years from death, writing to a man he had met perhaps twice.",
+      "speaker": "Oscar Wilde",
+      "addressee": "Laurence Housman",
+      "evidence_date": {
+        "y": 1898,
+        "m": 12,
+        "d": 28
+      },
+      "supports": "Wilde's candour about the Napoule fishermen, and the choice of Housman to receive it.",
+      "verification": "verified-exact",
+      "how_verified": "pdf-image",
+      "provenance": "PDF p. 1159.",
+      "verified_on": "2026-08-05",
+      "voice": "period"
+    }
+  ],
+  "date_label": "After Reading, 1897-1898"
+}

@@ -45,7 +45,7 @@ Create `data/people/<id>.json`. Ids are lowercase, hyphenated, and stable — ot
   "bio": "…", // a paragraph a reader can use
   "bio_note": "…", // where each fact came from; shown collapsed at the foot
   "bio_sources": ["beckman-2000-levy"],
-  "context_engagements": [],
+  "sexuality_sources": [],
   "research_status": "phase-a",
 }
 ```
@@ -86,7 +86,7 @@ Create `data/relationships/<a>--<b>.json`, where the two ids are **in alphabetic
 }
 ```
 
-### The five certainty classes
+### The certainty classes
 
 These describe how we know, not what happened. The map deliberately makes **no claim about sexual acts** in either direction — criminal law was designed to keep that evidence out of the record, so treating its absence as a finding would mistake the effect of prosecution for a fact
 about someone's life.
@@ -98,6 +98,7 @@ about someone's life.
 | `second-hand`          | someone else who was there, or a historian, attests it                                                                                                                                                                                                                                     |
 | `uncorroborated`       | asserted somewhere but nothing supports it; **requires a `disputed` block**                                                                                                                                                                                                                |
 | `attraction-expressed` | the record is one-sided: a declaration, an approach, or admiration noted in passing, with a `direction` and an `outcome`. **The bar is low on purpose** — one sentence admiring the appearance of an individual qualifies. Use `outcome: unknown` if the result of the advance is unknown. |
+| `platonic`             | a documented friendship or acquaintance — correspondence, visits, professional friendship — with no evidence of attraction or romance. Platonic connections draw no line on the map. |
 
 An `uncorroborated` connection must carry `disputed` with `claim`, `asserted_by`, `disputed_by` and `grounds`. Leave `disputed_by` **null** when nothing actually disputes the claim.
 

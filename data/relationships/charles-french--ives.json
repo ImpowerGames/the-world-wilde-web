@@ -1,0 +1,42 @@
+{
+  "id": "charles-french--ives",
+  "people": [
+    "charles-french",
+    "ives"
+  ],
+  "certainty": "uncorroborated",
+  "certainty_status": "proposed",
+  "start": {
+    "y": 1939
+  },
+  "end": {
+    "y": 1939
+  },
+  "date_label": "Named in the 1939 will; bequest later revoked",
+  "summary": "A legatee in Ives's 1939 will, probably working-class and employed in the service sector - at the Spread Eagle Hotel, Midhurst, and latterly at 1 Greek Street, London W1 - whom Cook suggests was 'perhaps a former lover' of Ives.",
+  "certainty_reasoning": "The only attestation is Cook's explicit speculation ('perhaps a former lover'), offered alongside his own competing non-sexual reading; the identification is credited by endnote to Brian Lewis by personal communication, with no archival citation. Classified uncorroborated - a lone, hedged allegation - with the competing reading recorded in the disputed block.",
+  "disputed": {
+    "claim": "That Charles French was a former lover of Ives.",
+    "asserted_by": "Cook, in an explicitly hedged suggestion: 'French was perhaps a former lover'.",
+    "disputed_by": "Cook himself, who immediately offers the competing reading that French was one of the men Ives called 'Ducks' - helped out intermittently but thought hopeless cases.",
+    "grounds": "Cook's endnote 84 credits the connection to Brian Lewis by personal communication, with no archival citation."
+  },
+  "sources": [
+    {
+      "quote": "Probably working-class, employed in the service sector (which we've already seen had a reputation for attracting queer men), French was perhaps a former lover, though was also one of the men Ives went on to call 'Ducks' (short for 'lame ducks' - men he helped out intermittently but thought hopeless cases).",
+      "context": "Cook, on a legatee named in Ives's 1939 will as having worked at the Spread Eagle Hotel, Midhurst, and latterly at 1 Greek Street, London W1",
+      "work": "cook-2014",
+      "locator": "p. 110",
+      "locator_type": "page",
+      "evidence_date": {
+        "y": 1939
+      },
+      "supports": "Charles French as a possible former lover of Ives - Cook's own speculation, offered alongside a competing non-sexual reading.",
+      "verification": "verified-exact",
+      "how_verified": "pdf-text",
+      "provenance": "PDF p. 121.",
+      "verified_on": "2026-08-03",
+      "voice": "modern"
+    }
+  ]
+}

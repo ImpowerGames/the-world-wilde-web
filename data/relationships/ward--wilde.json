@@ -1,0 +1,241 @@
+{
+  "id": "ward--wilde",
+  "people": [
+    "ward",
+    "wilde"
+  ],
+  "certainty": "platonic",
+  "certainty_status": "proposed",
+  "start": {
+    "y": 1876,
+    "m": 3,
+    "d": 20
+  },
+  "end": {
+    "y": 1881,
+    "m": 6
+  },
+  "summary": "Wilde's closest Oxford friendship — with William Ward, the man he wrote to more often than anyone in his twenties. The sources sample the twenty-two letters of 1876-1881: the First, the grief for his father, and the confidences he gave to nobody else.",
+  "certainty_reasoning": "The record documents a friendship or acquaintance with no evidence of attraction or romance; classified platonic, upgradable if contrary evidence comes to light.",
+  "sources": [
+    {
+      "work": "letters-2000",
+      "locator": "p. 15",
+      "locator_type": "page",
+      "quote": "I heard once from the Kitten about a gummy hat-box he says he left in his little room. I was too much ashamed to ask Mrs Brewer about it, so I suppose the poor Kitten has to go to church in a frock coat and pot-hat. … I hope you will write soon. Your affectionate friend",
+      "context": "The close of Wilde's letter to William Ward, Monday [20 March 1876], Magdalen College (MS Magdalen) — the earliest of the twenty-two. The elision drops reading plans and college news. Kept because it shows the three of them in one frame: Wilde writing to Ward about Harding, and signing himself Ward's affectionate friend.",
+      "speaker": "Oscar Wilde",
+      "addressee": "William Ward",
+      "evidence_date": {
+        "y": 1876,
+        "m": 3,
+        "d": 20
+      },
+      "supports": "The earliest surviving sign-off to Ward — 'Your affectionate friend' — and the Ward/Harding/Wilde triangle in one letter.",
+      "verification": "verified-elision",
+      "how_verified": "pdf-image",
+      "provenance": "PDF p. 40.",
+      "verified_on": "2026-08-05",
+      "voice": "period"
+    },
+    {
+      "work": "letters-2000",
+      "locator": "p. 20",
+      "locator_type": "page",
+      "quote": "My dear Boy, I know you will be glad to hear I have got my First all right. … Of course I knew I had got a First, so swaggered horribly. … Altogether I swaggered horribly, but am really pleased with myself. My poor mother is in great delight and I was overwhelmed with telegrams on Thursday from everyone I know. My father would have been so pleased about it. I think God has dealt very hardly with us. It has robbed me of any real pleasure in my First, and I have not sufficient faith in Providence to believe it is all for the best — I know it is not. I feel an awful dread of going home to our old house, with everything filled with memories.",
+      "context": "Wilde to William Ward, [postmark 10 July 1876], 4 Albert Street, London (MS Magdalen). Sir William Wilde had died on 19 April, three months earlier. The elisions drop the examiners' viva and a list of people met. Wilde was twenty-one.",
+      "speaker": "Oscar Wilde",
+      "addressee": "William Ward",
+      "evidence_date": {
+        "y": 1876,
+        "m": 7,
+        "d": 10
+      },
+      "supports": "The First and the grief in the same breath — what Wilde told Ward that he told almost nobody.",
+      "verification": "verified-elision",
+      "how_verified": "pdf-image",
+      "provenance": "PDF p. 45.",
+      "verified_on": "2026-08-05",
+      "voice": "period"
+    },
+    {
+      "work": "letters-2000",
+      "locator": "p. 22",
+      "locator_type": "page",
+      "quote": "I have had a delightful week here. The garden and house are very beautiful. I never saw such lilies - white and red and golden. Nearly all the family are good artists. Mrs Miles is really wonderful. I suppose you remember my showing you her drawings in Ruskin's School at Oxford when we went there to your sister. Mr Miles pere is a very advanced Anglican and a great friend of Newman, Pusey, Manning, Gladstone and all English theologians. He is very clever and interesting: I have learned a lot from him. … I make myself as charming as ever and am much admired. Have had some good arguments with Dean Miles who was a great friend of Newman, Pusey and Manning at Oxford and a very advanced Anglican. Write me a line soon like a good boy. Ever yours",
+      "context": "Wilde to William Ward, Monday [postmark 17 July 1876], Bingham (MS Magdalen) - the Miles family home, where Wilde spent a week that July. The elision drops a book recommendation and a garden party. Kept because it is one of the seven Miles pages Croft-Cooke's claim depends on, and the Miles who interests Wilde here is Frank's father.",
+      "speaker": "Oscar Wilde",
+      "addressee": "William Ward",
+      "evidence_date": {
+        "y": 1876,
+        "m": 7,
+        "d": 17
+      },
+      "supports": "A week inside the Miles household, written up entirely in terms of the parents.",
+      "verification": "verified-elision",
+      "how_verified": "pdf-image",
+      "provenance": "PDF p. 47.",
+      "verified_on": "2026-08-05",
+      "voice": "period"
+    },
+    {
+      "work": "letters-2000",
+      "locator": "p. 25",
+      "locator_type": "page",
+      "quote": "My dear Boy, I confess not to be a worshipper at the Temple of Reason. I think man's reason the most misleading and thwarting guide that the sun looks upon, except perhaps the reason of woman. Faith is, I think, a bright lantern for the feet, though of course an exotic plant in man's mind, and requiring continual cultivation. … About Newman I think that his higher emotions revolted against Rome but that he was swept on by Logic to accept it as the only rational form of Christianity. His life is a terrible tragedy. I fear he is a very unhappy man.",
+      "context": "Wilde to William Ward, Wednesday [26 July 1876], 1 Merrion Square North (MS Magdalen). The elision drops a long passage on his mother's beliefs and on Schopenhauer. This is the intellectual register of the friendship, which is most of what it consists of: two undergraduates arguing about faith and reason. The same letter's opening asks after 'the King's Close Cats' — Harding's family, whose surname produced the whole cat-naming.",
+      "speaker": "Oscar Wilde",
+      "addressee": "William Ward",
+      "evidence_date": {
+        "y": 1876,
+        "m": 7,
+        "d": 26
+      },
+      "supports": "What Wilde and Ward actually talked about — faith, Newman, reason — which is the friendship's substance and is not romantic.",
+      "verification": "verified-elision",
+      "how_verified": "pdf-image",
+      "provenance": "PDF p. 50.",
+      "verified_on": "2026-08-05",
+      "voice": "period"
+    },
+    {
+      "work": "letters-2000",
+      "locator": "pp. 28-29",
+      "locator_type": "page",
+      "quote": "I want to ask your opinion on this psychological question. In our friend Todd's ethical barometer, at what height is his moral quicksilver? Last night I strolled into the theatre about ten o'clock and to my surprise saw Todd and young Ward the quire boy in a private box together, Todd very much in the background. He saw me so I went round to speak to him for a few minutes. He told me that he and Foster Harter had been fishing in Donegal and that he was going to fish South now. I wonder what young Ward is doing with him. Myself I believe Todd is extremely moral and only mentally spoons the boy, but I think he is foolish to go about with one, if he is bringing this boy about with him. You are the only one I would tell about it, as you have a philosophical mind, but don't tell anyone about it like a good boy - it would do neither us nor Todd any good. He (Todd) looked awfully nervous and uncomfortable. I thought of Mark. I hope nothing is wrong with your people or yourself that you don't write. Ever yours",
+      "context": "Wilde to William Ward, Sunday [6 August 1876], 1 Merrion Square North (MS Magdalen), quoted unbroken from where the subject is raised to the signature; the elision drops only the letter's earlier news of Mahaffy, Howth and Wilde's poems. At the time of writing, Wilde is twenty-one years old. The editors identify Todd as Charles John Todd (1854-1939), a Magdalen undergraduate of Wilde's own years who became Chaplain to the Royal Navy from 1881 to 1909, and 'young Ward the quire boy' as Eric Richard Ward, a Magdalen chorister 1874-8 and no relation to the recipient. WHAT THE LETTER SHOWS is the machinery of discretion: a thing seen, a judgement withheld, one confidant chosen for having 'a philosophical mind', and an explicit instruction to say nothing because exposure would damage the teller as much as the man told of.",
+      "speaker": "Oscar Wilde",
+      "addressee": "William Ward",
+      "evidence_date": {
+        "y": 1876,
+        "m": 8,
+        "d": 6
+      },
+      "supports": "What Wilde could say to Ward and to nobody else, and the earliest recorded instance of him handling a suspected attachment between men.",
+      "verification": "verified-elision",
+      "how_verified": "pdf-image",
+      "provenance": "PDF pp. 53-54.",
+      "verified_on": "2026-08-05",
+      "voice": "period"
+    },
+    {
+      "work": "letters-2000",
+      "locator": "p. 31",
+      "locator_type": "page",
+      "quote": "Dear Bouncer, I am very glad you like Aurora Leigh. I think it simply 'intense' in every way. I am deep in a review of Symonds's last book whenever I can get time and the weather is too bright for fishing. … I hope next year that you and the Kitten will come and stay a (lunar) month with me. I am sure you would like this wild mountainous country, close to the Atlantic and teeming with sport of all kinds. … Write like a good boy to Moytura House, Cong, County Mayo, as I will be leaving here this week. With kind regards to your mother and sisters, ever yours … I have Frank Miles with me. He is delighted with all.",
+      "context": "Wilde to William Ward, [postmark 28 August 1876], Illaunroe Lodge, Connemara (MS Magdalen). The elision drops fishing and shooting counts. Two things the filter should find here. The invitation is to both men together — 'you and the Kitten'. And the Frank Miles sentence is a postscript, added after the signature: Croft-Cooke, quoted on the Miles connection, reads the Miles mentions in the Ward and Harding letters as the one place an 'alien note' enters them, so where and how Miles appears is worth recording exactly. Here he appears last, in five words, after Wilde has signed off. The Symonds under review is John Addington Symonds, Studies of the Greek Poets, and Wilde's review was never published.",
+      "speaker": "Oscar Wilde",
+      "addressee": "William Ward",
+      "evidence_date": {
+        "y": 1876,
+        "m": 8,
+        "d": 28
+      },
+      "supports": "Wilde inviting Ward and Harding together for a month, and the exact placement of a Frank Miles mention — the thing Croft-Cooke says the charge lives in.",
+      "verification": "verified-elision",
+      "how_verified": "pdf-image",
+      "provenance": "PDF p. 56.",
+      "verified_on": "2026-08-05",
+      "voice": "period"
+    },
+    {
+      "work": "letters-2000",
+      "locator": "p. 38",
+      "locator_type": "page",
+      "quote": "However I think you are an awful cynic about women – a Passionless Sphinx of Society – (sounds rather abusive!) I hope some day to hear you raving about pretty lips and blue eyes. Ever yours",
+      "context": "The close of Wilde's letter to William Ward, [postmark 3 January 1877], 1 Merrion Square North (MS Magdalen). Recorded because of what it says about Ward rather than about Wilde: it is a friend teasing him, at twenty-one or so, for showing no interest in women. Nothing else follows it up, and no inference is drawn here - it is one joke in one letter.",
+      "speaker": "Oscar Wilde",
+      "addressee": "William Ward",
+      "evidence_date": {
+        "y": 1877,
+        "m": 1,
+        "d": 3
+      },
+      "supports": "Wilde's own observation that Ward was indifferent to women, and his wish that he would not be.",
+      "verification": "verified-exact",
+      "how_verified": "pdf-image",
+      "provenance": "PDF p. 63.",
+      "verified_on": "2026-08-05",
+      "voice": "period"
+    },
+    {
+      "work": "letters-2000",
+      "locator": "pp. 18, 59",
+      "locator_type": "page",
+      "quote": "My dear Bouncer, I am in terrible dread of reading a pathetic account in Reynolds' Police News of 'the death by starvation of a young man on Lundy Island'. The idea of you forgetting your food. I hope you got it safe. … [and, from the letter of August 1877:] After all I can't trust my letter from Pater to the mercies of the postman, but I send you a copy … You won't think me snobbish for sending you this? After all, it is something to be honestly proud of.",
+      "context": "Two letters joined here because they show the same thing: what Wilde brought to Ward first. The first is [2 July 1876], The Vicarage, West Ashby (MS Magdalen), fussing over whether Ward had eaten. The second is [August 1877] and encloses a full copy of Walter Pater's first letter to Wilde — 'it makes me much wish to make your acquaintance' — which Wilde would not trust to the post in the original. He was twenty-two. The Pater letter is printed in full on the same page and Pater is not on this map.",
+      "speaker": "Oscar Wilde",
+      "addressee": "William Ward",
+      "evidence_date": {
+        "y": 1877,
+        "m": 8
+      },
+      "supports": "The confidence in the friendship — solicitude about his meals, and the proudest letter of his young life sent to Ward before anyone else.",
+      "verification": "verified-elision",
+      "how_verified": "pdf-image",
+      "provenance": "PDF p. 43 and 86. The two letters are quoted together and the join is marked; each is separately locatable at its own folio.",
+      "verified_on": "2026-08-05",
+      "voice": "period"
+    },
+    {
+      "work": "letters-2000",
+      "locator": "p. 69",
+      "locator_type": "page",
+      "quote": "Dear Boy, Why don't you write to me? I don't know what has become of you. As for me I am ruined. The law suit is going against me and I am afraid I will have to pay costs, which means leaving Oxford and doing some horrid work to earn bread. The world is too much for me. However, I have seen Greece and had some golden days of youth. I go back to Oxford immediately for viva voce and then think of rowing up the river to town with Frank Miles. Will you come? Yours",
+      "context": "Wilde to William Ward, Thursday [? 11 July 1878], St Stephen's Club, Westminster (MS Magdalen) — quoted whole. The lawsuit concerned house property inherited from his father and was heard in Dublin that week. Frank Miles is on this map.",
+      "speaker": "Oscar Wilde",
+      "addressee": "William Ward",
+      "evidence_date": {
+        "y": 1878,
+        "m": 7,
+        "d": 11
+      },
+      "supports": "Wilde at his lowest before the First was announced, asking Ward why he does not write and whether he will come.",
+      "verification": "verified-exact",
+      "how_verified": "pdf-image",
+      "provenance": "PDF p. 96.",
+      "verified_on": "2026-08-05",
+      "voice": "period"
+    },
+    {
+      "work": "letters-2000",
+      "locator": "p. 70",
+      "locator_type": "page",
+      "quote": "My dear old Boy, You are the best of fellows to telegraph your congratulations: there were none I valued more. It is too delightful altogether this display of fireworks at the end of my career. I cannot understand my First except for the essays which I was fairly good in. I got a very complimentary viva voce. The dons are 'astonied' beyond words — the Bad Boy doing so well in the end! … Then I rowed to Pangbourne with Frank Miles in a birchbark canoe! and shot rapids and did wonders everywhere — it was delightful. I cannot, I am afraid, yacht with you. … Dear old boy, I wish I could see you again. Ever yours",
+      "context": "Wilde to William Ward, [circa 24 July 1878], Magdalen College (MS Magdalen), on his First in Greats. The elisions drop college gossip and a paragraph on his lawsuit. The Frank Miles here is the Frank Miles on this map, whom Wilde would live with from the following year.",
+      "speaker": "Oscar Wilde",
+      "addressee": "William Ward",
+      "evidence_date": {
+        "y": 1878,
+        "m": 7,
+        "d": 24
+      },
+      "supports": "What Ward's congratulations were worth to him, and the plain wish to see him.",
+      "verification": "verified-elision",
+      "how_verified": "pdf-image",
+      "provenance": "PDF p. 97.",
+      "verified_on": "2026-08-05",
+      "voice": "period"
+    },
+    {
+      "work": "letters-2000",
+      "locator": "p. 112",
+      "locator_type": "page",
+      "quote": "Dear Will, My volume is out: I wish you could review it: no one is more qualified to be a critic than you with your keen insight and exquisite taste. I wish in any case you would let me know what you think of it. But I am very anxious to be read, and a review in a Bristol paper might cause a sale in that lovely old town. Ever affectionately yours",
+      "context": "Wilde to William Ward, [June-July 1881], Keats House, Tite Street (MS Magdalen) — the last of the twenty-two, quoted whole, sent with his first volume of Poems. He wrote to Matthew Arnold the same week about the same book; the letter to Ward asks for a review and the letter to Arnold asks for nothing.",
+      "speaker": "Oscar Wilde",
+      "addressee": "William Ward",
+      "evidence_date": {
+        "y": 1881,
+        "m": 6
+      },
+      "supports": "The close of the correspondence, five years on and still affectionate — and Wilde's estimate of Ward's judgement.",
+      "verification": "verified-exact",
+      "how_verified": "pdf-image",
+      "provenance": "PDF p. 137.",
+      "verified_on": "2026-08-05",
+      "voice": "period"
+    }
+  ],
+  "date_label": "Oxford and after, 1876-1881"
+}

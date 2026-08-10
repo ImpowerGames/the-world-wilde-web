@@ -40,7 +40,7 @@ The lightest class is deliberately light. **Attraction expressed** covers everyt
 | **Second-hand**          | someone else present, or a historian, attests it                                                                |
 | **Uncorroborated**       | asserted with very little supporting evidence; or actively contested                                            |
 | **Attraction expressed** | the record is one-sided — a declaration, an approach, or admiration noted in passing; the arrow shows which way |
-| **No connection**        | not a connection at all — the switch for people the map records but joins to no one                             |
+| **Platonic**             | friendship or acquaintance with no evidence of attraction or romance.                                           |
 
 **Married means a legal marriage.** Alfred Taylor and Charles Mason went through a marriage in 1893, Taylor in a wedding dress as the bride, rings exchanged, a wedding breakfast for friends afterwards. Charles Parker gave it in evidence at the Old Bailey, Pierre Louÿs wrote to Gide about it in the present tense as _"a marriage — a real marriage"_, Taylor retold it himself for years, and Wilde wrote to Mason asking after his _"married life"_. It is filed as **Self-reported** instead of **Married**, because two men in England in 1893 could not contract a legal marriage. The edge carries the ceremony in full in its summary and sources either way.
 
