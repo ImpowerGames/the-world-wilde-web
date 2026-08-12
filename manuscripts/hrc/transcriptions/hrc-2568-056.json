@@ -1,22 +1,32 @@
 {
- "letter_id": "letters-2000/966#1",
- "text_from": "facsimile",
- "printed": {
-  "work": "letters-2000",
-  "locator": "p. 966"
- },
- "facsimile": {
-  "archive": "hrc",
-  "item": "2568",
-  "pages": [
-   56,
-   57
-  ]
- },
- "addressee": "Leonard Smithers",
- "context": "Wilde to Leonard Smithers, Tuesday 19 October 1897, Naples. Working out how to publish The Ballad of Reading Gaol - whether as a small edition or in a newspaper. He wrote to Robert Ross the same day from the same hotel about the same question; that letter is at Clark, p. 964.",
- "quote": "Hôtel Royal des Étrangers, Naples. Tuesday. Oct 19.\n\nDear Smithers, As an edition of 500 — of which 100 will go to press, author, etc. practically — will only just pay expenses, and leave me £20 in your debt — I now think that it would be better after all to publish the poem in a paper. It is too long for the Chronicle — and Frank Harris has been so offensive to me and about me that I don’t think negotiations possible with him.\n\nMy idea is _Reynolds_ — It has, for some odd reason, always been nice to me — and used to publish my poems when I was in prison — and write nicely about me. Also, it circulates widely amongst the criminal classes — to which I now belong — so I shall be read by my peers — a new experience for me — I have written to Robbie Ross about the matter.\n\nThere are, I think, still 400 people left amongst the lovers of poetry to buy our edition up.\n\nI have had a letter from Ernest Dowson to say he gave you £10 of his debt to me to send to me. This seems improbable, as I have heard nothing of it from you — but I have no doubt he ‘means well’ —\n\nI am eagerly waiting for the type-written copies —\n\nTruly Oscar Wilde",
- "marks_verified": true,
- "original_provenance": "Read at HRC 2568, images 56-57 - one bifolium of illustrated Hotel Royal des Etrangers, Naples paper: image 56 shows sides 1 and 2, image 57 sides 3 and 4. Emphasis: one underline, '_Reynolds_' - dark, flat, word-width, on side 2. This letter settles the title question in the hardest direction. 'Chronicle' sits eight lines above 'Reynolds' on the same sheet and is not underlined. Both are periodicals, both are set in italic by the volume, and only one of them carries a mark. Taken with '‘Saturday’' quoted at p. 1042 and 'Saturday' left plain at pp. 373 and 1036, his practice for a periodical title runs to all three treatments, sometimes within one letter. The printed italic therefore cannot tell you which - it conceals a real underline exactly as readily as it invents one. 'means well' is in his own inverted commas and the volume keeps them, consistent with its rule of converting quotes only for titles. Punctuation: his dashes throughout; the volume gives full stops and commas.",
- "transcribed_on": "2026-08-10"
+  "letter_id": "letters-2000/966#1",
+  "transcribed_from": "facsimile",
+  "printed": {
+    "work": "letters-2000",
+    "locator": "p. 966"
+  },
+  "facsimile": {
+    "archive": "hrc",
+    "item": "2568",
+    "pages": [
+      56,
+      57
+    ]
+  },
+  "addressee": "Leonard Smithers",
+  "context": "Wilde to Leonard Smithers, Tuesday 19 October 1897, Naples. Working out how to publish The Ballad of Reading Gaol - whether as a small edition or in a newspaper. He wrote to Robert Ross the same day from the same hotel about the same question; that letter is at Clark, p. 964.",
+  "quote": "Hôtel Royal des Étrangers, Naples. Tuesday. Oct 19.\n\nDear Smithers, As an edition of 500 — of which 100 will go to press, author, etc. practically — will only just pay expenses, and leave me £20 in your debt — I now think that it would be better after all to publish the poem in a paper. It is too long for the Chronicle — and Frank Harris has been so offensive to me and about me that I don’t think negotiations possible with him.\n\nMy idea is _Reynolds_ — It has, for some odd reason, always been nice to me — and used to publish my poems when I was in prison — and write nicely about me. Also, it circulates widely amongst the criminal classes — to which I now belong — so I shall be read by my peers — a new experience for me — I have written to Robbie Ross about the matter.\n\nThere are, I think, still 400 people left amongst the lovers of poetry to buy our edition up.\n\nI have had a letter from Ernest Dowson to say he gave you £10 of his debt to me to send to me. This seems improbable, as I have heard nothing of it from you — but I have no doubt he ‘means well’ —\n\nI am eagerly waiting for the type-written copies —\n\nTruly Oscar Wilde",
+  "marks_verified": true,
+  "original_provenance": "Read at HRC 2568, images 56-57 - one bifolium of illustrated Hotel Royal des Etrangers, Naples paper: image 56 shows sides 1 and 2, image 57 sides 3 and 4. Emphasis: one underline, '_Reynolds_' - dark, flat, word-width, on side 2. This letter settles the title question in the hardest direction. 'Chronicle' sits eight lines above 'Reynolds' on the same sheet and is not underlined. Both are periodicals, both are set in italic by the volume, and only one of them carries a mark. Taken with '‘Saturday’' quoted at p. 1042 and 'Saturday' left plain at pp. 373 and 1036, his practice for a periodical title runs to all three treatments, sometimes within one letter. The printed italic therefore cannot tell you which - it conceals a real underline exactly as readily as it invents one. 'means well' is in his own inverted commas and the volume keeps them, consistent with its rule of converting quotes only for titles. Punctuation: his dashes throughout; the volume gives full stops and commas.",
+  "transcribed_on": "2026-08-10",
+  "sender": "Oscar Wilde",
+  "written": {
+    "date": {
+      "weekday": "tuesday",
+      "d": 19,
+      "m": 10,
+      "y": 1897
+    },
+    "from": "Naples"
+  }
 }

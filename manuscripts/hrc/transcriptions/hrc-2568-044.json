@@ -1,21 +1,30 @@
 {
- "letter_id": "letters-2000/373#2",
- "text_from": "facsimile",
- "printed": {
-  "work": "letters-2000",
-  "locator": "p. 373"
- },
- "facsimile": {
-  "archive": "hrc",
-  "item": "2568",
-  "pages": [
-   44
-  ]
- },
- "addressee": "Oscar Browning",
- "context": "Wilde to Oscar Browning, [? December 1888], on Woman's World paper. Wilde was editing the magazine from Cassell's; Browning was a Cambridge don and a prolific contributor. He is commissioning an article and waiving a claim on an American lecture fee. 'Bobbie' is Robert Ross, then nineteen.",
- "quote": "Woman's World, La Belle Sauvage, Ludgate Hill, E.C., London\n\nDear O.B. Certainly: pillage the Americans who are rich, and get your £40. I would not dream of claiming the prior right.\n\nEn revange — do me the article on the Women Benefactors of Cambridge. —\n\nThe Saturday was silly — Give my love to Bobbie — who never writes to me.\n\nEver Oscar",
- "marks_verified": true,
- "original_provenance": "Read at HRC 2568, image 44 - one sheet of printed Woman's World / Cassell & Company stationery, the date line left as 'London, ____ 188'. Two sides. Emphasis: none. The volume italicises 'Saturday' as a periodical; it is plain in the hand, and the strokes above 'Saturday' and above 'to' are his long dashes, sitting above the line rather than under a word. Worth noting against p. 1042, where he did put 'Saturday' in inverted commas, and p. 1036, where he left it plain again. His own practice varies letter to letter and the edition's uniform italic conceals that. Reading: 'En revange' is his own spelling of 'revanche'; the volume prints it with a bracketed [sic], which is right, and it is kept here unmarked because the error is his. Punctuation: his dashes restored.",
- "transcribed_on": "2026-08-10"
+  "letter_id": "letters-2000/373#2",
+  "transcribed_from": "facsimile",
+  "printed": {
+    "work": "letters-2000",
+    "locator": "p. 373"
+  },
+  "facsimile": {
+    "archive": "hrc",
+    "item": "2568",
+    "pages": [
+      44
+    ]
+  },
+  "addressee": "Oscar Browning",
+  "context": "Wilde to Oscar Browning, [? December 1888], on Woman's World paper. Wilde was editing the magazine from Cassell's; Browning was a Cambridge don and a prolific contributor. He is commissioning an article and waiving a claim on an American lecture fee. 'Bobbie' is Robert Ross, then nineteen.",
+  "quote": "Woman's World, La Belle Sauvage, Ludgate Hill, E.C., London\n\nDear O.B. Certainly: pillage the Americans who are rich, and get your £40. I would not dream of claiming the prior right.\n\nEn revange — do me the article on the Women Benefactors of Cambridge. —\n\nThe Saturday was silly — Give my love to Bobbie — who never writes to me.\n\nEver Oscar",
+  "marks_verified": true,
+  "original_provenance": "Read at HRC 2568, image 44 - one sheet of printed Woman's World / Cassell & Company stationery, the date line left as 'London, ____ 188'. Two sides. Emphasis: none. The volume italicises 'Saturday' as a periodical; it is plain in the hand, and the strokes above 'Saturday' and above 'to' are his long dashes, sitting above the line rather than under a word. Worth noting against p. 1042, where he did put 'Saturday' in inverted commas, and p. 1036, where he left it plain again. His own practice varies letter to letter and the edition's uniform italic conceals that. Reading: 'En revange' is his own spelling of 'revanche'; the volume prints it with a bracketed [sic], which is right, and it is kept here unmarked because the error is his. Punctuation: his dashes restored.",
+  "transcribed_on": "2026-08-10",
+  "sender": "Oscar Wilde",
+  "written": {
+    "date": {
+      "inferred": true,
+      "uncertain": true,
+      "m": 12,
+      "y": 1888
+    }
+  }
 }

@@ -1,21 +1,32 @@
 {
- "letter_id": "letters-2000/1198#1",
- "text_from": "facsimile",
- "printed": {
-  "work": "letters-2000",
-  "locator": "p. 1198"
- },
- "facsimile": {
-  "archive": "hrc",
-  "item": "2676",
-  "pages": [
-   36
-  ]
- },
- "addressee": "Frank Harris",
- "context": "Wilde to Frank Harris, Tuesday [18 September 1900], Paris. A note arranging a meeting, two days before the quarrel about the play that the next letter settles.",
- "quote": "Hotel d’Alsace, Rue des Beaux-Arts. _Tuesday_.\n\nMy dear Frank, It will be a great delight to see you — but do telegraph beforehand: if you only send a wire from Calais, I may miss it.\n\nFor the rest of your letter many, many thanks.\n\nEver Oscar",
- "marks_verified": true,
- "original_provenance": "Read at HRC 2676, image 36 - one sheet of Grand Cafe, 14 Boulevard des Capucines paper, sides 1 (left) and 2 (right), the whole letter. Emphasis: one underline, the dateline '_Tuesday_'; the volume keeps the word and drops the mark. Nothing else is underlined. Cancellation: the printed Grand Cafe letterhead is struck through with a single long diagonal stroke in his ink, and 'Hotel d'Alsace' written under it. Another hand: 'Recd. 19th Sept. 1900.' across the head of side 1, not Wilde's. The volume reports this in a footnote and expands it to 'Received 19 September 1900'; the sheet has the abbreviations.",
- "transcribed_on": "2026-08-10"
+  "letter_id": "letters-2000/1198#1",
+  "transcribed_from": "facsimile",
+  "printed": {
+    "work": "letters-2000",
+    "locator": "p. 1198"
+  },
+  "facsimile": {
+    "archive": "hrc",
+    "item": "2676",
+    "pages": [
+      36
+    ]
+  },
+  "addressee": "Frank Harris",
+  "context": "Wilde to Frank Harris, Tuesday [18 September 1900], Paris. A note arranging a meeting, two days before the quarrel about the play that the next letter settles.",
+  "quote": "Hotel d’Alsace, Rue des Beaux-Arts. _Tuesday_.\n\nMy dear Frank, It will be a great delight to see you — but do telegraph beforehand: if you only send a wire from Calais, I may miss it.\n\nFor the rest of your letter many, many thanks.\n\nEver Oscar",
+  "marks_verified": true,
+  "original_provenance": "Read at HRC 2676, image 36 - one sheet of Grand Cafe, 14 Boulevard des Capucines paper, sides 1 (left) and 2 (right), the whole letter. Emphasis: one underline, the dateline '_Tuesday_'; the volume keeps the word and drops the mark. Nothing else is underlined. Cancellation: the printed Grand Cafe letterhead is struck through with a single long diagonal stroke in his ink, and 'Hotel d'Alsace' written under it. Another hand: 'Recd. 19th Sept. 1900.' across the head of side 1, not Wilde's. The volume reports this in a footnote and expands it to 'Received 19 September 1900'; the sheet has the abbreviations.",
+  "transcribed_on": "2026-08-10",
+  "sender": "Oscar Wilde",
+  "written": {
+    "date": {
+      "weekday": "tuesday",
+      "inferred": true,
+      "d": 18,
+      "m": 9,
+      "y": 1900
+    },
+    "from": "Paris"
+  }
 }

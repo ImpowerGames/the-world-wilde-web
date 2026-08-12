@@ -93,6 +93,64 @@ async function loadWeb() {
     }
     return c + (fmtOne(d, true) || String(d.y));
   }
+  // A letter's dating, built from its acts. There is no stored wording any more: the volume's
+  // hedging IS the structure — `inferred` is its brackets, `uncertain` its question mark, `circa`
+  // its "circa", `part` its "early"/"late", and `weekday` the day-name Wilde wrote, which sits
+  // OUTSIDE the brackets because the day is his and the date is the editors'. Every one of the 33
+  // transcriptions round-trips through this character for character, which is what let the stored
+  // string be dropped.
+  // A letter's dating, built from its acts. The volume's own wording is NOT reproduced: that was
+  // how the structure was proved complete enough to stop storing the string, not a display goal.
+  // Nothing cites this line, so it says what it means instead of what the editors printed.
+  //
+  //   Written 8 September 1900 · Postmarked 9 September 1900
+  //   Written circa 30 June 1894
+  //   Received 2 July 1891
+  //
+  // `inferred` is deliberately absent: it records that the date is not ON the document but was
+  // the reader says so below the letter. `circa` and `uncertain` stay - dropping them would put
+  // the date more confidently than the source does.
+  function fmtDatePart(d, withYear) {
+    if (!d) return "";
+    if (d.season) return withYear ? `${d.season} ${d.y}` : d.season;
+    if (!d.m) return withYear && d.y != null ? String(d.y) : "";
+    const y = withYear && d.y != null ? ` ${d.y}` : "";
+    return `${d.d ? d.d + " " : ""}${d.part && !d.d ? d.part + " " : ""}${MONTHS[d.m - 1]}${y}`;
+  }
+  function fmtDating(d) {
+    if (!d) return "";
+    let core = fmtDatePart(d, true);
+    // A RANGE. Same year and the year is said once at the end: "March–April 1891". The date
+    // schema has carried `to` all along for `evidence_date`; 65 letters in the volume need it.
+    const t = d.to;
+    if (t && !(t.y === d.y && t.m === d.m && t.d === d.d)) {
+      core =
+        t.y === d.y
+          ? `${fmtDatePart(d, false) || d.y}–${fmtDatePart(t, true) || t.y}`
+          : `${fmtDatePart(d, true) || d.y}–${fmtDatePart(t, true) || t.y}`;
+    }
+    if (!core) core = d.weekday ? "" : "date unknown";
+    if (d.circa) core = "circa " + core;
+    if (d.weekday) core = `${d.weekday[0].toUpperCase()}${d.weekday.slice(1)}${core ? " " + core : ""}`;
+    if (d.uncertain) core += " (?)";
+    return core;
+  }
+  // Lowercase: the dating is a clause inside the header sentence — "Wilde to Ives, postmarked
+  // 21 March 1898, Paris" — and a capital mid-clause reads as a mistake. Anything showing an act
+  // standalone can capitalise it there.
+  const ACT_LABEL = { written: "written", sent: "sent", postmarked: "postmarked",
+                      received: "received" };
+  function fmtLetterDating(t) {
+    return ["written", "sent", "postmarked", "received"]
+      .filter((a) => (t[a] || {}).date)
+      .map((a) => {
+        const act = t[a];
+        let s = `${ACT_LABEL[a]} ${fmtDating(act.date)}`.trim();
+        if (act.time) s += ` at ${act.time}`;
+        return s;
+      })
+      .join(" · ");
+  }
   function yearOf(d) {
     return d && d.y != null ? String(d.y) : "?";
   }
@@ -1770,6 +1828,30 @@ async function loadWeb() {
       /><path d="M10 10 L14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
       /></svg>View original</button>`;
   }
+  // Which letters have a full text. The ids alone ride in the bundle - a few KB - so a card can
+  // decide whether to draw the button without fetching a quarter of a megabyte of letters that
+  // most readers never open. The text itself comes on the first click.
+  let LETTERS = null;
+  const hasLetter = (q) =>
+    q && q.letter_id && (WEB.transcribed || []).includes(q.letter_id)
+      ? q.letter_id
+      : "";
+  function letterButton(q) {
+    const id = hasLetter(q);
+    if (!id) return "";
+    // Only worth pressing where the card shows less than the whole letter, which is the case it
+    // exists for - but an unelided quotation is still an excerpt of a longer document, so the
+    // button is offered either way and says which it is.
+    const cut = q.verification === "verified-elision";
+    return `<button class="qfacs qletter" data-letter="${esc(id)}" title="${esc(
+      cut
+        ? "This quotation is cut. Read the whole letter, with the quoted passage marked, and see what the ellipsis dropped."
+        : "Read the whole letter, with the quoted passage marked.",
+    )}"><svg class="qfacs-i" viewBox="0 0 16 16" aria-hidden="true" focusable="false"
+      ><path d="M3 2.5h10v11H3z" fill="none" stroke="currentColor" stroke-width="1.4"
+      /><path d="M5.2 5.5h5.6M5.2 8h5.6M5.2 10.5h3.2" stroke="currentColor" stroke-width="1.2"
+      stroke-linecap="round"/></svg>${cut ? "Read the whole letter" : "Read in full"}</button>`;
+  }
   function docChip(q) {
     const meta = DOC_META[q && q.document];
     if (!meta) return "";
@@ -1813,8 +1895,16 @@ async function loadWeb() {
     // from Self-Portrait, which names no locations, and placed by Delaney's biography — the
     // record says so itself in `recorded_by`.
     const wk = q && WEB.works[q.work];
-    const eds = wk && wk.editors ? wk.editors.split(";")[0].replace(/\s*\([^)]*\)/g, "").trim() : "";
-    const by = (loc && loc.recorded_by) || (eds && wk ? `${eds}, in ${wk.short_cite}` : "") ||
+    const eds =
+      wk && wk.editors
+        ? wk.editors
+            .split(";")[0]
+            .replace(/\s*\([^)]*\)/g, "")
+            .trim()
+        : "";
+    const by =
+      (loc && loc.recorded_by) ||
+      (eds && wk ? `${eds}, in ${wk.short_cite}` : "") ||
       (wk ? wk.short_cite : "");
     const said = by ? `Last recorded by ${by}` : "Last recorded";
     // Four of the locations are not institutions, and each needs its own sentence: "survives at
@@ -1852,18 +1942,18 @@ async function loadWeb() {
         ? `Last known at ${loc.full}, ${loc.as_of}. Nothing has been recorded of it since, and ` +
           `whoever took it home is not named.`
         : loc && loc.archived_as === "typescript"
-        ? `${said} as a TYPESCRIPT at ${loc.full} — not the document itself, and not a witness ` +
-          `to its emphasis, since whoever typed it had already read the underlining for you.`
-        : loc && loc.archived_as === "autograph"
-          ? `${said} as surviving in manuscript at ${loc.full}, though its kind would not lead ` +
-            `you to expect that.`
-          : ms
-            ? `${said} at ${loc.full}. This map does not hold a scan of it, and has not ` +
-              `confirmed the holding since.`
-            // The one location that is NOT a last-known claim. A facsimile draws the archive's
-            // own image service live, so the page you are looking at is proof the archive has
-            // it today - there is nothing stale to warn about.
-            : `Held at ${loc.full}, which serves the scan this map shows.`;
+          ? `${said} as a TYPESCRIPT at ${loc.full} — not the document itself, and not a witness ` +
+            `to its emphasis, since whoever typed it had already read the underlining for you.`
+          : loc && loc.archived_as === "autograph"
+            ? `${said} as surviving in manuscript at ${loc.full}, though its kind would not lead ` +
+              `you to expect that.`
+            : ms
+              ? `${said} at ${loc.full}. This map does not hold a scan of it, and has not ` +
+                `confirmed the holding since.`
+              : // The one location that is NOT a last-known claim. A facsimile draws the archive's
+                // own image service live, so the page you are looking at is proof the archive has
+                // it today - there is nothing stale to warn about.
+                `Held at ${loc.full}, which serves the scan this map shows.`;
     const msChip = loc
       ? `<button class="chip loc" data-loc="${esc(loc.short)}" aria-pressed="false" title="${esc(
           (SAID[loc.full] || held) + " Click to show only these.",
@@ -1876,6 +1966,7 @@ async function loadWeb() {
     const bits = [
       docChip(q),
       vLabel ? `<span class="chip ${vClass}">${vLabel}</span>` : "",
+      letterButton(q),
       facsButton(q),
       msChip,
     ].filter(Boolean);
@@ -2045,7 +2136,7 @@ async function loadWeb() {
   let reapplySrcFilter = null;
 
   const MARK_MIN = 2;
-  let PANEL_SRC = []; // {hay,y} per rendered card, indexed by its data-si
+  let PANEL_SRC = []; // {hay,y,doc,loc,q} per rendered card, indexed by its data-si
   function srcYear(q) {
     const d =
       q && q.evidence_date && q.evidence_date.y != null
@@ -2576,6 +2667,7 @@ async function loadWeb() {
           y: srcYear(f.q),
           doc: f.q.document || null,
           loc: (f.q.location || {}).short || null,
+          q: f.q,
         });
         return quoteCard(f.q, f, PANEL_SRC.length - 1);
       })
@@ -2681,6 +2773,7 @@ async function loadWeb() {
           y: srcYear(q),
           doc: q.document || null,
           loc: (q.location || {}).short || null,
+          q,
         });
         return quoteCard(q, null, PANEL_SRC.length - 1);
       })
@@ -2758,6 +2851,7 @@ async function loadWeb() {
           y: srcYear(f.q),
           doc: f.q.document || null,
           loc: (f.q.location || {}).short || null,
+          q: f.q,
         });
         return quoteCard(f.q, f, PANEL_SRC.length - 1);
       })
@@ -2978,6 +3072,32 @@ async function loadWeb() {
       h = w / aspect;
     tweenVB((x0 + x1) / 2 - w / 2, (y0 + y1) / 2 - h / 2, w, h, ms || 420);
   }
+  // A reader is a VIEW, so it gets a URL. Two things need care. Opening a reader from the router
+  // must not write the hash again, or every open bounces through `hashchange` a second time -
+  // hence `routing`. And closing must go back to the panel the reader was opened from rather
+  // than to nothing, which `readerReturn` remembers; `history.back()` would walk off the site
+  // for somebody who arrived on the link cold.
+  let routing = false;
+  let readerReturn = null;
+  function openReaderHash(h) {
+    if (routing) return;
+    readerReturn = location.hash.startsWith("#/letter/") || location.hash.startsWith("#/scan/")
+      ? readerReturn
+      : location.hash;
+    location.hash = h;
+  }
+  function closeReaderHash() {
+    if (routing) return;
+    const h = location.hash;
+    if (!h.startsWith("#/letter/") && !h.startsWith("#/scan/")) return;
+    location.hash = readerReturn || "";
+    readerReturn = null;
+  }
+  // A letter_id is "letters-2000/1044#1" - a slash AND a hash, both of which a fragment would
+  // read as structure. Encoded whole, so the id survives being a URL.
+  const letterHash = (id) => "#/letter/" + encodeURIComponent(id);
+  const scanHash = (f, n) => `#/scan/${f.archive}/${f.item}/${n}`;
+
   function route() {
     const h = location.hash;
     $("#btnList").setAttribute("aria-pressed", String(h === "#/list"));
@@ -2990,7 +3110,21 @@ async function loadWeb() {
     else if (h === "#/list") openList();
     else if (h === "#/about") renderAbout();
     else if (h === "#/contributing") renderContrib();
-    else closePanel();
+    else if (h.startsWith("#/letter/")) {
+      routing = true;
+      openLetter(decodeURIComponent(h.slice(9)), null);
+      routing = false;
+      return; // the reader sits over whatever panel was already there; do not close it
+    } else if (h.startsWith("#/scan/")) {
+      const [arc, item, page] = h.slice(7).split("/").map(decodeURIComponent);
+      routing = true;
+      openScan(arc, item, Number(page));
+      routing = false;
+      return;
+    } else closePanel();
+    // Leaving a reader route by any means - Back, an edited URL, a click elsewhere - closes it.
+    if (!LET_EL.hidden) closeLetter();
+    if (!FACS_EL.hidden) closeFacsimile();
   }
   addEventListener("hashchange", route);
   $("#btnList").addEventListener("click", () => {
@@ -3678,9 +3812,24 @@ async function loadWeb() {
     setZoom(false);
     drawThumbs();
     showPage(facsAt);
+    openReaderHash(scanHash(f, (facsPages[facsAt] || {}).n));
     $("#facsClose").focus();
   }
+  // From a link, all we have is an archive, an item and a page. Prefer the facsimile block of a
+  // source that actually cites those pages, so the reader groups the letter's own sheets ahead of
+  // the rest of the folder exactly as it would have from the card; fall back to the bare page.
+  function openScan(archive, item, page) {
+    const cited = FACS.find(
+      (f) => f.archive === archive && String(f.item) === String(item) &&
+        (f.pages || []).includes(page),
+    );
+    const f = cited || { archive, item, pages: [page] };
+    const { item: it } = facsItem(f);
+    if (!(it.pages || []).some((pp) => pp.n === page)) return;
+    openFacsimile(f, Math.max(0, (f.pages || []).indexOf(page)));
+  }
   function closeFacsimile() {
+    closeReaderHash();
     FACS_EL.hidden = true;
     document.body.style.overflow = "";
     FACS_IMG.removeAttribute("src"); // let a 300 KB scan go rather than hold every one opened
@@ -3693,6 +3842,9 @@ async function loadWeb() {
     const p = facsPages[facsAt],
       { f, arc, item } = FACS_EL.facs,
       of = item.pages.length;
+    if (!routing && !FACS_EL.hidden && location.hash.startsWith("#/scan/")) {
+      history.replaceState(null, "", scanHash(f, p.n));
+    }
     FACS_STAGE.classList.add("loading");
     FACS_IMG.src = iiif(arc, p, "full");
     FACS_IMG.alt = `Manuscript page ${p.n}${p.shelfmark ? `, shelfmark ${p.shelfmark}` : ""}`;
@@ -3841,10 +3993,174 @@ async function loadWeb() {
   document.addEventListener("click", (ev) => {
     const b = ev.target.closest && ev.target.closest(".qfacs");
     if (!b) return;
+    if (b.dataset.letter) {
+      openLetter(b.dataset.letter, b);
+      return;
+    }
     const f = FACS[+b.dataset.facs];
     if (!f) return;
     facsReturn = b;
     openFacsimile(f, 0);
+  });
+
+  // ---- the letter reader ---------------------------------------------------------------------
+  const LET_EL = $("#letter"),
+    LET_TEXT = $("#letterText"),
+    LET_NOTE = $("#letterNote"),
+    LET_FACS = $("#letterFacs");
+  let letterReturn = null;
+  // Find the quoted passage inside the whole letter and mark it. A quotation is an excerpt joined
+  // by ellipses, so each RUN between the ellipses is located separately and the gaps between them
+  // are what the cut dropped - which is the thing the reader opened this to see. Matching is done
+  // on a folded copy (spacing and quote marks normalised, since a transcription keeps the
+  // document's line breaks and a card's quote does not) with an index back to the real text, so a
+  // near-miss simply fails to mark rather than corrupting the letter.
+  function markQuoted(full, quote) {
+    // Matched on WORDS ALONE - letters, digits, single spaces, lowercased. Punctuation is dropped
+    // rather than normalised because the two texts are allowed to disagree about it and often do:
+    // the card quotes the printed edition, the transcription is what the manuscript says, and the
+    // whole reason for reading the document was that the editors normalise. On p. 1044 the volume
+    // has "Yes: I have no doubt we shall win, but the road is long" where the sheet has "Yes! …
+    // win — but". Anything stricter would fail to mark the passage exactly where the difference
+    // is most worth seeing. A difference in WORDS still fails, and should.
+    const fold = (s) => s.toLowerCase().replace(/[^a-z0-9]+/g, " ");
+    const map = [];
+    let flat = "";
+    for (let i = 0; i < full.length; i++) {
+      const f = fold(full[i]);
+      if (!f) continue;
+      if (f === " ") {
+        if (flat.endsWith(" ") || !flat) continue;
+        flat += " ";
+        map.push(i);
+        continue;
+      }
+      flat += f;
+      map.push(i);
+    }
+    const runs = [];
+    let from = 0;
+    for (const raw of quote.split(/\s*(?:…|\.\.\.)\s*/)) {
+      const probe = fold(raw).trim();
+      if (probe.length < 12) continue;
+      const at = flat.indexOf(probe, from);
+      if (at < 0) continue;
+      runs.push([map[at], map[at + probe.length - 1] + 1]);
+      from = at + probe.length;
+    }
+    if (!runs.length) return { html: esc(full), marked: false };
+    let out = "",
+      cur = 0;
+    for (const [a, b] of runs) {
+      out += esc(full.slice(cur, a)) + `<mark>${esc(full.slice(a, b))}</mark>`;
+      cur = b;
+    }
+    return { html: out + esc(full.slice(cur)), marked: true };
+  }
+  function drawLetter(t, q) {
+    const fac = t.transcribed_from === "facsimile";
+    // The bar carries IDENTITY, and it is BUILT FROM FIELDS. It was briefly cut out of the
+    // `context` paragraph instead, which meant a regex that had to know about initials ("Wilde to
+    // G. H. Kersley") and abbreviations ("p. 1044"), and a browser new enough for lookbehind —
+    // all to recover four values the transcriber knew when they wrote the file. The commentary in
+    // `context` is not repeated here: the card this reader opened from is already showing it.
+    //
+    // `dated` keeps the volume's own wording, brackets and all, because "[? April 1889]" is the
+    // editors saying how sure they are and a normalised date would throw that away.
+    const ident = [
+      `${t.sender || "Wilde"} to ${t.addressee || "—"}`,
+      fmtLetterDating(t),
+      (t.written || {}).from,
+    ]
+      .filter(Boolean)
+      .join(", ");
+    $(".lname", LET_EL).textContent = ident;
+    $(".lwhen", LET_EL).textContent = t.printed
+      ? `${(WEB.works[t.printed.work] || {}).short_cite || t.printed.work}, ${t.printed.locator}`
+      : "";
+    const { html, marked } =
+      q && q.quote
+        ? markQuoted(t.quote, q.quote)
+        : { html: esc(t.quote), marked: false };
+    LET_TEXT.innerHTML = html
+      .split(/\n{2,}/)
+      .map((p) => `<p>${fmtEmphasis(p).replace(/\n/g, "<br>")}</p>`)
+      .join("");
+    // What this text can and cannot settle. A transcription read off the images is a witness to
+    // emphasis; one retyped from the edition is not, and saying so here is the same distinction
+    // the card's chips make about the document itself.
+    // One line stays: whether this text can be trusted for emphasis is the reader's business and
+    // is a sentence long. The reading notes behind it are the transcriber's business - which
+    // dashes were restored, what the descender of an 'f' settles - and run to a paragraph that
+    // would dwarf a short letter. Collapsed, not dropped.
+    const notes = [t.transcription_note, t.original_provenance].filter(Boolean);
+    LET_NOTE.innerHTML =
+      `<p><b>${fac ? "Transcribed from the original manuscript." : "Transcribed from the printed edition."}</b> ` +
+      (fac
+        ? "Any emphasis marks are the writer's own and are faithfully reproduced here."
+        : "The writer's emphasis markings have been normalized and may not match the original written document.") +
+      (marked ? " The passage the card quotes is highlighted." : "") +
+      `</p>` +
+      // `inferred` says the date is not written on the document — somebody worked it out, which is
+      // precision, which is why the header states the date plainly and the qualification lives
+      // here. Named per act, because a letter can have one dated and another supplied.
+      (() => {
+        const sup = ["written", "sent", "postmarked", "received"].filter(
+          (a) => ((t[a] || {}).date || {}).inferred,
+        );
+        return sup.length
+          ? `<p>The ${sup.join(" and ")} date${sup.length > 1 ? "s are" : " is"} the editors', ` +
+            `not the writer's — supplied in the edition rather than written on the document.</p>`
+          : "";
+      })() +
+      (notes.length
+        ? `<details><summary>How it was read</summary><div>${notes
+            .map((n) => `<p>${esc(n)}</p>`)
+            .join("")}</div></details>`
+        : "");
+    LET_FACS.hidden = !t.facsimile;
+    LET_FACS.onclick = t.facsimile
+      ? () => {
+          closeLetter();
+          facsReturn = letterReturn;
+          openFacsimile(t.facsimile, 0);
+        }
+      : null;
+  }
+  function openLetter(id, from) {
+    letterReturn = from || null;
+    const show = () => {
+      const t = (LETTERS || {})[id];
+      if (!t) return;
+      // The card the button sits on, so the quotation can be marked inside the letter. Cards are
+      // rebuilt on every filter keystroke, so it is read from the DOM at click time.
+      const card = from && from.closest && from.closest("[data-si]");
+      const q = card ? (PANEL_SRC[+card.dataset.si] || {}).q : null;
+      drawLetter(t, q);
+      openReaderHash(letterHash(id));
+      LET_EL.hidden = false;
+      document.body.style.overflow = "hidden";
+      $("#letterClose").focus();
+    };
+    if (LETTERS) return show();
+    fetch("data/transcriptions.json")
+      .then((r) => r.json())
+      .then((d) => {
+        LETTERS = d.letters || {};
+        show();
+      })
+      .catch(() => {});
+  }
+  function closeLetter() {
+    closeReaderHash();
+    LET_EL.hidden = true;
+    document.body.style.overflow = "";
+    if (letterReturn && document.contains(letterReturn)) letterReturn.focus();
+    letterReturn = null;
+  }
+  $("#letterClose").addEventListener("click", closeLetter);
+  addEventListener("keydown", (ev) => {
+    if (!LET_EL.hidden && ev.key === "Escape") closeLetter();
   });
   addEventListener("keydown", (ev) => {
     if (FACS_EL.hidden) return;

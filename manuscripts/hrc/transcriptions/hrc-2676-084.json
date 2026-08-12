@@ -1,22 +1,33 @@
 {
- "letter_id": "letters-2000/535#1",
- "text_from": "facsimile",
- "printed": {
-  "work": "letters-2000",
-  "locator": "p. 535"
- },
- "facsimile": {
-  "archive": "hrc",
-  "item": "2676",
-  "pages": [
-   84,
-   85
-  ]
- },
- "addressee": "Frank Harris",
- "context": "Wilde to Frank Harris, [circa 10 August 1892], London. The earliest Harris letter in this folder, six years before the exile ones and written from the top of his success — Lady Windermere's Fan running, just back from a cure at Homburg. 'The poet' is John Gray.",
- "quote": "My dear Frank. I have just come back from Homburg — and was charmed to hear from John Gray you were in town — I am going down to the Lyric Club — I should like to see you in the course of the evening. I hope the poet will be dining with me, but thought to find him here.\n\nYour last story had a most delicate ending — honey in the lion’s mouth; — most subtle and suggestive.\n\nHere is the poet — we are off —\n\nEver Oscar",
- "marks_verified": true,
- "original_provenance": "Read at HRC 2676, images 84-85 - one bifolium: image 84 shows sides 4 (left) and 1 (right), image 85 the inner opening, sides 2 and 3. Written in pencil throughout, unlike every other Harris letter in this folder, which are in ink. Emphasis: none across the four sides, a null finding, and the volume prints no italic in this letter either - the two agree. Read with care, and a new faker for the list: two strokes here look like a strikethrough of 'the' on side 2 and an underline near 'the lion's mouth' on side 3. At 4x both resolve as Wilde's long terminal tail on 'the' - the stroke emerges from the final 'e' and runs right at x-height, crossing nothing and sitting under nothing. That is the second habitual shape of his that fakes a mark, after the long crossbar on his t; in pencil it is harder to dismiss by ink weight, so the test has to be where the stroke starts. Another hand: 'Frank Harris' is written large at the foot of side 4, with a heavy diagonal stroke across the page. Not Wilde's, and it reads as a docket naming the correspondent. Punctuation: his dashes restored; Locating the printed page: the folio 535 is OCR-mangled in our text mirror, and the PDF offset here is +20, not the +45 that holds in the 1040-1210 range - the page map is genuinely non-monotonic. Found by searching the mirror for 'Homburg' and stepping to the right leaf. 1173 - stand, because there the edition read a real difference.",
- "transcribed_on": "2026-08-10"
+  "letter_id": "letters-2000/535#1",
+  "transcribed_from": "facsimile",
+  "printed": {
+    "work": "letters-2000",
+    "locator": "p. 535"
+  },
+  "facsimile": {
+    "archive": "hrc",
+    "item": "2676",
+    "pages": [
+      84,
+      85
+    ]
+  },
+  "addressee": "Frank Harris",
+  "context": "Wilde to Frank Harris, [circa 10 August 1892], London. The earliest Harris letter in this folder, six years before the exile ones and written from the top of his success — Lady Windermere's Fan running, just back from a cure at Homburg. 'The poet' is John Gray.",
+  "quote": "My dear Frank. I have just come back from Homburg — and was charmed to hear from John Gray you were in town — I am going down to the Lyric Club — I should like to see you in the course of the evening. I hope the poet will be dining with me, but thought to find him here.\n\nYour last story had a most delicate ending — honey in the lion’s mouth; — most subtle and suggestive.\n\nHere is the poet — we are off —\n\nEver Oscar",
+  "marks_verified": true,
+  "original_provenance": "Read at HRC 2676, images 84-85 - one bifolium: image 84 shows sides 4 (left) and 1 (right), image 85 the inner opening, sides 2 and 3. Written in pencil throughout, unlike every other Harris letter in this folder, which are in ink. Emphasis: none across the four sides, a null finding, and the volume prints no italic in this letter either - the two agree. Read with care, and a new faker for the list: two strokes here look like a strikethrough of 'the' on side 2 and an underline near 'the lion's mouth' on side 3. At 4x both resolve as Wilde's long terminal tail on 'the' - the stroke emerges from the final 'e' and runs right at x-height, crossing nothing and sitting under nothing. That is the second habitual shape of his that fakes a mark, after the long crossbar on his t; in pencil it is harder to dismiss by ink weight, so the test has to be where the stroke starts. Another hand: 'Frank Harris' is written large at the foot of side 4, with a heavy diagonal stroke across the page. Not Wilde's, and it reads as a docket naming the correspondent. Punctuation: his dashes restored; Locating the printed page: the folio 535 is OCR-mangled in our text mirror, and the PDF offset here is +20, not the +45 that holds in the 1040-1210 range - the page map is genuinely non-monotonic. Found by searching the mirror for 'Homburg' and stepping to the right leaf. 1173 - stand, because there the edition read a real difference.",
+  "transcribed_on": "2026-08-10",
+  "sender": "Oscar Wilde",
+  "written": {
+    "date": {
+      "inferred": true,
+      "circa": true,
+      "d": 10,
+      "m": 8,
+      "y": 1892
+    },
+    "from": "London"
+  }
 }

@@ -16,6 +16,7 @@ Exit code is non-zero when validation fails, so it can gate a pull request.
 UTF-8 without BOM throughout.
 """
 import argparse
+import calendar
 import json
 import re
 import sys
@@ -151,7 +152,16 @@ MANUSCRIPTS = ROOT / "manuscripts"
 # Outside ROOT, so `publish.py` - which copies ROOT and nothing else - never sees it. The full
 # text of every letter read from the printed edition lives there; only the cited ones cross.
 TRANSCRIPTIONS = ROOT.parent / "transcriptions"
-TEXT_FROM = {"facsimile", "edition"}
+# Names the sibling block the text was read off: a record usually carries BOTH a
+# `facsimile` and a `printed`, and this says which one was transcribed.
+TRANSCRIBED_FROM = {"facsimile", "printed"}
+# Four acts, in the order a letter goes through them. `received` is a receiving
+# postmark or a docket - "[Date of receipt 2 July 1891]" - which the volume gives
+# for 13 letters and which is neither writing, posting, nor handing in at a counter.
+ACTS = ("written", "sent", "postmarked", "received")
+ACT_FIELDS = {"date", "from", "time"}
+LETTER_FOLIO = re.compile(r"^[^/]+/(\d+)")
+YEAR = re.compile(r"\b(?:18|19|20)\d\d\b")
 
 # What the `MS …` chip prints. The full name is the citation and stays in the record; this is the
 # label, and mostly it is the volume's own abbreviation from its key at pp. xxii-xxv - a reader of
@@ -222,7 +232,55 @@ def load(p: Path):
         return {"__load_error__": f"{p.name}: {e}"}
 
 
-def load_transcriptions(errors):
+# Text may carry a tab, a newline and a carriage return. Every other C0 control, and DEL, is
+# damage: nothing here types one on purpose.
+LEGAL_CONTROL = {0x09, 0x0A, 0x0D}
+CONTROL_NAME = {0x00: "NUL", 0x07: "BEL", 0x08: "BACKSPACE", 0x0B: "VERTICAL TAB",
+                0x0C: "FORM FEED", 0x1A: "SUB", 0x1B: "ESC", 0x7F: "DEL"}
+TEXT_SUFFIXES = {".json", ".jsonc", ".js", ".css", ".html", ".md", ".py", ".txt", ".svg"}
+
+
+def check_control_characters(errors):
+    """Refuse a source file carrying a control character nobody typed.
+
+    This catches a specific, silent failure. Sending a script through a shell heredoc in this
+    environment eats one level of backslash, so `\b` reaches the interpreter as a BACKSPACE byte
+    and `\00` as a NUL, and the byte is written into whatever the script was editing. Nothing
+    complains: the file still parses, an editor still renders it, and grep still matches around
+    it. It has happened twice - a NUL into circle.css, two backspaces into this very file - and
+    both times it was found by eye, long after.
+
+    A build is the right place to catch it because the damage is invisible at every other stage.
+    """
+    seen = 0
+    for f in sorted(ROOT.rglob("*")) + sorted(TRANSCRIPTIONS.rglob("*")):
+        if not f.is_file() or f.suffix.lower() not in TEXT_SUFFIXES:
+            continue
+        seen += 1
+        try:
+            raw = f.read_bytes()
+        except OSError:
+            continue
+        for i, b in enumerate(raw):
+            if b in LEGAL_CONTROL or (b >= 0x20 and b != 0x7F):
+                continue
+            line = raw.count(b"\n", 0, i) + 1
+            col = i - (raw.rfind(b"\n", 0, i) + 1) + 1
+            try:
+                where = f.relative_to(ROOT.parent)
+            except ValueError:
+                where = f
+            errors.append(
+                f"{where}: {CONTROL_NAME.get(b, hex(b))} control character at line {line}, "
+                f"column {col}. Nobody types one of these - it is almost always a backslash "
+                f"escape that a shell ate before the interpreter saw it. Rewrite the file with "
+                f"the byte removed, and write the script that produced it to a FILE rather than "
+                f"piping it through a heredoc")
+            break  # one report per file; the fix is the same for all of them
+    return seen
+
+
+def load_transcriptions(errors, people=()):
     """Every full-text transcription we hold, from both stores, keyed by letter_id.
 
     TWO STORES, one shape. A transcription read from a FACSIMILE is our own reading of a
@@ -238,47 +296,153 @@ def load_transcriptions(errors):
     THE TWO STORES ARE SHAPED DIFFERENTLY, for reasons that belong to each. The facsimile store is
     one file per transcription, `<archive>/transcriptions/<item>-<image>.json`, so that two people
     transcribing different letters never touch the same file and an interrupted run leaves its
-    finished work behind. The edition store stays one file per WORK, because its entries are not
-    independent - which of them publish is decided together, by what the map cites.
+    finished work behind. That matters most for the edition store, which a long agent run fills a
+    letter at a time and which this environment will interrupt.
     """
+    known, surnames = set(), {}
+    for pp in people:
+        for n in [pp.get("name")] + list(pp.get("aka") or []):
+            if not n:
+                continue
+            known.add(n.lower())
+            # Keyed on the surname of the NAME OR ANY AKA, so "Wilde" finds Constance Lloyd too;
+            # valued by the person's canonical name, deduped because a name and an aka often
+            # share a surname and listing somebody twice reads like two people.
+            who = surnames.setdefault(n.split()[-1].lower(), [])
+            if pp["name"] not in who:
+                who.append(pp["name"])
     out = {}
-    files = ([(f, True) for f in sorted(MANUSCRIPTS.glob("*/transcriptions/*.json"))] +
-             [(f, False) for f in sorted(TRANSCRIPTIONS.glob("*.json"))])
-    for f, one_per_file in files:
+    files = (sorted(MANUSCRIPTS.glob("*/transcriptions/*.json")) +
+             sorted(TRANSCRIPTIONS.glob("*/*.json")))
+    for f in files:
         where = f.parent.name + "/" + f.name
         try:
             doc = json.loads(f.read_text(encoding="utf-8"))
         except Exception as e:
             errors.append(f"{where}: unreadable ({e})")
             continue
-        entries = [doc] if one_per_file else (doc.get("letters") or [])
-        for i, t in enumerate(entries):
-            at = where if one_per_file else f"{where}[{i}]"
+        for t in [doc]:
+            at = where
             lid = t.get("letter_id")
             if not isinstance(lid, str) or not LETTER_ID.match(lid or ""):
                 errors.append(f"{at}: letter_id is what joins a transcription to the quotations "
                               f"of the same document, and must be present and well formed, "
                               f"got {lid!r}")
                 continue
-            # `text_from` is inferred for the facsimile store, whose entries predate the field and
-            # sit next to the images that prove it.
-            kind = t.get("text_from") or ("facsimile" if t.get("facsimile") else None)
-            if kind not in TEXT_FROM:
-                errors.append(f"{at}: text_from must be 'facsimile' or 'edition' - it decides "
+            # NOT inferred from the presence of a facsimile block. It was, for entries that
+            # predated the field - none remain - and the inference quietly accepted a record
+            # whose field name was mistyped, on the one field that decides whether a
+            # transcription publishes at all. Stated or refused.
+            kind = t.get("transcribed_from")
+            if kind not in TRANSCRIBED_FROM:
+                errors.append(f"{at}: transcribed_from must be 'facsimile' or 'printed' - it decides "
                               f"both whether this publishes and whether it can be read for "
-                              f"emphasis, so it is not inferred, got {t.get('text_from')!r}")
-            if kind == "edition" and t.get("marks_verified"):
+                              f"emphasis, so it is not inferred, got {t.get('transcribed_from')!r}")
+            if kind == "printed" and t.get("marks_verified"):
                 errors.append(f"{at}: marks_verified on a transcription taken from the printed "
                               f"edition. There is nothing there to verify: the editors print "
                               f"underlining, titles and foreign words as one italic. Only a "
                               f"facsimile settles emphasis")
-            if kind == "edition" and t.get("facsimile"):
-                errors.append(f"{at}: carries a facsimile but says text_from 'edition'. If the "
+            if kind == "printed" and t.get("facsimile"):
+                errors.append(f"{at}: carries a facsimile but says transcribed_from 'printed'. If the "
                               f"text was read off the images, it belongs in that archive's "
                               f"transcriptions/ folder and publishes whole")
             if not (t.get("quote") or "").strip():
                 errors.append(f"{at}: a transcription with no text")
-            if one_per_file:
+            # The id and the locator describe the same letter here, so they have to agree. This
+            # is the mistyped id the run will actually produce: one that matches no citation
+            # publishes nothing, in silence, and looks just like a letter nobody has cited yet.
+            fol = LETTER_FOLIO.match(lid)
+            loc_n = re.search(r"\d+", (t.get("printed") or {}).get("locator") or "")
+            if fol and loc_n and fol.group(1) != loc_n.group(0):
+                errors.append(f"{at}: letter_id says folio {fol.group(1)} but printed.locator "
+                              f"says {(t.get('printed') or {}).get('locator')!r}. They name the "
+                              f"same letter, so one of them is mistyped - and a wrong id "
+                              f"publishes nothing, silently")
+            # The reader builds its header from these - "Wilde to George Ives, postmarked
+            # 21 March 1898, Paris" - rather than cutting the first sentence out of `context`,
+            # which needed a regex that knew about initials and abbreviations to recover what the
+            # transcriber knew all along. `written_from` is optional because some letters give none.
+            # Written as the person's own `name`, the way `speaker` is on a source, so the two
+            # ends of a letter read alike and can be linked to their nodes. The volume's idiom is
+            # a surname - "Wilde to George Ives" - and copying that leaves one end of every
+            # letter in a different register from the other.
+            for field in ("sender", "addressee"):
+                v = (t.get(field) or "").strip()
+                who = surnames.get(v.lower(), ())
+                if v and v.lower() not in known and who:
+                    # Fires however many people share the surname. An earlier version only spoke
+                    # up when it could name ONE replacement, which let through the commonest case
+                    # on this map: "Wilde", where the ambiguity is the whole problem - there are
+                    # three of them, and the volume's idiom means the sender field.
+                    errors.append(f"{at}: {field} {v!r} is a surname, and "
+                                  f"{'more than one person here has it: ' if len(who) > 1 else 'this map has '}"
+                                  f"{', '.join(repr(x) for x in sorted(who))}. Write the full name "
+                                  f"as the person's own `name` - the rule `speaker` follows, and "
+                                  f"what lets a correspondent be linked to their node")
+            # ONE FIELD PER ACT, each carrying when and where that act happened:
+            #
+            #   "written":    {"date": {...}, "from": "New Travellers Club, Piccadilly"}
+            #   "postmarked": {"date": {...}, "from": "Paris"}
+            #   "sent":       {"date": {...}, "from": "Paris", "time": "3.50 p.m."}
+            #
+            # Writing, posting and handing in are ACTS, and an act has a when and a where, so the
+            # two travel together and the three fields are parallel by construction. The earlier
+            # `written_on` / `written_from` pairs were not: `written_on` reads as the paper it was
+            # written on, and nothing sensible lines up beside `postmarked_from`.
+            #
+            # EITHER HALF MAY BE MISSING, and which is missing is itself the finding. A letter
+            # headed "postmarked 21 March 1898" from Paris knows where he wrote it and not when,
+            # so `written` carries a `from` and no date while `postmarked` carries the date.
+            dated_acts = 0
+            for a in [a for a in ACTS if t.get(a) is not None]:
+                act = t[a]
+                if not isinstance(act, dict):
+                    errors.append(f"{at}.{a}: must be an object with a `date` and/or a `from`")
+                    continue
+                unknown = set(act) - ACT_FIELDS
+                if unknown:
+                    errors.append(f"{at}.{a}: unknown field(s) {sorted(unknown)} - an act carries "
+                                  f"{', '.join(sorted(ACT_FIELDS))}")
+                if not (act.get("date") or act.get("from")):
+                    errors.append(f"{at}.{a}: an act with neither a date nor a place says "
+                                  f"nothing; leave it out")
+                for f2 in ("from", "time"):
+                    if f2 in act and not (isinstance(act[f2], str) and act[f2].strip()):
+                        errors.append(f"{at}.{a}.{f2}: must be a non-empty string")
+                dt = act.get("date")
+                if dt is None:
+                    continue
+                if not isinstance(dt, dict):
+                    errors.append(f"{at}.{a}.date: must be an object like {{'y': 1900, 'm': 9}}")
+                    continue
+                dated_acts += 1
+                check_date({k: v for k, v in dt.items() if k != "certainty"},
+                           f"{at}.{a}.date", errors)
+                # NOT `y` required. The volume dates a few letters "Saturday night" or
+                # "Thursday 3 June" - the writer's own heading, which the editors could not pin
+                # to a year - and demanding one would force an invention. A date must say
+                # something; a weekday alone is something. It sorts last, which is honest.
+                if not any(isinstance(dt.get(k), int) for k in ("y", "m", "d")) \
+                        and not dt.get("weekday") and not dt.get("season"):
+                    errors.append(f"{at}.{a}.date: says nothing - give it a year, a month, a "
+                                  f"day, a season or the weekday the writer wrote. An empty "
+                                  f"date is an act with no date, so leave the date out instead")
+                # `certainty` belongs to the DATE, not the letter: in "Tuesday [? early October
+                # 1899]" the day-name is Wilde's and the date is the editors' guess.
+                if dt.get("certainty") not in (None, "conjectured"):
+                    errors.append(f"{at}.{a}.date: certainty is 'conjectured' or absent, got "
+                                  f"{dt.get('certainty')!r}. There is no 'stated' - a date the "
+                                  f"volume prints plainly simply carries nothing")
+            if not dated_acts:
+                errors.append(f"{at}: no structured date on any of {', '.join(ACTS)} - the "
+                              f"letter sorts nowhere and the reader cannot name it")
+            for field in ("sender", "addressee"):
+                if not (t.get(field) or "").strip():
+                    errors.append(f"{at}: {field} is required - the reader names the "
+                                  f"document from these fields, and the dating from `written`, "
+                                  f"`postmarked` and `sent`")
+            if kind == "facsimile":
                 # The filename is chosen so that it FOLLOWS from the file's own facsimile block -
                 # archive, item, first image - with nothing to look up. That is the reason it is
                 # not the archive's page identifier, which would need a manifest join to derive,
@@ -295,7 +459,7 @@ def load_transcriptions(errors):
                 errors.append(f"{at}: letter_id {lid!r} is transcribed twice, in {out[lid]['at']} "
                               f"as well. One document, one transcription")
                 continue
-            out[lid] = {**t, "text_from": kind, "at": at}
+            out[lid] = {**t, "transcribed_from": kind, "at": at}
     return out
 
 
@@ -730,6 +894,34 @@ def date_sort_key(d):
     return (d.get("y") or 0, d.get("m") or 0, d.get("d") or 0)
 
 
+# What a date object may contain, and nothing else. `check_date` used to reject only
+# year/month/day, so any other key - a typo'd `dd`, a `mm` - passed silently on all 1037 dates in
+# the corpus and sorted wrong forever. The vocabulary is one vocabulary: `circa` is spelled that
+# way because 138 dates already use it and the browser already prints it "c.".
+#
+#   y m d      as far as the source goes
+#   t          time, 24-hour "HH:MM", normalised so it sorts; the wording it came from is gone
+#   weekday    a day-name the WRITER gave, which is evidence even when the date is a guess
+#   part       early | mid | late - a part of the month
+#   season     instead of a month
+#   circa      approximately
+#   uncertain  the editors' question mark
+#   inferred   the document does not bear this date; somebody worked it out.
+#              Names no agent on purpose - it may be the edition's editors, a
+#              biographer, or us, dating a letter from its own contents
+#   to label   a range, and the escape hatch for what a date object cannot say
+DATE_FIELDS = {"y", "m", "d", "t", "weekday", "part", "season",
+               "circa", "uncertain", "inferred", "to", "label"}
+DATE_PARTS = {"early", "mid", "late"}
+DATE_SEASONS = {"spring", "summer", "autumn", "winter"}
+# Lowercase like every other enum here. English capitalises a day-name; that is the
+# renderer's business, not the record's.
+WEEKDAY_ORDER = ["monday", "tuesday", "wednesday", "thursday", "friday",
+                 "saturday", "sunday"]
+WEEKDAYS = set(WEEKDAY_ORDER)
+TIME_HHMM = re.compile(r"^([01]\d|2[0-3]):[0-5]\d$")
+
+
 def check_date(d, where, errors, _depth=0):
     if d is None:
         return
@@ -757,6 +949,45 @@ def check_date(d, where, errors, _depth=0):
     if bad:
         errors.append(f"{where}: date uses {sorted(bad)}; the fields are y/m/d "
                       f"- such a date silently displays as 'date unknown'")
+    unknown = set(d) - DATE_FIELDS - {"why"}
+    if unknown:
+        errors.append(f"{where}: date has unknown field(s) {sorted(unknown)}. A date carries "
+                      f"{', '.join(sorted(DATE_FIELDS))} - anything else is a typo that would "
+                      f"sort wrong in silence")
+    if d.get("part") is not None and d["part"] not in DATE_PARTS:
+        errors.append(f"{where}: part is {', '.join(sorted(DATE_PARTS))}, got {d['part']!r}")
+    if d.get("season") is not None and d["season"] not in DATE_SEASONS:
+        errors.append(f"{where}: season is {', '.join(sorted(DATE_SEASONS))}, "
+                      f"got {d['season']!r}")
+    wd = d.get("weekday")
+    if wd is not None and wd not in WEEKDAYS:
+        errors.append(f"{where}: weekday is one of "
+                      f"{', '.join(sorted(WEEKDAYS, key=WEEKDAY_ORDER.index))} - the day-name "
+                      f"the writer gave, spelled out. Got {wd!r}")
+    # Where the date is complete the weekday can be checked against the calendar, and a clash is
+    # worth stopping for. Usually it is a slip in transcription. Occasionally it is a real
+    # finding: the writer wrote "Tuesday", the editors supplied a date, and the date they chose
+    # was not a Tuesday - which is the editors being wrong, and worth saying out loud rather
+    # than storing a contradiction in silence. Six of the seven weekdays on this map are
+    # checkable and all six agree, four of them on dates the editors supplied.
+    elif wd and all(isinstance(d.get(k), int) for k in ("y", "m", "d")):
+        try:
+            real = calendar.day_name[calendar.weekday(d["y"], d["m"], d["d"])].lower()
+        except ValueError:
+            real = None
+        if real and real != wd:
+            errors.append(f"{where}: weekday says {wd!r} but "
+                          f"{d['d']}/{d['m']}/{d['y']} was a {real}. Either the transcription "
+                          f"slipped, or the date the editors supplied contradicts the day-name "
+                          f"the writer gave - which is a finding, and belongs in "
+                          f"`transcription_note` with the weekday dropped")
+    if d.get("t") is not None and not (isinstance(d["t"], str) and TIME_HHMM.match(d["t"])):
+        errors.append(f"{where}: t is a 24-hour time, \"HH:MM\" - normalised so it sorts, with "
+                      f"the source's own wording nowhere near it. Got {d.get('t')!r}")
+    for flag in ("circa", "uncertain", "inferred"):
+        if flag in d and d[flag] is not True:
+            errors.append(f"{where}: {flag} is true or absent - there is no false, an absent "
+                          f"flag already says so. Got {d[flag]!r}")
         return
     y = d.get("y")
     if y is not None and not (1700 < y < 2000):
@@ -1409,7 +1640,9 @@ def main():
 
     errors, warnings = validate(works, people, rels, archives)
     # Loaded after the sources so its own errors join theirs and one run reports everything.
-    transcriptions = load_transcriptions(errors)
+    scanned = check_control_characters(errors)
+    transcriptions = load_transcriptions(
+        errors, [p for p in people if "__load_error__" not in p])
     dash, vq = dashboard([p for p in people if "__load_error__" not in p],
                          [r for r in rels if "__load_error__" not in r])
     print(dash)
@@ -1503,7 +1736,7 @@ def main():
     # Leakage is a build failure, not something anybody has to remember. By construction nothing
     # uncited is here; the assertion is what keeps that true after somebody edits the loop above.
     leaked = sorted(k for k, t in public.items()
-                    if k not in cited and t.get("text_from") == "edition")
+                    if k not in cited and t.get("transcribed_from") == "printed")
     if leaked:
         sys.exit(f"REFUSING TO WRITE: {len(leaked)} transcription(s) from the printed edition "
                  f"that nothing cites would have been published — {', '.join(leaked[:5])}")
@@ -1514,6 +1747,10 @@ def main():
     bundle = {"people": kept_people,
               "relationships": kept_rels,
               "works": works, "portraits": portraits, "archives": arc_meta,
+              # Ids only. A card has to decide whether to offer "read the whole letter" while it
+              # is being drawn, and drawing happens on every filter keystroke; the letters
+              # themselves are a separate fetch made once, on the first click.
+              "transcribed": sorted(public),
               "about": md_html(ROOT / "ABOUT.md"),
               "contributing": md_html(ROOT / "CONTRIBUTING.md"),
               "built": date.today().isoformat()}
@@ -1528,7 +1765,13 @@ def main():
         print(f"{pages} manuscript pages indexed in {len(arc_meta)} archive(s); "
               f"{fac_count} source(s) show a facsimile, {loc_count} name where the document is")
     held = len(transcriptions)
-    from_ed = sum(1 for t in transcriptions.values() if t["text_from"] == "edition")
+    from_ed = sum(1 for t in transcriptions.values() if t["transcribed_from"] == "printed")
+    print(f"{scanned} text files scanned for stray control characters")
+    waiting = sorted(k for k, t in transcriptions.items()
+                     if t["transcribed_from"] == "printed" and k not in cited)
+    if waiting:
+        print(f"{len(waiting)} edition transcription(s) cite-less and therefore unpublished - "
+              f"expected while the reading runs ahead of the map, worth a look if it climbs")
     print(f"wrote {tout.relative_to(ROOT)}: {len(public)} of {len(cited)} cited letters have a "
           f"full text ({held} transcribed in all, {from_ed} from the printed edition and private "
           f"unless cited)")

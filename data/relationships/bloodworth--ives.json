@@ -1,9 +1,6 @@
 {
   "id": "bloodworth--ives",
-  "people": [
-    "bloodworth",
-    "ives"
-  ],
+  "people": ["bloodworth", "ives"],
   "certainty": "self-reported",
   "certainty_status": "proposed",
   "certainty_reasoning": "Cook (2014), p. 101, glosses the household nickname 'Cubby' as Charles Gee. Brian Lewis states that this is an error of Cook's: Cubby was Harold Holt, as Cook's own earlier book (2003, p. 146) has it, and Charles Gee's nickname was a different one, recorded here as Wobby or Wubby with the spelling not yet settled. The diary passage below therefore names Bloodworth and Holt. With that settled, the strongest evidence on this edge is Ives's own diary: 'I feel sad. I love those two, deeply, tenderly [.] Love's quite different from passion [.] to sleep side by side with one's comrade is beyond all worlds beautiful. Not exciting, but oh such a protection and sympathy, of healing to the heart's many wounds' - a participant's own words about Bloodworth, quoted by Cook from Diary vol. 76.",
@@ -14,7 +11,7 @@
     "y": 1950
   },
   "date_label": "Moved into the Adelaide Road household 1909; stayed until Ives's death, 1950 (Cook).",
-  "summary": "Harold Bloodworth ('Pug'), described by Cook as 'a teenage footballer', moved into Ives's Adelaide Road, Primrose Hill household in 1909 and remained for the rest of Ives's life - the longest-staying of the working- and lower-middle-class men Ives paternalistically called his 'children'. No first-person characterisation by either man survives in any source read; Ives's diaries at the Harry Ransom Center are where one would be.",
+  "summary": "Harold Bloodworth ('Pug'), described by Cook as 'a teenage footballer', moved into Ives's Adelaide Road, Primrose Hill household in 1909 and remained for the rest of Ives's life - the longest-staying of the working- and lower-middle-class men Ives paternalistically called his 'children'.",
   "sources": [
     {
       "quote": "When Pug and another long term resident Cubby (Charles Gee) were both away he wrote in his diary: 'I feel sad. I love those two, deeply, tenderly [.] Love's quite different from passion [.] to sleep side by side with one's comrade is beyond all worlds beautiful. Not exciting, but oh such a protection and sympathy, of healing to the heart's many wounds'.",

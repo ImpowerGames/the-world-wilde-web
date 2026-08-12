@@ -156,11 +156,30 @@ This was called `exchange` and defined as period text with more than one speaker
 
 **A quotation not in English keeps its own language and gains a translation.** Set `lang` and `translation`; the validator refuses one without the other. A quotation that reads as French, German, Italian or Latin and carries no `lang` draws a warning, and a translation parked inside `context` is a hard error. If the warning is wrong — an English quotation dense with French phrases — ignore it; it does not fail the build.
 
-### Dates
+## Dates
 
-`evidence_date` is **the date of the thing evidenced** — the day the letter was written, the diary entry made, the testimony sworn. It is a claim about the event itself, not the date the source was published later. Add `"circa": true` when it is approximate — approximate meaning **the value itself is in doubt**, not that a finer unit is missing: Wilde and Douglas met in 1891, a year the editors state outright with only the month uncertain, so that is not `circa`.
+**Date schema.** These fields apply to every date on the map — `evidence_date`, `born`, `died`, `start`, `end`, and the dates on a transcription.
 
-When the thing happened across a **span**, give the date a `to` rather than writing the range into a `label`: `{"y": 1897, "m": 1, "to": {"y": 1897, "m": 3}}` displays as _January–March 1897_, and every range on the map is then spelled the same way. `label` is for what a date object cannot say at all; the validator refuses a date carrying both.
+| Field       | Value                               | Description                                                                 |
+| ----------- | ----------------------------------- | --------------------------------------------------------------------------- |
+| `y` `m` `d` |                                     | as far as the source goes — see below on what a date must say               |
+| `t`         | `"15:50"`                           | a 24-hour time                                                              |
+| `weekday`   | `monday` … `sunday`                 | the day of the week the writer gave                                         |
+| `part`      | `early` `mid` `late`                | a part of the month                                                         |
+| `season`    | `spring` `summer` `autumn` `winter` | in place of a month                                                         |
+| `circa`     | `true`                              | approximately                                                               |
+| `uncertain` | `true`                              | the date may be wrong                                                       |
+| `inferred`  | `true`                              | the document does not record this date; it was inferred through other means |
+
+Add `"circa": true` when the date is in the right neighbourhood but may be slightly off.
+
+Add `"uncertain": true` if the date may be wrong altogether.
+
+Add `inferred:true` if the date was not written on the document itself — somebody else worked it out, whether the volume's editors, a biographer, or you, dating a letter from its own contents.
+
+For date ranges, use `to`. `{"y": 1897, "m": 1, "to": {"y": 1897, "m": 3}}` displays as _January–March 1897_.
+
+`evidence_date` is **the date of the thing evidenced** — the day the letter was written, the diary entry made, the testimony sworn. It is a claim about the event itself, not the date the source was published later.
 
 Sources display in chronological order. If a source is undated, use **`order_hint`** instead:
 
@@ -169,7 +188,7 @@ Sources display in chronological order. If a source is undated, use **`order_hin
 "order_hint": {"y": 1897, "m": 8, "why": "Sox says outright \"We do not know exactly when Fothergill appeared\". Wilde's letter of 21 September counts the six days as falling inside his last month at Berneval, so the visit sits in August or early September."}
 ```
 
-It sorts exactly as a date would, and it is not a date. The card will say — _"Undated — placed here for reading order: …"_. The validator enforces both: a source may not carry `evidence_date` and `order_hint` together, and an `order_hint` without a `why` is an error.
+It sorts exactly as a date would. The card will say — _"Undated — placed here for reading order: …"_.
 
 ### Verification
 
@@ -302,6 +321,31 @@ Two optional fields say where the original is. A source may carry at most one of
 ```
 
 Write the repository out in full, as it should read on the card — not the abbreviation the Complete Letters print. This is the most common case by far: of the letters this map quotes from that volume, eight have manuscripts at the Ransom Center and around a hundred are at the Clark.
+
+### Transcribing letters
+
+A letter transcription file should be included for each letter:
+
+```jsonc
+// web/manuscripts/hrc/transcriptions/hrc-2700-019.json
+{
+  "letter_id": "letters-2000/1044#1", // links the transcription with every quotation of it
+  "transcribed_from": "facsimile", // or "printed"
+  "printed": { "work": "letters-2000", "locator": "p. 1044" },
+  "facsimile": { "archive": "hrc", "item": "2700", "pages": [19, 20] },
+  "sender": "Oscar Wilde", // the full name of the sender
+  "addressee": "George Ives", // the full name of the receiver
+  "postmarked": { "date": { "y": 1898, "m": 3, "d": 21 } },
+  "written": { "from": "Paris" },
+  "quote": "…", // the whole letter, salutation to signature
+  "marks_verified": true,
+  "transcribed_on": "2026-08-10",
+}
+```
+
+**Dates & Locations**: `written`, `sent`, `postmarked`, `received` should all be recorded as `{ date, from?, time? }`. A date may carry `to` for a span — _[March–April 1891]_.
+
+**Transcribe the whole letter, salutation to signature.**
 
 ---
 

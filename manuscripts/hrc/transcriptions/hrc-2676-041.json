@@ -1,22 +1,33 @@
 {
- "letter_id": "letters-2000/1042#1",
- "text_from": "facsimile",
- "printed": {
-  "work": "letters-2000",
-  "locator": "pp. 1042-1043"
- },
- "facsimile": {
-  "archive": "hrc",
-  "item": "2676",
-  "pages": [
-   41,
-   42
-  ]
- },
- "addressee": "Frank Harris",
- "context": "Wilde to Frank Harris, [circa 20 March 1898], Hotel de Nice, Paris. On Harris's Shakespeare essay in the Saturday Review, and on the paper arriving regularly - 'To read it, keeps me in touch with you'. He is living under an assumed name and says so as a joke: the office is to be told of any change of name, address, or personal appearance.",
- "quote": "Hotel de Nice, Rue des Beaux-Arts, Paris.\n\nMy dear Frank, The ‘Saturday’ arrived last night, and I read your article on Shakespeare with intense interest — and this morning I got your letter. I am much obliged for your kind promise to let me have the ‘Saturday’ regularly, and I will duly acquaint the office with any change of name, address, or personal appearance — To read it, keeps me in touch with you — and though you do not blow through all the horns and flutes, or beat on _all_ the drums, still I feel you are there — just as in the old days there was always the aroma of poor old Lady Pollock’s weak tea and literary twaddle — the ‘five o’clock’ of their reminiscences and butter — I envy you your phrase the ‘rose-mist of passion’ — you should save it for a sonnet —\n\nI wish you would have a good article on Aubrey Beardsley — as a personality — Robbie Ross knew him intimately.\n\nEver Oscar",
- "marks_verified": true,
- "original_provenance": "Read at HRC 2676, images 41-42 - one bifolium: image 41 shows sides 4 (left) and 1 (right), image 42 the inner opening, sides 2 and 3. Emphasis: one underline, '_all_' in 'beat on _all_ the Drums' - short, flat, the width of the word, on side 3. The volume sets it in italic and keeps it. This is the third case where a printed italic on an ordinary English word turned out to be a real mark, after '_post-dated_' and '_not_' at pp. 1199-1201, and it is the reason that test is worth applying. Title: the paper is ‘Saturday’, in his own inverted commas, twice, and not underlined; the volume sets it in italic both times. Fourth instance of that conversion in this pass. He uses the same single quotes for ‘five o’clock’ and for Harris's phrase ‘rose-mist of passion’, and there the volume keeps the quotes - so the edition converts quotes to italic only when what is quoted is a title, which is exactly the rule that hides his practice. Punctuation: his dashes restored throughout. The comma in 'To read it, keeps me in touch' is his. 1044.",
- "transcribed_on": "2026-08-10"
+  "letter_id": "letters-2000/1042#1",
+  "transcribed_from": "facsimile",
+  "printed": {
+    "work": "letters-2000",
+    "locator": "pp. 1042-1043"
+  },
+  "facsimile": {
+    "archive": "hrc",
+    "item": "2676",
+    "pages": [
+      41,
+      42
+    ]
+  },
+  "addressee": "Frank Harris",
+  "context": "Wilde to Frank Harris, [circa 20 March 1898], Hotel de Nice, Paris. On Harris's Shakespeare essay in the Saturday Review, and on the paper arriving regularly - 'To read it, keeps me in touch with you'. He is living under an assumed name and says so as a joke: the office is to be told of any change of name, address, or personal appearance.",
+  "quote": "Hotel de Nice, Rue des Beaux-Arts, Paris.\n\nMy dear Frank, The ‘Saturday’ arrived last night, and I read your article on Shakespeare with intense interest — and this morning I got your letter. I am much obliged for your kind promise to let me have the ‘Saturday’ regularly, and I will duly acquaint the office with any change of name, address, or personal appearance — To read it, keeps me in touch with you — and though you do not blow through all the horns and flutes, or beat on _all_ the drums, still I feel you are there — just as in the old days there was always the aroma of poor old Lady Pollock’s weak tea and literary twaddle — the ‘five o’clock’ of their reminiscences and butter — I envy you your phrase the ‘rose-mist of passion’ — you should save it for a sonnet —\n\nI wish you would have a good article on Aubrey Beardsley — as a personality — Robbie Ross knew him intimately.\n\nEver Oscar",
+  "marks_verified": true,
+  "original_provenance": "Read at HRC 2676, images 41-42 - one bifolium: image 41 shows sides 4 (left) and 1 (right), image 42 the inner opening, sides 2 and 3. Emphasis: one underline, '_all_' in 'beat on _all_ the Drums' - short, flat, the width of the word, on side 3. The volume sets it in italic and keeps it. This is the third case where a printed italic on an ordinary English word turned out to be a real mark, after '_post-dated_' and '_not_' at pp. 1199-1201, and it is the reason that test is worth applying. Title: the paper is ‘Saturday’, in his own inverted commas, twice, and not underlined; the volume sets it in italic both times. Fourth instance of that conversion in this pass. He uses the same single quotes for ‘five o’clock’ and for Harris's phrase ‘rose-mist of passion’, and there the volume keeps the quotes - so the edition converts quotes to italic only when what is quoted is a title, which is exactly the rule that hides his practice. Punctuation: his dashes restored throughout. The comma in 'To read it, keeps me in touch' is his. 1044.",
+  "transcribed_on": "2026-08-10",
+  "sender": "Oscar Wilde",
+  "written": {
+    "date": {
+      "inferred": true,
+      "circa": true,
+      "d": 20,
+      "m": 3,
+      "y": 1898
+    },
+    "from": "Hotel de Nice, Paris"
+  }
 }

@@ -1,22 +1,32 @@
 {
- "letter_id": "letters-2000/412#1",
- "text_from": "facsimile",
- "printed": {
-  "work": "letters-2000",
-  "locator": "p. 412"
- },
- "facsimile": {
-  "archive": "hrc",
-  "item": "2568",
-  "pages": [
-   42,
-   43
-  ]
- },
- "addressee": "Charles Ricketts",
- "context": "Wilde to Charles Ricketts, [? autumn 1889], 16 Tite Street. Ricketts and Charles Shannon, who lived together at the Vale in Chelsea and designed most of Wilde's books, had given him a picture and let him believe it was a genuine Clouet. He is playing along.",
- "quote": "16, Tite Street, Chelsea S.W.\n\nMy dear Ricketts, _It_ is not a forgery at all — It is an authentic Clouet. Of the highest artistic value — it is absurd of you and Shannon to try and take me in — as if I did not know the master’s touch, or was no judge of frames!\n\nSeriously, my dear fellow, it is quite wonderful, and your giving it to me is an act so charming that in despair at showing you any return I at once call upon the Gods to shower gold and roses in the Vale, or on that part of the vale where the De Morgans do not live — I am really most grateful — (no: that is a horrid word; I am never grateful.) I am flattered and fascinated, and I hope we shall always be friends and see each other often.\n\nI must come round and enjoy the company of the Dialists — par nobile as they are.\n\nSincerely yours Oscar Wilde",
- "marks_verified": true,
- "original_provenance": "Read at HRC 2568, images 42-43 - one bifolium of 16 Tite Street paper: image 42 shows sides 4 (left) and 1 (right), image 43 the inner opening, sides 2 and 3. The edition moves the emphasis, and this is the only case of it in the pass so far. The manuscript underlines '_It_' in '_It_ is not a forgery at all' - a flat, dark, word-width stroke on side 1, confirmed at 3x. The volume prints that roman. The volume instead italicises 'artistic' in 'of the highest artistic value', and 'artistic' carries no underline on the sheet, checked at the same magnification. So the edition both loses a mark and adds one, and the sentence it emphasises is not the sentence Wilde emphasised: his stress is on the picture being genuine, the volume's is on the kind of value it has. Confirmed by Lovelle 2026-08-10, on the sheet: '_It_' is underlined and 'artistic' is not. So this is an error in the Complete Letters, not an ambiguity - the edition prints an emphasis Wilde did not make and drops the one he did. It is the only instance found in this pass, across 33 letters, and it is worth citing as such: the volume is overwhelmingly reliable on words and unreliable on marks, and here it is wrong about a mark in both directions at once. Nothing else on the four sides is underlined. 'par nobile' is not underlined; the volume italicises it as Latin, its usual convention. Reading: 'no judge of frames' - the volume has 'frames' and so does the sheet.",
- "transcribed_on": "2026-08-10"
+  "letter_id": "letters-2000/412#1",
+  "transcribed_from": "facsimile",
+  "printed": {
+    "work": "letters-2000",
+    "locator": "p. 412"
+  },
+  "facsimile": {
+    "archive": "hrc",
+    "item": "2568",
+    "pages": [
+      42,
+      43
+    ]
+  },
+  "addressee": "Charles Ricketts",
+  "context": "Wilde to Charles Ricketts, [? autumn 1889], 16 Tite Street. Ricketts and Charles Shannon, who lived together at the Vale in Chelsea and designed most of Wilde's books, had given him a picture and let him believe it was a genuine Clouet. He is playing along.",
+  "quote": "16, Tite Street, Chelsea S.W.\n\nMy dear Ricketts, _It_ is not a forgery at all — It is an authentic Clouet. Of the highest artistic value — it is absurd of you and Shannon to try and take me in — as if I did not know the master’s touch, or was no judge of frames!\n\nSeriously, my dear fellow, it is quite wonderful, and your giving it to me is an act so charming that in despair at showing you any return I at once call upon the Gods to shower gold and roses in the Vale, or on that part of the vale where the De Morgans do not live — I am really most grateful — (no: that is a horrid word; I am never grateful.) I am flattered and fascinated, and I hope we shall always be friends and see each other often.\n\nI must come round and enjoy the company of the Dialists — par nobile as they are.\n\nSincerely yours Oscar Wilde",
+  "marks_verified": true,
+  "original_provenance": "Read at HRC 2568, images 42-43 - one bifolium of 16 Tite Street paper: image 42 shows sides 4 (left) and 1 (right), image 43 the inner opening, sides 2 and 3. The edition moves the emphasis, and this is the only case of it in the pass so far. The manuscript underlines '_It_' in '_It_ is not a forgery at all' - a flat, dark, word-width stroke on side 1, confirmed at 3x. The volume prints that roman. The volume instead italicises 'artistic' in 'of the highest artistic value', and 'artistic' carries no underline on the sheet, checked at the same magnification. So the edition both loses a mark and adds one, and the sentence it emphasises is not the sentence Wilde emphasised: his stress is on the picture being genuine, the volume's is on the kind of value it has. Confirmed by Lovelle 2026-08-10, on the sheet: '_It_' is underlined and 'artistic' is not. So this is an error in the Complete Letters, not an ambiguity - the edition prints an emphasis Wilde did not make and drops the one he did. It is the only instance found in this pass, across 33 letters, and it is worth citing as such: the volume is overwhelmingly reliable on words and unreliable on marks, and here it is wrong about a mark in both directions at once. Nothing else on the four sides is underlined. 'par nobile' is not underlined; the volume italicises it as Latin, its usual convention. Reading: 'no judge of frames' - the volume has 'frames' and so does the sheet.",
+  "transcribed_on": "2026-08-10",
+  "sender": "Oscar Wilde",
+  "written": {
+    "date": {
+      "inferred": true,
+      "uncertain": true,
+      "season": "autumn",
+      "y": 1889
+    },
+    "from": "16 Tite Street"
+  }
 }

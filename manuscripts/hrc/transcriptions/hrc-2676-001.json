@@ -1,22 +1,33 @@
 {
- "letter_id": "letters-2000/1093#2",
- "text_from": "facsimile",
- "printed": {
-  "work": "letters-2000",
-  "locator": "pp. 1093-1094"
- },
- "facsimile": {
-  "archive": "hrc",
-  "item": "2676",
-  "pages": [
-   1,
-   2
-  ]
- },
- "addressee": "Frank Harris",
- "context": "Wilde to Frank Harris, postmarked 13 August 1898, Hotel d'Alsace. Praising Harris's Shakespeare criticism by quoting his own Intentions back into it, and then asking for the £10 again. The two halves of almost every Harris letter in this folder.",
- "quote": "From M. Sebastian Melmoth, Hotel d’Alsace, Rue des Beaux-Arts, Paris\n\nMy dear Frank. How are you? I read your appreciation of Rodin’s ‘Balzac’ with immense pleasure, and am looking forward to more Shakespeare — You will of course put all your Shakespearean essays into a book, and, equally of course, I must have a copy. It is a great era in Shakespearean criticism, the first time that one has looked in the plays, not for philosophy, for there is none, but for the wonder of a great personality — something far better, and far more mysterious, than any philosophy — It is a great thing that you have done.\n\nI remember writing once in ‘Intentions’ that the more objective a work of art is in form, the more subjective it really is in matter — and that it is only when you give the poet a mask that he can tell you the truth. But you have shown it fully in the case of the one artist whose personality was supposed to be a mystery of deep seas, a secret as impenetrable as the secret of the moon.\n\nParis is terrible in its heat. I walk in streets of brass. And there is no one here. Even the criminal classes have gone to the seaside, and the gendarmes yawn and regret their enforced idleness. Giving wrong directions to the English tourists in the Rue des Beaux-Arts only consoles them.\n\nYou were most kind and generous last month in letting me have the £10 — it gives me just the margin to live on and to live by. May I have it again this month? Or has gold flowed away from you?\n\nEver Oscar",
- "marks_verified": true,
- "original_provenance": "Read at HRC 2676, images 1-2 - one bifolium: image 1 shows sides 4 (left) and 1 (right), image 2 the inner opening, sides 2 and 3. Heading: 'From M. Sebastian Melmoth, Hotel d'Alsace' - the sixth and last appearance of the exile name in this folder, and the volume drops it as it drops the other five. Emphasis: none across the four sides, a null finding. Titles, and the rule they finally settle: '‘Balzac’' and '‘Intentions’' are both in Wilde's own inverted commas here. The volume keeps the quotes on 'Balzac' and converts 'Intentions' to italic. Taken with p. 1042, where it keeps ‘five o'clock’ and ‘rose-mist of passion’ and converts ‘Saturday’, the edition's rule is now clear: it converts his quotation marks to italic for book, play and periodical titles, and leaves them alone for everything else. Rodin's statue keeps its quotes because a sculpture is not in that class. So the erasure is not arbitrary - it falls exactly on the class of thing a researcher is most likely to be citing. Punctuation: 'My dear Frank.' takes his full stop, where the volume gives a comma.",
- "transcribed_on": "2026-08-10"
+  "letter_id": "letters-2000/1093#2",
+  "transcribed_from": "facsimile",
+  "printed": {
+    "work": "letters-2000",
+    "locator": "pp. 1093-1094"
+  },
+  "facsimile": {
+    "archive": "hrc",
+    "item": "2676",
+    "pages": [
+      1,
+      2
+    ]
+  },
+  "addressee": "Frank Harris",
+  "context": "Wilde to Frank Harris, postmarked 13 August 1898, Hotel d'Alsace. Praising Harris's Shakespeare criticism by quoting his own Intentions back into it, and then asking for the £10 again. The two halves of almost every Harris letter in this folder.",
+  "quote": "From M. Sebastian Melmoth, Hotel d’Alsace, Rue des Beaux-Arts, Paris\n\nMy dear Frank. How are you? I read your appreciation of Rodin’s ‘Balzac’ with immense pleasure, and am looking forward to more Shakespeare — You will of course put all your Shakespearean essays into a book, and, equally of course, I must have a copy. It is a great era in Shakespearean criticism, the first time that one has looked in the plays, not for philosophy, for there is none, but for the wonder of a great personality — something far better, and far more mysterious, than any philosophy — It is a great thing that you have done.\n\nI remember writing once in ‘Intentions’ that the more objective a work of art is in form, the more subjective it really is in matter — and that it is only when you give the poet a mask that he can tell you the truth. But you have shown it fully in the case of the one artist whose personality was supposed to be a mystery of deep seas, a secret as impenetrable as the secret of the moon.\n\nParis is terrible in its heat. I walk in streets of brass. And there is no one here. Even the criminal classes have gone to the seaside, and the gendarmes yawn and regret their enforced idleness. Giving wrong directions to the English tourists in the Rue des Beaux-Arts only consoles them.\n\nYou were most kind and generous last month in letting me have the £10 — it gives me just the margin to live on and to live by. May I have it again this month? Or has gold flowed away from you?\n\nEver Oscar",
+  "marks_verified": true,
+  "original_provenance": "Read at HRC 2676, images 1-2 - one bifolium: image 1 shows sides 4 (left) and 1 (right), image 2 the inner opening, sides 2 and 3. Heading: 'From M. Sebastian Melmoth, Hotel d'Alsace' - the sixth and last appearance of the exile name in this folder, and the volume drops it as it drops the other five. Emphasis: none across the four sides, a null finding. Titles, and the rule they finally settle: '‘Balzac’' and '‘Intentions’' are both in Wilde's own inverted commas here. The volume keeps the quotes on 'Balzac' and converts 'Intentions' to italic. Taken with p. 1042, where it keeps ‘five o'clock’ and ‘rose-mist of passion’ and converts ‘Saturday’, the edition's rule is now clear: it converts his quotation marks to italic for book, play and periodical titles, and leaves them alone for everything else. Rodin's statue keeps its quotes because a sculpture is not in that class. So the erasure is not arbitrary - it falls exactly on the class of thing a researcher is most likely to be citing. Punctuation: 'My dear Frank.' takes his full stop, where the volume gives a comma.",
+  "transcribed_on": "2026-08-10",
+  "sender": "Oscar Wilde",
+  "written": {
+    "from": "Hotel d'Alsace"
+  },
+  "postmarked": {
+    "date": {
+      "d": 13,
+      "m": 8,
+      "y": 1898
+    }
+  }
 }

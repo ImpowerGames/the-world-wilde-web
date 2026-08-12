@@ -184,6 +184,28 @@
       <div class="fthumbs" id="facsThumbs"></div>
     </div>
 
+    <!-- The letter reader. A card quotes an excerpt, and 31% of the letter quotations here carry
+     an elision; this is where a reader sees what the cut left out. The quoted passage is marked
+     inside the whole letter, so the question "what did the ellipsis drop" is answered by looking
+     rather than by hunting. Fetched on demand from data/transcriptions.json, which carries the
+     letters this map cites and no others. -->
+    <div id="letter" role="dialog" aria-modal="true" aria-label="Full letter" hidden>
+      <div class="fbar">
+        <div class="ftitle">
+          <span class="lname"></span>
+          <span class="lwhen" role="status" aria-live="polite"></span>
+        </div>
+        <div class="fbtns">
+          <button class="fbtn" id="letterFacs" hidden>View original</button>
+          <button class="fbtn fclose" id="letterClose">Close</button>
+        </div>
+      </div>
+      <div class="lstage" id="letterStage">
+        <article class="ltext" id="letterText"></article>
+        <div class="lnote" id="letterNote"></div>
+      </div>
+    </div>
+
     <script src="assets/js/web.js"></script>
   </body>
 </html>
