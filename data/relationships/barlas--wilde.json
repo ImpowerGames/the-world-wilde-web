@@ -34,11 +34,15 @@
       },
       "supports": "Wilde making light of standing surety for him, and the terms he puts the friendship in: brothers, spring, days of song and joy, 'Your affectionate friend'.",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "PDF p. 531.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF p. 531.",
       "verified_on": "2026-08-05",
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "British Library, London (Lady Eccles Oscar Wilde Collection)"
+      },
+      "letter_id": "letters-2000/511#2"
     },
     {
       "work": "letters-2000",
@@ -55,11 +59,15 @@
       },
       "supports": "Wilde vouching for him a second time within a month — and the sign-off, which is the warmest formula in either letter.",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "PDF p. 532.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF p. 532.",
       "verified_on": "2026-08-05",
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "British Library, London (Lady Eccles Oscar Wilde Collection)"
+      },
+      "letter_id": "letters-2000/512#1"
     }
   ],
   "date_label": "January-February 1892, around Barlas's arrest and bail"

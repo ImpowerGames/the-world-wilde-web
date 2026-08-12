@@ -34,9 +34,13 @@
       "how_verified": "text-layer",
       "voice": "period",
       "verified_on": "2026-08-04",
-      "provenance": "PDF p. 1223, printed folio 1177 read on the rendered page. 'café' is italicized in the printed text.",
+      "citation_provenance": "PDF p. 1223, printed folio 1177 read on the rendered page. 'café' is italicized in the printed text.",
       "addressee": "Robert Ross",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "William Andrews Clark Memorial Library, UCLA"
+      },
+      "letter_id": "letters-2000/1177#1"
     }
   ]
 }

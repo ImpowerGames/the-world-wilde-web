@@ -26,11 +26,15 @@
       },
       "supports": "That she existed, that Wilde knew her, and the name he had for her.",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "PDF p. 672.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF p. 672.",
       "verified_on": "2026-08-05",
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "Arents Tobacco Collection, New York Public Library"
+      },
+      "letter_id": "letters-2000/620#1"
     },
     {
       "work": "letters-2000",
@@ -47,11 +51,15 @@
       },
       "supports": "The one thing the record preserves about her — that she greeted a disgraced man warmly in public, and what it meant to him.",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "PDF p. 1239.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF p. 1239.",
       "verified_on": "2026-08-05",
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "Arents Tobacco Collection, New York Public Library"
+      },
+      "letter_id": "letters-2000/1193#3"
     }
   ]
 }

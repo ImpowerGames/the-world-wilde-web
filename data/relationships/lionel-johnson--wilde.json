@@ -33,11 +33,15 @@
       },
       "supports": "The first approach, unannounced and from Wilde's side.",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "PDF p. 445.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF p. 445. The volume names no manuscript for the poem: it says the whole of it \"was first printed in Mason's Art and Morality (1912), and is in The Complete Poems of Lionel Johnson (1953)\".",
       "verified_on": "2026-08-05",
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "Private collection"
+      },
+      "letter_id": "letters-2000/423#1"
     },
     {
       "work": "letters-2000",
@@ -54,11 +58,16 @@
       },
       "supports": "Wilde following up the next day: he wants to know the poet as well as the poems.",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "PDF p. 445.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF p. 445.",
       "verified_on": "2026-08-05",
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "Private collection",
+        "owner": "Mr Martin Secker"
+      },
+      "letter_id": "letters-2000/423#2"
     },
     {
       "work": "letters-2000",
@@ -75,11 +84,12 @@
       },
       "supports": "Johnson stating in his own hand that he is in love with Wilde.",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "PDF p. 445.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF p. 445.",
       "verified_on": "2026-08-05",
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "letter_id": "letters-2000/423#2"
     },
     {
       "work": "letters-2000",
@@ -96,11 +106,11 @@
       },
       "supports": "Johnson thanking Wilde for Dorian Gray in Latin verse, 'for friendship's sake'.",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "PDF p. 445.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF p. 445.",
       "verified_on": "2026-08-05",
       "voice": "period",
-      "document": "letter"
+      "document": "poem"
     },
     {
       "work": "letters-2000",
@@ -115,10 +125,11 @@
       },
       "supports": "The introduction of Douglas, and the reversal that followed it.",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "PDF p. 445.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF p. 445.",
       "verified_on": "2026-08-05",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "editorial-note"
     }
   ]
 }

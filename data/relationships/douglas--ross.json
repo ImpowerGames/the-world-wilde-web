@@ -35,9 +35,10 @@
       "supports": "The assertion at issue: McKenna states a Douglas-Ross relationship 'sexual as well as emotional'. Note it is McKenna's own characterization, and that he dates the meeting to 1893.",
       "verification": "verified-exact",
       "how_verified": "text-layer",
-      "provenance": "PDF p. 378 (ebook conversion; no printed folios)",
+      "citation_provenance": "PDF p. 378 (ebook conversion; no printed folios)",
       "verified_on": "2026-08-03",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "biography"
     },
     {
       "quote": "If I had followed his example and kept the letters he wrote to me, I could have showed that he professed devotion and admiration for me in as extravagant terms as those used by Oscar.",
@@ -49,7 +50,7 @@
       "supports": "Douglas's own words - the only participant testimony on this pair. They attest devotion and admiration professed by Ross, not a sexual relationship; the sexual reading is McKenna's addition.",
       "verification": "verified-exact",
       "how_verified": "text-layer",
-      "provenance": "PDF p. 378 (ebook conversion; no printed folios)",
+      "citation_provenance": "PDF p. 378 (ebook conversion; no printed folios)",
       "verified_on": "2026-08-03",
       "voice": "period",
       "speaker": "Lord Alfred Douglas, Autobiography",
@@ -67,9 +68,10 @@
       "supports": "The standard editorial account of Douglas's entry into Wilde's orbit — via Johnson in 1891; the apparatus nowhere derives the introduction from Ross or states a Ross–Douglas affair.",
       "verification": "verified-exact",
       "how_verified": "text-layer",
-      "provenance": "PDF p. 445.",
+      "citation_provenance": "PDF p. 445.",
       "verified_on": "2026-08-03",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "editorial-note"
     },
     {
       "quote": "My dearest Bobbie, Bosie has insisted on stopping here for sandwiches. He is quite like a narcissus – so white and gold. I will come either Wednesday or Thursday night to your rooms. Send me a line. Bosie is so tired: he lies like a hyacinth on the sofa, and I worship him. You dear boy. Ever yours OSCAR",
@@ -89,11 +91,15 @@
       "supports": "By mid-1892 Wilde writes to Ross about Bosie in terms assuming familiarity; the two men are co-members of the inner circle.",
       "verification": "verified-exact",
       "how_verified": "text-layer",
-      "provenance": "PDF p. 546.",
+      "citation_provenance": "PDF p. 546.",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Robert Ross",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "William Andrews Clark Memorial Library, UCLA"
+      },
+      "letter_id": "letters-2000/526#1"
     },
     {
       "quote": "I subsequently discovered that Robert Ross during the marriage ceremony was in the church in the background. I had taken him into my confidence because, as I have already said, Olive and I used to meet occasionally at his little picture shop in Ryder Street. For some extraordinary reason Ross always seemed to resent my marriage. All the same, I continued to be on good terms with him for several years after it took place, and he professed to be devoted to Olive, and made every effort to ingratiate himself with her.",
@@ -107,10 +113,11 @@
       },
       "supports": "Friendly relations at and 'for several years after' the 1902 wedding; Ross hosted the couple's secret meetings and attended the ceremony.",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "IA autobiographyofl0000doug leaf 226 (printed folio 198); Carfax sentence at leaf 225 (folio 197)",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "IA autobiographyofl0000doug leaf 226 (printed folio 198); Carfax sentence at leaf 225 (folio 197)",
       "verified_on": "2026-08-03",
-      "voice": "period"
+      "voice": "period",
+      "document": "memoir"
     },
     {
       "quote": "This is what happened to me in 1913. I had long ceased to have any connection with the Wilde gang or cult. … Yet when I appealed to the courts for protection against a malicious statement made in a book at the instigation of the late Robert Ross (who hated me and had sworn to revenge himself on me because I declined to go on associating with him) to the effect that I was responsible for the ruin of Oscar Wilde, the courts, instead of protecting me as they should have done, allowed me to be flung to the wolves.",
@@ -123,10 +130,11 @@
       },
       "supports": "The break dated to 1913 (Ransome trial) — with Douglas himself placing the estrangement earlier ('because I declined to go on associating with him'); Douglas's belief that Ross instigated the Ransome book.",
       "verification": "verified-elision",
-      "how_verified": "page-image",
-      "provenance": "IA autobiographyofl0000doug leaf 51 (printed folio 33); campaign passages at leaves 60-61 (folios 42-43)",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "IA autobiographyofl0000doug leaf 51 (printed folio 33); campaign passages at leaves 60-61 (folios 42-43)",
       "verified_on": "2026-08-03",
-      "voice": "period"
+      "voice": "period",
+      "document": "memoir"
     },
     {
       "quote": "Friendship with Wilde meant that Douglas began to move in a new circle of people. … Of them, perhaps the most important was Robert Ross. … Whether or not he was 'the first boy Oscar ever had', he was certainly devoted to Wilde, and when he was ousted as Wilde's lover by a series of attractive young men, he grew bitter. When Douglas first got to know him, though, Ross was an amusing and appealing personality. The two quickly became friends, as did More Adey who shared rooms with Ross.",
@@ -144,9 +152,10 @@
       "supports": "Non-corroboration of the alleged early-1890s Douglas-Ross affair by a named biographer: Murray's account of their meeting is friendship formed inside Wilde's circle, with the rivalry running through Wilde rather than between the two men.",
       "verification": "verified-elision",
       "how_verified": "text-layer",
-      "provenance": "PDF p. 53. No printed folio exists: the file is an ebook conversion with no page numbers, no running heads and an unpaginated Contents, so the offset is n/a and the locator is PDF page, marked 'PDF p.'.",
+      "citation_provenance": "PDF p. 53. No printed folio exists: the file is an ebook conversion with no page numbers, no running heads and an unpaginated Contents, so the offset is n/a and the locator is PDF page, marked 'PDF p.'.",
       "verified_on": "2026-08-03",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "biography"
     },
     {
       "quote": "Ross had known a pupil there, Philip Danney, since the lad was fourteen. Danney was now sixteen and Ross invited him to 'stay' with him in London. A smitten Ross communicated the boy's presence in London to Douglas, who was still in Goring with Wilde.",
@@ -160,9 +169,10 @@
       "supports": "The closest thing in Murray to intimacy between the two men in the alleged period - and it runs through a third person, not between them: Ross passes the boy's whereabouts to Douglas, and the two are jointly exposed to prosecution. Evidence of shared sexual milieu, not of a relationship.",
       "verification": "verified-exact",
       "how_verified": "text-layer",
-      "provenance": "PDF pp. 68-69 (ebook conversion; no printed folios)",
+      "citation_provenance": "PDF pp. 68-69 (ebook conversion; no printed folios)",
       "verified_on": "2026-08-03",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "biography"
     },
     {
       "quote": "I agree with you that it is better that we should keep apart. I don't consider that you have ever been a real friend of mine, in the sense that More and others have been my friends. And I may tell you frankly that I don't think your character has improved with age.",
@@ -177,12 +187,16 @@
       "supports": "Douglas's own retrospective denial, in 1909 and in his own hand, that Ross had ever been a real friend - dating the break four years before the Ransome trial and locating it in Douglas's post-conversion turn against homosexuality rather than in 1913.",
       "verification": "verified-exact",
       "how_verified": "text-layer",
-      "provenance": "PDF p. 170 (ebook conversion; no printed folios.)",
+      "citation_provenance": "PDF p. 170 (ebook conversion; no printed folios.) Murray's note 52 reads \"Lord Alfred Douglas to Robert Ross, 1 March 1909. Ross TS. Clark.\" NOTE what that names: Ross's TYPESCRIPT at the Clark, not Douglas's autograph. The Clark is where the text is; whether the letter Douglas actually posted survives, and where, this biography does not say.",
       "verified_on": "2026-08-03",
       "voice": "period",
       "speaker": "Lord Alfred Douglas",
       "addressee": "Robert Ross",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "William Andrews Clark Memorial Library, UCLA",
+        "archived_as": "typescript"
+      }
     },
     {
       "quote": "Relations between Bosie and Robbie were deteriorating fast. Though Robbie once said that the three most important men in his life had been Oscar Wilde, Bosie Douglas and Freddie Smith, by the end of 1907, relations with Bosie were distinctly frosty.",
@@ -196,9 +210,10 @@
       "supports": "A reported first-person statement by Ross placing Douglas beside his two documented lovers - Wilde and Freddie Smith - as the three most important men in his life. The claim reported is importance, not romance, and it is unsourced on the page: a lead toward a Douglas-Ross intimacy, not evidence of one.",
       "verification": "verified-exact",
       "how_verified": "text-layer",
-      "provenance": "PDF p. 220. Offset is +22 in this half of the scan and +14 in the first half.",
+      "citation_provenance": "PDF p. 220. Offset is +22 in this half of the scan and +14 in the first half.",
       "verified_on": "2026-08-03",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "biography"
     },
     {
       "quote": "Adey became more than just a friend and collaborator to Robbie, as the two of them shared lodgings for several years at 24 Hornton Street, Kensington, not as lovers, but as two bachelor friends with a common interest in art, literature, companionship, gossip and sitting around in armchairs for hours on end smoking cigarettes.",
@@ -213,9 +228,10 @@
       "supports": "Non-corroboration calibrated: Fryer's readiness to state a negative explicitly is what makes his silence on a Douglas-Ross affair informative rather than merely incurious.",
       "verification": "verified-exact",
       "how_verified": "text-layer",
-      "provenance": "PDF p. 80.",
+      "citation_provenance": "PDF p. 80.",
       "verified_on": "2026-08-03",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "biography"
     }
   ],
   "null_findings": [

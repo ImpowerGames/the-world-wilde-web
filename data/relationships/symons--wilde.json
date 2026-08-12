@@ -34,11 +34,15 @@
       },
       "supports": "The beginning of the acquaintance.",
       "verification": "verified-elision",
-      "how_verified": "page-image",
-      "provenance": "PDF p. 477.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF p. 477.",
       "verified_on": "2026-08-06",
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "Henry W. and Albert A. Berg Collection, New York Public Library"
+      },
+      "letter_id": "letters-2000/455#3"
     }
   ],
   "date_label": "London, 1890"

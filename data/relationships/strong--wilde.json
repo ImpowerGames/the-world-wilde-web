@@ -31,11 +31,16 @@
       },
       "supports": "Wilde's own account of how The Ballad had done, sent to a journalist.",
       "verification": "verified-elision",
-      "how_verified": "page-image",
-      "provenance": "PDF p. 1073.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF p. 1073. The volume heads this letter 'TS Clark' - a TYPESCRIPT, not Wilde's hand. Nothing in it can settle emphasis: whoever typed it had already read the underlining.",
       "verified_on": "2026-08-05",
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "William Andrews Clark Memorial Library, UCLA",
+        "archived_as": "typescript"
+      },
+      "letter_id": "letters-2000/1027#1"
     },
     {
       "work": "letters-2000",
@@ -51,11 +56,16 @@
       },
       "supports": "What a good review was worth to him, and what he needed in the same breath.",
       "verification": "verified-elision",
-      "how_verified": "page-image",
-      "provenance": "PDF p. 1073.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF p. 1073. The volume heads this letter 'TS Clark' - a TYPESCRIPT, not Wilde's hand. Nothing in it can settle emphasis: whoever typed it had already read the underlining.",
       "verified_on": "2026-08-05",
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "William Andrews Clark Memorial Library, UCLA",
+        "archived_as": "typescript"
+      },
+      "letter_id": "letters-2000/1027#2"
     }
   ],
   "date_label": "Paris and Nice, 1898"

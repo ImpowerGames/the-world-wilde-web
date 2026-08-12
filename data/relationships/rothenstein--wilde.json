@@ -31,11 +31,16 @@
       },
       "supports": "Wilde jumping out of a cab to end a coldness he had been maintaining on principle.",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "PDF p. 614.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF p. 614.",
       "verified_on": "2026-08-05",
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "Private collection",
+        "owner": "Sir John Rothenstein"
+      },
+      "letter_id": "letters-2000/562#1"
     },
     {
       "work": "letters-2000",
@@ -51,11 +56,16 @@
       },
       "supports": "What one friend's letter about The Ballad was worth to him, and the wish that Rothenstein never learn what skilly is.",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "PDF p. 1070.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF p. 1070.",
       "verified_on": "2026-08-05",
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "Private collection",
+        "owner": "Sir John Rothenstein"
+      },
+      "letter_id": "letters-2000/1024#1"
     }
   ],
   "date_label": "London and Berneval, 1893-1899"

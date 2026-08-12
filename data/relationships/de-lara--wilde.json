@@ -19,7 +19,7 @@
   "sources": [
     {
       "work": "letters-2000",
-      "locator": "p. 1136 n.",
+      "locator": "p. 1136 n. 2",
       "locator_type": "page",
       "quote": "To my friend Isidore de Lara, the poet of the musicians, in sincere admiration and affection, Oscar Wilde, June '87.",
       "context": "Wilde's inscription in a copy of his Poems (fifth edition, 1882), recorded by the editors in a note on de Lara's opera, produced at Monte Carlo under the patronage of Princess Alice of Monaco. Not a letter: no correspondence between them survives. The editors point to Osbert Sitwell's Noble Essences (1950) for a portrait.",
@@ -31,11 +31,12 @@
       },
       "supports": "The whole of the record: one inscription, in Wilde's hand, calling him a friend.",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "PDF p. 1182.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF p. 1182. The editors record the inscription's wording but not where the book is - note 2 says only \"There exists a copy of Wilde's Poems (fifth edition, 1882) inscribed\" - so no repository can be written for it.",
       "verified_on": "2026-08-06",
       "voice": "period",
-      "document": "letter"
+      "document": "inscription",
+      "letter_id": "letters-2000/1136n2"
     }
   ],
   "date_label": "London, 1887"

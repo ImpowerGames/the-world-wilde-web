@@ -34,11 +34,16 @@
       "supports": "The whole of the record: Wilde's description of the Café d'Egypte waiter and his statement that the man is no consolation for the departed Neapolitan; no outcome recorded",
       "verification": "verified-exact",
       "how_verified": "text-layer",
-      "provenance": "PDF p. 1242. The editors' n. 1 records that the text of this incomplete letter comes from W. T. Spencer's Forty Years in my Bookshop (1923), corrected and supplemented by the American Art Association catalogue of 1 Feb. 1928; the heading carries no manuscript line.",
+      "citation_provenance": "PDF p. 1242. The editors' n. 1 records that the text of this incomplete letter comes from W. T. Spencer's Forty Years in my Bookshop (1923), corrected and supplemented by the American Art Association catalogue of 1 Feb. 1928; the heading carries no manuscript line. The sale is the last anybody has placed this sheet: note 1 gives the text as W. T. Spencer's Forty Years in my Bookshop (1923), corrected from the American Art Association catalogue of 1 February 1928.",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Leonard Smithers",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "American Art Association, New York",
+        "as_of": "1 February 1928"
+      },
+      "letter_id": "letters-2000/1196#1"
     }
   ]
 }

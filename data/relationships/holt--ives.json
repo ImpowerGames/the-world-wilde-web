@@ -29,9 +29,10 @@
       "supports": "The only passage on this edge in which a participant speaks: Ives's diary, vol. 76, 20 January 1921, as quoted by Cook. Ives names love, disclaims passion, and locates the value in comfort. The 'Cubby' identification is disputed: Cook 2014 glosses Cubby as 'Charles Gee'; Cook 2003, p. 146 glosses it as 'Harold Holt', and the name 'Holt' does not appear in the 2014 book. Also carries Ives's own declaration of love for the two men and his explicit separation of love from passion.",
       "verification": "verified-elision",
       "how_verified": "text-layer",
-      "provenance": "PDF p. 112.",
+      "citation_provenance": "PDF p. 112.",
       "verified_on": "2026-08-03",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "study"
     },
     {
       "quote": "Ives shared his new home, and sometimes his bed, with James Goddard (Kit), the son of one of his father's employees, and Harold Holt (Cubby), his grandmother's former secretary.",
@@ -43,9 +44,10 @@
       "supports": "Bed-sharing household intimacy at the Albany, in Cook's own words",
       "verification": "verified-exact",
       "how_verified": "text-layer",
-      "provenance": "PDF p. 162 (printed folio 146)",
+      "citation_provenance": "PDF p. 162 (printed folio 146)",
       "verified_on": "2026-08-03",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "study"
     },
     {
       "quote": "Though Ives' relationships with the other men at Adelaide Road possibly started sexually, they seem quickly to have become platonic - even though he continued to sleep with them from time to time.",
@@ -57,9 +59,10 @@
       "supports": "Cook's own careful reading: a possible sexual beginning, a platonic settling, continued bed-sharing throughout.",
       "verification": "verified-exact",
       "how_verified": "text-layer",
-      "provenance": "PDF p. 112.",
+      "citation_provenance": "PDF p. 112.",
       "verified_on": "2026-08-03",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "study"
     },
     {
       "quote": "When Cubby failed to return home to join him in bed on another evening Ives could not sleep.",
@@ -71,9 +74,10 @@
       "supports": "A specific, dated instance of bed-sharing between Ives and Cubby, and of Ives's distress at its interruption - more concrete than the general 'sometimes his bed' of Cook 2003.",
       "verification": "verified-exact",
       "how_verified": "text-layer",
-      "provenance": "PDF p. 112.",
+      "citation_provenance": "PDF p. 112.",
       "verified_on": "2026-08-03",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "study"
     },
     {
       "work": "lewis-personal-communication",
@@ -85,13 +89,16 @@
       "supports": "The identification of 'Cubby' as Harold Holt rather than Charles Gee, correcting Cook (2014) p. 101. Quotation pending: Lewis's wording was taken down by hand and the spelling of Charles Gee's nickname is awaiting his confirmation by email.",
       "verification": "unverified",
       "how_verified": "unverified",
-      "provenance": "Unpublished telephone communication; no transcript. Recorded here because it corrects a published source on a point this edge turns on.",
+      "citation_provenance": "Unpublished telephone communication; no transcript. Recorded here because it corrects a published source on a point this edge turns on.",
       "order_hint": {
         "y": 1921,
         "m": 1,
         "why": "The communication is of 2026 but what it settles is who 'Cubby' was in the diary entry of 20 January 1921, so it reads beside that entry rather than at the end of a life."
       },
-      "document": "interview"
+      "document": "interview",
+      "manuscript": {
+        "repository": "Private inbox"
+      }
     }
   ]
 }

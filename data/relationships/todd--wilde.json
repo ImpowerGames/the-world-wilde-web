@@ -33,11 +33,15 @@
       },
       "supports": "Wilde's own conduct on the night - he went over, and he noticed the discomfort.",
       "verification": "verified-elision",
-      "how_verified": "page-image",
-      "provenance": "PDF pp. 53-54.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF pp. 53-54.",
       "verified_on": "2026-08-05",
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "Magdalen College, Oxford"
+      },
+      "letter_id": "letters-2000/27#1"
     }
   ]
 }

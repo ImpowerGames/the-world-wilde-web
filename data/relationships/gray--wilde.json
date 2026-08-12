@@ -38,11 +38,12 @@
       "supports": "The public 'protege' characterization and Wilde's printed denial of it ('extremely recent'), Feb. 1892",
       "verification": "verified-elision",
       "how_verified": "text-layer",
-      "provenance": "PDF p. 540. Elision drops four sentences on artists needing protection; full text in long-form notes.",
+      "citation_provenance": "PDF p. 540. Elision drops four sentences on artists needing protection; full text in long-form notes.",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Editor of the Daily Telegraph",
-      "document": "letter"
+      "document": "letter",
+      "letter_id": "letters-2000/518#3"
     },
     {
       "quote": "Dear Sir, *Silverpoints* (poems) by John Gray. We agree to issue the above book in the autumn on your undertaking the cost of the designs – block for same – paper, printing and binding of an edition not exceeding 250 copies.",
@@ -58,12 +59,16 @@
       "supports": "Wilde personally undertook the production costs of Gray's Silverpoints - the patronage in a primary document",
       "verification": "verified-exact",
       "how_verified": "text-layer",
-      "provenance": "PDF p. 547.",
+      "citation_provenance": "PDF p. 547.",
       "verified_on": "2026-08-03",
       "speaker": "Elkin Mathews and John Lane (The Bodley Head)",
       "voice": "period",
       "addressee": "Oscar Wilde",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "Princeton University Library, Princeton, New Jersey"
+      },
+      "letter_id": "letters-2000/527#3"
     },
     {
       "quote": "His book of poems, Silverpoints (Mathews and Lane, 1893), was designed by Ricketts, and initially underwritten by Wilde … before they fell out. … While there is no evidence for the persistent suggestion that he was the original of Dorian Gray, after the publication of the story he referred to himself as Dorian and allowed others in the Wilde circle to do so.",
@@ -75,9 +80,10 @@
       "supports": "The falling-out; the 'Dorian' self-identification with the editors' no-evidence caveat",
       "verification": "verified-elision",
       "how_verified": "text-layer",
-      "provenance": "PDF p. 540. Elisions drop a cross-reference ('see p. 527') and bridge two non-adjacent footnote sentences.",
+      "citation_provenance": "PDF p. 540. Elisions drop a cross-reference ('see p. 527') and bridge two non-adjacent footnote sentences.",
       "verified_on": "2026-08-03",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "editorial-note"
     },
     {
       "quote": "When I compare my friendship with you to my friendship with such still younger men as John Gray and Pierre Louÿs I feel ashamed. My real life, my higher life was with them and such as they.",
@@ -96,11 +102,15 @@
       "supports": "Wilde's retrospective valuation of the Gray friendship - 'my real life, my higher life'",
       "verification": "verified-exact",
       "how_verified": "text-layer",
-      "provenance": "PDF p. 737.",
+      "citation_provenance": "PDF p. 737.",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Lord Alfred Douglas",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "British Library, London"
+      },
+      "letter_id": "letters-2000/651#1"
     },
     {
       "quote": "In fact, the John Gray that Oscar met and fell in love with was a construction, an exquisite fiction, a carefully crafted sonnet of a young man, hewn and marvellously fashioned from very rough clay.",
@@ -114,9 +124,10 @@
       "supports": "The romantic characterization ('fell in love with') - verified in the repo copy at the text layer",
       "verification": "verified-exact",
       "how_verified": "text-layer",
-      "provenance": "PDF p. 194 (2008 edition; no printed folios).",
+      "citation_provenance": "PDF p. 194 (2008 edition; no printed folios).",
       "verified_on": "2026-08-04",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "biography"
     },
     {
       "quote": "John Gray was, of course, still Oscar's officially beloved, but for a while, at least, Johnson played the role of Oscar's 'new boy'.",
@@ -128,9 +139,10 @@
       "supports": "Corroborates the romantic characterization ('officially beloved') from a second McKenna passage.",
       "verification": "verified-exact",
       "how_verified": "text-layer",
-      "provenance": "PDF p. 239 (2008 edition; no printed folios).",
+      "citation_provenance": "PDF p. 239 (2008 edition; no printed folios).",
       "verified_on": "2026-08-09",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "biography"
     },
     {
       "quote": "Whereas Reade identified that 'dedicated homosexual' as Raffalovich, it is clear that Gray's first such attachment was actually Oscar Wilde.",
@@ -141,10 +153,11 @@
       "evidence_date": null,
       "supports": "Gray's first homosexual attachment was Wilde - an independent biography's direct statement",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "Printed p. 50 (PDF p. 67); read from the rendered page image.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "Printed p. 50 (PDF p. 67); read from the rendered page image.",
       "verified_on": "2026-08-09",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "biography"
     },
     {
       "quote": "In short, to be named in the spring of 1892 as Wilde's 'protégé' or as the original of 'Dorian Gray' was the equivalent of being named Wilde's lover.",
@@ -155,10 +168,11 @@
       "evidence_date": null,
       "supports": "The public valence of the association: named as Wilde's protege or as 'Dorian' read as lover-status",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "Printed p. 84 (PDF p. 101); read from the rendered page image.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "Printed p. 84 (PDF p. 101); read from the rendered page image.",
       "verified_on": "2026-08-09",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "biography"
     },
     {
       "quote": "Still, the relationship was not one of cool and calculated exploitation, but in character with 'Dorian Gray' was in many ways 'absurdly romantic,' intense, and idealized. And so, despite Wilde's own infatuation with Douglas, Gray remained deeply attached to Wilde during the course of 1892.",
@@ -169,10 +183,11 @@
       "evidence_date": null,
       "supports": "The romantic characterization - intense, idealized, mutually attached through 1892 - from a second, independent biography",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "Printed p. 88 (PDF p. 105); read from the rendered page image.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "Printed p. 88 (PDF p. 105); read from the rendered page image.",
       "verified_on": "2026-08-09",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "biography"
     },
     {
       "quote": "It says much about the nature of Gray's feelings that, in October 1892, when his translation of Bourget's A Saint and Others appeared, Gray inscribed his copy to Wilde: 'To my loved master my dear friend Homage.'",
@@ -186,10 +201,11 @@
       },
       "supports": "Gray's own inscription - 'To my loved master' - the closest surviving first-person expression of the relationship",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "Printed p. 88 (PDF p. 105); read from the rendered page image.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "Printed p. 88 (PDF p. 105); read from the rendered page image.",
       "verified_on": "2026-08-09",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "biography"
     },
     {
       "quote": "On permettait à ses fils de l'aduler et d'en être adulé, de se laisser appeler le nouveau boy d'Oscar.",
@@ -202,10 +218,11 @@
       "lang": "fr",
       "supports": "A near-contemporary's account of Wilde's young men being openly called 'Oscar's new boy' - the circle's code",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "Printed p. 247 (PDF p. 253); read from the rendered page image.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "Printed p. 247 (PDF p. 253); read from the rendered page image.",
       "verified_on": "2026-08-09",
-      "voice": "period"
+      "voice": "period",
+      "document": "study"
     },
     {
       "quote": "Même sans mener une vie exempte de soupçons, même en prêchant la corruption, même entouré des jeunes hommes les plus voyants, les plus chatoyants de Londres, il aurait pu ne pas dégringoler.",
@@ -218,10 +235,11 @@
       "lang": "fr",
       "supports": "Near-contemporary confirmation that Wilde 'preached corruption' among his young men - McKenna's cited source, now read directly",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "Printed p. 248 (PDF p. 254); read from the rendered page image.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "Printed p. 248 (PDF p. 254); read from the rendered page image.",
       "verified_on": "2026-08-09",
-      "voice": "period"
+      "voice": "period",
+      "document": "study"
     }
   ]
 }

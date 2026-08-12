@@ -29,8 +29,8 @@
       },
       "supports": "That the man existed, that Wilde thought well of him, and how little else the record kept.",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "PDF p. 947 (printed folio 897). Emphasis corrected against the manuscript, HRC MSS_WildeO_2_6_081. The previous transcription underlined the WHOLE postscript, which the printed page does not support and the manuscript refutes: only 'With regard to Lawley' carries an underline, and 'groom' carries TWO - the degree the Complete Letters discard by their own account, restored here as __groom__. The earlier reading came from the PDF text layer, which loses italic boundaries.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF p. 947 (printed folio 897).",
       "verified_on": "2026-08-10",
       "speaker": "Oscar Wilde",
       "voice": "period",
@@ -56,8 +56,11 @@
         ],
         "caption": "fifteen sides written at Berneval three weeks out of prison, the sheets numbered by Wilde 1 to 5; the postscript about Lawley follows the signature on the last of them"
       },
-      "verified_against": "original",
-      "document": "letter"
+      "document": "letter",
+      "marks_verified": true,
+      "original_provenance": "HRC MSS_WildeO_2_6_081. Only 'With regard to Lawley' carries an underline, and 'groom' carries TWO. The previous transcription underlined the WHOLE postscript, which the printed page does not support and the manuscript refutes; that reading came from the PDF text layer, which loses italic boundaries.",
+      "verified_against_original": true,
+      "letter_id": "letters-2000/897#1"
     }
   ]
 }

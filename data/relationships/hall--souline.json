@@ -29,12 +29,17 @@
       "supports": "The participant's own voice at the opening of the attachment, and its date.",
       "verification": "verified-exact",
       "how_verified": "text-layer",
-      "provenance": "PDF p. 7 (printed folio 28). The scan is two printed pages per PDF page.",
+      "citation_provenance": "PDF p. 7 (printed folio 28). The scan is two printed pages per PDF page. The autographs are in the Radclyffe Hall and Una Vincenzo, Lady Troubridge Collection, Harry Ransom Center (MS-01793): 672 pieces of correspondence from Hall to Souline, 1934-1942, of which the Center's own catalogue records that \"selected letters transcribed and published in Your John: The Love Letters of Radclyffe Hall, edited by Joanne Glasgow (1997)\" - the edition quoted here.",
       "verified_on": "2026-08-04",
       "speaker": "Radclyffe Hall, letter to Evguenia Souline",
       "addressee": "Evguenia Souline",
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "Harry Ransom Center, The University of Texas at Austin",
+        "url": "https://hrc.contentdm.oclc.org/digital/collection/p15878coll106/id/65540/",
+        "recorded_by": "the Harry Ransom Center's catalogue"
+      }
     },
     {
       "quote": "Take care of yourself and know that I am counting on this meeting in Paris as I have counted on few things in my life.",
@@ -49,12 +54,17 @@
       "supports": "The weight Hall placed on the attachment within weeks of its beginning, in her own words.",
       "verification": "verified-exact",
       "how_verified": "text-layer",
-      "provenance": "PDF p. 7 (printed folio 28). The scan is two printed pages per PDF page.",
+      "citation_provenance": "PDF p. 7 (printed folio 28). The scan is two printed pages per PDF page. The autographs are in the Radclyffe Hall and Una Vincenzo, Lady Troubridge Collection, Harry Ransom Center (MS-01793): 672 pieces of correspondence from Hall to Souline, 1934-1942, of which the Center's own catalogue records that \"selected letters transcribed and published in Your John: The Love Letters of Radclyffe Hall, edited by Joanne Glasgow (1997)\" - the edition quoted here.",
       "verified_on": "2026-08-04",
       "speaker": "Radclyffe Hall, letter to Evguenia Souline",
       "addressee": "Evguenia Souline",
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "Harry Ransom Center, The University of Texas at Austin",
+        "url": "https://hrc.contentdm.oclc.org/digital/collection/p15878coll106/id/65540/",
+        "recorded_by": "the Harry Ransom Center's catalogue"
+      }
     },
     {
       "quote": "But in 1934 everything changed. … At Una's urging, therefore, they went to Bagnoles-de l'Orne, a spa in Normandy where John had once been treated for the same injury. During the course of treatment, throughout which Una acted as facilitator, correspondent, indeed general manager, Una herself came down with severe gastroenteritis. Still hobbling, unwell, and feeling unhelpful, John sent to the American Hospital in Paris for a private nurse. That nurse was Evguenia Souline. Until the end of John's life nine years later, the three, John, Una, and Souline, were to form an imperfect, stormy triangle.",
@@ -68,10 +78,11 @@
       "supports": "How and when the two met, and that the attachment ran to Hall's death alongside the Troubridge partnership rather than replacing it.",
       "verification": "verified-elision",
       "how_verified": "text-layer",
-      "provenance": "PDF p. 4 (printed folio 2). The scan is two printed pages per PDF page.",
+      "citation_provenance": "PDF p. 4 (printed folio 2). The scan is two printed pages per PDF page.",
       "verified_on": "2026-08-04",
       "speaker": "Joanne Glasgow, ed.",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "editorial-note"
     },
     {
       "quote": "The first forty letters are in effect an ardent seduction, carried out by means of the postal systems of two countries. … Since Souline's letters have not survived, except one from 1939, we can only speculate about her responses to the increasingly fervent outpouring from John. Two reactions seem to alternate—flattered interest and terror.",
@@ -83,10 +94,11 @@
       "supports": "That the surviving record is Hall's alone, and the editor's own reading of what Souline's missing side may have held.",
       "verification": "verified-elision",
       "how_verified": "text-layer",
-      "provenance": "PDF p. 5 (printed folio 25).",
+      "citation_provenance": "PDF p. 5 (printed folio 25).",
       "verified_on": "2026-08-04",
       "speaker": "Joanne Glasgow, ed.",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "editorial-note"
     }
   ],
   "null_findings": [

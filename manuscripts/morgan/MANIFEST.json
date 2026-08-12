@@ -1,0 +1,503 @@
+{
+ "collection": "The Morgan Library & Museum - Manuscripts and Letters of Oscar Wilde",
+ "collection_id": "MA 7258",
+ "archive": {
+  "name": "The Morgan Library & Museum, New York",
+  "short_name": "The Morgan",
+  "collection": "MA 7258, given 2008",
+  "collection_url": "https://www.themorgan.org/collection/Oscar-Wilde",
+  "record_url": "https://www.themorgan.org/collection/oscar-wilde/manuscripts-letters/{page}",
+  "iiif_url": "",
+  "page_id_field": null,
+  "page_id_note": "The Morgan publishes no page identifier: `pointer` is a filename in their viewer, not a citable id, and there is no IIIF service. The call number MA 7258 is in `itemId`, so the item-and-image form already carries the archival reference."
+ },
+ "purpose": "A red-leather volume of nine literary manuscripts and five letters. Held for the letters: to Clegg, to Douglas, to Kersley and to Lane, plus Clegg's own letter to Wilde. The Kersley and Lane letters are candidates for records of ours that are unplaced or privately held - see README.md.",
+ "downloaded": "2026-08-10",
+ "download_url": "https://www.themorgan.org/collection/Oscar-Wilde",
+ "rights_note": "Not stated per-item by the Morgan; recorded as UND. These are kept private, outside web/, like the rest of this tree.",
+ "notes": [
+  "Per-page `file` is relative to `../../manuscripts/<key>/`, the private tree that holds the images. The path is metadata; the images are what stays unpublished.",
+  "No IIIF service, so `iiif_url` is empty and this archive cannot back a `facsimile` record; it is a private reference copy only.",
+  "record_url takes `{page}`, not `{pointer}`: the Morgan paginates this facsimile 1..50 and publishes no per-image token, so the page number is what addresses a sheet. The two are different fields on purpose - `pointer` holds the Morgan's own file name (wilde_ma7258.01-1), which encodes the item and the side within the volume rather than the reading position, and is worth keeping for that. Templating it into the record url would build a broken link, which is what this manifest used to say to do.",
+  "Fetched by hand in a browser: themorgan.org returns 403 to any non-browser request, and Chrome gates script-triggered downloads after the first per page load.",
+  "`letters` on the item records what each page range holds, which record cites it, and - where nothing does - why it is worth keeping anyway. A bound volume needs this at page-range level; the HRC manifests answer the coarser question with `matches` at item level.",
+  "A `matches` entry carries only structured facts: `pages`, `what`, `printed` {work, locator} and, where there is no printed pointer, `person`. Prose about why an entry matters lives in this archive's README, not here - the manifest restates neither the connection nor the commentary."
+ ],
+ "items": [
+  {
+   "itemId": "MA7258",
+   "title": "Manuscripts and Letters of Oscar Wilde (MA 7258)",
+   "boxFolder": "MA 7258",
+   "dates": "",
+   "slug": "ma7258-wilde-manuscripts-and-letters",
+   "dir": "ma7258-wilde-manuscripts-and-letters",
+   "matches": [
+    {
+     "pages": [
+      34,
+      35
+     ],
+     "what": "Clegg to Wilde",
+     "printed": null,
+     "letter_id": "morgan/MA7258#34"
+    },
+    {
+     "pages": [
+      36,
+      37,
+      38
+     ],
+     "what": "Wilde to Clegg",
+     "printed": {
+      "work": "letters-2000",
+      "locator": "p. 478"
+     },
+     "letter_id": "letters-2000/478#2"
+    },
+    {
+     "pages": [
+      39,
+      40,
+      41
+     ],
+     "what": "Wilde to Lord Alfred Douglas, the 'card-case' letter, [? November 1892]",
+     "printed": {
+      "work": "letters-2000",
+      "locator": "p. 538"
+     },
+     "letter_id": "letters-2000/538#3"
+    },
+    {
+     "pages": [
+      43,
+      44
+     ],
+     "what": "Wilde to G. H. Kersley, [15 June 1888]",
+     "printed": {
+      "work": "letters-2000",
+      "locator": "p. 352"
+     },
+     "letter_id": "letters-2000/352#1"
+    },
+    {
+     "pages": [
+      45,
+      46,
+      47,
+      48,
+      49,
+      50
+     ],
+     "what": "Wilde to John Lane, from 5 Esplanade, Worthing, returning corrected proofs",
+     "printed": {
+      "work": "letters-2000",
+      "locator": "p. 604"
+     },
+     "letter_id": "letters-2000/604#3"
+    }
+   ],
+   "pages": [
+    {
+     "page": 1,
+     "pointer": "wilde_ma7258.binding",
+     "caption": "Binding",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "ma7258-wilde-manuscripts-and-letters/page-01-wilde_ma7258.binding.jpg",
+     "bytes": 718652
+    },
+    {
+     "page": 2,
+     "pointer": "wilde_ma7258.01-1",
+     "caption": "\"Roses and Rue\", page 1",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "ma7258-wilde-manuscripts-and-letters/page-02-wilde_ma7258.01-1.jpg",
+     "bytes": 390028
+    },
+    {
+     "page": 3,
+     "pointer": "wilde_ma7258.01-2",
+     "caption": "\"Roses and Rue\", page 2",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "ma7258-wilde-manuscripts-and-letters/page-03-wilde_ma7258.01-2.jpg",
+     "bytes": 297732
+    },
+    {
+     "page": 4,
+     "pointer": "wilde_ma7258.01-3",
+     "caption": "\"Roses and Rue\", page 3",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "ma7258-wilde-manuscripts-and-letters/page-04-wilde_ma7258.01-3.jpg",
+     "bytes": 269809
+    },
+    {
+     "page": 5,
+     "pointer": "wilde_ma7258.01-4",
+     "caption": "\"Roses and Rue\", page 4",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "ma7258-wilde-manuscripts-and-letters/page-05-wilde_ma7258.01-4.jpg",
+     "bytes": 260902
+    },
+    {
+     "page": 6,
+     "pointer": "wilde_ma7258.02-1",
+     "caption": "\"The House of Judgment\", page 1",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "ma7258-wilde-manuscripts-and-letters/page-06-wilde_ma7258.02-1.jpg",
+     "bytes": 347648
+    },
+    {
+     "page": 7,
+     "pointer": "wilde_ma7258.02-2",
+     "caption": "\"The House of Judgment\", page 2",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "ma7258-wilde-manuscripts-and-letters/page-07-wilde_ma7258.02-2.jpg",
+     "bytes": 158299
+    },
+    {
+     "page": 8,
+     "pointer": "wilde_ma7258.02-3",
+     "caption": "\"The House of Judgment\", page 3",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "ma7258-wilde-manuscripts-and-letters/page-08-wilde_ma7258.02-3.jpg",
+     "bytes": 305572
+    },
+    {
+     "page": 9,
+     "pointer": "wilde_ma7258.02-4",
+     "caption": "\"The House of Judgment\", page 4",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "ma7258-wilde-manuscripts-and-letters/page-09-wilde_ma7258.02-4.jpg",
+     "bytes": 178025
+    },
+    {
+     "page": 10,
+     "pointer": "wilde_ma7258.02-5",
+     "caption": "\"The House of Judgment\", page 5",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "ma7258-wilde-manuscripts-and-letters/page-10-wilde_ma7258.02-5.jpg",
+     "bytes": 287078
+    },
+    {
+     "page": 11,
+     "pointer": "wilde_ma7258.02-6",
+     "caption": "\"The House of Judgment\", page 6",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "ma7258-wilde-manuscripts-and-letters/page-11-wilde_ma7258.02-6.jpg",
+     "bytes": 286877
+    },
+    {
+     "page": 12,
+     "pointer": "wilde_ma7258.03-1",
+     "caption": "Cover sheet for \"Poems in Prose\"",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "ma7258-wilde-manuscripts-and-letters/page-12-wilde_ma7258.03-1.jpg",
+     "bytes": 206497
+    },
+    {
+     "page": 13,
+     "pointer": "wilde_ma7258.03-2",
+     "caption": "\"The Artist\", page 1",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "ma7258-wilde-manuscripts-and-letters/page-13-wilde_ma7258.03-2.jpg",
+     "bytes": 328266
+    },
+    {
+     "page": 14,
+     "pointer": "wilde_ma7258.03-3",
+     "caption": "\"The Artist\", page 2",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "ma7258-wilde-manuscripts-and-letters/page-14-wilde_ma7258.03-3.jpg",
+     "bytes": 176572
+    },
+    {
+     "page": 15,
+     "pointer": "wilde_ma7258.04-1",
+     "caption": "\"The Doer of Good\", page 1",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "ma7258-wilde-manuscripts-and-letters/page-15-wilde_ma7258.04-1.jpg",
+     "bytes": 310554
+    },
+    {
+     "page": 16,
+     "pointer": "wilde_ma7258.04-2",
+     "caption": "\"The Doer of Good\", page 2",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "ma7258-wilde-manuscripts-and-letters/page-16-wilde_ma7258.04-2.jpg",
+     "bytes": 310139
+    },
+    {
+     "page": 17,
+     "pointer": "wilde_ma7258.04-3",
+     "caption": "\"The Doer of Good\", page 3",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "ma7258-wilde-manuscripts-and-letters/page-17-wilde_ma7258.04-3.jpg",
+     "bytes": 154736
+    },
+    {
+     "page": 18,
+     "pointer": "wilde_ma7258.05-1",
+     "caption": "\"The Disciple\", page 1",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "ma7258-wilde-manuscripts-and-letters/page-18-wilde_ma7258.05-1.jpg",
+     "bytes": 273591
+    },
+    {
+     "page": 19,
+     "pointer": "wilde_ma7258.05-2",
+     "caption": "\"The Disciple\", page 7",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "ma7258-wilde-manuscripts-and-letters/page-19-wilde_ma7258.05-2.jpg",
+     "bytes": 160119
+    },
+    {
+     "page": 20,
+     "pointer": "wilde_ma7258.06-1",
+     "caption": "\"The Master\", page 1",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "ma7258-wilde-manuscripts-and-letters/page-20-wilde_ma7258.06-1.jpg",
+     "bytes": 306760
+    },
+    {
+     "page": 21,
+     "pointer": "wilde_ma7258.06-2",
+     "caption": "\"The Master\", page 2",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "ma7258-wilde-manuscripts-and-letters/page-21-wilde_ma7258.06-2.jpg",
+     "bytes": 187349
+    },
+    {
+     "page": 22,
+     "pointer": "wilde_ma7258.07-1",
+     "caption": "\"The Selfish Giant\", page 1",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "ma7258-wilde-manuscripts-and-letters/page-22-wilde_ma7258.07-1.jpg",
+     "bytes": 139737
+    },
+    {
+     "page": 23,
+     "pointer": "wilde_ma7258.07-2",
+     "caption": "\"The Selfish Giant\", page 2",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "ma7258-wilde-manuscripts-and-letters/page-23-wilde_ma7258.07-2.jpg",
+     "bytes": 359069
+    },
+    {
+     "page": 24,
+     "pointer": "wilde_ma7258.07-3",
+     "caption": "\"The Selfish Giant\", page 3",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "ma7258-wilde-manuscripts-and-letters/page-24-wilde_ma7258.07-3.jpg",
+     "bytes": 385891
+    },
+    {
+     "page": 25,
+     "pointer": "wilde_ma7258.07-4",
+     "caption": "\"The Selfish Giant\", page 4",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "ma7258-wilde-manuscripts-and-letters/page-25-wilde_ma7258.07-4.jpg",
+     "bytes": 417978
+    },
+    {
+     "page": 26,
+     "pointer": "wilde_ma7258.07-5",
+     "caption": "\"The Selfish Giant\", page 5",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "ma7258-wilde-manuscripts-and-letters/page-26-wilde_ma7258.07-5.jpg",
+     "bytes": 417628
+    },
+    {
+     "page": 27,
+     "pointer": "wilde_ma7258.07-6",
+     "caption": "\"The Selfish Giant\", page 6",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "ma7258-wilde-manuscripts-and-letters/page-27-wilde_ma7258.07-6.jpg",
+     "bytes": 411510
+    },
+    {
+     "page": 28,
+     "pointer": "wilde_ma7258.07-7",
+     "caption": "\"The Selfish Giant\", page 7",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "ma7258-wilde-manuscripts-and-letters/page-28-wilde_ma7258.07-7.jpg",
+     "bytes": 380258
+    },
+    {
+     "page": 29,
+     "pointer": "wilde_ma7258.07-8",
+     "caption": "\"The Selfish Giant\", page 8",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "ma7258-wilde-manuscripts-and-letters/page-29-wilde_ma7258.07-8.jpg",
+     "bytes": 315536
+    },
+    {
+     "page": 30,
+     "pointer": "wilde_ma7258.08-1r",
+     "caption": "\"Under the Balcony\", page 1",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "ma7258-wilde-manuscripts-and-letters/page-30-wilde_ma7258.08-1r.jpg",
+     "bytes": 716552
+    },
+    {
+     "page": 31,
+     "pointer": "wilde_ma7258.08-2",
+     "caption": "\"Under the Balcony\", page 2",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "ma7258-wilde-manuscripts-and-letters/page-31-wilde_ma7258.08-2.jpg",
+     "bytes": 641611
+    },
+    {
+     "page": 32,
+     "pointer": "wilde_ma7258.08-3",
+     "caption": "\"Under the Balcony\", page 3",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "ma7258-wilde-manuscripts-and-letters/page-32-wilde_ma7258.08-3.jpg",
+     "bytes": 630447
+    },
+    {
+     "page": 33,
+     "pointer": "wilde_ma7258.08-4",
+     "caption": "\"Under the Balcony\", page 4",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "ma7258-wilde-manuscripts-and-letters/page-33-wilde_ma7258.08-4.jpg",
+     "bytes": 669964
+    },
+    {
+     "page": 34,
+     "pointer": "wilde_ma7258.09-1",
+     "caption": "Clegg letter to Wilde, page 1",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "ma7258-wilde-manuscripts-and-letters/page-34-wilde_ma7258.09-1.jpg",
+     "bytes": 369833
+    },
+    {
+     "page": 35,
+     "pointer": "wilde_ma7258.09-2",
+     "caption": "Clegg letter to Wilde, page 2",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "ma7258-wilde-manuscripts-and-letters/page-35-wilde_ma7258.09-2.jpg",
+     "bytes": 259468
+    },
+    {
+     "page": 36,
+     "pointer": "wilde_ma7258.10-1",
+     "caption": "Wilde to Clegg, page 1",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "ma7258-wilde-manuscripts-and-letters/page-36-wilde_ma7258.10-1.jpg",
+     "bytes": 159606
+    },
+    {
+     "page": 37,
+     "pointer": "wilde_ma7258.10-2-3",
+     "caption": "Wilde to Clegg, pages 2-3",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "ma7258-wilde-manuscripts-and-letters/page-37-wilde_ma7258.10-2-3.jpg",
+     "bytes": 289762
+    },
+    {
+     "page": 38,
+     "pointer": "wilde_ma7258.10-4",
+     "caption": "Wilde to Clegg, page 4",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "ma7258-wilde-manuscripts-and-letters/page-38-wilde_ma7258.10-4.jpg",
+     "bytes": 179598
+    },
+    {
+     "page": 39,
+     "pointer": "wilde_ma7258.11-1",
+     "caption": "Wilde to Bosie, page 1",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "ma7258-wilde-manuscripts-and-letters/page-39-wilde_ma7258.11-1.jpg",
+     "bytes": 146165
+    },
+    {
+     "page": 40,
+     "pointer": "wilde_ma7258.11-2-3",
+     "caption": "Wilde to Bosie, pages 2-3",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "ma7258-wilde-manuscripts-and-letters/page-40-wilde_ma7258.11-2-3.jpg",
+     "bytes": 143887
+    },
+    {
+     "page": 41,
+     "pointer": "wilde_ma7258.11-4",
+     "caption": "Wilde to Bosie, page 4",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "ma7258-wilde-manuscripts-and-letters/page-41-wilde_ma7258.11-4.jpg",
+     "bytes": 196092
+    },
+    {
+     "page": 42,
+     "pointer": "wilde_ma7258.12",
+     "caption": "\"La dame jaune\"",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "ma7258-wilde-manuscripts-and-letters/page-42-wilde_ma7258.12.jpg",
+     "bytes": 301608
+    },
+    {
+     "page": 43,
+     "pointer": "wilde_ma7258.13-1",
+     "caption": "Wilde to Kersley, page 1",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "ma7258-wilde-manuscripts-and-letters/page-43-wilde_ma7258.13-1.jpg",
+     "bytes": 183904
+    },
+    {
+     "page": 44,
+     "pointer": "wilde_ma7258.13-2-3",
+     "caption": "Wilde to Kersley, pages 2-3",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "ma7258-wilde-manuscripts-and-letters/page-44-wilde_ma7258.13-2-3.jpg",
+     "bytes": 198619
+    },
+    {
+     "page": 45,
+     "pointer": "wilde_ma7258.14-1",
+     "caption": "Wilde to Lane, page 1",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "ma7258-wilde-manuscripts-and-letters/page-45-wilde_ma7258.14-1.jpg",
+     "bytes": 186816
+    },
+    {
+     "page": 46,
+     "pointer": "wilde_ma7258.14-2-3",
+     "caption": "Wilde to Lane, pages 2-3",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "ma7258-wilde-manuscripts-and-letters/page-46-wilde_ma7258.14-2-3.jpg",
+     "bytes": 364428
+    },
+    {
+     "page": 47,
+     "pointer": "wilde_ma7258.14-4",
+     "caption": "Wilde to Lane, page 4",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "ma7258-wilde-manuscripts-and-letters/page-47-wilde_ma7258.14-4.jpg",
+     "bytes": 237580
+    },
+    {
+     "page": 48,
+     "pointer": "wilde_ma7258.14-5",
+     "caption": "Wilde to Lane, page 5",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "ma7258-wilde-manuscripts-and-letters/page-48-wilde_ma7258.14-5.jpg",
+     "bytes": 183696
+    },
+    {
+     "page": 49,
+     "pointer": "wilde_ma7258.14-6-7",
+     "caption": "Wilde to Lane, pages 6-7",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "ma7258-wilde-manuscripts-and-letters/page-49-wilde_ma7258.14-6-7.jpg",
+     "bytes": 343500
+    },
+    {
+     "page": 50,
+     "pointer": "wilde_ma7258.14-8",
+     "caption": "Wilde to Lane, page 8",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "ma7258-wilde-manuscripts-and-letters/page-50-wilde_ma7258.14-8.jpg",
+     "bytes": 173833
+    }
+   ]
+  }
+ ]
+}

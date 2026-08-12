@@ -26,9 +26,10 @@
       "supports": "The affair claim, at exactly the strength the source gives it; and the Dagmar identification.",
       "verification": "verified-exact",
       "how_verified": "as-published",
-      "provenance": "Https://1890s.ca/custance_bio/",
+      "citation_provenance": "Https://1890s.ca/custance_bio/",
       "verified_on": "2026-08-03",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "biography"
     },
     {
       "quote": "Custance sustained contact with both Barney and Vivien after she moved back to London in 1901, and her diaries and poems suggest she continued to be attracted to and inspired by women.",
@@ -42,9 +43,10 @@
       "supports": "The sustained friendship after 1901, which is the well-evidenced part of this pair's record.",
       "verification": "verified-exact",
       "how_verified": "as-published",
-      "provenance": "Https://1890s.ca/custance_bio/",
+      "citation_provenance": "Https://1890s.ca/custance_bio/",
       "verified_on": "2026-08-03",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "biography"
     },
     {
       "work": "vivien-foster-1982",
@@ -59,9 +61,10 @@
       },
       "supports": "Identification of Dagmar as Olive Custance by a second scholar, independent of Parker - and a characterisation of the episode as consolation rather than an affair.",
       "verification": "verified-exact",
-      "how_verified": "page-image",
+      "how_verified": "photo-reproduction",
       "verified_on": "2026-08-04",
-      "provenance": "PDF p. 23 (printed folio xiii)."
+      "citation_provenance": "PDF p. 23 (printed folio xiii).",
+      "document": "introduction"
     },
     {
       "work": "vivien-foster-1982",
@@ -75,10 +78,10 @@
       },
       "supports": "What the novel actually depicts, against which Parker's 'brief love affair' has to be read: an offered kiss refused, Dagmar described as a virgin, and her engagement announced.",
       "verification": "verified-elision",
-      "how_verified": "page-image",
+      "how_verified": "photo-reproduction",
       "verified_on": "2026-08-04",
-      "provenance": "PDF p. 94 (printed folio 52). Three passages from the same and facing pages, joined by ellipses. This is Foster's 1976 English, not Vivien's French.",
-      "document": "letter"
+      "citation_provenance": "PDF p. 94 (printed folio 52). Three passages from the same and facing pages, joined by ellipses. This is Foster's 1976 English, not Vivien's French.",
+      "document": "novel"
     },
     {
       "work": "vivien-woman-appeared-1904",
@@ -94,10 +97,11 @@
       "verification": "verified-exact",
       "how_verified": "as-published",
       "verified_on": "2026-08-04",
-      "provenance": "Read from the BnF Partenariats EPUB of the Gallica 1904 digitisation, in the repo. EPUB has no pagination, so cited by chapter. Confirmed to be the first edition by the Vally/Lorély test - Vally 153 occurrences, Lorély none.",
+      "citation_provenance": "Read from the BnF Partenariats EPUB of the Gallica 1904 digitisation, in the repo. EPUB has no pagination, so cited by chapter. Confirmed to be the first edition by the Vally/Lorély test - Vally 153 occurrences, Lorély none.",
       "lang": "fr",
       "translation": "'Must one fear love?' she asked, so simply that, faced with the kiss she was offering me, I drew back… I drew back as a creature half-struck by madness draws back from a murder conceived in an insane hour. … The virgin with the light curls kept away for long days.",
-      "translation_note": "**A published English version exists and differs**: Foster gives 'My little virgin with the short curls', adding a possessive and a diminutive and changing the adjective, and renders 'le Prince inconnu' as 'the Unknown Lover'. The literal reading is given here precisely because that difference is what this quotation was entered to show."
+      "translation_note": "**A published English version exists and differs**: Foster gives 'My little virgin with the short curls', adding a possessive and a diminutive and changing the adjective, and renders 'le Prince inconnu' as 'the Unknown Lover'. The literal reading is given here precisely because that difference is what this quotation was entered to show.",
+      "document": "novel"
     }
   ],
   "disputed": {

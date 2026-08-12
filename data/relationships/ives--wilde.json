@@ -31,14 +31,15 @@
       "supports": "Wilde in his own hand, writing to Ives, saying plainly what the friendship was: a pleasure, and a private subject-matter shared by the two of them and nobody else. Wilde is refusing Ives's insistence on hidden meeting-places, so the sentence doubles as his statement that this bond needs no concealment - the sharpest first-hand characterization of the Ives-Wilde relationship in the record, and unmediated, unlike the diary-quoting passages below.",
       "verification": "verified-elision",
       "how_verified": "text-layer",
-      "provenance": "PDF p. 1218 . Three intervening sentences elided with a spaced ellipsis; both sentences are from the same letter's closing two paragraphs.",
+      "citation_provenance": "PDF p. 1218 . Three intervening sentences elided with a spaced ellipsis; both sentences are from the same letter's closing two paragraphs.",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "George Ives",
       "manuscript": {
         "repository": "William Andrews Clark Memorial Library, UCLA"
       },
-      "document": "letter"
+      "document": "letter",
+      "letter_id": "letters-2000/1172#1"
     },
     {
       "quote": "…he enjoyed the company of Wilde and his circle in some of the new continental cafés and at the Authors' Club, the Lyric Club and the New Travellers' Club, where Wilde once kissed him 'passionately' goodbye.",
@@ -50,9 +51,10 @@
       "supports": "The documented kiss: Wilde kissed Ives 'passionately' goodbye at the New Travellers' Club (undated by Cook)",
       "verification": "verified-elision",
       "how_verified": "text-layer",
-      "provenance": "PDF p. 161. Leading clause of the sentence ('London, he said in October 1891, was a \"grand place\", and') elided; full sentence transcribed in long-form notes.",
+      "citation_provenance": "PDF p. 161. Leading clause of the sentence ('London, he said in October 1891, was a \"grand place\", and') elided; full sentence transcribed in long-form notes.",
       "verified_on": "2026-08-03",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "study"
     },
     {
       "quote": "Please remember me very kindly to George Ives. I was greatly touched at hearing of his desire to come and see me. In the terrible solitude and silence in which one lives a message or a memory means a great deal. I hope he is hard at work writing books. I am very glad you know him. He is such a good fellow and so clever.",
@@ -68,11 +70,15 @@
       "supports": "The bond held through prison: Ives sought to visit; Wilde 'greatly touched'",
       "verification": "verified-exact",
       "how_verified": "text-layer",
-      "provenance": "PDF p. 713.",
+      "citation_provenance": "PDF p. 713.",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "R. H. Sherard",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "British Library, London (Lady Eccles Oscar Wilde Collection)"
+      },
+      "letter_id": "letters-2000/662#1"
     },
     {
       "quote": "Ives published A Book of Chains anonymously in 1897, which contained poems bearing directly on his feelings for Wilde in prison.",
@@ -86,9 +92,10 @@
       "supports": "Ives's side of the attachment: published poems on his feelings for Wilde (editorial characterization)",
       "verification": "verified-exact",
       "how_verified": "text-layer",
-      "provenance": "PDF p. 713.",
+      "citation_provenance": "PDF p. 713.",
       "verified_on": "2026-08-03",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "editorial-note"
     },
     {
       "quote": "Don't have with _me_ the silly mania for secrecy that makes you miss the value of things: to you it is of more importance to conceal your address from a friend, than to see your friend. … On the whole, George, you are a great baby. One can't help being angry with you.",
@@ -104,14 +111,15 @@
       "supports": "Late-friendship intimacy and friction; the 'silly mania for secrecy' line is from this letter",
       "verification": "verified-elision",
       "how_verified": "text-layer",
-      "provenance": "PDF p. 1218. Intervening paragraphs elided with spaced ellipsis; fuller text in long-form notes.",
+      "citation_provenance": "PDF p. 1218. Intervening paragraphs elided with spaced ellipsis; fuller text in long-form notes.",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "George Ives",
       "manuscript": {
         "repository": "William Andrews Clark Memorial Library, UCLA"
       },
-      "document": "letter"
+      "document": "letter",
+      "letter_id": "letters-2000/1172#1"
     },
     {
       "quote": "Yes: I have no doubt we shall win, but the road is long, and red with monstrous martyrdoms. Nothing but the repeal of the Criminal Law Amendment Act would do any good.",
@@ -126,8 +134,8 @@
       },
       "supports": "Wilde's own naming of what he and Ives held in common: the campaign against the law that criminalized them. The first-person plural is the point - 'we shall win' puts Wilde inside Ives's cause, and the specific target he names is Ives's own, the repeal of the Criminal Law Amendment Act 1885. This is the passage most often cited as evidence that the friendship was political as well as personal, and it was missing from this record.",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "PDF p. 1090. Emphasis checked against the manuscript, HRC MSS_WildeO_2_7_001-002 (bifolium; the quoted close falls on the left half of the first image), with the envelope at _003-004. NULL FINDING: no underlining anywhere in the quoted passage. The long diagonal strokes on the sheet are Wilde's paragraph marks, not underlines.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF p. 1090.",
       "verified_on": "2026-08-10",
       "voice": "period",
       "addressee": "George Ives",
@@ -142,8 +150,11 @@
         ],
         "caption": "one folded sheet and its envelope: sheet 1 shows sides 1 and 4, sheet 2 sides 2 and 3, so the quoted close falls on the left half of the first image"
       },
-      "verified_against": "original",
-      "document": "letter"
+      "document": "letter",
+      "marks_verified": true,
+      "original_provenance": "HRC MSS_WildeO_2_7_001-002, the bifolium; the quoted close falls on the left half of the first image, and the envelope follows at _003-004. The long diagonal strokes on the sheet are Wilde's paragraph marks, not underlines.",
+      "verified_against_original": true,
+      "letter_id": "letters-2000/1044#1"
     }
   ]
 }

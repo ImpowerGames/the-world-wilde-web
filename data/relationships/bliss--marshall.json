@@ -31,9 +31,10 @@
       "supports": "The marriage date",
       "verification": "verified-exact",
       "how_verified": "text-layer",
-      "provenance": "PDF p. 92.",
+      "citation_provenance": "PDF p. 92.",
       "verified_on": "2026-08-03",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "biography"
     }
   ]
 }

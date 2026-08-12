@@ -27,9 +27,10 @@
       "supports": "The meeting date, the partnership, and the Batten-Troubridge kinship that links the two Hall records.",
       "verification": "verified-exact",
       "how_verified": "as-published",
-      "provenance": "Https://norman.hrc.utexas.edu/fasearch/findingAid.cfm?eadid=00163",
+      "citation_provenance": "Https://norman.hrc.utexas.edu/fasearch/findingAid.cfm?eadid=00163",
       "verified_on": "2026-08-03",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "finding-aid"
     },
     {
       "quote": "She married naval officer Sir Ernest Troubridge (1862-1926) in 1908, soon after the death of her father. The Troubridges had one daughter, Andrea, in 1910, but were separated by 1919 because of Una's relationship with Radclyffe Hall.",
@@ -43,9 +44,10 @@
       "supports": "That the relationship with Hall ended Troubridge's marriage - a consequence recorded as fact by the holding archive.",
       "verification": "verified-exact",
       "how_verified": "as-published",
-      "provenance": "Https://norman.hrc.utexas.edu/fasearch/findingAid.cfm?eadid=00163",
+      "citation_provenance": "Https://norman.hrc.utexas.edu/fasearch/findingAid.cfm?eadid=00163",
       "verified_on": "2026-08-03",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "finding-aid"
     },
     {
       "quote": "During the last nine years of her life, Hall had an affair with a Russian nurse named Evguenia Souline (1904-1958?), tolerated by Troubridge despite the unhappiness it caused her.",
@@ -57,9 +59,10 @@
       "supports": "That the Hall-Troubridge partnership continued through, and accommodated, Hall's affair with Evguenia Souline.",
       "verification": "verified-exact",
       "how_verified": "as-published",
-      "provenance": "Https://norman.hrc.utexas.edu/fasearch/findingAid.cfm?eadid=00163",
+      "citation_provenance": "Https://norman.hrc.utexas.edu/fasearch/findingAid.cfm?eadid=00163",
       "verified_on": "2026-08-03",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "finding-aid"
     },
     {
       "quote": "Life with John was by no means always easy, but her variety was infinite and it was always interesting. If I knew discouragement, weariness and exasperation throughout the twenty-eight years that we were together I never knew boredom. … That is why life is so _dull_ without her. That is why when at last her overtaxed body gave out and she could drive it no longer and she went to God for rest, I found that I had lost my occupation as well as my infinitely beloved companion.",
@@ -73,9 +76,10 @@
       "supports": "Troubridge's first-person account of the relationship.",
       "verification": "verified-elision",
       "how_verified": "text-layer",
-      "provenance": "PDF p. 137. 'dull' is underlined in the original.",
+      "citation_provenance": "PDF p. 137. 'dull' is underlined in the original.",
       "verified_on": "2026-08-04",
-      "voice": "period"
+      "voice": "period",
+      "document": "memoir"
     },
     {
       "quote": "",
@@ -87,9 +91,12 @@
       "supports": "Day-by-day participant record of the partnership.",
       "verification": "unverified",
       "how_verified": "unverified",
-      "provenance": "",
+      "citation_provenance": "",
       "verified_on": null,
-      "document": "diary"
+      "document": "diary",
+      "manuscript": {
+        "repository": "Harry Ransom Center, The University of Texas at Austin"
+      }
     }
   ]
 }

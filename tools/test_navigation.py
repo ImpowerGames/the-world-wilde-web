@@ -18,9 +18,18 @@ no screenshot would have shown them. Looking is still what caught the layout fau
 complement to it, not a replacement.
 
 Requires: playwright (`pip install playwright && playwright install chromium`), and the site
-served at localhost:8000.
+served at localhost:8000, or another port passed as the first argument.
 """
+import os
+import sys
+
 from playwright.sync_api import sync_playwright
+
+# The port the site is served on. Two servers is a normal state here - one for a preview, one for
+# whatever else is running - and hard-coding 8000 made the tests report a refused connection as a
+# console-error failure, which reads like a regression in the site.
+PORT = int(sys.argv[1]) if len(sys.argv) > 1 else int(os.environ.get("WWW_PORT", "8000"))
+SITE = f"http://localhost:{PORT}/"
 
 FAIL = []
 
@@ -37,7 +46,7 @@ with sync_playwright() as pw:
     errs = []
     pg.on("pageerror", lambda e: errs.append(str(e)))
     pg.on("console", lambda m: errs.append(m.text) if m.type == "error" else None)
-    pg.goto("http://localhost:8000/", wait_until="networkidle")
+    pg.goto(SITE, wait_until="networkidle")
     pg.wait_for_timeout(2800)
 
     vb = lambda: [float(x) for x in pg.evaluate(

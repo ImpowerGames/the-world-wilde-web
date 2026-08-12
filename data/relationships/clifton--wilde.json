@@ -34,11 +34,15 @@
       },
       "supports": "The everyday footing of the friendship.",
       "verification": "verified-elision",
-      "how_verified": "page-image",
-      "provenance": "PDF p. 432.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF p. 432.",
       "verified_on": "2026-08-05",
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "Private collection"
+      },
+      "letter_id": "letters-2000/410#2"
     },
     {
       "work": "letters-2000",
@@ -55,11 +59,15 @@
       },
       "supports": "Wilde refusing the vocabulary of moral censure, in private, four years before it was used on him.",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "PDF p. 483.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF p. 483.",
       "verified_on": "2026-08-05",
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "William Andrews Clark Memorial Library, UCLA"
+      },
+      "letter_id": "letters-2000/463#2"
     }
   ],
   "date_label": "London, 1880s-1891"

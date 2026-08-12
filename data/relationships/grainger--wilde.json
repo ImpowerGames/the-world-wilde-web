@@ -35,11 +35,11 @@
       },
       "supports": "Grainger's age (sixteen) on Wilde's own oath; the servant relationship; the notorious kiss exchange",
       "verification": "verified-elision",
-      "how_verified": "page-image",
-      "provenance": "IA in.ernet.dli.2015.499238, leaf 186 (printed p. 150)",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "IA in.ernet.dli.2015.499238, leaf 186 (printed p. 150)",
       "verified_on": "2026-08-03",
       "speaker": "Oscar Wilde",
-      "voice": "exchange",
+      "voice": "court",
       "addressee": "Edward Carson",
       "turns": [
         {
@@ -81,11 +81,11 @@
       },
       "supports": "Wilde's denial on oath; the Goring under-butler arrangement from June 1893",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "IA in.ernet.dli.2015.499238, leaf 186 (printed pp. 150-151)",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "IA in.ernet.dli.2015.499238, leaf 186 (printed pp. 150-151)",
       "verified_on": "2026-08-03",
       "speaker": "Oscar Wilde",
-      "voice": "exchange",
+      "voice": "court",
       "addressee": "Edward Carson",
       "turns": [
         {
@@ -107,18 +107,12 @@
       },
       "supports": "The plea-only allegation, its dates and places — the class-deciding text. Note: the plea as printed states no age for Grainger",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "IA in.ernet.dli.2015.499238, leaves 389-390 (printed pp. 343-344)",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "IA in.ernet.dli.2015.499238, leaves 389-390 (printed pp. 343-344)",
       "verified_on": "2026-08-03",
       "speaker": "The Marquess of Queensberry, plea of justification (filed 30 March 1895)",
-      "voice": "exchange",
-      "turns": [
-        {
-          "who": "Queensberry",
-          "text": "… in the City of Oxford and also upon several occasions in the months of June July and August in the year of our Lord One thousand eight hundred and ninety-three at a house called \"The Cottage\" at Goring in the County of Oxford did solicit and incite one Walter Grainger to commit sodomy and other acts of gross indecency and immorality with him the said Oscar Fingal O'Flahertie Wills Wilde and did then and there commit the said other acts of gross indecency and immorality with the said Walter Grainger."
-        }
-      ],
-      "document": "testimony"
+      "voice": "court",
+      "document": "plea"
     },
     {
       "quote": "Do you know a boy named Walter Grainger?—He was a servant in Lord Alfred Douglas's lodgings at Oxford. He asked me if I would get him a place in London. Did you find him a place?—Yes. Where?—In my own house at Goring. When did he come?—I should think it was in July, 1893. He remained in my service till I left Goring in October.",
@@ -132,11 +126,11 @@
       },
       "supports": "The service dates (July-October 1893) from the final trial",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "IA in.ernet.dli.2015.499238, leaf 366 (printed p. 320)",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "IA in.ernet.dli.2015.499238, leaf 366 (printed p. 320)",
       "verified_on": "2026-08-03",
       "speaker": "Oscar Wilde",
-      "voice": "exchange",
+      "voice": "court",
       "addressee": "the Solicitor-General",
       "turns": [
         {
@@ -184,14 +178,14 @@
       "how_verified": "text-layer",
       "verified_on": "2026-08-03",
       "speaker": "Oscar Wilde",
-      "provenance": "PDF pp. 254-255s.",
+      "citation_provenance": "PDF pp. 254-255s.",
       "evidence_date": {
         "y": 1895,
         "m": 4,
         "d": 4
       },
       "supports": "The verbatim shorthand transcript of the same exchange Hyde 1948 prints in condensed form - kept alongside Hyde, not in place of him, so the divergence stays visible in the record.",
-      "voice": "exchange",
+      "voice": "court",
       "addressee": "Edward Carson",
       "turns": [
         {

@@ -1,0 +1,22 @@
+{
+ "letter_id": "letters-2000/592#2",
+ "text_from": "facsimile",
+ "printed": {
+  "work": "letters-2000",
+  "locator": "p. 592"
+ },
+ "facsimile": {
+  "archive": "hrc",
+  "item": "2700",
+  "pages": [
+   19,
+   20
+  ]
+ },
+ "addressee": "George Ives",
+ "context": "Wilde to George Ives, [circa 30 June 1894], New Travellers Club, Piccadilly. Ives was living at the Albany; the 'young Domitian' is unidentified.",
+ "quote": "Dear George, I am charmed to see you are at the Albany — I am off to the country till Monday. I have said I am going to Cambridge to see you — but I am really going to see the young Domitian, who has taken to poetry! Next week let us meet. Yours",
+ "marks_verified": true,
+ "original_provenance": "Read at HRC MSS_WildeO_2_7_019 and _020, two sides on New Travellers Club paper; the envelope to Ives at the same club is _021-_022. Emphasis: none - nothing is underlined on either side, a null finding. Punctuation: two dashes restored, each written hard after the word it follows and reading as his punctuation - 'at the Albany — I am off', where the printed text has a full stop, and 'to see you — but', where it has a comma. Not resolved: the signature is one of the undifferentiated squiggles the volume's note on the text says the editors interpreted 'to the best of their ability'; they read it 'Yours', and the manuscript does not settle it, so the printed reading stands.",
+ "transcribed_on": "2026-08-10"
+}

@@ -32,9 +32,10 @@
       "supports": "The marriage, its month and year, the daughter, and the legal separation by 1919.",
       "verification": "verified-elision",
       "how_verified": "as-published",
-      "provenance": "Plain-text extract of the article via the MediaWiki API.",
+      "citation_provenance": "Plain-text extract of the article via the MediaWiki API.",
       "verified_on": "2026-08-05",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "web-page"
     },
     {
       "quote": "were separated by 1919 because of Una's relationship with Radclyffe Hall",
@@ -48,9 +49,10 @@
       "supports": "The repository's own statement of why and when the marriage ended.",
       "verification": "verified-exact",
       "how_verified": "as-published",
-      "provenance": "The sketch carries no per-claim citations.",
+      "citation_provenance": "The sketch carries no per-claim citations.",
       "verified_on": "2026-08-05",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "finding-aid"
     }
   ]
 }

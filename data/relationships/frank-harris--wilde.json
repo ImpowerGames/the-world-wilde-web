@@ -33,11 +33,15 @@
       },
       "supports": "The first thanks, and the clothes he came out of prison in.",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "PDF p. 895.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF p. 895.",
       "verified_on": "2026-08-05",
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "Yale University Library, New Haven, Connecticut"
+      },
+      "letter_id": "letters-2000/845#2"
     },
     {
       "work": "letters-2000",
@@ -54,8 +58,8 @@
       },
       "supports": "The friendship being repaired in the open, and Wilde defining what gratitude and directness now meant to him.",
       "verification": "verified-elision",
-      "how_verified": "page-image",
-      "provenance": "PDF p. 944. Emphasis checked against the manuscript, HRC MSS_WildeO_2_6_067-081. 'now' and 'things' are underlined once each for stress. The French 'roulades' is underlined too, carrying the mark a hand uses where type would be italic, so it is marked as both. 'me' in 'For me to use such a word' is underlined TWICE - the degree the Complete Letters discard by their own account - restored here as __me__. An underline under the interlineated 'lighter as well as' is an insertion mark, not emphasis, and is not reproduced.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF p. 944.",
       "verified_on": "2026-08-10",
       "voice": "period",
       "facsimile": {
@@ -80,14 +84,17 @@
         ],
         "caption": "fifteen sides written at Berneval three weeks out of prison, the sheets numbered by Wilde 1 to 5; the postscript about Lawley follows the signature on the last of them"
       },
-      "verified_against": "original",
-      "document": "letter"
+      "document": "letter",
+      "marks_verified": true,
+      "original_provenance": "HRC MSS_WildeO_2_6_067-081. 'now' and 'things' underlined once each for stress; the French 'roulades' underlined too, carrying the mark a hand uses where type would be italic, so it is marked as both. 'me' in 'For me to use such a word' is underlined TWICE - the degree the Complete Letters discard by their own account. The underline beneath the interlineated 'lighter as well as' is an insertion mark, not emphasis, and is not reproduced.",
+      "verified_against_original": true,
+      "letter_id": "letters-2000/894#1"
     },
     {
       "work": "letters-2000",
       "locator": "pp. 1024-1025",
       "locator_type": "page",
-      "quote": "My dear Frank, I cannot express to you how deeply touched I am by your letter: it is une vraie poignée de main. I simply long to see you, and to come again in contact with your strong, sane, wonderful personality. … When you return from Monte Carlo please let me know. I long to dine with you. As regards a comedy, my dear Frank, I have lost the mainspring of life and art, la joie de vivre; it is dreadful. I have pleasures, and passions, but the joy of life is gone. I am going under: the morgue yawns for me. I go and look at my zinc-bed there. After all, I had a wonderful life, which is, I fear, over. But I must dine once with you first. Ever yours",
+      "quote": "My dear Frank, I cannot express to you how deeply touched I am by your letter — it is *une vraie poignée de main*. I simply long to see you, and to come again in contact with your strong, sane, wonderful personality. … When you return from Monte Carlo please let me know. I long to dine with you. As regards a comedy, my dear Frank, I have lost the mainspring of life and art — *la joie de vivre* — it is dreadful. I have pleasures, and passions — but the joy of life is gone. I am going under — the morgue yawns for me — I go and look at my zinc-bed there. After all, I had a wonderful life, which is, I fear, over. But I must dine once with you first. Ever yours",
       "context": "Wilde to Frank Harris, [end February 1898], Hôtel de Nice (MS Texas), quoted across the page break. The elision drops two paragraphs on the reviewing of The Ballad. Harris was pressing him to write a comedy; the refusal turns into the plainest statement of despair in the late letters, and then swerves back to dinner. 'une vraie poignée de main' is a real handshake.",
       "speaker": "Oscar Wilde",
       "addressee": "Frank Harris",
@@ -97,11 +104,29 @@
       },
       "supports": "What Wilde told a friend he had left, and that seeing him was still worth staying for.",
       "verification": "verified-elision",
-      "how_verified": "page-image",
-      "provenance": "PDF pp. 1070-1071.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF pp. 1070-1071. The quotation restores Wilde's dashes where the printed text has a colon or a comma; see `original_provenance`.",
       "verified_on": "2026-08-05",
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "facsimile": {
+        "archive": "hrc",
+        "item": "2676",
+        "pages": [
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66
+        ],
+        "caption": "six sides on Hotel de Nice paper with its engraved pen vignette, a fresh sheet begun at the fifth; the quoted close runs to the signature on the sixth. The seventh image is not the letter but Frank Harris's own printed leaf of it, filed with the manuscript - useful for reading a hand this hard, and headed by Harris dating it 'the winter of 1897', where the Complete Letters give end February 1898"
+      },
+      "original_provenance": "Read at HRC MSS_WildeO_2_6_060 to _065, six sides in Wilde's hand on Hotel de Nice paper; _066 is Frank Harris's own printed leaf of the same letter, filed with it. EMPHASIS: Wilde underlines 'first' and 'signed', both on _061 and both inside the passage this quotation elides. The two French phrases carry NO underline — the strokes near them sit at mid-height, level with the tops of the lowercase letters, and are dashes; compare the rule under 'first', which is tight beneath the baseline. Their italics are the editors' foreign-word convention, so they are marked *thus* and not _*thus*_. PUNCTUATION: six dashes are restored, each written between two words with the sentence continuing on the same line, so each is his punctuation and not an artefact of the line ending — 'your letter — it is' (_060), 'life and art —' and '— it is dreadful' (_064), 'and passions — but', 'going under — the' and 'me — I go and look' (_065). The volume's note on the text says his dashes were replaced throughout with 'normal punctuation as the sense seems to demand', which is where the printed colon after 'letter' and 'under' comes from. NOT PRESERVED: the detached strokes at the right margin, after 'de main.' on _060 and after 'there.' and 'over.' on _065, which fall at the line ending with nothing following them and are artefacts of it. The sentence-ending dash after 'dreadful' on _064 is likewise at a line ending and is rendered as the full stop the sense requires.",
+      "marks_verified": true,
+      "verified_against_original": true,
+      "letter_id": "letters-2000/1024#2"
     },
     {
       "work": "letters-2000",
@@ -117,11 +142,15 @@
       },
       "supports": "What the friendship had become by 1898, in Wilde's own accounting.",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "PDF p. 1143.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF p. 1143.",
       "verified_on": "2026-08-05",
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "British Library, London (Lady Eccles Oscar Wilde Collection)"
+      },
+      "letter_id": "letters-2000/1097#2"
     }
   ],
   "date_label": "London and the exile, 1890s-1900"

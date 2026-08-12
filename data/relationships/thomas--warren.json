@@ -29,9 +29,10 @@
       "supports": "The contemporary perception of Thomas as 'Ned's new boy friend' and Marshall's jealousy",
       "verification": "verified-exact",
       "how_verified": "text-layer",
-      "provenance": "PDF p. 93.",
+      "citation_provenance": "PDF p. 93.",
       "verified_on": "2026-08-03",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "biography"
     }
   ]
 }

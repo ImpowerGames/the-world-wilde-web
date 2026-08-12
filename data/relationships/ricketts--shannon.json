@@ -28,12 +28,15 @@
       "supports": "Ricketts, in his own words, naming the relationship as forty years of companionship - the class-deciding participant testimony, read directly rather than through a historian's quotation.",
       "verification": "verified-exact",
       "how_verified": "text-layer",
-      "provenance": "PDF p. 417 (printed folio 389)",
+      "citation_provenance": "PDF p. 417 (printed folio 389) Delaney lists \"Letters to Fr. John Gray, 1903-30 (The Beinecke Rare Book and Manuscript Library, Yale Univ.)\".",
       "verified_on": "2026-08-04",
       "speaker": "Charles Ricketts, letter to John Gray",
       "addressee": "John Gray",
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "Beinecke Rare Book and Manuscript Library, Yale University"
+      }
     },
     {
       "quote": "As I grow older, doubtless this will increase. I now view old Vale work with a sort of affection, and the past seems flooded with sunlight, though I was then poor and talentless but young, and youth is a great virtue!",
@@ -49,12 +52,16 @@
       "supports": "Ricketts's own retrospect on the Vale years he and Shannon shared - participant voice, and the true date and addressee of a fragment that has been read as a deathbed-adjacent one.",
       "verification": "verified-exact",
       "how_verified": "as-published",
-      "provenance": "Self-Portrait (1939), p. 342; the letter opens on the previous page, headed \"To Gordon Bottomley / LANSDOWNE HOUSE / 16 Sept. 1922\".",
+      "citation_provenance": "Self-Portrait (1939), p. 342; the letter opens on the previous page, headed \"To Gordon Bottomley / LANSDOWNE HOUSE / 16 Sept. 1922\". Delaney's Manuscript Sources list the Ricketts and Shannon letters to Gordon Bottomley, 1904-31, as \"bequeathed by the late Roger Lancelyn Green to the British Library, London\".",
       "verified_on": "2026-08-04",
       "speaker": "Charles Ricketts, letter to Gordon Bottomley",
       "addressee": "Gordon Bottomley",
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "British Library, London",
+        "recorded_by": "Delaney, Charles Ricketts (1990)"
+      }
     },
     {
       "quote": "Ricketts was nostalgic ('I now view old Vale work with a sort of affection, and the past seems flooded with sunlight') but also resigned: 'I realize that, viewed as a whole, this trial is small compared to the forty years of perfect companionship I have enjoyed.'",
@@ -68,9 +75,10 @@
       "supports": "A historian's reading of the partnership's last years - retained alongside the two underlying letters so that the compression is visible in the record rather than inherited from it.",
       "verification": "verified-exact",
       "how_verified": "text-layer",
-      "provenance": "The two quoted fragments come from separate sources seven years apart: Self-Portrait p. 342 and Delaney p. 389.",
+      "citation_provenance": "The two quoted fragments come from separate sources seven years apart: Self-Portrait p. 342 and Delaney p. 389.",
       "verified_on": "2026-08-03",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "study"
     },
     {
       "quote": "Ricketts wrote romantically from Florence: 'Dear Old Chap [.] At each meal time they plonk down a plate of strawberries which make me think of you – no, this is not quite accurate. I really think of the strawberries. Only when they are done, \"I think of thee.\"'",
@@ -82,9 +90,10 @@
       "supports": "Ricketts writing to Shannon in the register Cook calls romantic - participant testimony, one man to the other.",
       "verification": "verified-exact",
       "how_verified": "text-layer",
-      "provenance": "PDF p. 61 (printed folio 48).",
+      "citation_provenance": "PDF p. 61 (printed folio 48).",
       "verified_on": "2026-08-03",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "study"
     },
     {
       "quote": "Both men talk in the plural: 'Captain Brinkley's sale. One of the greatest hauls of our lives', wrote Shannon in his diary in 1898; Ricketts added a note – an intimate act in itself – that 'both our banking accounts vanished in this sale'.",
@@ -98,9 +107,10 @@
       "supports": "Both participants, in their own hands, treating money, purchases and life as jointly held.",
       "verification": "verified-exact",
       "how_verified": "text-layer",
-      "provenance": "PDF p. 61 (printed folio 48).",
+      "citation_provenance": "PDF p. 61 (printed folio 48).",
       "verified_on": "2026-08-03",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "study"
     },
     {
       "quote": "Overall, this meant that in more than 40 years together – and between the housemates and the servants – the pair never lived alone. … Neither Shannon nor Ricketts described himself as homosexual, Uranian or inverted, nor did they allude to the sex they might have had together. Ricketts playfully refused to answer the questions of classicist John Addington Symonds on the subject, though in relaying the anecdote down the years he indicated an ease and a certain mischievousness about it. Instead, Shannon and Ricketts' bond and relationship was articulated by the men themselves and by their circle of friends in terms of their co-residence, their emotional, practical and aesthetic investment in their homes, their vast collection of art and antiques, and the artistic and design work that was closely identified with the places where they lived",
@@ -112,9 +122,10 @@
       "supports": "The classification warrant - the men themselves are the source - together with the explicit limit of what survives.",
       "verification": "verified-elision",
       "how_verified": "text-layer",
-      "provenance": "PDF pp. 46-47 (printed folios 33 and 34); one intervening sentence elided with a spaced ellipsis.",
+      "citation_provenance": "PDF pp. 46-47 (printed folios 33 and 34); one intervening sentence elided with a spaced ellipsis.",
       "verified_on": "2026-08-03",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "study"
     },
     {
       "quote": "Shannon had affairs with women and contemplated marriage on more than one occasion, giving Rickett's biographer J.G.P. Delaney cause to suggest that he was basically heterosexual. He makes sense of Shannon's (apparent) 'sacrifice' of the 'ordinary joys that his life with Ricketts denied him' through their joint and home-based passion for art and collecting. This does indeed help in understanding some of what energised and underpinned Shannon and Ricketts' relationship, but Delaney's fixing of Shannon and Ricketts' sexuality (as heterosexual and homosexual respectively) does scant justice to the intensity of their bond, or to how they and others perceived it. Even if this couple did not have a sexual relationship (which is possible), that should not detract from the strength of their connection and intimacy.",
@@ -126,9 +137,10 @@
       "supports": "That the sexual character of the partnership is disputed among specialists and unsettled - and that the connection itself is not.",
       "verification": "verified-exact",
       "how_verified": "text-layer",
-      "provenance": "PDF p. 47 (printed folio 34).",
+      "citation_provenance": "PDF p. 47 (printed folio 34).",
       "verified_on": "2026-08-03",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "study"
     },
     {
       "quote": "Charles De Sousy Ricketts (1866–1931), artist, writer, book and stage designer, lived for many years with Charles Hazlewood Shannon (1863–1937), first in a house (which had belonged to Whistler) in a Chelsea cul-de-sac called The Vale. … Together they ran a privately printed magazine called the Dial from 1889 to 1897. They sent a copy of the first issue (the British Library copy is stamped 21 August 1889) to Wilde, and this brought about their first meeting with him.",
@@ -142,9 +154,10 @@
       "supports": "Both men's dates and the shared household, stated as plain fact by Wilde's editors; and the date the pair entered Wilde's circle.",
       "verification": "verified-elision",
       "how_verified": "text-layer",
-      "provenance": "PDF pp. 432-433 (printed folios 410-411)",
+      "citation_provenance": "PDF pp. 432-433 (printed folios 410-411)",
       "verified_on": "2026-08-03",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "editorial-note"
     },
     {
       "quote": "They had met at the City and Guilds Technical Art School in Lambeth when Ricketts was just sixteen and Shannon nineteen. They fell in love, and their relationship was to last the best part of half a century.",
@@ -156,9 +169,10 @@
       "supports": "A biographer's plain assertion that the two fell in love - the strongest such statement located so far, and the weakest kind of evidence in this record.",
       "verification": "verified-exact",
       "how_verified": "text-layer",
-      "provenance": "The conversion renders opening single quotes as backticks; normalised to typographic quotation marks.",
+      "citation_provenance": "The conversion renders opening single quotes as backticks; normalised to typographic quotation marks.",
       "verified_on": "2026-08-03",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "biography"
     },
     {
       "quote": "Also, they never lived apart. The unconventional relationship was speculated about, but even during the homophobic panic surrounding the Wilde trial, the discretion of their private lives and a lack of interest in sexually controversial themes in their art saved them from notoriety. It seems significant that the Uranian poet and activist John Addington Symonds (1840–1893) in the mid-Nineties was convinced of the fact that they were an item (Delaney 25). Diaries and letters have revealed that Ricketts was certainly homosexual, and that Shannon had affairs with female sitters. Recent scholarship on their shared involvement with the queer culture of their time may confirm the rumours of their being a romantic couple, if not an exclusive one (Cook passim).",
@@ -170,9 +184,10 @@
       "supports": "That the partnership was legible to contemporaries as a couple, and that the surviving evidence is the two men's own diaries and letters.",
       "verification": "verified-exact",
       "how_verified": "as-published",
-      "provenance": "Https://1890s.ca/shannon_bio/",
+      "citation_provenance": "Https://1890s.ca/shannon_bio/",
       "verified_on": "2026-08-03",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "biography"
     },
     {
       "quote": "MY DEAR BOY, Shannon met with a bad accident a week ago and remained unconscious for four days and nights in the hands of three male nurses and two doctors. This morning, at noon, Sir Farquhar Buzzard declared him out of danger, though Shannon is still only semi-conscious and recognizes no one. He slipped on the stairs hanging a picture, struck his temple, and fell head foremost. He is in my studio. … I did not undress or go to bed for four days and nights, and lived in a strange blending of the Past, Present, and Future.",
@@ -187,12 +202,16 @@
       "supports": "Ricketts's own words about Shannon and their household, at first hand rather than through a historian's quotation.",
       "verification": "verified-elision",
       "how_verified": "text-layer",
-      "provenance": "Self-Portrait (1939), p. 409; OCR line-break hyphens closed (\"semi-conscious\"), and one sentence about the medical prognosis elided with a spaced ellipsis. This entry corrects an earlier record which ran this letter and the next together under a single ellipsis and credited both to Cecil Lewis.",
+      "citation_provenance": "Self-Portrait (1939), p. 409; OCR line-break hyphens closed (\"semi-conscious\"), and one sentence about the medical prognosis elided with a spaced ellipsis. This entry corrects an earlier record which ran this letter and the next together under a single ellipsis and credited both to Cecil Lewis. Delaney lists \"Letters to Cecil Lewis (TS), 1920-31, probably not complete (Private Collection)\".",
       "verified_on": "2026-08-04",
       "speaker": "Charles Ricketts, letter to Cecil Lewis",
       "addressee": "Cecil Lewis",
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "Private collection",
+        "recorded_by": "Delaney, Charles Ricketts (1990)"
+      }
     },
     {
       "quote": "Then, a little more than a fortnight ago, Shannon met with a serious accident. Please do not write to express sympathy; this is unnecessary and painful to both, and well-meaning friends have added to the sadness of the situation. … Should all go well, and should we meet again, do not mention any of these facts to Shannon; he will probably never be told how dangerous his case has been. For the moment, my dear friend, don't ask me to write more. I am being well cared for, but have gone through a great deal during these tragic days.",
@@ -208,12 +227,17 @@
       "supports": "Ricketts, in his own voice, managing what Shannon would be told and what the nursing was costing him - participant testimony from inside the household.",
       "verification": "verified-elision",
       "how_verified": "as-published",
-      "provenance": "Self-Portrait (1939), p. 410; one passage about the doctors' prognosis elided with a spaced ellipsis. The four suspension points after \"a serious accident\" are the volume's own.",
+      "citation_provenance": "Self-Portrait (1939), p. 410; one passage about the doctors' prognosis elided with a spaced ellipsis. The four suspension points after \"a serious accident\" are the volume's own. Delaney lists the letters to R. N. Roland Holst, 1910-31, as \"formerly in the collection of Mr David Gould\", seen mostly in transcripts made by Gould - so a private holding whose present owner the biography does not name.",
       "verified_on": "2026-08-04",
       "speaker": "Charles Ricketts, letter to R. N. R. Holst",
       "addressee": "Richard Roland Holst",
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "Private collection",
+        "recorded_by": "Delaney, Charles Ricketts (1990)",
+        "owner": "Mr David Gould (formerly)"
+      }
     },
     {
       "work": "vancapelleveen-blog",
@@ -225,8 +249,9 @@
       "how_verified": "as-published",
       "verified_on": "2026-08-04",
       "supports": "A named scholarly objection to the couple reading - kept so the dissent is visible in the record rather than only the affirming sources.",
-      "provenance": "Https://charlesricketts.blogspot.com/2017/10/325-gay-pride.html retrieved with a verbatim-quotation request; the three sentences are separated in the post and the ellipses mark that separation.",
-      "voice": "modern"
+      "citation_provenance": "Https://charlesricketts.blogspot.com/2017/10/325-gay-pride.html retrieved with a verbatim-quotation request; the three sentences are separated in the post and the ellipses mark that separation.",
+      "voice": "modern",
+      "document": "web-page"
     }
   ],
   "null_findings": [

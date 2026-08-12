@@ -33,11 +33,15 @@
       },
       "supports": "The closeness at the start, against which the deletion has to be read.",
       "verification": "verified-elision",
-      "how_verified": "page-image",
-      "provenance": "PDF pp. 53-54.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF pp. 53-54.",
       "verified_on": "2026-08-05",
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "Magdalen College, Oxford"
+      },
+      "letter_id": "letters-2000/27#1"
     },
     {
       "work": "letters-2000",
@@ -53,11 +57,15 @@
       },
       "supports": "What Wilde said he owed him, in the words the later editions removed.",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "PDF pp. 613-614.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF pp. 613-614.",
       "verified_on": "2026-08-05",
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "Library of Trinity College, Dublin"
+      },
+      "letter_id": "letters-2000/561#3"
     }
   ],
   "date_label": "Dublin, Oxford and after, 1874-1893"

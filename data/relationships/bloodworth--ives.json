@@ -30,9 +30,10 @@
       "supports": "Ives's own diary on sleeping beside Pug (Bloodworth) and Cubby - 'those two' names both men; participant testimony, quoted by Cook from Diary vol. 76. The quoted sentence names love, disclaims passion, and locates the value in comfort.",
       "verification": "verified-elision",
       "how_verified": "text-layer",
-      "provenance": "PDF p. 112.",
+      "citation_provenance": "PDF p. 112.",
       "verified_on": "2026-08-03",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "study"
     },
     {
       "quote": "…in the diary for the post-1905 period there is a sense of Ives settling down - not to a 'conventional' family, but with a series of working- and lower-middle-class men whom he paternalistically referred to as his 'children'. Kit brought his wife and children to live there for a while, and in 1909, Harold Bloodworth, a teenage footballer, moved in and stayed until Ives' death in 1950.",
@@ -46,9 +47,10 @@
       "supports": "Bloodworth entered the household in 1909 as 'a teenage footballer' and stayed until Ives's death in 1950; the household's 'children' framing",
       "verification": "verified-elision",
       "how_verified": "text-layer",
-      "provenance": "PDF p. 164. Sentence opening ('Adelaide Road was, according to historian Donald Olsen, \"the essence of suburbia\", and') elided; full passage transcribed in long-form notes.",
+      "citation_provenance": "PDF p. 164. Sentence opening ('Adelaide Road was, according to historian Donald Olsen, \"the essence of suburbia\", and') elided; full passage transcribed in long-form notes.",
       "verified_on": "2026-08-03",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "study"
     },
     {
       "quote": "He moved from the countryside into London, lived in London for most of his life, mostly in a suburban house in North London, where he lived with a succession of younger men who sometimes stayed for just a few years, sometimes they stayed for decades.",
@@ -60,9 +62,10 @@
       "supports": "The household pattern - Bloodworth is the stayed-for-decades case, though Lewis names no one; Lewis frames these as 'domestic relationships' and elsewhere notes Ives's 'relationships were all with adults'",
       "verification": "verified-exact",
       "how_verified": "as-published",
-      "provenance": "Discovery & Inspiration - Brian Lewis, \"George Cecil Ives and the Transformation of Discourses on Sexuality\"",
+      "citation_provenance": "Discovery & Inspiration - Brian Lewis, \"George Cecil Ives and the Transformation of Discourses on Sexuality\"",
       "verified_on": "2026-08-03",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "interview"
     },
     {
       "quote": "",
@@ -74,9 +77,12 @@
       "supports": "Whether Bloodworth was a lover rather than solely a household member ('child') cannot be said for sure with the sources at hand.",
       "verification": "unverified",
       "how_verified": "unverified",
-      "provenance": "",
+      "citation_provenance": "",
       "verified_on": "2026-08-03",
-      "document": "diary"
+      "document": "diary",
+      "manuscript": {
+        "repository": "Harry Ransom Center, The University of Texas at Austin"
+      }
     },
     {
       "quote": "Though Ives' relationships with the other men at Adelaide Road possibly started sexually, they seem quickly to have become platonic - even though he continued to sleep with them from time to time.",
@@ -88,9 +94,10 @@
       "supports": "Cook's own careful reading: a possible sexual beginning, a platonic settling, continued bed-sharing throughout.",
       "verification": "verified-exact",
       "how_verified": "text-layer",
-      "provenance": "PDF p. 112.",
+      "citation_provenance": "PDF p. 112.",
       "verified_on": "2026-08-03",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "study"
     },
     {
       "quote": "The men thus shifted from (possible) lovers to sons and, in bed, to comrades.",
@@ -102,9 +109,10 @@
       "supports": "The trajectory Cook proposes for these relationships.",
       "verification": "verified-exact",
       "how_verified": "text-layer",
-      "provenance": "PDF p. 112.",
+      "citation_provenance": "PDF p. 112.",
       "verified_on": "2026-08-03",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "study"
     },
     {
       "quote": "The two men he was living with - Harold Bloodworth and Stanley Saunders (Pug and Elephant) - were left the Adelaide Road house and contents; Tilly Hayes was next in line to inherit after them.",
@@ -118,9 +126,10 @@
       "supports": "The strongest single statement of Bloodworth's standing in the household: he and Saunders inherit the house itself. Ives's own ranking of his attachments, in a legal document.",
       "verification": "verified-exact",
       "how_verified": "text-layer",
-      "provenance": "PDF pp. 120-121; the sentence runs across the page break.",
+      "citation_provenance": "PDF pp. 120-121; the sentence runs across the page break.",
       "verified_on": "2026-08-03",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "study"
     },
     {
       "quote": "If conventionally there might be a single spouse, Ives recognised the three-way affections between himself and the men he lived with. Bloodworth, who had lived with Ives at this point for around 30 years, was also appointed one of his executors.",
@@ -134,9 +143,10 @@
       "supports": "Cook explicitly frames the Ives/Bloodworth/Saunders triad against the spousal model - the nearest he comes to calling it a partnership, though 'affections' is not a claim of sexual relations. Independently corroborates the 1909 start date already in this record: 'around 30 years' before the 1939 will.",
       "verification": "verified-exact",
       "how_verified": "text-layer",
-      "provenance": "PDF p. 121.",
+      "citation_provenance": "PDF p. 121.",
       "verified_on": "2026-08-03",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "study"
     },
     {
       "quote": "While a late night for Pug left Ives feeling 'pretty sure he had arranged to stay with a girl', he observed that 'a wise parent does not ask too many questions' (even though usually 'we have no secrets between us').",
@@ -152,9 +162,10 @@
       "supports": "The clearest first-hand statement of the terms Ives set for this relationship, and the one that bears directly on the disputed block above: Ives knows Bloodworth spends nights with women, casts himself as parent rather than partner, and declines to ask - while still claiming 'we have no secrets between us'. Ives's diary, vol. 76, 2 October 1920, as quoted by Cook. Read against the lead quotation, the two together give the shape of the bond in Ives's own terms: love and a shared bed, without exclusivity and without the vocabulary of coupledom.",
       "verification": "verified-exact",
       "how_verified": "text-layer",
-      "provenance": "PDF p. 112.",
+      "citation_provenance": "PDF p. 112.",
       "verified_on": "2026-08-03",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "study"
     },
     {
       "work": "lewis-personal-communication",
@@ -166,13 +177,16 @@
       "supports": "The identification of 'Cubby' as Harold Holt rather than Charles Gee, correcting Cook (2014) p. 101.",
       "verification": "unverified",
       "how_verified": "unverified",
-      "provenance": "Unpublished telephone communication; no transcript. Recorded here because it corrects a published source on a point this edge turns on.",
+      "citation_provenance": "Unpublished telephone communication; no transcript. Recorded here because it corrects a published source on a point this edge turns on.",
       "order_hint": {
         "y": 1921,
         "m": 1,
         "why": "The communication is of 2026 but what it settles is who 'Cubby' was in the diary entry of 20 January 1921, so it reads beside that entry rather than at the end of a life."
       },
-      "document": "interview"
+      "document": "interview",
+      "manuscript": {
+        "repository": "Private inbox"
+      }
     }
   ]
 }

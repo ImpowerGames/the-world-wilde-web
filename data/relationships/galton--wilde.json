@@ -31,11 +31,15 @@
       },
       "supports": "The whole of the correspondence, and that the two men were in contact in 1890.",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "PDF p. 477.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF p. 477.",
       "verified_on": "2026-08-06",
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "Montague Collection, New York Public Library"
+      },
+      "letter_id": "letters-2000/455#1"
     }
   ],
   "date_label": "London, 1890"

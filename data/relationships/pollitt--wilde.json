@@ -30,9 +30,10 @@
       "supports": "The size of the surviving corpus - four Wilde-to-Pollitt letters - and the editors' correction of the misspelling to Wilde's account rather than Pollitt's",
       "verification": "verified-exact",
       "how_verified": "text-layer",
-      "provenance": "PDF p. 1166. Whole footnote.",
+      "citation_provenance": "PDF p. 1166. Whole footnote.",
       "verified_on": "2026-08-03",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "editorial-note"
     },
     {
       "quote": "This letter is addressed 'M. Jerome Pollit, The Green Window, Kendal, Lake-Poet-District'.",
@@ -44,9 +45,10 @@
       "supports": "The misspelling itself, as Wilde wrote it on the envelope - 'Pollit' for 'Pollitt' - and the fact that Wilde addressed him by the preferred Christian name Jerome at his Kendal house",
       "verification": "verified-exact",
       "how_verified": "text-layer",
-      "provenance": "PDF p. 1162. Second sentence of the two-sentence footnote; the first sentence is the cross-reference.",
+      "citation_provenance": "PDF p. 1162. Second sentence of the two-sentence footnote; the first sentence is the cross-reference.",
       "verified_on": "2026-08-03",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "editorial-note"
     },
     {
       "quote": "How is Pollitt? He has sent me two photographs of himself: in one he is fair, in the other dark; and neither resembles the other. What _is_ he like?",
@@ -62,11 +64,15 @@
       "supports": "The class-deciding fact: five weeks into the correspondence and holding two photographs, Wilde still had to ask a third party what Pollitt looked like - the two had not met",
       "verification": "verified-exact",
       "how_verified": "text-layer",
-      "provenance": "PDF p. 1163.",
+      "citation_provenance": "PDF p. 1163.",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Leonard Smithers",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "Princeton University Library, Princeton, New Jersey"
+      },
+      "letter_id": "letters-2000/1117#1"
     },
     {
       "quote": "Dear Mr Pollitt, I should like a photograph of you, of all things. Pray let me have one.",
@@ -82,11 +88,15 @@
       "supports": "The direction-deciding fact: the photograph traffic is opened by Wilde, unprompted, in the first letter - correcting the earlier record long-form notes's note that it was Pollitt-initiated",
       "verification": "verified-exact",
       "how_verified": "text-layer",
-      "provenance": "PDF p. 1149.",
+      "citation_provenance": "PDF p. 1149.",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Herbert Charles Pollitt",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "Princeton University Library, Princeton, New Jersey"
+      },
+      "letter_id": "letters-2000/1103#1"
     },
     {
       "quote": "Pollitt's Kendal home was called The Green Window.",
@@ -98,9 +108,10 @@
       "supports": "The Green Window as a real house rather than a conceit - the running private reference in the correspondence",
       "verification": "verified-exact",
       "how_verified": "text-layer",
-      "provenance": "PDF p. 1153.",
+      "citation_provenance": "PDF p. 1153.",
       "verified_on": "2026-08-03",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "editorial-note"
     },
     {
       "quote": "Dear Mr Pollitt, Thank you so much for the two photographs you have so kindly sent me. I like the little one, in the Norfolk suit, best: it looks young and nice: the other, the one by Hollyer, looks to me like the portrait of an Oxford Dean – troubled and affected and ineffectual: not a bit like you, I am sure. Mrs Leverson, a recognised authority for the colour of young men's hair, assured me you were quite golden, and I have always thought of you as a sort of gilt sunbeam masquerading in clothes, but, no doubt, you are Protean, and have many forms. When you come to Paris pray be golden entirely, and leave your more serious aspect in charge of Smithers, who needs, indeed, some stern monitor for his manner of living.",
@@ -116,11 +127,15 @@
       "supports": "The sustained request-and-comment pattern on which the direction rests; the passages are the flirtatious core of the correspondence",
       "verification": "verified-exact",
       "how_verified": "text-layer",
-      "provenance": "PDF pp. 1152-1153; the editors' footnote marker after 'Hollyer' is dropped.",
+      "citation_provenance": "PDF pp. 1152-1153; the editors' footnote marker after 'Hollyer' is dropped.",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Herbert Charles Pollitt",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "Princeton University Library, Princeton, New Jersey"
+      },
+      "letter_id": "letters-2000/1106#1"
     },
     {
       "work": "letters-2000",
@@ -136,11 +151,15 @@
       },
       "supports": "Wilde on Pollitt's goldness, and telling him where not to stay.",
       "verification": "verified-elision",
-      "how_verified": "page-image",
-      "provenance": "PDF p. 1153.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF p. 1153.",
       "verified_on": "2026-08-06",
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "Princeton University Library, Princeton, New Jersey"
+      },
+      "letter_id": "letters-2000/1106#1"
     }
   ]
 }

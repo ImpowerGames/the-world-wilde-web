@@ -34,11 +34,15 @@
       },
       "supports": "Wilde in exile proposing to write the life of Heliogabalus - and calling himself a confirmed Smithersist.",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "PDF pp. 1020-1021.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF pp. 1020-1021.",
       "verified_on": "2026-08-06",
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "Vaughan Library, Harrow School, London"
+      },
+      "letter_id": "letters-2000/972#1"
     },
     {
       "work": "letters-2000",
@@ -55,11 +59,15 @@
       },
       "supports": "That Wilde waited hours for him and was glad to have seen him.",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "PDF p. 1071.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF p. 1071.",
       "verified_on": "2026-08-06",
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "William Andrews Clark Memorial Library, UCLA"
+      },
+      "letter_id": "letters-2000/1025#1"
     },
     {
       "work": "letters-2000",
@@ -76,11 +84,16 @@
       },
       "supports": "The two subjects of this correspondence in four sentences: money, and proofs.",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "PDF p. 1144.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF p. 1144. The volume gives this letter NO manuscript line; note 3 says the text \"is taken from the American Art Association catalogue of 9 February 1927\", so it survives only as a dealer's transcription and there is no original to name. The sale is the last anybody has placed this sheet: note 3 says the text \"is taken from the American Art Association catalogue of 9 February 1927\".",
       "verified_on": "2026-08-05",
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "American Art Association, New York",
+        "as_of": "9 February 1927"
+      },
+      "letter_id": "letters-2000/1098#1"
     },
     {
       "work": "letters-2000",
@@ -97,11 +110,15 @@
       },
       "supports": "Wilde still making jokes about attribution while asking to be paid attention to.",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "PDF p. 1157.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF p. 1157.",
       "verified_on": "2026-08-05",
       "voice": "period",
-      "document": "letter"
+      "document": "postcard",
+      "manuscript": {
+        "repository": "Harry Ransom Center, The University of Texas at Austin"
+      },
+      "letter_id": "letters-2000/1110#1"
     },
     {
       "work": "letters-2000",
@@ -118,11 +135,16 @@
       },
       "supports": "That Wilde wanted his publisher's company, not only his cheques.",
       "verification": "verified-elision",
-      "how_verified": "page-image",
-      "provenance": "PDF p. 1187.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF p. 1187.",
       "verified_on": "2026-08-05",
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "Private collection",
+        "owner": "Mr John Simpson"
+      },
+      "letter_id": "letters-2000/1141#3"
     }
   ],
   "date_label": "The exile years, 1897-1900"

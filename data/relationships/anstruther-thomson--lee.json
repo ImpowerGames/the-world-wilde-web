@@ -28,9 +28,10 @@
       "supports": "The companionship and its span, and its position in Lee's life as successor to the Robinson attachment.",
       "verification": "verified-exact",
       "how_verified": "as-published",
-      "provenance": "Https://1890s.ca/lee_bio/",
+      "citation_provenance": "Https://1890s.ca/lee_bio/",
       "verified_on": "2026-08-03",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "biography"
     },
     {
       "quote": "In the years following Anstruther-Thomson’s departure from Il Palmerino, Lee became preoccupied by other concerns, but in 1924 she returned to psychological aesthetics to write a substantial introduction to Anstruther-Thomson’s Art and Man (1924), a tribute to Kit who died in 1921.",
@@ -44,9 +45,10 @@
       "supports": "Shared household; Anstruther-Thomson's death in 1921; Lee's own written tribute.",
       "verification": "verified-exact",
       "how_verified": "as-published",
-      "provenance": "Https://1890s.ca/lee_bio/",
+      "citation_provenance": "Https://1890s.ca/lee_bio/",
       "verified_on": "2026-08-03",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "biography"
     },
     {
       "quote": "The writer of the following unpublished essays and fragments, my late very dear friend and fellow-worker, Miss C. Anstruther-Thomson, held an unusually large place in the life of many and very different persons, either at the same moment or during successive phases of her constantly altering, although always so harmoniously consistent, personality. … Be this as it may, what each one of us may thus have made of Kit Anstruther-Thomson, as well as what she has actually been to us, is a subject I shall attempt neither to penetrate nor to reveal.",
@@ -59,11 +61,12 @@
       },
       "supports": "Lee's own retrospective account of the relationship.",
       "verification": "verified-elision",
-      "how_verified": "page-image",
-      "provenance": "IA in.ernet.dli.2015.37546, PDF leaf 17. The ellipsis spans one intervening paragraph on the same page.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "IA in.ernet.dli.2015.37546, PDF leaf 17. The ellipsis spans one intervening paragraph on the same page.",
       "verified_on": "2026-08-03",
       "speaker": "Vernon Lee, introduction to Art and Man",
-      "voice": "period"
+      "voice": "period",
+      "document": "introduction"
     }
   ]
 }

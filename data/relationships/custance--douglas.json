@@ -31,9 +31,10 @@
       "supports": "Courtship by correspondence begins June 1901; the Prince/Princess/Page personas; Custance's 'Opal' signature.",
       "verification": "verified-exact",
       "how_verified": "as-published",
-      "provenance": "Https://1890s.ca/custance_bio/",
+      "citation_provenance": "Https://1890s.ca/custance_bio/",
       "verified_on": "2026-08-03",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "biography"
     },
     {
       "quote": "The couple eloped on 4 March 1902 and honeymooned in Paris. This was a particularly busy year for Custance as her second volume Rainbows was published in 1902 (again by The Bodley Head) and she gave birth to a son Raymond on 17 November 1902.",
@@ -49,9 +50,10 @@
       "supports": "Elopement 4 March 1902; Paris honeymoon; son Raymond born 17 November 1902.",
       "verification": "verified-exact",
       "how_verified": "as-published",
-      "provenance": "Https://1890s.ca/custance_bio/",
+      "citation_provenance": "Https://1890s.ca/custance_bio/",
       "verified_on": "2026-08-03",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "biography"
     },
     {
       "quote": "I told her that I would get a special licence while she was away at Hinchingbrooke, and that if she was “game” to do it I would be awaiting her at St George’s, Hanover Square, at nine o’clock on the following Tuesday morning, which was 4th March 1902.",
@@ -66,8 +68,8 @@
       },
       "supports": "Douglas's first-person account fixes the wedding: St George's, Hanover Square, by special licence, morning of Tuesday 4 March 1902.",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "IA autobiographyofl0000doug, leaf 225 (printed folio 197).",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "IA autobiographyofl0000doug, leaf 225 (printed folio 197).",
       "verified_on": "2026-08-03",
       "voice": "period",
       "document": "memoir"
@@ -83,10 +85,11 @@
       },
       "supports": "Separation dated eleven years after the 1902 marriage (= 1913); no divorce; Douglas's insistence on the continuing bond.",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "IA autobiographyofl0000doug, leaf 228 (printed folio 200).",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "IA autobiographyofl0000doug, leaf 228 (printed folio 200).",
       "verified_on": "2026-08-03",
-      "voice": "period"
+      "voice": "period",
+      "document": "memoir"
     },
     {
       "quote": "My own Prince, The little heart is sweet and I shall wear it even when you have forgotten all about me and married the beautiful rich princess who will give you all those lovely things you ought to have. I miss you more than I can ever say for I love you beyond everything in the world and I think we shall never be happy together again. Write to me soon and tell me you love your little Page, and that one day you will come back to ‘him’, my Prince, my Prince.",
@@ -101,12 +104,15 @@
       "supports": "Courtship-letter texture; elopement details; separation and later relations.",
       "verification": "verified-exact",
       "how_verified": "text-layer",
-      "provenance": "PDF p. 134 (2020 Sceptre reissue; an ebook conversion with no printed folios).",
+      "citation_provenance": "PDF p. 134 (2020 Sceptre reissue; an ebook conversion with no printed folios). Murray's note 12 to this chapter reads \"Olive Custance to Lord Alfred Douglas, no date. Berg.\" - the Henry W. and Albert A. Berg Collection, New York Public Library.",
       "verified_on": "2026-08-04",
       "voice": "period",
       "speaker": "Olive Custance",
       "addressee": "Alfred Douglas",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "Henry W. and Albert A. Berg Collection, New York Public Library"
+      }
     },
     {
       "quote": "Thus, on 4 March 1902, Lord Alfred Douglas and Olive Custance became man and wife at St George's, Hanover Square. Douglas was accompanied by his sister, Lady Edith Fox-Pitt, and the other witness was a friend called Cecil Hayes. … Another person was present at the wedding. From the back of the church Robert Ross watched.",
@@ -122,9 +128,10 @@
       "supports": "The marriage date, church, witnesses and the special licence - independent of the Parker biography and of Douglas's own memoir, both already cited here.",
       "verification": "verified-elision",
       "how_verified": "text-layer",
-      "provenance": "PDF p. 141 (ebook conversion; no printed folios.)",
+      "citation_provenance": "PDF p. 141 (ebook conversion; no printed folios.)",
       "verified_on": "2026-08-03",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "biography"
     },
     {
       "quote": "Douglas knew that his relationship with Doris would make his wife jealous and, indeed, when she heard of it through her father it did. She immediately telephoned him. After nearly four months of separation he recorded that the sound of her voice made him realise how much he loved her and that he wanted to repair the breach in their relationship.",
@@ -138,9 +145,10 @@
       "supports": "The 1913 separation, the four-month gap, the short-lived reconciliation, and the second desertion - the shape of the marriage after the courtship years, which this record did not previously carry.",
       "verification": "verified-exact",
       "how_verified": "text-layer",
-      "provenance": "PDF p. 195 (ebook conversion; no printed folios.)",
+      "citation_provenance": "PDF p. 195 (ebook conversion; no printed folios.)",
       "verified_on": "2026-08-03",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "biography"
     }
   ]
 }

@@ -25,10 +25,11 @@
       },
       "supports": "The marriage and its year — the whole of what the source says about it.",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "PDF p. 369.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF p. 369.",
       "verified_on": "2026-08-05",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "editorial-note"
     },
     {
       "work": "letters-2000",
@@ -43,11 +44,15 @@
       },
       "supports": "That Wilde knew her, and how he spoke of her.",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "PDF p. 370.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF p. 370.",
       "verified_on": "2026-08-05",
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "William Andrews Clark Memorial Library, UCLA"
+      },
+      "letter_id": "letters-2000/347#3"
     }
   ]
 }

@@ -30,12 +30,13 @@
       "supports": "The class, and the direction - this is Wilde writing, and only Wilde.",
       "verification": "verified-exact",
       "how_verified": "text-layer",
-      "provenance": "PDF p. 479 (printed folio 457).",
+      "citation_provenance": "PDF p. 479 (printed folio 457).",
       "verified_on": "2026-08-04",
       "speaker": "Oscar Wilde",
       "addressee": "Richard Le Gallienne",
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "letter_id": "letters-2000/456#2"
     }
   ]
 }

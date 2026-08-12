@@ -27,9 +27,10 @@
       "supports": "Housman's membership of the Order of Chaeronea alongside Ives, and a personal bequest marking it.",
       "verification": "verified-exact",
       "how_verified": "text-layer",
-      "provenance": "PDF p. 121.",
+      "citation_provenance": "PDF p. 121.",
       "verified_on": "2026-08-03",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "study"
     }
   ],
   "date_label": "Named in the 1939 will"

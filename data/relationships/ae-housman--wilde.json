@@ -31,11 +31,15 @@
       },
       "supports": "Both directions of the contact: the poems carried into Reading by Ross, and the book sent on release.",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "PDF p. 973.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF p. 973.",
       "verified_on": "2026-08-05",
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "Bryn Mawr College Library, Bryn Mawr, Pennsylvania"
+      },
+      "letter_id": "letters-2000/923#1"
     }
   ]
 }

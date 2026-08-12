@@ -30,11 +30,11 @@
       },
       "supports": "How the two men met and what was proposed, in the participant's own sworn words: Taylor's approach at the bar, his proposition quoted verbatim by Parker, Parker's answer that 'if any old gentleman with money took a fancy to me, I was agreeable', and Taylor's invitation to Little College Street with the offer to introduce 'a man who was good for plenty of money'. The plainest first-hand characterization of the connection.",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "IA in.ernet.dli.2015.499238, leaf 230 (printed p. 192)",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "IA in.ernet.dli.2015.499238, leaf 230 (printed p. 192)",
       "verified_on": "2026-08-03",
       "speaker": "Charles Parker",
-      "voice": "exchange",
+      "voice": "court",
       "addressee": "C. F. Gill",
       "turns": [
         {
@@ -100,11 +100,11 @@
       },
       "supports": "Shared sleeping at Taylor's; refused proposals by Taylor; gross-indecency evidence at Chapel Street (partner unnamed in the bracket) — the class-deciding testimony page",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "IA in.ernet.dli.2015.499238, leaf 231 (printed p. 193)",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "IA in.ernet.dli.2015.499238, leaf 231 (printed p. 193)",
       "verified_on": "2026-08-03",
       "speaker": "Charles Parker, examination-in-chief",
-      "voice": "exchange",
+      "voice": "court",
       "turns": [
         {
           "who": "Parker",
@@ -125,11 +125,11 @@
       },
       "supports": "What Taylor told Parker about himself on the night they shared a bed - Parker reporting Taylor's own account of his mock marriage to Mason, and of taking the woman's part in it",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "IA in.ernet.dli.2015.499238, leaf 231 (printed p. 193)",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "IA in.ernet.dli.2015.499238, leaf 231 (printed p. 193)",
       "verified_on": "2026-08-03",
       "speaker": "Charles Parker, examination-in-chief",
-      "voice": "exchange",
+      "voice": "court",
       "turns": [
         {
           "who": "Parker",
@@ -158,11 +158,11 @@
       },
       "supports": "The contradicting Bow Street statement — preserved for credibility assessment",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "IA in.ernet.dli.2015.499238, leaf 238 (printed p. 198)",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "IA in.ernet.dli.2015.499238, leaf 238 (printed p. 198)",
       "verified_on": "2026-08-03",
       "speaker": "Charles Parker",
-      "voice": "exchange",
+      "voice": "court",
       "addressee": "Mr Grain",
       "turns": [
         {
@@ -188,10 +188,11 @@
       },
       "supports": "Taylor's conviction on the Charles Parker gross-indecency count",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "IA in.ernet.dli.2015.499238, leaf 336 (printed p. 292)",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "IA in.ernet.dli.2015.499238, leaf 336 (printed p. 292)",
       "verified_on": "2026-08-03",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "editorial-note"
     },
     {
       "quote": "[Witness, after some hesitation, recalled the names of Mason, the two Parkers, and Sidney Mavor. When pressed he added the name of Harrington.]",
@@ -205,10 +206,11 @@
       },
       "supports": "Taylor's own admission that both Parkers were among the men who shared his bedroom",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "IA in.ernet.dli.2015.499238, leaf 326 (printed p. 282)",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "IA in.ernet.dli.2015.499238, leaf 326 (printed p. 282)",
       "verified_on": "2026-08-03",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "editorial-note"
     }
   ]
 }

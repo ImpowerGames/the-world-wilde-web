@@ -23,8 +23,8 @@
       "work": "letters-2000",
       "locator": "p. 59",
       "locator_type": "page",
-      "quote": "Dear Mr Wilde, Accept my best thanks for the magazine and your letter. Your excellent article on the Grosvenor Gallery I read with very great pleasure: it makes me much wish to make your acquaintance, and I hope you will give me an early call on your return to Oxford. I should much like to talk over some of the points with you, though on the whole I think your criticisms very just, and they are certainly very pleasantly expressed. The article shows that you possess some beautiful, and, for your age, quite exceptionally cultivated tastes: and a considerable knowledge too of many beautiful things. I hope you will write a great deal in time to come. Very truly yours",
-      "context": "Walter Pater to Oscar Wilde, headed 'Bradmore Road. Oxford. July 14' [1877] (MS Texas), quoted whole. It survives inside a letter of Wilde's to William Ward, who had been sent the original and told to return it by registered post; Wilde then thought better of trusting it to the postman and copied it out instead. Wilde's transcription has three small errors, which the editors list. His own comment follows it: 'You won't think me snobbish for sending you this? After all, it is something to be honestly proud of.' Wilde was twenty-two; the article was his first.",
+      "quote": "Dear Mr Wilde, Accept my best thanks for the magazine and your letter. Your excellent article on the Grosvenor Gallery I read with very great pleasure; it makes me much wish to make your acquaintance, and I hope you will give me an early call on your return to Oxford. I should much like to talk over some of the points with you, though on the whole I think your criticism very just, and it is certainly very pleasantly expressed. It shows that you possess some beautiful, and ~~at~~ for your age quite exceptionally cultivated, tastes; and a considerable knowledge also of many beautiful things. I hope you will write a great deal in time to come. Very truly yours",
+      "context": "Walter Pater to Oscar Wilde, headed 'Bradmore Road. Oxford. July 14' [1877], quoted whole from the autograph at the Ransom Center. Wilde had sent him the Dublin University Magazine carrying his notice of the Grosvenor Gallery's opening; this is the reply, and the beginning of the acquaintance. Wilde forwarded the letter to William Ward and asked for it back by registered post.",
       "speaker": "Walter Pater",
       "addressee": "Oscar Wilde",
       "evidence_date": {
@@ -34,11 +34,24 @@
       },
       "supports": "The first contact, in Pater's own hand, and what it was worth to Wilde.",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "PDF p. 86.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF p. 86. The quotation follows the AUTOGRAPH, not the text printed there: the editors set this letter from Wilde's own copy of it inside his letter to Ward, and the two differ. See `original_provenance` for the variants.",
       "verified_on": "2026-08-05",
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "facsimile": {
+        "archive": "hrc",
+        "item": "2854",
+        "pages": [
+          56,
+          57
+        ],
+        "caption": "Pater's two sides, headed Bradmore Road, Oxford, July 14 [1877]; the second sheet carries the whole of the second half and the signature. Wilde sent the original on to William Ward and asked for it back by registered post - his covering letter is at Magdalen, this is the enclosure"
+      },
+      "original_provenance": "Read at HRC MSS_WildeO_2_11_056 and _057, Pater's two sides in his own hand. One authorial cancellation, on _057: 'at' struck through and 'for' written above it on a caret, kept here as ~~at~~ for. NORMALISED: 'Gros-/venor' is broken by the line ending on _056 and is closed up, per the rule that marks produced by a line break alone are not preserved. VARIANTS from the printed text at PDF p. 86, all adopted here in the autograph's favour: manuscript 'pleasure;' for printed 'pleasure:'; 'your criticism very just, and it is certainly' for 'your criticisms very just, and they are certainly'; 'It shows' for 'The article shows'; 'knowledge also of' for 'knowledge too of'; 'cultivated, tastes;' for 'cultivated tastes:'. The printed readings are Wilde's transcription, not Pater's writing.",
+      "marks_verified": true,
+      "verified_against_original": true,
+      "letter_id": "letters-2000/59#1"
     }
   ],
   "date_label": "Oxford, from 1877"

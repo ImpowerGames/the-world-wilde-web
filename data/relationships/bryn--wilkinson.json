@@ -22,9 +22,10 @@
       "supports": "The third marriage and the wife's name.",
       "verification": "verified-exact",
       "how_verified": "as-published",
-      "provenance": "Plain-text extract of the article via the MediaWiki API.",
+      "citation_provenance": "Plain-text extract of the article via the MediaWiki API.",
       "verified_on": "2026-08-05",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "web-page"
     }
   ]
 }

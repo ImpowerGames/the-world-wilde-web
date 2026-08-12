@@ -30,9 +30,10 @@
       "supports": "The first marriage, its date, and the triangle it was made inside.",
       "verification": "verified-exact",
       "how_verified": "as-published",
-      "provenance": "Wikipedia, 'Louis Wilkinson'; the sentence is footnoted to Bayley (1995) and Wilhelm, Ezra Pound in London and Paris 1908-1925 (1990), pp. 80-81, 102",
+      "citation_provenance": "Wikipedia, 'Louis Wilkinson'; the sentence is footnoted to Bayley (1995) and Wilhelm, Ezra Pound in London and Paris 1908-1925 (1990), pp. 80-81, 102",
       "verified_on": "2026-08-05",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "web-page"
     }
   ]
 }

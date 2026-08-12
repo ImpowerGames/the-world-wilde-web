@@ -28,9 +28,10 @@
       "supports": "The first marriage, its year, the wife's identity and its end.",
       "verification": "verified-elision",
       "how_verified": "as-published",
-      "provenance": "Whistler Correspondence biographical entry (Mari_HC), footnoted to Nevinson's DNB/ODNB article on Marillier (34876)",
+      "citation_provenance": "Whistler Correspondence biographical entry (Mari_HC), footnoted to Nevinson's DNB/ODNB article on Marillier (34876)",
       "verified_on": "2026-08-05",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "web-page"
     }
   ]
 }

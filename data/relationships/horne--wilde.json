@@ -34,11 +34,15 @@
       },
       "supports": "A dinner for two, at no notice.",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "PDF p. 305.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF p. 305.",
       "verified_on": "2026-08-05",
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "Private collection"
+      },
+      "letter_id": "letters-2000/283#1"
     },
     {
       "work": "letters-2000",
@@ -55,11 +59,15 @@
       },
       "supports": "The praise that came a week later.",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "PDF p. 305.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF p. 305.",
       "verified_on": "2026-08-05",
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "William Andrews Clark Memorial Library, UCLA"
+      },
+      "letter_id": "letters-2000/283#2"
     },
     {
       "work": "letters-2000",
@@ -76,11 +84,16 @@
       },
       "supports": "The two of them working on a Chatterton memorial together, and Wilde wishing him there.",
       "verification": "verified-elision",
-      "how_verified": "page-image",
-      "provenance": "PDF p. 307.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF p. 307.",
       "verified_on": "2026-08-06",
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "Private collection",
+        "owner": "Mr John Simpson"
+      },
+      "letter_id": "letters-2000/285#1"
     },
     {
       "work": "letters-2000",
@@ -97,11 +110,16 @@
       },
       "supports": "Wilde wanting a long talk before anything is announced.",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "PDF p. 307.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF p. 307.",
       "verified_on": "2026-08-06",
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "Private collection",
+        "owner": "Mrs E. T. S. Dugdale"
+      },
+      "letter_id": "letters-2000/285#2"
     },
     {
       "work": "letters-2000",
@@ -118,11 +136,15 @@
       },
       "supports": "An evening of poems among men, declined but wanted.",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "PDF p. 483.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF p. 483.",
       "verified_on": "2026-08-05",
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "Haliburton Fales Collection, New York University"
+      },
+      "letter_id": "letters-2000/463#1"
     },
     {
       "work": "letters-2000",
@@ -139,11 +161,16 @@
       },
       "supports": "The fullest thing Wilde wrote him, and a caution about reading praise of poems as praise of the poet.",
       "verification": "verified-elision",
-      "how_verified": "page-image",
-      "provenance": "PDF p. 504.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF p. 504.",
       "verified_on": "2026-08-05",
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "Private collection",
+        "owner": "Mr Jeremy Mason"
+      },
+      "letter_id": "letters-2000/484#1"
     }
   ],
   "date_label": "London, 1886-1891"

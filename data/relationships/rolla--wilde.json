@@ -17,12 +17,12 @@
     "y": 1899,
     "m": 4
   },
-  "date_label": "Anticipated meeting at Genoa, first week of April 1899. The letter is dated '[early April 1899]' by the editors; the two Ross postcards on the same printed page are postmarked 7 April 1899 from Santa Margherita.",
+  "date_label": "Anticipated meeting at Genoa, first week of April 1899. The letter is dated 1 April [1899] by the editors; the two Ross postcards on the same printed page are postmarked 7 April 1899 from Santa Margherita.",
   "summary": "Leaving Mellor's villa at Gland at the start of April 1899, Wilde wrote to Robert Ross that he hoped to find a young seaman named Edoardo Rolla waiting for him at Genoa, having written ahead to him, and set the hope beside a statement of longing for Italy after the Swiss months. It is an approach on the page and nothing more: no letter read records whether the two met, and Rolla appears nowhere else in the correspondence consulted.",
   "sources": [
     {
       "quote": "I hope to find at Genoa, waiting for me, a young lad, by name Edoardo Rolla, one of the sea-farers. He has fair hair, and is always in dark blue. I have written to him. After the chill virginity of Swiss Alps and snow, I long for the red flowers of life that stain the feet of summer in Italy. Ever yours O. W.",
-      "context": "Wilde to Robert Ross, [early April 1899], Gland - the final paragraph of the letter announcing his departure for Genoa, where he had taken a room at the Albergo di Firenze on the quay.",
+      "context": "Wilde to Robert Ross, 1 April [1899], Café du Nord, Geneva - he had left Mellor's villa at Gland that day, and this is the final paragraph of the letter announcing his departure for Genoa, where he had taken a room at the Albergo di Firenze on the quay.",
       "work": "letters-2000",
       "locator": "p. 1140",
       "locator_type": "page",
@@ -33,11 +33,15 @@
       "supports": "The approach itself: a named young man written to in advance, described, and awaited, with Wilde's longing stated in the same breath; no outcome recorded",
       "verification": "verified-exact",
       "how_verified": "text-layer",
-      "provenance": "PDF p. 1186.",
+      "citation_provenance": "PDF p. 1186.",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Robert Ross",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "William Andrews Clark Memorial Library, UCLA"
+      },
+      "letter_id": "letters-2000/1139#2"
     },
     {
       "work": "letters-2000",
@@ -54,11 +58,16 @@
       },
       "supports": "That the attachment cooled, and how fast - stated by Wilde himself to a third party.",
       "verification": "verified-elision",
-      "how_verified": "page-image",
-      "provenance": "PDF p. 1187.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF p. 1187.",
       "verified_on": "2026-08-05",
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "Private collection",
+        "owner": "Mr John Simpson"
+      },
+      "letter_id": "letters-2000/1141#3"
     }
   ]
 }

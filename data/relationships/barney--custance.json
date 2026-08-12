@@ -30,9 +30,10 @@
       "supports": "Barney initiated the acquaintance after Opals; wooing with love poems; the Paris invitation.",
       "verification": "verified-exact",
       "how_verified": "as-published",
-      "provenance": "Https://1890s.ca/custance_bio/",
+      "citation_provenance": "Https://1890s.ca/custance_bio/",
       "verified_on": "2026-08-03",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "biography"
     },
     {
       "quote": "Custance sustained contact with both Barney and Vivien after she moved back to London in 1901, and her diaries and poems suggest she continued to be attracted to and inspired by women.",
@@ -46,9 +47,10 @@
       "supports": "Custance back in London 1901; the connection continued past the liaison; diaries/poems as evidence of her attraction to women.",
       "verification": "verified-exact",
       "how_verified": "as-published",
-      "provenance": "Https://1890s.ca/custance_bio/",
+      "citation_provenance": "Https://1890s.ca/custance_bio/",
       "verified_on": "2026-08-03",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "biography"
     },
     {
       "quote": "she was also being pursued by yet another admirer, this time a woman, and an American. Nathalie Barney, a wealthy heiress and salon hostess in Paris saw herself as a latter day Sappho. … Soon after, on holiday in Italy with Barney, Olive annoyed her friend by spending the whole time gazing at a photo of a classical statue of Antinoüs whom, she said, reminded her of her new pen friend, Lord Alfred Douglas.",
@@ -63,9 +65,10 @@
       "supports": "Independent secondary source frames Barney as pursuer; a joint Italian holiday c. 1901; the Douglas courtship running inside the Barney liaison.",
       "verification": "verified-elision",
       "how_verified": "as-published",
-      "provenance": "Https://fortnightlyreview.co.uk/2020/04/olive-custance/",
+      "citation_provenance": "Https://fortnightlyreview.co.uk/2020/04/olive-custance/",
       "verified_on": "2026-08-03",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "article"
     },
     {
       "quote": "Another arena in which Custance’s name arises is that of lesbian biography, in which her rumoured entanglements with Natalie Barney and Renée Vivien in Paris attract passing interest (Wickes 1977: 58-60; Souhami 2004: 56-51).",
@@ -77,9 +80,10 @@
       "supports": "Status of the claim in scholarship: the Barney (and Vivien) entanglements are 'rumoured', treated in lesbian biography at the cited loci.",
       "verification": "verified-exact",
       "how_verified": "as-published",
-      "provenance": "Loughborough repository (accepted manuscript; figshare file 16939550), p. 1",
+      "citation_provenance": "Loughborough repository (accepted manuscript; figshare file 16939550), p. 1",
       "verified_on": "2026-08-03",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "article"
     },
     {
       "quote": "*. For I would dance to make you smile, and sing / Of those who with some sweet mad sin have played, / And how Love walks with delicate feet afraid / Twixt maid and maid.*",
@@ -91,7 +95,7 @@
       "supports": "Custance's own words to Barney at the opening of the courtship - participant testimony from the other side, and unambiguous as to register.",
       "verification": "verified-exact",
       "how_verified": "text-layer",
-      "provenance": "The chapter 'RENÉE VIVIEN' runs PDF pp. 22-84.",
+      "citation_provenance": "The chapter 'RENÉE VIVIEN' runs PDF pp. 22-84. The memoir gives no source for Custance's lines and no location for the letter that carried them. One lead, not a location: writing of two Milosz letters Barney says she entrusted them to the Bibliothèque Doucet \"ainsi que beaucoup d'autres\" - much of her correspondence went there, and the Fonds Natalie Clifford Barney is at the Bibliothèque littéraire Jacques Doucet. Whether this letter is among it, the book does not say.",
       "verified_on": "2026-08-04",
       "speaker": "Olive Custance, letter to Natalie Barney",
       "addressee": "Natalie Barney",
@@ -111,10 +115,11 @@
       "supports": "The participant's own account of the physical opening of the liaison, and of Vivien's jealousy of it.",
       "verification": "verified-exact",
       "how_verified": "text-layer",
-      "provenance": "The chapter 'RENÉE VIVIEN' runs PDF pp. 22-84.",
+      "citation_provenance": "The chapter 'RENÉE VIVIEN' runs PDF pp. 22-84.",
       "verified_on": "2026-08-04",
       "speaker": "Natalie Clifford Barney",
-      "voice": "period"
+      "voice": "period",
+      "document": "memoir"
     },
     {
       "quote": "Loin de suivre l'exemple de cette passion qui la rendait infidèle au professeur B.C., Opale et moi grelottions de fièvre — non de celle que nous avions espéré éprouver, mais d'une malaria qui nous laissa, tout le temps de notre séjour, affaiblies, au point de ne pouvoir quitter nos lits jumelés. Opale fit accrocher au-dessus de son lit de convalescence une photographie d'Antinoüs, qui la faisait rêver à Lord Alfred Douglas. … Cependant, comme elle tenait à conserver son poète, elle ourdit le plan de m'envoyer Lord Alfred aux Etats-Unis, dans l'espoir qu'un mariage blanc entre lui et moi permettrait de tout concilier.",
@@ -126,13 +131,14 @@
       "supports": "The liaison at its height, named obliquely but unmistakably by the participant; and Custance's own manoeuvre to keep both Barney and Douglas.",
       "verification": "verified-elision",
       "how_verified": "text-layer",
-      "provenance": "The chapter 'RENÉE VIVIEN' runs PDF pp. 22-84.",
+      "citation_provenance": "The chapter 'RENÉE VIVIEN' runs PDF pp. 22-84.",
       "verified_on": "2026-08-04",
       "speaker": "Natalie Clifford Barney",
       "voice": "period",
       "lang": "fr",
       "translation": "Far from following the example of that passion which made her unfaithful to Professor B.C., Opale and I shivered with fever — not the fever we had hoped to feel, but a malaria that left us weakened for the whole of our stay, to the point of being unable to leave our twin beds. Opale had a photograph of Antinous hung above her convalescent's bed, which set her dreaming of Lord Alfred Douglas. … However, since she was set on keeping her poet, she hatched a plan to send Lord Alfred to me in the United States, in the hope that a mariage blanc between him and me would settle everything.",
-      "translation_note": "'Mariage blanc' is left in French: it means a marriage never consummated, and there is no English phrase that carries it as exactly."
+      "translation_note": "'Mariage blanc' is left in French: it means a marriage never consummated, and there is no English phrase that carries it as exactly.",
+      "document": "memoir"
     },
     {
       "quote": "When Olive reported this unexpected development, Natalie said, “Tell him I'm in love with you.” … Needless to say, she was much more attracted to Olive, especially after an evening they spent bathed in moonlight and poetry. One evening was not enough, however; Natalie wanted to be alone with Olive for a longer time. So when Mrs. Custance and Freddy returned to England, Olive and Natalie went off to Venice, accompanied by the inevitable chaperone … Olive hung the photograph of her lover over her bed. This was none other than Lord Alfred Douglas.",
@@ -146,9 +152,10 @@
       "supports": "Biographer account of the Barney–Custance entanglement.",
       "verification": "verified-elision",
       "how_verified": "text-layer",
-      "provenance": "PDF p. 70 (1978 printing)",
+      "citation_provenance": "PDF p. 70 (1978 printing)",
       "verified_on": "2026-08-04",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "biography"
     },
     {
       "quote": "Natalie was enchanted with Olive – her wonderful complexion, her vibrant poetry. Renée Vivien was morbidly jealous, and Olive was in love with ‘Bosie’, Lord Alfred Douglas. The Bosie connection fired Natalie's desire for Olive.",
@@ -162,9 +169,10 @@
       "supports": "Biographer account of the Barney–Custance liaison.",
       "verification": "verified-exact",
       "how_verified": "text-layer",
-      "provenance": "PDF p. 58 (2005 printing)",
+      "citation_provenance": "PDF p. 58 (2005 printing)",
       "verified_on": "2026-08-04",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "biography"
     }
   ],
   "null_findings": [

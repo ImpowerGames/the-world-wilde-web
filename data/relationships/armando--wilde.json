@@ -33,11 +33,15 @@
       },
       "supports": "The relationship, its cost, its ending, and Wilde forgiving a theft because the thief looked well in the coat.",
       "verification": "verified-elision",
-      "how_verified": "page-image",
-      "provenance": "PDF p. 1228.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF p. 1228.",
       "verified_on": "2026-08-06",
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "William Andrews Clark Memorial Library, UCLA"
+      },
+      "letter_id": "letters-2000/1181#2"
     },
     {
       "work": "letters-2000",
@@ -53,11 +57,15 @@
       },
       "supports": "The fullest physical description Wilde wrote of anyone in his last year.",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "PDF p. 1230.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF p. 1230.",
       "verified_on": "2026-08-06",
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "William Andrews Clark Memorial Library, UCLA"
+      },
+      "letter_id": "letters-2000/1183#1"
     }
   ]
 }

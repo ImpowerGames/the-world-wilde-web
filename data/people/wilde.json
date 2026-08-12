@@ -37,11 +37,15 @@
           },
           "supports": "Wilde's own awareness that he had become a case study in the medical literature of homosexuality, in his lifetime.",
           "verification": "verified-exact",
-          "how_verified": "page-image",
-          "provenance": "PDF p. 1054.",
+          "how_verified": "photo-reproduction",
+          "citation_provenance": "PDF p. 1054.",
           "verified_on": "2026-08-05",
           "voice": "period",
-          "document": "letter"
+          "document": "letter",
+          "manuscript": {
+            "repository": "British Library, London (Lady Eccles Oscar Wilde Collection)"
+          },
+          "letter_id": "letters-2000/1006#1"
         }
       ]
     }

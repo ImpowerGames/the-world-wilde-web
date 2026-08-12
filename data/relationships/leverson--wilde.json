@@ -32,11 +32,15 @@
       },
       "supports": "What Wilde told her about the story that would be used against him at trial.",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "PDF p. 677.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF p. 677.",
       "verified_on": "2026-08-06",
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "William Andrews Clark Memorial Library, UCLA"
+      },
+      "letter_id": "letters-2000/625#1"
     },
     {
       "work": "letters-2000",
@@ -52,11 +56,15 @@
       },
       "supports": "The warmest thing Wilde wrote her, at the worst moment of his life.",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "PDF p. 701.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF p. 701.",
       "verified_on": "2026-08-05",
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "William Andrews Clark Memorial Library, UCLA"
+      },
+      "letter_id": "letters-2000/650#1"
     },
     {
       "work": "letters-2000",
@@ -73,11 +81,15 @@
       },
       "supports": "That she was among the first to meet him out of prison, and that he trusted her with the aliases.",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "PDF p. 895.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF p. 895.",
       "verified_on": "2026-08-05",
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "William Andrews Clark Memorial Library, UCLA"
+      },
+      "letter_id": "letters-2000/845#1"
     }
   ],
   "date_label": "London, Holloway and Dieppe, 1893-1897"

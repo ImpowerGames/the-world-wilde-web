@@ -31,12 +31,16 @@
       "supports": "Preference, physical admiration, the habit of walking together, and money Wilde did not have - all of it in Wilde's own hand.",
       "verification": "verified-elision",
       "how_verified": "text-layer",
-      "provenance": "PDF p. 1024 (printed folio 976).",
+      "citation_provenance": "PDF p. 1024 (printed folio 976). The volume's headnote is 'MS Hyde'.",
       "verified_on": "2026-08-04",
       "speaker": "Oscar Wilde",
       "addressee": "Reginald Turner",
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "British Library, London (Lady Eccles Oscar Wilde Collection)"
+      },
+      "letter_id": "letters-2000/976#1"
     }
   ]
 }

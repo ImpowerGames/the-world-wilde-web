@@ -30,11 +30,16 @@
       },
       "supports": "The invitation, and the terms of the friendship: an established writer amused by a young one.",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "PDF p. 402.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF p. 402.",
       "verified_on": "2026-08-05",
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "Private collection",
+        "owner": "Mr Jeremy Mason"
+      },
+      "letter_id": "letters-2000/380#1"
     },
     {
       "work": "letters-2000",
@@ -50,11 +55,16 @@
       },
       "supports": "Wilde reading a young poet's book closely, praising and correcting it, teasing him about his sweetheart, and asking him to call.",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "PDF p. 402.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF p. 402. The volume's headnote is 'MS Mason'.",
       "verified_on": "2026-08-05",
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "Private collection",
+        "owner": "Mr Jeremy Mason"
+      },
+      "letter_id": "letters-2000/380#2"
     },
     {
       "work": "letters-2000",
@@ -70,11 +80,16 @@
       },
       "supports": "The shape of the friendship - Wilde withholding his name from Hill's publicity while backing his work.",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "PDF p. 402.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF p. 402. The volume's headnote is 'MS Mason'.",
       "verified_on": "2026-08-05",
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "Private collection",
+        "owner": "Mr Jeremy Mason"
+      },
+      "letter_id": "letters-2000/380#3"
     },
     {
       "work": "letters-2000",
@@ -90,11 +105,16 @@
       },
       "supports": "Three years on from the first letters, the friendship still running — and Wilde saying plainly that he would like to see more of him.",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "PDF p. 500.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF p. 500.",
       "verified_on": "2026-08-05",
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "Private collection",
+        "owner": "Mr Jeremy Mason"
+      },
+      "letter_id": "letters-2000/480#2"
     },
     {
       "work": "letters-2000",
@@ -110,11 +130,16 @@
       },
       "supports": "The closest thing to a declaration in this correspondence: 'I often think of you, and am sorry we meet so rarely.'",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "PDF p. 503.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF p. 503.",
       "verified_on": "2026-08-05",
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "Private collection",
+        "owner": "Mr Jeremy Mason"
+      },
+      "letter_id": "letters-2000/483#2"
     }
   ],
   "date_label": "c. 1888-1891, from Tite Street"

@@ -33,11 +33,15 @@
       "supports": "The whole of the record for Fortuné: named as the second of Wilde's two special friends among the Napoule fisher-folk, called quite perfect, with no outcome recorded",
       "verification": "verified-exact",
       "how_verified": "text-layer",
-      "provenance": "PDF p. 1159.",
+      "citation_provenance": "PDF p. 1159.",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Laurence Housman",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "Bryn Mawr College Library, Bryn Mawr, Pennsylvania"
+      },
+      "letter_id": "letters-2000/1113#1"
     }
   ]
 }

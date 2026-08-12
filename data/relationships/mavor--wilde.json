@@ -35,11 +35,11 @@
       },
       "supports": "Taylor's procuring pitch, the Kettner's introduction dinner, and the dated cigarette case fixing the acquaintance to October 1892",
       "verification": "verified-elision",
-      "how_verified": "page-image",
-      "provenance": "IA in.ernet.dli.2015.499238, leaf 251 (printed p. 211)",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "IA in.ernet.dli.2015.499238, leaf 251 (printed p. 211)",
       "verified_on": "2026-08-03",
       "speaker": "Sidney Mavor",
-      "voice": "exchange",
+      "voice": "court",
       "turns": [
         {
           "who": "Mavor",
@@ -60,11 +60,11 @@
       },
       "supports": "The witness's on-stand denial that anything occurred — the class-deciding quote",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "IA in.ernet.dli.2015.499238, leaf 252 (printed p. 212)",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "IA in.ernet.dli.2015.499238, leaf 252 (printed p. 212)",
       "verified_on": "2026-08-03",
       "speaker": "Sidney Mavor",
-      "voice": "exchange",
+      "voice": "court",
       "turns": [
         {
           "who": "Mavor",
@@ -85,12 +85,12 @@
       },
       "supports": "The recantation's backstory: Douglas coached Mavor to deny",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "IA in.ernet.dli.2015.499238, leaf 95 (printed p. 73 n); Hyde's footnote 5 quotes Douglas's Autobiography (2nd edn.), p. 119",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "IA in.ernet.dli.2015.499238, leaf 95 (printed p. 73 n); Hyde's footnote 5 quotes Douglas's Autobiography (2nd edn.), p. 119",
       "verified_on": "2026-08-03",
       "voice": "period",
       "speaker": "Lord Alfred Douglas, Autobiography",
-      "document": "testimony"
+      "document": "memoir"
     },
     {
       "quote": "And that the said Oscar Fingal O'Flahertie Wills Wilde in the month of October in the year of our Lord One thousand eight hundred and ninety-two at the said Albemarle Hotel did solicit and incite one Sidney Mavor to commit sodomy and other acts of gross indecency and immorality and did then and there commit the said other acts of gross indecency and immorality with the said Sidney Mavor.",
@@ -104,18 +104,12 @@
       },
       "supports": "The formal allegation and its date/place",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "IA in.ernet.dli.2015.499238, leaves 387-388 (printed pp. 341-342)",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "IA in.ernet.dli.2015.499238, leaves 387-388 (printed pp. 341-342)",
       "verified_on": "2026-08-03",
       "speaker": "The Marquess of Queensberry, plea of justification (filed 30 March 1895)",
-      "voice": "exchange",
-      "turns": [
-        {
-          "who": "Queensberry",
-          "text": "And that the said Oscar Fingal O'Flahertie Wills Wilde in the month of October in the year of our Lord One thousand eight hundred and ninety-two at the said Albemarle Hotel did solicit and incite one Sidney Mavor to commit sodomy and other acts of gross indecency and immorality and did then and there commit the said other acts of gross indecency and immorality with the said Sidney Mavor."
-        }
-      ],
-      "document": "testimony"
+      "voice": "court",
+      "document": "plea"
     }
   ]
 }

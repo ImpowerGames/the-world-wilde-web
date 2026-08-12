@@ -26,13 +26,14 @@
       "supports": "The second marriage, the wife's name, and its dating relative to the Spread Eagle.",
       "verification": "verified-exact",
       "how_verified": "text-layer",
-      "provenance": "David Sox, Bachelors of Art (1991), text layer",
+      "citation_provenance": "David Sox, Bachelors of Art (1991), text layer",
       "verified_on": "2026-08-05",
       "voice": "modern",
       "order_hint": {
         "y": 1920,
         "why": "Sox dates the marriage only as two years before Fothergill took up innkeeping at forty-six, which computes to about 1920 on his 1876 birth. No wedding date is stated anywhere read."
-      }
+      },
+      "document": "biography"
     },
     {
       "quote": "Under Fothergill's and his wife Kate's management, the Spread Eagle became a destination restaurant.",
@@ -44,9 +45,10 @@
       "supports": "Independent naming of Kate as Fothergill's wife and co-manager.",
       "verification": "verified-exact",
       "how_verified": "as-published",
-      "provenance": "Plain-text extract of the article via the MediaWiki API.",
+      "citation_provenance": "Plain-text extract of the article via the MediaWiki API.",
       "verified_on": "2026-08-05",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "web-page"
     }
   ]
 }

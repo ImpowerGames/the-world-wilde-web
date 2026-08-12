@@ -30,9 +30,10 @@
       "supports": "Start of the relationship, the ages, and Fryer's framing of it as unlike Ross's other encounters.",
       "verification": "verified-exact",
       "how_verified": "text-layer",
-      "provenance": "PDF p. 199. Offset is +22 in this half of the scan.",
+      "citation_provenance": "PDF p. 199. Offset is +22 in this half of the scan.",
       "verified_on": "2026-08-03",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "biography"
     },
     {
       "quote": "Astonishingly, Robbie reacted to this latest example of Edwardian England's homophobia by defiantly inviting his young secretary-companion Freddie Smith to move in with him in a charming house, on which he had taken a short lease, at 15 Vicarage Gardens, Kensington, just a few minutes walk from his previous rooms in Hornton Street.",
@@ -46,9 +47,10 @@
       "supports": "Documented cohabitation, and the pivot out of the Adey household into a household with Smith.",
       "verification": "verified-exact",
       "how_verified": "text-layer",
-      "provenance": "PDF p. 214.",
+      "citation_provenance": "PDF p. 214.",
       "verified_on": "2026-08-03",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "biography"
     },
     {
       "quote": "Though he never flaunted his homosexuality in public, Robbie saw no reason to be ashamed of his relationship with Freddie, who had not yet turned twenty. Moreover, he was becoming increasingly proud of his young protege, who had developed into a talented amateur actor. He used his second name Stanley on stage. Shamelessly, Robbie took advantage of his journalistic outlets to promote his lover's acting career",
@@ -63,9 +65,10 @@
       "supports": "Fryer's flat use of 'his lover' for Smith; the age; and Ross's public unashamedness about the relationship.",
       "verification": "verified-exact",
       "how_verified": "text-layer",
-      "provenance": "PDF p. 215. The quotation stops at a clause boundary without elision marks because the remainder of the sentence names the play reviewed; no words are dropped from within the quoted span.",
+      "citation_provenance": "PDF p. 215. The quotation stops at a clause boundary without elision marks because the remainder of the sentence names the play reviewed; no words are dropped from within the quoted span.",
       "verified_on": "2026-08-03",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "biography"
     },
     {
       "quote": "On the home front, he had decided to terminate his relationship with Freddie Smith, who had failed to give him the sort of loving support he had needed during his recent troubles. Although he knew Freddie would feign enthusiasm at his return, he was conscious that the passion had gone out of their union, and that more disappointment and heartache would lie ahead if he did not bring things to an end.",
@@ -79,9 +82,10 @@
       "supports": "End of the relationship, and its decade-long span (early 1903 to autumn 1913).",
       "verification": "verified-exact",
       "how_verified": "text-layer",
-      "provenance": "PDF p. 252.",
+      "citation_provenance": "PDF p. 252.",
       "verified_on": "2026-08-03",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "biography"
     },
     {
       "quote": "Thirteen other witnesses were produced in Bosie's defence, including a young woman who had taken part in amateur dramatics with Freddie Smith. She testified that she had seen Robbie hug Freddie and call him 'my darling'. A priest, whom Freddie had served as an acolyte, spoke of his revulsion when he had seen Robbie's lover with make-up on his face.",
@@ -96,9 +100,10 @@
       "supports": "The third-party attestation of the Ross-Smith relationship that survives is sworn testimony gathered by a hostile ex-friend for a prosecution - the evidentiary shape the revised taxonomy exists to record.",
       "verification": "verified-exact",
       "how_verified": "text-layer",
-      "provenance": "PDF p. 260 (the sentence quoted in the context line is at PDF p. 259, printed folio 237).",
+      "citation_provenance": "PDF p. 260 (the sentence quoted in the context line is at PDF p. 259, printed folio 237).",
       "verified_on": "2026-08-03",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "biography"
     }
   ]
 }

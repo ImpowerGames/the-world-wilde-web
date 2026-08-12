@@ -1,0 +1,22 @@
+{
+ "letter_id": "letters-2000/1196#2",
+ "text_from": "facsimile",
+ "printed": {
+  "work": "letters-2000",
+  "locator": "pp. 1196-1197"
+ },
+ "facsimile": {
+  "archive": "hrc",
+  "item": "2700",
+  "pages": [
+   11,
+   12
+  ]
+ },
+ "addressee": "George Ives",
+ "context": "Wilde to George Ives, postmarked 6 September 1900, Paris. Eleven weeks before his death. He praises Ives's book, tells him off again about the cab-drivers' cabarets, and then asks him for £10 — the whole letter turns on the hinge between the two.",
+ "quote": "_Thursday_\n\nMy dear George,\n\nI am very glad your book has been received well — I hope it will give you the position you deserve —\n\nI will be charmed to see you in Paris — but you must come to proper, seemly restaurants — not go to dreadful cabarets where cochers de fiacre resort —\n\nI hope you will never lose the sense of style in life — it keeps the barbarians away —\n\nI know you are not rich — but I wonder could you lend me £10 till October 1st? I get my small income thro’ Robbie Ross on the first of each month — and could ask him to pay you back direct — I am in great worry and annoyance over money — the price of my rooms has been doubled owing to the Exhibition — and my landlord presses me.\n\nIf you can do this, would you mind sending notes in a registered letter — cheques take ages to cash.\n\nEver Oscar",
+ "marks_verified": true,
+ "original_provenance": "Read at HRC 2700, images 11-12, one bifolium on squared paper: image 11 gives sides 1 (right) and 4 (left), image 12 the inner opening, sides 2 and 3. Images 13-14 are the envelope. Emphasis: one underline, the dateline '_Thursday_'. The volume drops the dateline altogether and heads the letter from the postmark, so the mark and the word both go. Nothing else on the four sides is underlined; the long stroke under the signature is his paraph, not a mark. OCR drop, not an omission - Settled: the sentence 'If you can do this, would you mind sending notes in a registered letter' is on the printed page. Our text mirror runs straight from 'my landlord presses me.' to 'Cheque takes ages to cash.' and drops the line; the page itself, rendered from the PDF at 320dpi and read, carries it in full. So the volume is complete here and the mirror is not - a reminder that a gap in the mirror is a question about the OCR before it is a question about the edition. Punctuation: his dashes throughout, restored; the volume gives colons and full stops. 'thro'' is his contraction, expanded to 'through' in the volume. Envelope (images 13-14): 'L'b Angleterre' underlined, 'George Ives Esq., 93 Park Row, Regents' Park, London' with 'Ives' underlined; Paris-15 6 Sept 00 and a London W SP 7 00 receiver; docketed by Ives 'September 1900' and 'Oscar Wilde' underlined. 1173 - stand, because there the edition read a real difference. Reading, where the edition is wrong: the sheet reads '— cheques take ages to cash', plural subject and plural verb. The Complete Letters print 'Cheque takes ages to cash'. This is a rare error in the edition's reading of a word.",
+ "transcribed_on": "2026-08-10"
+}

@@ -30,11 +30,11 @@
       },
       "supports": "How the two men met, in the participant's own sworn words: Taylor's promise of 'a man who was good for plenty of money', the private room at the Solferino, the formal introduction, the dinner for four that Wilde paid for, and Wilde's own words as Parker reports them - 'This is the boy for me! Will you go to the Savoy Hotel with me?' The plainest first-hand characterization of the connection, chosen in preference to the act evidence on the following page.",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "IA in.ernet.dli.2015.499238, leaf 230 (printed p. 192)",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "IA in.ernet.dli.2015.499238, leaf 230 (printed p. 192)",
       "verified_on": "2026-08-03",
       "speaker": "Charles Parker",
-      "voice": "exchange",
+      "voice": "court",
       "addressee": "C. F. Gill",
       "turns": [
         {
@@ -92,11 +92,11 @@
       },
       "supports": "Parker's age, occupation, and Taylor's pick-up of the brothers at the St James's Restaurant bar, early 1893",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "IA in.ernet.dli.2015.499238, leaf 229 (printed p. 191)",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "IA in.ernet.dli.2015.499238, leaf 229 (printed p. 191)",
       "verified_on": "2026-08-03",
       "speaker": "Charles Parker",
-      "voice": "exchange",
+      "voice": "court",
       "addressee": "C. F. Gill",
       "turns": [
         {
@@ -118,11 +118,11 @@
       },
       "supports": "Sworn first-person testimony of sodomy at the Savoy Hotel on both early-1893 visits, with payment — the class-deciding quote",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "IA in.ernet.dli.2015.499238, leaf 231 (printed p. 193)",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "IA in.ernet.dli.2015.499238, leaf 231 (printed p. 193)",
       "verified_on": "2026-08-03",
       "speaker": "Charles Parker, examination-in-chief",
-      "voice": "exchange",
+      "voice": "court",
       "turns": [
         {
           "who": "Q.",
@@ -163,11 +163,11 @@
       },
       "supports": "What the relationship was called and what was given, in the participant's own words: the make-believe Wilde asked him to keep up at Park Walk, and presents of a silver cigarette case and a gold ring, both of which Parker pawned",
       "verification": "verified-elision",
-      "how_verified": "page-image",
-      "provenance": "IA in.ernet.dli.2015.499238, leaf 231 (printed p. 193, folio 'N 193' in the source foot). One elision marked ' … '; the '. ' is Hyde's own printed redaction, reproduced as printed.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "IA in.ernet.dli.2015.499238, leaf 231 (printed p. 193, folio 'N 193' in the source foot). One elision marked ' … '; the '. ' is Hyde's own printed redaction, reproduced as printed.",
       "verified_on": "2026-08-03",
       "speaker": "Charles Parker, examination-in-chief",
-      "voice": "exchange",
+      "voice": "court",
       "turns": [
         {
           "who": "Parker",
@@ -204,11 +204,11 @@
       },
       "supports": "The Tite Street overnight; continuation of relations beyond the Savoy",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "IA in.ernet.dli.2015.499238, leaf 234 (printed p. 194)",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "IA in.ernet.dli.2015.499238, leaf 234 (printed p. 194)",
       "verified_on": "2026-08-03",
       "speaker": "Charles Parker, examination-in-chief",
-      "voice": "exchange",
+      "voice": "court",
       "turns": [
         {
           "who": "Q.",
@@ -233,11 +233,11 @@
       },
       "supports": "Conviction on all four Charles Parker counts at the final trial",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "IA in.ernet.dli.2015.499238, leaf 382 (printed pp. 336-337)",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "IA in.ernet.dli.2015.499238, leaf 382 (printed pp. 336-337)",
       "verified_on": "2026-08-03",
       "speaker": "The Clerk of Arraigns and the Foreman of the jury",
-      "voice": "exchange",
+      "voice": "court",
       "turns": [
         {
           "who": "Clerk of Arraigns",
@@ -272,7 +272,7 @@
           "text": "Guilty."
         }
       ],
-      "document": "testimony"
+      "document": "verdict"
     },
     {
       "quote": "And I feel more poignant abasement of shame for my friendship with Alfred Douglas … fifty thousand times more … than I do, say, for my connection with Charley Parker of which you may read a full account in my trial. The former is to me a daily source of mental humiliation. Of the latter I never think. It troubles me not.",
@@ -286,11 +286,15 @@
       "supports": "Wilde's own written acknowledgment of a 'connection with Charley Parker' aired at trial — his word, from prison; the editors' note on the page reads: 'One of the young men who gave evidence at Wilde's trials' (p. 670 n 1)",
       "verification": "verified-exact",
       "how_verified": "text-layer",
-      "provenance": "Complete Letters (Fourth Estate 2000), PDF p. 721 = printed p. 670",
+      "citation_provenance": "Complete Letters (Fourth Estate 2000), PDF p. 721 = printed p. 670",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Robert Ross",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "William Andrews Clark Memorial Library, UCLA"
+      },
+      "letter_id": "letters-2000/668#1"
     }
   ]
 }

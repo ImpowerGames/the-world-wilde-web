@@ -32,9 +32,10 @@
       "supports": "A named companion in Ricketts's household in his last years; the sexual element is the historian's hedge, not a finding.",
       "verification": "verified-exact",
       "how_verified": "text-layer",
-      "provenance": "PDF p. 65 (printed folio 52).",
+      "citation_provenance": "PDF p. 65 (printed folio 52).",
       "verified_on": "2026-08-03",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "study"
     }
   ]
 }

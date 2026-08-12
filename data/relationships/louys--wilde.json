@@ -36,11 +36,12 @@
       },
       "supports": "The opening of the friendship, and the fact that Gide was there from the first day of it.",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "PDF p. 516.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF p. 516.",
       "verified_on": "2026-08-05",
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "letter_id": "letters-2000/496#2"
     },
     {
       "work": "letters-2000",
@@ -58,11 +59,15 @@
       },
       "supports": "The collaboration the dedication was payment for.",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "PDF p. 526.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF p. 526.",
       "verified_on": "2026-08-05",
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "William Andrews Clark Memorial Library, UCLA"
+      },
+      "letter_id": "letters-2000/506#1"
     },
     {
       "work": "letters-2000",
@@ -80,11 +85,12 @@
       },
       "supports": "The friendship at its most familiar - a joke address, two days of looking, and John Gray asked along.",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "PDF p. 548.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF p. 548.",
       "verified_on": "2026-08-05",
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "letter_id": "letters-2000/528#2"
     },
     {
       "work": "letters-2000",
@@ -101,11 +107,12 @@
       },
       "supports": "The end of it, in Wilde's own hand, and the sentence the whole node is for.",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "PDF p. 609.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF p. 609.",
       "verified_on": "2026-08-05",
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "letter_id": "letters-2000/557#2"
     },
     {
       "work": "letters-2000",
@@ -122,11 +129,16 @@
       },
       "supports": "That the break was not clean, and that Wilde was still placing him well seven weeks later.",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "PDF p. 613.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF p. 613. The volume's headnote is 'MS O'Donohue'.",
       "verified_on": "2026-08-05",
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "Private collection",
+        "owner": "Mr Joseph J. Donohue IV"
+      },
+      "letter_id": "letters-2000/561#1"
     }
   ],
   "date_label": "Paris and London, 1891-1893"

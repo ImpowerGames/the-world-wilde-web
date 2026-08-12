@@ -32,11 +32,15 @@
       },
       "supports": "That Boulton had a preferred companion, and who the editors think he was.",
       "verification": "verified-elision",
-      "how_verified": "page-image",
-      "provenance": "PDF p. 93.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF p. 93.",
       "verified_on": "2026-08-05",
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "Yale University Library, New Haven, Connecticut"
+      },
+      "letter_id": "letters-2000/66#1"
     }
   ]
 }

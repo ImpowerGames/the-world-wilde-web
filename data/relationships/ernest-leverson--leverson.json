@@ -23,11 +23,15 @@
       },
       "supports": "That the debt was to a married couple, not to one of them.",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "PDF p. 701.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF p. 701.",
       "verified_on": "2026-08-05",
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "William Andrews Clark Memorial Library, UCLA"
+      },
+      "letter_id": "letters-2000/650#1"
     },
     {
       "work": "letters-2000",
@@ -44,11 +48,15 @@
       },
       "supports": "That he was there at the other end of it as well.",
       "verification": "verified-elision",
-      "how_verified": "page-image",
-      "provenance": "PDF p. 895.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF p. 895.",
       "verified_on": "2026-08-05",
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "William Andrews Clark Memorial Library, UCLA"
+      },
+      "letter_id": "letters-2000/845#1"
     }
   ]
 }

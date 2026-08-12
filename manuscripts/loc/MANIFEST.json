@@ -1,0 +1,176 @@
+{
+ "collection": "Library of Congress - Walt Whitman Papers in the Charles E. Feinberg Collection",
+ "collection_id": "mss18630",
+ "archive": {
+  "name": "Library of Congress, Washington, DC",
+  "short_name": "Library of Congress",
+  "collection": "Walt Whitman Papers in the Charles E. Feinberg Collection, Manuscript Division",
+  "collection_url": "https://www.loc.gov/collections/walt-whitman-papers/",
+  "record_url": "https://www.loc.gov/item/mss1863000418/",
+  "iiif_url": "https://tile.loc.gov/image-services/iiif/{pointer}",
+  "shelfmark_note": "The pointer is the IIIF service id, which is how the Library addresses the image; the sequence at its end (:008) is the scan order, not the order the letter reads in.",
+  "page_id_field": "pointer",
+  "page_id_note": "The Library's IIIF service id, service:mss:<collection>:<box>:<reel>:<image>. `shelfmark` says the same thing in prose."
+ },
+ "purpose": "The one letter this map quotes whose original is digitised outside the Ransom Center.",
+ "downloaded": "2026-08-10",
+ "download_url": "https://www.loc.gov/item/mss1863000418/",
+ "rights_note": "The Library states 'No known restrictions on use or reproduction' for this item and marks it not access-restricted, recorded here as NKC.",
+ "notes": [
+  "Per-page `file` is relative to `../../manuscripts/<key>/`, the private tree that holds the images. The path is metadata; the images are what stays unpublished.",
+  "Wilde's five sides read 8, 9, 12, 13, 10 in scan order - the leaves were photographed out of sequence.",
+  "Images 6 and 7 are not Wilde: they are Swinburne's letter to him of 2 February 1882, which the quoted letter copies out at length and which was folded in with it.",
+  "www.loc.gov refuses a non-browser request, but the image service at tile.loc.gov does not.",
+  "A `matches` entry carries only structured facts: `pages`, `what`, `printed` {work, locator} and, where there is no printed pointer, `person`. Prose about why an entry matters lives in this archive's README, not here - the manifest restates neither the connection nor the commentary."
+ ],
+ "items": [
+  {
+   "itemId": "mss1863000418",
+   "title": "Oscar Wilde to Walt Whitman, [postmark 1 March 1882], with an enclosed letter from A. C. Swinburne to Wilde",
+   "boxFolder": "Box 19, reel 11-12",
+   "dates": "1882",
+   "slug": "mss18630-01909-wilde-to-whitman",
+   "dir": "mss18630-01909-wilde-to-whitman",
+   "pages": [
+    {
+     "page": 1,
+     "pointer": "service:mss:mss18630:019:09:001",
+     "shelfmark": "mss18630, box 19, reel 11-12, image 001",
+     "caption": "archival folder slip: Feinberg-Whitman General Correspondence, Wilde, Oscar, 1882",
+     "rights": "http://rightsstatements.org/vocab/NKC/1.0/",
+     "file": "mss18630-01909-wilde-to-whitman/page-01.jpg",
+     "bytes": 208521
+    },
+    {
+     "page": 2,
+     "pointer": "service:mss:mss18630:019:09:002",
+     "shelfmark": "mss18630, box 19, reel 11-12, image 002",
+     "caption": "envelope, addressed 'To Walt Whitman, Camden city, Philadelphia', stamped",
+     "rights": "http://rightsstatements.org/vocab/NKC/1.0/",
+     "file": "mss18630-01909-wilde-to-whitman/page-02.jpg",
+     "bytes": 304303
+    },
+    {
+     "page": 3,
+     "pointer": "service:mss:mss18630:019:09:003",
+     "shelfmark": "mss18630, box 19, reel 11-12, image 003",
+     "caption": "envelope, verso",
+     "rights": "http://rightsstatements.org/vocab/NKC/1.0/",
+     "file": "mss18630-01909-wilde-to-whitman/page-03.jpg",
+     "bytes": 218408
+    },
+    {
+     "page": 4,
+     "pointer": "service:mss:mss18630:019:09:004",
+     "shelfmark": "mss18630, box 19, reel 11-12, image 004",
+     "caption": "dealer's catalogue description: '1882 March 1 Oscar Wilde to Walt Whitman; from New York. A.L.S. (5p.)'",
+     "rights": "http://rightsstatements.org/vocab/NKC/1.0/",
+     "file": "mss18630-01909-wilde-to-whitman/page-04.jpg",
+     "bytes": 252213
+    },
+    {
+     "page": 5,
+     "pointer": "service:mss:mss18630:019:09:005",
+     "shelfmark": "mss18630, box 19, reel 11-12, image 005",
+     "caption": "catalogue slip, continued",
+     "rights": "http://rightsstatements.org/vocab/NKC/1.0/",
+     "file": "mss18630-01909-wilde-to-whitman/page-05.jpg",
+     "bytes": 255490
+    },
+    {
+     "page": 6,
+     "pointer": "service:mss:mss18630:019:09:006",
+     "shelfmark": "mss18630, box 19, reel 11-12, image 006",
+     "caption": "Enclosure: A. C. Swinburne to Wilde, The Pines, Putney Hill, 2 February 1882 - the letter Wilde copies out",
+     "rights": "http://rightsstatements.org/vocab/NKC/1.0/",
+     "file": "mss18630-01909-wilde-to-whitman/page-06.jpg",
+     "bytes": 329778
+    },
+    {
+     "page": 7,
+     "pointer": "service:mss:mss18630:019:09:007",
+     "shelfmark": "mss18630, box 19, reel 11-12, image 007",
+     "caption": "Swinburne to Wilde, continued",
+     "rights": "http://rightsstatements.org/vocab/NKC/1.0/",
+     "file": "mss18630-01909-wilde-to-whitman/page-07.jpg",
+     "bytes": 324544
+    },
+    {
+     "page": 8,
+     "pointer": "service:mss:mss18630:019:09:008",
+     "shelfmark": "mss18630, box 19, reel 11-12, image 008",
+     "caption": "Wilde's letter, side 1 of 5: '1267 Broadway, New York. My Dear Dear Walt - Swinburne has just written to me'",
+     "rights": "http://rightsstatements.org/vocab/NKC/1.0/",
+     "file": "mss18630-01909-wilde-to-whitman/page-08.jpg",
+     "bytes": 389461
+    },
+    {
+     "page": 9,
+     "pointer": "service:mss:mss18630:019:09:009",
+     "shelfmark": "mss18630, box 19, reel 11-12, image 009",
+     "caption": "Wilde's letter, side 2 of 5: 'in my name, that I have by no manner of means relaxed my admiration'",
+     "rights": "http://rightsstatements.org/vocab/NKC/1.0/",
+     "file": "mss18630-01909-wilde-to-whitman/page-09.jpg",
+     "bytes": 380814
+    },
+    {
+     "page": 10,
+     "pointer": "service:mss:mss18630:019:09:010",
+     "shelfmark": "mss18630, box 19, reel 11-12, image 010",
+     "caption": "Wilde's letter, side 5 of 5: 'Essay on Poetry' to the signature - 'With warm affection, and honorable admiration, Oscar Wilde'",
+     "rights": "http://rightsstatements.org/vocab/NKC/1.0/",
+     "file": "mss18630-01909-wilde-to-whitman/page-10.jpg",
+     "bytes": 340943
+    },
+    {
+     "page": 11,
+     "pointer": "service:mss:mss18630:019:09:011",
+     "shelfmark": "mss18630, box 19, reel 11-12, image 011",
+     "caption": "blank leaf",
+     "rights": "http://rightsstatements.org/vocab/NKC/1.0/",
+     "file": "mss18630-01909-wilde-to-whitman/page-11.jpg",
+     "bytes": 282873
+    },
+    {
+     "page": 12,
+     "pointer": "service:mss:mss18630:019:09:012",
+     "shelfmark": "mss18630, box 19, reel 11-12, image 012",
+     "caption": "Wilde's letter, side 3 of 5: 'most enviable distinction that he never speaks so well'",
+     "rights": "http://rightsstatements.org/vocab/NKC/1.0/",
+     "file": "mss18630-01909-wilde-to-whitman/page-12.jpg",
+     "bytes": 347069
+    },
+    {
+     "page": 13,
+     "pointer": "service:mss:mss18630:019:09:013",
+     "shelfmark": "mss18630, box 19, reel 11-12, image 013",
+     "caption": "Wilde's letter, side 4 of 5: 'prepared to bestow on another' to 'a copy of your'",
+     "rights": "http://rightsstatements.org/vocab/NKC/1.0/",
+     "file": "mss18630-01909-wilde-to-whitman/page-13.jpg",
+     "bytes": 330418
+    }
+   ],
+   "matches": [
+    {
+     "pages": [
+      2,
+      3,
+      6,
+      7,
+      8,
+      9,
+      10,
+      12,
+      13
+     ],
+     "what": "Oscar Wilde to Walt Whitman, [postmark 1 March 1882], with Swinburne's enclosure",
+     "printed": {
+      "work": "letters-2000",
+      "locator": "pp. 144-145"
+     },
+     "letter_id": "letters-2000/144#1"
+    }
+   ]
+  }
+ ]
+}

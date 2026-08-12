@@ -29,9 +29,10 @@
       "supports": "That Levy sent Lee love poems and expressed admiration in letters: the desire, and its direction.",
       "verification": "verified-exact",
       "how_verified": "as-published",
-      "provenance": "Https://jwa.org/encyclopedia/article/levy-amy",
+      "citation_provenance": "Https://jwa.org/encyclopedia/article/levy-amy",
       "verified_on": "2026-08-03",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "encyclopedia"
     },
     {
       "quote": "Levy’s sexual orientation remains a point of contention among scholars. She was, it seems, a platonic lesbian, who never experienced a requited love attachment with any of the women to whom she was attracted. In 1886, while Levy stayed in Florence, she met and became infatuated with Vernon Lee (Violet Piaget), a novelist and essayist, to whom she dedicated one of her best sonnets.",
@@ -45,9 +46,10 @@
       "supports": "The one-sidedness (outcome = unreciprocated), the 1886 Florence meeting, and the dedication of the sonnet.",
       "verification": "verified-exact",
       "how_verified": "as-published",
-      "provenance": "Https://victorianweb.org/authors/levy/bio.html",
+      "citation_provenance": "Https://victorianweb.org/authors/levy/bio.html",
       "verified_on": "2026-08-03",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "article"
     },
     {
       "quote": "English novelist and poet (1862–89). After her story in the first number of the Woman's World she contributed articles on 'The Poetry of Christina Rossetti' (March 1888), 'Women and Club Life' (June 1888), and two poems and a story during 1889. She committed suicide by inhaling fumes of charcoal.",
@@ -61,9 +63,10 @@
       "supports": "Levy's professional tie to Wilde and the manner of her death, which sets the end of this record; her dates as Wilde's editors give them (superseded on the birth year).",
       "verification": "verified-exact",
       "how_verified": "text-layer",
-      "provenance": "PDF p. 348 (printed folio 326).",
+      "citation_provenance": "PDF p. 348 (printed folio 326).",
       "verified_on": "2026-08-03",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "editorial-note"
     },
     {
       "quote": "Both Levy's letters and poems indicate that Levy fell in love with Vernon Lee (and her feelings must have received a charge when Lee visited London only three months after they parted). … Since sending such poems to Vernon Lee at this juncture was tantamount to announcing her love, these lyrics call for a biographical reading.",
@@ -77,9 +80,10 @@
       "supports": "Levy's letters to and about Vernon Lee, in her own words.",
       "verification": "verified-elision",
       "how_verified": "text-layer",
-      "provenance": "PDF pp. 138-139, printed folios 120 and 121 confirmed in the running heads on the rendered pages. The ellipsis spans the page break and an intervening quotation from Irene Cooper Willis.",
+      "citation_provenance": "PDF pp. 138-139, printed folios 120 and 121 confirmed in the running heads on the rendered pages. The ellipsis spans the page break and an intervening quotation from Irene Cooper Willis.",
       "verified_on": "2026-08-03",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "biography"
     }
   ]
 }

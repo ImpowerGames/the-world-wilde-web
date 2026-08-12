@@ -1,0 +1,2897 @@
+{
+ "collection": "Marland on Wilde - facsimiles from the list of uncollected letters",
+ "collection_id": "marland-blog",
+ "archive": {
+  "name": "Various - auction houses, dealers and library catalogues",
+  "short_name": "Marland on Wilde (finding aid)",
+  "collection": "Uncollected letters of Oscar Wilde",
+  "collection_url": "https://marlandonwilde.blogspot.com/2020/10/uncollected-letters-of-oscar-wilde.html",
+  "record_url": "",
+  "iiif_url": "",
+  "page_id_field": null,
+  "page_id_note": "Not an archive. `pointer` is a scraped filename and is NOT unique - 16 of them repeat across items, img-00.jpg among them - so it cannot be a key."
+ },
+ "purpose": "A finding aid, not an archive: letters the Complete Letters never printed, gathered from a blog that indexes them. None is quoted in web/data.",
+ "downloaded": "2026-08-10",
+ "download_url": "https://marlandonwilde.blogspot.com/2020/10/uncollected-letters-of-oscar-wilde.html",
+ "rights_note": "Per-image and mostly unresolved - largely auction-house photography. Not for republication; recorded as UND.",
+ "notes": [
+  "Per-page `file` is relative to `../../manuscripts/<key>/`, the private tree that holds the images. The path is metadata; the images are what stays unpublished.",
+  "Images were triaged by eye on contact sheets. Removed: site chrome (auction-house logos, social buttons, trust seals, category banners, a placeholder graphic, a staff headshot); photographs of unrelated lots in the same sale (a Rolex, a Montblanc pen set, a Fornasetti plate, German-hand letters by other writers); two uniform-white PNGs; and lower-resolution rescales of an image kept elsewhere in the same folder, identified by per-pixel agreement rather than a perceptual hash, which had grouped sibling pages of one letter as duplicates. Kept but labelled in `context`: images about the letter rather than of it - a portrait of the recipient, a newspaper clipping, the book it was laid into, the framed lot as it hung, and listing screenshots in folders where nothing better was captured. `n_facsimile` counts the images that are pages of the letter.",
+  "No `printed` pointers here, and there cannot be. This is the list of uncollected letters - letters the Complete Letters do not contain - so there is no folio in that volume to cite for any of the 97. That is the whole reason the collection exists and is not an omission. Where an item carries `matches`, the entry names a person the letter was written to who is on the map, not a source that quotes it.",
+  "`items` was `letter_folders` before the manifests were brought into one shape; one item per letter, `pointer` is the image filename.",
+  "A page marked `is_context` is about the letter rather than of it - a portrait, a clipping, the framed lot - and `n_facsimile` counts the rest.",
+  "`archive.record_url` and `iiif_url` are empty on purpose: there is no single holding archive and no image service, so this manifest can never back a `facsimile`.",
+  "A `matches` entry carries only structured facts: `pages`, `what`, `printed` {work, locator} and, where there is no printed pointer, `person`. Prose about why an entry matters lives in this archive's README, not here - the manifest restates neither the connection nor the commentary."
+ ],
+ "items": [
+  {
+   "itemId": "001-to-anne-lynch-botta",
+   "title": "To [Anne Lynch] Botta",
+   "boxFolder": "",
+   "dates": "",
+   "caption": "Leland Little; The Winter Auction - Fine & Decorative Arts, Jewelry & Silver; 2 Dec. 2016; lot 463; view source | WBM (transcript; facsimile).",
+   "slug": "001-to-anne-lynch-botta",
+   "dir": "letters/001-to-anne-lynch-botta",
+   "pages": [
+    {
+     "page": 1,
+     "pointer": "img-00.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/001-to-anne-lynch-botta/img-00.jpg",
+     "bytes": 19837
+    },
+    {
+     "page": 2,
+     "pointer": "img-02.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/001-to-anne-lynch-botta/img-02.jpg",
+     "bytes": 41159
+    },
+    {
+     "page": 3,
+     "pointer": "img-03.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/001-to-anne-lynch-botta/img-03.jpg",
+     "bytes": 24796
+    },
+    {
+     "page": 4,
+     "pointer": "img-04.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/001-to-anne-lynch-botta/img-04.jpg",
+     "bytes": 23756
+    }
+   ],
+   "n_facsimile": 4,
+   "source_urls": [
+    "https://www.lelandlittle.com/items/224365/oscar-wilde-autograph-letter-signed-during-his-1882-american-lecture-tour"
+   ]
+  },
+  {
+   "itemId": "002-to-anne-lynch-botta",
+   "title": "To [Anne Lynch] Botta",
+   "boxFolder": "",
+   "dates": "",
+   "caption": "Cooper, J. An impromptu lecture, Oscar Wilde in America , 23 Dec. 2021; view source (transcript; partial facsimile of first page).",
+   "slug": "002-to-anne-lynch-botta",
+   "dir": "letters/002-to-anne-lynch-botta",
+   "pages": [
+    {
+     "page": 1,
+     "pointer": "img-00.jpg",
+     "caption": "engraved portrait of Anne Lynch Botta",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/002-to-anne-lynch-botta/img-00.jpg",
+     "bytes": 112201,
+     "is_context": true
+    },
+    {
+     "page": 2,
+     "pointer": "img-01.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/002-to-anne-lynch-botta/img-01.jpg",
+     "bytes": 26310
+    },
+    {
+     "page": 3,
+     "pointer": "img-03.jpg",
+     "caption": "portrait of Anne Lynch Botta as a young woman",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/002-to-anne-lynch-botta/img-03.jpg",
+     "bytes": 310481,
+     "is_context": true
+    },
+    {
+     "page": 4,
+     "pointer": "img-04.png",
+     "caption": "Wallack's playbill announcing Wilde's farewell lecture",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/002-to-anne-lynch-botta/img-04.png",
+     "bytes": 54298,
+     "is_context": true
+    },
+    {
+     "page": 5,
+     "pointer": "img-05.jpg",
+     "caption": "photograph of Wallack's Theatre, New York",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/002-to-anne-lynch-botta/img-05.jpg",
+     "bytes": 113816,
+     "is_context": true
+    },
+    {
+     "page": 6,
+     "pointer": "img-06.jpg",
+     "caption": "newspaper paragraph on Wilde's departure for Canada",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/002-to-anne-lynch-botta/img-06.jpg",
+     "bytes": 19570,
+     "is_context": true
+    },
+    {
+     "page": 7,
+     "pointer": "img-07.png",
+     "caption": "Montreal newspaper report of Wilde's arrival",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/002-to-anne-lynch-botta/img-07.png",
+     "bytes": 68737,
+     "is_context": true
+    },
+    {
+     "page": 8,
+     "pointer": "img-08.jpg",
+     "caption": "cover of Geoff Dibb, Oscar Wilde: A Vagabond with a Mission",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/002-to-anne-lynch-botta/img-08.jpg",
+     "bytes": 99601,
+     "is_context": true
+    }
+   ],
+   "n_facsimile": 1,
+   "source_urls": [
+    "https://oscarwildeinamerica.blog/2021/12/23/an-impromptu-lecture/"
+   ]
+  },
+  {
+   "itemId": "003-to-charles-godfrey-leland",
+   "title": "To [Charles Godfrey] Leland",
+   "boxFolder": "",
+   "dates": "",
+   "caption": "Sotheby’s; sale N09920; 13 Dec. 2018; lot 307; view source | WBM (quotation; facsimile, p. 1 of 6).",
+   "slug": "003-to-charles-godfrey-leland",
+   "dir": "letters/003-to-charles-godfrey-leland",
+   "pages": [
+    {
+     "page": 1,
+     "pointer": "img-00.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/003-to-charles-godfrey-leland/img-00.jpg",
+     "bytes": 733367
+    }
+   ],
+   "n_facsimile": 1,
+   "source_urls": [
+    "https://web.archive.org/web/20220623073724/https://www.sothebys.com/en/auctions/ecatalogue/2018/fine-autograph-letters-and-manuscripts-from-a-distinguished-private-collection-part-ii-n09920/lot.307.html"
+   ]
+  },
+  {
+   "itemId": "004-to-david-bogue",
+   "title": "To [David] Bogue",
+   "boxFolder": "",
+   "dates": "",
+   "caption": "Antiquariat Inlibris Gilhofer; offered for sale Apr. 2025; view source | WBM (transcript; facsimile)",
+   "slug": "004-to-david-bogue",
+   "dir": "letters/004-to-david-bogue",
+   "pages": [
+    {
+     "page": 1,
+     "pointer": "img-04.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/004-to-david-bogue/img-04.jpg",
+     "bytes": 649419
+    },
+    {
+     "page": 2,
+     "pointer": "img-07.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/004-to-david-bogue/img-07.jpg",
+     "bytes": 2767
+    }
+   ],
+   "n_facsimile": 2,
+   "source_urls": [
+    "https://web.archive.org/web/20250427115930/https://inlibris.com/item/bn64282/"
+   ]
+  },
+  {
+   "itemId": "005-to-e-t-cook",
+   "title": "To [E. T.] Cook",
+   "boxFolder": "",
+   "dates": "",
+   "caption": "Dawsons; The June Fine Art & Antiques Auction; 29 Jun. 2023; lot 219; view source | WBM (transcript; facsimile).",
+   "slug": "005-to-e-t-cook",
+   "dir": "letters/005-to-e-t-cook",
+   "pages": [
+    {
+     "page": 1,
+     "pointer": "img-00.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/005-to-e-t-cook/img-00.jpg",
+     "bytes": 61014
+    },
+    {
+     "page": 2,
+     "pointer": "img-03.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/005-to-e-t-cook/img-03.jpg",
+     "bytes": 20616
+    },
+    {
+     "page": 3,
+     "pointer": "img-04.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/005-to-e-t-cook/img-04.jpg",
+     "bytes": 22355
+    },
+    {
+     "page": 4,
+     "pointer": "img-05.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/005-to-e-t-cook/img-05.jpg",
+     "bytes": 17962
+    },
+    {
+     "page": 5,
+     "pointer": "img-06.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/005-to-e-t-cook/img-06.jpg",
+     "bytes": 23347
+    },
+    {
+     "page": 6,
+     "pointer": "img-07.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/005-to-e-t-cook/img-07.jpg",
+     "bytes": 16741
+    },
+    {
+     "page": 7,
+     "pointer": "img-08.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/005-to-e-t-cook/img-08.jpg",
+     "bytes": 20837
+    },
+    {
+     "page": 8,
+     "pointer": "img-09.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/005-to-e-t-cook/img-09.jpg",
+     "bytes": 25834
+    }
+   ],
+   "n_facsimile": 8,
+   "source_urls": [
+    "https://www.dawsonsauctions.co.uk/auction/lot/lot-219---wilde-oscar-1854-1900-writer-an-original/?lot=70712"
+   ]
+  },
+  {
+   "itemId": "006-to-edward-smith-willard",
+   "title": "To [Edward Smith] Willard",
+   "boxFolder": "",
+   "dates": "",
+   "caption": "Christie’s; Fine Printed Books and Manuscripts; sale 9860; 8 Jun. 2004; lot 166; view source | WBM (quotation; facsimile, pp. 2-3 of 3).",
+   "slug": "006-to-edward-smith-willard",
+   "dir": "letters/006-to-edward-smith-willard",
+   "pages": [
+    {
+     "page": 1,
+     "pointer": "img-01.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/006-to-edward-smith-willard/img-01.jpg",
+     "bytes": 23961
+    }
+   ],
+   "n_facsimile": 1,
+   "source_urls": [
+    "https://www.christies.com/lot/lot-wilde-oscar-autograph-letter-signed-oscar-4301368"
+   ]
+  },
+  {
+   "itemId": "007-to-eleanor-sickert",
+   "title": "To [Eleanor] Sickert",
+   "boxFolder": "",
+   "dates": "",
+   "caption": "Bonhams; sale 20137; 12 Jun. 2012; lot 160; view source | WBM (description; facsimile)",
+   "slug": "007-to-eleanor-sickert",
+   "dir": "letters/007-to-eleanor-sickert",
+   "pages": [],
+   "n_facsimile": 0,
+   "source_urls": [
+    "https://www.bonhams.com/auctions/20137/lot/160"
+   ]
+  },
+  {
+   "itemId": "008-to-emily-wren",
+   "title": "To [Emily] Wren",
+   "boxFolder": "",
+   "dates": "",
+   "caption": "Christies; The Albin Schram Collection of Autograph Letters; sale 7411; 3 Jul. 2007; lot 206; view source | WBM (transcript, possibly partial; facsimile, partial p. 2 and p. 3 of 3).",
+   "slug": "008-to-emily-wren",
+   "dir": "letters/008-to-emily-wren",
+   "pages": [
+    {
+     "page": 1,
+     "pointer": "img-01.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/008-to-emily-wren/img-01.jpg",
+     "bytes": 26172
+    }
+   ],
+   "n_facsimile": 1,
+   "source_urls": [
+    "https://www.christies.com/en/lot/lot-4939830"
+   ]
+  },
+  {
+   "itemId": "009-to-henry-g-jalland",
+   "title": "To [Henry G.] Jalland",
+   "boxFolder": "",
+   "dates": "",
+   "caption": "Aguttes; Livres & Manuscrits; 28 Jun. 2019; lot 423; view source | WBM (partial transcript; facsimile, p. 3 of 3)",
+   "slug": "009-to-henry-g-jalland",
+   "dir": "letters/009-to-henry-g-jalland",
+   "pages": [
+    {
+     "page": 1,
+     "pointer": "img-00.jpeg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/009-to-henry-g-jalland/img-00.jpeg",
+     "bytes": 14350
+    }
+   ],
+   "n_facsimile": 1,
+   "source_urls": [
+    "https://www.aguttes.com/lot/99555/10467168-wilde-oscar-1854-1900-ecrivain-l-a-s-a-jallard-s-l-n-d-3-pp"
+   ]
+  },
+  {
+   "itemId": "010-to-herbert-woodgate",
+   "title": "To [Herbert] Woodgate",
+   "boxFolder": "",
+   "dates": "",
+   "caption": "Chiswick Auctions; Autographs & Memorobilia; 24 May 2026; Lot 267; view source | WBM (transcript; facsimile). For higher quality images, see the listing at liveauctioneers | WBM .",
+   "slug": "010-to-herbert-woodgate",
+   "dir": "letters/010-to-herbert-woodgate",
+   "pages": [
+    {
+     "page": 1,
+     "pointer": "img-05.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/010-to-herbert-woodgate/img-05.jpg",
+     "bytes": 19108
+    },
+    {
+     "page": 2,
+     "pointer": "img-06.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/010-to-herbert-woodgate/img-06.jpg",
+     "bytes": 18768
+    },
+    {
+     "page": 3,
+     "pointer": "img-07.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/010-to-herbert-woodgate/img-07.jpg",
+     "bytes": 14389
+    }
+   ],
+   "n_facsimile": 3,
+   "source_urls": [
+    "https://timed.chiswickauctions.co.uk/auctions/9643/chiswi10081/lot-details/916dfe22-796f-4b3d-9e09-b4440104d694"
+   ]
+  },
+  {
+   "itemId": "011-to-j-s-redmayne",
+   "title": "To [J. S. Redmayne]",
+   "boxFolder": "",
+   "dates": "",
+   "caption": "Bonhams; Printed Books & Manuscripts; sale 16869; 10 Nov 2009; lot 127; view source | WBM (quotation; facsimile, p. 1 of 2).",
+   "slug": "011-to-j-s-redmayne",
+   "dir": "letters/011-to-j-s-redmayne",
+   "pages": [],
+   "n_facsimile": 0,
+   "source_urls": [
+    "https://www.bonhams.com/auctions/16869/lot/127"
+   ]
+  },
+  {
+   "itemId": "012-to-james-knowles",
+   "title": "To [James] Knowles",
+   "boxFolder": "",
+   "dates": "",
+   "caption": "Nate D. Sanders; sold before 18 Nov. 2016; view source | WBM (transcript; facsimile).",
+   "slug": "012-to-james-knowles",
+   "dir": "letters/012-to-james-knowles",
+   "pages": [
+    {
+     "page": 1,
+     "pointer": "img-00.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/012-to-james-knowles/img-00.jpg",
+     "bytes": 852740
+    },
+    {
+     "page": 2,
+     "pointer": "img-03.jpg",
+     "caption": "Wilde's inscription to Otho Lloyd in An April Day",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/012-to-james-knowles/img-03.jpg",
+     "bytes": 61268,
+     "is_context": true
+    },
+    {
+     "page": 3,
+     "pointer": "img-04.jpg",
+     "caption": "copyright slip from The Ballad of Reading Gaol, 1898",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/012-to-james-knowles/img-04.jpg",
+     "bytes": 46267,
+     "is_context": true
+    },
+    {
+     "page": 4,
+     "pointer": "img-05.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/012-to-james-knowles/img-05.jpg",
+     "bytes": 25184
+    }
+   ],
+   "n_facsimile": 2,
+   "source_urls": [
+    "https://web.archive.org/web/20220623110100/https://natedsanders.com/blog/2016/11/oscar-wilde-autograph/"
+   ]
+  },
+  {
+   "itemId": "013-to-mr-murphy",
+   "title": "To [Mr] Murphy",
+   "boxFolder": "",
+   "dates": "",
+   "caption": "Bonhams; Books, Maps, Manuscripts and Historical Photographs, including the Property of the late Michael Silverman; sale 18992; 22 Nov. 2011; lot 194; view source | WBM (quotation; facsimile, pp. 2-3 ",
+   "slug": "013-to-mr-murphy",
+   "dir": "letters/013-to-mr-murphy",
+   "pages": [],
+   "n_facsimile": 0,
+   "source_urls": [
+    "https://www.bonhams.com/auctions/18992/lot/194"
+   ]
+  },
+  {
+   "itemId": "014-to-r-e-forrest",
+   "title": "To [R. E. Forrest]",
+   "boxFolder": "",
+   "dates": "",
+   "caption": "Sotheby’s; English Literature, History, Children’s Books and Illustrations; sale L16408; 13 Dec. 2016; lot 147; view source | WBM (quotation; facsimile, p. 4 of 4).",
+   "slug": "014-to-r-e-forrest",
+   "dir": "letters/014-to-r-e-forrest",
+   "pages": [
+    {
+     "page": 1,
+     "pointer": "img-00.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/014-to-r-e-forrest/img-00.jpg",
+     "bytes": 391613
+    }
+   ],
+   "n_facsimile": 1,
+   "source_urls": [
+    "https://web.archive.org/web/20220623162709/https://www.sothebys.com/en/auctions/ecatalogue/2016/english-literature-history-childrens-books-illustrations-l16408/lot.147.html"
+   ]
+  },
+  {
+   "itemId": "015-to-t-wemyss-reid",
+   "title": "To [T. Wemyss] Reid",
+   "boxFolder": "",
+   "dates": "",
+   "caption": "RR Auction; 15 Feb. 2012; lot 645; view source | Archive (transcript; facsimile).",
+   "slug": "015-to-t-wemyss-reid",
+   "dir": "letters/015-to-t-wemyss-reid",
+   "matches": [
+    {
+     "pages": [
+      1
+     ],
+     "what": "To [T. Wemyss] Reid",
+     "printed": null,
+     "person": "data/people/reid.json",
+     "letter_id": "marland-blog/015-to-t-wemyss-reid#1"
+    }
+   ],
+   "pages": [
+    {
+     "page": 1,
+     "pointer": "img-00.jpg",
+     "caption": "screenshot of the listing page; the letter appears only as a thumbnail, and no better capture was made",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/015-to-t-wemyss-reid/img-00.jpg",
+     "bytes": 8861,
+     "is_context": true
+    }
+   ],
+   "n_facsimile": 0,
+   "source_urls": [
+    "https://archive.org/details/rr_wilde_reid_2012"
+   ]
+  },
+  {
+   "itemId": "016-to-thomas-whiffen",
+   "title": "To [Thomas] Whiffen",
+   "boxFolder": "",
+   "dates": "",
+   "caption": "RR Auction; Remarkable Rarities; 26 Mar. 2026; lot 4067; view source | WBM (facsimile; quotation)",
+   "slug": "016-to-thomas-whiffen",
+   "dir": "letters/016-to-thomas-whiffen",
+   "pages": [
+    {
+     "page": 1,
+     "pointer": "img-00.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/016-to-thomas-whiffen/img-00.jpg",
+     "bytes": 477971
+    },
+    {
+     "page": 2,
+     "pointer": "img-02.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/016-to-thomas-whiffen/img-02.jpg",
+     "bytes": 16803
+    },
+    {
+     "page": 3,
+     "pointer": "img-03.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/016-to-thomas-whiffen/img-03.jpg",
+     "bytes": 6024
+    }
+   ],
+   "n_facsimile": 3,
+   "source_urls": [
+    "https://web.archive.org/web/20260525181421/https://www.rrauction.com/auctions/lot-detail/351105507384067-oscar-wilde-autograph-letter-signed-i-most-unluckily-have-made-an-appointment-with-a-theatrical-manager/"
+   ]
+  },
+  {
+   "itemId": "017-to-alfred-milner",
+   "title": "To Alfred Milner",
+   "boxFolder": "",
+   "dates": "",
+   "caption": "Bloomsbury Auctions; Important Books, Manuscripts & Works on Paper; 19 May 2014; lot 49; view source | WBM (transcript; facsimile, p. 2 of 2). By flipping the facsimile of p. 2 and increasing the cont",
+   "slug": "017-to-alfred-milner",
+   "dir": "letters/017-to-alfred-milner",
+   "pages": [],
+   "n_facsimile": 0,
+   "source_urls": [
+    "https://auctions.dreweatts.com/past-auctions/blooms10031/lot-details/82d99a27-1c11-4146-a9f4-a423010b2f08"
+   ]
+  },
+  {
+   "itemId": "018-to-alsager-vian",
+   "title": "To Alsager Vian",
+   "boxFolder": "",
+   "dates": "",
+   "caption": "Bonhams; Fine Books and Manuscripts; ending 1 Jul. 2026; lot 166; view source | WBM (facsimile; quotation)",
+   "slug": "018-to-alsager-vian",
+   "dir": "letters/018-to-alsager-vian",
+   "pages": [],
+   "n_facsimile": 0,
+   "source_urls": [
+    "https://www.bonhams.com/auction/32105/lot/166/wilde-oscar-autograph-letter-signed-oscar-wilde-to-alsagar-vian-tite-street-chelsea-nd-but-possibly-18871888"
+   ]
+  },
+  {
+   "itemId": "019-to-an-unidentified-correspondent",
+   "title": "To an unidentified correspondent",
+   "boxFolder": "",
+   "dates": "",
+   "caption": "Forum Auctions; Fine Books, Western Manuscripts and Works on Paper; 06 Dec. 2017; lot 83; view source | Archive (transcript of fragment; facsimile, final page). <!--",
+   "slug": "019-to-an-unidentified-correspondent",
+   "dir": "letters/019-to-an-unidentified-correspondent",
+   "pages": [],
+   "n_facsimile": 0,
+   "source_urls": [
+    "https://www.forumauctions.co.uk/38015/Wilde-Oscar-Autograph-Letter-signed-fragment-2pp.-only-1880?auction_no=1018&amp;gridtype=listview&amp;ipp=20&amp;page_no=5&amp;sort_by=lot_no&amp;view=lot_detail"
+   ]
+  },
+  {
+   "itemId": "020-to-an-unidentified-correspondent",
+   "title": "To an unidentified correspondent",
+   "boxFolder": "",
+   "dates": "",
+   "caption": "Sworders; Fine Interiors (including Books); 12 Mar. 2019; lot 479; view source | WBM (transcript, final two pages; facsimile, penultimate page)",
+   "slug": "020-to-an-unidentified-correspondent",
+   "dir": "letters/020-to-an-unidentified-correspondent",
+   "pages": [
+    {
+     "page": 1,
+     "pointer": "img-00.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/020-to-an-unidentified-correspondent/img-00.jpg",
+     "bytes": 21896
+    }
+   ],
+   "n_facsimile": 1,
+   "source_urls": [
+    "https://www.sworder.co.uk/auction/lot/lot-479---oscar-wilde--autograph-letter/?lot=246571&amp;so=4&amp;st=oscar%20wilde%20letter&amp;sto=0&amp;au=&amp;ef=&amp;et=&amp;ic=False&amp;sd=1&amp;pp=96&amp;pn=1&amp;g=1"
+   ]
+  },
+  {
+   "itemId": "021-to-an-unidentified-correspondent",
+   "title": "To an unidentified correspondent",
+   "boxFolder": "",
+   "dates": "",
+   "caption": "Bonhams; Books, Maps, Manuscripts and Historical Photographs; sale 20137; 12 Jun. 2012; lot 158; view source | WBM (transcript; facsimile, p. 1 of 2)",
+   "slug": "021-to-an-unidentified-correspondent",
+   "dir": "letters/021-to-an-unidentified-correspondent",
+   "pages": [],
+   "n_facsimile": 0,
+   "source_urls": [
+    "https://www.bonhams.com/auctions/20137/lot/158"
+   ]
+  },
+  {
+   "itemId": "022-to-an-unidentified-correspondent",
+   "title": "To an unidentified correspondent",
+   "boxFolder": "",
+   "dates": "",
+   "caption": "Alexander Historical Auctions; Winter Historical Auction; 16 December 2010; lot 570; view source | WBM (translated partial transcript; facsimile)",
+   "slug": "022-to-an-unidentified-correspondent",
+   "dir": "letters/022-to-an-unidentified-correspondent",
+   "pages": [],
+   "n_facsimile": 0,
+   "source_urls": [
+    "https://www.alexautographs.com/auction-lot/oscar-wilde-current-bid-2-250-00_A081077380"
+   ]
+  },
+  {
+   "itemId": "023-to-an-unidentified-correspondent",
+   "title": "To an unidentified correspondent",
+   "boxFolder": "",
+   "dates": "",
+   "caption": "Bonhams; Fine Books and Manuscripts; ending 1 Jul. 2026; lot 167; view source | WBM [before correction] | WBM [after correction] (facsimile; quotation)",
+   "slug": "023-to-an-unidentified-correspondent",
+   "dir": "letters/023-to-an-unidentified-correspondent",
+   "pages": [],
+   "n_facsimile": 0,
+   "source_urls": [
+    "https://www.bonhams.com/auction/32105/lot/167/wilde-oscar-autograph-letter-signed-oscar-wilde-to-an-unidentified-recipient-my-dear-pessimist-albemarle-club-nd-but-possibly-early-1890s"
+   ]
+  },
+  {
+   "itemId": "024-to-an-unidentified-correspondent",
+   "title": "To an unidentified correspondent",
+   "boxFolder": "",
+   "dates": "",
+   "caption": "Christie’s; Barry Humphries: The Personal Collection; 13 Feb. 2025; p. 108; lot 98 (transcript; facsimile, p. 1 of 3 and pp. 2–3 of 3 ); view source | WBM <!-- My Dear Sir, I am an uncertain worker an",
+   "slug": "024-to-an-unidentified-correspondent",
+   "dir": "letters/024-to-an-unidentified-correspondent",
+   "pages": [
+    {
+     "page": 1,
+     "pointer": "img-01.jpg",
+     "caption": "title page, Lord Alfred Douglas, Oscar Wilde and Myself",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/024-to-an-unidentified-correspondent/img-01.jpg",
+     "bytes": 18971,
+     "is_context": true
+    },
+    {
+     "page": 2,
+     "pointer": "img-03.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/024-to-an-unidentified-correspondent/img-03.jpg",
+     "bytes": 12564
+    },
+    {
+     "page": 3,
+     "pointer": "img-05.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/024-to-an-unidentified-correspondent/img-05.jpg",
+     "bytes": 22773
+    },
+    {
+     "page": 4,
+     "pointer": "img-07.jpg",
+     "caption": "the binding of the volume the letter was laid into",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/024-to-an-unidentified-correspondent/img-07.jpg",
+     "bytes": 501157,
+     "is_context": true
+    }
+   ],
+   "n_facsimile": 2,
+   "source_urls": [
+    "https://www.christies.com/en/lot/lot-6520388"
+   ]
+  },
+  {
+   "itemId": "025-to-an-unidentified-correspondent",
+   "title": "To an unidentified correspondent",
+   "boxFolder": "",
+   "dates": "",
+   "caption": "Wilde, O. (1907) The Writings of Oscar Wilde: Epigrams , Keller, pp. 221-3; view source (HathiTrust) | Archive (facsimile)",
+   "slug": "025-to-an-unidentified-correspondent",
+   "dir": "letters/025-to-an-unidentified-correspondent",
+   "pages": [
+    {
+     "page": 1,
+     "pointer": "img-01.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/025-to-an-unidentified-correspondent/img-01.jpg",
+     "bytes": 192606
+    },
+    {
+     "page": 2,
+     "pointer": "img-03.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/025-to-an-unidentified-correspondent/img-03.jpg",
+     "bytes": 203445
+    },
+    {
+     "page": 3,
+     "pointer": "img-05.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/025-to-an-unidentified-correspondent/img-05.jpg",
+     "bytes": 193190
+    }
+   ],
+   "n_facsimile": 3,
+   "source_urls": [
+    "https://archive.org/details/keller-epigrams-p221-3"
+   ]
+  },
+  {
+   "itemId": "026-to-an-unidentified-correspondent",
+   "title": "To an unidentified correspondent",
+   "boxFolder": "",
+   "dates": "",
+   "caption": "Butterscotch; Important Estates; 30-31 Mar. 2019; lot 79; view source | WBM (transcript; facsimile).",
+   "slug": "026-to-an-unidentified-correspondent",
+   "dir": "letters/026-to-an-unidentified-correspondent",
+   "pages": [
+    {
+     "page": 1,
+     "pointer": "img-00.jpg",
+     "caption": "lot photograph, letter opened flat on a dark ground",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/026-to-an-unidentified-correspondent/img-00.jpg",
+     "bytes": 61538,
+     "is_context": true
+    }
+   ],
+   "n_facsimile": 0,
+   "source_urls": [
+    "https://bid.butterscotchauction.com/lots/view/1-1qyyh8/oscar-wilde-irish-1854-1900"
+   ]
+  },
+  {
+   "itemId": "027-to-an-unidentified-correspondent",
+   "title": "To an unidentified correspondent",
+   "boxFolder": "",
+   "dates": "",
+   "caption": "Bonhams; Oscar Wilde: The Collection of Jeremy Mason; 18 Feb. 2026; lot 91; view source | WBM (lot page) , WBM (facsimile) (transcript; facsimile)",
+   "slug": "027-to-an-unidentified-correspondent",
+   "dir": "letters/027-to-an-unidentified-correspondent",
+   "pages": [],
+   "n_facsimile": 0,
+   "source_urls": [
+    "https://www.bonhams.com/auction/32340/lot/91/wilde-oscar-autograph-note-signed-hotel-des-deux-mondes-paris-nd-but-probably-spring-1894/"
+   ]
+  },
+  {
+   "itemId": "028-to-an-unidentified-correspondent",
+   "title": "To an unidentified correspondent",
+   "boxFolder": "",
+   "dates": "",
+   "caption": "Whitmore Rare Books; item 1772; sold prior to July 2019; view source | WBM (facsimile)",
+   "slug": "028-to-an-unidentified-correspondent",
+   "dir": "letters/028-to-an-unidentified-correspondent",
+   "pages": [
+    {
+     "page": 1,
+     "pointer": "img-00.jpg",
+     "caption": "the Writings of Oscar Wilde set, as sold",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/028-to-an-unidentified-correspondent/img-00.jpg",
+     "bytes": 71959,
+     "is_context": true
+    },
+    {
+     "page": 2,
+     "pointer": "img-01.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/028-to-an-unidentified-correspondent/img-01.jpg",
+     "bytes": 68527
+    },
+    {
+     "page": 3,
+     "pointer": "img-02.jpg",
+     "caption": "limitation leaf of the Autograph Edition",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/028-to-an-unidentified-correspondent/img-02.jpg",
+     "bytes": 32067,
+     "is_context": true
+    },
+    {
+     "page": 4,
+     "pointer": "img-03.jpg",
+     "caption": "engraved title page, Writings of Oscar Wilde",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/028-to-an-unidentified-correspondent/img-03.jpg",
+     "bytes": 93535,
+     "is_context": true
+    },
+    {
+     "page": 5,
+     "pointer": "img-04.jpg",
+     "caption": "printed title page, Poems volume",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/028-to-an-unidentified-correspondent/img-04.jpg",
+     "bytes": 44890,
+     "is_context": true
+    },
+    {
+     "page": 6,
+     "pointer": "img-05.jpg",
+     "caption": "plate from the Poems volume",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/028-to-an-unidentified-correspondent/img-05.jpg",
+     "bytes": 107360,
+     "is_context": true
+    },
+    {
+     "page": 7,
+     "pointer": "img-06.jpg",
+     "caption": "plate from the Poems volume",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/028-to-an-unidentified-correspondent/img-06.jpg",
+     "bytes": 112071,
+     "is_context": true
+    },
+    {
+     "page": 8,
+     "pointer": "img-07.jpg",
+     "caption": "illustrated leaf from the volume",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/028-to-an-unidentified-correspondent/img-07.jpg",
+     "bytes": 72718,
+     "is_context": true
+    }
+   ],
+   "n_facsimile": 1,
+   "source_urls": [
+    "https://web.archive.org/web/20260528131638/https://www.whitmorerarebooks.com/pages/books/1772/oscar-wilde/the-writings-of-oscar-wilde-autograph-edition"
+   ]
+  },
+  {
+   "itemId": "029-to-an-unidentified-correspondent",
+   "title": "To an unidentified correspondent",
+   "boxFolder": "",
+   "dates": "",
+   "caption": "Pace Auctions; Antique and Estate Auction; 17 May 2016; lot 0326; view source | WBM (low resolution but legible facsimile).",
+   "slug": "029-to-an-unidentified-correspondent",
+   "dir": "letters/029-to-an-unidentified-correspondent",
+   "pages": [
+    {
+     "page": 1,
+     "pointer": "img-00.jpg",
+     "caption": "the letter as framed, with a print of Wilde",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/029-to-an-unidentified-correspondent/img-00.jpg",
+     "bytes": 32210,
+     "is_context": true
+    },
+    {
+     "page": 2,
+     "pointer": "img-01.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/029-to-an-unidentified-correspondent/img-01.jpg",
+     "bytes": 1748
+    },
+    {
+     "page": 3,
+     "pointer": "img-02.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/029-to-an-unidentified-correspondent/img-02.jpg",
+     "bytes": 4254
+    },
+    {
+     "page": 4,
+     "pointer": "img-03.jpg",
+     "caption": "grouped lot of framed autographs, several hands",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/029-to-an-unidentified-correspondent/img-03.jpg",
+     "bytes": 2365,
+     "is_context": true
+    },
+    {
+     "page": 5,
+     "pointer": "img-04.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/029-to-an-unidentified-correspondent/img-04.jpg",
+     "bytes": 5923
+    },
+    {
+     "page": 6,
+     "pointer": "img-05.jpg",
+     "caption": "the letter as framed, with a photograph",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/029-to-an-unidentified-correspondent/img-05.jpg",
+     "bytes": 1981,
+     "is_context": true
+    },
+    {
+     "page": 7,
+     "pointer": "img-07.jpg",
+     "caption": "the letter as framed, with a photograph",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/029-to-an-unidentified-correspondent/img-07.jpg",
+     "bytes": 2171,
+     "is_context": true
+    }
+   ],
+   "n_facsimile": 3,
+   "source_urls": [
+    "https://web.archive.org/web/20220620100259/https://www.liveauctioneers.com/item/45316923_oscar-wilde-autographed-letter"
+   ]
+  },
+  {
+   "itemId": "030-to-an-unidentified-correspondent",
+   "title": "To an unidentified correspondent",
+   "boxFolder": "",
+   "dates": "",
+   "caption": "Sotheby’s; Fine Autograph Letters and Manuscripts From a Distinguished Private Collection: Part II; sale N09920; 13 Dec. 2018; lot 308; view source | WBM (transcript; facsimile, p. 1 of 4).",
+   "slug": "030-to-an-unidentified-correspondent",
+   "dir": "letters/030-to-an-unidentified-correspondent",
+   "pages": [
+    {
+     "page": 1,
+     "pointer": "img-00.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/030-to-an-unidentified-correspondent/img-00.jpg",
+     "bytes": 608292
+    }
+   ],
+   "n_facsimile": 1,
+   "source_urls": [
+    "https://web.archive.org/web/20220623190248/https://www.sothebys.com/en/auctions/ecatalogue/2018/fine-autograph-letters-and-manuscripts-from-a-distinguished-private-collection-part-ii-n09920/lot.308.html"
+   ]
+  },
+  {
+   "itemId": "031-to-an-unidentified-correspondent",
+   "title": "To an unidentified correspondent",
+   "boxFolder": "",
+   "dates": "",
+   "caption": "Sotheby’s; Fine Books and Manuscripts; 16 Jul. 2021; lot 177; view source | WBM (transcript; facsimile).",
+   "slug": "031-to-an-unidentified-correspondent",
+   "dir": "letters/031-to-an-unidentified-correspondent",
+   "pages": [
+    {
+     "page": 1,
+     "pointer": "img-00.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/031-to-an-unidentified-correspondent/img-00.jpg",
+     "bytes": 394344
+    }
+   ],
+   "n_facsimile": 1,
+   "source_urls": [
+    "https://web.archive.org/web/20210706074056/https://www.sothebys.com/en/buy/auction/2021/fine-books-and-manuscripts-2/wilde-oscar-a-previously-unlocated-letter-showing"
+   ]
+  },
+  {
+   "itemId": "032-to-an-unidentified-correspondent-philip-houghton",
+   "title": "To an unidentified correspondent [?Philip Houghton]",
+   "boxFolder": "",
+   "dates": "",
+   "caption": "Wilde, O. (1907) The Writings of Oscar Wilde: Epigrams , Keller, p. 224-7; view source (HathiTrust) | Archive (facsimile)",
+   "slug": "032-to-an-unidentified-correspondent-philip-houghton",
+   "dir": "letters/032-to-an-unidentified-correspondent-philip-houghton",
+   "pages": [
+    {
+     "page": 1,
+     "pointer": "img-01.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/032-to-an-unidentified-correspondent-philip-houghton/img-01.jpg",
+     "bytes": 236529
+    },
+    {
+     "page": 2,
+     "pointer": "img-03.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/032-to-an-unidentified-correspondent-philip-houghton/img-03.jpg",
+     "bytes": 214114
+    },
+    {
+     "page": 3,
+     "pointer": "img-05.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/032-to-an-unidentified-correspondent-philip-houghton/img-05.jpg",
+     "bytes": 231657
+    },
+    {
+     "page": 4,
+     "pointer": "img-07.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/032-to-an-unidentified-correspondent-philip-houghton/img-07.jpg",
+     "bytes": 192891
+    }
+   ],
+   "n_facsimile": 4,
+   "source_urls": [
+    "https://archive.org/details/keller-epigrams-p224-7"
+   ]
+  },
+  {
+   "itemId": "033-to-arthur-clifton",
+   "title": "To Arthur [Clifton]",
+   "boxFolder": "",
+   "dates": "",
+   "caption": "Sotheby’s; Books and Manuscripts: A Summer Miscellany; sale L20409; 4 Aug. 2020; lot 172; view source | WBM (facsimile)",
+   "slug": "033-to-arthur-clifton",
+   "dir": "letters/033-to-arthur-clifton",
+   "matches": [
+    {
+     "pages": [
+      1
+     ],
+     "what": "To Arthur [Clifton]",
+     "printed": null,
+     "person": "data/people/clifton.json",
+     "letter_id": "marland-blog/033-to-arthur-clifton#1"
+    }
+   ],
+   "pages": [
+    {
+     "page": 1,
+     "pointer": "img-00.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/033-to-arthur-clifton/img-00.jpg",
+     "bytes": 240492
+    }
+   ],
+   "n_facsimile": 1,
+   "source_urls": [
+    "https://web.archive.org/web/20220623095714/https://www.sothebys.com/en/buy/auction/2020/books-and-manuscripts-a-summer-miscellany/wilde-autograph-letter-signed-to-arthur-clifton-n"
+   ]
+  },
+  {
+   "itemId": "034-to-arthur-clifton",
+   "title": "To Arthur Clifton",
+   "boxFolder": "",
+   "dates": "",
+   "caption": "Sotheby’s; English Literature, History, Children’s Books and Illustrations; 17 Jul. 2008; lot 180; view source | WBM --> (quotation; partial facsimile of ?pp. 3–4 of 4)",
+   "slug": "034-to-arthur-clifton",
+   "dir": "letters/034-to-arthur-clifton",
+   "matches": [
+    {
+     "pages": [
+      1
+     ],
+     "what": "To Arthur Clifton",
+     "printed": null,
+     "person": "data/people/clifton.json",
+     "letter_id": "marland-blog/034-to-arthur-clifton#1"
+    }
+   ],
+   "pages": [
+    {
+     "page": 1,
+     "pointer": "img-00.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/034-to-arthur-clifton/img-00.jpg",
+     "bytes": 664725
+    }
+   ],
+   "n_facsimile": 1,
+   "source_urls": [
+    "https://web.archive.org/web/20251223083514/https://www.sothebys.com/en/auctions/ecatalogue/2008/english-literature-history-childrens-books-illustrations-l08405/lot.180.html"
+   ]
+  },
+  {
+   "itemId": "035-to-arthur-dacre",
+   "title": "To Arthur Dacre",
+   "boxFolder": "",
+   "dates": "",
+   "caption": "Bonhams; Books, Maps, Manuscripts and Historical Photographs; sale 20137; 12 Jun. 2012; lot 157; view source | WBM (transcript; facsimile, p. 1 of 4).",
+   "slug": "035-to-arthur-dacre",
+   "dir": "letters/035-to-arthur-dacre",
+   "pages": [],
+   "n_facsimile": 0,
+   "source_urls": [
+    "https://www.bonhams.com/auctions/20137/lot/157"
+   ]
+  },
+  {
+   "itemId": "036-to-beatrice-faudel-phillips",
+   "title": "To Beatrice Faudel-Phillips",
+   "boxFolder": "",
+   "dates": "",
+   "caption": "Bonhams; Oscar Wilde: The Collection of Jeremy Mason; 18 Feb. 2026; lot 12; view source | WBM (quotation; facsimile of p. 1 of 4)",
+   "slug": "036-to-beatrice-faudel-phillips",
+   "dir": "letters/036-to-beatrice-faudel-phillips",
+   "pages": [],
+   "n_facsimile": 0,
+   "source_urls": [
+    "https://www.bonhams.com/auction/32340/lot/12/wilde-oscar-autograph-letter-signed-ever-your-affectionate-friend-oscar-wilde-to-beatrice-faudel-phillips-dear-beatrice-c1880"
+   ]
+  },
+  {
+   "itemId": "037-to-beatrice-faudel-phillips",
+   "title": "To Beatrice Faudel-Phillips",
+   "boxFolder": "",
+   "dates": "",
+   "caption": "Bonhams; Oscar Wilde: The Collection of Jeremy Mason; 18 Feb. 2026; lot 13; view source | WBM (lot page) , WBM (facsimile) (quotation; facsimile of p. 4 of 4)",
+   "slug": "037-to-beatrice-faudel-phillips",
+   "dir": "letters/037-to-beatrice-faudel-phillips",
+   "pages": [],
+   "n_facsimile": 0,
+   "source_urls": [
+    "https://www.bonhams.com/auction/32340/lot/13/wilde-oscar-autograph-letter-signed-to-beatrice-faudel-phillips-november-1886/"
+   ]
+  },
+  {
+   "itemId": "038-to-bram-stoker",
+   "title": "To Bram Stoker",
+   "boxFolder": "",
+   "dates": "",
+   "caption": "Heritage Auctions; sale 6113; 3 Apr. 2014; lot 34149; view source | WBM (transcript; facsimile).",
+   "slug": "038-to-bram-stoker",
+   "dir": "letters/038-to-bram-stoker",
+   "matches": [
+    {
+     "pages": [],
+     "what": "To Bram Stoker",
+     "printed": null,
+     "person": "data/people/stoker.json",
+     "letter_id": "marland-blog/038-to-bram-stoker"
+    }
+   ],
+   "pages": [],
+   "n_facsimile": 0,
+   "source_urls": [
+    "https://web.archive.org/web/20220620103931/https://historical.ha.com/itm/autographs/-bram-stoker-oscar-wilde-autograph-letter-signed/a/6113-34149.s?ic4=GalleryView-Thumbnail-071515"
+   ]
+  },
+  {
+   "itemId": "039-to-bram-stoker",
+   "title": "To Bram Stoker",
+   "boxFolder": "",
+   "dates": "",
+   "caption": "International Autograph Auctions Europe S.L.; Autograph Letters, Documents & Photographs; 9 July 2016; lot 272; view source | WBM (transcript; facsimile).",
+   "slug": "039-to-bram-stoker",
+   "dir": "letters/039-to-bram-stoker",
+   "matches": [
+    {
+     "pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+     ],
+     "what": "To Bram Stoker",
+     "printed": null,
+     "person": "data/people/stoker.json",
+     "letter_id": "marland-blog/039-to-bram-stoker#1"
+    }
+   ],
+   "pages": [
+    {
+     "page": 1,
+     "pointer": "img-00.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/039-to-bram-stoker/img-00.jpg",
+     "bytes": 22072
+    },
+    {
+     "page": 2,
+     "pointer": "img-01.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/039-to-bram-stoker/img-01.jpg",
+     "bytes": 2276
+    },
+    {
+     "page": 3,
+     "pointer": "img-03.jpg",
+     "caption": "studio photograph of Wilde",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/039-to-bram-stoker/img-03.jpg",
+     "bytes": 1438,
+     "is_context": true
+    },
+    {
+     "page": 4,
+     "pointer": "img-04.jpg",
+     "caption": "studio photograph of Wilde",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/039-to-bram-stoker/img-04.jpg",
+     "bytes": 4171,
+     "is_context": true
+    },
+    {
+     "page": 5,
+     "pointer": "img-05.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/039-to-bram-stoker/img-05.jpg",
+     "bytes": 2672
+    },
+    {
+     "page": 6,
+     "pointer": "img-06.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/039-to-bram-stoker/img-06.jpg",
+     "bytes": 13877
+    },
+    {
+     "page": 7,
+     "pointer": "img-07.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/039-to-bram-stoker/img-07.jpg",
+     "bytes": 1657
+    },
+    {
+     "page": 8,
+     "pointer": "img-08.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/039-to-bram-stoker/img-08.jpg",
+     "bytes": 4939
+    }
+   ],
+   "n_facsimile": 6,
+   "source_urls": [
+    "https://web.archive.org/web/20220620104157/https://www.liveauctioneers.com/item/46346658_wilde-oscar-1854-1900-irish-playwright-and-novelist-a"
+   ]
+  },
+  {
+   "itemId": "040-to-carlos-blacker",
+   "title": "To Carlos Blacker",
+   "boxFolder": "",
+   "dates": "",
+   "caption": "Sotheby’s; Fine Autograph Letters and Manuscripts From a Distinguished Private Collection: Part II; sale N09920; 13 Dec. 2018; lot 314; view source | WBM (transcript; low resolution but legible facsim",
+   "slug": "040-to-carlos-blacker",
+   "dir": "letters/040-to-carlos-blacker",
+   "matches": [
+    {
+     "pages": [
+      1
+     ],
+     "what": "To Carlos Blacker",
+     "printed": null,
+     "person": "data/people/blacker.json",
+     "letter_id": "marland-blog/040-to-carlos-blacker#1"
+    }
+   ],
+   "pages": [
+    {
+     "page": 1,
+     "pointer": "img-00.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/040-to-carlos-blacker/img-00.jpg",
+     "bytes": 513189
+    }
+   ],
+   "n_facsimile": 1,
+   "source_urls": [
+    "https://web.archive.org/web/20220623183402/https://www.sothebys.com/en/auctions/ecatalogue/2018/fine-autograph-letters-and-manuscripts-from-a-distinguished-private-collection-part-ii-n09920/lot.314.html"
+   ]
+  },
+  {
+   "itemId": "041-to-doctor",
+   "title": "To Doctor [?]",
+   "boxFolder": "",
+   "dates": "",
+   "caption": "Bloomsbury Auctions; Literature, Manuscripts & Modern Firsts; 23 Apr. 2009; lot 751; view source | WBM (transcript; facsimile, pp. 1 & 4 of 4).",
+   "slug": "041-to-doctor",
+   "dir": "letters/041-to-doctor",
+   "pages": [
+    {
+     "page": 1,
+     "pointer": "img-00.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/041-to-doctor/img-00.jpg",
+     "bytes": 10649
+    },
+    {
+     "page": 2,
+     "pointer": "img-02.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/041-to-doctor/img-02.jpg",
+     "bytes": 825
+    },
+    {
+     "page": 3,
+     "pointer": "img-03.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/041-to-doctor/img-03.jpg",
+     "bytes": 7228
+    },
+    {
+     "page": 4,
+     "pointer": "img-04.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/041-to-doctor/img-04.jpg",
+     "bytes": 3509
+    },
+    {
+     "page": 5,
+     "pointer": "img-06.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/041-to-doctor/img-06.jpg",
+     "bytes": 5088
+    }
+   ],
+   "n_facsimile": 5,
+   "source_urls": [
+    "https://web.archive.org/web/20220623094654/https://www.liveauctioneers.com/item/6342439_751-wilde-oscar-an-autograph-letter"
+   ]
+  },
+  {
+   "itemId": "042-to-dr-regensburger",
+   "title": "To Dr Regensburger",
+   "boxFolder": "",
+   "dates": "",
+   "caption": "Heritage Auctions; sale 6111; 8 Oct. 2014; lot 49217; view source | WBM (quotation; facsimile).",
+   "slug": "042-to-dr-regensburger",
+   "dir": "letters/042-to-dr-regensburger",
+   "pages": [],
+   "n_facsimile": 0,
+   "source_urls": [
+    "https://web.archive.org/web/20220623074320/https://historical.ha.com/itm/autographs/oscar-wilde-autograph-letter-signed/a/6111-49217.s?ic4=GalleryView-Thumbnail-071515"
+   ]
+  },
+  {
+   "itemId": "043-to-e-w-godwin",
+   "title": "To E. W. Godwin",
+   "boxFolder": "",
+   "dates": "",
+   "caption": "Dominic Winter Auctions; 21 Jun. 2012; lot 373; view source | Archive (transcript; facsimile).",
+   "slug": "043-to-e-w-godwin",
+   "dir": "letters/043-to-e-w-godwin",
+   "pages": [
+    {
+     "page": 1,
+     "pointer": "img-00.jpg",
+     "caption": "screenshot of the listing page; the letter appears only as a thumbnail, and no better capture was made",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/043-to-e-w-godwin/img-00.jpg",
+     "bytes": 7706,
+     "is_context": true
+    }
+   ],
+   "n_facsimile": 0,
+   "source_urls": [
+    "https://archive.org/details/dwa_wilde_godwin_2012"
+   ]
+  },
+  {
+   "itemId": "044-to-edgar-fawcett",
+   "title": "To Edgar Fawcett",
+   "boxFolder": "",
+   "dates": "",
+   "caption": "RR Auction; Fine Autographs and Artifacts; 12 Oct. 2016; lot 559; view source | WBM (transcript; facsimile)",
+   "slug": "044-to-edgar-fawcett",
+   "dir": "letters/044-to-edgar-fawcett",
+   "pages": [
+    {
+     "page": 1,
+     "pointer": "img-00.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/044-to-edgar-fawcett/img-00.jpg",
+     "bytes": 60462
+    },
+    {
+     "page": 2,
+     "pointer": "img-02.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/044-to-edgar-fawcett/img-02.jpg",
+     "bytes": 9854
+    }
+   ],
+   "n_facsimile": 2,
+   "source_urls": [
+    "https://web.archive.org/web/20230729181428/https://www.rrauction.com/auctions/lot-detail/33663830485559-oscar-wilde"
+   ]
+  },
+  {
+   "itemId": "045-to-fanny-bernard-beere",
+   "title": "To Fanny Bernard-Beere",
+   "boxFolder": "",
+   "dates": "",
+   "caption": "Sotheby’s; Fine Autograph Letters […]; sale N09920; 13 Dec. 2018; lot 310; view source | WBM (partial transcript; facsimile, detail of drawing).",
+   "slug": "045-to-fanny-bernard-beere",
+   "dir": "letters/045-to-fanny-bernard-beere",
+   "matches": [
+    {
+     "pages": [
+      1
+     ],
+     "what": "To Fanny Bernard-Beere",
+     "printed": null,
+     "person": "data/people/beere.json",
+     "letter_id": "marland-blog/045-to-fanny-bernard-beere#1"
+    }
+   ],
+   "pages": [
+    {
+     "page": 1,
+     "pointer": "img-00.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/045-to-fanny-bernard-beere/img-00.jpg",
+     "bytes": 693317
+    }
+   ],
+   "n_facsimile": 1,
+   "source_urls": [
+    "https://web.archive.org/web/20223204604/https://www.sothebys.com/en/auctions/ecatalogue/2018/fine-autograph-letters-and-manuscripts-from-a-distinguished-private-collection-part-ii-n09920/lot.310.html"
+   ]
+  },
+  {
+   "itemId": "046-to-george-hait",
+   "title": "To George Haité",
+   "boxFolder": "",
+   "dates": "",
+   "caption": "Bonhams; Books, Maps, Manuscripts and Historical Photographs, including the Property of the late Michael Silverman; sale 1899; 22 Nov. 2011; lot 195; view source | WBM (transcript; facsimile).",
+   "slug": "046-to-george-hait",
+   "dir": "letters/046-to-george-hait",
+   "pages": [],
+   "n_facsimile": 0,
+   "source_urls": [
+    "https://www.bonhams.com/auctions/18992/lot/195"
+   ]
+  },
+  {
+   "itemId": "047-to-george-hait",
+   "title": "To George Haité",
+   "boxFolder": "",
+   "dates": "",
+   "caption": "Swann Galleries; Autographs; sale 2192; 29 Oct. 2009; lot 277; view source | Archive (quotation; facsimile, p. 1 of 4) <!-- [transcript] My Dear Haité, There is a very clever and refined young artist,",
+   "slug": "047-to-george-hait",
+   "dir": "letters/047-to-george-hait",
+   "pages": [
+    {
+     "page": 1,
+     "pointer": "img-01.png",
+     "caption": "screenshot of the listing page; the letter appears only as a thumbnail, and no better capture was made",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/047-to-george-hait/img-01.png",
+     "bytes": 366571,
+     "is_context": true
+    }
+   ],
+   "n_facsimile": 0,
+   "source_urls": [
+    "https://archive.org/details/swann-29-10-2009-oscar-wilde-letter"
+   ]
+  },
+  {
+   "itemId": "048-to-grant-allen",
+   "title": "To Grant Allen",
+   "boxFolder": "",
+   "dates": "",
+   "caption": "Fieldings Auctioneers; Antiques & Interiors including Back To The Future; 21 Jul. 2023; lot 892; view source | WBM (description; facsimile of final page).",
+   "slug": "048-to-grant-allen",
+   "dir": "letters/048-to-grant-allen",
+   "pages": [],
+   "n_facsimile": 0,
+   "source_urls": [
+    "https://fieldingsauctioneers.co.uk/lot/265209"
+   ]
+  },
+  {
+   "itemId": "049-to-harry-morell",
+   "title": "To Harry [Morell]",
+   "boxFolder": "",
+   "dates": "",
+   "caption": "Trinity College Dublin; IE TCD MS 11437/1/1/4; view source | WBM (description; facsimile of p. 1)",
+   "slug": "049-to-harry-morell",
+   "dir": "letters/049-to-harry-morell",
+   "pages": [],
+   "n_facsimile": 0,
+   "source_urls": [
+    "https://web.archive.org/web/20220623182152/https://repository.dri.ie/catalog/4x51x7916"
+   ]
+  },
+  {
+   "itemId": "050-to-henrietta-stannard",
+   "title": "To Henrietta Stannard",
+   "boxFolder": "",
+   "dates": "",
+   "caption": "Christie’s; Online Auction 23113, Fine Printed Books and Manuscripts including Americana; 27 Jun. 2024; lot 88; view source | WBM | Archive (quotation; facsimile, p. 2 of 2)",
+   "slug": "050-to-henrietta-stannard",
+   "dir": "letters/050-to-henrietta-stannard",
+   "pages": [
+    {
+     "page": 1,
+     "pointer": "img-00.jpg",
+     "caption": "the copy of The Happy Prince sold with the letter",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/050-to-henrietta-stannard/img-00.jpg",
+     "bytes": 965899,
+     "is_context": true
+    }
+   ],
+   "n_facsimile": 0,
+   "source_urls": [
+    "https://onlineonly.christies.com/s/fine-printed-books-manuscripts-including-americana/happy-prince-signed-autograph-letter-88/226170"
+   ]
+  },
+  {
+   "itemId": "051-to-henry-d-davray",
+   "title": "To Henry D. Davray",
+   "boxFolder": "",
+   "dates": "",
+   "caption": "Bonhams; Fine Books and Manuscripts; ending 1 Jul. 2026; lot 169; view source | WBM (facsimile; quotation)",
+   "slug": "051-to-henry-d-davray",
+   "dir": "letters/051-to-henry-d-davray",
+   "pages": [],
+   "n_facsimile": 0,
+   "source_urls": [
+    "https://www.bonhams.com/auction/32105/lot/169/wilde-oscar-autograph-letter-signed-with-initials-to-henry-davray-nogent-sur-marne-nd-but-junejuly-1898"
+   ]
+  },
+  {
+   "itemId": "052-to-homer-watson",
+   "title": "To Homer Watson",
+   "boxFolder": "",
+   "dates": "",
+   "caption": "Osenat; 23 Mar. 2022; lot 102; view source | WBM (transcript; facsimile, p. 3 of 3)",
+   "slug": "052-to-homer-watson",
+   "dir": "letters/052-to-homer-watson",
+   "pages": [],
+   "n_facsimile": 0,
+   "source_urls": [
+    "https://www.osenat.com/lot/123085/17586256"
+   ]
+  },
+  {
+   "itemId": "053-to-homer-watson",
+   "title": "To Homer Watson",
+   "boxFolder": "",
+   "dates": "",
+   "caption": "Alexander Historical Auctions; 21 Jan. 2010; lot 1112; view source | Archive (partial transcript; facsimile, pp.  1 & 3 of 3)",
+   "slug": "053-to-homer-watson",
+   "dir": "letters/053-to-homer-watson",
+   "pages": [
+    {
+     "page": 1,
+     "pointer": "img-00.jpg",
+     "caption": "screenshot of the listing page; the letter appears only as a thumbnail, and no better capture was made",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/053-to-homer-watson/img-00.jpg",
+     "bytes": 8888,
+     "is_context": true
+    }
+   ],
+   "n_facsimile": 0,
+   "source_urls": [
+    "https://archive.org/details/alexander_wilde_watson_2010"
+   ]
+  },
+  {
+   "itemId": "054-to-john-boyle-o-reilly",
+   "title": "To John Boyle O’Reilly",
+   "boxFolder": "",
+   "dates": "",
+   "caption": "Wilde, O. (1907) The Writings of Oscar Wilde: Epigrams , Keller, p. 214; view source (HathiTrust) | Archive (facsimile).",
+   "slug": "054-to-john-boyle-o-reilly",
+   "dir": "letters/054-to-john-boyle-o-reilly",
+   "pages": [
+    {
+     "page": 1,
+     "pointer": "img-01.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/054-to-john-boyle-o-reilly/img-01.jpg",
+     "bytes": 254444
+    }
+   ],
+   "n_facsimile": 1,
+   "source_urls": [
+    "https://archive.org/details/keller-epigrams-p214"
+   ]
+  },
+  {
+   "itemId": "055-to-john-j-mack",
+   "title": "To John J. Mack",
+   "boxFolder": "",
+   "dates": "",
+   "caption": "Second Story Books; offered for sale December 2023; view source | WBM (transcript; facsimile, pp. 1 & 2 of 4 and envelope)",
+   "slug": "055-to-john-j-mack",
+   "dir": "letters/055-to-john-j-mack",
+   "pages": [
+    {
+     "page": 1,
+     "pointer": "img-00.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/055-to-john-j-mack/img-00.jpg",
+     "bytes": 125324
+    },
+    {
+     "page": 2,
+     "pointer": "img-02.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/055-to-john-j-mack/img-02.jpg",
+     "bytes": 11181
+    },
+    {
+     "page": 3,
+     "pointer": "img-03.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/055-to-john-j-mack/img-03.jpg",
+     "bytes": 12949
+    },
+    {
+     "page": 4,
+     "pointer": "img-04.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/055-to-john-j-mack/img-04.jpg",
+     "bytes": 5962
+    }
+   ],
+   "n_facsimile": 4,
+   "source_urls": [
+    "https://web.archive.org/web/20231213093901/https://www.secondstorybooks.com/pages/books/1374984/oscar-wilde/oscar-wilde-autograph-letter-signed-als"
+   ]
+  },
+  {
+   "itemId": "056-to-john-moore-sinyanki",
+   "title": "To John Moore Sinyanki",
+   "boxFolder": "",
+   "dates": "",
+   "caption": "Bonhams; Printed Books, Maps, Manuscripts, and Photography; sale 11494; 16 Nov. 2004; lot 440; view source | WBM (transcript; low resolution but legible facsimile).",
+   "slug": "056-to-john-moore-sinyanki",
+   "dir": "letters/056-to-john-moore-sinyanki",
+   "pages": [],
+   "n_facsimile": 0,
+   "source_urls": [
+    "https://www.bonhams.com/auctions/11494/lot/440"
+   ]
+  },
+  {
+   "itemId": "057-to-john-stuart-blackie",
+   "title": "To John Stuart Blackie",
+   "boxFolder": "",
+   "dates": "",
+   "caption": "Sotheby’s; Fine Autograph Letters And Manuscripts From A Distinguished Private Collection: Part II; sale N09920; 13 Dec. 2018; lot 306; view source | WBM (transcript; facsimile of p. 1 of 3).",
+   "slug": "057-to-john-stuart-blackie",
+   "dir": "letters/057-to-john-stuart-blackie",
+   "pages": [
+    {
+     "page": 1,
+     "pointer": "img-00.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/057-to-john-stuart-blackie/img-00.jpg",
+     "bytes": 543915
+    }
+   ],
+   "n_facsimile": 1,
+   "source_urls": [
+    "https://web.archive.org/web/20220623105145/https://www.sothebys.com/en/auctions/ecatalogue/2018/fine-autograph-letters-and-manuscripts-from-a-distinguished-private-collection-part-ii-n09920/lot.306.html"
+   ]
+  },
+  {
+   "itemId": "058-to-jules-clar-tie",
+   "title": "To Jules Clarétie",
+   "boxFolder": "",
+   "dates": "",
+   "caption": "Pierre Bergé & Associés; Old and Modern Books; 23 Jun. 2009; Lot 2; view source | WBM (description). A small facsimile of p. 4 of 4 can be seen in the catalogue, p. 26 : view source | WBM .",
+   "slug": "058-to-jules-clar-tie",
+   "dir": "letters/058-to-jules-clar-tie",
+   "pages": [],
+   "n_facsimile": 0,
+   "source_urls": [
+    "https://www.pba-auctions.com/lot/4110/1036684"
+   ]
+  },
+  {
+   "itemId": "059-to-lady-ardilaun",
+   "title": "To Lady Ardilaun",
+   "boxFolder": "",
+   "dates": "",
+   "caption": "Whyte’s; Irish History & Literature; 5 Apr. 2008; lot 100; view source | WBM (quotation; facsimile)",
+   "slug": "059-to-lady-ardilaun",
+   "dir": "letters/059-to-lady-ardilaun",
+   "pages": [
+    {
+     "page": 1,
+     "pointer": "img-00.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/059-to-lady-ardilaun/img-00.jpg",
+     "bytes": 27742
+    },
+    {
+     "page": 2,
+     "pointer": "img-01.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/059-to-lady-ardilaun/img-01.jpg",
+     "bytes": 1180
+    },
+    {
+     "page": 3,
+     "pointer": "img-02.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/059-to-lady-ardilaun/img-02.jpg",
+     "bytes": 4431
+    },
+    {
+     "page": 4,
+     "pointer": "img-03.jpg",
+     "caption": "lot photograph: Wilde portrait beside the letter",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/059-to-lady-ardilaun/img-03.jpg",
+     "bytes": 2344,
+     "is_context": true
+    },
+    {
+     "page": 5,
+     "pointer": "img-05.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/059-to-lady-ardilaun/img-05.jpg",
+     "bytes": 1870
+    },
+    {
+     "page": 6,
+     "pointer": "img-06.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/059-to-lady-ardilaun/img-06.jpg",
+     "bytes": 6210
+    }
+   ],
+   "n_facsimile": 5,
+   "source_urls": [
+    "https://web.archive.org/web/20220620105913/https://www.liveauctioneers.com/item/5076115_100-oscar-wilde-1854-1900-letter-to-lady-ardilaun"
+   ]
+  },
+  {
+   "itemId": "060-to-lady-monckton",
+   "title": "To Lady Monckton",
+   "boxFolder": "",
+   "dates": "",
+   "caption": "Sotheby’s; Jean-François Chaponnière Library; 18 Nov. 2019; lot 284; view source | WBM (partial transcript; facsimile, pp. 1 & 4 of 4)",
+   "slug": "060-to-lady-monckton",
+   "dir": "letters/060-to-lady-monckton",
+   "pages": [
+    {
+     "page": 1,
+     "pointer": "img-00.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/060-to-lady-monckton/img-00.jpg",
+     "bytes": 477200
+    }
+   ],
+   "n_facsimile": 1,
+   "source_urls": [
+    "https://web.archive.org/web/20220829153713/https://www.sothebys.com/en/auctions/ecatalogue/2019/coll-chaponniere-pf1943/lot.284.html"
+   ]
+  },
+  {
+   "itemId": "061-to-lady-monckton",
+   "title": "To Lady Monckton",
+   "boxFolder": "",
+   "dates": "",
+   "caption": "Antiquariat Inlibris Gilhofer; offered for sale Apr. 2025; view source | WBM (transcript; facsimile)",
+   "slug": "061-to-lady-monckton",
+   "dir": "letters/061-to-lady-monckton",
+   "pages": [
+    {
+     "page": 1,
+     "pointer": "img-03.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/061-to-lady-monckton/img-03.jpg",
+     "bytes": 572030
+    },
+    {
+     "page": 2,
+     "pointer": "img-06.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/061-to-lady-monckton/img-06.jpg",
+     "bytes": 721462
+    },
+    {
+     "page": 3,
+     "pointer": "img-08.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/061-to-lady-monckton/img-08.jpg",
+     "bytes": 38141
+    }
+   ],
+   "n_facsimile": 3,
+   "source_urls": [
+    "https://web.archive.org/web/20250427120202/https://inlibris.com/item/bn64018/"
+   ]
+  },
+  {
+   "itemId": "062-to-lady-mount-temple",
+   "title": "To Lady Mount-Temple",
+   "boxFolder": "",
+   "dates": "",
+   "caption": "Christie’s; 23 Nov. 2009; lot 150; view source | Archive (quotation; facsimile, p. 1 of 3)",
+   "slug": "062-to-lady-mount-temple",
+   "dir": "letters/062-to-lady-mount-temple",
+   "pages": [
+    {
+     "page": 1,
+     "pointer": "img-00.jpg",
+     "caption": "screenshot of the listing page; the letter appears only as a thumbnail, and no better capture was made",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/062-to-lady-mount-temple/img-00.jpg",
+     "bytes": 9368,
+     "is_context": true
+    }
+   ],
+   "n_facsimile": 0,
+   "source_urls": [
+    "https://archive.org/details/christies_wilde_mounttemple_2009"
+   ]
+  },
+  {
+   "itemId": "063-to-leonard-smithers",
+   "title": "To Leonard Smithers",
+   "boxFolder": "",
+   "dates": "",
+   "caption": "Bonhams; Printed Books, Maps and Manuscripts; sale 17807; 23 Mar. 2010; lot 144; view source | WBM (quotation; facsimile, p. 1).",
+   "slug": "063-to-leonard-smithers",
+   "dir": "letters/063-to-leonard-smithers",
+   "matches": [
+    {
+     "pages": [],
+     "what": "To Leonard Smithers",
+     "printed": null,
+     "person": "data/people/smithers.json",
+     "letter_id": "marland-blog/063-to-leonard-smithers"
+    }
+   ],
+   "pages": [],
+   "n_facsimile": 0,
+   "source_urls": [
+    "https://www.bonhams.com/auctions/17807/lot/144"
+   ]
+  },
+  {
+   "itemId": "064-to-leonard-smithers",
+   "title": "To Leonard Smithers",
+   "boxFolder": "",
+   "dates": "",
+   "caption": "Sotheby’s; Books & Manuscripts; 3 Jun. 2014; lot 153; view source | WBM (transcript; facsimile)",
+   "slug": "064-to-leonard-smithers",
+   "dir": "letters/064-to-leonard-smithers",
+   "matches": [
+    {
+     "pages": [
+      1
+     ],
+     "what": "To Leonard Smithers",
+     "printed": null,
+     "person": "data/people/smithers.json",
+     "letter_id": "marland-blog/064-to-leonard-smithers#1"
+    }
+   ],
+   "pages": [
+    {
+     "page": 1,
+     "pointer": "img-00.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/064-to-leonard-smithers/img-00.jpg",
+     "bytes": 663557
+    }
+   ],
+   "n_facsimile": 1,
+   "source_urls": [
+    "https://web.archive.org/web/20241217091657/https://www.sothebys.com/en/auctions/ecatalogue/2014/books-manuscripts-n09157/lot.153.html"
+   ]
+  },
+  {
+   "itemId": "065-to-major-nelson",
+   "title": "To Major Nelson",
+   "boxFolder": "",
+   "dates": "",
+   "caption": "Freeman’s; Books, Maps & Manuscripts; 30 Sep. 2016; lot 277; view source | WBM (transcript; facsimile).",
+   "slug": "065-to-major-nelson",
+   "dir": "letters/065-to-major-nelson",
+   "pages": [
+    {
+     "page": 1,
+     "pointer": "img-01.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/065-to-major-nelson/img-01.jpg",
+     "bytes": 501384
+    }
+   ],
+   "n_facsimile": 1,
+   "source_urls": [
+    "https://web.archive.org/web/20220623182849/https://www.freemansauction.com/auction/lot/lot-277-autographs-literary-wilde-oscar-1-piece/?lot=529392"
+   ]
+  },
+  {
+   "itemId": "066-to-miss-juliet-temple",
+   "title": "To Miss [?Juliet] Temple",
+   "boxFolder": "",
+   "dates": "",
+   "caption": "Forum Auctions; Private Press, Illustrated Books and Modern First Editions; 30 Jan. 2019; lot 277; view source | WBM (description; facsimile). For a higher resolution image of the letter see the listing at Live Auctioneers: view source | WBM (description; facsimile).",
+   "slug": "066-to-miss-juliet-temple",
+   "dir": "letters/066-to-miss-juliet-temple",
+   "pages": [
+    {
+     "page": 1,
+     "pointer": "img-04.jpg",
+     "caption": "lot photograph: Wilde portrait beside the letter",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/066-to-miss-juliet-temple/img-04.jpg",
+     "bytes": 37151,
+     "is_context": true
+    },
+    {
+     "page": 2,
+     "pointer": "img-05.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/066-to-miss-juliet-temple/img-05.jpg",
+     "bytes": 2135
+    },
+    {
+     "page": 3,
+     "pointer": "img-07.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/066-to-miss-juliet-temple/img-07.jpg",
+     "bytes": 1188
+    },
+    {
+     "page": 4,
+     "pointer": "img-08.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/066-to-miss-juliet-temple/img-08.jpg",
+     "bytes": 4121
+    },
+    {
+     "page": 5,
+     "pointer": "img-09.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/066-to-miss-juliet-temple/img-09.jpg",
+     "bytes": 1102
+    },
+    {
+     "page": 6,
+     "pointer": "img-10.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/066-to-miss-juliet-temple/img-10.jpg",
+     "bytes": 3080
+    },
+    {
+     "page": 7,
+     "pointer": "img-11.jpg",
+     "caption": "lot photograph, letter opened flat on a dark ground",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/066-to-miss-juliet-temple/img-11.jpg",
+     "bytes": 1292,
+     "is_context": true
+    }
+   ],
+   "n_facsimile": 5,
+   "source_urls": [
+    "https://www.forumauctions.co.uk/51550/Wilde-Oscar-Autograph-Letter-signed-with-photographic-portrait-1889?auction_no=1039&amp;gridtype=listview&amp;ipp=20&amp;page_no=14&amp;sort_by=lot_no&amp;view=lot_detail",
+    "https://web.archive.org/web/20220623180352/https://www.liveauctioneers.com/item/67915580_wilde-oscar-autograph-letter-signed-with"
+   ]
+  },
+  {
+   "itemId": "068-to-miss-brownrigg",
+   "title": "To Miss Brownrigg",
+   "boxFolder": "",
+   "dates": "",
+   "caption": "Bonhams; Manuscripts from the Estate of Charles Williamson & Tucker Fleming; sale 19377; 20 Apr. 2011; lot 154; view source | WBM (partial transcript; facsimile).",
+   "slug": "068-to-miss-brownrigg",
+   "dir": "letters/068-to-miss-brownrigg",
+   "pages": [],
+   "n_facsimile": 0,
+   "source_urls": [
+    "https://www.bonhams.com/auctions/19377/lot/154"
+   ]
+  },
+  {
+   "itemId": "069-to-mr-edwin-strachan-morgan",
+   "title": "To Mr [?Edwin Strachan] Morgan",
+   "boxFolder": "",
+   "dates": "",
+   "caption": "Bloomsbury Auctions; The Collection of Laurence W. Hodson; 4 Apr. 2013; lot 282; view source | WBM (quotation; facsimile, pp. 1 & 13 of 13).",
+   "slug": "069-to-mr-edwin-strachan-morgan",
+   "dir": "letters/069-to-mr-edwin-strachan-morgan",
+   "pages": [
+    {
+     "page": 1,
+     "pointer": "img-00.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/069-to-mr-edwin-strachan-morgan/img-00.jpg",
+     "bytes": 23258
+    },
+    {
+     "page": 2,
+     "pointer": "img-02.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/069-to-mr-edwin-strachan-morgan/img-02.jpg",
+     "bytes": 1259
+    },
+    {
+     "page": 3,
+     "pointer": "img-03.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/069-to-mr-edwin-strachan-morgan/img-03.jpg",
+     "bytes": 4161
+    },
+    {
+     "page": 4,
+     "pointer": "img-06.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/069-to-mr-edwin-strachan-morgan/img-06.jpg",
+     "bytes": 848
+    },
+    {
+     "page": 5,
+     "pointer": "img-07.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/069-to-mr-edwin-strachan-morgan/img-07.jpg",
+     "bytes": 2320
+    },
+    {
+     "page": 6,
+     "pointer": "img-08.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/069-to-mr-edwin-strachan-morgan/img-08.jpg",
+     "bytes": 995
+    },
+    {
+     "page": 7,
+     "pointer": "img-09.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/069-to-mr-edwin-strachan-morgan/img-09.jpg",
+     "bytes": 3221
+    }
+   ],
+   "n_facsimile": 7,
+   "source_urls": [
+    "https://web.archive.org/web/20220623190352/https://www.liveauctioneers.com/item/16477046_wilde-oscar-autograph-letter-signed-to-a-mr-mor"
+   ]
+  },
+  {
+   "itemId": "070-to-mr-william-young",
+   "title": "To Mr [William] Young",
+   "boxFolder": "",
+   "dates": "",
+   "caption": "RR Auction; 9 Mar. 2011; lot 649; view source | Archive (transcript; facsimile).",
+   "slug": "070-to-mr-william-young",
+   "dir": "letters/070-to-mr-william-young",
+   "pages": [
+    {
+     "page": 1,
+     "pointer": "img-00.jpg",
+     "caption": "screenshot of the listing page; the letter appears only as a thumbnail, and no better capture was made",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/070-to-mr-william-young/img-00.jpg",
+     "bytes": 8205,
+     "is_context": true
+    }
+   ],
+   "n_facsimile": 0,
+   "source_urls": [
+    "https://archive.org/details/rr_wilde_young_2011"
+   ]
+  },
+  {
+   "itemId": "071-to-mr-silter",
+   "title": "To Mr Silter",
+   "boxFolder": "",
+   "dates": "",
+   "caption": "Bloomsbury Auctions; The Summer Book Sale; 20 Aug. 2015; lot 402; view source | Archive (apparently complete transcript; facsimile, pp. 2–3 of 3).",
+   "slug": "071-to-mr-silter",
+   "dir": "letters/071-to-mr-silter",
+   "pages": [
+    {
+     "page": 1,
+     "pointer": "img-01.png",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/071-to-mr-silter/img-01.png",
+     "bytes": 312912
+    },
+    {
+     "page": 2,
+     "pointer": "img-02.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/071-to-mr-silter/img-02.jpg",
+     "bytes": 4898
+    },
+    {
+     "page": 3,
+     "pointer": "img-04.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/071-to-mr-silter/img-04.jpg",
+     "bytes": 5713
+    }
+   ],
+   "n_facsimile": 3,
+   "source_urls": [
+    "https://archive.org/details/bloomsbury-20-08-2015-oscar-wilde-letter/bloomsbury%2C%2020-08-2015%2C%20oscar%20wilde%20letter.png"
+   ]
+  },
+  {
+   "itemId": "072-to-mr-stockton",
+   "title": "To Mr Stockton",
+   "boxFolder": "",
+   "dates": "",
+   "caption": "Wilde, O. (1907) The Writings of Oscar Wilde: Epigrams , Keller, pp. 228-30; view source (HathiTrust) | Archive (facsimile).",
+   "slug": "072-to-mr-stockton",
+   "dir": "letters/072-to-mr-stockton",
+   "pages": [
+    {
+     "page": 1,
+     "pointer": "img-01.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/072-to-mr-stockton/img-01.jpg",
+     "bytes": 251181
+    },
+    {
+     "page": 2,
+     "pointer": "img-03.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/072-to-mr-stockton/img-03.jpg",
+     "bytes": 181838
+    },
+    {
+     "page": 3,
+     "pointer": "img-05.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/072-to-mr-stockton/img-05.jpg",
+     "bytes": 177689
+    }
+   ],
+   "n_facsimile": 3,
+   "source_urls": [
+    "https://archive.org/details/keller-epigrams-p228-30"
+   ]
+  },
+  {
+   "itemId": "073-to-mrs-minnie-simpson",
+   "title": "To Mrs [?Minnie] Simpson",
+   "boxFolder": "",
+   "dates": "",
+   "caption": "University Archives; Outstanding Selection of Autographed Documents, Manuscripts, Photos, Books & Relics; 27 Mar. 2019; lot 260; view source | WBM (transcript; facsimile)",
+   "slug": "073-to-mrs-minnie-simpson",
+   "dir": "letters/073-to-mrs-minnie-simpson",
+   "pages": [
+    {
+     "page": 1,
+     "pointer": "img-01.jpeg",
+     "caption": "framed portrait offered in the same lot",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/073-to-mrs-minnie-simpson/img-01.jpeg",
+     "bytes": 2429,
+     "is_context": true
+    },
+    {
+     "page": 2,
+     "pointer": "img-02.jpeg",
+     "caption": "unrelated signed cheque in the same sale",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/073-to-mrs-minnie-simpson/img-02.jpeg",
+     "bytes": 2514,
+     "is_context": true
+    },
+    {
+     "page": 3,
+     "pointer": "img-03.jpeg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/073-to-mrs-minnie-simpson/img-03.jpeg",
+     "bytes": 1620
+    },
+    {
+     "page": 4,
+     "pointer": "img-04.jpeg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/073-to-mrs-minnie-simpson/img-04.jpeg",
+     "bytes": 1009
+    },
+    {
+     "page": 5,
+     "pointer": "img-05.jpeg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/073-to-mrs-minnie-simpson/img-05.jpeg",
+     "bytes": 715513
+    }
+   ],
+   "n_facsimile": 3,
+   "source_urls": [
+    "https://web.archive.org/web/20220623073937/https://auction.universityarchives.com/auction-lot/oscar-wilde-lovely-als_D094A59AB1"
+   ]
+  },
+  {
+   "itemId": "074-to-mrs-emilia-aylmer-gowing",
+   "title": "To Mrs [Emilia Aylmer] Gowing",
+   "boxFolder": "",
+   "dates": "",
+   "caption": "Bonhams; sale 24808; 11 Feb. 2018; lot 271; view source | WBM (transcript; facsimile)",
+   "slug": "074-to-mrs-emilia-aylmer-gowing",
+   "dir": "letters/074-to-mrs-emilia-aylmer-gowing",
+   "pages": [],
+   "n_facsimile": 0,
+   "source_urls": [
+    "https://www.bonhams.com/auctions/24808/lot/271/"
+   ]
+  },
+  {
+   "itemId": "075-to-mrs-emilia-aylmer-gowing",
+   "title": "To Mrs [Emilia Aylmer] Gowing",
+   "boxFolder": "",
+   "dates": "",
+   "caption": "RR Auction; Fine Autographs and Artifacts; 8 Nov. 2018; lot 559; view source | WBM (transcript; facsimile)",
+   "slug": "075-to-mrs-emilia-aylmer-gowing",
+   "dir": "letters/075-to-mrs-emilia-aylmer-gowing",
+   "pages": [
+    {
+     "page": 1,
+     "pointer": "img-00.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/075-to-mrs-emilia-aylmer-gowing/img-00.jpg",
+     "bytes": 6651
+    }
+   ],
+   "n_facsimile": 1,
+   "source_urls": [
+    "https://web.archive.org/web/20220620103357/https://www.liveauctioneers.com/item/84150917_oscar-wilde"
+   ]
+  },
+  {
+   "itemId": "076-to-mrs-henrietta-barnett",
+   "title": "To Mrs [Henrietta] Barnett",
+   "boxFolder": "",
+   "dates": "",
+   "caption": "Bonhams; Oscar Wilde: The Collection of Jeremy Mason; 18 Feb. 2026; lot 46; view source | WBM (lot page) , WBM (facsimile) (description; facsimile)",
+   "slug": "076-to-mrs-henrietta-barnett",
+   "dir": "letters/076-to-mrs-henrietta-barnett",
+   "pages": [],
+   "n_facsimile": 0,
+   "source_urls": [
+    "https://www.bonhams.com/auction/32340/lot/46/wilde-oscar-autograph-letter-signed-oscar-wilde-to-henrietta-barnett-dear-mrs-barnett-november-1889/"
+   ]
+  },
+  {
+   "itemId": "077-to-mrs-florence-duncan",
+   "title": "To Mrs Florence Duncan",
+   "boxFolder": "",
+   "dates": "",
+   "caption": "J. A. Stargardt; catalogue 712; 9 Apr. 2024; p. 114, lot 189; view source (Issu) (complete transcript of surviving fragment). Also see the lot on Invaluable: view source | WBM (facsimile). <!-- My tra",
+   "slug": "077-to-mrs-florence-duncan",
+   "dir": "letters/077-to-mrs-florence-duncan",
+   "pages": [
+    {
+     "page": 1,
+     "pointer": "img-01.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/077-to-mrs-florence-duncan/img-01.jpg",
+     "bytes": 89303
+    }
+   ],
+   "n_facsimile": 1,
+   "source_urls": [
+    "https://web.archive.org/web/20240327130256/https://www.invaluable.com/auction-lot/wilde-oscar-1854-1900-189-c-21848c49a7"
+   ]
+  },
+  {
+   "itemId": "078-to-oscar-browning",
+   "title": "To Oscar Browning",
+   "boxFolder": "",
+   "dates": "",
+   "caption": "Sotheby’s; Fine Autograph Letters and Manuscripts From a Distinguished Private Collection: Part II; sale N09920; 13 Dec. 2018; lot 305; view source | WBM (partial transcript; facsimile, p. 1 of 3).",
+   "slug": "078-to-oscar-browning",
+   "dir": "letters/078-to-oscar-browning",
+   "matches": [
+    {
+     "pages": [
+      1
+     ],
+     "what": "To Oscar Browning",
+     "printed": null,
+     "person": "data/people/oscar-browning.json",
+     "letter_id": "marland-blog/078-to-oscar-browning#1"
+    }
+   ],
+   "pages": [
+    {
+     "page": 1,
+     "pointer": "img-00.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/078-to-oscar-browning/img-00.jpg",
+     "bytes": 436531
+    }
+   ],
+   "n_facsimile": 1,
+   "source_urls": [
+    "https://web.archive.org/web/20220623111050/https://www.sothebys.com/en/auctions/ecatalogue/2018/fine-autograph-letters-and-manuscripts-from-a-distinguished-private-collection-part-ii-n09920/lot.305.html"
+   ]
+  },
+  {
+   "itemId": "079-to-paul-de-real",
+   "title": "To Paul de Real",
+   "boxFolder": "",
+   "dates": "",
+   "caption": "International Autograph Auctions; Autograph Auction; 5 Dec. 2015; lot 442; view source | Archive (transcript; facsimile)",
+   "slug": "079-to-paul-de-real",
+   "dir": "letters/079-to-paul-de-real",
+   "pages": [
+    {
+     "page": 1,
+     "pointer": "img-00.jpg",
+     "caption": "screenshot of the listing page; the letter appears only as a thumbnail, and no better capture was made",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/079-to-paul-de-real/img-00.jpg",
+     "bytes": 8347,
+     "is_context": true
+    }
+   ],
+   "n_facsimile": 0,
+   "source_urls": [
+    "https://archive.org/details/iaa_wilde_real_2015"
+   ]
+  },
+  {
+   "itemId": "080-to-pierre-lou-s",
+   "title": "To Pierre Louÿs",
+   "boxFolder": "",
+   "dates": "",
+   "caption": "Signature House; Auction XXIV - Autographs & Memorabilia; 2 May 2004; lot 633; view source (free account necessary) | Archive (translated transcript; facsimile)",
+   "slug": "080-to-pierre-lou-s",
+   "dir": "letters/080-to-pierre-lou-s",
+   "pages": [
+    {
+     "page": 1,
+     "pointer": "img-00.jpg",
+     "caption": "screenshot of the listing page; the letter appears only as a thumbnail, and no better capture was made",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/080-to-pierre-lou-s/img-00.jpg",
+     "bytes": 10386,
+     "is_context": true
+    }
+   ],
+   "n_facsimile": 0,
+   "source_urls": [
+    "https://archive.org/details/sh_wilde_louys_2004"
+   ]
+  },
+  {
+   "itemId": "081-to-rev-matthew-russell",
+   "title": "To Rev. Matthew Russell",
+   "boxFolder": "",
+   "dates": "",
+   "caption": "International Autograph Auctions Europe; 3 Dec. 2025; lot 1108; view source | WBM (transcript; facsimile)",
+   "slug": "081-to-rev-matthew-russell",
+   "dir": "letters/081-to-rev-matthew-russell",
+   "pages": [
+    {
+     "page": 1,
+     "pointer": "img-00.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/081-to-rev-matthew-russell/img-00.jpg",
+     "bytes": 115382
+    },
+    {
+     "page": 2,
+     "pointer": "img-02.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/081-to-rev-matthew-russell/img-02.jpg",
+     "bytes": 20139
+    },
+    {
+     "page": 3,
+     "pointer": "img-03.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/081-to-rev-matthew-russell/img-03.jpg",
+     "bytes": 20529
+    }
+   ],
+   "n_facsimile": 3,
+   "source_urls": [
+    "https://www.autographauctions.eu/auction/lot/lot-1108---wilde-oscar-1854-1900/?lot=36572"
+   ]
+  },
+  {
+   "itemId": "082-to-robert-sherard",
+   "title": "To Robert Sherard",
+   "boxFolder": "",
+   "dates": "",
+   "caption": "Pierre Bergé & Associés; Livres Anciens & Modernes; 17 May 2011; view source | WBM (partial quotation; facsimile of 2 of ?4 pages). *This is on p. 504 of CL",
+   "slug": "082-to-robert-sherard",
+   "dir": "letters/082-to-robert-sherard",
+   "matches": [
+    {
+     "pages": [],
+     "what": "To Robert Sherard",
+     "printed": null,
+     "person": "data/people/sherard.json",
+     "letter_id": "marland-blog/082-to-robert-sherard"
+    }
+   ],
+   "pages": [],
+   "n_facsimile": 0,
+   "source_urls": [
+    "https://www.pba-auctions.com/lot/8954/1842795-wilde-oscar-1854-1900-celebre-ecrivain-et-auteur-dramatique"
+   ]
+  },
+  {
+   "itemId": "083-to-steven-massett",
+   "title": "To Steven Massett",
+   "boxFolder": "",
+   "dates": "",
+   "caption": "Millea Bros; ABC: 3 Day Online-Only Auction: Day 3, Ephemera & Autographs; 15–17 Oct. 2024; lot 3321; view source | WBM (partial transcript; facsimile). <!-- Thursday Dear Mr. Massett. I fear that a p",
+   "slug": "083-to-steven-massett",
+   "dir": "letters/083-to-steven-massett",
+   "pages": [
+    {
+     "page": 1,
+     "pointer": "img-00.jpg",
+     "caption": "the letter as framed, with a photograph of Wilde",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/083-to-steven-massett/img-00.jpg",
+     "bytes": 86168,
+     "is_context": true
+    }
+   ],
+   "n_facsimile": 0,
+   "source_urls": [
+    "https://auctions.milleabros.com/lots/view/1-9MS2HK/oscar-wilde-signed-letter-and-photograph"
+   ]
+  },
+  {
+   "itemId": "084-to-tristram-everett",
+   "title": "To Tristram [?Everett]",
+   "boxFolder": "",
+   "dates": "",
+   "caption": "Bonhams; Printed Books, Maps & Manuscripts; sale 10053; 11 Mar. 2003; lot 528; view source | WBM (quotation; facsimile, p. 1 of 3).",
+   "slug": "084-to-tristram-everett",
+   "dir": "letters/084-to-tristram-everett",
+   "pages": [],
+   "n_facsimile": 0,
+   "source_urls": [
+    "https://www.bonhams.com/auctions/10053/lot/528"
+   ]
+  },
+  {
+   "itemId": "085-to-walter-crane",
+   "title": "To Walter Crane",
+   "boxFolder": "",
+   "dates": "",
+   "caption": "Bloomsbury Auctions; Continental & English Lit. and Manuscripts; 12 May 2011; lot 168; view source | WBM (transcript; facsimile)",
+   "slug": "085-to-walter-crane",
+   "dir": "letters/085-to-walter-crane",
+   "pages": [
+    {
+     "page": 1,
+     "pointer": "img-00.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/085-to-walter-crane/img-00.jpg",
+     "bytes": 27246
+    },
+    {
+     "page": 2,
+     "pointer": "img-02.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/085-to-walter-crane/img-02.jpg",
+     "bytes": 2787
+    },
+    {
+     "page": 3,
+     "pointer": "img-04.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/085-to-walter-crane/img-04.jpg",
+     "bytes": 906
+    },
+    {
+     "page": 4,
+     "pointer": "img-05.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/085-to-walter-crane/img-05.jpg",
+     "bytes": 3218
+    },
+    {
+     "page": 5,
+     "pointer": "img-08.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/085-to-walter-crane/img-08.jpg",
+     "bytes": 977
+    },
+    {
+     "page": 6,
+     "pointer": "img-09.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/085-to-walter-crane/img-09.jpg",
+     "bytes": 2724
+    }
+   ],
+   "n_facsimile": 6,
+   "source_urls": [
+    "https://web.archive.org/web/20220620111452/https://www.liveauctioneers.com/item/9048791_168-oscar-writer-1854-1900-autograh-letter-signed"
+   ]
+  },
+  {
+   "itemId": "086-to-walter-hamilton",
+   "title": "To Walter Hamilton",
+   "boxFolder": "",
+   "dates": "",
+   "caption": "Skinner; Books & Manuscripts; sale 2300; 30 Oct. 2005; lot 178; view source | WBM (transcript; facsimile, pp. 1 & 4 of 4).",
+   "slug": "086-to-walter-hamilton",
+   "dir": "letters/086-to-walter-hamilton",
+   "pages": [
+    {
+     "page": 1,
+     "pointer": "img-00.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/086-to-walter-hamilton/img-00.jpg",
+     "bytes": 20217
+    }
+   ],
+   "n_facsimile": 1,
+   "source_urls": [
+    "https://web.archive.org/web/20220623190654/https://www.skinnerinc.com/auctions/2300/lots/178"
+   ]
+  },
+  {
+   "itemId": "087-to-walter-hamilton",
+   "title": "To Walter Hamilton",
+   "boxFolder": "",
+   "dates": "",
+   "caption": "Sotheby’s; English Literature, History, Children’s Books and Illustrations Online; sale L20407; 12 May 2020; lot 27; view source | WBM (quotation; facsimile)",
+   "slug": "087-to-walter-hamilton",
+   "dir": "letters/087-to-walter-hamilton",
+   "pages": [
+    {
+     "page": 1,
+     "pointer": "img-00.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/087-to-walter-hamilton/img-00.jpg",
+     "bytes": 262922
+    }
+   ],
+   "n_facsimile": 1,
+   "source_urls": [
+    "https://web.archive.org/web/20220623190508/https://www.sothebys.com/en/buy/auction/2020/english-literature-history-childrens-books-and-illustrations/wilde-autograph-letter-signed-to-walter-hamilton"
+   ]
+  },
+  {
+   "itemId": "088-to-william-j-williams",
+   "title": "To William J. Williams",
+   "boxFolder": "",
+   "dates": "",
+   "caption": "Heritage Auctions; 2006 October Grand Format Autographs Auction; sale 629; 13 Oct. 2006; lot 25900; view source | WBM (transcript, presumably complete; low resolution but legible facsimile of p. 1 of ",
+   "slug": "088-to-william-j-williams",
+   "dir": "letters/088-to-william-j-williams",
+   "pages": [],
+   "n_facsimile": 0,
+   "source_urls": [
+    "https://web.archive.org/web/20220623182307/https://historical.ha.com/itm/autographs/oscar-wilde-autograph-letter-signed-oscar-wilde-two-pages-45-x-65-the-haven-worthing-sussex-september-1894/a/629-25900.s?ic4=GalleryView-Thumbnail-071515"
+   ]
+  },
+  {
+   "itemId": "089-to-andre",
+   "title": "To ‘Andre’",
+   "boxFolder": "",
+   "dates": "",
+   "caption": "Juliens; Tony Bennett: A Life Well-Lived; 19 Apr. 2024; lot 485; view source | WBM (transcript; facsimile)",
+   "slug": "089-to-andre",
+   "dir": "letters/089-to-andre",
+   "matches": [
+    {
+     "pages": [
+      1,
+      2,
+      3,
+      4
+     ],
+     "what": "To ‘Andre’",
+     "printed": null,
+     "person": "data/people/andre.json",
+     "letter_id": "marland-blog/089-to-andre#1"
+    }
+   ],
+   "pages": [
+    {
+     "page": 1,
+     "pointer": "img-00.jpg",
+     "caption": "the letter as framed, with a print of Wilde",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/089-to-andre/img-00.jpg",
+     "bytes": 51770,
+     "is_context": true
+    },
+    {
+     "page": 2,
+     "pointer": "img-02.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/089-to-andre/img-02.jpg",
+     "bytes": 6586
+    },
+    {
+     "page": 3,
+     "pointer": "img-03.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/089-to-andre/img-03.jpg",
+     "bytes": 5771
+    },
+    {
+     "page": 4,
+     "pointer": "img-04.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/089-to-andre/img-04.jpg",
+     "bytes": 5505
+    }
+   ],
+   "n_facsimile": 3,
+   "source_urls": [
+    "https://web.archive.org/web/20240417062416/https://www.julienslive.com/lot-details/index/catalog/517/lot/226905/tony-bennett-oscar-wilde-autograph-letter"
+   ]
+  },
+  {
+   "itemId": "090-to-arthur-clifton",
+   "title": "To ‘Arthur’ [?Clifton]",
+   "boxFolder": "",
+   "dates": "",
+   "caption": "Nate D. Sanders Auctions; 28 Jun. 2018; lot 103; view source | WBM (transcript; facsimile).",
+   "slug": "090-to-arthur-clifton",
+   "dir": "letters/090-to-arthur-clifton",
+   "matches": [
+    {
+     "pages": [
+      1,
+      2
+     ],
+     "what": "To ‘Arthur’ [?Clifton]",
+     "printed": null,
+     "person": "data/people/clifton.json",
+     "letter_id": "marland-blog/090-to-arthur-clifton#1"
+    }
+   ],
+   "pages": [
+    {
+     "page": 1,
+     "pointer": "img-00.jpeg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/090-to-arthur-clifton/img-00.jpeg",
+     "bytes": 155335
+    },
+    {
+     "page": 2,
+     "pointer": "img-01.jpeg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/090-to-arthur-clifton/img-01.jpeg",
+     "bytes": 14547
+    }
+   ],
+   "n_facsimile": 2,
+   "source_urls": [
+    "https://natedsanders.com/LotDetail.aspx?inventoryid=49697"
+   ]
+  },
+  {
+   "itemId": "091-to-arthur-clifton",
+   "title": "To ‘Arthur’ [?Clifton]",
+   "boxFolder": "",
+   "dates": "",
+   "caption": "Antiquariat Inlibris Gilhofer; offered for sale Apr. 2025; view source | WBM (facsimile of envelope only)",
+   "slug": "091-to-arthur-clifton",
+   "dir": "letters/091-to-arthur-clifton",
+   "matches": [
+    {
+     "pages": [
+      1
+     ],
+     "what": "To ‘Arthur’ [?Clifton]",
+     "printed": null,
+     "person": "data/people/clifton.json",
+     "letter_id": "marland-blog/091-to-arthur-clifton#1"
+    }
+   ],
+   "pages": [
+    {
+     "page": 1,
+     "pointer": "img-00.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/091-to-arthur-clifton/img-00.jpg",
+     "bytes": 392568
+    }
+   ],
+   "n_facsimile": 1,
+   "source_urls": [
+    "https://web.archive.org/web/20250427115651/https://inlibris.com/item/bn64292/"
+   ]
+  },
+  {
+   "itemId": "092-to-arthur-clifton",
+   "title": "To ‘Arthur’ [?Clifton]",
+   "boxFolder": "",
+   "dates": "",
+   "caption": "University Archives; Outstanding Selection of Autographed Documents, Manuscripts, Books & Relics; 26 Sep. 2018; lot 281; view source | WBM (transcript; facsimile).",
+   "slug": "092-to-arthur-clifton",
+   "dir": "letters/092-to-arthur-clifton",
+   "matches": [
+    {
+     "pages": [
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "what": "To ‘Arthur’ [?Clifton]",
+     "printed": null,
+     "person": "data/people/clifton.json",
+     "letter_id": "marland-blog/092-to-arthur-clifton#1"
+    }
+   ],
+   "pages": [
+    {
+     "page": 1,
+     "pointer": "img-01.jpeg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/092-to-arthur-clifton/img-01.jpeg",
+     "bytes": 1977
+    },
+    {
+     "page": 2,
+     "pointer": "img-03.jpeg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/092-to-arthur-clifton/img-03.jpeg",
+     "bytes": 1917
+    },
+    {
+     "page": 3,
+     "pointer": "img-04.jpeg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/092-to-arthur-clifton/img-04.jpeg",
+     "bytes": 1397
+    },
+    {
+     "page": 4,
+     "pointer": "img-05.jpeg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/092-to-arthur-clifton/img-05.jpeg",
+     "bytes": 136839
+    },
+    {
+     "page": 5,
+     "pointer": "img-06.jpeg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/092-to-arthur-clifton/img-06.jpeg",
+     "bytes": 110291
+    }
+   ],
+   "n_facsimile": 5,
+   "source_urls": [
+    "https://web.archive.org/web/20220623110657/https://auction.universityarchives.com/auction-lot/oscar-wilde-autograph-letter-signed-be-at-vaudevi_59544ecb16"
+   ]
+  },
+  {
+   "itemId": "093-to-fred",
+   "title": "To ‘Fred’",
+   "boxFolder": "",
+   "dates": "",
+   "caption": "Bonhams; Books, Maps, Manuscripts and Historical Photographs; sale 17860; 23 Nov. 2010; lot 36; view source | WBM (quotation; facsimile)",
+   "slug": "093-to-fred",
+   "dir": "letters/093-to-fred",
+   "pages": [],
+   "n_facsimile": 0,
+   "source_urls": [
+    "https://www.bonhams.com/auctions/17860/lot/36"
+   ]
+  },
+  {
+   "itemId": "094-to-fred",
+   "title": "To ‘Fred’",
+   "boxFolder": "",
+   "dates": "",
+   "caption": "Bonhams; Books, Maps, Manuscripts and Historical Photographs, including the Property of the late Michael Silverman; 22 Nov. 2011, lot 193; view source | WBM (quotation; facsimile)",
+   "slug": "094-to-fred",
+   "dir": "letters/094-to-fred",
+   "pages": [],
+   "n_facsimile": 0,
+   "source_urls": [
+    "https://www.bonhams.com/auction/18992/lot/193/wilde-oscar-autograph-letter-signed-to-dear-fred-1885-1895"
+   ]
+  },
+  {
+   "itemId": "095-to-tal-george-f-talman",
+   "title": "To ‘Tal’ (?George F. Talman)",
+   "boxFolder": "",
+   "dates": "",
+   "caption": "Aspire Auctions Fine Art & Antiques; 9 Feb. 2012; lot 301; view source | Archive (transcript; facsimile)",
+   "slug": "095-to-tal-george-f-talman",
+   "dir": "letters/095-to-tal-george-f-talman",
+   "pages": [
+    {
+     "page": 1,
+     "pointer": "img-00.jpg",
+     "caption": "screenshot of the listing page; the letter appears only as a thumbnail, and no better capture was made",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/095-to-tal-george-f-talman/img-00.jpg",
+     "bytes": 9760,
+     "is_context": true
+    }
+   ],
+   "n_facsimile": 0,
+   "source_urls": [
+    "https://archive.org/details/aspire_wilde_tal_2012"
+   ]
+  },
+  {
+   "itemId": "096-to-tristram",
+   "title": "To ‘Tristram’",
+   "boxFolder": "",
+   "dates": "",
+   "caption": "Wilde, O. (1907) The Writings of Oscar Wilde: Epigrams , Keller, p. 215; view source (HathiTrust) | Archive (facsimile).",
+   "slug": "096-to-tristram",
+   "dir": "letters/096-to-tristram",
+   "pages": [
+    {
+     "page": 1,
+     "pointer": "img-01.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/096-to-tristram/img-01.jpg",
+     "bytes": 225780
+    }
+   ],
+   "n_facsimile": 1,
+   "source_urls": [
+    "https://archive.org/details/keller-epigrams-p215"
+   ]
+  },
+  {
+   "itemId": "097-to-viking",
+   "title": "To ‘Viking’",
+   "boxFolder": "",
+   "dates": "",
+   "caption": "International Auctions; 16 Aug. 2017; lot 262; view source (free account necessary) | Archive (transcript; facsimile).",
+   "slug": "097-to-viking",
+   "dir": "letters/097-to-viking",
+   "pages": [
+    {
+     "page": 1,
+     "pointer": "img-00.jpg",
+     "caption": "screenshot of the listing page; the letter appears only as a thumbnail, and no better capture was made",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/097-to-viking/img-00.jpg",
+     "bytes": 11680,
+     "is_context": true
+    }
+   ],
+   "n_facsimile": 0,
+   "source_urls": [
+    "https://archive.org/details/ia_wilde_viking_2017"
+   ]
+  },
+  {
+   "itemId": "098-to-violet-fane-lady-mary-montgomerie-singleton",
+   "title": "To ‘Violet Fane’ [Lady Mary Montgomerie Singleton]",
+   "boxFolder": "",
+   "dates": "",
+   "caption": "Sotheby’s; Fine Autograph Letters and Manuscripts From a Distinguished Private Collection: Part II; sale N09920; 13 Dec. 2018; lot 304; view source | WBM (transcript; facsimile, pp. 1 & 4 of 4).",
+   "slug": "098-to-violet-fane-lady-mary-montgomerie-singleton",
+   "dir": "letters/098-to-violet-fane-lady-mary-montgomerie-singleton",
+   "pages": [
+    {
+     "page": 1,
+     "pointer": "img-00.jpg",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "letters/098-to-violet-fane-lady-mary-montgomerie-singleton/img-00.jpg",
+     "bytes": 591167
+    }
+   ],
+   "n_facsimile": 1,
+   "source_urls": [
+    "https://web.archive.org/web/20220623110519/https://www.sothebys.com/en/auctions/ecatalogue/2018/fine-autograph-letters-and-manuscripts-from-a-distinguished-private-collection-part-ii-n09920/lot.304.html"
+   ]
+  }
+ ]
+}

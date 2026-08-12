@@ -91,11 +91,12 @@
       "supports": "Wilde naming the relationship in the plainest terms the correspondence contains - Douglas as 'the supreme, the perfect love of my life; there can be no other' - written between the trials",
       "verification": "verified-exact",
       "how_verified": "text-layer",
-      "provenance": "PDF p. 703; the letter opens on printed 651 (PDF 702)",
+      "citation_provenance": "PDF p. 703; the letter opens on printed 651 (PDF 702)",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Lord Alfred Douglas",
-      "document": "letter"
+      "document": "letter",
+      "letter_id": "letters-2000/651#1"
     },
     {
       "quote": "It was in the year 1891 that there entered Wilde's life the man who was to be in some sense his inspiration and in every sense his evil genius. Lord Alfred Bruce Douglas, the third son of the eighth Marquess of Queensberry, had been born in 1870, educated at Winchester and was now a second-year undergraduate at Magdalen College, Oxford. Lionel Johnson, a Winchester contemporary and Oxford friend, brought him to see Wilde at Tite Street.",
@@ -109,9 +110,10 @@
       "supports": "Meeting 1891 (editors: most likely ~beginning of July); introduction by Lionel Johnson; Douglas's parentage and birth year; Wilde's own May-1892 dating of the friendship.",
       "verification": "verified-exact",
       "how_verified": "text-layer",
-      "provenance": "PDF p. 481 (printed p. 461)",
+      "citation_provenance": "PDF p. 481 (printed p. 461)",
       "verified_on": "2026-08-03",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "editorial-note"
     },
     {
       "quote": "My dearest Bobbie, Bosie has insisted on stopping here for sandwiches. He is quite like a narcissus – so white and gold. … Bosie is so tired: he lies like a hyacinth on the sofa, and I worship him.",
@@ -131,11 +133,15 @@
       "supports": "Earliest surviving intimate register about Douglas, told to a third party (Ross), spring 1892.",
       "verification": "verified-elision",
       "how_verified": "text-layer",
-      "provenance": "PDF p. 546 (printed p. 526)",
+      "citation_provenance": "PDF p. 546 (printed p. 526)",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Robert Ross",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "William Andrews Clark Memorial Library, UCLA"
+      },
+      "letter_id": "letters-2000/526#1"
     },
     {
       "quote": "My Own Boy, Your sonnet is quite lovely, and it is a marvel that those red rose-leaf lips of yours should have been made no less for music of song than for madness of kisses. Your slim gilt soul walks between passion and poetry. I know Hyacinthus, whom Apollo loved so madly, was you in Greek days. … Always, with undying love, yours OSCAR",
@@ -151,11 +157,12 @@
       "supports": "Explicit love-letter register in Wilde's own hand; the letter itself became trial evidence.",
       "verification": "verified-elision",
       "how_verified": "text-layer",
-      "provenance": "PDF p. 564 (printed p. 544)",
+      "citation_provenance": "PDF p. 564 (printed p. 544)",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Lord Alfred Douglas",
-      "document": "letter"
+      "document": "letter",
+      "letter_id": "letters-2000/544#1"
     },
     {
       "quote": "Dear Lady Queensberry, You have on more than one occasion consulted me about Bosie. Let me write to you now about him. … I like to think myself his greatest friend – he, at any rate, makes me think so – so I write to you quite frankly to ask you to send him abroad to better surroundings.",
@@ -171,11 +178,17 @@
       "supports": "Wilde intimate enough with Douglas's mother to be consulted about him; the late-1893 crisis and engineered Egypt separation.",
       "verification": "verified-elision",
       "how_verified": "text-layer",
-      "provenance": "PDF p. 627 (printed p. 575)",
+      "citation_provenance": "PDF p. 627 (printed p. 575) The volume heads this letter 'TS Holland' - a TYPESCRIPT, not Wilde's hand. Nothing in it can settle emphasis: whoever typed it had already read the underlining.",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Lady Queensberry",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "Private collection",
+        "archived_as": "typescript",
+        "owner": "Mr Vyvyan Holland"
+      },
+      "letter_id": "letters-2000/575#1"
     },
     {
       "quote": "I am happy in the knowledge that we are friends again, and that our love has passed through the shadow and the night of estrangement and sorrow and come out rose-crowned as of old. Let us always be infinitely dear to each other, as indeed we have been always.",
@@ -191,11 +204,15 @@
       "supports": "\"Our love\" in Wilde's own words; the quarrel-and-reconciliation pattern across the Egypt separation.",
       "verification": "verified-elision",
       "how_verified": "text-layer",
-      "provenance": "PDF p. 629 (printed p. 577)",
+      "citation_provenance": "PDF p. 629 (printed p. 577)",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Lord Alfred Douglas",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "William Andrews Clark Memorial Library, UCLA"
+      },
+      "letter_id": "letters-2000/577#3"
     },
     {
       "quote": "My dearest boy, This is to assure you of my immortal, my eternal love for you. Tomorrow all will be over. If prison and dishonour be my destiny, think that my love for you and this idea, this still more divine belief, that you love me in return will sustain me in my unhappiness and will make me capable, I hope, of bearing my grief most patiently.",
@@ -211,11 +228,12 @@
       "supports": "Mutual love asserted at the moment of catastrophe ('that you love me in return').",
       "verification": "verified-exact",
       "how_verified": "text-layer",
-      "provenance": "PDF p. 697 (printed p. 646)",
+      "citation_provenance": "PDF p. 697 (printed p. 646)",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Lord Alfred Douglas",
-      "document": "letter"
+      "document": "letter",
+      "letter_id": "letters-2000/646#1"
     },
     {
       "quote": "My darling Oscar, Have just arrived here. It seems too dreadful to be here without you, but I hope you will join me next week. … Do keep up your spirits, my dearest darling. I continue to think of you day and night, and send you all my love. I am always your own loving and devoted boy BOSIE",
@@ -231,12 +249,16 @@
       "supports": "Reciprocity in Douglas's own voice during the trials — first-person evidence from the second participant.",
       "verification": "verified-elision",
       "how_verified": "text-layer",
-      "provenance": "PDF p. 700 (printed p. 649)",
+      "citation_provenance": "PDF p. 700 (printed p. 649)",
       "verified_on": "2026-08-03",
       "voice": "period",
       "speaker": "Lord Alfred Douglas",
       "addressee": "Oscar Wilde",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "William Andrews Clark Memorial Library, UCLA"
+      },
+      "letter_id": "letters-2000/649n3"
     },
     {
       "quote": "Dear Bosie, After long and fruitless waiting I have determined to write to you myself, as much for your sake as for mine … Our ill-fated and most lamentable friendship has ended in ruin and public infamy for me, yet the memory of our ancient affection is often with me, and the thought that loathing, bitterness and contempt should for ever take that place in my heart once held by love is very sad to me …",
@@ -255,11 +277,15 @@
       "supports": "Wilde's own retrospective naming of the relationship ('that place in my heart once held by love'); the prison rupture. Also p. 686 (read): the 1893 daily-inseparability routine ('We did not separate as a rule till after midnight').",
       "verification": "verified-elision",
       "how_verified": "text-layer",
-      "provenance": "PDF pp. 734-737 (printed pp. 683-686)",
+      "citation_provenance": "PDF pp. 734-737 (printed pp. 683-686)",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Lord Alfred Douglas",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "British Library, London"
+      },
+      "letter_id": "letters-2000/683#1"
     },
     {
       "quote": "Everyone is furious with me for going back to you, but they don't understand us. I feel that it is only with you that I can do anything at all. Do remake my ruined life for me, and then our friendship and love will have a different meaning to the world. I wish that when we met at Rouen we had not parted at all. … But we love each other.",
@@ -275,11 +301,15 @@
       "supports": "The post-prison reunion decision against the circle's opposition; Rouen meeting 28-29 Aug 1897; corroborated to Ross, 4 Sept 1897 (p. 934, read): \"Yes: I saw Bosie, and of course I love him as I always did, with a sense of tragedy and ruin.\"",
       "verification": "verified-elision",
       "how_verified": "text-layer",
-      "provenance": "PDF pp. 982-984 (printed pp. 932-934)",
+      "citation_provenance": "PDF pp. 982-984 (printed pp. 932-934)",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Lord Alfred Douglas",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "William Andrews Clark Memorial Library, UCLA"
+      },
+      "letter_id": "letters-2000/932#1"
     },
     {
       "quote": "You tell me that you, and Bobbie, on being asked whether Bosie was 'a disreputable person' felt bound at once to say yes: and that you declared that my wife was acting 'strictly within her legal rights according to the agreement' in depriving me of my allowance, because I have the pleasure of Bosie's companionship, the only companionship in the world open to me.",
@@ -295,11 +325,15 @@
       "supports": "Cohabitation at Naples from late September 1897 and its end when Constance's allowance and Lady Queensberry's terms cut the money off.",
       "verification": "verified-exact",
       "how_verified": "text-layer",
-      "provenance": "PDF p. 1037 - not p. 991; the volume's PDF/printed offset is not constant.",
+      "citation_provenance": "PDF p. 1037 - not p. 991; the volume's PDF/printed offset is not constant.",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "More Adey",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "William Andrews Clark Memorial Library, UCLA"
+      },
+      "letter_id": "letters-2000/989#1"
     },
     {
       "quote": "On Sunday, the next day, Alfred Douglas arrived, and various people whom I do not know called. … On Monday morning at 9 o'clock, the funeral started from the hotel – we all walked to the Church of St Germain des Prés behind the hearse – Alfred Douglas, Reggie Turner and myself, Dupoirier, the proprietor of the hotel … the second [coach contained] Alfred Douglas, Turner, the proprietor of the hotel, and myself … Wreaths came from, or at the request of, the following: Alfred Douglas, More Adey, Reginald Turner …",
@@ -315,10 +349,12 @@
       "supports": "Contact until death: Douglas came at once, walked behind the hearse and rode in the second coach, and sent a wreath.",
       "verification": "verified-elision",
       "how_verified": "text-layer",
-      "provenance": "PDF p. 1267 (printed p. 1222)",
+      "citation_provenance": "PDF p. 1267 (printed p. 1222)",
       "verified_on": "2026-08-03",
       "speaker": "Robert Ross",
-      "voice": "period"
+      "voice": "period",
+      "document": "letter",
+      "letter_id": "letters-2000/1211#1"
     },
     {
       "quote": "Douglas's candour in days when such acts could still condemn a man to prison is some proof of the truth of his statement, and his coyness is understandable.",
@@ -334,9 +370,10 @@
       "supports": "Douglas's own first-person account of the sexual relationship with Wilde, its specific and limited content, and its brevity - independent corroboration, from Douglas's side, of an edge otherwise carried by Wilde's letters.",
       "verification": "verified-exact",
       "how_verified": "text-layer",
-      "provenance": "PDF p. 52 (ebook conversion; no printed folios.)",
+      "citation_provenance": "PDF p. 52 (ebook conversion; no printed folios.)",
       "verified_on": "2026-08-03",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "biography"
     },
     {
       "quote": "The sexual relationship between Wilde and Douglas was short-lived, but it was replaced in both by a taste for rent boys.",
@@ -350,9 +387,10 @@
       "supports": "The biographer's dating of the sexual phase as brief, with the romantic attachment outlasting it - the shape our date fields already carry (1891/92 start, contact to 1900).",
       "verification": "verified-exact",
       "how_verified": "text-layer",
-      "provenance": "PDF p. 60 (ebook conversion; no printed folios.)",
+      "citation_provenance": "PDF p. 60 (ebook conversion; no printed folios.)",
       "verified_on": "2026-08-03",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "biography"
     }
   ]
 }

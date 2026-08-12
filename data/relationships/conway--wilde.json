@@ -35,11 +35,11 @@
       },
       "supports": "Wilde's admitted six-week companionship, presents and Brighton trip, and his denial of the specific sexual allegation; Wilde's age-estimate 'about eighteen'",
       "verification": "verified-elision",
-      "how_verified": "page-image",
-      "provenance": "IA in.ernet.dli.2015.499238, leaf 171 (printed pp. 137-138)",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "IA in.ernet.dli.2015.499238, leaf 171 (printed pp. 137-138)",
       "verified_on": "2026-08-03",
       "speaker": "Oscar Wilde",
-      "voice": "exchange",
+      "voice": "court",
       "addressee": "Carson",
       "turns": [
         {
@@ -89,11 +89,11 @@
       },
       "supports": "The Brighton overnight in adjoining rooms; Conway present around the Court in May 1895 though never called",
       "verification": "verified-elision",
-      "how_verified": "page-image",
-      "provenance": "IA in.ernet.dli.2015.499238, leaf 364 (printed pp. 318-319)",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "IA in.ernet.dli.2015.499238, leaf 364 (printed pp. 318-319)",
       "verified_on": "2026-08-03",
       "speaker": "Oscar Wilde, cross-examined by the Solicitor-General",
-      "voice": "exchange",
+      "voice": "court",
       "turns": [
         {
           "who": "Q.",
@@ -134,18 +134,12 @@
       },
       "supports": "The plea-only allegation, its dates and places, and Conway's full name as pleaded — the class-deciding text. Note: the plea as printed states no age for Conway",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "IA in.ernet.dli.2015.499238, leaf 390 (printed p. 344)",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "IA in.ernet.dli.2015.499238, leaf 390 (printed p. 344)",
       "verified_on": "2026-08-03",
       "speaker": "The Marquess of Queensberry, plea of justification (filed 30 March 1895)",
-      "voice": "exchange",
-      "turns": [
-        {
-          "who": "Queensberry",
-          "text": "And that the said Oscar Fingal O'Flahertie Wills Wilde upon several occasions in the months of August and September in the year of our Lord One thousand eight hundred and ninety-four at Worthing in the County of Sussex and on or about the twenty-seventh day of September in the said year at the Albion Hotel Brighton in the same County did solicit and incite one Alfonso Harold Conway to commit sodomy and other acts of gross indecency and immorality with him the said Oscar Fingal O'Flahertie Wills Wilde. And that the said Oscar Fingal O'Flahertie Wills Wilde did in fact at the said times and places commit the said other acts of gross indecency with the said Alfonso Harold Conway."
-        }
-      ],
-      "document": "testimony"
+      "voice": "court",
+      "document": "plea"
     },
     {
       "quote": "[His lordship proceeded to explain that the reason why such offences as the plea of justification alleged, in connexion with the lads Conway and Grainger, were not included in the present indictment was because those offences had occurred, if at all, outside the jurisdiction of the Court.]",
@@ -159,10 +153,11 @@
       },
       "supports": "Why the Conway (and Grainger) allegations were never charged — the 'plea-only' status",
       "verification": "verified-elision",
-      "how_verified": "page-image",
-      "provenance": "IA in.ernet.dli.2015.499238, leaf 298 (printed p. 256)",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "IA in.ernet.dli.2015.499238, leaf 298 (printed p. 256)",
       "verified_on": "2026-08-03",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "editorial-note"
     },
     {
       "quote": "Alphonso is still in favour. He is my only companion, along with Stephen. Alphonso always alludes to us as 'the Lord', which however gives you, I think, a Biblical Hebraic dignity that gracious Greek boys should not have. … Yesterday (Sunday) Alphonso, Stephen, and I sailed to Littlehampton in the morning, bathing on the way. We took five hours in an awful gale to come back! … Both Alphonso and Stephen are now anarchists, I need hardly say.",
@@ -177,11 +172,15 @@
       "supports": "Primary contemporaneous evidence of the Worthing companionship ('my only companion'), sailing and bathing excursions, August 1894",
       "verification": "verified-exact",
       "how_verified": "text-layer",
-      "provenance": "Complete Letters (Fourth Estate 2000), PDF p. 654 = printed p. 602",
+      "citation_provenance": "Complete Letters (Fourth Estate 2000), PDF p. 654 = printed p. 602",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Lord Alfred Douglas",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "William Andrews Clark Memorial Library, UCLA"
+      },
+      "letter_id": "letters-2000/601#3"
     },
     {
       "work": "holland-2003",
@@ -193,14 +192,14 @@
       "how_verified": "text-layer",
       "verified_on": "2026-08-03",
       "speaker": "Oscar Wilde",
-      "provenance": "PDF p. 194 (printed folio 146)",
+      "citation_provenance": "PDF p. 194 (printed folio 146)",
       "evidence_date": {
         "y": 1895,
         "m": 4,
         "d": 4
       },
       "supports": "The verbatim shorthand transcript of the same exchange Hyde 1948 prints in condensed form - kept alongside Hyde, not in place of him, so the divergence stays visible in the record.",
-      "voice": "exchange",
+      "voice": "court",
       "addressee": "Carson",
       "turns": [
         {

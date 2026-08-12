@@ -28,9 +28,10 @@
       "supports": "The declined alter-ego proposition that preceded the Marshall wooing",
       "verification": "verified-elision",
       "how_verified": "text-layer",
-      "provenance": "PDF p. 54.",
+      "citation_provenance": "PDF p. 54.",
       "verified_on": "2026-08-03",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "biography"
     }
   ]
 }

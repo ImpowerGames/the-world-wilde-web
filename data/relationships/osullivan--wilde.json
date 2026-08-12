@@ -34,11 +34,15 @@
       },
       "supports": "Wilde thanking a man for defending him in public in 1897, when few would.",
       "verification": "verified-elision",
-      "how_verified": "page-image",
-      "provenance": "PDF p. 1011.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF p. 1011.",
       "verified_on": "2026-08-06",
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "Bodleian Library, Oxford"
+      },
+      "letter_id": "letters-2000/963#2"
     }
   ],
   "date_label": "Naples and Paris, 1897-1900"

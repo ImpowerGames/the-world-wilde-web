@@ -34,11 +34,15 @@
       },
       "supports": "Wilde's only recorded description of him - and his verdict on the story that would be used against him.",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "PDF p. 677.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF p. 677.",
       "verified_on": "2026-08-06",
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "William Andrews Clark Memorial Library, UCLA"
+      },
+      "letter_id": "letters-2000/625#1"
     }
   ]
 }

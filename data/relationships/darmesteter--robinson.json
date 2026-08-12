@@ -31,9 +31,10 @@
       "supports": "The relationship, its character as Pulham states it, and both its start and end dates.",
       "verification": "verified-exact",
       "how_verified": "as-published",
-      "provenance": "Https://1890s.ca/lee_bio/",
+      "citation_provenance": "Https://1890s.ca/lee_bio/",
       "verified_on": "2026-08-03",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "biography"
     },
     {
       "quote": "In 1881, Lee in turn visited Mary in London. Here she met many of the Robinsons’ friends and acquaintances including the Burne-Joneses, Edmund Gosse (1849-1928), the Morrises, the Rossettis, and Oscar Wilde (1854-1900).",
@@ -46,9 +47,10 @@
       },
       "verification": "verified-exact",
       "how_verified": "as-published",
-      "provenance": "Https://1890s.ca/lee_bio/",
+      "citation_provenance": "Https://1890s.ca/lee_bio/",
       "verified_on": "2026-08-03",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "biography"
     }
   ]
 }

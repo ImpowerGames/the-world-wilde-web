@@ -31,11 +31,16 @@
       },
       "supports": "The footing at the start: Wilde running an older man's errands and angling for an invitation.",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "PDF p. 105.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF p. 105.",
       "verified_on": "2026-08-06",
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "Private collection",
+        "owner": "Mr Jeremy Mason"
+      },
+      "letter_id": "letters-2000/80#1"
     },
     {
       "work": "letters-2000",
@@ -52,11 +57,16 @@
       },
       "supports": "A whole rainy day spent shopping for him, and the wish that he had been there.",
       "verification": "verified-elision",
-      "how_verified": "page-image",
-      "provenance": "PDF p. 105.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF p. 105.",
       "verified_on": "2026-08-06",
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "Private collection",
+        "owner": "Mr Wade Hughan"
+      },
+      "letter_id": "letters-2000/80#2"
     },
     {
       "work": "letters-2000",
@@ -72,11 +82,15 @@
       },
       "supports": "Wilde asking him for the review he then wrote.",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "PDF p. 136.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF p. 136.",
       "verified_on": "2026-08-06",
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "Dartmouth College Library, Hanover, New Hampshire"
+      },
+      "letter_id": "letters-2000/111#1"
     }
   ],
   "date_label": "London and Cambridge, from 1879"

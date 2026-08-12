@@ -31,11 +31,15 @@
       },
       "supports": "What Wilde thought Beardsley alone could see.",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "PDF p. 630.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF p. 630.",
       "verified_on": "2026-08-06",
       "voice": "period",
-      "document": "letter"
+      "document": "inscription",
+      "manuscript": {
+        "repository": "Sterling Library, University of London"
+      },
+      "letter_id": "letters-2000/578n3"
     },
     {
       "work": "letters-2000",
@@ -51,11 +55,15 @@
       },
       "supports": "The only surviving letter, and that Wilde, Ross and Beardsley dined together.",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "PDF p. 630.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF p. 630.",
       "verified_on": "2026-08-06",
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "Yale University Library, New Haven, Connecticut"
+      },
+      "letter_id": "letters-2000/578#1"
     }
   ],
   "date_label": "London, 1893"

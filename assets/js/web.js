@@ -135,7 +135,7 @@ async function loadWeb() {
     unverified: ["⧖ Pending verification", "v-pend"],
   };
   const HOW_LABEL = {
-    "page-image": "read at the page image",
+    "photo-reproduction": "read in a photographic reproduction",
     "text-layer": "read from an extracted text layer, not at the page",
     "in-hand": "read in the physical copy",
     "as-published": "read as published",
@@ -156,12 +156,22 @@ async function loadWeb() {
     manuscript: ["Manuscript", true, "Manuscripts"],
     memoir: ["Memoir", false, "Memoirs"],
     testimony: ["Testimony", false, "Testimony"],
+    plea: ["Plea", false, "Pleas"],
+    verdict: ["Verdict", false, "Verdicts"],
     interview: ["Interview", false, "Interviews"],
     pamphlet: ["Pamphlet", false, "Pamphlets"],
     novel: ["Novel", false, "Novels"],
     essay: ["Essay", false, "Essays"],
     poem: ["Poem", false, "Poems"],
     typescript: ["Typescript", false, "Typescripts"],
+    biography: ["Biography", false, "Biographies"],
+    study: ["Study", false, "Studies"],
+    article: ["Article", false, "Articles"],
+    encyclopedia: ["Encyclopedia entry", false, "Encyclopedia entries"],
+    "editorial-note": ["Editorial note", false, "Editorial notes"],
+    introduction: ["Introduction", false, "Introductions"],
+    "finding-aid": ["Finding aid", false, "Finding aids"],
+    "web-page": ["Web page", false, "Web pages"],
   };
   const howLabel = (h) => (h in HOW_LABEL ? HOW_LABEL[h] : h || "");
   const GROUP_LABEL = {
@@ -1125,17 +1135,16 @@ async function loadWeb() {
   ].filter((g) => groupsInData.includes(g));
 
   const SAMPLES = {
-    "self-reported":
-      // matches the .cert-self-reported stroke-width in web.css
-      '<line x1="1" y1="5" x2="33" y2="5" stroke="var(--edge)" stroke-width="2.1"/>',
-    "second-hand":
-      '<line x1="1" y1="5" x2="33" y2="5" stroke="var(--edge)" stroke-width="1.9" stroke-dasharray="7 5"/>',
-    uncorroborated:
-      '<line x1="1" y1="5" x2="33" y2="5" stroke="var(--edge)" stroke-width="1.6" stroke-dasharray="1 6" stroke-linecap="round"/>',
     married:
       '<line x1="1" y1="5" x2="33" y2="5" stroke="var(--edge)" stroke-width="5"/><line x1="1" y1="5" x2="33" y2="5" stroke="var(--paper)" stroke-width="1.8"/>',
+    "self-reported":
+      '<line x1="1" y1="5" x2="33" y2="5" stroke="var(--edge)" stroke-width="1.8"/>',
+    "second-hand":
+      '<line x1="1" y1="5" x2="33" y2="5" stroke="var(--edge)" stroke-width="1.8" stroke-dasharray="7 5"/>',
+    uncorroborated:
+      '<line x1="1" y1="5" x2="33" y2="5" stroke="var(--edge)" stroke-width="1.7" stroke-dasharray="1 7" stroke-linecap="round"/>',
     "attraction-expressed":
-      '<line x1="1" y1="5" x2="27" y2="5" stroke="var(--edge)" stroke-width="1.7" stroke-dasharray="2 3 6 3"/><path d="M27,1.5 L33,5 L27,8.5 z" fill="var(--edge)"/>',
+      '<line x1="1" y1="5" x2="27" y2="5" stroke="var(--edge)" stroke-width="1.6" stroke-dasharray="2 3 6 3"/><path d="M27,1.5 L33,5 L27,8.5 z" fill="var(--edge)"/>',
   };
   function lineSvg(line) {
     return `<svg class="lsample" width="34" height="10" aria-hidden="true">${line || ""}</svg>`;
@@ -1356,7 +1365,7 @@ async function loadWeb() {
           typeof n === "string" ? n : JSON.stringify(n),
         ),
         ...(r.sources || []).flatMap((q) => [
-          q.provenance,
+          q.citation_provenance,
           q.translation_note,
           q.locator,
           q.order_hint && q.order_hint.why,
@@ -1765,12 +1774,18 @@ async function loadWeb() {
     const meta = DOC_META[q && q.document];
     if (!meta) return "";
     const [label, hand] = meta;
-    const seen = hand && q.verified_against === "original";
-    const what = hand
-      ? seen
-        ? `The ${label.toLowerCase()} itself has been read — in the original hand, not only in print.`
-        : `Quoted from a ${label.toLowerCase()}, read in print. The original has not been checked.`
-      : `Quoted from a ${label.toLowerCase()}. It is printed, so the work cited is the original.`;
+    // Offered on printed documents too. A copy carries what the printing does not - an
+    // inscription, marginalia, a correction, a cancelled leaf - so going to it settles something
+    // in either case; what it settles is what differs. `hand` picks the wording, not the tick.
+    const seen = q.verified_against_original === true;
+    const l = label.toLowerCase();
+    const what = seen
+      ? hand
+        ? `The ${l} itself has been read — in the original hand, not only in print.`
+        : `The ${l} itself has been read, not only the edition quoted here.`
+      : hand
+        ? `Quoted from a ${l}, read in print. The original has not been checked.`
+        : `Quoted from a ${l}. The copy itself has not been checked for anything the printing does not carry.`;
     // A button, not a label: clicking narrows the panel to this kind of document, which is the
     // question the chip provokes ("how much of this rests on letters?") answered in one click.
     return `<button class="chip doc${seen ? " seen" : ""}" data-doc="${esc(q.document)}"
@@ -1781,12 +1796,82 @@ async function loadWeb() {
     // Where there is no scan, the archive holding the original is still worth saying: it is the
     // difference between a document we cannot show and a document nobody can find.
     const ms = q && q.manuscript;
-    const msChip = ms
-      ? `<span class="chip how" title="The original survives here. This map does not hold a scan of it.">MS ${
-          ms.url
-            ? `<a href="${esc(ms.url)}" target="_blank" rel="noopener">${esc(ms.repository)}</a>`
-            : esc(ms.repository)
-        }</span>`
+    // Where the document is. The chip prints the ABBREVIATION - "Clark, UCLA" for the forty-four
+    // characters of "William Andrews Clark Memorial Library, UCLA" - and the full name is on
+    // hover, where a name that long can be read without crowding the card.
+    const loc = q && q.location;
+    // EVERY location here is a LAST KNOWN location, institutions included. Nothing on this map
+    // has been confirmed by going to an archive; each one is what an edition recorded, and
+    // editions have dates. The Complete Letters say as much of private hands on p. xviii - "the
+    // last known location" - and the Hyde Collection proves it of institutions too, having
+    // become the British Library since the volume named it. So the chip names its authority and
+    // its year rather than asserting a present tense it cannot support.
+    // WHO placed the document there. Not the work's author: Wilde did not record where his own
+    // manuscripts are, his editors did, and `short_cite` names the author because it is built to
+    // cite the TEXT. A collected edition's headnotes belong to whoever edited it. And where the
+    // location came from a different book than the quotation — three Ricketts letters quoted
+    // from Self-Portrait, which names no locations, and placed by Delaney's biography — the
+    // record says so itself in `recorded_by`.
+    const wk = q && WEB.works[q.work];
+    const eds = wk && wk.editors ? wk.editors.split(";")[0].replace(/\s*\([^)]*\)/g, "").trim() : "";
+    const by = (loc && loc.recorded_by) || (eds && wk ? `${eds}, in ${wk.short_cite}` : "") ||
+      (wk ? wk.short_cite : "");
+    const said = by ? `Last recorded by ${by}` : "Last recorded";
+    // Four of the locations are not institutions, and each needs its own sentence: "survives at
+    // Published work" would read as a place with a name. Three of them answer the question
+    // without naming anywhere at all, which is the point of them - a reader wants to know
+    // whether they can go and read the thing, and "no archive recorded" never said.
+    const SAID = {
+      "Private collection":
+        `${said} as belonging to ${loc && loc.owner ? loc.owner : "a private owner it does not name"}` +
+        ". Private collections are dispersed and sold without notice, so this is where the " +
+        "document was, not a claim about where it is.",
+      "Private inbox":
+        "Written to the citing author directly and never published. Nothing about it is " +
+        "unknown; there is simply nowhere a reader can go and read it.",
+      "Published work":
+        "The document is the published work itself, so there is no single original to see. " +
+        "Any library that holds the edition holds it.",
+      "Published on the web":
+        "Published online and read where it is published. No library holds a copy, and it can " +
+        "be changed or taken down by whoever put it up.",
+      "Location unknown":
+        "Nobody has traced the original. Usually it is a letter the editors could only print " +
+        "from a memoir or an auction catalogue — which may mean the sheet still exists in " +
+        "somebody's hands, and may mean it is gone. Neither is recorded, and that is the point.",
+    };
+    // `archived_as` is present only where what the archive holds is not what the document type implies:
+    // a letter surviving as somebody else's typescript. That is worth saying on the chip,
+    // because a typescript cannot settle emphasis - whoever typed it already decided what the
+    // underlining meant - and settling emphasis is what naming a repository is for.
+    // `as_of` replaces the citing edition's date, for a holding last attested long before the
+    // book that reports it — a letter last seen in a saleroom in 1927 and printed from the sale
+    // catalogue by editors writing in 2000, who never saw it either.
+    const held =
+      loc && loc.as_of
+        ? `Last known at ${loc.full}, ${loc.as_of}. Nothing has been recorded of it since, and ` +
+          `whoever took it home is not named.`
+        : loc && loc.archived_as === "typescript"
+        ? `${said} as a TYPESCRIPT at ${loc.full} — not the document itself, and not a witness ` +
+          `to its emphasis, since whoever typed it had already read the underlining for you.`
+        : loc && loc.archived_as === "autograph"
+          ? `${said} as surviving in manuscript at ${loc.full}, though its kind would not lead ` +
+            `you to expect that.`
+          : ms
+            ? `${said} at ${loc.full}. This map does not hold a scan of it, and has not ` +
+              `confirmed the holding since.`
+            // The one location that is NOT a last-known claim. A facsimile draws the archive's
+            // own image service live, so the page you are looking at is proof the archive has
+            // it today - there is nothing stale to warn about.
+            : `Held at ${loc.full}, which serves the scan this map shows.`;
+    const msChip = loc
+      ? `<button class="chip loc" data-loc="${esc(loc.short)}" aria-pressed="false" title="${esc(
+          (SAID[loc.full] || held) + " Click to show only these.",
+        )}">${
+          ms && ms.url
+            ? `<a href="${esc(ms.url)}" target="_blank" rel="noopener">${esc(loc.short)}</a>`
+            : esc(loc.short)
+        }</button>`
       : "";
     const bits = [
       docChip(q),
@@ -1820,7 +1905,7 @@ async function loadWeb() {
       : q.locator
         ? `— ${esc(q.locator)}.`
         : "";
-    const prov = (q.provenance || "").trim();
+    const prov = (q.citation_provenance || "").trim();
     if ((q.quote || "") === "") {
       return `<div class="qcard qpointer"${siAttr}>
       ${withBar(withWhom, whenLabel(q))}
@@ -1853,17 +1938,25 @@ async function loadWeb() {
     ${spk ? `<div class="qspeaker">${personLink(spkMain)}${spkRest ? `<span class="qspeaker-x">, ${esc(spkRest)}</span>` : ""}${to ? `<span class="qspeaker-to"> to </span>${personLink(to)}` : ""}</div>` : ""}
     ${(() => {
       const langAttr = q.lang ? ` lang="${esc(q.lang)}"` : "";
-      if (q.voice === "exchange") {
-        const turns = q.turns && q.turns.length ? q.turns : parseExchange(q);
+      if (q.voice === "court") {
+        const turns = q.turns && q.turns.length ? q.turns : null;
 
         if (turns)
-          return `<blockquote class="q-exchange"${langAttr}>${turns
+          return `<blockquote class="q-court"${langAttr}>${turns
             .map(
               (t) =>
                 `<span class="who">${esc(t.who || "")}</span><span class="said">${fmtEmphasis(esc(t.text))}</span>`,
             )
             .join("")}</blockquote>`;
-        return `<blockquote class="q-exchange plain"${langAttr}>${fmtEmphasis(esc(q.quote))}</blockquote>`;
+        // No transcript, but still a court record with someone speaking - a plea is filed BY
+        // somebody. Label it the way a turn is labelled, so a plea and a cross-examination carry
+        // their speaker in the same place and the same type. Only the name: the capacity after
+        // the comma ("plea of justification, filed 30 March 1895") is what `context` is for, and
+        // it would not survive being set in a 12px uppercase label.
+        const who = (q.speaker || "").split(",")[0].trim();
+        return `<blockquote class="q-court plain"${langAttr}>${
+          who ? `<span class="who">${esc(who)}</span>` : ""
+        }<span class="said">${fmtEmphasis(esc(q.quote))}</span></blockquote>`;
       }
       return `<blockquote class="${q.voice === "period" ? "q-period" : "q-modern"}"${langAttr}>${fmtEmphasis(esc(q.quote))}</blockquote>`;
     })()}
@@ -1872,12 +1965,83 @@ async function loadWeb() {
     ${q.supports ? `<div class="qsupports">Support: ${esc(q.supports)}</div>` : ""}
     ${q.order_hint && q.order_hint.why ? `<div class="qplaced">Undated — placed here for reading order: ${esc(q.order_hint.why)}</div>` : ""}
     ${chipRow(q, vLabel, vClass)}
-    ${prov ? `<details><summary>Provenance</summary><div>${esc(prov)}${howLabel(q.how_verified) ? ` · ${esc(howLabel(q.how_verified))}` : ""}${q.verified_on ? ` · ${esc(q.verified_on)}` : ""}</div></details>` : ""}
+    ${
+      prov
+        ? `<details><summary>Provenance</summary><div>${esc(prov)}${howLabel(q.how_verified) ? ` · ${esc(howLabel(q.how_verified))}` : ""}${q.verified_on ? ` · ${esc(q.verified_on)}` : ""}${
+            // The document gets its own paragraph, because it answers a different question from the
+            // reprinting above it and reading them as one sentence is what let a PDF page number pass
+            // for a manuscript. `marks_verified` closes it: the marks were collated and they match.
+            (q.original_provenance || "").trim()
+              ? `<p class="qorig"><b>At the document.</b> ${esc(q.original_provenance)}${
+                  q.marks_verified
+                    ? ` <span class="qmarks">Emphasis, accents and punctuation collated against it; this quotation matches.</span>`
+                    : ""
+                }</p>`
+              : ""
+          }</div></details>`
+        : ""
+    }
   </div>`;
   }
 
   const SRC_FILTER_MIN = 1;
-  let srcDocFilter = null;
+  // What is HIDDEN, so that empty means everything shows and the checkboxes can be checked by
+  // default without lying about the panel. Named for the legend's `offGroups`, which works the
+  // same way and for the same reason.
+  // Two facets, one implementation. Each keeps what is HIDDEN, so empty means everything shows
+  // and the boxes can be checked by default without lying about the panel.
+  // Three of the location facet's members are not places. They are what "where is this" comes
+  // to for a published book, a page on the web, and a document nobody has traced, and they sort
+  // below every archive however many of them there are - for the same reason the blank does,
+  // being the residue rather than a rival. Built in tools/validate.py, DERIVED_LOCATION.
+  const DERIVED_LOC = ["Published", "Online", "Unknown"];
+  const rank = (k) => (k === "" ? 2 : 0);
+  const FACETS = {
+    doc: {
+      off: new Set(),
+      solo: null,
+      prev: new Set(),
+      attr: "doc",
+      resting: "Type",
+      rank,
+      label: (k) => (k ? (DOC_META[k] || [])[2] || k : "Not recorded"),
+    },
+    loc: {
+      off: new Set(),
+      solo: null,
+      prev: new Set(),
+      attr: "loc",
+      resting: "Location",
+      rank: (k) => (k === "" ? 2 : DERIVED_LOC.includes(k) ? 1 : 0),
+      label: (k) => k || "Not recorded",
+    },
+  };
+  // Show only this kind; do it again to put back exactly what was hidden before, rather than
+  // merely showing everything. Called by a chip on a card and by right-clicking a row of the
+  // dropdown, which is the gesture the legend already teaches for its spheres and genders.
+  function facetRows(a, root) {
+    return [
+      ...(root || document).querySelectorAll(
+        `#sffilter .sfdocopt[data-facet="${a.attr}"] input[type=checkbox]`,
+      ),
+    ];
+  }
+  function facetKinds(a) {
+    // The All row has no `value`; it would land in the set as "on".
+    return facetRows(a)
+      .filter((b) => !b.dataset.all)
+      .map((b) => b.value);
+  }
+  function soloFacet(a, k) {
+    if (a.solo === k) {
+      a.off = new Set(a.prev);
+      a.solo = null;
+      return;
+    }
+    if (a.solo === null) a.prev = new Set(a.off);
+    a.off = new Set(facetKinds(a).filter((v) => v !== k));
+    a.solo = k;
+  }
   let reapplySrcFilter = null;
 
   const MARK_MIN = 2;
@@ -1930,7 +2094,7 @@ async function loadWeb() {
       q.addressee,
       q.supports,
       q.locator,
-      q.provenance,
+      q.citation_provenance,
       q.how_verified,
       wk && wk.title,
       wk && wk.author,
@@ -1950,30 +2114,70 @@ async function loadWeb() {
     const ys = PANEL_SRC.map((s) => s.y).filter((y) => y != null);
     const lo = ys.length ? Math.min(...ys) : "",
       hi = ys.length ? Math.max(...ys) : "";
+    // "" is a real member, not an absence to be skipped. Without it a solo cannot hide the
+    // sources that never said where the document is, and soloing Magdalen showed 190 cards
+    // instead of 13 - the thirteen plus everyone who had answered no question at all.
     const docs = new Map();
     for (const r of PANEL_SRC)
-      if (r.doc) docs.set(r.doc, (docs.get(r.doc) || 0) + 1);
-    const docOpts = [...docs]
-      .filter(([k]) => DOC_META[k])
-      .sort(
-        (a, b) =>
-          b[1] - a[1] || DOC_META[a[0]][0].localeCompare(DOC_META[b[0]][0]),
-      )
-      .map(
-        ([k, c]) =>
-          `<option value="${esc(k)}">${esc(DOC_META[k][2])} · ${c}</option>`,
-      )
-      .join("");
-    const docSel =
-      docs.size < 2
-        ? ""
-        : `<select id="sfdoc" class="sfdoc"
-        aria-label="Filter by kind of document"><option value="">All documents</option>${docOpts}</select>`;
+      docs.set(r.doc || "", (docs.get(r.doc || "") || 0) + 1);
+    const locs = new Map();
+    for (const r of PANEL_SRC)
+      locs.set(r.loc || "", (locs.get(r.loc || "") || 0) + 1);
+
+    // Both dropdowns are the same control over a different question, so they are the same
+    // markup. Ordered by how many of each the panel holds, which puts the label on the kind that
+    // dominates a selection and the commonest choice under the cursor.
+    // One group per facet inside a single box. The label function comes from FACETS and is the
+    // same one the sync and the summary use, so an option, a pressed chip and a collapsed label
+    // can never name the same key three different ways.
+    const facetGroup = (a, counts, allLabel) => {
+      const label = a.label;
+      const opts = [...counts]
+        // The residue goes last however much of it there is: the blank, and for locations the
+        // three answers that are not archives.
+        .sort(
+          (b, c) =>
+            a.rank(b[0]) - a.rank(c[0]) ||
+            c[1] - b[1] ||
+            label(b[0]).localeCompare(label(c[0])),
+        )
+        .map(
+          ([k, c]) =>
+            `<label class="sfdocopt" data-facet="${a.attr}" title="${esc(
+              `${label(k)} · ${c} · right-click to show only this`,
+            )}"><input type="checkbox" value="${esc(k)}" checked>` +
+            `<span>${esc(label(k))}</span><b>${c}</b></label>`,
+        )
+        .join("");
+      const total = [...counts.values()].reduce((x, y) => x + y, 0);
+      return `<label class="sfdocopt sfdocall" data-facet="${a.attr}"
+        title="Show every ${esc(a.resting.toLowerCase())} again"
+        ><input type="checkbox" data-all="1" checked><span>${esc(allLabel)}</span
+        ><b>${total}</b></label>${opts}`;
+    };
+    const docSel = `<details id="sffilter" class="sfdoc"${
+      docs.size || locs.size ? "" : " data-empty"
+    }>
+        <summary aria-label="Filter by kind of document and where it is held"
+          ><span class="sfdocsum">Type &amp; location</span></summary>
+        <div class="sfdocbox">
+          <div role="group" aria-label="Kind of document">${facetGroup(
+            FACETS.doc,
+            docs,
+            "All types",
+          )}</div>
+          <div role="group" aria-label="Where the document is held" class="sfdocgroup">${facetGroup(
+            FACETS.loc,
+            locs,
+            "All locations",
+          )}</div>
+        </div>
+      </details>`;
     return `<div class="sfilter">
     <div class="sfqwrap">
       <div class="sfqfield">
         <input id="sfq" class="sfq" type="search" autocomplete="off" spellcheck="false"
-               placeholder="Filter sources…" aria-label="Filter sources">
+               placeholder="Search sources…" aria-label="Search sources">
         <span id="sfcount" class="sfcount" role="status"></span>
       </div>
       <select id="sfscope" class="sfscope" aria-label="What to filter on">
@@ -1992,7 +2196,7 @@ async function loadWeb() {
     </div>
   </div>
   <p id="sfnone" class="sfnone" hidden>Nothing here matches. The filter reads the quotation, its
-     translation, the speaker, the work and the provenance — not only the words in the quote.</p>`;
+     translation, the speaker, the work and the provenance notes — not only the words in the quote.</p>`;
   }
 
   let titleWatch = null;
@@ -2106,7 +2310,11 @@ async function loadWeb() {
   }
 
   function wireSourceFilter() {
-    srcDocFilter = null;
+    for (const a of Object.values(FACETS)) {
+      a.off = new Set();
+      a.solo = null;
+      a.prev = new Set();
+    }
     reapplySrcFilter = null;
     const box = $("#sfq");
     if (!box) return;
@@ -2115,7 +2323,7 @@ async function loadWeb() {
       y2 = $("#sfy2"),
       cnt = $("#sfcount"),
       clr = $("#sfclear"),
-      dsel = $("#sfdoc"),
+      dsel = $("#sffilter"),
       none = $("#sfnone");
     const cards = [...panel.querySelectorAll(".qcard[data-si]")];
     const apply = () => {
@@ -2132,7 +2340,8 @@ async function loadWeb() {
         const s = PANEL_SRC[+el.dataset.si] || { hay: {}, y: null };
         const hay = (s.hay && (s.hay[scope.value] ?? s.hay.all)) || "";
         let ok = !term || hay.includes(term);
-        if (ok && srcDocFilter) ok = s.doc === srcDocFilter;
+        if (ok && FACETS.doc.off.size) ok = !FACETS.doc.off.has(s.doc || "");
+        if (ok && FACETS.loc.off.size) ok = !FACETS.loc.off.has(s.loc || "");
         if (ok && dated) {
           if (s.y == null) {
             ok = false;
@@ -2151,28 +2360,128 @@ async function loadWeb() {
           flagHiddenHits(el);
         }
       }
-      const active = !!term || dated || !!srcDocFilter;
+      const active =
+        !!term || dated || FACETS.doc.off.size > 0 || FACETS.loc.off.size > 0;
       cnt.textContent = active
         ? `${shown} of ${cards.length}${dropped ? ` · ${dropped} undated hidden` : ""}`
         : "";
       cnt.parentElement.classList.toggle("counting", !!cnt.textContent);
-      for (const b of panel.querySelectorAll(".chip.doc[data-doc]"))
-        b.setAttribute("aria-pressed", String(b.dataset.doc === srcDocFilter));
+      // Pressed means SOLOED. Marking every shown kind as pressed would light up almost every
+      // chip on the panel and say nothing.
+      for (const b of panel.querySelectorAll(".chip.doc[data-doc]")) {
+        const soloed = FACETS.doc.solo === b.dataset.doc;
+        b.setAttribute("aria-pressed", String(soloed));
+        b.title =
+          b.title.replace(
+            / (?:Click to show only these\.|Showing only these — click to bring the rest back\.)$/,
+            "",
+          ) +
+          (soloed
+            ? " Showing only these — click to bring the rest back."
+            : " Click to show only these.");
+      }
+      for (const b of panel.querySelectorAll(".chip.loc[data-loc]"))
+        b.setAttribute(
+          "aria-pressed",
+          String(FACETS.loc.solo === b.dataset.loc),
+        );
+      // Each group keeps its own boxes and its own All; the collapsed label is the two
+      // half-answers joined, because one control now stands for two questions.
+      const syncFacet = (a) => {
+        const rows = facetRows(a, dsel);
+        if (!rows.length) return "";
+        for (const cb of rows)
+          if (!cb.dataset.all) cb.checked = !a.off.has(cb.value);
+        const allBox = rows.find((cb) => cb.dataset.all);
+        if (allBox) {
+          const kinds = rows.length - 1;
+          allBox.checked = a.off.size === 0;
+          // Neither on nor off, and the honest picture of a partial selection: a bare unticked
+          // box here would read as "nothing is shown", which is a different thing entirely.
+          allBox.indeterminate = a.off.size > 0 && a.off.size < kinds;
+        }
+        // In the checkboxes' own order, which is by how many of each the panel holds - so the
+        // label names the kind that dominates the selection rather than whichever sorts first.
+        // Alphabetical put "Diaries +2" on a set of 251 letters and one diary.
+        const picked = rows
+          .filter((cb) => cb.checked && !cb.dataset.all)
+          .map((cb) => a.label(cb.value));
+        // Say whichever edit was the smaller one. Having hidden two of sixteen kinds, "Letters
+        // +13" is accurate and tells you nothing; what you did was exclude two, so the label
+        // says so. Narrow the other way and it names what is left instead.
+        return !a.off.size
+          ? ""
+          : !picked.length
+            ? "Nothing shown"
+            : picked.length === 1
+              ? picked[0]
+              : a.off.size <= picked.length
+                ? `All but ${a.off.size}`
+                : `${picked[0]} +${picked.length - 1}`;
+      };
       if (dsel) {
-        if (dsel.value !== (srcDocFilter || ""))
-          dsel.value = srcDocFilter || "";
-        dsel.classList.toggle("on", !!srcDocFilter);
+        const halves = [syncFacet(FACETS.doc), syncFacet(FACETS.loc)].filter(
+          Boolean,
+        );
+        dsel.classList.toggle("on", halves.length > 0);
+        dsel.querySelector(".sfdocsum").textContent = halves.length
+          ? halves.join(" · ")
+          : "Type & location";
       }
 
       clr.hidden = !dated;
       none.hidden = !(active && shown === 0);
     };
     reapplySrcFilter = apply;
-    if (dsel)
-      dsel.addEventListener("change", () => {
-        srcDocFilter = dsel.value || null;
+    // Both dropdowns behave identically, so they are wired identically. (The braces matter: the
+    // guard used to cover only the first listener, and the second would have thrown on a panel
+    // that drew no dropdown at all.)
+    // One box, so one pair of listeners; the row says which group it belongs to.
+    const facetOf = (el) =>
+      FACETS[(el.closest(".sfdocopt") || {}).dataset?.facet];
+    const wireFacet = (el) => {
+      if (!el) return;
+      // Right-click a row to solo it, as in the legend. The label wraps the checkbox, so the
+      // event has to be stopped before the browser's own menu and before the label forwards the
+      // click on to the input and toggles it.
+      el.addEventListener("contextmenu", (ev) => {
+        const row = ev.target.closest && ev.target.closest(".sfdocopt");
+        if (!row) return;
+        ev.preventDefault();
+        const cb = row.querySelector("input[type=checkbox]");
+        const a = FACETS[row.dataset.facet];
+        if (!cb || !a || cb.dataset.all) return;
+        soloFacet(a, cb.value);
         apply();
       });
+      el.addEventListener("change", (ev) => {
+        const cb = ev.target;
+        if (!cb || cb.type !== "checkbox") return;
+        const a = facetOf(cb);
+        if (!a) return;
+        if (cb.dataset.all) {
+          // Ticking it shows everything; unticking a fully ticked box hides everything. Reached
+          // from indeterminate, either way round, the useful answer is "show me all of it".
+          a.off = cb.checked ? new Set() : new Set(facetKinds(a));
+          a.solo = null;
+          apply();
+          return;
+        }
+        // Clicking the row that is currently soloed lets go of the solo, exactly as clicking a
+        // soloed legend row does. Without this the box simply unticks the one kind still
+        // showing, hiding everything - the state the summary calls "Nothing shown".
+        if (a.solo === cb.value) {
+          soloFacet(a, cb.value); // same key toggles it off, restoring what was hidden before
+          apply();
+          return;
+        }
+        if (cb.checked) a.off.delete(cb.value);
+        else a.off.add(cb.value);
+        a.solo = null; // touching any other switch by hand ends the solo
+        apply();
+      });
+    };
+    wireFacet(dsel);
     box.addEventListener("input", apply);
     if (scope.addEventListener) scope.addEventListener("change", apply);
     y1.addEventListener("input", apply);
@@ -2266,6 +2575,7 @@ async function loadWeb() {
           hay: srcHay(f.q, f),
           y: srcYear(f.q),
           doc: f.q.document || null,
+          loc: (f.q.location || {}).short || null,
         });
         return quoteCard(f.q, f, PANEL_SRC.length - 1);
       })
@@ -2370,6 +2680,7 @@ async function loadWeb() {
           hay: srcHay(q, null),
           y: srcYear(q),
           doc: q.document || null,
+          loc: (q.location || {}).short || null,
         });
         return quoteCard(q, null, PANEL_SRC.length - 1);
       })
@@ -2446,6 +2757,7 @@ async function loadWeb() {
           hay: srcHay(f.q, f),
           y: srcYear(f.q),
           doc: f.q.document || null,
+          loc: (f.q.location || {}).short || null,
         });
         return quoteCard(f.q, f, PANEL_SRC.length - 1);
       })
@@ -3316,8 +3628,17 @@ async function loadWeb() {
     facsReturn = null; // the button that opened it, so focus goes back where it came from
 
   const ARCHIVES = WEB.archives || {};
-  const fill = (tpl, pointer) =>
-    tpl && pointer ? tpl.replace("{pointer}", encodeURIComponent(pointer)) : "";
+  // `{pointer}` is how nearly every archive addresses one image - a CONTENTdm id, a NYPL image id,
+  // a IIIF service id. An archive that instead paginates its facsimile, as the Morgan does 1..50,
+  // has no such token, and its URL wants the page number; `{page}` is for those. A template names
+  // whichever it needs, and an archive using neither (the Library of Congress publishes one item
+  // page and no per-image page) is left unchanged and links every sheet to the item.
+  const fill = (tpl, p) =>
+    tpl && p
+      ? tpl
+          .replace("{pointer}", encodeURIComponent(p.pointer || ""))
+          .replace("{page}", encodeURIComponent(p.n || ""))
+      : "";
   // The pages are served by the archive that made them, over IIIF, not copied here. `size` is a
   // IIIF Image API size parameter: "full" for the sheet at the resolution the archive released,
   // "240," for a thumbnail 240px wide. Asking the archive for the small one keeps a 95-sheet
@@ -3327,7 +3648,7 @@ async function loadWeb() {
   // level 1, which has sizeByW but not sizeByConfinedWh, and answers the confined form with a
   // broken image rather than an error.
   const iiif = (arc, p, size) => {
-    const base = fill(arc.iiif_url, p.pointer);
+    const base = fill(arc.iiif_url, p);
     return base ? `${base}/full/${size}/0/default.jpg` : "";
   };
 
@@ -3383,7 +3704,7 @@ async function loadWeb() {
       ? `Page ${p.n} of ${of} · elsewhere in the folder`
       : `Page ${facsAt + 1} of ${own}${own < of ? ` · folder page ${p.n} of ${of}` : ""}`;
 
-    const rec = fill(arc.record_url, p.pointer);
+    const rec = fill(arc.record_url, p);
     $(".fcite").innerHTML = [
       p.shelfmark ? `<b>${esc(p.shelfmark)}</b>` : "",
       item.box_folder ? esc(item.box_folder) : "",
@@ -3503,11 +3824,19 @@ async function loadWeb() {
   });
   $("#facsClose").addEventListener("click", closeFacsimile);
   document.addEventListener("click", (ev) => {
-    const c = ev.target.closest && ev.target.closest(".chip.doc[data-doc]");
-    if (!c || !reapplySrcFilter) return;
-    srcDocFilter = srcDocFilter === c.dataset.doc ? null : c.dataset.doc;
-    reapplySrcFilter();
-    if (srcDocFilter) c.scrollIntoView({ block: "nearest" }); // the card may have moved up
+    // Either chip solos its own facet. A location chip may wrap a link to the archive's record;
+    // that link keeps its click, because following it is the more specific intent.
+    for (const a of Object.values(FACETS)) {
+      const c =
+        ev.target.closest &&
+        ev.target.closest(`.chip.${a.attr}[data-${a.attr}]`);
+      if (!c || !reapplySrcFilter) continue;
+      if (ev.target.closest("a")) return;
+      soloFacet(a, c.dataset[a.attr]);
+      reapplySrcFilter();
+      if (a.off.size) c.scrollIntoView({ block: "nearest" }); // the card may have moved
+      return;
+    }
   });
   document.addEventListener("click", (ev) => {
     const b = ev.target.closest && ev.target.closest(".qfacs");

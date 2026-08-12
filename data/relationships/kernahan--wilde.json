@@ -34,11 +34,15 @@
       },
       "supports": "Warmth between men, recorded whether or not it amounts to anything.",
       "verification": "verified-elision",
-      "how_verified": "page-image",
-      "provenance": "PDF p. 548.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF p. 548.",
       "verified_on": "2026-08-05",
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "British Library, London"
+      },
+      "letter_id": "letters-2000/528#1"
     }
   ],
   "date_label": "London, 1891-1892"

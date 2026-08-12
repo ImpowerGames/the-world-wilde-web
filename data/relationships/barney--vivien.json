@@ -24,9 +24,10 @@
       "supports": "The relationship itself, stated by a scholar, and Vivien's dates.",
       "verification": "verified-exact",
       "how_verified": "as-published",
-      "provenance": "Https://1890s.ca/custance_bio/",
+      "citation_provenance": "Https://1890s.ca/custance_bio/",
       "verified_on": "2026-08-03",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "biography"
     },
     {
       "quote": "Accounts of this ménage are often contradictory; Barney’s autobiography Souvenirs Indiscrets (1960) states that she tried to persuade Custance to join her and Vivien in recreating a Sapphic community at Mytilene, but the endeavour was stymied by Vivien’s jealousy.",
@@ -41,9 +42,10 @@
       "supports": "That Barney and Vivien were living in some arrangement together at the moment of the Custance visit, and Vivien's jealousy of it.",
       "verification": "verified-exact",
       "how_verified": "as-published",
-      "provenance": "Https://1890s.ca/custance_bio/",
+      "citation_provenance": "Https://1890s.ca/custance_bio/",
       "verified_on": "2026-08-03",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "biography"
     },
     {
       "quote": "Lorsque nous foulâmes cette poussière consacrée par les sandales de Sapho et de ses poétesses, nous reprîmes conscience de notre pèlerinage, malgré les irruptions modernes. … Les nuits étaient plus belles que toutes celles que nous avions connues et, dès la première, quel cri de victoire je dus étouffer !",
@@ -55,12 +57,13 @@
       "supports": "The participant's own account of the Mytilene journey and of the nights there - the closest thing to a direct statement of the physical relationship that either woman left, and in Barney's own voice.",
       "verification": "verified-elision",
       "how_verified": "text-layer",
-      "provenance": "The chapter 'RENÉE VIVIEN' runs PDF pp. 22-84.",
+      "citation_provenance": "The chapter 'RENÉE VIVIEN' runs PDF pp. 22-84.",
       "verified_on": "2026-08-04",
       "speaker": "Natalie Clifford Barney",
       "voice": "period",
       "lang": "fr",
-      "translation": "When we trod that dust made sacred by the sandals of Sappho and her poetesses, we became conscious again of our pilgrimage, despite the modern intrusions. … The nights were more beautiful than any we had known, and from the very first, what a cry of victory I had to stifle!"
+      "translation": "When we trod that dust made sacred by the sandals of Sappho and her poetesses, we became conscious again of our pilgrimage, despite the modern intrusions. … The nights were more beautiful than any we had known, and from the very first, what a cry of victory I had to stifle!",
+      "document": "memoir"
     },
     {
       "quote": "Dans l'enchantement de ce séjour, sans courrier et sans autre souvenir, nous louâmes deux petites villas réunies par le même verger, car Renée était résolue à ne plus quitter Mytilène, où elle m'attendrait « fidèlement et sans bouger » si, plus tard, j'avais affaire ailleurs. … « Pourquoi ne formerions-nous pas ici même cette école de poésie tant rêvée, où celles qui vibrent de poésie, de jeunesse et d'amour, viendraient à nous, telles ces poétesses de jadis arrivant de toutes parts pour entourer Sapho ? » Renée était en effet séduite par cette perspective.",
@@ -72,13 +75,14 @@
       "supports": "The Mytilene community plan, first-hand - a shared household and a Sapphic poetry school proposed by one participant and welcomed by the other.",
       "verification": "verified-elision",
       "how_verified": "text-layer",
-      "provenance": "The chapter 'RENÉE VIVIEN' runs PDF pp. 22-84.",
+      "citation_provenance": "The chapter 'RENÉE VIVIEN' runs PDF pp. 22-84.",
       "verified_on": "2026-08-04",
       "speaker": "Natalie Clifford Barney",
       "voice": "period",
       "lang": "fr",
       "translation": "In the enchantment of that stay, without post and without any other memory, we rented two little villas joined by the same orchard, for Renée was resolved never to leave Mytilene again, where she would wait for me 'faithfully and without stirring' if, later, I had business elsewhere. … 'Why should we not found, right here, that long-dreamed-of school of poetry, where those who thrill to poetry, to youth and to love would come to us, as those poetesses of old came from every quarter to gather round Sappho?' Renée was indeed taken with the prospect.",
-      "translation_note": "The guillemets of the original are rendered as quotation marks."
+      "translation_note": "The guillemets of the original are rendered as quotation marks.",
+      "document": "memoir"
     },
     {
       "quote": "[Renée] readily traded seats with Eva and every night thereafter sat holding hands with Natalie, both of them transported by Wagner's music. … she promised to meet Natalie in Vienna and to go with her to Lesbos. … their poems sang of this enchanted island with its balmy seas, fragrance of jasmine and beautiful nights full of love. They rented two little villas in an orchard, where Renée vowed she would stay, forever waiting for Natalie.",
@@ -92,9 +96,10 @@
       "supports": "Biographer account of the Barney-Vivien relationship.",
       "verification": "verified-elision",
       "how_verified": "text-layer",
-      "provenance": "PDF p. 76. Opening bracket supplies the subject, who is named in the previous sentence.",
+      "citation_provenance": "PDF p. 76. Opening bracket supplies the subject, who is named in the previous sentence.",
       "verified_on": "2026-08-04",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "biography"
     }
   ]
 }

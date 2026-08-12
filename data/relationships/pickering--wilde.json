@@ -31,11 +31,15 @@
       },
       "supports": "Wilde's charm turned on a stranger, and a note on Dorian Gray's unwritten book.",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "PDF p. 465.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF p. 465.",
       "verified_on": "2026-08-05",
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "William Andrews Clark Memorial Library, UCLA"
+      },
+      "letter_id": "letters-2000/443#1"
     }
   ],
   "date_label": "London and Massachusetts, 1890"

@@ -35,11 +35,11 @@
       },
       "supports": "Atkins's own account of the Paris nights: an invitation declined, no act with Wilde described",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "IA in.ernet.dli.2015.499238, leaf 247 (printed p. 207)",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "IA in.ernet.dli.2015.499238, leaf 247 (printed p. 207)",
       "verified_on": "2026-08-03",
       "speaker": "Frederick Atkins",
-      "voice": "exchange",
+      "voice": "court",
       "turns": [
         {
           "who": "Atkins",
@@ -60,11 +60,11 @@
       },
       "supports": "The witness's categorical sworn denial — core of the disputed block",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "IA in.ernet.dli.2015.499238, leaf 247 (printed p. 207)",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "IA in.ernet.dli.2015.499238, leaf 247 (printed p. 207)",
       "verified_on": "2026-08-03",
       "speaker": "Frederick Atkins",
-      "voice": "exchange",
+      "voice": "court",
       "addressee": "Sir Edward Clarke",
       "turns": [
         {
@@ -90,11 +90,11 @@
       },
       "supports": "The perjury exposure that discredits every Atkins assertion, including both the allegation-adjacent material and his denials",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "IA in.ernet.dli.2015.499238, leaf 258 (printed p. 218)",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "IA in.ernet.dli.2015.499238, leaf 258 (printed p. 218)",
       "verified_on": "2026-08-03",
       "speaker": "Cross-examining counsel, Frederick Atkins and Mr Justice Charles",
-      "voice": "exchange",
+      "voice": "court",
       "turns": [
         {
           "who": "Clarke",
@@ -123,18 +123,12 @@
       },
       "supports": "The formal allegation and its date/place",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "IA in.ernet.dli.2015.499238, leaf 388 (printed p. 342)",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "IA in.ernet.dli.2015.499238, leaf 388 (printed p. 342)",
       "verified_on": "2026-08-03",
       "speaker": "The Marquess of Queensberry, plea of justification (filed 30 March 1895)",
-      "voice": "exchange",
-      "turns": [
-        {
-          "who": "Queensberry",
-          "text": "And that the said Oscar Fingal O'Flahertie Wills Wilde on the twentieth day of November in the year of our Lord One thousand eight hundred and ninety-two at a house situate at 29 Boulevard des Capucines in Paris in the Republic of France did solicit and incite one Frederick Atkins to commit sodomy and other acts of gross indecency and immorality with him the said Oscar Fingal O'Flahertie Wills Wilde and did then and there commit the said other acts of gross indecency and immorality with the said Frederick Atkins."
-        }
-      ],
-      "document": "testimony"
+      "voice": "court",
+      "document": "plea"
     },
     {
       "quote": "Had I cared to show that the Crown witnesses — the three most important — had been carefully coached by your father and his solicitors, not in reticences merely, but in assertions, in the absolute transference, deliberate, plotted, and rehearsed, of the actions and doings of someone else on to me, I could have had each one of them dismissed from the box by the Judge, more summarily than even wretched perjured Atkins was.",
@@ -153,11 +147,15 @@
       "supports": "Wilde's retrospective characterization ('wretched perjured Atkins') and his counter-claim that the testimony transferred someone else's doings onto him",
       "verification": "verified-exact",
       "how_verified": "text-layer",
-      "provenance": "Complete Letters (Fourth Estate 2000), PDF p. 765 = printed p. 714",
+      "citation_provenance": "Complete Letters (Fourth Estate 2000), PDF p. 765 = printed p. 714",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Lord Alfred Douglas",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "British Library, London"
+      },
+      "letter_id": "letters-2000/651#1"
     }
   ]
 }

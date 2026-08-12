@@ -25,7 +25,8 @@
       "how_verified": "as-published",
       "verified_on": "2026-08-05",
       "voice": "modern",
-      "provenance": "Read in the Yellow Nineties Edition's Michael Field biography, which is unpaginated; the locator is the section rather than a page."
+      "citation_provenance": "Read in the Yellow Nineties Edition's Michael Field biography, which is unpaginated; the locator is the section rather than a page.",
+      "document": "biography"
     }
   ]
 }

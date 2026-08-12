@@ -22,9 +22,10 @@
       "supports": "The marriage, Sylvie's entry into the household, and the two daughters",
       "verification": "verified-exact",
       "how_verified": "text-layer",
-      "provenance": "PDF p. 107.",
+      "citation_provenance": "PDF p. 107.",
       "verified_on": "2026-08-03",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "study"
     },
     {
       "quote": "Kit and his wife Sylvie kept house for Ives in a relatively familiar – though rapidly diminishing – tradition of live-in domestic service. … James and Sylvie Goddard remained with Ives until their deaths; their daughters until the early 1940s.",
@@ -36,9 +37,10 @@
       "supports": "Cook reportedly records that Sylvie kept house for Ives, that she and James remained until their deaths, and that the daughters stayed until the early 1940s - one, Therese, still visiting in 1944.",
       "verification": "verified-elision",
       "how_verified": "text-layer",
-      "provenance": "PDF p. 111 ('100 Queer Domesticities')",
+      "citation_provenance": "PDF p. 111 ('100 Queer Domesticities')",
       "verified_on": "2026-08-03",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "study"
     }
   ]
 }

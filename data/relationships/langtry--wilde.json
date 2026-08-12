@@ -34,12 +34,13 @@
       "supports": "Langtry's own words for what Wilde was to her - 'my kind tutor' - and the standing invitation to call: the only first-hand statement from her side in the record",
       "verification": "verified-exact",
       "how_verified": "text-layer",
-      "provenance": "PDF p. 116 (printed p. 91)",
+      "citation_provenance": "PDF p. 116 (printed p. 91)",
       "verified_on": "2026-08-03",
       "voice": "period",
       "speaker": "Lillie Langtry",
       "addressee": "Oscar Wilde",
-      "document": "letter"
+      "document": "letter",
+      "letter_id": "letters-2000/91n5"
     },
     {
       "quote": "Wilde's poem to her, 'The New Helen', appeared in Time for July 1879 and was reprinted, with revisions, in Poems (1881). In Mrs Langtry's copy of this book Wilde wrote: 'To Helen, formerly of Troy, now of London.'",
@@ -54,9 +55,10 @@
       "supports": "The public devotion: the poem and the inscription.",
       "verification": "verified-exact",
       "how_verified": "text-layer",
-      "provenance": "PDF p. 116 (printed p. 91)",
+      "citation_provenance": "PDF p. 116 (printed p. 91)",
       "verified_on": "2026-08-03",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "editorial-note"
     },
     {
       "quote": "Vincent O'Sullivan records Wilde as saying in 1899: 'The three women I have most admired are Queen Victoria, Sarah Bernhardt, and Lillie Langtry. I would have married any one of them with pleasure.'",
@@ -70,9 +72,10 @@
       "supports": "Wilde's own late-life framing of the admiration; reaches us via o'Sullivan as printed by the editors.",
       "verification": "verified-exact",
       "how_verified": "text-layer",
-      "provenance": "PDF p. 116 (printed p. 91)",
+      "citation_provenance": "PDF p. 116 (printed p. 91)",
       "verified_on": "2026-08-03",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "editorial-note"
     },
     {
       "quote": "My dear Lil, I am really delighted at your immense success; the most brilliant telegrams have appeared in the papers here on your performance in Peril. … And so, I write half to tell you how glad I am at your triumphs - you, 'Venus Victrix of our age'! - and the other half to tell you that I am going to be married …",
@@ -88,11 +91,15 @@
       "supports": "The durable intimate-friend register ('My dear Lil', 'Venus Victrix of our age'); she is among the first told of the engagement.",
       "verification": "verified-elision",
       "how_verified": "text-layer",
-      "provenance": "PDF p. 246 (printed p. 224). Elision drops the American-tour sentences and the description of Constance (quoted on the constance--wilde record)",
+      "citation_provenance": "PDF p. 246 (printed p. 224). Elision drops the American-tour sentences and the description of Constance (quoted on the constance--wilde record)",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Lillie Langtry",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "British Library, London (Lady Eccles Oscar Wilde Collection)"
+      },
+      "letter_id": "letters-2000/224#2"
     }
   ]
 }

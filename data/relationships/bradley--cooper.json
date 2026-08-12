@@ -24,9 +24,10 @@
       "supports": "Participant testimony (their diary) that the two understood their union as a marriage, and understood the single authorial name as what made it one.",
       "verification": "verified-exact",
       "how_verified": "as-published",
-      "provenance": "Https://1890s.ca/field_bio/",
+      "citation_provenance": "Https://1890s.ca/field_bio/",
       "verified_on": "2026-08-03",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "biography"
     },
     {
       "quote": "Michael Field is the shared pen name of two women: Katharine Bradley (1846-1914) and Edith Cooper (1862-1913). Bradley and Cooper were aunt and niece but also life-long companions and lovers.",
@@ -38,9 +39,10 @@
       "supports": "The scholarly characterisation of the relationship, and the fact that 'Michael Field' is one name for two people.",
       "verification": "verified-exact",
       "how_verified": "as-published",
-      "provenance": "Https://1890s.ca/field_bio/",
+      "citation_provenance": "Https://1890s.ca/field_bio/",
       "verified_on": "2026-08-03",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "biography"
     },
     {
       "quote": "The joint pen-name of Katherine Bradley (1846–1914) and her niece Edith Cooper (1862–1913). They published many books of poems and verse plays, none of which ever reached the stage. Among them were Callirrhoë (1884) and The Tragic Mary (1890) to which Wilde is here referring.",
@@ -54,9 +56,10 @@
       "supports": "Both women's dates; the aunt-niece relation; the single joint pen-name - from Wilde's own editors, i.e. independent of the Michael Field scholarship.",
       "verification": "verified-exact",
       "how_verified": "text-layer",
-      "provenance": "PDF p. 471 (printed folio 449). Transcribed from the image, en-dashes as printed.",
+      "citation_provenance": "PDF p. 471 (printed folio 449). Transcribed from the image, en-dashes as printed.",
       "verified_on": "2026-08-03",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "editorial-note"
     },
     {
       "quote": "Dear Michael Field, In the case of the Independent Theatre you have to rely chiefly on actors who are out of an engagement, those who have engagements being occupied or away.",
@@ -71,11 +74,15 @@
       },
       "verification": "verified-exact",
       "how_verified": "text-layer",
-      "provenance": "PDF p. 624 (printed folio 572)",
+      "citation_provenance": "PDF p. 624 (printed folio 572)",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Michael Field",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "Princeton University Library, Princeton, New Jersey"
+      },
+      "letter_id": "letters-2000/572#1"
     },
     {
       "quote": "Bradley and Cooper also left a vast joint diary, which they entitled Works and Days. Parts of it were published in the 1930s by their executor Thomas Sturge Moore.",
@@ -87,9 +94,10 @@
       "supports": "Locates the first-hand source: a joint diary kept by both women, of which only part is in print.",
       "verification": "verified-exact",
       "how_verified": "as-published",
-      "provenance": "Https://1890s.ca/field_bio/",
+      "citation_provenance": "Https://1890s.ca/field_bio/",
       "verified_on": "2026-08-03",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "biography"
     },
     {
       "quote": "Sweet Wife, the hardships of early married life are beginning: let us bear them together bravely, & grow all the dearer to each other for the derision of the world. There has nothing happened to us; but what is common to all poets: let us rejoice to share their bitter herbs of adversity.",
@@ -104,12 +112,15 @@
       "supports": "The 'closer married' passage in the participants' own words.",
       "verification": "verified-exact",
       "how_verified": "text-layer",
-      "provenance": "PDF p. 306 (printed folio 304)",
+      "citation_provenance": "PDF p. 306 (printed folio 304) The edition names its deposits collectively rather than per letter, so this is an identification, not a transcription of a source line. Its British Library deposits are the journals (Add.ms. 46776-46804B), the Ricketts correspondence (58087, 58089) and Michael Field Correspondence vols VII-VIII (46866-46867), which the BL catalogue describes as letters with Browning and from other authors - none of them Bradley-to-Cooper. Its Bodleian deposits are the Eng. Lett. series (c.418, c.419, c.432, e.32, e.33), where the two women's letters to each other are held.",
       "verified_on": "2026-08-03",
       "speaker": "Katharine Bradley",
       "voice": "period",
       "addressee": "Edith Cooper",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "Bodleian Library, Oxford"
+      }
     },
     {
       "work": "field-2009-thain-parejo",
@@ -120,9 +131,10 @@
       "verification": "verified-exact",
       "how_verified": "text-layer",
       "verified_on": "2026-08-03",
-      "provenance": "PDF p. 25 (printed folio 23); corroborates Works and Days p. 16.",
+      "citation_provenance": "PDF p. 25 (printed folio 23); corroborates Works and Days p. 16.",
       "supports": "Second, independent scholarly attestation of the 'closer married' passage and of its page in Works and Days.",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "editorial-note"
     }
   ]
 }

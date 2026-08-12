@@ -33,11 +33,28 @@
       "supports": "Wilde's side after the January Camden visit: love-and-honour declaration and stated intent to visit again before leaving America",
       "verification": "verified-elision",
       "how_verified": "text-layer",
-      "provenance": "PDF pp. 167-168. Elisions skip the body of the quoted Swinburne letter and the request that Whitman send Swinburne his Essay on Poetry.",
+      "citation_provenance": "PDF pp. 167-168. Elisions skip the body of the quoted Swinburne letter and the request that Whitman send Swinburne his Essay on Poetry. The original is digitised: the Library of Congress serves 13 page images of this item, envelope included, from the Walt Whitman Papers in the Charles E. Feinberg Collection (mss18630, box 19). The Whitman Archive transcribes the same letter as loc.04865.",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Walt Whitman",
-      "document": "letter"
+      "document": "letter",
+      "facsimile": {
+        "archive": "loc",
+        "item": "mss1863000418",
+        "pages": [
+          2,
+          3,
+          6,
+          7,
+          8,
+          9,
+          10,
+          12,
+          13
+        ],
+        "caption": "the envelope, then Swinburne's letter of 2 February 1882 - the enclosure Wilde copies out - then Wilde's own five sides. The leaves were photographed out of sequence: his letter reads 8, 9, 12, 13, 10, and the signature is on 10. Images 1, 4 and 5 are an archival slip and a dealer's catalogue description, and 11 is blank, so none of them is here"
+      },
+      "letter_id": "letters-2000/144#1"
     },
     {
       "quote": "The great American poet (1819–92) was now living in Camden, New Jersey, a suburb of Philadelphia across the Delaware, where Wilde had been taken by Stoddart to see him on 18 January.",
@@ -53,9 +70,10 @@
       "supports": "The first Camden visit: 18 January 1882, Wilde taken by J. M. Stoddart. (The visit was at Whitman's invitation: 'I go to see Walt Whitman, at his invitation, tomorrow', Wilde to Mrs George Lewis, [17 January 1882], p. 128 - transcribed in long-form notes.)",
       "verification": "verified-exact",
       "how_verified": "text-layer",
-      "provenance": "PDF p. 167.",
+      "citation_provenance": "PDF p. 167.",
       "verified_on": "2026-08-03",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "editorial-note"
     },
     {
       "quote": "\"Wilde and I drank a bottle of wine down stairs,\" he continued, \"and when we came up here, where we could be on 'thee and thou' terms, one of the first things I said was that I should call him 'Oscar;' 'I like that so much,' he answered, laying his hand on my knee. He seemed to me like a great big, splendid boy,\" said Whitman, stroking his silvery beard. \"He is so frank and outspoken, and manly. I don't see why such mocking things are written of him.\"",
@@ -71,7 +89,7 @@
       "supports": "Whitman's own next-day account of the first visit: first-name intimacy on 'thee and thou' terms, Wilde's hand on his knee, 'a great big, splendid boy'",
       "verification": "verified-exact",
       "how_verified": "as-published",
-      "provenance": "Whitman Archive item med.00534 (transcription based on a microfilm copy of an original issue), read at whitmanarchive.org/item/med.00534",
+      "citation_provenance": "Whitman Archive item med.00534 (transcription based on a microfilm copy of an original issue), read at whitmanarchive.org/item/med.00534",
       "verified_on": "2026-08-03",
       "speaker": "Walt Whitman, interviewed by the Philadelphia Press",
       "voice": "period",
@@ -90,10 +108,16 @@
       },
       "supports": "Whitman's side, six years on: he preserved the letter and framed the bond as 'both of us friends according each other a mutual respect'",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "IA withwaltwhitmani0002unse_c4l4 (Rowman & Littlefield 1961 reprint; orig. copyright 1908), leaves 317-318 (printed folios 287-288)",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "IA withwaltwhitmani0002unse_c4l4 (Rowman & Littlefield 1961 reprint; orig. copyright 1908), leaves 317-318 (printed folios 287-288) Traubel's manuscript diary is Series 1 of the Horace Traubel and Anne Montgomerie Traubel Papers, Manuscript Division, Library of Congress, whose catalogue record describes \"a daily record (1888-1892) of his visits and conversations with Walt Whitman published as With Walt Whitman in Camden\". Quoted here from the print, not the manuscript.",
       "verified_on": "2026-08-03",
-      "voice": "period"
+      "voice": "period",
+      "document": "diary",
+      "manuscript": {
+        "repository": "Library of Congress, Washington, DC",
+        "url": "https://www.loc.gov/item/mm78043141/",
+        "recorded_by": "the Library of Congress catalogue"
+      }
     },
     {
       "quote": "He promised to see Whitman again, and did so early in May. This time Stoddart was not present, and the two could talk more freely. Their conversation has not survived, but their parting has. Wilde would later tell George Ives, a proselytizer for sexual deviation in the Nineties, that Whitman had made no effort to conceal his homosexuality from him, as he would do with John Addington Symonds. \"The kiss of Walt Whitman,\" Wilde said, \"is still on my lips.\"",
@@ -108,9 +132,10 @@
       "supports": "The second visit ('early in May' 1882) and the reported parting kiss, with the attribution chain as Ellmann prints it: Wilde said it later to George Ives. The deeper chain - Ives's diary, as printed in McKenna 2003 and Ellmann 1988 - remains unverified.",
       "verification": "verified-exact",
       "how_verified": "as-published",
-      "provenance": "nybooks.com/articles/1987/12/03/oscar-meets-walt/; exact as the article prints it, ending before the footnote marker",
+      "citation_provenance": "nybooks.com/articles/1987/12/03/oscar-meets-walt/; exact as the article prints it, ending before the footnote marker",
       "verified_on": "2026-08-03",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "article"
     }
   ]
 }

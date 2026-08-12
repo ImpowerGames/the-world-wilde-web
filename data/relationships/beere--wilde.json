@@ -34,11 +34,15 @@
       },
       "supports": "One of the first friends written to after prison, and the alias entrusted to her.",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "PDF p. 925.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF p. 925.",
       "verified_on": "2026-08-06",
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "Yale University Library, New Haven, Connecticut"
+      },
+      "letter_id": "letters-2000/875#1"
     }
   ],
   "date_label": "London and Berneval, 1880-1897"

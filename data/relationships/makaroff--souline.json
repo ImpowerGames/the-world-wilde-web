@@ -21,13 +21,14 @@
       "supports": "The marriage, the husband's identity and occupation, and its approximate date.",
       "verification": "verified-exact",
       "how_verified": "text-layer",
-      "provenance": "PDF p. 383 (printed folio 351)",
+      "citation_provenance": "PDF p. 383 (printed folio 351)",
       "verified_on": "2026-08-05",
       "voice": "modern",
       "order_hint": {
         "y": 1947,
         "why": "Baker gives no date beyond 'after the war, when well into her forties'; Souline was born in January 1904, which puts it at roughly 1946-49. Placed at the midpoint for reading order only - this is not A documented date."
-      }
+      },
+      "document": "biography"
     }
   ]
 }

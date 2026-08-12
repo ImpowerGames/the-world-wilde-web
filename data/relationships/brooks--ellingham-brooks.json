@@ -28,10 +28,11 @@
       },
       "supports": "The marriage, its date, and what each of them wanted from it.",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "PDF p. 147.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF p. 147.",
       "verified_on": "2026-08-05",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "biography"
     },
     {
       "work": "souhami-2004",
@@ -44,10 +45,11 @@
       },
       "supports": "How quickly the marriage failed, and that it was a marriage between two queer people rather than a heterosexual union she left.",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "PDF p. 147.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF p. 147.",
       "verified_on": "2026-08-05",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "biography"
     }
   ]
 }

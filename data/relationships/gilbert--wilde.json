@@ -31,11 +31,15 @@
       "supports": "Wilde's plainest first-person statement of the attachment - 'He grows dearer to me daily' - set in the daily domestic texture (the bank errand, the two-franc dinners)",
       "verification": "verified-exact",
       "how_verified": "text-layer",
-      "provenance": "PDF p. 1077.",
+      "citation_provenance": "PDF p. 1077.",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Leonard Smithers",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "William Andrews Clark Memorial Library, UCLA"
+      },
+      "letter_id": "letters-2000/1031#1"
     },
     {
       "quote": "Maurice Gilbert, one of Wilde's closest and most devoted friends during these last years. Except that his father was English and his mother French, and that he was a young soldier in the marine infantry, nothing is known of him.",
@@ -47,9 +51,10 @@
       "supports": "Gilbert's identity and the editors' own characterization of the friendship; the sum of what the editors say is knowable about him",
       "verification": "verified-exact",
       "how_verified": "text-layer",
-      "provenance": "PDF p. 1071. Whole footnote, both sentences.",
+      "citation_provenance": "PDF p. 1071. Whole footnote, both sentences.",
       "verified_on": "2026-08-03",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "editorial-note"
     },
     {
       "quote": "Maurice and I are exactly quits now – twenty-six games each – but I have unfortunately lost my heart, which I carefully staked on a separate game.",
@@ -65,11 +70,15 @@
       "supports": "The amorous turn inside the comic bezique register - Wilde's own 'lost my heart', staked on a side-game",
       "verification": "verified-exact",
       "how_verified": "text-layer",
-      "provenance": "PDF p. 1077; the letter opens on printed 1030 (PDF 1076)",
+      "citation_provenance": "PDF p. 1077; the letter opens on printed 1030 (PDF 1076)",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Leonard Smithers",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "State University of New York Library, Buffalo, New York"
+      },
+      "letter_id": "letters-2000/1030#2"
     },
     {
       "quote": "Without my morning letter from you life would be dreadful – is dreadful – except for Maurice, who is sweeter than ever.",
@@ -85,11 +94,15 @@
       "supports": "Gilbert as the single exemption from Wilde's misery in this stretch - 'sweeter than ever'",
       "verification": "verified-exact",
       "how_verified": "text-layer",
-      "provenance": "PDF p. 1080.",
+      "citation_provenance": "PDF p. 1080.",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Leonard Smithers",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "William Andrews Clark Memorial Library, UCLA"
+      },
+      "letter_id": "letters-2000/1034#2"
     },
     {
       "work": "letters-2000",
@@ -105,11 +118,15 @@
       },
       "supports": "The General Index lead, now read. It widens the affectionate run by a note rather than changing its character: Gilbert summoned to join a household Wilde is already sharing with Douglas, in the domestic register of who is cooking. Nothing here strengthens a romantic reading.",
       "verification": "verified-exact",
-      "how_verified": "page-image",
+      "how_verified": "photo-reproduction",
       "verified_on": "2026-08-04",
-      "provenance": "PDF p. 1130 (printed folio 1084). 'early' is underlined in the original; 'oeufs à l'aurore' is italicized in the printing as a foreign phrase.",
+      "citation_provenance": "PDF p. 1130 (printed folio 1084). 'early' is underlined in the original; 'oeufs à l'aurore' is italicized in the printing as a foreign phrase.",
       "addressee": "Maurice Gilbert",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "William Andrews Clark Memorial Library, UCLA"
+      },
+      "letter_id": "letters-2000/1084#2"
     },
     {
       "quote": "My dear Robbie, No cheque this morning, but instead my sweet Maurice, our sweet Maurice, looking quite charming and as delightful as ever. He seemed a little tired, but of course that was the journey. He was full of affectionate memories of you and Reggie, and is quite devoted to you both.",
@@ -129,8 +146,12 @@
       "speaker": "Oscar Wilde",
       "addressee": "Robert Ross",
       "voice": "period",
-      "provenance": "PDF p. 1119 (printed folio 1073)",
-      "document": "letter"
+      "citation_provenance": "PDF p. 1119 (printed folio 1073)",
+      "document": "letter",
+      "manuscript": {
+        "repository": "William Andrews Clark Memorial Library, UCLA"
+      },
+      "letter_id": "letters-2000/1073#1"
     }
   ],
   "null_findings": [

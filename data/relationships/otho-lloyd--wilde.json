@@ -34,11 +34,15 @@
       },
       "supports": "Wilde wiring his brother-in-law within hours of Cyril's birth.",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "PDF p. 283.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF p. 283.",
       "verified_on": "2026-08-06",
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "British Library, London (Lady Eccles Oscar Wilde Collection)"
+      },
+      "letter_id": "letters-2000/261#1"
     },
     {
       "work": "letters-2000",
@@ -55,11 +59,16 @@
       },
       "supports": "The ordinary family footing - a present, and asking after a sick nephew.",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "PDF p. 307.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF p. 307.",
       "verified_on": "2026-08-06",
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "Private collection",
+        "owner": "Mr Vyvyan Holland"
+      },
+      "letter_id": "letters-2000/285#3"
     }
   ],
   "date_label": "London, 1885-1898"

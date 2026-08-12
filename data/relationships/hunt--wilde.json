@@ -31,11 +31,15 @@
       "supports": "The courtship-register compliment routed through her mother, with the request that Violet not be told; March 1880",
       "verification": "verified-exact",
       "how_verified": "text-layer",
-      "provenance": "PDF pp. 113-114. The sentence breaks across the page-turn at 'the | sweetest'.",
+      "citation_provenance": "PDF pp. 113-114. The sentence breaks across the page-turn at 'the | sweetest'.",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Margaret Raine Hunt",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "William Andrews Clark Memorial Library, UCLA"
+      },
+      "letter_id": "letters-2000/88#2"
     },
     {
       "quote": "Dear Miss Violet Hunt, I thank you very much for your kind letter, and am infinitely delighted that you have thought my poems beautiful. … You have made me very happy. Believe me ever sincerely yours.",
@@ -51,11 +55,15 @@
       "supports": "Direct warm correspondence by July 1881, closing 'You have made me very happy'",
       "verification": "verified-elision",
       "how_verified": "text-layer",
-      "provenance": "PDF p. 139. Elision drops the Slander/Ridicule/Envy sentence, his ranking of 'The Burden of Itys' and 'The Garden of Eros', and the Burne-Jones river outing; fuller text in long-form notes.",
+      "citation_provenance": "PDF p. 139. Elision drops the Slander/Ridicule/Envy sentence, his ranking of 'The Burden of Itys' and 'The Garden of Eros', and the Burne-Jones river outing; fuller text in long-form notes.",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Violet Hunt",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "William Andrews Clark Memorial Library, UCLA"
+      },
+      "letter_id": "letters-2000/114#1"
     },
     {
       "quote": "The second woman he seriously thought of marrying, at the beginning of the 1880s, was Violet Hunt … Wilde described her as ‘the sweetest violet in England.’ They had met in London when she was not yet seventeen. ‘I feel like a young conqueror,’ he said as they talked intensely together. ‘We will rule the world—you and I—you with your looks and I with my wits.’",
@@ -69,9 +77,10 @@
       "supports": "The marriage-proposal tradition",
       "verification": "verified-elision",
       "how_verified": "text-layer",
-      "provenance": "PDF p. 330 (2013 edition; no printed folios).",
+      "citation_provenance": "PDF p. 330 (2013 edition; no printed folios).",
       "verified_on": "2026-08-04",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "biography"
     }
   ]
 }

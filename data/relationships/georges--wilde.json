@@ -34,10 +34,15 @@
       },
       "supports": "That Wilde knew him in Paris before Nice, and how he described him to a correspondent other than Turner.",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "PDF p. 1154.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF p. 1154. The volume's headnote is 'MS Hyde'.",
       "verified_on": "2026-08-05",
-      "voice": "period"
+      "voice": "period",
+      "document": "letter",
+      "manuscript": {
+        "repository": "British Library, London (Lady Eccles Oscar Wilde Collection)"
+      },
+      "letter_id": "letters-2000/1107#1"
     },
     {
       "quote": "My friend, my new friend, Harold Mellor comes here today to stay at the hotel, and tomorrow we go to Nice, for the day. A great friend of mine, a Paris boy called *le petit Georges*, is now at Nice, and I have promised to run over and see him. He is like a very handsome Roman boy, dark, and bronze-like, with splendidly chiselled nose and mouth, and the tents of midnight are folded in his eyes; moons hide in their curtains. He is visiting Nice on speculative business.",
@@ -53,11 +58,15 @@
       "supports": "The whole of the verified record: an existing friendship, a promised meeting at Nice, Wilde's description of him, and the statement that he was at Nice on speculative business; no outcome recorded",
       "verification": "verified-exact",
       "how_verified": "text-layer",
-      "provenance": "PDF p. 1163.",
+      "citation_provenance": "PDF p. 1163.",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Reginald Turner",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "British Library, London (Lady Eccles Oscar Wilde Collection)"
+      },
+      "letter_id": "letters-2000/1117#2"
     },
     {
       "quote": "A great friend of mine, a Paris boy called *le petit Georges*, is now at Nice, and I have promised to run over and see him. He is like a very handsome Roman boy, dark, and bronze-like, with splendidly chiselled nose and mouth, and the tents of midnight are folded in his eyes; moons hide in their curtains. He is visiting Nice on speculative business. It is beautiful, and encouraging, to find people who can combine romance with business – blend them indeed, and make them one.",
@@ -73,11 +82,15 @@
       "supports": "How Wilde glosses Georges's 'speculative business' at Nice - the sentence completes on the following page and bears directly on how the connection should be read",
       "verification": "verified-exact",
       "how_verified": "text-layer",
-      "provenance": "PDF pp. 1163-1164; 'le petit Georges' is italicized in the printed text.",
+      "citation_provenance": "PDF pp. 1163-1164; 'le petit Georges' is italicized in the printed text.",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Reginald Turner",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "British Library, London (Lady Eccles Oscar Wilde Collection)"
+      },
+      "letter_id": "letters-2000/1117#2"
     }
   ]
 }

@@ -32,11 +32,15 @@
       },
       "supports": "Wilde asking a journalist for a hundred francs, under his assumed name.",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "PDF p. 1200.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF p. 1200.",
       "verified_on": "2026-08-06",
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "Harvard University Library, Cambridge, Massachusetts"
+      },
+      "letter_id": "letters-2000/1154#1"
     },
     {
       "work": "letters-2000",
@@ -53,11 +57,15 @@
       },
       "supports": "That the appeal was answered, and how Fullerton addressed him.",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "PDF p. 1200.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF p. 1200.",
       "verified_on": "2026-08-06",
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "William Andrews Clark Memorial Library, UCLA"
+      },
+      "letter_id": "letters-2000/1154n2"
     }
   ],
   "date_label": "Paris, June 1899"

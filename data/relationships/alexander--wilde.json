@@ -32,11 +32,15 @@
       },
       "supports": "The beginning of the correspondence, and its social side — Wilde and Constance wanting to come to his opening night.",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "PDF p. 443.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF p. 443.",
       "verified_on": "2026-08-05",
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "The Morgan Library & Museum, New York"
+      },
+      "letter_id": "letters-2000/421#1"
     },
     {
       "work": "letters-2000",
@@ -53,11 +57,15 @@
       },
       "supports": "Wilde admitting to his manager that the commissioned play is not working, and why — candour rather than excuse.",
       "verification": "verified-elision",
-      "how_verified": "page-image",
-      "provenance": "PDF p. 483.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF p. 483.",
       "verified_on": "2026-08-05",
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "Arents Tobacco Collection, New York Public Library"
+      },
+      "letter_id": "letters-2000/463#3"
     },
     {
       "work": "letters-2000",
@@ -74,11 +82,15 @@
       },
       "supports": "The early register of the friendship, and the candour in it.",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "PDF p. 506.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF p. 506.",
       "verified_on": "2026-08-05",
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "The Morgan Library & Museum, New York"
+      },
+      "letter_id": "letters-2000/486#2"
     },
     {
       "work": "letters-2000",
@@ -94,11 +106,15 @@
       },
       "supports": "The working relationship under strain, and Wilde's care to keep a disagreement from becoming a quarrel.",
       "verification": "verified-elision",
-      "how_verified": "page-image",
-      "provenance": "PDF p. 532.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF p. 532.",
       "verified_on": "2026-08-05",
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "British Library, London (Lady Eccles Oscar Wilde Collection)"
+      },
+      "letter_id": "letters-2000/512#2"
     },
     {
       "work": "letters-2000",
@@ -114,8 +130,8 @@
       },
       "supports": "The care taken not to wound: a letter written for no reason except that a friend might otherwise feel passed over.",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "PDF p. 634. Emphasis checked against the manuscript, HRC MSS_WildeO_2_5_014-015. NULL FINDING: no underlining in the letter. The stroke across the head of the first side cancels the Albemarle Club letterhead and is not an underline.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF p. 634.",
       "verified_on": "2026-08-10",
       "voice": "period",
       "facsimile": {
@@ -127,8 +143,11 @@
         ],
         "caption": "one bifolium on Albemarle Club paper, the letterhead struck through and Wilde's own address written above it; it breaks off mid-sentence at 'and as he'. A typescript copy of the same letter follows at folder page 16"
       },
-      "verified_against": "original",
-      "document": "letter"
+      "document": "letter",
+      "marks_verified": true,
+      "original_provenance": "HRC MSS_WildeO_2_5_014-015. The stroke across the head of the first side cancels the Albemarle Club letterhead and is not an underline. A typescript copy of the same letter follows at folder page 16.",
+      "verified_against_original": true,
+      "letter_id": "letters-2000/582#1"
     },
     {
       "work": "letters-2000",
@@ -144,11 +163,15 @@
       },
       "supports": "The loyalty underneath the business — 'I want to come back to you' — and Wilde poor enough at Worthing to say so plainly.",
       "verification": "verified-elision",
-      "how_verified": "page-image",
-      "provenance": "PDF p. 662.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF p. 662.",
       "verified_on": "2026-08-05",
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "Arents Tobacco Collection, New York Public Library"
+      },
+      "letter_id": "letters-2000/610#1"
     },
     {
       "work": "letters-2000",
@@ -166,11 +189,15 @@
       },
       "supports": "The friendship at its most companionable — illness, a joke shared at a rival's expense, and regards to the wife who greets him again in the last letter of 1900.",
       "verification": "verified-elision",
-      "how_verified": "page-image",
-      "provenance": "PDF p. 672.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF p. 672.",
       "verified_on": "2026-08-05",
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "Arents Tobacco Collection, New York Public Library"
+      },
+      "letter_id": "letters-2000/620#1"
     },
     {
       "work": "letters-2000",
@@ -186,11 +213,15 @@
       },
       "supports": "What Wilde told Alexander about himself weeks before the collapse — the trust in the friendship, measured by the confession rather than by any endearment.",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "PDF p. 685.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF p. 685.",
       "verified_on": "2026-08-05",
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "British Library, London (Lady Eccles Oscar Wilde Collection)"
+      },
+      "letter_id": "letters-2000/633#1"
     },
     {
       "work": "letters-2000",
@@ -208,11 +239,15 @@
       },
       "supports": "The warmth of the friendship at the very end of Wilde's life, and what he had learned to value - a handshake, and a wife's greeting.",
       "verification": "verified-elision",
-      "how_verified": "page-image",
-      "provenance": "PDF p. 1239; the OCR mirror misattributes it to printed 1192.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF p. 1239, which carries printed folio 1193.",
       "verified_on": "2026-08-05",
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "Arents Tobacco Collection, New York Public Library"
+      },
+      "letter_id": "letters-2000/1193#3"
     }
   ],
   "date_label": "Professional friendship 1890-1900; the correspondence runs the whole of it"

@@ -337,31 +337,6 @@ main {
   stroke: var(--edge);
   cursor: pointer;
 }
-#web .edge.cert-self-reported .e-main {
-  stroke-width: 2.1;
-}
-#web .edge.cert-second-hand .e-main {
-  stroke-width: 1.9;
-  stroke-dasharray: 7 5;
-  opacity: 0.85;
-}
-#web .edge.cert-uncorroborated .e-main {
-  stroke-width: 1.8;
-  stroke-dasharray: 1 6;
-  stroke-linecap: round;
-  opacity: 0.65;
-}
-#web .edge.cert-attraction-expressed .e-main {
-  stroke-width: 1.7;
-  stroke-dasharray: 2 4 8 4;
-  opacity: 0.85;
-  marker-end: url(#arrowhead);
-}
-#web .edge.cert-attraction-expressed.out-unknown .e-main {
-  stroke-width: 1.4;
-  opacity: 0.55;
-  marker-end: url(#arrowhead-open);
-}
 #web .edge.cert-married .e-under {
   display: block;
   stroke: var(--edge);
@@ -370,6 +345,31 @@ main {
 #web .edge.cert-married .e-main {
   stroke: var(--paper);
   stroke-width: 1.8;
+}
+#web .edge.cert-self-reported .e-main {
+  stroke-width: 1.8;
+}
+#web .edge.cert-second-hand .e-main {
+  stroke-width: 1.8;
+  stroke-dasharray: 7 5;
+  opacity: 0.85;
+}
+#web .edge.cert-uncorroborated .e-main {
+  stroke-width: 1.7;
+  stroke-dasharray: 1 7;
+  stroke-linecap: round;
+  opacity: 0.85;
+}
+#web .edge.cert-attraction-expressed .e-main {
+  stroke-width: 1.6;
+  stroke-dasharray: 2 4 8 4;
+  opacity: 0.85;
+  marker-end: url(#arrowhead);
+}
+#web .edge.cert-attraction-expressed.out-unknown .e-main {
+  stroke-width: 1.4;
+  opacity: 0.55;
+  marker-end: url(#arrowhead-open);
 }
 #web .edge.dimmed {
   opacity: 0.12;
@@ -927,13 +927,13 @@ main {
   right: 2px;
   bottom: -18px;
 }
-.qcard blockquote.q-exchange {
+.qcard blockquote.q-court {
   border-left: 2px dashed var(--rule2);
   padding: 2px 0 2px 13px;
   margin: 6px 0 12px;
   display: block;
 }
-.qcard blockquote.q-exchange .who {
+.qcard blockquote.q-court .who {
   display: block;
   margin: 0 0 1px;
   font-family: var(--sans);
@@ -942,14 +942,14 @@ main {
   text-transform: uppercase;
   color: var(--ink3);
 }
-.qcard blockquote.q-exchange .who:empty {
+.qcard blockquote.q-court .who:empty {
   display: none;
 }
-.qcard blockquote.q-exchange .said {
+.qcard blockquote.q-court .said {
   display: block;
   margin: 0 0 10px;
 }
-.qcard blockquote.q-exchange .said:last-child {
+.qcard blockquote.q-court .said:last-child {
   margin-bottom: 0;
 }
 .qtrans {
@@ -1449,21 +1449,107 @@ main {
 }
 .sfdoc {
   margin-left: auto;
-  max-width: 46%;
+  position: relative;
   font: 11.5px var(--sans);
   color: var(--ink2);
+}
+/* Closed, it reads as the pill the select used to be. Open, it drops a panel of checkboxes:
+   twenty-one kinds is too many for a native multiple select, whose only affordance is
+   ctrl-clicking a tall box. `details` is the disclosure this site already uses elsewhere, so it
+   comes with the keyboard behaviour and needs no popover machinery. */
+.sfdoc > summary {
+  list-style: none;
+  cursor: pointer;
+  max-width: 100%;
   background: var(--paper2);
   border: 1px solid var(--rule2);
   border-radius: 999px;
-  padding: 3px 6px;
+  padding: 3px 22px 3px 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
-.sfdoc:hover {
+.sfdoc > summary::-webkit-details-marker {
+  display: none;
+}
+.sfdoc > summary::after {
+  content: "";
+  position: absolute;
+  right: 9px;
+  top: 9px;
+  width: 0;
+  height: 0;
+  border: 4px solid transparent;
+  border-top-color: var(--ink2);
+}
+.sfdoc[open] > summary::after {
+  transform: rotate(180deg);
+  top: 5px;
+}
+.sfdoc > summary:hover {
   color: var(--ink);
   border-color: var(--accent);
 }
-.sfdoc.on {
+.sfdoc[data-empty] > summary {
+  opacity: 0.4;
+  pointer-events: none;
+}
+/* Floated over the sources rather than pushing them down: a list of twenty-one would shove the
+   first card off the screen every time the box was opened. */
+.sfdocbox {
+  position: absolute;
+  right: 0;
+  z-index: 6;
+  min-width: 190px;
+  max-height: 46vh;
+  overflow-y: auto;
+  margin-top: 4px;
+  padding: 5px;
+  background: var(--paper2);
+  border: 1px solid var(--rule2);
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+}
+.sfdocopt {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  padding: 3px 6px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.sfdocopt:hover {
+  background: var(--paper3);
+  color: var(--ink);
+}
+.sfdocopt span {
+  flex: 1 1 auto;
+}
+.sfdocopt b {
+  font-weight: 400;
+  color: var(--ink3);
+}
+.sfdocopt input {
+  accent-color: var(--accent);
+  margin: 0;
+}
+/* Ruled off from the kinds below it: it acts on all of them rather than being one of them. */
+.sfdocall {
+  border-bottom: 1px solid var(--rule);
+  border-radius: 5px 5px 0 0;
+  margin-bottom: 3px;
+  padding-bottom: 5px;
+  color: var(--ink2);
+}
+.sfdocall span {
+  letter-spacing: 0.04em;
+}
+.sfdoc.on > summary {
   color: var(--accent);
   border-color: var(--accent);
+}
+.sfdoc.on > summary::after {
+  border-top-color: var(--accent);
 }
 .sfclear {
   font-family: var(--sans);
@@ -2233,4 +2319,55 @@ summary {
 .chip.doc.seen[aria-pressed="true"] {
   color: var(--ok);
   border-color: var(--accent);
+}
+
+/* What was seen at the document itself, kept apart from where the passage was read in print.
+   Running them together as one note is what let a PDF page number stand for a manuscript. */
+.qcard .qorig {
+  margin: 7px 0 0;
+  padding-left: 9px;
+  border-left: 2px solid var(--rule2);
+  line-height: 1.5;
+}
+.qcard .qorig b {
+  color: var(--ink2);
+  font-weight: 600;
+}
+.qcard .qmarks {
+  color: var(--ok);
+}
+
+/* The location chip is a button like the document chip, and shares its quiet-until-approached
+   manner. It keeps the `how` chip's colour because it is a note about the source, not a claim. */
+.chip.loc {
+  cursor: pointer;
+  border: 1px solid transparent;
+  color: var(--ink2);
+  background: var(--paper3);
+  font-weight: 400;
+}
+.chip.loc:hover {
+  border-color: var(--rule2);
+  color: var(--ink);
+}
+.chip.loc[aria-pressed="true"] {
+  border-color: var(--accent);
+  color: var(--accent);
+  background: var(--accent-soft);
+}
+.chip.loc a {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px solid var(--rule2);
+}
+.chip.loc a:hover {
+  border-bottom-color: var(--accent);
+}
+
+/* The two groups in the one filter box. A rule rather than a gap: soloing works within a group,
+   so where one ends and the other begins has to be legible, not merely felt. */
+.sfdocgroup {
+  border-top: 1px solid var(--rule2);
+  margin-top: 5px;
+  padding-top: 5px;
 }

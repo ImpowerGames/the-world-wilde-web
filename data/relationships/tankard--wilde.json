@@ -32,11 +32,12 @@
       },
       "supports": "The allegation itself, in the plea's own words — the whole of the record for this connection.",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "PDF p. 337.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF p. 337.",
       "verified_on": "2026-08-05",
-      "voice": "period",
-      "document": "testimony"
+      "voice": "court",
+      "document": "plea",
+      "speaker": "The Marquess of Queensberry, plea of justification (filed 30 March 1895)"
     }
   ]
 }

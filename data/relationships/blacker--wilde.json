@@ -34,11 +34,15 @@
       },
       "supports": "What Wilde thought a long friendship had been made of, and who came to Berneval.",
       "verification": "verified-elision",
-      "how_verified": "page-image",
-      "provenance": "PDF p. 961.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF p. 961.",
       "verified_on": "2026-08-05",
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "The Frederick R. Koch Collection (in part at Yale)"
+      },
+      "letter_id": "letters-2000/911#1"
     },
     {
       "work": "letters-2000",
@@ -55,11 +59,15 @@
       },
       "supports": "The break with Blacker, in Wilde's own words, and its entanglement with the Dreyfus affair.",
       "verification": "verified-elision",
-      "how_verified": "page-image",
-      "provenance": "PDF p. 1131.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF p. 1131.",
       "verified_on": "2026-08-06",
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "William Andrews Clark Memorial Library, UCLA"
+      },
+      "letter_id": "letters-2000/1085#1"
     }
   ],
   "date_label": "London and the exile, 1880s-1898"

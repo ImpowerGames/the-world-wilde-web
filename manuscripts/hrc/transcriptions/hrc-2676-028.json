@@ -1,0 +1,21 @@
+{
+ "letter_id": "letters-2000/1199#1",
+ "text_from": "facsimile",
+ "printed": {
+  "work": "letters-2000",
+  "locator": "p. 1199"
+ },
+ "facsimile": {
+  "archive": "hrc",
+  "item": "2676",
+  "pages": [
+   28,
+   29
+  ]
+ },
+ "addressee": "Frank Harris",
+ "context": "Telegram, Wilde to Frank Harris, handed in at Paris 3.50 p.m., [11 October 1900]. Sent the day before the long angry letter, and about the same business: Louis Nethersole had bought Wilde's scenario from a third party who did not own it.",
+ "quote": "Harris Melbury Lodge Kingston Sy\n\nIf you come over tomorrow come and see me first Nethersole is very impossible\n\nOscar",
+ "original_provenance": "Read at HRC 2676, images 28-29 - a Post Office Telegraphs delivery form, Kingston-Hill, Kingston-on-Thames office stamp, 'Handed in at Paris 11 at 3.50 p.m.' not autograph, and that is the point: the text is written out in pencil in the receiving CLERK'S hand, a round commercial hand quite unlike Wilde's. There are therefore no marks of Wilde's to find here and none to lose — `marks_verified` is not applicable rather than absent, and no emphasis claim can ever rest on this sheet. What survives is the clerk's transcription of what Wilde dictated in Paris. The address confirms the Melbury Lodge, Kingston envelopes elsewhere in the folder (images 26-27 and 86-87).",
+ "transcribed_on": "2026-08-10"
+}

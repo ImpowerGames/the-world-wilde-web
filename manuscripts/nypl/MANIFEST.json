@@ -1,0 +1,269 @@
+{
+ "collection": "New York Public Library - Oscar Wilde collection of papers (Berg Collection)",
+ "collection_id": "05582360-10b4-0134-aabc-00505686d14e",
+ "archive": {
+  "name": "The New York Public Library",
+  "short_name": "New York Public Library",
+  "collection": "Oscar Wilde collection of papers, Henry W. and Albert A. Berg Collection of English and American Literature",
+  "collection_url": "https://digitalcollections.nypl.org/collections/05582360-10b4-0134-aabc-00505686d14e",
+  "record_url": "https://digitalcollections.nypl.org/items/{pointer}",
+  "iiif_url": "https://iiif.nypl.org/iiif/3/{pointer}",
+  "page_id_field": "pointer",
+  "page_id_note": "NYPL's own image id, which addresses the image in their IIIF service and their record url. `shelfmark` is a display label they compose from the collection name plus this same id, so it carries nothing extra."
+ },
+ "purpose": "The three Wilde letters NYPL has digitised. None is quoted in web/data yet.",
+ "downloaded": "2026-08-10",
+ "download_url": "https://digitalcollections.nypl.org/collections/05582360-10b4-0134-aabc-00505686d14e",
+ "rights_note": "NYPL marks all three Copyright Undetermined (UND), not public domain. Checked against the API's rightsStatementURI on 2026-08-10, which returns rightsstatements.org/vocab/UND/1.0/ for every capture in all three items, with the statement 'The copyright and related rights status of this item has been reviewed by The New York Public Library, but we were unable to make a conclusive determination'.",
+ "notes": [
+  "Per-page `file` is relative to `../../manuscripts/<key>/`, the private tree that holds the images. The path is metadata; the images are what stays unpublished.",
+  "NYPL publishes no per-item page number, so our `page` is OUR sequence over the item's captures in the order the digital object presents them. Their image id is durable, though - it is what iiif.nypl.org and digitalcollections.nypl.org both answer to - so `archive.page_id_field` declares `pointer`, and an archival `letter_id` here reads nypl/5936027. The `shelfmark` field is a display label NYPL composes from the collection name plus that same id, and carries nothing the pointer does not.",
+  "Resolution is capped at 760px and a token does not lift it. Anonymous IIIF above roughly 600px returns 403, and so does an authenticated request carrying an API token - tested 2026-08-10, identical 403s with and without. NYPL gates high-resolution delivery on public-domain status, and these three are UND, so there is no derivative above 760px to be had and the API returns an empty imageLinks for them. Enough to identify a letter and read it with effort; Not enough to settle an underline.",
+  "Fetched from images.nypl.org (`index.php?id=<imageID>&t=w`), not the IIIF service. Both give 760px, but the legacy derivative is far less compressed - about 380KB against 40KB for the same page - and the difference is visible in the ink. The larger legacy sizes (t=v, t=g) 404 for these items, same rights gate as IIIF.",
+  "Image ids come in two shapes, numeric (5936027) and string (ps_berg_306), so they cannot be derived from a range.",
+  "record_url resolves to the item, not the page: {pointer} is an image id and the item uuid is the itemId.",
+  "A `matches` entry carries only structured facts: `pages`, `what`, `printed` {work, locator} and, where there is no printed pointer, `person`. Prose about why an entry matters lives in this archive's README, not here - the manifest restates neither the connection nor the commentary."
+ ],
+ "items": [
+  {
+   "itemId": "41b65aa0-10b4-0134-c82b-00505686d14e",
+   "title": "Nelson, Major J. O. ALS to",
+   "boxFolder": "Berg Coll MSS Wilde",
+   "dates": "",
+   "caption": "Eight sides from Berneval, then the torn envelope to 'Major Nelson, The Governor, H.M. Prison, Reading', a later note identifying the letter, and the envelope verso with W. O. Nelson's red wax seal",
+   "slug": "berg-wilde-to-major-nelson",
+   "dir": "berg-wilde-to-major-nelson",
+   "pages": [
+    {
+     "page": 1,
+     "pointer": "5936027",
+     "shelfmark": "Berg Coll MSS Wilde, image 5936027",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "berg-wilde-to-major-nelson/page-01-5936027.jpg",
+     "bytes": 572185
+    },
+    {
+     "page": 2,
+     "pointer": "5936028",
+     "shelfmark": "Berg Coll MSS Wilde, image 5936028",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "berg-wilde-to-major-nelson/page-02-5936028.jpg",
+     "bytes": 526605
+    },
+    {
+     "page": 3,
+     "pointer": "5936029",
+     "shelfmark": "Berg Coll MSS Wilde, image 5936029",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "berg-wilde-to-major-nelson/page-03-5936029.jpg",
+     "bytes": 542749
+    },
+    {
+     "page": 4,
+     "pointer": "5936030",
+     "shelfmark": "Berg Coll MSS Wilde, image 5936030",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "berg-wilde-to-major-nelson/page-04-5936030.jpg",
+     "bytes": 568012
+    },
+    {
+     "page": 5,
+     "pointer": "5936031",
+     "shelfmark": "Berg Coll MSS Wilde, image 5936031",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "berg-wilde-to-major-nelson/page-05-5936031.jpg",
+     "bytes": 557207
+    },
+    {
+     "page": 6,
+     "pointer": "5936032",
+     "shelfmark": "Berg Coll MSS Wilde, image 5936032",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "berg-wilde-to-major-nelson/page-06-5936032.jpg",
+     "bytes": 521836
+    },
+    {
+     "page": 7,
+     "pointer": "5936033",
+     "shelfmark": "Berg Coll MSS Wilde, image 5936033",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "berg-wilde-to-major-nelson/page-07-5936033.jpg",
+     "bytes": 542088
+    },
+    {
+     "page": 8,
+     "pointer": "5936034",
+     "shelfmark": "Berg Coll MSS Wilde, image 5936034",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "berg-wilde-to-major-nelson/page-08-5936034.jpg",
+     "bytes": 614578
+    },
+    {
+     "page": 9,
+     "pointer": "5936035",
+     "shelfmark": "Berg Coll MSS Wilde, image 5936035",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "berg-wilde-to-major-nelson/page-09-5936035.jpg",
+     "bytes": 588984
+    },
+    {
+     "page": 10,
+     "pointer": "5936036",
+     "shelfmark": "Berg Coll MSS Wilde, image 5936036",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "berg-wilde-to-major-nelson/page-10-5936036.jpg",
+     "bytes": 500003
+    },
+    {
+     "page": 11,
+     "pointer": "5936037",
+     "shelfmark": "Berg Coll MSS Wilde, image 5936037",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "berg-wilde-to-major-nelson/page-11-5936037.jpg",
+     "bytes": 398055
+    },
+    {
+     "page": 12,
+     "pointer": "5936038",
+     "shelfmark": "Berg Coll MSS Wilde, image 5936038",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "berg-wilde-to-major-nelson/page-12-5936038.jpg",
+     "bytes": 388378
+    }
+   ],
+   "matches": [
+    {
+     "pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "what": "Nelson, Major J. O. ALS to",
+     "printed": {
+      "work": "letters-2000",
+      "locator": "p. 862"
+     },
+     "letter_id": "letters-2000/862#1"
+    }
+   ]
+  },
+  {
+   "itemId": "43c4def0-10b4-0134-a3e3-00505686d14e",
+   "title": "Ruskin, [John]. ALS to",
+   "boxFolder": "Berg Coll MSS Wilde",
+   "dates": "",
+   "caption": "Four sides, 16 Tite Street, sending Ruskin a copy of The Happy Prince and Other Tales",
+   "slug": "berg-wilde-to-ruskin",
+   "dir": "berg-wilde-to-ruskin",
+   "pages": [
+    {
+     "page": 1,
+     "pointer": "5936081",
+     "shelfmark": "Berg Coll MSS Wilde, image 5936081",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "berg-wilde-to-ruskin/page-01-5936081.jpg",
+     "bytes": 382156
+    },
+    {
+     "page": 2,
+     "pointer": "5936082",
+     "shelfmark": "Berg Coll MSS Wilde, image 5936082",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "berg-wilde-to-ruskin/page-02-5936082.jpg",
+     "bytes": 367896
+    },
+    {
+     "page": 3,
+     "pointer": "5936083",
+     "shelfmark": "Berg Coll MSS Wilde, image 5936083",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "berg-wilde-to-ruskin/page-03-5936083.jpg",
+     "bytes": 371507
+    },
+    {
+     "page": 4,
+     "pointer": "5936084",
+     "shelfmark": "Berg Coll MSS Wilde, image 5936084",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "berg-wilde-to-ruskin/page-04-5936084.jpg",
+     "bytes": 389294
+    }
+   ],
+   "matches": [
+    {
+     "pages": [
+      1,
+      2,
+      3,
+      4
+     ],
+     "what": "Ruskin, [John]. ALS to",
+     "printed": {
+      "work": "letters-2000",
+      "locator": "p. 349"
+     },
+     "letter_id": "letters-2000/349#1"
+    }
+   ]
+  },
+  {
+   "itemId": "4b62a0a0-10b4-0134-e78f-00505686d14e",
+   "title": "Unknown correspondent. ALS to an. Regarding \"Lady Windermere's fan\"",
+   "boxFolder": "Berg Coll MSS Wilde",
+   "dates": "",
+   "caption": "Three images, 16 Tite Street, on Lady Windermere's Fan",
+   "slug": "berg-wilde-to-unknown-lady-windermeres-fan",
+   "dir": "berg-wilde-to-unknown-lady-windermeres-fan",
+   "pages": [
+    {
+     "page": 1,
+     "pointer": "ps_berg_306",
+     "shelfmark": "Berg Coll MSS Wilde, image ps_berg_306",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "berg-wilde-to-unknown-lady-windermeres-fan/page-01-ps_berg_306.jpg",
+     "bytes": 34754
+    },
+    {
+     "page": 2,
+     "pointer": "ps_berg_307",
+     "shelfmark": "Berg Coll MSS Wilde, image ps_berg_307",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "berg-wilde-to-unknown-lady-windermeres-fan/page-02-ps_berg_307.jpg",
+     "bytes": 42006
+    },
+    {
+     "page": 3,
+     "pointer": "ps_berg_308",
+     "shelfmark": "Berg Coll MSS Wilde, image ps_berg_308",
+     "rights": "http://rightsstatements.org/vocab/UND/1.0/",
+     "file": "berg-wilde-to-unknown-lady-windermeres-fan/page-03-ps_berg_308.jpg",
+     "bytes": 43932
+    }
+   ],
+   "matches": [
+    {
+     "pages": [
+      1,
+      2,
+      3
+     ],
+     "what": "Unknown correspondent. ALS to an. Regarding \"Lady Windermere's fan\"",
+     "printed": {
+      "work": "letters-2000",
+      "locator": "p. 553"
+     },
+     "letter_id": "letters-2000/553#2"
+    }
+   ]
+  }
+ ]
+}

@@ -33,10 +33,14 @@
       "supports": "Wilde's own account of the eight days at Palermo and of his conduct toward Loverde.",
       "verification": "unverified",
       "how_verified": "unverified",
-      "provenance": "PDF p. 1225 (printed folio 1179).",
+      "citation_provenance": "PDF p. 1225 (printed folio 1179).",
       "verified_on": null,
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "William Andrews Clark Memorial Library, UCLA"
+      },
+      "letter_id": "letters-2000/1178#2"
     }
   ]
 }

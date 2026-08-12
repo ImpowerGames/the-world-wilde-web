@@ -35,11 +35,11 @@
       },
       "supports": "The acquaintance's shape on Wilde's oath: Taylor's introduction, dinners, the cigarette case, the February 1895 Avondale dinner, and the denial of physical contact",
       "verification": "verified-elision",
-      "how_verified": "page-image",
-      "provenance": "IA in.ernet.dli.2015.499238, leaf 184 (printed pp. 148-149)",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "IA in.ernet.dli.2015.499238, leaf 184 (printed pp. 148-149)",
       "verified_on": "2026-08-03",
       "speaker": "Oscar Wilde",
-      "voice": "exchange",
+      "voice": "court",
       "addressee": "Edward Carson",
       "turns": [
         {
@@ -73,18 +73,12 @@
       },
       "supports": "The plea-only allegation, its dates and place — the class-deciding text",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "IA in.ernet.dli.2015.499238, leaf 389 (printed p. 343)",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "IA in.ernet.dli.2015.499238, leaf 389 (printed p. 343)",
       "verified_on": "2026-08-03",
       "speaker": "The Marquess of Queensberry, plea of justification (filed 30 March 1895)",
-      "voice": "exchange",
-      "turns": [
-        {
-          "who": "Queensberry",
-          "text": "And that the said Oscar Fingal O'Flahertie Wills Wilde between the month of October in the year of our Lord One thousand eight hundred and ninety-three and the month of April in the year of our Lord One thousand eight hundred and ninety-four at the said house No. 10 St. James Place did solicit and incite one Ernest Scarfe to commit sodomy and other acts of gross indecency and immorality with him the said Oscar Fingal O'Flahertie Wills Wilde and did then and there commit the said other acts of gross indecency and immorality with the said Ernest Scarfe."
-        }
-      ],
-      "document": "testimony"
+      "voice": "court",
+      "document": "plea"
     },
     {
       "quote": "Where did you first meet him [Marling]?—At the Knightsbridge Skating Rink. I was introduced by a young man named Scarfe. I understood Scarfe had just returned from the gold diggings. I introduced Scarfe to Mr. Wilde at 10 St. James's Place. I did not know that he was the son of a domestic servant.",
@@ -98,11 +92,11 @@
       },
       "supports": "Taylor's own sworn account of introducing Scarfe to Wilde at St James's Place",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "IA in.ernet.dli.2015.499238, leaf 330 (printed p. 286)",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "IA in.ernet.dli.2015.499238, leaf 330 (printed p. 286)",
       "verified_on": "2026-08-03",
       "speaker": "Alfred Taylor",
-      "voice": "exchange",
+      "voice": "court",
       "addressee": "the Solicitor-General",
       "turns": [
         {
@@ -128,11 +122,11 @@
       },
       "supports": "Tête-à-tête dinners admitted on oath at the final trial",
       "verification": "verified-elision",
-      "how_verified": "page-image",
-      "provenance": "IA in.ernet.dli.2015.499238, leaf 364 (printed p. 318)",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "IA in.ernet.dli.2015.499238, leaf 364 (printed p. 318)",
       "verified_on": "2026-08-03",
       "speaker": "Oscar Wilde",
-      "voice": "exchange",
+      "voice": "court",
       "addressee": "the Solicitor-General",
       "turns": [
         {
@@ -180,11 +174,15 @@
       "supports": "A possible (editorially tentative) 1894 begging letter from Scarfe to Wilde — continuation of the acquaintance into mid-1894",
       "verification": "verified-exact",
       "how_verified": "text-layer",
-      "provenance": "Complete Letters (Fourth Estate 2000), PDF p. 650 = printed p. 598",
+      "citation_provenance": "Complete Letters (Fourth Estate 2000), PDF p. 650 = printed p. 598",
       "verified_on": "2026-08-03",
       "voice": "period",
       "addressee": "Lord Alfred Douglas",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "William Andrews Clark Memorial Library, UCLA"
+      },
+      "letter_id": "letters-2000/598#1"
     },
     {
       "work": "holland-2003",
@@ -196,14 +194,14 @@
       "how_verified": "text-layer",
       "verified_on": "2026-08-03",
       "speaker": "Oscar Wilde",
-      "provenance": "PDF p. 247 (printed folio 199)",
+      "citation_provenance": "PDF p. 247 (printed folio 199)",
       "evidence_date": {
         "y": 1895,
         "m": 4,
         "d": 4
       },
       "supports": "The verbatim shorthand transcript of the same exchange Hyde 1948 prints in condensed form - kept alongside Hyde, not in place of him, so the divergence stays visible in the record.",
-      "voice": "exchange",
+      "voice": "court",
       "addressee": "Edward Carson",
       "turns": [
         {

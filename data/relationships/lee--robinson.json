@@ -28,9 +28,10 @@
       "supports": "The relationship, its character as Pulham states it, and both its start and end dates.",
       "verification": "verified-exact",
       "how_verified": "as-published",
-      "provenance": "Https://1890s.ca/lee_bio/",
+      "citation_provenance": "Https://1890s.ca/lee_bio/",
       "verified_on": "2026-08-03",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "biography"
     },
     {
       "quote": "In 1881, Lee in turn visited Mary in London. Here she met many of the Robinsons’ friends and acquaintances including the Burne-Joneses, Edmund Gosse (1849-1928), the Morrises, the Rossettis, and Oscar Wilde (1854-1900).",
@@ -43,9 +44,10 @@
       },
       "verification": "verified-exact",
       "how_verified": "as-published",
-      "provenance": "Https://1890s.ca/lee_bio/",
+      "citation_provenance": "Https://1890s.ca/lee_bio/",
       "verified_on": "2026-08-03",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "biography"
     },
     {
       "quote": "Lee and Robinson met in Florence on 16 October 1880 at a party at Maria Spartali Stillman's and they became steadfast friends and romantic partners for almost eight years – a romantic friendship to which their letters testify (Selected Letters of Vernon Lee, Vols. I and II); and Lee took on the role in Mary's life of a strong companion who at times was both nurturing and domineering. … Lee suffered a long period of depression after the marriage took place in August 1888.",
@@ -59,10 +61,11 @@
       "supports": "The standard edition stating the relationship as romantic, dating its start exactly, giving its length, and recording Lee's depression after the marriage.",
       "verification": "verified-elision",
       "how_verified": "text-layer",
-      "provenance": "Editors' note, Vernon Lee's Letters, vol. III (2024), PDF pp. 119-120.",
+      "citation_provenance": "Editors' note, Vernon Lee's Letters, vol. III (2024), PDF pp. 119-120.",
       "verified_on": "2026-08-04",
       "speaker": "Sophie Geoffroy and Amanda Gagel, eds.",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "editorial-note"
     },
     {
       "quote": "The dear sprigs of olive and ilex and spicewood came this morning. They stand in my bedroom in a blue bracken jar and remind me of the January posies you used to bring me from your drives in the Cascine, when you came, all keen outer air & crisp green things, into the salon where I would be reading German Mystics over the fire … A great packet of my poor foolish sad little old letters, so young, so senties, poor little unhappy things, was left at the door one day by a nameless young woman. I have only just now dared to glance at them – for one must not glance at Eurydice in Hades. When you know of some very discreet, honourable & yet good natured person who could take charge of your packet, let me know and she shall have it. … Ever your loving old friend Molly",
@@ -78,12 +81,15 @@
       "supports": "Robinson's own voice on the relationship and on its aftermath - the surviving affection, and the mutual retrieval of the love letters that documented it.",
       "verification": "verified-elision",
       "how_verified": "text-layer",
-      "provenance": "Robinson to Lee, Christmas Eve 1893, Vernon Lee's Letters, vol. III (2024), PDF pp. 490-491.",
+      "citation_provenance": "Robinson to Lee, Christmas Eve 1893, Vernon Lee's Letters, vol. III (2024), PDF pp. 490-491. The edition's own note to this letter reads \"Bibliothèque Nationale de France, Manuscrits, Anglais 243, Correspondance de Mary Robinson IV, Lettres de Mary Robinson à Vernon Lee (Violet Paget) 1887-1933\", and adds that \"Mary Robinson's letters to Vernon Lee are now held at the Bibliothèque Nationale de France, Manuscrits, Paris\".",
       "verified_on": "2026-08-04",
       "speaker": "Mary Robinson (Mme Darmesteter), letter to Vernon Lee",
       "addressee": "Vernon Lee",
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "Bibliothèque nationale de France, Paris"
+      }
     },
     {
       "work": "beckman-2000-levy",
@@ -94,12 +100,13 @@
       "verification": "verified-exact",
       "how_verified": "text-layer",
       "verified_on": "2026-08-03",
-      "provenance": "PDF p. 138.",
+      "citation_provenance": "PDF p. 138.",
       "evidence_date": {
         "y": 1880
       },
       "supports": "Independent secondary attestation of the Lee-Robinson relationship and its start date, from a biographer of a third party with no stake in the question.",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "biography"
     }
   ],
   "null_findings": [

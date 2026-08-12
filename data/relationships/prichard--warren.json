@@ -35,9 +35,10 @@
       "supports": "The counter-evidence: Sox's own framing is love-as-filial-discipleship, not romance. This is the sentence the null finding rested on.",
       "verification": "verified-exact",
       "how_verified": "text-layer",
-      "provenance": "PDF p. 196 (printed folio 172)",
+      "citation_provenance": "PDF p. 196 (printed folio 172)",
       "verified_on": "2026-08-03",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "biography"
     },
     {
       "quote": "Their growing involvement increased Marshall's paranoia that he was inefficient. He also viewed them as rivals for Ned's affection.",
@@ -49,9 +50,10 @@
       "supports": "Third-party reading of the bond as affective rivalry — the strongest positive signal for a romantic classification.",
       "verification": "verified-exact",
       "how_verified": "text-layer",
-      "provenance": "PDF p. 199 (printed folio 175)",
+      "citation_provenance": "PDF p. 199 (printed folio 175)",
       "verified_on": "2026-08-03",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "biography"
     },
     {
       "quote": "That either he or Harding could ever take Johnny's place was out of the question and the fact indeed seemed to me to disappoint Prichard.",
@@ -63,7 +65,7 @@
       "supports": "Warren himself reading disappointment in Prichard at not occupying Marshall's place — first-person, though Sox glosses it as positional rather than romantic.",
       "verification": "verified-exact",
       "how_verified": "text-layer",
-      "provenance": "PDF p. 199 (printed folio 175)",
+      "citation_provenance": "PDF p. 199 (printed folio 175)",
       "verified_on": "2026-08-03",
       "speaker": "Edward Perry Warren",
       "voice": "period",
@@ -79,9 +81,10 @@
       "supports": "Temperamental closeness to Warren beyond the secretarial role.",
       "verification": "verified-elision",
       "how_verified": "text-layer",
-      "provenance": "PDF p. 200 (printed folio 176); sentence opens mid-paragraph, elision marked.",
+      "citation_provenance": "PDF p. 200 (printed folio 176); sentence opens mid-paragraph, elision marked.",
       "verified_on": "2026-08-03",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "biography"
     },
     {
       "quote": "More than loving Marshall, Harry, Matt and Fothergill, he wanted to possess them. … Nietszche and Prichard were abruptly and uncharacteristically dismissed in Warren's reply: 'Dear Ducky, Synthetic means sweeping, individualistic means masterful. Don't hoodwink yourself with phrases. You master your ethics, before they master you. You can't cram them.'",
@@ -93,9 +96,10 @@
       "supports": "(a) p. 129: Sox lists Prichard ('Matt') among the four men Warren loved and 'wanted to possess'; (b) p. 174: Warren's salutation to Prichard, 'Dear Ducky'.",
       "verification": "verified-elision",
       "how_verified": "text-layer",
-      "provenance": "PDF pp. 145, 198 (printed folios 129, 174)",
+      "citation_provenance": "PDF pp. 145, 198 (printed folios 129, 174)",
       "verified_on": "2026-08-03",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "biography"
     }
   ]
 }

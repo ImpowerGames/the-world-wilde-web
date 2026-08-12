@@ -36,11 +36,11 @@
       },
       "supports": "The sole eyewitness claim of Schwabe in Wilde's bed, Paris, November 1892 — from a witness later discredited for perjury; the class-deciding quote",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "IA in.ernet.dli.2015.499238, leaf 247 (printed p. 207)",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "IA in.ernet.dli.2015.499238, leaf 247 (printed p. 207)",
       "verified_on": "2026-08-03",
       "speaker": "Frederick Atkins, examination-in-chief",
-      "voice": "exchange",
+      "voice": "court",
       "turns": [
         {
           "who": "Atkins",
@@ -61,18 +61,12 @@
       },
       "supports": "The formal allegation — solicitation/incitement only as printed",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "IA in.ernet.dli.2015.499238, leaf 388 (printed p. 342)",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "IA in.ernet.dli.2015.499238, leaf 388 (printed p. 342)",
       "verified_on": "2026-08-03",
       "speaker": "The Marquess of Queensberry, plea of justification (filed 30 March 1895)",
-      "voice": "exchange",
-      "turns": [
-        {
-          "who": "Queensberry",
-          "text": "And that the said Oscar Fingal O'Flahertie Wills Wilde on the twenty-second day of November in the year of our Lord One thousand eight hundred and ninety-two at the said house in Paris did solicit and incite one Maurice Salis Schwabe to commit sodomy and other acts of gross indecency and immorality with the said Maurice Salis Schwabe."
-        }
-      ],
-      "document": "testimony"
+      "voice": "court",
+      "document": "plea"
     },
     {
       "quote": "How did you first meet Mr. Taylor?—I first met Alfred Taylor through the gentleman who has been referred to. It is now two years since that gentleman has been in England and I have not seen him in that time. Is that gentleman a gentleman of position and repute?—Yes; a gentleman of good birth and repute.",
@@ -86,11 +80,11 @@
       },
       "supports": "Schwabe as Wilde's introducer to Taylor; Schwabe out of England c. 1893-1895 (why he never testified)",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "IA in.ernet.dli.2015.499238, leaf 194 (printed p. 158). The page's n. 6 to 'the gentleman who has been referred to' reads simply 'Schwabe.'",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "IA in.ernet.dli.2015.499238, leaf 194 (printed p. 158). The page's n. 6 to 'the gentleman who has been referred to' reads simply 'Schwabe.'",
       "verified_on": "2026-08-03",
       "speaker": "Oscar Wilde",
-      "voice": "exchange",
+      "voice": "court",
       "addressee": "Sir Edward Clarke",
       "turns": [
         {
@@ -124,10 +118,11 @@
       },
       "supports": "Schwabe's identity and the Lockwood connexion; the name-on-paper practice at the trials",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "IA in.ernet.dli.2015.499238, leaf 171 (printed p. 137 n). Evidence_date is the event the footnote annotates: Wilde's cross-examination at the Queensberry trial, April 1895, when he wrote the name on paper rather than speak it.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "IA in.ernet.dli.2015.499238, leaf 171 (printed p. 137 n). Evidence_date is the event the footnote annotates: Wilde's cross-examination at the Queensberry trial, April 1895, when he wrote the name on paper rather than speak it.",
       "verified_on": "2026-08-03",
-      "voice": "modern"
+      "voice": "modern",
+      "document": "editorial-note"
     }
   ]
 }

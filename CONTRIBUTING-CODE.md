@@ -116,18 +116,20 @@ An `uncorroborated` connection must carry `disputed` with `claim`, `asserted_by`
   "speaker": "Lord Alfred Douglas", // only when the words are not the work-author's
   // write it EXACTLY as the person's `name` (or an `aka`) and the
   // citation links to their node; anything else stays plain text
-  "voice": "period", // "period", "exchange" or "modern" — see below
-  "turns": [{ "who": "Carson", "text": "…" }], // REQUIRED when voice is "exchange"
+  "voice": "period", // "period", "court" or "modern" — see below
+  "turns": [{ "who": "Carson", "text": "…" }], // optional, and only when voice is "court"
   "evidence_date": { "y": 1900, "m": 3 },
   // …or a RANGE, when the thing happened across a span:
   // "evidence_date": {"y": 1897, "m": 1, "to": {"y": 1897, "m": 3}}   -> "January–March 1897"
   "supports": "what this quotation is here to establish",
   "verification": "verified-exact",
-  "how_verified": "page-image", // how directly the words were read
+  "how_verified": "photo-reproduction", // how directly the words were read
   "document": "letter", // what is quoted, when it differs from the work
-  "verified_against": "original", // only if you read the document itself
   "verified_on": "2026-08-04",
-  "provenance": "which copy, which page, how it was read",
+  "citation_provenance": "which copy, which page",
+  "original_provenance": "…", // what you read and saw in the original document
+  "verified_against_original": true, // you read and collated against the document itself
+  "marks_verified": true, // you collated the marks against the original and verified they match
   "lang": "fr", // only when the quotation is not in English
   "translation": "…", // then this is REQUIRED
   "translation_note": "who translated it, and any published version that differs",
@@ -146,7 +148,11 @@ An `uncorroborated` connection must carry `disputed` with `claim`, `asserted_by`
 
 **`voice` is per quotation, not per book.** `period` means the text is _entirely_ in the words of someone alive at the time — a letter, a diary, sworn testimony. `modern` means a historian or editor is writing _about_ them. An editor's footnote inside a volume of Wilde's letters is modern; a letter of Douglas's printed inside that same footnote is period; a biographer's sentence that merely quotes a period phrase within itself is modern, because it is not entirely theirs. Period quotations are set between large quotation marks so first-hand evidence is legible at a glance.
 
-**A courtroom exchange is `voice: "exchange"`, not `period`.** `period` promises a single voice and is set in quotation marks accordingly; a cross-examination has counsel and witness in it. An exchange is drawn as a transcript from its `turns`. The validator refuses an exchange with no turns, and refuses turns that do not reproduce the quotation word for word. Leave `who` empty where the record does not say whose turn it is.
+**Anything from the record of a court is `voice: "court"`, not `period`.** Sworn testimony, a plea, a verdict. `period` promises somebody speaking for themselves and is set in quotation marks accordingly; a court record is speech taken down under compulsion and printed by the court, and the card sets the two differently to say so. All three are styled alike, so a plea and a cross-examination read as the same kind of thing.
+
+`turns` are **optional**. Give them and the card draws a transcript; leave them off and the quotation runs as continuous prose. A question-and-answer needs them; a plea of justification does not, and requiring them is what produced eight pleas each carrying one invented "turn" attributed to Queensberry. Turns that are present must reproduce the quotation word for word, and `who` may be left empty where the record does not say who spoke.
+
+This was called `exchange` and defined as period text with more than one speaker. Nineteen of its fifty-six records had exactly one — a witness's answer quoted without the question — and it could not hold a plea or a verdict at all.
 
 **A quotation not in English keeps its own language and gains a translation.** Set `lang` and `translation`; the validator refuses one without the other. A quotation that reads as French, German, Italian or Latin and carries no `lang` draws a warning, and a translation parked inside `context` is a hard error. If the warning is wrong — an English quotation dense with French phrases — ignore it; it does not fail the build.
 
@@ -169,82 +175,109 @@ It sorts exactly as a date would, and it is not a date. The card will say — _"
 
 Unverified quotes are marked with an `⧖ unverified` chip and means the passage was located in an index or OCR dump but never checked against the page. ⧖ also marks **leads**: pointers to a potential source with nothing transcribed yet.
 
-Never mark something verified you have not seen on the page. A text layer, an OCR dump or a search index is for _finding_; the rendered page is for _verifying_. Page offsets in scanned books are frequently not reliable enough for citation.
+Never mark something verified you have not seen on the page. A text layer, an OCR dump or a search index is for _finding_; the rendered page is for _verifying_.
 
-Verification asks **three separate questions**, and each has its own field. One field answering all three produced values that overlapped and could not be told apart — `archive-org` and `web` named a *medium*, `pdf-text` named a *reading method*, `manuscript` named a *document*.
+Verification asks **four separate questions:** `document` for what kind of thing is quoted, `how_verified` for how directly it was read, `verified_against_original` for whether anyone went to the document itself, and `citation_provenance` / `original_provenance` for the provenance of each — the publication and the original.
 
 **`how_verified` — how directly were the words read?**
 
-| value          | means                                                                   |
-| -------------- | ----------------------------------------------------------------------- |
-| `page-image`   | read on a reproduction of the page: a scan, a IIIF image, microfilm     |
-| `text-layer`   | taken from extracted or OCR text; **the page itself was not looked at** |
-| `in-hand`      | read in the physical object                                             |
-| `as-published` | born-digital — a web page, an EPUB — read as its publisher renders it   |
-| `unverified`   | not yet established                                                     |
+| value                | means                                                                            |
+| -------------------- | -------------------------------------------------------------------------------- |
+| `in-hand`            | read directly from the physical object itself                                    |
+| `photo-reproduction` | read in a photograph of the object: a scan, a IIIF image, microfilm, a plate     |
+| `as-published`       | an official publication — a web page, an EPUB — read as its publisher renders it |
+| `text-layer`         | taken from extracted or OCR text; **the page itself was not looked at**          |
+| `unverified`         | not yet established                                                              |
 
-**The medium is deliberately absent.** Whether it was a PDF, archive.org, a website or a shelf copy belongs in `provenance`, which already records it exactly — _"IA in.ernet.dli.2015.499238, leaf 326"_ — and which says nothing about whether the reading can be trusted. What matters here is only whether somebody looked at the page or trusted a machine's transcription of it.
-
-**`document` — what kind of thing is being quoted?** Set it only when the document differs from the work it was read in: a letter printed in an edition of the letters, testimony printed in a trial transcript. A historian's own sentence leaves it unset, because there the work *is* the document and a label would say nothing.
+**`document` — what kind of thing is being quoted?** Name the document the source originates from:
 
 Written by hand: `letter`, `telegram`, `postcard`, `diary`, `inscription`, `manuscript`.
-Printed or spoken: `memoir`, `testimony`, `interview`, `pamphlet`, `novel`, `essay`, `poem`, `typescript`.
+Printed by the subject themselves: `memoir`, `pamphlet`, `novel`, `essay`, `poem`, `typescript`.
+Spoken and taken down: `testimony`, `plea`, `verdict`, `interview`.
+Written about the subject: `biography`, `study`, `article`, `encyclopedia`, `editorial-note`, `introduction`, `finding-aid`, `web-page`.
 
-**`verified_against` — which document was read?** Omit it, and the reader understands you read the work you cite. Set it to `"original"` when you went to the document itself, or to a photograph of it.
+**Provenance:**
 
-That claim only means something for something **written by hand**. A printed pamphlet has no original behind the print and no emphasis a compositor did not set, so the validator refuses `verified_against: "original"` on one. It also refuses the claim alongside `text-layer`, since reading an original means seeing it.
+| field                 | says                                                                                                                                                                                      |
+| --------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `citation_provenance` | where the passage sits in the **work cited**, and how it was read — _"PDF p. 1090."_, _"IA in.ernet.dli.2015.499238, leaf 326"_                                                           |
+| `original_provenance` | which pages were read **at the document**, and what was found there — _"HRC MSS_WildeO_2_7_001-002, the bifolium; the long diagonal strokes are Wilde's paragraph marks, not underlines"_ |
 
-The card shows the document as a chip, ticked when the original has been read — **Letter ✓** against a bare **Letter**. So a reader can tell at a glance which quotations rest on Wilde's own hand and which rest on his editors.
+**`verified_against_original`** Set to true if you've read the original document; It requires a `document` field as well, since it has to say which original was read.
 
-**The chip is also a filter.** Clicking it narrows the panel to that kind of document, and clicking it again lets go. Where a panel holds more than one kind, a select appears beside the year range listing them with counts — _Letters · 251_, _Testimony · 42_ — and the two controls move the same piece of state, so either follows the other.
+**`marks_verified: true`** says the quotation's marks have been collated against the source and match — emphasis, accents, punctuation, everything a transcription loses quietly.
+
+**`original_provenance`**: Which pages you read. Marks you found and where. And above all **the things that look like marks and are not** — the stroke that cancels a letterhead, the diagonals that are paragraph marks, the rising paraph before a signature that is not a rule under the words above it. Those are what stops the next reader opening the same sheet to re-decide the same mark.
+
+The card shows the document as a chip, ticked when the original has been read — **✓ Letter** against a bare **Letter**. So a reader can tell at a glance which quotations rest on Wilde's own hand and which rest on his editors.
+
+**Document Location.** The location comes from `facsimile.archive` or `manuscript.repository`, whichever the record carries, resolved to one `location` field at build time so the card and the filter never disagree.
+
+**Every location is a _last known_ location.** Very few items on this map have been confirmed by going to an archive. So the chip names the last known location and when it was located there — _"Last recorded by Wilde, Complete Letters (2000) at the Clark"_. **The one exception is a `facsimile`**, where the page draws the archive's own image service live: that holding is proved by the picture in front of you, so its chip stays present tense.
+
+**The chip prints an abbreviation, the tooltip the full name.** _Clark, UCLA_ stands for _William Andrews Clark Memorial Library, UCLA_. The abbreviations are mostly from the _The Complete Letters of Oscar Wilde_'s key at pp. xxii–xxv. A repository with no entry falls back to the text before its first comma. **Add an entry when that reads badly**.
+
+**Private owners are named, as of the date the edition names them.** Where the volume's headnote gives an individual — `MS Mason`, `MS Maguire`, `MS Holland, M.` — write the repository as **`Private collection`** and the person in **`manuscript.owner`**, expanded from the volume's key at pp. xxiv–xxv (`MS Mason` is Mr Jeremy Mason). The name sits beside the repository rather than replacing it, so the location facet stays one bucket a reader can filter on instead of fragmenting into thirty-five owners. `MS Private` names no specific owner and so should not have a `manuscript.owner` field.
+
+**The location comes from the edition that prints the text.** The Complete Letters put it in a headnote above each letter; a biography puts it in an endnote (Murray's note 52: _"Lord Alfred Douglas to Robert Ross, 1 March 1909. Ross TS. Clark."_); a scholarly edition puts it in the letter's own footnote (the Vernon Lee letters name _"Bibliothèque Nationale de France, Manuscrits, Anglais 243"_) or in a manuscript-sources list arranged by correspondent (Delaney's biography of Ricketts, which is the only thing that locates the letters Sturge Moore printed in _Self-Portrait_ without saying where any of them were). Look in all three before concluding an edition is silent.
+
+**Say when the archive holds a typescript rather than the writer's hand.** `manuscript.archived_as` takes **`autograph`** or **`typescript`**, and you write it only where it contradicts what the document type already implies — a letter is an autograph unless somebody says otherwise, so `archived_as: "autograph"` on a letter says nothing and the validator refuses it. Its presence therefore always means _not what you assumed_.
+
+**A saleroom is a location.** Where the Complete Letters print a letter from an auction or dealer's listing, write the house as the repository and the sale date as **`manuscript.as_of`**, which replaces the citing edition's date in the chip: _"Last known at American Art Association, New York, 9 February 1927. Nothing has been recorded of it since, and whoever took it home is not named."_ The editors reporting the sale in 2000 had not seen the letter either, so dating the claim to their volume would be wrong.
+
+The same holds for the volume's `F` headnotes, which name a **published book reproducing the letter in facsimile** (Keller, Brémont, Cantel) rather than an archive: if the autograph has since been traced, name the archive that holds it; if it has not, the facsimile belongs in `citation_provenance` too.
+
+**Filtering by type and location works the way the legend does.** Beside the year range sits a **Type & Location** dropdown listing every document type and location the panel holds, with counts — _Letters · 251_, _Testimony · 30_, _Biographies · 27_. Uncheck a type or location to hide it. Check it to show it again. **Right-click a row** or click a document chip on any card to solo that filter. Clicking a soloed filter unsolos it, restoring the previous filter state.
 
 ### Formatting & emphasis
 
-**Source emphasis is preserved in the quote.** Mark it inside the `quote` text with `*italics*`, `_underline_`, `__double underline__`, `**bold**`, or `~~strikethrough~~`; the renderer converts the markers to real type when the card is drawn. The number of underscores is the number of underlines. Use markers only for emphasis that is actually in the source, never for editorial highlighting of your own.
+**How to transcribe a document, and what its marks mean, are in [CONTRIBUTING.md](CONTRIBUTING.md)** — spelling and abbreviations, dashes, split words, the `[…?]` / `[illegible]` / `[inserted: …]` / `[annotated: …]` bracket forms, the emphasis markup and the italics departure, and the rule that a later hand's marks never enter the quote. They apply to anyone transcribing, ticket or pull request alike.
 
-**A printed edition cannot settle emphasis, and the Complete Letters say so themselves.** Their note on the text: _"The printing of titles has been standardised: those of poems, stories and articles are printed in roman type between quotation marks; those of books, plays, periodicals and ships in italics. All foreign words are printed in italics unless the whole letter is in French. All underlined words are italicised, but no indication is given of the occasional words which have more than one underlining."_ One italic therefore stands for three unrelated things — Wilde's underline, a title, a foreign word — and the difference between one underline and three is thrown away.
+**The markers are rendered.** `*italics*`, `_underline_`, `__double underline__`, `**bold**` and `~~strikethrough~~` inside `quote` are converted to real type when the card is drawn, so they must be the source's own emphasis and never editorial highlighting of your own.
 
-So: use `*italics*` for what is plainly a title or a foreign word, and `_underline_` for an English word italicised for stress. That second call is **provisional until someone reads the manuscript**, and it should say so in `provenance`. When the document has been read, set `verified_against` to `original` and record any emphasis found there — including a null finding.
+**Deviations from the printed edition.** The editors of _The Complete Letters of Oscar Wilde_ silently convert title quotation marks and underlines to italics and additionally italicize any titles and foreign words present in the letter. They make no differentiation between words that were single-underlined or double-underlined (both are italicized in the printed edition). Due to this convention, when the printed edition italicizes an ordinary English word, it is usually because the word was `_underlined_` in the original document. When the printed edition italicizes a title or foreign word, this usually does not correspond to any real underlines in the original document. Say which it is in `citation_provenance`. When the document has been read, write `original_provenance`, record what was found there, and set `marks_verified` to `true` once the marks are collated. Withhold `marks_verified` while any part of the quotation is unread or any mark is unresolved.
 
-### The rule: follow the manuscript, except for italics
+**Record what you changed against the page you cite.** Where restoring a mark makes the quotation differ from the printed page — or where you normalised a mark that existed only because of a line break — say so in `citation_provenance`. The citation still locates the passage; the manuscript tells us how it was normalized.
 
-**Whatever mark is on the page is the mark that goes in the quote.** If it's underlined in the letter, underline it in the quote. If it's struck through in the letter, strike through it in the quote. If the writer put quotation marks round a title, keep them — even where the printed edition has taken them away. The number of underscores in the markup should reflect the number of underlines in the letter: `_one_`, `__two__`.
+### `letter_id` uniquely identifies each letter
 
-**Italics are the one deliberate departure.** Handwritten text cannot italicise, which is the whole reason italics need a separate rule: the only marks available to someone writing by hand are the underline and the strike-through, so a writer underlines a title as an instruction to a compositor, not for stress. Italics are applied here as an editorial consistency — books, plays, periodicals, ships and foreign words — on top of whatever the hand actually did. Where he underlined the title as well, **both marks are written**:
+A citation of `letters-2000` + `p. 1198` does not say which letter it means. So each source record, a manifest entry and a transcription carry a `letter_id` field. That shared value is how they are linked together:
 
-| In the manuscript                                       | Markup                           | Reads as                                    |
-| ------------------------------------------------------- | -------------------------------- | ------------------------------------------- |
-| `do` with one underline under it                        | `_do_`                           | stress, in Wilde's own hand                 |
-| `me` with two underlines under it                       | `__me__`                         | stress, doubled                             |
-| _Salomé_ with a underline under it                      | `_*Salomé*_`                     | a title, and he underlined it               |
-| `'Ballad of Reading Gaol'`, single quotes, no underline | `'*The Ballad of Reading Gaol*'` | his quotation marks kept, our italic added  |
-| a title nobody has checked yet                          | `*Lady Windermere's Fan*`        | italicised by convention; manuscript unread |
+| Form                      | Means                           | Use when                                             |
+| ------------------------- | ------------------------------- | ---------------------------------------------------- |
+| `letters-2000/1198#2`     | <work>/<folio>#<letter number>  | the letter is printed in an edition                  |
+| `letters-2000/649n3`      | <work>/<folio>n<note number>    | the editors print the document **inside a footnote** |
+| `hrc/MSS_WildeO_2_10_004` | <archive>/<shelfmark>           | archived with shelfmark                              |
+| `nypl/5936027`            | <archive>/<uuid>                | archived with globally unique identifier             |
+| `morgan/MA7258#34`        | <archive>/<item>#<image number> | archived with no unique document identifier          |
 
-Two consequences worth having. **The markup records whether anyone has looked** — `*Salomé*` is a title italicised by convention, manuscript unread or unmarked; `_*Salomé*_` means someone opened the letter and found the stroke. And **the punctuation stays his**, so a reader can see where the editors' italic replaced a pair of inverted commas rather than translating an underline.
+Printed form wins where both apply, because it identifies the letter for the ~280 records that cite the volume without holding a scan.
 
-**A mark that only exists because of where the line ended is not preserved.** These transcriptions do not keep non-paragraph line breaks, so anything that is an artefact of them goes too. Wilde wrote the Ballad's title across three lines and repeated the quotation mark at each break —
+**`archive.page_id_field` records an archive's page identifier**:
 
-```
-             'The
-'Ballad of Reading'
-Gaol'
-```
+| Archive        | `page_id_field` | Example value                     |
+| -------------- | --------------- | --------------------------------- |
+| `hrc`          | `shelfmark`     | `MSS_WildeO_2_10_004`             |
+| `nypl`         | `pointer`       | `5936027`                         |
+| `loc`          | `pointer`       | `service:mss:mss18630:019:09:001` |
+| `morgan`       | `null`          | —                                 |
+| `marland-blog` | `null`          | —                                 |
 
-— which is a line-wrap convention, not four quotations. It normalises to one opening and one closing mark: `'The Ballad of Reading Gaol'`. The same goes for a word broken by a hyphen at the edge of a sheet. Note the normalisation in `provenance`, and keep it to marks that the line break alone produced.
+One caution about ordinals generally: the Library of Congress numbers by **scan order**, which for the Whitman letter is not the order the leaves are read (8, 9, 12, 13, 10).
 
-Where restoring a mark makes the quotation differ from the printed page it cites, say so in `provenance`. The citation still locates the passage; the manuscript governs how it was marked.
+**The footnote form is for documents, not commentary.** This volume's main sequence carries Wilde's _outgoing_ letters, so a letter **to** him is printed in the note where it is relevant — Douglas's of 15 May 1895 at `p. 649 n. 3`, Langtry's at `p. 91 n. 5` — and so are two inscriptions Wilde wrote in presentation copies. Those are documents and they take an id. Footnotes that only contain the editors' own writing does not: see the refusals below.
 
-**Typed and printed sources are matched exactly.** A typescript, a printed book, a typed transcript can all italicise, embolden, underline and strike through, so there is no convention to apply — reproduce what is set, mark for mark.
+**A typed copy or photostat takes the id of the letter it copies**, not one of its own — it is another witness of the same document.
 
-**Deviations in the printed edition.** The editors of _The Complete Letters of Oscar Wilde_ silently convert title quotation marks to italics: Wilde wrote `'Ballad of Reading Gaol'` in single quotes and the page prints it in italic with no quotation marks at all. They also flatten every multiple underline to a single italic, by their own account — `me` and `groom` in the Harris letter of 13 June 1897 are both underlined twice and both printed as ordinary italic.
+**Use `letter_ids` when a record quotes more than one document.** A few records quote two letters as a single passage because the pairing is the evidence: two postcards Wilde sent Ross from different towns on one day, or the 1876 and 1877 letters to Ward that show the same thing about the friendship. They carry a `letter_ids` string array, instead of a `letter_id` string. The two fields are mutually exclusive. Use the singular whenever you can.
 
-**Not every horizontal stroke is an underline.** Wilde's long diagonal strokes between paragraphs are paragraph marks. A rule under an interlineated phrase — `lighter as well as`, carried above the line on a caret in that same Harris letter — is an insertion mark. A stroke across a printed letterhead cancels it, as on the Albemarle Club sheet to Alexander.
+Ids are minted by `research-tools/source-volume/mint_ids.py` (manifests, transcriptions) and `mint_source_ids.py` (connection sources); both dry-run by default. `tools/manifest_links.py --check` reports malformed ids, and lists citations that name a different letter on a folio we hold.
 
 ### The document itself
 
 Two optional fields say where the original is. A source may carry at most one of them.
 
-**`facsimile`** — the archive publishes page images, and the card gets a _Read the manuscript_ button opening the reader.
+**`facsimile`** — the archive publishes page images, and a photo/scan of it can be viewed by clicking the _View original_ button.
 
 ```jsonc
 "facsimile": {
@@ -268,7 +301,7 @@ Two optional fields say where the original is. A source may carry at most one of
 }
 ```
 
-Write the repository out in full, as it should read on the card — not the abbreviation the Complete Letters print. This is the common case by far: of the letters this map quotes from that volume, eight have manuscripts at the Ransom Center and around a hundred are at the Clark.
+Write the repository out in full, as it should read on the card — not the abbreviation the Complete Letters print. This is the most common case by far: of the letters this map quotes from that volume, eight have manuscripts at the Ransom Center and around a hundred are at the Clark.
 
 ---
 

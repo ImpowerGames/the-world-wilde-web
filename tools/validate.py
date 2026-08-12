@@ -39,45 +39,170 @@ VERIFICATION = {"verified-exact", "verified-elision", "needs-fix", "rejected", "
 # three produced values that overlapped and could not be told apart - "archive-org" and "web"
 # named a medium, "pdf-text" named a reading method, "manuscript" named a document.
 #
-#   how_verified      HOW directly were the words read?
-#   verified_against  WHICH document was read? (absent = the work being cited)
-#   document          WHAT KIND of thing is quoted, where that differs from the work
+#   how_verified         HOW directly were the words read?
+#   document             WHAT KIND of thing is quoted
+#   citation_provenance           where the passage sits in the WORK CITED
+#   original_provenance  what was read at the DOCUMENT, and seen there (absent = nobody has)
+#   marks_verified       the marks were collated against the source and match
+#
+# There was a `verified_against: "original"` flag too, saying which document was read. It went:
+# the validator required `original_provenance` for the flag and the flag for the note, so the two
+# could never disagree and one of them was carrying nothing.
 #
 # The MEDIUM - PDF, archive.org, a website, an EPUB, a physical copy - is deliberately not here.
-# `provenance` already records it exactly ("IA in.ernet.dli.2015.499238, leaf 326"), and it says
+# `citation_provenance` already records it exactly ("IA in.ernet.dli.2015.499238, leaf 326"), and it says
 # nothing about whether the reading can be trusted.
 HOW = {
-    "page-image",    # read the words on a reproduction of the page: a scan, a IIIF image, film
+    # A photograph of the object: a scan, a IIIF image, microfilm, a plate. Called "page-image"
+    # once, which said "page" of things that are not pages - an envelope, a leaf, an inscription -
+    # and left the distinction that matters implicit. What separates this from the two below is
+    # that somebody looked at the THING, not at a re-rendering of its text.
+    "photo-reproduction",
     "text-layer",    # taken from extracted or OCR text; the page itself was NOT looked at
     "in-hand",       # read the physical object
     "as-published",  # born-digital - a web page, an EPUB - read as its publisher renders it
     "unverified",
 }
-# The only thing worth naming apart from the work is the ORIGINAL: the document itself, or a
-# photograph of it. Everything else a quotation might be read in is the work already cited.
-VERIFIED_AGAINST = {"original", None}
+# `marks_verified: true` says somebody has collated the MARKS of the quotation against the source
+# and found them to match: emphasis, accents, punctuation - everything a transcription loses
+# quietly. Absent means nobody has done it, which is the honest default and is not a criticism.
+#
+# It exists so a null finding is a FACT rather than a sentence. This flag on a quotation carrying
+# no markup already says nobody found any marks in it, so the prose must NOT say it again: "no
+# underlining anywhere in the quoted passage" written beside it is the same statement three times,
+# and only one of the three can be checked, counted or filtered.
+#
+# `original_provenance` is for what this cannot say - which pages were read, marks found and
+# where, and above all the things that LOOK like marks and are not: a stroke cancelling a
+# letterhead, diagonals that are paragraph marks, the paraph before a signature.
+MARKS_VERIFIED = {True, None}
 
-# What kind of thing is being quoted, and whether it was written out by hand. `hand` decides
-# whether checking the original is even a question: for a printed book the work IS the original,
-# so there is no second document to go and look at - and no emphasis a compositor did not set.
+# `verified_against_original: true` says somebody went to the document itself rather than reading
+# it where it was reprinted. Absent means nobody has, which is the honest default.
+#
+# It is deliberately SEPARATE from `original_provenance`, the prose about what was read there.
+# The two are established on different passes - a reader opens the manuscript today and writes up
+# what they saw tomorrow - and an earlier version of this schema required each for the other,
+# which made them agree by construction and then looked redundant for agreeing. The rule runs one
+# way only: a note about the document implies the document was read, not the reverse.
+VERIFIED_AGAINST_ORIGINAL = {True, None}
+
+# What kind of thing is being quoted, and whether it was written out by hand. `hand` does NOT
+# decide whether the original is worth reading - a printed copy can carry an inscription,
+# marginalia, a correction or a cancelled leaf that the printing does not. It records what going
+# to the original would settle: for something handwritten the document is the only authority for
+# emphasis; for something printed the text is already fixed, and what a copy adds is whatever
+# somebody later put on it.
+#
+# The second axis is whether the document is a UNIQUE object or IS the published work it was read
+# in. It decides what "where is this" means when no archive has been recorded. For a letter the
+# document and the work are different things - the letter is one sheet somewhere, the Complete
+# Letters is a book - so a letter with no repository is a letter nobody has traced. For a
+# biography the document IS the book, and the answer is that you get it from a library. Those two
+# blanks used to be the same blank, and the biographies drowned the letters.
+UNIQUE, PUBLISHED = "unique", "published"
 DOCUMENTS = {
-    "letter": True, "telegram": True, "postcard": True, "diary": True,
-    "inscription": True, "manuscript": True,
-    "memoir": False, "testimony": False, "interview": False, "pamphlet": False,
-    "novel": False, "essay": False, "poem": False, "typescript": False,
+    "letter": (True, UNIQUE), "telegram": (True, UNIQUE), "postcard": (True, UNIQUE),
+    "diary": (True, UNIQUE), "inscription": (True, UNIQUE), "manuscript": (True, UNIQUE),
+    "typescript": (False, UNIQUE),
+    "memoir": (False, PUBLISHED), "interview": (False, PUBLISHED),
+    "pamphlet": (False, PUBLISHED), "novel": (False, PUBLISHED),
+    "essay": (False, PUBLISHED), "poem": (False, PUBLISHED),
+    # Court records are PUBLISHED because that is the honest answer for these ones: the shorthand
+    # writers' transcripts of the Wilde trials do not survive as a public archive, and the text
+    # everybody quotes - this map included - is Hyde's printed edition. A record that does trace
+    # an original files a `manuscript`, which overrides this.
+    "testimony": (False, PUBLISHED), "plea": (False, PUBLISHED), "verdict": (False, PUBLISHED),
+    # What a later hand wrote ABOUT the subject, rather than what the subject wrote. These exist
+    # because `document` used to be left unset here, on the reasoning that the work cited IS the
+    # document - which was true, and which made "not applicable" indistinguishable from "nobody
+    # has classified this yet".
+    "biography": (False, PUBLISHED),       # a life of a person
+    "study": (False, PUBLISHED),           # a scholarly book or monograph on a subject
+    "article": (False, PUBLISHED),         # a piece in a periodical or journal
+    "encyclopedia": (False, PUBLISHED),    # a reference entry
+    "editorial-note": (False, PUBLISHED),  # an editor annotating somebody else's primary text
+    "introduction": (False, PUBLISHED),    # a prefatory essay to somebody else's work
+    "finding-aid": (False, PUBLISHED),     # an archive's own inventory of a collection
+    "web-page": (False, PUBLISHED),        # born-digital, read where it is published
 }
+# What a work IS, in works.json. The `-web` suffix is the load-bearing part: it marks a work that
+# is read where it is published, which no library can get for you and whoever put it up can take
+# down. Everything else is a thing with a spine.
+WORK_KINDS = {"primary", "primary-edition", "secondary", "secondary-web",
+              "interview", "trial-transcript"}
 LOCATOR_TYPES = {"page", "diary-entry", "trial-day", "letter-date", "none"}
 GROUPS = {"core", "family", "society", "aesthete", "trials", "chaeronea",
           "later", "liaisons", "beyond"}
 GENDERS = {"m", "f", None}
-# "exchange" is period text with MORE THAN ONE speaker in it - courtroom question and answer,
-# where counsel asks and a witness replies. It is not "period", which promises a single voice and
-# is set in quotation marks accordingly; putting an exchange there both claimed one voice and let
-# the heading attribute counsel's questions to the witness.
-VOICES = {"period", "exchange", "modern", None}
+# "court" is text from the record of a court - sworn testimony, a plea, a verdict. It was called
+# "exchange" and defined as period text with more than one speaker in it, which fitted neither
+# end: nineteen records had a single speaker (a witness's answer quoted without the question),
+# and a plea of justification is not dialogue at all. It is kept apart from "period" because a
+# court record is not somebody speaking for themselves - it is speech taken down under compulsion
+# and printed by the court - and the card sets the two differently to say so.
+#
+# `turns` are OPTIONAL here: with them the card draws a transcript, without them a continuous
+# quotation, and both are styled as the court record they are.
+VOICES = {"period", "court", "modern", None}
 
 
 MANUSCRIPTS = ROOT / "manuscripts"
+# Outside ROOT, so `publish.py` - which copies ROOT and nothing else - never sees it. The full
+# text of every letter read from the printed edition lives there; only the cited ones cross.
+TRANSCRIPTIONS = ROOT.parent / "transcriptions"
+TEXT_FROM = {"facsimile", "edition"}
+
+# What the `MS …` chip prints. The full name is the citation and stays in the record; this is the
+# label, and mostly it is the volume's own abbreviation from its key at pp. xxii-xxv - a reader of
+# the Complete Letters already knows "Clark" and "Berg" and reads them faster than the full form.
+#
+# A repository with no entry here falls back to the text before its first comma, which is right
+# often enough ("Bodleian Library, Oxford" -> "Bodleian Library") and never wrong enough to
+# mislead. Add an entry when that reads badly.
+REPOSITORY_SHORT = {
+    "William Andrews Clark Memorial Library, UCLA": "Clark, UCLA",
+    "British Library, London (Lady Eccles Oscar Wilde Collection)": "British Library, Eccles",
+    "British Library, London": "British Library",
+    "Magdalen College, Oxford": "Magdalen, Oxford",
+    "Bryn Mawr College Library, Bryn Mawr, Pennsylvania": "Bryn Mawr",
+    "Arents Tobacco Collection, New York Public Library": "Arents, NYPL",
+    "Henry W. and Albert A. Berg Collection, New York Public Library": "Berg, NYPL",
+    "Montague Collection, New York Public Library": "Montague, NYPL",
+    "Vaughan Library, Harrow School, London": "Harrow School",
+    "Princeton University Library, Princeton, New Jersey": "Princeton",
+    "Henry E. Huntington Library, San Marino, California": "Huntington",
+    "Yale University Library, New Haven, Connecticut": "Yale",
+    "Beinecke Rare Book and Manuscript Library, Yale University": "Beinecke, Yale",
+    "The Frederick R. Koch Collection (in part at Yale)": "Koch, Yale",
+    "The Morgan Library & Museum, New York": "Morgan",
+    "Bodleian Library, Oxford": "Bodleian",
+    "Harvard University Library, Cambridge, Massachusetts": "Harvard",
+    "University of Virginia Library, Charlottesville, Virginia": "Virginia",
+    "State University of New York Library, Buffalo, New York": "Buffalo",
+    "Haliburton Fales Collection, New York University": "Fales, NYU",
+    "Rosenbach Museum and Library, Philadelphia": "Rosenbach",
+    "Somerset County Library, Street, Somerset": "Somerset",
+    "Library of Trinity College, Dublin": "Trinity, Dublin",
+    "Dartmouth College Library, Hanover, New Hampshire": "Dartmouth",
+    "Harry Ransom Center, The University of Texas at Austin": "Ransom Center",
+    "Biblioth\u00e8que Doucet, Paris": "Doucet, Paris",
+    "Biblioth\u00e8que nationale de France, Paris": "BnF, Paris",
+    "Sterling Library, University of London": "Sterling, London",
+}
+
+
+def short_repository(name):
+    """The chip's label for a repository name. Never longer than the name it stands for."""
+    name = (name or "").strip()
+    if not name:
+        return ""
+    if name in REPOSITORY_SHORT:
+        return REPOSITORY_SHORT[name]
+    head = name.split(",")[0].strip()
+    head = head[4:] if head.lower().startswith("the ") else head
+    return head or name
+
 
 # RightsStatements.org markers as the archives apply them, in words a reader can act on. A page
 # whose marker is not in here still displays - it just shows the bare URI, which is honest about
@@ -95,6 +220,83 @@ def load(p: Path):
         return json.loads(p.read_text(encoding="utf-8"))
     except Exception as e:  # noqa: BLE001
         return {"__load_error__": f"{p.name}: {e}"}
+
+
+def load_transcriptions(errors):
+    """Every full-text transcription we hold, from both stores, keyed by letter_id.
+
+    TWO STORES, one shape. A transcription read from a FACSIMILE is our own reading of a
+    public-domain document: it lives beside the images under manuscripts/<archive>/, publishes
+    whole, and is the only kind that can witness emphasis. A transcription read from the printed
+    EDITION lives in the private tree, cannot witness emphasis - the editors print Wilde's
+    underlining, titles and foreign words as one italic and do not mark multiple underlining at
+    all - and publishes only where this map cites the letter.
+
+    Both are loaded here because the reader wants one answer to "is there a full text of this
+    document", and which store it came from is the build's problem, not the browser's.
+
+    THE TWO STORES ARE SHAPED DIFFERENTLY, for reasons that belong to each. The facsimile store is
+    one file per transcription, `<archive>/transcriptions/<item>-<image>.json`, so that two people
+    transcribing different letters never touch the same file and an interrupted run leaves its
+    finished work behind. The edition store stays one file per WORK, because its entries are not
+    independent - which of them publish is decided together, by what the map cites.
+    """
+    out = {}
+    files = ([(f, True) for f in sorted(MANUSCRIPTS.glob("*/transcriptions/*.json"))] +
+             [(f, False) for f in sorted(TRANSCRIPTIONS.glob("*.json"))])
+    for f, one_per_file in files:
+        where = f.parent.name + "/" + f.name
+        try:
+            doc = json.loads(f.read_text(encoding="utf-8"))
+        except Exception as e:
+            errors.append(f"{where}: unreadable ({e})")
+            continue
+        entries = [doc] if one_per_file else (doc.get("letters") or [])
+        for i, t in enumerate(entries):
+            at = where if one_per_file else f"{where}[{i}]"
+            lid = t.get("letter_id")
+            if not isinstance(lid, str) or not LETTER_ID.match(lid or ""):
+                errors.append(f"{at}: letter_id is what joins a transcription to the quotations "
+                              f"of the same document, and must be present and well formed, "
+                              f"got {lid!r}")
+                continue
+            # `text_from` is inferred for the facsimile store, whose entries predate the field and
+            # sit next to the images that prove it.
+            kind = t.get("text_from") or ("facsimile" if t.get("facsimile") else None)
+            if kind not in TEXT_FROM:
+                errors.append(f"{at}: text_from must be 'facsimile' or 'edition' - it decides "
+                              f"both whether this publishes and whether it can be read for "
+                              f"emphasis, so it is not inferred, got {t.get('text_from')!r}")
+            if kind == "edition" and t.get("marks_verified"):
+                errors.append(f"{at}: marks_verified on a transcription taken from the printed "
+                              f"edition. There is nothing there to verify: the editors print "
+                              f"underlining, titles and foreign words as one italic. Only a "
+                              f"facsimile settles emphasis")
+            if kind == "edition" and t.get("facsimile"):
+                errors.append(f"{at}: carries a facsimile but says text_from 'edition'. If the "
+                              f"text was read off the images, it belongs in that archive's "
+                              f"transcriptions/ folder and publishes whole")
+            if not (t.get("quote") or "").strip():
+                errors.append(f"{at}: a transcription with no text")
+            if one_per_file:
+                # The filename is chosen so that it FOLLOWS from the file's own facsimile block -
+                # archive, item, first image - with nothing to look up. That is the reason it is
+                # not the archive's page identifier, which would need a manifest join to derive,
+                # and which two of the five archives do not publish at all. Worth enforcing, or it
+                # is only a convention until the first hand-made file drifts from it.
+                fac = t.get("facsimile") or {}
+                pages = fac.get("pages") or []
+                if fac.get("archive") and fac.get("item") and pages:
+                    want = f"{f.parts[-3]}-{fac['item']}-{pages[0]:03d}"
+                    if f.stem != want:
+                        errors.append(f"{at}: filename does not match its own facsimile block - "
+                                      f"expected {want}.json")
+            if lid in out:
+                errors.append(f"{at}: letter_id {lid!r} is transcribed twice, in {out[lid]['at']} "
+                              f"as well. One document, one transcription")
+                continue
+            out[lid] = {**t, "text_from": kind, "at": at}
+    return out
 
 
 def load_archives():
@@ -183,6 +385,12 @@ def check_facsimile(q, where, archives, errors, warnings):
         errors.append(f"{where}.facsimile: archive {ak!r} has an unreadable manifest: "
                       f"{arc['__load_error__']}")
         return
+    if not (arc.get("iiif_url") or "").strip():
+        errors.append(f"{where}.facsimile: archive {ak!r} has no `iiif_url`, so the reader would "
+                      f"draw a 'View original' button that resolves to nothing. An archive with "
+                      f"no image service can be indexed and cited, but it cannot back a "
+                      f"facsimile - use `manuscript` with a `url` instead")
+        return
     if ik not in arc["items"]:
         errors.append(f"{where}.facsimile: {ak} has no item {ik!r}")
         return
@@ -208,17 +416,59 @@ def check_facsimile(q, where, archives, errors, warnings):
     check_document(q, where, errors)
 
 
+SHELFMARK_IN_NAME = re.compile(r"\b(?:MA|MS|MSS|Add\.? ?MS|b?MS)\s*\d", re.I)
+
+
+ARCHIVED_AS = {"autograph", "typescript", None}
+
+
 def check_manuscript(q, where, errors):
     """Where the original survives, for a source whose document is not scanned here.
 
         "manuscript": {"repository": "William Andrews Clark Memorial Library, UCLA",
-                       "url": "https://…"}
+                       "url": "https://…", "archived_as": "typescript"}
 
     The counterpart to `facsimile`, and the commoner case by far: of the letters this map quotes
     from the Complete Letters, 8 have manuscripts at the Harry Ransom Center and roughly 100 at
     the Clark. Naming the repository is not a substitute for the image, but it is the difference
     between "we cannot show you this" and "nobody knows where this is" - and for a handful of
     letters printed from a dealer's catalogue or a memoir, the second is the true answer.
+
+    `archived_as` says what KIND OF OBJECT is in that repository - an `autograph`, in the
+    writer's own hand, or a `typescript`, somebody's typed copy of it. It exists because those two answer the
+    emphasis question differently. A letter in Wilde's hand can be read for underlining; a
+    typescript of the same letter cannot, because whoever typed it had already read the
+    underlining and decided what it meant. Murray read Douglas's 1909 letter to Ross as "Ross TS.
+    Clark." The Clark is where the text is, and it is not where the letter is.
+
+    It is NOT `how_verified`, which is a fact about us - how we read the text we quote. Here that
+    is `photo-reproduction`, meaning a scan of Murray's book; nobody on this project has been to
+    the Clark. `archived_as` is a fact about the archive, and it is usually known - as here -
+    precisely when nobody has been near the document. One is our act, the other is the object.
+
+    Write `archived_as` only when it DIFFERS from what the document implies: a letter is an
+    autograph unless somebody says otherwise, a typescript is typed. Restating the default says
+    nothing, so the validator refuses it, and its presence always means "not what you assumed".
+
+    `owner` names the individual a private holding was last known to belong to, expanded from the
+    volume's own key at pp. xxiv-xxv - `MS Mason` is Mr Jeremy Mason. It sits beside a repository
+    of "Private collection" rather than replacing it, so the location facet stays one bucket a
+    reader can filter on instead of fragmenting into thirty-five owners. Absent for `MS Private`,
+    which names nobody by design.
+
+    `recorded_by` says WHO placed the document there, for the records where that is not the work
+    being quoted. Three letters here are quoted from Ricketts's Self-Portrait (1939), which names
+    no locations at all; what locates them is Delaney's 1990 biography, whose manuscript-sources
+    list is arranged by correspondent. Crediting the location to Sturge Moore would be inventing
+    an editorial act he never performed. Leave it out when the citing work IS the authority, and
+    the card names that work's editors - because it is the editors of a collected edition who
+    write the headnotes, not its long-dead author.
+
+    `as_of` says WHEN the holding was last attested, for the cases where that is not the date of
+    the edition citing it. A letter last seen in a saleroom is why it exists: the American Art
+    Association had Wilde's letter to Smithers on 9 February 1927, and the Complete Letters
+    report that in 2000 without anybody having seen it in between. Free text, because what is
+    known varies - a date, a year, a sale.
     """
     m = q.get("manuscript")
     if m is None:
@@ -230,12 +480,86 @@ def check_manuscript(q, where, errors):
         errors.append(f"{where}.manuscript: repository is required - write it out in full, as it "
                       f"appears on the card ('William Andrews Clark Memorial Library, UCLA'), "
                       f"not as the abbreviation the Complete Letters print")
+    # A shelfmark is not part of an institution's name. Left in, the next letter from the same
+    # archive under a different shelfmark becomes a second "repository", and the field turns into
+    # a citation - which is what `original_provenance` is for. Named COLLECTIONS are fine and
+    # common ("(Lady Eccles Oscar Wilde Collection)"), so the test is specifically for a mark
+    # followed by digits.
+    if SHELFMARK_IN_NAME.search(m.get("repository") or ""):
+        errors.append(f"{where}.manuscript: repository {m['repository']!r} carries a shelfmark. "
+                      f"Name the institution or the named collection only, and put the shelfmark "
+                      f"in `original_provenance`")
+    held = m.get("archived_as")
+    if held not in ARCHIVED_AS:
+        errors.append(f"{where}.manuscript: archived_as must be 'autograph', "
+                      f"'typescript' or absent, "
+                      f"got {held!r}")
+    elif held is not None:
+        kind = DOCUMENTS.get(q.get("document"))
+        implied = "autograph" if kind and kind[0] else "typescript"
+        if held == implied:
+            errors.append(f"{where}.manuscript: archived_as {held!r} is what a "
+                          f"{q.get('document')!r} already implies, so it says nothing. Write "
+                          f"`archived_as` only where the held document contradicts its type - a letter "
+                          f"surviving as somebody's typescript, a printed text corrected by hand")
+    ow = m.get("owner")
+    if ow is not None and not (isinstance(ow, str) and ow.strip()):
+        errors.append(f"{where}.manuscript: owner must be a non-empty string - the individual "
+                      f"named in the volume's key ('Mr Jeremy Mason')")
+    elif ow and (m.get("repository") or "") != "Private collection":
+        errors.append(f"{where}.manuscript: owner is for a `Private collection` holding. An "
+                      f"institution's name goes in `repository`, not here")
+    rb = m.get("recorded_by")
+    if rb is not None and not (isinstance(rb, str) and rb.strip()):
+        errors.append(f"{where}.manuscript: recorded_by must be a non-empty string - who placed "
+                      f"the document there, where that is not the work being quoted "
+                      f"('Delaney, Charles Ricketts (1990)')")
+    if m.get("as_of") is not None and not (isinstance(m["as_of"], str) and m["as_of"].strip()):
+        errors.append(f"{where}.manuscript: as_of must be a non-empty string - when the holding "
+                      f"was last attested ('9 February 1927'), where that is not the date of the "
+                      f"edition citing it")
     u = m.get("url")
     if u is not None and (not isinstance(u, str) or not u.startswith(("http://", "https://"))):
         errors.append(f"{where}.manuscript: url must be an http(s) address, got {u!r}")
     if q.get("facsimile") is not None:
         errors.append(f"{where}: carries both a facsimile and a manuscript pointer - the "
                       f"facsimile already names the archive holding the pages it shows")
+
+
+LETTER_ID = re.compile(r"^[a-z0-9][a-z0-9._-]*/[A-Za-z0-9._:-]+(?:#\d+)?$")
+
+
+def check_letter_id(q, where, errors):
+    """`letter_id` / `letter_ids`: WHICH document is quoted. At most one of the two.
+
+    A folio is not a letter - 53% of this volume's letter-bearing pages carry more than one - so
+    the citation alone cannot say which, and the id is what joins a quotation to a manifest entry
+    or a transcription of the same document.
+
+    `letter_ids` is the plural, for the few records that quote two documents as one passage. It
+    exists because splitting those records would destroy what they were written to show: two
+    postcards sent on one day prove something neither proves alone. Carrying both fields would
+    leave two answers to one question, so they are mutually exclusive.
+    """
+    one, many = q.get("letter_id"), q.get("letter_ids")
+    if one is not None and many is not None:
+        errors.append(f"{where}: carries both letter_id and letter_ids - use the plural alone "
+                      f"when a record quotes more than one document, and the singular otherwise")
+    if one is not None and (not isinstance(one, str) or not LETTER_ID.match(one)):
+        errors.append(f"{where}: letter_id must read work/folio#ordinal, or archive then the "
+                      f"archive's own page identifier ('letters-2000/1198#2', "
+                      f"'hrc/MSS_WildeO_2_10_004'), got {one!r}")
+    if many is not None:
+        if not isinstance(many, list) or len(many) < 2:
+            errors.append(f"{where}: letter_ids is for a record quoting two or more documents; "
+                          f"with one, use letter_id")
+        else:
+            for v in many:
+                if not isinstance(v, str) or not LETTER_ID.match(v):
+                    errors.append(f"{where}.letter_ids: malformed id {v!r}")
+            if len(set(many)) != len(many):
+                errors.append(f"{where}.letter_ids: the same id twice - a record quoting one "
+                              f"document once takes letter_id")
 
 
 def check_document(q, where, errors):
@@ -246,34 +570,136 @@ def check_document(q, where, errors):
     the artifact when it differs from the work; a historian's own sentence leaves it unset,
     because there the work IS the document and a label would say nothing.
 
-    `verified_against: "original"` then means someone went to that artifact. It is only a
-    meaningful claim for something written out by hand: a printed pamphlet has no original behind
-    the print, and no emphasis a compositor did not set.
+    `original_provenance` is the claim to have gone to that artifact rather than reading it where
+    it was reprinted - and that is worth doing for a printed document as well as a written one. A
+    copy carries what the printing does not: an inscription, marginalia, a correction, a cancelled
+    leaf, a variant state. `inscription` is a document type here precisely because a hand-written
+    mark in a printed book is a thing this map quotes.
+
+    `verified_against_original` is the fact; `original_provenance` is the write-up. Either may
+    arrive first, so only the write-up implies the fact.
+
+    What the claim cannot survive is being made from a text layer, or being made where the work
+    cited IS the document and there is no second thing to have read.
     """
     doc = q.get("document")
-    if doc is not None and doc not in DOCUMENTS:
-        errors.append(f"{where}: unknown document {doc!r} - one of "
-                      f"{', '.join(sorted(DOCUMENTS))}, or omit it when the work being cited IS "
-                      f"the document")
-    va = q.get("verified_against")
-    if va not in VERIFIED_AGAINST:
-        errors.append(f"{where}: verified_against must be 'original' or absent, got {va!r}")
-        return
-    if va != "original":
-        return
     if doc is None:
-        errors.append(f"{where}: verified_against 'original' needs a `document` saying WHICH "
-                      f"original was read")
-    elif not DOCUMENTS.get(doc):
-        errors.append(f"{where}: verified_against 'original' on a {doc}, which is printed - the "
-                      f"work cited is already the original, so there is nothing further to read")
-    if q.get("how_verified") not in {"page-image", "in-hand"}:
-        errors.append(f"{where}: verified_against 'original' but how_verified is "
-                      f"{q.get('how_verified')!r} - reading the original means seeing it, in "
-                      f"hand or as a page image")
-    if not (q.get("provenance") or "").strip():
-        errors.append(f"{where}: verified_against 'original' with empty provenance - say which "
-                      f"pages were read and what was found, including a null finding")
+        errors.append(f"{where}: every source names its `document` - what kind of thing is being "
+                      f"quoted. Where the work cited IS the document, say what the work is: a "
+                      f"biography, a study, an article, an editorial note. One of "
+                      f"{', '.join(sorted(DOCUMENTS))}")
+    elif doc not in DOCUMENTS:
+        errors.append(f"{where}: unknown document {doc!r} - one of "
+                      f"{', '.join(sorted(DOCUMENTS))}")
+    if q.get("verified_against") is not None:
+        errors.append(f"{where}: `verified_against` was renamed - write "
+                      f"`verified_against_original: true`, and put what you read at the document "
+                      f"in `original_provenance`")
+    va = q.get("verified_against_original")
+    if va not in VERIFIED_AGAINST_ORIGINAL:
+        errors.append(f"{where}: verified_against_original must be true or absent, got {va!r} - "
+                      f"there is no false. A document nobody has opened simply does not carry it")
+    elif va:
+        if doc is None:
+            errors.append(f"{where}: verified_against_original needs a `document` saying WHICH "
+                          f"original was read")
+        if q.get("how_verified") not in {"photo-reproduction", "in-hand"}:
+            errors.append(f"{where}: verified_against_original but how_verified is "
+                          f"{q.get('how_verified')!r} - reading the original means seeing it, in "
+                          f"hand or as a photographic reproduction")
+    mv = q.get("marks_verified")
+    if mv not in MARKS_VERIFIED:
+        errors.append(f"{where}: marks_verified must be true or absent, got {mv!r} - there is no "
+                      f"false. A quotation nobody has collated simply does not carry the field")
+    elif mv and q.get("how_verified") == "text-layer":
+        errors.append(f"{where}: marks_verified with how_verified 'text-layer' - a text layer "
+                      f"drops italics and accents, so it cannot be what the marks were checked "
+                      f"against. This is how a whole postscript came to be marked as underlined")
+    if not (q.get("original_provenance") or "").strip():
+        return
+    # One way only. Writing up what you saw at the document says you were there; being there does
+    # not oblige you to have written it up yet.
+    if not q.get("verified_against_original"):
+        errors.append(f"{where}: `original_provenance` without `verified_against_original: true` "
+                      f"- a note about what was read at the document says the document was read")
+    if not (q.get("citation_provenance") or "").strip():
+        errors.append(f"{where}: `original_provenance` with empty `citation_provenance` - the "
+                      f"record still has to say where the passage sits in the work being cited")
+    # The claim lives in its OWN field. Previously it rested on `citation_provenance`, which is about the
+    # reprinting, and the rule could only look for a shelfmark inside prose - so "PDF pp.
+    # 1070-1071." satisfied a claim about a manuscript, and a well-written note in other words
+    # would have failed. A separate field cannot be satisfied by accident.
+# Three answers to "where is this" that are not archives. They are what the question comes to
+# when the document is a published work, a page on the web, or a unique object nobody has traced,
+# and every source lands on one of them if it lands on no archive - so the filter has no residue
+# left in it at all. Sorted below the archives in the browser, because they are not places.
+DERIVED_LOCATION = {
+    "published": {"short": "Published", "full": "Published work"},
+    "online": {"short": "Online", "full": "Published on the web"},
+    "unknown": {"short": "Unknown", "full": "Location unknown"},
+}
+
+
+def work_availability(wk):
+    """Whether a copy of this WORK can be had, and how. Nothing to do with the document in it.
+
+    A `-web` work is read where it is published and a library cannot get it for you. Everything
+    with a publisher or a scan on the Internet Archive is a book somebody can borrow - the
+    Internet Archive counts because it is evidence of publication, not because we would send a
+    reader there, which matters for the one 1924 volume whose publisher we have not confirmed.
+    What is left is genuinely unpublished: a lecture text, a personal communication.
+    """
+    wk = wk or {}
+    if (wk.get("kind") or "").endswith("-web"):
+        return "online"
+    return "published" if (wk.get("publisher") or wk.get("ia_id")) else "unknown"
+
+
+def resolve_location(q, archives, works):
+    """Where the document is, in the one shape the card and the filter both read.
+
+    A facsimile names an archive we hold a manifest for; a manuscript names a repository in
+    prose. They are the same question asked twice by the corpus, so they get one answer here and
+    the browser is spared knowing that.
+
+    The SHORT form is what the filter groups on, deliberately: "Pierpont Morgan Library, New
+    York" and "The Morgan Library & Museum, New York (MA 7258)" are one institution written two
+    ways, and a reader asking what the Morgan holds means both.
+
+    Where no archive is recorded the answer is derived, and which way round it goes depends on
+    whether the document is its own object or is the work: an untraced letter is Unknown, and a
+    biography is wherever the biography is. A recorded archive always wins, so tracing one
+    later is the only edit needed.
+    """
+    f = q.get("facsimile")
+    if isinstance(f, dict):
+        arc = archives.get(f.get("archive")) or {}
+        full = arc.get("name") or ""
+        # The abbreviations table wins over the manifest's own short_name, so an archive that is
+        # ALSO named as a repository by other records lands on one label and groups with them.
+        short = REPOSITORY_SHORT.get(full) or arc.get("short_name") or short_repository(full)
+        if short:
+            return {"short": short, "full": full}
+    m = q.get("manuscript")
+    if isinstance(m, dict) and (m.get("repository") or "").strip():
+        full = m["repository"].strip()
+        out = {"short": short_repository(full), "full": full}
+        # Carried through so the card can say what is actually in that repository. It rides on
+        # the location rather than being read off `manuscript` in the browser for the same reason
+        # the location does: one shape, resolved once, and the chip and the filter cannot drift.
+        if m.get("archived_as"):
+            out["archived_as"] = m["archived_as"]
+        if m.get("as_of"):
+            out["as_of"] = m["as_of"]
+        if m.get("recorded_by"):
+            out["recorded_by"] = m["recorded_by"]
+        if m.get("owner"):
+            out["owner"] = m["owner"]
+        return out
+    kind = DOCUMENTS.get(q.get("document"))
+    if kind and kind[1] == UNIQUE:
+        return dict(DERIVED_LOCATION["unknown"])
+    return dict(DERIVED_LOCATION[work_availability(works.get(q.get("work")))])
 
 
 def resolve_facsimile(q, archives):
@@ -393,7 +819,7 @@ TURN_ATTRIB = re.compile(r"(?:The Clerk of Arraigns|The Foreman|Mr\. Justice Wil
 
 
 def check_turns(q, where, errors):
-    """An `exchange` is displayed as a transcript, and the transcript has to BE the quotation.
+    """A court record MAY be displayed as a transcript, and the transcript has to BE the quotation.
 
     The rows are split from the quoted text by a heuristic over two printing conventions, then read
     and corrected by hand, so the risk is not that the splitter fails loudly - it is that a row
@@ -403,16 +829,15 @@ def check_turns(q, where, errors):
     """
     turns = q.get("turns")
     voice = q.get("voice")
-    if voice != "exchange":
+    if voice != "court":
         if turns:
-            errors.append(f"{where}: has `turns` but voice is {voice!r} - turns are for an "
-                          f"exchange, which is period text with more than one speaker in it")
-        return
-    if (q.get("quote") or "").strip() and not turns:
-        errors.append(f"{where}: voice is 'exchange' but there are no `turns` - run "
-                      f"the dump_turns tool, read the split, and store it")
+            errors.append(f"{where}: has `turns` but voice is {voice!r} - turns are for a court "
+                          f"record set out as a transcript")
         return
     if not turns:
+        # A plea or a verdict is continuous prose in one voice. Only a genuine question-and-answer
+        # needs splitting, and demanding turns of everything is what produced pleas carrying a
+        # single invented turn attributed to Queensberry.
         return
     if not isinstance(turns, list) or any(not isinstance(t, dict) for t in turns):
         errors.append(f"{where}: `turns` must be a list of objects")
@@ -480,8 +905,8 @@ def validate_quote(q, where, works, errors, warnings=None, archives=None):
         errors.append(f"{where}: bad voice {q.get('voice')!r} (period / modern)")
     if (q.get("quote") or "").strip() and q.get("voice") is None:
         errors.append(f"{where}: a quote must say whose voice it is (period / modern)")
-    if v in {"verified-exact", "verified-elision"} and not (q.get("provenance") or "").strip():
-        errors.append(f"{where}: verified quote with empty provenance")
+    if v in {"verified-exact", "verified-elision"} and not (q.get("citation_provenance") or "").strip():
+        errors.append(f"{where}: verified quote with empty citation_provenance")
     if (q.get("quote") or "") == "" and v not in {None, "unverified"}:
         errors.append(f"{where}: pointer (empty quote) must be unverified")
     wk = q.get("work")
@@ -494,11 +919,12 @@ def validate_quote(q, where, works, errors, warnings=None, archives=None):
     check_turns(q, where, errors)
     check_facsimile(q, where, archives if archives is not None else {}, errors, warnings)
     check_manuscript(q, where, errors)
+    check_letter_id(q, where, errors)
     if q.get("addressee") is not None:
         if not isinstance(q["addressee"], str) or not q["addressee"].strip():
             errors.append(f"{where}: addressee must be a name, or absent - use null/omit when the "
                           f"source does not say who was being addressed")
-        elif q.get("voice") not in ("period", "exchange"):
+        elif q.get("voice") not in ("period", "court"):
             errors.append(f"{where}: addressee is for a participant's own words; a modern voice "
                           f"(a historian writing about them) has no addressee")
     # The citation prints the work; a speaker that also names it says the book twice in one line.
@@ -602,6 +1028,13 @@ def check_bare_label(r, rid, errors):
 def validate(works, people, rels, archives=None):
     archives = archives if archives is not None else {}
     errors, warnings = [], []
+    # `kind` used to be free text nothing read, so a typo cost nothing. It now decides whether a
+    # source with no archive of its own is reported as Published or as Online, and a misspelled
+    # "-web" would quietly send a web page to the shelves.
+    for wid, wk in works.items():
+        if (wk or {}).get("kind") not in WORK_KINDS:
+            errors.append(f"works.json {wid}: unknown kind {(wk or {}).get('kind')!r} - one of "
+                          f"{', '.join(sorted(WORK_KINDS))}")
     pids = set()
     for p in people:
         if "__load_error__" in p:
@@ -975,6 +1408,8 @@ def main():
     archives = load_archives()
 
     errors, warnings = validate(works, people, rels, archives)
+    # Loaded after the sources so its own errors join theirs and one run reports everything.
+    transcriptions = load_transcriptions(errors)
     dash, vq = dashboard([p for p in people if "__load_error__" not in p],
                          [r for r in rels if "__load_error__" not in r])
     print(dash)
@@ -1020,10 +1455,61 @@ def main():
                 fac_count += 1
             else:
                 q.pop("facsimile", None)
+
+    # Where the document is, resolved once for every source rather than twice in the browser.
+    # Runs over ALL sources, not only the ones with a facsimile: most say where the original is
+    # through `manuscript` instead, and the rest get the derived answer.
+    loc_count = 0
+    for sources in ([r.get("sources") or [] for r in kept_rels] +
+                    [ce.get("sources") or [] for p2 in kept_people
+                     for ce in p2.get("sexuality_sources") or []]):
+        for q in sources:
+            loc = resolve_location(q, archives, works)
+            if loc:
+                q["location"] = loc
+                if loc["short"] not in ("Published", "Online", "Unknown"):
+                    loc_count += 1
+
     # Archives that nothing cites are still bundled whole. The scans are published, and the
     # reader lets you walk out of a quoted letter into the folder it is kept in - which is only
     # possible if the browser holds the folder's page list, not just the cited sheets.
-    arc_meta = {k: a for k, a in archives.items() if "__load_error__" not in a}
+    #
+    # An archive with no `iiif_url` is left OUT: with no image service there is nothing to walk
+    # into, so shipping its page list to every visitor buys a reader nothing. All the manifests
+    # live here now, including ones for material held only as a private reference copy, and
+    # marland-blog alone is 97 items.
+    arc_meta = {k: a for k, a in archives.items()
+                if "__load_error__" not in a and (a.get("iiif_url") or "").strip()}
+
+    # ---- the transcriptions the map cites, and only those ------------------------------------
+    # A separate file rather than a key in the bundle: most readers never open a letter, and this
+    # is the one part of the corpus that grows without bound as the reading checklist is worked
+    # through. Fetched on demand.
+    #
+    # THE GATE. Everything read from the printed edition is private; what crosses is the letters
+    # this map quotes, each one selected because a card carries an excerpt of it and a reader may
+    # need the rest to judge the excerpt. Derived from the citations, never curated - the one time
+    # two copies of anything here were kept in step by hand they needed a script to police them.
+    cited = set()
+    for sources in ([r.get("sources") or [] for r in kept_rels] +
+                    [ce.get("sources") or [] for p2 in kept_people
+                     for ce in p2.get("sexuality_sources") or []]):
+        for q in sources:
+            if q.get("letter_id"):
+                cited.add(q["letter_id"])
+            cited.update(q.get("letter_ids") or [])
+    public = {k: {f: v for f, v in t.items() if f != "at"}
+              for k, t in transcriptions.items() if k in cited}
+    # Leakage is a build failure, not something anybody has to remember. By construction nothing
+    # uncited is here; the assertion is what keeps that true after somebody edits the loop above.
+    leaked = sorted(k for k, t in public.items()
+                    if k not in cited and t.get("text_from") == "edition")
+    if leaked:
+        sys.exit(f"REFUSING TO WRITE: {len(leaked)} transcription(s) from the printed edition "
+                 f"that nothing cites would have been published — {', '.join(leaked[:5])}")
+    tout = DATA / "transcriptions.json"
+    tout.write_text(json.dumps({"letters": public}, ensure_ascii=False,
+                               separators=(",", ":")) + "\n", encoding="utf-8")
 
     bundle = {"people": kept_people,
               "relationships": kept_rels,
@@ -1040,7 +1526,12 @@ def main():
         pages = sum(len(i["pages"]) for a in archives.values() if "__load_error__" not in a
                     for i in a["items"].values())
         print(f"{pages} manuscript pages indexed in {len(arc_meta)} archive(s); "
-              f"{fac_count} source(s) show a facsimile")
+              f"{fac_count} source(s) show a facsimile, {loc_count} name where the document is")
+    held = len(transcriptions)
+    from_ed = sum(1 for t in transcriptions.values() if t["text_from"] == "edition")
+    print(f"wrote {tout.relative_to(ROOT)}: {len(public)} of {len(cited)} cited letters have a "
+          f"full text ({held} transcribed in all, {from_ed} from the printed edition and private "
+          f"unless cited)")
 
 
 main()

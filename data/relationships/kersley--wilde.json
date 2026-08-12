@@ -30,11 +30,11 @@
       },
       "supports": "That the friendship was acknowledged from Kersley's side too, in print.",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "PDF p. 273.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF p. 273.",
       "verified_on": "2026-08-05",
       "voice": "period",
-      "document": "letter"
+      "document": "essay"
     },
     {
       "work": "letters-2000",
@@ -51,11 +51,15 @@
       },
       "supports": "How it started: a death in the family, and Wilde proposing himself for tea.",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "PDF p. 273.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF p. 273.",
       "verified_on": "2026-08-05",
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "Rosenbach Museum and Library, Philadelphia"
+      },
+      "letter_id": "letters-2000/251#1"
     },
     {
       "work": "letters-2000",
@@ -72,17 +76,21 @@
       },
       "supports": "Wilde passing a young poet on to Whitman.",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "PDF p. 305.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF p. 305.",
       "verified_on": "2026-08-05",
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "William Andrews Clark Memorial Library, UCLA"
+      },
+      "letter_id": "letters-2000/283#3"
     },
     {
       "work": "letters-2000",
       "locator": "p. 352",
       "locator_type": "page",
-      "quote": "Dear Mr Kersley, I am very pleased that you like my stories. They are studies in prose, put for Romance's sake into a fanciful form: meant partly for children, and partly for those who have kept the childlike faculties of wonder and joy, and who find in simplicity a subtle strangeness. If you come to tea some Wednesday about 5.30 o'clock I will be charmed to write your name in the book. I hope your painting is going on all right. Truly yours",
+      "quote": "Dear Mr Kersley, I am very pleased that you like my stories — they are studies in prose, put for Romance's sake into a fanciful form: meant partly for children, and partly for those who have kept the childlike faculties of wonder and joy, and who find in simplicity a subtle strangeness. If you come to tea some Wednesday about 5.30 o'clock I will be charmed to write your name in the book. I hope your painting is going on all right. Truly yours",
       "context": "Wilde to G. H. Kersley, [15 June 1888], 16 Tite Street (F Hyde) - quoted whole. The stories are The Happy Prince and Other Tales, published that May, and the sentence about what they are for is one of the clearest statements Wilde made about them.",
       "speaker": "Oscar Wilde",
       "addressee": "G. H. Kersley",
@@ -93,11 +101,19 @@
       },
       "supports": "The book promised in 1885, three years later, and what Wilde said his stories were for.",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "PDF p. 374.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF p. 374.",
       "verified_on": "2026-08-05",
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "The Morgan Library & Museum, New York",
+        "url": "https://www.themorgan.org/collection/oscar-wilde/manuscripts-letters/43"
+      },
+      "original_provenance": "Read at the Morgan, MA 7258, the facsimile's pages 43-44 (`wilde_ma7258.13-1` and `.13-2-3`), three sides on 16 Tite Street paper ending in the signature. IDENTIFICATION: the Complete Letters print this letter from a FACSIMILE in the Hyde collection - their headnote is 'F Hyde', not 'MS' - because the autograph was in private hands in 2000. It came to the Morgan in the 2008 gift, and the text matches word for word. EMPHASIS: the long rising stroke below 'on all right.' is detached from the line above it and slopes upward across the sheet; it is the paraph Wilde drew before a signature, not a rule under 'all right'. PUNCTUATION: one dash restored. He wrote 'my stories — they are studies in prose', mid-line with the sentence continuing, where the printed text has a full stop and a capital. NOT ADOPTED: he abbreviates the time as \"o'c.\" where the printed text reads \"o'clock\"; the volume's note on the text says abbreviations were lengthened throughout, and that is an editorial expansion rather than a mark, so the printed form stands.",
+      "marks_verified": true,
+      "verified_against_original": true,
+      "letter_id": "letters-2000/352#1"
     },
     {
       "work": "letters-2000",
@@ -114,11 +130,15 @@
       },
       "supports": "Reproach for not calling, and Wilde offering to put a word in for him.",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "PDF p. 432.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF p. 432.",
       "verified_on": "2026-08-05",
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "William Andrews Clark Memorial Library, UCLA"
+      },
+      "letter_id": "letters-2000/410#1"
     },
     {
       "work": "letters-2000",
@@ -135,11 +155,16 @@
       },
       "supports": "The warmest of the invitations, and the reproach repeated five months on.",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "PDF p. 442.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF p. 442. The volume heads this letter 'TS Clark' - a TYPESCRIPT, not Wilde's hand. Nothing in it can settle emphasis: whoever typed it had already read the underlining.",
       "verified_on": "2026-08-05",
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "William Andrews Clark Memorial Library, UCLA",
+        "archived_as": "typescript"
+      },
+      "letter_id": "letters-2000/420#1"
     },
     {
       "work": "letters-2000",
@@ -156,11 +181,15 @@
       },
       "supports": "Two sentences, and both of them are 'come and see me'.",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "PDF p. 465.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF p. 465.",
       "verified_on": "2026-08-05",
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "William Andrews Clark Memorial Library, UCLA"
+      },
+      "letter_id": "letters-2000/443#2"
     },
     {
       "work": "letters-2000",
@@ -177,11 +206,15 @@
       },
       "supports": "How Wilde said sorry for losing touch, five months before the trials.",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "PDF p. 675.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF p. 675.",
       "verified_on": "2026-08-05",
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "British Library, London (Lady Eccles Oscar Wilde Collection)"
+      },
+      "letter_id": "letters-2000/622#2"
     }
   ],
   "date_label": "London, 1885-1894"

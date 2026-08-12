@@ -33,11 +33,15 @@
       },
       "supports": "The earliest surviving sign-off to Ward — 'Your affectionate friend' — and the Ward/Harding/Wilde triangle in one letter.",
       "verification": "verified-elision",
-      "how_verified": "page-image",
-      "provenance": "PDF p. 40.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF p. 40.",
       "verified_on": "2026-08-05",
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "Magdalen College, Oxford"
+      },
+      "letter_id": "letters-2000/14#2"
     },
     {
       "work": "letters-2000",
@@ -54,11 +58,15 @@
       },
       "supports": "The First and the grief in the same breath — what Wilde told Ward that he told almost nobody.",
       "verification": "verified-elision",
-      "how_verified": "page-image",
-      "provenance": "PDF p. 45.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF p. 45.",
       "verified_on": "2026-08-05",
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "Magdalen College, Oxford"
+      },
+      "letter_id": "letters-2000/20#1"
     },
     {
       "work": "letters-2000",
@@ -75,11 +83,15 @@
       },
       "supports": "A week inside the Miles household, written up entirely in terms of the parents.",
       "verification": "verified-elision",
-      "how_verified": "page-image",
-      "provenance": "PDF p. 47.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF p. 47.",
       "verified_on": "2026-08-05",
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "Magdalen College, Oxford"
+      },
+      "letter_id": "letters-2000/22#1"
     },
     {
       "work": "letters-2000",
@@ -96,11 +108,15 @@
       },
       "supports": "What Wilde and Ward actually talked about — faith, Newman, reason — which is the friendship's substance and is not romantic.",
       "verification": "verified-elision",
-      "how_verified": "page-image",
-      "provenance": "PDF p. 50.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF p. 50.",
       "verified_on": "2026-08-05",
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "Magdalen College, Oxford"
+      },
+      "letter_id": "letters-2000/25#1"
     },
     {
       "work": "letters-2000",
@@ -117,11 +133,15 @@
       },
       "supports": "What Wilde could say to Ward and to nobody else, and the earliest recorded instance of him handling a suspected attachment between men.",
       "verification": "verified-elision",
-      "how_verified": "page-image",
-      "provenance": "PDF pp. 53-54.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF pp. 53-54.",
       "verified_on": "2026-08-05",
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "Magdalen College, Oxford"
+      },
+      "letter_id": "letters-2000/27#1"
     },
     {
       "work": "letters-2000",
@@ -138,11 +158,15 @@
       },
       "supports": "Wilde inviting Ward and Harding together for a month, and the exact placement of a Frank Miles mention — the thing Croft-Cooke says the charge lives in.",
       "verification": "verified-elision",
-      "how_verified": "page-image",
-      "provenance": "PDF p. 56.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF p. 56.",
       "verified_on": "2026-08-05",
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "Magdalen College, Oxford"
+      },
+      "letter_id": "letters-2000/31#1"
     },
     {
       "work": "letters-2000",
@@ -159,31 +183,43 @@
       },
       "supports": "Wilde's own observation that Ward was indifferent to women, and his wish that he would not be.",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "PDF p. 63.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF p. 63.",
       "verified_on": "2026-08-05",
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "Magdalen College, Oxford"
+      },
+      "letter_id": "letters-2000/38#1"
     },
     {
       "work": "letters-2000",
       "locator": "pp. 18, 59",
       "locator_type": "page",
-      "quote": "My dear Bouncer, I am in terrible dread of reading a pathetic account in Reynolds' Police News of 'the death by starvation of a young man on Lundy Island'. The idea of you forgetting your food. I hope you got it safe. … [and, from the letter of August 1877:] After all I can't trust my letter from Pater to the mercies of the postman, but I send you a copy … You won't think me snobbish for sending you this? After all, it is something to be honestly proud of.",
-      "context": "Two letters joined here because they show the same thing: what Wilde brought to Ward first. The first is [2 July 1876], The Vicarage, West Ashby (MS Magdalen), fussing over whether Ward had eaten. The second is [August 1877] and encloses a full copy of Walter Pater's first letter to Wilde — 'it makes me much wish to make your acquaintance' — which Wilde would not trust to the post in the original. He was twenty-two. The Pater letter is printed in full on the same page and Pater is not on this map.",
+      "quote": "My dear Bouncer, I am in terrible dread of reading a pathetic account in Reynolds' Police News of 'the death by starvation of a young man on Lundy Island'. The idea of you forgetting your food. I hope you got it safe. … [and, from the letter of 19 July 1877:] After all I can't trust my letter from Pater to the mercies of the postman, but I send you a copy … You won't think me snobbish for sending you this? After all, it is something to be honestly proud of.",
+      "context": "Two letters joined here because they show the same thing: what Wilde brought to Ward first. The first is [2 July 1876], The Vicarage, West Ashby (MS Magdalen), fussing over whether Ward had eaten. The second is [postmark 19 July 1877], 1 Merrion Square North, and encloses a full copy of Walter Pater's first letter to Wilde — 'it makes me much wish to make your acquaintance' — which Wilde would not trust to the post in the original. He was twenty-two. The Pater letter is printed in full on the page quoted here and Pater is not on this map.",
       "speaker": "Oscar Wilde",
       "addressee": "William Ward",
       "evidence_date": {
         "y": 1877,
-        "m": 8
+        "m": 7,
+        "d": 19
       },
       "supports": "The confidence in the friendship — solicitude about his meals, and the proudest letter of his young life sent to Ward before anyone else.",
       "verification": "verified-elision",
-      "how_verified": "page-image",
-      "provenance": "PDF p. 43 and 86. The two letters are quoted together and the join is marked; each is separately locatable at its own folio.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF p. 43 and 86. The two letters are quoted together and the join is marked; each is separately locatable at its own folio. The second begins on printed 57 and the quoted passage falls at the head of 59.",
       "verified_on": "2026-08-05",
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "Magdalen College, Oxford"
+      },
+      "letter_ids": [
+        "letters-2000/18#1",
+        "letters-2000/57#1"
+      ]
     },
     {
       "work": "letters-2000",
@@ -200,11 +236,15 @@
       },
       "supports": "Wilde at his lowest before the First was announced, asking Ward why he does not write and whether he will come.",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "PDF p. 96.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF p. 96.",
       "verified_on": "2026-08-05",
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "Magdalen College, Oxford"
+      },
+      "letter_id": "letters-2000/69#2"
     },
     {
       "work": "letters-2000",
@@ -221,11 +261,15 @@
       },
       "supports": "What Ward's congratulations were worth to him, and the plain wish to see him.",
       "verification": "verified-elision",
-      "how_verified": "page-image",
-      "provenance": "PDF p. 97.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF p. 97.",
       "verified_on": "2026-08-05",
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "Magdalen College, Oxford"
+      },
+      "letter_id": "letters-2000/70#1"
     },
     {
       "work": "letters-2000",
@@ -241,11 +285,15 @@
       },
       "supports": "The close of the correspondence, five years on and still affectionate — and Wilde's estimate of Ward's judgement.",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "PDF p. 137.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF p. 137.",
       "verified_on": "2026-08-05",
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "Magdalen College, Oxford"
+      },
+      "letter_id": "letters-2000/112#2"
     }
   ],
   "date_label": "Oxford and after, 1876-1881"

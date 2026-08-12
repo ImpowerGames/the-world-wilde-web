@@ -31,11 +31,15 @@
       },
       "supports": "The friendship at its ordinary footing, months before she gave him £1,000.",
       "verification": "verified-exact",
-      "how_verified": "page-image",
-      "provenance": "PDF p. 677.",
+      "how_verified": "photo-reproduction",
+      "citation_provenance": "PDF p. 677.",
       "verified_on": "2026-08-06",
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "British Library, London (Lady Eccles Oscar Wilde Collection)"
+      },
+      "letter_id": "letters-2000/625#2"
     }
   ],
   "date_label": "London, 1894"

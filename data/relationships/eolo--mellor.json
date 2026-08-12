@@ -29,10 +29,14 @@
       "supports": "What the correspondence records of Eolo's position in Mellor's household: the purchase from his father for 200 lire, his name, and Mellor's boredom with him",
       "verification": "verified-exact",
       "how_verified": "text-layer",
-      "provenance": "PDF p. 1162. Contiguous run from a page; no elision inside this quote.",
+      "citation_provenance": "PDF p. 1162. Contiguous run from a page; no elision inside this quote.",
       "verified_on": "2026-08-03",
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "William Andrews Clark Memorial Library, UCLA"
+      },
+      "letter_id": "letters-2000/1116#1"
     },
     {
       "quote": "He is now in Paris with his slave Eolo, who like all slaves is most tyrannical.",
@@ -48,10 +52,14 @@
       "supports": "The same relation twenty months later, in Wilde's plain word - Eolo still described as Mellor's property",
       "verification": "verified-exact",
       "how_verified": "text-layer",
-      "provenance": "PDF p. 1240.",
+      "citation_provenance": "PDF p. 1240.",
       "verified_on": "2026-08-03",
       "voice": "period",
-      "document": "letter"
+      "document": "letter",
+      "manuscript": {
+        "repository": "William Andrews Clark Memorial Library, UCLA"
+      },
+      "letter_id": "letters-2000/1194#2"
     }
   ]
 }

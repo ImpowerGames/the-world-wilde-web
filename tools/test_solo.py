@@ -15,7 +15,16 @@ selection before soloing. A live selection already fades everything outside it t
 same fade the filter uses, so soloing while somebody was selected changed classes and changed
 almost no pixels - a bug a class-level test passed clean and only looking caught.
 """
+import os
+import sys
+
 from playwright.sync_api import sync_playwright
+
+# The port the site is served on. Two servers is a normal state here - one for a preview, one for
+# whatever else is running - and hard-coding 8000 made the tests report a refused connection as a
+# console-error failure, which reads like a regression in the site.
+PORT = int(sys.argv[1]) if len(sys.argv) > 1 else int(os.environ.get("WWW_PORT", "8000"))
+SITE = f"http://localhost:{PORT}/"
 
 FAIL = []
 
@@ -32,7 +41,7 @@ with sync_playwright() as pw:
     errs = []
     pg.on("pageerror", lambda e: errs.append(str(e)))
     pg.on("console", lambda m: errs.append(m.text) if m.type == "error" else None)
-    pg.goto("http://localhost:8000/", wait_until="networkidle")
+    pg.goto(SITE, wait_until="networkidle")
     pg.wait_for_timeout(2600)
 
     state = lambda: pg.evaluate("""()=>{const ns=window.web.nodes, es=window.web.edges;
@@ -79,21 +88,21 @@ with sync_playwright() as pw:
     btn("Aesthetes").click(); pg.wait_for_timeout(450)
     check("clicking the soloed switch restores the row exactly", state()["off"] == baseline["off"])
 
-    # ---- right-click solos any row: People
+    # ---- right-click solos any row: Sphere
     right(btn("1895 trials"))
     s = state()
     check("right-click solos a sphere", s["spheres"] == 1 and "trials" in s["lit"], str(s["lit"]))
     right(btn("1895 trials"))
     check("right-click again restores exactly", state()["off"] == baseline["off"])
 
-    # ---- Gender row, independent of People
+    # ---- Gender row, independent of Sphere
     right(btn("Women"))
     s = state()
     check("right-click solos a gender", s["litMen"] == 0 and s["litWomen"] > 0,
           f"men {s['litMen']}, women {s['litWomen']}")
-    check("soloing a gender leaves the People switches alone",
-          s["rows"]["People"] == baseline["rows"]["People"],
-          f"{baseline['rows']['People']} -> {s['rows']['People']}")
+    check("soloing a gender leaves the sphere switches alone",
+          s["rows"]["Sphere"] == baseline["rows"]["Sphere"],
+          f"{baseline['rows']['Sphere']} -> {s['rows']['Sphere']}")
 
     # ---- rows compose
     right(btn("Aesthetes"))
@@ -111,8 +120,8 @@ with sync_playwright() as pw:
     s = state()
     check("right-click solos a connection class", 0 < s["shownEdges"] < before_edges,
           f"{before_edges} -> {s['shownEdges']} edges shown")
-    check("soloing a connection leaves the People and Gender switches alone",
-          s["rows"]["People"] == baseline["rows"]["People"]
+    check("soloing a connection leaves the sphere and gender switches alone",
+          s["rows"]["Sphere"] == baseline["rows"]["Sphere"]
           and s["rows"]["Gender"] == baseline["rows"]["Gender"])
     right(btn("Married"))
     check("restores exactly", state()["off"] == baseline["off"])
