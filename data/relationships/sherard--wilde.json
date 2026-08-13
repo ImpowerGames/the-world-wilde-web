@@ -1,9 +1,6 @@
 {
   "id": "sherard--wilde",
-  "people": [
-    "sherard",
-    "wilde"
-  ],
+  "people": ["sherard", "wilde"],
   "certainty": "attraction-expressed",
   "certainty_status": "proposed",
   "start": {
@@ -26,7 +23,7 @@
       "work": "letters-2000",
       "locator": "pp. 210-211",
       "locator_type": "page",
-      "quote": "Dear Robert, Your letter was as loveable as yourself, and this is my first moment after channel-crossings, train-catchings, and my natural rage at the charges for extra luggage from Paris, for sitting down to tell you what pleasure it gave me, and what memories of moonlit meanderings, and sunset strolls, the mere sight of your handwriting brought.\n\nAs for the dedication of your poems, I accept it: how could I refuse a gift so musical in its beauty, and fashioned by one whom I love so much as I love you?…That is, I think, what we are seeking, and that you should seek it with me, you who are yourself so dear to me, gives me faith in our futures, confidence in our love.",
+      "quote": "Dear Robert, Your letter was as loveable as yourself, and this is my first moment after channel-crossings, train-catchings, and my natural rage at the charges for extra luggage from Paris, for sitting down to tell you what pleasure it gave me, and what memories of moonlit meanderings, and sunset strolls, the mere sight of your handwriting brought.\n\nAs for the dedication of your poems, I accept it: how could I refuse a gift so musical in its beauty, and fashioned by one whom I love so much as I love you?\n\nTo me the mirror of perfect friendship can never be dulled by any treachery, however mean, or disloyalty, however base. Individuals come and go like shadows but the ideal remains untarnished always: the ideal of lives linked together not by affection merely, or the pleasantness of companionship, but by the capacity of being stirred by the same noble things in art and song. For we might bow before the same marble goddess, and with hymns not dissimilar fill the reeds of her flutes: the gold of the night-time, and the silver of the dawn, should pass into perfection for us: and from each string that is touched by the fingers of the player, from each bird that is rapturous in brake or covert, from each hill-flower that blossoms on the hill, we might draw into our hearts the same sense of beauty, and in the House of Beauty meet and join hands.\n\nThat is what I think true friendship should be, like that men could make their lives: but friendship is a fire where what is not flawless shrinks into grey ashes, and where what is imperfect is not purified but consumed. There may be much about which we may differ, you and I, more perhaps than we fancy, but in our desire for beauty in all things we are one, and one in our search for that little city of gold where the flute-player never wearies, and the spring never fades, and the oracle is not silent, that little city which is the house of art, and where, with all the music of the spheres, and the laughter of the gods, Art waits for her worshippers. For we at least have not gone out into the desert to seek a reed shaken by the wind, or a dweller in kings' houses, but to a land of sweet waters, and to the well of life; for the nightingale has sung to both of us, and the moon been glad of us, and not to Pallas, or to Hera, have we given the prize, but to her who from the marble of the quarry and the stone of the mine can give us pillared Parthenon and glyptic gem, to her who is the spirit of Beauty, and who has come forth from her hollow hill into the chill evening of this old world, and walks among us visible.\n\nThat is, I think, what we are seeking, and that you should seek it with me, you who are yourself so dear to me, gives me faith in our futures, confidence in our love.\n\nOSCAR",
       "context": "Wilde to R. H. Sherard, postmark 17 May 1883, 8 Mount Street, Grosvenor Square, London (MS Clark). The elision drops nothing between the two paragraphs but the paragraph break. The editors' note 2 gives the dedication itself, to Whispers (1884): 'To Oscar Wilde, Poet and Friend, Affectionately and admiringly Dedicated'.",
       "speaker": "Oscar Wilde",
       "addressee": "Robert Harborough Sherard",
@@ -51,34 +48,6 @@
       "written": {
         "place": "8-mount-street"
       }
-    },
-    {
-      "work": "letters-2000",
-      "locator": "p. 210",
-      "locator_type": "page",
-      "quote": "To me the mirror of perfect friendship can never be dulled by any treachery, however mean, or disloyalty, however base. … That is what I think true friendship should be, like that men could make their lives: but friendship is a fire where what is not flawless shrinks into grey ashes, and where what is imperfect is not purified but consumed.",
-      "context": "The same letter, immediately after the dedication paragraph. It is quoted here because it is the counter-evidence on the same page: Wilde names the thing three times, and the word he uses is friendship.",
-      "speaker": "Oscar Wilde",
-      "addressee": "Robert Harborough Sherard",
-      "written": {
-        "date": {
-          "y": 1883,
-          "m": 5,
-          "d": 17
-        },
-        "place": "8-mount-street"
-      },
-      "supports": "Wilde's own framing of the attachment, against which the affectionate language has to be read.",
-      "verified": true,
-      "verified_with": "photo-reproduction",
-      "citation_provenance": "PDF p. 232. The ellipsis drops a paragraph on art and beauty. The volume's headnote is 'MS Clark'.",
-      "verified_on": "2026-08-05",
-      "voice": "period",
-      "document": "letter",
-      "manuscript": {
-        "repository": "William Andrews Clark Memorial Library, UCLA"
-      },
-      "letter_id": "letters-2000/210#1"
     },
     {
       "work": "ellmann-1988",
@@ -112,7 +81,7 @@
       "work": "letters-2000",
       "locator": "pp. 642-643",
       "locator_type": "page",
-      "quote": "My dear Robert, I cannot tell you how your letters have cheered and comforted me in this awful, terrible position in which I am placed, and how glad I am that Sarah, and Goncourt, and other artists are sympathising with me. Pray assure Louÿs, Stuart Merrill, Moréas, and all others how touched – touched beyond words – I am. … Ever, with deepest affection and gratitude",
+      "quote": "My dear Robert, I cannot tell you how your letters have cheered and comforted me in this awful, terrible position in which I am placed, and how glad I am that Sarah, and Goncourt, and other artists are sympathising with me. Pray assure Louÿs, Stuart Merrill, Moréas, and all others how touched – touched beyond words – I am. … Ever, with deepest affection and gratitude\n\nOSCAR",
       "context": "Wilde to R. H. Sherard, 13 April 1895, HM Prison, Holloway (MS Clark) — written between the collapse of the libel action and the first criminal trial, when most of his acquaintance had dropped him. The elision drops the request that Sherard ask Sarah Bernhardt to buy Salomé, and the sum Wilde needed; it is money business, not the two of them.",
       "speaker": "Oscar Wilde",
       "addressee": "Robert Harborough Sherard",
@@ -169,7 +138,7 @@
       "work": "letters-2000",
       "locator": "p. 211",
       "locator_type": "page",
-      "quote": "Dear Robert, Your letters are charming, they are iridescent, and everything you see or hear seems to become touched with colour, and tinged with joy. I think of you often, wandering in violet valleys with your honey-coloured hair, and meditating on the influence of paradoxes on the pastoral mind. But you should be here…My book you will have next week: it is a great pleasure to give it to anyone so sympathetic as you. Poet to poet I give you my work because your joy in it makes it more dear to me.\n\nWho is your young man who likes what I said of the primrose?",
+      "quote": "Dear Robert, Your letters are charming, they are iridescent, and everything you see or hear seems to become touched with colour, and tinged with joy. I think of you often, wandering in violet valleys with your honey-coloured hair, and meditating on the influence of paradoxes on the pastoral mind. But you should be here…My book you will have next week: it is a great pleasure to give it to anyone so sympathetic as you. Poet to poet I give you my work because your joy in it makes it more dear to me.\n\nWho is your young man who likes what I said of the primrose?\n\nMy pen is horrid, my ink bad, my temper worse. Write soon, and come soon to London.\n\nOSCAR",
       "context": "Wilde to R. H. Sherard, [May-June 1883], London (MS Clark). The elision drops a paragraph of London gossip and self-description. This is the physical admiration the classification turns on: Wilde thinking of Sherard often, and picturing his hair.",
       "speaker": "Oscar Wilde",
       "addressee": "Robert Harborough Sherard",
@@ -196,7 +165,7 @@
       "work": "letters-2000",
       "locator": "p. 662",
       "locator_type": "page",
-      "quote": "My dear Robert, The Governor has told me that you have written to ask to see me. It is most kind and affectionate of you, but an order has already been sent to More Adey and Arthur Clifton…I often think of you and of our uninterrupted friendship, of twelve years' standing, and while I bitterly regret the sorrow that I have brought on you and others of my friends, I remember with pride and gratitude your chivalry and courage on my behalf. Should the end of my terrible punishment ever come, you are one of the few people I would like to see, and be with from time to time.\n\nPlease remember me very kindly to George Ives. I was greatly touched at hearing of his desire to come and see me. In the terrible solitude and silence in which one lives a message or a memory means a great deal.…I was so disappointed at not seeing you that I have been allowed as a favour to write this letter to you.",
+      "quote": "My dear Robert, The Governor has told me that you have written to ask to see me. It is most kind and affectionate of you, but an order has already been sent to More Adey and Arthur Clifton…I often think of you and of our uninterrupted friendship, of twelve years' standing, and while I bitterly regret the sorrow that I have brought on you and others of my friends, I remember with pride and gratitude your chivalry and courage on my behalf. Should the end of my terrible punishment ever come, you are one of the few people I would like to see, and be with from time to time.\n\nPlease remember me very kindly to George Ives. I was greatly touched at hearing of his desire to come and see me. In the terrible solitude and silence in which one lives a message or a memory means a great deal.…I was so disappointed at not seeing you that I have been allowed as a favour to write this letter to you. Pray remember me to any of my friends who may ask after me, and believe me, dear Robert, sincerely yours\n\nOSCAR",
       "context": "Wilde to R. H. Sherard, Wednesday [26 August 1896], HM Prison, Reading (MS Hyde). Sherard had applied to visit and been shut out by the two-visitor rule. The elisions drop the visiting-order mechanics and a paragraph routing correspondence through More Adey. Note the George Ives paragraph: Ives is on this map, and this is Wilde asking to be remembered to him from prison, through Sherard.",
       "speaker": "Oscar Wilde",
       "addressee": "Robert Harborough Sherard",
@@ -354,7 +323,7 @@
       "work": "letters-2000",
       "locator": "p. 510",
       "locator_type": "page",
-      "quote": "Dear Robert, I am so pleased you are all right. Never mind about the brute. You have asserted yourself like a brave gentleman. Ever",
+      "quote": "Dear Robert, I am so pleased you are all right. Never mind about the brute. You have asserted yourself like a brave gentleman. Ever\n\nOSCAR",
       "context": "Wilde to R. H. Sherard, [? Early 1892], Lyric Club (MS Montague) — quoted whole. It follows a duel Sherard fought in Paris. The other side of the Correspondence is in the editors' note, and is the only statement from Sherard's own hand anywhere in this record: he describes Wilde talking his alarmed relation out of going to the police, which 'would have put me under taboo in Paris for the rest of my days', and then writing to approve his conduct — 'I do not think that any of his letters ever gave me so much pleasure.'",
       "speaker": "Oscar Wilde",
       "addressee": "Robert Harborough Sherard",
