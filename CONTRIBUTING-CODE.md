@@ -38,8 +38,8 @@ Create `data/people/<id>.json`. Ids are lowercase, hyphenated, and stable — ot
   "name": "Amy Levy",
   "sort_name": "Levy, Amy", // the node label is the part before the comma
   "aka": [],
-  "born": { "y": 1861 },
-  "died": { "y": 1889 }, // y / m / d, any of them optional, or null
+  "born": { "date": { "y": 1861 } },
+  "died": { "date": { "y": 1889 }, "place": "london" }, // an act: when, and where a source says
   "group": "aesthete", // see the group list below
   "gender": "f", // "m", "f", or null if the record does not say
   "bio": "…", // a paragraph a reader can use
@@ -71,10 +71,8 @@ Create `data/relationships/<a>--<b>.json`, where the two ids are **in alphabetic
   "people": ["lee", "levy"], // sorted
   "certainty": "attraction-expressed",
   "certainty_status": "proposed",
-  "start": { "y": 1886 },
-  "end": null,
-  "date_label": "…", // free text shown under the names
-  "evidence_date": { "y": 1897, "m": 6, "d": 5 }, // When the thing HAPPENED (not when it was recorded/published)
+  "start": { "date": { "y": 1886 } }, // when and where the connection began
+  "end": null, // when and where the connection ended
   "order_hint": { "y": 1897, "m": 8, "why": "..." }, // only when the date is genuinely unknown
   "direction": "levy", // attraction-expressed only: who expressed it
   "outcome": "unreciprocated", // attraction-expressed only: declined / unknown / unreciprocated
@@ -118,13 +116,12 @@ An `uncorroborated` connection must carry `disputed` with `claim`, `asserted_by`
   // citation links to their node; anything else stays plain text
   "voice": "period", // "period", "court" or "modern" — see below
   "turns": [{ "who": "Carson", "text": "…" }], // optional, and only when voice is "court"
-  "evidence_date": { "y": 1900, "m": 3 },
-  // …or a RANGE, when the thing happened across a span:
-  // "evidence_date": {"y": 1897, "m": 1, "to": {"y": 1897, "m": 3}}   -> "January–March 1897"
+  "occurred": { "date": { "y": 1900, "m": 3 } }, // when the event described in the quote happened
   "supports": "what this quotation is here to establish",
   "verification": "verified-exact",
   "how_verified": "photo-reproduction", // how directly the words were read
   "document": "letter", // what is quoted, when it differs from the work
+  "written": { "place": "berneval-sur-mer" }, // and `sent`, `postmarked`, `received`
   "verified_on": "2026-08-04",
   "citation_provenance": "which copy, which page",
   "original_provenance": "…", // what you read and saw in the original document
@@ -158,7 +155,7 @@ This was called `exchange` and defined as period text with more than one speaker
 
 ## Dates
 
-**Date schema.** These fields apply to every date on the map — `evidence_date`, `born`, `died`, `start`, `end`, and the dates on a transcription.
+**Date schema.** These fields apply to every date on the map:
 
 | Field       | Value                               | Description                                                                 |
 | ----------- | ----------------------------------- | --------------------------------------------------------------------------- |
@@ -179,18 +176,42 @@ Add `inferred:true` if the date was not written on the document itself — someb
 
 For date ranges, use `to`. `{"y": 1897, "m": 1, "to": {"y": 1897, "m": 3}}` displays as _January–March 1897_.
 
-`evidence_date` is **the date of the thing evidenced** — the day the letter was written, the diary entry made, the testimony sworn. It is a claim about the event itself, not the date the source was published later.
+`occurred` records when an event happened, not when the event was written down or published: a biography published in 2017 reporting a meeting of 1887 should record `occurred` as 1887.
+
+A letter records the dates related to writing or sending the letter under `written`, `postmarked`, `sent`, or `received`. Give a letter an `occurred` only when it describes a specific event that happened at a different time or place from the writing.
 
 Sources display in chronological order. If a source is undated, use **`order_hint`** instead:
 
 ```json
-"evidence_date": null,
 "order_hint": {"y": 1897, "m": 8, "why": "Sox says outright \"We do not know exactly when Fothergill appeared\". Wilde's letter of 21 September counts the six days as falling inside his last month at Berneval, so the visit sits in August or early September."}
 ```
 
 It sorts exactly as a date would. The card will say — _"Undated — placed here for reading order: …"_.
 
-### Verification
+## Locations
+
+Locations are recorded in [`data/places.json`](data/places.json) as `{ venue?, street?, city?, region?, country? }`
+
+**Places are referred to by id.** Read `places.json` before writing a place and use the id already there; if the place you need is missing, add it.
+
+```jsonc
+"berneval-sur-mer": { "city": "Berneval-sur-Mer", "country": "France" },
+"hotel-d-alsace":   { "venue": "Hôtel d'Alsace", "city": "Paris", "country": "France" },
+"16-tite-street":   { "street": "16 Tite Street", "city": "London", "country": "England" },
+"gland":            { "city": "Gland", "region": "Canton Vaud", "country": "Switzerland" }
+```
+
+| Field              | On                        | Describes                                                                                                    |
+| ------------------ | ------------------------- | ------------------------------------------------------------------------------------------------------------ |
+| `written.place`    | a source or transcription | where that document was written.                                                                             |
+| `postmarked.place` | a source or transcription | where that document was postmarked.                                                                          |
+| `sent.place`       | a source or transcription | where that document was sent from.                                                                           |
+| `received.place`   | a source or transcription | where that document was received.                                                                            |
+| `occurred.place`   | a source                  | where the event a quotation attests happened. Unlike the four acts above, it may go on any kind of document. |
+
+`written`/`postmarked`/`sent`/`received` belong only to something written on one occasion at one place: a `letter`, `telegram`, `postcard`, `diary`, `inscription`, `manuscript` or `typescript`. A biography is usually written over years in multiple places, so the date/place of its writing should not be recorded under `written`.
+
+## Verification
 
 Unverified quotes are marked with an `⧖ unverified` chip and means the passage was located in an index or OCR dump but never checked against the page. ⧖ also marks **leads**: pointers to a potential source with nothing transcribed yet.
 
@@ -246,9 +267,11 @@ The card shows the document as a chip, ticked when the original has been read �
 
 The same holds for the volume's `F` headnotes, which name a **published book reproducing the letter in facsimile** (Keller, Brémont, Cantel) rather than an archive: if the autograph has since been traced, name the archive that holds it; if it has not, the facsimile belongs in `citation_provenance` too.
 
-**Filtering by type and location works the way the legend does.** Beside the year range sits a **Type & Location** dropdown listing every document type and location the panel holds, with counts — _Letters · 251_, _Testimony · 30_, _Biographies · 27_. Uncheck a type or location to hide it. Check it to show it again. **Right-click a row** or click a document chip on any card to solo that filter. Clicking a soloed filter unsolos it, restoring the previous filter state.
+**Filtering works the way the legend does.** Beside the year range sit two dropdowns. **Document** lists every document type and archive, with counts — _Letters · 251_, _Testimony · 30_, _Biographies · 27_. **Place** lists where the documents were written, keyed on the city, so a letter headed from the Hôtel de Nice files under Paris. The two answer different questions: an archive is where the paper is kept now, a place is where the writing happened.
 
-### Formatting & emphasis
+Uncheck a row to hide it. Check it to show it again. **Right-click a row** or click a document chip on any card to solo that filter. Clicking a soloed filter unsolos it, restoring the previous filter state. The Location dropdown is drawn only where something in the panel records a place, since a list whose one row reads _Not recorded_ offers no choice.
+
+## Formatting & emphasis
 
 **How to transcribe a document, and what its marks mean, are in [CONTRIBUTING.md](CONTRIBUTING.md)** — spelling and abbreviations, dashes, split words, the `[…?]` / `[illegible]` / `[inserted: …]` / `[annotated: …]` bracket forms, the emphasis markup and the italics departure, and the rule that a later hand's marks never enter the quote. They apply to anyone transcribing, ticket or pull request alike.
 
@@ -292,7 +315,7 @@ One caution about ordinals generally: the Library of Congress numbers by **scan 
 
 Ids are minted by `research-tools/source-volume/mint_ids.py` (manifests, transcriptions) and `mint_source_ids.py` (connection sources); both dry-run by default. `tools/manifest_links.py --check` reports malformed ids, and lists citations that name a different letter on a folio we hold.
 
-### The document itself
+## The document itself
 
 Two optional fields say where the original is. A source may carry at most one of them.
 
@@ -322,9 +345,9 @@ Two optional fields say where the original is. A source may carry at most one of
 
 Write the repository out in full, as it should read on the card — not the abbreviation the Complete Letters print. This is the most common case by far: of the letters this map quotes from that volume, eight have manuscripts at the Ransom Center and around a hundred are at the Clark.
 
-### Transcribing letters
+## Transcriptions
 
-A letter transcription file should be included for each letter:
+A transcription file should be included for each letter:
 
 ```jsonc
 // web/manuscripts/hrc/transcriptions/hrc-2700-019.json
@@ -336,16 +359,16 @@ A letter transcription file should be included for each letter:
   "sender": "Oscar Wilde", // the full name of the sender
   "addressee": "George Ives", // the full name of the receiver
   "postmarked": { "date": { "y": 1898, "m": 3, "d": 21 } },
-  "written": { "from": "Paris" },
+  "written": { "place": "paris" }, // an id from data/places.json
   "quote": "…", // the whole letter, salutation to signature
   "marks_verified": true,
   "transcribed_on": "2026-08-10",
 }
 ```
 
-**Dates & Locations**: `written`, `sent`, `postmarked`, `received` should all be recorded as `{ date, from?, time? }`. A date may carry `to` for a span — _[March–April 1891]_.
-
 **Transcribe the whole letter, salutation to signature.**
+
+**Keep the paragraphing.** A letter's paragraph breaks are often important to their meaning. Separate paragraphs with a blank line (`\n\n`) inside the `quote` string, and give the signature its own paragraph. Wilde ends a letter to Harry Marillier _"You are certainly not to call me Mr Wilde. What should you call me but"_ and then, on a line of its own, _"Oscar"_ — the sentence finishes in the signature. If you run them together into one line, the joke disappears.
 
 ---
 

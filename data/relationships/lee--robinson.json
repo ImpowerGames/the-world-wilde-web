@@ -8,12 +8,15 @@
   "certainty_status": "proposed",
   "certainty_reasoning": "Patricia Pulham's Y90s biography states the attachment and its span; no letter, diary or statement by Lee or Robinson about the relationship has been read, and Pulham's one citation to Robinson's own writing ('Robinson, 935') concerns the visitors to Casa Paget, not the relationship. Second-hand is a statement about who is talking, not a mark of doubt: Pulham is the standard scholarly account and calls it a romantic friendship without hedging.",
   "start": {
-    "y": 1880
+    "date": {
+      "y": 1880
+    }
   },
   "end": {
-    "y": 1887
+    "date": {
+      "y": 1887
+    }
   },
-  "date_label": "Met 1880; attachment lasting until Robinson's marriage in 1887",
   "summary": "Vernon Lee met the poet Mary Robinson in 1880, the year Lee came to public notice with Studies of the Eighteenth Century in Italy, and the two formed what Pulham calls a romantic friendship. Robinson visited Lee's home in Florence and Lee returned the visit in London in 1881, where Robinson introduced her to the Burne-Joneses, Gosse, the Morrises, the Rossettis and Oscar Wilde - which is how Lee entered the London circle this map charts. The attachment ended with Robinson's marriage in 1887 to the orientalist James Darmesteter; Kit Anstruther-Thomson replaced her as Lee's companion that same year.",
   "sources": [
     {
@@ -22,8 +25,10 @@
       "work": "pulham-y90s-lee-bio",
       "locator": "para. 5",
       "locator_type": "none",
-      "evidence_date": {
-        "y": 1880
+      "occurred": {
+        "date": {
+          "y": 1880
+        }
       },
       "supports": "The relationship, its character as Pulham states it, and both its start and end dates.",
       "verification": "verified-exact",
@@ -39,8 +44,10 @@
       "work": "pulham-y90s-lee-bio",
       "locator": "para. 5",
       "locator_type": "none",
-      "evidence_date": {
-        "y": 1881
+      "occurred": {
+        "date": {
+          "y": 1881
+        }
       },
       "verification": "verified-exact",
       "how_verified": "as-published",
@@ -55,8 +62,10 @@
       "work": "geoffroy-gagel-vernon-lee-letters-vol3",
       "locator": "PDF pp. 119-120",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1880
+      "occurred": {
+        "date": {
+          "y": 1880
+        }
       },
       "supports": "The standard edition stating the relationship as romantic, dating its start exactly, giving its length, and recording Lee's depression after the marriage.",
       "verification": "verified-elision",
@@ -68,15 +77,17 @@
       "document": "editorial-note"
     },
     {
-      "quote": "The dear sprigs of olive and ilex and spicewood came this morning. They stand in my bedroom in a blue bracken jar and remind me of the January posies you used to bring me from your drives in the Cascine, when you came, all keen outer air & crisp green things, into the salon where I would be reading German Mystics over the fire … A great packet of my poor foolish sad little old letters, so young, so senties, poor little unhappy things, was left at the door one day by a nameless young woman. I have only just now dared to glance at them – for one must not glance at Eurydice in Hades. When you know of some very discreet, honourable & yet good natured person who could take charge of your packet, let me know and she shall have it. … Ever your loving old friend Molly",
+      "quote": "The dear sprigs of olive and ilex and spicewood came this morning. They stand in my bedroom in a blue bracken jar and remind me of the January posies you used to bring me from your drives in the Cascine, when you came, all keen outer air & crisp green things, into the salon where I would be reading German Mystics over the fire … A great packet of my poor foolish sad little old letters, so young, so senties, poor little unhappy things, was left at the door one day by a nameless young woman. I have only just now dared to glance at them – for one must not glance at Eurydice in Hades. When you know of some very discreet, honourable & yet good natured person who could take charge of your packet, let me know and she shall have it. … Ever your loving old friend\n\nMolly",
       "context": "Mary Robinson - by then Mme Darmesteter - to Vernon Lee, Christmas Eve 1893, five years after the marriage. Two things at once: the tenderness of the memory, and the two women arranging the return of each other's old love letters through discreet intermediaries. 'Senties' is Robinson's French, glossed by the editors as 'emotional'; 'the Mouse' elsewhere on the page is Lee's name for her when they were young. The elisions drop a passage on Lee's book and the Revue de Paris, and Robinson's remark about her letters to Symonds. The original is at the Bibliothèque Nationale de France, Anglais 243.",
       "work": "geoffroy-gagel-vernon-lee-letters-vol3",
       "locator": "PDF pp. 490-491",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1893,
-        "m": 12,
-        "d": 24
+      "written": {
+        "date": {
+          "y": 1893,
+          "m": 12,
+          "d": 24
+        }
       },
       "supports": "Robinson's own voice on the relationship and on its aftermath - the surviving affection, and the mutual retrieval of the love letters that documented it.",
       "verification": "verified-elision",
@@ -101,8 +112,10 @@
       "how_verified": "text-layer",
       "verified_on": "2026-08-03",
       "citation_provenance": "PDF p. 138.",
-      "evidence_date": {
-        "y": 1880
+      "occurred": {
+        "date": {
+          "y": 1880
+        }
       },
       "supports": "Independent secondary attestation of the Lee-Robinson relationship and its start date, from a biographer of a third party with no stake in the question.",
       "voice": "modern",

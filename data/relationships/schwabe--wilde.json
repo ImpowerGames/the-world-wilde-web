@@ -8,14 +8,17 @@
   "certainty_status": "proposed",
   "certainty_reasoning": "Queensberry's plea contains a Schwabe clause (22 November 1892, Paris) which, as printed by Hyde, avers solicitation and incitement only, with no 'did commit' clause.",
   "start": {
-    "y": 1892,
-    "m": 11
+    "date": {
+      "y": 1892,
+      "m": 11
+    }
   },
   "end": {
-    "y": 1892,
-    "m": 11
+    "date": {
+      "y": 1893,
+      "circa": true
+    }
   },
-  "date_label": "November 1892 (alleged, Paris); acquaintance c. 1892–1893",
   "summary": "Maurice Salis Schwabe, nephew by marriage of Solicitor-General Sir Frank Lockwood, was the connective figure of the circle: he introduced Wilde to Taylor, gave the Kettner's dinner at which Mavor met Wilde, and was named at the libel trial only on paper passed to counsel. Atkins testified to finding the twenty-two-year-old Schwabe in bed with Wilde at 29 Boulevard des Capucines in November 1892 — testimony from a witness whose credibility was destroyed at the same trial. The plea's Schwabe clause alleges solicitation only, and Schwabe, abroad, was never called.",
   "disputed": {
     "claim": "that Schwabe shared Wilde's bed in Paris (November 1892) and that Wilde solicited him to commit sodomy",
@@ -30,9 +33,12 @@
       "work": "hyde-trials-1948",
       "locator": "p. 207",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1895,
-        "m": 4
+      "occurred": {
+        "date": {
+          "y": 1892,
+          "m": 11
+        },
+        "place": "paris"
       },
       "supports": "The sole eyewitness claim of Schwabe in Wilde's bed, Paris, November 1892 — from a witness later discredited for perjury; the class-deciding quote",
       "verification": "verified-exact",
@@ -55,9 +61,13 @@
       "work": "hyde-trials-1948",
       "locator": "p. 342",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1895,
-        "m": 3
+      "occurred": {
+        "date": {
+          "y": 1892,
+          "m": 11,
+          "d": 22
+        },
+        "place": "paris"
       },
       "supports": "The formal allegation — solicitation/incitement only as printed",
       "verification": "verified-exact",
@@ -74,9 +84,11 @@
       "work": "hyde-trials-1948",
       "locator": "p. 158",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1895,
-        "m": 4
+      "occurred": {
+        "date": {
+          "y": 1895,
+          "m": 4
+        }
       },
       "supports": "Schwabe as Wilde's introducer to Taylor; Schwabe out of England c. 1893-1895 (why he never testified)",
       "verification": "verified-exact",
@@ -112,9 +124,11 @@
       "work": "hyde-trials-1948",
       "locator": "p. 137 n",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1895,
-        "m": 4
+      "occurred": {
+        "date": {
+          "y": 1895,
+          "m": 4
+        }
       },
       "supports": "Schwabe's identity and the Lockwood connexion; the name-on-paper practice at the trials",
       "verification": "verified-exact",

@@ -8,14 +8,17 @@
   "certainty_status": "proposed",
   "certainty_reasoning": "The longest documented relationship of Ross's life - roughly a decade, 1903 to autumn 1913 - and the fullest treatment of it is Fryer's, in his own narrating voice. Fryer states the relationship plainly and repeatedly rather than hedging it, so the class reflects who is talking, not any doubt that it happened. Margery Ross, Friend of Friends (1952), is Fryer's main source for Ross's own voice and is the place to look for first-hand material.",
   "start": {
-    "y": 1903,
-    "label": "early 1903"
+    "date": {
+      "y": 1903,
+      "part": "early"
+    }
   },
   "end": {
-    "y": 1913,
-    "label": "autumn 1913"
+    "date": {
+      "y": 1913,
+      "season": "autumn"
+    }
   },
-  "date_label": "Early 1903 - autumn 1913",
   "summary": "Ross met Smith early in 1903, when Smith was an eighteen-year-old clerk. Smith became his secretary - a post that doubled as cover - and moved into 15 Vicarage Gardens in 1906 despite his family's objections. The relationship lasted about a decade, ending in the autumn of 1913, months before Douglas named Smith in the 1914 plea of justification.",
   "sources": [
     {
@@ -24,8 +27,10 @@
       "work": "fryer-2000",
       "locator": "p. 177",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1903
+      "occurred": {
+        "date": {
+          "y": 1903
+        }
       },
       "supports": "Start of the relationship, the ages, and Fryer's framing of it as unlike Ross's other encounters.",
       "verification": "verified-exact",
@@ -41,8 +46,10 @@
       "work": "fryer-2000",
       "locator": "p. 192",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1906
+      "occurred": {
+        "date": {
+          "y": 1906
+        }
       },
       "supports": "Documented cohabitation, and the pivot out of the Adey household into a household with Smith.",
       "verification": "verified-exact",
@@ -58,9 +65,11 @@
       "work": "fryer-2000",
       "locator": "p. 193",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1906,
-        "circa": true
+      "occurred": {
+        "date": {
+          "y": 1906,
+          "circa": true
+        }
       },
       "supports": "Fryer's flat use of 'his lover' for Smith; the age; and Ross's public unashamedness about the relationship.",
       "verification": "verified-exact",
@@ -76,8 +85,10 @@
       "work": "fryer-2000",
       "locator": "p. 230",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1913
+      "occurred": {
+        "date": {
+          "y": 1913
+        }
       },
       "supports": "End of the relationship, and its decade-long span (early 1903 to autumn 1913).",
       "verification": "verified-exact",
@@ -93,9 +104,11 @@
       "work": "fryer-2000",
       "locator": "p. 238",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1914,
-        "m": 11
+      "occurred": {
+        "date": {
+          "y": 1914,
+          "m": 11
+        }
       },
       "supports": "The third-party attestation of the Ross-Smith relationship that survives is sworn testimony gathered by a hostile ex-friend for a prosecution - the evidentiary shape the revised taxonomy exists to record.",
       "verification": "verified-exact",

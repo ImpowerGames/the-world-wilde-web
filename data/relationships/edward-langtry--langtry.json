@@ -8,16 +8,19 @@
   "certainty_status": "proposed",
   "certainty_reasoning": "Two independent sources state the marriage: the Complete Letters editors' main-particulars footnote, already used on her person file, and the Wikipedia article, whose account of this period rests on Ridley and Aronson. The dates come from Wikipedia alone; the repo footnote gives none.",
   "start": {
-    "y": 1874,
-    "m": 3,
-    "d": 9
+    "date": {
+      "y": 1874,
+      "m": 3,
+      "d": 9
+    }
   },
   "end": {
-    "y": 1897,
-    "m": 5,
-    "d": 13
+    "date": {
+      "y": 1897,
+      "m": 5,
+      "d": 13
+    }
   },
-  "date_label": "M. 9 March 1874 in Jersey; divorced 13 May 1897 at Lakeport, California",
   "summary": "Emilie Le Breton married Edward Langtry in Jersey in March 1874, with the reception at the Royal Yacht Hotel in St Helier, and he took her to London - where, as Lillie Langtry, she became a Society figure, Millais's Jersey Lily, and a friend of the Prince of Wales. Twenty-three years later, having become an American citizen while touring, she divorced him in California. He died within months.",
   "sources": [
     {
@@ -26,10 +29,13 @@
       "work": "wikipedia-lillie-langtry",
       "locator": "section 'Early life'",
       "locator_type": "none",
-      "evidence_date": {
-        "y": 1874,
-        "m": 3,
-        "d": 9
+      "occurred": {
+        "date": {
+          "y": 1874,
+          "m": 3,
+          "d": 9
+        },
+        "place": "jersey"
       },
       "supports": "The first marriage: date, place, husband's identity and dates.",
       "verification": "verified-exact",
@@ -45,10 +51,13 @@
       "work": "wikipedia-lillie-langtry",
       "locator": "section on her American career",
       "locator_type": "none",
-      "evidence_date": {
-        "y": 1897,
-        "m": 5,
-        "d": 13
+      "occurred": {
+        "date": {
+          "y": 1897,
+          "m": 5,
+          "d": 13
+        },
+        "place": "lakeport"
       },
       "supports": "How the first marriage ended: divorce, its date and jurisdiction.",
       "verification": "verified-exact",

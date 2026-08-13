@@ -7,13 +7,16 @@
   "certainty": "platonic",
   "certainty_status": "proposed",
   "start": {
-    "y": 1876,
-    "m": 8,
-    "d": 6
+    "date": {
+      "y": 1874,
+      "inferred": true
+    }
   },
   "end": {
-    "y": 1893,
-    "m": 4
+    "date": {
+      "y": 1893,
+      "m": 4
+    }
   },
   "summary": "Wilde's old tutor J. P. Mahaffy, thanked in 1893 for the teaching that the later editions of the letter removed.",
   "certainty_reasoning": "The record documents a friendship or acquaintance with no evidence of attraction or romance; classified platonic, upgradable if contrary evidence comes to light.",
@@ -26,10 +29,13 @@
       "context": "Wilde to William Ward, Sunday [6 August 1876] (MS Magdalen), aged twenty-one - the same letter as the Todd passage. The elision drops a party to the North of Ireland Wilde missed. The editors' note on this page is the reason the node exists: Mahaffy thanked 'my old pupil Mr Oscar Wilde of Magdalen College, Oxford' in the preface to Social Life in Greece for improvements 'all through the book', and 'Significantly, in later editions of Social Life both the discussion of Greek homosexuality and the reference to Wilde were dropped.'",
       "speaker": "Oscar Wilde",
       "addressee": "William Ward",
-      "evidence_date": {
-        "y": 1876,
-        "m": 8,
-        "d": 6
+      "written": {
+        "date": {
+          "y": 1876,
+          "m": 8,
+          "d": 6
+        },
+        "place": "dublin"
       },
       "supports": "The closeness at the start, against which the deletion has to be read.",
       "verification": "verified-elision",
@@ -41,19 +47,25 @@
       "manuscript": {
         "repository": "Magdalen College, Oxford"
       },
-      "letter_id": "letters-2000/27#1"
+      "letter_id": "letters-2000/27#1",
+      "occurred": {
+        "place": "dublin"
+      }
     },
     {
       "work": "letters-2000",
       "locator": "pp. 561-562",
       "locator_type": "page",
-      "quote": "My dear Mahaffy, I am so pleased you like the play, and thank you for your charming letter, all the more flattering to me as it comes not merely from a man of high and distinguished culture, but from one to whom I owe so much personally, from my first and my best teacher, from the scholar who showed me how to love Greek things. Let me sign myself, in affection and admiration, your old pupil and your old friend",
+      "quote": "My dear Mahaffy, I am so pleased you like the play, and thank you for your charming letter, all the more flattering to me as it comes not merely from a man of high and distinguished culture, but from one to whom I owe so much personally, from my first and my best teacher, from the scholar who showed me how to love Greek things.\n\nLet me sign myself, in affection and admiration, your old pupil and your old friend",
       "context": "Wilde to J. P. Mahaffy, [? April 1893], Haymarket Theatre (MS Dublin) - quoted whole. The play is A Woman of No Importance. Read it against the deletion recorded at printed 28: the thing Wilde thanks him for here, teaching him how to love Greek things, is the thing later editions of Mahaffy's book stopped mentioning, along with Wilde's name. Wilde had two years left before the trials.",
       "speaker": "Oscar Wilde",
       "addressee": "J. P. Mahaffy",
-      "evidence_date": {
-        "y": 1893,
-        "m": 4
+      "written": {
+        "date": {
+          "y": 1893,
+          "m": 4
+        },
+        "place": "haymarket-theatre"
       },
       "supports": "What Wilde said he owed him, in the words the later editions removed.",
       "verification": "verified-exact",
@@ -66,7 +78,21 @@
         "repository": "Library of Trinity College, Dublin"
       },
       "letter_id": "letters-2000/561#3"
+    },
+    {
+      "quote": "My old tutor Mr Mahaffy, Fellow of Trinity College Dublin, met me on my way to Rome and insisted on my going with him to Mykenae and Athens.",
+      "context": "The label's 'Oxford': the friendship continued through Wilde's Oxford years. Wilde to the Rev. J. O. Bramley, 2 April 1877, Hotel St George, Corfu - the first of the 1877 letters (pp. 43-47) showing Mahaffy carrying his old pupil off to Greece while Wilde was at Magdalen. No letter in this record is itself written from Oxford.",
+      "work": "letters-2000",
+      "locator": "p. 45",
+      "locator_type": "page",
+      "supports": "Would settle Oxford as a place of the friendship: the 1877 letters document the tie during Wilde's Oxford years.",
+      "verification": "verified-exact",
+      "how_verified": "text-layer",
+      "citation_provenance": "PDF p. 70.",
+      "verified_on": "2026-08-12",
+      "voice": "period",
+      "document": "letter",
+      "letter_id": "letters-2000/45#1"
     }
-  ],
-  "date_label": "Dublin, Oxford and after, 1874-1893"
+  ]
 }

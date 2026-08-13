@@ -9,12 +9,15 @@
   "direction": "wilde",
   "outcome": "unknown",
   "start": {
-    "y": 1895
+    "date": {
+      "y": 1895
+    }
   },
   "end": {
-    "y": 1897
+    "date": {
+      "y": 1897
+    }
   },
-  "date_label": "Fellow prisoners in Reading; staying with Wilde at Berneval-sur-Mer and introduced to Wilde's friends in June 1897",
   "summary": "Arthur Cruttenden was a saddler who had served time in Reading with Wilde. In June 1897, barely a month out of prison himself, Wilde had him to stay at Berneval, set about finding someone who could put him back into trade, and wrote to Reggie Turner twice in one day to introduce him - the second time to add that he sang and wrote songs, and to ask Turner to receive him as a friend rather than a case.",
   "sources": [
     {
@@ -23,10 +26,13 @@
       "work": "letters-2000",
       "locator": "p. 900",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1897,
-        "m": 6,
-        "d": 16
+      "written": {
+        "date": {
+          "y": 1897,
+          "m": 6,
+          "d": 16
+        },
+        "place": "dieppe"
       },
       "supports": "Wilde's personal regard for him, and the deliberate attempt to place him socially rather than charitably.",
       "verification": "verified-exact",
@@ -40,7 +46,22 @@
       "manuscript": {
         "repository": "British Library, London (Lady Eccles Oscar Wilde Collection)"
       },
-      "letter_id": "letters-2000/900#2"
+      "letter_id": "letters-2000/900#2",
+      "occurred": {
+        "place": "berneval-sur-mer"
+      }
+    },
+    {
+      "quote": "",
+      "context": "The two met as fellow prisoners, believed to have been at Reading Gaol, but no source in this record names the prison. The cited letter (16 June 1897) introduces Cruttenden to Turner without saying where the acquaintance began.",
+      "work": "letters-2000",
+      "locator": "p. 900",
+      "locator_type": "page",
+      "supports": "Would settle Reading as the place they met: a letter, note or biography naming the prison where Cruttenden served time with Wilde.",
+      "verification": "unverified",
+      "how_verified": "unverified",
+      "citation_provenance": "",
+      "document": "editorial-note"
     }
   ]
 }

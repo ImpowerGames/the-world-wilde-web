@@ -7,10 +7,14 @@
     "Louys"
   ],
   "born": {
-    "y": 1870
+    "date": {
+      "y": 1870
+    }
   },
   "died": {
-    "y": 1925
+    "date": {
+      "y": 1925
+    }
   },
   "group": "beyond",
   "gender": "m",

@@ -7,12 +7,16 @@
   "certainty": "platonic",
   "certainty_status": "proposed",
   "start": {
-    "y": 1893,
-    "m": 3
+    "date": {
+      "y": 1893,
+      "m": 3
+    }
   },
   "end": {
-    "y": 1893,
-    "m": 12
+    "date": {
+      "y": 1893,
+      "m": 12
+    }
   },
   "summary": "The only surviving letter between them — a dinner invitation — and Wilde's inscription in a copy of the French Salomé praising what Beardsley alone could see.",
   "certainty_reasoning": "The record documents a friendship or acquaintance with no evidence of attraction or romance; classified platonic, upgradable if contrary evidence comes to light.",
@@ -25,9 +29,12 @@
       "context": "Wilde's inscription in a copy of the original French Salomé (1893), recorded by the editors, which survives in the Sterling Library at the University of London. Written months before Beardsley illustrated the English edition. It is the warmest thing Wilde is recorded as writing to him, and it is not a letter - which is why the correspondence alone understates the relation.",
       "speaker": "Oscar Wilde",
       "addressee": "Aubrey Beardsley",
-      "evidence_date": {
-        "y": 1893,
-        "m": 3
+      "written": {
+        "date": {
+          "y": 1893,
+          "m": 3
+        },
+        "place": "10-11-st-jamess-place"
       },
       "supports": "What Wilde thought Beardsley alone could see.",
       "verification": "verified-exact",
@@ -45,13 +52,16 @@
       "work": "letters-2000",
       "locator": "p. 578",
       "locator_type": "page",
-      "quote": "My dear Aubrey, I am charmed to find you are in town. Will you join Bobbie and me at dinner tonight at Kettner's (Church St, Soho) at 7.30. We are not going to dress. Ever yours",
+      "quote": "My dear Aubrey, I am charmed to find you are in town. Will you join Bobbie and me at dinner tonight at Kettner's (Church St, Soho) at 7.30. We are not going to dress. Ever yours\n\nOSCAR",
       "context": "Wilde to Aubrey Beardsley, [? December 1893], 10 & 11 St James's Place (MS Yale) - quoted whole, and the only surviving letter between them. 'Bobbie' is Robert Ross, who is on this map: the dinner is the three of them. The editors record that the word 'Aubrey' has been erased from the manuscript but remains legible.",
       "speaker": "Oscar Wilde",
       "addressee": "Aubrey Beardsley",
-      "evidence_date": {
-        "y": 1893,
-        "m": 12
+      "written": {
+        "date": {
+          "y": 1893,
+          "m": 12
+        },
+        "place": "10-11-st-jamess-place"
       },
       "supports": "The only surviving letter, and that Wilde, Ross and Beardsley dined together.",
       "verification": "verified-exact",
@@ -65,6 +75,5 @@
       },
       "letter_id": "letters-2000/578#1"
     }
-  ],
-  "date_label": "London, 1893"
+  ]
 }

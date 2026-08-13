@@ -7,14 +7,17 @@
   "certainty": "self-reported",
   "certainty_status": "proposed",
   "start": {
-    "y": 1900,
-    "circa": true
+    "date": {
+      "y": 1900,
+      "m": 9
+    }
   },
   "end": {
-    "y": 1900,
-    "m": 9
+    "date": {
+      "y": 1900,
+      "m": 9
+    }
   },
-  "date_label": "Known only from a letter of 2 September 1900, by which time he had returned to Naples; when and where Wilde knew him is not stated",
   "direction": null,
   "outcome": null,
   "summary": "Wilde called him one of 'my dear Neapolitans' and said he missed him after the group went home. The whole of the record is one sentence in a letter to his publisher, in which he weighs a waiter in Paris against him and finds the waiter no consolation.",
@@ -25,10 +28,12 @@
       "locator_type": "page",
       "quote": "Is there any chance of your being in Paris? My dear Neapolitans have returned to Naples and I miss that brown faun with his deep woodland eyes and his sensuous grace of limb. A slim brown Egyptian, rather like a handsome bamboo walking-stick, occasionally serves me drinks at the Café d'Égypte, but he does not console me for the loss of the wanton sylvan boy of Italy.",
       "context": "Wilde to Leonard Smithers, [Postmark 2 September 1900], Paris - three months before his death. The same sentence introduces the Café d'Égypte waiter, who has his own entry; the two are different men, and the sentence turns on the contrast between them.",
-      "evidence_date": {
-        "y": 1900,
-        "m": 9,
-        "d": 2
+      "postmarked": {
+        "date": {
+          "y": 1900,
+          "m": 9,
+          "d": 2
+        }
       },
       "supports": "The association and its ending, in Wilde's own words, and the terms he describes him in.",
       "verification": "verified-exact",
@@ -42,7 +47,10 @@
         "repository": "American Art Association, New York",
         "as_of": "1 February 1928"
       },
-      "letter_id": "letters-2000/1196#1"
+      "letter_id": "letters-2000/1196#1",
+      "written": {
+        "place": "paris"
+      }
     }
   ]
 }

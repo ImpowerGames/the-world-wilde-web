@@ -7,15 +7,18 @@
   "certainty": "married",
   "certainty_status": "proposed",
   "start": {
-    "y": 1901,
-    "m": 6
+    "date": {
+      "y": 1901,
+      "m": 6
+    }
   },
   "end": {
-    "y": 1944,
-    "m": 2,
-    "d": 12
+    "date": {
+      "y": 1944,
+      "m": 2,
+      "d": 12
+    }
   },
-  "date_label": "Correspondence from June 1901; eloped 4 March 1902; separated 1913; attachment maintained until her death, 1944",
   "summary": "The courtship began with Custance's admiring letter to Douglas in June 1901 and ran on role-play correspondence — Fairy Prince for Douglas, Princess and boyish Page for Custance — plus secret meetings, several in the upper room of Robert Ross's Carfax gallery. Douglas abandoned an American heiress-hunt for her; Custance jilted her fiancé George Montagu and eloped with Douglas on 4 March 1902, honeymooning at the Hôtel Rastadt, Paris; their son Raymond was born 17 November 1902. Strained by litigation, money trouble, and the custody fight for Raymond, the couple separated in 1913 but never divorced; from 1932 Custance lived near Douglas in Hove, seeing him nearly every day until she died in 1944.",
   "sources": [
     {
@@ -24,9 +27,11 @@
       "work": "parker-y90s-custance-bio",
       "locator": "para. 3",
       "locator_type": "none",
-      "evidence_date": {
-        "y": 1901,
-        "m": 6
+      "occurred": {
+        "date": {
+          "y": 1901,
+          "m": 6
+        }
       },
       "supports": "Courtship by correspondence begins June 1901; the Prince/Princess/Page personas; Custance's 'Opal' signature.",
       "verification": "verified-exact",
@@ -42,10 +47,12 @@
       "work": "parker-y90s-custance-bio",
       "locator": "para. 4",
       "locator_type": "none",
-      "evidence_date": {
-        "y": 1902,
-        "m": 3,
-        "d": 4
+      "occurred": {
+        "date": {
+          "y": 1902,
+          "m": 3,
+          "d": 4
+        }
       },
       "supports": "Elopement 4 March 1902; Paris honeymoon; son Raymond born 17 November 1902.",
       "verification": "verified-exact",
@@ -61,10 +68,12 @@
       "work": "douglas-autobiography-1929",
       "locator": "p. 197",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1902,
-        "m": 3,
-        "d": 4
+      "occurred": {
+        "date": {
+          "y": 1902,
+          "m": 3,
+          "d": 4
+        }
       },
       "supports": "Douglas's first-person account fixes the wedding: St George's, Hanover Square, by special licence, morning of Tuesday 4 March 1902.",
       "verification": "verified-exact",
@@ -80,8 +89,10 @@
       "work": "douglas-autobiography-1929",
       "locator": "p. 200",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1929
+      "occurred": {
+        "date": {
+          "y": 1929
+        }
       },
       "supports": "Separation dated eleven years after the 1902 marriage (= 1913); no divorce; Douglas's insistence on the continuing bond.",
       "verification": "verified-exact",
@@ -92,14 +103,16 @@
       "document": "memoir"
     },
     {
-      "quote": "My own Prince, The little heart is sweet and I shall wear it even when you have forgotten all about me and married the beautiful rich princess who will give you all those lovely things you ought to have. I miss you more than I can ever say for I love you beyond everything in the world and I think we shall never be happy together again. Write to me soon and tell me you love your little Page, and that one day you will come back to ‘him’, my Prince, my Prince.",
+      "quote": "My own Prince,\n\nThe little heart is sweet and I shall wear it even when you have forgotten all about me and married the beautiful rich princess who will give you all those lovely things you ought to have.\n\nI miss you more than I can ever say for I love you beyond everything in the world and I think we shall never be happy together again. Write to me soon and tell me you love your little Page, and that one day you will come back to ‘him’, my Prince, my Prince.",
       "context": "Olive Custance to Lord Alfred Douglas, autumn 1901, thanking him for a heart-shaped locket containing a strand of his hair before he sailed for America. The Prince/Page address is theirs, and it runs both ways: Murray quotes Douglas asking her, 'Why can't you dress up as a boy and come with me?' and later, 'how could I after I have known the dear little page?' Murray's own reading on the same page: 'Both had a strongly homosexual nature so the masculine side of Olive attracted Douglas while the feminine side of him attracted her.' They married at St George's, Hanover Square, on 4 March 1902.",
       "work": "murray-2020",
       "locator": "PDF p. 134",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1901,
-        "m": 9
+      "written": {
+        "date": {
+          "y": 1901,
+          "m": 9
+        }
       },
       "supports": "Courtship-letter texture; elopement details; separation and later relations.",
       "verification": "verified-exact",
@@ -120,10 +133,12 @@
       "work": "murray-2020",
       "locator": "PDF p. 141",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1902,
-        "m": 3,
-        "d": 4
+      "occurred": {
+        "date": {
+          "y": 1902,
+          "m": 3,
+          "d": 4
+        }
       },
       "supports": "The marriage date, church, witnesses and the special licence - independent of the Parker biography and of Douglas's own memoir, both already cited here.",
       "verification": "verified-elision",
@@ -139,8 +154,10 @@
       "work": "murray-2020",
       "locator": "PDF p. 195",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1913
+      "occurred": {
+        "date": {
+          "y": 1913
+        }
       },
       "supports": "The 1913 separation, the four-month gap, the short-lived reconciliation, and the second desertion - the shape of the marriage after the courtship years, which this record did not previously carry.",
       "verification": "verified-exact",

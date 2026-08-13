@@ -8,12 +8,16 @@
     "Jean Paul Raymond"
   ],
   "born": {
-    "y": 1866
+    "date": {
+      "y": 1866
+    }
   },
   "died": {
-    "y": 1931,
-    "m": 10,
-    "d": 7
+    "date": {
+      "y": 1931,
+      "m": 10,
+      "d": 7
+    }
   },
   "group": "aesthete",
   "gender": "m",

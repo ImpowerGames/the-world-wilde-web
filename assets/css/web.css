@@ -953,6 +953,9 @@ main {
   margin-bottom: 0;
 }
 .qtrans {
+  /* A lineated translation sits under a lineated quotation; without this its lines run
+     together into prose and stop answering the original line for line. */
+  white-space: pre-wrap;
   font-size: 13px;
   line-height: 1.6;
   color: var(--ink2);

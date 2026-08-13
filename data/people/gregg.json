@@ -4,11 +4,15 @@
   "sort_name": "Gregg, Frances",
   "aka": [],
   "born": {
-    "y": 1885
+    "date": {
+      "y": 1885
+    }
   },
   "died": {
-    "y": 1941,
-    "m": 4
+    "date": {
+      "y": 1941,
+      "m": 4
+    }
   },
   "group": "family",
   "gender": "f",

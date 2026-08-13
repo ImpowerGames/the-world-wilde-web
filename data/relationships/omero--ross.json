@@ -7,14 +7,17 @@
   "certainty": "second-hand",
   "certainty_status": "proposed",
   "start": {
-    "y": 1900,
-    "m": 4
+    "date": {
+      "y": 1900,
+      "m": 4
+    }
   },
   "end": {
-    "y": 1900,
-    "m": 4
+    "date": {
+      "y": 1900,
+      "m": 4
+    }
   },
-  "date_label": "Rome, April 1900",
   "summary": "Wilde reported to Robert Ross that Omero talked about him constantly, suspected him of treachery, and did not believe he would come back - and asked Ross what he had meant by a remark about Omero's conduct.",
   "sources": [
     {
@@ -25,9 +28,12 @@
       "context": "Wilde to Robert Ross, [April 1900], Rome - the opening of the letter, quoted whole. 'Homer' is Omero anglicised, and it is only this English form that ties the two references to one person. Wilde is relaying one friend's grievances about another and asking Ross what he had meant by his own remark. The 'revision' is scare-quoted, unexplained on the page, and nothing is inferred about it here.",
       "speaker": "Oscar Wilde",
       "addressee": "Robert Ross",
-      "evidence_date": {
-        "y": 1900,
-        "m": 4
+      "written": {
+        "date": {
+          "y": 1900,
+          "m": 4
+        },
+        "place": "rome"
       },
       "supports": "Omero's jealousy of Ross, reported by Wilde to Ross himself.",
       "verification": "verified-exact",

@@ -7,14 +7,18 @@
   "certainty": "platonic",
   "certainty_status": "proposed",
   "start": {
-    "y": 1892,
-    "m": 1,
-    "d": 19
+    "date": {
+      "y": 1892,
+      "m": 1,
+      "d": 19
+    }
   },
   "end": {
-    "y": 1892,
-    "m": 2,
-    "d": 4
+    "date": {
+      "y": 1892,
+      "m": 2,
+      "d": 4
+    }
   },
   "summary": "Wilde twice stood surety for the poet John Barlas in January and February 1892, after Barlas's arrest for firing a pistol in the street, and made light of it in two short letters.",
   "certainty_reasoning": "The record documents a friendship or acquaintance with no evidence of attraction or romance; classified platonic, upgradable if contrary evidence comes to light.",
@@ -23,14 +27,16 @@
       "work": "letters-2000",
       "locator": "p. 511",
       "locator_type": "page",
-      "quote": "My dear friend and poet, Thanks, a thousand thanks, for your charming letter. Whatever I did was merely what you would have done for me or for any friend of yours whom you admired and appreciated. We poets and dreamers are all brothers. I am so glad you are feeling better. I now know nerves myself, what they are, and what rest can do for them. We will have many days of song and joy together when the spring comes, and life shall be made lovely for us, and we will pipe on reeds. I must come and see you soon. Your affectionate friend",
+      "quote": "My dear friend and poet, Thanks, a thousand thanks, for your charming letter. Whatever I did was merely what you would have done for me or for any friend of yours whom you admired and appreciated. We poets and dreamers are all brothers.\n\nI am so glad you are feeling better. I now know nerves myself, what they are, and what rest can do for them. We will have many days of song and joy together when the spring comes, and life shall be made lovely for us, and we will pipe on reeds. I must come and see you soon. Your affectionate friend\n\nOSCAR",
       "context": "Wilde to John Barlas, [postmark 19 January 1892], 16 Tite Street (MS Hyde) — quoted whole. Barlas had been bound over three days earlier in the sum of £200, half guaranteed by Wilde; the editors say this letter is clearly the answer to Barlas's letter of gratitude. 'Whatever I did' is the bail.",
       "speaker": "Oscar Wilde",
       "addressee": "John Barlas",
-      "evidence_date": {
-        "y": 1892,
-        "m": 1,
-        "d": 19
+      "postmarked": {
+        "date": {
+          "y": 1892,
+          "m": 1,
+          "d": 19
+        }
       },
       "supports": "Wilde making light of standing surety for him, and the terms he puts the friendship in: brothers, spring, days of song and joy, 'Your affectionate friend'.",
       "verification": "verified-exact",
@@ -42,20 +48,25 @@
       "manuscript": {
         "repository": "British Library, London (Lady Eccles Oscar Wilde Collection)"
       },
-      "letter_id": "letters-2000/511#2"
+      "letter_id": "letters-2000/511#2",
+      "written": {
+        "place": "16-tite-street"
+      }
     },
     {
       "work": "letters-2000",
       "locator": "p. 512",
       "locator_type": "page",
-      "quote": "My dear poet, With great pleasure. Have I a form to fill up? Or is a letter what is necessary? In all things command me. The question of the 'particular purpose'. Only your wish to read in a public museum is a general question addressed to all, as many illiterate persons seek admission, whose sole object is either to read the Family Herald, or to write it, which is worse. Send me a line, poet and scholar, and know me for ever your friend",
+      "quote": "My dear poet, With great pleasure. Have I a form to fill up? Or is a letter what is necessary? In all things command me.\n\nThe question of the 'particular purpose'. Only your wish to read in a public museum is a general question addressed to all, as many illiterate persons seek admission, whose sole object is either to read the Family Herald, or to write it, which is worse.\n\nSend me a line, poet and scholar, and know me for ever your friend",
       "context": "Wilde to John Barlas, [postmark 4 February 1892], 16 Tite Street (MS Hyde) — quoted whole. Barlas wanted a reader's ticket for the British Museum and needed a recommender; the editors record that he was admitted on a six-month ticket the following day.",
       "speaker": "Oscar Wilde",
       "addressee": "John Barlas",
-      "evidence_date": {
-        "y": 1892,
-        "m": 2,
-        "d": 4
+      "postmarked": {
+        "date": {
+          "y": 1892,
+          "m": 2,
+          "d": 4
+        }
       },
       "supports": "Wilde vouching for him a second time within a month — and the sign-off, which is the warmest formula in either letter.",
       "verification": "verified-exact",
@@ -67,8 +78,10 @@
       "manuscript": {
         "repository": "British Library, London (Lady Eccles Oscar Wilde Collection)"
       },
-      "letter_id": "letters-2000/512#1"
+      "letter_id": "letters-2000/512#1",
+      "written": {
+        "place": "16-tite-street"
+      }
     }
-  ],
-  "date_label": "January-February 1892, around Barlas's arrest and bail"
+  ]
 }

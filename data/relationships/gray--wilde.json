@@ -8,14 +8,17 @@
   "certainty_status": "proposed",
   "certainty_reasoning": "The romantic characterization - Wilde in love with Gray, Gray his 'officially beloved' - rests on two independent secondary sources: McKenna (Secret Life, 2008 edn, PDF pp. 194, 239) and McCormack (John Gray, 1991, pp. 50, 84, 88), with Raffalovich's first-hand account (Uranisme et Unisexualite, 1896, pp. 247-248) as near-contemporary colour; no primary attestation from either man has been read. The sexual element remains McKenna's assertion alone - McCormack explicitly leaves it open ('It is impossible to know whether Gray was Wilde's lover') - and the c. 1889 start rests on secondary tradition, so those two elements stay in the disputed block.",
   "start": {
-    "y": 1892,
-    "circa": true
+    "date": {
+      "y": 1892,
+      "circa": true
+    }
   },
   "end": {
-    "y": 1893,
-    "circa": true
+    "date": {
+      "y": 1893,
+      "circa": true
+    }
   },
-  "date_label": "Documented span Feb. 1892 (Wilde publicly calls the acquaintance 'extremely recent') through 1893 (Silverpoints published; The Blackmailers June 1893); the editors note Wilde and Gray later 'fell out' (undated). The conventional c. 1889 start rests on secondary tradition.",
   "summary": "Gray was publicly tied to Wilde by February 1892, when the Daily Telegraph called him Wilde's 'protege' - a label Wilde corrected in print while praising Gray's 'perfected mode of expression'. In June 1892 Wilde personally undertook the production costs of Gray's Silverpoints (Mathews and Lane, 1893), and after The Picture of Dorian Gray appeared, Gray 'referred to himself as Dorian and allowed others in the Wilde circle to do so', though the editors find no evidence he was the character's original. The two fell out - the editors record the belief that Raffalovich broke the friendship up - but in De Profundis Wilde still ranked the friendship among those where 'my real life, my higher life' had been. Two independent biographers affirm the romantic bond - McKenna (Secret Life, 2008) and McCormack (John Gray, 1991), who calls the relationship 'absurdly romantic, intense, and idealized', records Gray's inscription 'To my loved master', and judges that being named Wilde's 'protege' in 1892 was 'the equivalent of being named Wilde's lover' - with Raffalovich's first-hand account (1896) as period colour. No first-person attestation from either man has been read, and McCormack leaves the sexual question open.",
   "disputed": {
     "claim": "That the bond was sexual as well as romantic, and that it ran from c. 1889 (the conventionally dated first meeting) through 1893.",
@@ -30,10 +33,13 @@
       "work": "letters-2000",
       "locator": "p. 520",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1892,
-        "m": 2,
-        "d": 19
+      "written": {
+        "date": {
+          "y": 1892,
+          "m": 2,
+          "d": 19
+        },
+        "place": "london"
       },
       "supports": "The public 'protege' characterization and Wilde's printed denial of it ('extremely recent'), Feb. 1892",
       "verification": "verified-elision",
@@ -51,10 +57,13 @@
       "work": "letters-2000",
       "locator": "p. 527",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1892,
-        "m": 6,
-        "d": 17
+      "written": {
+        "date": {
+          "y": 1892,
+          "m": 6,
+          "d": 17
+        },
+        "place": "bodley-head"
       },
       "supports": "Wilde personally undertook the production costs of Gray's Silverpoints - the patronage in a primary document",
       "verification": "verified-exact",
@@ -76,7 +85,6 @@
       "work": "letters-2000",
       "locator": "p. 520 n. 3",
       "locator_type": "page",
-      "evidence_date": null,
       "supports": "The falling-out; the 'Dorian' self-identification with the editors' no-evidence caveat",
       "verification": "verified-elision",
       "how_verified": "text-layer",
@@ -91,13 +99,16 @@
       "work": "letters-2000",
       "locator": "p. 686",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1897,
-        "m": 1,
-        "to": {
+      "written": {
+        "date": {
           "y": 1897,
-          "m": 3
-        }
+          "m": 1,
+          "to": {
+            "y": 1897,
+            "m": 3
+          }
+        },
+        "place": "reading"
       },
       "supports": "Wilde's retrospective valuation of the Gray friendship - 'my real life, my higher life'",
       "verification": "verified-exact",
@@ -118,8 +129,10 @@
       "work": "mckenna-2008",
       "locator": "PDF p. 194",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1889
+      "occurred": {
+        "date": {
+          "y": 1889
+        }
       },
       "supports": "The romantic characterization ('fell in love with') - verified in the repo copy at the text layer",
       "verification": "verified-exact",
@@ -135,7 +148,6 @@
       "work": "mckenna-2008",
       "locator": "PDF p. 239",
       "locator_type": "page",
-      "evidence_date": null,
       "supports": "Corroborates the romantic characterization ('officially beloved') from a second McKenna passage.",
       "verification": "verified-exact",
       "how_verified": "text-layer",
@@ -150,7 +162,6 @@
       "work": "mccormack-1991",
       "locator": "p. 50",
       "locator_type": "page",
-      "evidence_date": null,
       "supports": "Gray's first homosexual attachment was Wilde - an independent biography's direct statement",
       "verification": "verified-exact",
       "how_verified": "photo-reproduction",
@@ -165,7 +176,6 @@
       "work": "mccormack-1991",
       "locator": "p. 84",
       "locator_type": "page",
-      "evidence_date": null,
       "supports": "The public valence of the association: named as Wilde's protege or as 'Dorian' read as lover-status",
       "verification": "verified-exact",
       "how_verified": "photo-reproduction",
@@ -180,7 +190,6 @@
       "work": "mccormack-1991",
       "locator": "p. 88",
       "locator_type": "page",
-      "evidence_date": null,
       "supports": "The romantic characterization - intense, idealized, mutually attached through 1892 - from a second, independent biography",
       "verification": "verified-exact",
       "how_verified": "photo-reproduction",
@@ -195,9 +204,11 @@
       "work": "mccormack-1991",
       "locator": "p. 88",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1892,
-        "m": 10
+      "occurred": {
+        "date": {
+          "y": 1892,
+          "m": 10
+        }
       },
       "supports": "Gray's own inscription - 'To my loved master' - the closest surviving first-person expression of the relationship",
       "verification": "verified-exact",
@@ -214,7 +225,6 @@
       "work": "raffalovich-1896",
       "locator": "p. 247",
       "locator_type": "page",
-      "evidence_date": null,
       "lang": "fr",
       "supports": "A near-contemporary's account of Wilde's young men being openly called 'Oscar's new boy' - the circle's code",
       "verification": "verified-exact",
@@ -231,7 +241,6 @@
       "work": "raffalovich-1896",
       "locator": "p. 248",
       "locator_type": "page",
-      "evidence_date": null,
       "lang": "fr",
       "supports": "Near-contemporary confirmation that Wilde 'preached corruption' among his young men - McKenna's cited source, now read directly",
       "verification": "verified-exact",

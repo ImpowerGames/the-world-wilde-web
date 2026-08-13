@@ -10,15 +10,20 @@
   "outcome": "unreciprocated",
   "certainty_reasoning": "The evidence is Wilde's own twelve letters to Dowson (the primary source for this pair) plus Dowson's own words about Wilde as printed by Frankel from the Flower-Maas edition - so both participants are on record, which is rare here. The ardour is legible as ardour without a coding hypothesis, and a scholarly source reads it that way (McKenna: 'their friendship suddenly seemed to deepen into love'). Frankel - the specialist monograph for these years - reads it flatly as 'frank and unguarded friendship' and never suggests otherwise; Dowson's own surviving words about Wilde are admiring, wry and entirely non-romantic; Dowson's documented sexual interest was in women, and by both Sox's and Frankel's accounts he tried to steer Wilde toward women; and the ardent lines are a handful within a correspondence that is otherwise practical (poems, absinthe, a translation, a debt). Sox prints it in an agentless passive with an endnote (n. 12) that names no describer and merely cross-refers to Wilde's own 16 June letter, which does not contain it; the phrase appears nowhere in the Complete Letters, so it is not Wilde's; and McKenna, the only other source to use it, cites Sox p. 141 for it.",
   "start": {
-    "y": 1897,
-    "m": 6
+    "date": {
+      "y": 1890,
+      "inferred": true
+    }
   },
   "end": {
-    "y": 1897,
-    "m": 10
+    "date": {
+      "y": 1900,
+      "m": 2,
+      "d": 24,
+      "circa": true
+    }
   },
-  "date_label": "Acquainted from 1890; Dowson visited Wilde at Oakley Street between the trials, spring 1895. The letters that carry the ardour are Berneval/Dieppe, June-August 1897, concentrated in the fortnight 16-30 June; Dowson returned to England in mid-July 1897. Four further letters from Naples, October 1897, are practical. Wilde's last word on Dowson is his letter of condolence to Smithers, circa 24 February 1900.",
-  "summary": "Dowson met Wilde in 1890 through the London literary world and, with Robert Sherard, called on him at Oakley Street between the trials in 1895 - one of very few who did. In the summer of 1897 he was living at Arques-la-Bataille near Dieppe and became the closest daily companion of Wilde's first free months, dining at Berneval on 3 June and thereafter meeting almost constantly at the Cafe Suisse in Dieppe. Wilde's letters over the following fortnight turn markedly warm: he tells Dowson there is 'a fatality about our being together', asks why he is 'so persistently and perversely wonderful', watches for the green costume that suits his 'dark hyacinth locks', calls his absence the one imperfection in an otherwise perfect day, and signs himself 'Tout a toi'. Dowson's own letters of the same weeks are affectionate but unromantic - he found Wilde's 'enormous joy in life' hard to match - and he is reported to have tried to interest Wilde in women; Wilde later told Fothergill they had quarrelled and that Dowson had cut off his long curls to spite him. The friendship survived it in a lower key, and when Dowson died in February 1900 Wilde asked Smithers to lay flowers on his grave.",
+  "summary": "Dowson met Wilde in 1890 through the London literary world and, with Robert Sherard, called on him at Oakley Street between the trials in 1895 - one of very few who did. In the summer of 1897 he was living at Arques-la-Bataille near Dieppe and became the closest daily companion of Wilde's first free months, dining at Berneval on 3 June and thereafter meeting almost constantly at the Cafe Suisse in Dieppe. Wilde's letters over the following fortnight turn markedly warm: he tells Dowson there is 'a fatality about our being together', asks why he is 'so persistently and perversely wonderful', watches for the green costume that suits his 'dark hyacinth locks', calls his absence the one imperfection in an otherwise perfect day, and signs himself 'Tout a toi'. Dowson's own letters of the same weeks are affectionate but unromantic - he found Wilde's 'enormous joy in life' hard to match - and he is reported to have tried to interest Wilde in women; Wilde later told Fothergill they had quarrelled and that Dowson had cut off his long curls to spite him. The friendship survived it in a lower key, and when Dowson died in February 1900 Wilde asked Smithers to lay flowers on his grave. Four further letters from Naples, October 1897, are practical.",
   "sources": [
     {
       "quote": "There is a fatality about our being together that is astounding – or rather quite probable. Had I stayed at Arques I should have given up all hopes of ever separating from you. Why are you so persistently and perversely wonderful? … I suppose I shall see you in ten minutes from this. I am looking out for the green costume that goes so well with your dark hyacinth locks. … Now I am alive, and all is perfect, except your absence. Tout à toi",
@@ -26,10 +31,13 @@
       "work": "letters-2000",
       "locator": "p. 901",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1897,
-        "m": 6,
-        "d": 16
+      "written": {
+        "date": {
+          "y": 1897,
+          "m": 6,
+          "d": 16
+        },
+        "place": "dieppe"
       },
       "supports": "Wilde's own most explicit statement of attachment to Dowson: inseparability, a compliment on Dowson's hair in the mythological register he used for Douglas, absence as the single flaw in the day, and 'Tout à toi'. This is also the letter Sox is quoting for both 'the green costume' and 'dark hyacinth locks'.",
       "verification": "verified-elision",
@@ -46,15 +54,18 @@
       "letter_id": "letters-2000/901#1"
     },
     {
-      "quote": "My dear Ernest, Do come here at once: Monsieur Meyer is presiding over a morning meal of absinthe, and we want you. I am a wreck of course, but la belle soeur is like the moon. You were wonderful and charming all last night. Ever yours OSCAR",
+      "quote": "My dear Ernest, Do come here at once: Monsieur Meyer is presiding over a morning meal of absinthe, and we want you.\n\nI am a wreck of course, but la belle soeur is like the moon.\n\nYou were wonderful and charming all last night. Ever yours\n\nOSCAR",
       "context": "Wilde to Ernest Dowson, [? 24 June 1897], Café Suisse, Dieppe (MS Maguire) - the entire letter. Line breaks between the three sentences run together here.",
       "work": "letters-2000",
       "locator": "p. 907",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1897,
-        "m": 6,
-        "d": 24
+      "written": {
+        "date": {
+          "y": 1897,
+          "m": 6,
+          "d": 24
+        },
+        "place": "dieppe"
       },
       "supports": "The register at its warmest outside the 16 June letter, and the daily rhythm of the Dieppe weeks",
       "verification": "verified-exact",
@@ -76,10 +87,12 @@
       "work": "letters-2000",
       "locator": "p. 908",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1897,
-        "m": 6,
-        "d": 28
+      "postmarked": {
+        "date": {
+          "y": 1897,
+          "m": 6,
+          "d": 28
+        }
       },
       "supports": "Summons and dependence: Wilde asking to be consoled, and prescribing what Dowson is to wear - the second such instruction in a week",
       "verification": "verified-exact",
@@ -93,18 +106,24 @@
         "repository": "Private collection",
         "owner": "Mr J. Robert Maguire"
       },
-      "letter_id": "letters-2000/908#2"
+      "letter_id": "letters-2000/908#2",
+      "written": {
+        "place": "dieppe"
+      }
     },
     {
-      "quote": "Dear Ernest, I write a little line, whose only excuse is its entire illegibility, to tell you how charming you are (at Berneval) and how much I like your friend, and mine, the dear Achille. … You and Achille and Achille's friend and I must all be at Berneval together. I am making arrangements. Give to Achille my sincere friendship: you have it, and other things, always.",
+      "quote": "Dear Ernest, I write a little line, whose only excuse is its entire illegibility, to tell you how charming you are (at Berneval) and how much I like your friend, and mine, the dear Achille.…You and Achille and Achille's friend and I must all be at Berneval together. I am making arrangements.\n\nGive to Achille my sincere friendship: you have it, and other things, always.",
       "context": "Wilde to Ernest Dowson, Wednesday 6.30 [? 30 June 1897], Café Suisse, Dieppe (MS Maguire); signed S. M. The letter runs over the printed 908/909 page break. 'Achille' is glossed by the editors as presumably Achille Fromentin. The elision drops the paragraph praising Dowson's 'lovely lyrics' and a passage about a costermonger. The closing clause is addressed to Dowson though its sentence is nominally about Achille.",
       "work": "letters-2000",
       "locator": "pp. 908-909",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1897,
-        "m": 6,
-        "d": 30
+      "written": {
+        "date": {
+          "y": 1897,
+          "m": 6,
+          "d": 30
+        },
+        "place": "dieppe"
       },
       "supports": "The only line in the twelve letters that gestures at something withheld from the page ('and other things, always'), and the plan to gather the four of them at Berneval",
       "verification": "verified-elision",
@@ -126,8 +145,10 @@
       "work": "sox-1991",
       "locator": "p. 141",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1897
+      "occurred": {
+        "date": {
+          "y": 1897
+        }
       },
       "supports": "The only romantic characterization of the pair in the literature, and its unresolved attribution; Fothergill's counter-observation that Dowson's own attachment lay elsewhere; and the quarrel in which Dowson cut off the curls Wilde had admired - the evidential basis for outcome 'unreciprocated'",
       "verification": "verified-exact",
@@ -143,8 +164,10 @@
       "work": "frankel-2017",
       "locator": "p. 114",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1897
+      "occurred": {
+        "date": {
+          "y": 1897
+        }
       },
       "supports": "The second participant's own testimony - the counter-weight that keeps this edge below a relationship class. Dowson's register toward Wilde is admiring and wry, never romantic.",
       "verification": "verified-elision",
@@ -160,9 +183,11 @@
       "work": "mckenna-2008",
       "locator": "PDF p. 665",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1897,
-        "m": 6
+      "occurred": {
+        "date": {
+          "y": 1897,
+          "m": 6
+        }
       },
       "supports": "The scholarly reading of the friendship as deepening into love - and, by its own hedging, the reason the class stays at attraction-expressed rather than rising higher",
       "verification": "verified-exact",
@@ -173,15 +198,18 @@
       "document": "biography"
     },
     {
-      "quote": "My dear Smithers, I am greatly distressed to hear of Ernest's death: how sudden it must have been! Poor wounded wonderful fellow that he was, a tragic reproduction of all tragic poetry, like a symbol, or a scene. I hope bay-leaves will be laid on his tomb, and rue, and myrtle too, for he knew what love is. He was a sweet singer … If he is not yet laid to rest or unrest, do put some flowers for me on his grave.",
+      "quote": "My dear Smithers, I am greatly distressed to hear of Ernest's death: how sudden it must have been! Poor wounded wonderful fellow that he was, a tragic reproduction of all tragic poetry, like a symbol, or a scene. I hope bay-leaves will be laid on his tomb, and rue, and myrtle too, for he knew what love is.\n\nHe was a sweet singer…If he is not yet laid to rest or unrest, do put some flowers for me on his grave.",
       "context": "Wilde to Leonard Smithers, [circa 24 February 1900], Paris - written the day after Dowson died, and Wilde's last word on him. Addressed to a third party, so it is Wilde's own testimony but not part of the correspondence between the two men. The elision drops the simile comparing Dowson's note to birdsong in Shakespeare's day. The editors' footnote on the same page gives the death and burial particulars.",
       "work": "letters-2000",
       "locator": "p. 1173",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1900,
-        "m": 2,
-        "d": 24
+      "written": {
+        "date": {
+          "y": 1900,
+          "m": 2,
+          "d": 24
+        },
+        "place": "paris"
       },
       "supports": "The close of the connection in Wilde's own voice; 'he knew what love is' is elegiac and unspecific - Wilde does not say for whom",
       "verification": "verified-elision",
@@ -195,6 +223,18 @@
         "repository": "The Morgan Library & Museum, New York"
       },
       "letter_id": "letters-2000/1173#2"
+    },
+    {
+      "quote": "",
+      "context": "The visit to Wilde at Oakley Street between the trials, spring 1895, is asserted in this record's summary but no quoted source names the address. The quoted letters all postdate it (June 1897 onwards).",
+      "work": "frankel-2017",
+      "locator": "index s.v. Dowson",
+      "locator_type": "page",
+      "supports": "Would settle the Oakley Street visit: Frankel's monograph on 1895-1900, read at the page, should name the address where Dowson and Sherard called on Wilde between the trials.",
+      "verification": "unverified",
+      "how_verified": "unverified",
+      "citation_provenance": "",
+      "document": "biography"
     }
   ]
 }

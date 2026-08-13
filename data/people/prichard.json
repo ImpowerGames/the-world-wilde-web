@@ -6,12 +6,16 @@
     "Matt Prichard"
   ],
   "born": {
-    "y": 1865,
-    "m": 1,
-    "d": 4
+    "date": {
+      "y": 1865,
+      "m": 1,
+      "d": 4
+    }
   },
   "died": {
-    "y": 1936
+    "date": {
+      "y": 1936
+    }
   },
   "group": "aesthete",
   "gender": "m",

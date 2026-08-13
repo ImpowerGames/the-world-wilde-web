@@ -8,13 +8,18 @@
   "certainty_status": "proposed",
   "certainty_reasoning": "Sox's account, drawing on Fothergill's unpublished 1954 memoir: 'taken up with Warren in Rome' (p. 142) and 'taken up with Ned and Marshall' (p. 151); his own sentence that Fothergill's longing for 'something like a gentleman protector' 'certainly appeared to be fulfilled in Ned' (p. 150); Fothergill's memoir on the arrangement - 'could I ever be worth his keeping me? At once he said he'd give me £300 a year' (p. 151) - and on his feelings ('He became to me. part of my being. I seem to live as one with him', p. 150); Sox's verdict counting Fothergill among the four men Warren loved and 'wanted to possess' (p. 129); and, on Fothergill's marriage soon after Marshall's, that he 'followed his rival to the altar' (p. 155) - 'rival' being the strongest romantic-parallel word applied to the pair. Against that: every explicit sentence describes employment, patronage, nursing and discipleship, and the protective moustache advice (p. 142) is framed as collecting-security. Classed 'alleged' for thin characterization; 'romantic-nonsexual' would overstate what Sox asserts. Single source (Sox).",
   "start": {
-    "y": 1899
+    "date": {
+      "y": 1899
+    },
+    "place": "rome"
   },
   "end": {
-    "y": 1905,
-    "circa": true
+    "date": {
+      "y": 1929,
+      "m": 1,
+      "inferred": true
+    }
   },
-  "date_label": "Taken up with Warren in Rome from 1899 (Caffè Greco, via John Marshall); a Lewes House secretary-collector on Warren's £300 a year; left for Leipzig and the Slade School (enrolled 1905-06) after the 1904-6 'bad years'. The tie persisted: Fothergill's memoir epigraph addresses Warren 'at Lewes House, c.1905', and at Warren's Golders Green cremation in January 1929 Fothergill could recall no mourners in the chapel 'save Harry Thomas and myself'.",
   "summary": "Returning to Rome in 1899, the 23-year-old Fothergill met John Marshall at the Caffè Greco and 'became one of Ned's Lewes House collectors' - fulfilling, Sox writes, his earlier longing for 'something like a gentleman protector. support, direction and place', which 'certainly appeared to be fulfilled in Ned'. Warren descended on his typhoid sickbed 'complete with a valet and a German doctor' and, when Fothergill confessed his inheritance half spent - 'could I ever be worth his keeping me?' - settled £300 a year on him; aware of Fothergill's prior 'friendships with one or two boys', Warren also had him grow a moustache so as not to give the police 'an excuse for suppressing us'. Sox stops short of calling the bond romantic, but counts Fothergill among the four men Warren loved and 'wanted to possess', and remarks of Fothergill's 1906 marriage, soon after Marshall's, that he 'followed his rival to the altar'. Fothergill left for the Slade c. 1905; he was one of the two mourners he could remember in the chapel at Warren's cremation.",
   "disputed": {
     "claim": "that the Warren-Fothergill bond was a romantic or kept-companion attachment, over and above secretarial employment and patronage",
@@ -29,14 +34,16 @@
       "work": "sox-1991",
       "locator": "p. 142",
       "locator_type": "page",
-      "evidence_date": null,
       "supports": "Warren's knowledge of Fothergill's private conduct and his intervention in it - the closest the record comes to characterizing the terms on which they lived, and evidence of criminal-law pressure shaping the household's self-presentation.",
       "verification": "verified-exact",
       "how_verified": "text-layer",
       "citation_provenance": "PDF p. 158.",
       "verified_on": "2026-08-03",
       "voice": "modern",
-      "document": "biography"
+      "document": "biography",
+      "occurred": {
+        "place": "rome"
+      }
     },
     {
       "quote": "Fothergill's earlier expressed longing for 'something like a gentleman protector - someone who would give me support, direction and place' certainly appeared to be fulfilled in Ned. His feelings for Ned were strong: 'He became to me, as to the others, part of my being - or at least so far as my tyrannies and unsympathetic impetuousness allowed me to imitate his god-like love and tolerance. He has become more than a part of me, for I seem to live as one with him, a would-be memorial to him.'",
@@ -44,14 +51,16 @@
       "work": "sox-1991",
       "locator": "p. 150",
       "locator_type": "page",
-      "evidence_date": null,
       "supports": "Sox's own sentence that the protector-longing 'certainly appeared to be fulfilled in Ned'; Fothergill's devotional language for Warren",
       "verification": "verified-exact",
       "how_verified": "text-layer",
       "citation_provenance": "PDF p. 174.",
       "verified_on": "2026-08-03",
       "voice": "modern",
-      "document": "biography"
+      "document": "biography",
+      "occurred": {
+        "place": "lewes-house"
+      }
     },
     {
       "quote": "At last, Fothergill felt he had to 'face the problem that had long been on my mind and after all Ned's generosity and loving care of me, I had to come out with it. I imagined that he must be assuming that I was rich. But my £4000 had now half gone. Was I going to tell him that I couldn't go on with him? Or could I ever be worth his keeping me? At once he said he'd give me £300 a year and my mind was fresh to convalesce with.'",
@@ -59,14 +68,16 @@
       "work": "sox-1991",
       "locator": "p. 151",
       "locator_type": "page",
-      "evidence_date": null,
       "supports": "The material arrangement in Fothergill's own words - 'worth his keeping me', the £300 a year - and 'Ned's generosity and loving care'",
       "verification": "verified-exact",
       "how_verified": "text-layer",
       "citation_provenance": "PDF p. 175.",
       "verified_on": "2026-08-03",
       "voice": "modern",
-      "document": "biography"
+      "document": "biography",
+      "occurred": {
+        "place": "lewes-house"
+      }
     },
     {
       "quote": "Fothergill said that Ned asked him why he wanted to get married in the first place, to which Fothergill replied 'with my usual bravura that it was the only experience I hadn't enjoyed'. … With hindsight, it is interesting to note how soon after Marshall's marriage, Fothergill followed his rival to the altar.",
@@ -74,9 +85,11 @@
       "work": "sox-1991",
       "locator": "p. 155",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1906,
-        "circa": true
+      "occurred": {
+        "date": {
+          "y": 1906,
+          "circa": true
+        }
       },
       "supports": "Sox's 'his rival' framing - the strongest romantic-parallel wording applied to this pair in the pages read",
       "verification": "verified-elision",
@@ -92,7 +105,6 @@
       "work": "sox-1991",
       "locator": "p. 129",
       "locator_type": "page",
-      "evidence_date": null,
       "supports": "Sox counting Fothergill among the four men Warren loved and 'wanted to possess'",
       "verification": "verified-exact",
       "how_verified": "text-layer",

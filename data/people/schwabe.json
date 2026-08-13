@@ -6,10 +6,14 @@
     "Maurice Salis Schwabe"
   ],
   "born": {
-    "y": 1871
+    "date": {
+      "y": 1871
+    }
   },
   "died": {
-    "y": 1915
+    "date": {
+      "y": 1915
+    }
   },
   "gender": "m",
   "group": "trials",

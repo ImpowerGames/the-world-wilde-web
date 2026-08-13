@@ -6,10 +6,14 @@
     "George Ives"
   ],
   "born": {
-    "y": 1867
+    "date": {
+      "y": 1867
+    }
   },
   "died": {
-    "y": 1950
+    "date": {
+      "y": 1950
+    }
   },
   "group": "chaeronea",
   "bio": "Poet, penologist and pioneering campaigner for homosexual law reform; illegitimate son of Colonel Gordon Maynard Gordon-Ives and, by his own account, the Baroness de Molarti of Spain, raised by his paternal grandmother and living on a private income. Kept a diary from 1886 to 1950 - 122 volumes, around three million words - alongside a forty-five-volume press-cuttings casebook, an archive now split between Yale and the University of Texas at Austin. In about 1893 he founded the Order of Chaeronea, the first homosexual support-and-pressure group in Britain, named for the Theban band slaughtered in 338 BC, and structured it deliberately without hierarchy: any two existing members could invite a third. In October 1894 he published an outspoken justification of same-sex love in the Humanitarian. Lived at 56 St James' Street from July 1891, at Flat E4 the Albany, Piccadilly, from 30 June 1894, from 1897 in his late grandmother's Regent's Park house, and from 1905 at Adelaide Road, Primrose Hill, with an unconventional household of younger working-class men he called his 'children' - a family connected by co-residence rather than by blood. He was treasurer of the British Society for the Study of Sex Psychology (Edward Carpenter was its life president). Though he identified settledly as homosexual, he also had affairs with women, and considered having a child outside marriage with Matilda 'Tilly' Hayes. His will of 1939, eight typed pages with ten later codicils, left the Adelaide Road house and contents to the two men he was then living with, Harold Bloodworth and Stanley Saunders.",

@@ -6,10 +6,14 @@
     "Housman"
   ],
   "born": {
-    "y": 1865
+    "date": {
+      "y": 1865
+    }
   },
   "died": {
-    "y": 1959
+    "date": {
+      "y": 1959
+    }
   },
   "group": "chaeronea",
   "gender": "m",

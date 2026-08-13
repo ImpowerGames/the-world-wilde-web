@@ -7,10 +7,14 @@
     "The Jersey Lily"
   ],
   "born": {
-    "y": 1852
+    "date": {
+      "y": 1852
+    }
   },
   "died": {
-    "y": 1929
+    "date": {
+      "y": 1929
+    }
   },
   "group": "society",
   "gender": "f",

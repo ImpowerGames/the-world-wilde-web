@@ -9,14 +9,18 @@
   "direction": "wilde",
   "outcome": "unknown",
   "start": {
-    "y": 1900,
-    "m": 4
+    "date": {
+      "y": 1900,
+      "m": 4
+    },
+    "place": "naples"
   },
   "end": {
-    "y": 1900,
-    "m": 4
+    "date": {
+      "y": 1900,
+      "m": 4
+    }
   },
-  "date_label": "During a three-day stop at Naples on the Italian journey Wilde made with Harold Mellor in April 1900, before they reached Rome on Holy Thursday. The reporting letter is dated 16 April 1900 by the editors' heading; their footnote on the page gives Easter Day 1900 as 15 April, and Wilde dates his Vatican appearance 'yesterday'.",
   "summary": "Travelling up through Italy with Harold Mellor in April 1900, Wilde stopped three days at Naples and wrote to Robert Ross that he had fallen in love with a Sea-God, joking that the young man was for some extraordinary reason at the Regia Marina School instead of being with Triton. In the same breath he notes that most of his Naples friends are in prison. Nothing further about the young man appears in the pages read: no name, no age, no outcome.",
   "sources": [
     {
@@ -25,10 +29,13 @@
       "work": "letters-2000",
       "locator": "p. 1179",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1900,
-        "m": 4,
-        "d": 16
+      "written": {
+        "date": {
+          "y": 1900,
+          "m": 4,
+          "d": 16
+        },
+        "place": "rome"
       },
       "supports": "The whole of the record: Wilde's own statement that he fell in love, the young man's institution, and the absence of any recorded outcome",
       "verification": "verified-exact",
@@ -41,7 +48,10 @@
       "manuscript": {
         "repository": "William Andrews Clark Memorial Library, UCLA"
       },
-      "letter_id": "letters-2000/1178#2"
+      "letter_id": "letters-2000/1178#2",
+      "occurred": {
+        "place": "naples"
+      }
     }
   ]
 }

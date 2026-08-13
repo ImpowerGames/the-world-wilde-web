@@ -7,10 +7,14 @@
     "Lord Rennell of Rodd"
   ],
   "born": {
-    "y": 1858
+    "date": {
+      "y": 1858
+    }
   },
   "died": {
-    "y": 1941
+    "date": {
+      "y": 1941
+    }
   },
   "group": "aesthete",
   "gender": "m",

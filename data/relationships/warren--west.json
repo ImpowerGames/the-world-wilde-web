@@ -10,10 +10,11 @@
   "direction": "warren",
   "outcome": "declined",
   "start": {
-    "y": 1889
+    "date": {
+      "y": 1889
+    }
   },
   "end": null,
-  "date_label": "1889",
   "summary": "On an 1889 trip to Wiesbaden and Rome, Warren told A. G. B. West that he wanted to share his life with 'an alter ego'. West, who had long intended to take Holy Orders, was not happy with the possible implications of such a relationship, and declined. Warren stayed devoted to him anyway - godfather to his sons, and in the end it was West's son who ran and inherited Warren's Maine house. The wooing of John Marshall followed.",
   "sources": [
     {
@@ -22,8 +23,10 @@
       "work": "sox-1991",
       "locator": "p. 38",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1889
+      "occurred": {
+        "date": {
+          "y": 1889
+        }
       },
       "supports": "The declined alter-ego proposition that preceded the Marshall wooing",
       "verification": "verified-elision",

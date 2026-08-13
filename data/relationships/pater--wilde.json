@@ -7,14 +7,18 @@
   "certainty": "platonic",
   "certainty_status": "proposed",
   "start": {
-    "y": 1877,
-    "m": 7,
-    "d": 14
+    "date": {
+      "y": 1877,
+      "m": 7,
+      "d": 14
+    }
   },
   "end": {
-    "y": 1877,
-    "m": 7,
-    "d": 14
+    "date": {
+      "y": 1877,
+      "m": 7,
+      "d": 14
+    }
   },
   "summary": "Walter Pater's first letter to Wilde, July 1877 — the only direct contact recorded here, kept because of what it was worth to Wilde.",
   "certainty_reasoning": "The record documents a friendship or acquaintance with no evidence of attraction or romance; classified platonic, upgradable if contrary evidence comes to light.",
@@ -23,14 +27,17 @@
       "work": "letters-2000",
       "locator": "p. 59",
       "locator_type": "page",
-      "quote": "Dear Mr Wilde, Accept my best thanks for the magazine and your letter. Your excellent article on the Grosvenor Gallery I read with very great pleasure; it makes me much wish to make your acquaintance, and I hope you will give me an early call on your return to Oxford. I should much like to talk over some of the points with you, though on the whole I think your criticism very just, and it is certainly very pleasantly expressed. It shows that you possess some beautiful, and ~~at~~ for your age quite exceptionally cultivated, tastes; and a considerable knowledge also of many beautiful things. I hope you will write a great deal in time to come. Very truly yours",
+      "quote": "Dear Mr Wilde, Accept my best thanks for the magazine and your letter. Your excellent article on the Grosvenor Gallery I read with very great pleasure; it makes me much wish to make your acquaintance, and I hope you will give me an early call on your return to Oxford.\n\nI should much like to talk over some of the points with you, though on the whole I think your criticism very just, and it is certainly very pleasantly expressed. It shows that you possess some beautiful, and ~~at~~ for your age quite exceptionally cultivated, tastes; and a considerable knowledge also of many beautiful things. I hope you will write a great deal in time to come. Very truly yours\n\nWALTER PATER",
       "context": "Walter Pater to Oscar Wilde, headed 'Bradmore Road. Oxford. July 14' [1877], quoted whole from the autograph at the Ransom Center. Wilde had sent him the Dublin University Magazine carrying his notice of the Grosvenor Gallery's opening; this is the reply, and the beginning of the acquaintance. Wilde forwarded the letter to William Ward and asked for it back by registered post.",
       "speaker": "Walter Pater",
       "addressee": "Oscar Wilde",
-      "evidence_date": {
-        "y": 1877,
-        "m": 7,
-        "d": 14
+      "written": {
+        "date": {
+          "y": 1877,
+          "m": 7,
+          "d": 14
+        },
+        "place": "oxford"
       },
       "supports": "The first contact, in Pater's own hand, and what it was worth to Wilde.",
       "verification": "verified-exact",
@@ -53,6 +60,5 @@
       "verified_against_original": true,
       "letter_id": "letters-2000/59#1"
     }
-  ],
-  "date_label": "Oxford, from 1877"
+  ]
 }

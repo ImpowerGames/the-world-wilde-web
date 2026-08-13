@@ -7,14 +7,21 @@
   "certainty": "self-reported",
   "certainty_status": "proposed",
   "start": {
-    "y": 1900,
-    "m": 3
+    "date": {
+      "y": 1900,
+      "m": 3,
+      "part": "late",
+      "inferred": true
+    }
   },
   "end": {
-    "y": 1900,
-    "m": 3
+    "date": {
+      "y": 1900,
+      "m": 3,
+      "part": "late",
+      "inferred": true
+    }
   },
-  "date_label": "A single evening or afternoon, Paris, late March 1900",
   "direction": null,
   "outcome": null,
   "summary": "Wilde was seen in a boy's company outside a cafe behind the Madeleine by Aleck Ross, and wrote about it to Aleck's brother Robbie the same week. The encounter is known only from Wilde's own sentence, and his framing of it - 'half rough, all Hylas' - is the whole of the evidence for reading it as more than company.",
@@ -23,11 +30,14 @@
       "work": "letters-2000",
       "locator": "p. 1177",
       "locator_type": "page",
-      "quote": "Only an hour after I, with 'waving hands' like Tennyson's Vivien, had evolved a new evangel of morals, dear Aleck passed before the little *café* behind the Madeleine, and saw me with a beautiful boy in grey velvet - half rough, all Hylas. Alas, the eye he turned on me was not the sightless one. His smile was terrible. It was like one of Besant's novels. I really felt it very much. At luncheon I had been singularly ethical. I am always ethical at the Café de la Paix.",
+      "quote": "Only an hour after I, with 'waving hands' like Tennyson's Vivien, had evolved a new evangel of morals, dear Aleck passed before the little *café* behind the Madeleine, and saw me with a beautiful boy in grey velvet - half rough, all Hylas. Alas, the eye he turned on me was not the sightless one. His smile was terrible. It was like one of Besant's novels.\n\nI really felt it very much. At luncheon I had been singularly ethical. I am always ethical at the Café de la Paix.",
       "context": "Wilde to Robert Ross, Thursday [Late March 1900], Grand Cafe, 14 boulevard des Capucines, Paris. 'Aleck' is Ross's brother; the editors' note explains the joke - he had lost the sight of one eye in early youth, so the eye he turned on Wilde was the seeing one.",
-      "evidence_date": {
-        "y": 1900,
-        "m": 3
+      "written": {
+        "date": {
+          "y": 1900,
+          "m": 3
+        },
+        "place": "paris"
       },
       "supports": "The encounter, in Wilde's own words, and his framing of the boy.",
       "verification": "verified-exact",
@@ -40,7 +50,10 @@
       "manuscript": {
         "repository": "William Andrews Clark Memorial Library, UCLA"
       },
-      "letter_id": "letters-2000/1177#1"
+      "letter_id": "letters-2000/1177#1",
+      "occurred": {
+        "place": "paris"
+      }
     }
   ]
 }

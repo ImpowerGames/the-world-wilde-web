@@ -7,14 +7,17 @@
   "certainty": "platonic",
   "certainty_status": "proposed",
   "start": {
-    "y": 1892,
-    "m": 6,
-    "d": 20
+    "date": {
+      "y": 1891,
+      "inferred": true
+    }
   },
   "end": {
-    "y": 1892,
-    "m": 6,
-    "d": 20
+    "date": {
+      "y": 1892,
+      "m": 6,
+      "d": 20
+    }
   },
   "summary": "Wilde's letter to Coulson Kernahan thanking him for his fairy tale — warmth between men, recorded whether or not it amounts to anything.",
   "certainty_reasoning": "The record documents a friendship or acquaintance with no evidence of attraction or romance; classified platonic, upgradable if contrary evidence comes to light.",
@@ -27,10 +30,12 @@
       "context": "Wilde to Coulson Kernahan, [postmark 20 June 1892], 16 Tite Street (MS British Library). The elision drops three sentences of praise for the tale's symbolism. Included for completeness rather than for what it proves: the 'passion' is the subject Wilde thinks he should be writing about.",
       "speaker": "Oscar Wilde",
       "addressee": "Coulson Kernahan",
-      "evidence_date": {
-        "y": 1892,
-        "m": 6,
-        "d": 20
+      "postmarked": {
+        "date": {
+          "y": 1892,
+          "m": 6,
+          "d": 20
+        }
       },
       "supports": "Warmth between men, recorded whether or not it amounts to anything.",
       "verification": "verified-elision",
@@ -42,8 +47,10 @@
       "manuscript": {
         "repository": "British Library, London"
       },
-      "letter_id": "letters-2000/528#1"
+      "letter_id": "letters-2000/528#1",
+      "written": {
+        "place": "16-tite-street"
+      }
     }
-  ],
-  "date_label": "London, 1891-1892"
+  ]
 }

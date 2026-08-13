@@ -7,14 +7,19 @@
   "certainty": "self-reported",
   "certainty_status": "proposed",
   "start": {
-    "y": 1885,
-    "m": 11
+    "date": {
+      "y": 1880,
+      "circa": true,
+      "inferred": true
+    },
+    "place": "13-salisbury-street"
   },
   "end": {
-    "y": 1886,
-    "m": 6
+    "date": {
+      "y": 1886,
+      "m": 6
+    }
   },
-  "date_label": "Correspondence postmarked 5 Nov. 1885 - 11 June 1886; acquaintance dates from 13 Salisbury Street, 1880-81, when the schoolboy Marillier brought Wilde his coffee.",
   "summary": "Marillier, the 'blue-coat boy' who had lodged in Wilde's Salisbury Street building in 1880-81, wrote to Wilde from Peterhouse, Cambridge, in autumn 1885; Wilde's replies over the following eight months are the most romantically charged letters he is known to have written to a young man before Ross - a missed train mourned, a photograph requested, a Cambridge visit remembered as 'a dream', and the December 1885 Glasgow letter naming what they shared as 'the love of things impossible. L'amour de l'impossible'. The letters record visits in both directions through the winter; the last surviving letter (June 1886) still insists 'You are certainly not to call me Mr Wilde.'",
   "sources": [
     {
@@ -23,10 +28,12 @@
       "work": "letters-2000",
       "locator": "p. 272",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1885,
-        "m": 12,
-        "d": 12
+      "postmarked": {
+        "date": {
+          "y": 1885,
+          "m": 12,
+          "d": 12
+        }
       },
       "supports": "Wilde naming the bond itself - a shared 'love of things impossible', l'amour de l'impossible - and asking what men call it: the correspondence's most explicit characterization of what passed between them",
       "verification": "verified-exact",
@@ -39,7 +46,10 @@
       "manuscript": {
         "repository": "British Library, London (Lady Eccles Oscar Wilde Collection)"
       },
-      "letter_id": "letters-2000/272#1"
+      "letter_id": "letters-2000/272#1",
+      "written": {
+        "place": "central-station-hotel"
+      }
     },
     {
       "quote": "I have a very vivid remembrance of the bright enthusiastic boy who used to bring me my coffee in Salisbury Street, and am delighted to find he is devoted to the muses, but I suppose you don't flirt with all nine ladies at once? Which of them do you really love?",
@@ -47,10 +57,12 @@
       "work": "letters-2000",
       "locator": "p. 266",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1885,
-        "m": 11,
-        "d": 5
+      "postmarked": {
+        "date": {
+          "y": 1885,
+          "m": 11,
+          "d": 5
+        }
       },
       "supports": "Acquaintance renewed from the Salisbury Street years (1880-81); flirtatious register from the first reply",
       "verification": "verified-exact",
@@ -63,18 +75,23 @@
       "manuscript": {
         "repository": "British Library, London (Lady Eccles Oscar Wilde Collection)"
       },
-      "letter_id": "letters-2000/266#2"
+      "letter_id": "letters-2000/266#2",
+      "written": {
+        "place": "albemarle-club"
+      }
     },
     {
-      "quote": "Harry, why did you let me catch my train? I would have liked to have gone to the National Gallery with you, … In our meeting again there was a touch of Browning – keen curiosity, wonder, delight. … When am I to see you again? Write me a long letter to Tite Street and I will get it when I come back. I wish you were here, Harry. … I have never learned anything except from people younger than myself, and you are infinitely young. Your affectionate friend",
+      "quote": "Harry, why did you let me catch my train? I would have liked to have gone to the National Gallery with you, … In our meeting again there was a touch of Browning – keen curiosity, wonder, delight. … When am I to see you again? Write me a long letter to Tite Street and I will get it when I come back. I wish you were here, Harry. … I have never learned anything except from people younger than myself, and you are infinitely young. Your affectionate friend\n\nOSCAR WILDE",
       "context": "Wilde to H. C. Marillier, [Postmark 8 November 1885], Station Hotel, Newcastle-on-Tyne, after their meeting; signed Oscar Wilde",
       "work": "letters-2000",
       "locator": "p. 267",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1885,
-        "m": 11,
-        "d": 8
+      "postmarked": {
+        "date": {
+          "y": 1885,
+          "m": 11,
+          "d": 8
+        }
       },
       "supports": "The reunion's emotional charge and the wish for more meetings, in Wilde's own words",
       "verification": "verified-elision",
@@ -87,18 +104,23 @@
       "manuscript": {
         "repository": "British Library, London (Lady Eccles Oscar Wilde Collection)"
       },
-      "letter_id": "letters-2000/267#1"
+      "letter_id": "letters-2000/267#1",
+      "written": {
+        "place": "station-hotel-newcastle"
+      }
     },
     {
-      "quote": "Your letter came to me at Manchester. I had been thinking a great deal about you. There is at least this beautiful mystery in life, that at the moment it feels most complete it finds some secret sacred niche in its shrine empty and waiting. … You are certainly not to call me Mr Wilde. What should you call me but",
+      "quote": "Your letter came to me at Manchester. I had been thinking a great deal about you. There is at least this beautiful mystery in life, that at the moment it feels most complete it finds some secret sacred niche in its shrine empty and waiting.\n\nThen comes a time of exquisite expectancy.\n\nHarry, you must not ask me to read a paper, or say anything. I have too much public work at present and am tired. I shall look and listen, and my visit will be quite quiet. Perhaps next term.\n\nYou are certainly not to call me Mr Wilde. What should you call me but\n\nOSCAR",
       "context": "Wilde to H. C. Marillier, [Postmark 11 June 1886] - the last surviving letter of the correspondence; the signature Oscar completes the final sentence",
       "work": "letters-2000",
       "locator": "p. 282",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1886,
-        "m": 6,
-        "d": 11
+      "postmarked": {
+        "date": {
+          "y": 1886,
+          "m": 6,
+          "d": 11
+        }
       },
       "supports": "The correspondence's end-point (June 1886), still on deliberately intimate first-name terms",
       "verification": "verified-elision",

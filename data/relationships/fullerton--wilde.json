@@ -7,13 +7,17 @@
   "certainty": "platonic",
   "certainty_status": "proposed",
   "start": {
-    "y": 1899,
-    "m": 6
+    "date": {
+      "y": 1899,
+      "m": 6
+    }
   },
   "end": {
-    "y": 1899,
-    "m": 6,
-    "d": 3
+    "date": {
+      "y": 1899,
+      "m": 6,
+      "d": 3
+    }
   },
   "summary": "A small exchange of June 1899: Wilde asking the journalist W. Morton Fullerton for a hundred francs under his assumed name, and Fullerton's reply — his own words, which few people on this map get.",
   "certainty_reasoning": "The record documents a friendship or acquaintance with no evidence of attraction or romance; classified platonic, upgradable if contrary evidence comes to light.",
@@ -22,13 +26,16 @@
       "work": "letters-2000",
       "locator": "p. 1154",
       "locator_type": "page",
-      "quote": "My dear Fullerton, I find myself in very great trouble owing to not getting some money I expected, from America, where it is owing to me. Would it be an inconvenience to you to lend me 100 francs? I receive my quarterly allowance, such as it is, on July 1st, when I will be able to return it to you. At present I am quite without money, and I hope you will not mind my asking you this favour. If you are able to do this would you send it to me, Monsieur _Sebastian Melmoth_, at the above address? Believe me, truly yours",
+      "quote": "My dear Fullerton, I find myself in very great trouble owing to not getting some money I expected, from America, where it is owing to me.\n\nWould it be an inconvenience to you to lend me 100 francs? I receive my quarterly allowance, such as it is, on July 1st, when I will be able to return it to you. At present I am quite without money, and I hope you will not mind my asking you this favour.\n\nIf you are able to do this would you send it to me, Monsieur _Sebastian Melmoth_, at the above address? Believe me, truly yours\n\nOSCAR WILDE",
       "context": "Wilde to W. Morton Fullerton, [June 1899], Hotel Marsollier (MS Harvard) - quoted whole. 'Sebastian Melmoth' is underlined in the original: the money has to be addressed to the alias, which is the exile's whole condition in one clause. Eighteen months before his death.",
       "speaker": "Oscar Wilde",
       "addressee": "W. Morton Fullerton",
-      "evidence_date": {
-        "y": 1899,
-        "m": 6
+      "written": {
+        "date": {
+          "y": 1899,
+          "m": 6
+        },
+        "place": "hotel-marsollier"
       },
       "supports": "Wilde asking a journalist for a hundred francs, under his assumed name.",
       "verification": "verified-exact",
@@ -50,10 +57,13 @@
       "context": "Fullerton's reply, 3 June 1899, 35 boulevard des Capucines (MS Clark), quoted by the editors. His own words, which few people on this map get. He addresses Wilde by the alias without remark - 'My dear Melmoth' - which is what the courtesy of that circle looked like in practice. 'conge' is leave; 'gene' is embarrassment or want.",
       "speaker": "W. Morton Fullerton",
       "addressee": "Oscar Wilde",
-      "evidence_date": {
-        "y": 1899,
-        "m": 6,
-        "d": 3
+      "written": {
+        "date": {
+          "y": 1899,
+          "m": 6,
+          "d": 3
+        },
+        "place": "trouville"
       },
       "supports": "That the appeal was answered, and how Fullerton addressed him.",
       "verification": "verified-exact",
@@ -67,6 +77,5 @@
       },
       "letter_id": "letters-2000/1154n2"
     }
-  ],
-  "date_label": "Paris, June 1899"
+  ]
 }

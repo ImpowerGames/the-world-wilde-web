@@ -7,12 +7,15 @@
   "certainty": "platonic",
   "certainty_status": "proposed",
   "start": {
-    "y": 1897
+    "date": {
+      "y": 1897
+    }
   },
   "end": {
-    "y": 1898
+    "date": {
+      "y": 1898
+    }
   },
-  "date_label": "Berneval and after, 1897-8",
   "summary": "Wilde counted Conder among the friends who came to see him at Berneval after prison - 'a sort of Corot of the sunlight' - and kept him in the Dieppe circle the following summer.",
   "certainty_reasoning": "The record documents a friendship or acquaintance with no evidence of attraction or romance; classified platonic, upgradable if contrary evidence comes to light.",
   "sources": [
@@ -24,10 +27,13 @@
       "context": "Wilde to Carlos Blacker, 12 July 1897, Berneval-sur-Mer (MS Koch, Yale). The roll-call of who came after prison. Corot is the French landscape painter, and the compliment is to Conder's light.",
       "speaker": "Oscar Wilde",
       "addressee": "Carlos Blacker",
-      "evidence_date": {
-        "y": 1897,
-        "m": 7,
-        "d": 12
+      "written": {
+        "date": {
+          "y": 1897,
+          "m": 7,
+          "d": 12
+        },
+        "place": "berneval-sur-mer"
       },
       "supports": "That he came to Berneval, and what Wilde thought of his painting.",
       "verification": "verified-exact",
@@ -49,9 +55,12 @@
       "context": "Wilde at Berneval, August 1897, on the same printed page as the second Laurence Housman letter. 'A vineyard' appears to be a joke at the expense of some improving influence being exerted on Conder at Dieppe; the sense is not explained on the page and nothing is inferred.",
       "speaker": "Oscar Wilde",
       "addressee": null,
-      "evidence_date": {
-        "y": 1897,
-        "m": 8
+      "written": {
+        "date": {
+          "y": 1897,
+          "m": 8
+        },
+        "place": "berneval-sur-mer"
       },
       "supports": "Conder in the Dieppe circle, and Wilde's tone about him.",
       "verification": "verified-exact",
@@ -63,7 +72,10 @@
       "manuscript": {
         "repository": "William Andrews Clark Memorial Library, UCLA"
       },
-      "letter_id": "letters-2000/927#1"
+      "letter_id": "letters-2000/927#1",
+      "occurred": {
+        "place": "dieppe"
+      }
     }
   ]
 }

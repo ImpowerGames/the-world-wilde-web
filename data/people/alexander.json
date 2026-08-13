@@ -9,10 +9,14 @@
     "Sir George Alexander"
   ],
   "born": {
-    "y": 1858
+    "date": {
+      "y": 1858
+    }
   },
   "died": {
-    "y": 1918
+    "date": {
+      "y": 1918
+    }
   },
   "group": "aesthete",
   "gender": "m",

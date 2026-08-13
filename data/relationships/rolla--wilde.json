@@ -10,25 +10,34 @@
   "outcome": "unknown",
   "certainty_reasoning": "Printed 1141 has Wilde telling Smithers 'I do not love the lad Edoardo Rolla as much as I did' - within weeks of the Genoa meeting.",
   "start": {
-    "y": 1899,
-    "m": 4
+    "date": {
+      "y": 1899,
+      "m": 4
+    },
+    "place": "genoa"
   },
   "end": {
-    "y": 1899,
-    "m": 4
+    "date": {
+      "y": 1899,
+      "m": 4
+    }
   },
-  "date_label": "Anticipated meeting at Genoa, first week of April 1899. The letter is dated 1 April [1899] by the editors; the two Ross postcards on the same printed page are postmarked 7 April 1899 from Santa Margherita.",
   "summary": "Leaving Mellor's villa at Gland at the start of April 1899, Wilde wrote to Robert Ross that he hoped to find a young seaman named Edoardo Rolla waiting for him at Genoa, having written ahead to him, and set the hope beside a statement of longing for Italy after the Swiss months. It is an approach on the page and nothing more: no letter read records whether the two met, and Rolla appears nowhere else in the correspondence consulted.",
   "sources": [
     {
-      "quote": "I hope to find at Genoa, waiting for me, a young lad, by name Edoardo Rolla, one of the sea-farers. He has fair hair, and is always in dark blue. I have written to him. After the chill virginity of Swiss Alps and snow, I long for the red flowers of life that stain the feet of summer in Italy. Ever yours O. W.",
+      "quote": "I hope to find at Genoa, waiting for me, a young lad, by name Edoardo Rolla, one of the sea-farers. He has fair hair, and is always in dark blue. I have written to him. After the chill virginity of Swiss Alps and snow, I long for the red flowers of life that stain the feet of summer in Italy. Ever yours\n\nO. W.",
       "context": "Wilde to Robert Ross, 1 April [1899], Café du Nord, Geneva - he had left Mellor's villa at Gland that day, and this is the final paragraph of the letter announcing his departure for Genoa, where he had taken a room at the Albergo di Firenze on the quay.",
       "work": "letters-2000",
       "locator": "p. 1140",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1899,
-        "m": 4
+      "written": {
+        "date": {
+          "y": 1899,
+          "m": 4,
+          "d": 1,
+          "inferred": true
+        },
+        "place": "geneva"
       },
       "supports": "The approach itself: a named young man written to in advance, described, and awaited, with Wilde's longing stated in the same breath; no outcome recorded",
       "verification": "verified-exact",
@@ -41,20 +50,26 @@
       "manuscript": {
         "repository": "William Andrews Clark Memorial Library, UCLA"
       },
-      "letter_id": "letters-2000/1139#2"
+      "letter_id": "letters-2000/1139#2",
+      "occurred": {
+        "place": "genoa"
+      }
     },
     {
       "work": "letters-2000",
       "locator": "p. 1141",
       "locator_type": "page",
-      "quote": "My dear Smithers, … The £10 arrived safe - many thanks. Of course it was a blow not getting the £20, but I do hope you will send the balance soon. I now want to get back to Paris - my life here is too lonely. … Is there really any chance of your coming out here? I wish you would. I am at Santa Margherita, Ligure, Genoa, where please write and send the DC: the only consolation I have as I do not love the lad Edoardo Rolla as much as I did. Yours",
+      "quote": "My dear Smithers, … The £10 arrived safe - many thanks. Of course it was a blow not getting the £20, but I do hope you will send the balance soon. I now want to get back to Paris - my life here is too lonely. … Is there really any chance of your coming out here? I wish you would. I am at Santa Margherita, Ligure, Genoa, where please write and send the DC: the only consolation I have as I do not love the lad Edoardo Rolla as much as I did. Yours\n\nO. W.",
       "context": "Wilde to Leonard Smithers, [? 8 April 1899], Albergo di Firenze, Genoa (MS Simpson). The elisions drop the proofs of the play and a request for £100. The end of it, in the same sentence as an address for forwarding: the Daily Chronicle is to be sent on because Rolla is no longer consolation enough. Wilde had met him at Genoa that same April, so this is a matter of weeks. Nothing is said about what Rolla felt, then or now.",
       "speaker": "Oscar Wilde",
       "addressee": "Leonard Smithers",
-      "evidence_date": {
-        "y": 1899,
-        "m": 4,
-        "d": 8
+      "written": {
+        "date": {
+          "y": 1899,
+          "m": 4,
+          "d": 8
+        },
+        "place": "genoa"
       },
       "supports": "That the attachment cooled, and how fast - stated by Wilde himself to a third party.",
       "verification": "verified-elision",
@@ -67,7 +82,10 @@
         "repository": "Private collection",
         "owner": "Mr John Simpson"
       },
-      "letter_id": "letters-2000/1141#3"
+      "letter_id": "letters-2000/1141#3",
+      "occurred": {
+        "place": "genoa"
+      }
     }
   ]
 }

@@ -6,7 +6,6 @@
   ],
   "certainty": "married",
   "certainty_status": "proposed",
-  "date_label": "Married; dates not established here",
   "summary": "Ada and Ernest Leverson were married. In May 1895, between Wilde's second and third trials, they took him into their house when no hotel in London would have him, and two years later they were both at Dieppe to meet him coming out of prison.",
   "sources": [
     {
@@ -17,9 +16,12 @@
       "context": "Wilde to Ada Leverson, [? Early May 1895], between the second and third trials (MS Clark). Quoted for the pairing: the thanks are to the two of them, and the love is returned on behalf of himself and Douglas. Four people in one sentence.",
       "speaker": "Oscar Wilde",
       "addressee": "Ada Leverson",
-      "evidence_date": {
-        "y": 1895,
-        "m": 5
+      "written": {
+        "date": {
+          "y": 1895,
+          "m": 5
+        },
+        "place": "146-oakley-street"
       },
       "supports": "That the debt was to a married couple, not to one of them.",
       "verification": "verified-exact",
@@ -37,14 +39,17 @@
       "work": "letters-2000",
       "locator": "p. 845",
       "locator_type": "page",
-      "quote": "This is my first day of real liberty, so I try to send you a line, and with kind regards to dear Ernest whom I was pleased to see again, ever affectionately yours",
+      "quote": "This is my first day of real liberty, so I try to send you a line, and with kind regards to dear Ernest whom I was pleased to see again, ever affectionately yours\n\nOSCAR WILDE",
       "context": "Wilde to Ada Leverson, [20 May 1897], Hôtel Sandwich, Dieppe (MS Clark). Ernest was at Dieppe too, on the morning Wilde came out of prison.",
       "speaker": "Oscar Wilde",
       "addressee": "Ada Leverson",
-      "evidence_date": {
-        "y": 1897,
-        "m": 5,
-        "d": 20
+      "written": {
+        "date": {
+          "y": 1897,
+          "m": 5,
+          "d": 20
+        },
+        "place": "dieppe"
       },
       "supports": "That he was there at the other end of it as well.",
       "verification": "verified-elision",

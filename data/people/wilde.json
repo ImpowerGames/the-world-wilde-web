@@ -4,14 +4,18 @@
   "sort_name": "Wilde, Oscar",
   "aka": [],
   "born": {
-    "y": 1854,
-    "m": 10,
-    "d": 16
+    "date": {
+      "y": 1854,
+      "m": 10,
+      "d": 16
+    }
   },
   "died": {
-    "y": 1900,
-    "m": 11,
-    "d": 30
+    "date": {
+      "y": 1900,
+      "m": 11,
+      "d": 30
+    }
   },
   "group": "core",
   "bio": "Dublin-born writer; born 16 October 1854 at 21 Westland Row, educated at Trinity College Dublin and Magdalen College, Oxford. Married Constance Lloyd on 29 May 1884; two sons, Cyril (b. 1885) and Vyvyan (b. 1886). Convicted 25 May 1895 and sentenced to two years' hard labour following the three trials of that spring; released 19 May 1897 and lived thereafter in France and Italy. Died 30 November 1900 at the Hôtel d'Alsace, Paris, of cerebral meningitis; buried at Bagneux, moved to Père Lachaise in 1909.",
@@ -30,10 +34,12 @@
           "context": "Wilde to Leonard Smithers, Saturday [11 December 1897], Villa Giudice, Posilippo (MS Hyde). 'averages' is underlined in the original; the Latin is Virgil, 'How changed from what he once was'. The german scientists are the sexologists - Krafft-Ebing's Psychopathia Sexualis and its successors, in which the Wilde trials had become standard case material within two years. Wilde is describing his own conversion into a data point, and the sting he picks out is not being called pathological but being tabulated: made ordinary, averaged, one of a class. No specific work is named on the page and none is inferred here.",
           "speaker": "Oscar Wilde",
           "addressee": "Leonard Smithers",
-          "evidence_date": {
-            "y": 1897,
-            "m": 12,
-            "d": 11
+          "written": {
+            "date": {
+              "y": 1897,
+              "m": 12,
+              "d": 11
+            }
           },
           "supports": "Wilde's own awareness that he had become a case study in the medical literature of homosexuality, in his lifetime.",
           "verification": "verified-exact",

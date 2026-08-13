@@ -7,12 +7,16 @@
   "certainty": "platonic",
   "certainty_status": "proposed",
   "start": {
-    "y": 1887,
-    "m": 6
+    "date": {
+      "y": 1887,
+      "m": 6
+    }
   },
   "end": {
-    "y": 1887,
-    "m": 6
+    "date": {
+      "y": 1887,
+      "m": 6
+    }
   },
   "summary": "The whole of the record: Wilde's inscription in a copy of his Poems calling Isidore de Lara 'the poet of the musicians, in sincere admiration and affection'.",
   "certainty_reasoning": "The record documents a friendship or acquaintance with no evidence of attraction or romance; classified platonic, upgradable if contrary evidence comes to light.",
@@ -25,9 +29,11 @@
       "context": "Wilde's inscription in a copy of his Poems (fifth edition, 1882), recorded by the editors in a note on de Lara's opera, produced at Monte Carlo under the patronage of Princess Alice of Monaco. Not a letter: no correspondence between them survives. The editors point to Osbert Sitwell's Noble Essences (1950) for a portrait.",
       "speaker": "Oscar Wilde",
       "addressee": "Isidore de Lara",
-      "evidence_date": {
-        "y": 1887,
-        "m": 6
+      "written": {
+        "date": {
+          "y": 1887,
+          "m": 6
+        }
       },
       "supports": "The whole of the record: one inscription, in Wilde's hand, calling him a friend.",
       "verification": "verified-exact",
@@ -37,7 +43,21 @@
       "voice": "period",
       "document": "inscription",
       "letter_id": "letters-2000/1136n2"
+    },
+    {
+      "quote": "",
+      "context": "London is believed to be where the inscription was written - Wilde lived there when the fifth edition of Poems was current - but no source in this record names the city: the note records the inscription's text and the opera produced at Monte Carlo, not where the book was inscribed.",
+      "work": "letters-2000",
+      "locator": "General Index s.v. de Lara, Isidore",
+      "locator_type": "page",
+      "supports": "Would settle London as where the inscription was written: the volume's de Lara index entry, read at the page.",
+      "verification": "unverified",
+      "how_verified": "unverified",
+      "citation_provenance": "",
+      "document": "editorial-note",
+      "occurred": {
+        "place": "london"
+      }
     }
-  ],
-  "date_label": "London, 1887"
+  ]
 }

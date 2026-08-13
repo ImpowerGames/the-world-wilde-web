@@ -7,14 +7,17 @@
   "certainty": "platonic",
   "certainty_status": "proposed",
   "start": {
-    "y": 1876,
-    "m": 8
+    "date": {
+      "y": 1876,
+      "m": 8
+    }
   },
   "end": {
-    "y": 1876,
-    "m": 8
+    "date": {
+      "y": 1876,
+      "m": 8
+    }
   },
-  "date_label": "Dublin, August 1876",
   "summary": "Magdalen contemporaries: Wilde saw Todd with 'young Ward the quire boy' at the theatre, went round to speak to him, and reported the scene - Todd 'awfully nervous and uncomfortable' - to Ward as the machinery of discretion.",
   "certainty_reasoning": "The record documents a friendship or acquaintance with no evidence of attraction or romance; classified platonic, upgradable if contrary evidence comes to light.",
   "sources": [
@@ -22,14 +25,17 @@
       "work": "letters-2000",
       "locator": "pp. 28-29",
       "locator_type": "page",
-      "quote": "He saw me so I went round to speak to him for a few minutes. He told me that he and Foster Harter had been fishing in Donegal and that he was going to fish South now. … He (Todd) looked awfully nervous and uncomfortable. I thought of Mark.",
+      "quote": "He saw me so I went round to speak to him for a few minutes. He told me that he and Foster Harter had been fishing in Donegal and that he was going to fish South now.…He (Todd) looked awfully nervous and uncomfortable. I thought of Mark.",
       "context": "Wilde to William Ward, Sunday [6 August 1876] (MS Magdalen). What Wilde did on seeing them: he went round to the box and made conversation, and Todd talked about fishing. The elision drops the judgement, which is quoted in full on the connection.",
       "speaker": "Oscar Wilde",
       "addressee": "William Ward",
-      "evidence_date": {
-        "y": 1876,
-        "m": 8,
-        "d": 6
+      "written": {
+        "date": {
+          "y": 1876,
+          "m": 8,
+          "d": 6
+        },
+        "place": "dublin"
       },
       "supports": "Wilde's own conduct on the night - he went over, and he noticed the discomfort.",
       "verification": "verified-elision",

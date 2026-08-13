@@ -8,9 +8,14 @@
   "certainty_status": "proposed",
   "direction": "cooper",
   "outcome": "unknown",
-  "start": null,
+  "start": {
+    "date": {
+      "y": 1890,
+      "circa": true,
+      "inferred": true
+    }
+  },
   "end": null,
-  "date_label": "1890s, 'for a period'",
   "summary": "Edith Cooper, who lived and wrote with her aunt Katharine Bradley as the single poet 'Michael Field', developed a crush for a period in the 1890s on their Richmond neighbour and friend, the art historian Bernhard Berenson. Their biographer records it alongside, not instead of, the two women's constant devotion to each other.",
   "sources": [
     {
@@ -19,7 +24,6 @@
       "work": "evangelista-y90s-field-bio",
       "locator": "biography, Michael Field",
       "locator_type": "none",
-      "evidence_date": null,
       "supports": "The attachment, its one-sidedness, and the biographer's framing of it against the Bradley-Cooper partnership.",
       "verification": "verified-exact",
       "how_verified": "as-published",

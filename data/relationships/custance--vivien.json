@@ -7,11 +7,12 @@
   "certainty": "uncorroborated",
   "certainty_status": "proposed",
   "start": {
-    "y": 1901,
-    "circa": true
+    "date": {
+      "y": 1901,
+      "circa": true
+    }
   },
   "end": null,
-  "date_label": "Paris, c. 1901; contact sustained after Custance's return to London that year",
   "summary": "Olive Custance met Renee Vivien in Paris around 1901 through Natalie Barney, whose former lover Vivien was, and the two became friends. Vivien's roman a clef A Woman Appeared to Me (1904) fictionalises Custance as the 'little English poetess Dagmar', and Sarah Parker reads the novel as suggesting the two had a brief love affair - the sole basis for that claim in anything read here. Custance kept up contact with Vivien as well as Barney after moving back to London in 1901, the year before she eloped with Lord Alfred Douglas.",
   "sources": [
     {
@@ -20,8 +21,10 @@
       "work": "parker-y90s-custance-bio",
       "locator": "para. 2",
       "locator_type": "none",
-      "evidence_date": {
-        "y": 1904
+      "occurred": {
+        "date": {
+          "y": 1904
+        }
       },
       "supports": "The affair claim, at exactly the strength the source gives it; and the Dagmar identification.",
       "verification": "verified-exact",
@@ -37,8 +40,11 @@
       "work": "parker-y90s-custance-bio",
       "locator": "para. 2",
       "locator_type": "none",
-      "evidence_date": {
-        "y": 1901
+      "occurred": {
+        "date": {
+          "y": 1901
+        },
+        "place": "london"
       },
       "supports": "The sustained friendship after 1901, which is the well-evidenced part of this pair's record.",
       "verification": "verified-exact",
@@ -56,8 +62,10 @@
       "context": "Gayle Rubin, introduction to A Woman Appeared to Me, trans. Jeannette H. Foster",
       "speaker": "Gayle Rubin",
       "voice": "modern",
-      "evidence_date": {
-        "y": 1901
+      "occurred": {
+        "date": {
+          "y": 1901
+        }
       },
       "supports": "Identification of Dagmar as Olive Custance by a second scholar, independent of Parker - and a characterisation of the episode as consolation rather than an affair.",
       "verification": "verified-exact",
@@ -73,8 +81,10 @@
       "quote": "“Should one be afraid of love?” she asked, so simply that I drew back from the kiss she offered. … My little virgin with the short curls had stayed away for many days. … She stopped, then with a trembling sigh: “The Prince I waited for has come to me.”",
       "context": "A Woman Appeared to Me, chapters xvii-xviii: the narrator and Dagmar",
       "voice": "period",
-      "evidence_date": {
-        "y": 1901
+      "occurred": {
+        "date": {
+          "y": 1901
+        }
       },
       "supports": "What the novel actually depicts, against which Parker's 'brief love affair' has to be read: an offered kiss refused, Dagmar described as a virgin, and her engagement announced.",
       "verification": "verified-elision",
@@ -90,8 +100,10 @@
       "quote": "« Faut-il craindre l’amour ? » demanda-t-elle, si simplement que, devant le baiser qu’elle m’offrait, je reculai. Je reculai comme un être que la démence a frappé à demi recule devant le meurtre conçu en une heure insensée. … La vierge aux boucles légères s’éloigna pendant de longs jours.",
       "context": "Renée Vivien, Une femme m'apparut… (1904), chapters xvii-xviii: the narrator and Dagmar",
       "voice": "period",
-      "evidence_date": {
-        "y": 1901
+      "occurred": {
+        "date": {
+          "y": 1901
+        }
       },
       "supports": "The same passage in Vivien's own French, which is what the claim turns on. It confirms the substance - the offered kiss is refused, and Dagmar is 'la vierge' at this point - while showing that Foster's English overstates the possessiveness: Vivien writes 'La vierge aux boucles légères', the virgin with the light curls, where Foster gives 'My little virgin with the short curls', adding a possessive and a diminutive and changing the adjective. Foster likewise renders 'le Prince inconnu' as 'the Unknown Lover'. The narrative facts are Vivien's; some of the colouring is the translator's.",
       "verification": "verified-exact",
@@ -102,6 +114,18 @@
       "translation": "'Must one fear love?' she asked, so simply that, faced with the kiss she was offering me, I drew back… I drew back as a creature half-struck by madness draws back from a murder conceived in an insane hour. … The virgin with the light curls kept away for long days.",
       "translation_note": "**A published English version exists and differs**: Foster gives 'My little virgin with the short curls', adding a possessive and a diminutive and changing the adjective, and renders 'le Prince inconnu' as 'the Unknown Lover'. The literal reading is given here precisely because that difference is what this quotation was entered to show.",
       "document": "novel"
+    },
+    {
+      "quote": "",
+      "context": "The meeting between Custance and Vivien is believed to have happened in Paris, but no source in this record names the city. The biography that attests the meeting in the barney--custance record (Parker, same paragraph: 'invited her to Paris, where Custance also befriended the symbolist poet Renee Vivien') is not cited here.",
+      "work": "parker-y90s-custance-bio",
+      "locator": "para. 2",
+      "locator_type": "none",
+      "supports": "Would settle Paris as the meeting place: the Parker biography paragraph that has Custance befriending Vivien in Paris, quoted at the page.",
+      "verification": "unverified",
+      "how_verified": "unverified",
+      "citation_provenance": "",
+      "document": "biography"
     }
   ],
   "disputed": {

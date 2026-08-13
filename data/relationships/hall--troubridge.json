@@ -7,12 +7,15 @@
   "certainty": "second-hand",
   "certainty_status": "proposed",
   "start": {
-    "y": 1915
+    "date": {
+      "y": 1915
+    }
   },
   "end": {
-    "y": 1943
+    "date": {
+      "y": 1943
+    }
   },
-  "date_label": "Met 1915; partners until Hall's death on 7 October 1943",
   "summary": "Una Troubridge, a sculptor and translator and Mabel Batten's cousin, met Radclyffe Hall in 1915 and the two became lifelong partners. Troubridge's marriage to the naval officer Sir Ernest Troubridge ended in separation by 1919, the Ransom Center's sketch states, because of the relationship with Hall. The partnership lasted until Hall's death in 1943 and survived Hall's long affair with the Russian nurse Evguenia Souline in her last nine years, which the same sketch records Troubridge as tolerating despite the unhappiness it caused her. Troubridge afterwards wrote The Life and Death of Radclyffe Hall (1961) and left 131 volumes of diaries.",
   "sources": [
     {
@@ -21,8 +24,10 @@
       "work": "hrc-hall-troubridge-fa",
       "locator": "Biographical Sketch",
       "locator_type": "none",
-      "evidence_date": {
-        "y": 1915
+      "occurred": {
+        "date": {
+          "y": 1915
+        }
       },
       "supports": "The meeting date, the partnership, and the Batten-Troubridge kinship that links the two Hall records.",
       "verification": "verified-exact",
@@ -38,8 +43,10 @@
       "work": "hrc-hall-troubridge-fa",
       "locator": "Biographical Sketch",
       "locator_type": "none",
-      "evidence_date": {
-        "y": 1919
+      "occurred": {
+        "date": {
+          "y": 1919
+        }
       },
       "supports": "That the relationship with Hall ended Troubridge's marriage - a consequence recorded as fact by the holding archive.",
       "verification": "verified-exact",
@@ -55,7 +62,6 @@
       "work": "hrc-hall-troubridge-fa",
       "locator": "Biographical Sketch",
       "locator_type": "none",
-      "evidence_date": null,
       "supports": "That the Hall-Troubridge partnership continued through, and accommodated, Hall's affair with Evguenia Souline.",
       "verification": "verified-exact",
       "how_verified": "as-published",
@@ -70,8 +76,10 @@
       "work": "troubridge-1961-life-and-death",
       "locator": "p. 139",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1943
+      "occurred": {
+        "date": {
+          "y": 1943
+        }
       },
       "supports": "Troubridge's first-person account of the relationship.",
       "verification": "verified-elision",
@@ -87,7 +95,6 @@
       "work": "troubridge-diaries-hrc",
       "locator": "Series II and III (eadid 00163)",
       "locator_type": "page",
-      "evidence_date": null,
       "supports": "Day-by-day participant record of the partnership.",
       "verification": "unverified",
       "how_verified": "unverified",

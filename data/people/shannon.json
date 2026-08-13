@@ -8,12 +8,16 @@
     "Marigold"
   ],
   "born": {
-    "y": 1863,
-    "m": 4,
-    "d": 20
+    "date": {
+      "y": 1863,
+      "m": 4,
+      "d": 20
+    }
   },
   "died": {
-    "y": 1937
+    "date": {
+      "y": 1937
+    }
   },
   "group": "aesthete",
   "gender": "m",

@@ -4,10 +4,14 @@
   "sort_name": "Shelley, Edward",
   "aka": [],
   "born": {
-    "y": 1874
+    "date": {
+      "y": 1874
+    }
   },
   "died": {
-    "y": 1915
+    "date": {
+      "y": 1915
+    }
   },
   "gender": "m",
   "group": "trials",

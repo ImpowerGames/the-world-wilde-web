@@ -72,14 +72,20 @@ async function loadWeb() {
   }
   function fmtOne(d, withYear) {
     const y = withYear ? ` ${d.y}` : "";
+    // A season stands in for a month, so it is checked first or the year would print alone.
+    if (d.season) return `${d.season}${y}`;
     if (d.d && d.m) return `${d.d} ${MONTHS[d.m - 1]}${y}`;
-    if (d.m) return `${MONTHS[d.m - 1]}${y}`;
-    return withYear ? String(d.y) : "";
+    // `part` qualifies the month, or the YEAR when there is no month: "early 1903".
+    if (d.m) return `${d.part ? d.part + " " : ""}${MONTHS[d.m - 1]}${y}`;
+    if (!withYear) return "";
+    return d.part ? `${d.part} ${d.y}` : String(d.y);
   }
   function fmtDate(d) {
     if (!d || d.y == null) return "date unknown";
-    if (d.label) return (d.circa ? "c. " : "") + d.label;
-    const c = d.circa ? "c. " : "";
+    // A limit rather than a date - "by 1879", "at least 1885" - which sorts like a date and
+    // reads like the claim it is.
+    const b = d.bound ? (d.bound === "not-later-than" ? "by " : "at least ") : "";
+    const c = b + (d.circa ? "c. " : "");
     const t = d.to;
     if (t && t.y != null && !(t.y === d.y && t.m === d.m && t.d === d.d)) {
       if (t.y === d.y) {
@@ -113,15 +119,19 @@ async function loadWeb() {
   function fmtDatePart(d, withYear) {
     if (!d) return "";
     if (d.season) return withYear ? `${d.season} ${d.y}` : d.season;
-    if (!d.m) return withYear && d.y != null ? String(d.y) : "";
+    if (!d.m) {
+      if (!withYear || d.y == null) return "";
+      return d.part ? `${d.part} ${d.y}` : String(d.y);
+    }
     const y = withYear && d.y != null ? ` ${d.y}` : "";
     return `${d.d ? d.d + " " : ""}${d.part && !d.d ? d.part + " " : ""}${MONTHS[d.m - 1]}${y}`;
   }
+  const BOUND_WORD = { "not-later-than": "by", "not-earlier-than": "at least" };
   function fmtDating(d) {
     if (!d) return "";
     let core = fmtDatePart(d, true);
-    // A RANGE. Same year and the year is said once at the end: "March–April 1891". The date
-    // schema has carried `to` all along for `evidence_date`; 65 letters in the volume need it.
+    // A range, carried by `to`. Where the year is the same it is said once, at the end:
+    // "March–April 1891". 65 letters in the volume need it.
     const t = d.to;
     if (t && !(t.y === d.y && t.m === d.m && t.d === d.d)) {
       core =
@@ -131,6 +141,8 @@ async function loadWeb() {
     }
     if (!core) core = d.weekday ? "" : "date unknown";
     if (d.circa) core = "circa " + core;
+    // A limit rather than a date: "by 1879", "at least 1885".
+    if (d.bound) core = `${BOUND_WORD[d.bound]} ${core}`;
     if (d.weekday) core = `${d.weekday[0].toUpperCase()}${d.weekday.slice(1)}${core ? " " + core : ""}`;
     if (d.uncertain) core += " (?)";
     return core;
@@ -140,6 +152,14 @@ async function loadWeb() {
   // standalone can capitalise it there.
   const ACT_LABEL = { written: "written", sent: "sent", postmarked: "postmarked",
                       received: "received" };
+  // A place is an id into WEB.places, the gazetteer. Country is held back when a city is named -
+  // "Paris, France" in a header earns nothing that "Paris" did not - and it is still filterable.
+  function fmtPlace(id) {
+    const p = id && (WEB.places || {})[id];
+    if (!p) return "";
+    const parts = [p.venue, p.street, p.city, p.region].filter(Boolean);
+    return parts.length ? parts.join(", ") : p.country || "";
+  }
   function fmtLetterDating(t) {
     return ["written", "sent", "postmarked", "received"]
       .filter((a) => (t[a] || {}).date)
@@ -151,14 +171,18 @@ async function loadWeb() {
       })
       .join(" · ");
   }
+  // The date inside an act. `born`, `died`, `start` and `end` are acts like the rest, so each
+  // can carry where it happened as well as when.
+  const actDate = (a) => (a && a.date) || null;
   function yearOf(d) {
     return d && d.y != null ? String(d.y) : "?";
   }
   function relDateLabel(r) {
     if (r.date_label) return r.date_label;
-    const a = fmtDate(r.start);
-    if (!r.end || r.end.y == null) return a;
-    const b = fmtDate(r.end);
+    const a = fmtDate(actDate(r.start));
+    const e = actDate(r.end);
+    if (!e || e.y == null) return a;
+    const b = fmtDate(e);
     return a === b ? a : `${a} – ${b}`;
   }
   function mulberry32(a) {
@@ -1619,11 +1643,28 @@ async function loadWeb() {
     return `<svg class="mini" width="32" height="8" aria-hidden="true">${SAMPLES[c]}</svg>`;
   }
 
-  function byEvidenceDate(list, get) {
+  // The date a source sorts and reads by. The event a quotation attests comes first; failing
+  // that, the date the document itself carries, in the order the acts happen.
+  const DATED = ["occurred", "written", "sent", "postmarked", "received"];
+  function srcDate(q) {
+    for (const a of DATED) if (q && q[a] && q[a].date) return q[a].date;
+    return null;
+  }
+  // The place a source files under: the city of the first act that names one, taken in the
+  // same order as its date, so the two describe the same act. The city rather than the place
+  // itself, so a letter headed from the Hotel de Nice files under Paris with the other eleven.
+  function srcPlace(q) {
+    for (const a of DATED) {
+      const p = q && q[a] && q[a].place && (WEB.places || {})[q[a].place];
+      if (p) return p.city || p.region || p.country || p.venue || "";
+    }
+    return "";
+  }
+  function bySourceDate(list, get) {
     const g = get || ((x) => x);
     const key = (x) => {
       const s = g(x),
-        d = (s && s.evidence_date) || (s && s.order_hint);
+        d = srcDate(s) || (s && s.order_hint);
       return d && d.y ? [d.y, d.m || 0, d.d || 0] : null;
     };
     return list
@@ -1673,7 +1714,7 @@ async function loadWeb() {
   })();
 
   function whenLabel(q) {
-    const d = q && q.evidence_date;
+    const d = srcDate(q);
     if (d && d.y != null) return fmtDate(d);
     return q && q.order_hint && q.order_hint.y ? "undated" : "";
   }
@@ -2102,8 +2143,17 @@ async function loadWeb() {
       solo: null,
       prev: new Set(),
       attr: "loc",
-      resting: "Location",
+      resting: "Archive",
       rank: (k) => (k === "" ? 2 : DERIVED_LOC.includes(k) ? 1 : 0),
+      label: (k) => k || "Not recorded",
+    },
+    place: {
+      off: new Set(),
+      solo: null,
+      prev: new Set(),
+      attr: "place",
+      resting: "Place",
+      rank,
       label: (k) => k || "Not recorded",
     },
   };
@@ -2113,7 +2163,7 @@ async function loadWeb() {
   function facetRows(a, root) {
     return [
       ...(root || document).querySelectorAll(
-        `#sffilter .sfdocopt[data-facet="${a.attr}"] input[type=checkbox]`,
+        `.sfdocopt[data-facet="${a.attr}"] input[type=checkbox]`,
       ),
     ];
   }
@@ -2138,9 +2188,10 @@ async function loadWeb() {
   const MARK_MIN = 2;
   let PANEL_SRC = []; // {hay,y,doc,loc,q} per rendered card, indexed by its data-si
   function srcYear(q) {
+    const dd = srcDate(q);
     const d =
-      q && q.evidence_date && q.evidence_date.y != null
-        ? q.evidence_date
+      dd && dd.y != null
+        ? dd
         : q && q.order_hint && q.order_hint.y != null
           ? q.order_hint
           : null;
@@ -2214,6 +2265,9 @@ async function loadWeb() {
     const locs = new Map();
     for (const r of PANEL_SRC)
       locs.set(r.loc || "", (locs.get(r.loc || "") || 0) + 1);
+    const places = new Map();
+    for (const r of PANEL_SRC)
+      places.set(r.place || "", (places.get(r.place || "") || 0) + 1);
 
     // Both dropdowns are the same control over a different question, so they are the same
     // markup. Ordered by how many of each the panel holds, which puts the label on the kind that
@@ -2249,8 +2303,8 @@ async function loadWeb() {
     const docSel = `<details id="sffilter" class="sfdoc"${
       docs.size || locs.size ? "" : " data-empty"
     }>
-        <summary aria-label="Filter by kind of document and where it is held"
-          ><span class="sfdocsum">Type &amp; location</span></summary>
+        <summary aria-label="Filter by kind of document and which archive holds it"
+          ><span class="sfdocsum">Document</span></summary>
         <div class="sfdocbox">
           <div role="group" aria-label="Kind of document">${facetGroup(
             FACETS.doc,
@@ -2260,7 +2314,22 @@ async function loadWeb() {
           <div role="group" aria-label="Where the document is held" class="sfdocgroup">${facetGroup(
             FACETS.loc,
             locs,
-            "All locations",
+            "All archives",
+          )}</div>
+        </div>
+      </details>`;
+    // Dimmed rather than absent where nothing has a place, so the control keeps its position
+    // and says the map has no answer yet instead of implying there is no such question.
+    const placeSel = `<details id="sfplacefilter" class="sfdoc"${
+      [...places.keys()].some(Boolean) ? "" : " data-empty"
+    }>
+        <summary aria-label="Filter by where the document was written"
+          ><span class="sfdocsum">Place</span></summary>
+        <div class="sfdocbox">
+          <div role="group" aria-label="Where the document was written">${facetGroup(
+            FACETS.place,
+            places,
+            "All places",
           )}</div>
         </div>
       </details>`;
@@ -2283,7 +2352,7 @@ async function loadWeb() {
       <span class="sfdash">–</span>
       <input id="sfy2" class="sfy" inputmode="numeric" maxlength="4" placeholder="${hi}" aria-label="To year">
       <button id="sfclear" class="sfclear" type="button" aria-label="Clear year range" hidden>Clear</button>
-      ${docSel}
+      ${placeSel}${docSel}
     </div>
   </div>
   <p id="sfnone" class="sfnone" hidden>Nothing here matches. The filter reads the quotation, its
@@ -2415,6 +2484,7 @@ async function loadWeb() {
       cnt = $("#sfcount"),
       clr = $("#sfclear"),
       dsel = $("#sffilter"),
+      psel = $("#sfplacefilter"),
       none = $("#sfnone");
     const cards = [...panel.querySelectorAll(".qcard[data-si]")];
     const apply = () => {
@@ -2433,6 +2503,8 @@ async function loadWeb() {
         let ok = !term || hay.includes(term);
         if (ok && FACETS.doc.off.size) ok = !FACETS.doc.off.has(s.doc || "");
         if (ok && FACETS.loc.off.size) ok = !FACETS.loc.off.has(s.loc || "");
+        if (ok && FACETS.place.off.size)
+          ok = !FACETS.place.off.has(s.place || "");
         if (ok && dated) {
           if (s.y == null) {
             ok = false;
@@ -2452,7 +2524,11 @@ async function loadWeb() {
         }
       }
       const active =
-        !!term || dated || FACETS.doc.off.size > 0 || FACETS.loc.off.size > 0;
+        !!term ||
+        dated ||
+        FACETS.doc.off.size > 0 ||
+        FACETS.loc.off.size > 0 ||
+        FACETS.place.off.size > 0;
       cnt.textContent = active
         ? `${shown} of ${cards.length}${dropped ? ` · ${dropped} undated hidden` : ""}`
         : "";
@@ -2478,8 +2554,8 @@ async function loadWeb() {
         );
       // Each group keeps its own boxes and its own All; the collapsed label is the two
       // half-answers joined, because one control now stands for two questions.
-      const syncFacet = (a) => {
-        const rows = facetRows(a, dsel);
+      const syncFacet = (a, root) => {
+        const rows = facetRows(a, root);
         if (!rows.length) return "";
         for (const cb of rows)
           if (!cb.dataset.all) cb.checked = !a.off.has(cb.value);
@@ -2511,13 +2587,19 @@ async function loadWeb() {
                 : `${picked[0]} +${picked.length - 1}`;
       };
       if (dsel) {
-        const halves = [syncFacet(FACETS.doc), syncFacet(FACETS.loc)].filter(
-          Boolean,
-        );
+        const halves = [
+          syncFacet(FACETS.doc, dsel),
+          syncFacet(FACETS.loc, dsel),
+        ].filter(Boolean);
         dsel.classList.toggle("on", halves.length > 0);
         dsel.querySelector(".sfdocsum").textContent = halves.length
           ? halves.join(" · ")
-          : "Type & location";
+          : "Document";
+      }
+      if (psel) {
+        const said = syncFacet(FACETS.place, psel);
+        psel.classList.toggle("on", !!said);
+        psel.querySelector(".sfdocsum").textContent = said || "Place";
       }
 
       clr.hidden = !dated;
@@ -2573,6 +2655,7 @@ async function loadWeb() {
       });
     };
     wireFacet(dsel);
+    wireFacet(psel);
     box.addEventListener("input", apply);
     if (scope.addEventListener) scope.addEventListener("change", apply);
     y1.addEventListener("input", apply);
@@ -2660,13 +2743,14 @@ async function loadWeb() {
       }
     }
     PANEL_SRC = [];
-    const cards = byEvidenceDate(merged, (f) => f.q)
+    const cards = bySourceDate(merged, (f) => f.q)
       .map((f) => {
         PANEL_SRC.push({
           hay: srcHay(f.q, f),
           y: srcYear(f.q),
           doc: f.q.document || null,
           loc: (f.q.location || {}).short || null,
+          place: srcPlace(f.q),
           q: f.q,
         });
         return quoteCard(f.q, f, PANEL_SRC.length - 1);
@@ -2699,15 +2783,15 @@ async function loadWeb() {
     const rows = [];
     if (p.born)
       rows.push({
-        k: sortKey(p.born),
+        k: sortKey(actDate(p.born)),
         cls: "anchor",
-        when: fmtDate(p.born),
+        when: fmtDate(actDate(p.born)),
         what: "Born",
       });
     for (const r of rels) {
       const q = P.get(partnerOf(r, id));
       rows.push({
-        k: sortKey(r.start),
+        k: sortKey(actDate(r.start)),
         cls: "",
         when: relDateLabel(r),
         what: `<a href="#/r/${esc(r.id)}">${esc(q.name)}</a>${miniBadge(r.certainty)}`,
@@ -2717,11 +2801,11 @@ async function loadWeb() {
       const otherId = NAME_INDEX.get(ce.subject || "");
       const ro = otherId && otherId !== p.id ? otherId : null;
       rows.push({
-        k: sortKey(ce.start),
+        k: sortKey(actDate(ce.start)),
         cls: "sx",
         when:
           ce.start || ce.end
-            ? `${fmtDate(ce.start)}${ce.end && ce.end.y != null ? ` – ${fmtDate(ce.end)}` : ""}`
+            ? `${fmtDate(actDate(ce.start))}${actDate(ce.end) && actDate(ce.end).y != null ? ` – ${fmtDate(actDate(ce.end))}` : ""}`
             : "date unknown",
         what: `${ro ? `<a href="#/pair/${esc(p.id)}--${esc(ro)}">${esc(ce.subject)}</a>` : esc(ce.subject || ce.name || "unnamed")}${ro ? "" : `<span class="offr">off-roster</span>`}${ce.note ? `<div style="font-size:12px;color:var(--ink3)">${esc(ce.note)}</div>` : ""}`,
       });
@@ -2729,12 +2813,12 @@ async function loadWeb() {
     rows.sort((a, b) => (a.k === Infinity) - (b.k === Infinity) || a.k - b.k);
     if (p.died)
       rows.push({
-        k: sortKey(p.died),
+        k: sortKey(actDate(p.died)),
         cls: "anchor",
-        when: fmtDate(p.died),
+        when: fmtDate(actDate(p.died)),
         what: "Died",
       });
-    const life = `${yearOf(p.born)}–${yearOf(p.died)}`;
+    const life = `${yearOf(actDate(p.born))}–${yearOf(actDate(p.died))}`;
     panel.innerHTML = `<div class="pwrap">
     <div class="phead"><span class="grab" aria-hidden="true"></span><span class="phtitle"></span><button class="pclose" onclick="location.hash=''">Close</button></div>
     <button class="ptag" id="ptag" data-group="${esc(p.group)}" title="Show only ${esc(GROUP_LABEL[p.group] || p.group)} on the map"><span class="dot" style="background:var(--g-${esc(p.group)})"></span>${esc(GROUP_LABEL[p.group] || p.group)}</button>
@@ -2766,13 +2850,14 @@ async function loadWeb() {
     const [a, b] = r.people.map((pid) => P.get(pid));
     const d = r.disputed;
     PANEL_SRC = [];
-    const srcCards = byEvidenceDate(r.sources || [])
+    const srcCards = bySourceDate(r.sources || [])
       .map((q) => {
         PANEL_SRC.push({
           hay: srcHay(q, null),
           y: srcYear(q),
           doc: q.document || null,
           loc: (q.location || {}).short || null,
+          place: srcPlace(q),
           q,
         });
         return quoteCard(q, null, PANEL_SRC.length - 1);
@@ -2784,7 +2869,7 @@ async function loadWeb() {
     <div class="datesline">${esc(relDateLabel(r))}</div>
     ${certBadge(r)}
     ${r.summary ? `<p class="summary">${esc(r.summary)}</p>` : ""}
-    ${(r.phases || []).length ? `<div class="sect">Phases</div><ul class="phases">${r.phases.map((ph) => `<li><b>${esc(fmtDate(ph.start))}${ph.end ? ` – ${esc(fmtDate(ph.end))}` : ""}</b>${ph.note ? ` — ${esc(ph.note)}` : ""}</li>`).join("")}</ul>` : ""}
+    ${(r.phases || []).length ? `<div class="sect">Phases</div><ul class="phases">${r.phases.map((ph) => `<li><b>${esc(fmtDate(actDate(ph.start)))}${ph.end ? ` – ${esc(fmtDate(actDate(ph.end)))}` : ""}</b>${ph.note ? ` — ${esc(ph.note)}` : ""}</li>`).join("")}</ul>` : ""}
     ${d ? `<div class="disputed"><b>Contested.</b> ${esc(d.claim || "")}${d.asserted_by ? `<div class="dline"><span>Asserted</span>${esc(d.asserted_by)}</div>` : ""}${d.disputed_by ? `<div class="dline"><span>Against</span>${esc(d.disputed_by)}</div>` : ""}${d.grounds ? `<div class="dline"><span>Grounds</span>${esc(d.grounds)}</div>` : ""}</div>` : ""}
     <div class="sect">Sources, in chronological order (${(r.sources || []).length})</div>
     ${sourceFilterBar((r.sources || []).length)}
@@ -2844,13 +2929,14 @@ async function loadWeb() {
       }
     }
     PANEL_SRC = [];
-    const cards = byEvidenceDate(merged, (f) => f.q)
+    const cards = bySourceDate(merged, (f) => f.q)
       .map((f) => {
         PANEL_SRC.push({
           hay: srcHay(f.q, f),
           y: srcYear(f.q),
           doc: f.q.document || null,
           loc: (f.q.location || {}).short || null,
+          place: srcPlace(f.q),
           q: f.q,
         });
         return quoteCard(f.q, f, PANEL_SRC.length - 1);
@@ -2871,7 +2957,7 @@ async function loadWeb() {
   }
   function openList() {
     const sorted = [...RELS].sort(
-      (x, y) => sortKey(x.start) - sortKey(y.start),
+      (x, y) => sortKey(actDate(x.start)) - sortKey(actDate(y.start)),
     );
     panel.innerHTML = `<div class="pwrap">
     ${isDesktop() ? "" : `<div class="phead"><span class="grab" aria-hidden="true"></span><span class="phtitle"></span><button class="pclose" onclick="location.hash=''">Close</button></div>`}
@@ -4070,7 +4156,7 @@ async function loadWeb() {
     const ident = [
       `${t.sender || "Wilde"} to ${t.addressee || "—"}`,
       fmtLetterDating(t),
-      (t.written || {}).from,
+      fmtPlace((t.written || {}).place),
     ]
       .filter(Boolean)
       .join(", ");
@@ -4186,7 +4272,7 @@ async function loadWeb() {
     P,
     byPerson,
     applyFilters,
-    byEvidenceDate,
+    bySourceDate,
     offGroups,
     offCerts,
     route,

@@ -4,10 +4,14 @@
   "sort_name": "Beardsley, Aubrey",
   "aka": [],
   "born": {
-    "y": 1872
+    "date": {
+      "y": 1872
+    }
   },
   "died": {
-    "y": 1898
+    "date": {
+      "y": 1898
+    }
   },
   "group": "aesthete",
   "gender": "m",

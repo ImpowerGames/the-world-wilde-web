@@ -7,10 +7,14 @@
     "Renee Vivien"
   ],
   "born": {
-    "y": 1877
+    "date": {
+      "y": 1877
+    }
   },
   "died": {
-    "y": 1909
+    "date": {
+      "y": 1909
+    }
   },
   "group": "later",
   "gender": "f",

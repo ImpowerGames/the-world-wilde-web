@@ -8,7 +8,6 @@
   "certainty_status": "proposed",
   "start": null,
   "end": null,
-  "date_label": "Married; the year is not stated in the sources read",
   "summary": "George Alexander's wife, present in Wilde's letters twice: regards sent in 1894, and in 1900 the greeting she gave him in the street in Paris — which Wilde, five years after the trials and four months from death, said he now knew how to value.",
   "certainty_reasoning": "Married: Wilde addresses her as Alexander's wife in two letters.",
   "sources": [
@@ -16,13 +15,16 @@
       "work": "letters-2000",
       "locator": "p. 620",
       "locator_type": "page",
-      "quote": "Give my kind regards to Mrs Aleck, and believe me, sincerely yours",
+      "quote": "Give my kind regards to Mrs Aleck, and believe me, sincerely yours\n\nOSCAR WILDE",
       "context": "The close of Wilde's letter to George Alexander, [circa 25 October 1894], 16 Tite Street — the letter sending him the typescript of The Importance of Being Earnest.",
       "speaker": "Oscar Wilde",
       "addressee": "George Alexander",
-      "evidence_date": {
-        "y": 1894,
-        "m": 10
+      "written": {
+        "date": {
+          "y": 1894,
+          "m": 10
+        },
+        "place": "16-tite-street"
       },
       "supports": "That she existed, that Wilde knew her, and the name he had for her.",
       "verification": "verified-exact",
@@ -44,10 +46,13 @@
       "context": "Wilde to George Alexander, [? 21 July 1900], Hôtel d'Alsace — four months before Wilde's death. The Alexanders had met him by chance in Paris and greeted him; after 1895 many would not.",
       "speaker": "Oscar Wilde",
       "addressee": "George Alexander",
-      "evidence_date": {
-        "y": 1900,
-        "m": 7,
-        "d": 21
+      "written": {
+        "date": {
+          "y": 1900,
+          "m": 7,
+          "d": 21
+        },
+        "place": "hotel-d-alsace"
       },
       "supports": "The one thing the record preserves about her — that she greeted a disgraced man warmly in public, and what it meant to him.",
       "verification": "verified-exact",

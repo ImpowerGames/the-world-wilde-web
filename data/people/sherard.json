@@ -2,17 +2,28 @@
   "id": "sherard",
   "name": "Robert Harborough Sherard",
   "sort_name": "Sherard, Robert Harborough",
-  "aka": ["R. H. Sherard", "Robert Sherard"],
+  "aka": [
+    "R. H. Sherard",
+    "Robert Sherard"
+  ],
   "born": {
-    "y": 1861
+    "date": {
+      "y": 1861
+    }
   },
   "died": {
-    "y": 1943
+    "date": {
+      "y": 1943
+    }
   },
   "group": "aesthete",
   "gender": "m",
   "bio": "Journalist and biographer, great-grandson of Wordsworth, born Robert Harborough Sherard Kennedy and known from youth by the middle name alone. He met Wilde in Paris in early 1883 and was still writing about him half a century later: four books, beginning with Oscar Wilde: the Story of an Unhappy Friendship (1902) and ending with Bernard Shaw, Frank Harris and Oscar Wilde (1937), besides biographies of Zola, Daudet and Maupassant. Thirteen of Wilde's letters to him survive, from 1883 to 1898, including three from Holloway between the trials and one from Reading Gaol. He fought duels in Paris on Wilde's behalf; he also denounced the Naples reunion with Douglas in 1897, and Wilde answered him coldly. The last letter sends him a copy of the Ballad 'in memory of our long friendship'.",
-  "bio_sources": ["letters-2000", "ellmann-1988", "mckenna-2008"],
+  "bio_sources": [
+    "letters-2000",
+    "ellmann-1988",
+    "mckenna-2008"
+  ],
   "bio_note": "Dates 1861-1943 and the biography are from the editors' note at Complete Letters (2000), printed 205. Thirteen letters (printed 205, 210-11, 347-8, 504, 510, 624, 642-3, 644, 645, 662, 963, 1026). The editors' note at printed 347 records that he married a Polish woman, Martha Lips, in 1886.",
   "sexuality_sources": []
 }

@@ -7,11 +7,15 @@
   "certainty": "second-hand",
   "certainty_status": "proposed",
   "start": {
-    "y": 1901,
-    "circa": true
+    "date": {
+      "y": 1897,
+      "circa": true,
+      "to": {
+        "y": 1898
+      }
+    }
   },
   "end": null,
-  "date_label": "Correspondence from c. 1897–98 (after Opals); pursuit, Paris visit, and Italian holiday c. 1901; contact sustained after Custance's 1902 marriage",
   "summary": "After Opals (1897) Barney opened the acquaintance with a letter of admiration, wooed Custance with love poems, and invited her to Paris, where Custance also befriended Barney's former lover Renée Vivien; around 1901 Barney and Custance holidayed together in Italy while Custance was simultaneously conducting her courtship with Douglas. Accounts of the Barney–Vivien–Custance ménage are contradictory: Barney's memoir says she tried to persuade Custance to join a Sapphic community at Mytilene (stymied by Vivien's jealousy), and per McDermott she 'supposedly envisaged marrying Douglas as a way of inducing Olive to live with her too'. Custance kept up contact with Barney after returning to London in 1901 and marrying in 1902, and Custance verse survives among Barney's papers.",
   "sources": [
     {
@@ -20,11 +24,13 @@
       "work": "parker-y90s-custance-bio",
       "locator": "para. 2",
       "locator_type": "none",
-      "evidence_date": {
-        "y": 1897,
-        "circa": true,
-        "to": {
-          "y": 1898
+      "occurred": {
+        "date": {
+          "y": 1897,
+          "circa": true,
+          "to": {
+            "y": 1898
+          }
         }
       },
       "supports": "Barney initiated the acquaintance after Opals; wooing with love poems; the Paris invitation.",
@@ -41,8 +47,10 @@
       "work": "parker-y90s-custance-bio",
       "locator": "para. 2",
       "locator_type": "none",
-      "evidence_date": {
-        "y": 1901
+      "occurred": {
+        "date": {
+          "y": 1901
+        }
       },
       "supports": "Custance back in London 1901; the connection continued past the liaison; diaries/poems as evidence of her attraction to women.",
       "verification": "verified-exact",
@@ -58,9 +66,11 @@
       "work": "mcdermott-2020-fortnightly",
       "locator": null,
       "locator_type": "none",
-      "evidence_date": {
-        "y": 1901,
-        "circa": true
+      "occurred": {
+        "date": {
+          "y": 1901,
+          "circa": true
+        }
       },
       "supports": "Independent secondary source frames Barney as pursuer; a joint Italian holiday c. 1901; the Douglas courtship running inside the Barney liaison.",
       "verification": "verified-elision",
@@ -76,7 +86,6 @@
       "work": "parker-2011-girls-love",
       "locator": "p. 1 (accepted manuscript)",
       "locator_type": "page",
-      "evidence_date": null,
       "supports": "Status of the claim in scholarship: the Barney (and Vivien) entanglements are 'rumoured', treated in lesbian biography at the cited loci.",
       "verification": "verified-exact",
       "how_verified": "as-published",
@@ -86,12 +95,11 @@
       "document": "article"
     },
     {
-      "quote": "*. For I would dance to make you smile, and sing / Of those who with some sweet mad sin have played, / And how Love walks with delicate feet afraid / Twixt maid and maid.*",
+      "quote": "*… For I would dance to make you smile, and sing*\n*Of those who with some sweet mad sin have played,*\n*And how Love walks with delicate feet afraid*\n*Twixt maid and maid.*",
       "context": "Custance's verse answering Barney's first letter to her. Barney had written to the author of Opale enclosing two of her own books; 'Opale répondit avec feu' - Opale answered with fire. **Barney never names Custance in this memoir**: she is 'Opale' throughout, after her first collection, and the surname Custance does not occur in the volume. The suspension points opening the quotation are Barney's, marking that she quotes from mid-poem; slashes mark line breaks; endnote marker 3 omitted as typography. Custance's English is printed in italics inside the French text.",
       "work": "barney-souvenirs-1960",
       "locator": "PDF p. 42 (ch. 'RENÉE VIVIEN')",
       "locator_type": "page",
-      "evidence_date": null,
       "supports": "Custance's own words to Barney at the opening of the courtship - participant testimony from the other side, and unambiguous as to register.",
       "verification": "verified-exact",
       "how_verified": "text-layer",
@@ -111,7 +119,6 @@
       "work": "barney-souvenirs-1960",
       "locator": "PDF p. 48 (ch. 'RENÉE VIVIEN')",
       "locator_type": "page",
-      "evidence_date": null,
       "supports": "The participant's own account of the physical opening of the liaison, and of Vivien's jealousy of it.",
       "verification": "verified-exact",
       "how_verified": "text-layer",
@@ -119,7 +126,10 @@
       "verified_on": "2026-08-04",
       "speaker": "Natalie Clifford Barney",
       "voice": "period",
-      "document": "memoir"
+      "document": "memoir",
+      "occurred": {
+        "place": "paris"
+      }
     },
     {
       "quote": "Loin de suivre l'exemple de cette passion qui la rendait infidèle au professeur B.C., Opale et moi grelottions de fièvre — non de celle que nous avions espéré éprouver, mais d'une malaria qui nous laissa, tout le temps de notre séjour, affaiblies, au point de ne pouvoir quitter nos lits jumelés. Opale fit accrocher au-dessus de son lit de convalescence une photographie d'Antinoüs, qui la faisait rêver à Lord Alfred Douglas. … Cependant, comme elle tenait à conserver son poète, elle ourdit le plan de m'envoyer Lord Alfred aux Etats-Unis, dans l'espoir qu'un mariage blanc entre lui et moi permettrait de tout concilier.",
@@ -127,7 +137,6 @@
       "work": "barney-souvenirs-1960",
       "locator": "PDF p. 50 (ch. 'RENÉE VIVIEN')",
       "locator_type": "page",
-      "evidence_date": null,
       "supports": "The liaison at its height, named obliquely but unmistakably by the participant; and Custance's own manoeuvre to keep both Barney and Douglas.",
       "verification": "verified-elision",
       "how_verified": "text-layer",
@@ -138,7 +147,10 @@
       "lang": "fr",
       "translation": "Far from following the example of that passion which made her unfaithful to Professor B.C., Opale and I shivered with fever — not the fever we had hoped to feel, but a malaria that left us weakened for the whole of our stay, to the point of being unable to leave our twin beds. Opale had a photograph of Antinous hung above her convalescent's bed, which set her dreaming of Lord Alfred Douglas. … However, since she was set on keeping her poet, she hatched a plan to send Lord Alfred to me in the United States, in the hope that a mariage blanc between him and me would settle everything.",
       "translation_note": "'Mariage blanc' is left in French: it means a marriage never consummated, and there is no English phrase that carries it as exactly.",
-      "document": "memoir"
+      "document": "memoir",
+      "occurred": {
+        "place": "venice"
+      }
     },
     {
       "quote": "When Olive reported this unexpected development, Natalie said, “Tell him I'm in love with you.” … Needless to say, she was much more attracted to Olive, especially after an evening they spent bathed in moonlight and poetry. One evening was not enough, however; Natalie wanted to be alone with Olive for a longer time. So when Mrs. Custance and Freddy returned to England, Olive and Natalie went off to Venice, accompanied by the inevitable chaperone … Olive hung the photograph of her lover over her bed. This was none other than Lord Alfred Douglas.",
@@ -146,8 +158,10 @@
       "work": "wickes-1977",
       "locator": "p. 68",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1901
+      "occurred": {
+        "date": {
+          "y": 1901
+        }
       },
       "supports": "Biographer account of the Barney–Custance entanglement.",
       "verification": "verified-elision",
@@ -163,8 +177,11 @@
       "work": "souhami-2004",
       "locator": "p. 40",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1901
+      "occurred": {
+        "date": {
+          "y": 1901
+        },
+        "place": "paris"
       },
       "supports": "Biographer account of the Barney–Custance liaison.",
       "verification": "verified-exact",

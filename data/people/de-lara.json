@@ -2,17 +2,25 @@
   "id": "de-lara",
   "name": "Isidore de Lara",
   "sort_name": "Lara, Isidore de",
-  "aka": ["Isidore Cohen"],
+  "aka": [
+    "Isidore Cohen"
+  ],
   "born": {
-    "y": 1858
+    "date": {
+      "y": 1858
+    }
   },
   "died": {
-    "y": 1935
+    "date": {
+      "y": 1935
+    }
   },
   "group": "society",
   "gender": "m",
   "bio": "Composer (1858-1935), born Isidore Cohen, whose operas were produced at Monte Carlo under the patronage of the Princess of Monaco. Wilde inscribed a copy of his Poems to him in June 1887: 'To my friend Isidore de Lara, the poet of the musicians, in sincere admiration and affection.'",
-  "bio_sources": ["letters-2000"],
+  "bio_sources": [
+    "letters-2000"
+  ],
   "bio_note": "No letter to him survives (no Index of Recipients entry); the record is a single General Index entry, 'De Lara, Isidore, 1136n'. The editors point to Osbert Sitwell's pen portrait in Noble Essences (1950).",
   "sexuality_sources": []
 }

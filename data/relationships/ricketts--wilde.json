@@ -7,11 +7,15 @@
   "certainty": "platonic",
   "certainty_status": "proposed",
   "start": {
-    "y": 1889,
-    "m": 8
+    "date": {
+      "y": 1889,
+      "m": 8
+    }
   },
   "end": {
-    "y": 1932
+    "date": {
+      "y": 1932
+    }
   },
   "summary": "Wilde's friendship with Charles Ricketts, the artist and book-designer — first recorded in Wilde's impression of him in 1889, and surviving through Ricketts's Recollections of 1932.",
   "certainty_reasoning": "The record documents a friendship or acquaintance with no evidence of attraction or romance; classified platonic, upgradable if contrary evidence comes to light.",
@@ -24,9 +28,12 @@
       "context": "Wilde to W. Graham Robertson, [? August 1889], 16 Tite Street (MS Huntington). Robertson had sent Ricketts a cheque; Wilde had evidently delivered the thanks. Within two years Ricketts was designing The Picture of Dorian Gray (1891), the limited Poems (1892), Intentions and Lord Arthur Savile's Crime.",
       "speaker": "Oscar Wilde",
       "addressee": "W. Graham Robertson",
-      "evidence_date": {
-        "y": 1889,
-        "m": 8
+      "written": {
+        "date": {
+          "y": 1889,
+          "m": 8
+        },
+        "place": "16-tite-street"
       },
       "supports": "Wilde's first recorded impression of Ricketts, a year and a half before Ricketts began designing his books.",
       "verification": "verified-exact",
@@ -48,8 +55,10 @@
       "context": "The editors' note explaining Wilde's rustication in 1877 - he was fined £47.10s, half his Demyship, and sent down for the rest of the academic year for returning a month late from Greece. The point for this map is not the punishment but the transmission: a remark of Wilde's survives because Ricketts wrote it down thirty-five years later. Several of the things this map knows about Wilde's talk reach it the same way, through friends' memoirs, and it is worth marking who the recorders were.",
       "speaker": null,
       "addressee": null,
-      "evidence_date": {
-        "y": 1932
+      "occurred": {
+        "date": {
+          "y": 1932
+        }
       },
       "supports": "Ricketts as one of the friends through whom Wilde's spoken words survive.",
       "verification": "verified-exact",

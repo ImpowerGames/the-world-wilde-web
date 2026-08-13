@@ -1,28 +1,36 @@
 {
   "id": "bloodworth--ives",
-  "people": ["bloodworth", "ives"],
+  "people": [
+    "bloodworth",
+    "ives"
+  ],
   "certainty": "self-reported",
   "certainty_status": "proposed",
   "certainty_reasoning": "Cook (2014), p. 101, glosses the household nickname 'Cubby' as Charles Gee. Brian Lewis states that this is an error of Cook's: Cubby was Harold Holt, as Cook's own earlier book (2003, p. 146) has it, and Charles Gee's nickname was a different one, recorded here as Wobby or Wubby with the spelling not yet settled. The diary passage below therefore names Bloodworth and Holt. With that settled, the strongest evidence on this edge is Ives's own diary: 'I feel sad. I love those two, deeply, tenderly [.] Love's quite different from passion [.] to sleep side by side with one's comrade is beyond all worlds beautiful. Not exciting, but oh such a protection and sympathy, of healing to the heart's many wounds' - a participant's own words about Bloodworth, quoted by Cook from Diary vol. 76.",
   "start": {
-    "y": 1909
+    "date": {
+      "y": 1909
+    }
   },
   "end": {
-    "y": 1950
+    "date": {
+      "y": 1950
+    }
   },
-  "date_label": "Moved into the Adelaide Road household 1909; stayed until Ives's death, 1950 (Cook).",
   "summary": "Harold Bloodworth ('Pug'), described by Cook as 'a teenage footballer', moved into Ives's Adelaide Road, Primrose Hill household in 1909 and remained for the rest of Ives's life - the longest-staying of the working- and lower-middle-class men Ives paternalistically called his 'children'.",
   "sources": [
     {
-      "quote": "When Pug and another long term resident Cubby (Charles Gee) were both away he wrote in his diary: 'I feel sad. I love those two, deeply, tenderly [.] Love's quite different from passion [.] to sleep side by side with one's comrade is beyond all worlds beautiful. Not exciting, but oh such a protection and sympathy, of healing to the heart's many wounds'.",
+      "quote": "When Pug and another long term resident Cubby (Charles Gee) were both away he wrote in his diary: 'I feel sad. I love those two, deeply, tenderly […] Love's quite different from passion […] to sleep side by side with one's comrade is beyond all worlds beautiful. Not exciting, but oh such a protection and sympathy, of healing to the heart's many wounds'.",
       "context": "Cook quoting Ives's diary (vol. 76, 20 January 1921, p. 25, per Cook's endnote 35) on Pug and Cubby being away; the ellipses are Cook's own",
       "work": "cook-2014",
       "locator": "p. 101",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1921,
-        "m": 1,
-        "d": 20
+      "occurred": {
+        "date": {
+          "y": 1921,
+          "m": 1,
+          "d": 20
+        }
       },
       "supports": "Ives's own diary on sleeping beside Pug (Bloodworth) and Cubby - 'those two' names both men; participant testimony, quoted by Cook from Diary vol. 76. The quoted sentence names love, disclaims passion, and locates the value in comfort.",
       "verification": "verified-elision",
@@ -38,8 +46,10 @@
       "work": "cook-2003",
       "locator": "p. 148",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1909
+      "occurred": {
+        "date": {
+          "y": 1909
+        }
       },
       "supports": "Bloodworth entered the household in 1909 as 'a teenage footballer' and stayed until Ives's death in 1950; the household's 'children' framing",
       "verification": "verified-elision",
@@ -55,7 +65,6 @@
       "work": "lewis-podcast",
       "locator": null,
       "locator_type": "none",
-      "evidence_date": null,
       "supports": "The household pattern - Bloodworth is the stayed-for-decades case, though Lewis names no one; Lewis frames these as 'domestic relationships' and elsewhere notes Ives's 'relationships were all with adults'",
       "verification": "verified-exact",
       "how_verified": "as-published",
@@ -70,7 +79,6 @@
       "work": "ives-diary",
       "locator": null,
       "locator_type": "diary-entry",
-      "evidence_date": null,
       "supports": "Whether Bloodworth was a lover rather than solely a household member ('child') cannot be said for sure with the sources at hand.",
       "verification": "unverified",
       "how_verified": "unverified",
@@ -87,14 +95,16 @@
       "work": "cook-2014",
       "locator": "p. 101",
       "locator_type": "page",
-      "evidence_date": null,
       "supports": "Cook's own careful reading: a possible sexual beginning, a platonic settling, continued bed-sharing throughout.",
       "verification": "verified-exact",
       "how_verified": "text-layer",
       "citation_provenance": "PDF p. 112.",
       "verified_on": "2026-08-03",
       "voice": "modern",
-      "document": "study"
+      "document": "study",
+      "occurred": {
+        "place": "adelaide-road"
+      }
     },
     {
       "quote": "The men thus shifted from (possible) lovers to sons and, in bed, to comrades.",
@@ -102,7 +112,6 @@
       "work": "cook-2014",
       "locator": "p. 101",
       "locator_type": "page",
-      "evidence_date": null,
       "supports": "The trajectory Cook proposes for these relationships.",
       "verification": "verified-exact",
       "how_verified": "text-layer",
@@ -117,8 +126,10 @@
       "work": "cook-2014",
       "locator": "pp. 109-110",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1939
+      "occurred": {
+        "date": {
+          "y": 1939
+        }
       },
       "supports": "The strongest single statement of Bloodworth's standing in the household: he and Saunders inherit the house itself. Ives's own ranking of his attachments, in a legal document.",
       "verification": "verified-exact",
@@ -134,8 +145,10 @@
       "work": "cook-2014",
       "locator": "p. 110",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1939
+      "occurred": {
+        "date": {
+          "y": 1939
+        }
       },
       "supports": "Cook explicitly frames the Ives/Bloodworth/Saunders triad against the spousal model - the nearest he comes to calling it a partnership, though 'affections' is not a claim of sexual relations. Independently corroborates the 1909 start date already in this record: 'around 30 years' before the 1939 will.",
       "verification": "verified-exact",
@@ -151,10 +164,12 @@
       "work": "cook-2014",
       "locator": "p. 101",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1920,
-        "m": 10,
-        "d": 2
+      "occurred": {
+        "date": {
+          "y": 1920,
+          "m": 10,
+          "d": 2
+        }
       },
       "supports": "The clearest first-hand statement of the terms Ives set for this relationship, and the one that bears directly on the disputed block above: Ives knows Bloodworth spends nights with women, casts himself as parent rather than partner, and declines to ask - while still claiming 'we have no secrets between us'. Ives's diary, vol. 76, 2 October 1920, as quoted by Cook. Read against the lead quotation, the two together give the shape of the bond in Ives's own terms: love and a shared bed, without exclusivity and without the vocabulary of coupledom.",
       "verification": "verified-exact",
@@ -170,7 +185,6 @@
       "locator_type": "none",
       "quote": "",
       "voice": null,
-      "evidence_date": null,
       "supports": "The identification of 'Cubby' as Harold Holt rather than Charles Gee, correcting Cook (2014) p. 101.",
       "verification": "unverified",
       "how_verified": "unverified",

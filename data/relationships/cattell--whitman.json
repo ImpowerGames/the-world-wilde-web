@@ -7,24 +7,30 @@
   "certainty": "self-reported",
   "certainty_status": "proposed",
   "start": {
-    "y": 1876
+    "date": {
+      "y": 1876,
+      "m": 5
+    }
   },
   "end": {
-    "y": 1877
+    "date": {
+      "y": 1877
+    }
   },
-  "date_label": "Met May 1876 at Kirkwood; meetings at the front gate and by the pond through 1876 and 1877, the last dated note 'Ed. Cattell with me' on 29 October 1877 - the documented span is short because the documents are few, not necessarily because the acquaintance was",
   "summary": "Edward Cattell was a farm hand at Kirkwood and a friend of the Staffords, and Whitman met him in May 1876 at the same farm where he was spending his summers with Harry Stafford. Whitman's diaries record the front gate at night in June, the boys swimming, September meetings by the pond on moonlight nights. In January 1877 Whitman wrote asking him to keep away from the Stafford house altogether, to ask no questions and tell no one - the same letter in which he writes 'as to Harry you know how I love him' and then, of Cattell, 'you too have my unalterable love'. Cattell, husking corn that October, wrote back that he had seen Whitman's old chair floating down the stream. He is the poorest-documented man on this map with letters on both sides, and no one recorded when he was born or when he died.",
   "sources": [
     {
-      "quote": "Dear Ed I want to write you a few lines particular. Do not call to see me any more at the Stafford family, & do not call there at all any more. Dont ask me why—I will explain to you when we meet. … I want you to keep this to yourself, & not mention it nor this letter to any one & you must not speak about it at all to any one. There is nothing in it that I think I do wrong, nor am ashamed of, but I wish it kept entirely between you and me … Mr and Mrs Stafford are very near & kind to me, & have been & are like brother & sister to me—& as to Harry you know how I love him. Ed you too have my unalterable love, & always shall have.",
+      "quote": "Dear Ed\n\nI want to write you a few lines particular. Do not call to see me any more at the Stafford family, & do not call there at all any more. Dont ask me why—I will explain to you when we meet. … I want you to keep this to yourself, & not mention it nor this letter to any one & you must not speak about it at all to any one.\n\nThere is nothing in it that I think I do wrong, nor am ashamed of, but I wish it kept entirely between you and me … Mr and Mrs Stafford are very near & kind to me, & have been & are like brother & sister to me—& as to Harry you know how I love him. Ed you too have my unalterable love, & always shall have.",
       "context": "Whitman to Cattell, 24 January 1877 - **a draft; the sent version has not been found**. The elision drops instructions to treat the Staffords normally in public. The archive records that Whitman deleted, and then rewrote in different words, the sentence about the Staffords and Harry, and deleted an invitation to be visited at Mrs Gilchrist's house in Philadelphia. Read alongside cattell's reply and the stafford--whitman edge: Whitman is managing two attachments in the same household and asking one of them to become invisible.",
       "work": "whitman-archive-correspondence",
       "locator": "item loc.01251",
       "locator_type": "letter-date",
-      "evidence_date": {
-        "y": 1877,
-        "m": 1,
-        "d": 24
+      "written": {
+        "date": {
+          "y": 1877,
+          "m": 1,
+          "d": 24
+        }
       },
       "supports": "Whitman's own declaration of love to Cattell, and - in the same breath - the concealment it was conducted under.",
       "verification": "verified-elision",
@@ -38,18 +44,23 @@
       "manuscript": {
         "repository": "Library of Congress, Washington, DC",
         "url": "https://whitmanarchive.org/item/loc.01251"
+      },
+      "occurred": {
+        "place": "kirkwood"
       }
     },
     {
-      "quote": "old man i got your kind and welcom letter last week and was glad to hear from you my loving old friend i love to hear from you and to know that you ar well and i would Com up to see you But i cant get of a day now for we ar so Bisse now husking corn i went with some Boys up the Pond to day and i seen your old Chir floting down the stream … i think of you old man think of the times down on the Crieek. … i love you Walt and all ways will so may god Bless you is my prayer from of your frend Edward P Cattell",
+      "quote": "old man i got your kind and welcom letter last week and was glad to hear from you my loving old friend i love to hear from you and to know that you ar well and i would Com up to see you But i cant get of a day now for we ar so Bisse now husking corn i went with some Boys up the Pond to day and i seen your old Chir floting down the stream … i think of you old man think of the times down on the Crieek. … i love you Walt and all ways will so may god Bless you\n\nis my prayer from of your frend\n\nEdward P Cattell",
       "context": "Cattell to Whitman, 21 October 1877, headed only 'Sunday 21th'. **The spelling and capitalisation are Cattell's own** and are preserved here as the archive preserves them; he was a farm labourer and wrote as he could. The elisions drop his news of George Stafford and Herbert Gilchrist and his hope of coming to Camden. Recorded in full register rather than trimmed to the declaration, because trimming it to 'i love you Walt' would tidy away the husking and the floating chair, which are the texture of the thing.",
       "work": "whitman-archive-correspondence",
       "locator": "item loc.01253",
       "locator_type": "letter-date",
-      "evidence_date": {
-        "y": 1877,
-        "m": 10,
-        "d": 21
+      "written": {
+        "date": {
+          "y": 1877,
+          "m": 10,
+          "d": 21
+        }
       },
       "supports": "Cattell's own voice - the only substantial thing of his that survives, and the other half of the self-reported class.",
       "verification": "verified-elision",

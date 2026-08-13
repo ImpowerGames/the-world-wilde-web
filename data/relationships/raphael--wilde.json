@@ -9,15 +9,18 @@
   "direction": "wilde",
   "outcome": "unknown",
   "start": {
-    "y": 1898,
-    "m": 12
+    "date": {
+      "y": 1898,
+      "m": 12
+    }
   },
   "end": {
-    "y": 1898,
-    "m": 12
+    "date": {
+      "y": 1898,
+      "m": 12
+    }
   },
-  "date_label": "Stated in a letter the editors date [Circa 28 December 1898] from the Hôtel des Bains, Napoule. The letter does not say when the friendship began and no later letter read returns to it; the single-month span is the date of the evidence, not a claim about duration.",
-  "summary": "Writing to Laurence Housman from the Riviera at the end of December 1898, Wilde praised the Napoule fisher-folk as an ideal race with no morals and named two of them as his special friends: Raphael and Fortuné, 'both quite perfect, except that they can read and write'. That sentence is the whole of the record for him - no surname, no age, no occupation stated, no second mention anywhere in the correspondence read.",
+  "summary": "Writing to Laurence Housman from the Riviera at the end of December 1898, Wilde praised the Napoule fisher-folk as an ideal race with no morals and named two of them as his special friends: Raphael and Fortuné, 'both quite perfect, except that they can read and write'. That sentence is the whole of the record for him - no surname, no age, no occupation stated, no second mention anywhere in the correspondence read. The single-month span is the date of the evidence, not a claim about duration.",
   "sources": [
     {
       "quote": "The people here – fisher-folk all – have beautiful eyes, crisp hair of a hyacinth colour, and no morals: an ideal race. I have two special friends, one called Raphael, the other Fortuné – both quite perfect, except that they can read and write.",
@@ -25,10 +28,15 @@
       "work": "letters-2000",
       "locator": "p. 1113",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1898,
-        "m": 12,
-        "d": 28
+      "written": {
+        "date": {
+          "y": 1898,
+          "m": 12,
+          "d": 28,
+          "circa": true,
+          "inferred": true
+        },
+        "place": "la-napoule"
       },
       "supports": "The whole of the record for Raphael: named as one of Wilde's two special friends among the Napoule fisher-folk, called quite perfect, with no outcome recorded",
       "verification": "verified-exact",
@@ -41,7 +49,10 @@
       "manuscript": {
         "repository": "Bryn Mawr College Library, Bryn Mawr, Pennsylvania"
       },
-      "letter_id": "letters-2000/1113#1"
+      "letter_id": "letters-2000/1113#1",
+      "occurred": {
+        "place": "la-napoule"
+      }
     }
   ]
 }

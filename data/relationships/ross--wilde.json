@@ -8,14 +8,17 @@
   "certainty_status": "proposed",
   "certainty_reasoning": "The suppressed dedication, added: Wilde composed a dedication to Ross for The Ballad - 'When I came out of prison / some met me with garments and with spices, / and others with wise counsel. / You met me with love' - deliberately without initials or name, and it was never printed (editors' note, printed 973).",
   "start": {
-    "y": 1886
+    "date": {
+      "y": 1886
+    }
   },
   "end": {
-    "y": 1900,
-    "m": 11,
-    "d": 30
+    "date": {
+      "y": 1900,
+      "m": 11,
+      "d": 30
+    }
   },
-  "date_label": "Met 1886 (Ross: 'I only met him in '86'); Ross dated the intimacy to the Lady Windermere period, c. 1891; regular correspondence only after the downfall; to Wilde's death, 30 Nov. 1900, with Ross at the bedside; literary executor thereafter.",
   "summary": "Ross met Wilde in 1886 and remained, in the editors' words, 'his most faithful friend until Wilde's death when he became the literary executor to the estate'. The surviving correspondence opens in October 1888 ('My dear Bobbie … I shall miss you in town') and by 1889 runs to 'Yours, with much love'; Ross himself dated their intimacy to the period when Wilde was writing Lady Windermere (c. 1891). After 1895 Ross became the relationship's practical center - regular correspondent, supervisor of the De Profundis typescript at his Hornton Street lodgings, daily attendant of the final illness who fetched the priest for Wilde's deathbed reception into the Catholic Church - and he was holding Wilde's hand at the death on 30 November 1900. He buried Wilde at Bagneux in a concession hired in his own name, moved the remains to Père Lachaise in 1909, and administered the literary estate.",
   "sources": [
     {
@@ -24,10 +27,13 @@
       "work": "letters-2000",
       "locator": "pp. 858-859",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1897,
-        "m": 5,
-        "d": 28
+      "written": {
+        "date": {
+          "y": 1897,
+          "m": 5,
+          "d": 28
+        },
+        "place": "berneval-sur-mer"
       },
       "supports": "Wilde naming what Ross was to him, in his own words: the one friend left to him, and the one who met him at his release with love rather than counsel - the most explicit first-hand characterization of the bond in the correspondence read",
       "verification": "verified-elision",
@@ -48,7 +54,6 @@
       "work": "letters-2000",
       "locator": "p. 360 n. 1",
       "locator_type": "page",
-      "evidence_date": null,
       "supports": "Frame of the bond: met 1886; 'most faithful friend' to Wilde's death; literary executor",
       "verification": "verified-elision",
       "how_verified": "text-layer",
@@ -63,10 +68,13 @@
       "work": "letters-2000",
       "locator": "p. 409",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1889,
-        "m": 7,
-        "circa": true
+      "written": {
+        "date": {
+          "y": 1889,
+          "m": 7,
+          "circa": true
+        },
+        "place": "kreuznach"
       },
       "supports": "Warmest register of the early correspondence: 'Yours, with much love' (1889)",
       "verification": "verified-exact",
@@ -87,10 +95,13 @@
       "work": "letters-2000",
       "locator": "p. 1229",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1900,
-        "m": 12,
-        "d": 23
+      "written": {
+        "date": {
+          "y": 1900,
+          "m": 12,
+          "d": 23
+        },
+        "place": "menton"
       },
       "supports": "Ross's own timeline: met Wilde 1886, intimacy only from the Lady Windermere period (c. 1891) - complicates the common claim that the liaison began in 1886",
       "verification": "verified-exact",
@@ -112,10 +123,12 @@
       "work": "letters-2000",
       "locator": "p. 1220",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1900,
-        "m": 11,
-        "d": 30
+      "written": {
+        "date": {
+          "y": 1900,
+          "m": 11,
+          "d": 30
+        }
       },
       "supports": "Ross at the bedside holding Wilde's hand at the moment of death - the terminal point of the lifelong bond",
       "verification": "verified-exact",
@@ -134,8 +147,10 @@
       "work": "fryer-2000",
       "locator": "p. 18",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1886
+      "occurred": {
+        "date": {
+          "y": 1886
+        }
       },
       "supports": "Ross's dedicated biographer dates the start of a sexual relationship to 1886 - the traditional dating, against which Ross's own 1900 letter to Adela Schuster stands.",
       "verification": "verified-exact",
@@ -151,8 +166,10 @@
       "work": "fryer-2000",
       "locator": "p. 18",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1886
+      "occurred": {
+        "date": {
+          "y": 1886
+        }
       },
       "supports": "A reported chain of participant testimony for the 1886 dating - Wilde told Turner, Ross told Ransome - which is the nearest thing Fryer offers to first-person evidence. It remains Fryer's report of an unsourced oral confirmation, not the participant's surviving words: a lead toward self-reported evidence rather than an instance of it.",
       "verification": "verified-exact",
@@ -168,8 +185,10 @@
       "work": "fryer-2000",
       "locator": "p. 21",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1887
+      "occurred": {
+        "date": {
+          "y": 1887
+        }
       },
       "supports": "Fryer separates a single initiating episode in 1886 from a sustained affair, and denies the latter for 1887 - supplying the middle term under which the 1886 tradition and Ross's own 'only became intimate. Lady Windermere' (1900) can both be true. Fryer never cites the Schuster letter, so the reconciliation is available from him but not stated by him.",
       "verification": "verified-exact",
@@ -185,11 +204,13 @@
       "work": "fryer-2000",
       "locator": "p. 33",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1888,
-        "circa": true,
-        "to": {
-          "y": 1889
+      "occurred": {
+        "date": {
+          "y": 1888,
+          "circa": true,
+          "to": {
+            "y": 1889
+          }
         }
       },
       "supports": "Fryer's summary formula for the bond - 'disciple and sometime lover'. 'Sometime' is his word, and his second signal that he does not read the relationship as a continuous affair.",
@@ -206,11 +227,13 @@
       "work": "fryer-2000",
       "locator": "p. 42",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1889,
-        "circa": true,
-        "to": {
-          "y": 1890
+      "occurred": {
+        "date": {
+          "y": 1889,
+          "circa": true,
+          "to": {
+            "y": 1890
+          }
         }
       },
       "supports": "The asymmetry Fryer builds the life on: Ross in love with Wilde and unpossessive about Gray and Wilde's other lovers, while sexually occupied elsewhere. Bears on the ross--wilde bond and on why no jealousy edge to gray or douglas is warranted.",
@@ -225,14 +248,17 @@
       "work": "letters-2000",
       "locator": "p. 1006",
       "locator_type": "page",
-      "quote": "As for dear Robbie, if he will kindly send me out a pair of his oldest boots I will blacken them with pleasure, and send them back to him with a sonnet. I have loved Robbie all my life, and have not the smallest intention of giving up loving him. Of all my old friends he is the one who has the most beautiful nature; had my other friends been like him, I would not be the pariah-dog of the nineteenth century. But natures like his are not found twice in a life-time. When dear Robbie heavily bombarded me (an unfair thing, as unfortified places are usually respected in civilised war) I bore it with patriarchal patience. I admit, however, that when he seemed to me slightly casual about someone else, I sent up a rocket of several colours. I am sorry I did so.",
+      "quote": "As for dear Robbie, if he will kindly send me out a pair of his oldest boots I will blacken them with pleasure, and send them back to him with a sonnet. I have loved Robbie all my life, and have not the smallest intention of giving up loving him. Of all my old friends he is the one who has the most beautiful nature; had my other friends been like him, I would not be the pariah-dog of the nineteenth century. But natures like his are not found twice in a life-time.\n\nWhen dear Robbie heavily bombarded me (an unfair thing, as unfortified places are usually respected in civilised war) I bore it with patriarchal patience. I admit, however, that when he seemed to me slightly casual about someone else, I sent up a rocket of several colours. I am sorry I did so.",
       "context": "Wilde to Leonard Smithers, Saturday [11 December 1897], Villa Giudice, Posilippo (MS Hyde) - written to a third party, which is what makes it worth having. Wilde is living with Douglas at posilippo as he writes it, and Ross had been 'bombarding' him with objections to that. He is not appeasing Ross here and he is not writing to him; he is telling his publisher what he thinks, in a letter Ross was never meant to see. The quarrel he apologises for is over Ross being 'slightly casual about someone else' - the someone else is not named on the page.",
       "speaker": "Oscar Wilde",
       "addressee": "Leonard Smithers",
-      "evidence_date": {
-        "y": 1897,
-        "m": 12,
-        "d": 11
+      "written": {
+        "date": {
+          "y": 1897,
+          "m": 12,
+          "d": 11
+        },
+        "place": "naples"
       },
       "supports": "The plainest statement of the Ross attachment anywhere in the correspondence, made behind Ross's back and therefore not flattery.",
       "verification": "verified-exact",
@@ -250,13 +276,16 @@
       "work": "letters-2000",
       "locator": "p. 1184",
       "locator_type": "page",
-      "quote": "I am at the Roma, the first time for ten days. Would you were here. Do you observe that I have fallen in love with you again? Our Indian winter. Ever yours",
+      "quote": "I am at the Roma, the first time for ten days. Would you were here. Do you observe that I have fallen in love with you again? Our Indian winter. Ever yours\n\nOSCAR",
       "context": "Wilde to Robert Ross, Rome, April 1900 - the close of the letter, quoted whole. It comes directly after the paragraph describing Armando's body, on the same folio, which is the reason to have both: Wilde tells Ross he has fallen in love with him again in the sentence after describing another young man's thighs. Seven months before his death.",
       "speaker": "Oscar Wilde",
       "addressee": "Robert Ross",
-      "evidence_date": {
-        "y": 1900,
-        "m": 4
+      "written": {
+        "date": {
+          "y": 1900,
+          "m": 4
+        },
+        "place": "rome"
       },
       "supports": "Wilde telling Ross he had fallen in love with him again, in his last year.",
       "verification": "verified-exact",
@@ -278,9 +307,12 @@
       "context": "Wilde to Robert Ross, Rome, April 1900. A shared act of looking, recalled: the two of them had gone together to worship a statue.",
       "speaker": "Oscar Wilde",
       "addressee": "Robert Ross",
-      "evidence_date": {
-        "y": 1900,
-        "m": 4
+      "written": {
+        "date": {
+          "y": 1900,
+          "m": 4
+        },
+        "place": "rome"
       },
       "supports": "Something the two of them had done together, and the word Wilde used for it.",
       "verification": "verified-exact",
@@ -298,41 +330,76 @@
       "work": "letters-2000",
       "locator": "p. 1141",
       "locator_type": "page",
-      "quote": "This is a really lovely little place: only reached by mules or boats. … Have not yet been here: but have decided to enter the chiostro - just the place for me.",
-      "context": "Two postcards from Wilde to Robert Ross, both postmarked 7 April 1899, the first from Portofino and the second from San Fruttuoso (MS Clark), quoted whole and joined by an ellipsis. Both are signed 'S. M.' - Sebastian Melmoth. 'chiostro' the editors gloss as cloister. Trivial in content and kept for what it shows - that Wilde sent Ross postcards from wherever he was, twice in a day.",
       "speaker": "Oscar Wilde",
       "addressee": "Robert Ross",
-      "evidence_date": {
-        "y": 1899,
-        "m": 4,
-        "d": 7
-      },
-      "supports": "The ordinary daily traffic of the friendship.",
-      "verification": "verified-exact",
       "how_verified": "photo-reproduction",
-      "citation_provenance": "PDF p. 1187.",
-      "verified_on": "2026-08-06",
       "voice": "period",
-      "document": "letter",
       "manuscript": {
         "repository": "William Andrews Clark Memorial Library, UCLA"
       },
-      "letter_ids": [
-        "letters-2000/1141#1",
-        "letters-2000/1141#2"
-      ]
+      "quote": "This is a really lovely little place: only reached by mules or boats.",
+      "context": "Postcard from Wilde to Robert Ross, [postmark 7 April 1899], [Portofino] (MS Clark), signed 'S. M.' for Sebastian Melmoth. The first of two he sent Ross that day. Trivial in content and kept for what it shows.",
+      "postmarked": {
+        "date": {
+          "y": 1899,
+          "m": 4,
+          "d": 7
+        }
+      },
+      "written": {
+        "place": "portofino"
+      },
+      "supports": "The ordinary daily traffic of the friendship.",
+      "verification": "verified-exact",
+      "citation_provenance": "PDF p. 1187, folio 1141 read on the page.",
+      "verified_on": "2026-08-12",
+      "document": "postcard",
+      "letter_id": "letters-2000/1141#1"
+    },
+    {
+      "work": "letters-2000",
+      "locator": "p. 1141",
+      "locator_type": "page",
+      "speaker": "Oscar Wilde",
+      "addressee": "Robert Ross",
+      "how_verified": "photo-reproduction",
+      "voice": "period",
+      "manuscript": {
+        "repository": "William Andrews Clark Memorial Library, UCLA"
+      },
+      "quote": "Have not yet been here: but have decided to enter the chiostro - just the place for me.",
+      "context": "Postcard from Wilde to Robert Ross, [postmark 7 April 1899], [San Fruttuoso] (MS Clark), signed 'S. M.'. Alongside the card from Portofino postmarked the same day, this is the second Wilde sent Ross within one day - which is the whole point of keeping either. 'chiostro' the editors gloss as cloister.",
+      "postmarked": {
+        "date": {
+          "y": 1899,
+          "m": 4,
+          "d": 7
+        }
+      },
+      "written": {
+        "place": "san-fruttuoso"
+      },
+      "supports": "That Wilde wrote to Ross from wherever he was, twice in a day.",
+      "verification": "verified-exact",
+      "citation_provenance": "PDF p. 1187, folio 1141 read on the page.",
+      "verified_on": "2026-08-12",
+      "document": "postcard",
+      "letter_id": "letters-2000/1141#2"
     },
     {
       "work": "letters-2000",
       "locator": "p. 973",
       "locator_type": "page",
-      "quote": "I am going to have a dedication. I don't put any initials or name. I simply say: When I came out of prison / some met me with garments and with spices, / and others with wise counsel. / You met me with love. Please let me see it in some nice type. I think it a beautiful and simple dedication. I hope you do too.",
+      "quote": "I am going to have a dedication. I don't put any initials or name. I simply say:\n\nWhen I came out of prison\nsome met me with garments and with spices,\nand others with wise counsel.\nYou met me with love.\n\nPlease let me see it in some nice type. I think it a beautiful and simple dedication. I hope you do too.",
       "context": "Wilde to Leonard Smithers, [October 1897], Villa Giudice, Posillipo - quoted whole from where the dedication is raised. The dedication is to Ross and it was never printed. The editors' footnote is unambiguous: 'These words were addressed to Robbie Ross, but they did not appear in The Ballad.' Wilde is explicit that the name is to be withheld - 'I don't put any initials or name' - so what he proposed was an unsigned declaration that only its addressee would recognise, and even that was dropped. A second, published dedication went instead to C. T. W., the hanged trooper. Note also the setting: Wilde was at Posillipo living with Douglas as he wrote this. Corrected - an earlier note of mine filed this phrase as Wilde writing to Smithers about Smithers, because the line sits in a letter to Smithers and the page-break hid the footnote. Re-reading the following folio settled it.",
       "speaker": "Oscar Wilde",
       "addressee": "Leonard Smithers",
-      "evidence_date": {
-        "y": 1897,
-        "m": 10
+      "written": {
+        "date": {
+          "y": 1897,
+          "m": 10
+        },
+        "place": "naples"
       },
       "supports": "A dedication of love to Ross, composed, shown to the publisher, and then suppressed.",
       "verification": "verified-elision",

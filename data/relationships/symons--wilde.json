@@ -7,14 +7,18 @@
   "certainty": "platonic",
   "certainty_status": "proposed",
   "start": {
-    "y": 1890,
-    "m": 10,
-    "d": 22
+    "date": {
+      "y": 1890,
+      "m": 10,
+      "d": 22
+    }
   },
   "end": {
-    "y": 1890,
-    "m": 10,
-    "d": 22
+    "date": {
+      "y": 1890,
+      "m": 10,
+      "d": 22
+    }
   },
   "summary": "The beginning of the acquaintance: Wilde's letter to Arthur Symons of October 1890.",
   "certainty_reasoning": "The record documents a friendship or acquaintance with no evidence of attraction or romance; classified platonic, upgradable if contrary evidence comes to light.",
@@ -27,10 +31,12 @@
       "context": "Wilde to Arthur Symons, [postmark 22 October 1890], 16 Tite Street (MS Berg). The letter breaks where the printed page does. This is the two of them having just met.",
       "speaker": "Oscar Wilde",
       "addressee": "Arthur Symons",
-      "evidence_date": {
-        "y": 1890,
-        "m": 10,
-        "d": 22
+      "postmarked": {
+        "date": {
+          "y": 1890,
+          "m": 10,
+          "d": 22
+        }
       },
       "supports": "The beginning of the acquaintance.",
       "verification": "verified-elision",
@@ -42,8 +48,10 @@
       "manuscript": {
         "repository": "Henry W. and Albert A. Berg Collection, New York Public Library"
       },
-      "letter_id": "letters-2000/455#3"
+      "letter_id": "letters-2000/455#3",
+      "written": {
+        "place": "16-tite-street"
+      }
     }
-  ],
-  "date_label": "London, 1890"
+  ]
 }

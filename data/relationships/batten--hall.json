@@ -8,9 +8,10 @@
   "certainty_status": "proposed",
   "start": null,
   "end": {
-    "y": 1916
+    "date": {
+      "y": 1916
+    }
   },
-  "date_label": "Batten was Hall's first lover; the relationship ended with Batten's death in 1916 (the start year is not stated in the source read)",
   "summary": "Mabel Veronica Batten, a singer known as 'Ladye', was Radclyffe Hall's first lover. The Ransom Center's biographical sketch credits her with introducing Hall into a circle of artistic and intellectual women, many of them lesbians - so she is, in the surviving record, the person who brought Hall into queer society. Batten was also the cousin of Una Troubridge, who met Hall in 1915 and became Hall's partner after Batten's death the following year; the three-way relation gave Hall's biographer Michael Baker his title, Our Three Selves.",
   "sources": [
     {
@@ -19,7 +20,6 @@
       "work": "hrc-hall-troubridge-fa",
       "locator": "Biographical Sketch",
       "locator_type": "none",
-      "evidence_date": null,
       "supports": "That Batten was Hall's first lover, her dates, and her role in bringing Hall into queer society.",
       "verification": "verified-exact",
       "how_verified": "as-published",
@@ -34,7 +34,6 @@
       "work": "glasgow-1997-your-john",
       "locator": "p. 29 n. 1",
       "locator_type": "page",
-      "evidence_date": null,
       "supports": "An editor's reading that Hall's worst remembered grief was Batten's death, and that Batten was grieved by Hall's passion for Troubridge - second-hand, hedged, and the only thing in this volume that bears on this pair.",
       "verification": "verified-exact",
       "how_verified": "text-layer",
@@ -50,10 +49,12 @@
       "work": "baker-1985-our-three-selves",
       "locator": "p. 36",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1908,
-        "m": 8,
-        "d": 12
+      "occurred": {
+        "date": {
+          "y": 1908,
+          "m": 8,
+          "d": 12
+        }
       },
       "supports": "Biographer's full account of the Batten relationship, including its start.",
       "verification": "verified-exact",

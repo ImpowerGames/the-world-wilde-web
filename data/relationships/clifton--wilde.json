@@ -7,14 +7,18 @@
   "certainty": "platonic",
   "certainty_status": "proposed",
   "start": {
-    "y": 1889,
-    "m": 8,
-    "d": 8
+    "date": {
+      "y": 1880,
+      "circa": true,
+      "inferred": true
+    }
   },
   "end": {
-    "y": 1891,
-    "m": 1,
-    "d": 28
+    "date": {
+      "y": 1891,
+      "m": 1,
+      "d": 28
+    }
   },
   "summary": "Wilde's friendship with Arthur Clifton, a barrister and fellow Magdalen man — on the everyday footing of editing a poem and, in private, refusing the vocabulary of moral censure.",
   "certainty_reasoning": "The record documents a friendship or acquaintance with no evidence of attraction or romance; classified platonic, upgradable if contrary evidence comes to light.",
@@ -27,10 +31,12 @@
       "context": "Wilde to Arthur Clifton, [postmark 8 August 1889], 16 Tite Street (MS Private) - quoted whole including the postscript; the ellipsis marks only the signature falling mid-letter. The club is the National Liberal. Trivial in content and kept for the register: Wilde calling in at half past ten at night and wanting an answer the same day.",
       "speaker": "Oscar Wilde",
       "addressee": "Arthur Clifton",
-      "evidence_date": {
-        "y": 1889,
-        "m": 8,
-        "d": 8
+      "postmarked": {
+        "date": {
+          "y": 1889,
+          "m": 8,
+          "d": 8
+        }
       },
       "supports": "The everyday footing of the friendship.",
       "verification": "verified-elision",
@@ -42,20 +48,25 @@
       "manuscript": {
         "repository": "Private collection"
       },
-      "letter_id": "letters-2000/410#2"
+      "letter_id": "letters-2000/410#2",
+      "written": {
+        "place": "16-tite-street"
+      }
     },
     {
       "work": "letters-2000",
       "locator": "p. 463",
       "locator_type": "page",
-      "quote": "My dear Arthur, The new last line 'Paradise' is charming. 'Vice' does not do as it is a word tainted in its signification with moral censure - vitium: what is faulty. The evening was charming. I enjoyed it all. Ever yours",
+      "quote": "My dear Arthur, The new last line 'Paradise' is charming. 'Vice' does not do as it is a word tainted in its signification with moral censure - vitium: what is faulty.\n\nThe evening was charming. I enjoyed it all. Ever yours\n\nOSCAR",
       "context": "Wilde to Arthur Clifton, [postmark 28 January 1891], [16 Tite Street] (MS Clark) - quoted whole. Wilde is editing a poem of Clifton's and reaches for the Latin: vitium means a flaw or defect, and his argument is that the English word has been contaminated by moralising and no longer means what its root means.",
       "speaker": "Oscar Wilde",
       "addressee": "Arthur Clifton",
-      "evidence_date": {
-        "y": 1891,
-        "m": 1,
-        "d": 28
+      "postmarked": {
+        "date": {
+          "y": 1891,
+          "m": 1,
+          "d": 28
+        }
       },
       "supports": "Wilde refusing the vocabulary of moral censure, in private, four years before it was used on him.",
       "verification": "verified-exact",
@@ -67,8 +78,10 @@
       "manuscript": {
         "repository": "William Andrews Clark Memorial Library, UCLA"
       },
-      "letter_id": "letters-2000/463#2"
+      "letter_id": "letters-2000/463#2",
+      "written": {
+        "place": "16-tite-street"
+      }
     }
-  ],
-  "date_label": "London, 1880s-1891"
+  ]
 }

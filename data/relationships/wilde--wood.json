@@ -7,15 +7,18 @@
   "certainty": "self-reported",
   "certainty_status": "proposed",
   "start": {
-    "y": 1893,
-    "m": 1
+    "date": {
+      "y": 1893,
+      "m": 1
+    }
   },
   "end": {
-    "y": 1893,
-    "m": 4,
-    "circa": true
+    "date": {
+      "y": 1893,
+      "m": 4,
+      "circa": true
+    }
   },
-  "date_label": "January – spring 1893 (Wood left for America with Wilde's £35)",
   "summary": "Douglas telegraphed Wilde from Salisbury to look after Alfred Wood, an out-of-work clerk then living at Taylor's; Wilde met him at the Café Royal, dined him in a private room at the Florence, and took him home to 16 Tite Street, where Wood's testimony describes an act of gross indecency. Wood had found letters from Wilde to Douglas in a suit Douglas gave him; in spring 1893 Wilde gave him £30 plus £5 and Wood left for America. Wilde was convicted on the Tite Street count at the final trial.",
   "sources": [
     {
@@ -24,9 +27,11 @@
       "work": "hyde-trials-1948",
       "locator": "p. 201",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1895,
-        "m": 4
+      "occurred": {
+        "date": {
+          "y": 1895,
+          "m": 4
+        }
       },
       "supports": "How the two men met, in the participant's own sworn words: Douglas's telegram introduction, Wilde waiting at the Café Royal and opening with 'Are you Alfred Wood?', the drink, the private room at the Florence, and the walk back to 16 Tite Street. The plainest first-hand characterization of the connection, chosen in preference to the act evidence that follows it.",
       "verification": "verified-exact",
@@ -102,9 +107,11 @@
       "work": "hyde-trials-1948",
       "locator": "pp. 201-202",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1895,
-        "m": 4
+      "occurred": {
+        "date": {
+          "y": 1895,
+          "m": 4
+        }
       },
       "supports": "Sworn first-person testimony of gross indecency at 16 Tite Street, January 1893, after Douglas's telegram introduction — the class-deciding quote",
       "verification": "verified-exact",
@@ -140,9 +147,11 @@
       "work": "hyde-trials-1948",
       "locator": "p. 202",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1895,
-        "m": 4
+      "occurred": {
+        "date": {
+          "y": 1895,
+          "m": 4
+        }
       },
       "supports": "What was given, how often, and how the acquaintance ended - in the participant's own words: the Langham Street visit by appointment, presents of half-a-dozen shirts, collars, handkerchiefs and a silver watch and chain, two or three pounds on other meetings, and the £30 in March 1893 on Wood's asking to get away",
       "verification": "verified-exact",
@@ -210,9 +219,11 @@
       "work": "hyde-trials-1948",
       "locator": "p. 202",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1895,
-        "m": 4
+      "occurred": {
+        "date": {
+          "y": 1895,
+          "m": 4
+        }
       },
       "supports": "The stolen-letters affair that ended the acquaintance: £30 (plus £5 next day, p. 203) and Wood's departure for America",
       "verification": "verified-exact",
@@ -252,9 +263,11 @@
       "work": "hyde-trials-1948",
       "locator": "pp. 134-135",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1895,
-        "m": 4
+      "occurred": {
+        "date": {
+          "y": 1895,
+          "m": 4
+        }
       },
       "supports": "Wilde's on-oath denial of the relations, and his account of the Douglas introduction",
       "verification": "verified-elision",
@@ -290,9 +303,11 @@
       "work": "hyde-trials-1948",
       "locator": "p. 337",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1895,
-        "m": 5
+      "occurred": {
+        "date": {
+          "y": 1895,
+          "m": 5
+        }
       },
       "supports": "Conviction on the Wood count at the final trial",
       "verification": "verified-exact",

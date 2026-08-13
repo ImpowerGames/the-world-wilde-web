@@ -8,12 +8,15 @@
   "certainty_status": "proposed",
   "certainty_reasoning": "The claim rests on one Wikipedia sentence footnoted to Hamer (2016), p. 94, a page nobody in this module has read, corroborated by a Wikidata P26 statement whose only source is the Wikipedia article itself.",
   "start": {
-    "y": 1874
+    "date": {
+      "y": 1874
+    }
   },
   "end": {
-    "y": 1910
+    "date": {
+      "y": 1910
+    }
   },
-  "date_label": "M. 1874; ended by his death, 24 October 1910",
   "summary": "Mabel Hatch, born in Calcutta, married George Batten in 1874 at about eighteen, and took the name under which she appears everywhere afterwards. He was secretary to the Viceroy of India; they had a daughter, Cara. The marriage lasted thirty-six years and outlived the beginning of her attachment to Radclyffe Hall by three - she met Hall in 1907 and moved in with her only once widowed.",
   "sources": [
     {
@@ -22,8 +25,10 @@
       "work": "wikipedia-mabel-batten",
       "locator": "section 'Personal life'",
       "locator_type": "none",
-      "evidence_date": {
-        "y": 1874
+      "occurred": {
+        "date": {
+          "y": 1874
+        }
       },
       "supports": "The marriage, its year, the husband's post and the daughter.",
       "verification": "verified-exact",

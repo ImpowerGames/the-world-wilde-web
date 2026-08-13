@@ -7,12 +7,18 @@
   "certainty": "self-reported",
   "certainty_status": "proposed",
   "start": {
-    "y": 1934
+    "date": {
+      "y": 1934,
+      "season": "summer"
+    }
   },
   "end": {
-    "y": 1943
+    "date": {
+      "y": 1943,
+      "m": 10,
+      "d": 7
+    }
   },
-  "date_label": "Met at Bagnoles-de-l'Orne in the summer of 1934, when Souline came from the American Hospital in Paris as Hall's private nurse; the correspondence runs from July 1934 until Hall's death on 7 October 1943",
   "summary": "In 1934 Radclyffe Hall, fifty-four and between books, went to the Normandy spa of Bagnoles-de-l'Orne to treat an old riding injury. Una Troubridge, her partner since 1915, fell ill there, and Hall sent to the American Hospital in Paris for a private nurse. The nurse was Evguenia Souline, a Russian émigrée in her thirtieth year. What began with a few stolen kisses at the spa became a nine-year attachment conducted very largely by post - Hall wrote at first in letter-and-response intervals, then every two days, then daily and sometimes twice - and it did not displace Troubridge, who remained. Hall's editor calls the arrangement that followed \"an imperfect, stormy triangle\" and lets it stand as one. The letters were published in 1997 as Your John; Souline's replies were not kept, and one survives.",
   "sources": [
     {
@@ -21,10 +27,12 @@
       "work": "glasgow-1997-your-john",
       "locator": "p. 28",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1934,
-        "m": 7,
-        "d": 24
+      "written": {
+        "date": {
+          "y": 1934,
+          "m": 7,
+          "d": 24
+        }
       },
       "supports": "The participant's own voice at the opening of the attachment, and its date.",
       "verification": "verified-exact",
@@ -47,9 +55,11 @@
       "work": "glasgow-1997-your-john",
       "locator": "p. 28",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1934,
-        "m": 7
+      "written": {
+        "date": {
+          "y": 1934,
+          "m": 7
+        }
       },
       "supports": "The weight Hall placed on the attachment within weeks of its beginning, in her own words.",
       "verification": "verified-exact",
@@ -72,8 +82,11 @@
       "work": "glasgow-1997-your-john",
       "locator": "p. 2",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1934
+      "occurred": {
+        "date": {
+          "y": 1934
+        },
+        "place": "bagnoles-de-lorne"
       },
       "supports": "How and when the two met, and that the attachment ran to Hall's death alongside the Troubridge partnership rather than replacing it.",
       "verification": "verified-elision",
@@ -90,7 +103,6 @@
       "work": "glasgow-1997-your-john",
       "locator": "p. 25",
       "locator_type": "page",
-      "evidence_date": null,
       "supports": "That the surviving record is Hall's alone, and the editor's own reading of what Souline's missing side may have held.",
       "verification": "verified-elision",
       "how_verified": "text-layer",

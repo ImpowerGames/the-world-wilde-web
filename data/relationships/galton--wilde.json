@@ -7,12 +7,16 @@
   "certainty": "platonic",
   "certainty_status": "proposed",
   "start": {
-    "y": 1890,
-    "m": 10
+    "date": {
+      "y": 1890,
+      "m": 10
+    }
   },
   "end": {
-    "y": 1890,
-    "m": 10
+    "date": {
+      "y": 1890,
+      "m": 10
+    }
   },
   "summary": "The whole of the correspondence: Wilde thanking Arthur Galton for his Camelot Classics Tacitus in October 1890.",
   "certainty_reasoning": "The record documents a friendship or acquaintance with no evidence of attraction or romance; classified platonic, upgradable if contrary evidence comes to light.",
@@ -21,13 +25,16 @@
       "work": "letters-2000",
       "locator": "p. 455",
       "locator_type": "page",
-      "quote": "Dear Galton, Your Tacitus is a charming little book, and your preface, like everything you write, very perfect in its sanity of wise criticism and good English. Many thanks for your gift. I still hope that Tiberius was very wicked, but fear that philology was his only crime. Ever yours",
+      "quote": "Dear Galton, Your Tacitus is a charming little book, and your preface, like everything you write, very perfect in its sanity of wise criticism and good English. Many thanks for your gift. I still hope that Tiberius was very wicked, but fear that philology was his only crime. Ever yours\n\nOSCAR WILDE",
       "context": "Wilde to Arthur Galton, [October 1890], 16 Tite Street (MS Montague) - quoted whole. The book is the Camelot Classics Tacitus of October 1890. The same year Galton received Lionel Johnson's letter about Wilde.",
       "speaker": "Oscar Wilde",
       "addressee": "Arthur Galton",
-      "evidence_date": {
-        "y": 1890,
-        "m": 10
+      "written": {
+        "date": {
+          "y": 1890,
+          "m": 10
+        },
+        "place": "16-tite-street"
       },
       "supports": "The whole of the correspondence, and that the two men were in contact in 1890.",
       "verification": "verified-exact",
@@ -41,6 +48,5 @@
       },
       "letter_id": "letters-2000/455#1"
     }
-  ],
-  "date_label": "London, 1890"
+  ]
 }

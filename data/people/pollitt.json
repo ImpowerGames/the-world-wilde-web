@@ -7,10 +7,14 @@
     "Herbert Charles Pollitt"
   ],
   "born": {
-    "y": 1871
+    "date": {
+      "y": 1871
+    }
   },
   "died": {
-    "y": 1942
+    "date": {
+      "y": 1942
+    }
   },
   "group": "later",
   "gender": "m",

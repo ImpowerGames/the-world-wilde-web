@@ -8,14 +8,18 @@
     "Opal"
   ],
   "born": {
-    "y": 1874,
-    "m": 2,
-    "d": 7
+    "date": {
+      "y": 1874,
+      "m": 2,
+      "d": 7
+    }
   },
   "died": {
-    "y": 1944,
-    "m": 2,
-    "d": 12
+    "date": {
+      "y": 1944,
+      "m": 2,
+      "d": 12
+    }
   },
   "group": "later",
   "bio": "Poet, born 7 February 1874, eldest daughter of Colonel Frederic Hambledon Custance of Weston Old Hall, Norfolk; she published in The Yellow Book from 1894 and issued four collections — Opals (1897), Rainbows (1902), The Blue Bird (1905), and The Inn of Dreams (1911). Courted around 1901 by both Natalie Barney and Lord Alfred Douglas, she jilted her fiancé George Montagu and eloped with Douglas on 4 March 1902; their son Raymond was born that November. The marriage was worn down by Douglas's litigations and the custody fight for Raymond, and the couple separated in 1913 without divorcing; from 1932 she lived near Douglas in Hove, seeing him nearly every day. She died on 12 February 1944.",

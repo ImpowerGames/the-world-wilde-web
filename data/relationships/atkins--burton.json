@@ -7,12 +7,15 @@
   "certainty": "platonic",
   "certainty_status": "proposed",
   "start": {
-    "y": 1891
+    "date": {
+      "y": 1891
+    }
   },
   "end": {
-    "y": 1894
+    "date": {
+      "y": 1894
+    }
   },
-  "date_label": "Osnaburgh Street, Tachbrook Street and elsewhere, 1891-1894",
   "summary": "Fred Atkins testified in cross-examination at the 1895 trial that he had lived with Burton at Osnaburgh Street, Tachbrook Street, and other places in the early 1890s. The record is the cohabitation itself; nothing in it characterizes the relationship.",
   "certainty_reasoning": "Documented cohabitation across several addresses, from Atkins's sworn testimony, with no evidence of attraction or romance in the record; classified platonic, upgradable if contrary evidence comes to light.",
   "sources": [
@@ -22,9 +25,12 @@
       "work": "hyde-trials-1948",
       "locator": "p. 207",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1895,
-        "m": 4
+      "occurred": {
+        "date": {
+          "y": 1895,
+          "m": 4
+        },
+        "place": "osnaburgh-street"
       },
       "supports": "Cohabitation with Burton across multiple addresses",
       "verification": "verified-exact",

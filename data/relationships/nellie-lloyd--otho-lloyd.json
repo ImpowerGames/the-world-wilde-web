@@ -6,7 +6,6 @@
   ],
   "certainty": "married",
   "certainty_status": "proposed",
-  "date_label": "Married; dates not established here",
   "summary": "Otho Holland Lloyd, Constance Wilde's brother, and his wife Nellie. Wilde calls them jointly 'the important uncle and aunt of our son and heir'.",
   "sources": [
     {
@@ -17,10 +16,12 @@
       "context": "Wilde to Nellie Lloyd, [postmark 5 June 1885], 16 Tite Street (MS Holland). Quoted for the pairing: the two of them named together as uncle and aunt, and Nellie's own pregnancy in the next sentence.",
       "speaker": "Oscar Wilde",
       "addressee": "Nellie Lloyd",
-      "evidence_date": {
-        "y": 1885,
-        "m": 6,
-        "d": 5
+      "postmarked": {
+        "date": {
+          "y": 1885,
+          "m": 6,
+          "d": 5
+        }
       },
       "supports": "That they were a married couple, and both expecting.",
       "verification": "verified-elision",
@@ -33,7 +34,10 @@
         "repository": "Private collection",
         "owner": "Mr Vyvyan Holland"
       },
-      "letter_id": "letters-2000/261#2"
+      "letter_id": "letters-2000/261#2",
+      "written": {
+        "place": "16-tite-street"
+      }
     }
   ]
 }

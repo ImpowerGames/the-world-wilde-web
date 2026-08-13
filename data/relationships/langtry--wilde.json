@@ -7,15 +7,18 @@
   "certainty": "self-reported",
   "certainty_status": "proposed",
   "start": {
-    "y": 1879,
-    "label": "by 1879"
+    "date": {
+      "y": 1879,
+      "bound": "not-later-than"
+    }
   },
   "end": {
-    "y": 1885,
-    "circa": true,
-    "label": "friendship attested through at least 1885"
+    "date": {
+      "y": 1885,
+      "circa": true,
+      "bound": "not-earlier-than"
+    }
   },
-  "date_label": "By 1879 - mid-1880s (devotion verses 1879-81; friendship after)",
   "summary": "Wilde's public poetic devotion to the great Society beauty of the age - 'The New Helen', the Troy/London inscription - alongside a working intimacy as her tutor and amanuensis and a durable friendship: she is among the first he tells of his engagement, and he sends her theatre stalls in 1885 with news of Constance's confinement.",
   "sources": [
     {
@@ -24,12 +27,15 @@
       "work": "letters-2000",
       "locator": "p. 91 n. 5",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1879,
-        "circa": true,
-        "to": {
-          "y": 1880
-        }
+      "written": {
+        "date": {
+          "y": 1879,
+          "circa": true,
+          "to": {
+            "y": 1880
+          }
+        },
+        "place": "beaconsfield-milehouse"
       },
       "supports": "Langtry's own words for what Wilde was to her - 'my kind tutor' - and the standing invitation to call: the only first-hand statement from her side in the record",
       "verification": "verified-exact",
@@ -48,9 +54,11 @@
       "work": "letters-2000",
       "locator": "p. 91 n. 2",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1879,
-        "m": 7
+      "occurred": {
+        "date": {
+          "y": 1879,
+          "m": 7
+        }
       },
       "supports": "The public devotion: the poem and the inscription.",
       "verification": "verified-exact",
@@ -66,8 +74,10 @@
       "work": "letters-2000",
       "locator": "p. 91 n. 2",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1899
+      "occurred": {
+        "date": {
+          "y": 1899
+        }
       },
       "supports": "Wilde's own late-life framing of the admiration; reaches us via o'Sullivan as printed by the editors.",
       "verification": "verified-exact",
@@ -83,10 +93,13 @@
       "work": "letters-2000",
       "locator": "p. 224",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1884,
-        "m": 1,
-        "d": 22
+      "written": {
+        "date": {
+          "y": 1884,
+          "m": 1,
+          "d": 22
+        },
+        "place": "royal-victoria-hotel"
       },
       "supports": "The durable intimate-friend register ('My dear Lil', 'Venus Victrix of our age'); she is among the first told of the engagement.",
       "verification": "verified-elision",

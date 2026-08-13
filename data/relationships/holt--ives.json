@@ -8,23 +8,25 @@
   "certainty_status": "proposed",
   "certainty_reasoning": "Cook (2014), p. 101, glosses the household nickname 'Cubby' as Charles Gee. Brian Lewis states that this is an error of Cook's: Cubby was Harold Holt, as Cook's own earlier book (2003, p. 146) has it, and Charles Gee's nickname was a different one, recorded here as Wobby or Wubby with the spelling not yet settled. The diary passage below therefore names Bloodworth and Holt. With that settled, the strongest evidence on this edge is Ives's own diary: 'I feel sad. I love those two, deeply, tenderly [.] Love's quite different from passion [.] to sleep side by side with one's comrade is beyond all worlds beautiful. Not exciting, but oh such a protection and sympathy, of healing to the heart's many wounds' - a participant's own words about Holt, quoted by Cook from Diary vol. 76.",
   "start": {
-    "y": 1894,
-    "label": "from 1894 (the move to E4 the Albany)"
+    "date": {
+      "y": 1894
+    }
   },
   "end": null,
-  "date_label": "Albany period, from 1894",
-  "summary": "One of the two young men of George Ives's Albany household - the circle of working-class and dependent young men he called his 'children' - with whom Cook records Ives sharing his bed.",
+  "summary": "One of the two young men of George Ives's Albany household - the circle of working-class and dependent young men he called his 'children' - with whom Cook records Ives sharing his bed. The household dates from the 1894 move to E4 the Albany.",
   "sources": [
     {
-      "quote": "When Pug and another long term resident Cubby (Charles Gee) were both away he wrote in his diary: 'I feel sad. I love those two, deeply, tenderly [.] Love's quite different from passion [.] to sleep side by side with one's comrade is beyond all worlds beautiful. Not exciting, but oh such a protection and sympathy, of healing to the heart's many wounds'.",
+      "quote": "When Pug and another long term resident Cubby (Charles Gee) were both away he wrote in his diary: 'I feel sad. I love those two, deeply, tenderly […] Love's quite different from passion […] to sleep side by side with one's comrade is beyond all worlds beautiful. Not exciting, but oh such a protection and sympathy, of healing to the heart's many wounds'.",
       "context": "Cook quoting Ives's diary (vol. 76, 20 January 1921, p. 25, per Cook's endnote 35) on Pug and Cubby being away; the ellipses are Cook's own",
       "work": "cook-2014",
       "locator": "p. 101",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1921,
-        "m": 1,
-        "d": 20
+      "occurred": {
+        "date": {
+          "y": 1921,
+          "m": 1,
+          "d": 20
+        }
       },
       "supports": "The only passage on this edge in which a participant speaks: Ives's diary, vol. 76, 20 January 1921, as quoted by Cook. Ives names love, disclaims passion, and locates the value in comfort. The 'Cubby' identification is disputed: Cook 2014 glosses Cubby as 'Charles Gee'; Cook 2003, p. 146 glosses it as 'Harold Holt', and the name 'Holt' does not appear in the 2014 book. Also carries Ives's own declaration of love for the two men and his explicit separation of love from passion.",
       "verification": "verified-elision",
@@ -40,14 +42,16 @@
       "work": "cook-2003",
       "locator": "p. 146",
       "locator_type": "page",
-      "evidence_date": null,
       "supports": "Bed-sharing household intimacy at the Albany, in Cook's own words",
       "verification": "verified-exact",
       "how_verified": "text-layer",
       "citation_provenance": "PDF p. 162 (printed folio 146)",
       "verified_on": "2026-08-03",
       "voice": "modern",
-      "document": "study"
+      "document": "study",
+      "occurred": {
+        "place": "the-albany"
+      }
     },
     {
       "quote": "Though Ives' relationships with the other men at Adelaide Road possibly started sexually, they seem quickly to have become platonic - even though he continued to sleep with them from time to time.",
@@ -55,7 +59,6 @@
       "work": "cook-2014",
       "locator": "p. 101",
       "locator_type": "page",
-      "evidence_date": null,
       "supports": "Cook's own careful reading: a possible sexual beginning, a platonic settling, continued bed-sharing throughout.",
       "verification": "verified-exact",
       "how_verified": "text-layer",
@@ -70,7 +73,6 @@
       "work": "cook-2014",
       "locator": "p. 101",
       "locator_type": "page",
-      "evidence_date": null,
       "supports": "A specific, dated instance of bed-sharing between Ives and Cubby, and of Ives's distress at its interruption - more concrete than the general 'sometimes his bed' of Cook 2003.",
       "verification": "verified-exact",
       "how_verified": "text-layer",
@@ -85,7 +87,6 @@
       "locator_type": "none",
       "quote": "",
       "voice": null,
-      "evidence_date": null,
       "supports": "The identification of 'Cubby' as Harold Holt rather than Charles Gee, correcting Cook (2014) p. 101. Quotation pending: Lewis's wording was taken down by hand and the spelling of Charles Gee's nickname is awaiting his confirmation by email.",
       "verification": "unverified",
       "how_verified": "unverified",

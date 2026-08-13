@@ -7,10 +7,14 @@
     "Louis Umfreville Wilkinson"
   ],
   "born": {
-    "y": 1881
+    "date": {
+      "y": 1881
+    }
   },
   "died": {
-    "y": 1966
+    "date": {
+      "y": 1966
+    }
   },
   "group": "later",
   "gender": "m",

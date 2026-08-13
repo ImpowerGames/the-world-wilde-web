@@ -7,14 +7,17 @@
   "certainty": "uncorroborated",
   "certainty_status": "proposed",
   "start": {
-    "y": 1892,
-    "m": 2
+    "date": {
+      "y": 1892,
+      "m": 2
+    }
   },
   "end": {
-    "y": 1893,
-    "m": 3
+    "date": {
+      "y": 1893,
+      "m": 3
+    }
   },
-  "date_label": "February 1892 – March 1893 (acquaintance broken off by Shelley's letter)",
   "summary": "Edward Shelley, a clerk at Wilde's publishers the Bodley Head, dined with Wilde at the Albemarle Hotel in February 1892; his testimony describes being kissed and embraced, objecting, and nonetheless staying the night in Wilde's bed, with 'a repetition of the previous night's performance' the next day. He received inscribed books and letters, quarrelled with Wilde at the Savoy in March 1893, and broke off the acquaintance. The count concerning him was withdrawn from the jury for lack of corroboration at the final trial.",
   "disputed": {
     "claim": "that Wilde committed sexual acts (sodomy solicited; gross indecency and indecent assault committed) with Edward Shelley at the Albemarle Hotel, February-May 1892",
@@ -29,9 +32,11 @@
       "work": "hyde-trials-1948",
       "locator": "p. 213",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1895,
-        "m": 4
+      "occurred": {
+        "date": {
+          "y": 1895,
+          "m": 4
+        }
       },
       "supports": "The first-person account of the Albemarle nights: kisses, embraces, shared bed, resistance — the class-deciding quote",
       "verification": "verified-exact",
@@ -54,9 +59,11 @@
       "work": "hyde-trials-1948",
       "locator": "p. 296",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1895,
-        "m": 5
+      "occurred": {
+        "date": {
+          "y": 1895,
+          "m": 5
+        }
       },
       "supports": "Shelley's final-trial framing: 'attempts at improprieties' on two occasions, resented at the time; the March 1893 Savoy quarrel and break-off",
       "verification": "verified-exact",
@@ -80,9 +87,11 @@
       "work": "hyde-trials-1948",
       "locator": "pp. 306-307",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1895,
-        "m": 5
+      "occurred": {
+        "date": {
+          "y": 1895,
+          "m": 5
+        }
       },
       "supports": "The count's withdrawal for want of corroboration — the legal outcome the 'alleged' class rests on",
       "verification": "verified-elision",
@@ -105,9 +114,11 @@
       "work": "hyde-trials-1948",
       "locator": "p. 341",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1895,
-        "m": 3
+      "occurred": {
+        "date": {
+          "y": 1895,
+          "m": 3
+        }
       },
       "supports": "The formal allegation and its date-window (Feb-May 1892, Albemarle Hotel)",
       "verification": "verified-exact",

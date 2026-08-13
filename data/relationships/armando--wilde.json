@@ -9,14 +9,17 @@
   "direction": "wilde",
   "outcome": "unknown",
   "start": {
-    "y": 1900,
-    "m": 4
+    "date": {
+      "y": 1900,
+      "m": 4
+    }
   },
   "end": {
-    "y": 1900,
-    "m": 4
+    "date": {
+      "y": 1900,
+      "m": 4
+    }
   },
-  "date_label": "Rome, April 1900",
   "summary": "Wilde knew Armando in Rome in April 1900. He gave him up over the incessant cost of his clothes, took up his best friend Arnaldo instead, forgave him a stolen coat because he looked handsome in it, and a fortnight later was describing him at length as the Apollo Belvedere.",
   "sources": [
     {
@@ -27,9 +30,12 @@
       "context": "Wilde to Robert Ross, Rome, April 1900 - quoted whole from where Armando is raised to where he is dropped. 'un invidioso' the editors gloss as 'jealous'. The same paragraph introduces Arnaldo. Wilde had seven months to live.",
       "speaker": "Oscar Wilde",
       "addressee": "Robert Ross",
-      "evidence_date": {
-        "y": 1900,
-        "m": 4
+      "written": {
+        "date": {
+          "y": 1900,
+          "m": 4
+        },
+        "place": "rome"
       },
       "supports": "The relationship, its cost, its ending, and Wilde forgiving a theft because the thief looked well in the coat.",
       "verification": "verified-elision",
@@ -47,13 +53,16 @@
       "work": "letters-2000",
       "locator": "p. 1184",
       "locator_type": "page",
-      "quote": "Omero was with me, and Armando, forgiven for the moment. He is so absurdly like the Apollo Belvedere that I feel always as if I was Winckelmann when I am with him. His lips are the same, his hair, his somewhat vulgar, because quite obvious, pride; and he also represents that decadence of the triumph of the face over the body, never seen in great Greek art. Witness the thighs of Theseus, the breasts and flanks of Hermes. His body is slim, dandy-like, elegant, and without a single great curve. He has not come out of the womb of giant circles.",
+      "quote": "Omero was with me, and Armando, forgiven for the moment. He is so absurdly like the Apollo Belvedere that I feel always as if I was Winckelmann when I am with him. His lips are the same, his hair, his somewhat vulgar, because quite obvious, pride; and he also represents that decadence of the triumph of the face over the body, never seen in great Greek art. Witness the thighs of Theseus, the breasts and flanks of Hermes.\n\nHis body is slim, dandy-like, elegant, and without a single great curve. He has not come out of the womb of giant circles.",
       "context": "Wilde to Robert Ross, Rome, April 1900 (the letter ends on this folio) - quoted whole. The editors identify Winckelmann (1717-68) as the German archaeologist and 'rediscoverer of Greek art' to whom Pater devoted a long chapter in Studies in the History of the Renaissance. The comparison is Wilde placing himself in the position of the classic scholarly admirer of young male beauty, and saying so to Ross.",
       "speaker": "Oscar Wilde",
       "addressee": "Robert Ross",
-      "evidence_date": {
-        "y": 1900,
-        "m": 4
+      "written": {
+        "date": {
+          "y": 1900,
+          "m": 4
+        },
+        "place": "rome"
       },
       "supports": "The fullest physical description Wilde wrote of anyone in his last year.",
       "verification": "verified-exact",

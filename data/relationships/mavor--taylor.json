@@ -7,16 +7,18 @@
   "certainty": "uncorroborated",
   "certainty_status": "proposed",
   "start": {
-    "y": 1892,
-    "m": 10,
-    "circa": true,
-    "label": "from about October 1892 (the acquaintance's documented start)"
+    "date": {
+      "y": 1892,
+      "m": 10,
+      "circa": true
+    }
   },
   "end": {
-    "y": 1893,
-    "circa": true
+    "date": {
+      "y": 1893,
+      "circa": true
+    }
   },
-  "date_label": "C. 1892-93",
   "summary": "Sidney Mavor was one of the young men of Alfred Taylor's Little College Street household; the trial record documents nights spent there in Taylor's company, and nothing more specific between the two of them.",
   "disputed": {
     "claim": "That the shared nights at Little College Street were sexual.",
@@ -31,9 +33,11 @@
       "work": "hyde-trials-1948",
       "locator": "p. 199",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1895,
-        "m": 4
+      "occurred": {
+        "date": {
+          "y": 1895,
+          "m": 4
+        }
       },
       "supports": "The household pattern and Mavor's nights at Taylor's, from the landlady.",
       "verification": "verified-exact",
@@ -60,9 +64,11 @@
       "work": "hyde-trials-1948",
       "locator": "p. 211",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1895,
-        "m": 4
+      "occurred": {
+        "date": {
+          "y": 1895,
+          "m": 4
+        }
       },
       "supports": "Mavor's own statement of the shared bed.",
       "verification": "verified-exact",

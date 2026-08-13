@@ -8,13 +8,16 @@
   "certainty_status": "proposed",
   "certainty_reasoning": "McKenna places the meeting in 1893, with Wilde's involvement with Walter Grainger as the time-marker - not before or around Douglas's 1891 introduction to Wilde. Two biographers never assert the affair; see the disputed block.",
   "start": {
-    "y": 1892,
-    "circa": true
+    "date": {
+      "y": 1892,
+      "circa": true
+    }
   },
   "end": {
-    "y": 1918
+    "date": {
+      "y": 1918
+    }
   },
-  "date_label": "Co-present in Wilde's circle by mid-1892; alleged early-1890s intimacy; friendly until c. 1912; open enmity from 1913 until Ross's death (1918)",
   "summary": "Douglas and Ross were fellow intimates of Wilde from 1892 and remained on good terms long after Wilde's death: Custance and Douglas courted in the upper room of Ross's Carfax gallery with his consent, and Ross stood at the back of the church at their 1902 wedding. McKenna and others have alleged a brief affair between the two around Douglas's entry into the circle; no primary evidence for it was reachable so far, and the Letters apparatus records only the Lionel Johnson introduction of 1891. From the Ransome libel trial of 1913 — brought over a book Douglas said was written 'at the instigation of' Ross — the friendship collapsed into open war: Douglas libelled Ross in deliberately actionable terms ('a notorious sodomite', among others) until Ross prosecuted him at the Old Bailey, where an eight-day trial ended without a verdict; the enmity ran until Ross's death in 1918.",
   "disputed": {
     "claim": "That the Douglas-Ross connection was sexual or romantic, as distinct from a close friendship.",
@@ -29,8 +32,10 @@
       "work": "mckenna-2008",
       "locator": "PDF p. 378",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1893
+      "occurred": {
+        "date": {
+          "y": 1893
+        }
       },
       "supports": "The assertion at issue: McKenna states a Douglas-Ross relationship 'sexual as well as emotional'. Note it is McKenna's own characterization, and that he dates the meeting to 1893.",
       "verification": "verified-exact",
@@ -46,7 +51,6 @@
       "work": "mckenna-2008",
       "locator": "PDF p. 378",
       "locator_type": "page",
-      "evidence_date": null,
       "supports": "Douglas's own words - the only participant testimony on this pair. They attest devotion and admiration professed by Ross, not a sexual relationship; the sexual reading is McKenna's addition.",
       "verification": "verified-exact",
       "how_verified": "text-layer",
@@ -62,8 +66,10 @@
       "work": "letters-2000",
       "locator": "p. 423 n. 1",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1891
+      "occurred": {
+        "date": {
+          "y": 1891
+        }
       },
       "supports": "The standard editorial account of Douglas's entry into Wilde's orbit — via Johnson in 1891; the apparatus nowhere derives the introduction from Ross or states a Ross–Douglas affair.",
       "verification": "verified-exact",
@@ -74,19 +80,22 @@
       "document": "editorial-note"
     },
     {
-      "quote": "My dearest Bobbie, Bosie has insisted on stopping here for sandwiches. He is quite like a narcissus – so white and gold. I will come either Wednesday or Thursday night to your rooms. Send me a line. Bosie is so tired: he lies like a hyacinth on the sofa, and I worship him. You dear boy. Ever yours OSCAR",
+      "quote": "My dearest Bobbie, Bosie has insisted on stopping here for sandwiches. He is quite like a narcissus – so white and gold. I will come either Wednesday or Thursday night to your rooms. Send me a line. Bosie is so tired: he lies like a hyacinth on the sofa, and I worship him.\n\nYou dear boy. Ever yours\n\nOSCAR",
       "context": "Wilde to Robert Ross, [? May–June 1892], Royal Palace Hotel, Kensington. Editors' note 1: 'This letter cannot be dated exactly, but it seems likely to have been written fairly soon after May 1892 (see p.461).' Earliest read evidence of Douglas and Ross sharing Wilde's intimate orbit — evidence of co-presence, not of relations between the two.",
       "work": "letters-2000",
       "locator": "p. 526",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1892,
-        "m": 5,
-        "circa": true,
-        "to": {
+      "written": {
+        "date": {
           "y": 1892,
-          "m": 6
-        }
+          "m": 5,
+          "circa": true,
+          "to": {
+            "y": 1892,
+            "m": 6
+          }
+        },
+        "place": "royal-palace-hotel"
       },
       "supports": "By mid-1892 Wilde writes to Ross about Bosie in terms assuming familiarity; the two men are co-members of the inner circle.",
       "verification": "verified-exact",
@@ -107,9 +116,11 @@
       "work": "douglas-autobiography-1929",
       "locator": "p. 198",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1902,
-        "m": 3
+      "occurred": {
+        "date": {
+          "y": 1902,
+          "m": 3
+        }
       },
       "supports": "Friendly relations at and 'for several years after' the 1902 wedding; Ross hosted the couple's secret meetings and attended the ceremony.",
       "verification": "verified-exact",
@@ -125,8 +136,10 @@
       "work": "douglas-autobiography-1929",
       "locator": "p. 33",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1913
+      "occurred": {
+        "date": {
+          "y": 1913
+        }
       },
       "supports": "The break dated to 1913 (Ransome trial) — with Douglas himself placing the estrangement earlier ('because I declined to go on associating with him'); Douglas's belief that Ross instigated the Ransome book.",
       "verification": "verified-elision",
@@ -142,11 +155,13 @@
       "work": "murray-2020",
       "locator": "PDF p. 53",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1891,
-        "circa": true,
-        "to": {
-          "y": 1892
+      "occurred": {
+        "date": {
+          "y": 1891,
+          "circa": true,
+          "to": {
+            "y": 1892
+          }
         }
       },
       "supports": "Non-corroboration of the alleged early-1890s Douglas-Ross affair by a named biographer: Murray's account of their meeting is friendship formed inside Wilde's circle, with the rivalry running through Wilde rather than between the two men.",
@@ -163,8 +178,10 @@
       "work": "murray-2020",
       "locator": "PDF pp. 68-69",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1893
+      "occurred": {
+        "date": {
+          "y": 1893
+        }
       },
       "supports": "The closest thing in Murray to intimacy between the two men in the alleged period - and it runs through a third person, not between them: Ross passes the boy's whereabouts to Douglas, and the two are jointly exposed to prosecution. Evidence of shared sexual milieu, not of a relationship.",
       "verification": "verified-exact",
@@ -180,9 +197,11 @@
       "work": "murray-2020",
       "locator": "PDF p. 170",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1909,
-        "circa": true
+      "written": {
+        "date": {
+          "y": 1909,
+          "circa": true
+        }
       },
       "supports": "Douglas's own retrospective denial, in 1909 and in his own hand, that Ross had ever been a real friend - dating the break four years before the Ransome trial and locating it in Douglas's post-conversion turn against homosexuality rather than in 1913.",
       "verification": "verified-exact",
@@ -204,8 +223,10 @@
       "work": "fryer-2000",
       "locator": "p. 198",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1907
+      "occurred": {
+        "date": {
+          "y": 1907
+        }
       },
       "supports": "A reported first-person statement by Ross placing Douglas beside his two documented lovers - Wilde and Freddie Smith - as the three most important men in his life. The claim reported is importance, not romance, and it is unsourced on the page: a lead toward a Douglas-Ross intimacy, not evidence of one.",
       "verification": "verified-exact",
@@ -221,9 +242,11 @@
       "work": "fryer-2000",
       "locator": "p. 66",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1892,
-        "circa": true
+      "occurred": {
+        "date": {
+          "y": 1892,
+          "circa": true
+        }
       },
       "supports": "Non-corroboration calibrated: Fryer's readiness to state a negative explicitly is what makes his silence on a Douglas-Ross affair informative rather than merely incurious.",
       "verification": "verified-exact",

@@ -7,14 +7,18 @@
   "certainty": "platonic",
   "certainty_status": "proposed",
   "start": {
-    "y": 1898,
-    "m": 2,
-    "d": 21
+    "date": {
+      "y": 1898,
+      "m": 2,
+      "d": 21
+    }
   },
   "end": {
-    "y": 1900,
-    "m": 4,
-    "d": 26
+    "date": {
+      "y": 1900,
+      "m": 4,
+      "d": 26
+    }
   },
   "summary": "More Adey was one of the few friends who stood by Wilde after the trials. The two letters bracket the friendship's end: a quarrel made up in February 1898 over Wilde's Naples sojourn, and Wilde's thanks, from Rome in April 1900, for what Adey had done for his mother.",
   "certainty_reasoning": "The record documents a friendship or acquaintance with no evidence of attraction or romance; classified platonic, upgradable if contrary evidence comes to light.",
@@ -23,14 +27,17 @@
       "work": "letters-2000",
       "locator": "pp. 1023-1024",
       "locator_type": "page",
-      "quote": "My dear More, I see your beautiful handwriting on the cover of the Echo, which reached me this morning. Many sincere thanks. It is a capital review, but, of course, I want the literary papers to criticise it. It is not altogether a pamphlet on prison-reform. I wonder what that good kind fellow Major Nelson thinks of it. I sent him a copy. I wish you could come over here and see me, but I suppose that is difficult. The intellectual atmosphere of Paris has done me good, and I now have ideas, not merely passions. Naples was fatal. … Are you writing? Are you in love? Are you happy?",
+      "quote": "My dear More, I see your beautiful handwriting on the cover of the Echo, which reached me this morning. Many sincere thanks. It is a capital review, but, of course, I want the literary papers to criticise it. It is not altogether a pamphlet on prison-reform. I wonder what that good kind fellow Major Nelson thinks of it. I sent him a copy.\n\nI wish you could come over here and see me, but I suppose that is difficult. The intellectual atmosphere of Paris has done me good, and I now have ideas, not merely passions. Naples was fatal.…Are you writing? Are you in love? Are you happy?",
       "context": "Wilde to More Adey, Monday [21 February 1898], Hôtel de Nice (text from a copy in Stuart Mason's hand, Clark). The Echo review of The Ballad had appeared on 19 February; Major Nelson was the governor of Reading. 'Naples was fatal' is Wilde's own verdict on the Posillipo months with Douglas, given to the friend he had spent 1897 blaming for everything.",
       "speaker": "Oscar Wilde",
       "addressee": "More Adey",
-      "evidence_date": {
-        "y": 1898,
-        "m": 2,
-        "d": 21
+      "written": {
+        "date": {
+          "y": 1898,
+          "m": 2,
+          "d": 21
+        },
+        "place": "hotel-de-nice"
       },
       "supports": "Wilde's verdict on Naples; the closing questions are the warmest thing in the letter.",
       "verification": "verified-elision",
@@ -45,14 +52,16 @@
       "work": "letters-2000",
       "locator": "p. 1184",
       "locator_type": "page",
-      "quote": "My dear More, I hear with great regret from Robbie of the loss you have sustained. You were so kind to my mother, so sympathetic and gentle in your delicate attentions to her up to the last, that I know you will let me express my sorrow at the death of your mother: it seems to me that I have almost a right to do so: for friends have all things in common. I wish you could come out here: one is healed at Rome of every trouble: and I should like to go with you to the Vatican, where I hope you will some day walk gravely in mediaeval dress, with the gold chain of office, and guide pilgrims to the feet of the Pope.",
+      "quote": "My dear More, I hear with great regret from Robbie of the loss you have sustained. You were so kind to my mother, so sympathetic and gentle in your delicate attentions to her up to the last, that I know you will let me express my sorrow at the death of your mother: it seems to me that I have almost a right to do so: for friends have all things in common.\n\nI wish you could come out here: one is healed at Rome of every trouble: and I should like to go with you to the Vatican, where I hope you will some day walk gravely in mediaeval dress, with the gold chain of office, and guide pilgrims to the feet of the Pope.",
       "context": "Wilde to More Adey, [postmark 26 April 1900], c/o Cook and Son, Rome (MS Clark). Adey's mother had died on 9 April; Wilde's own had died in February 1896 while he was in prison, and Adey had attended her. After two years of blaming him in the letters of 1897 ('incapable of managing affairs of tomtit in a hedge'), this is Wilde writing with unqualified tenderness.",
       "speaker": "Oscar Wilde",
       "addressee": "More Adey",
-      "evidence_date": {
-        "y": 1900,
-        "m": 4,
-        "d": 26
+      "postmarked": {
+        "date": {
+          "y": 1900,
+          "m": 4,
+          "d": 26
+        }
       },
       "supports": "That the quarrel ended, and what Adey had done for Wilde's mother.",
       "verification": "verified-elision",
@@ -64,7 +73,10 @@
       "manuscript": {
         "repository": "William Andrews Clark Memorial Library, UCLA"
       },
-      "letter_id": "letters-2000/1184#1"
+      "letter_id": "letters-2000/1184#1",
+      "written": {
+        "place": "rome"
+      }
     }
   ]
 }

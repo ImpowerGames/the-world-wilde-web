@@ -4,10 +4,14 @@
   "sort_name": "Mason, Charles Spurrier",
   "aka": [],
   "born": {
-    "y": 1868
+    "date": {
+      "y": 1868
+    }
   },
   "died": {
-    "y": 1940
+    "date": {
+      "y": 1940
+    }
   },
   "group": "trials",
   "gender": "m",

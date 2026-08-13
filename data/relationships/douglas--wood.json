@@ -8,14 +8,17 @@
   "certainty_status": "proposed",
   "certainty_reasoning": "Murray states in passing that the blackmailers into whose hands Wilde's letters to Douglas fell were men 'with whom they had slept' - 'they' being Wilde and Douglas, the subject of the sentence. That is a single secondary source, asserting in the plural and without a footnote at the point of assertion, and no first-person evidence is offered for the Douglas half of the claim; Wood's own sworn testimony (which carries the wilde--wood edge) concerns Wilde.",
   "start": {
-    "y": 1892,
-    "circa": true
+    "date": {
+      "y": 1892,
+      "circa": true
+    }
   },
   "end": {
-    "y": 1893,
-    "circa": true
+    "date": {
+      "y": 1893,
+      "circa": true
+    }
   },
-  "date_label": "Acquaintance by late 1892 - early 1893; the blackmail from April 1893",
   "summary": "Alfred Wood was an out-of-work clerk from Oxford, who had worked as a valet in Douglas's Oxford rooms; Douglas befriended him and gave him several old suits, and Wilde's letters to Douglas reached the blackmailers from there - Murray thinks by theft from the rooms rather than by the pockets, as Wood claimed. Murray, describing the moment the two halves of Wilde's life converged, calls Wood one of the blackmailers 'with whom they had slept' - the only statement in the book that Douglas's relations with Wood were sexual, and one made in passing and in the plural.",
   "disputed": {
     "claim": "That Douglas, as well as Wilde, had sexual relations with Alfred Wood.",
@@ -30,9 +33,11 @@
       "work": "murray-2020",
       "locator": "PDF p. 60",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1893,
-        "circa": true
+      "occurred": {
+        "date": {
+          "y": 1893,
+          "circa": true
+        }
       },
       "supports": "The whole of the claim: that Douglas befriended Wood, and Murray's assertion that Wilde and Douglas had both slept with him.",
       "verification": "verified-exact",
@@ -48,9 +53,11 @@
       "work": "murray-2020",
       "locator": "PDF p. 95",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1893,
-        "circa": true
+      "occurred": {
+        "date": {
+          "y": 1893,
+          "circa": true
+        }
       },
       "supports": "The documented, non-sexual connection between the two men - Wood worked as a valet in Douglas's Oxford rooms, and the old suits Douglas gave him carried Wilde's letters to Douglas into a blackmailer's hands.",
       "verification": "verified-exact",

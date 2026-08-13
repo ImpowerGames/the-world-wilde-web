@@ -7,31 +7,38 @@
   "certainty": "platonic",
   "certainty_status": "proposed",
   "start": {
-    "y": 1880,
-    "m": 12,
-    "d": 4
+    "date": {
+      "y": 1878,
+      "circa": true,
+      "inferred": true
+    }
   },
   "end": {
-    "y": 1880,
-    "m": 12,
-    "d": 4
+    "date": {
+      "y": 1880,
+      "m": 12,
+      "d": 4
+    }
   },
-  "summary": "The entire surviving correspondence: Wilde congratulating Rennell Rodd on his Second in Greats in December 1880.",
+  "summary": "The entire surviving correspondence: Wilde congratulating Rennell Rodd on his Second in Greats in December 1880. The correspondence survives only for 1880; the span is the date of the evidence, not a claim about when the friendship ended.",
   "certainty_reasoning": "The record documents a friendship or acquaintance with no evidence of attraction or romance; classified platonic, upgradable if contrary evidence comes to light.",
   "sources": [
     {
       "work": "letters-2000",
       "locator": "pp. 102-103",
       "locator_type": "page",
-      "quote": "Dear Rennell, My best congratulations. Greats is the only fine school at Oxford, the only sphere of thought where one can be, simultaneously, brilliant and unreasonable, speculative and well-informed, creative as well as critical, and write with all the passion of youth about the truths which belong to the august serenity of old age. I wish you had got a First, that my compeers should not all be sluggish and syllogistic Scotchmen; still, a Second is perhaps for a man of culture a sweeter atmosphere than the chilly Caucasus of an atheistical First. Come back very soon. Truly yours",
+      "quote": "Dear Rennell, My best congratulations. Greats is the only fine school at Oxford, the only sphere of thought where one can be, simultaneously, brilliant and unreasonable, speculative and well-informed, creative as well as critical, and write with all the passion of youth about the truths which belong to the august serenity of old age.\n\nI wish you had got a First, that my compeers should not all be sluggish and syllogistic Scotchmen; still, a Second is perhaps for a man of culture a sweeter atmosphere than the chilly Caucasus of an atheistical First.\n\nCome back very soon. Truly yours\n\nOSCAR WILDE",
       "context": "Wilde to Rennell Rodd, circa 4 December 1880, Keats House (MS Private) - the only letter to Rodd in the volume, congratulating him on his Second in Greats, announced in The Times on 4 December 1880.",
       "speaker": "Oscar Wilde",
       "addressee": "James Rennell Rodd",
-      "evidence_date": {
-        "y": 1880,
-        "m": 12,
-        "d": 4,
-        "circa": true
+      "written": {
+        "date": {
+          "y": 1880,
+          "m": 12,
+          "d": 4,
+          "circa": true
+        },
+        "place": "keats-house"
       },
       "supports": "The entire surviving correspondence, and the extent of the affection in it: 'Dear Rennell' and 'Come back very soon'.",
       "verification": "verified-exact",
@@ -44,7 +51,18 @@
         "repository": "Private collection"
       },
       "letter_id": "letters-2000/102#2"
+    },
+    {
+      "quote": "",
+      "context": "The label dates the friendship from the late 1870s at Oxford, but no source in this record names where the two met: the cited letter (circa 4 December 1880) is Wilde's congratulations on Rodd's Second in Greats, written from Keats House, and mentions Oxford only as the school of the degree.",
+      "work": "letters-2000",
+      "locator": "General Index s.v. Rodd, Rennell",
+      "locator_type": "page",
+      "supports": "Would settle Oxford as where the friendship began: the volume's mentions of Rodd at folios 140, 148, 178, 186 and 205 show the friendship's continuity, but none is a letter from the 1870s.",
+      "verification": "unverified",
+      "how_verified": "unverified",
+      "citation_provenance": "",
+      "document": "editorial-note"
     }
-  ],
-  "date_label": "Oxford friendship from the late 1870s; the correspondence survives only for 1880"
+  ]
 }

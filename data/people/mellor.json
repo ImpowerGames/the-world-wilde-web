@@ -4,10 +4,14 @@
   "sort_name": "Mellor, Harold",
   "aka": [],
   "born": {
-    "y": 1868
+    "date": {
+      "y": 1868
+    }
   },
   "died": {
-    "y": 1925
+    "date": {
+      "y": 1925
+    }
   },
   "group": "later",
   "gender": "m",

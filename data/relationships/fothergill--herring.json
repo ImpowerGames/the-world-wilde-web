@@ -7,9 +7,16 @@
   "certainty": "married",
   "certainty_status": "proposed",
   "certainty_reasoning": "The sharpest detail, that the marriage went unconsummated, is Romaine Brooks's recollection reported by Sox: second-hand, decades after, and recorded as hers.",
-  "start": null,
+  "start": {
+    "date": {
+      "y": 1905,
+      "circa": true,
+      "to": {
+        "y": 1906
+      }
+    }
+  },
   "end": null,
-  "date_label": "C. 1905-06; ended in separation, date unrecorded",
   "summary": "Fothergill met Doris Gillian Herring at the Slade and married her at about the time Romaine Brooks finished his portrait in 1905 - soon after John Marshall, his rival for E. P. Warren's attention, had married. Brooks recalled that he 'was married briefly to a woman who refused to consummate their marriage'. He left her; she went to Rome and painted there for the rest of her life, and he never wrote her name down again.",
   "sources": [
     {
@@ -18,7 +25,6 @@
       "work": "sox-1991",
       "locator": "PDF p. 179",
       "locator_type": "page",
-      "evidence_date": null,
       "supports": "The first marriage, the wife's name, where they met, and Sox's point that Fothergill never named her.",
       "verification": "verified-exact",
       "how_verified": "text-layer",

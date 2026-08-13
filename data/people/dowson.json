@@ -4,12 +4,16 @@
   "sort_name": "Dowson, Ernest",
   "aka": [],
   "born": {
-    "y": 1867
+    "date": {
+      "y": 1867
+    }
   },
   "died": {
-    "y": 1900,
-    "m": 2,
-    "d": 23
+    "date": {
+      "y": 1900,
+      "m": 2,
+      "d": 23
+    }
   },
   "group": "aesthete",
   "gender": "m",

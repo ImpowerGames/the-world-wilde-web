@@ -7,12 +7,16 @@
   "certainty": "platonic",
   "certainty_status": "proposed",
   "start": {
-    "y": 1879,
-    "m": 5
+    "date": {
+      "y": 1879,
+      "m": 5
+    }
   },
   "end": {
-    "y": 1881,
-    "m": 6
+    "date": {
+      "y": 1881,
+      "m": 6
+    }
   },
   "summary": "Wilde's friendship with Oscar Browning, from running an older man's errands in 1879 to the review of Poems he then wrote in 1881.",
   "certainty_reasoning": "The record documents a friendship or acquaintance with no evidence of attraction or romance; classified platonic, upgradable if contrary evidence comes to light.",
@@ -21,13 +25,16 @@
       "work": "letters-2000",
       "locator": "p. 80",
       "locator_type": "page",
-      "quote": "Dear Mr Browning, I would have been only too happy to have the opportunity of doing any commission for you had I been in town, but I have been away for a week with friends. I shall see about your ties this afternoon. I am perhaps a better judge of neckties than of bibles, but I shall not fail to enquire about the latter. Nothing would please me more than a visit to you: when are your festivities? Very truly yours",
+      "quote": "Dear Mr Browning, I would have been only too happy to have the opportunity of doing any commission for you had I been in town, but I have been away for a week with friends. I shall see about your ties this afternoon. I am perhaps a better judge of neckties than of bibles, but I shall not fail to enquire about the latter.\n\nNothing would please me more than a visit to you: when are your festivities? Very truly yours\n\nOSCAR WILDE",
       "context": "Wilde to Oscar Browning, [late May 1879], St Stephen's Club (MS Mason) - quoted whole, and the earliest of the fifteen. Wilde was twenty-four and Browning forty-two.",
       "speaker": "Oscar Wilde",
       "addressee": "Oscar Browning",
-      "evidence_date": {
-        "y": 1879,
-        "m": 5
+      "written": {
+        "date": {
+          "y": 1879,
+          "m": 5
+        },
+        "place": "st-stephens-club"
       },
       "supports": "The footing at the start: Wilde running an older man's errands and angling for an invitation.",
       "verification": "verified-exact",
@@ -46,14 +53,17 @@
       "work": "letters-2000",
       "locator": "p. 80",
       "locator_type": "page",
-      "quote": "My dear Browning, Your bible and prayer book only exists in a bookseller's Utopia! There is no such thing: I ransacked all Paternoster Row on this wretched rainy day and found nothing that would suit you. … I am afraid you will have to take refuge in an Edition de Luxe of Keble's Christian Year if you want something nice. I am so sorry my search is so unsuccessful. I wish so much you could have been with me last night. Sarah Bernhardt's Phèdre was the most splendid creation I ever witnessed. … It seems so foolish to call French Tragedy stilted: the scene last night was not a bit 'ἐκ δρυός καὶ πέτρης' but the most impassioned human nature.",
+      "quote": "My dear Browning, Your bible and prayer book only exists in a bookseller's Utopia! There is no such thing: I ransacked all Paternoster Row on this wretched rainy day and found nothing that would suit you.…I am afraid you will have to take refuge in an Edition de Luxe of Keble's Christian Year if you want something nice. I am so sorry my search is so unsuccessful.\n\nI wish so much you could have been with me last night. Sarah Bernhardt's Phèdre was the most splendid creation I ever witnessed.…It seems so foolish to call French Tragedy stilted: the scene last night was not a bit 'ἐκ δρυός καὶ πέτρης' but the most impassioned human nature.",
       "context": "Wilde to Oscar Browning, [3 June 1879], St Stephen's Club (MS Hughan). The elisions drop practical detail about the Bible Society and a paragraph on being in Oxford. The Greek the editors render 'out of oak and stone'. Note the address has moved from 'Dear Mr Browning' to 'My dear Browning' within a fortnight.",
       "speaker": "Oscar Wilde",
       "addressee": "Oscar Browning",
-      "evidence_date": {
-        "y": 1879,
-        "m": 6,
-        "d": 3
+      "written": {
+        "date": {
+          "y": 1879,
+          "m": 6,
+          "d": 3
+        },
+        "place": "st-stephens-club"
       },
       "supports": "A whole rainy day spent shopping for him, and the wish that he had been there.",
       "verification": "verified-elision",
@@ -72,13 +82,16 @@
       "work": "letters-2000",
       "locator": "p. 111",
       "locator_type": "page",
-      "quote": "My dear Browning, If you get the opportunity, and would care for it, I wish you would review my first volume of poems just about to appear: books so often fall into stupid and illiterate hands that I am anxious to be really criticised: ignorant praise or ignorant blame is so insulting. Truly yours",
+      "quote": "My dear Browning, If you get the opportunity, and would care for it, I wish you would review my first volume of poems just about to appear: books so often fall into stupid and illiterate hands that I am anxious to be really criticised: ignorant praise or ignorant blame is so insulting. Truly yours\n\nOSCAR WILDE",
       "context": "Wilde to Oscar Browning, [June 1881], Keats House, Tite Street (MS Dartmouth) - quoted whole. The editors record that Browning did review Poems, in the Academy of 30 July 1881. The same printed page carries Wilde's letter to Robert Browning offering him the first copy of the same book - two unrelated Brownings on one folio, which is why the index lists them separately.",
       "speaker": "Oscar Wilde",
       "addressee": "Oscar Browning",
-      "evidence_date": {
-        "y": 1881,
-        "m": 6
+      "written": {
+        "date": {
+          "y": 1881,
+          "m": 6
+        },
+        "place": "keats-house"
       },
       "supports": "Wilde asking him for the review he then wrote.",
       "verification": "verified-exact",
@@ -91,7 +104,21 @@
         "repository": "Dartmouth College Library, Hanover, New Hampshire"
       },
       "letter_id": "letters-2000/111#1"
+    },
+    {
+      "quote": "",
+      "context": "Cambridge is believed to be a place of the friendship - Browning was a don at King's College, Cambridge - but no source in this record names the city: the three cited letters are written from St Stephen's Club and Keats House, London (1879-81).",
+      "work": "letters-2000",
+      "locator": "General Index s.v. Browning, Oscar",
+      "locator_type": "page",
+      "supports": "Would settle Cambridge as a place of the friendship: the volume's Browning index entry, read at the page.",
+      "verification": "unverified",
+      "how_verified": "unverified",
+      "citation_provenance": "",
+      "document": "editorial-note",
+      "occurred": {
+        "place": "cambridge"
+      }
     }
-  ],
-  "date_label": "London and Cambridge, from 1879"
+  ]
 }

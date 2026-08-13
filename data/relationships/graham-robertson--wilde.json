@@ -9,14 +9,17 @@
   "direction": "wilde",
   "outcome": "unknown",
   "start": {
-    "y": 1887,
-    "m": 12
+    "date": {
+      "y": 1887,
+      "m": 12
+    }
   },
   "end": {
-    "y": 1893,
-    "m": 4
+    "date": {
+      "y": 1893,
+      "m": 4
+    }
   },
-  "date_label": "Letters from December 1887 to April 1893",
   "summary": "Seven letters over five and a half years, warming from 'Dear Mr Robertson' to 'My dear Graham' and from 'Very truly yours' to 'am always yours'. Wilde asks when he will see him again, is sorry when he goes away, calls twice in three days to catch him, tells him he is made for olive-groves and meadows of white narcissi, and says he should have loved to have been with him. Robertson was twenty-one when it began and Wilde thirty-three.",
   "certainty_reasoning": "Outcome is 'unknown' because Robertson's side does not survive in this volume; he lived to 1948 and wrote a memoir, Time Was (1931), the obvious next source.",
   "sources": [
@@ -24,14 +27,16 @@
       "work": "letters-2000",
       "locator": "p. 337",
       "locator_type": "page",
-      "quote": "Dear Mr Robertson, I am so sorry but neither my wife or I ever go to dances: I am not sure whether we are too old or too young, but we never tread measures now. Pray thank your mother for her kindness all the same: I hope to have the pleasure of introducing my wife to her some day. When shall I see you again? The star-child is lovely: it is clear you have seen him: of course he is not an ordinary baby. We are always at home on Thursday. Very truly yours",
+      "quote": "Dear Mr Robertson, I am so sorry but neither my wife or I ever go to dances: I am not sure whether we are too old or too young, but we never tread measures now.\n\nPray thank your mother for her kindness all the same: I hope to have the pleasure of introducing my wife to her some day.\n\nWhen shall I see you again? The star-child is lovely: it is clear you have seen him: of course he is not an ordinary baby. We are always at home on Thursday. Very truly yours\n\nOSCAR WILDE",
       "context": "Wilde to W. Graham Robertson, [postmark 12 December 1887], 16 Tite Street (MS Huntington) — the earliest of the seven, quoted whole. Robertson had illustrated 'The Star-Child', which Wilde published in A House of Pomegranates (1891). Kept entire because it holds both halves of the case: 'When shall I see you again?' and the wife.",
       "speaker": "Oscar Wilde",
       "addressee": "W. Graham Robertson",
-      "evidence_date": {
-        "y": 1887,
-        "m": 12,
-        "d": 12
+      "postmarked": {
+        "date": {
+          "y": 1887,
+          "m": 12,
+          "d": 12
+        }
       },
       "supports": "The start of the correspondence, on formal terms, already eager.",
       "verification": "verified-exact",
@@ -43,18 +48,24 @@
       "manuscript": {
         "repository": "Henry E. Huntington Library, San Marino, California"
       },
-      "letter_id": "letters-2000/337#2"
+      "letter_id": "letters-2000/337#2",
+      "written": {
+        "place": "16-tite-street"
+      }
     },
     {
       "work": "letters-2000",
       "locator": "p. 347",
       "locator_type": "page",
-      "quote": "Thank you so much for the drawings. They are a real source of delight to me. By the time you return I hope to have finished the story. I wish I could draw like you, for I like lines better than words, and colours more than sentences. However, I console myself by trying now and then to put 'The Universe' into a sonnet. Some day you must do a design for the sonnet: a young man looking into a strange crystal that mirrors all the world. Poetry should be like a crystal, it should make life more beautiful and less real. I am sorry you are going away, but your narcissus keeps you in my memory. What do you allow your friends to call you? 'W'? or 'Graham'? I like my friends to call me",
+      "quote": "Thank you so much for the drawings. They are a real source of delight to me. By the time you return I hope to have finished the story. I wish I could draw like you, for I like lines better than words, and colours more than sentences.\n\nHowever, I console myself by trying now and then to put 'The Universe' into a sonnet.\n\nSome day you must do a design for the sonnet: a young man looking into a strange crystal that mirrors all the world. Poetry should be like a crystal, it should make life more beautiful and less real. I am sorry you are going away, but your narcissus keeps you in my memory.\n\nWhat do you allow your friends to call you? 'W'? or 'Graham'? I like my friends to call me",
       "context": "Wilde to W. Graham Robertson, [? Early 1888], 16 Tite Street (MS Huntington) — quoted whole. The letter breaks off exactly as shown; the signature 'OSCAR' answers his own question. The design he asks for is a young man looking into a crystal.",
       "speaker": "Oscar Wilde",
       "addressee": "W. Graham Robertson",
-      "evidence_date": {
-        "y": 1888
+      "written": {
+        "date": {
+          "y": 1888
+        },
+        "place": "16-tite-street"
       },
       "supports": "The move onto first-name terms, and the narcissus that keeps him in mind.",
       "verification": "verified-exact",
@@ -72,14 +83,16 @@
       "work": "letters-2000",
       "locator": "p. 390",
       "locator_type": "page",
-      "quote": "My dear Graham, Come and dine here on Wednesday night at 7.30. I have asked Arthur Clifton. We will see Dr Cupid when you come back. Ever yours",
+      "quote": "My dear Graham, Come and dine here on Wednesday night at 7.30. I have asked Arthur Clifton. We will see Dr Cupid when you come back. Ever yours\n\nOSCAR WILDE",
       "context": "Wilde to W. Graham Robertson, [postmark 28 January 1889], 16 Tite Street (MS Huntington) — quoted whole.",
       "speaker": "Oscar Wilde",
       "addressee": "W. Graham Robertson",
-      "evidence_date": {
-        "y": 1889,
-        "m": 1,
-        "d": 28
+      "postmarked": {
+        "date": {
+          "y": 1889,
+          "m": 1,
+          "d": 28
+        }
       },
       "supports": "Dinner at Tite Street, and a play promised for his return.",
       "verification": "verified-exact",
@@ -91,20 +104,25 @@
       "manuscript": {
         "repository": "Henry E. Huntington Library, San Marino, California"
       },
-      "letter_id": "letters-2000/390#1"
+      "letter_id": "letters-2000/390#1",
+      "written": {
+        "place": "16-tite-street"
+      }
     },
     {
       "work": "letters-2000",
       "locator": "p. 398",
       "locator_type": "page",
-      "quote": "Do you really live at Sandhills, Witley? Surely not Sandhills! You are made for olive-groves, and for meadows starred with white narcissi. I am sure this letter will be returned to me by the post office. I have written to you at Rutland Gate to tell you how sorry I am you have missed Paris, and how much more sorry I am that I did not keep you to your promise. I should have loved to have been with you – Sandhills or no Sandhills. I send this letter into the air! Will you ever get it? I suppose not. Ever yours",
+      "quote": "Do you really live at Sandhills, Witley? Surely not Sandhills! You are made for olive-groves, and for meadows starred with white narcissi. I am sure this letter will be returned to me by the post office.\n\nI have written to you at Rutland Gate to tell you how sorry I am you have missed Paris, and how much more sorry I am that I did not keep you to your promise. I should have loved to have been with you – Sandhills or no Sandhills.\n\nI send this letter into the air! Will you ever get it? I suppose not. Ever yours\n\nO. W.",
       "context": "Wilde to W. Graham Robertson, [postmark 11 May 1889], 16 Tite Street (MS Huntington) — quoted whole, and the warmest of the seven. Robertson and his mother had bought the house at Sandhills the year before and lived there the rest of their lives, which is the fact Wilde is refusing to accept.",
       "speaker": "Oscar Wilde",
       "addressee": "W. Graham Robertson",
-      "evidence_date": {
-        "y": 1889,
-        "m": 5,
-        "d": 11
+      "postmarked": {
+        "date": {
+          "y": 1889,
+          "m": 5,
+          "d": 11
+        }
       },
       "supports": "The centre of the case: Wilde telling him what he is made for, and that he should have loved to have been with him.",
       "verification": "verified-exact",
@@ -116,19 +134,25 @@
       "manuscript": {
         "repository": "Henry E. Huntington Library, San Marino, California"
       },
-      "letter_id": "letters-2000/398#2"
+      "letter_id": "letters-2000/398#2",
+      "written": {
+        "place": "16-tite-street"
+      }
     },
     {
       "work": "letters-2000",
       "locator": "p. 410",
       "locator_type": "page",
-      "quote": "My dear Graham, I am so sorry you are going away. Don't let the olives and the myrtles keep you too long. I called to see you on Saturday, and will try my chance tomorrow between five and six. I saw Mr Ricketts on Saturday, and he is most grateful for your cheque. He seems very cultivated and interesting. Yours very sincerely",
+      "quote": "My dear Graham, I am so sorry you are going away. Don't let the olives and the myrtles keep you too long. I called to see you on Saturday, and will try my chance tomorrow between five and six.\n\nI saw Mr Ricketts on Saturday, and he is most grateful for your cheque. He seems very cultivated and interesting. Yours very sincerely\n\nOSCAR WILDE",
       "context": "Wilde to W. Graham Robertson, [? August 1889], 16 Tite Street (MS Huntington) — quoted whole. The Ricketts is Charles Ricketts, who is on this map; this is Wilde's first recorded impression of him, and it reaches the record through Robertson.",
       "speaker": "Oscar Wilde",
       "addressee": "W. Graham Robertson",
-      "evidence_date": {
-        "y": 1889,
-        "m": 8
+      "written": {
+        "date": {
+          "y": 1889,
+          "m": 8
+        },
+        "place": "16-tite-street"
       },
       "supports": "Regret at his going, and two attempts to catch him in three days.",
       "verification": "verified-exact",
@@ -146,14 +170,16 @@
       "work": "letters-2000",
       "locator": "p. 560",
       "locator_type": "page",
-      "quote": "My dear Graham, I send you a stall for the first night of my play. I wish I could send another for your mother, but the rush for seats has been so enormous that we have had to refuse Royalties and bigwigs, and for my own friends I have only had very few stalls, and have been obliged to refuse many dear and delightful people. I hope you will like my new work, and am always yours",
+      "quote": "My dear Graham, I send you a stall for the first night of my play. I wish I could send another for your mother, but the rush for seats has been so enormous that we have had to refuse Royalties and bigwigs, and for my own friends I have only had very few stalls, and have been obliged to refuse many dear and delightful people.\n\nI hope you will like my new work, and am always yours\n\nOSCAR WILDE",
       "context": "Wilde to W. Graham Robertson, [postmark 14 April 1893], Albemarle Club (MS Preston) — the last of the seven, quoted whole. The play is A Woman of No Importance, which opened at the Haymarket on 19 April. Wilde had turned away royalty for seats and gave one to him.",
       "speaker": "Oscar Wilde",
       "addressee": "W. Graham Robertson",
-      "evidence_date": {
-        "y": 1893,
-        "m": 4,
-        "d": 14
+      "postmarked": {
+        "date": {
+          "y": 1893,
+          "m": 4,
+          "d": 14
+        }
       },
       "supports": "Five and a half years on, still 'My dear Graham' — and now 'am always yours'.",
       "verification": "verified-exact",
@@ -166,7 +192,10 @@
         "repository": "Private collection",
         "owner": "Mr Kerrison Preston"
       },
-      "letter_id": "letters-2000/560#2"
+      "letter_id": "letters-2000/560#2",
+      "written": {
+        "place": "albemarle-club"
+      }
     }
   ]
 }

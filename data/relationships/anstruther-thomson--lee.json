@@ -8,12 +8,15 @@
   "certainty_status": "proposed",
   "certainty_reasoning": "As with lee--robinson, the evidence read is a non-participant's: Pulham states the companionship and its dates. Note that Pulham's wording is cooler here than in the Robinson paragraph - 'close companion', 'co-written', 'departure from Il Palmerino' - and she does not characterise the bond as romantic in the sentences read, so this record deliberately does not either; the pairing is recorded, not its nature.",
   "start": {
-    "y": 1887
+    "date": {
+      "y": 1887
+    }
   },
   "end": {
-    "y": 1900
+    "date": {
+      "y": 1900
+    }
   },
-  "date_label": "Companion and co-author 1887-1900; Lee wrote a tribute to her in 1924, three years after her death",
   "summary": "Clementina 'Kit' Anstruther-Thomson replaced Mary Robinson as Vernon Lee's close companion in 1887, the year of Robinson's marriage, and remained so until 1900, living with her at Il Palmerino. The two collaborated on Lee's theory of psychological aesthetics, running experiments on bodily response to art informed by Vischer's Einfuhlung; their article 'Beauty and Ugliness' (Contemporary Review, October 1897) provoked a plagiarism charge from Bernard Berenson which he later retracted, and the work was collected as the co-written Beauty and Ugliness (1912). Anstruther-Thomson died in 1921 and Lee wrote a substantial introduction to her posthumous Art and Man (1924) as a tribute.",
   "sources": [
     {
@@ -22,8 +25,10 @@
       "work": "pulham-y90s-lee-bio",
       "locator": "para. 8",
       "locator_type": "none",
-      "evidence_date": {
-        "y": 1887
+      "occurred": {
+        "date": {
+          "y": 1887
+        }
       },
       "supports": "The companionship and its span, and its position in Lee's life as successor to the Robinson attachment.",
       "verification": "verified-exact",
@@ -39,8 +44,10 @@
       "work": "pulham-y90s-lee-bio",
       "locator": "para. 9",
       "locator_type": "none",
-      "evidence_date": {
-        "y": 1924
+      "occurred": {
+        "date": {
+          "y": 1924
+        }
       },
       "supports": "Shared household; Anstruther-Thomson's death in 1921; Lee's own written tribute.",
       "verification": "verified-exact",
@@ -56,8 +63,10 @@
       "work": "anstruther-thomson-art-and-man-1924",
       "locator": "introduction, p. 3",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1924
+      "occurred": {
+        "date": {
+          "y": 1924
+        }
       },
       "supports": "Lee's own retrospective account of the relationship.",
       "verification": "verified-elision",

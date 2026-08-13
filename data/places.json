@@ -1,0 +1,408 @@
+{
+  "1-ely-place": {
+    "street": "1 Ely Place",
+    "city": "Dublin",
+    "country": "Ireland"
+  },
+  "1-merrion-square-north": {
+    "street": "1 Merrion Square North",
+    "city": "Dublin",
+    "country": "Ireland"
+  },
+  "1-tite-street": {
+    "street": "1 Tite Street",
+    "city": "London",
+    "country": "England"
+  },
+  "10-11-st-jamess-place": {
+    "street": "10 & 11 St James's Place",
+    "city": "London",
+    "country": "England"
+  },
+  "13-little-college-street": {
+    "street": "13 Little College Street",
+    "city": "London",
+    "country": "England"
+  },
+  "13-salisbury-street": {
+    "street": "13 Salisbury Street",
+    "city": "London",
+    "country": "England"
+  },
+  "146-oakley-street": {
+    "street": "146 Oakley Street",
+    "city": "London",
+    "country": "England"
+  },
+  "16-tite-street": {
+    "street": "16 Tite Street",
+    "city": "London",
+    "country": "England"
+  },
+  "29-boulevard-des-capucines": {
+    "street": "29 boulevard des Capucines",
+    "city": "Paris",
+    "country": "France"
+  },
+  "4-albert-street": {
+    "street": "4 Albert Street",
+    "city": "London",
+    "country": "England"
+  },
+  "8-mount-street": {
+    "street": "8 Mount Street",
+    "city": "London",
+    "country": "England"
+  },
+  "adelaide-road": {
+    "street": "Adelaide Road",
+    "city": "London",
+    "country": "England"
+  },
+  "albemarle-club": {
+    "venue": "Albemarle Club",
+    "city": "London",
+    "country": "England"
+  },
+  "babbacombe-cliff": {
+    "venue": "Babbacombe Cliff",
+    "city": "Torquay",
+    "country": "England"
+  },
+  "bagnoles-de-lorne": {
+    "city": "Bagnoles-de-l'Orne",
+    "country": "France"
+  },
+  "beaconsfield-milehouse": {
+    "venue": "Beaconsfield",
+    "street": "Milehouse",
+    "city": "Plymouth",
+    "country": "England"
+  },
+  "berneval-sur-mer": {
+    "city": "Berneval-sur-Mer",
+    "country": "France"
+  },
+  "bingham-rectory": {
+    "street": "Bingham Rectory",
+    "city": "Bingham",
+    "region": "Nottinghamshire",
+    "country": "England"
+  },
+  "bodley-head": {
+    "venue": "The Bodley Head",
+    "street": "Vigo Street",
+    "city": "London",
+    "country": "England"
+  },
+  "brighton": {
+    "city": "Brighton",
+    "country": "England"
+  },
+  "cafe-d-egypte": {
+    "venue": "Café d'Egypte",
+    "city": "Paris",
+    "country": "France"
+  },
+  "cambridge": {
+    "city": "Cambridge",
+    "country": "England"
+  },
+  "camden": {
+    "city": "Camden",
+    "region": "New Jersey",
+    "country": "United States"
+  },
+  "cannes": {
+    "city": "Cannes",
+    "country": "France"
+  },
+  "central-station-hotel": {
+    "venue": "Central Station Hotel",
+    "city": "Glasgow",
+    "country": "Scotland"
+  },
+  "chelsea": {
+    "city": "Chelsea",
+    "country": "England"
+  },
+  "chicago": {
+    "city": "Chicago",
+    "country": "United States"
+  },
+  "dieppe": {
+    "city": "Dieppe",
+    "country": "France"
+  },
+  "dublin": {
+    "city": "Dublin",
+    "country": "Ireland"
+  },
+  "edinburgh": {
+    "city": "Edinburgh",
+    "country": "Scotland"
+  },
+  "elysee-palace-hotel": {
+    "venue": "Élysée Palace Hôtel",
+    "street": "avenue des Champs Élysées",
+    "city": "Paris",
+    "country": "France"
+  },
+  "florence": {
+    "city": "Florence",
+    "country": "Italy"
+  },
+  "geneva": {
+    "city": "Geneva",
+    "country": "Switzerland"
+  },
+  "genoa": {
+    "city": "Genoa",
+    "country": "Italy"
+  },
+  "gland": {
+    "city": "Gland",
+    "region": "Canton Vaud",
+    "country": "Switzerland"
+  },
+  "haymarket-theatre": {
+    "venue": "Haymarket Theatre",
+    "city": "London",
+    "country": "England"
+  },
+  "holloway": {
+    "city": "Holloway",
+    "country": "England"
+  },
+  "hotel-albemarle": {
+    "venue": "Hotel Albemarle",
+    "city": "London",
+    "country": "England"
+  },
+  "hotel-d-alsace": {
+    "venue": "Hôtel d'Alsace",
+    "city": "Paris",
+    "country": "France"
+  },
+  "hotel-de-l-ecu": {
+    "venue": "Hôtel de l'Écu",
+    "city": "Chennevières-sur-Marne",
+    "region": "Seine-et-Oise",
+    "country": "France"
+  },
+  "hotel-de-nice": {
+    "venue": "Hôtel de Nice",
+    "city": "Paris",
+    "country": "France"
+  },
+  "hotel-des-deux-mondes": {
+    "venue": "Hôtel des Deux Mondes",
+    "street": "22 Avenue de l'Opéra",
+    "city": "Paris",
+    "country": "France"
+  },
+  "hotel-marsollier": {
+    "venue": "Hôtel Marsollier",
+    "street": "rue Marsollier",
+    "city": "Paris",
+    "country": "France"
+  },
+  "hotel-terminus": {
+    "venue": "Hôtel Terminus",
+    "city": "Nice",
+    "country": "France"
+  },
+  "illaunroe-lodge": {
+    "venue": "Illaunroe Lodge",
+    "region": "Connemara",
+    "country": "Ireland"
+  },
+  "jersey": {
+    "city": "Jersey",
+    "country": "Channel Islands"
+  },
+  "keats-house": {
+    "venue": "Keats House",
+    "street": "1 Tite Street",
+    "city": "London",
+    "country": "England"
+  },
+  "kirkwood": {
+    "city": "Kirkwood",
+    "region": "New Jersey",
+    "country": "United States"
+  },
+  "kreuznach": {
+    "city": "Kreuznach",
+    "country": "Germany"
+  },
+  "la-napoule": {
+    "city": "La Napoule",
+    "country": "France"
+  },
+  "lakeport": {
+    "city": "Lakeport",
+    "region": "California",
+    "country": "United States"
+  },
+  "lewes-house": {
+    "venue": "Lewes House",
+    "city": "Lewes",
+    "country": "England"
+  },
+  "london": {
+    "city": "London",
+    "country": "England"
+  },
+  "lyric-club": {
+    "venue": "Lyric Club",
+    "city": "London",
+    "country": "England"
+  },
+  "menton": {
+    "city": "Menton",
+    "country": "France"
+  },
+  "monte-carlo": {
+    "city": "Monte Carlo",
+    "country": "Monaco"
+  },
+  "moytura-house": {
+    "venue": "Moytura House",
+    "city": "Cong",
+    "region": "County Mayo",
+    "country": "Ireland"
+  },
+  "mytilene": {
+    "city": "Mytilene",
+    "region": "Lesbos",
+    "country": "Greece"
+  },
+  "naples": {
+    "city": "Naples",
+    "country": "Italy"
+  },
+  "new-travellers-club": {
+    "venue": "New Travellers Club",
+    "street": "Piccadilly",
+    "city": "London",
+    "country": "England"
+  },
+  "nice": {
+    "city": "Nice",
+    "country": "France"
+  },
+  "nogent-sur-marne": {
+    "city": "Nogent-sur-Marne",
+    "country": "France"
+  },
+  "osnaburgh-street": {
+    "street": "Osnaburgh Street",
+    "city": "London",
+    "country": "England"
+  },
+  "oxford": {
+    "city": "Oxford",
+    "country": "England"
+  },
+  "palermo": {
+    "city": "Palermo",
+    "country": "Italy"
+  },
+  "paris": {
+    "city": "Paris",
+    "country": "France"
+  },
+  "pavillon-d-armenonville": {
+    "venue": "Pavillon d'Armenonville",
+    "city": "Paris",
+    "country": "France"
+  },
+  "portofino": {
+    "city": "Portofino",
+    "country": "Italy"
+  },
+  "reading": {
+    "city": "Reading",
+    "country": "England"
+  },
+  "rome": {
+    "city": "Rome",
+    "country": "Italy"
+  },
+  "royal-bath-hotel": {
+    "venue": "Royal Bath Hotel",
+    "city": "Bournemouth",
+    "country": "England"
+  },
+  "royal-palace-hotel": {
+    "venue": "Royal Palace Hotel",
+    "city": "London",
+    "country": "England"
+  },
+  "royal-victoria-hotel": {
+    "venue": "Royal Victoria Hotel",
+    "city": "Sheffield",
+    "country": "England"
+  },
+  "san-fruttuoso": {
+    "city": "San Fruttuoso",
+    "country": "Italy"
+  },
+  "savoy-hotel": {
+    "venue": "Savoy Hotel",
+    "city": "London",
+    "country": "England"
+  },
+  "st-jamess-street": {
+    "street": "St James's Street",
+    "city": "London",
+    "country": "England"
+  },
+  "st-jamess-theatre": {
+    "venue": "St James's Theatre",
+    "city": "London",
+    "country": "England"
+  },
+  "st-stephens-club": {
+    "venue": "St Stephen's Club",
+    "city": "London",
+    "country": "England"
+  },
+  "station-hotel-newcastle": {
+    "venue": "Station Hotel",
+    "city": "Newcastle upon Tyne",
+    "country": "England"
+  },
+  "the-albany": {
+    "venue": "The Albany",
+    "city": "London",
+    "country": "England"
+  },
+  "the-cottage-goring": {
+    "venue": "The Cottage",
+    "city": "Goring-on-Thames",
+    "country": "England"
+  },
+  "the-vicarage-west-ashby": {
+    "venue": "The Vicarage",
+    "city": "West Ashby",
+    "country": "England"
+  },
+  "torquay": {
+    "city": "Torquay",
+    "country": "England"
+  },
+  "trouville": {
+    "city": "Trouville",
+    "country": "France"
+  },
+  "venice": {
+    "city": "Venice",
+    "country": "Italy"
+  },
+  "worthing": {
+    "city": "Worthing",
+    "country": "England"
+  }
+}

@@ -9,13 +9,16 @@
   "direction": "lionel-johnson",
   "outcome": "unknown",
   "start": {
-    "y": 1890,
-    "m": 2
+    "date": {
+      "y": 1890,
+      "m": 2
+    }
   },
   "end": {
-    "y": 1892
+    "date": {
+      "y": 1892
+    }
   },
-  "date_label": "February 1890 to 1892",
   "summary": "Wilde called on Johnson unannounced at Oxford in February 1890 because he admired his poems, and wrote twice in two days wanting to know the poet as well. Two days after that Johnson wrote to a friend, 'I am in love with him'. Later that year he thanked Wilde for Dorian Gray in a Latin poem. In 1891 he introduced Wilde to Lord Alfred Douglas, and in 1892 wrote 'The Destroyer of a Soul', believed addressed to Wilde, beginning 'I hate you with a necessary hate'.",
   "sources": [
     {
@@ -26,10 +29,13 @@
       "context": "Wilde to Lionel Johnson, [? 15 February 1890], Oxford (MS Private) - quoted whole; the whole letter is two sentences. Wilde had come to Oxford to visit Pater and see Browning's Strafford, and called on a New College undergraduate he had never met because he admired his poems.",
       "speaker": "Oscar Wilde",
       "addressee": "Lionel Johnson",
-      "evidence_date": {
-        "y": 1890,
-        "m": 2,
-        "d": 15
+      "written": {
+        "date": {
+          "y": 1890,
+          "m": 2,
+          "d": 15
+        },
+        "place": "oxford"
       },
       "supports": "The first approach, unannounced and from Wilde's side.",
       "verification": "verified-exact",
@@ -47,14 +53,17 @@
       "work": "letters-2000",
       "locator": "p. 423",
       "locator_type": "page",
-      "quote": "Dear Mr Johnson, I was so sorry I could not get back, to see you again, but I was dragged to the theatre to see the realisation of some suggestions I had made, and could not get away till just before my train started. I hope you will let me know when you are in town. I like your poetry - the little I have seen of it - so much, that I want to know the poet as well.",
+      "quote": "Dear Mr Johnson, I was so sorry I could not get back, to see you again, but I was dragged to the theatre to see the realisation of some suggestions I had made, and could not get away till just before my train started.\n\nI hope you will let me know when you are in town. I like your poetry - the little I have seen of it - so much, that I want to know the poet as well.",
       "context": "Wilde to Lionel Johnson, [circa 16 February 1890], Lyric Club (MS Secker) - quoted whole, written the day after the first.",
       "speaker": "Oscar Wilde",
       "addressee": "Lionel Johnson",
-      "evidence_date": {
-        "y": 1890,
-        "m": 2,
-        "d": 16
+      "written": {
+        "date": {
+          "y": 1890,
+          "m": 2,
+          "d": 16
+        },
+        "place": "lyric-club"
       },
       "supports": "Wilde following up the next day: he wants to know the poet as well as the poems.",
       "verification": "verified-exact",
@@ -77,10 +86,13 @@
       "context": "Lionel johnson's own words, to his friend Arthur Galton, 18 February 1890, two days after the second letter above and quoted by the editors in their note identifying him. This is the evidence the connection rests on, and it is first-person and private - a letter to a third party, not to Wilde, and not written for anyone's eyes but Galton's. Johnson was twenty-two and an undergraduate; Wilde was thirty-five and married.",
       "speaker": "Lionel Johnson",
       "addressee": "Arthur Galton",
-      "evidence_date": {
-        "y": 1890,
-        "m": 2,
-        "d": 18
+      "written": {
+        "date": {
+          "y": 1890,
+          "m": 2,
+          "d": 18
+        },
+        "place": "lyric-club"
       },
       "supports": "Johnson stating in his own hand that he is in love with Wilde.",
       "verification": "verified-exact",
@@ -95,14 +107,16 @@
       "work": "letters-2000",
       "locator": "p. 423",
       "locator_type": "page",
-      "quote": "Benedictus sis, Oscare! / Qui me libro hoc dignare / Propter amicitias: / Modo modulans Romano / Laudes dignas Doriano, / Ago tibi gratias.",
+      "quote": "Benedictus sis, Oscare!\nQui me libro hoc dignare\nPropter amicitias:\nModo modulans Romano\nLaudes dignas Doriano,\nAgo tibi gratias.",
       "lang": "la",
-      "translation": "Bless you, Oscar, / For honouring me with this book / For friendship's sake. / Casting in the Roman tongue / Praises that befit Dorian, / I thank you.",
+      "translation": "Bless you, Oscar,\nFor honouring me with this book\nFor friendship's sake.\nCasting in the Roman tongue\nPraises that befit Dorian,\nI thank you.",
       "context": "The opening of the Latin poem Johnson wrote later in 1890 in praise of The Picture of Dorian Gray and its author, given by the editors with their own English rendering, which is the translation reproduced here. The whole poem was first printed in 1912 and is in The Complete Poems of Lionel Johnson (1953).",
       "speaker": "Lionel Johnson",
       "addressee": "Oscar Wilde",
-      "evidence_date": {
-        "y": 1890
+      "occurred": {
+        "date": {
+          "y": 1890
+        }
       },
       "supports": "Johnson thanking Wilde for Dorian Gray in Latin verse, 'for friendship's sake'.",
       "verification": "verified-exact",
@@ -120,8 +134,10 @@
       "context": "The editors' note, closing the arc. The turn is the point: the man who wrote 'I am in love with him' in 1890 brought Douglas to him in 1891 and by 1892 was writing that line. The attribution of the poem is the editors' - 'is believed to have been' - and is not stated here as established fact. Whether the hate is jealousy, moral revulsion, or remorse at having made the introduction is not said on the page and is not guessed at here.",
       "speaker": null,
       "addressee": null,
-      "evidence_date": {
-        "y": 1892
+      "occurred": {
+        "date": {
+          "y": 1892
+        }
       },
       "supports": "The introduction of Douglas, and the reversal that followed it.",
       "verification": "verified-exact",

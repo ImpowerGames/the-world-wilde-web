@@ -10,10 +10,11 @@
   "outcome": "unknown",
   "certainty_reasoning": "Wilde's own words, and only Wilde's: Le Gallienne's side of the correspondence is not in this volume, so the record is one-sided by survival. What follows from it is not recorded, hence `outcome: unknown`.",
   "start": {
-    "y": 1890
+    "date": {
+      "y": 1890
+    }
   },
   "end": null,
-  "date_label": "Fourteen letters survive across roughly a decade; the letter that carries the class is postmarked 1 December 1890",
   "summary": "Wilde wrote to Richard Le Gallienne over about ten years, mostly about books. In December 1890, thanking him for his study of Meredith, the register changed: he asked when they could meet, named what was between them as friendship and love, and finished on his laurels being too thick to kiss beneath. Le Gallienne's replies are not in the volume, so what came of it is not on the record.",
   "sources": [
     {
@@ -22,10 +23,12 @@
       "work": "letters-2000",
       "locator": "p. 457",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1890,
-        "m": 12,
-        "d": 1
+      "postmarked": {
+        "date": {
+          "y": 1890,
+          "m": 12,
+          "d": 1
+        }
       },
       "supports": "The class, and the direction - this is Wilde writing, and only Wilde.",
       "verification": "verified-exact",
@@ -36,7 +39,10 @@
       "addressee": "Richard Le Gallienne",
       "voice": "period",
       "document": "letter",
-      "letter_id": "letters-2000/456#2"
+      "letter_id": "letters-2000/456#2",
+      "written": {
+        "place": "16-tite-street"
+      }
     }
   ]
 }

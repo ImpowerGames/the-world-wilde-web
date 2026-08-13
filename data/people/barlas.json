@@ -6,10 +6,14 @@
     "John Barlas"
   ],
   "born": {
-    "y": 1860
+    "date": {
+      "y": 1860
+    }
   },
   "died": {
-    "y": 1914
+    "date": {
+      "y": 1914
+    }
   },
   "group": "aesthete",
   "gender": "m",

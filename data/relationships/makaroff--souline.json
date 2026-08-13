@@ -6,9 +6,21 @@
   ],
   "certainty": "married",
   "certainty_status": "proposed",
-  "start": null,
-  "end": null,
-  "date_label": "Married after the Second World War, c. 1946-49; ended by her death, given as 1958",
+  "start": {
+    "date": {
+      "y": 1946,
+      "circa": true,
+      "to": {
+        "y": 1949
+      }
+    }
+  },
+  "end": {
+    "date": {
+      "y": 1958,
+      "uncertain": true
+    }
+  },
   "summary": "Some years after Radclyffe Hall died, Evguenia Souline married Vladimir Makaroff, a Russian emigre working in a London bookshop. Una Troubridge helped 'the Makaroffs' repay a loan raised to set up a boarding-house around 1950. Souline died of cancer, in a year her cataloguer gives as 1958 with a question mark - and afterwards Makaroff sold the letters Hall had written her, which is how nine years of them came to be in Texas and eventually in print.",
   "sources": [
     {
@@ -17,7 +29,6 @@
       "work": "baker-1985-our-three-selves",
       "locator": "p. 351",
       "locator_type": "page",
-      "evidence_date": null,
       "supports": "The marriage, the husband's identity and occupation, and its approximate date.",
       "verification": "verified-exact",
       "how_verified": "text-layer",

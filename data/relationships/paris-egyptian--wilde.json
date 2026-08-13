@@ -10,14 +10,17 @@
   "outcome": "unknown",
   "certainty_reasoning": "Evidentiary caveat, from the editors' footnote on the same page: this letter survives only as text printed in W. Spencer's Forty Years in my Bookshop (1923), corrected and supplemented from a 1928 auction catalogue, and it is incomplete - so unlike the rest of this tier the words are not carried by a manuscript.",
   "start": {
-    "y": 1900,
-    "m": 9
+    "date": {
+      "y": 1900,
+      "m": 9
+    }
   },
   "end": {
-    "y": 1900,
-    "m": 9
+    "date": {
+      "y": 1900,
+      "m": 9
+    }
   },
-  "date_label": "Stated in a letter postmarked 2 September 1900 from Paris, in Wilde's last months. The letter gives no date for when the café acquaintance began; the single-month span is the date of the evidence, not a claim about duration.",
   "summary": "Writing to Leonard Smithers from Paris in September 1900, Wilde said he missed the Neapolitans who had gone home, and noted that a slim brown Egyptian who occasionally served him drinks at the Café d'Egypte was no consolation for the loss. That sentence is the whole of the record: no name, no age, no meeting outside the café, and no second mention anywhere in the correspondence read.",
   "sources": [
     {
@@ -26,10 +29,12 @@
       "work": "letters-2000",
       "locator": "p. 1196",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1900,
-        "m": 9,
-        "d": 2
+      "postmarked": {
+        "date": {
+          "y": 1900,
+          "m": 9,
+          "d": 2
+        }
       },
       "supports": "The whole of the record: Wilde's description of the Café d'Egypte waiter and his statement that the man is no consolation for the departed Neapolitan; no outcome recorded",
       "verification": "verified-exact",
@@ -43,7 +48,13 @@
         "repository": "American Art Association, New York",
         "as_of": "1 February 1928"
       },
-      "letter_id": "letters-2000/1196#1"
+      "letter_id": "letters-2000/1196#1",
+      "written": {
+        "place": "paris"
+      },
+      "occurred": {
+        "place": "cafe-d-egypte"
+      }
     }
   ]
 }

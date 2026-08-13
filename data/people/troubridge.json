@@ -7,14 +7,18 @@
     "Margot Elena Gertrude Taylor"
   ],
   "born": {
-    "y": 1887,
-    "m": 3,
-    "d": 8
+    "date": {
+      "y": 1887,
+      "m": 3,
+      "d": 8
+    }
   },
   "died": {
-    "y": 1963,
-    "m": 9,
-    "d": 24
+    "date": {
+      "y": 1963,
+      "m": 9,
+      "d": 24
+    }
   },
   "group": "later",
   "gender": "f",

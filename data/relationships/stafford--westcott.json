@@ -6,9 +6,22 @@
   ],
   "certainty": "married",
   "certainty_status": "proposed",
-  "start": null,
-  "end": null,
-  "date_label": "M. 1883 or 1884 (sources conflict); still married November 1884",
+  "start": {
+    "date": {
+      "y": 1883,
+      "uncertain": true,
+      "to": {
+        "y": 1884
+      }
+    }
+  },
+  "end": {
+    "date": {
+      "y": 1884,
+      "m": 11,
+      "bound": "not-earlier-than"
+    }
+  },
   "summary": "Harry Stafford married Eva Westcott in 1883 or 1884 - the Whitman Archive's note on the letters says one year, its encyclopedia entry the other - after drifting between jobs and returning to the family farm. Whitman kept writing to them, addressing the two of them together as late as 18 November 1884. The marriage and the attachment to Whitman are not alternatives, and this map does not treat them as such.",
   "sources": [
     {
@@ -17,7 +30,6 @@
       "work": "kantrowitz-wwa-stafford-encyclopedia",
       "locator": "entry, 'Stafford, Harry Lamb [1858-1918]'",
       "locator_type": "none",
-      "evidence_date": null,
       "supports": "That Harry Stafford married Eva Westcott, given as 1884 by Kantrowitz's encyclopedia entry and as 1883 by the correspondent note the Whitman Archive attaches to Stafford's letters - a conflict the Archive itself carries. Corroborated by the Archive's own item title for a letter of 18 November 1884, 'Walt Whitman to Harry and Eva Stafford' (whitmanarchive.org/item/loc.04000), in which Whitman addresses the two of them as a couple.",
       "verification": "unverified",
       "how_verified": "unverified",

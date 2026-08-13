@@ -7,14 +7,17 @@
   "certainty": "platonic",
   "certainty_status": "proposed",
   "start": {
-    "y": 1895,
-    "m": 5,
-    "d": 31
+    "date": {
+      "y": 1897,
+      "m": 6
+    }
   },
   "end": {
-    "y": 1897,
-    "m": 6,
-    "d": 2
+    "date": {
+      "y": 1897,
+      "m": 6,
+      "d": 2
+    }
   },
   "summary": "Dalhousie Young came to see Wilde within a fortnight of his release from prison, and had published a public defence of him six days after the 1895 conviction.",
   "certainty_reasoning": "The record documents a friendship or acquaintance with no evidence of attraction or romance; classified platonic, upgradable if contrary evidence comes to light.",
@@ -27,10 +30,12 @@
       "context": "The close of Young's pamphlet Apologia pro Oscar Wilde, dated 31 May 1895 - six days after the conviction - quoted in full by the editors. Young was a stranger to Wilde when he wrote it, and also gave £50 to the fund More Adey collected for Wilde's release.",
       "speaker": "Dalhousie Young",
       "addressee": null,
-      "evidence_date": {
-        "y": 1895,
-        "m": 5,
-        "d": 31
+      "occurred": {
+        "date": {
+          "y": 1895,
+          "m": 5,
+          "d": 31
+        }
       },
       "supports": "A public defence of Wilde published by a stranger six days after the conviction.",
       "verification": "verified-exact",
@@ -48,10 +53,13 @@
       "context": "Wilde to Dalhousie Young, [? 2 June 1897], Café Suisse, Dieppe (MS Hyde). The saltimbanques are travelling acrobats. Wilde had been out of prison a fortnight and Young, who had defended him in print two years earlier while a stranger, was proposing to visit with his wife.",
       "speaker": "Oscar Wilde",
       "addressee": "Dalhousie Young",
-      "evidence_date": {
-        "y": 1897,
-        "m": 6,
-        "d": 2
+      "written": {
+        "date": {
+          "y": 1897,
+          "m": 6,
+          "d": 2
+        },
+        "place": "dieppe"
       },
       "supports": "That Young came to see him within a fortnight of his release.",
       "verification": "verified-exact",
@@ -63,8 +71,10 @@
       "manuscript": {
         "repository": "British Library, London (Lady Eccles Oscar Wilde Collection)"
       },
-      "letter_id": "letters-2000/875#2"
+      "letter_id": "letters-2000/875#2",
+      "occurred": {
+        "place": "berneval-sur-mer"
+      }
     }
-  ],
-  "date_label": "Berneval, 1897"
+  ]
 }

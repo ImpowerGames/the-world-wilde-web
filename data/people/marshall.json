@@ -7,11 +7,15 @@
     "Puppy"
   ],
   "born": {
-    "y": 1862
+    "date": {
+      "y": 1862
+    }
   },
   "died": {
-    "y": 1928,
-    "m": 2
+    "date": {
+      "y": 1928,
+      "m": 2
+    }
   },
   "group": "aesthete",
   "gender": "m",

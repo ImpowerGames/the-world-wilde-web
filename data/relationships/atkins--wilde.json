@@ -7,14 +7,17 @@
   "certainty": "uncorroborated",
   "certainty_status": "proposed",
   "start": {
-    "y": 1892,
-    "m": 11
+    "date": {
+      "y": 1892,
+      "m": 11
+    }
   },
   "end": {
-    "y": 1894,
-    "circa": true
+    "date": {
+      "y": 1894,
+      "circa": true
+    }
   },
-  "date_label": "November 1892 (alleged, Paris); acquaintance 1892–1894",
   "summary": "Fred Atkins, a twenty-year-old billiard-marker, bookmaker's clerk and music-hall comedian, was introduced into the circle by Maurice Schwabe in November 1892 and taken to Paris by Wilde as nominal 'private secretary.' The plea alleged sexual acts there; Atkins on oath denied any impropriety with Wilde while describing Schwabe in Wilde's bed. His credibility collapsed on recall when he was proved to have lied about a Rochester Row blackmail arrest, and the jury acquitted Wilde on every Atkins count.",
   "disputed": {
     "claim": "that Wilde solicited and committed acts of gross indecency with Frederick Atkins at 29 Boulevard des Capucines, Paris, on 20 November 1892",
@@ -29,9 +32,11 @@
       "work": "hyde-trials-1948",
       "locator": "p. 207",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1895,
-        "m": 4
+      "occurred": {
+        "date": {
+          "y": 1895,
+          "m": 4
+        }
       },
       "supports": "Atkins's own account of the Paris nights: an invitation declined, no act with Wilde described",
       "verification": "verified-exact",
@@ -54,9 +59,11 @@
       "work": "hyde-trials-1948",
       "locator": "p. 207",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1895,
-        "m": 4
+      "occurred": {
+        "date": {
+          "y": 1895,
+          "m": 4
+        }
       },
       "supports": "The witness's categorical sworn denial — core of the disputed block",
       "verification": "verified-exact",
@@ -84,9 +91,11 @@
       "work": "hyde-trials-1948",
       "locator": "p. 218",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1895,
-        "m": 4
+      "occurred": {
+        "date": {
+          "y": 1895,
+          "m": 4
+        }
       },
       "supports": "The perjury exposure that discredits every Atkins assertion, including both the allegation-adjacent material and his denials",
       "verification": "verified-exact",
@@ -117,9 +126,13 @@
       "work": "hyde-trials-1948",
       "locator": "p. 342",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1895,
-        "m": 3
+      "occurred": {
+        "date": {
+          "y": 1892,
+          "m": 11,
+          "d": 20
+        },
+        "place": "29-boulevard-des-capucines"
       },
       "supports": "The formal allegation and its date/place",
       "verification": "verified-exact",
@@ -136,13 +149,16 @@
       "work": "letters-2000",
       "locator": "p. 714",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1897,
-        "m": 1,
-        "to": {
+      "written": {
+        "date": {
           "y": 1897,
-          "m": 3
-        }
+          "m": 1,
+          "to": {
+            "y": 1897,
+            "m": 3
+          }
+        },
+        "place": "reading"
       },
       "supports": "Wilde's retrospective characterization ('wretched perjured Atkins') and his counter-claim that the testimony transferred someone else's doings onto him",
       "verification": "verified-exact",

@@ -8,10 +8,14 @@
     "Reginald Harding"
   ],
   "born": {
-    "y": 1857
+    "date": {
+      "y": 1857
+    }
   },
   "died": {
-    "y": 1932
+    "date": {
+      "y": 1932
+    }
   },
   "group": "aesthete",
   "gender": "m",

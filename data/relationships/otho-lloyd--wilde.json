@@ -7,14 +7,17 @@
   "certainty": "platonic",
   "certainty_status": "proposed",
   "start": {
-    "y": 1885,
-    "m": 6,
-    "d": 5
+    "date": {
+      "y": 1885,
+      "m": 6,
+      "d": 5
+    }
   },
   "end": {
-    "y": 1886,
-    "m": 8,
-    "d": 31
+    "date": {
+      "y": 1898,
+      "inferred": true
+    }
   },
   "summary": "The ordinary family footing with his brother-in-law Otho Holland Lloyd — a telegram within hours of Cyril's birth, and a letter about a present two years on.",
   "certainty_reasoning": "The record documents a friendship or acquaintance with no evidence of attraction or romance; classified platonic, upgradable if contrary evidence comes to light.",
@@ -27,10 +30,13 @@
       "context": "Telegram, Wilde to Otho Holland Lloyd, 5 June 1885, Chelsea (MS Holland) - quoted whole. The boy is Cyril Wilde (1885-1915), who was educated at Radley, became a professional soldier and was killed in action in the First World War.",
       "speaker": "Oscar Wilde",
       "addressee": "Otho Holland Lloyd",
-      "evidence_date": {
-        "y": 1885,
-        "m": 6,
-        "d": 5
+      "written": {
+        "date": {
+          "y": 1885,
+          "m": 6,
+          "d": 5
+        },
+        "place": "chelsea"
       },
       "supports": "Wilde wiring his brother-in-law within hours of Cyril's birth.",
       "verification": "verified-exact",
@@ -52,10 +58,12 @@
       "context": "Wilde to Otho Holland Lloyd, [postmark 31 August 1886], 16 Tite Street (MS Holland) - quoted whole. The editors note that two books on Japanese art were among those sold at the Tite Street sale in 1895. 'Little Otho' is his nephew; Nellie is Otho's wife.",
       "speaker": "Oscar Wilde",
       "addressee": "Otho Holland Lloyd",
-      "evidence_date": {
-        "y": 1886,
-        "m": 8,
-        "d": 31
+      "postmarked": {
+        "date": {
+          "y": 1886,
+          "m": 8,
+          "d": 31
+        }
       },
       "supports": "The ordinary family footing - a present, and asking after a sick nephew.",
       "verification": "verified-exact",
@@ -68,8 +76,10 @@
         "repository": "Private collection",
         "owner": "Mr Vyvyan Holland"
       },
-      "letter_id": "letters-2000/285#3"
+      "letter_id": "letters-2000/285#3",
+      "written": {
+        "place": "16-tite-street"
+      }
     }
-  ],
-  "date_label": "London, 1885-1898"
+  ]
 }

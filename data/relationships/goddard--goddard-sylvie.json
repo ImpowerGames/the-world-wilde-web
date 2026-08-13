@@ -9,7 +9,6 @@
   "certainty_reasoning": "Cook states the marriage as fact in passing while describing the Ives household; no date, place or maiden name is given in the record.",
   "start": null,
   "end": null,
-  "date_label": "Married before the household years; date not stated in the source read",
   "summary": "James Goddard married Sylvie and brought her into George Ives's household, where they raised two daughters known as 'the 2 Kit girls'. Cook records that Ives's relationships with the men of the house began possibly sexually before settling into something he framed as paternal - and that the households's men, Goddard among them, married without leaving it.",
   "sources": [
     {
@@ -18,7 +17,6 @@
       "work": "cook-2014",
       "locator": "p. 96",
       "locator_type": "page",
-      "evidence_date": null,
       "supports": "The marriage, Sylvie's entry into the household, and the two daughters",
       "verification": "verified-exact",
       "how_verified": "text-layer",
@@ -33,7 +31,6 @@
       "work": "cook-2014",
       "locator": "p. 100",
       "locator_type": "page",
-      "evidence_date": null,
       "supports": "Cook reportedly records that Sylvie kept house for Ives, that she and James remained until their deaths, and that the daughters stayed until the early 1940s - one, Therese, still visiting in 1944.",
       "verification": "verified-elision",
       "how_verified": "text-layer",

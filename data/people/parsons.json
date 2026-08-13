@@ -4,12 +4,16 @@
   "sort_name": "Parsons, Harold Woodbury",
   "aka": [],
   "born": {
-    "y": 1882,
-    "m": 7,
-    "d": 13
+    "date": {
+      "y": 1882,
+      "m": 7,
+      "d": 13
+    }
   },
   "died": {
-    "y": 1968
+    "date": {
+      "y": 1968
+    }
   },
   "group": "aesthete",
   "gender": "m",

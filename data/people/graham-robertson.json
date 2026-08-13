@@ -6,10 +6,14 @@
     "Graham Robertson"
   ],
   "born": {
-    "y": 1866
+    "date": {
+      "y": 1866
+    }
   },
   "died": {
-    "y": 1948
+    "date": {
+      "y": 1948
+    }
   },
   "group": "aesthete",
   "gender": "m",

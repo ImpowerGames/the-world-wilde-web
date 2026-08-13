@@ -7,14 +7,17 @@
   "certainty": "uncorroborated",
   "certainty_status": "proposed",
   "start": {
-    "y": 1893,
-    "m": 6
+    "date": {
+      "y": 1893,
+      "m": 6
+    }
   },
   "end": {
-    "y": 1893,
-    "m": 10
+    "date": {
+      "y": 1893,
+      "m": 10
+    }
   },
-  "date_label": "June–October 1893, Oxford and Goring (Grainger in Wilde's service)",
   "summary": "Walter Grainger, about sixteen by Wilde's sworn estimate, was a servant at the house in High Street, Oxford, where Douglas had rooms; in June-July 1893 Wilde brought him to 'The Cottage' at Goring as under-butler, where he remained until Wilde left in October. Queensberry's plea alleged solicitation and gross indecency at both places; the allegation was never charged and Grainger never gave evidence. Carson's pressing of Wilde's flippant answer — that he never kissed Grainger because he was 'a peculiarly plain boy' — is recorded by Hyde as the climax of the cross-examination.",
   "disputed": {
     "claim": "that Wilde solicited Walter Grainger to commit sodomy and committed acts of gross indecency with him at Oxford (June 1893) and at 'The Cottage,' Goring (June-Aug 1893)",
@@ -29,9 +32,12 @@
       "work": "hyde-trials-1948",
       "locator": "p. 150",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1895,
-        "m": 4
+      "occurred": {
+        "date": {
+          "y": 1895,
+          "m": 4
+        },
+        "place": "oxford"
       },
       "supports": "Grainger's age (sixteen) on Wilde's own oath; the servant relationship; the notorious kiss exchange",
       "verification": "verified-elision",
@@ -75,9 +81,12 @@
       "work": "hyde-trials-1948",
       "locator": "pp. 150-151",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1895,
-        "m": 4
+      "occurred": {
+        "date": {
+          "y": 1895,
+          "m": 4
+        },
+        "place": "the-cottage-goring"
       },
       "supports": "Wilde's denial on oath; the Goring under-butler arrangement from June 1893",
       "verification": "verified-exact",
@@ -101,9 +110,11 @@
       "work": "hyde-trials-1948",
       "locator": "pp. 343-344",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1895,
-        "m": 3
+      "occurred": {
+        "date": {
+          "y": 1895,
+          "m": 3
+        }
       },
       "supports": "The plea-only allegation, its dates and places — the class-deciding text. Note: the plea as printed states no age for Grainger",
       "verification": "verified-exact",
@@ -120,9 +131,12 @@
       "work": "hyde-trials-1948",
       "locator": "p. 320",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1895,
-        "m": 5
+      "occurred": {
+        "date": {
+          "y": 1895,
+          "m": 5
+        },
+        "place": "the-cottage-goring"
       },
       "supports": "The service dates (July-October 1893) from the final trial",
       "verification": "verified-exact",
@@ -179,10 +193,12 @@
       "verified_on": "2026-08-03",
       "speaker": "Oscar Wilde",
       "citation_provenance": "PDF pp. 254-255s.",
-      "evidence_date": {
-        "y": 1895,
-        "m": 4,
-        "d": 4
+      "occurred": {
+        "date": {
+          "y": 1895,
+          "m": 4,
+          "d": 4
+        }
       },
       "supports": "The verbatim shorthand transcript of the same exchange Hyde 1948 prints in condensed form - kept alongside Hyde, not in place of him, so the divergence stays visible in the record.",
       "voice": "court",

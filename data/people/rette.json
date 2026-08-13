@@ -6,10 +6,14 @@
     "Adolphe Rette"
   ],
   "born": {
-    "y": 1863
+    "date": {
+      "y": 1863
+    }
   },
   "died": {
-    "y": 1910
+    "date": {
+      "y": 1910
+    }
   },
   "group": "beyond",
   "gender": "m",

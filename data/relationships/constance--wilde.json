@@ -7,67 +7,84 @@
   "certainty": "married",
   "certainty_status": "proposed",
   "start": {
-    "y": 1883,
-    "m": 11,
-    "d": 26,
-    "label": "engagement announced by Constance, 26 November 1883 (acquaintance from June 1881)"
+    "date": {
+      "y": 1883,
+      "m": 11,
+      "d": 26
+    }
   },
   "end": {
-    "y": 1898,
-    "m": 4,
-    "d": 7,
-    "label": "Constance's death at Genoa"
+    "date": {
+      "y": 1898,
+      "m": 4,
+      "d": 7
+    }
   },
-  "date_label": "1883–1898 (m. 29 May 1884)",
   "phases": [
     {
       "start": {
-        "y": 1881,
-        "m": 6
+        "date": {
+          "y": 1881,
+          "m": 6
+        }
       },
       "end": {
-        "y": 1883,
-        "m": 11
+        "date": {
+          "y": 1883,
+          "m": 11
+        }
       },
       "note": "Acquaintance and courtship: first met London, June 1881 ('I can't help liking him' - Constance to Otho, 7 June 1881, quoted p. 221 n. 1)."
     },
     {
       "start": {
-        "y": 1883,
-        "m": 11,
-        "d": 26
+        "date": {
+          "y": 1883,
+          "m": 11,
+          "d": 26
+        }
       },
       "end": {
-        "y": 1884,
-        "m": 5,
-        "d": 29
+        "date": {
+          "y": 1884,
+          "m": 5,
+          "d": 29
+        }
       }
     },
     {
       "start": {
-        "y": 1884,
-        "m": 5,
-        "d": 29
+        "date": {
+          "y": 1884,
+          "m": 5,
+          "d": 29
+        }
       },
       "end": {
-        "y": 1895,
-        "m": 4
+        "date": {
+          "y": 1895,
+          "m": 4
+        }
       },
       "note": "Marriage: honeymoon Paris (Hotel Wagram, June 1884); two sons; passionate letter of 16 Dec 1884; by 1893 much apart (Constance in Rome/with the boys while Wilde at Babbacombe, p. 555) - but only three letters to her survive, the rest destroyed after her death (p. 241 n. 6)."
     },
     {
       "start": {
-        "y": 1895,
-        "m": 4
+        "date": {
+          "y": 1895,
+          "m": 4
+        }
       },
       "end": {
-        "y": 1898,
-        "m": 4,
-        "d": 7
+        "date": {
+          "y": 1898,
+          "m": 4,
+          "d": 7
+        }
       }
     }
   ],
-  "summary": "Wilde's wife. Constance Mary Lloyd (1858–1898), daughter of Horace Lloyd QC, met Wilde in London in June 1881, accepted him in Dublin in November 1883, and married him at St James's Church, Sussex Gardens, on 29 May 1884. Two sons, Cyril (b. 1885) and Vyvyan (b. 1886). Only three of Wilde's letters to her survive - a passionate one of December 1884 and two pencilled notes from the 1895 catastrophe; the rest were destroyed after her death. She visited him in Reading Gaol on 19 February 1896 to tell him of his mother's death - their last meeting - kept his allowance, took the name Holland, withheld the children, and died at Genoa on 7 April 1898; Wilde telegraphed 'Am in great grief' and visited her grave in 1899.",
+  "summary": "Wilde's wife. Constance Mary Lloyd (1858–1898), daughter of Horace Lloyd QC, met Wilde in London in June 1881, accepted him in Dublin in November 1883, and married him at St James's Church, Sussex Gardens, on 29 May 1884. Two sons, Cyril (b. 1885) and Vyvyan (b. 1886). Only three of Wilde's letters to her survive - a passionate one of December 1884 and two pencilled notes from the 1895 catastrophe; the rest were destroyed after her death. She visited him in Reading Gaol on 19 February 1896 to tell him of his mother's death - their last meeting - kept his allowance, took the name Holland, withheld the children, and died at Genoa on 7 April 1898; Wilde telegraphed 'Am in great grief' and visited her grave in 1899. The engagement was announced by Constance.",
   "sources": [
     {
       "quote": "My dearest Otho, Prepare yourself for an astounding piece of news! I am engaged to Oscar Wilde and perfectly and insanely happy.",
@@ -75,10 +92,13 @@
       "work": "letters-2000",
       "locator": "p. 222",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1883,
-        "m": 11,
-        "d": 26
+      "written": {
+        "date": {
+          "y": 1883,
+          "m": 11,
+          "d": 26
+        },
+        "place": "1-ely-place"
       },
       "supports": "Engagement 26 November 1883, in Constance's own voice; her dates and parentage from the same page-opening's editorial note.",
       "verification": "verified-exact",
@@ -101,10 +121,13 @@
       "work": "letters-2000",
       "locator": "p. 224",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1884,
-        "m": 1,
-        "d": 22
+      "written": {
+        "date": {
+          "y": 1884,
+          "m": 1,
+          "d": 22
+        },
+        "place": "royal-victoria-hotel"
       },
       "supports": "Wilde's own description of Constance during the engagement; the emotional register of the courtship in his voice.",
       "verification": "verified-exact",
@@ -125,10 +148,13 @@
       "work": "letters-2000",
       "locator": "p. 227",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1884,
-        "m": 5,
-        "d": 28
+      "written": {
+        "date": {
+          "y": 1884,
+          "m": 5,
+          "d": 28
+        },
+        "place": "london"
       },
       "supports": "Marriage 29 May 1884, St James's Church, Sussex Gardens.",
       "verification": "verified-exact",
@@ -149,10 +175,12 @@
       "work": "letters-2000",
       "locator": "pp. 241-242",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1884,
-        "m": 12,
-        "d": 16
+      "postmarked": {
+        "date": {
+          "y": 1884,
+          "m": 12,
+          "d": 16
+        }
       },
       "supports": "Passionate marital intimacy in 1884; the destruction of the correspondence (why the record is thin is itself documented).",
       "verification": "verified-elision",
@@ -165,19 +193,24 @@
       "manuscript": {
         "repository": "The Morgan Library & Museum, New York"
       },
-      "letter_id": "letters-2000/241#2"
+      "letter_id": "letters-2000/241#2",
+      "written": {
+        "place": "edinburgh"
+      }
     },
     {
-      "quote": "Dear Constance, Allow no one to enter my bedroom or sittingroom – except servants – today. See no one but your friends. Ever yours OSCAR",
+      "quote": "Dear Constance, Allow no one to enter my bedroom or sittingroom – except servants – today. See no one but your friends. Ever yours\n\nOSCAR",
       "context": "Wilde to Constance Wilde, [? 5 April 1895] — hand-delivered to 16 Tite Street; editors' n. 1 places it \"the morning of the last day of the Queensberry trial, when Wilde knew he could not win\". The other pencilled note (p. 633) concerns keeping Cyril away from town in February 1895.",
       "work": "letters-2000",
       "locator": "p. 637",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1895,
-        "m": 4,
-        "d": 5,
-        "circa": true
+      "written": {
+        "date": {
+          "y": 1895,
+          "m": 4,
+          "d": 5,
+          "circa": true
+        }
       },
       "supports": "Contact at the catastrophe; the last surviving words from Wilde to his wife.",
       "verification": "verified-exact",
@@ -199,10 +232,13 @@
       "work": "letters-2000",
       "locator": "p. 652",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1896,
-        "m": 3,
-        "d": 10
+      "written": {
+        "date": {
+          "y": 1896,
+          "m": 3,
+          "d": 10
+        },
+        "place": "reading"
       },
       "supports": "Her prison visit of 19 February 1896 (their last meeting) and Wilde's deference to her in the settlement.",
       "verification": "verified-elision",
@@ -223,10 +259,12 @@
       "work": "letters-2000",
       "locator": "p. 1054",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1898,
-        "m": 4,
-        "d": 12
+      "postmarked": {
+        "date": {
+          "y": 1898,
+          "m": 4,
+          "d": 12
+        }
       },
       "supports": "Her death, 7 April 1898, Genoa; Wilde's reaction.",
       "verification": "verified-exact",
@@ -236,7 +274,10 @@
       "voice": "period",
       "addressee": "Robert Ross",
       "document": "letter",
-      "letter_id": "letters-2000/1054#1"
+      "letter_id": "letters-2000/1054#1",
+      "written": {
+        "place": "paris"
+      }
     },
     {
       "quote": "My children are taken from me by an order of the court. I am legally no longer their father. I have no right to speak to them. If I try to communicate with them I can be put into prison for contempt of court. My wife also is of course wounded with me for what she considers a breach of faith on my part. On Monday I sign here a deed of separation of the most painfully stringent kind and of the most humiliating conditions. If I try to communicate with my wife against her will, or without her leave, I lose my wretched £150 a year at once. My life is to be ruled after a pattern of respectability.",
@@ -244,10 +285,13 @@
       "work": "letters-2000",
       "locator": "p. 817",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1897,
-        "m": 5,
-        "d": 13
+      "written": {
+        "date": {
+          "y": 1897,
+          "m": 5,
+          "d": 13
+        },
+        "place": "reading"
       },
       "supports": "Formal separation-in-practice after 1895: custody, allowance conditions, name change, denied access. Wilde's own words: 'Constance has not asked me to come and see the children. I don't suppose now I shall ever see them' (to Blacker, 6 Sept 1897, p. 935).",
       "verification": "verified-exact",

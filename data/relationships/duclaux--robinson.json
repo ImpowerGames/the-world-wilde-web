@@ -8,14 +8,17 @@
   "certainty_status": "proposed",
   "certainty_reasoning": "Married, but on the weakest kind of web sourcing: an uncited Wikipedia sentence, with Wikidata giving a different year and no reference either.",
   "start": {
-    "y": 1902
+    "date": {
+      "y": 1902
+    }
   },
   "end": {
-    "y": 1904,
-    "m": 5,
-    "d": 3
+    "date": {
+      "y": 1904,
+      "m": 5,
+      "d": 3
+    }
   },
-  "date_label": "M. 1902 (Wikidata says 1901); ended by his death, 3 May 1904",
   "summary": "Widowed since 1894, Mary Robinson married the microbiologist Emile Duclaux in 1902, having moved among the scientific community of France. He died two years later. She did not marry again, kept his name, was hidden with her sister at Aurillac when war came in 1939, and died there in 1944 at eighty-six.",
   "sources": [
     {
@@ -24,8 +27,10 @@
       "work": "wikipedia-duclaux",
       "locator": "section 'Life'",
       "locator_type": "none",
-      "evidence_date": {
-        "y": 1902
+      "occurred": {
+        "date": {
+          "y": 1902
+        }
       },
       "supports": "The second marriage, its year and the husband's identity.",
       "verification": "verified-exact",

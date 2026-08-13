@@ -9,11 +9,13 @@
   "direction": "ashton",
   "outcome": "unknown",
   "start": {
-    "y": 1899,
-    "m": 1
+    "date": {
+      "y": 1899,
+      "m": 1,
+      "bound": "not-later-than"
+    }
   },
   "end": null,
-  "date_label": "By January 1899",
   "summary": "Wilde, writing to Ross from Napoule in January 1899 and summing Ashton up after his departure for the States, named Ashton's love for a youth called Walter as the one thing he could never forgive him - in the same breath as calling him 'capital company' with 'a heart of gold'. It is the second of the two occasions on which Wilde reports and judges an Ashton attachment rather than being party to one.",
   "sources": [
     {
@@ -22,10 +24,13 @@
       "work": "letters-2000",
       "locator": "p. 1118",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1899,
-        "m": 1,
-        "d": 12
+      "written": {
+        "date": {
+          "y": 1899,
+          "m": 1,
+          "d": 12
+        },
+        "place": "la-napoule"
       },
       "supports": "Ashton's second recorded attachment, and Wilde's position as its commentator",
       "verification": "verified-exact",

@@ -4,10 +4,14 @@
   "sort_name": "Stoker, Bram",
   "aka": [],
   "born": {
-    "y": 1847
+    "date": {
+      "y": 1847
+    }
   },
   "died": {
-    "y": 1912
+    "date": {
+      "y": 1912
+    }
   },
   "group": "family",
   "gender": "m",

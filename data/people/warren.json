@@ -2,14 +2,20 @@
   "id": "warren",
   "name": "Edward Perry Warren",
   "sort_name": "Warren, Edward Perry",
-  "aka": ["Ned Warren"],
+  "aka": [
+    "Ned Warren"
+  ],
   "born": {
-    "y": 1860
+    "date": {
+      "y": 1860
+    }
   },
   "died": {
-    "y": 1928,
-    "m": 12,
-    "d": 28
+    "date": {
+      "y": 1928,
+      "m": 12,
+      "d": 28
+    }
   },
   "group": "aesthete",
   "gender": "m",

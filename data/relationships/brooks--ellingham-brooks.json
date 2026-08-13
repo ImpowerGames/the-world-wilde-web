@@ -7,12 +7,13 @@
   "certainty": "married",
   "certainty_status": "proposed",
   "start": {
-    "y": 1903,
-    "m": 6,
-    "d": 13
+    "date": {
+      "y": 1903,
+      "m": 6,
+      "d": 13
+    }
   },
   "end": null,
-  "date_label": "Married 13 June 1903; she left within weeks",
   "summary": "A marriage of convenience between two queer people. Romaine Brooks wanted a name of her own and protection from importunate men; he wanted an income and his debts paid. She recorded it in her diary in a single word — 'Married' — and within weeks could not tolerate his company, disliking his habits, his manners, his boyfriends and the smell of his tobacco. She kept the surname for the rest of her life.",
   "sources": [
     {
@@ -21,10 +22,12 @@
       "locator_type": "page",
       "quote": "She married Brooks on 13 June. Like all her moves it was impulsive, but she hoped they might share a cultured life and that he would encourage her work and protect her from importunate men. She also wanted to change her name so as to escape the thrall of her mother and brother. He wanted an income, and his debts paid. She wrote one word in her diary, 'Married'.",
       "context": "Souhami, in the chapter 'John Ellingham Brooks', on Romaine's return to Capri in spring 1903.",
-      "evidence_date": {
-        "y": 1903,
-        "m": 6,
-        "d": 13
+      "occurred": {
+        "date": {
+          "y": 1903,
+          "m": 6,
+          "d": 13
+        }
       },
       "supports": "The marriage, its date, and what each of them wanted from it.",
       "verification": "verified-exact",
@@ -40,8 +43,10 @@
       "locator_type": "page",
       "quote": "Within weeks she could not tolerate his company. She disliked his habits and manners, his boyfriends, the smell of his tobacco.",
       "context": "The same page, on the weeks after the wedding. 'His boyfriends' is Souhami's phrase and is the page's own statement that the husband was homosexual.",
-      "evidence_date": {
-        "y": 1903
+      "occurred": {
+        "date": {
+          "y": 1903
+        }
       },
       "supports": "How quickly the marriage failed, and that it was a marriage between two queer people rather than a heterosexual union she left.",
       "verification": "verified-exact",

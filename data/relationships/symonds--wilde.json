@@ -7,12 +7,15 @@
   "certainty": "platonic",
   "certainty_status": "proposed",
   "start": {
-    "y": 1876
+    "date": {
+      "y": 1876
+    }
   },
   "end": {
-    "y": 1876
+    "date": {
+      "y": 1876
+    }
   },
-  "date_label": "Read but apparently never met, 1876",
   "summary": "Wilde was deep in a review of Symonds's Studies of the Greek Poets at twenty-one - the review never published. The connection is one of reading, not meeting.",
   "certainty_reasoning": "The record documents a friendship or acquaintance with no evidence of attraction or romance; classified platonic, upgradable if contrary evidence comes to light.",
   "sources": [
@@ -24,10 +27,12 @@
       "context": "Wilde to William Ward, [postmark 28 August 1876], Illaunroe Lodge, Connemara (MS Magdalen). The editors identify the book as Symonds's Studies of the Greek Poets and state that Wilde's review was never published. Wilde was twenty-one and had taken his First that July. The same week's letters contain the Todd passage.",
       "speaker": "Oscar Wilde",
       "addressee": "William Ward",
-      "evidence_date": {
-        "y": 1876,
-        "m": 8,
-        "d": 28
+      "postmarked": {
+        "date": {
+          "y": 1876,
+          "m": 8,
+          "d": 28
+        }
       },
       "supports": "That Wilde was reading Symonds closely at twenty-one, and that what he wrote about him did not survive into print.",
       "verification": "verified-exact",
@@ -39,7 +44,10 @@
       "manuscript": {
         "repository": "Magdalen College, Oxford"
       },
-      "letter_id": "letters-2000/31#1"
+      "letter_id": "letters-2000/31#1",
+      "written": {
+        "place": "illaunroe-lodge"
+      }
     }
   ]
 }

@@ -4,14 +4,18 @@
   "sort_name": "Darmesteter, James",
   "aka": [],
   "born": {
-    "y": 1849,
-    "m": 3,
-    "d": 28
+    "date": {
+      "y": 1849,
+      "m": 3,
+      "d": 28
+    }
   },
   "died": {
-    "y": 1894,
-    "m": 10,
-    "d": 19
+    "date": {
+      "y": 1894,
+      "m": 10,
+      "d": 19
+    }
   },
   "group": "family",
   "gender": "m",

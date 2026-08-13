@@ -8,74 +8,95 @@
   "certainty_status": "proposed",
   "certainty_reasoning": "Editors' note (p. 646 n. 1) records that the Holloway/Courtfield letter texts are retranslations whose wording may be distorted 'but their substance need not be doubted.'",
   "start": {
-    "y": 1891,
-    "label": "introduced by Lionel Johnson, 1891 (editors: most likely beginning of July); Wilde dated the friendship proper from May 1892"
+    "date": {
+      "y": 1891
+    }
   },
   "end": {
-    "y": 1900,
-    "m": 11,
-    "d": 30,
-    "label": "contact until Wilde's death; Douglas chief mourner at the funeral, 3 December 1900"
+    "date": {
+      "y": 1900,
+      "m": 11,
+      "d": 30
+    }
   },
-  "date_label": "1891 – 1900",
   "phases": [
     {
       "start": {
-        "y": 1891,
-        "circa": true
+        "date": {
+          "y": 1891,
+          "circa": true
+        }
       },
       "end": {
-        "y": 1892,
-        "m": 5
+        "date": {
+          "y": 1892,
+          "m": 5
+        }
       },
       "note": "Acquaintance: four meetings in ~18 months by Wilde's own count (quoted p. 461)."
     },
     {
       "start": {
-        "y": 1892,
-        "m": 5
+        "date": {
+          "y": 1892,
+          "m": 5
+        }
       },
       "end": {
-        "y": 1895,
-        "m": 4
+        "date": {
+          "y": 1895,
+          "m": 4
+        }
       },
       "note": "Intimacy: 'I worship him' (to Ross, spring 1892); Babbacombe menage early 1893; Savoy/St James's Place routine 1893 (De Profundis, p. 686); quarrel-reconciliation cycle incl. Egypt separation winter 1893-94 ('our love has passed through. estrangement', pp. 577-578)."
     },
     {
       "start": {
-        "y": 1895,
-        "m": 4
+        "date": {
+          "y": 1895,
+          "m": 4
+        }
       },
       "end": {
-        "y": 1897,
-        "m": 5
+        "date": {
+          "y": 1897,
+          "m": 5
+        }
       }
     },
     {
       "start": {
-        "y": 1897,
-        "m": 6
+        "date": {
+          "y": 1897,
+          "m": 6
+        }
       },
       "end": {
-        "y": 1897,
-        "m": 12,
-        "circa": true
+        "date": {
+          "y": 1897,
+          "m": 12,
+          "circa": true
+        }
       },
       "note": "Post-release: correspondence resumed within a fortnight; reunion at Rouen 28-29 August 1897; Naples together from late September."
     },
     {
       "start": {
-        "y": 1898
+        "date": {
+          "y": 1898
+        }
       },
       "end": {
-        "y": 1900,
-        "m": 11,
-        "d": 30
+        "date": {
+          "y": 1900,
+          "m": 11,
+          "d": 30
+        }
       },
       "note": "Paris years: intermittent contact ('Oscar has only seen Douglas once' - Ross, April 1898, p. 1054 n. 2); Douglas arrived the day after Wilde's death and followed the coffin, 3 December 1900 (p. 1222)."
     }
   ],
-  "summary": "The central relationship of the circle. Douglas (b. 1870), third son of the Marquess of Queensberry, was brought to Wilde at Tite Street by Lionel Johnson in 1891; Wilde dated the friendship proper from Douglas's blackmail appeal of May 1892. The surviving letters run from 'Dearest Bosie' (Nov 1892) through the Hyacinthus letter (Jan 1893, later used for blackmail and read at the trials), the crisis letters of 1893-95, De Profundis (1897), and the post-prison reunion at Rouen and Naples (Aug-Sep 1897). Queensberry's card of 18 February 1895 and the collapse of Wilde's libel suit led to Wilde's conviction; the relationship survived in attenuated form until Wilde's death in Paris, where Douglas was chief mourner.",
+  "summary": "The central relationship of the circle. Douglas (b. 1870), third son of the Marquess of Queensberry, was brought to Wilde at Tite Street by Lionel Johnson in 1891; Wilde dated the friendship proper from Douglas's blackmail appeal of May 1892. The surviving letters run from 'Dearest Bosie' (Nov 1892) through the Hyacinthus letter (Jan 1893, later used for blackmail and read at the trials), the crisis letters of 1893-95, De Profundis (1897), and the post-prison reunion at Rouen and Naples (Aug-Sep 1897). Queensberry's card of 18 February 1895 and the collapse of Wilde's libel suit led to Wilde's conviction; the relationship survived in attenuated form until Wilde's death in Paris, where Douglas was chief mourner. The editors place the introduction most likely at the beginning of July; the funeral was on 3 December 1900.",
   "sources": [
     {
       "quote": "Love me always, love me always. You have been the supreme, the perfect love of my life; there can be no other.",
@@ -83,10 +104,13 @@
       "work": "letters-2000",
       "locator": "p. 652",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1895,
-        "m": 5,
-        "d": 20
+      "written": {
+        "date": {
+          "y": 1895,
+          "m": 5,
+          "d": 20
+        },
+        "place": "reading"
       },
       "supports": "Wilde naming the relationship in the plainest terms the correspondence contains - Douglas as 'the supreme, the perfect love of my life; there can be no other' - written between the trials",
       "verification": "verified-exact",
@@ -104,8 +128,10 @@
       "work": "letters-2000",
       "locator": "p. 461",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1891
+      "occurred": {
+        "date": {
+          "y": 1891
+        }
       },
       "supports": "Meeting 1891 (editors: most likely ~beginning of July); introduction by Lionel Johnson; Douglas's parentage and birth year; Wilde's own May-1892 dating of the friendship.",
       "verification": "verified-exact",
@@ -121,14 +147,17 @@
       "work": "letters-2000",
       "locator": "p. 526",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1892,
-        "m": 5,
-        "circa": true,
-        "to": {
+      "written": {
+        "date": {
           "y": 1892,
-          "m": 6
-        }
+          "m": 5,
+          "circa": true,
+          "to": {
+            "y": 1892,
+            "m": 6
+          }
+        },
+        "place": "royal-palace-hotel"
       },
       "supports": "Earliest surviving intimate register about Douglas, told to a third party (Ross), spring 1892.",
       "verification": "verified-elision",
@@ -149,10 +178,13 @@
       "work": "letters-2000",
       "locator": "p. 544",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1893,
-        "m": 1,
-        "circa": true
+      "written": {
+        "date": {
+          "y": 1893,
+          "m": 1,
+          "circa": true
+        },
+        "place": "babbacombe-cliff"
       },
       "supports": "Explicit love-letter register in Wilde's own hand; the letter itself became trial evidence.",
       "verification": "verified-elision",
@@ -170,10 +202,13 @@
       "work": "letters-2000",
       "locator": "p. 575",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1893,
-        "m": 11,
-        "d": 8
+      "written": {
+        "date": {
+          "y": 1893,
+          "m": 11,
+          "d": 8
+        },
+        "place": "16-tite-street"
       },
       "supports": "Wilde intimate enough with Douglas's mother to be consulted about him; the late-1893 crisis and engineered Egypt separation.",
       "verification": "verified-elision",
@@ -196,10 +231,13 @@
       "work": "letters-2000",
       "locator": "p. 577",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1893,
-        "m": 12,
-        "circa": true
+      "written": {
+        "date": {
+          "y": 1893,
+          "m": 12,
+          "circa": true
+        },
+        "place": "10-11-st-jamess-place"
       },
       "supports": "\"Our love\" in Wilde's own words; the quarrel-and-reconciliation pattern across the Egypt separation.",
       "verification": "verified-elision",
@@ -220,10 +258,13 @@
       "work": "letters-2000",
       "locator": "p. 646",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1895,
-        "m": 4,
-        "d": 29
+      "written": {
+        "date": {
+          "y": 1895,
+          "m": 4,
+          "d": 29
+        },
+        "place": "holloway"
       },
       "supports": "Mutual love asserted at the moment of catastrophe ('that you love me in return').",
       "verification": "verified-exact",
@@ -236,15 +277,18 @@
       "letter_id": "letters-2000/646#1"
     },
     {
-      "quote": "My darling Oscar, Have just arrived here. It seems too dreadful to be here without you, but I hope you will join me next week. … Do keep up your spirits, my dearest darling. I continue to think of you day and night, and send you all my love. I am always your own loving and devoted boy BOSIE",
+      "quote": "My darling Oscar, Have just arrived here. It seems too dreadful to be here without you, but I hope you will join me next week.…Do keep up your spirits, my dearest darling. I continue to think of you day and night, and send you all my love.\n\nI am always your own loving and devoted boy\n\nBOSIE",
       "context": "Lord Alfred Douglas to Wilde, Wednesday, 15 May 1895, Hôtel des Deux Mondes, Paris — printed by the editors in n. 3, who introduce it as \"One of the only three letters from Douglas to Wilde which have been recovered (MS Clark)\". Wilde was then on bail between the trials.",
       "work": "letters-2000",
       "locator": "p. 649 n. 3",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1895,
-        "m": 5,
-        "d": 15
+      "written": {
+        "date": {
+          "y": 1895,
+          "m": 5,
+          "d": 15
+        },
+        "place": "hotel-des-deux-mondes"
       },
       "supports": "Reciprocity in Douglas's own voice during the trials — first-person evidence from the second participant.",
       "verification": "verified-elision",
@@ -266,13 +310,16 @@
       "work": "letters-2000",
       "locator": "pp. 683-684",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1897,
-        "m": 1,
-        "to": {
+      "written": {
+        "date": {
           "y": 1897,
-          "m": 3
-        }
+          "m": 1,
+          "to": {
+            "y": 1897,
+            "m": 3
+          }
+        },
+        "place": "reading"
       },
       "supports": "Wilde's own retrospective naming of the relationship ('that place in my heart once held by love'); the prison rupture. Also p. 686 (read): the 1893 daily-inseparability routine ('We did not separate as a rule till after midnight').",
       "verification": "verified-elision",
@@ -288,15 +335,18 @@
       "letter_id": "letters-2000/683#1"
     },
     {
-      "quote": "Everyone is furious with me for going back to you, but they don't understand us. I feel that it is only with you that I can do anything at all. Do remake my ruined life for me, and then our friendship and love will have a different meaning to the world. I wish that when we met at Rouen we had not parted at all. … But we love each other.",
+      "quote": "Everyone is furious with me for going back to you, but they don't understand us. I feel that it is only with you that I can do anything at all. Do remake my ruined life for me, and then our friendship and love will have a different meaning to the world.\n\nI wish that when we met at Rouen we had not parted at all.…But we love each other.",
       "context": "Wilde to Lord Alfred Douglas, Tuesday, 7.30 [? 31 August 1897], Café Suisse, Dieppe — after their reunion meeting at Rouen. Editors' n. 1 (p. 933): \"This fateful meeting seems to have taken place on 28–9 August. In his Autobiography Douglas wrote: 'Poor Oscar cried when I met him at the station. We walked about all day arm in arm, or hand in hand, and were perfectly happy.'\"",
       "work": "letters-2000",
       "locator": "pp. 932-933",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1897,
-        "m": 8,
-        "d": 31
+      "written": {
+        "date": {
+          "y": 1897,
+          "m": 8,
+          "d": 31
+        },
+        "place": "dieppe"
       },
       "supports": "The post-prison reunion decision against the circle's opposition; Rouen meeting 28-29 Aug 1897; corroborated to Ross, 4 Sept 1897 (p. 934, read): \"Yes: I saw Bosie, and of course I love him as I always did, with a sense of tragedy and ruin.\"",
       "verification": "verified-elision",
@@ -317,10 +367,12 @@
       "work": "letters-2000",
       "locator": "p. 989",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1897,
-        "m": 11,
-        "d": 21
+      "postmarked": {
+        "date": {
+          "y": 1897,
+          "m": 11,
+          "d": 21
+        }
       },
       "supports": "Cohabitation at Naples from late September 1897 and its end when Constance's allowance and Lady Queensberry's terms cut the money off.",
       "verification": "verified-exact",
@@ -333,7 +385,10 @@
       "manuscript": {
         "repository": "William Andrews Clark Memorial Library, UCLA"
       },
-      "letter_id": "letters-2000/989#1"
+      "letter_id": "letters-2000/989#1",
+      "written": {
+        "place": "naples"
+      }
     },
     {
       "quote": "On Sunday, the next day, Alfred Douglas arrived, and various people whom I do not know called. … On Monday morning at 9 o'clock, the funeral started from the hotel – we all walked to the Church of St Germain des Prés behind the hearse – Alfred Douglas, Reggie Turner and myself, Dupoirier, the proprietor of the hotel … the second [coach contained] Alfred Douglas, Turner, the proprietor of the hotel, and myself … Wreaths came from, or at the request of, the following: Alfred Douglas, More Adey, Reginald Turner …",
@@ -341,10 +396,12 @@
       "work": "letters-2000",
       "locator": "p. 1222",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1900,
-        "m": 12,
-        "d": 3
+      "written": {
+        "date": {
+          "y": 1900,
+          "m": 12,
+          "d": 3
+        }
       },
       "supports": "Contact until death: Douglas came at once, walked behind the hearse and rode in the second coach, and sent a wreath.",
       "verification": "verified-elision",
@@ -362,10 +419,12 @@
       "work": "murray-2020",
       "locator": "PDF pp. 51-52",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1892,
-        "m": 1,
-        "circa": true
+      "occurred": {
+        "date": {
+          "y": 1892,
+          "m": 1,
+          "circa": true
+        }
       },
       "supports": "Douglas's own first-person account of the sexual relationship with Wilde, its specific and limited content, and its brevity - independent corroboration, from Douglas's side, of an edge otherwise carried by Wilde's letters.",
       "verification": "verified-exact",
@@ -381,8 +440,10 @@
       "work": "murray-2020",
       "locator": "PDF p. 60",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1893
+      "occurred": {
+        "date": {
+          "y": 1893
+        }
       },
       "supports": "The biographer's dating of the sexual phase as brief, with the romantic attachment outlasting it - the shape our date fields already carry (1891/92 start, contact to 1900).",
       "verification": "verified-exact",

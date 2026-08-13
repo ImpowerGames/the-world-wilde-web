@@ -10,12 +10,17 @@
   "direction": "wilde",
   "certainty_reasoning": "Sox's account - built on Fothergill's unfinished, previously unpublished 81-page memoir (written 1954; Sox himself flags it as 'highly disorganized' with 'few dates given', p. 133) and corroborated by the 'architect' references in Wilde's letters to Ross - has the 21-year-old Fothergill visiting Wilde alone at Berneval in summer 1897, where Wilde 'liked him and declared to him' the 'Two loves have I' couplet, casting dark-haired Fothergill as the love 'of comfort' against golden-haired Douglas's 'despair'; the book's jacket glosses the episode as Wilde at one time having Fothergill in mind 'to replace Lord Alfred Douglas in his affections'.",
   "start": {
-    "y": 1897
+    "date": {
+      "y": 1897,
+      "season": "summer"
+    }
   },
   "end": {
-    "y": 1897
+    "date": {
+      "y": 1897,
+      "season": "summer"
+    }
   },
-  "date_label": "Single visit to Wilde at Berneval, summer 1897: anticipated in Wilde's letters to Ross from 1 June ('send over the architect'); Sox: 'We do not know exactly when Fothergill appeared'; Wilde's 21 Sept. 1897 letter places Fothergill's six days ('Rowland a sextette of suns') within his last month there. Fothergill dropped the correspondence after returning to England (undated by Sox).",
   "summary": "After his May 1897 release Wilde settled at Berneval near Dieppe, and the 21-year-old Fothergill - 'the architect' of Wilde's letters to Ross - visited him there alone, for what Wilde's 21 September letter counts as a 'sextette of suns' in his final month there. Wilde met his boat at Dieppe and, troubled over the estranged Douglas, declared Fothergill his love 'of comfort' against Douglas's golden-haired 'despair'. Fothergill reflected that he could not have 'given much comfort'; back in England, where any association with Wilde was toxic, he answered Wilde's 'charming letters' by writing that it was not 'politic' to go on, and later - by then taken up with Warren in Rome - passed Wilde by at Aragno's cafe without approaching him, a decision his sons say he regretted to the end of his life.",
   "sources": [
     {
@@ -24,9 +29,11 @@
       "work": "sox-1991",
       "locator": "pp. 138-139",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1897,
-        "circa": true
+      "occurred": {
+        "date": {
+          "y": 1897,
+          "circa": true
+        }
       },
       "supports": "Fothergill's own wish for 'a gentleman protector' - the motive side of the arrangement-texture; his wish, not an arrangement Sox attributes to Ross or Wilde.",
       "verification": "verified-exact",
@@ -42,10 +49,13 @@
       "work": "letters-2000",
       "locator": "p. 869",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1897,
-        "m": 6,
-        "d": 1
+      "written": {
+        "date": {
+          "y": 1897,
+          "m": 6,
+          "d": 1
+        },
+        "place": "berneval-sur-mer"
       },
       "supports": "Wilde asking for Fothergill by function, before the visit — the beginning of the approach that Sox documents from Fothergill's side.",
       "verification": "verified-elision",
@@ -67,10 +77,12 @@
       "work": "sox-1991",
       "locator": "p. 139",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1897,
-        "m": 6,
-        "d": 1
+      "occurred": {
+        "date": {
+          "y": 1897,
+          "m": 6,
+          "d": 1
+        }
       },
       "supports": "The visit is documented in Wilde's letters to Ross; Wilde anticipated 'the architect' at Berneval from 1 June through the summer of 1897",
       "verification": "verified-elision",
@@ -86,10 +98,13 @@
       "work": "letters-2000",
       "locator": "p. 884",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1897,
-        "m": 6,
-        "d": 5
+      "written": {
+        "date": {
+          "y": 1897,
+          "m": 6,
+          "d": 5
+        },
+        "place": "berneval-sur-mer"
       },
       "supports": "Wilde pressing for Fothergill a second time in five days, and doing it as a joke against Ross for withholding him.",
       "verification": "verified-elision",
@@ -111,10 +126,12 @@
       "work": "letters-2000",
       "locator": "p. 913",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1897,
-        "m": 7,
-        "d": 19
+      "postmarked": {
+        "date": {
+          "y": 1897,
+          "m": 7,
+          "d": 19
+        }
       },
       "supports": "The nickname in Wilde's own hand, and the second summons.",
       "verification": "verified-exact",
@@ -128,7 +145,10 @@
       "manuscript": {
         "repository": "The Frederick R. Koch Collection (in part at Yale)"
       },
-      "letter_id": "letters-2000/913#3"
+      "letter_id": "letters-2000/913#3",
+      "written": {
+        "place": "berneval-sur-mer"
+      }
     },
     {
       "quote": "From the railings of the boat, as she got to Dieppe harbour, I looked down upon what must be a great man standing alone and looking up. I had seen a photograph of this beautiful looking man and here was a huge and fat person in white flannels with a comical little red beret on top of it all. Rather vulgar I thought. My heart sank, but his sweet kindness put me right quickly.",
@@ -136,7 +156,6 @@
       "work": "sox-1991",
       "locator": "pp. 139-140",
       "locator_type": "page",
-      "evidence_date": null,
       "order_hint": {
         "y": 1897,
         "m": 8,
@@ -149,7 +168,10 @@
       "verified_on": "2026-08-03",
       "voice": "period",
       "speaker": "John Fothergill, memoir (1954)",
-      "document": "memoir"
+      "document": "memoir",
+      "occurred": {
+        "place": "dieppe"
+      }
     },
     {
       "quote": "Both Smithers and Fothergill knew Wilde was troubled about Bosie Douglas who was either unwilling to see him or prevented by Ross. Fothergill said Wilde liked him and declared to him: 'Two loves have I: the one of comfort; the other of despair. The one has black; the other golden hair.' Fothergill commented: 'I don't think I could have given much comfort. I was too concentrated on myself. I've ever been incapable of sympathy, even with this sad thing.'",
@@ -157,7 +179,6 @@
       "work": "sox-1991",
       "locator": "p. 141",
       "locator_type": "page",
-      "evidence_date": null,
       "order_hint": {
         "y": 1897,
         "m": 8,
@@ -169,7 +190,10 @@
       "citation_provenance": "PDF p. 157. Fothergill's quoted sentences: Fothergill memoir, as printed in Sox 1991, p. 141.",
       "verified_on": "2026-08-03",
       "voice": "modern",
-      "document": "biography"
+      "document": "biography",
+      "occurred": {
+        "place": "berneval-sur-mer"
+      }
     },
     {
       "quote": "I cannot live without the atmosphere of Love: I must love and be loved, whatever price I pay for it. I could have lived all my life with you, but you have other claims on you – claims you are too sweet a fellow to disregard – and all you could give me was a week of companionship. Reggie gave me three days, and Rowland a sextette of suns, but for the last month at Berneval I was so lonely that I was on the brink of killing myself. The world shuts its gateway against me, and the door of Love lies open.",
@@ -177,10 +201,13 @@
       "work": "letters-2000",
       "locator": "p. 942",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1897,
-        "m": 9,
-        "d": 21
+      "written": {
+        "date": {
+          "y": 1897,
+          "m": 9,
+          "d": 21
+        },
+        "place": "naples"
       },
       "supports": "The length of Fothergill's visit, in Wilde's own reckoning, and what it weighed against — the fullest thing Wilde wrote about him.",
       "verification": "verified-exact",
@@ -194,7 +221,10 @@
       "manuscript": {
         "repository": "William Andrews Clark Memorial Library, UCLA"
       },
-      "letter_id": "letters-2000/942#1"
+      "letter_id": "letters-2000/942#1",
+      "occurred": {
+        "place": "berneval-sur-mer"
+      }
     },
     {
       "quote": "We do not know exactly when Fothergill appeared and from his memoirs it seems he visited Wilde alone. … on 21 September, Wilde wrote to Ross that despite several visits by friends to Berneval he was so lonely that he was on the brink of killing himself: in the last month there, Reggie Turner had given him three days, and 'Rowland a sextette of suns'.",
@@ -202,10 +232,12 @@
       "work": "sox-1991",
       "locator": "p. 139",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1897,
-        "m": 9,
-        "d": 21
+      "occurred": {
+        "date": {
+          "y": 1897,
+          "m": 9,
+          "d": 21
+        }
       },
       "supports": "Sox's own hedge on the exact visit date; Fothergill came alone; a six-day stay in Wilde's final Berneval month per Wilde's 21 Sept. 1897 letter as quoted by Sox",
       "verification": "verified-elision",
@@ -221,7 +253,6 @@
       "work": "sox-1991",
       "locator": "pp. 141-142",
       "locator_type": "page",
-      "evidence_date": null,
       "order_hint": {
         "y": 1897,
         "m": 10,
@@ -241,9 +272,11 @@
       "work": "letters-2000",
       "locator": "p. 1012 n. 1",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1898,
-        "m": 2
+      "occurred": {
+        "date": {
+          "y": 1898,
+          "m": 2
+        }
       },
       "supports": "That five months after the visit, and after Fothergill had written to break it off, Wilde still put him on the short list of people to receive the Ballad.",
       "verification": "verified-elision",
@@ -260,7 +293,6 @@
       "work": "letters-2000",
       "locator": "p. 913 n. 2",
       "locator_type": "page",
-      "evidence_date": null,
       "order_hint": {
         "y": 1898,
         "m": 2,
@@ -281,10 +313,13 @@
       "work": "letters-2000",
       "locator": "p. 1075",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1898,
-        "m": 5,
-        "d": 25
+      "written": {
+        "date": {
+          "y": 1898,
+          "m": 5,
+          "d": 25
+        },
+        "place": "paris"
       },
       "supports": "That Wilde was still asking for Fothergill a year after Berneval, and still by the nickname.",
       "verification": "verified-exact",
@@ -306,9 +341,12 @@
       "work": "letters-2000",
       "locator": "p. 1177",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1900,
-        "m": 3
+      "written": {
+        "date": {
+          "y": 1900,
+          "m": 3
+        },
+        "place": "paris"
       },
       "supports": "That Fothergill remained a figure of affection in Wilde's letters to the end, years after the visit and after the correspondence between them had lapsed.",
       "verification": "verified-exact",
@@ -330,7 +368,6 @@
       "work": "sox-1991",
       "locator": "p. 142",
       "locator_type": "page",
-      "evidence_date": null,
       "order_hint": {
         "y": 1900,
         "m": 4,
@@ -353,5 +390,5 @@
       "finding": "No letters from Wilde to Fothergill survive in this edition: the volume's 514 recipients (1,441 letters) do not include him, the Index of Recipients has no entry for him, and the General Index entry — 'Fothergill, John Rowland, 913, 1177; the Architect of the Moon, 913, 1075; starts Carfax Gallery, 374n; wanted at Berneval, 869; gave W a sexette of suns, 942' — lists mentions only. That letters existed is not in doubt — Fothergill told Sox's source he received 'some charming letters with his lovely handwriting' after returning home — they simply are not in Holland and Hart-Davis. 'Rowland' in this volume is usually Rowland Strong, a journalist and an entirely different man (printed 941 n. 1, and pp. 989, 1073, 1110, 1144, 1267); Fothergill is the Rowland of pp. 869, 913, 942, 1075 and 1177. A passing record at printed 1012 puts 'Rowland Fothergill' on Wilde's own list of recipients for The Ballad, and a note at printed 977 quotes Fothergill's memoir An Innkeeper's Diary on a dinner party; neither bears on this relationship."
     }
   ],
-  "sources_order_note": "Chronological, and THE ORDER IS PRODUCED BY THE DATA: the panel sorts on `evidence_date`, falling back to `order_hint` (see byEvidenceDate in circle.js), treats a missing month as 0, and drops records with neither to the end. Hand-sorting the array does nothing on its own; the array is kept in the same order only so that records sharing a date break in narrative order. **Five records here are undated in their sources and carry `order_hint` rather than an invented `evidence_date`** - the visit and the 'Two loves have I' declaration, the 'politic' exchange, the identifying note, and the sighting in Rome. Each states what its placement rests on, and the card says on its face that it is a placement. evidence_date is a claim about when something happened; order_hint is a claim about where it reads best."
+  "sources_order_note": "Chronological, and the order is produced by the data: the panel sorts on the date a source carries, taking `occurred` first and then the document's own acts, falling back to `order_hint` (see srcDate and bySourceDate in web.js), treats a missing month as 0, and drops records with neither to the end. Hand-sorting the array does nothing on its own; the array is kept in the same order only so that records sharing a date break in narrative order. Five records here are undated in their sources and carry `order_hint` rather than an invented date - the visit and the 'Two loves have I' declaration, the 'politic' exchange, the identifying note, and the sighting in Rome. Each states what its placement rests on, and the card says on its face that it is a placement. A date is a claim about when something happened; `order_hint` is a claim about where it reads best."
 }

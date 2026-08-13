@@ -1,10 +1,14 @@
 {
   "id": "symonds",
   "born": {
-    "y": 1840
+    "date": {
+      "y": 1840
+    }
   },
   "died": {
-    "y": 1893
+    "date": {
+      "y": 1893
+    }
   },
   "gender": "m",
   "sexuality_sources": [],

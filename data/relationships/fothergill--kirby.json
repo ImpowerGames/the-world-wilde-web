@@ -8,12 +8,16 @@
   "certainty_status": "proposed",
   "certainty_reasoning": "Wikipedia carries the same, naming her and not the first wife.",
   "start": {
-    "y": 1920
+    "date": {
+      "y": 1920,
+      "circa": true
+    }
   },
   "end": {
-    "y": 1957
+    "date": {
+      "y": 1957
+    }
   },
-  "date_label": "C. 1920; still married at his death, 26 April 1957",
   "summary": "Fothergill married Kate Headley Kirby about 1920 and two years later took on the Spread Eagle at Thame. She ran it with him and he credited her in print; the inn made his name, and its collapse ended it. They were still married when he died in 1957.",
   "sources": [
     {
@@ -22,7 +26,6 @@
       "work": "sox-1991",
       "locator": "PDF p. 183",
       "locator_type": "page",
-      "evidence_date": null,
       "supports": "The second marriage, the wife's name, and its dating relative to the Spread Eagle.",
       "verification": "verified-exact",
       "how_verified": "text-layer",
@@ -41,7 +44,6 @@
       "work": "wikipedia-john-fothergill",
       "locator": "section on the Spread Eagle",
       "locator_type": "none",
-      "evidence_date": null,
       "supports": "Independent naming of Kate as Fothergill's wife and co-manager.",
       "verification": "verified-exact",
       "how_verified": "as-published",

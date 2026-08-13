@@ -9,12 +9,15 @@
   "direction": "fothergill",
   "outcome": "unknown",
   "start": {
-    "y": 1898
+    "date": {
+      "y": 1898
+    }
   },
   "end": {
-    "y": 1898
+    "date": {
+      "y": 1898
+    }
   },
-  "date_label": "1898",
   "summary": "Fothergill saw the boy acting in a Greek play at Bradfield College, bought a photograph of the cast, and wrote to him, giving 30 Manchester Street as his address so that the boy might visit. Two letters came back. A firm of solicitors then required an undertaking that he write no more, on threat of putting the matter before the police; he gave it and heard nothing further.",
   "sources": [
     {
@@ -23,8 +26,10 @@
       "work": "sox-1991",
       "locator": "p. 142",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1898
+      "occurred": {
+        "date": {
+          "y": 1898
+        }
       },
       "supports": "Fothergill's own account of the approach, in his own words.",
       "verification": "verified-exact",
@@ -41,8 +46,10 @@
       "work": "sox-1991",
       "locator": "pp. 142-143",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1898
+      "occurred": {
+        "date": {
+          "y": 1898
+        }
       },
       "supports": "How the approach ended, and the legal pressure that ended it - three years after Wilde's release, the same criminal law operating without a prosecution.",
       "verification": "verified-exact",

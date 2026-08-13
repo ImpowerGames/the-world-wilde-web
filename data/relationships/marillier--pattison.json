@@ -8,12 +8,15 @@
   "certainty_status": "proposed",
   "certainty_reasoning": "Married, on a scholarly edition's prosopography - the Whistler Correspondence's biographical entry, which footnotes itself to Nevinson's ODNB article on Marillier.",
   "start": {
-    "y": 1893
+    "date": {
+      "y": 1893
+    }
   },
   "end": {
-    "y": 1901
+    "date": {
+      "y": 1901
+    }
   },
-  "date_label": "M. 1893; ended by her death in 1901",
   "summary": "Marillier married Katherine Isabella Pattison in 1893, some seven years after the correspondence with Wilde that puts him on this map. They had two daughters. She died in 1901, and he remarried five years later.",
   "sources": [
     {
@@ -22,8 +25,10 @@
       "work": "whistler-correspondence-marillier",
       "locator": "biographical entry, 'Mari_HC'",
       "locator_type": "none",
-      "evidence_date": {
-        "y": 1893
+      "occurred": {
+        "date": {
+          "y": 1893
+        }
       },
       "supports": "The first marriage, its year, the wife's identity and its end.",
       "verification": "verified-elision",

@@ -7,13 +7,17 @@
   "certainty": "platonic",
   "certainty_status": "proposed",
   "start": {
-    "y": 1894,
-    "m": 12
+    "date": {
+      "y": 1894,
+      "m": 12
+    }
   },
   "end": {
-    "y": 1897,
-    "m": 5,
-    "d": 20
+    "date": {
+      "y": 1897,
+      "m": 5,
+      "d": 20
+    }
   },
   "summary": "Wilde's friendship with Ada Leverson, 'the Sphinx' — from the Chameleon letter of December 1894 to the warmest thing he wrote her, between the trials, and her meeting him on his first day out of prison.",
   "certainty_reasoning": "The record documents a friendship or acquaintance with no evidence of attraction or romance; classified platonic, upgradable if contrary evidence comes to light.",
@@ -22,13 +26,16 @@
       "work": "letters-2000",
       "locator": "p. 625",
       "locator_type": "page",
-      "quote": "Dear Sphinx, Your aphorisms must appear in the second number of the Chameleon: they are exquisite. 'The Priest and the Acolyte' is not by Dorian: though you were right in discerning by internal evidence that the author has a profile. He is an undergraduate of strange beauty. The story is, to my ears, too direct: there is no nuance: it profanes a little by revelation: God and other artists are always a little obscure. Still, it has interesting qualities, and is at moments poisonous: which is something. Ever yours",
+      "quote": "Dear Sphinx, Your aphorisms must appear in the second number of the Chameleon: they are exquisite. 'The Priest and the Acolyte' is not by Dorian: though you were right in discerning by internal evidence that the author has a profile. He is an undergraduate of strange beauty.\n\nThe story is, to my ears, too direct: there is no nuance: it profanes a little by revelation: God and other artists are always a little obscure. Still, it has interesting qualities, and is at moments poisonous: which is something. Ever yours\n\nOSCAR",
       "context": "Wilde to Ada Leverson, [early December 1894], Albemarle Club (MS Clark) - quoted whole. The editors identify the anonymous author as John Francis Bloxam, editor of The Chameleon and an undergraduate of Exeter College, and record that the story was attributed to Wilde and that 'much play was made' with it at his trial - along with Wilde's own aphorisms in the same issue and Douglas's poem 'Two Loves'. 'Dorian' here is John Gray, who is on this map.",
       "speaker": "Oscar Wilde",
       "addressee": "Ada Leverson",
-      "evidence_date": {
-        "y": 1894,
-        "m": 12
+      "written": {
+        "date": {
+          "y": 1894,
+          "m": 12
+        },
+        "place": "albemarle-club"
       },
       "supports": "What Wilde told her about the story that would be used against him at trial.",
       "verification": "verified-exact",
@@ -46,13 +53,16 @@
       "work": "letters-2000",
       "locator": "p. 650",
       "locator_type": "page",
-      "quote": "My dear Sweet Kind Friend, I have no words to thank you for all you do for me, but for you and Ernest Bosie and I have deepest love. I hope to be in better spirits tonight. Your sweetness last night was wonderful. Your flowers are like him - your sending them like yourself. Dear, dear Friend, tonight I see you at 7.45. Ah! you are good and gentle and wonderful. Always devotedly yours",
+      "quote": "My dear Sweet Kind Friend, I have no words to thank you for all you do for me, but for you and Ernest Bosie and I have deepest love.\n\nI hope to be in better spirits tonight. Your sweetness last night was wonderful. Your flowers are like him - your sending them like yourself. Dear, dear Friend, tonight I see you at 7.45. Ah! you are good and gentle and wonderful. Always devotedly yours\n\nOSCAR",
       "context": "Wilde to Ada Leverson, [? Early May 1895], [? 146 Oakley Street, Chelsea] (MS Clark) - quoted whole, and written between the second and third trials, in the weeks when the Leversons were sheltering him. The address is not 'DEAR SPHINX' but 'My dear Sweet Kind Friend', the only time in the eighteen letters. The 'him' whose likeness he sees in her flowers is Douglas. Note also what he thanks her for: not the roof, which goes unmentioned, but the sweetness and the flowers.",
       "speaker": "Oscar Wilde",
       "addressee": "Ada Leverson",
-      "evidence_date": {
-        "y": 1895,
-        "m": 5
+      "written": {
+        "date": {
+          "y": 1895,
+          "m": 5
+        },
+        "place": "146-oakley-street"
       },
       "supports": "The warmest thing Wilde wrote her, at the worst moment of his life.",
       "verification": "verified-exact",
@@ -70,14 +80,17 @@
       "work": "letters-2000",
       "locator": "p. 845",
       "locator_type": "page",
-      "quote": "Dear Sphinx, I was so charmed with seeing you yesterday morning that I must write a line to tell you how sweet and good it was of you to be of the very first to greet me. When I think that Sphinxes are minions of the moon, and that you got up early before dawn, I am filled with wonder and joy. I often thought of you in the long black days and nights of my prison life, and to find you just as wonderful and dear as ever was no surprise. The beautiful are always beautiful. This is my first day of real liberty, so I try to send you a line, and with kind regards to dear Ernest whom I was pleased to see again, ever affectionately yours … I am staying here as Sebastian Melmoth - not Esquire but Monsieur Sebastien Melmoth. I have thought it better that Robbie should stay here under the name of Reginald Turner, and Reggie under the name of R. B. Ross. It is better that they should not have their own names.",
+      "quote": "Dear Sphinx, I was so charmed with seeing you yesterday morning that I must write a line to tell you how sweet and good it was of you to be of the very first to greet me. When I think that Sphinxes are minions of the moon, and that you got up early before dawn, I am filled with wonder and joy.\n\nI often thought of you in the long black days and nights of my prison life, and to find you just as wonderful and dear as ever was no surprise. The beautiful are always beautiful.\n\nThis is my first day of real liberty, so I try to send you a line, and with kind regards to dear Ernest whom I was pleased to see again, ever affectionately yours…I am staying here as Sebastian Melmoth - not Esquire but Monsieur Sebastien Melmoth. I have thought it better that Robbie should stay here under the name of Reginald Turner, and Reggie under the name of R. B. Ross. It is better that they should not have their own names.",
       "context": "Wilde to Ada Leverson, [20 May 1897], Hôtel Sandwich, Dieppe (MS Clark) - quoted whole including the postscript, on his first day out of prison. Two years and a conviction after the previous letter, the friendship is exactly where it was. The postscript is the circle's discretion at its most literal: Robert Ross and Reginald Turner, both on this map, were travelling under each other's names, and Wilde under a third. He tells her because she is someone who can be told.",
       "speaker": "Oscar Wilde",
       "addressee": "Ada Leverson",
-      "evidence_date": {
-        "y": 1897,
-        "m": 5,
-        "d": 20
+      "written": {
+        "date": {
+          "y": 1897,
+          "m": 5,
+          "d": 20
+        },
+        "place": "dieppe"
       },
       "supports": "That she was among the first to meet him out of prison, and that he trusted her with the aliases.",
       "verification": "verified-exact",
@@ -90,7 +103,30 @@
         "repository": "William Andrews Clark Memorial Library, UCLA"
       },
       "letter_id": "letters-2000/845#1"
+    },
+    {
+      "quote": "",
+      "context": "The label mentions Holloway among the friendship's places, but no source in this record names it: the cited letters are from the Albemarle Club, 146 Oakley Street, and Dieppe.",
+      "work": "letters-2000",
+      "locator": "General Index s.v. Leverson, Ada",
+      "locator_type": "page",
+      "supports": "Would settle Holloway as a place of the friendship: a Leverson letter or note naming it.",
+      "verification": "unverified",
+      "how_verified": "unverified",
+      "citation_provenance": "",
+      "document": "editorial-note"
+    },
+    {
+      "quote": "",
+      "context": "The label dates the friendship from 1893, but the record's summary dates it from the Chameleon letter of December 1894. The volume prints an earlier letter to Leverson, [? Summer 1893] (folio 568), not quoted in this record.",
+      "work": "letters-2000",
+      "locator": "p. 568",
+      "locator_type": "page",
+      "supports": "Would settle the 1893 start: the [? Summer 1893] letter to Leverson, read at the page.",
+      "verification": "unverified",
+      "how_verified": "unverified",
+      "citation_provenance": "",
+      "document": "letter"
     }
-  ],
-  "date_label": "London, Holloway and Dieppe, 1893-1897"
+  ]
 }

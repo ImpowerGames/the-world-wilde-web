@@ -8,11 +8,18 @@
   "certainty_status": "proposed",
   "certainty_reasoning": "Cook states flatly that 'Ives slept with Lord Alfred Douglas at the Albany' and, quoting the Ives diary in the source, records the night Ives refused a third man ('thought it wouldn't do in the Albany') and Ives's own words 'I had no objection to the thing itself'. Corroboration: Cook returns to this in Queer Domesticities (2014) p. 99, where the sexual relationship is stated in his own voice as settled background - the anecdote turns on his refusing a *third* man, not on the fact of the pair.",
   "start": {
-    "y": 1893,
-    "m": 10
+    "date": {
+      "y": 1893,
+      "m": 10
+    }
   },
-  "end": null,
-  "date_label": "Oct. 1893 (introduced at Wilde's Savoy dinner, 15 Oct.) - mid-1890s; the Albany night(s) undated by Cook, necessarily after 30 June 1894 (E4 move-in). Attachment ended when 'Douglas turned on Wilde' (Ives marked him 'traitor' in the diary; undated).",
+  "end": {
+    "date": {
+      "y": 1895,
+      "circa": true,
+      "inferred": true
+    }
+  },
   "summary": "A brief liaison within the Wilde circle: Wilde brought Ives and Douglas together at a Savoy dinner on 15 October 1893 (recorded in Ives's diary), and Douglas visited and spent at least one night at Ives's chambers at E4 the Albany, where Ives refused to allow a third man to join them - 'it wouldn't do in the Albany'. Ives's diary records that he repeatedly warned Douglas over his recklessness while having 'no objection to the thing itself', and after Douglas turned on Wilde, Ives wrote 'traitor' against his name.",
   "sources": [
     {
@@ -21,7 +28,6 @@
       "work": "cook-2003",
       "locator": "pp. 146-147",
       "locator_type": "page",
-      "evidence_date": null,
       "supports": "The only passage on this edge in which a participant speaks, and the most explicit characterization available of what Ives thought he was doing with Douglas. The clause that carries it is 'I had no objection to the thing itself' - Ives conceding the sex and objecting only to the risk of arrest, which is as close to a plain statement of a sexual relationship as either man left. Ives's diary, undated entry, as quoted by Cook (2003).",
       "verification": "verified-exact",
       "how_verified": "text-layer",
@@ -40,7 +46,6 @@
       "work": "cook-2003",
       "locator": "p. 32",
       "locator_type": "page",
-      "evidence_date": null,
       "supports": "Ives slept with Douglas at the Albany (Cook's assertion, resting on the Ives diary)",
       "verification": "verified-exact",
       "how_verified": "text-layer",
@@ -55,14 +60,16 @@
       "work": "cook-2003",
       "locator": "p. 146",
       "locator_type": "page",
-      "evidence_date": null,
       "supports": "Douglas spent the night at Ives's Albany rooms; Ives refused a third man, in the diary's words 'thought it wouldn't do in the Albany'",
       "verification": "verified-exact",
       "how_verified": "text-layer",
       "citation_provenance": "PDF p. 162.",
       "verified_on": "2026-08-03",
       "voice": "modern",
-      "document": "study"
+      "document": "study",
+      "occurred": {
+        "place": "the-albany"
+      }
     },
     {
       "quote": "Ives had moved into E4 Albany in Piccadilly on 30 June. According to his diary 'O[scar] and B[osie] came to tea' on 5 July.",
@@ -70,10 +77,12 @@
       "work": "letters-2000",
       "locator": "p. 592 n. 3",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1894,
-        "m": 7,
-        "d": 5
+      "occurred": {
+        "date": {
+          "y": 1894,
+          "m": 7,
+          "d": 5
+        }
       },
       "supports": "Douglas at Ives's Albany rooms, 5 July 1894 (diary); fixes the E4 move-in at 30 June 1894, so the Albany night(s) postdate it",
       "verification": "verified-exact",
@@ -89,7 +98,6 @@
       "work": "cook-2014",
       "locator": "p. 99",
       "locator_type": "page",
-      "evidence_date": null,
       "supports": "Cook states in his own voice that Ives and Douglas had sex at the Albany - the refusal is of a third participant only, and the stated reason is decorum rather than disinclination.",
       "verification": "verified-exact",
       "how_verified": "text-layer",
@@ -104,7 +112,6 @@
       "work": "cook-2003",
       "locator": "p. 147",
       "locator_type": "page",
-      "evidence_date": null,
       "supports": "How Ives ended it, in Ives's own word. This record's summary already asserted the 'traitor' annotation without a source entry behind it; this supplies one. Note what the word is answering: Ives broke with Douglas over Douglas's conduct towards Wilde, not over anything between Douglas and himself. Ives's diary, undated, as quoted by Cook.",
       "verification": "verified-exact",
       "how_verified": "text-layer",

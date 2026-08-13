@@ -7,14 +7,17 @@
   "certainty": "platonic",
   "certainty_status": "proposed",
   "start": {
-    "y": 1897,
-    "m": 10,
-    "d": 19
+    "date": {
+      "y": 1897,
+      "m": 10,
+      "d": 19
+    }
   },
   "end": {
-    "y": 1897,
-    "m": 10,
-    "d": 19
+    "date": {
+      "y": 1900,
+      "inferred": true
+    }
   },
   "summary": "Wilde thanking Vincent O'Sullivan for defending him in public in 1897, when few would.",
   "certainty_reasoning": "The record documents a friendship or acquaintance with no evidence of attraction or romance; classified platonic, upgradable if contrary evidence comes to light.",
@@ -23,14 +26,17 @@
       "work": "letters-2000",
       "locator": "p. 963",
       "locator_type": "page",
-      "quote": "Dear Vincent O'Sullivan, I am delighted to hear from Smithers that there is really some chance of your being at Naples this winter, and look forward with the greatest pleasure, I need hardly say, to seeing you again. I have also heard incidentally of something that happened at the Authors' Club last week: and I cannot express to you adequately how deeply touched I was by the position you took up with regard to me, and by the dignity and, …",
+      "quote": "Dear Vincent O'Sullivan, I am delighted to hear from Smithers that there is really some chance of your being at Naples this winter, and look forward with the greatest pleasure, I need hardly say, to seeing you again.\n\nI have also heard incidentally of something that happened at the Authors' Club last week: and I cannot express to you adequately how deeply touched I was by the position you took up with regard to me, and by the dignity and,…",
       "context": "Wilde to Vincent o'Sullivan, 19 October 1897, Villa Giudice, Posilippo (MS Bodley). The letter breaks where the printed page does. The same folio carries Wilde's rebuke to Sherard for the attack o'Sullivan had stood against.",
       "speaker": "Oscar Wilde",
       "addressee": "Vincent O'Sullivan",
-      "evidence_date": {
-        "y": 1897,
-        "m": 10,
-        "d": 19
+      "written": {
+        "date": {
+          "y": 1897,
+          "m": 10,
+          "d": 19
+        },
+        "place": "naples"
       },
       "supports": "Wilde thanking a man for defending him in public in 1897, when few would.",
       "verification": "verified-elision",
@@ -43,7 +49,21 @@
         "repository": "Bodleian Library, Oxford"
       },
       "letter_id": "letters-2000/963#2"
+    },
+    {
+      "quote": "",
+      "context": "Paris is believed to be a place of the friendship - O'Sullivan was a Paris-based journalist and the friendship continued there to 1900 - but no source in this record names the city: the single cited letter is written from Villa Giudice, Posilippo, Naples (19 October 1897).",
+      "work": "letters-2000",
+      "locator": "General Index s.v. O'Sullivan, Vincent",
+      "locator_type": "page",
+      "supports": "Would settle Paris as a place of the friendship: the volume's O'Sullivan index entry, read at the page.",
+      "verification": "unverified",
+      "how_verified": "unverified",
+      "citation_provenance": "",
+      "document": "editorial-note",
+      "occurred": {
+        "place": "paris"
+      }
     }
-  ],
-  "date_label": "Naples and Paris, 1897-1900"
+  ]
 }

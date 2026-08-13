@@ -4,10 +4,14 @@
   "sort_name": "Hill, Graham",
   "aka": [],
   "born": {
-    "y": 1865
+    "date": {
+      "y": 1865
+    }
   },
   "died": {
-    "y": 1933
+    "date": {
+      "y": 1933
+    }
   },
   "group": "aesthete",
   "gender": "m",

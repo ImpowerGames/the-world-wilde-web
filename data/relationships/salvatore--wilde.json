@@ -9,14 +9,17 @@
   "direction": "wilde",
   "outcome": "unknown",
   "start": {
-    "y": 1900,
-    "m": 4
+    "date": {
+      "y": 1900,
+      "m": 4
+    }
   },
   "end": {
-    "y": 1900,
-    "m": 4
+    "date": {
+      "y": 1900,
+      "m": 4
+    }
   },
-  "date_label": "Palermo, April 1900",
   "summary": "Wilde named Salvatore to Robert Ross as one of the three most favoured of the Monreale coachmen, and said 'I loved them all'.",
   "sources": [
     {
@@ -27,10 +30,13 @@
       "context": "Wilde to Robert Ross, 16 April [1900], c/o Cook & Son, Piazza di Spagna, Rome (MS Clark), quoted across the page break. 'cocchieri' are coachmen. Wilde had spent eight days at Palermo and drove out to Monreale repeatedly. Seven months before his death.",
       "speaker": "Oscar Wilde",
       "addressee": "Robert Ross",
-      "evidence_date": {
-        "y": 1900,
-        "m": 4,
-        "d": 16
+      "written": {
+        "date": {
+          "y": 1900,
+          "m": 4,
+          "d": 16
+        },
+        "place": "rome"
       },
       "supports": "The whole of the record for Salvatore.",
       "verification": "verified-exact",
@@ -42,7 +48,10 @@
       "manuscript": {
         "repository": "William Andrews Clark Memorial Library, UCLA"
       },
-      "letter_id": "letters-2000/1178#2"
+      "letter_id": "letters-2000/1178#2",
+      "occurred": {
+        "place": "palermo"
+      }
     }
   ]
 }

@@ -7,16 +7,19 @@
   "certainty": "uncorroborated",
   "certainty_status": "proposed",
   "start": {
-    "y": 1893,
-    "m": 1,
-    "circa": true
+    "date": {
+      "y": 1893,
+      "m": 1,
+      "circa": true
+    }
   },
   "end": {
-    "y": 1893,
-    "m": 4,
-    "circa": true
+    "date": {
+      "y": 1893,
+      "m": 4,
+      "circa": true
+    }
   },
-  "date_label": "January 1893 (three weeks' cohabitation; acquaintance possibly from May 1892 per Taylor)",
   "summary": "Alfred Wood, an out-of-work clerk, lived at Taylor's one-bed rooms at 13 Little College Street for about three weeks in January 1893, sharing the room and — on the arithmetic of his own testimony that the rooms held 'only one bed' — the bed. He dated his first acts of indecency to going to College Street without naming a partner. Taylor said they had met earlier, in May 1892 at Atkins's rooms. The procuring-Wood counts against Taylor ended in a directed not-guilty; no count alleged acts between the two men.",
   "disputed": {
     "claim": "that sexual relations occurred between Taylor and Wood at 13 Little College Street, January 1893",
@@ -31,9 +34,11 @@
       "work": "hyde-trials-1948",
       "locator": "p. 201",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1895,
-        "m": 4
+      "occurred": {
+        "date": {
+          "y": 1895,
+          "m": 4
+        }
       },
       "supports": "The three-week single-bed cohabitation, January 1893 — the class-deciding quote",
       "verification": "verified-exact",
@@ -73,9 +78,11 @@
       "work": "hyde-trials-1948",
       "locator": "p. 205",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1895,
-        "m": 4
+      "occurred": {
+        "date": {
+          "y": 1895,
+          "m": 4
+        }
       },
       "supports": "Wood dating his first acts of indecency to going to Taylor's — implication, not attestation, of acts with Taylor",
       "verification": "verified-exact",
@@ -103,9 +110,11 @@
       "work": "hyde-trials-1948",
       "locator": "p. 199",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1895,
-        "m": 4
+      "occurred": {
+        "date": {
+          "y": 1895,
+          "m": 4
+        }
       },
       "supports": "Independent corroboration of the three-week stay",
       "verification": "verified-exact",
@@ -133,9 +142,11 @@
       "work": "hyde-trials-1948",
       "locator": "p. 286",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1895,
-        "m": 5
+      "occurred": {
+        "date": {
+          "y": 1895,
+          "m": 5
+        }
       },
       "supports": "Taylor's conflicting (earlier) dating of the acquaintance",
       "verification": "verified-exact",

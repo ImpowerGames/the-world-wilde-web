@@ -10,11 +10,17 @@
   "direction": "warren",
   "outcome": "unknown",
   "start": {
-    "y": 1903,
-    "circa": true
+    "date": {
+      "y": 1903,
+      "circa": true
+    }
   },
-  "end": null,
-  "date_label": "C. 1903 – 1928",
+  "end": {
+    "date": {
+      "y": 1928,
+      "inferred": true
+    }
+  },
   "summary": "Harry Thomas came to Warren as protege and private secretary, giving Lewes House as his Harvard address in 1903-04. By 1906 Warren was parading him around Boston and Fewacres and some read him as 'Ned's new boy friend'; Marshall was bitterly jealous. Sox counts Warren's infatuation with Thomas among the strains that ran through his relationships, and counts Thomas among those Warren loved and wanted to possess. Thomas married Nan Devey the year after Marshall married, and stayed in Warren's service until Warren died.",
   "sources": [
     {
@@ -23,8 +29,10 @@
       "work": "sox-1991",
       "locator": "p. 77",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1906
+      "occurred": {
+        "date": {
+          "y": 1906
+        }
       },
       "supports": "The contemporary perception of Thomas as 'Ned's new boy friend' and Marshall's jealousy",
       "verification": "verified-exact",

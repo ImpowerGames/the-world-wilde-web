@@ -7,16 +7,21 @@
   "certainty": "self-reported",
   "certainty_status": "proposed",
   "start": {
-    "y": 1899,
-    "m": 2,
-    "circa": true
+    "date": {
+      "y": 1899,
+      "m": 2,
+      "part": "late",
+      "inferred": true
+    }
   },
   "end": {
-    "y": 1899,
-    "m": 2,
-    "circa": true
+    "date": {
+      "y": 1899,
+      "m": 2,
+      "part": "late",
+      "inferred": true
+    }
   },
-  "date_label": "Three days at Genoa, on Wilde's journey from the Riviera into Switzerland, recounted in a letter postmarked 20 March 1899 from Gland. The letter dates neither the stop nor the days, but the letters fix the journey: Wilde left Nice for Switzerland 'via Genoa, where I wish to stay a day' on 25 February 1899 (to Ross, p. 1127) and wrote from Gland of his 'arrival from Genoa yesterday' ([circa 1 March 1899], p. 1127), so the stop fell in late February 1899.",
   "summary": "On his way from the Riviera to Harold Mellor's villa at Gland, Wilde broke his journey at Genoa and met a young Florentine actor named Didaco, with whom he spent three days. He reported it to Reginald Turner in a letter postmarked 20 March 1899 - a named, dated, first-person-attested liaison of the exile years, and one of the few for which Wilde records the other man's name. Nothing further about Didaco survives in the correspondence read: the letter ends on the following printed page with no second mention.",
   "sources": [
     {
@@ -25,10 +30,12 @@
       "work": "letters-2000",
       "locator": "p. 1132",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1899,
-        "m": 3,
-        "d": 20
+      "postmarked": {
+        "date": {
+          "y": 1899,
+          "m": 3,
+          "d": 20
+        }
       },
       "supports": "The whole of the record: Wilde's account of meeting Didaco at Genoa, of loving him, and of three days spent together",
       "verification": "verified-exact",
@@ -41,7 +48,19 @@
       "manuscript": {
         "repository": "British Library, London (Lady Eccles Oscar Wilde Collection)"
       },
-      "letter_id": "letters-2000/1132#1"
+      "letter_id": "letters-2000/1132#1",
+      "written": {
+        "place": "gland"
+      },
+      "occurred": {
+        "place": "genoa",
+        "date": {
+          "y": 1899,
+          "m": 2,
+          "part": "late",
+          "inferred": true
+        }
+      }
     }
   ]
 }

@@ -9,12 +9,16 @@
   "direction": "levy",
   "outcome": "unreciprocated",
   "start": {
-    "y": 1886
+    "date": {
+      "y": 1886
+    },
+    "place": "florence"
   },
   "end": {
-    "y": 1889
+    "date": {
+      "y": 1889
+    }
   },
-  "date_label": "Met at Florence, 1886; the poems and letters follow; Levy died in 1889",
   "summary": "Amy Levy met Vernon Lee at Florence in 1886 and fell in love with her. She sent Lee love poems - the sonnet 'To Vernon Lee', set on Bellosguardo, and 'New Love, New Life' - and expressed her admiration in letters; the friendship also brought her into Lee's circle, notably the poet Dorothy Blomfield. Nothing in the sources read records reciprocation by Lee, and Levy's biographer describes a woman who never had a requited attachment to any of the women she loved. Levy died by suicide in 1889, three years after the Florence meeting. The two women's other point of contact is Wilde himself, who was publishing Levy in the Woman's World across exactly these years.",
   "sources": [
     {
@@ -23,8 +27,11 @@
       "work": "beckman-jwa-levy",
       "locator": null,
       "locator_type": "none",
-      "evidence_date": {
-        "y": 1886
+      "occurred": {
+        "date": {
+          "y": 1886
+        },
+        "place": "florence"
       },
       "supports": "That Levy sent Lee love poems and expressed admiration in letters: the desire, and its direction.",
       "verification": "verified-exact",
@@ -40,8 +47,11 @@
       "work": "diniejko-victorianweb-levy",
       "locator": null,
       "locator_type": "none",
-      "evidence_date": {
-        "y": 1886
+      "occurred": {
+        "date": {
+          "y": 1886
+        },
+        "place": "florence"
       },
       "supports": "The one-sidedness (outcome = unreciprocated), the 1886 Florence meeting, and the dedication of the sonnet.",
       "verification": "verified-exact",
@@ -57,8 +67,10 @@
       "work": "letters-2000",
       "locator": "p. 326 n. 1",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1887
+      "occurred": {
+        "date": {
+          "y": 1887
+        }
       },
       "supports": "Levy's professional tie to Wilde and the manner of her death, which sets the end of this record; her dates as Wilde's editors give them (superseded on the birth year).",
       "verification": "verified-exact",
@@ -74,8 +86,11 @@
       "work": "beckman-2000-levy",
       "locator": "pp. 120-121",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1886
+      "occurred": {
+        "date": {
+          "y": 1886
+        },
+        "place": "florence"
       },
       "supports": "Levy's letters to and about Vernon Lee, in her own words.",
       "verification": "verified-elision",

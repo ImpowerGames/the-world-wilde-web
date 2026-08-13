@@ -6,10 +6,14 @@
     "Robbie"
   ],
   "born": {
-    "y": 1869
+    "date": {
+      "y": 1869
+    }
   },
   "died": {
-    "y": 1918
+    "date": {
+      "y": 1918
+    }
   },
   "group": "aesthete",
   "bio": "Canadian-born literary journalist, art critic and gallery-owner, grandson of Robert Baldwin, first Prime Minister of Upper Canada; brought to England aged two, he went up to King's College, Cambridge, in October 1888 and left abruptly in 1889 after a student-magazine libel, a ducking in the college fountain and a nervous breakdown. He met Wilde in 1886 and lodged with the Wildes at 16 Tite Street through part of 1887; he remained, in the editors' words, 'his most faithful friend until Wilde's death when he became the literary executor to the estate'. In 1893 he and Lord Alfred Douglas were jointly threatened with prosecution over a schoolboy pupil of the Rev. Biscoe Wortham's at Bruges, and Ross spent the following winter out of reach at Davos. By 1897 he shared lodgings with More Adey at 24 Hornton Street, Kensington - by his biographer's account 'not as lovers, but as two bachelor friends' - and later ran the Carfax picture gallery with him. He kept daily attendance through Wilde's final illness, brought the priest who received Wilde into the Catholic Church, was at the bedside at the death on 30 November 1900, hired the Bagneux grave in his own name and moved the remains to Pere Lachaise in 1909. From early 1903 until the autumn of 1913 his life was shared with Frederick 'Freddie' Smith, a clerk of eighteen when they met, whom he employed as his secretary and with whom he openly set up house at 15 Vicarage Gardens, Kensington, from 1906. He published Wilde's De Profundis in 1905, cleared the estate of bankruptcy, became art critic and then art editor of the Morning Post, and was passed over for the directorship of the Tate. From 1911 Douglas and T. W. H. Crosland ran a campaign of surveillance and criminal accusation against him that produced the 1913 Ransome libel trial, Ross's own eight-day prosecution of Douglas at the Old Bailey, and the 1914 conspiracy proceedings; he was cleared, and afterwards lived quietly in rooms at 40 Half Moon Street, mentoring younger writers including Siegfried Sassoon and, through Sassoon, Wilfred Owen. He died there of heart failure on 5 October 1918, aged forty-nine.",

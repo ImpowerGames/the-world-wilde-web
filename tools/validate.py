@@ -132,6 +132,116 @@ DOCUMENTS = {
 # down. Everything else is a thing with a spine.
 WORK_KINDS = {"primary", "primary-edition", "secondary", "secondary-web",
               "interview", "trial-transcript"}
+# A place, in the two fields that carry one: `places` on a relationship and `from` on an act.
+# All four optional and at least one present. Structured rather than a bare name so a place can be
+# PUT somewhere - "Hotel de Nice, Paris" as one string is neither filterable by city nor mappable,
+# and files under a different letter of the alphabet from the eleven other letters from Paris.
+# `region` earns its place on 'Gland, Canton Vaud', where the middle term is neither city nor
+# country; without it the shape would be deciding the facts.
+# `street` keeps a street address out of `venue`, so that a venue is only ever the name of
+# the place. While "New Travellers Club, Piccadilly" sat in `venue` it could never match a
+# plain "New Travellers Club" written anywhere else, and "16 Tite Street" was being filed
+# as a venue when it is an address with no venue in it.
+#
+# NOTHING HERE CAN VALIDATE A VENUE NAME. A checker cannot know that "Terminus Hotel" and
+# "Hotel Terminus" are one house in Nice. Consistency is kept by hand, against the source
+# volume's own usage - see CONTRIBUTING-CODE.md - and it matters because a finding aid
+# where one house files twice hides half the letters from whoever looks up either name.
+PLACE_FIELDS = {"venue", "street", "city", "region", "country"}
+
+
+# data/places.json, loaded once. A place is named there and referred to by id everywhere else,
+# so that a spelling is a REFERENCE and not a fresh act of typing - which is what lets a validator
+# catch what it could not before, and makes adding a place deliberate rather than accidental.
+PLACES = {}
+PLACE_ID = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
+
+
+def places_used(rels, transcriptions):
+    """Every place id anything refers to, from all three fields that can hold one."""
+    used = set()
+    for r in rels:
+        used.update(v for v in r.get("places") or [] if isinstance(v, str))
+        for q in r.get("sources") or []:
+            for a in ACTS + ("occurred",):
+                v = (q.get(a) or {}).get("place")
+                if isinstance(v, str):
+                    used.add(v)
+    for t in (transcriptions or {}).values():
+        for a in ACTS + ("occurred",):
+            v = (t.get(a) or {}).get("place")
+            if isinstance(v, str):
+                used.add(v)
+    return used
+
+
+def load_places(errors, warnings):
+    """Read and check the gazetteer itself."""
+    f = DATA / "places.json"
+    if not f.exists():
+        errors.append("data/places.json is missing - it is the canonical list of places")
+        return {}
+    try:
+        gaz = json.loads(f.read_text(encoding="utf-8"))
+    except json.JSONDecodeError as e:
+        errors.append(f"data/places.json: {e}")
+        return {}
+    seen = {}
+    for pid, v in gaz.items():
+        if not PLACE_ID.match(pid):
+            errors.append(f"places.json: {pid!r} is not an id - lowercase words joined by hyphens")
+        k = check_place(v, f"places.json[{pid}]", errors)
+        if k is None:
+            continue
+        if k in seen:
+            errors.append(f"places.json: {pid} and {seen[k]} are the same place written twice")
+        seen[k] = pid
+    # THE CHECK THAT USED TO BE IMPOSSIBLE. Nothing can know that two venue names mean one house,
+    # but two venues in the same city built from the same words - "Terminus Hotel" and "Hotel
+    # Terminus" - are one house often enough to be worth stopping over. A warning, not an error:
+    # a city can hold a Grand Hotel and a Hotel Grand, and being wrong here must not fail a build.
+    byword = {}
+    for pid, v in gaz.items():
+        if not v.get("venue"):
+            continue
+        k = (v.get("city"), tuple(sorted(v["venue"].lower().replace(".", "").split())))
+        byword.setdefault(k, []).append(pid)
+    for (city, _), same in byword.items():
+        if len(same) > 1:
+            warnings.append(f"places.json: {' and '.join(same)} are the same words in a different "
+                            f"order, both in {city} - one house under two names?")
+    return gaz
+
+
+def place_ref(v, where, errors):
+    """A reference INTO the gazetteer, which is how every field records a place."""
+    if not isinstance(v, str) or not v.strip():
+        errors.append(f"{where}: a place is an id from data/places.json, not "
+                      f"{'an object written out here' if isinstance(v, dict) else repr(v)}")
+        return None
+    if PLACES and v not in PLACES:
+        errors.append(f"{where}: no place {v!r} in data/places.json. Add it there first - naming "
+                      f"a place once is what keeps one house from filing under two names")
+        return None
+    return v
+
+
+def check_place(v, where, errors):
+    """Validate one place object. Returns a key that compares two places for sameness."""
+    if not isinstance(v, dict):
+        errors.append(f"{where}: {v!r} - a place is "
+                      f"{{venue?, street?, city?, region?, country?}}, not a bare name")
+        return None
+    unknown = set(v) - PLACE_FIELDS
+    if unknown:
+        errors.append(f"{where}: unknown field(s) {sorted(unknown)} - a place carries "
+                      f"{', '.join(sorted(PLACE_FIELDS))}")
+    if not any(v.get(k) for k in PLACE_FIELDS):
+        errors.append(f"{where}: a place naming nothing; leave it out")
+    for k in PLACE_FIELDS:
+        if k in v and not (isinstance(v[k], str) and v[k].strip() == v[k] and v[k]):
+            errors.append(f"{where}.{k}: {v.get(k)!r} is not a name")
+    return tuple(v.get(k) for k in sorted(PLACE_FIELDS))
 LOCATOR_TYPES = {"page", "diary-entry", "trial-day", "letter-date", "none"}
 GROUPS = {"core", "family", "society", "aesthete", "trials", "chaeronea",
           "later", "liaisons", "beyond"}
@@ -159,7 +269,7 @@ TRANSCRIBED_FROM = {"facsimile", "printed"}
 # postmark or a docket - "[Date of receipt 2 July 1891]" - which the volume gives
 # for 13 letters and which is neither writing, posting, nor handing in at a counter.
 ACTS = ("written", "sent", "postmarked", "received")
-ACT_FIELDS = {"date", "from", "time"}
+ACT_FIELDS = {"date", "place", "time"}
 LETTER_FOLIO = re.compile(r"^[^/]+/(\d+)")
 YEAR = re.compile(r"\b(?:18|19|20)\d\d\b")
 
@@ -362,7 +472,7 @@ def load_transcriptions(errors, people=()):
             # The reader builds its header from these - "Wilde to George Ives, postmarked
             # 21 March 1898, Paris" - rather than cutting the first sentence out of `context`,
             # which needed a regex that knew about initials and abbreviations to recover what the
-            # transcriber knew all along. `written_from` is optional because some letters give none.
+            # transcriber knew all along. A place of writing is optional because some letters give none.
             # Written as the person's own `name`, the way `speaker` is on a source, so the two
             # ends of a letter read alike and can be linked to their nodes. The volume's idiom is
             # a surname - "Wilde to George Ives" - and copying that leaves one end of every
@@ -380,60 +490,7 @@ def load_transcriptions(errors, people=()):
                                   f"{', '.join(repr(x) for x in sorted(who))}. Write the full name "
                                   f"as the person's own `name` - the rule `speaker` follows, and "
                                   f"what lets a correspondent be linked to their node")
-            # ONE FIELD PER ACT, each carrying when and where that act happened:
-            #
-            #   "written":    {"date": {...}, "from": "New Travellers Club, Piccadilly"}
-            #   "postmarked": {"date": {...}, "from": "Paris"}
-            #   "sent":       {"date": {...}, "from": "Paris", "time": "3.50 p.m."}
-            #
-            # Writing, posting and handing in are ACTS, and an act has a when and a where, so the
-            # two travel together and the three fields are parallel by construction. The earlier
-            # `written_on` / `written_from` pairs were not: `written_on` reads as the paper it was
-            # written on, and nothing sensible lines up beside `postmarked_from`.
-            #
-            # EITHER HALF MAY BE MISSING, and which is missing is itself the finding. A letter
-            # headed "postmarked 21 March 1898" from Paris knows where he wrote it and not when,
-            # so `written` carries a `from` and no date while `postmarked` carries the date.
-            dated_acts = 0
-            for a in [a for a in ACTS if t.get(a) is not None]:
-                act = t[a]
-                if not isinstance(act, dict):
-                    errors.append(f"{at}.{a}: must be an object with a `date` and/or a `from`")
-                    continue
-                unknown = set(act) - ACT_FIELDS
-                if unknown:
-                    errors.append(f"{at}.{a}: unknown field(s) {sorted(unknown)} - an act carries "
-                                  f"{', '.join(sorted(ACT_FIELDS))}")
-                if not (act.get("date") or act.get("from")):
-                    errors.append(f"{at}.{a}: an act with neither a date nor a place says "
-                                  f"nothing; leave it out")
-                for f2 in ("from", "time"):
-                    if f2 in act and not (isinstance(act[f2], str) and act[f2].strip()):
-                        errors.append(f"{at}.{a}.{f2}: must be a non-empty string")
-                dt = act.get("date")
-                if dt is None:
-                    continue
-                if not isinstance(dt, dict):
-                    errors.append(f"{at}.{a}.date: must be an object like {{'y': 1900, 'm': 9}}")
-                    continue
-                dated_acts += 1
-                check_date({k: v for k, v in dt.items() if k != "certainty"},
-                           f"{at}.{a}.date", errors)
-                # NOT `y` required. The volume dates a few letters "Saturday night" or
-                # "Thursday 3 June" - the writer's own heading, which the editors could not pin
-                # to a year - and demanding one would force an invention. A date must say
-                # something; a weekday alone is something. It sorts last, which is honest.
-                if not any(isinstance(dt.get(k), int) for k in ("y", "m", "d")) \
-                        and not dt.get("weekday") and not dt.get("season"):
-                    errors.append(f"{at}.{a}.date: says nothing - give it a year, a month, a "
-                                  f"day, a season or the weekday the writer wrote. An empty "
-                                  f"date is an act with no date, so leave the date out instead")
-                # `certainty` belongs to the DATE, not the letter: in "Tuesday [? early October
-                # 1899]" the day-name is Wilde's and the date is the editors' guess.
-                if dt.get("certainty") not in (None, "conjectured"):
-                    errors.append(f"{at}.{a}.date: certainty is 'conjectured' or absent, got "
-                                  f"{dt.get('certainty')!r}. There is no 'stated' - a date the "
-                                  f"volume prints plainly simply carries nothing")
+            dated_acts = check_acts(t, at, errors)
             if not dated_acts:
                 errors.append(f"{at}: no structured date on any of {', '.join(ACTS)} - the "
                               f"letter sorts nowhere and the reader cannot name it")
@@ -577,7 +634,6 @@ def check_facsimile(q, where, archives, errors, warnings):
         elif not have[n]["pointer"]:
             errors.append(f"{where}.facsimile: {ak} item {ik} page {n} has no archive pointer, "
                           f"so the page cannot be addressed at the archive's image service")
-    check_document(q, where, errors)
 
 
 SHELFMARK_IN_NAME = re.compile(r"\b(?:MA|MS|MSS|Add\.? ?MS|b?MS)\s*\d", re.I)
@@ -724,6 +780,108 @@ def check_letter_id(q, where, errors):
             if len(set(many)) != len(many):
                 errors.append(f"{where}.letter_ids: the same id twice - a record quoting one "
                               f"document once takes letter_id")
+
+
+# Documents written on one occasion, at a place. A biography is written over years in no one
+# place, and "written from" is not a fact about it.
+OCCASIONAL = {"letter", "telegram", "postcard", "diary", "inscription", "manuscript",
+              "typescript"}
+
+
+def check_acts(o, at, errors, names=ACTS):
+    """The acts of a document, each carrying when and where that act happened.
+
+        "written":    {"date": {...}, "place": "hotel-de-nice"}
+        "postmarked": {"date": {...}, "place": "paris"}
+        "sent":       {"date": {...}, "place": "paris", "time": "3.50 p.m."}
+
+    Writing, posting and handing in are acts, and an act has a when and a where, so the two
+    travel together and the fields are parallel by construction.
+
+    Either half may be missing, and which is missing is itself the finding: a letter headed
+    "postmarked 21 March 1898" from Paris knows where he wrote it and not when, so `written`
+    carries a place and no date while `postmarked` carries the date.
+
+    Returns how many acts carry a date, which is what tells a caller whether the document can
+    be sorted.
+    """
+    dated_acts = 0
+    for a in [a for a in names if o.get(a) is not None]:
+        act = o[a]
+        if not isinstance(act, dict):
+            errors.append(f"{at}.{a}: must be an object with a `date` and/or a `place`")
+            continue
+        unknown = set(act) - ACT_FIELDS
+        if unknown:
+            errors.append(f"{at}.{a}: unknown field(s) {sorted(unknown)} - an act carries "
+                          f"{', '.join(sorted(ACT_FIELDS))}")
+        if not (act.get("date") or act.get("place")):
+            errors.append(f"{at}.{a}: an act with neither a date nor a place says nothing; "
+                          f"leave it out")
+        if "time" in act and not (isinstance(act["time"], str) and act["time"].strip()):
+            errors.append(f"{at}.{a}.time: must be a non-empty string")
+        # Where a letter was written is a different question from where the letter is now, and
+        # only a place id can answer the first one for a filter.
+        if "place" in act:
+            place_ref(act["place"], f"{at}.{a}.place", errors)
+        dt = act.get("date")
+        if dt is None:
+            continue
+        if not isinstance(dt, dict):
+            errors.append(f"{at}.{a}.date: must be an object like {{'y': 1900, 'm': 9}}")
+            continue
+        dated_acts += 1
+        check_date({k: v for k, v in dt.items() if k != "certainty"}, f"{at}.{a}.date", errors)
+        # A year is not required. The volume dates a few letters "Saturday night" or "Thursday
+        # 3 June" - the writer's own heading, which the editors could not pin to a year - and
+        # demanding one would force an invention. A date must say something; a weekday alone is
+        # something. It sorts last, which is honest.
+        if not any(isinstance(dt.get(k), int) for k in ("y", "m", "d")) \
+                and not dt.get("weekday") and not dt.get("season"):
+            errors.append(f"{at}.{a}.date: says nothing - give it a year, a month, a day, a "
+                          f"season or the weekday the writer wrote. An empty date is an act "
+                          f"with no date, so leave the date out instead")
+        # `certainty` belongs to the date, not the letter: in "Tuesday [? early October 1899]"
+        # the day-name is Wilde's and the date is the editors' guess.
+        if dt.get("certainty") not in (None, "conjectured"):
+            errors.append(f"{at}.{a}.date: certainty is 'conjectured' or absent, got "
+                          f"{dt.get('certainty')!r}. There is no 'stated' - a date the volume "
+                          f"prints plainly simply carries nothing")
+    return dated_acts
+
+
+def check_source_acts(q, where, errors):
+    """Where and when the quoted document was written, posted or sent.
+
+    A reader arrives asking for everything Wilde sent from Berneval during the exile, and a
+    quotation can answer that long before anyone transcribes the whole letter. The acts here are
+    the ones a transcription carries, so the two records of one letter have the same shape and
+    can be compared.
+    """
+    acts = [a for a in ACTS if q.get(a) is not None]
+    if acts:
+        doc = q.get("document")
+        if doc in DOCUMENTS and doc not in OCCASIONAL:
+            errors.append(f"{where}: {', '.join(acts)} belongs to something written on one "
+                          f"occasion at one place ({', '.join(sorted(OCCASIONAL))}); a {doc} "
+                          f"was not")
+        else:
+            check_acts(q, where, errors)
+    if q.get("occurred") is None:
+        return
+    check_acts(q, where, errors, names=("occurred",))
+    # `occurred` is when the event a quotation attests happened, which is a claim about the
+    # world. For a biography that is decades before the book. For a letter the letter's own date
+    # is already on its act, so an `occurred` repeating it says nothing twice.
+    oc = (q.get("occurred") or {}).get("date")
+    if not isinstance(oc, dict):
+        return
+    for a in acts:
+        dt = (q.get(a) or {}).get("date")
+        if isinstance(dt, dict) and dt == oc:
+            errors.append(f"{where}: occurred.date only restates {a}.date. It is for an event "
+                          f"the document reports, not for the date the document carries; drop "
+                          f"it unless the event happened at a different time")
 
 
 def check_document(q, where, errors):
@@ -902,7 +1060,11 @@ def date_sort_key(d):
 #   y m d      as far as the source goes
 #   t          time, 24-hour "HH:MM", normalised so it sorts; the wording it came from is gone
 #   weekday    a day-name the WRITER gave, which is evidence even when the date is a guess
-#   part       early | mid | late - a part of the month
+#   part       early | mid | late - a part of the month, or of the YEAR when no
+#              month is given: "early 1903"
+#   bound      not-later-than | not-earlier-than - a limit rather than a date.
+#              "by 1879" is the earliest the thing can have started; "at least
+#              1885" the latest it is attested. Sortable, which prose was not
 #   season     instead of a month
 #   circa      approximately
 #   uncertain  the editors' question mark
@@ -911,8 +1073,9 @@ def date_sort_key(d):
 #              biographer, or us, dating a letter from its own contents
 #   to label   a range, and the escape hatch for what a date object cannot say
 DATE_FIELDS = {"y", "m", "d", "t", "weekday", "part", "season",
-               "circa", "uncertain", "inferred", "to", "label"}
+               "circa", "uncertain", "inferred", "bound", "to"}
 DATE_PARTS = {"early", "mid", "late"}
+DATE_BOUNDS = {"not-later-than", "not-earlier-than"}
 DATE_SEASONS = {"spring", "summer", "autumn", "winter"}
 # Lowercase like every other enum here. English capitalises a day-name; that is the
 # renderer's business, not the record's.
@@ -935,9 +1098,6 @@ def check_date(d, where, errors, _depth=0):
     if "to" in d:
         if _depth:
             errors.append(f"{where}: a date range cannot itself have a `to`")
-        elif d.get("label"):
-            errors.append(f"{where}: has both `to` and `label` - `label` would win and the range "
-                          f"would never be shown; keep one")
         else:
             check_date(d["to"], f"{where}.to", errors, _depth + 1)
             if isinstance(d["to"], dict) and d["to"].get("y") is not None:
@@ -954,6 +1114,9 @@ def check_date(d, where, errors, _depth=0):
         errors.append(f"{where}: date has unknown field(s) {sorted(unknown)}. A date carries "
                       f"{', '.join(sorted(DATE_FIELDS))} - anything else is a typo that would "
                       f"sort wrong in silence")
+    if d.get("bound") is not None and d["bound"] not in DATE_BOUNDS:
+        errors.append(f"{where}: bound is {', '.join(sorted(DATE_BOUNDS))} - a limit, not a "
+                      f"date. Got {d['bound']!r}")
     if d.get("part") is not None and d["part"] not in DATE_PARTS:
         errors.append(f"{where}: part is {', '.join(sorted(DATE_PARTS))}, got {d['part']!r}")
     if d.get("season") is not None and d["season"] not in DATE_SEASONS:
@@ -994,12 +1157,28 @@ def check_date(d, where, errors, _depth=0):
         errors.append(f"{where}: implausible year {y}")
 
 
+def act_date(o, name):
+    """The date inside an act, or an empty dict where there is none."""
+    a = o.get(name)
+    return (a.get("date") or {}) if isinstance(a, dict) else {}
+
+
+def source_dates(q):
+    """Every date a source carries, as (field, date)."""
+    out = []
+    for a in ACTS + ("occurred",):
+        dt = (q.get(a) or {}).get("date") if isinstance(q.get(a), dict) else None
+        if isinstance(dt, dict):
+            out.append((a, dt))
+    return out
+
+
 def check_order_hint(q, where, errors):
     """`order_hint` places a source in the reading order when its date is genuinely unknown.
 
-    It exists so that nobody is tempted to invent an `evidence_date` to get the sequence right.
-    evidence_date means "the date of the thing evidenced" and is a claim about the world;
-    order_hint means "we do not know, and this is where it reads best", and must say why.
+    It exists so that nobody is tempted to invent a date to get the sequence right. A date on
+    `occurred` or on one of the document's acts is a claim about the world; `order_hint` means
+    "we do not know, and this is where it reads best", and must say why.
     """
     h = q.get("order_hint")
     if h is None:
@@ -1007,9 +1186,10 @@ def check_order_hint(q, where, errors):
     if not isinstance(h, dict):
         errors.append(f"{where}: order_hint must be an object")
         return
-    if q.get("evidence_date"):
-        errors.append(f"{where}: has BOTH evidence_date and order_hint - if the date is known, "
-                      f"drop the hint; if it is not, drop the date")
+    dated = source_dates(q)
+    if dated:
+        errors.append(f"{where}: carries order_hint as well as {dated[0][0]}.date - if the date "
+                      f"is known, drop the hint; if it is not, drop the date")
     check_date({k: v for k, v in h.items() if k != "why"}, f"{where}.order_hint", errors)
     if not (h.get("why") or "").strip():
         errors.append(f"{where}: order_hint needs a `why` saying what it rests on - an undated "
@@ -1143,12 +1323,12 @@ def validate_quote(q, where, works, errors, warnings=None, archives=None):
     wk = q.get("work")
     if wk and wk not in works:
         errors.append(f"{where}: unknown work key {wk!r} (add it to data/works.json)")
-    d = q.get("evidence_date")
-    check_date(d, f"{where}.evidence_date", errors)
     check_order_hint(q, where, errors)
     check_speaker_addressee(q, where, works, errors)
     check_turns(q, where, errors)
     check_facsimile(q, where, archives if archives is not None else {}, errors, warnings)
+    check_document(q, where, errors)
+    check_source_acts(q, where, errors)
     check_manuscript(q, where, errors)
     check_letter_id(q, where, errors)
     if q.get("addressee") is not None:
@@ -1215,10 +1395,11 @@ def validate_quote(q, where, works, errors, warnings=None, archives=None):
             errors.append(f"{where}.{_fld}: unbalanced emphasis marker - use *italics*, "
                           f"**bold**, _underline_, __double underline__, ~~strikethrough~~ "
                           f"in pairs (they may nest: _*Title*_ is an underlined title)")
-    if d and (d.get("y") or 0) > 1945:
-        errors.append(f"{where}: evidence_date {d.get('y')} looks like a publication year. "
-                      f"It should be the date of the thing evidenced - see works.json "
-                      f"_evidence_date_note")
+    for _a, _d in source_dates(q):
+        if (_d.get("y") or 0) > 1945:
+            errors.append(f"{where}: {_a}.date {_d.get('y')} looks like a publication year. A "
+                          f"date here is when the thing happened, not when the book that "
+                          f"reports it came out")
 
 
 BARE_LABEL = re.compile(r"^\s*(c\.\s*)?(\d{4})\s*(?:[-–—]\s*(c\.\s*)?(\d{4})\s*)?$")
@@ -1240,7 +1421,7 @@ def check_bare_label(r, rid, errors):
     m = BARE_LABEL.match(label)
     if not m:
         return                      # prose: it can say whatever the record needs it to say
-    s, e = r.get("start") or {}, r.get("end") or {}
+    s, e = act_date(r, "start"), act_date(r, "end")
     for got, date, which in ((m.group(1), s, "start"), (m.group(3), e, "end")):
         if date.get("y") is None and which == "end":
             continue
@@ -1259,6 +1440,9 @@ def check_bare_label(r, rid, errors):
 def validate(works, people, rels, archives=None):
     archives = archives if archives is not None else {}
     errors, warnings = [], []
+    # Before anything can refer to a place, so that every reference is checked against it.
+    global PLACES
+    PLACES = load_places(errors, warnings)
     # `kind` used to be free text nothing read, so a typo cost nothing. It now decides whether a
     # source with no archive of its own is reported as Published or as Online, and a misspelled
     # "-web" would quietly send a web page to the shelves.
@@ -1280,8 +1464,7 @@ def validate(works, people, rels, archives=None):
             errors.append(f"{pid}: bad group {p.get('group')!r} (one of {sorted(GROUPS)})")
         if p.get("gender") not in GENDERS:
             errors.append(f"{pid}: bad gender {p.get('gender')!r} (m / f / null)")
-        check_date(p.get("born"), f"{pid}.born", errors)
-        check_date(p.get("died"), f"{pid}.died", errors)
+        check_acts(p, pid, errors, names=("born", "died"))
         for ce in p.get("sexuality_sources", []) or []:
             if not (ce.get("subject") or "").strip():
                 errors.append(f"{pid}: sexuality_source missing subject")
@@ -1292,6 +1475,27 @@ def validate(works, people, rels, archives=None):
                                warnings, archives)
 
     rids = set()
+    # `places` — where a connection happened, lifted out of the `date_label` prose so a reader can
+    # ask "which of these happened in Paris", which is the question this map exists to answer and
+    # could not. A list because "Reading and Berneval" is two places, not a compound one.
+    for r in rels:
+        if "__load_error__" in r:
+            continue
+        pl = r.get("places")
+        if pl is None:
+            continue
+        if not isinstance(pl, list) or not pl:
+            errors.append(f"{r.get('id')}: places is a non-empty list of ids from data/places.json, or absent")
+            continue
+        seen = []
+        for v in pl:
+            key = place_ref(v, f"{r.get('id')}.places", errors)
+            if key is None:
+                continue
+            if key in seen:
+                errors.append(f"{r.get('id')}.places: the same place twice")
+            seen.append(key)
+
     for r in rels:
         if "__load_error__" in r:
             errors.append(r["__load_error__"]); continue
@@ -1323,10 +1527,11 @@ def validate(works, people, rels, archives=None):
                 errors.append(f"{rid}: direction must name one of {ppl}")
             if r.get("outcome") is not None:
                 errors.append(f"{rid}: outcome is only for attraction-expressed")
-        check_date(r.get("start"), f"{rid}.start", errors)
-        check_date(r.get("end"), f"{rid}.end", errors)
+        check_acts(r, rid, errors, names=("start", "end"))
+        for _i, _ph in enumerate(r.get("phases") or []):
+            check_acts(_ph, f"{rid}.phases[{_i}]", errors, names=("start", "end"))
         check_bare_label(r, rid, errors)
-        s, e = r.get("start") or {}, r.get("end") or {}
+        s, e = act_date(r, "start"), act_date(r, "end")
         if s.get("y") and e.get("y") and s["y"] > e["y"]:
             errors.append(f"{rid}: start after end")
         if not r.get("sources"):
@@ -1643,6 +1848,17 @@ def main():
     scanned = check_control_characters(errors)
     transcriptions = load_transcriptions(
         errors, [p for p in people if "__load_error__" not in p])
+    # Paragraphing is not checked here. A quote set as one line may have lost the source's breaks
+    # or may simply be one paragraph, and nothing in this repository can tell the two apart - it
+    # takes the page. `research-tools/source-volume/restore_paragraphs.py` does that against the
+    # Complete Letters, and is what to run after adding letters.
+
+    # A place nobody refers to. Not an error - one may be added just ahead of the records that
+    # will use it - but an unused place is more often a rename that left its old spelling behind.
+    # It runs here because a transcription's `from` is a use too, and those load after validate().
+    for pid in sorted(set(PLACES) - places_used(rels, transcriptions)):
+        warnings.append(f"places.json: nothing refers to {pid} - a leftover spelling after a "
+                        f"rename, or a place added ahead of the records that will use it")
     dash, vq = dashboard([p for p in people if "__load_error__" not in p],
                          [r for r in rels if "__load_error__" not in r])
     print(dash)
@@ -1747,6 +1963,10 @@ def main():
     bundle = {"people": kept_people,
               "relationships": kept_rels,
               "works": works, "portraits": portraits, "archives": arc_meta,
+              # The gazetteer, whole. Small, and every card that shows a place needs it - and the
+              # Location filter's options ARE this list, rather than something gathered from the
+              # corpus and hoped to be complete.
+              "places": load_places([], []),
               # Ids only. A card has to decide whether to offer "read the whole letter" while it
               # is being drawn, and drawing happens on every filter keystroke; the letters
               # themselves are a separate fetch made once, on the first click.

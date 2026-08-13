@@ -8,26 +8,31 @@
   "certainty_status": "proposed",
   "certainty_reasoning": "Married, on the Ransom Center's own finding aid - a repository sketch written over the couple's papers, which is the better authority here - corroborated independently by Wikipedia and by Wikidata Q3549170.",
   "start": {
-    "y": 1908,
-    "m": 10
+    "date": {
+      "y": 1908,
+      "m": 10
+    }
   },
   "end": {
-    "y": 1926,
-    "m": 1,
-    "d": 28
+    "date": {
+      "y": 1926,
+      "m": 1,
+      "d": 28
+    }
   },
-  "date_label": "M. October 1908; legally separated by 1919; ended by his death, 28 January 1926",
   "summary": "Una Taylor married Captain Ernest Troubridge in October 1908, soon after her father's death, and their daughter Andrea was born in 1910. In 1915 she met Radclyffe Hall - then the partner of Una's own cousin, Mabel Batten - and by June 1919, when the Admiral was knighted and Una became Lady Troubridge, the couple were already legally separated because of the relationship. She lived with Hall until Hall's death in 1943, under the title her husband had given her, and afterwards had Hall's suits altered to fit her.",
   "sources": [
     {
-      "quote": "She married Captain Ernest Troubridge in October 1908; they had one daughter, Andrea. [.] Ernest Troubridge rose to the rank of admiral during and immediately after the First World War, and Una gained her title when Admiral Troubridge was knighted in June 1919, although they were already legally separated at the time.",
+      "quote": "She married Captain Ernest Troubridge in October 1908; they had one daughter, Andrea. … Ernest Troubridge rose to the rank of admiral during and immediately after the First World War, and Una gained her title when Admiral Troubridge was knighted in June 1919, although they were already legally separated at the time.",
       "context": "Wikipedia, 'Una Vincenzo, Lady Troubridge'. The bracketed elision spans her meeting with Radclyffe Hall and the years between.",
       "work": "wikipedia-una-troubridge",
       "locator": "sections 'Early life' and 'Personal life'",
       "locator_type": "none",
-      "evidence_date": {
-        "y": 1908,
-        "m": 10
+      "occurred": {
+        "date": {
+          "y": 1908,
+          "m": 10
+        }
       },
       "supports": "The marriage, its month and year, the daughter, and the legal separation by 1919.",
       "verification": "verified-elision",
@@ -43,8 +48,10 @@
       "work": "hrc-hall-troubridge-fa",
       "locator": "section 'Biographical Sketch'",
       "locator_type": "none",
-      "evidence_date": {
-        "y": 1919
+      "occurred": {
+        "date": {
+          "y": 1919
+        }
       },
       "supports": "The repository's own statement of why and when the marriage ended.",
       "verification": "verified-exact",

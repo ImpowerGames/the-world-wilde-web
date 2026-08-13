@@ -9,12 +9,14 @@
   "direction": "wilde",
   "outcome": "unknown",
   "start": {
-    "y": 1899,
-    "m": 2,
-    "d": 1
+    "date": {
+      "y": 1899,
+      "m": 2,
+      "d": 1
+    },
+    "place": "cannes"
   },
   "end": null,
-  "date_label": "Seen once, at Cannes, 1 February 1899",
   "summary": "Wilde saw him at the Bataille des Fleurs at Cannes and wrote about him to Robert Ross the following day — 'a very handsome boy, all wreathed with flowers' — answering the sight with 'Imperial, Neronian Rome'. One sighting, admiringly described; no contact of any kind is recorded.",
   "sources": [
     {
@@ -25,10 +27,13 @@
       "context": "Wilde to Robert Ross, 2 February 1899, Napoule (MS Clark). The Bataille des Fleurs is the flower-battle carnival at Cannes; Wilde had gone over for the day from Napoule, where he was staying with Frank Harris.",
       "speaker": "Oscar Wilde",
       "addressee": "Robert Ross",
-      "evidence_date": {
-        "y": 1899,
-        "m": 2,
-        "d": 1
+      "written": {
+        "date": {
+          "y": 1899,
+          "m": 2,
+          "d": 1
+        },
+        "place": "la-napoule"
       },
       "supports": "The whole of the record for this connection: Wilde's sighting, his description of the young man as very handsome, and the frame he put round it.",
       "verification": "verified-exact",
@@ -40,7 +45,10 @@
       "manuscript": {
         "repository": "William Andrews Clark Memorial Library, UCLA"
       },
-      "letter_id": "letters-2000/1118#1"
+      "letter_id": "letters-2000/1118#1",
+      "occurred": {
+        "place": "cannes"
+      }
     }
   ]
 }

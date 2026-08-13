@@ -7,24 +7,29 @@
   "certainty": "self-reported",
   "certainty_status": "proposed",
   "start": {
-    "y": 1876
+    "date": {
+      "y": 1876
+    }
   },
   "end": {
-    "y": 1892
+    "date": {
+      "y": 1892
+    }
   },
-  "date_label": "Met in 1876 at the Camden New Republic, Stafford eighteen and Whitman fifty-seven; closest through the Timber Creek years to about 1884, when Stafford married; the two remained in contact until Whitman's death in 1892",
   "summary": "Harry Stafford was an errand boy of eighteen when Whitman met him in a Camden newspaper office in 1876. He took the poet home to his parents' tenant farm at Kirkwood, where Whitman spent the next several summers bathing in Timber Creek and wrestling saplings back to health, and where the two shared a top-floor bedroom. It was a quarrelsome, unequal, much-interrupted attachment - Whitman gave Stafford a friendship ring and Stafford gave it back more than once - and it is the relationship early Whitman scholarship most successfully ignored, because Traubel's first six volumes never mention his name. Whitman's friend John Burroughs, less discreetly, complained that the two 'cut up like two boys'.",
   "sources": [
     {
-      "quote": "Dear Friend— You know how I left you at the station to-day. I have thought of it and cannot get it off my mind, so I have come up to ask your forgiveness. I know how I have served you on many occasions before. I know that it is my falt and not yours. Can you forgive me and take me back and love me the same I will try by the grace of God to do better. I cannot give you up, and it makes me feel so bad to think how we have spent the last day or two; and all for my temper. … Cant you take me back and love me the same. Your lovin but bad tempered Harry.",
+      "quote": "Dear Friend—\n\nYou know how I left you at the station to-day. I have thought of it and cannot get it off my mind, so I have come up to ask your forgiveness. I know how I have served you on many occasions before. I know that it is my falt and not yours. Can you forgive me and take me back and love me the same I will try by the grace of God to do better. I cannot give you up, and it makes me feel so bad to think how we have spent the last day or two; and all for my temper. … Cant you take me back and love me the same.\n\nYour lovin but bad tempered\n\nHarry.",
       "context": "Stafford to Whitman, dated by Miller to 1 May 1877, after a quarrel at the station. Stafford was eighteen. The elision drops one sentence about his temper sending him to prison. **The spelling is Stafford's** - 'falt', 'Cant', 'lovin' - and the archive flags each instance in its markup. The letter is written on the back of someone else's letter to Whitman, which is its own small fact about who had paper. This is the fullest surviving statement from Stafford's side.",
       "work": "whitman-archive-correspondence",
       "locator": "item loc.03964",
       "locator_type": "letter-date",
-      "evidence_date": {
-        "y": 1877,
-        "m": 5,
-        "d": 1
+      "written": {
+        "date": {
+          "y": 1877,
+          "m": 5,
+          "d": 1
+        }
       },
       "supports": "The younger participant's own words - the asking-back, the 'I cannot give you up', and the register of the whole attachment.",
       "verification": "verified-elision",
@@ -41,15 +46,17 @@
       }
     },
     {
-      "quote": "Dear Hank— Yours of 9th rec'd—am a little surprised you take to L of G so quickly—I guess it is because the last five years had been preparing & fixing the ground, more & more & more—& now that the seed is dropt in it sprouts quickly … Hank, I am still feeling under the weather—My appetite is fair, (when I can get what I like)—& sleep middling, but I am as weak as a cat … (Hank, you do not appreciate your mother—there is not a nobler woman in Jersey)— Your Walt",
+      "quote": "Dear Hank—\n\nYours of 9th rec'd—am a little surprised you take to L of G so quickly—I guess it is because the last five years had been preparing & fixing the ground, more & more & more—& now that the seed is dropt in it sprouts quickly … Hank, I am still feeling under the weather—My appetite is fair, (when I can get what I like)—& sleep middling, but I am as weak as a cat … (Hank, you do not appreciate your mother—there is not a nobler woman in Jersey)—\n\nYour Walt",
       "context": "Whitman to Stafford, 11 February 1881, from Camden, five years into the acquaintance; the envelope is addressed to 'Harry Lamb Stafford | Kirkwood | Glendale | New Jersey'. Whitman had given him a copy of Leaves of Grass four days earlier. The register is the ordinary one of this correspondence - domestic, instructive, unguarded about his own body - and it is worth recording precisely because it is not ardent: the attachment ran mostly at this temperature.",
       "work": "whitman-archive-correspondence",
       "locator": "item nyp.00423",
       "locator_type": "letter-date",
-      "evidence_date": {
-        "y": 1881,
-        "m": 2,
-        "d": 11
+      "written": {
+        "date": {
+          "y": 1881,
+          "m": 2,
+          "d": 11
+        }
       },
       "supports": "The sustained private correspondence and its everyday register.",
       "verification": "verified-elision",
@@ -63,6 +70,9 @@
       "manuscript": {
         "repository": "Henry W. and Albert A. Berg Collection, New York Public Library",
         "url": "https://whitmanarchive.org/item/nyp.00423"
+      },
+      "occurred": {
+        "place": "camden"
       }
     },
     {
@@ -71,7 +81,6 @@
       "work": "kantrowitz-wwa-stafford-encyclopedia",
       "locator": "entry 'Stafford, Harry Lamb [1858-1918]'",
       "locator_type": "none",
-      "evidence_date": null,
       "supports": "The shared bed, the ring, the quarrels - and that the sexual question is contested among specialists rather than settled.",
       "verification": "verified-elision",
       "how_verified": "as-published",

@@ -7,11 +7,16 @@
   "certainty": "platonic",
   "certainty_status": "proposed",
   "start": {
-    "y": 1888
+    "date": {
+      "y": 1888,
+      "circa": true
+    }
   },
   "end": {
-    "y": 1891,
-    "m": 7
+    "date": {
+      "y": 1891,
+      "m": 7
+    }
   },
   "summary": "Wilde's encouragement of the young poet Graham Hill across 1888-1891 — reading his book closely, declining to lend his name to it, and a warmth at the end that stops short of declaration.",
   "certainty_reasoning": "The record documents a friendship or acquaintance with no evidence of attraction or romance; classified platonic, upgradable if contrary evidence comes to light.",
@@ -20,13 +25,16 @@
       "work": "letters-2000",
       "locator": "p. 380",
       "locator_type": "page",
-      "quote": "Dear Mr Hill, Come and have tea on Friday at 5 o'clock if you have nothing to do. So you are a rhymer! We all are when we are young. Believe me truly yours",
+      "quote": "Dear Mr Hill, Come and have tea on Friday at 5 o'clock if you have nothing to do. So you are a rhymer! We all are when we are young. Believe me truly yours\n\nOSCAR WILDE",
       "context": "Wilde to Graham Hill, [? 1888], 16 Tite Street (MS Mason) - the first of the three letters printed together on this page.",
       "speaker": "Oscar Wilde",
       "addressee": "Graham Hill",
-      "evidence_date": {
-        "y": 1888,
-        "circa": true
+      "written": {
+        "date": {
+          "y": 1888,
+          "circa": true
+        },
+        "place": "16-tite-street"
       },
       "supports": "The invitation, and the terms of the friendship: an established writer amused by a young one.",
       "verification": "verified-exact",
@@ -45,13 +53,16 @@
       "work": "letters-2000",
       "locator": "p. 380",
       "locator_type": "page",
-      "quote": "My dear Graham Hill, I am charmed with your little volume; the triolets, ballades, and rondeaus are very graceful and dainty. I am sorry you have rhymed 'tears' to 'ideas' in your envoy; rhymes of this kind are very wicked, but you certainly have a light touch and a pleasant fancy. The book is very prettily got up, and 'M. L.', whoever she is, should feel quite proud at such an artistic offering. Are you very much in love with M. L.? and does M. L. love you? Come and see me some day. Wednesday afternoon usually finds me in. Truly yours",
+      "quote": "My dear Graham Hill, I am charmed with your little volume; the triolets, ballades, and rondeaus are very graceful and dainty. I am sorry you have rhymed 'tears' to 'ideas' in your envoy; rhymes of this kind are very wicked, but you certainly have a light touch and a pleasant fancy.\n\nThe book is very prettily got up, and 'M. L.', whoever she is, should feel quite proud at such an artistic offering. Are you very much in love with M. L.? and does M. L. love you?\n\nCome and see me some day. Wednesday afternoon usually finds me in. Truly yours\n\nOSCAR WILDE",
       "context": "The second letter on the same page, on Hill's Under Her Window (1888). The editors' note 3 identifies 'M. L.' as Matilda (Minnie) Lloyd, whom Hill later married - the line is about a third party.",
       "speaker": "Oscar Wilde",
       "addressee": "Graham Hill",
-      "evidence_date": {
-        "y": 1888,
-        "circa": true
+      "written": {
+        "date": {
+          "y": 1888,
+          "circa": true
+        },
+        "place": "16-tite-street"
       },
       "supports": "Wilde reading a young poet's book closely, praising and correcting it, teasing him about his sweetheart, and asking him to call.",
       "verification": "verified-exact",
@@ -70,13 +81,16 @@
       "work": "letters-2000",
       "locator": "p. 380",
       "locator_type": "page",
-      "quote": "Dear Graham Hill, I don't think that poems are ever really helped by the publication of letters from private friends. An anonymous criticism is always something, or supposed to be something, but personal letters are different. However you are quite at liberty to do as you think best. I hope you will be successful in whatever branch of literature you take up, and am very glad you are turning your attention to prose. Good prose is what we want. How is your journalism progressing? Truly yours",
+      "quote": "Dear Graham Hill, I don't think that poems are ever really helped by the publication of letters from private friends. An anonymous criticism is always something, or supposed to be something, but personal letters are different. However you are quite at liberty to do as you think best.\n\nI hope you will be successful in whatever branch of literature you take up, and am very glad you are turning your attention to prose. Good prose is what we want. How is your journalism progressing? Truly yours\n\nOSCAR WILDE",
       "context": "The third letter on the same page. Hill had evidently asked to print Wilde's praise; Wilde declines the use and encourages the career in the same breath.",
       "speaker": "Oscar Wilde",
       "addressee": "Graham Hill",
-      "evidence_date": {
-        "y": 1888,
-        "circa": true
+      "written": {
+        "date": {
+          "y": 1888,
+          "circa": true
+        },
+        "place": "16-tite-street"
       },
       "supports": "The shape of the friendship - Wilde withholding his name from Hill's publicity while backing his work.",
       "verification": "verified-exact",
@@ -99,9 +113,12 @@
       "context": "Wilde to Graham Hill, [? May 1891], 16 Tite Street (MS Mason) — quoted whole, postscript included. The editors could not identify the paper Hill was writing for, and record that no review of Dorian Gray by him has ever been traced.",
       "speaker": "Oscar Wilde",
       "addressee": "Graham Hill",
-      "evidence_date": {
-        "y": 1891,
-        "m": 5
+      "written": {
+        "date": {
+          "y": 1891,
+          "m": 5
+        },
+        "place": "16-tite-street"
       },
       "supports": "Three years on from the first letters, the friendship still running — and Wilde saying plainly that he would like to see more of him.",
       "verification": "verified-exact",
@@ -120,13 +137,16 @@
       "work": "letters-2000",
       "locator": "p. 483",
       "locator_type": "page",
-      "quote": "Thank you so much for the cutting which amused me very much. How are you getting on? Are you still enamoured of love and poetry? I hope so. They are the only two things in the world that remain. I often think of you, and am sorry we meet so rarely. Sincerely yours",
+      "quote": "Thank you so much for the cutting which amused me very much. How are you getting on? Are you still enamoured of love and poetry? I hope so. They are the only two things in the world that remain.\n\nI often think of you, and am sorry we meet so rarely. Sincerely yours\n\nOSCAR WILDE",
       "context": "Wilde to Graham Hill, [? Summer 1891], Lyric Club, Piccadilly East (MS Mason) — the last of the five, quoted whole, and the warmest.",
       "speaker": "Oscar Wilde",
       "addressee": "Graham Hill",
-      "evidence_date": {
-        "y": 1891,
-        "m": 7
+      "written": {
+        "date": {
+          "y": 1891,
+          "m": 7
+        },
+        "place": "lyric-club"
       },
       "supports": "The closest thing to a declaration in this correspondence: 'I often think of you, and am sorry we meet so rarely.'",
       "verification": "verified-exact",
@@ -141,6 +161,5 @@
       },
       "letter_id": "letters-2000/483#2"
     }
-  ],
-  "date_label": "c. 1888-1891, from Tite Street"
+  ]
 }

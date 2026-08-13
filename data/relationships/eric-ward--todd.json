@@ -7,14 +7,17 @@
   "certainty": "second-hand",
   "certainty_status": "proposed",
   "start": {
-    "y": 1876,
-    "m": 8
+    "date": {
+      "y": 1876,
+      "m": 8
+    }
   },
   "end": {
-    "y": 1876,
-    "m": 8
+    "date": {
+      "y": 1876,
+      "m": 8
+    }
   },
-  "date_label": "One evening, August 1876",
   "summary": "Wilde walked into a Dublin theatre at ten o'clock one night in August 1876 and saw Charles Todd, a Magdalen undergraduate, sitting at the back of a private box with Eric Ward, a Magdalen chorister. He wrote about it to William Ward, said he thought Todd 'only mentally spoons the boy', and asked him to keep it quiet.",
   "certainty_reasoning": "The age gap is the first fact about this edge, not a footnote to it: an undergraduate of about twenty-two and a schoolboy chorister.",
   "sources": [
@@ -22,14 +25,17 @@
       "work": "letters-2000",
       "locator": "pp. 28-29",
       "locator_type": "page",
-      "quote": "I want to ask your opinion on this psychological question. In our friend Todd's ethical barometer, at what height is his moral quicksilver? Last night I strolled into the theatre about ten o'clock and to my surprise saw Todd and young Ward the quire boy in a private box together, Todd very much in the background. He saw me so I went round to speak to him for a few minutes. He told me that he and Foster Harter had been fishing in Donegal and that he was going to fish South now. I wonder what young Ward is doing with him. Myself I believe Todd is extremely moral and only mentally spoons the boy, but I think he is foolish to go about with one, if he is bringing this boy about with him. You are the only one I would tell about it, as you have a philosophical mind, but don't tell anyone about it like a good boy - it would do neither us nor Todd any good. He (Todd) looked awfully nervous and uncomfortable. I thought of Mark.",
+      "quote": "I want to ask your opinion on this psychological question. In our friend Todd's ethical barometer, at what height is his moral quicksilver? Last night I strolled into the theatre about ten o'clock and to my surprise saw Todd and young Ward the quire boy in a private box together, Todd very much in the background. He saw me so I went round to speak to him for a few minutes. He told me that he and Foster Harter had been fishing in Donegal and that he was going to fish South now. I wonder what young Ward is doing with him. Myself I believe Todd is extremely moral and only mentally spoons the boy, but I think he is foolish to go about with one, if he is bringing this boy about with him.\n\nYou are the only one I would tell about it, as you have a philosophical mind, but don't tell anyone about it like a good boy - it would do neither us nor Todd any good.\n\nHe (Todd) looked awfully nervous and uncomfortable. I thought of Mark.",
       "context": "Wilde to William Ward, Sunday [6 August 1876], 1 Merrion Square North (MS Magdalen), quoted unbroken from where the subject is raised to where it is dropped. Wilde was twenty-one. The editors identify Charles John Todd (1854-1939), Magdalen undergraduate 1874-7 and later Chaplain to the Royal Navy, and Eric Richard Ward, Magdalen chorister 1874-8 and no relation to the recipient. The 'us' in the last clause is doing a great deal of work: Wilde is aware that reporting this would damage him too.",
       "speaker": "Oscar Wilde",
       "addressee": "William Ward",
-      "evidence_date": {
-        "y": 1876,
-        "m": 8,
-        "d": 6
+      "written": {
+        "date": {
+          "y": 1876,
+          "m": 8,
+          "d": 6
+        },
+        "place": "dublin"
       },
       "supports": "The whole of the evidence for this connection, and the earliest recorded instance of Wilde handling a suspected attachment between men.",
       "verification": "verified-exact",

@@ -7,14 +7,18 @@
   "certainty": "platonic",
   "certainty_status": "proposed",
   "start": {
-    "y": 1897,
-    "m": 6,
-    "d": 2
+    "date": {
+      "y": 1880,
+      "circa": true,
+      "inferred": true
+    }
   },
   "end": {
-    "y": 1897,
-    "m": 6,
-    "d": 2
+    "date": {
+      "y": 1897,
+      "m": 6,
+      "d": 2
+    }
   },
   "summary": "Wilde's letter to the actress Mrs Bernard Beere from Berneval, a fortnight out of prison and signed 'Sebastian Melmoth' — one of the first friends he wrote to after his release.",
   "certainty_reasoning": "The record documents a friendship or acquaintance with no evidence of attraction or romance; classified platonic, upgradable if contrary evidence comes to light.",
@@ -23,14 +27,17 @@
       "work": "letters-2000",
       "locator": "p. 875",
       "locator_type": "page",
-      "quote": "My dear good Friend, I am installed here in a little inn by the sea. It is very nice, and there is no one in the whole hotel, so I am quite alone. I am still filled with wonder at the beauty of the world, and with gratitude to God for still considering me worthy to enjoy it, or perhaps I should say making me worthy of such a privilege. Do write to me, and tell me all about yourself, and your artistic plans. Have you any plays going? I know you are reciting, and envy those who hear that wonderful rich voice of yours that Browning, and indeed all poets, used to admire so much, and can watch your lithe panther-like grace of movement, and become dominated by the exquisite tyranny of your personality. However, I think of you every day, and the sea-birds, whom the wind here blows about like white flowers, seem aware of the fact, and are, apparently, quite indignant about it, if screaming counts as a sign! Send me a photograph of yourself, if you can. I want to look at your shadow: and please like and store as a secret my new name. Your affectionate friend",
+      "quote": "My dear good Friend, I am installed here in a little inn by the sea. It is very\n\nnice, and there is no one in the whole hotel, so I am quite alone. I am still filled with wonder at the beauty of the world, and with gratitude to God for still considering me worthy to enjoy it, or perhaps I should say making me worthy of such a privilege.\n\nDo write to me, and tell me all about yourself, and your artistic plans. Have you any plays going? I know you are reciting, and envy those who hear that wonderful rich voice of yours that Browning, and indeed all poets, used to admire so much, and can watch your lithe panther-like grace of movement, and become dominated by the exquisite tyranny of your personality.\n\nHowever, I think of you every day, and the sea-birds, whom the wind here blows about like white flowers, seem aware of the fact, and are, apparently, quite indignant about it, if screaming counts as a sign!\n\nSend me a photograph of yourself, if you can. I want to look at your shadow: and please like and store as a secret my new name. Your affectionate friend\n\nSEBASTIAN MELMOTH",
       "context": "Wilde to Mrs Bernard Beere, [circa 2 June 1897], Hôtel de la Plage, Berneval-sur-Mer (MS Yale) - quoted whole, and signed sebastian melmoth. A fortnight out of prison. The Browning who admired her voice is Robert Browning. 'Please like and store as a secret my new name' is the alias being entrusted to her, which is the same discretion machinery visible in the Dieppe letter to Ada Leverson where Ross and Turner travelled under each other's names.",
       "speaker": "Oscar Wilde",
       "addressee": "Mrs Bernard Beere",
-      "evidence_date": {
-        "y": 1897,
-        "m": 6,
-        "d": 2
+      "written": {
+        "date": {
+          "y": 1897,
+          "m": 6,
+          "d": 2
+        },
+        "place": "berneval-sur-mer"
       },
       "supports": "One of the first friends written to after prison, and the alias entrusted to her.",
       "verification": "verified-exact",
@@ -43,7 +50,21 @@
         "repository": "Yale University Library, New Haven, Connecticut"
       },
       "letter_id": "letters-2000/875#1"
+    },
+    {
+      "quote": "",
+      "context": "The friendship's early years are believed to have been spent in London - Beere was a leading London actress from the 1880s - but no source in this record names the city: the single cited letter is written from the Hotel de la Plage, Berneval-sur-Mer (circa 2 June 1897).",
+      "work": "letters-2000",
+      "locator": "General Index s.v. Beere, Mrs Bernard",
+      "locator_type": "page",
+      "supports": "Would settle London as a place of the friendship: the volume's letters to Beere, read at the page.",
+      "verification": "unverified",
+      "how_verified": "unverified",
+      "citation_provenance": "",
+      "document": "editorial-note",
+      "occurred": {
+        "place": "london"
+      }
     }
-  ],
-  "date_label": "London and Berneval, 1880-1897"
+  ]
 }

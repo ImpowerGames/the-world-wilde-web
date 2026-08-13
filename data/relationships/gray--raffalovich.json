@@ -8,13 +8,16 @@
   "certainty_status": "proposed",
   "certainty_reasoning": "A second independent secondary attestation (McKenna, below) awaits verification; if biographers agree only on devoted companionship, romantic-nonsexual may fit better.",
   "start": {
-    "y": 1892,
-    "circa": true
+    "date": {
+      "y": 1892,
+      "circa": true
+    }
   },
   "end": {
-    "y": 1934
+    "date": {
+      "y": 1934
+    }
   },
-  "date_label": "Close friends by 1892-93 (The Blackmailers, written together, produced June 1893); 'remained close friends for the rest of his life' (both died 1934); later years together in Edinburgh, where Raffalovich built St Peter's Church for Gray.",
   "summary": "Gray and Raffalovich were close by 1892-93, when they wrote The Blackmailers together (Prince of Wales's Theatre, June 1893) - the editors call Raffalovich Gray's 'close friend' and record the belief that he 'revenged himself' on Wilde by breaking up Wilde's friendship with Gray, 'with whom Raffalovich remained close friends for the rest of his life'. The bond ran unbroken to their deaths in the same year, 1934: Gray became a Roman Catholic priest, Raffalovich built St Peter's Church, Edinburgh, for him, and Gray's edition of Beardsley's last letters (1904) was of letters written to Raffalovich. The verified sources attest lifelong devotion without characterizing the bond sexually; the celibacy question is left open.",
   "sources": [
     {
@@ -23,7 +26,6 @@
       "work": "letters-2000",
       "locator": "p. 256 n.",
       "locator_type": "page",
-      "evidence_date": null,
       "supports": "The lifelong bond - 'close friends for the rest of his life' - and the editorially reported breakup of Wilde's friendship with Gray",
       "verification": "verified-exact",
       "how_verified": "text-layer",
@@ -38,9 +40,11 @@
       "work": "letters-2000",
       "locator": "p. 520 n. 3",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1893,
-        "m": 6
+      "occurred": {
+        "date": {
+          "y": 1893,
+          "m": 6
+        }
       },
       "supports": "'His close friend Andre Raffalovich' and the joint play, produced June 1893 - the bond's documented start-region",
       "verification": "verified-exact",
@@ -56,14 +60,16 @@
       "work": "letters-2000",
       "locator": "p. 520 n. 3",
       "locator_type": "page",
-      "evidence_date": null,
       "supports": "The Edinburgh later years and the church Raffalovich built for Gray - the bond's material devotion",
       "verification": "verified-exact",
       "how_verified": "text-layer",
       "citation_provenance": "PDF p. 540.",
       "verified_on": "2026-08-03",
       "voice": "modern",
-      "document": "editorial-note"
+      "document": "editorial-note",
+      "occurred": {
+        "place": "edinburgh"
+      }
     },
     {
       "quote": "Oscar was 'preaching corruption', according to Andre Raffalovich, who knew Oscar at this time, and who, perhaps more importantly, subsequently became John Gray's lover, patron, protector and confidant.",
@@ -71,7 +77,6 @@
       "work": "mckenna-2008",
       "locator": "PDF p. 216",
       "locator_type": "page",
-      "evidence_date": null,
       "supports": "Independent secondary characterization of the partnership as romantic; requires verification in the source",
       "verification": "verified-exact",
       "how_verified": "text-layer",

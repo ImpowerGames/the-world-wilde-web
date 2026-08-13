@@ -7,12 +7,16 @@
   "certainty": "platonic",
   "certainty_status": "proposed",
   "start": {
-    "y": 1893,
-    "m": 10
+    "date": {
+      "y": 1893,
+      "m": 10
+    }
   },
   "end": {
-    "y": 1893,
-    "m": 10
+    "date": {
+      "y": 1893,
+      "m": 10
+    }
   },
   "summary": "Wilde's letter to 'Michael Field' (Edith Cooper) in late October 1893, helping the two poets place a play in America and praising their work.",
   "certainty_reasoning": "The record documents a friendship or acquaintance with no evidence of attraction or romance; classified platonic, upgradable if contrary evidence comes to light.",
@@ -21,13 +25,16 @@
       "work": "letters-2000",
       "locator": "p. 574",
       "locator_type": "page",
-      "quote": "Dear Michael Field, Write to Miss Elisabeth Marbury, c/o Low's Exchange, New York City, USA. She manages all my plays. I have written to her. I am a wretch not to have answered sooner, but I have no excuse; so you will forgive me. Your third act was quite admirable - a really fine piece of work - with that touch of terror our stage lacks so much. I think the theatre should belong to the Furies. Caliban and Silenus, one educated and the other sober, seem now to dominate, in their fallen condition, our wretched English drama. Ever yours",
+      "quote": "Dear Michael Field, Write to Miss Elisabeth Marbury, c/o Low's Exchange, New York City, USA. She manages all my plays. I have written to her.\n\nI am a wretch not to have answered sooner, but I have no excuse; so you will forgive me.\n\nYour third act was quite admirable - a really fine piece of work - with that touch of terror our stage lacks so much. I think the theatre should belong to the Furies. Caliban and Silenus, one educated and the other sober, seem now to dominate, in their fallen condition, our wretched English drama. Ever yours\n\nOSCAR WILDE",
       "context": "Wilde to 'Michael Field', [? Late October 1893], Albemarle Club (MS Clark) - quoted whole. He is helping them place a play in America and praising their third act. The Caliban and Silenus line is Wilde on the contemporary English stage.",
       "speaker": "Oscar Wilde",
       "addressee": "Michael Field",
-      "evidence_date": {
-        "y": 1893,
-        "m": 10
+      "written": {
+        "date": {
+          "y": 1893,
+          "m": 10
+        },
+        "place": "albemarle-club"
       },
       "supports": "Wilde acting for them professionally, and what he thought of their play.",
       "verification": "verified-exact",
@@ -41,6 +48,5 @@
       },
       "letter_id": "letters-2000/574#1"
     }
-  ],
-  "date_label": "London, October 1893"
+  ]
 }

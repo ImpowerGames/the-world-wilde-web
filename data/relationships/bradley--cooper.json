@@ -7,11 +7,17 @@
   "certainty": "self-reported",
   "certainty_status": "proposed",
   "certainty_reasoning": "Evangelista's Y90s biography quotes their boast of being 'closer married' than the Brownings and cites it to Works and Days, p. 16 - so a participant's own testimony is underneath the sentence.",
-  "start": null,
-  "end": {
-    "y": 1913
+  "start": {
+    "date": {
+      "y": 1884,
+      "inferred": true
+    }
   },
-  "date_label": "Lifelong: joint authorship from 1884 (Callirrhoe) until Cooper's death in 1913; Bradley died the following year",
+  "end": {
+    "date": {
+      "y": 1913
+    }
+  },
   "summary": "Katharine Bradley and her niece Edith Cooper lived together, wrote together, and published everything as one poet under the single name 'Michael Field' - eight volumes of verse, some twenty-seven verse dramas, and a joint diary, Works and Days, in which they recorded their life together and boasted of being more thoroughly married than the Brownings, on the grounds that unlike the Brownings they wrote under one name. Their poems were composed separately and merged in revision until the printed voice was single. Wilde corresponded with 'Michael Field' as a single addressee between 1890 and 1893 about their verse dramas. Cooper died of cancer in 1913 and Bradley survived her by less than a year.",
   "sources": [
     {
@@ -20,7 +26,6 @@
       "work": "evangelista-y90s-field-bio",
       "locator": "para. 1",
       "locator_type": "none",
-      "evidence_date": null,
       "supports": "Participant testimony (their diary) that the two understood their union as a marriage, and understood the single authorial name as what made it one.",
       "verification": "verified-exact",
       "how_verified": "as-published",
@@ -35,7 +40,6 @@
       "work": "evangelista-y90s-field-bio",
       "locator": "para. 1",
       "locator_type": "none",
-      "evidence_date": null,
       "supports": "The scholarly characterisation of the relationship, and the fact that 'Michael Field' is one name for two people.",
       "verification": "verified-exact",
       "how_verified": "as-published",
@@ -50,8 +54,10 @@
       "work": "letters-2000",
       "locator": "p. 449 n. 2",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1890
+      "occurred": {
+        "date": {
+          "y": 1890
+        }
       },
       "supports": "Both women's dates; the aunt-niece relation; the single joint pen-name - from Wilde's own editors, i.e. independent of the Michael Field scholarship.",
       "verification": "verified-exact",
@@ -67,10 +73,13 @@
       "work": "letters-2000",
       "locator": "p. 572",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1893,
-        "m": 9,
-        "circa": true
+      "written": {
+        "date": {
+          "y": 1893,
+          "m": 9,
+          "circa": true
+        },
+        "place": "the-cottage-goring"
       },
       "verification": "verified-exact",
       "how_verified": "text-layer",
@@ -90,7 +99,6 @@
       "work": "evangelista-y90s-field-bio",
       "locator": "para. 6",
       "locator_type": "none",
-      "evidence_date": null,
       "supports": "Locates the first-hand source: a joint diary kept by both women, of which only part is in print.",
       "verification": "verified-exact",
       "how_verified": "as-published",
@@ -105,9 +113,11 @@
       "work": "field-2009-thain-parejo",
       "locator": "p. 304 (Letters section, letter 5)",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1885,
-        "m": 8
+      "written": {
+        "date": {
+          "y": 1885,
+          "m": 8
+        }
       },
       "supports": "The 'closer married' passage in the participants' own words.",
       "verification": "verified-exact",

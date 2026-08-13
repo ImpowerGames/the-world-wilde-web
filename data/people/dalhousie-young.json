@@ -1,10 +1,14 @@
 {
   "id": "dalhousie-young",
   "born": {
-    "y": 1866
+    "date": {
+      "y": 1866
+    }
   },
   "died": {
-    "y": 1921
+    "date": {
+      "y": 1921
+    }
   },
   "aka": [],
   "bio_sources": [

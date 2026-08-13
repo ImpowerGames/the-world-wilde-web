@@ -14,10 +14,11 @@
     "grounds": "A historian's 'possibly' is not an attestation. The residence, the post, the gramophone and the theatre-going are documented and are not in question; what is unsupported is the step from companion to sexual partner. Cook's endnote 149 would be the place to look next."
   },
   "start": {
-    "y": 1930
+    "date": {
+      "y": 1930
+    }
   },
   "end": null,
-  "date_label": "From c. 1930",
   "summary": "After Shannon's 1929 fall left him incapable, the twenty-five-year-old Henning Nyberg moved into Townshend House as Ricketts's secretary and companion, bringing a gramophone; the two went out to the theatre and cinema at least three times a week. Ricketts died in 1931.",
   "sources": [
     {
@@ -26,8 +27,10 @@
       "work": "cook-2014",
       "locator": "p. 52",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1930
+      "occurred": {
+        "date": {
+          "y": 1930
+        }
       },
       "supports": "A named companion in Ricketts's household in his last years; the sexual element is the historian's hedge, not a finding.",
       "verification": "verified-exact",

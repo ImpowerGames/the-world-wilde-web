@@ -6,10 +6,14 @@
     "Will Rothenstein"
   ],
   "born": {
-    "y": 1872
+    "date": {
+      "y": 1872
+    }
   },
   "died": {
-    "y": 1945
+    "date": {
+      "y": 1945
+    }
   },
   "group": "aesthete",
   "gender": "m",

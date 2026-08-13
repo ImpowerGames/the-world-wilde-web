@@ -7,7 +7,9 @@
     "Alphonso"
   ],
   "born": {
-    "y": 1878
+    "date": {
+      "y": 1878
+    }
   },
   "died": null,
   "gender": "m",

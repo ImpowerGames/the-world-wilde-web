@@ -8,16 +8,17 @@
   "certainty_status": "proposed",
   "certainty_reasoning": "The romantic reading rests on counter-texture rather than on any romantic statement: Marshall regarded Prichard and Harding as 'rivals for Ned's affection'; Warren's own autobiographical fragment reads disappointment in Prichard at not being able to take 'Johnny's place'; Sox lists Prichard among the men Warren loved and 'wanted to possess' (p. 129, transcription pending); and Warren's surviving salutation to him is the pet-name 'Dear Ducky' (p. 174, text-layer, unrendered). Against it stands Sox's own class-deciding sentence, which is filial and discipular, and his gloss of the rivalry as positional competition over the secretaryship.",
   "start": {
-    "y": 1892,
-    "circa": true,
-    "label": "from about 1892-93 (Prichard joins as second secretary)"
+    "date": {
+      "y": 1892,
+      "circa": true
+    }
   },
   "end": {
-    "y": 1901,
-    "label": "1901 (Prichard leaves Lewes for the Boston Museum of Fine Arts)"
+    "date": {
+      "y": 1901
+    }
   },
-  "date_label": "C. 1892-1901 (Lewes House years)",
-  "summary": "Matthew Stewart Prichard joined Lewes House as Warren's second secretary in the early 1890s and became, in Sox's judgement, the member of the brotherhood closest to Warren's own aestheticism. Whether the bond was romantic or filial-discipular is exactly what the sources leave contested: Warren's household read the two as rivals for his affection, while Sox describes Warren as a father-figure to him.",
+  "summary": "Matthew Stewart Prichard joined Lewes House as Warren's second secretary in the early 1890s and became, in Sox's judgement, the member of the brotherhood closest to Warren's own aestheticism. Whether the bond was romantic or filial-discipular is exactly what the sources leave contested: Warren's household read the two as rivals for his affection, while Sox describes Warren as a father-figure to him. Prichard left Lewes House in 1901 for the Boston Museum of Fine Arts.",
   "disputed": {
     "claim": "That the Prichard-Warren bond was romantic rather than filial and discipular.",
     "asserted_by": "The counter-texture in Sox (rivalry for Warren's affection; the 'Johnny's place' disappointment; 'Dear Ducky'; Prichard among the men Warren 'wanted to possess')",
@@ -31,7 +32,6 @@
       "work": "sox-1991",
       "locator": "p. 172",
       "locator_type": "page",
-      "evidence_date": null,
       "supports": "The counter-evidence: Sox's own framing is love-as-filial-discipleship, not romance. This is the sentence the null finding rested on.",
       "verification": "verified-exact",
       "how_verified": "text-layer",
@@ -46,7 +46,6 @@
       "work": "sox-1991",
       "locator": "p. 175",
       "locator_type": "page",
-      "evidence_date": null,
       "supports": "Third-party reading of the bond as affective rivalry — the strongest positive signal for a romantic classification.",
       "verification": "verified-exact",
       "how_verified": "text-layer",
@@ -61,7 +60,6 @@
       "work": "sox-1991",
       "locator": "p. 175",
       "locator_type": "page",
-      "evidence_date": null,
       "supports": "Warren himself reading disappointment in Prichard at not occupying Marshall's place — first-person, though Sox glosses it as positional rather than romantic.",
       "verification": "verified-exact",
       "how_verified": "text-layer",
@@ -77,7 +75,6 @@
       "work": "sox-1991",
       "locator": "p. 176",
       "locator_type": "page",
-      "evidence_date": null,
       "supports": "Temperamental closeness to Warren beyond the secretarial role.",
       "verification": "verified-elision",
       "how_verified": "text-layer",
@@ -92,13 +89,24 @@
       "work": "sox-1991",
       "locator": "pp. 129, 174",
       "locator_type": "page",
-      "evidence_date": null,
       "supports": "(a) p. 129: Sox lists Prichard ('Matt') among the four men Warren loved and 'wanted to possess'; (b) p. 174: Warren's salutation to Prichard, 'Dear Ducky'.",
       "verification": "verified-elision",
       "how_verified": "text-layer",
       "citation_provenance": "PDF pp. 145, 198 (printed folios 129, 174)",
       "verified_on": "2026-08-03",
       "voice": "modern",
+      "document": "biography"
+    },
+    {
+      "quote": "",
+      "context": "The label dates the bond to 'the Lewes House years' and the summary has Prichard joining Lewes House as second secretary, but no quoted source in this record names the house.",
+      "work": "sox-1991",
+      "locator": "index s.v. Prichard, Matthew Stewart",
+      "locator_type": "page",
+      "supports": "Would settle Lewes House as the place of the bond: Sox's account of Prichard joining as second secretary.",
+      "verification": "unverified",
+      "how_verified": "unverified",
+      "citation_provenance": "",
       "document": "biography"
     }
   ]

@@ -7,14 +7,17 @@
   "certainty": "uncorroborated",
   "certainty_status": "proposed",
   "start": {
-    "y": 1893,
-    "circa": true
+    "date": {
+      "y": 1893,
+      "circa": true
+    }
   },
   "end": {
-    "y": 1895,
-    "m": 2
+    "date": {
+      "y": 1895,
+      "m": 2
+    }
   },
-  "date_label": "Late 1893 – February 1895 (acquaintance); Oct 1893 – Apr 1894 (plea allegation)",
   "summary": "Ernest Scarfe, a young valet-turned-clerk who had been to the Australian gold-diggings — meeting Lord Douglas of Hawick on the voyage out in 1893 — knew Taylor from the Knightsbridge Skating Rink and was introduced by him to Wilde at 10 St James's Place. He visited repeatedly, dined alone with Wilde, and received the customary cigarette case; the acquaintance ran to a dinner at the Avondale in February 1895. Queensberry's plea alleged solicitation and gross indecency at St James's Place; Scarfe was never called and the allegation never charged.",
   "disputed": {
     "claim": "that Wilde solicited Ernest Scarfe to commit sodomy and committed acts of gross indecency with him at 10 St James's Place between October 1893 and April 1894",
@@ -29,9 +32,11 @@
       "work": "hyde-trials-1948",
       "locator": "pp. 148-149",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1895,
-        "m": 4
+      "occurred": {
+        "date": {
+          "y": 1895,
+          "m": 4
+        }
       },
       "supports": "The acquaintance's shape on Wilde's oath: Taylor's introduction, dinners, the cigarette case, the February 1895 Avondale dinner, and the denial of physical contact",
       "verification": "verified-elision",
@@ -67,9 +72,11 @@
       "work": "hyde-trials-1948",
       "locator": "p. 343",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1895,
-        "m": 3
+      "occurred": {
+        "date": {
+          "y": 1895,
+          "m": 3
+        }
       },
       "supports": "The plea-only allegation, its dates and place — the class-deciding text",
       "verification": "verified-exact",
@@ -86,9 +93,11 @@
       "work": "hyde-trials-1948",
       "locator": "p. 286",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1895,
-        "m": 5
+      "occurred": {
+        "date": {
+          "y": 1895,
+          "m": 5
+        }
       },
       "supports": "Taylor's own sworn account of introducing Scarfe to Wilde at St James's Place",
       "verification": "verified-exact",
@@ -116,9 +125,11 @@
       "work": "hyde-trials-1948",
       "locator": "p. 318",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1895,
-        "m": 5
+      "occurred": {
+        "date": {
+          "y": 1895,
+          "m": 5
+        }
       },
       "supports": "Tête-à-tête dinners admitted on oath at the final trial",
       "verification": "verified-elision",
@@ -162,14 +173,17 @@
       "work": "letters-2000",
       "locator": "p. 598",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1894,
-        "m": 7,
-        "circa": true,
-        "to": {
+      "written": {
+        "date": {
           "y": 1894,
-          "m": 8
-        }
+          "m": 7,
+          "circa": true,
+          "to": {
+            "y": 1894,
+            "m": 8
+          }
+        },
+        "place": "16-tite-street"
       },
       "supports": "A possible (editorially tentative) 1894 begging letter from Scarfe to Wilde — continuation of the acquaintance into mid-1894",
       "verification": "verified-exact",
@@ -195,10 +209,12 @@
       "verified_on": "2026-08-03",
       "speaker": "Oscar Wilde",
       "citation_provenance": "PDF p. 247 (printed folio 199)",
-      "evidence_date": {
-        "y": 1895,
-        "m": 4,
-        "d": 4
+      "occurred": {
+        "date": {
+          "y": 1895,
+          "m": 4,
+          "d": 4
+        }
       },
       "supports": "The verbatim shorthand transcript of the same exchange Hyde 1948 prints in condensed form - kept alongside Hyde, not in place of him, so the divergence stays visible in the record.",
       "voice": "court",

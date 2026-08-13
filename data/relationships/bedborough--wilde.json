@@ -7,14 +7,18 @@
   "certainty": "platonic",
   "certainty_status": "proposed",
   "start": {
-    "y": 1898,
-    "m": 3,
-    "d": 15
+    "date": {
+      "y": 1898,
+      "m": 3,
+      "d": 15
+    }
   },
   "end": {
-    "y": 1898,
-    "m": 3,
-    "d": 15
+    "date": {
+      "y": 1898,
+      "m": 3,
+      "d": 15
+    }
   },
   "summary": "The whole of the correspondence: Wilde thanking George Bedborough, who had had his essays bound up from the periodicals, ten weeks before Bedborough's arrest for selling Havelock Ellis's book.",
   "certainty_reasoning": "The record documents a friendship or acquaintance with no evidence of attraction or romance; classified platonic, upgradable if contrary evidence comes to light.",
@@ -23,14 +27,16 @@
       "work": "letters-2000",
       "locator": "p. 1037",
       "locator_type": "page",
-      "quote": "My dear Sir, I must thank you very much for the books: the edition of my essays is a masterpiece of lovely binding and I was charmed to receive my dear father's book, and also _*Salomé*_ with the dainty drawings of Max Beerbohm in his Oxford days. You really have been most kind to me and I _do_ hope to see you. I am worried over the sordid things of life, so cannot write - at least intelligently - but I beg you to accept again my sincere thanks and I hope you will review '*The Ballad of Reading Gaol*' somewhere. You have been so charming to the author, that you may be charming also to the work. Truly yours",
+      "quote": "My dear Sir, I must thank you very much for the books: the edition of my essays is a masterpiece of lovely binding and I was charmed to receive my dear father's book, and also _*Salomé*_ with the dainty drawings of Max Beerbohm in his Oxford days. You really have been most kind to me and I _do_ hope to see you. I am worried over the sordid things of life, so cannot write - at least intelligently - but I beg you to accept again my sincere thanks and I hope you will review '*The Ballad of Reading Gaol*' somewhere. You have been so charming to the author, that you may be charming also to the work. Truly yours\n\nOSCAR WILDE",
       "context": "Wilde to George Bedborough, [postmark 15 March 1898], Hôtel de Nice, Paris (MS Texas) - quoted whole. Bedborough had had Wilde's essays bound up out of the periodicals they first appeared in and inscribed the volume 'To the author from Geo. Bedborough, 5 March 1898'. Read the dates together: this is 15 March; Bedborough reviewed The Ballad in the April Adult, hoping Wilde's next song would be 'signed with the old familiar name'; and on 31 May he was arrested for selling Havelock Ellis's Sexual Inversion to a plain-clothes policeman. 'My dear father's book' is one of Sir William Wilde's.",
       "speaker": "Oscar Wilde",
       "addressee": "George Bedborough",
-      "evidence_date": {
-        "y": 1898,
-        "m": 3,
-        "d": 15
+      "postmarked": {
+        "date": {
+          "y": 1898,
+          "m": 3,
+          "d": 15
+        }
       },
       "supports": "The whole of the correspondence, ten weeks before Bedborough's arrest.",
       "verification": "verified-exact",
@@ -54,8 +60,25 @@
       "marks_verified": true,
       "original_provenance": "HRC MSS_WildeO_2_4_029-031, with the envelope at _026-027. Two underlines in Wilde's hand: 'do' for stress, and the title 'Salome', which carries the underline a hand uses where type would be italic - so it is marked as both. 'The Ballad of Reading Gaol' carries no underline: he set it in single quotation marks, repeating them at each line wrap ('The / 'Ballad of Reading' / Gaol'), which normalises to one pair. The printed page drops the quotation marks and prints the title in italic instead.",
       "verified_against_original": true,
-      "letter_id": "letters-2000/1037#2"
+      "letter_id": "letters-2000/1037#2",
+      "written": {
+        "place": "hotel-de-nice"
+      }
+    },
+    {
+      "quote": "",
+      "context": "London is believed to be where the connection was made - Bedborough, whose bound-up essays the letter thanks him for, was a London bookseller - but no source in this record names the city: the single cited letter is written from the Hotel de Nice, Paris (15 March 1898).",
+      "work": "letters-2000",
+      "locator": "General Index s.v. Bedborough, George",
+      "locator_type": "page",
+      "supports": "Would settle London as a place of the connection: the volume's Bedborough index entry, read at the page.",
+      "verification": "unverified",
+      "how_verified": "unverified",
+      "citation_provenance": "",
+      "document": "editorial-note",
+      "occurred": {
+        "place": "london"
+      }
     }
-  ],
-  "date_label": "Paris and London, March 1898"
+  ]
 }

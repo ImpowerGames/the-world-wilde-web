@@ -7,14 +7,18 @@
   "certainty": "platonic",
   "certainty_status": "proposed",
   "start": {
-    "y": 1891,
-    "m": 11,
-    "d": 28
+    "date": {
+      "y": 1891,
+      "m": 11,
+      "d": 28
+    }
   },
   "end": {
-    "y": 1898,
-    "m": 12,
-    "d": 14
+    "date": {
+      "y": 1898,
+      "m": 12,
+      "d": 14
+    }
   },
   "summary": "Wilde's friendship with André Gide, from the day after their first meeting in November 1891 to Wilde's letter of December 1898 addressing him 'mon cher André' — recorded from Wilde's side only.",
   "certainty_reasoning": "The record documents a friendship or acquaintance with no evidence of attraction or romance; classified platonic, upgradable if contrary evidence comes to light.",
@@ -27,10 +31,13 @@
       "context": "Wilde to Pierre Louÿs, 28 November 1891 - the day after Wilde and Gide first met, and the invitation is from the two of them jointly. Quoted here for the editors' note on the facing column, which is the substance: Gide wrote to Paul Valéry about Wilde that same week; 'according to his letters he saw Wilde almost every day till 15 December, but the pages in his journal covering those days have been torn out.' Who tore them out, and when, is not stated.",
       "speaker": "Oscar Wilde",
       "addressee": "Pierre Louÿs",
-      "evidence_date": {
-        "y": 1891,
-        "m": 11,
-        "d": 28
+      "written": {
+        "date": {
+          "y": 1891,
+          "m": 11,
+          "d": 28
+        },
+        "place": "29-boulevard-des-capucines"
       },
       "supports": "The first day of it, and the three weeks that were removed from the record.",
       "verification": "verified-exact",
@@ -51,9 +58,12 @@
       "context": "Wilde in Paris, December 1898, describing Gide's Saül - written in 1898 and not produced until 1922. Seven years after they met, Gide is 'one of my old friends here'. Wilde reads the play's subject without a flicker of euphemism - a king's madness ascribed to hopeless love for a man - and his only complaint is that boys' parts are going to actresses.",
       "speaker": "Oscar Wilde",
       "addressee": null,
-      "evidence_date": {
-        "y": 1898,
-        "m": 12
+      "written": {
+        "date": {
+          "y": 1898,
+          "m": 12
+        },
+        "place": "hotel-d-alsace"
       },
       "supports": "That the friendship lasted through the trials and the exile, and how plainly Wilde could describe the play's subject in 1898.",
       "verification": "verified-elision",
@@ -71,14 +81,16 @@
       "work": "letters-2000",
       "locator": "p. 1111",
       "locator_type": "page",
-      "quote": "Mon cher André, Je vous remercie beaucoup. Un de mes amis, le rédacteur du Saturday Review, à Londres, vient d'arriver à Paris, et me prend à Cannes avec lui pour un mois. Peut-être là je retrouverai mon âme. J'espère vous voir à mon retour. Tout à vous",
+      "quote": "Mon cher André, Je vous remercie beaucoup. Un de mes amis, le rédacteur du Saturday Review, à Londres, vient d'arriver à Paris, et me prend à Cannes avec lui pour un mois. Peut-être là je retrouverai mon âme.\n\nJ'espère vous voir à mon retour. Tout à vous",
       "context": "Wilde to André Gide, [postmark 14 December 1898], Taverne F. Pousset, Paris (MS Doucet) - quoted whole, and written the same day as the letter to Housman on the same page, which reports the same journey in English. To Housman the hope is 'perhaps these may tune my soul to some note of beauty'; to Gide it is 'perhaps there I shall find my soul again', which is a harder thing to say.",
       "speaker": "Oscar Wilde",
       "addressee": "André Gide",
-      "evidence_date": {
-        "y": 1898,
-        "m": 12,
-        "d": 14
+      "postmarked": {
+        "date": {
+          "y": 1898,
+          "m": 12,
+          "d": 14
+        }
       },
       "supports": "The address at 'mon cher André', and what Wilde told him he had lost.",
       "verification": "verified-exact",
@@ -92,8 +104,10 @@
       "manuscript": {
         "repository": "Bibliothèque Doucet, Paris"
       },
-      "letter_id": "letters-2000/1108#2"
+      "letter_id": "letters-2000/1108#2",
+      "written": {
+        "place": "paris"
+      }
     }
-  ],
-  "date_label": "Paris, 1891-1898"
+  ]
 }

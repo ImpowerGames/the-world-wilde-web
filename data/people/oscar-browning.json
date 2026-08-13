@@ -4,10 +4,14 @@
   "sort_name": "Browning, Oscar",
   "aka": [],
   "born": {
-    "y": 1837
+    "date": {
+      "y": 1837
+    }
   },
   "died": {
-    "y": 1923
+    "date": {
+      "y": 1923
+    }
   },
   "group": "aesthete",
   "gender": "m",

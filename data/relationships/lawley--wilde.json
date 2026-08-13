@@ -9,12 +9,15 @@
   "direction": "wilde",
   "outcome": "unknown",
   "start": {
-    "y": 1895
+    "date": {
+      "y": 1895
+    }
   },
   "end": {
-    "y": 1897
+    "date": {
+      "y": 1897
+    }
   },
-  "date_label": "Fellow prisoners in Reading; the recommendation is of June 1897",
   "summary": "Lawley - or possibly Langley; the editors of Wilde's letters could not settle it - was a soldier who served time in Reading with Wilde and struck him as quiet and well conducted. In a postscript to a long, raw letter written a month after his release, Wilde put in a word to get him a place as a groom. That postscript is the whole of him.",
   "sources": [
     {
@@ -23,9 +26,12 @@
       "work": "letters-2000",
       "locator": "p. 897",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1897,
-        "m": 6
+      "written": {
+        "date": {
+          "y": 1897,
+          "m": 6
+        },
+        "place": "berneval-sur-mer"
       },
       "supports": "That the man existed, that Wilde thought well of him, and how little else the record kept.",
       "verification": "verified-exact",
@@ -60,7 +66,10 @@
       "marks_verified": true,
       "original_provenance": "HRC MSS_WildeO_2_6_081. Only 'With regard to Lawley' carries an underline, and 'groom' carries TWO. The previous transcription underlined the WHOLE postscript, which the printed page does not support and the manuscript refutes; that reading came from the PDF text layer, which loses italic boundaries.",
       "verified_against_original": true,
-      "letter_id": "letters-2000/897#1"
+      "letter_id": "letters-2000/897#1",
+      "occurred": {
+        "place": "reading"
+      }
     }
   ]
 }

@@ -7,14 +7,18 @@
   "certainty": "platonic",
   "certainty_status": "proposed",
   "start": {
-    "y": 1886,
-    "m": 7,
-    "d": 8
+    "date": {
+      "y": 1886,
+      "m": 7,
+      "d": 8
+    }
   },
   "end": {
-    "y": 1891,
-    "m": 7,
-    "d": 2
+    "date": {
+      "y": 1891,
+      "m": 7,
+      "d": 2
+    }
   },
   "summary": "Wilde's friendship with Herbert Horne, fellow aesthete and editor of the Century Guild Hobby Horse — dinner invitations, praise, and the two of them working on a Chatterton memorial together.",
   "certainty_reasoning": "The record documents a friendship or acquaintance with no evidence of attraction or romance; classified platonic, upgradable if contrary evidence comes to light.",
@@ -23,14 +27,17 @@
       "work": "letters-2000",
       "locator": "p. 283",
       "locator_type": "page",
-      "quote": "Are you doing anything? If not, come in and stay to dinner. No one but myself - so come as you are. Sincerely yours",
+      "quote": "Are you doing anything? If not, come in and stay to dinner. No one but myself - so come as you are. Sincerely yours\n\nOSCAR WILDE",
       "context": "Wilde to Herbert P. Horne, [8 July 1886], 16 Tite Street (MS Private) - quoted whole, the earliest of the eleven, and the whole of it is an invitation to dinner alone. 'No one but myself' is doing the work; 'come as you are' says how little ceremony was wanted. Wilde was married and living at Tite Street.",
       "speaker": "Oscar Wilde",
       "addressee": "Herbert Horne",
-      "evidence_date": {
-        "y": 1886,
-        "m": 7,
-        "d": 8
+      "written": {
+        "date": {
+          "y": 1886,
+          "m": 7,
+          "d": 8
+        },
+        "place": "16-tite-street"
       },
       "supports": "A dinner for two, at no notice.",
       "verification": "verified-exact",
@@ -48,14 +55,17 @@
       "work": "letters-2000",
       "locator": "p. 283",
       "locator_type": "page",
-      "quote": "I fear I have to go out tonight, but I hope to see you soon. Your poems are most charming, and your choice of epithets exquisite and felicitous. You combine very perfectly simplicity and strangeness. I have no doubt you will do very lovely work.",
+      "quote": "I fear I have to go out tonight, but I hope to see you soon.\n\nYour poems are most charming, and your choice of epithets exquisite and felicitous. You combine very perfectly simplicity and strangeness. I have no doubt you will do very lovely work.",
       "context": "Wilde to Herbert P. Horne, [14 July 1886], 16 Tite Street (MS Clark) - quoted whole, six days after the dinner invitation and printed directly beneath it.",
       "speaker": "Oscar Wilde",
       "addressee": "Herbert Horne",
-      "evidence_date": {
-        "y": 1886,
-        "m": 7,
-        "d": 14
+      "written": {
+        "date": {
+          "y": 1886,
+          "m": 7,
+          "d": 14
+        },
+        "place": "16-tite-street"
       },
       "supports": "The praise that came a week later.",
       "verification": "verified-exact",
@@ -73,14 +83,16 @@
       "work": "letters-2000",
       "locator": "p. 285",
       "locator_type": "page",
-      "quote": "My dear Horne, I am very glad we are in agreement on this matter. We must not spoil by new gauds the ancient spirit of the place. As for repairs don't you think that these should be done by the Trustees? … The tablet is excellent, so is the wainscote and fireplace idea; beyond that I feel we should not go. … Of course the whole place should be a Chatterton museum. I wish you were here to talk over it. Ever yours",
+      "quote": "My dear Horne, I am very glad we are in agreement on this matter. We must not spoil by new gauds the ancient spirit of the place. As for repairs don't you think that these should be done by the Trustees? … The tablet is excellent, so is the wainscote and fireplace idea; beyond that I feel we should not go. … Of course the whole place should be a Chatterton museum. I wish you were here to talk over it. Ever yours\n\nOSCAR WILDE",
       "context": "Wilde to Herbert P. Horne, [postmark 23 August 1886], 16 Tite Street (MS Simpson). The elisions drop two paragraphs on who should pay for repairs. The scheme is a memorial to Thomas Chatterton, the boy poet who killed himself at seventeen in 1770 and whom Wilde had lectured on. from a folio opened for Otho Lloyd.",
       "speaker": "Oscar Wilde",
       "addressee": "Herbert Horne",
-      "evidence_date": {
-        "y": 1886,
-        "m": 8,
-        "d": 23
+      "postmarked": {
+        "date": {
+          "y": 1886,
+          "m": 8,
+          "d": 23
+        }
       },
       "supports": "The two of them working on a Chatterton memorial together, and Wilde wishing him there.",
       "verification": "verified-elision",
@@ -93,20 +105,25 @@
         "repository": "Private collection",
         "owner": "Mr John Simpson"
       },
-      "letter_id": "letters-2000/285#1"
+      "letter_id": "letters-2000/285#1",
+      "written": {
+        "place": "16-tite-street"
+      }
     },
     {
       "work": "letters-2000",
       "locator": "p. 285",
       "locator_type": "page",
-      "quote": "My dear Horne, We must clearly wait till Christmas, as there should be no rash hurry, and I would like to have a long talk with you about the whole matter before any pronunciamento. Believe me, truly yours",
+      "quote": "My dear Horne, We must clearly wait till Christmas, as there should be no rash hurry, and I would like to have a long talk with you about the whole matter before any pronunciamento. Believe me, truly yours\n\nOSCAR WILDE",
       "context": "Wilde to Herbert P. Horne, [postmark 31 August 1886], 16 Tite Street (MS Dugdale) - quoted whole, eight days after the letter above and printed directly beneath it.",
       "speaker": "Oscar Wilde",
       "addressee": "Herbert Horne",
-      "evidence_date": {
-        "y": 1886,
-        "m": 8,
-        "d": 31
+      "postmarked": {
+        "date": {
+          "y": 1886,
+          "m": 8,
+          "d": 31
+        }
       },
       "supports": "Wilde wanting a long talk before anything is announced.",
       "verification": "verified-exact",
@@ -119,20 +136,25 @@
         "repository": "Private collection",
         "owner": "Mrs E. T. S. Dugdale"
       },
-      "letter_id": "letters-2000/285#2"
+      "letter_id": "letters-2000/285#2",
+      "written": {
+        "place": "16-tite-street"
+      }
     },
     {
       "work": "letters-2000",
       "locator": "p. 463",
       "locator_type": "page",
-      "quote": "My dear Horne, Many thanks, but I am dining out, otherwise I would come with pleasure to hear you read some delicate Herrick-like song, and Lionel read that sonnet on Wormwood that so fascinated me. Ever yours",
+      "quote": "My dear Horne, Many thanks, but I am dining out, otherwise I would come with pleasure to hear you read some delicate Herrick-like song, and Lionel read that sonnet on Wormwood that so fascinated me. Ever yours\n\nOSCAR WILDE",
       "context": "Wilde to Herbert Horne, [postmark 28 January 1891], 16 Tite Street (MS Fales) - quoted whole. Written the same day as the letter to Arthur Clifton on the same printed page.",
       "speaker": "Oscar Wilde",
       "addressee": "Herbert Horne",
-      "evidence_date": {
-        "y": 1891,
-        "m": 1,
-        "d": 28
+      "postmarked": {
+        "date": {
+          "y": 1891,
+          "m": 1,
+          "d": 28
+        }
       },
       "supports": "An evening of poems among men, declined but wanted.",
       "verification": "verified-exact",
@@ -144,20 +166,26 @@
       "manuscript": {
         "repository": "Haliburton Fales Collection, New York University"
       },
-      "letter_id": "letters-2000/463#1"
+      "letter_id": "letters-2000/463#1",
+      "written": {
+        "place": "16-tite-street"
+      }
     },
     {
       "work": "letters-2000",
       "locator": "p. 484",
       "locator_type": "page",
-      "quote": "My dear Horne, A thousand thanks. What a lovely little book! And what dainty delightful verse! The notes of passion so vivid and scarlet, and yet conveyed with such subtlety and fine reticence. … and indeed the whole book is full of honey and very sweet to taste, and just touched with that sadness which is inseparable from modern art, and gives a preciousness to beauty, as of a thing one might lose, and so loves overmuch: and you are a perfect player of a little lovely reed. And so, more thanks, and always sincerely yours",
+      "quote": "My dear Horne, A thousand thanks. What a lovely little book! And what dainty delightful verse! The notes of passion so vivid and scarlet, and yet conveyed with such subtlety and fine reticence. … and indeed the whole book is full of honey and very sweet to taste, and just touched with that sadness which is inseparable from modern art, and gives a preciousness to beauty, as of a thing one might lose, and so loves overmuch: and you are a perfect player of a little lovely reed. And so, more thanks, and always sincerely yours\n\nOSCAR WILDE",
       "context": "Wilde to Herbert P. Horne, [date of receipt 2 July 1891], 16 Tite Street (MS Mason). The book is Diversi Colores, Horne's only volume of poems, printed by himself in 1891. The elision drops the names of four individual poems. Not to be over-read: the editors print the 'marvellous third stanza' Wilde singles out, and it is about a woman's thigh. 'The notes of passion so vivid and scarlet' is a judgement about verse.",
       "speaker": "Oscar Wilde",
       "addressee": "Herbert Horne",
-      "evidence_date": {
-        "y": 1891,
-        "m": 7,
-        "d": 2
+      "written": {
+        "date": {
+          "y": 1891,
+          "m": 7,
+          "d": 2
+        },
+        "place": "16-tite-street"
       },
       "supports": "The fullest thing Wilde wrote him, and a caution about reading praise of poems as praise of the poet.",
       "verification": "verified-elision",
@@ -172,6 +200,5 @@
       },
       "letter_id": "letters-2000/484#1"
     }
-  ],
-  "date_label": "London, 1886-1891"
+  ]
 }

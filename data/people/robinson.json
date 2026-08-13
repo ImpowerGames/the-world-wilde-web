@@ -8,10 +8,14 @@
     "Mary Duclaux"
   ],
   "born": {
-    "y": 1857
+    "date": {
+      "y": 1857
+    }
   },
   "died": {
-    "y": 1944
+    "date": {
+      "y": 1944
+    }
   },
   "group": "aesthete",
   "gender": "f",

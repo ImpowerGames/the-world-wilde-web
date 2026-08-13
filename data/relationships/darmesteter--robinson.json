@@ -8,15 +8,17 @@
   "certainty_status": "proposed",
   "certainty_reasoning": "Married, on two scholarly sources already in this module's works table and used elsewhere on this very pair: Pulham's Y90s biography of Lee, and the standard edition of Lee's Selected Letters.",
   "start": {
-    "y": 1888,
-    "m": 8
+    "date": {
+      "y": 1887
+    }
   },
   "end": {
-    "y": 1894,
-    "m": 10,
-    "d": 19
+    "date": {
+      "y": 1894,
+      "m": 10,
+      "d": 19
+    }
   },
-  "date_label": "Accepted him in 1887; m. August 1888; ended by his death, 19 October 1894",
   "summary": "Mary Robinson accepted James Darmesteter in 1887, over the objections of both families, and married him in August 1888, moving to Paris. It ended her eight-year partnership with Vernon Lee, who broke down at the announcement and was depressed for a long time after the wedding; Kit Anstruther-Thomson took Robinson's place as Lee's companion the same year. Darmesteter died in 1894 after a short illness. Five years later Robinson - by then Mme Darmesteter - and Lee were still writing to each other, and arranging through discreet intermediaries to return each other's old love letters.",
   "sources": [
     {
@@ -25,8 +27,10 @@
       "work": "pulham-y90s-lee-bio",
       "locator": "para. 5",
       "locator_type": "none",
-      "evidence_date": {
-        "y": 1880
+      "occurred": {
+        "date": {
+          "y": 1880
+        }
       },
       "supports": "The relationship, its character as Pulham states it, and both its start and end dates.",
       "verification": "verified-exact",
@@ -42,8 +46,10 @@
       "work": "pulham-y90s-lee-bio",
       "locator": "para. 5",
       "locator_type": "none",
-      "evidence_date": {
-        "y": 1881
+      "occurred": {
+        "date": {
+          "y": 1881
+        }
       },
       "verification": "verified-exact",
       "how_verified": "as-published",

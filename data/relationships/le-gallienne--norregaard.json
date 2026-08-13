@@ -8,23 +8,28 @@
   "certainty_status": "proposed",
   "certainty_reasoning": "All three le Gallienne marriages rest on an uncited Wikipedia narrative. The sentences carry no inline footnote; Wikidata Q545544 is not an independent check, holding a single P26 claim with zero references and nothing at all for two of the three wives, so the two web sources are one source. What would close it: Whittington-Egan and Smerdon, The Quest of the Golden Boy (1960), the standard life, and Eva Le Gallienne's memoirs; failing those, the GRO and New York civil registers.",
   "start": {
-    "y": 1897
+    "date": {
+      "y": 1897
+    }
   },
   "end": {
-    "y": 1911,
-    "m": 6
+    "date": {
+      "y": 1911,
+      "m": 6
+    }
   },
-  "date_label": "M. 1897; she left in 1903, divorced June 1911",
   "summary": "Le Gallienne married the Danish journalist Julie Norregaard in 1897, three years after his first wife died in childbirth and while still carrying her ashes about with him. Their daughter Eva was born in 1899. Julie left in 1903, took both girls to Paris, and obtained a divorce in June 1911; he remarried four months later.",
   "sources": [
     {
-      "quote": "In 1897 he married the Danish journalist Julie Norregaard. [.] They were divorced in June 1911.",
+      "quote": "In 1897 he married the Danish journalist Julie Norregaard. … They were divorced in June 1911.",
       "context": "Wikipedia, 'Richard Le Gallienne'. The bracketed elision spans the account of their daughter Eva's birth, the move to America, and Julie's departure in 1903 with both daughters; the article gives her grounds as his inability to provide a stable home or pay his debts, alcoholism and womanising.",
       "work": "wikipedia-richard-le-gallienne",
       "locator": "sections on his second marriage and America",
       "locator_type": "none",
-      "evidence_date": {
-        "y": 1897
+      "occurred": {
+        "date": {
+          "y": 1897
+        }
       },
       "supports": "The second marriage and the divorce, with their dates.",
       "verification": "verified-elision",

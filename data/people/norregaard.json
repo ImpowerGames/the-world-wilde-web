@@ -6,10 +6,14 @@
     "Julie Norregaard"
   ],
   "born": {
-    "y": 1863
+    "date": {
+      "y": 1863
+    }
   },
   "died": {
-    "y": 1942
+    "date": {
+      "y": 1942
+    }
   },
   "group": "family",
   "gender": "f",

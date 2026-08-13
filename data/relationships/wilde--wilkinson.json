@@ -10,14 +10,17 @@
   "outcome": "unknown",
   "certainty_reasoning": "The editors state it flatly in the main-particulars footnote: Wilkinson invented an 'Ipswich Dramatic Society' and its wish to dramatise The Picture of Dorian Gray 'so as to get into correspondence with Wilde, whom he never met' (p. 1109 n. 1). Age, stated as the record states it: the editors give his dates as 1881-1966 and say he 'was at this time a Radley schoolboy' (p. 1109 n. 1); Wilde, describing the correspondence to Reginald Turner on 3 January 1899, calls him 'a Radley schoolboy, aged seventeen' (p. 1118). Direction is Wilde's, and rests on documented acts rather than on tone: Wilde asks for a photograph in his first letter (p. 1109), asks again when a promised enclosure proved missing from the envelope (p. 1113), comments on the photographs when they arrive (p. 1122), reports to Turner that the boy sends them constantly (p. 1118), and asks Robert Ross to go to Radley and see him (p. 1127). Outcome is unknown, and cannot be otherwise: no meeting took place, no Wilkinson letter survives in this edition, and the boy's own account came fifty-four years later in Seven Friends (1953). The initiative in the whole affair was Wilkinson's, not Wilde's - he manufactured a theatrical society and, per the editors, at least one further false claim to attract Wilde's attention (p. 1127 n. 2), so the approach that started it ran the other way.",
   "start": {
-    "y": 1898,
-    "m": 12
+    "date": {
+      "y": 1898,
+      "m": 12
+    }
   },
   "end": {
-    "y": 1900,
-    "m": 7
+    "date": {
+      "y": 1900,
+      "m": 7
+    }
   },
-  "date_label": "First surviving Wilde letter [postmark 14 December 1898] (p. 1109) to the letter of [postmark 15 July 1900] (p. 1192), four months before Wilde's death. Wilkinson is also among the senders of funeral wreaths in Ross's post-mortem account (p. 1222).",
   "summary": "In the winter of 1898 a seventeen-year-old Radley schoolboy named Louis Wilkinson wrote to Wilde in exile, having invented an Ipswich Dramatic Society and its wish to stage The Picture of Dorian Gray in order to have a reason to write. Wilde, who was forty-four, answered, granted the imaginary society four performances, asked who was to play Dorian - he should be beautiful - and closed by asking for the boy's photograph. Over the next four months Wilde asked for the photograph twice more, discussed the ones that arrived, praised and criticised the verse Wilkinson sent him, recommended his own 'The Portrait of Mr W. H.' when the boy said he loved Shakespeare's sonnets, told Reggie Turner and Robert Ross about him, and asked Ross to go down to Radley and look at him. The salutation moved from 'Dear Mr Wilkinson' to 'My dear Boy' and the signature from 'Sincerely yours' to 'Affectionately yours'. They never met. Wilkinson went up to Oxford, became the novelist Louis Marlow, sent a wreath to Wilde's funeral in 1900, and in 1953 printed the letters in Seven Friends, where he confessed that the dramatic society had never existed.",
   "sources": [
     {
@@ -26,7 +29,6 @@
       "work": "letters-2000",
       "locator": "p. 1109 n. 1",
       "locator_type": "page",
-      "evidence_date": null,
       "supports": "The class-deciding fact - 'whom he never met' - together with his dates, his being a Radley schoolboy at the time, the pen-name, the 1953 memoir, and the fabricated Ipswich Dramatic Society that opened the correspondence",
       "verification": "verified-elision",
       "how_verified": "text-layer",
@@ -41,10 +43,12 @@
       "work": "letters-2000",
       "locator": "p. 1118",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1899,
-        "m": 1,
-        "d": 3
+      "postmarked": {
+        "date": {
+          "y": 1899,
+          "m": 1,
+          "d": 3
+        }
       },
       "supports": "Wilkinson's age at the time of the correspondence, in Wilde's own contemporaneous words and exactly as the record states it - seventeen; and the fact that Wilde described the correspondence to a third party as constant",
       "verification": "verified-exact",
@@ -57,7 +61,10 @@
       "manuscript": {
         "repository": "British Library, London (Lady Eccles Oscar Wilde Collection)"
       },
-      "letter_id": "letters-2000/1117#2"
+      "letter_id": "letters-2000/1117#2",
+      "written": {
+        "place": "la-napoule"
+      }
     },
     {
       "quote": "Wilkinson had invented this, like the dramatisation of *Dorian Gray*, to attract Wilde's attention.",
@@ -65,7 +72,6 @@
       "work": "letters-2000",
       "locator": "p. 1127 n. 2",
       "locator_type": "page",
-      "evidence_date": null,
       "supports": "That the fabrications continued past the opening gambit, and that the initiative in the acquaintance was Wilkinson's; also that Wilde was recommending him to Ross in person",
       "verification": "verified-exact",
       "how_verified": "text-layer",
@@ -80,7 +86,6 @@
       "work": "letters-2000",
       "locator": "p. 1133 n. 1",
       "locator_type": "page",
-      "evidence_date": null,
       "supports": "A correction to the 1127 n. 2 picture of wholesale invention - the FitzGerald connection was real but paternal, so not every claim Wilkinson made was manufactured",
       "verification": "verified-exact",
       "how_verified": "text-layer",
@@ -95,10 +100,12 @@
       "work": "letters-2000",
       "locator": "p. 1133",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1899,
-        "m": 3,
-        "d": 20
+      "postmarked": {
+        "date": {
+          "y": 1899,
+          "m": 3,
+          "d": 20
+        }
       },
       "supports": "The escalation of address across the correspondence, as a matter of documented salutation and signature rather than of interpretation",
       "verification": "verified-exact",
@@ -112,7 +119,10 @@
         "repository": "Private collection",
         "owner": "Mr Oliver Wilkinson"
       },
-      "letter_id": "letters-2000/1133#1"
+      "letter_id": "letters-2000/1133#1",
+      "written": {
+        "place": "gland"
+      }
     },
     {
       "quote": "I am in constant correspondence now with a Radley schoolboy, aged seventeen. His photograph, which he has sent me, and sends me constantly, is most beautiful. He seems to read nothing but my books, and says his one desire is to 'follow in my footsteps'! But I have told him that they lead to terrible places. … My Radley boy is called Louis Wilkinson – a horrid name – but his photograph is most interesting, and his poetry passionate and incoherent. He seems a most astonishing boy. He has dramatised Dorian Gray!",
@@ -120,10 +130,12 @@
       "work": "letters-2000",
       "locator": "p. 1118",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1899,
-        "m": 1,
-        "d": 3
+      "postmarked": {
+        "date": {
+          "y": 1899,
+          "m": 1,
+          "d": 3
+        }
       },
       "supports": "The documented acts on which direction rests - three photograph requests, the comments on the photographs when they came, and the reports to Turner and Ross; the addressee was seventeen",
       "verification": "verified-elision",
@@ -135,7 +147,10 @@
       "manuscript": {
         "repository": "British Library, London (Lady Eccles Oscar Wilde Collection)"
       },
-      "letter_id": "letters-2000/1117#2"
+      "letter_id": "letters-2000/1117#2",
+      "written": {
+        "place": "la-napoule"
+      }
     },
     {
       "work": "letters-2000",
@@ -144,10 +159,12 @@
       "quote": "Dear Boy, Come and see me next week. I can get you a room in my hotel.\nI am not going to write to you any more: I want to see you. I have waited long enough. [Signature cut away.]",
       "context": "Wilde to Louis Wilkinson, [Postmark 15 July 1900], Hôtel d'Alsace, Paris",
       "voice": "period",
-      "evidence_date": {
-        "y": 1900,
-        "m": 7,
-        "d": 15
+      "postmarked": {
+        "date": {
+          "y": 1900,
+          "m": 7,
+          "d": 15
+        }
       },
       "supports": "The last surviving letter of the run, and the most direct: an invitation to Paris with a room offered in his own hotel, and the correspondence itself set aside in favour of meeting.",
       "verification": "verified-exact",
@@ -159,7 +176,10 @@
       "manuscript": {
         "repository": "British Library, London (Lady Eccles Oscar Wilde Collection)"
       },
-      "letter_id": "letters-2000/1192#2"
+      "letter_id": "letters-2000/1192#2",
+      "written": {
+        "place": "hotel-d-alsace"
+      }
     },
     {
       "work": "letters-2000",
@@ -168,9 +188,12 @@
       "quote": "Je suis très malade. Ne venez pas cette semaine. Je vous écrirai.",
       "context": "Telegram, Wilde to Louis Wilkinson, [July 1900 - a few days later], Paris",
       "voice": "period",
-      "evidence_date": {
-        "y": 1900,
-        "m": 7
+      "written": {
+        "date": {
+          "y": 1900,
+          "m": 7
+        },
+        "place": "paris"
       },
       "supports": "How the correspondence ends: the invitation of 15 July is withdrawn a few days later on grounds of illness, with a promise to write that is the last thing in the run.",
       "verification": "verified-exact",
@@ -192,10 +215,12 @@
       "work": "letters-2000",
       "locator": "p. 1169",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1900,
-        "m": 1,
-        "d": 4
+      "postmarked": {
+        "date": {
+          "y": 1900,
+          "m": 1,
+          "d": 4
+        }
       },
       "supports": "Wilde's own words placing Wilkinson's photograph at the centre of his room and his attention - the desire, expressed obliquely and unmistakably.",
       "verification": "verified-exact",
@@ -209,18 +234,23 @@
       "manuscript": {
         "repository": "British Library, London (Lady Eccles Oscar Wilde Collection)"
       },
-      "letter_id": "letters-2000/1169#3"
+      "letter_id": "letters-2000/1169#3",
+      "written": {
+        "place": "hotel-d-alsace"
+      }
     },
     {
-      "quote": "Also, do come to Paris. I am ill and unhappy. The touch of your hand might heal me. Always affectionately yours",
+      "quote": "Also, do come to Paris. I am ill and unhappy. The touch of your hand might heal me. Always affectionately yours\n\nOSCAR",
       "context": "The close of Wilde's letter to Wilkinson postmarked 12 February 1900, which runs from printed 1170 onto 1171 and is signed 'OSCAR', followed by the postscript 'I am so glad you have found out my name.' The two had still never met; the editors state elsewhere that they never did.",
       "work": "letters-2000",
       "locator": "pp. 1170-1171",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1900,
-        "m": 2,
-        "d": 12
+      "postmarked": {
+        "date": {
+          "y": 1900,
+          "m": 2,
+          "d": 12
+        }
       },
       "supports": "The direction of the edge, in one line: Wilde asking, and saying what he wants it for.",
       "verification": "verified-exact",
@@ -234,20 +264,26 @@
       "manuscript": {
         "repository": "British Library, London (Lady Eccles Oscar Wilde Collection)"
       },
-      "letter_id": "letters-2000/1170#2"
+      "letter_id": "letters-2000/1170#2",
+      "written": {
+        "place": "hotel-d-alsace"
+      }
     },
     {
       "work": "letters-2000",
       "locator": "p. 1113",
       "locator_type": "page",
-      "quote": "Dear Mr Wilkinson, Thank you so much for your long and interesting letter. I envy you going to Oxford: it is the most flower-like time of one's life. One sees the shadow of things in silver mirrors. Later on, one sees the Gorgon's head, and one suffers, because it does not turn one to stone. I am on the Riviera, in blue and gold weather, the sun warm as wine, and apricot-coloured. The little hotel where I am staying is right on the Golfe de Juan, and all round are pine-woods with their pungent breath: the wind growing aromatic as it moves through the branches: one's feet crushing sweetness out of the fallen needles: I wish you were here. In your second letter you tell me that you enclose your photograph for me, but no photograph was in the envelope. Your thoughts must have been in the crystal of the moon. Call them back, and let me have your portrait. Sincerely yours",
+      "quote": "Dear Mr Wilkinson, Thank you so much for your long and interesting letter. I envy you going to Oxford: it is the most flower-like time of one's life. One sees the shadow of things in silver mirrors. Later on, one sees the Gorgon's head, and one suffers, because it does not turn one to stone.\n\nI am on the Riviera, in blue and gold weather, the sun warm as wine, and apricot-coloured. The little hotel where I am staying is right on the Golfe de Juan, and all round are pine-woods with their pungent breath: the wind growing aromatic as it moves through the branches: one's feet crushing sweetness out of the fallen needles: I wish you were here.\n\nIn your second letter you tell me that you enclose your photograph for me, but no photograph was in the envelope. Your thoughts must have been in the crystal of the moon. Call them back, and let me have your portrait. Sincerely yours\n\nOSCAR WILDE",
       "context": "Wilde to Louis Wilkinson, 28 December [1898], Hôtel des Bains, Napoule (MS Hyde) - quoted whole. Wilkinson was seventeen and the two never met. Note what Wilde does here: the identical landscape - pine-woods, pungent breath, feet crushing sweetness out of fallen needles - appears in the letter to Laurence Housman written the same day and printed on the same opening. To Housman it ends in the fisher-boys; to this schoolboy it ends 'I wish you were here' and a second request for his photograph.",
       "speaker": "Oscar Wilde",
       "addressee": "Louis Wilkinson",
-      "evidence_date": {
-        "y": 1898,
-        "m": 12,
-        "d": 28
+      "written": {
+        "date": {
+          "y": 1898,
+          "m": 12,
+          "d": 28
+        },
+        "place": "la-napoule"
       },
       "supports": "The clearest single letter in the correspondence: the wish, and the portrait asked for twice.",
       "verification": "verified-exact",

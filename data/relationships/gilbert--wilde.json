@@ -7,14 +7,17 @@
   "certainty": "self-reported",
   "certainty_status": "proposed",
   "start": {
-    "y": 1898,
-    "circa": true
+    "date": {
+      "y": 1898,
+      "circa": true
+    }
   },
   "end": {
-    "y": 1900,
-    "m": 11
+    "date": {
+      "y": 1900,
+      "m": 11
+    }
   },
-  "date_label": "First mention in the letters 25 February 1898, already on meeting terms ('We met by chance this morning'); the concentrated run of affectionate references falls 3-9 March 1898; the association lasted to Wilde's death - Gilbert attended the sickroom, took the deathbed photograph at Ross's request, and walked in the funeral procession, 30 November 1900.",
   "summary": "Maurice Gilbert, a young soldier of the marine infantry with an English father and a French mother, was part of Wilde's Paris household of the exile years. Through the spring of 1898 Wilde's letters to his publisher Leonard Smithers report him as a daily fixture - a nightly bezique opponent whose running score Wilde keeps for Smithers, a dinner companion at a two-franc restaurant, the man who takes the cheque to the bank and writes out the signatures Wilde is too tired to write - in a register that keeps sliding from domestic to amorous: Gilbert's 'beaux yeux', a heart 'unfortunately lost' on a side-bet, a friend who 'grows dearer to me daily' and is 'sweeter than ever'. The editors' own note calls him one of Wilde's closest and most devoted friends of the last years, and he was present through the final illness, took the deathbed photograph and walked behind the hearse in November 1900.",
   "sources": [
     {
@@ -23,10 +26,12 @@
       "work": "letters-2000",
       "locator": "p. 1031",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1898,
-        "m": 3,
-        "d": 5
+      "postmarked": {
+        "date": {
+          "y": 1898,
+          "m": 3,
+          "d": 5
+        }
       },
       "supports": "Wilde's plainest first-person statement of the attachment - 'He grows dearer to me daily' - set in the daily domestic texture (the bank errand, the two-franc dinners)",
       "verification": "verified-exact",
@@ -39,7 +44,10 @@
       "manuscript": {
         "repository": "William Andrews Clark Memorial Library, UCLA"
       },
-      "letter_id": "letters-2000/1031#1"
+      "letter_id": "letters-2000/1031#1",
+      "written": {
+        "place": "paris"
+      }
     },
     {
       "quote": "Maurice Gilbert, one of Wilde's closest and most devoted friends during these last years. Except that his father was English and his mother French, and that he was a young soldier in the marine infantry, nothing is known of him.",
@@ -47,7 +55,6 @@
       "work": "letters-2000",
       "locator": "p. 1025 n. 4",
       "locator_type": "page",
-      "evidence_date": null,
       "supports": "Gilbert's identity and the editors' own characterization of the friendship; the sum of what the editors say is knowable about him",
       "verification": "verified-exact",
       "how_verified": "text-layer",
@@ -62,10 +69,12 @@
       "work": "letters-2000",
       "locator": "p. 1031",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1898,
-        "m": 3,
-        "d": 4
+      "postmarked": {
+        "date": {
+          "y": 1898,
+          "m": 3,
+          "d": 4
+        }
       },
       "supports": "The amorous turn inside the comic bezique register - Wilde's own 'lost my heart', staked on a side-game",
       "verification": "verified-exact",
@@ -78,7 +87,10 @@
       "manuscript": {
         "repository": "State University of New York Library, Buffalo, New York"
       },
-      "letter_id": "letters-2000/1030#2"
+      "letter_id": "letters-2000/1030#2",
+      "written": {
+        "place": "hotel-de-nice"
+      }
     },
     {
       "quote": "Without my morning letter from you life would be dreadful – is dreadful – except for Maurice, who is sweeter than ever.",
@@ -86,10 +98,12 @@
       "work": "letters-2000",
       "locator": "p. 1034",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1898,
-        "m": 3,
-        "d": 9
+      "postmarked": {
+        "date": {
+          "y": 1898,
+          "m": 3,
+          "d": 9
+        }
       },
       "supports": "Gilbert as the single exemption from Wilde's misery in this stretch - 'sweeter than ever'",
       "verification": "verified-exact",
@@ -102,7 +116,10 @@
       "manuscript": {
         "repository": "William Andrews Clark Memorial Library, UCLA"
       },
-      "letter_id": "letters-2000/1034#2"
+      "letter_id": "letters-2000/1034#2",
+      "written": {
+        "place": "paris"
+      }
     },
     {
       "work": "letters-2000",
@@ -111,10 +128,12 @@
       "quote": "My dear Maurice, Bosie and I are at Nogent. Do come down either tonight or tomorrow _early_. I have taught them how to make *oeufs à l'aurore*. Ever yours O.",
       "context": "Petit Bleu, Wilde to Maurice Gilbert, [Postmark 18 June 1898], [Nogent-sur-Marne]",
       "voice": "period",
-      "evidence_date": {
-        "y": 1898,
-        "m": 6,
-        "d": 18
+      "postmarked": {
+        "date": {
+          "y": 1898,
+          "m": 6,
+          "d": 18
+        }
       },
       "supports": "The General Index lead, now read. It widens the affectionate run by a note rather than changing its character: Gilbert summoned to join a household Wilde is already sharing with Douglas, in the domestic register of who is cooking. Nothing here strengthens a romantic reading.",
       "verification": "verified-exact",
@@ -126,7 +145,10 @@
       "manuscript": {
         "repository": "William Andrews Clark Memorial Library, UCLA"
       },
-      "letter_id": "letters-2000/1084#2"
+      "letter_id": "letters-2000/1084#2",
+      "written": {
+        "place": "hotel-d-alsace"
+      }
     },
     {
       "quote": "My dear Robbie, No cheque this morning, but instead my sweet Maurice, our sweet Maurice, looking quite charming and as delightful as ever. He seemed a little tired, but of course that was the journey. He was full of affectionate memories of you and Reggie, and is quite devoted to you both.",
@@ -134,10 +156,13 @@
       "work": "letters-2000",
       "locator": "p. 1073",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1898,
-        "m": 5,
-        "d": 25
+      "written": {
+        "date": {
+          "y": 1898,
+          "m": 5,
+          "d": 25
+        },
+        "place": "paris"
       },
       "supports": "Wilde's own register about Gilbert in a letter to a third party - affectionate, possessive and communal at once.",
       "verification": "verified-exact",

@@ -8,13 +8,16 @@
   "certainty_status": "proposed",
   "certainty_reasoning": "Murray quotes in the source, in the Foreword to the 2020 edition, letters written by Douglas to Schwabe in 1893 that surfaced in an Australian archive after the 2000 publication: Douglas addresses Schwabe as his 'darling pretty boy' and calls himself Schwabe's 'loving boy-wife'. Murray's 2000 text had already read the pair that way by inference ('It is fairly easy to guess what Douglas's relationship with Schwabe had been'), and Murray revisits the inference in 2020 in light of the letters.",
   "start": {
-    "y": 1893
+    "date": {
+      "y": 1893
+    }
   },
   "end": {
-    "y": 1902,
-    "circa": true
+    "date": {
+      "y": 1902,
+      "circa": true
+    }
   },
-  "date_label": "Friends 'for some years' before 1892; the surviving letters written 1893; Schwabe staying with Douglas several months after Douglas's March 1902 wedding",
   "summary": "Maurice Schwabe was Douglas's friend before he was Wilde's: Murray has Douglas introducing him to Wilde's circle out of his own Oxford set, and reads their relationship as sexual. Letters from Douglas to Schwabe of 1893, unknown when the biography was first published in 2000 and quoted in the Foreword to the 2020 edition, address Schwabe as 'My darling pretty boy' and sign Douglas as his 'loving boy-wife'. Schwabe, returned from Australia, was staying with Douglas several months after Douglas's marriage to Olive Custance in March 1902 - which is what makes Murray, re-reading, 'wonder' whether his own account of Douglas's later life was too clean.",
   "sources": [
     {
@@ -23,8 +26,10 @@
       "work": "murray-2020",
       "locator": "PDF p. 20",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1893
+      "occurred": {
+        "date": {
+          "y": 1893
+        }
       },
       "supports": "First-person letters by Douglas, quoted in the source by his biographer, addressing Schwabe in explicitly amorous and self-feminising terms - the class-deciding evidence for this edge.",
       "verification": "verified-exact",
@@ -40,8 +45,10 @@
       "work": "murray-2020",
       "locator": "PDF p. 143",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1902
+      "occurred": {
+        "date": {
+          "y": 1902
+        }
       },
       "supports": "That Douglas himself, in a letter to his wife a few months after the March 1902 wedding, reported Schwabe staying with him - the participant-sourced basis for this edge's end date.",
       "verification": "verified-exact",
@@ -57,8 +64,10 @@
       "work": "murray-2020",
       "locator": "PDF p. 53",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1892
+      "occurred": {
+        "date": {
+          "y": 1892
+        }
       },
       "supports": "The precedence of the friendship (Schwabe was Douglas's friend first, 'for some years' before Wilde), and Murray's own reading of it as sexual - stated as inference.",
       "verification": "verified-elision",

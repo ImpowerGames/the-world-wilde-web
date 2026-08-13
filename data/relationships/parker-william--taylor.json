@@ -8,14 +8,17 @@
   "certainty_status": "proposed",
   "certainty_reasoning": "William Parker's sworn testimony: the brothers slept with Taylor in the same bed at Little College Street, and Hyde's editorial bracket records that the witness 'described an attempt made by Taylor to commit sodomy.'",
   "start": {
-    "y": 1893,
-    "circa": true
+    "date": {
+      "y": 1893,
+      "circa": true
+    }
   },
   "end": {
-    "y": 1893,
-    "circa": true
+    "date": {
+      "y": 1893,
+      "circa": true
+    }
   },
-  "date_label": "1893 (brief: two visits to Little College Street, then William left for country work)",
   "summary": "William Parker, a groom, attended the Kettner's-side dinner at which Taylor presented his brother to Wilde ('Your brother is lucky. Oscar does not care what he pays if he fancies a chap'), went twice to Little College Street, and on one night shared Taylor's bed with his brother, where his testimony describes an attempted sodomy by Taylor. He understood from the outset that the brothers 'were to be treated as women, and that [they] were to have money for it.' Taylor was convicted of gross indecency with him in May 1895.",
   "sources": [
     {
@@ -24,9 +27,12 @@
       "work": "hyde-trials-1948",
       "locator": "p. 199",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1895,
-        "m": 4
+      "occurred": {
+        "date": {
+          "y": 1895,
+          "m": 4
+        },
+        "place": "13-little-college-street"
       },
       "supports": "The shared bed and the attempted sodomy — the class-deciding testimony",
       "verification": "verified-exact",
@@ -49,9 +55,11 @@
       "work": "hyde-trials-1948",
       "locator": "p. 199",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1895,
-        "m": 4
+      "occurred": {
+        "date": {
+          "y": 1895,
+          "m": 4
+        }
       },
       "supports": "The transactional understanding of the arrangement, in the witness's own words",
       "verification": "verified-exact",
@@ -79,9 +87,11 @@
       "work": "hyde-trials-1948",
       "locator": "p. 282",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1895,
-        "m": 5
+      "occurred": {
+        "date": {
+          "y": 1895,
+          "m": 5
+        }
       },
       "supports": "The other participant in his own words: Taylor names both Parkers among the men who had shared his bedroom, and gives his own account of how he and they first met (at the St James's bar, on Harrington's introduction, over a drink)",
       "verification": "verified-elision",
@@ -132,9 +142,11 @@
       "work": "hyde-trials-1948",
       "locator": "p. 292",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1895,
-        "m": 5
+      "occurred": {
+        "date": {
+          "y": 1895,
+          "m": 5
+        }
       },
       "supports": "Taylor's conviction of gross indecency with William Parker",
       "verification": "verified-exact",

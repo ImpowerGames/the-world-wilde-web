@@ -6,10 +6,14 @@
     "Natalie Barney"
   ],
   "born": {
-    "y": 1876
+    "date": {
+      "y": 1876
+    }
   },
   "died": {
-    "y": 1972
+    "date": {
+      "y": 1972
+    }
   },
   "group": "later",
   "bio": "American heiress, poet, and Paris salon hostess who, per McDermott, 'saw herself as a latter day Sappho', and whose Quelques Portraits-Sonnets de Femmes (1900) made her notorious for openly lesbian verse. She opened a correspondence with Olive Custance after Opals (1897), wooed her with love poems, hosted her in Paris, and travelled with her in Italy around 1901; her memoir Souvenirs Indiscrets (1960) recounts the episode, including a plan to gather Custance and Renée Vivien into a Sapphic community at Mytilene. Her later, celebrated Left-Bank circle (Vivien, Romaine Brooks, and others) lies outside this web's scope.",

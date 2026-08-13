@@ -7,14 +7,17 @@
   "certainty": "self-reported",
   "certainty_status": "proposed",
   "start": {
-    "y": 1880,
-    "m": 3
+    "date": {
+      "y": 1880,
+      "m": 3
+    }
   },
   "end": {
-    "y": 1881,
-    "m": 7
+    "date": {
+      "y": 1881,
+      "m": 7
+    }
   },
-  "date_label": "Documented span of the read letters: [Postmark 1 March 1880] ('the sweetest Violet in England', to her mother) to [Postmark 22 July 1881] (to Violet directly); the acquaintance evidently predates the first letter, which recalls 'your promise to have tea with me'.",
   "summary": "Wilde's attention to Violet Hunt, daughter of the painter Alfred William Hunt and the novelist Margaret Raine Hunt, runs through his 1880-81 letters to her mother - tea at the family's Campden Hill home, 'the sweetest Violet in England I think her, though you must not tell her so', a poem promised and then sent - and one direct letter of July 1881 thanking her for praising his Poems: 'You have made me very happy.' Later accounts carry a claim that Wilde proposed or came near proposing marriage; it appears nowhere in the letters and remains unverified.",
   "sources": [
     {
@@ -23,10 +26,12 @@
       "work": "letters-2000",
       "locator": "pp. 88-89",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1880,
-        "m": 3,
-        "d": 1
+      "postmarked": {
+        "date": {
+          "y": 1880,
+          "m": 3,
+          "d": 1
+        }
       },
       "supports": "The courtship-register compliment routed through her mother, with the request that Violet not be told; March 1880",
       "verification": "verified-exact",
@@ -39,7 +44,10 @@
       "manuscript": {
         "repository": "William Andrews Clark Memorial Library, UCLA"
       },
-      "letter_id": "letters-2000/88#2"
+      "letter_id": "letters-2000/88#2",
+      "written": {
+        "place": "13-salisbury-street"
+      }
     },
     {
       "quote": "Dear Miss Violet Hunt, I thank you very much for your kind letter, and am infinitely delighted that you have thought my poems beautiful. … You have made me very happy. Believe me ever sincerely yours.",
@@ -47,10 +55,12 @@
       "work": "letters-2000",
       "locator": "p. 114",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1881,
-        "m": 7,
-        "d": 22
+      "postmarked": {
+        "date": {
+          "y": 1881,
+          "m": 7,
+          "d": 22
+        }
       },
       "supports": "Direct warm correspondence by July 1881, closing 'You have made me very happy'",
       "verification": "verified-elision",
@@ -63,7 +73,10 @@
       "manuscript": {
         "repository": "William Andrews Clark Memorial Library, UCLA"
       },
-      "letter_id": "letters-2000/114#1"
+      "letter_id": "letters-2000/114#1",
+      "written": {
+        "place": "keats-house"
+      }
     },
     {
       "quote": "The second woman he seriously thought of marrying, at the beginning of the 1880s, was Violet Hunt … Wilde described her as ‘the sweetest violet in England.’ They had met in London when she was not yet seventeen. ‘I feel like a young conqueror,’ he said as they talked intensely together. ‘We will rule the world—you and I—you with your looks and I with my wits.’",
@@ -71,8 +84,10 @@
       "work": "ellmann-1988",
       "locator": "PDF p. 330",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1881
+      "occurred": {
+        "date": {
+          "y": 1881
+        }
       },
       "supports": "The marriage-proposal tradition",
       "verification": "verified-elision",

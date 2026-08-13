@@ -5,7 +5,9 @@
   "aka": [],
   "born": null,
   "died": {
-    "y": 1956
+    "date": {
+      "y": 1956
+    }
   },
   "group": "family",
   "gender": "f",

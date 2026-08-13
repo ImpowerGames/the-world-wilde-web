@@ -7,10 +7,14 @@
     "Mabel Veronica Batten"
   ],
   "born": {
-    "y": 1856
+    "date": {
+      "y": 1856
+    }
   },
   "died": {
-    "y": 1916
+    "date": {
+      "y": 1916
+    }
   },
   "group": "later",
   "gender": "f",

@@ -9,24 +9,29 @@
   "direction": "wilde",
   "outcome": "unknown",
   "start": {
-    "y": 1895
+    "date": {
+      "y": 1895
+    }
   },
   "end": {
-    "y": 1897
+    "date": {
+      "y": 1897
+    }
   },
-  "date_label": "Fellow prisoners in Reading; Wilde released 19 May 1897, Elvin due out 6 November 1897, and the letter arranging his money is of 30 October 1897",
   "summary": "Harry Elvin was a soldier of twenty serving time in Reading Gaol while Wilde was there, and the man Wilde liked best of anyone he met inside. They walked together and talked. Six months after his own release, from a rented villa outside Naples and with no money of his own, Wilde wrote to Reggie Turner to borrow £2.10 so that a letter containing it would be waiting for Elvin at the Post Office on the day he came out - because he had promised, and because \"he would be greatly disappointed not to hear from me\".",
   "sources": [
     {
-      "quote": "I now want you to do me a favour. I want you to lend me £2.10. I have one friend left in Reading, the one I liked best; a very handsome young soldier of twenty years of age – Harry Elvin. I promised him I would leave a letter at the Post Office for him and he would be greatly disappointed not to hear from me, as we always walked together, and had long chats. So will you put PO orders into the enclosed letter for £2.10. and I will pay you as soon as I get some money from America. … H. E. comes out on November 6th, so the letter should be sent off at once.",
+      "quote": "I now want you to do me a favour. I want you to lend me £2.10. I have one friend left in Reading, the one I liked best; a very handsome young soldier of twenty years of age – Harry Elvin. I promised him I would leave a letter at the Post Office for him and he would be greatly disappointed not to hear from me, as we always walked together, and had long chats.\n\nSo will you put PO orders into the enclosed letter for £2.10. and I will pay you as soon as I get some money from America.…H. E. comes out on November 6th, so the letter should be sent off at once.",
       "context": "Wilde to Reggie Turner, postmark 30 October 1897, from the Villa Giudice, Posilippo, where he was living with Douglas and effectively penniless - the same letter frets about syndicating The Ballad of Reading Gaol in America. The elision drops one sentence repaying an earlier loan of Turner's.",
       "work": "letters-2000",
       "locator": "p. 976",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1897,
-        "m": 10,
-        "d": 30
+      "postmarked": {
+        "date": {
+          "y": 1897,
+          "m": 10,
+          "d": 30
+        }
       },
       "supports": "Preference, physical admiration, the habit of walking together, and money Wilde did not have - all of it in Wilde's own hand.",
       "verification": "verified-elision",
@@ -40,7 +45,13 @@
       "manuscript": {
         "repository": "British Library, London (Lady Eccles Oscar Wilde Collection)"
       },
-      "letter_id": "letters-2000/976#1"
+      "letter_id": "letters-2000/976#1",
+      "written": {
+        "place": "naples"
+      },
+      "occurred": {
+        "place": "reading"
+      }
     }
   ]
 }

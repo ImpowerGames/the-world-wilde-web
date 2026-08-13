@@ -8,10 +8,14 @@
     "Will Ward"
   ],
   "born": {
-    "y": 1854
+    "date": {
+      "y": 1854
+    }
   },
   "died": {
-    "y": 1932
+    "date": {
+      "y": 1932
+    }
   },
   "group": "aesthete",
   "gender": "m",

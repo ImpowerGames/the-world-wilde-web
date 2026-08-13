@@ -6,8 +6,10 @@
     "Alfred Waterhouse Somerset Taylor"
   ],
   "born": {
-    "y": 1862,
-    "circa": true
+    "date": {
+      "y": 1862,
+      "circa": true
+    }
   },
   "died": null,
   "gender": "m",

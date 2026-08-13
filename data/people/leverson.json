@@ -7,10 +7,14 @@
     "Sphinx"
   ],
   "born": {
-    "y": 1862
+    "date": {
+      "y": 1862
+    }
   },
   "died": {
-    "y": 1933
+    "date": {
+      "y": 1933
+    }
   },
   "group": "aesthete",
   "gender": "f",

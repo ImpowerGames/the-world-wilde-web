@@ -10,14 +10,18 @@
   "outcome": "unknown",
   "certainty_reasoning": "An unrecorded outcome is not evidence of no outcome, and Pietro's own view of the meeting is not recorded anywhere.",
   "start": {
-    "y": 1899,
-    "m": 1
+    "date": {
+      "y": 1899,
+      "m": 1
+    },
+    "place": "nice"
   },
   "end": {
-    "y": 1899,
-    "m": 1
+    "date": {
+      "y": 1899,
+      "m": 1
+    }
   },
-  "date_label": "Met on a three-day trip to Nice with Harold Mellor, reported in a letter the editors date Thursday [? 12 January 1899] from Napoule.",
   "summary": "On a three-day excursion from Napoule to Nice with Harold Mellor in January 1899, Wilde met a young Italian named Pietro and wrote to Robert Ross that he was 'like a young St John' and that 'One would have followed him into the desert'. It is the stronger of the two Nice notices - a declaration rather than a description - but it is still only a notice: no surname, no age, no second mention anywhere in the correspondence read, and nothing recorded of what followed.",
   "sources": [
     {
@@ -26,9 +30,16 @@
       "work": "letters-2000",
       "locator": "p. 1118",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1899,
-        "m": 1
+      "written": {
+        "date": {
+          "y": 1899,
+          "m": 1,
+          "d": 12,
+          "weekday": "thursday",
+          "uncertain": true,
+          "inferred": true
+        },
+        "place": "la-napoule"
       },
       "supports": "The whole of the record for Pietro: a named young Italian met at Nice, compared to a young St John, with Wilde's declaration that one would have followed him into the desert; no outcome recorded",
       "verification": "verified-exact",
@@ -41,7 +52,10 @@
       "manuscript": {
         "repository": "William Andrews Clark Memorial Library, UCLA"
       },
-      "letter_id": "letters-2000/1118#1"
+      "letter_id": "letters-2000/1118#1",
+      "occurred": {
+        "place": "nice"
+      }
     }
   ]
 }

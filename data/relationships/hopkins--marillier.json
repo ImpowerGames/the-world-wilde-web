@@ -7,10 +7,11 @@
   "certainty": "married",
   "certainty_status": "proposed",
   "start": {
-    "y": 1906
+    "date": {
+      "y": 1906
+    }
   },
   "end": null,
-  "date_label": "M. 1906; still married at the close of the source's account",
   "summary": "Five years after his first wife died, Marillier married Winifred Christabel Hopkins, daughter of the painter Arthur Hopkins and composer of 'The Rose and the Ring'. They had a son. He went on to run Morris & Co. And to become the authority on tapestry, and died in 1951.",
   "sources": [
     {
@@ -19,8 +20,10 @@
       "work": "whistler-correspondence-marillier",
       "locator": "biographical entry, 'Mari_HC'",
       "locator_type": "none",
-      "evidence_date": {
-        "y": 1906
+      "occurred": {
+        "date": {
+          "y": 1906
+        }
       },
       "supports": "The second marriage, its year, the wife's identity and her own work.",
       "verification": "verified-elision",

@@ -5,7 +5,9 @@
   "aka": [],
   "born": null,
   "died": {
-    "y": 1901
+    "date": {
+      "y": 1901
+    }
   },
   "group": "family",
   "gender": "f",

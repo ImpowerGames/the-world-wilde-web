@@ -6,10 +6,14 @@
     "George Francis Miles"
   ],
   "born": {
-    "y": 1852
+    "date": {
+      "y": 1852
+    }
   },
   "died": {
-    "y": 1891
+    "date": {
+      "y": 1891
+    }
   },
   "group": "aesthete",
   "gender": "m",

@@ -7,10 +7,14 @@
   "certainty": "platonic",
   "certainty_status": "proposed",
   "start": {
-    "y": 1939
+    "date": {
+      "y": 1939
+    }
   },
   "end": {
-    "y": 1939
+    "date": {
+      "y": 1939
+    }
   },
   "summary": "Ives and Laurence Housman, fellow members of the Order of Chaeronea; Ives left Housman a ring in his 1939 will.",
   "certainty_reasoning": "The record documents a friendship or acquaintance with no evidence of attraction or romance; classified platonic, upgradable if contrary evidence comes to light.",
@@ -21,8 +25,10 @@
       "work": "cook-2014",
       "locator": "p. 110",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1939
+      "occurred": {
+        "date": {
+          "y": 1939
+        }
       },
       "supports": "Housman's membership of the Order of Chaeronea alongside Ives, and a personal bequest marking it.",
       "verification": "verified-exact",
@@ -32,6 +38,5 @@
       "voice": "modern",
       "document": "study"
     }
-  ],
-  "date_label": "Named in the 1939 will"
+  ]
 }

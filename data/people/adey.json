@@ -6,10 +6,14 @@
     "William More Adey"
   ],
   "born": {
-    "y": 1858
+    "date": {
+      "y": 1858
+    }
   },
   "died": {
-    "y": 1942
+    "date": {
+      "y": 1942
+    }
   },
   "group": "aesthete",
   "bio": "Translator and editor who published the first English translation of Ibsen's Brand (1891) under the pseudonym William Wilson, later ran the Carfax picture gallery with Robert Ross, and was joint editor of the Burlington Magazine, 1911-19. The editors of the Complete Letters describe him as a 'Close friend of Robert Ross'; the two shared lodgings at 24 Hornton Street, Kensington, and both were Roman Catholics - Wilde in 1897 teased 'you and More, especially More' as a unit for treating him 'as a Dissenter'. It was to Adey that Ross addressed, in installments, his narrative of Wilde's final illness, death and funeral (14 December 1900), and a rosary Adey had given Ross was placed around Wilde's neck at the laying-out.",

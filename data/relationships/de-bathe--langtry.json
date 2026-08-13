@@ -8,16 +8,19 @@
   "certainty_status": "proposed",
   "certainty_reasoning": "Married, on the same two-source footing as the first marriage: the Complete Letters editors state it ('Married 1899; he succeeded as fifth Baronet in 1907'), and Wikipedia supplies the day, the church and his dates.",
   "start": {
-    "y": 1899,
-    "m": 7,
-    "d": 27
+    "date": {
+      "y": 1899,
+      "m": 7,
+      "d": 27
+    }
   },
   "end": {
-    "y": 1929,
-    "m": 2,
-    "d": 12
+    "date": {
+      "y": 1929,
+      "m": 2,
+      "d": 12
+    }
   },
-  "date_label": "M. 27 July 1899 at St Saviour's, Jersey; ended by her death, 12 February 1929",
   "summary": "Two years after divorcing Edward Langtry, Lillie Langtry married Hugo Gerald de Bathe at St Saviour's in Jersey - the island she had come from - with only her daughter and the officials there. He was seventeen years younger. In 1907 he inherited the baronetcy and she became Lady de Bathe; they spent the last years apart, and she died in Monaco in 1929.",
   "sources": [
     {
@@ -26,10 +29,13 @@
       "work": "wikipedia-lillie-langtry",
       "locator": "section on her later life",
       "locator_type": "none",
-      "evidence_date": {
-        "y": 1899,
-        "m": 7,
-        "d": 27
+      "occurred": {
+        "date": {
+          "y": 1899,
+          "m": 7,
+          "d": 27
+        },
+        "place": "jersey"
       },
       "supports": "The second marriage: year, husband's identity and dates, exact date and place.",
       "verification": "verified-elision",

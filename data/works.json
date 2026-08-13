@@ -692,7 +692,7 @@
     "year": 1897,
     "short_cite": "Whitman, Calamus, ed. Bucke (1897)",
     "ia_id": "calamusseriesofl00whitrich",
-    "note": "Two things in one volume: Bucke's introduction, which contains a long verbatim interview with Peter Doyle (printed c. 21-34), and Whitman's letters to Doyle 1868-1880 - both participants' voices. Pagination: scan number = printed folio + 13. Bucke's title says 'a young friend'; the 1897 volume is discreet by design, and the discretion is itself evidence of what was being handled."
+    "note": "Two things in one volume: Bucke's introduction, which contains a long verbatim interview with Peter Doyle (printed c. 21-34), and Whitman's letters to Doyle 1868-1880 - both participants' voices. Pagination differs between scans, so the offset belongs to the copy and not to the book: the copy held at ../../whitman/sources/Whitman+Bucke_1897_Calamus--letters-to-Peter-Doyle.pdf (Internet Archive calamusaseriesl00buckgoog) runs scan = printed folio + 11, confirmed at scan 46 = p. 35 and scan 48 = p. 37. It is an image scan with no text layer, so passages are found by rendering the page and reading it. Bucke's title says 'a young friend'; the 1897 volume is discreet by design, and the discretion is itself evidence of what was being handled."
   },
   "murray-wwa-doyle-encyclopedia": {
     "kind": "secondary",

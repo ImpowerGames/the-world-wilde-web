@@ -7,10 +7,11 @@
   "certainty": "married",
   "certainty_status": "proposed",
   "start": {
-    "y": 1886
+    "date": {
+      "y": 1886
+    }
   },
   "end": null,
-  "date_label": "Married 1886",
   "summary": "Sherard married Martha Lips in 1886, seven years before Wilde's trials and three years into his friendship with Wilde. Wilde asked after her warmly in 1888.",
   "certainty_reasoning": "Married: stated by the editors of the Complete Letters.",
   "sources": [
@@ -20,8 +21,10 @@
       "locator_type": "page",
       "quote": "He had married a Polish girl called Martha Lips in 1886.",
       "context": "Merlin Holland and Rupert Hart-Davis, editors' note to Wilde's [? 1888] letter to Sherard, in a note otherwise concerned with dating the letter from Sherard's contributions to the Table.",
-      "evidence_date": {
-        "y": 1886
+      "occurred": {
+        "date": {
+          "y": 1886
+        }
       },
       "supports": "The marriage and its year — the whole of what the source says about it.",
       "verification": "verified-exact",
@@ -39,8 +42,11 @@
       "context": "Wilde to Sherard, [? 1888], 16 Tite Street — the only description of her anywhere in this corpus.",
       "speaker": "Oscar Wilde",
       "addressee": "Robert Harborough Sherard",
-      "evidence_date": {
-        "y": 1888
+      "written": {
+        "date": {
+          "y": 1888
+        },
+        "place": "16-tite-street"
       },
       "supports": "That Wilde knew her, and how he spoke of her.",
       "verification": "verified-exact",

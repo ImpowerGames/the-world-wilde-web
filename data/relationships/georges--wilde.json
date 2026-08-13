@@ -10,14 +10,17 @@
   "outcome": "unknown",
   "certainty_reasoning": "Printed 1108 puts the same boy in Paris three weeks earlier - 'One beautiful boy of bad character - of the name of Georges … so like Antinous'.",
   "start": {
-    "y": 1899,
-    "m": 1
+    "date": {
+      "y": 1899,
+      "m": 1
+    }
   },
   "end": {
-    "y": 1899,
-    "m": 1
+    "date": {
+      "y": 1899,
+      "m": 1
+    }
   },
-  "date_label": "The intended meeting at Nice, announced in a letter postmarked 3 January 1899 from Napoule, for a trip 'tomorrow'. The friendship itself predates the letter - Wilde calls him a great friend and places him as a Paris boy - but no earlier date was verified in the source.",
   "summary": "From Napoule at the start of January 1899, Wilde told Reginald Turner that Harold Mellor was arriving that day and that the two of them were going to Nice the next day, where a great friend of his, a Paris boy he called 'le petit Georges', was then staying and whom he had promised to see. The letter gives four clauses of physical description and says Georges was at Nice on speculative business. Nothing read records whether the meeting took place.",
   "sources": [
     {
@@ -28,9 +31,12 @@
       "context": "Wilde in Paris, December 1898, three weeks before the Nice letter. The editors index this as the same boy: their entry reads 'Georges (boy), 1097, 1108, 1117' - and printed 1117 is the 'le petit Georges' letter that this connection already rests on. Index slip worth recording: the 1097 in that string is wrong. Printed 1097 carries only the letter to monsieur Georges, the proprietor of l'Écu, whom Wilde thanks for a week's lodging and whose wife and parents he sends compliments to; he has his own index entry at the same page. Antinous was the boy the emperor Hadrian loved and deified after his death, and in Wilde's vocabulary the comparison is never neutral.",
       "speaker": "Oscar Wilde",
       "addressee": null,
-      "evidence_date": {
-        "y": 1898,
-        "m": 12
+      "written": {
+        "date": {
+          "y": 1898,
+          "m": 12
+        },
+        "place": "hotel-d-alsace"
       },
       "supports": "That Wilde knew him in Paris before Nice, and how he described him to a correspondent other than Turner.",
       "verification": "verified-exact",
@@ -42,7 +48,10 @@
       "manuscript": {
         "repository": "British Library, London (Lady Eccles Oscar Wilde Collection)"
       },
-      "letter_id": "letters-2000/1107#1"
+      "letter_id": "letters-2000/1107#1",
+      "occurred": {
+        "place": "paris"
+      }
     },
     {
       "quote": "My friend, my new friend, Harold Mellor comes here today to stay at the hotel, and tomorrow we go to Nice, for the day. A great friend of mine, a Paris boy called *le petit Georges*, is now at Nice, and I have promised to run over and see him. He is like a very handsome Roman boy, dark, and bronze-like, with splendidly chiselled nose and mouth, and the tents of midnight are folded in his eyes; moons hide in their curtains. He is visiting Nice on speculative business.",
@@ -50,10 +59,12 @@
       "work": "letters-2000",
       "locator": "p. 1117",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1899,
-        "m": 1,
-        "d": 3
+      "postmarked": {
+        "date": {
+          "y": 1899,
+          "m": 1,
+          "d": 3
+        }
       },
       "supports": "The whole of the verified record: an existing friendship, a promised meeting at Nice, Wilde's description of him, and the statement that he was at Nice on speculative business; no outcome recorded",
       "verification": "verified-exact",
@@ -66,7 +77,13 @@
       "manuscript": {
         "repository": "British Library, London (Lady Eccles Oscar Wilde Collection)"
       },
-      "letter_id": "letters-2000/1117#2"
+      "letter_id": "letters-2000/1117#2",
+      "written": {
+        "place": "la-napoule"
+      },
+      "occurred": {
+        "place": "nice"
+      }
     },
     {
       "quote": "A great friend of mine, a Paris boy called *le petit Georges*, is now at Nice, and I have promised to run over and see him. He is like a very handsome Roman boy, dark, and bronze-like, with splendidly chiselled nose and mouth, and the tents of midnight are folded in his eyes; moons hide in their curtains. He is visiting Nice on speculative business. It is beautiful, and encouraging, to find people who can combine romance with business – blend them indeed, and make them one.",
@@ -74,10 +91,12 @@
       "work": "letters-2000",
       "locator": "pp. 1117-1118",
       "locator_type": "page",
-      "evidence_date": {
-        "y": 1899,
-        "m": 1,
-        "d": 3
+      "postmarked": {
+        "date": {
+          "y": 1899,
+          "m": 1,
+          "d": 3
+        }
       },
       "supports": "How Wilde glosses Georges's 'speculative business' at Nice - the sentence completes on the following page and bears directly on how the connection should be read",
       "verification": "verified-exact",
@@ -90,7 +109,13 @@
       "manuscript": {
         "repository": "British Library, London (Lady Eccles Oscar Wilde Collection)"
       },
-      "letter_id": "letters-2000/1117#2"
+      "letter_id": "letters-2000/1117#2",
+      "written": {
+        "place": "la-napoule"
+      },
+      "occurred": {
+        "place": "nice"
+      }
     }
   ]
 }

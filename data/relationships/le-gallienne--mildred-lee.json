@@ -7,11 +7,17 @@
   "certainty": "married",
   "certainty_status": "proposed",
   "certainty_reasoning": "All three le Gallienne marriages rest on an uncited Wikipedia narrative. The sentences carry no inline footnote; Wikidata Q545544 is not an independent check, holding a single P26 claim with zero references and nothing at all for two of the three wives, so the two web sources are one source. What would close it: Whittington-Egan and Smerdon, The Quest of the Golden Boy (1960), the standard life, and Eva Le Gallienne's memoirs; failing those, the GRO and New York civil registers.",
-  "start": null,
-  "end": {
-    "y": 1894
+  "start": {
+    "date": {
+      "y": 1894,
+      "bound": "not-later-than"
+    }
   },
-  "date_label": "Married by 1894 at latest; ended by her death in childbirth, 1894",
+  "end": {
+    "date": {
+      "y": 1894
+    }
+  },
   "summary": "Mildred Lee married Richard Le Gallienne at an unrecorded date before 1894, and died that year in childbirth together with their second daughter. He kept her ashes with him for the rest of his life, including throughout his next marriage.",
   "sources": [
     {
@@ -20,8 +26,10 @@
       "work": "wikipedia-richard-le-gallienne",
       "locator": "section on his English years",
       "locator_type": "none",
-      "evidence_date": {
-        "y": 1894
+      "occurred": {
+        "date": {
+          "y": 1894
+        }
       },
       "supports": "The first marriage, the wife's name, and its end.",
       "verification": "verified-exact",

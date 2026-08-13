@@ -7,11 +7,12 @@
   "certainty": "uncorroborated",
   "certainty_status": "proposed",
   "start": {
-    "y": 1893,
-    "m": 3
+    "date": {
+      "y": 1893,
+      "m": 3
+    }
   },
   "end": null,
-  "date_label": "Alleged March 1893, at the Savoy Hotel — plea only",
   "disputed": {
     "claim": "that Wilde took indecent liberties with Herbert Tankard at the Savoy Hotel in March 1893",
     "asserted_by": "Queensberry's plea of justification (filed 30 March 1895)",
@@ -26,9 +27,12 @@
       "locator_type": "page",
       "quote": "And that the said Oscar Fingal O'fflahertie Wills Wilde in the said month of March in the year of our Lord one thousand eight hundred and ninety-three at the said Savoy Hotel did take indecent liberties with one Herbert Tankard.",
       "context": "The Marquess of Queensberry's plea of justification, printed as Appendix A. The clause immediately follows those naming Charles Parker and Ernest Scarfe, and is followed by the one naming Walter Grainger.",
-      "evidence_date": {
-        "y": 1893,
-        "m": 3
+      "occurred": {
+        "date": {
+          "y": 1893,
+          "m": 3
+        },
+        "place": "savoy-hotel"
       },
       "supports": "The allegation itself, in the plea's own words — the whole of the record for this connection.",
       "verification": "verified-exact",

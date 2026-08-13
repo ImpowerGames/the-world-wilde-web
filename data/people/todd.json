@@ -1,10 +1,14 @@
 {
   "id": "todd",
   "born": {
-    "y": 1854
+    "date": {
+      "y": 1854
+    }
   },
   "died": {
-    "y": 1939
+    "date": {
+      "y": 1939
+    }
   },
   "gender": "m",
   "sexuality_sources": [],

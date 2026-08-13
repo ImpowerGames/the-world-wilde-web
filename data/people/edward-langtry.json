@@ -6,10 +6,14 @@
     "Ned Langtry"
   ],
   "born": {
-    "y": 1847
+    "date": {
+      "y": 1847
+    }
   },
   "died": {
-    "y": 1897
+    "date": {
+      "y": 1897
+    }
   },
   "group": "family",
   "gender": "m",

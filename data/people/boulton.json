@@ -6,10 +6,14 @@
     "Harold Edwin Boulton"
   ],
   "born": {
-    "y": 1859
+    "date": {
+      "y": 1859
+    }
   },
   "died": {
-    "y": 1935
+    "date": {
+      "y": 1935
+    }
   },
   "group": "aesthete",
   "gender": "m",
