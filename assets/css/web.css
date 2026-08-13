@@ -841,15 +841,6 @@ main {
   max-width: 62ch;
   margin: 0 0 8px;
 }
-.phases {
-  margin: 6px 0 0;
-  padding-left: 18px;
-  font-size: 13px;
-  color: var(--ink2);
-}
-.phases li {
-  margin-bottom: 3px;
-}
 .disputed {
   border-left: 3px solid var(--pend);
   background: var(--pend-bg);

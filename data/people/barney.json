@@ -8,12 +8,14 @@
   "born": {
     "date": {
       "y": 1876
-    }
+    },
+    "place": "dayton"
   },
   "died": {
     "date": {
       "y": 1972
-    }
+    },
+    "place": "paris"
   },
   "group": "later",
   "bio": "American heiress, poet, and Paris salon hostess who, per McDermott, 'saw herself as a latter day Sappho', and whose Quelques Portraits-Sonnets de Femmes (1900) made her notorious for openly lesbian verse. She opened a correspondence with Olive Custance after Opals (1897), wooed her with love poems, hosted her in Paris, and travelled with her in Italy around 1901; her memoir Souvenirs Indiscrets (1960) recounts the episode, including a plan to gather Custance and Renée Vivien into a Sapphic community at Mytilene. Her later, celebrated Left-Bank circle (Vivien, Romaine Brooks, and others) lies outside this web's scope.",
@@ -25,5 +27,6 @@
   ],
   "sexuality_sources": [],
   "gender": "f",
-  "wikipedia": "https://en.wikipedia.org/wiki/Natalie_Clifford_Barney"
+  "wikipedia": "https://en.wikipedia.org/wiki/Natalie_Clifford_Barney",
+  "wikidata": "Q34782"
 }

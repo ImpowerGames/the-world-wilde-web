@@ -6,14 +6,16 @@
   "born": {
     "date": {
       "y": 1867
-    }
+    },
+    "place": "london"
   },
   "died": {
     "date": {
       "y": 1900,
       "m": 2,
       "d": 23
-    }
+    },
+    "place": "london"
   },
   "group": "aesthete",
   "gender": "m",
@@ -21,5 +23,6 @@
   "bio_sources": [],
   "bio_note": "Years and death date from the editors' footnotes, Complete Letters (2000), pp. 877 n. 1 ('English poet (1867-1900)') and 1173 n. 2 (died at Sherard's house at Catford, 23 February 1900). Rhymers' Club membership from p. 422 n. 2 (the Cheshire Cheese meetings, the two Books of 1892 and 1894). The 1890 meeting and the Oakley Street visit from p. 877 n. 1 (independently asserted at Sox, p. 141). The Berneval/Dieppe period from Frankel (2017), p. 113; the Ballad claim at Frankel p. 121; the Naples debt from Wilde's letters, printed pp. 957, 965, 969, 971. Also on the record: Fothergill's memoir (in Sox, p. 141) that Dowson was in love with the owner of the Café Royal but 'faithful only after his fashion'; and the editors' note (p. 1018 n. 3) that Dowson 'never married', reading the 1898 reference to a 'Mrs Dowson' as 'probably a reference to a newly acquired mistress or one of the prostitutes whose company he enjoyed'.",
   "sexuality_sources": [],
-  "wikipedia": "https://en.wikipedia.org/wiki/Ernest_Dowson"
+  "wikipedia": "https://en.wikipedia.org/wiki/Ernest_Dowson",
+  "wikidata": "Q1231493"
 }

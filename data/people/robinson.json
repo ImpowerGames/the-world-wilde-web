@@ -10,12 +10,14 @@
   "born": {
     "date": {
       "y": 1857
-    }
+    },
+    "place": "leamington-hastings"
   },
   "died": {
     "date": {
       "y": 1944
-    }
+    },
+    "place": "aurillac"
   },
   "group": "aesthete",
   "gender": "f",
@@ -25,5 +27,6 @@
     "pulham-y90s-lee-bio"
   ],
   "sexuality_sources": [],
-  "wikipedia": "https://en.wikipedia.org/wiki/Agnes_Mary_Frances_Duclaux"
+  "wikipedia": "https://en.wikipedia.org/wiki/Agnes_Mary_Frances_Duclaux",
+  "wikidata": "Q517162"
 }

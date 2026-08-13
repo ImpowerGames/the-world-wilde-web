@@ -11,14 +11,16 @@
       "y": 1880,
       "m": 8,
       "d": 12
-    }
+    },
+    "place": "bournemouth"
   },
   "died": {
     "date": {
       "y": 1943,
       "m": 10,
       "d": 7
-    }
+    },
+    "place": "london"
   },
   "group": "later",
   "gender": "f",
@@ -29,5 +31,6 @@
     "cook-2014"
   ],
   "sexuality_sources": [],
-  "wikipedia": "https://en.wikipedia.org/wiki/Radclyffe_Hall"
+  "wikipedia": "https://en.wikipedia.org/wiki/Radclyffe_Hall",
+  "wikidata": "Q237639"
 }

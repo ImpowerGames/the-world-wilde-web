@@ -10,14 +10,16 @@
       "y": 1856,
       "m": 10,
       "d": 14
-    }
+    },
+    "place": "boulogne-sur-mer"
   },
   "died": {
     "date": {
       "y": 1935,
       "m": 2,
       "d": 13
-    }
+    },
+    "place": "florence"
   },
   "group": "aesthete",
   "gender": "f",
@@ -28,5 +30,6 @@
     "letters-2000"
   ],
   "sexuality_sources": [],
-  "wikipedia": "https://en.wikipedia.org/wiki/Vernon_Lee"
+  "wikipedia": "https://en.wikipedia.org/wiki/Vernon_Lee",
+  "wikidata": "Q2669614"
 }

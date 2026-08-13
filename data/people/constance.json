@@ -9,14 +9,16 @@
   "born": {
     "date": {
       "y": 1858
-    }
+    },
+    "place": "london"
   },
   "died": {
     "date": {
       "y": 1898,
       "m": 4,
       "d": 7
-    }
+    },
+    "place": "genoa"
   },
   "group": "family",
   "bio": "Constance Mary Lloyd (1858-1898), daughter of Horace Lloyd QC (1828-74), first met Wilde in London in June 1881 and accepted his proposal in Dublin, announcing the engagement to her brother Otho on 26 November 1883. They married at St James's Church, Sussex Gardens, on 29 May 1884, honeymooned in Paris, and had two sons, Cyril and Vyvyan. After the 1895 catastrophe she, like her brother, took the name Holland; she visited Wilde in Reading Gaol on 19 February 1896 to break the news of his mother's death - their last meeting. She died at Genoa on 7 April 1898, aged forty, and was buried in the Protestant cemetery there; 'Wife of Oscar Wilde' was added to her gravestone only in 1963.",
@@ -31,5 +33,6 @@
   ],
   "sexuality_sources": [],
   "gender": "f",
-  "wikipedia": "https://en.wikipedia.org/wiki/Constance_Wilde"
+  "wikipedia": "https://en.wikipedia.org/wiki/Constance_Wilde",
+  "wikidata": "Q445095"
 }

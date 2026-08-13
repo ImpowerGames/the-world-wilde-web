@@ -10,14 +10,16 @@
       "y": 1861,
       "m": 11,
       "d": 10
-    }
+    },
+    "place": "london"
   },
   "died": {
     "date": {
       "y": 1889,
       "m": 9,
       "d": 10
-    }
+    },
+    "place": "london"
   },
   "group": "aesthete",
   "gender": "f",
@@ -29,5 +31,6 @@
     "beckman-jwa-levy"
   ],
   "sexuality_sources": [],
-  "wikipedia": "https://en.wikipedia.org/wiki/Amy_Levy"
+  "wikipedia": "https://en.wikipedia.org/wiki/Amy_Levy",
+  "wikidata": "Q275367"
 }

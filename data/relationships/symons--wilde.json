@@ -27,7 +27,7 @@
       "work": "letters-2000",
       "locator": "p. 455",
       "locator_type": "page",
-      "quote": "Dear Mr Symons, We have no day just at present, as my wife is going away for a fortnight, but I hope you will come and dine with us some night. It was a great pleasure meeting you, as I had admired your work for a long time. I …",
+      "quote": "Dear Mr Symons, We have no day just at present, as my wife is going away for a fortnight, but I hope you will come and dine with us some night. It was a great pleasure meeting you, as I had admired your work for a long time. I look forward to an evening together, and to a talk about French art, the one art now in Europe that is worth discussing – Verlaine's art especially. Who has parodied our dear Pater in the *Cornhill*? It is clever and horrid. The parody on Kipling is excellent: one had there merely to reproduce a caricature of life and literature. Do you think Barrie wrote it? Truly yours\n\nOSCAR WILDE",
       "context": "Wilde to Arthur Symons, [postmark 22 October 1890], 16 Tite Street (MS Berg). The letter breaks where the printed page does. This is the two of them having just met.",
       "speaker": "Oscar Wilde",
       "addressee": "Arthur Symons",
@@ -39,7 +39,7 @@
         }
       },
       "supports": "The beginning of the acquaintance.",
-      "verification": "verified-elision",
+      "verification": "verified-exact",
       "how_verified": "photo-reproduction",
       "citation_provenance": "PDF p. 477.",
       "verified_on": "2026-08-06",

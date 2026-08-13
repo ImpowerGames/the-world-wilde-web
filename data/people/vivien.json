@@ -9,12 +9,14 @@
   "born": {
     "date": {
       "y": 1877
-    }
+    },
+    "place": "london"
   },
   "died": {
     "date": {
       "y": 1909
-    }
+    },
+    "place": "paris"
   },
   "group": "later",
   "gender": "f",
@@ -23,5 +25,6 @@
     "parker-y90s-custance-bio"
   ],
   "sexuality_sources": [],
-  "wikipedia": "https://en.wikipedia.org/wiki/Ren%C3%A9e_Vivien"
+  "wikipedia": "https://en.wikipedia.org/wiki/Ren%C3%A9e_Vivien",
+  "wikidata": "Q275628"
 }

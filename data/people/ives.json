@@ -8,7 +8,8 @@
   "born": {
     "date": {
       "y": 1867
-    }
+    },
+    "place": "frankfurt"
   },
   "died": {
     "date": {
@@ -21,5 +22,6 @@
   "bio_note": "Born/died and Order founding from the biographical footnote at Holland & Hart-Davis, Complete Letters (2000), p. 573 n. 3: 'George Cecil Ives (1867-1950). Albany move-in date from p. 592 n. 3. Parentage, diary scope (1886-1950, 122 vols, c. 3M words), casebook, archive split, Chaeronea-as-first-group, Humanitarian article, and addresses from Cook (2003) pp. 31, 143-8. Cook spells the Order 'Chaerona'. Lewis (NHC podcast) notes the Spanish-baroness maternal descent is not borne out by census records. Enriched from Matt Cook, Queer Domesticities (2014), ch. 'George Ives, Queer Lives and the Family': the Regent's Park interval (from 1897), the Order's non-hierarchical two-members-invite-a-third structure, the BSSSP treasurership with Carpenter as life president, the affairs with women and the Tilly Hayes child question, and the 1939 will. Pagination: printed folio = PDF page - 11 in the body text, - 10 in the back-matter notes. The Ives chapter runs printed 95-111, not 95-123; ch. 5 (Joe Ackerley) begins at printed 112, and the 'Freddie' of printed 113 onward is Ackerley's lover, a different man from the household's Freddie Smith. Cook 2014 spells the Order 'the Order of the Chaeronea' (Cook 2003 has 'Chaerona'). Cook dates the Albany move to 1893 ('two years later' than 1891) against the Complete Letters' 30 June 1894, and dates the will to October 1939 in his text but 1 December 1939 in his endnote 80 - both unresolved. Provenance caveat: Cook's endnotes credit Brian Lewis, by personal communication and with no archival citation, for the Goddard-daughters departure reading (n. 22), the Tilly Hayes identification (n. 61), and the Charles French connection (n. 84).",
   "sexuality_sources": [],
   "gender": "m",
-  "wikipedia": "https://en.wikipedia.org/wiki/George_Cecil_Ives"
+  "wikipedia": "https://en.wikipedia.org/wiki/George_Cecil_Ives",
+  "wikidata": "Q434996"
 }

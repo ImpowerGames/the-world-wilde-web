@@ -12,7 +12,8 @@
       "y": 1874,
       "m": 2,
       "d": 7
-    }
+    },
+    "place": "london"
   },
   "died": {
     "date": {
@@ -33,5 +34,6 @@
   ],
   "sexuality_sources": [],
   "gender": "f",
-  "wikipedia": "https://en.wikipedia.org/wiki/Olive_Custance"
+  "wikipedia": "https://en.wikipedia.org/wiki/Olive_Custance",
+  "wikidata": "Q7087146"
 }

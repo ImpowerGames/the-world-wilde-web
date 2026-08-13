@@ -6,12 +6,14 @@
   "born": {
     "date": {
       "y": 1819
-    }
+    },
+    "place": "huntington"
   },
   "died": {
     "date": {
       "y": 1892
-    }
+    },
+    "place": "camden"
   },
   "group": "beyond",
   "gender": "m",
@@ -19,5 +21,6 @@
   "bio_sources": [],
   "bio_note": "Dates (1819-92), Camden residence, the 18 January visit with Stoddart, and the Leaves of Grass withdrawal are from the biographical footnote at Holland & Hart-Davis, Complete Letters (2000), p. 144 n. 1; letter postmark and closing from pp. 144-145. Second visit 'early in May' 1882: Ellmann, 'Oscar Meets Walt', NYRB, 3 Dec. 1987. 1888 letter handover: Traubel, With Walt Whitman in Camden, vol. 2, pp. 287-288.",
   "sexuality_sources": [],
-  "wikipedia": "https://en.wikipedia.org/wiki/Walt_Whitman"
+  "wikipedia": "https://en.wikipedia.org/wiki/Walt_Whitman",
+  "wikidata": "Q81438"
 }

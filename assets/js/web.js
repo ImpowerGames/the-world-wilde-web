@@ -1653,12 +1653,21 @@ async function loadWeb() {
   // The place a source files under: the city of the first act that names one, taken in the
   // same order as its date, so the two describe the same act. The city rather than the place
   // itself, so a letter headed from the Hotel de Nice files under Paris with the other eleven.
-  function srcPlace(q) {
+  // Broadest first, as a place is spoken. A place known only at one level files under that
+  // level and under no other, which is the honest answer rather than inventing the rest.
+  const PLACE_PARTS = [
+    ["country", "Country", "countries"],
+    ["region", "Region", "regions"],
+    ["city", "City", "cities"],
+    ["street", "Street", "streets"],
+    ["venue", "Venue", "venues"],
+  ];
+  function srcPlaceParts(q) {
     for (const a of DATED) {
       const p = q && q[a] && q[a].place && (WEB.places || {})[q[a].place];
-      if (p) return p.city || p.region || p.country || p.venue || "";
+      if (p) return p;
     }
-    return "";
+    return {};
   }
   function bySourceDate(list, get) {
     const g = get || ((x) => x);
@@ -2147,15 +2156,20 @@ async function loadWeb() {
       rank: (k) => (k === "" ? 2 : DERIVED_LOC.includes(k) ? 1 : 0),
       label: (k) => k || "Not recorded",
     },
-    place: {
-      off: new Set(),
-      solo: null,
-      prev: new Set(),
-      attr: "place",
-      resting: "Place",
-      rank,
-      label: (k) => k || "Not recorded",
-    },
+    ...Object.fromEntries(
+      PLACE_PARTS.map(([part, title]) => [
+        part,
+        {
+          off: new Set(),
+          solo: null,
+          prev: new Set(),
+          attr: part,
+          resting: title,
+          rank,
+          label: (k) => k || "Not recorded",
+        },
+      ]),
+    ),
   };
   // Show only this kind; do it again to put back exactly what was hidden before, rather than
   // merely showing everything. Called by a chip on a card and by right-clicking a row of the
@@ -2265,9 +2279,14 @@ async function loadWeb() {
     const locs = new Map();
     for (const r of PANEL_SRC)
       locs.set(r.loc || "", (locs.get(r.loc || "") || 0) + 1);
-    const places = new Map();
-    for (const r of PANEL_SRC)
-      places.set(r.place || "", (places.get(r.place || "") || 0) + 1);
+    const partCounts = PLACE_PARTS.map(([part]) => {
+      const m = new Map();
+      for (const r of PANEL_SRC) {
+        const v = (r.pl || {})[part] || "";
+        m.set(v, (m.get(v) || 0) + 1);
+      }
+      return [part, m];
+    });
 
     // Both dropdowns are the same control over a different question, so they are the same
     // markup. Ordered by how many of each the panel holds, which puts the label on the kind that
@@ -2320,18 +2339,21 @@ async function loadWeb() {
       </details>`;
     // Dimmed rather than absent where nothing has a place, so the control keeps its position
     // and says the map has no answer yet instead of implying there is no such question.
+    // Only the levels this panel knows anything about; five empty groups would offer nothing.
+    const liveParts = partCounts.filter(([, m]) => [...m.keys()].some(Boolean));
     const placeSel = `<details id="sfplacefilter" class="sfdoc"${
-      [...places.keys()].some(Boolean) ? "" : " data-empty"
+      liveParts.length ? "" : " data-empty"
     }>
         <summary aria-label="Filter by where the document was written"
           ><span class="sfdocsum">Place</span></summary>
-        <div class="sfdocbox">
-          <div role="group" aria-label="Where the document was written">${facetGroup(
-            FACETS.place,
-            places,
-            "All places",
-          )}</div>
-        </div>
+        <div class="sfdocbox">${liveParts
+          .map(
+            ([part, counts], i) =>
+              `<div role="group" aria-label="${esc(FACETS[part].resting)} the document was written in"${
+                i ? ` class="sfdocgroup"` : ""
+              }>${facetGroup(FACETS[part], counts, `All ${PLACE_PARTS.find(([x]) => x === part)[2]}`)}</div>`,
+          )
+          .join("")}</div>
       </details>`;
     return `<div class="sfilter">
     <div class="sfqwrap">
@@ -2503,8 +2525,10 @@ async function loadWeb() {
         let ok = !term || hay.includes(term);
         if (ok && FACETS.doc.off.size) ok = !FACETS.doc.off.has(s.doc || "");
         if (ok && FACETS.loc.off.size) ok = !FACETS.loc.off.has(s.loc || "");
-        if (ok && FACETS.place.off.size)
-          ok = !FACETS.place.off.has(s.place || "");
+        for (const [part] of PLACE_PARTS) {
+          if (ok && FACETS[part].off.size)
+            ok = !FACETS[part].off.has((s.pl || {})[part] || "");
+        }
         if (ok && dated) {
           if (s.y == null) {
             ok = false;
@@ -2528,7 +2552,7 @@ async function loadWeb() {
         dated ||
         FACETS.doc.off.size > 0 ||
         FACETS.loc.off.size > 0 ||
-        FACETS.place.off.size > 0;
+        PLACE_PARTS.some(([part]) => FACETS[part].off.size > 0);
       cnt.textContent = active
         ? `${shown} of ${cards.length}${dropped ? ` · ${dropped} undated hidden` : ""}`
         : "";
@@ -2597,9 +2621,11 @@ async function loadWeb() {
           : "Document";
       }
       if (psel) {
-        const said = syncFacet(FACETS.place, psel);
-        psel.classList.toggle("on", !!said);
-        psel.querySelector(".sfdocsum").textContent = said || "Place";
+        const said = PLACE_PARTS.map(([part]) => syncFacet(FACETS[part], psel)).filter(Boolean);
+        psel.classList.toggle("on", said.length > 0);
+        psel.querySelector(".sfdocsum").textContent = said.length
+          ? said.join(" · ")
+          : "Place";
       }
 
       clr.hidden = !dated;
@@ -2750,7 +2776,7 @@ async function loadWeb() {
           y: srcYear(f.q),
           doc: f.q.document || null,
           loc: (f.q.location || {}).short || null,
-          place: srcPlace(f.q),
+          pl: srcPlaceParts(f.q),
           q: f.q,
         });
         return quoteCard(f.q, f, PANEL_SRC.length - 1);
@@ -2786,7 +2812,9 @@ async function loadWeb() {
         k: sortKey(actDate(p.born)),
         cls: "anchor",
         when: fmtDate(actDate(p.born)),
-        what: "Born",
+        // Where, when the record knows it: a birth is an act like any other and its place is
+        // part of what the row says.
+        what: p.born.place ? `Born, ${esc(fmtPlace(p.born.place))}` : "Born",
       });
     for (const r of rels) {
       const q = P.get(partnerOf(r, id));
@@ -2816,7 +2844,7 @@ async function loadWeb() {
         k: sortKey(actDate(p.died)),
         cls: "anchor",
         when: fmtDate(actDate(p.died)),
-        what: "Died",
+        what: p.died.place ? `Died, ${esc(fmtPlace(p.died.place))}` : "Died",
       });
     const life = `${yearOf(actDate(p.born))}–${yearOf(actDate(p.died))}`;
     panel.innerHTML = `<div class="pwrap">
@@ -2857,7 +2885,7 @@ async function loadWeb() {
           y: srcYear(q),
           doc: q.document || null,
           loc: (q.location || {}).short || null,
-          place: srcPlace(q),
+          pl: srcPlaceParts(q),
           q,
         });
         return quoteCard(q, null, PANEL_SRC.length - 1);
@@ -2869,7 +2897,7 @@ async function loadWeb() {
     <div class="datesline">${esc(relDateLabel(r))}</div>
     ${certBadge(r)}
     ${r.summary ? `<p class="summary">${esc(r.summary)}</p>` : ""}
-    ${(r.phases || []).length ? `<div class="sect">Phases</div><ul class="phases">${r.phases.map((ph) => `<li><b>${esc(fmtDate(actDate(ph.start)))}${ph.end ? ` – ${esc(fmtDate(actDate(ph.end)))}` : ""}</b>${ph.note ? ` — ${esc(ph.note)}` : ""}</li>`).join("")}</ul>` : ""}
+    ${(r.phases || []).length ? `<div class="sect">Phases</div><ul class="tl">${r.phases.map((ph) => `<li><span class="knot"></span><div class="when">${esc(fmtDate(actDate(ph.start)))}${ph.end ? ` – ${esc(fmtDate(actDate(ph.end)))}` : ""}</div>${ph.note ? `<div class="what">${esc(ph.note)}</div>` : ""}</li>`).join("")}</ul>` : ""}
     ${d ? `<div class="disputed"><b>Contested.</b> ${esc(d.claim || "")}${d.asserted_by ? `<div class="dline"><span>Asserted</span>${esc(d.asserted_by)}</div>` : ""}${d.disputed_by ? `<div class="dline"><span>Against</span>${esc(d.disputed_by)}</div>` : ""}${d.grounds ? `<div class="dline"><span>Grounds</span>${esc(d.grounds)}</div>` : ""}</div>` : ""}
     <div class="sect">Sources, in chronological order (${(r.sources || []).length})</div>
     ${sourceFilterBar((r.sources || []).length)}
@@ -2936,7 +2964,7 @@ async function loadWeb() {
           y: srcYear(f.q),
           doc: f.q.document || null,
           loc: (f.q.location || {}).short || null,
-          place: srcPlace(f.q),
+          pl: srcPlaceParts(f.q),
           q: f.q,
         });
         return quoteCard(f.q, f, PANEL_SRC.length - 1);

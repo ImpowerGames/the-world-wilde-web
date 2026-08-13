@@ -9,12 +9,14 @@
   "born": {
     "date": {
       "y": 1881
-    }
+    },
+    "place": "aldeburgh"
   },
   "died": {
     "date": {
       "y": 1966
-    }
+    },
+    "place": "westcott-barton"
   },
   "group": "later",
   "gender": "m",
@@ -22,5 +24,6 @@
   "bio_sources": [],
   "bio_note": "Birth and death years, the Radley schooling, the Ipswich Dramatic Society fabrication, the pen-name Louis Marlow, Seven Friends (1953), the Hyde Collection provenance and the flat statement that the two never met are from the main-particulars footnote at p. 1109 n. 1. The Lady Windermere's Fan invention is p. 1127 n. 2. The FitzGerald correction is p. 1133 n. 1. The age is Wilde's own contemporaneous statement to Reginald Turner at p. 1118, consistent with the 1881 birth year. ",
   "sexuality_sources": [],
-  "wikipedia": "https://en.wikipedia.org/wiki/Louis_Wilkinson"
+  "wikipedia": "https://en.wikipedia.org/wiki/Louis_Wilkinson",
+  "wikidata": "Q26435237"
 }

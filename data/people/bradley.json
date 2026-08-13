@@ -9,7 +9,8 @@
   "born": {
     "date": {
       "y": 1846
-    }
+    },
+    "place": "birmingham"
   },
   "died": {
     "date": {
@@ -25,5 +26,6 @@
     "evangelista-y90s-field-bio"
   ],
   "sexuality_sources": [],
-  "wikipedia": "https://en.wikipedia.org/wiki/Katharine_Harris_Bradley"
+  "wikipedia": "https://en.wikipedia.org/wiki/Katharine_Harris_Bradley",
+  "wikidata": "Q15982614"
 }

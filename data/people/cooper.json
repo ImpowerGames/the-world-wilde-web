@@ -10,12 +10,14 @@
   "born": {
     "date": {
       "y": 1862
-    }
+    },
+    "place": "kenilworth"
   },
   "died": {
     "date": {
       "y": 1913
-    }
+    },
+    "place": "richmond"
   },
   "group": "aesthete",
   "gender": "f",
@@ -26,5 +28,6 @@
     "evangelista-y90s-field-bio"
   ],
   "sexuality_sources": [],
-  "wikipedia": "https://en.wikipedia.org/wiki/Edith_Emma_Cooper"
+  "wikipedia": "https://en.wikipedia.org/wiki/Edith_Emma_Cooper",
+  "wikidata": "Q3719235"
 }

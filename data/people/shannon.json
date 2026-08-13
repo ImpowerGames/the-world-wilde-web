@@ -12,12 +12,14 @@
       "y": 1863,
       "m": 4,
       "d": 20
-    }
+    },
+    "place": "sleaford"
   },
   "died": {
     "date": {
       "y": 1937
-    }
+    },
+    "place": "richmond"
   },
   "group": "aesthete",
   "gender": "m",
@@ -30,5 +32,6 @@
     "mckenna-2008"
   ],
   "sexuality_sources": [],
-  "wikipedia": "https://en.wikipedia.org/wiki/Charles_Haslewood_Shannon"
+  "wikipedia": "https://en.wikipedia.org/wiki/Charles_Haslewood_Shannon",
+  "wikidata": "Q5078832"
 }

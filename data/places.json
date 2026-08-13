@@ -64,6 +64,14 @@
     "city": "London",
     "country": "England"
   },
+  "aldeburgh": {
+    "city": "Aldeburgh",
+    "country": "England"
+  },
+  "aurillac": {
+    "city": "Aurillac",
+    "country": "France"
+  },
   "babbacombe-cliff": {
     "venue": "Babbacombe Cliff",
     "city": "Torquay",
@@ -83,16 +91,36 @@
     "city": "Berneval-sur-Mer",
     "country": "France"
   },
+  "bethnal-green": {
+    "city": "Bethnal Green",
+    "country": "England"
+  },
   "bingham-rectory": {
     "street": "Bingham Rectory",
     "city": "Bingham",
     "region": "Nottinghamshire",
     "country": "England"
   },
+  "birmingham": {
+    "city": "Birmingham",
+    "country": "England"
+  },
   "bodley-head": {
     "venue": "The Bodley Head",
     "street": "Vigo Street",
     "city": "London",
+    "country": "England"
+  },
+  "boston": {
+    "city": "Boston",
+    "country": "United States"
+  },
+  "boulogne-sur-mer": {
+    "city": "Boulogne-sur-Mer",
+    "country": "France"
+  },
+  "bournemouth": {
+    "city": "Bournemouth",
     "country": "England"
   },
   "brighton": {
@@ -130,6 +158,10 @@
     "city": "Chicago",
     "country": "United States"
   },
+  "dayton": {
+    "city": "Dayton",
+    "country": "United States"
+  },
   "dieppe": {
     "city": "Dieppe",
     "country": "France"
@@ -137,6 +169,10 @@
   "dublin": {
     "city": "Dublin",
     "country": "Ireland"
+  },
+  "durham": {
+    "city": "Durham",
+    "country": "England"
   },
   "edinburgh": {
     "city": "Edinburgh",
@@ -148,9 +184,18 @@
     "city": "Paris",
     "country": "France"
   },
+  "falmouth": {
+    "city": "Falmouth",
+    "region": "Cornwall",
+    "country": "England"
+  },
   "florence": {
     "city": "Florence",
     "country": "Italy"
+  },
+  "frankfurt": {
+    "city": "Frankfurt",
+    "country": "Germany"
   },
   "geneva": {
     "city": "Geneva",
@@ -212,6 +257,11 @@
     "city": "Nice",
     "country": "France"
   },
+  "huntington": {
+    "city": "Huntington",
+    "region": "New York",
+    "country": "United States"
+  },
   "illaunroe-lodge": {
     "venue": "Illaunroe Lodge",
     "region": "Connemara",
@@ -225,6 +275,14 @@
     "venue": "Keats House",
     "street": "1 Tite Street",
     "city": "London",
+    "country": "England"
+  },
+  "kendal": {
+    "city": "Kendal",
+    "country": "England"
+  },
+  "kenilworth": {
+    "city": "Kenilworth",
     "country": "England"
   },
   "kirkwood": {
@@ -245,6 +303,14 @@
     "region": "California",
     "country": "United States"
   },
+  "lancing": {
+    "city": "Lancing",
+    "country": "England"
+  },
+  "leamington-hastings": {
+    "city": "Leamington Hastings",
+    "country": "England"
+  },
   "lewes-house": {
     "venue": "Lewes House",
     "city": "Lewes",
@@ -253,6 +319,10 @@
   "london": {
     "city": "London",
     "country": "England"
+  },
+  "lynn": {
+    "city": "Lynn",
+    "country": "United States"
   },
   "lyric-club": {
     "venue": "Lyric Club",
@@ -322,8 +392,17 @@
     "city": "Portofino",
     "country": "Italy"
   },
+  "powick": {
+    "city": "Powick",
+    "region": "Worcestershire",
+    "country": "England"
+  },
   "reading": {
     "city": "Reading",
+    "country": "England"
+  },
+  "richmond": {
+    "city": "Richmond",
     "country": "England"
   },
   "rome": {
@@ -345,6 +424,10 @@
     "city": "Sheffield",
     "country": "England"
   },
+  "saint-saviour-jersey": {
+    "city": "Saint Saviour",
+    "country": "Jersey"
+  },
   "san-fruttuoso": {
     "city": "San Fruttuoso",
     "country": "Italy"
@@ -352,6 +435,11 @@
   "savoy-hotel": {
     "venue": "Savoy Hotel",
     "city": "London",
+    "country": "England"
+  },
+  "sleaford": {
+    "city": "Sleaford",
+    "region": "Lincolnshire",
     "country": "England"
   },
   "st-jamess-street": {
@@ -393,6 +481,10 @@
     "city": "Torquay",
     "country": "England"
   },
+  "tours": {
+    "city": "Tours",
+    "country": "France"
+  },
   "trouville": {
     "city": "Trouville",
     "country": "France"
@@ -400,6 +492,10 @@
   "venice": {
     "city": "Venice",
     "country": "Italy"
+  },
+  "westcott-barton": {
+    "city": "Westcott Barton",
+    "country": "England"
   },
   "worthing": {
     "city": "Worthing",

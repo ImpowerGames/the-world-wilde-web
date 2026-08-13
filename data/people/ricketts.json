@@ -10,14 +10,16 @@
   "born": {
     "date": {
       "y": 1866
-    }
+    },
+    "place": "geneva"
   },
   "died": {
     "date": {
       "y": 1931,
       "m": 10,
       "d": 7
-    }
+    },
+    "place": "london"
   },
   "group": "aesthete",
   "gender": "m",
@@ -31,5 +33,6 @@
     "mckenna-2008"
   ],
   "sexuality_sources": [],
-  "wikipedia": "https://en.wikipedia.org/wiki/Charles_Ricketts"
+  "wikipedia": "https://en.wikipedia.org/wiki/Charles_Ricketts",
+  "wikidata": "Q2332695"
 }

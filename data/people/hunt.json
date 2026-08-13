@@ -6,12 +6,14 @@
   "born": {
     "date": {
       "y": 1866
-    }
+    },
+    "place": "durham"
   },
   "died": {
     "date": {
       "y": 1942
-    }
+    },
+    "place": "london"
   },
   "group": "society",
   "bio": "Violet Hunt, later a novelist, was the daughter of the landscape painter Alfred William Hunt and the novelist Margaret Raine Hunt, of Tor Villas, Campden Hill, where Wilde took tea with the family during his Salisbury Street years. In 1880-81 he paid her marked attention - 'the sweetest Violet in England I think her', he wrote to her mother in March 1880 - promised and sent her a poem, and thanked her directly in July 1881 for admiring his Poems. Her autobiography The Flurried Years (1926), quoted by the editors for her reminiscence of the young Wilde at Tor Villas, is the family memoir of the acquaintance.",
@@ -22,5 +24,6 @@
   "bio_note": "Facts from the main-particulars footnote at Holland & Hart-Davis, Complete Letters (2000), p. 88 n. 4 and Wilde's letters at pp. 88-89, 93, 94 (to Mrs Alfred Hunt) and 114 (to Violet Hunt). It is confirmed: Sutherland, Stanford Companion to Victorian Fiction (1989), p. 314, also gives 1866. En.wikipedia and Wikidata (Q1677011) give 1862, and en.wikipedia cites Sutherland - the work that contradicts it. Ellmann has them meeting in London 'when she was not yet seventeen' (see the source on hunt--wilde), which fits neither 1866 (she would be about thirteen when the letters begin in March 1880) nor 1862 (about eighteen). Ellmann also puts the meeting in London at the beginning of the 1880s, not Dublin in 1879, and our own verified letters are London from March 1880. Letter count established from the volume's Index of Recipients (printed 1233): 'Hunt, Violet - 114'.",
   "sexuality_sources": [],
   "gender": "f",
-  "wikipedia": "https://en.wikipedia.org/wiki/Violet_Hunt"
+  "wikipedia": "https://en.wikipedia.org/wiki/Violet_Hunt",
+  "wikidata": "Q1677011"
 }

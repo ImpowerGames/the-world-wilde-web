@@ -9,14 +9,16 @@
   "born": {
     "date": {
       "y": 1870
-    }
+    },
+    "place": "powick"
   },
   "died": {
     "date": {
       "y": 1945,
       "m": 3,
       "d": 20
-    }
+    },
+    "place": "lancing"
   },
   "group": "aesthete",
   "bio": "Lord Alfred Bruce Douglas, born 1870, third son of John Sholto Douglas, eighth Marquess of Queensberry, and Sybil Montgomery (who divorced the Marquess in 1887); educated at Winchester and Magdalen College, Oxford, which he left without a degree. Lionel Johnson brought him to see Wilde at Tite Street in 1891, and Wilde dated the friendship proper from May 1892, when Douglas appealed to him over a blackmail scrape. A poet, he was the dedicatee and translator of Wilde's Salome and published Poems in 1896; he later said he destroyed 150 of Wilde's letters to him, including those from Holloway. He arrived in Paris the day after Wilde's death and followed the coffin at the funeral on 3 December 1900. He married Olive Custance by special licence at St George's, Hanover Square, on 4 March 1902; their only child, Raymond Wilfrid Sholto Douglas, was born on 17 November 1902 and from 26 August 1927 lived, with brief intervals, at St Andrew's Hospital, Northampton. Douglas was received into the Catholic Church in May 1911, and was made bankrupt on a money-lender's petition on 14 January 1913. He edited the Academy from 1907, and the rest of his middle life ran through the courts: the Ransome libel trial of 1913, which he lost; Robert Ross's criminal prosecution of him in 1914; a series of actions of his own; and finally his conviction for criminal libel of Winston Churchill, for which Mr Justice Avory sentenced him to six months in the second division. He was taken to Wormwood Scrubs on 13 December 1923 and released for good behaviour on 12 May 1924. In prison he wrote In Excelsis, seventeen sonnets - begun 20 February 1924 and finished on Good Friday, 18 April - which the prison authorities confiscated at his release and which he never recovered; it was published from memory, in the London Mercury in October 1924 and in book form that December. His marriage broke down in 1913 and again after a short reconciliation, but he and Olive were reconciled in later life; she died on 12 February 1944. His late books were the Autobiography (1929) and Without Apology (1938), and his last lyric poem was written in 1927. He died at about four in the morning on Tuesday 20 March 1945, in the Colmans' farmhouse at Lancing where he had spent his last months, and was buried, as he had asked, with his mother in the cemetery of the Franciscan Friary at Crawley.",
@@ -35,5 +37,6 @@
   ],
   "sexuality_sources": [],
   "gender": "m",
-  "wikipedia": "https://en.wikipedia.org/wiki/Lord_Alfred_Douglas"
+  "wikipedia": "https://en.wikipedia.org/wiki/Lord_Alfred_Douglas",
+  "wikidata": "Q460660"
 }

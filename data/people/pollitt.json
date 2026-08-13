@@ -9,7 +9,8 @@
   "born": {
     "date": {
       "y": 1871
-    }
+    },
+    "place": "kendal"
   },
   "died": {
     "date": {
@@ -22,5 +23,6 @@
   "bio_sources": [],
   "bio_note": "Birth and death years, Kendal, Trinity College 1889-92, the amateur ballet dancing, the Beardsley collecting bought from Smithers, the preference for 'Jerome' and the inscribed presentation copies are from the main-particulars footnote at p. 1103 n. 1. 'Pollitt's Kendal home was called The Green Window' is p. 1107 n. 1. The four surviving letters and the misspelling in all of them are p. 1120 n. 2; the misspelt envelope address itself is quoted at p. 1116 n. 1. The never-met reading rests on Wilde's own question to Smithers at p. 1117. Nothing states how or when Wilde and Pollitt were introduced by correspondence; the earlier index locator at printed 1103 is the first letter, and no Pollitt letter to Wilde is printed in this edition.",
   "sexuality_sources": [],
-  "wikipedia": "https://en.wikipedia.org/wiki/Herbert_Charles_Pollitt"
+  "wikipedia": "https://en.wikipedia.org/wiki/Herbert_Charles_Pollitt",
+  "wikidata": "Q33084569"
 }
