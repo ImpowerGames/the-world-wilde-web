@@ -31,8 +31,8 @@
         }
       },
       "supports": "The class, and the direction - this is Wilde writing, and only Wilde.",
-      "verification": "verified-exact",
-      "how_verified": "text-layer",
+      "verified": true,
+      "verified_with": "text-layer",
       "citation_provenance": "PDF p. 479 (printed folio 457).",
       "verified_on": "2026-08-04",
       "speaker": "Oscar Wilde",

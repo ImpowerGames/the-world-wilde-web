@@ -37,8 +37,8 @@
         "place": "hotel-de-nice"
       },
       "supports": "Wilde's own account of how The Ballad had done, sent to a journalist.",
-      "verification": "verified-elision",
-      "how_verified": "photo-reproduction",
+      "verified": true,
+      "verified_with": "photo-reproduction",
       "citation_provenance": "PDF p. 1073. The volume heads this letter 'TS Clark' - a TYPESCRIPT, not Wilde's hand. Nothing in it can settle emphasis: whoever typed it had already read the underlining.",
       "verified_on": "2026-08-05",
       "voice": "period",
@@ -65,8 +65,8 @@
         "place": "hotel-de-nice"
       },
       "supports": "What a good review was worth to him, and what he needed in the same breath.",
-      "verification": "verified-elision",
-      "how_verified": "photo-reproduction",
+      "verified": true,
+      "verified_with": "photo-reproduction",
       "citation_provenance": "PDF p. 1073. The volume heads this letter 'TS Clark' - a TYPESCRIPT, not Wilde's hand. Nothing in it can settle emphasis: whoever typed it had already read the underlining.",
       "verified_on": "2026-08-05",
       "voice": "period",
@@ -84,8 +84,8 @@
       "locator": "General Index s.v. Strong, Rowland",
       "locator_type": "page",
       "supports": "Would settle Paris as a place of the connection: the volume's Strong index entry, read at the page.",
-      "verification": "unverified",
-      "how_verified": "unverified",
+      "verified": false,
+      "verified_with": "unverified",
       "citation_provenance": "",
       "document": "editorial-note",
       "occurred": {

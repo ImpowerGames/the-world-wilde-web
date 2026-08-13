@@ -38,8 +38,8 @@
         "place": "dublin"
       },
       "supports": "Wilde's own conduct on the night - he went over, and he noticed the discomfort.",
-      "verification": "verified-elision",
-      "how_verified": "photo-reproduction",
+      "verified": true,
+      "verified_with": "photo-reproduction",
       "citation_provenance": "PDF pp. 53-54.",
       "verified_on": "2026-08-05",
       "voice": "period",

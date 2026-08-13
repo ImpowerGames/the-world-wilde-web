@@ -26,8 +26,8 @@
         }
       },
       "supports": "The second marriage, its year, the wife's identity and her own work.",
-      "verification": "verified-elision",
-      "how_verified": "as-published",
+      "verified": true,
+      "verified_with": "as-published",
       "citation_provenance": "Whistler Correspondence biographical entry (Mari_HC), footnoted to Nevinson's DNB/ODNB article on Marillier (34876)",
       "verified_on": "2026-08-05",
       "voice": "modern",

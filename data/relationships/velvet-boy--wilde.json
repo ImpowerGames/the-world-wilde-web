@@ -40,8 +40,8 @@
         "place": "paris"
       },
       "supports": "The encounter, in Wilde's own words, and his framing of the boy.",
-      "verification": "verified-exact",
-      "how_verified": "text-layer",
+      "verified": true,
+      "verified_with": "text-layer",
       "voice": "period",
       "verified_on": "2026-08-04",
       "citation_provenance": "PDF p. 1223, printed folio 1177 read on the rendered page. 'café' is italicized in the printed text.",

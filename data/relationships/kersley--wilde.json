@@ -35,8 +35,8 @@
         }
       },
       "supports": "That the friendship was acknowledged from Kersley's side too, in print.",
-      "verification": "verified-exact",
-      "how_verified": "photo-reproduction",
+      "verified": true,
+      "verified_with": "photo-reproduction",
       "citation_provenance": "PDF p. 273.",
       "verified_on": "2026-08-05",
       "voice": "period",
@@ -58,8 +58,8 @@
         }
       },
       "supports": "How it started: a death in the family, and Wilde proposing himself for tea.",
-      "verification": "verified-exact",
-      "how_verified": "photo-reproduction",
+      "verified": true,
+      "verified_with": "photo-reproduction",
       "citation_provenance": "PDF p. 273.",
       "verified_on": "2026-08-05",
       "voice": "period",
@@ -88,8 +88,8 @@
         }
       },
       "supports": "Wilde passing a young poet on to Whitman.",
-      "verification": "verified-exact",
-      "how_verified": "photo-reproduction",
+      "verified": true,
+      "verified_with": "photo-reproduction",
       "citation_provenance": "PDF p. 305.",
       "verified_on": "2026-08-05",
       "voice": "period",
@@ -119,8 +119,8 @@
         "place": "16-tite-street"
       },
       "supports": "The book promised in 1885, three years later, and what Wilde said his stories were for.",
-      "verification": "verified-exact",
-      "how_verified": "photo-reproduction",
+      "verified": true,
+      "verified_with": "photo-reproduction",
       "citation_provenance": "PDF p. 374.",
       "verified_on": "2026-08-05",
       "voice": "period",
@@ -130,7 +130,7 @@
         "url": "https://www.themorgan.org/collection/oscar-wilde/manuscripts-letters/43"
       },
       "original_provenance": "Read at the Morgan, MA 7258, the facsimile's pages 43-44 (`wilde_ma7258.13-1` and `.13-2-3`), three sides on 16 Tite Street paper ending in the signature. IDENTIFICATION: the Complete Letters print this letter from a FACSIMILE in the Hyde collection - their headnote is 'F Hyde', not 'MS' - because the autograph was in private hands in 2000. It came to the Morgan in the 2008 gift, and the text matches word for word. EMPHASIS: the long rising stroke below 'on all right.' is detached from the line above it and slopes upward across the sheet; it is the paraph Wilde drew before a signature, not a rule under 'all right'. PUNCTUATION: one dash restored. He wrote 'my stories — they are studies in prose', mid-line with the sentence continuing, where the printed text has a full stop and a capital. NOT ADOPTED: he abbreviates the time as \"o'c.\" where the printed text reads \"o'clock\"; the volume's note on the text says abbreviations were lengthened throughout, and that is an editorial expansion rather than a mark, so the printed form stands.",
-      "marks_verified": true,
+      "verified_marks": true,
       "verified_against_original": true,
       "letter_id": "letters-2000/352#1"
     },
@@ -150,8 +150,8 @@
         }
       },
       "supports": "Reproach for not calling, and Wilde offering to put a word in for him.",
-      "verification": "verified-exact",
-      "how_verified": "photo-reproduction",
+      "verified": true,
+      "verified_with": "photo-reproduction",
       "citation_provenance": "PDF p. 432.",
       "verified_on": "2026-08-05",
       "voice": "period",
@@ -180,8 +180,8 @@
         }
       },
       "supports": "The warmest of the invitations, and the reproach repeated five months on.",
-      "verification": "verified-exact",
-      "how_verified": "photo-reproduction",
+      "verified": true,
+      "verified_with": "photo-reproduction",
       "citation_provenance": "PDF p. 442. The volume heads this letter 'TS Clark' - a TYPESCRIPT, not Wilde's hand. Nothing in it can settle emphasis: whoever typed it had already read the underlining.",
       "verified_on": "2026-08-05",
       "voice": "period",
@@ -211,8 +211,8 @@
         }
       },
       "supports": "Two sentences, and both of them are 'come and see me'.",
-      "verification": "verified-exact",
-      "how_verified": "photo-reproduction",
+      "verified": true,
+      "verified_with": "photo-reproduction",
       "citation_provenance": "PDF p. 465.",
       "verified_on": "2026-08-05",
       "voice": "period",
@@ -241,8 +241,8 @@
         }
       },
       "supports": "How Wilde said sorry for losing touch, five months before the trials.",
-      "verification": "verified-exact",
-      "how_verified": "photo-reproduction",
+      "verified": true,
+      "verified_with": "photo-reproduction",
       "citation_provenance": "PDF p. 675.",
       "verified_on": "2026-08-05",
       "voice": "period",

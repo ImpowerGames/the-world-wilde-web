@@ -38,8 +38,8 @@
         }
       },
       "supports": "A public defence of Wilde published by a stranger six days after the conviction.",
-      "verification": "verified-exact",
-      "how_verified": "photo-reproduction",
+      "verified": true,
+      "verified_with": "photo-reproduction",
       "citation_provenance": "PDF p. 925.",
       "verified_on": "2026-08-06",
       "voice": "period",
@@ -62,8 +62,8 @@
         "place": "dieppe"
       },
       "supports": "That Young came to see him within a fortnight of his release.",
-      "verification": "verified-exact",
-      "how_verified": "photo-reproduction",
+      "verified": true,
+      "verified_with": "photo-reproduction",
       "citation_provenance": "PDF p. 925.",
       "verified_on": "2026-08-06",
       "voice": "period",

@@ -27,8 +27,8 @@
         }
       },
       "supports": "The marriage and its year — the whole of what the source says about it.",
-      "verification": "verified-exact",
-      "how_verified": "photo-reproduction",
+      "verified": true,
+      "verified_with": "photo-reproduction",
       "citation_provenance": "PDF p. 369.",
       "verified_on": "2026-08-05",
       "voice": "modern",
@@ -49,8 +49,8 @@
         "place": "16-tite-street"
       },
       "supports": "That Wilde knew her, and how he spoke of her.",
-      "verification": "verified-exact",
-      "how_verified": "photo-reproduction",
+      "verified": true,
+      "verified_with": "photo-reproduction",
       "citation_provenance": "PDF p. 370.",
       "verified_on": "2026-08-05",
       "voice": "period",

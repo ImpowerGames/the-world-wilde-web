@@ -37,8 +37,8 @@
         "place": "hotel-albemarle"
       },
       "supports": "Wilde jumping out of a cab to end a coldness he had been maintaining on principle.",
-      "verification": "verified-exact",
-      "how_verified": "photo-reproduction",
+      "verified": true,
+      "verified_with": "photo-reproduction",
       "citation_provenance": "PDF p. 614.",
       "verified_on": "2026-08-05",
       "voice": "period",
@@ -65,8 +65,8 @@
         "place": "hotel-de-nice"
       },
       "supports": "What one friend's letter about The Ballad was worth to him, and the wish that Rothenstein never learn what skilly is.",
-      "verification": "verified-exact",
-      "how_verified": "photo-reproduction",
+      "verified": true,
+      "verified_with": "photo-reproduction",
       "citation_provenance": "PDF p. 1070.",
       "verified_on": "2026-08-05",
       "voice": "period",
@@ -84,8 +84,8 @@
       "locator": "p. 911",
       "locator_type": "page",
       "supports": "Would settle Berneval as a place of the friendship: the letter to Carlos Blacker of 12 July 1897 (p. 911) names Rothenstein among the friends who 'have come to see me for a few days' at Berneval.",
-      "verification": "unverified",
-      "how_verified": "unverified",
+      "verified": false,
+      "verified_with": "unverified",
       "citation_provenance": "",
       "document": "letter",
       "occurred": {

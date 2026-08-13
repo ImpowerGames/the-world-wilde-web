@@ -33,8 +33,8 @@
         }
       },
       "supports": "The Taylor-Mason 'marriage' evidence at trial",
-      "verification": "verified-exact",
-      "how_verified": "photo-reproduction",
+      "verified": true,
+      "verified_with": "photo-reproduction",
       "citation_provenance": "IA in.ernet.dli.2015.499238, leaf 231 (printed p. 193)",
       "verified_on": "2026-08-03",
       "voice": "court",

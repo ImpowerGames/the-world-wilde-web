@@ -39,8 +39,8 @@
         "place": "naples"
       },
       "supports": "Wilde thanking a man for defending him in public in 1897, when few would.",
-      "verification": "verified-elision",
-      "how_verified": "photo-reproduction",
+      "verified": true,
+      "verified_with": "photo-reproduction",
       "citation_provenance": "PDF p. 1011.",
       "verified_on": "2026-08-06",
       "voice": "period",
@@ -57,8 +57,8 @@
       "locator": "General Index s.v. O'Sullivan, Vincent",
       "locator_type": "page",
       "supports": "Would settle Paris as a place of the friendship: the volume's O'Sullivan index entry, read at the page.",
-      "verification": "unverified",
-      "how_verified": "unverified",
+      "verified": false,
+      "verified_with": "unverified",
       "citation_provenance": "",
       "document": "editorial-note",
       "occurred": {

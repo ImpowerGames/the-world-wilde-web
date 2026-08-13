@@ -34,8 +34,8 @@
         "place": "paris"
       },
       "supports": "That Retté was one of two French writers who worked on the manuscript of Salomé, and that the work was done in Paris in 1891.",
-      "verification": "verified-elision",
-      "how_verified": "photo-reproduction",
+      "verified": true,
+      "verified_with": "photo-reproduction",
       "citation_provenance": "PDF p. 526, folio 506 read on the page.",
       "verified_on": "2026-08-12",
       "voice": "modern",
@@ -57,8 +57,8 @@
         }
       },
       "supports": "What Retté actually did to Salomé, in his own words.",
-      "verification": "verified-elision",
-      "how_verified": "photo-reproduction",
+      "verified": true,
+      "verified_with": "photo-reproduction",
       "citation_provenance": "PDF p. 526.",
       "verified_on": "2026-08-06",
       "voice": "period",

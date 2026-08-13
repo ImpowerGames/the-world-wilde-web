@@ -40,8 +40,8 @@
         }
       },
       "supports": "The household pattern and Mavor's nights at Taylor's, from the landlady.",
-      "verification": "verified-exact",
-      "how_verified": "photo-reproduction",
+      "verified": true,
+      "verified_with": "photo-reproduction",
       "citation_provenance": "IA in.ernet.dli.2015.499238, printed p. 199.",
       "verified_on": "2026-08-03",
       "speaker": "Ellen Grant, landlady of 13 Little College Street",
@@ -71,8 +71,8 @@
         }
       },
       "supports": "Mavor's own statement of the shared bed.",
-      "verification": "verified-exact",
-      "how_verified": "photo-reproduction",
+      "verified": true,
+      "verified_with": "photo-reproduction",
       "citation_provenance": "IA in.ernet.dli.2015.499238, leaf 251 (printed p. 211)",
       "verified_on": "2026-08-03",
       "speaker": "Sidney Mavor",

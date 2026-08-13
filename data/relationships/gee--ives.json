@@ -18,8 +18,8 @@
       "quote": "Though Ives' relationships with the other men at Adelaide Road possibly started sexually, they seem quickly to have become platonic - even though he continued to sleep with them from time to time.",
       "voice": "modern",
       "supports": "Cook's collective characterisation of Ives's bonds with the Adelaide Road men, of whom Gee was one. The sentence does not name Gee; it is the household it describes that places him in it.",
-      "verification": "verified-exact",
-      "how_verified": "text-layer",
+      "verified": true,
+      "verified_with": "text-layer",
       "citation_provenance": "PDF p. 112.",
       "document": "study",
       "occurred": {
@@ -37,8 +37,8 @@
         "why": "Undated; placed beside the Adelaide Road material it corrects."
       },
       "supports": "That Gee's nickname was not Cubby - Lewis gives it as Wobby or Wubby, spelling awaiting his confirmation - and that Cook's gloss at p. 101 is an error. QUOTATION PENDING.",
-      "verification": "unverified",
-      "how_verified": "unverified",
+      "verified": false,
+      "verified_with": "unverified",
       "citation_provenance": "Unpublished telephone communication; no transcript.",
       "document": "interview",
       "manuscript": {

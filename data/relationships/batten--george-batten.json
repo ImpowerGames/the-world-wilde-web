@@ -31,8 +31,8 @@
         }
       },
       "supports": "The marriage, its year, the husband's post and the daughter.",
-      "verification": "verified-exact",
-      "how_verified": "as-published",
+      "verified": true,
+      "verified_with": "as-published",
       "citation_provenance": "Plain-text extract of the article via the MediaWiki API.",
       "verified_on": "2026-08-05",
       "voice": "modern",

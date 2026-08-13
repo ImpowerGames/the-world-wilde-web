@@ -42,8 +42,8 @@
         "place": "1-tite-street"
       },
       "supports": "The cohabitation, first-person: the joint move to Keats House.",
-      "verification": "verified-exact",
-      "how_verified": "text-layer",
+      "verified": true,
+      "verified_with": "text-layer",
       "citation_provenance": "PDF p. 119 (printed p. 94). The editors' n. 1 identifies the house and the street's renaming.",
       "verified_on": "2026-08-03",
       "voice": "period",
@@ -67,8 +67,8 @@
         }
       },
       "supports": "The Salisbury Street cohabitation and its end date, in the editors' words.",
-      "verification": "verified-exact",
-      "how_verified": "text-layer",
+      "verified": true,
+      "verified_with": "text-layer",
       "citation_provenance": "PDF p. 103 (printed p. 78)",
       "verified_on": "2026-08-03",
       "voice": "modern",
@@ -90,8 +90,8 @@
         "place": "moytura-house"
       },
       "supports": "The mid-1870s visits the General Index pointed to: Miles staying with Wilde at the family house on Lough Corrib and going on with him to Illaunroe Lodge, Connemara. Establishes the friendship's early span in Wilde's own words. The register is ordinary undergraduate companionship - sailing, shooting, drawings - and carries nothing romantic on its face.",
-      "verification": "verified-elision",
-      "how_verified": "photo-reproduction",
+      "verified": true,
+      "verified_with": "photo-reproduction",
       "verified_on": "2026-08-04",
       "citation_provenance": "PDF p. 55 (printed folio 30). Elision drops a paragraph on Miles's drawings. The volume's headnote is 'MS Hyde'.",
       "addressee": "Reginald Harding",
@@ -114,8 +114,8 @@
         }
       },
       "supports": "The assertion itself, quoted so it can be weighed rather than paraphrased. It is the whole of the case for a romantic dimension, and McKenna footnotes none of it.",
-      "verification": "verified-exact",
-      "how_verified": "photo-reproduction",
+      "verified": true,
+      "verified_with": "photo-reproduction",
       "verified_on": "2026-08-04",
       "citation_provenance": "PDF p. 34; no printed folio on the page, so cited as a PDF page. 'nostalgia de la bone' is transcribed as printed; read 'nostalgie de la boue'.",
       "document": "biography"
@@ -133,8 +133,8 @@
         }
       },
       "supports": "The second of the two assertions of a romantic dimension, and the one that states its own basis: a change of register Croft-Cooke hears in the letters, not a document.",
-      "verification": "verified-exact",
-      "how_verified": "photo-reproduction",
+      "verified": true,
+      "verified_with": "photo-reproduction",
       "verified_on": "2026-08-04",
       "citation_provenance": "PDF p. 56 (printed folio 40).",
       "document": "biography"
@@ -153,8 +153,8 @@
         }
       },
       "supports": "How far the claim is argued rather than evidenced - 'must have been' is Croft-Cooke's own marker that this is inference from circumstance. The mural itself he saw: he visited the lodge and found it still there, which evidences Miles's presence in the house, not the nature of the attachment.",
-      "verification": "verified-elision",
-      "how_verified": "photo-reproduction",
+      "verified": true,
+      "verified_with": "photo-reproduction",
       "verified_on": "2026-08-04",
       "citation_provenance": "PDF p. 61 (printed folio 45).",
       "document": "biography"

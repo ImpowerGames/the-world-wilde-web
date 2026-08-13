@@ -38,8 +38,8 @@
         "place": "dublin"
       },
       "supports": "The whole of the evidence for this connection, and the earliest recorded instance of Wilde handling a suspected attachment between men.",
-      "verification": "verified-exact",
-      "how_verified": "photo-reproduction",
+      "verified": true,
+      "verified_with": "photo-reproduction",
       "citation_provenance": "PDF pp. 53-54.",
       "verified_on": "2026-08-05",
       "voice": "period",

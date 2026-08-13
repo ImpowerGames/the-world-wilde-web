@@ -39,8 +39,8 @@
         }
       },
       "supports": "The whole of the correspondence, ten weeks before Bedborough's arrest.",
-      "verification": "verified-exact",
-      "how_verified": "photo-reproduction",
+      "verified": true,
+      "verified_with": "photo-reproduction",
       "citation_provenance": "PDF p. 1083.",
       "verified_on": "2026-08-10",
       "voice": "period",
@@ -57,7 +57,7 @@
         "caption": "the envelope first, then the letter on Hotel de Nice paper with its engraved pen vignette. Folder page 28, skipped here, is a dealer's catalogue description of this letter"
       },
       "document": "letter",
-      "marks_verified": true,
+      "verified_marks": true,
       "original_provenance": "HRC MSS_WildeO_2_4_029-031, with the envelope at _026-027. Two underlines in Wilde's hand: 'do' for stress, and the title 'Salome', which carries the underline a hand uses where type would be italic - so it is marked as both. 'The Ballad of Reading Gaol' carries no underline: he set it in single quotation marks, repeating them at each line wrap ('The / 'Ballad of Reading' / Gaol'), which normalises to one pair. The printed page drops the quotation marks and prints the title in italic instead.",
       "verified_against_original": true,
       "letter_id": "letters-2000/1037#2",
@@ -72,8 +72,8 @@
       "locator": "General Index s.v. Bedborough, George",
       "locator_type": "page",
       "supports": "Would settle London as a place of the connection: the volume's Bedborough index entry, read at the page.",
-      "verification": "unverified",
-      "how_verified": "unverified",
+      "verified": false,
+      "verified_with": "unverified",
       "citation_provenance": "",
       "document": "editorial-note",
       "occurred": {

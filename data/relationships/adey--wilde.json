@@ -40,8 +40,8 @@
         "place": "hotel-de-nice"
       },
       "supports": "Wilde's verdict on Naples; the closing questions are the warmest thing in the letter.",
-      "verification": "verified-elision",
-      "how_verified": "photo-reproduction",
+      "verified": true,
+      "verified_with": "photo-reproduction",
       "citation_provenance": "PDF pp. 1069-1070.",
       "verified_on": "2026-08-06",
       "voice": "period",
@@ -64,8 +64,8 @@
         }
       },
       "supports": "That the quarrel ended, and what Adey had done for Wilde's mother.",
-      "verification": "verified-elision",
-      "how_verified": "photo-reproduction",
+      "verified": true,
+      "verified_with": "photo-reproduction",
       "citation_provenance": "PDF p. 1230.",
       "verified_on": "2026-08-06",
       "voice": "period",

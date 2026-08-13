@@ -10,7 +10,6 @@ actually fetches.
     python tools/validate.py --check      validate only, write nothing (use this in CI)
     python tools/validate.py --stats      validate, print a dashboard, write nothing
     python tools/validate.py --ledger     regenerate audits/QUOTE-AUDIT_web.md
-    python tools/validate.py --allow-dirty   let needs-fix / rejected quotes through
 
 Exit code is non-zero when validation fails, so it can gate a pull request.
 UTF-8 without BOM throughout.
@@ -35,16 +34,17 @@ DATA = ROOT / "data"
 CERTAINTY = {"self-reported", "second-hand", "uncorroborated", "married", "attraction-expressed", "platonic"}
 OUTCOMES = {"declined", "unknown", "unreciprocated"}
 CERTAINTY_STATUS = {"proposed", "confirmed"}
-VERIFICATION = {"verified-exact", "verified-elision", "needs-fix", "rejected", "unverified"}
+# Whether somebody read this at the page. Whether the quotation is cut is visible in the
+# quotation, so it is not a second label that can disagree with the text.
 # Verification asks three questions, and each has its own field, because one field answering all
 # three produced values that overlapped and could not be told apart - "archive-org" and "web"
 # named a medium, "pdf-text" named a reading method, "manuscript" named a document.
 #
-#   how_verified         HOW directly were the words read?
+#   verified_with         HOW directly were the words read?
 #   document             WHAT KIND of thing is quoted
 #   citation_provenance           where the passage sits in the WORK CITED
 #   original_provenance  what was read at the DOCUMENT, and seen there (absent = nobody has)
-#   marks_verified       the marks were collated against the source and match
+#   verified_marks       the marks were collated against the source and match
 #
 # There was a `verified_against: "original"` flag too, saying which document was read. It went:
 # the validator required `original_provenance` for the flag and the flag for the note, so the two
@@ -64,7 +64,7 @@ HOW = {
     "as-published",  # born-digital - a web page, an EPUB - read as its publisher renders it
     "unverified",
 }
-# `marks_verified: true` says somebody has collated the MARKS of the quotation against the source
+# `verified_marks: true` says somebody has collated the MARKS of the quotation against the source
 # and found them to match: emphasis, accents, punctuation - everything a transcription loses
 # quietly. Absent means nobody has done it, which is the honest default and is not a criticism.
 #
@@ -448,8 +448,8 @@ def load_transcriptions(errors, people=()):
                 errors.append(f"{at}: transcribed_from must be 'facsimile' or 'printed' - it decides "
                               f"both whether this publishes and whether it can be read for "
                               f"emphasis, so it is not inferred, got {t.get('transcribed_from')!r}")
-            if kind == "printed" and t.get("marks_verified"):
-                errors.append(f"{at}: marks_verified on a transcription taken from the printed "
+            if kind == "printed" and t.get("verified_marks"):
+                errors.append(f"{at}: verified_marks on a transcription taken from the printed "
                               f"edition. There is nothing there to verify: the editors print "
                               f"underlining, titles and foreign words as one italic. Only a "
                               f"facsimile settles emphasis")
@@ -661,7 +661,7 @@ def check_manuscript(q, where, errors):
     underlining and decided what it meant. Murray read Douglas's 1909 letter to Ross as "Ross TS.
     Clark." The Clark is where the text is, and it is not where the letter is.
 
-    It is NOT `how_verified`, which is a fact about us - how we read the text we quote. Here that
+    It is NOT `verified_with`, which is a fact about us - how we read the text we quote. Here that
     is `photo-reproduction`, meaning a scan of Murray's book; nobody on this project has been to
     the Clark. `archived_as` is a fact about the archive, and it is usually known - as here -
     precisely when nobody has been near the document. One is our act, the other is the object.
@@ -925,16 +925,16 @@ def check_document(q, where, errors):
         if doc is None:
             errors.append(f"{where}: verified_against_original needs a `document` saying WHICH "
                           f"original was read")
-        if q.get("how_verified") not in {"photo-reproduction", "in-hand"}:
-            errors.append(f"{where}: verified_against_original but how_verified is "
-                          f"{q.get('how_verified')!r} - reading the original means seeing it, in "
+        if q.get("verified_with") not in {"photo-reproduction", "in-hand"}:
+            errors.append(f"{where}: verified_against_original but verified_with is "
+                          f"{q.get('verified_with')!r} - reading the original means seeing it, in "
                           f"hand or as a photographic reproduction")
-    mv = q.get("marks_verified")
+    mv = q.get("verified_marks")
     if mv not in MARKS_VERIFIED:
-        errors.append(f"{where}: marks_verified must be true or absent, got {mv!r} - there is no "
+        errors.append(f"{where}: verified_marks must be true or absent, got {mv!r} - there is no "
                       f"false. A quotation nobody has collated simply does not carry the field")
-    elif mv and q.get("how_verified") == "text-layer":
-        errors.append(f"{where}: marks_verified with how_verified 'text-layer' - a text layer "
+    elif mv and q.get("verified_with") == "text-layer":
+        errors.append(f"{where}: verified_marks with verified_with 'text-layer' - a text layer "
                       f"drops italics and accents, so it cannot be what the marks were checked "
                       f"against. This is how a whole postscript came to be marked as underlined")
     if not (q.get("original_provenance") or "").strip():
@@ -1305,21 +1305,22 @@ def _guess_foreign(text, min_hits=4, min_density=0.14):
 
 def validate_quote(q, where, works, errors, warnings=None, archives=None):
     warnings = warnings if warnings is not None else []
-    v = q.get("verification")
-    if v not in VERIFICATION:
-        errors.append(f"{where}: bad verification {v!r}")
-    if q.get("how_verified") not in HOW:
-        errors.append(f"{where}: bad how_verified {q.get('how_verified')!r}")
+    v = q.get("verified")
+    if not isinstance(v, bool):
+        errors.append(f"{where}: `verified` is true or false - whether somebody read this at "
+                      f"the page. Got {v!r}")
+    if q.get("verified_with") not in HOW:
+        errors.append(f"{where}: bad verified_with {q.get('verified_with')!r}")
     if q.get("locator_type", "page") not in LOCATOR_TYPES:
         errors.append(f"{where}: bad locator_type")
     if q.get("voice") not in VOICES:
         errors.append(f"{where}: bad voice {q.get('voice')!r} (period / modern)")
     if (q.get("quote") or "").strip() and q.get("voice") is None:
         errors.append(f"{where}: a quote must say whose voice it is (period / modern)")
-    if v in {"verified-exact", "verified-elision"} and not (q.get("citation_provenance") or "").strip():
+    if v is True and not (q.get("citation_provenance") or "").strip():
         errors.append(f"{where}: verified quote with empty citation_provenance")
-    if (q.get("quote") or "") == "" and v not in {None, "unverified"}:
-        errors.append(f"{where}: pointer (empty quote) must be unverified")
+    if (q.get("quote") or "") == "" and v is True:
+        errors.append(f"{where}: a pointer quotes nothing, so there is nothing to have verified")
     wk = q.get("work")
     if wk and wk not in works:
         errors.append(f"{where}: unknown work key {wk!r} (add it to data/works.json)")
@@ -1591,7 +1592,7 @@ def dashboard(people, rels):
     vq, voice, pointers = Counter(), Counter(), 0
     for r in rels:
         for q in r.get("sources", []) or []:
-            vq[q.get("verification", "unverified")] += 1
+            vq["verified" if q.get("verified") else "pending"] += 1
             if (q.get("quote") or "").strip():
                 voice[q.get("voice")] += 1
             else:
@@ -1608,13 +1609,12 @@ def write_ledger(works, rels):
     out = ROOT / "audits" / "QUOTE-AUDIT_web.md"
     out.parent.mkdir(exist_ok=True)
     lines = ["# Quote audit — Wilde's Web", "",
-             "Legend: ✓ verified exact · ✓* verified, honest elision · ! needs a wording fix · "
-             "✗ error/rejected · ⧖ pending verification", "",
+             "Legend: ✓ read at the page · ⧖ not yet read. Whether a quotation is cut is "
+             "visible in the quotation itself.", "",
              "Generated by `tools/validate.py --ledger`. The Status column is the HUMAN verdict and "
              "always starts ⧖; the Agent column records what the research pass did. Record a verdict "
              "here, mirror it into the JSON, rebuild.", ""]
-    mark = {"verified-exact": "✓ at page", "verified-elision": "✓* at page",
-            "unverified": "⧖", "needs-fix": "!", "rejected": "✗"}
+    mark = {True: "✓ at page", False: "⧖ pending"}
     for r in sorted(rels, key=lambda x: x.get("id", "")):
         lines += [f"## {r['id']}  ·  {r.get('certainty')}", "",
                   "| Quote (opening) | Source | Agent | Status | Note |", "|---|---|---|---|---|"]
@@ -1624,7 +1624,7 @@ def write_ledger(works, rels):
             wk = works.get(q.get("work") or "", {})
             src = f"{wk.get('short_cite', q.get('work') or '—')}" \
                   f"{', ' + q['locator'] if q.get('locator') else ''}"
-            lines.append(f"| {first} | {src} | {mark.get(q.get('verification'), '?')} | ⧖ | |")
+            lines.append(f"| {first} | {src} | {mark.get(q.get('verified'), '?')} | ⧖ | |")
         lines.append("")
     out.write_text("\n".join(lines) + "\n", encoding="utf-8")
     print(f"ledger written: {out.relative_to(ROOT)} ({len(rels)} sections)")
@@ -1835,7 +1835,6 @@ def main():
     ap.add_argument("--check", action="store_true", help="validate only, write nothing")
     ap.add_argument("--stats", action="store_true")
     ap.add_argument("--ledger", action="store_true")
-    ap.add_argument("--allow-dirty", action="store_true")
     args = ap.parse_args()
 
     works = json.loads((DATA / "works.json").read_text(encoding="utf-8"))
@@ -1869,10 +1868,6 @@ def main():
         for e in errors:
             print(f"  ERROR: {e}")
         sys.exit(1)
-    dirty = vq.get("needs-fix", 0) + vq.get("rejected", 0)
-    if dirty and not args.allow_dirty:
-        sys.exit(f"{dirty} needs-fix/rejected quotes — resolve them or pass --allow-dirty")
-
     if args.ledger:
         write_ledger(works, [r for r in rels if "__load_error__" not in r])
     if args.check or args.stats:

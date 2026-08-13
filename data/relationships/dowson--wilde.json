@@ -40,8 +40,8 @@
         "place": "dieppe"
       },
       "supports": "Wilde's own most explicit statement of attachment to Dowson: inseparability, a compliment on Dowson's hair in the mythological register he used for Douglas, absence as the single flaw in the day, and 'Tout à toi'. This is also the letter Sox is quoting for both 'the green costume' and 'dark hyacinth locks'.",
-      "verification": "verified-elision",
-      "how_verified": "text-layer",
+      "verified": true,
+      "verified_with": "text-layer",
       "citation_provenance": "PDF p. 951. Three elisions marked.",
       "verified_on": "2026-08-03",
       "voice": "period",
@@ -68,8 +68,8 @@
         "place": "dieppe"
       },
       "supports": "The register at its warmest outside the 16 June letter, and the daily rhythm of the Dieppe weeks",
-      "verification": "verified-exact",
-      "how_verified": "text-layer",
+      "verified": true,
+      "verified_with": "text-layer",
       "citation_provenance": "PDF p. 957.",
       "verified_on": "2026-08-03",
       "voice": "period",
@@ -95,8 +95,8 @@
         }
       },
       "supports": "Summons and dependence: Wilde asking to be consoled, and prescribing what Dowson is to wear - the second such instruction in a week",
-      "verification": "verified-exact",
-      "how_verified": "text-layer",
+      "verified": true,
+      "verified_with": "text-layer",
       "citation_provenance": "PDF p. 958.",
       "verified_on": "2026-08-03",
       "voice": "period",
@@ -126,8 +126,8 @@
         "place": "dieppe"
       },
       "supports": "The only line in the twelve letters that gestures at something withheld from the page ('and other things, always'), and the plan to gather the four of them at Berneval",
-      "verification": "verified-elision",
-      "how_verified": "text-layer",
+      "verified": true,
+      "verified_with": "text-layer",
       "citation_provenance": "PDF pp. 958-959. One elision marked with a spaced ellipsis; full letter.",
       "verified_on": "2026-08-03",
       "voice": "period",
@@ -151,8 +151,8 @@
         }
       },
       "supports": "The only romantic characterization of the pair in the literature, and its unresolved attribution; Fothergill's counter-observation that Dowson's own attachment lay elsewhere; and the quarrel in which Dowson cut off the curls Wilde had admired - the evidential basis for outcome 'unreciprocated'",
-      "verification": "verified-exact",
-      "how_verified": "text-layer",
+      "verified": true,
+      "verified_with": "text-layer",
       "citation_provenance": "PDF p. 157 (setting sentence from PDF 156, printed folio 140). Sox's index lists Dowson only at p. 141.",
       "verified_on": "2026-08-03",
       "voice": "modern",
@@ -170,8 +170,8 @@
         }
       },
       "supports": "The second participant's own testimony - the counter-weight that keeps this edge below a relationship class. Dowson's register toward Wilde is admiring and wry, never romantic.",
-      "verification": "verified-elision",
-      "how_verified": "text-layer",
+      "verified": true,
+      "verified_with": "text-layer",
       "citation_provenance": "PDF p. 128 (printed folio 114). One elision marked with a spaced ellipsis; Frankel's own internal ellipsis is his.",
       "verified_on": "2026-08-03",
       "voice": "modern",
@@ -190,8 +190,8 @@
         }
       },
       "supports": "The scholarly reading of the friendship as deepening into love - and, by its own hedging, the reason the class stays at attraction-expressed rather than rising higher",
-      "verification": "verified-exact",
-      "how_verified": "text-layer",
+      "verified": true,
+      "verified_with": "text-layer",
       "citation_provenance": "McKenna's source note for the adjoining 'first hyacinth since Douglas' phrase, at PDF 852, reads 'Sox, Bachelors of Art, page 141'.",
       "verified_on": "2026-08-03",
       "voice": "modern",
@@ -212,8 +212,8 @@
         "place": "paris"
       },
       "supports": "The close of the connection in Wilde's own voice; 'he knew what love is' is elegiac and unspecific - Wilde does not say for whom",
-      "verification": "verified-elision",
-      "how_verified": "text-layer",
+      "verified": true,
+      "verified_with": "text-layer",
       "citation_provenance": "PDF p. 1219. One elision marked with a spaced ellipsis; full passage.",
       "verified_on": "2026-08-03",
       "voice": "period",
@@ -231,8 +231,8 @@
       "locator": "index s.v. Dowson",
       "locator_type": "page",
       "supports": "Would settle the Oakley Street visit: Frankel's monograph on 1895-1900, read at the page, should name the address where Dowson and Sherard called on Wilde between the trials.",
-      "verification": "unverified",
-      "how_verified": "unverified",
+      "verified": false,
+      "verified_with": "unverified",
       "citation_provenance": "",
       "document": "biography"
     }

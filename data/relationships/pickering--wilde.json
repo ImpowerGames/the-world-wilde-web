@@ -37,8 +37,8 @@
         "place": "16-tite-street"
       },
       "supports": "Wilde's charm turned on a stranger, and a note on Dorian Gray's unwritten book.",
-      "verification": "verified-exact",
-      "how_verified": "photo-reproduction",
+      "verified": true,
+      "verified_with": "photo-reproduction",
       "citation_provenance": "PDF p. 465.",
       "verified_on": "2026-08-05",
       "voice": "period",

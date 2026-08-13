@@ -37,8 +37,8 @@
         "place": "st-stephens-club"
       },
       "supports": "The footing at the start: Wilde running an older man's errands and angling for an invitation.",
-      "verification": "verified-exact",
-      "how_verified": "photo-reproduction",
+      "verified": true,
+      "verified_with": "photo-reproduction",
       "citation_provenance": "PDF p. 105.",
       "verified_on": "2026-08-06",
       "voice": "period",
@@ -66,8 +66,8 @@
         "place": "st-stephens-club"
       },
       "supports": "A whole rainy day spent shopping for him, and the wish that he had been there.",
-      "verification": "verified-elision",
-      "how_verified": "photo-reproduction",
+      "verified": true,
+      "verified_with": "photo-reproduction",
       "citation_provenance": "PDF p. 105.",
       "verified_on": "2026-08-06",
       "voice": "period",
@@ -94,8 +94,8 @@
         "place": "keats-house"
       },
       "supports": "Wilde asking him for the review he then wrote.",
-      "verification": "verified-exact",
-      "how_verified": "photo-reproduction",
+      "verified": true,
+      "verified_with": "photo-reproduction",
       "citation_provenance": "PDF p. 136.",
       "verified_on": "2026-08-06",
       "voice": "period",
@@ -112,8 +112,8 @@
       "locator": "General Index s.v. Browning, Oscar",
       "locator_type": "page",
       "supports": "Would settle Cambridge as a place of the friendship: the volume's Browning index entry, read at the page.",
-      "verification": "unverified",
-      "how_verified": "unverified",
+      "verified": false,
+      "verified_with": "unverified",
       "citation_provenance": "",
       "document": "editorial-note",
       "occurred": {

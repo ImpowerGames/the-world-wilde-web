@@ -38,8 +38,8 @@
         "place": "oxford"
       },
       "supports": "Wilde jealous of a young man's preference for someone else, and emphasising it.",
-      "verification": "verified-elision",
-      "how_verified": "photo-reproduction",
+      "verified": true,
+      "verified_with": "photo-reproduction",
       "citation_provenance": "PDF p. 93.",
       "verified_on": "2026-08-05",
       "voice": "period",

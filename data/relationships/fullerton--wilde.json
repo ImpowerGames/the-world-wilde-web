@@ -38,8 +38,8 @@
         "place": "hotel-marsollier"
       },
       "supports": "Wilde asking a journalist for a hundred francs, under his assumed name.",
-      "verification": "verified-exact",
-      "how_verified": "photo-reproduction",
+      "verified": true,
+      "verified_with": "photo-reproduction",
       "citation_provenance": "PDF p. 1200.",
       "verified_on": "2026-08-06",
       "voice": "period",
@@ -66,8 +66,8 @@
         "place": "trouville"
       },
       "supports": "That the appeal was answered, and how Fullerton addressed him.",
-      "verification": "verified-exact",
-      "how_verified": "photo-reproduction",
+      "verified": true,
+      "verified_with": "photo-reproduction",
       "citation_provenance": "PDF p. 1200.",
       "verified_on": "2026-08-06",
       "voice": "period",

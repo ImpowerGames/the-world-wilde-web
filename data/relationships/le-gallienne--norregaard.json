@@ -32,8 +32,8 @@
         }
       },
       "supports": "The second marriage and the divorce, with their dates.",
-      "verification": "verified-elision",
-      "how_verified": "as-published",
+      "verified": true,
+      "verified_with": "as-published",
       "citation_provenance": "Plain-text extract of the article via the MediaWiki API. The sentences carry no citation on the page.",
       "verified_on": "2026-08-05",
       "voice": "modern",

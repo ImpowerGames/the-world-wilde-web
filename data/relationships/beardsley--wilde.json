@@ -37,8 +37,8 @@
         "place": "10-11-st-jamess-place"
       },
       "supports": "What Wilde thought Beardsley alone could see.",
-      "verification": "verified-exact",
-      "how_verified": "photo-reproduction",
+      "verified": true,
+      "verified_with": "photo-reproduction",
       "citation_provenance": "PDF p. 630.",
       "verified_on": "2026-08-06",
       "voice": "period",
@@ -64,8 +64,8 @@
         "place": "10-11-st-jamess-place"
       },
       "supports": "The only surviving letter, and that Wilde, Ross and Beardsley dined together.",
-      "verification": "verified-exact",
-      "how_verified": "photo-reproduction",
+      "verified": true,
+      "verified_with": "photo-reproduction",
       "citation_provenance": "PDF p. 630.",
       "verified_on": "2026-08-06",
       "voice": "period",

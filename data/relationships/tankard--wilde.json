@@ -35,8 +35,8 @@
         "place": "savoy-hotel"
       },
       "supports": "The allegation itself, in the plea's own words — the whole of the record for this connection.",
-      "verification": "verified-exact",
-      "how_verified": "photo-reproduction",
+      "verified": true,
+      "verified_with": "photo-reproduction",
       "citation_provenance": "PDF p. 337.",
       "verified_on": "2026-08-05",
       "voice": "court",

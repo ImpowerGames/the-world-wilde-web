@@ -24,8 +24,8 @@
         }
       },
       "supports": "That they were a married couple, and both expecting.",
-      "verification": "verified-elision",
-      "how_verified": "photo-reproduction",
+      "verified": true,
+      "verified_with": "photo-reproduction",
       "citation_provenance": "PDF p. 283.",
       "verified_on": "2026-08-06",
       "voice": "period",

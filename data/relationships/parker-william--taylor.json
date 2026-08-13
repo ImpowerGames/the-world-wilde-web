@@ -35,8 +35,8 @@
         "place": "13-little-college-street"
       },
       "supports": "The shared bed and the attempted sodomy — the class-deciding testimony",
-      "verification": "verified-exact",
-      "how_verified": "photo-reproduction",
+      "verified": true,
+      "verified_with": "photo-reproduction",
       "citation_provenance": "IA in.ernet.dli.2015.499238, leaf 239 (printed p. 199)",
       "verified_on": "2026-08-03",
       "speaker": "William Parker, examination-in-chief",
@@ -62,8 +62,8 @@
         }
       },
       "supports": "The transactional understanding of the arrangement, in the witness's own words",
-      "verification": "verified-exact",
-      "how_verified": "photo-reproduction",
+      "verified": true,
+      "verified_with": "photo-reproduction",
       "citation_provenance": "IA in.ernet.dli.2015.499238, leaf 239 (printed p. 199)",
       "verified_on": "2026-08-03",
       "speaker": "William Parker",
@@ -94,8 +94,8 @@
         }
       },
       "supports": "The other participant in his own words: Taylor names both Parkers among the men who had shared his bedroom, and gives his own account of how he and they first met (at the St James's bar, on Harrington's introduction, over a drink)",
-      "verification": "verified-elision",
-      "how_verified": "photo-reproduction",
+      "verified": true,
+      "verified_with": "photo-reproduction",
       "citation_provenance": "IA in.ernet.dli.2015.499238, leaf 326 (printed p. 282)",
       "verified_on": "2026-08-03",
       "speaker": "Alfred Taylor, cross-examined by the Solicitor-General",
@@ -149,8 +149,8 @@
         }
       },
       "supports": "Taylor's conviction of gross indecency with William Parker",
-      "verification": "verified-exact",
-      "how_verified": "photo-reproduction",
+      "verified": true,
+      "verified_with": "photo-reproduction",
       "citation_provenance": "IA in.ernet.dli.2015.499238, leaf 336 (printed p. 292)",
       "verified_on": "2026-08-03",
       "speaker": "The Clerk of Arraigns and the Foreman of the jury",

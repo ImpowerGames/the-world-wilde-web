@@ -38,8 +38,8 @@
         "place": "jersey"
       },
       "supports": "The first marriage: date, place, husband's identity and dates.",
-      "verification": "verified-exact",
-      "how_verified": "as-published",
+      "verified": true,
+      "verified_with": "as-published",
       "citation_provenance": "Plain-text extract of the article via the MediaWiki API.",
       "verified_on": "2026-08-05",
       "voice": "modern",
@@ -60,8 +60,8 @@
         "place": "lakeport"
       },
       "supports": "How the first marriage ended: divorce, its date and jurisdiction.",
-      "verification": "verified-exact",
-      "how_verified": "as-published",
+      "verified": true,
+      "verified_with": "as-published",
       "citation_provenance": "Plain-text extract of the article via the MediaWiki API.",
       "verified_on": "2026-08-05",
       "voice": "modern",

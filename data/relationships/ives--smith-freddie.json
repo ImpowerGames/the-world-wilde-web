@@ -28,8 +28,8 @@
         "why": "Undated pending transcription; placed just before Ross's meeting with Smith in early 1903, which is the latest the Ives attachment can have run."
       },
       "supports": "That Smith was attached to Ives before Ross, and left Ives for him. Brian Lewis quoted a diary passage supporting this.",
-      "verification": "unverified",
-      "how_verified": "unverified",
+      "verified": false,
+      "verified_with": "unverified",
       "citation_provenance": "Unpublished video call; a recording exists but has not yet been transcribed. Entered now so the connection is on the map, marked pending until the diary passage can be quoted and cited by volume and date.",
       "document": "interview",
       "manuscript": {
@@ -43,8 +43,8 @@
       "locator": "p. 100",
       "locator_type": "page",
       "supports": "Freddie Smith's household membership and his departure to live with Robert Ross - the Ives-circle/Wilde-circle bridge.",
-      "verification": "verified-exact",
-      "how_verified": "text-layer",
+      "verified": true,
+      "verified_with": "text-layer",
       "citation_provenance": "PDF p. 111.",
       "verified_on": "2026-08-03",
       "voice": "modern",

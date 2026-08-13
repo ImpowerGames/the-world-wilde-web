@@ -36,8 +36,8 @@
         "place": "berneval-sur-mer"
       },
       "supports": "Both directions of the contact: the poems carried into Reading by Ross, and the book sent on release.",
-      "verification": "verified-exact",
-      "how_verified": "photo-reproduction",
+      "verified": true,
+      "verified_with": "photo-reproduction",
       "citation_provenance": "PDF p. 973.",
       "verified_on": "2026-08-05",
       "voice": "period",

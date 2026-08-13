@@ -35,8 +35,8 @@
         "place": "dieppe"
       },
       "supports": "Wilde's personal regard for him, and the deliberate attempt to place him socially rather than charitably.",
-      "verification": "verified-exact",
-      "how_verified": "text-layer",
+      "verified": true,
+      "verified_with": "text-layer",
       "citation_provenance": "PDF p. 950 (printed folio 900).",
       "verified_on": "2026-08-04",
       "speaker": "Oscar Wilde",
@@ -58,8 +58,8 @@
       "locator": "p. 900",
       "locator_type": "page",
       "supports": "Would settle Reading as the place they met: a letter, note or biography naming the prison where Cruttenden served time with Wilde.",
-      "verification": "unverified",
-      "how_verified": "unverified",
+      "verified": false,
+      "verified_with": "unverified",
       "citation_provenance": "",
       "document": "editorial-note"
     }

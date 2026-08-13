@@ -29,8 +29,8 @@
         }
       },
       "supports": "Ashton's attachment in Paris, December 1898, reported by Wilde as an onlooker",
-      "verification": "verified-exact",
-      "how_verified": "text-layer",
+      "verified": true,
+      "verified_with": "text-layer",
       "citation_provenance": "PDF p. 1153. Contiguous run from a longer passage transcribed in full. The volume's headnote is 'MS Hyde'.",
       "verified_on": "2026-08-03",
       "voice": "period",

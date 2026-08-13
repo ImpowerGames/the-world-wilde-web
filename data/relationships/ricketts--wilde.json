@@ -36,8 +36,8 @@
         "place": "16-tite-street"
       },
       "supports": "Wilde's first recorded impression of Ricketts, a year and a half before Ricketts began designing his books.",
-      "verification": "verified-exact",
-      "how_verified": "photo-reproduction",
+      "verified": true,
+      "verified_with": "photo-reproduction",
       "citation_provenance": "PDF p. 432.",
       "verified_on": "2026-08-05",
       "voice": "period",
@@ -61,8 +61,8 @@
         }
       },
       "supports": "Ricketts as one of the friends through whom Wilde's spoken words survive.",
-      "verification": "verified-exact",
-      "how_verified": "photo-reproduction",
+      "verified": true,
+      "verified_with": "photo-reproduction",
       "citation_provenance": "PDF p. 72.",
       "verified_on": "2026-08-06",
       "voice": "modern",

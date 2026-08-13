@@ -44,8 +44,8 @@
             }
           },
           "supports": "Wilde's own awareness that he had become a case study in the medical literature of homosexuality, in his lifetime.",
-          "verification": "verified-exact",
-          "how_verified": "photo-reproduction",
+          "verified": true,
+          "verified_with": "photo-reproduction",
           "citation_provenance": "PDF p. 1054.",
           "verified_on": "2026-08-05",
           "voice": "period",

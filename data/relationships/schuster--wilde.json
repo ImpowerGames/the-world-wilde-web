@@ -37,8 +37,8 @@
         "place": "16-tite-street"
       },
       "supports": "The friendship at its ordinary footing, months before she gave him £1,000.",
-      "verification": "verified-exact",
-      "how_verified": "photo-reproduction",
+      "verified": true,
+      "verified_with": "photo-reproduction",
       "citation_provenance": "PDF p. 677.",
       "verified_on": "2026-08-06",
       "voice": "period",

@@ -40,8 +40,8 @@
         "place": "geneva"
       },
       "supports": "The approach itself: a named young man written to in advance, described, and awaited, with Wilde's longing stated in the same breath; no outcome recorded",
-      "verification": "verified-exact",
-      "how_verified": "text-layer",
+      "verified": true,
+      "verified_with": "text-layer",
       "citation_provenance": "PDF p. 1186.",
       "verified_on": "2026-08-03",
       "voice": "period",
@@ -72,8 +72,8 @@
         "place": "genoa"
       },
       "supports": "That the attachment cooled, and how fast - stated by Wilde himself to a third party.",
-      "verification": "verified-elision",
-      "how_verified": "photo-reproduction",
+      "verified": true,
+      "verified_with": "photo-reproduction",
       "citation_provenance": "PDF p. 1187.",
       "verified_on": "2026-08-05",
       "voice": "period",

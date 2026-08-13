@@ -36,8 +36,8 @@
         "place": "dublin"
       },
       "supports": "The Stoker marriage: date, church, husband",
-      "verification": "verified-exact",
-      "how_verified": "text-layer",
+      "verified": true,
+      "verified_with": "text-layer",
       "citation_provenance": "PDF p. 99.",
       "verified_on": "2026-08-03",
       "voice": "modern",

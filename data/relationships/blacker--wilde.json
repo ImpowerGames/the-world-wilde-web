@@ -40,8 +40,8 @@
         "place": "berneval-sur-mer"
       },
       "supports": "What Wilde thought a long friendship had been made of, and who came to Berneval.",
-      "verification": "verified-elision",
-      "how_verified": "photo-reproduction",
+      "verified": true,
+      "verified_with": "photo-reproduction",
       "citation_provenance": "PDF p. 961.",
       "verified_on": "2026-08-05",
       "voice": "period",
@@ -68,8 +68,8 @@
         "place": "nogent-sur-marne"
       },
       "supports": "The break with Blacker, in Wilde's own words, and its entanglement with the Dreyfus affair.",
-      "verification": "verified-elision",
-      "how_verified": "photo-reproduction",
+      "verified": true,
+      "verified_with": "photo-reproduction",
       "citation_provenance": "PDF p. 1131.",
       "verified_on": "2026-08-06",
       "voice": "period",
@@ -86,8 +86,8 @@
       "locator": "General Index s.v. Blacker, Carlos",
       "locator_type": "page",
       "supports": "Would settle where the friendship's early years were spent. The volume indexes fifteen letters to Blacker at folios 911-1063; the pre-1895 letters, read at the page, would place the London years.",
-      "verification": "unverified",
-      "how_verified": "unverified",
+      "verified": false,
+      "verified_with": "unverified",
       "citation_provenance": "",
       "document": "editorial-note"
     }

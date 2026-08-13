@@ -36,8 +36,8 @@
         "place": "berneval-sur-mer"
       },
       "supports": "That he came to Berneval, and what Wilde thought of his painting.",
-      "verification": "verified-exact",
-      "how_verified": "photo-reproduction",
+      "verified": true,
+      "verified_with": "photo-reproduction",
       "citation_provenance": "PDF p. 961.",
       "verified_on": "2026-08-05",
       "voice": "period",
@@ -63,8 +63,8 @@
         "place": "berneval-sur-mer"
       },
       "supports": "Conder in the Dieppe circle, and Wilde's tone about him.",
-      "verification": "verified-exact",
-      "how_verified": "photo-reproduction",
+      "verified": true,
+      "verified_with": "photo-reproduction",
       "citation_provenance": "PDF p. 978.",
       "verified_on": "2026-08-05",
       "voice": "period",

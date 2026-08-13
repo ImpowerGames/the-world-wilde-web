@@ -38,8 +38,8 @@
         "place": "rome"
       },
       "supports": "The whole of the record: Wilde's own statement that he fell in love, the young man's institution, and the absence of any recorded outcome",
-      "verification": "verified-exact",
-      "how_verified": "text-layer",
+      "verified": true,
+      "verified_with": "text-layer",
       "citation_provenance": "PDF p. 1225. The letter's heading (recipient, date, address) stands on an earlier printed page; the page read carries the editors' footnote 'Easter Day 1900 was on 15 April'.",
       "verified_on": "2026-08-03",
       "voice": "period",

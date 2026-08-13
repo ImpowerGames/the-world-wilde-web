@@ -24,8 +24,8 @@
         "place": "146-oakley-street"
       },
       "supports": "That the debt was to a married couple, not to one of them.",
-      "verification": "verified-exact",
-      "how_verified": "photo-reproduction",
+      "verified": true,
+      "verified_with": "photo-reproduction",
       "citation_provenance": "PDF p. 701.",
       "verified_on": "2026-08-05",
       "voice": "period",
@@ -52,8 +52,8 @@
         "place": "dieppe"
       },
       "supports": "That he was there at the other end of it as well.",
-      "verification": "verified-elision",
-      "how_verified": "photo-reproduction",
+      "verified": true,
+      "verified_with": "photo-reproduction",
       "citation_provenance": "PDF p. 895.",
       "verified_on": "2026-08-05",
       "voice": "period",

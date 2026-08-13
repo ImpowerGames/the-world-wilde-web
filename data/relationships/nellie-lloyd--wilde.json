@@ -39,8 +39,8 @@
         }
       },
       "supports": "Wilde on the birth of his first son, to his sister-in-law, the same morning.",
-      "verification": "verified-exact",
-      "how_verified": "photo-reproduction",
+      "verified": true,
+      "verified_with": "photo-reproduction",
       "citation_provenance": "PDF p. 283.",
       "verified_on": "2026-08-06",
       "voice": "period",

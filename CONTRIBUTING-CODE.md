@@ -118,15 +118,15 @@ An `uncorroborated` connection must carry `disputed` with `claim`, `asserted_by`
   "turns": [{ "who": "Carson", "text": "…" }], // optional, and only when voice is "court"
   "occurred": { "date": { "y": 1900, "m": 3 } }, // when the event described in the quote happened
   "supports": "what this quotation is here to establish",
-  "verification": "verified-exact",
-  "how_verified": "photo-reproduction", // how directly the words were read
+  "verified": true, // somebody read this at the page
+  "verified_on": "2026-08-04",
+  "verified_against_original": true, // you read and collated against the original document itself
+  "verified_marks": true, // you collated the marks against the original and verified they match
+  "verified_with": "photo-reproduction", // what the quote was verified against
   "document": "letter", // what is quoted, when it differs from the work
   "written": { "place": "berneval-sur-mer" }, // and `sent`, `postmarked`, `received`
-  "verified_on": "2026-08-04",
   "citation_provenance": "which copy, which page",
   "original_provenance": "…", // what you read and saw in the original document
-  "verified_against_original": true, // you read and collated against the document itself
-  "marks_verified": true, // you collated the marks against the original and verified they match
   "lang": "fr", // only when the quotation is not in English
   "translation": "…", // then this is REQUIRED
   "translation_note": "who translated it, and any published version that differs",
@@ -217,9 +217,9 @@ Unverified quotes are marked with an `⧖ unverified` chip and means the passage
 
 Never mark something verified you have not seen on the page. A text layer, an OCR dump or a search index is for _finding_; the rendered page is for _verifying_.
 
-Verification asks **four separate questions:** `document` for what kind of thing is quoted, `how_verified` for how directly it was read, `verified_against_original` for whether anyone went to the document itself, and `citation_provenance` / `original_provenance` for the provenance of each — the publication and the original.
+Verification asks **four separate questions:** `document` for what kind of thing is quoted, `verified_with` for how directly it was read, `verified_against_original` for whether anyone went to the document itself, and `citation_provenance` / `original_provenance` for the provenance of each — the publication and the original.
 
-**`how_verified` — how directly were the words read?**
+**`verified_with` — how directly were the words read?**
 
 | value                | means                                                                            |
 | -------------------- | -------------------------------------------------------------------------------- |
@@ -245,7 +245,7 @@ Written about the subject: `biography`, `study`, `article`, `encyclopedia`, `edi
 
 **`verified_against_original`** Set to true if you've read the original document; It requires a `document` field as well, since it has to say which original was read.
 
-**`marks_verified: true`** says the quotation's marks have been collated against the source and match — emphasis, accents, punctuation, everything a transcription loses quietly.
+**`verified_marks: true`** says the quotation's marks have been collated against the source and match — emphasis, accents, punctuation, everything a transcription loses quietly.
 
 **`original_provenance`**: Which pages you read. Marks you found and where. And above all **the things that look like marks and are not** — the stroke that cancels a letterhead, the diagonals that are paragraph marks, the rising paraph before a signature that is not a rule under the words above it. Those are what stops the next reader opening the same sheet to re-decide the same mark.
 
@@ -277,7 +277,7 @@ Uncheck a row to hide it. Check it to show it again. **Right-click a row** or cl
 
 **The markers are rendered.** `*italics*`, `_underline_`, `__double underline__`, `**bold**` and `~~strikethrough~~` inside `quote` are converted to real type when the card is drawn, so they must be the source's own emphasis and never editorial highlighting of your own.
 
-**Deviations from the printed edition.** The editors of _The Complete Letters of Oscar Wilde_ silently convert title quotation marks and underlines to italics and additionally italicize any titles and foreign words present in the letter. They make no differentiation between words that were single-underlined or double-underlined (both are italicized in the printed edition). Due to this convention, when the printed edition italicizes an ordinary English word, it is usually because the word was `_underlined_` in the original document. When the printed edition italicizes a title or foreign word, this usually does not correspond to any real underlines in the original document. Say which it is in `citation_provenance`. When the document has been read, write `original_provenance`, record what was found there, and set `marks_verified` to `true` once the marks are collated. Withhold `marks_verified` while any part of the quotation is unread or any mark is unresolved.
+**Deviations from the printed edition.** The editors of _The Complete Letters of Oscar Wilde_ silently convert title quotation marks and underlines to italics and additionally italicize any titles and foreign words present in the letter. They make no differentiation between words that were single-underlined or double-underlined (both are italicized in the printed edition). Due to this convention, when the printed edition italicizes an ordinary English word, it is usually because the word was `_underlined_` in the original document. When the printed edition italicizes a title or foreign word, this usually does not correspond to any real underlines in the original document. Say which it is in `citation_provenance`. When the document has been read, write `original_provenance`, record what was found there, and set `verified_marks` to `true` once the marks are collated. Withhold `verified_marks` while any part of the quotation is unread or any mark is unresolved.
 
 **Record what you changed against the page you cite.** Where restoring a mark makes the quotation differ from the printed page — or where you normalised a mark that existed only because of a line break — say so in `citation_provenance`. The citation still locates the passage; the manuscript tells us how it was normalized.
 
@@ -361,7 +361,7 @@ A transcription file should be included for each letter:
   "postmarked": { "date": { "y": 1898, "m": 3, "d": 21 } },
   "written": { "place": "paris" }, // an id from data/places.json
   "quote": "…", // the whole letter, salutation to signature
-  "marks_verified": true,
+  "verified_marks": true,
   "transcribed_on": "2026-08-10",
 }
 ```

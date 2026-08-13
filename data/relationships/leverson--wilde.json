@@ -38,8 +38,8 @@
         "place": "albemarle-club"
       },
       "supports": "What Wilde told her about the story that would be used against him at trial.",
-      "verification": "verified-exact",
-      "how_verified": "photo-reproduction",
+      "verified": true,
+      "verified_with": "photo-reproduction",
       "citation_provenance": "PDF p. 677.",
       "verified_on": "2026-08-06",
       "voice": "period",
@@ -65,8 +65,8 @@
         "place": "146-oakley-street"
       },
       "supports": "The warmest thing Wilde wrote her, at the worst moment of his life.",
-      "verification": "verified-exact",
-      "how_verified": "photo-reproduction",
+      "verified": true,
+      "verified_with": "photo-reproduction",
       "citation_provenance": "PDF p. 701.",
       "verified_on": "2026-08-05",
       "voice": "period",
@@ -93,8 +93,8 @@
         "place": "dieppe"
       },
       "supports": "That she was among the first to meet him out of prison, and that he trusted her with the aliases.",
-      "verification": "verified-exact",
-      "how_verified": "photo-reproduction",
+      "verified": true,
+      "verified_with": "photo-reproduction",
       "citation_provenance": "PDF p. 895.",
       "verified_on": "2026-08-05",
       "voice": "period",
@@ -111,8 +111,8 @@
       "locator": "General Index s.v. Leverson, Ada",
       "locator_type": "page",
       "supports": "Would settle Holloway as a place of the friendship: a Leverson letter or note naming it.",
-      "verification": "unverified",
-      "how_verified": "unverified",
+      "verified": false,
+      "verified_with": "unverified",
       "citation_provenance": "",
       "document": "editorial-note"
     },
@@ -123,8 +123,8 @@
       "locator": "p. 568",
       "locator_type": "page",
       "supports": "Would settle the 1893 start: the [? Summer 1893] letter to Leverson, read at the page.",
-      "verification": "unverified",
-      "how_verified": "unverified",
+      "verified": false,
+      "verified_with": "unverified",
       "citation_provenance": "",
       "document": "letter"
     }

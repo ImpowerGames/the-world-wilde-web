@@ -33,8 +33,8 @@
         }
       },
       "supports": "The second marriage, its year and the husband's identity.",
-      "verification": "verified-exact",
-      "how_verified": "as-published",
+      "verified": true,
+      "verified_with": "as-published",
       "citation_provenance": "Wikipedia, 'Agnes Mary Frances Duclaux'; the sentence carries no citation on the page, and the first-marriage paragraph is tagged 'citation needed' (Aug. 2017)",
       "verified_on": "2026-08-05",
       "voice": "modern",

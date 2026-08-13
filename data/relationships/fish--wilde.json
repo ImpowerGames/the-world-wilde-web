@@ -37,8 +37,8 @@
         }
       },
       "supports": "Wilde on his own birthday naming someone one of his real friends, and what he thought the only two important things were.",
-      "verification": "verified-exact",
-      "how_verified": "photo-reproduction",
+      "verified": true,
+      "verified_with": "photo-reproduction",
       "citation_provenance": "PDF p. 477.",
       "verified_on": "2026-08-06",
       "voice": "period",
@@ -52,8 +52,8 @@
       "locator": "General Index s.v. Fish, Arthur",
       "locator_type": "page",
       "supports": "Would settle London as a place of the friendship: the volume's Fish index entry, read at the page.",
-      "verification": "unverified",
-      "how_verified": "unverified",
+      "verified": false,
+      "verified_with": "unverified",
       "citation_provenance": "",
       "document": "editorial-note",
       "occurred": {

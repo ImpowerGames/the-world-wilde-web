@@ -39,8 +39,8 @@
         "place": "chelsea"
       },
       "supports": "Wilde wiring his brother-in-law within hours of Cyril's birth.",
-      "verification": "verified-exact",
-      "how_verified": "photo-reproduction",
+      "verified": true,
+      "verified_with": "photo-reproduction",
       "citation_provenance": "PDF p. 283.",
       "verified_on": "2026-08-06",
       "voice": "period",
@@ -66,8 +66,8 @@
         }
       },
       "supports": "The ordinary family footing - a present, and asking after a sick nephew.",
-      "verification": "verified-exact",
-      "how_verified": "photo-reproduction",
+      "verified": true,
+      "verified_with": "photo-reproduction",
       "citation_provenance": "PDF p. 307.",
       "verified_on": "2026-08-06",
       "voice": "period",

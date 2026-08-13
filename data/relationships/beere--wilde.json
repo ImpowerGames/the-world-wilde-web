@@ -40,8 +40,8 @@
         "place": "berneval-sur-mer"
       },
       "supports": "One of the first friends written to after prison, and the alias entrusted to her.",
-      "verification": "verified-exact",
-      "how_verified": "photo-reproduction",
+      "verified": true,
+      "verified_with": "photo-reproduction",
       "citation_provenance": "PDF p. 925.",
       "verified_on": "2026-08-06",
       "voice": "period",
@@ -58,8 +58,8 @@
       "locator": "General Index s.v. Beere, Mrs Bernard",
       "locator_type": "page",
       "supports": "Would settle London as a place of the friendship: the volume's letters to Beere, read at the page.",
-      "verification": "unverified",
-      "how_verified": "unverified",
+      "verified": false,
+      "verified_with": "unverified",
       "citation_provenance": "",
       "document": "editorial-note",
       "occurred": {

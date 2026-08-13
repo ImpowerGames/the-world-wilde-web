@@ -31,8 +31,8 @@
         }
       },
       "supports": "The relationship, its character as Pulham states it, and both its start and end dates.",
-      "verification": "verified-exact",
-      "how_verified": "as-published",
+      "verified": true,
+      "verified_with": "as-published",
       "citation_provenance": "Https://1890s.ca/lee_bio/",
       "verified_on": "2026-08-03",
       "voice": "modern",
@@ -49,8 +49,8 @@
           "y": 1881
         }
       },
-      "verification": "verified-exact",
-      "how_verified": "as-published",
+      "verified": true,
+      "verified_with": "as-published",
       "citation_provenance": "Https://1890s.ca/lee_bio/",
       "verified_on": "2026-08-03",
       "voice": "modern",
@@ -68,8 +68,8 @@
         }
       },
       "supports": "The standard edition stating the relationship as romantic, dating its start exactly, giving its length, and recording Lee's depression after the marriage.",
-      "verification": "verified-elision",
-      "how_verified": "text-layer",
+      "verified": true,
+      "verified_with": "text-layer",
       "citation_provenance": "Editors' note, Vernon Lee's Letters, vol. III (2024), PDF pp. 119-120.",
       "verified_on": "2026-08-04",
       "speaker": "Sophie Geoffroy and Amanda Gagel, eds.",
@@ -90,8 +90,8 @@
         }
       },
       "supports": "Robinson's own voice on the relationship and on its aftermath - the surviving affection, and the mutual retrieval of the love letters that documented it.",
-      "verification": "verified-elision",
-      "how_verified": "text-layer",
+      "verified": true,
+      "verified_with": "text-layer",
       "citation_provenance": "Robinson to Lee, Christmas Eve 1893, Vernon Lee's Letters, vol. III (2024), PDF pp. 490-491. The edition's own note to this letter reads \"Bibliothèque Nationale de France, Manuscrits, Anglais 243, Correspondance de Mary Robinson IV, Lettres de Mary Robinson à Vernon Lee (Violet Paget) 1887-1933\", and adds that \"Mary Robinson's letters to Vernon Lee are now held at the Bibliothèque Nationale de France, Manuscrits, Paris\".",
       "verified_on": "2026-08-04",
       "speaker": "Mary Robinson (Mme Darmesteter), letter to Vernon Lee",
@@ -108,8 +108,8 @@
       "locator_type": "page",
       "quote": "At the time that Levy became acquainted with her, Lee had been in a romantic relationship with the poet and novelist Agnes Mary Robinson (called Mary) since at least the autumn of 1880. When Vernon Lee was in London she stayed with the Robinsons, and when Mary was in Florence she stayed at the Pagets' villa, sharing a room with Lee.",
       "context": "Beckman, incidentally, while setting up Levy's own attachment to Lee.",
-      "verification": "verified-exact",
-      "how_verified": "text-layer",
+      "verified": true,
+      "verified_with": "text-layer",
       "verified_on": "2026-08-03",
       "citation_provenance": "PDF p. 138.",
       "occurred": {

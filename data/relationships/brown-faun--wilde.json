@@ -36,8 +36,8 @@
         }
       },
       "supports": "The association and its ending, in Wilde's own words, and the terms he describes him in.",
-      "verification": "verified-exact",
-      "how_verified": "text-layer",
+      "verified": true,
+      "verified_with": "text-layer",
       "voice": "period",
       "verified_on": "2026-08-04",
       "citation_provenance": "PDF p. 1242. 'Café d'Égypte' carries its accents in the printed text. The letter is incomplete and descends from a printed memoir and a saleroom catalogue rather than a manuscript - see the editors' footnote 1 on the same page. The same letter as the Café d'Égypte passage, and the same sale: note 1 corrects Spencer's text from the American Art Association catalogue of 1 February 1928.",

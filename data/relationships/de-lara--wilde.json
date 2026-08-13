@@ -36,8 +36,8 @@
         }
       },
       "supports": "The whole of the record: one inscription, in Wilde's hand, calling him a friend.",
-      "verification": "verified-exact",
-      "how_verified": "photo-reproduction",
+      "verified": true,
+      "verified_with": "photo-reproduction",
       "citation_provenance": "PDF p. 1182. The editors record the inscription's wording but not where the book is - note 2 says only \"There exists a copy of Wilde's Poems (fifth edition, 1882) inscribed\" - so no repository can be written for it.",
       "verified_on": "2026-08-06",
       "voice": "period",
@@ -51,8 +51,8 @@
       "locator": "General Index s.v. de Lara, Isidore",
       "locator_type": "page",
       "supports": "Would settle London as where the inscription was written: the volume's de Lara index entry, read at the page.",
-      "verification": "unverified",
-      "how_verified": "unverified",
+      "verified": false,
+      "verified_with": "unverified",
       "citation_provenance": "",
       "document": "editorial-note",
       "occurred": {

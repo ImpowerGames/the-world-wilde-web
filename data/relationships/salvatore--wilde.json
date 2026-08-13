@@ -39,8 +39,8 @@
         "place": "rome"
       },
       "supports": "The whole of the record for Salvatore.",
-      "verification": "verified-exact",
-      "how_verified": "photo-reproduction",
+      "verified": true,
+      "verified_with": "photo-reproduction",
       "citation_provenance": "PDF pp. 1224-1225.",
       "verified_on": "2026-08-06",
       "voice": "period",

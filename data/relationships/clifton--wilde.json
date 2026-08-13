@@ -39,8 +39,8 @@
         }
       },
       "supports": "The everyday footing of the friendship.",
-      "verification": "verified-elision",
-      "how_verified": "photo-reproduction",
+      "verified": true,
+      "verified_with": "photo-reproduction",
       "citation_provenance": "PDF p. 432.",
       "verified_on": "2026-08-05",
       "voice": "period",
@@ -69,8 +69,8 @@
         }
       },
       "supports": "Wilde refusing the vocabulary of moral censure, in private, four years before it was used on him.",
-      "verification": "verified-exact",
-      "how_verified": "photo-reproduction",
+      "verified": true,
+      "verified_with": "photo-reproduction",
       "citation_provenance": "PDF p. 483.",
       "verified_on": "2026-08-05",
       "voice": "period",

@@ -38,8 +38,8 @@
         }
       },
       "supports": "Warmth between men, recorded whether or not it amounts to anything.",
-      "verification": "verified-elision",
-      "how_verified": "photo-reproduction",
+      "verified": true,
+      "verified_with": "photo-reproduction",
       "citation_provenance": "PDF p. 548.",
       "verified_on": "2026-08-05",
       "voice": "period",

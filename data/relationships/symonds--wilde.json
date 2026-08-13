@@ -35,8 +35,8 @@
         }
       },
       "supports": "That Wilde was reading Symonds closely at twenty-one, and that what he wrote about him did not survive into print.",
-      "verification": "verified-exact",
-      "how_verified": "photo-reproduction",
+      "verified": true,
+      "verified_with": "photo-reproduction",
       "citation_provenance": "PDF p. 56.",
       "verified_on": "2026-08-05",
       "voice": "period",

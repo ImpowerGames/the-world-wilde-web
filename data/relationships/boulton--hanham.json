@@ -37,8 +37,8 @@
         "place": "oxford"
       },
       "supports": "That Boulton had a preferred companion, and who the editors think he was.",
-      "verification": "verified-elision",
-      "how_verified": "photo-reproduction",
+      "verified": true,
+      "verified_with": "photo-reproduction",
       "citation_provenance": "PDF p. 93.",
       "verified_on": "2026-08-05",
       "voice": "period",

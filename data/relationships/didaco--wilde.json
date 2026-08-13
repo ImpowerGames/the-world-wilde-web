@@ -38,8 +38,8 @@
         }
       },
       "supports": "The whole of the record: Wilde's account of meeting Didaco at Genoa, of loving him, and of three days spent together",
-      "verification": "verified-exact",
-      "how_verified": "text-layer",
+      "verified": true,
+      "verified_with": "text-layer",
       "citation_provenance": "PDF p. 1178.",
       "verified_on": "2026-08-03",
       "voice": "period",

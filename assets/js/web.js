@@ -210,8 +210,7 @@ async function loadWeb() {
   const DEFAULT_OFF = new Set([]);
   // Verified carries no chip: only the states that need a reader's attention show one.
   const VER_META = {
-    "verified-exact": ["", ""],
-    "verified-elision": ["", ""],
+    verified: ["", ""],
     "needs-fix": ["! Needs fix", "v-warn"],
     rejected: ["✗ Rejected", "v-bad"],
     unverified: ["⧖ Pending verification", "v-pend"],
@@ -330,8 +329,7 @@ async function loadWeb() {
         total++;
         if ((q.quote || "") === "") pointers++;
         if (
-          q.verification === "verified-exact" ||
-          q.verification === "verified-elision"
+          q.verified === true
         )
           ok++;
         else pend++;
@@ -1892,7 +1890,8 @@ async function loadWeb() {
     // Only worth pressing where the card shows less than the whole letter, which is the case it
     // exists for - but an unelided quotation is still an excerpt of a longer document, so the
     // button is offered either way and says which it is.
-    const cut = q.verification === "verified-elision";
+    // Whether the quotation is cut is in the quotation.
+    const cut = (q.quote || "").includes("…");
     return `<button class="qfacs qletter" data-letter="${esc(id)}" title="${esc(
       cut
         ? "This quotation is cut. Read the whole letter, with the quoted passage marked, and see what the ellipsis dropped."
@@ -2024,7 +2023,7 @@ async function loadWeb() {
   }
   function quoteCard(q, withWhom, si) {
     const [vLabel, vClass] =
-      VER_META[q.verification || "unverified"] || VER_META.unverified;
+      q.verified ? VER_META["verified"] : VER_META.unverified;
     const siAttr = si == null ? "" : ` data-si="${si}"`; // the handle the sources filter hides the card by
     const wk = WEB.works[q.work] || null;
 
@@ -2108,13 +2107,13 @@ async function loadWeb() {
     ${chipRow(q, vLabel, vClass)}
     ${
       prov
-        ? `<details><summary>Provenance</summary><div>${esc(prov)}${howLabel(q.how_verified) ? ` · ${esc(howLabel(q.how_verified))}` : ""}${q.verified_on ? ` · ${esc(q.verified_on)}` : ""}${
+        ? `<details><summary>Provenance</summary><div>${esc(prov)}${howLabel(q.verified_with) ? ` · ${esc(howLabel(q.verified_with))}` : ""}${q.verified_on ? ` · ${esc(q.verified_on)}` : ""}${
             // The document gets its own paragraph, because it answers a different question from the
             // reprinting above it and reading them as one sentence is what let a PDF page number pass
-            // for a manuscript. `marks_verified` closes it: the marks were collated and they match.
+            // for a manuscript. `verified_marks` closes it: the marks were collated and they match.
             (q.original_provenance || "").trim()
               ? `<p class="qorig"><b>At the document.</b> ${esc(q.original_provenance)}${
-                  q.marks_verified
+                  q.verified_marks
                     ? ` <span class="qmarks">Emphasis, accents and punctuation collated against it; this quotation matches.</span>`
                     : ""
                 }</p>`
@@ -2251,7 +2250,7 @@ async function loadWeb() {
       q.supports,
       q.locator,
       q.citation_provenance,
-      q.how_verified,
+      q.verified_with,
       wk && wk.title,
       wk && wk.author,
       wk && wk.editors,
@@ -2996,7 +2995,7 @@ async function loadWeb() {
         let ok = 0,
           pend = 0;
         for (const q of r.sources || [])
-          (q.verification || "").startsWith("verified") ? ok++ : pend++;
+          q.verified ? ok++ : pend++;
         return `<button class="lrow" onclick="location.hash='#/r/${esc(r.id)}'">
         <span class="when">${esc(relDateLabel(r))}</span><br>
         ${esc(a.name)} &amp; ${esc(b.name)}${miniBadge(r.certainty)}

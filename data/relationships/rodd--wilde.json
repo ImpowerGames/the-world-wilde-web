@@ -41,8 +41,8 @@
         "place": "keats-house"
       },
       "supports": "The entire surviving correspondence, and the extent of the affection in it: 'Dear Rennell' and 'Come back very soon'.",
-      "verification": "verified-exact",
-      "how_verified": "photo-reproduction",
+      "verified": true,
+      "verified_with": "photo-reproduction",
       "citation_provenance": "PDF pp. 127-128. The letter runs across the page break and is transcribed whole.",
       "verified_on": "2026-08-05",
       "voice": "period",
@@ -59,8 +59,8 @@
       "locator": "General Index s.v. Rodd, Rennell",
       "locator_type": "page",
       "supports": "Would settle Oxford as where the friendship began: the volume's mentions of Rodd at folios 140, 148, 178, 186 and 205 show the friendship's continuity, but none is a letter from the 1870s.",
-      "verification": "unverified",
-      "how_verified": "unverified",
+      "verified": false,
+      "verified_with": "unverified",
       "citation_provenance": "",
       "document": "editorial-note"
     }

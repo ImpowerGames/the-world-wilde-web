@@ -39,8 +39,8 @@
         "place": "hotel-d-alsace"
       },
       "supports": "That Wilde knew him in Paris before Nice, and how he described him to a correspondent other than Turner.",
-      "verification": "verified-exact",
-      "how_verified": "photo-reproduction",
+      "verified": true,
+      "verified_with": "photo-reproduction",
       "citation_provenance": "PDF p. 1154. The volume's headnote is 'MS Hyde'.",
       "verified_on": "2026-08-05",
       "voice": "period",
@@ -67,8 +67,8 @@
         }
       },
       "supports": "The whole of the verified record: an existing friendship, a promised meeting at Nice, Wilde's description of him, and the statement that he was at Nice on speculative business; no outcome recorded",
-      "verification": "verified-exact",
-      "how_verified": "text-layer",
+      "verified": true,
+      "verified_with": "text-layer",
       "citation_provenance": "PDF p. 1163.",
       "verified_on": "2026-08-03",
       "voice": "period",
@@ -99,8 +99,8 @@
         }
       },
       "supports": "How Wilde glosses Georges's 'speculative business' at Nice - the sentence completes on the following page and bears directly on how the connection should be read",
-      "verification": "verified-exact",
-      "how_verified": "text-layer",
+      "verified": true,
+      "verified_with": "text-layer",
       "citation_provenance": "PDF pp. 1163-1164; 'le petit Georges' is italicized in the printed text.",
       "verified_on": "2026-08-03",
       "voice": "period",

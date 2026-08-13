@@ -39,8 +39,8 @@
         }
       },
       "supports": "The first-person account of the Albemarle nights: kisses, embraces, shared bed, resistance — the class-deciding quote",
-      "verification": "verified-exact",
-      "how_verified": "photo-reproduction",
+      "verified": true,
+      "verified_with": "photo-reproduction",
       "citation_provenance": "IA in.ernet.dli.2015.499238, leaf 253 (printed p. 213). The preceding page (leaf 252, printed p. 212) gives Shelley's employment from 1891 and dates the firm's publishing for Wilde to 1892.",
       "verified_on": "2026-08-03",
       "speaker": "Edward Shelley, examination-in-chief",
@@ -66,8 +66,8 @@
         }
       },
       "supports": "Shelley's final-trial framing: 'attempts at improprieties' on two occasions, resented at the time; the March 1893 Savoy quarrel and break-off",
-      "verification": "verified-exact",
-      "how_verified": "photo-reproduction",
+      "verified": true,
+      "verified_with": "photo-reproduction",
       "citation_provenance": "IA in.ernet.dli.2015.499238, leaf 340 (printed p. 296)",
       "verified_on": "2026-08-03",
       "speaker": "Edward Shelley",
@@ -94,8 +94,8 @@
         }
       },
       "supports": "The count's withdrawal for want of corroboration — the legal outcome the 'alleged' class rests on",
-      "verification": "verified-elision",
-      "how_verified": "photo-reproduction",
+      "verified": true,
+      "verified_with": "photo-reproduction",
       "citation_provenance": "IA in.ernet.dli.2015.499238, leaf 352 (printed pp. 306-307)",
       "verified_on": "2026-08-03",
       "speaker": "Mr Justice Wills, ruling from the bench",
@@ -121,8 +121,8 @@
         }
       },
       "supports": "The formal allegation and its date-window (Feb-May 1892, Albemarle Hotel)",
-      "verification": "verified-exact",
-      "how_verified": "photo-reproduction",
+      "verified": true,
+      "verified_with": "photo-reproduction",
       "citation_provenance": "IA in.ernet.dli.2015.499238, leaf 387 (printed p. 341)",
       "verified_on": "2026-08-03",
       "speaker": "The Marquess of Queensberry, plea of justification (filed 30 March 1895)",

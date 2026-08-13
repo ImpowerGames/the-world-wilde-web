@@ -39,8 +39,8 @@
         "place": "la-napoule"
       },
       "supports": "The whole of the record for Fortuné: named as the second of Wilde's two special friends among the Napoule fisher-folk, called quite perfect, with no outcome recorded",
-      "verification": "verified-exact",
-      "how_verified": "text-layer",
+      "verified": true,
+      "verified_with": "text-layer",
       "citation_provenance": "PDF p. 1159.",
       "verified_on": "2026-08-03",
       "voice": "period",

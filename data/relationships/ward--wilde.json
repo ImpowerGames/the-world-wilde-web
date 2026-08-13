@@ -40,8 +40,8 @@
         "place": "oxford"
       },
       "supports": "The earliest surviving sign-off to Ward — 'Your affectionate friend' — and the Ward/Harding/Wilde triangle in one letter.",
-      "verification": "verified-elision",
-      "how_verified": "photo-reproduction",
+      "verified": true,
+      "verified_with": "photo-reproduction",
       "citation_provenance": "PDF p. 40.",
       "verified_on": "2026-08-05",
       "voice": "period",
@@ -67,8 +67,8 @@
         }
       },
       "supports": "The First and the grief in the same breath — what Wilde told Ward that he told almost nobody.",
-      "verification": "verified-elision",
-      "how_verified": "photo-reproduction",
+      "verified": true,
+      "verified_with": "photo-reproduction",
       "citation_provenance": "PDF p. 45.",
       "verified_on": "2026-08-05",
       "voice": "period",
@@ -97,8 +97,8 @@
         }
       },
       "supports": "A week inside the Miles household, written up entirely in terms of the parents.",
-      "verification": "verified-elision",
-      "how_verified": "photo-reproduction",
+      "verified": true,
+      "verified_with": "photo-reproduction",
       "citation_provenance": "PDF p. 47.",
       "verified_on": "2026-08-05",
       "voice": "period",
@@ -128,8 +128,8 @@
         "place": "dublin"
       },
       "supports": "What Wilde and Ward actually talked about — faith, Newman, reason — which is the friendship's substance and is not romantic.",
-      "verification": "verified-elision",
-      "how_verified": "photo-reproduction",
+      "verified": true,
+      "verified_with": "photo-reproduction",
       "citation_provenance": "PDF p. 50.",
       "verified_on": "2026-08-05",
       "voice": "period",
@@ -156,8 +156,8 @@
         "place": "dublin"
       },
       "supports": "What Wilde could say to Ward and to nobody else, and the earliest recorded instance of him handling a suspected attachment between men.",
-      "verification": "verified-elision",
-      "how_verified": "photo-reproduction",
+      "verified": true,
+      "verified_with": "photo-reproduction",
       "citation_provenance": "PDF pp. 53-54.",
       "verified_on": "2026-08-05",
       "voice": "period",
@@ -183,8 +183,8 @@
         }
       },
       "supports": "Wilde inviting Ward and Harding together for a month, and the exact placement of a Frank Miles mention — the thing Croft-Cooke says the charge lives in.",
-      "verification": "verified-elision",
-      "how_verified": "photo-reproduction",
+      "verified": true,
+      "verified_with": "photo-reproduction",
       "citation_provenance": "PDF p. 56.",
       "verified_on": "2026-08-05",
       "voice": "period",
@@ -213,8 +213,8 @@
         }
       },
       "supports": "Wilde's own observation that Ward was indifferent to women, and his wish that he would not be.",
-      "verification": "verified-exact",
-      "how_verified": "photo-reproduction",
+      "verified": true,
+      "verified_with": "photo-reproduction",
       "citation_provenance": "PDF p. 63.",
       "verified_on": "2026-08-05",
       "voice": "period",
@@ -232,7 +232,7 @@
       "locator_type": "page",
       "speaker": "Oscar Wilde",
       "addressee": "William Ward",
-      "how_verified": "photo-reproduction",
+      "verified_with": "photo-reproduction",
       "voice": "period",
       "document": "letter",
       "manuscript": {
@@ -252,7 +252,7 @@
         "place": "the-vicarage-west-ashby"
       },
       "supports": "The ease of the friendship - Wilde fussing over whether Ward had eaten.",
-      "verification": "verified-exact",
+      "verified": true,
       "citation_provenance": "PDF p. 43, folio 18 read on the page.",
       "verified_on": "2026-08-12",
       "letter_id": "letters-2000/18#1"
@@ -262,7 +262,7 @@
       "locator_type": "page",
       "speaker": "Oscar Wilde",
       "addressee": "William Ward",
-      "how_verified": "photo-reproduction",
+      "verified_with": "photo-reproduction",
       "voice": "period",
       "document": "letter",
       "manuscript": {
@@ -282,7 +282,7 @@
         "place": "1-merrion-square-north"
       },
       "supports": "That the proudest letter of Wilde's young life went to Ward before anyone else.",
-      "verification": "verified-elision",
+      "verified": true,
       "citation_provenance": "PDF p. 86, folio 59 read on the page. The letter begins at printed 57; the postscript quoted here falls at the head of 59.",
       "verified_on": "2026-08-12",
       "letter_id": "letters-2000/57#1"
@@ -304,8 +304,8 @@
         "place": "st-stephens-club"
       },
       "supports": "Wilde at his lowest before the First was announced, asking Ward why he does not write and whether he will come.",
-      "verification": "verified-exact",
-      "how_verified": "photo-reproduction",
+      "verified": true,
+      "verified_with": "photo-reproduction",
       "citation_provenance": "PDF p. 96.",
       "verified_on": "2026-08-05",
       "voice": "period",
@@ -332,8 +332,8 @@
         "place": "oxford"
       },
       "supports": "What Ward's congratulations were worth to him, and the plain wish to see him.",
-      "verification": "verified-elision",
-      "how_verified": "photo-reproduction",
+      "verified": true,
+      "verified_with": "photo-reproduction",
       "citation_provenance": "PDF p. 97.",
       "verified_on": "2026-08-05",
       "voice": "period",
@@ -359,8 +359,8 @@
         "place": "keats-house"
       },
       "supports": "The close of the correspondence, five years on and still affectionate — and Wilde's estimate of Ward's judgement.",
-      "verification": "verified-exact",
-      "how_verified": "photo-reproduction",
+      "verified": true,
+      "verified_with": "photo-reproduction",
       "citation_provenance": "PDF p. 137.",
       "verified_on": "2026-08-05",
       "voice": "period",

@@ -40,8 +40,8 @@
         "place": "29-boulevard-des-capucines"
       },
       "supports": "The first day of it, and the three weeks that were removed from the record.",
-      "verification": "verified-exact",
-      "how_verified": "photo-reproduction",
+      "verified": true,
+      "verified_with": "photo-reproduction",
       "citation_provenance": "PDF p. 516.",
       "verified_on": "2026-08-05",
       "voice": "period",
@@ -66,8 +66,8 @@
         "place": "hotel-d-alsace"
       },
       "supports": "That the friendship lasted through the trials and the exile, and how plainly Wilde could describe the play's subject in 1898.",
-      "verification": "verified-elision",
-      "how_verified": "photo-reproduction",
+      "verified": true,
+      "verified_with": "photo-reproduction",
       "citation_provenance": "PDF p. 1154. The volume's headnote is 'MS Hyde'.",
       "verified_on": "2026-08-05",
       "voice": "period",
@@ -93,8 +93,8 @@
         }
       },
       "supports": "The address at 'mon cher André', and what Wilde told him he had lost.",
-      "verification": "verified-exact",
-      "how_verified": "photo-reproduction",
+      "verified": true,
+      "verified_with": "photo-reproduction",
       "citation_provenance": "PDF p. 1157.",
       "verified_on": "2026-08-05",
       "voice": "period",

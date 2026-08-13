@@ -36,8 +36,8 @@
         "place": "la-napoule"
       },
       "supports": "The whole of the record for this connection: Wilde's sighting, his description of the young man as very handsome, and the frame he put round it.",
-      "verification": "verified-exact",
-      "how_verified": "photo-reproduction",
+      "verified": true,
+      "verified_with": "photo-reproduction",
       "citation_provenance": "PDF p. 1167.",
       "verified_on": "2026-08-05",
       "voice": "period",

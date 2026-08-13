@@ -39,8 +39,8 @@
         }
       },
       "supports": "The beginning of the acquaintance.",
-      "verification": "verified-exact",
-      "how_verified": "photo-reproduction",
+      "verified": true,
+      "verified_with": "photo-reproduction",
       "citation_provenance": "PDF p. 477.",
       "verified_on": "2026-08-06",
       "voice": "period",

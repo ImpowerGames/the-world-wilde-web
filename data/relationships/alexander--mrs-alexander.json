@@ -27,8 +27,8 @@
         "place": "16-tite-street"
       },
       "supports": "That she existed, that Wilde knew her, and the name he had for her.",
-      "verification": "verified-exact",
-      "how_verified": "photo-reproduction",
+      "verified": true,
+      "verified_with": "photo-reproduction",
       "citation_provenance": "PDF p. 672.",
       "verified_on": "2026-08-05",
       "voice": "period",
@@ -55,8 +55,8 @@
         "place": "hotel-d-alsace"
       },
       "supports": "The one thing the record preserves about her — that she greeted a disgraced man warmly in public, and what it meant to him.",
-      "verification": "verified-exact",
-      "how_verified": "photo-reproduction",
+      "verified": true,
+      "verified_with": "photo-reproduction",
       "citation_provenance": "PDF p. 1239.",
       "verified_on": "2026-08-05",
       "voice": "period",
