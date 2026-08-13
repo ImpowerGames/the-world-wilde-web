@@ -353,7 +353,11 @@ async function loadWeb() {
   };
   const CLEAR = 13,
     MAX_SHOVE = 7; // clearance from unconnected lines; per-tick displacement cap
-  const KEEPOUT = 120; // clearance a connectionless person keeps from any cluster member
+  // A hub and the people who hang only off them read as one shape; a stranger standing inside
+  // that shape reads as one of them. CLUSTER_PAD is the clearance kept outside such a group,
+  // CLUSTER_K how hard it is enforced - gently, so it shapes the settle rather than fighting it.
+  const CLUSTER_PAD = 30,
+    CLUSTER_K = 0.45;
   const LABEL_BELOW = 15,
     LABEL_H = 13,
     LABEL_PAD = 3,
@@ -615,6 +619,24 @@ async function loadWeb() {
   let alpha = SIM.ALPHA0,
     running = false,
     raf = 0;
+  // Hubs with two or more hangers-on, and who counts as inside them.
+  const LEAF_CLUSTERS = (() => {
+    const out = [];
+    for (const n of nodes) {
+      const leaves = (mapByPerson.get(n.id) || [])
+        .map((r) => partnerOf(r, n.id))
+        .filter((o) => mapDegree(o) === 1);
+      // Two to six hangers-on read as a shape; Wilde has thirty-nine spread across the whole
+      // middle of the map, 150px of radius against 25-48 for every other cluster. Policing that
+      // one would push half the graph outwards to enforce a boundary nobody can see.
+      if (leaves.length < 2 || leaves.length > 8) continue;
+      const members = new Set([n.id, ...leaves]);
+      // Anyone joined to the hub belongs to its neighbourhood and is left alone.
+      for (const r of mapByPerson.get(n.id) || []) members.add(partnerOf(r, n.id));
+      out.push({ members, own: new Set([n.id, ...leaves]) });
+    }
+    return out;
+  })();
   const reduceMotion = matchMedia("(prefers-reduced-motion: reduce)").matches;
   function tick() {
     for (const n of nodes) {
@@ -669,6 +691,40 @@ async function loadWeb() {
         const pull = SIM.K_CENTER * Math.sqrt(mapDegree(n.id) + 1);
         n.fx += (W / 2 - n.x) * pull * 0.05;
         n.fy += (H / 2 - n.y) * pull * 0.05;
+      }
+    }
+    for (const c of LEAF_CLUSTERS) {
+      let cx = 0,
+        cy = 0,
+        k = 0;
+      for (const id of c.own) {
+        const m = N.get(id);
+        if (!m) continue;
+        cx += m.x;
+        cy += m.y;
+        k++;
+      }
+      if (!k) continue;
+      cx /= k;
+      cy /= k;
+      let rad = 0;
+      for (const id of c.own) {
+        const m = N.get(id);
+        if (m) rad = Math.max(rad, Math.hypot(m.x - cx, m.y - cy));
+      }
+      const keep = rad + CLUSTER_PAD;
+      for (const n of nodes) {
+        if (c.members.has(n.id)) continue;
+        const dx = n.x - cx,
+          dy = n.y - cy,
+          d = Math.hypot(dx, dy) || 0.01;
+        if (d >= keep) continue;
+        // Someone with no line of their own is held only by a gentle pull toward their home
+        // ground; at equal strength the two forces stand each other off and they stay put
+        // inside the cluster, which is how Graham-Hill came to sit in Ashton's.
+        const push = (keep - d) * CLUSTER_K * (mapDegree(n.id) ? 1 : 3);
+        n.fx += (dx / d) * push;
+        n.fy += (dy / d) * push;
       }
     }
     for (const n of nodes) {
