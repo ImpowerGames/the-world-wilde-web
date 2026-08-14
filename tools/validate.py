@@ -19,8 +19,10 @@ import calendar
 import json
 import re
 import sys
+import unicodedata
 from collections import Counter
 from datetime import date
+from difflib import SequenceMatcher
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -157,21 +159,36 @@ PLACES = {}
 PLACE_ID = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
 
 
-def places_used(rels, transcriptions):
-    """Every place id anything refers to, from all three fields that can hold one."""
+def places_used(*records):
+    """Every place id anything refers to.
+
+    Found by shape rather than by naming the fields that can hold one. A place id is written as
+    the `place` of an act, and acts sit on people, relationships, phases, sources and
+    transcriptions alike, so a list of paths has to be extended every time an act is added
+    anywhere - and the report this feeds says a place is a leftover from a rename, which is a
+    confident claim to make on the strength of a list that has fallen behind.
+
+    Pass whole records. Every transcription held is worth passing, not only the one the reader
+    is shown: a place named by the edition's reading of a letter we also hold a facsimile of is
+    still a place in use.
+    """
     used = set()
-    for r in rels:
-        used.update(v for v in r.get("places") or [] if isinstance(v, str))
-        for q in r.get("sources") or []:
-            for a in ACTS + ("occurred",):
-                v = (q.get(a) or {}).get("place")
-                if isinstance(v, str):
+
+    def walk(o):
+        if isinstance(o, dict):
+            for k, v in o.items():
+                if k == "place" and isinstance(v, str):
                     used.add(v)
-    for t in (transcriptions or {}).values():
-        for a in ACTS + ("occurred",):
-            v = (t.get(a) or {}).get("place")
-            if isinstance(v, str):
-                used.add(v)
+                elif k == "places" and isinstance(v, list):
+                    used.update(x for x in v if isinstance(x, str))
+                else:
+                    walk(v)
+        elif isinstance(o, list):
+            for v in o:
+                walk(v)
+
+    for group in records:
+        walk(group)
     return used
 
 
@@ -403,6 +420,13 @@ def load_transcriptions(errors, people=()):
     Both are loaded here because the reader wants one answer to "is there a full text of this
     document", and which store it came from is the build's problem, not the browser's.
 
+    A letter may be held in both stores, and the two are different objects: one is what Wilde
+    wrote, the other is what Holland and Hart-Davis printed. Where both exist the facsimile is
+    the answer, since it carries the marks the edition flattens and the readings the editors
+    conjectured. The edition's text stays on disk, and stays private, as the record of what the
+    volume prints. Returned with it is every transcription held, which is what the gazetteer
+    counts as a use.
+
     THE TWO STORES ARE SHAPED DIFFERENTLY, for reasons that belong to each. The facsimile store is
     one file per transcription, `<archive>/transcriptions/<item>-<image>.json`, so that two people
     transcribing different letters never touch the same file and an interrupted run leaves its
@@ -421,7 +445,7 @@ def load_transcriptions(errors, people=()):
             who = surnames.setdefault(n.split()[-1].lower(), [])
             if pp["name"] not in who:
                 who.append(pp["name"])
-    out = {}
+    out, held, seen = {}, [], {}
     files = (sorted(MANUSCRIPTS.glob("*/transcriptions/*.json")) +
              sorted(TRANSCRIPTIONS.glob("*/*.json")))
     for f in files:
@@ -491,9 +515,15 @@ def load_transcriptions(errors, people=()):
                                   f"as the person's own `name` - the rule `speaker` follows, and "
                                   f"what lets a correspondent be linked to their node")
             dated_acts = check_acts(t, at, errors)
-            if not dated_acts:
+            # `written: null` is the deliberate "nothing known" declaration: a letter the
+            # volume gives no date and no place for, its heading staying in the quote for a
+            # reader to see. An absent `written` is an omission, not a declaration, and still
+            # fails - the letter sorts nowhere and the reader cannot name it.
+            if not dated_acts and not ("written" in t and t["written"] is None):
                 errors.append(f"{at}: no structured date on any of {', '.join(ACTS)} - the "
-                              f"letter sorts nowhere and the reader cannot name it")
+                              f"letter sorts nowhere and the reader cannot name it. If the "
+                              f"volume truly gives no date and no place, write `written: null` "
+                              f"to declare the letter undated")
             for field in ("sender", "addressee"):
                 if not (t.get(field) or "").strip():
                     errors.append(f"{at}: {field} is required - the reader names the "
@@ -512,12 +542,20 @@ def load_transcriptions(errors, people=()):
                     if f.stem != want:
                         errors.append(f"{at}: filename does not match its own facsimile block - "
                                       f"expected {want}.json")
-            if lid in out:
-                errors.append(f"{at}: letter_id {lid!r} is transcribed twice, in {out[lid]['at']} "
-                              f"as well. One document, one transcription")
+            # A letter may be read once from the document and once from the edition. Two readings
+            # of the same letter from the same source are a duplicate: there is one text to find,
+            # and a second file holding it means one of them goes stale unnoticed.
+            if (lid, kind) in seen:
+                errors.append(f"{at}: letter_id {lid!r} is transcribed from the {kind} twice, in "
+                              f"{seen[(lid, kind)]} as well. A letter holds one reading of each: "
+                              f"ours from the document, the editors' from the volume")
                 continue
-            out[lid] = {**t, "transcribed_from": kind, "at": at}
-    return out
+            seen[(lid, kind)] = at
+            entry = {**t, "transcribed_from": kind, "at": at}
+            held.append(entry)
+            if kind == "facsimile" or lid not in out:
+                out[lid] = entry
+    return out, held
 
 
 def load_archives():
@@ -747,6 +785,78 @@ def check_manuscript(q, where, errors):
 
 
 LETTER_ID = re.compile(r"^[a-z0-9][a-z0-9._-]*/[A-Za-z0-9._:-]+(?:#\d+)?$")
+
+
+def _join_words(s):
+    """A quotation reduced to bare words, accents folded.
+
+    The transcriptions are OCR, and the editors' accents do not always survive it - Louys for
+    Louÿs. A citation is not quoting a different letter because a diaeresis went missing.
+    """
+    s = unicodedata.normalize("NFKD", s or "")
+    s = "".join(c for c in s if not unicodedata.combining(c))
+    return re.sub(r"[^a-z0-9 ]+", " ", s.lower()).split()
+
+
+def _run_present(run, body_str, body):
+    """Is this run of the citation present in the letter?"""
+    run = run[:14]
+    if " ".join(run) in body_str:
+        return True
+    # OCR wobble: the same words, one of them misread. Slid across the letter because a
+    # citation quotes from anywhere in it, not only the opening.
+    for start in range(0, max(1, len(body) - len(run) + 1)):
+        win = body[start:start + len(run) + 6]
+        sm = SequenceMatcher(None, win, run, autojunk=False)
+        if sum(n for _, _, n in sm.get_matching_blocks()) / len(run) >= 0.7:
+            return True
+    return False
+
+
+def check_letter_joins(rels, people, transcriptions, errors):
+    """Does the letter a citation names hold the words that citation quotes?
+
+    `letter_id` is the join between a quotation and the full text of the document it came from,
+    and its ordinal counts the letters that BEGIN on a folio. The volume prints things that begin
+    no letter - a postscript detached from its letter, a quotation inscribed on a verso, the tail
+    of a letter carried over the page turn - and filing one of those as a letter shifts every
+    later ordinal on that folio. The citation then resolves to a real letter that is not the one
+    it quotes, and the reader who opens it to check an excerpt is shown the wrong letter.
+
+    Nothing else catches this. The folio agrees, the id is well formed, the text is a genuine
+    letter. What does not agree is the words, so the words are what is checked.
+
+    A citation is an excerpt and marks its cuts with an ellipsis, so each unelided run is checked
+    separately: a citation of this letter has at least one run present in it.
+    """
+    bodies = {}
+    for lid, t in (transcriptions or {}).items():
+        b = _join_words(t.get("quote"))
+        bodies[lid] = (b, " ".join(b))
+    checked = 0
+    for owner, sources in ([(r, r.get("sources") or []) for r in rels] +
+                           [(p, ce.get("sources") or []) for p in people
+                            for ce in p.get("sexuality_sources") or []]):
+        for q in sources:
+            ids = ([q["letter_id"]] if q.get("letter_id") else []) + list(q.get("letter_ids") or [])
+            runs = [w for w in (_join_words(p) for p in re.split(r"…|\.\.\.", q.get("quote") or ""))
+                    if len(w) >= 6]
+            if not runs:
+                continue
+            for lid in ids:
+                if lid not in bodies:
+                    continue
+                checked += 1
+                body, body_str = bodies[lid]
+                if any(_run_present(run, body_str, body) for run in runs):
+                    continue
+                errors.append(
+                    f"{owner.get('id', '?')}: the quotation at {q.get('locator')} cites "
+                    f"{lid}, but none of its words are in the transcription of that letter, "
+                    f"which begins {' '.join(body[:9])!r}. Either the citation names the wrong "
+                    f"letter, or something that begins no letter has been transcribed as one "
+                    f"and shifted the ordinals on that folio")
+    return checked
 
 
 def check_letter_id(q, where, errors):
@@ -1845,8 +1955,11 @@ def main():
     errors, warnings = validate(works, people, rels, archives)
     # Loaded after the sources so its own errors join theirs and one run reports everything.
     scanned = check_control_characters(errors)
-    transcriptions = load_transcriptions(
+    transcriptions, held_transcriptions = load_transcriptions(
         errors, [p for p in people if "__load_error__" not in p])
+    joins = check_letter_joins([r for r in rels if "__load_error__" not in r],
+                               [p for p in people if "__load_error__" not in p],
+                               transcriptions, errors)
     # Paragraphing is not checked here. A quote set as one line may have lost the source's breaks
     # or may simply be one paragraph, and nothing in this repository can tell the two apart - it
     # takes the page. `research-tools/source-volume/restore_paragraphs.py` does that against the
@@ -1855,7 +1968,7 @@ def main():
     # A place nobody refers to. Not an error - one may be added just ahead of the records that
     # will use it - but an unused place is more often a rename that left its old spelling behind.
     # It runs here because a transcription's `from` is a use too, and those load after validate().
-    for pid in sorted(set(PLACES) - places_used(rels, transcriptions)):
+    for pid in sorted(set(PLACES) - places_used(rels, held_transcriptions, people)):
         warnings.append(f"places.json: nothing refers to {pid} - a leftover spelling after a "
                         f"rename, or a place added ahead of the records that will use it")
     dash, vq = dashboard([p for p in people if "__load_error__" not in p],
@@ -1979,9 +2092,14 @@ def main():
                     for i in a["items"].values())
         print(f"{pages} manuscript pages indexed in {len(arc_meta)} archive(s); "
               f"{fac_count} source(s) show a facsimile, {loc_count} name where the document is")
-    held = len(transcriptions)
-    from_ed = sum(1 for t in transcriptions.values() if t["transcribed_from"] == "printed")
+    held = len(held_transcriptions)
+    from_ed = sum(1 for t in held_transcriptions if t["transcribed_from"] == "printed")
+    both = len(held_transcriptions) - len(transcriptions)
+    if both:
+        print(f"{both} letter(s) are held twice, ours from the document and the editors' from the "
+              f"volume; the reader is given the document")
     print(f"{scanned} text files scanned for stray control characters")
+    print(f"{joins} quotations checked against the full text of the letter they cite")
     waiting = sorted(k for k, t in transcriptions.items()
                      if t["transcribed_from"] == "printed" and k not in cited)
     if waiting:

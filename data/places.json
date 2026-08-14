@@ -19,8 +19,23 @@
     "city": "London",
     "country": "England"
   },
+  "116-park-street": {
+    "street": "116 Park Street",
+    "city": "London",
+    "country": "England"
+  },
+  "1267-broadway": {
+    "street": "1267 Broadway",
+    "city": "New York",
+    "country": "United States"
+  },
   "13-little-college-street": {
     "street": "13 Little College Street",
+    "city": "London",
+    "country": "England"
+  },
+  "13-pont-street": {
+    "street": "13 Pont Street",
     "city": "London",
     "country": "England"
   },
@@ -39,13 +54,64 @@
     "city": "London",
     "country": "England"
   },
+  "160-new-bond-street": {
+    "street": "160 New Bond Street",
+    "city": "London",
+    "country": "England"
+  },
+  "18-pont-street": {
+    "street": "18 Pont Street",
+    "city": "London",
+    "country": "England"
+  },
+  "2-courtfield-gardens": {
+    "street": "2 Courtfield Gardens",
+    "city": "London",
+    "country": "England"
+  },
   "29-boulevard-des-capucines": {
     "street": "29 boulevard des Capucines",
     "city": "Paris",
     "country": "France"
   },
+  "31-santa-lucia": {
+    "street": "31 Santa Lucia",
+    "city": "Naples",
+    "country": "Italy"
+  },
+  "34-high-street-oxford": {
+    "street": "34 High Street",
+    "city": "Oxford",
+    "country": "England"
+  },
   "4-albert-street": {
     "street": "4 Albert Street",
+    "city": "London",
+    "country": "England"
+  },
+  "46-west-28th-street": {
+    "street": "46 West 28th Street",
+    "city": "New York",
+    "country": "United States"
+  },
+  "48-west-11th-street": {
+    "street": "48 West 11th Street",
+    "city": "New York",
+    "country": "United States"
+  },
+  "5-esplanade-worthing": {
+    "venue": "The Haven",
+    "street": "5 Esplanade",
+    "city": "Worthing",
+    "country": "England"
+  },
+  "51-kaiser-friedrichs-promenade": {
+    "street": "51 Kaiser-Friedrichs Promenade",
+    "city": "Bad Homburg",
+    "country": "Germany"
+  },
+  "7-great-college-street": {
+    "street": "7 Great College Street",
     "city": "London",
     "country": "England"
   },
@@ -54,8 +120,29 @@
     "city": "London",
     "country": "England"
   },
+  "85-clinton-place": {
+    "street": "85 Clinton Place",
+    "city": "New York",
+    "country": "United States"
+  },
+  "85-jermyn-street": {
+    "street": "85 Jermyn Street",
+    "city": "London",
+    "country": "England"
+  },
+  "9-charles-street": {
+    "street": "9 Charles Street",
+    "city": "London",
+    "country": "England"
+  },
   "adelaide-road": {
     "street": "Adelaide Road",
+    "city": "London",
+    "country": "England"
+  },
+  "albemarle-chambers": {
+    "venue": "Albemarle Chambers",
+    "street": "Piccadilly",
     "city": "London",
     "country": "England"
   },
@@ -64,9 +151,34 @@
     "city": "London",
     "country": "England"
   },
+  "albergo-della-francia-milan": {
+    "venue": "Albergo della Francia",
+    "city": "Milan",
+    "country": "Italy"
+  },
+  "albergo-di-firenze": {
+    "venue": "Albergo di Firenze",
+    "city": "Genoa",
+    "country": "Italy"
+  },
   "aldeburgh": {
     "city": "Aldeburgh",
     "country": "England"
+  },
+  "arlington-hotel-washington": {
+    "venue": "Arlington Hotel",
+    "city": "Washington",
+    "country": "United States"
+  },
+  "athenaeum-club": {
+    "venue": "Athenaeum Club",
+    "city": "London",
+    "country": "England"
+  },
+  "augusta-georgia": {
+    "city": "Augusta",
+    "region": "Georgia",
+    "country": "United States"
   },
   "aurillac": {
     "city": "Aurillac",
@@ -81,10 +193,22 @@
     "city": "Bagnoles-de-l'Orne",
     "country": "France"
   },
+  "bamff-alyth": {
+    "venue": "Bamff",
+    "city": "Alyth",
+    "region": "Perthshire",
+    "country": "Scotland"
+  },
   "beaconsfield-milehouse": {
     "venue": "Beaconsfield",
     "street": "Milehouse",
     "city": "Plymouth",
+    "country": "England"
+  },
+  "beaufort-club": {
+    "venue": "Beaufort Club",
+    "street": "32 Dover Street",
+    "city": "London",
     "country": "England"
   },
   "berneval-sur-mer": {
@@ -93,6 +217,11 @@
   },
   "bethnal-green": {
     "city": "Bethnal Green",
+    "country": "England"
+  },
+  "bingham": {
+    "city": "Bingham",
+    "region": "Nottinghamshire",
     "country": "England"
   },
   "bingham-rectory": {
@@ -104,6 +233,11 @@
   "birmingham": {
     "city": "Birmingham",
     "country": "England"
+  },
+  "bloomington": {
+    "city": "Bloomington",
+    "region": "Illinois",
+    "country": "United States"
   },
   "bodley-head": {
     "venue": "The Bodley Head",
@@ -127,9 +261,34 @@
     "city": "Brighton",
     "country": "England"
   },
+  "cadogan-hotel": {
+    "venue": "Cadogan Hotel",
+    "city": "London",
+    "country": "England"
+  },
   "cafe-d-egypte": {
     "venue": "Café d'Egypte",
     "city": "Paris",
+    "country": "France"
+  },
+  "cafe-de-l-univers": {
+    "venue": "Café de l'Univers",
+    "city": "Paris",
+    "country": "France"
+  },
+  "cafe-des-tribunaux": {
+    "venue": "Café des Tribunaux",
+    "city": "Dieppe",
+    "country": "France"
+  },
+  "cafe-du-nord-geneva": {
+    "venue": "Café du Nord",
+    "city": "Geneva",
+    "country": "Switzerland"
+  },
+  "cafe-suisse-dieppe": {
+    "venue": "Café Suisse",
+    "city": "Dieppe",
     "country": "France"
   },
   "cambridge": {
@@ -145,10 +304,20 @@
     "city": "Cannes",
     "country": "France"
   },
+  "castle-hotel-windsor": {
+    "venue": "Castle Hotel",
+    "city": "Windsor",
+    "country": "England"
+  },
   "central-station-hotel": {
     "venue": "Central Station Hotel",
     "city": "Glasgow",
     "country": "Scotland"
+  },
+  "chalet-bourgeat": {
+    "venue": "Chalet Bourgeat",
+    "city": "Berneval-sur-Mer",
+    "country": "France"
   },
   "chelsea": {
     "city": "Chelsea",
@@ -157,6 +326,36 @@
   "chicago": {
     "city": "Chicago",
     "country": "United States"
+  },
+  "cincinnati": {
+    "city": "Cincinnati",
+    "country": "United States"
+  },
+  "clumber": {
+    "venue": "Clumber",
+    "city": "Worksop",
+    "region": "Nottinghamshire",
+    "country": "England"
+  },
+  "columbus-ohio": {
+    "city": "Columbus",
+    "region": "Ohio",
+    "country": "United States"
+  },
+  "cooks-office-rome": {
+    "venue": "Cook & Son",
+    "city": "Rome",
+    "country": "Italy"
+  },
+  "corfu": {
+    "city": "Corfu",
+    "country": "Greece"
+  },
+  "county-hotel-ulverston": {
+    "venue": "County Hotel",
+    "city": "Ulverston",
+    "region": "Lancashire",
+    "country": "England"
   },
   "dayton": {
     "city": "Dayton",
@@ -197,6 +396,11 @@
     "city": "Frankfurt",
     "country": "Germany"
   },
+  "fremont-nebraska": {
+    "city": "Fremont",
+    "region": "Nebraska",
+    "country": "United States"
+  },
   "geneva": {
     "city": "Geneva",
     "country": "Switzerland"
@@ -210,8 +414,70 @@
     "region": "Canton Vaud",
     "country": "Switzerland"
   },
+  "grand-cafe": {
+    "venue": "Grand Café",
+    "street": "14 boulevard des Capucines",
+    "city": "Paris",
+    "country": "France"
+  },
+  "grand-cafe-glacier": {
+    "venue": "Grand Café Glacier",
+    "city": "Nice",
+    "country": "France"
+  },
+  "grand-hotel-de-france": {
+    "venue": "Grand Hôtel de France",
+    "city": "Rouen",
+    "country": "France"
+  },
+  "grand-hotel-paris": {
+    "venue": "Grand Hôtel",
+    "street": "boulevard des Capucines",
+    "city": "Paris",
+    "country": "France"
+  },
+  "grand-pacific-hotel": {
+    "venue": "Grand Pacific Hotel",
+    "city": "Chicago",
+    "country": "United States"
+  },
+  "great-western-hotel-birmingham": {
+    "venue": "Great Western Hotel",
+    "city": "Birmingham",
+    "country": "England"
+  },
+  "griggsville": {
+    "city": "Griggsville",
+    "region": "Illinois",
+    "country": "United States"
+  },
+  "grove-farm-felbrigg": {
+    "venue": "Grove Farm",
+    "city": "Cromer",
+    "region": "Norfolk",
+    "country": "England"
+  },
+  "halifax": {
+    "city": "Halifax",
+    "region": "Nova Scotia",
+    "country": "Canada"
+  },
+  "harkers-york-hotel": {
+    "venue": "Harker's York Hotel",
+    "city": "York",
+    "country": "England"
+  },
+  "havre": {
+    "city": "Havre",
+    "country": "France"
+  },
   "haymarket-theatre": {
     "venue": "Haymarket Theatre",
+    "city": "London",
+    "country": "England"
+  },
+  "holborn-viaduct-hotel": {
+    "venue": "Holborn Viaduct Hotel",
     "city": "London",
     "country": "England"
   },
@@ -219,13 +485,34 @@
     "city": "Holloway",
     "country": "England"
   },
+  "homburg": {
+    "city": "Homburg",
+    "country": "Germany"
+  },
   "hotel-albemarle": {
     "venue": "Hotel Albemarle",
     "city": "London",
     "country": "England"
   },
+  "hotel-avondale": {
+    "venue": "Hotel Avondale",
+    "street": "Piccadilly",
+    "city": "London",
+    "country": "England"
+  },
+  "hotel-continental-paris": {
+    "venue": "Hôtel Continental",
+    "city": "Paris",
+    "country": "France"
+  },
   "hotel-d-alsace": {
     "venue": "Hôtel d'Alsace",
+    "city": "Paris",
+    "country": "France"
+  },
+  "hotel-de-l-athenee": {
+    "venue": "Hôtel de l'Athénée",
+    "street": "15 rue Scribe",
     "city": "Paris",
     "country": "France"
   },
@@ -235,9 +522,36 @@
     "region": "Seine-et-Oise",
     "country": "France"
   },
+  "hotel-de-l-europe-algiers": {
+    "venue": "Hôtel de l'Europe",
+    "city": "Algiers",
+    "country": "Algeria"
+  },
+  "hotel-de-la-neva": {
+    "venue": "Hôtel de la Néva",
+    "street": "rue Montigny",
+    "city": "Paris",
+    "country": "France"
+  },
+  "hotel-de-la-plage": {
+    "venue": "Hôtel de la Plage",
+    "city": "Berneval-sur-Mer",
+    "country": "France"
+  },
   "hotel-de-nice": {
     "venue": "Hôtel de Nice",
     "city": "Paris",
+    "country": "France"
+  },
+  "hotel-des-alpes-maritimes": {
+    "venue": "Hôtel des Alpes-Maritimes",
+    "street": "rue d'Angleterre",
+    "city": "Nice",
+    "country": "France"
+  },
+  "hotel-des-bains-napoule": {
+    "venue": "Hôtel des Bains",
+    "city": "La Napoule",
     "country": "France"
   },
   "hotel-des-deux-mondes": {
@@ -252,9 +566,46 @@
     "city": "Paris",
     "country": "France"
   },
+  "hotel-metropole-brighton": {
+    "venue": "Hotel Metropole",
+    "city": "Brighton",
+    "country": "England"
+  },
+  "hotel-normandie": {
+    "venue": "Hôtel Normandie",
+    "street": "rue de l'Echelle",
+    "city": "Paris",
+    "country": "France"
+  },
+  "hotel-royal-des-etrangers": {
+    "venue": "Hôtel Royal des Étrangers",
+    "city": "Naples",
+    "country": "Italy"
+  },
+  "hotel-sandwich": {
+    "venue": "Hôtel Sandwich",
+    "city": "Dieppe",
+    "country": "France"
+  },
+  "hotel-st-george-corfu": {
+    "venue": "Hotel St George",
+    "city": "Corfu",
+    "country": "Greece"
+  },
   "hotel-terminus": {
     "venue": "Hôtel Terminus",
     "city": "Nice",
+    "country": "France"
+  },
+  "hotel-terminus-cosmopolitain": {
+    "venue": "Hôtel Terminus & Cosmopolitain",
+    "city": "Monte Carlo",
+    "country": "Monaco"
+  },
+  "hotel-voltaire": {
+    "venue": "Hôtel Voltaire",
+    "street": "Quai Voltaire",
+    "city": "Paris",
     "country": "France"
   },
   "huntington": {
@@ -267,9 +618,24 @@
     "region": "Connemara",
     "country": "Ireland"
   },
+  "in-bed-paris": {
+    "venue": "In Bed",
+    "city": "Paris",
+    "country": "France"
+  },
   "jersey": {
     "city": "Jersey",
     "country": "Channel Islands"
+  },
+  "kalisaya": {
+    "venue": "Kalisaya",
+    "city": "Paris",
+    "country": "France"
+  },
+  "kansas-city": {
+    "city": "Kansas City",
+    "region": "Missouri",
+    "country": "United States"
   },
   "keats-house": {
     "venue": "Keats House",
@@ -294,8 +660,35 @@
     "city": "Kreuznach",
     "country": "Germany"
   },
+  "l-idee-le-perreux": {
+    "venue": "L'Idée",
+    "city": "Le Perreux",
+    "region": "Nogent-sur-Marne",
+    "country": "France"
+  },
+  "l-ile-d-amour": {
+    "venue": "L'Île d'Amour",
+    "city": "Chennevières-sur-Marne",
+    "country": "France"
+  },
+  "la-belle-sauvage": {
+    "venue": "La Belle Sauvage",
+    "street": "Ludgate Hill",
+    "city": "London",
+    "country": "England"
+  },
+  "la-maison-rouge": {
+    "venue": "La Maison Rouge",
+    "city": "La Roche-Guyon",
+    "region": "Seine-et-Oise",
+    "country": "France"
+  },
   "la-napoule": {
     "city": "La Napoule",
+    "country": "France"
+  },
+  "la-varenne-st-hilaire": {
+    "city": "La Varenne-St-Hilaire",
     "country": "France"
   },
   "lakeport": {
@@ -306,6 +699,10 @@
   "lancing": {
     "city": "Lancing",
     "country": "England"
+  },
+  "lausanne": {
+    "city": "Lausanne",
+    "country": "Switzerland"
   },
   "leamington-hastings": {
     "city": "Leamington Hastings",
@@ -329,13 +726,33 @@
     "city": "London",
     "country": "England"
   },
+  "magdalen-college": {
+    "venue": "Magdalen College",
+    "city": "Oxford",
+    "country": "England"
+  },
   "menton": {
     "city": "Menton",
     "country": "France"
   },
+  "metropolitan-hotel-st-paul": {
+    "venue": "Metropolitan Hotel",
+    "city": "St Paul",
+    "region": "Minnesota",
+    "country": "United States"
+  },
+  "milan": {
+    "city": "Milan",
+    "country": "Italy"
+  },
   "monte-carlo": {
     "city": "Monte Carlo",
     "country": "Monaco"
+  },
+  "montreal": {
+    "city": "Montreal",
+    "region": "Quebec",
+    "country": "Canada"
   },
   "moytura-house": {
     "venue": "Moytura House",
@@ -358,6 +775,28 @@
     "city": "London",
     "country": "England"
   },
+  "new-york": {
+    "city": "New York",
+    "country": "United States"
+  },
+  "newhaven": {
+    "city": "Newhaven",
+    "country": "England"
+  },
+  "newlyns-family-hotel": {
+    "venue": "Newlyn's Family Hotel",
+    "city": "Bournemouth",
+    "country": "England"
+  },
+  "newport-rhode-island": {
+    "city": "Newport",
+    "region": "Rhode Island",
+    "country": "United States"
+  },
+  "niagara": {
+    "city": "Niagara Falls",
+    "country": "United States"
+  },
   "nice": {
     "city": "Nice",
     "country": "France"
@@ -366,13 +805,43 @@
     "city": "Nogent-sur-Marne",
     "country": "France"
   },
+  "ocean-house-newport": {
+    "venue": "Ocean House",
+    "city": "Newport",
+    "region": "Rhode Island",
+    "country": "United States"
+  },
+  "office-of-the-yellow-book": {
+    "venue": "Office of the Yellow Book",
+    "city": "London",
+    "country": "England"
+  },
+  "omaha": {
+    "city": "Omaha",
+    "region": "Nebraska",
+    "country": "United States"
+  },
+  "oneill-house": {
+    "venue": "O'Neill House",
+    "city": "Woodstock",
+    "region": "Ontario",
+    "country": "Canada"
+  },
   "osnaburgh-street": {
     "street": "Osnaburgh Street",
     "city": "London",
     "country": "England"
   },
+  "ottawa": {
+    "city": "Ottawa",
+    "country": "Canada"
+  },
   "oxford": {
     "city": "Oxford",
+    "country": "England"
+  },
+  "paddington": {
+    "city": "Paddington",
     "country": "England"
   },
   "palermo": {
@@ -383,13 +852,31 @@
     "city": "Paris",
     "country": "France"
   },
+  "park-avenue-hotel": {
+    "venue": "Park Avenue Hotel",
+    "city": "New York",
+    "country": "United States"
+  },
   "pavillon-d-armenonville": {
     "venue": "Pavillon d'Armenonville",
     "city": "Paris",
     "country": "France"
   },
+  "philadelphia": {
+    "city": "Philadelphia",
+    "country": "United States"
+  },
+  "piccadilly": {
+    "street": "Piccadilly",
+    "city": "London",
+    "country": "England"
+  },
   "portofino": {
     "city": "Portofino",
+    "country": "Italy"
+  },
+  "posilippo": {
+    "city": "Posilippo",
     "country": "Italy"
   },
   "powick": {
@@ -397,8 +884,32 @@
     "region": "Worcestershire",
     "country": "England"
   },
+  "prospect-house-niagara": {
+    "venue": "Prospect House",
+    "city": "Niagara Falls",
+    "country": "Canada"
+  },
+  "queens-hotel-eastbourne": {
+    "venue": "Queens Hotel",
+    "city": "Eastbourne",
+    "country": "England"
+  },
+  "rapallo": {
+    "city": "Rapallo",
+    "country": "Italy"
+  },
+  "raven-hotel": {
+    "venue": "Raven Hotel",
+    "city": "Shrewsbury",
+    "country": "England"
+  },
   "reading": {
     "city": "Reading",
+    "country": "England"
+  },
+  "regent-street": {
+    "street": "Regent Street",
+    "city": "London",
     "country": "England"
   },
   "richmond": {
@@ -408,6 +919,11 @@
   "rome": {
     "city": "Rome",
     "country": "Italy"
+  },
+  "royal-albion-hotel": {
+    "venue": "Royal Albion Hotel",
+    "city": "Brighton",
+    "country": "England"
   },
   "royal-bath-hotel": {
     "venue": "Royal Bath Hotel",
@@ -428,8 +944,22 @@
     "city": "Saint Saviour",
     "country": "Jersey"
   },
+  "salt-lake-city": {
+    "city": "Salt Lake City",
+    "region": "Utah",
+    "country": "United States"
+  },
+  "san-francisco": {
+    "city": "San Francisco",
+    "country": "United States"
+  },
   "san-fruttuoso": {
     "city": "San Fruttuoso",
+    "country": "Italy"
+  },
+  "santa-margherita": {
+    "city": "Santa Margherita",
+    "region": "Ligure",
     "country": "Italy"
   },
   "savoy-hotel": {
@@ -437,10 +967,30 @@
     "city": "London",
     "country": "England"
   },
+  "savoy-theatre": {
+    "venue": "Savoy Theatre",
+    "city": "London",
+    "country": "England"
+  },
+  "sioux-city": {
+    "city": "Sioux City",
+    "region": "Iowa",
+    "country": "United States"
+  },
   "sleaford": {
     "city": "Sleaford",
     "region": "Lincolnshire",
     "country": "England"
+  },
+  "sloane-square": {
+    "city": "Sloane Square",
+    "country": "England"
+  },
+  "springwood-park": {
+    "venue": "Springwood Park",
+    "city": "Kelso",
+    "region": "Roxburghshire",
+    "country": "Scotland"
   },
   "st-jamess-street": {
     "street": "St James's Street",
@@ -452,9 +1002,24 @@
     "city": "London",
     "country": "England"
   },
+  "st-joseph-missouri": {
+    "city": "St Joseph",
+    "region": "Missouri",
+    "country": "United States"
+  },
+  "st-louis": {
+    "city": "St Louis",
+    "region": "Missouri",
+    "country": "United States"
+  },
   "st-stephens-club": {
     "venue": "St Stephen's Club",
     "city": "London",
+    "country": "England"
+  },
+  "station-hotel-leeds": {
+    "venue": "Station Hotel",
+    "city": "Leeds",
     "country": "England"
   },
   "station-hotel-newcastle": {
@@ -462,20 +1027,75 @@
     "city": "Newcastle upon Tyne",
     "country": "England"
   },
+  "taverne-f-pousset": {
+    "venue": "Taverne F. Pousset",
+    "street": "14 boulevard des Italiens",
+    "city": "Paris",
+    "country": "France"
+  },
   "the-albany": {
     "venue": "The Albany",
     "city": "London",
     "country": "England"
+  },
+  "the-balmoral": {
+    "venue": "The Balmoral",
+    "city": "Edinburgh",
+    "country": "Scotland"
   },
   "the-cottage-goring": {
     "venue": "The Cottage",
     "city": "Goring-on-Thames",
     "country": "England"
   },
+  "the-palace-hotel": {
+    "venue": "The Palace Hotel",
+    "city": "San Francisco",
+    "country": "United States"
+  },
+  "the-pilot": {
+    "venue": "The Pilot",
+    "street": "597 Washington Street",
+    "city": "Boston",
+    "country": "United States"
+  },
+  "the-reform-club": {
+    "venue": "The Reform Club",
+    "city": "London",
+    "country": "England"
+  },
+  "the-royal-hotel-bristol": {
+    "venue": "The Royal Hotel",
+    "city": "Bristol",
+    "country": "England"
+  },
   "the-vicarage-west-ashby": {
     "venue": "The Vicarage",
     "city": "West Ashby",
     "country": "England"
+  },
+  "the-windsor-topeka": {
+    "venue": "The Windsor",
+    "city": "Topeka",
+    "region": "Kansas",
+    "country": "United States"
+  },
+  "the-worlds-hotel-st-joseph": {
+    "venue": "The World's Hotel",
+    "city": "St Joseph",
+    "region": "Missouri",
+    "country": "United States"
+  },
+  "thos-cook-and-son": {
+    "venue": "Thos Cook & Son",
+    "street": "33 Piccadilly",
+    "city": "London",
+    "country": "England"
+  },
+  "toronto": {
+    "city": "Toronto",
+    "region": "Ontario",
+    "country": "Canada"
   },
   "torquay": {
     "city": "Torquay",
@@ -489,13 +1109,42 @@
     "city": "Trouville",
     "country": "France"
   },
+  "us": {
+    "country": "United States"
+  },
+  "vendome-hotel": {
+    "venue": "Vendome Hotel",
+    "city": "Boston",
+    "country": "United States"
+  },
   "venice": {
     "city": "Venice",
     "country": "Italy"
   },
+  "villa-giudice": {
+    "venue": "Villa Giudice",
+    "city": "Posilippo",
+    "country": "Italy"
+  },
+  "washington": {
+    "city": "Washington",
+    "country": "United States"
+  },
   "westcott-barton": {
     "city": "Westcott Barton",
     "country": "England"
+  },
+  "windsor-hotel-montreal": {
+    "venue": "Windsor Hotel",
+    "city": "Montreal",
+    "region": "Quebec",
+    "country": "Canada"
+  },
+  "withnell-house": {
+    "venue": "Withnell House",
+    "city": "Omaha",
+    "region": "Nebraska",
+    "country": "United States"
   },
   "worthing": {
     "city": "Worthing",

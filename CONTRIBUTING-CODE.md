@@ -295,6 +295,8 @@ A citation of `letters-2000` + `p. 1198` does not say which letter it means. So 
 
 Printed form wins where both apply, because it identifies the letter for the ~280 records that cite the volume without holding a scan.
 
+**The folio is the printed page number where the letter begins, and the number after `#` is the number of the letter amongst the letters on that page.**
+
 **`archive.page_id_field` records an archive's page identifier**:
 
 | Archive        | `page_id_field` | Example value                     |
@@ -367,6 +369,8 @@ A transcription file should be included for each letter:
 ```
 
 **Transcribe the whole letter, salutation to signature.**
+
+**A letter may be transcribed twice: once from the document, once from a printed edition.** They are different objects — what Wilde wrote, and what an editor printed — and `transcribed_from` says which you read. They share a `letter_id`, since that names the letter rather than the reading of it, and the reader is shown the one taken from the document, which is the only kind that settles emphasis. Two transcriptions of the same letter from the same source are a duplicate and fail the build.
 
 **Keep the paragraphing.** A letter's paragraph breaks are often important to their meaning. Separate paragraphs with a blank line (`\n\n`) inside the `quote` string, and give the signature its own paragraph. Wilde ends a letter to Harry Marillier _"You are certainly not to call me Mr Wilde. What should you call me but"_ and then, on a line of its own, _"Oscar"_ — the sentence finishes in the signature. If you run them together into one line, the joke disappears.
 
